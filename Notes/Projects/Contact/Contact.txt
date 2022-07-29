@@ -1,0 +1,7 @@
+OKOKOK
+
+So I might make this online game. Might also do a quick website I know I had a super duper wooper minimal html one at Caltech hosted for free on their servers and it looked OK had an image file of a .png of that Jean Michel Basquiat painting with the doggy dawg dog and Orange was a prominent colour.
+
+Anyways again recall the pro bono design work of the Google User Experience Interface Carnegie Mellon University Scrabble champion Conrad Bassett Bouchard on the CoCo Collins Coalition Scrabble web log. So I might think about colour palettes, widths, hexes, how precisely which typeface will render and appear. Maybe all caps monospace serif. Think a Black on White and White on Black mode options are Good frankly. Bold would look better. Restrict to singular nouns from the Collins Scrabble Words list perhaps.
+
+I suppose that the mechanism will be like one of the offense throws down their flavour text in public and at that point others on offense are obviously locked from pinging submitting their flavour texts but maybe could queue up their own in the background with each player permitted a 1 max in that queue but in any case then say there is a 20s timer on the clue and frankly I think just wait until 1 on offense click a "CONTACT" button with a submission and once 1 has clicked a "CONTACT" button with a submission literally throw on another 3000ms or 5000ms prior to revealing the submissions and match or getting defended.

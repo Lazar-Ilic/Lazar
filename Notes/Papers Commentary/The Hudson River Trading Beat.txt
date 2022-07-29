@@ -1,0 +1,466 @@
+	In Trading, Machine Learning Benchmarks Don’t Track What You Care About
+
+Simplicity, reproducibility, and generality.
+
+Simple random search provides a competitive approach to reinforcement learning
+
+Horia Mania, Aurelia Guy, Benjamin Recht
+
+Yeah funny name of course Mania... OK paper I think on my casualish skim here.
+
+Deep Reinforcement Learning At The Edge Of The Statistical Precipice
+
+Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville, Marc G. Bellemare
+
+Descending Through A Crowded Valley - Benchmarking Deep Learning Optimisers
+
+Robin M. Schmidt, Frank Schneider, Philipp Hennig
+
+Adaptive Momentum: A Method for Stochastic Optimisation
+
+Diederik P. Kingma, Jimmy Ba
+
+Conclusion
+
+Academic research is a critical resource for us in improving our trading. Reading the latest academic research inspires us, even when it isn’t directly applicable. We must recognize that the incentives in academic research may not be aligned with the incentives of practitioners, and so we must bring a healthy level of skepticism when considering applying this research to our problems. But part of becoming better researchers and technologists means remaining curious, engaged, and inspired by others’ work.
+
+	Scalable Ethereum Reads
+
+OK Decentralised Finance Intern role at Hudson River Trading sounds relatively interesting. As much as 10 reads per second. Perform research based upon on-chain data need a simple way to make the reading speed more easily scalable.
+
+How Do People Read From Ethereum
+
+Currently, if a developer wants to read on-chain data, they would likely use a package such as web3.py or etheres.js to make HTTP requests to an endpoint.
+
+from web3 import Web3
+w3 = Web3(Web3.HTTPProvider(ENDPOINT_URL))
+w3.eth.get_block("latest")
+
+What is the problem? Reading From Ethereum Is Slow
+
+contract = w3.eth.contract(USDC_ADDRESS, abi=ERC20_ABI)
+for i in range(0,1000):
+    contract.functions.balanceOf(USER_ADDRESS).call()
+
+Collecting data, interns, yadda, simply increase the number of clients making queries. Increase the number of servers.
+
+Read-Only Ethereum
+
+OK Application Program Interface requests.
+
+First Attempt
+
+func (h *handler) handleMsg(msg *jsonrpcMessage) {
+h.StartCallProc(func(cp *CallProc) {
+ stream := jsoniter.NewStream(jsoniter.ConfigDefault, nil, 4096)
+ answer := h.HandleCallMsg(cp, msg, stream)
+})
+}
+
+Python Integration
+
+OKOKOK some Go function in a Python script.
+
+go build -buildmode c-shared -o <c-lib>.so <go-package>
+
+class HTTPProvider(JSONBaseProvider):
+def make_request(self, method: RPCEndpoint, params: Any) -> RPCResponse:
+    request_data = self.encode_rpc_request(method, params)
+    raw_response = make_post_request(
+        self.endpoint_uri,
+        request_data,
+        **self.get_request_kwargs()
+    )
+    response = self.decode_rpc_response(raw_response)
+    return response
+
+{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest", false],"id":1}
+
+def make_request(self, method: RPCEndpoint, params: Any) -> RPCResponse:
+    request_data = self.encode_rpc_request(method, params)
+    raw_response = self.call_go_package(request_data)
+    response = self.decode_rpc_response(raw_response)
+    return response
+
+Switching To Geth
+
+EROR[01-27|13:20:01.359] Erigon startup                           err="mdbx_env_open: block device required, label: chain data
+
+MDBX_EREMOTE = ENOTBLK
+
+OKOKOK so this firm is doing some public open source whatever yadda yadda and you can read about all of this code in their Go-Ethereum codebase so ahem errm everyone can benefit from these new features. So it is never always quite clear to me which sorts of things ought to be kept private and what public at firms and like if individuals at firms are personally financially incentivised somewhat to push Machine Learning papers on to the ArXiV in public to increase their labour market valuation or this ideation is kept internal and somehow communicated along lines of communication chains of command between firms when someone just asks for a rec and leaves to transfer out to another firm but OKOKOK I have seen the contracts structures for new hires for a variety of these proprietary trading firms so that is Good.
+
+https://github.com/ethereum/go-ethereum/pull/24445
+
+	How Hudson River Trading Thinks About Data
+
+The simplest mental model of an algorithm is one of a Black box that takes in data as input and outputs trading decisions. If the data they ingest is fundamentally flawed, yikeserino, they are destined to fail. Garbage in, garbage out. Hopefully this applies to the firm and they take me in and I am not garbage... yikeserino.
+
+What Do We Want From Data?
+
+Objective yardstick like are we making the money yeah yeah yeah. Valuable datasets, not waste our times on useless ones righto. Apply heuristics wow simple algorithms to make initial judgements about how datasets will fare when scrutinised further OK but maybe the donk can take 14 hours trawling random other ones and produce something random useful or spend more time on the codebase or whatever...
+
+Relevance
+
+Right spurious relations OKOKOK refine their mental models right like Rationality 101 like they can really viscerally imagine stuff out there and also really comprehend causal structure like picking up on Statistics 101 jokes just like me or knowing that the Summer causes A and B then A predicting B eh.
+
+Uniqueness
+
+The Price To Earnings Ratio. Right right right. Better go mem like a poo ton of these sorts of widely reported metrics just to know about all of them. It has already been "priced in" right right. Novel or complex OK. Bring this type of phrase up in the Interview will sound Good.
+
+Avoiding Lookahead
+
+Market Moving News Articles. OK. Tagged articles right right.
+
+Sample Size And Noise
+
+OKOKOK
+
+A high fidelity random sample one day before the Bureau Of Labour Statistics. OKOKOK. Off the dome envelope simple Statistics 101 maths and then conclude whether our trading strategy will benefit from the additional predictiveness we might expect here and the cost of the data with some underlying model for the sensitivity of asset prices to the unemployment rate.
+
+Where Do We Get Data From?
+
+Market Data
+
+Righto market data. Stock prices reflecting relationships and just how quickly people can compute things about the inter relationships with what precise hardware where and when things are released and so on and so on the living breathing electronic modern world of machines.
+
+Alternative Data
+
+Righto. Huge online data. Tons of measurements captures yeah yeah. Some private sort of data righto. So they are supposedly creative and surprising and this is why we need noodle noggins like mine to go think of more ridiculous ones and improve market efficiency for real for real so I can drop bombs and get the firm to go buy some data somewhere and boom we are booming. The rich get richer and the Gold gets errm Golder.
+
+Data Transformation
+
+Right. Cent that is a one hundreth of a dollar discretisations.
+
+Parting Thoughts
+
+OKOKOK yeah yeah yeah these types of problems aboslutely sound fascinating, fun, and interesting to me yup yup yup I will be sure to ping them As Soon As Possible and crush their C++ coding round with anal precision never before seen it will be the unique flawless perfect implementation.
+
+	How Hudson River Trading Approached Remote Work During The Pandemic
+
+Anathema right right but they Make It Better OK Better Is Better and We Can Do Better righto. Creative solutions. Well OK a few hiccups but they did the transition and now maybe I can demand 100% Remote from a quiet odourless warm woom in Princeton or Long Island perhaps. Well OK they can chit chat with wonky donk donk backgrounds so one of them likes film production maybe some Green screen of cash rules everything around me cream I am racist I only like Green faces and I guess Carnegie Mellon University uh errm BS Computer Science major Claire Lai who knows something about like User Interfaces and User Experience... now I am told that school is Good at that and has Good public writing on those topics now maybe she has a psycho inside of her noodle for she chooses the Amerikan Psycho meme background which is humorous.
+
+[As an aside here I know people in this domain who could tell me that they tanked like 2 hours on maths contests and mind sports and it was not their thing or talent and then they got really fascinated and deeply interested in the serious competitive domain of UI UX which is itself the serious study of manipulating humans via monitours etc. and I have the utmost respek for hard working people doing those sorts of tasks and thinking hard about those sorts of interactions as it is yet another key step in the whole throughput machinio. No I mean I really do mean this I can look up each and every person but sculpting films and sculpting UI UX is a very manipulative manus dei sort of a domain I mean puppet master tier. Seriously sociopathic and when Visual Studio Code makes a push and now brackets are coloured properly in pairs suddenly boom global productivity goes up and rate of progress exponential growth world wide is booming. Make it more clear, precise, technical like for all I know that push alone from some UI UX person right there estimatably quantitatively annihilated my entire life impact in terms of global utils and hedons and they are doing epic work over there at the Microsoft firm. I have the utmost of respek for those people who make those keyboard button pushes happen and contribute in to those codebases. And actually quite a few mathematicians have never really engaged much in messing around with other people's noodles for fun. The good example here would be like re the ACX thing you can totally pitch to a kiddo the notion that 2nd kids do better than 1st borns and say the parents learned parenting better on the 1st one... and th kiddo might bite really on that narrative shtick I mean who can name list all whatevers directions.]
+
+Mechanics and so called cultural aspects of remote onboarding right right.
+
+Cross team collaboration OK like they send you some documents, files, and links, and you boom boom boom. Code review righto.
+
+	Enabling Algorithms Research On Blockchain Data
+
+Strategy development is a complex process... right like the complex noodles poo poo some code or ideation or whatever after exploring the massive data sets maybe I need to go crack a lack on some more random Kaggle observations and contributions. Core Intern. Ethereum Data. Right right. Queries and analytic research not sure "analytical" is a real word. 76th floor frankly sounds absolutely terrifying.
+
+Introduction
+
+Smart contracts. Right execute arbitrary errm code. Transaction value transfer righto the value.
+
+Simple Things First
+
+Right a trino cluster. Query engine that runs at errm ludicrous speed. OpenEthereum node query it using web3 with simple code like blah. Looks OK code can learn this and copy it later as needed study study study for interviews. Learn learn learn more to learn pronto head honcho get on to it on to the next one.
+
+Python dictionary yadda.
+
+Internal Transactions
+
+Searching the internet and web3 documents and documentations right right so they also are capable of doing research like Let Me Google That For You tier stuff and finding valuable information from the internet and like Stack Exchange, Overflow, etc.
+
+OKOKOK web3 making requests, just using slightly different methods.
+
+EVM is a stack machine with additional memory. Take a closer look at the opcodes. Deterministic. Why does Geth run out of memory?
+
+In Search Of Even More Data
+
+Right LOG* opcodes. mempool data available to other Hudson River Trading applications.
+
+Conclusion
+
+A great end-to-end example of working through an open-ended engineering problem. It required errm reading the internet, researching, navigating the intersection of multiple technologies, diving deeeeeeep into system internals, learning the history of the involved systems, and solving practical problems.
+
+Wow sounds really Goodly Good Good work and hard too. Maybe I should go demonstrate some of those technical skillz As Soon As Possible to go increase the Probability P that they will choose to hire me remote. Hope they have a ton of internal documentation that employees can read up on these things like very useful and helpful internal documents files during onboarding so everyone learns how to learn As Fast As Possible and gets their useful hands on deck.
+
+	How We Verify Custom Hardware
+
+Now this is the icy spicy dicy moment we have all sorta kinda been waiting for I mean what does "tinker" really mean and how curious can I be scraping like public and semi public information about these things. It would seem obvious that perhaps some of the other firms like Ansatz and some of these other small possibly High Frequency Trading firms have some super saucy ahem errm Alpha or whatever in the hardware domain so let us see here what we shall read and find out.
+
+OKOKOK we know that Field Programmable Gate Arrays are increasing used in finance and trading. Custom hardware without many of the costs and delays associated with building custom chips. Reduce latency, handle data bursts more effectively [errm from sources or execution engines trading data markets errm whatever whatever I guess], and decrease system complexity [among other things].
+
+Environment Goals
+
+Right codes in C++ and Python welly welly well I already know a thing or 2 about really really really fast matrix operations in Number Python NumPy so there is that dunno Cython hacking tweaking.
+
+Different Approaches
+
+OK test vectors Truth tables yadda. Parallel interfaces yadda. Hardware Description Language testbenches. Verilog. SystemVerilog. Universal Verification Methodology. Cocotb. VHDL like Very High Density Lipoproteins or something like that.
+
+Conclusion
+
+Hardware verification environments are not 1 size fits all. Right right hardware does come in different sizes errm eek ba dum ts ks. Open source and their own verification environment that allows them errm us to create hardware designs at high velocity cool cool cool stuff Good to know.
+
+Tools We Use
+
+Yeah yeah yeah not too mission critical important for me right now to follow up on this particular reading with a deep dive.
+
+	Scaling Prometheus To Billions Of Samples A Second
+
+Scaling our infrastructure right right right. Prometheus righto the fore thought as it were a Titan God Of Fire. I got the fire. Ah the creation of the umanity from the clay sand dust whatever poo. Amazing stuff really epic.
+
+Scaling Data Collection
+
+Scale horizontally.
+
+Massive Recording Rules
+
+OKOKOK large queries would have timed out under the previous architecture yadda. Right Computer Central Processing Units utilisation across our entire research cluster.
+
+Restart Times
+
+OK. Write Ahead Log. WAL.
+
+Complexity
+
+Running a heterogeneous Prometheus.
+
+Is It Slower?
+
+Bottlenecked by whichever Prometheus instance is slowest to return results.
+
+Remote Read Support
+
+OKOKOK
+
+	Applying Artificial Intelligence To Trading
+
+I certainly have escaped it rather easily I simply type in some poo poo in to like the Library Genesis website system platform and put the .pdf files in to my Google Drive where they then reside. OK so linear regression or logistic regression or whatever might count to someone need to ask them. OKOKOK perceives some environment or input and takes actions that maximise its chance of successfully achieving its goals righto like a computationally bounded massive Reinforcement Learning agent of a firm.
+
+OK so Hudson River Trading does in fact provide services to the world to the world to the wo o o oo o o orld like price discovery and liquidity provision righto. Maybe my mom needs to liquidate 100000000 of Advanced Micro Devices stock or whatever. Not sure what the Bitcoin Tesla Robot Theta BUY HODL SELL meme is about. OK trading Artificial Intelligence righto like those trading competitions I maybe should have hopped in the mix on except they have like catastrophically lower and inferior prize pools like 100x smaller than big big big Good boy stuff like Alibaba Global Mathematics Competition ESSKEETIT is the realio dealio dog dawg odd gay itch bay stuff.
+
+International Business Machines' Deep Blue or DeepMind's AlphaGo righto. Super human performance.
+
+2 Player 0 Sum Games
+
+Knowing The Rules
+
+Fully Observing State
+
+Right this condition is super duper sus.
+
+Infinite Data
+
+AI Trading OKOKOK
+
+Prediction
+
+Optimisation
+
+Execution
+
+	An Introduction To SmallGrid
+
+OK
+
+Introduction
+
+Real time price and volume data for over a bazi errm a million that is let me check my maffs here 1000000 symbols.
+
+SmallGrid
+
+Jupyter notebook and pandas righto. Incredible Carnage Remix.
+
+Writing Data
+
+Heterogenous Lookup
+
+OKOKOK Application Programming Interface
+
+auto t = SmallGrid::table("my table name");
+t.publish("SPY", "MidPx", 440.70);
+t.publish("AAPL", "MidPx", 147.06);
+
+t.publish("SPY", "Exchange", "Arca");
+t.publish("AAPL", "Fruit", true);
+
+auto goog = t.row("GOOGL");
+// or many rows...
+auto [aapl, msft] = t.rows("AAPL", "MSFT");
+auto midPx = t.col("MidPx");
+t.publish(goog, midPx, 2711.91);
+auto msftPx = t.cell(msft, midPx);
+// alternatively: msftPx.publish(288.33);
+msftPx = 288.33;
+
+template <typename... Ts> array<AxisHandle<AxixRow>, sizeof...(Ts)> rows(Ts... ts) {
+    return {row(ts)...};
+}
+
+src/data/test/SmallGrid_test.cc:229:29:   required from here
+src/data/SmallGrid.h:915:51: error: no matching function for call to ‘resolveIndex<SmallGrid::AxisCol>(SmallGrid::StringIndex&, SmallGrid::AxisHandle<SmallGrid::AxisRow>&)’
+  915 |     auto colIdx = resolveIndex<SmallGrid::AxisCol>(colIndex, col);
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+...
+src/data/SmallGrid.h:897:15: note: candidate: ‘size_t SmallGrid::resolveIndex(SmallGrid::StringIndex&, SmallGrid::AxisHandle<Type>) [with Type = SmallGrid::AxisCol; size_t = long unsigned int]’
+  897 | inline size_t resolveIndex(StringIndex& ind, AxisHandle<Type> handle) {
+      |               ^~~~~~~~~~~~
+src/data/SmallGrid.h:897:63: note:   no known conversion for argument 2 from ‘AxisHandle<SmallGrid::AxisRow>’ to ‘AxisHandle<SmallGrid::AxisCol>’
+  897 | inline size_t resolveIndex(StringIndex& ind, AxisHandle<Type> handle) {
+      |  
+
+# pyatl = ‘Python Automated Trading Library’
+# It contains Python bindings exported from our C++ trading library
+from pyatl import SmallGrid  
+t = SmallGrid.table("my table name")
+t.publish("SPY", "MidPx", 440.70)
+t.publish("AAPL", "MidPx", 147.06)
+# handles
+goog = t.row("GOOGL")
+aapl, msft = t.rows("AAPL", "MSFT")
+midPx = t.col("MidPx")
+t.publish(goog, midPx, 2711.91)
+msftPx = t.cell(msft, midPx)
+msftPx.publish(288.33)
+
+print(t.toDataFrame())
+#  =>          MidPx
+#  => SPY     440.70
+#  => AAPL    147.06
+#  => GOOGL  2711.91
+#  => MSFT    288.33
+
+pyTable.def(
+    "toDataFrame",
+    [](const SmallGrid::Table& table) {
+        auto tableJson = table.dataToJson();
+        auto pd = py::module_::import("pandas");
+        auto readJson = pd.attr("read_json");
+        return readJson(tableJson, "orient"_a = "split");
+    }, "docstring...");
+
+t.publishRow("MSFT", MidPx=288.33, Volume=1.3e7)
+
+using RowVar = variant<string_view, SmallGrid::AxisHandle<AxixRow>>;
+pyTable.def(
+    "publishRow",
+    [](SG::Table& table, RowVar rowVar, py::kwargs kwargs) {
+        for (auto& entry : kwargs) {
+            visit([&](auto& row) {
+                table.publish(row, py::cast<string_view>(entry.first), 
+                    py::cast<SmallGrid::ValueType>(entry.second));
+            }, rowVar);
+        }
+    },
+    "docstring...");
+
+not-Writing Data
+
+OKOKOK the best monitouring solution is one you do not have to think about. It might seem to write code in an event loop style, but it makes all kinds of workloads faster. For Input Output bound work, the event loop can use epoll() to sleep just until any Input Operation has completed at which point new work can be performed.
+
+// subscribe on eventLoop, every 50 ms and write the collected variables to "myTable".
+auto m = SmallGrid::Monitor::get(eventLoop, "myTable", 50ms);
+int64_t counter = 0;
+// a handle for this monitored variable. the reference must not be invalidated while the handle is alive.
+auto _h = m.monitor("row1", "col1", counter /* reference */);
+// increment the counter 10x per second... the table cell will be updated automatically.
+eventLoop.intervalCB(100ms, [&counter]() {
+    counter++;
+});
+// Run the event loop so the callbacks are triggered.
+eventLoop.run();
+
+OK callbacks are also supported.
+
+vector<bool> myVector;
+// bind to a lambda
+m.monitor("row1", "col1", [&]{ return myVector.size(); });
+// bind to a member function of an object.
+m.monitor("row1", "col2", member_cb(&myVector, &vector<bool>::size));
+
+SmallGrid Daemon
+
+OK shared memory region several ways set up the shmqueue we do use a unix socket OKOKOK further readings right here. A shm file path. Fancier solution involves using sendmsg() and recvmsg() and ancillary data click OK skim OKOKOK.
+
+Publishing Updates
+
+Daemon yadda Redis client read up Apache Kafka not used internally very much OK modern c++ kafka yadda wrapper yadda a bunch of named code bits I could come back to later if like really needed.
+
+Conclusion And Future Work
+
+Nice nice nice again distributing tabular data updates it was a fun little post process seems like Good Good Good Good work. Hengchu Zhang probably a radical visionary genius Algorithms Engineer frankly as is probably everyone tenured at this particular firm.
+
+	How To Prepare For Your Software Engineer Interview At Hudson River Trading
+
+Introduction
+
+OKOKOK OK
+
+Righto.
+
+The Roles
+
+Well they navigate me towards Software Engineering I think. Maybe they know I want remote and it is optimal or they just think I will be a good hard core dork geek think really real real hard about every minor little detail of whatever come back ping whatever Great ideas yadda 0 evidence of strong ideations for the Algorithms Developer role yet or whatever.
+
+Our Process
+
+OK standardised set of questions who knows what I have heard on my street about their test questions in the semi public streams and feeds. Ask for hints, talk out loud, yadda. Take Home Tests. OK. Good code.
+
+Phone Interviews
+
+Can be tricky.
+
+Onsite Interviews
+
+OKOKOK whatever learn systems whatever. Optimal use of resources etc.
+
+I already demonstrate some puzzle solving ability so maybe they directly quiz me on like text books I need to have cold memmed lowkey.
+
+Collaboration. Teachability is a fascinating bullet maybe take Notes during the round or be real high key tuned in to this one.
+
+Right practice talking out loud. Explaining maths whatever.
+
+If you've heard the problem before. Honesty and integrity are important to us. Well I am an honest and integral integrous dude so they can always ask me poo right off my own Github and I will tell them straight up it appears and where it appears in my own Github corpus so voila well there is that. Review CLRS for sure. They wish me the best of luck in all of my future interviewing endeavours well now is that not sweet of them? Wow. Nice day <3
+
+	Black, Indigenous, And People Of Colour Technology Summit
+
+Great Good for them the firm can afford to put on events for allies and also fund girls directly learning some maths and computer science stuff too on top of all the great outreach work they do directly supporting the contests and puzzles I love so yay Goodly Good Good firm for sure.
+
+	Ground Control to Major Comms: How to Build Great Communication Between Engineers
+
+	Communication might seem straightforward - write things down, ask questions - but it takes a cultural approach to maintain the right habits.
+
+Really fascinating fantastic fun fun fun post so they do in fact have archives of internal web logs and lengthy written records on probably nearly literally every single topic so a Remote employee could in fact onboard very rapido perhaps one supposes if they are willing to take the time to process through it all and perhaps record their own questions for a later 1 hour chat with the relevant person upon or whatever. Perhaps perhaps anyways Good stuff. Key Rationality 101 idea and core tenet.
+
+	Wanlin Li
+
+OK
+
+	Advanced Portfolio Management - Giuseppe Paleologo
+
+Yeah Good book I mean solid one.
+
+	Me, Myself, And I
+
+‘Cause this hunger is drivin' me, yeah
+I just need to be alone, I just need to be at home
+Understand what I'm speakin' on
+If time is money I need a loan
+But regardless I'll always keep keepin' on
+Fuck fake friends
+We don't take Ls, we just make Ms
+While y'all follow, we just make trends
+I'm right back to work when that break ends, yeah
+
+Oh, it's just me, myself, and I
+Solo ride until I die
+'Cause I got me for life [Got me for life, yeah]
+Oh I don't need a hand to hold
+Even when the night is cold
+I got that fire in my soul
+
+I don't need anything [Yeah] to get me through the night
+Except the beat that's in my HeaRT
+Yeah, it's keepin' me alive [Keeps me alive]
+I don't need anything to make me satisfied [You know]
+‘Cause the music does me good
+And it gets me every time [Every time]
+
+	In Terms Of This Particular Firm
+
+I am feeling like a trillion gazillion bucks right now so I am thinking that in 6 months for sure I will have something impressive maybe sign for their Austin office see what happens. Maybe Fall internship somewhere, maybe not. Maybe Winter internship somewhere, maybe not.

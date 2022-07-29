@@ -1,0 +1,307 @@
+Perhaps soon I will even consider providing potentially interesting follow on readings in the literature for books and papers related to these tasks, for now a little reading on powerful triplets task. I might tank more time and try and drum up something beautiful here secure the bag as a Quantitative Researcher rather than a Software Engineer see and navigate optionalities.
+
+OK so uh there exist many lists:
+
+From Quora Jeff Erickson:
+
+There are thousands, if not millions, of open problems in computer science. Here are a dozen or so off the top of my head.
+
+Does nondeterminism actually speed up computation? (Does P=NP?)
+
+Can problems solvable with little space be solved quickly? (Does P = PSPACE?)
+
+Does randomness actually speed up computation? (Does RP=P? BPP=P?)
+
+How much does exploiting quantum computing actually speed up computing? (We know that it has some effect, because of Grover’s algorithm, but how much? Does BQP=P?)
+
+Does nonuniformity actually speed up computation?
+
+Can 3SAT be solved in 2o(n)time? (The Exponential Time Hypothesis)
+
+Can kSAT be solved in O(20.9999n) time for all k? (The Strong Exponential Time Hypothesis)
+
+Can 3SUM be solved in O(n1.99999) time?
+
+Can Sorting X+Y be solved in O(n2) time? In O(n1.99999) time?
+
+Can all-pairs shortest paths be solved in O(n2.99999)time?
+
+Is the Unique Games Conjecture true?
+
+Are monotone graph properties evasive?
+
+Can maximum flows in planar graphs be computed in O(n) time?
+
+Can maximum flows in (undirected, unit-capacity) toroidal graphs be computed in O(n1.49999) time? O(nlogn) time? O(n) time?
+
+Is there an implementable algorithm to triangulate polygons in O(n) time?
+
+Is there an implementable algorithm to decide whether a graph can be drawn on a torus without edge crossings in O(n) time?
+
+What is the complete set of minimal forbidden minors for toroidal graphs? For graphs of genus 2? For graphs of treewidth 4?
+
+Can an arbitrary context-free grammar of length $n$ be converted into Chomsky normal form in O(n1.9999) time? O(n3/2) time?
+
+Are splay trees dynamically optimal? Is any online self-adjusting binary search tree dynamically optimal? Is any offline self-adjusting binary search tree dynamically optimal?
+
+Can the genus of a knot be computed in polynomial time?
+
+What is the fifth Ramsey number R(5,5)? The sixth Ramsey number R(6,6)? The seventh R(7,7)?
+
+Is there a machine-checkable proof of Robertson and Seymour’s graph structure theorem? What about the classification theorem for finite simple groups?
+
+What is the smallest Turing machine whose behavior is independent of ZFC?
+
+Is any natural generalization of Getting Over It NP-hard? PSPACE-hard? Undecidable?
+
+How many licks does it take to get to the Tootsie Roll center of a Tootsie Pop?
+
+And this is just theoretical computer science.
+
+	And Other Lists
+
+	From Computer Science Theory Stack Exchange:
+
+https://cstheory.stackexchange.com/questions/38560/sources-of-open-problems
+
+https://cstheory.stackexchange.com/questions/1015/open-problems-on-the-frontiers-of-tcs
+
+https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science
+
+https://topp.openproblem.net/
+
+https://www.ics.uci.edu/~eppstein/junkyard/open.html
+
+https://www.ics.uci.edu/~theory/269/020125.pdf
+
+	Ryuhei Uehara Bibliography
+
+	Langord's Problem And Follow Ons
+
+	Basic Research In Computer Science BRICS Unsolved Combinatorial Problems Zsolt Tuza e.g. And Follow On Literature Trawling Readings
+
+	Erdos-Straus Conjecture
+
+For every positive integer n>=2 there exist positive integers x, y, z such that 4/n = 1/x + 1/y + 1/z.
+
+	Making Money With Poker Bots
+
+	Stefan Steinerberger List "Some Open Problems"
+
+	Sports Betting
+
+	Erdos-Szekeres Happy Ending Problem
+
+How many points in general position are needed in R2 to force/induce a convex n-gon? Equivalently, compute the size of the maximal point set avoiding such an induced n-gon.
+
+	Erdos-Mollin-Walsh Conjecture
+
+There are no three consecutive powerful numbers, those with all exponents >=2 in prime factorisation.
+
+	Erdos tasks.
+
+	Minimum Area Triangles
+
+Given a set of n points in the plane, we can find the minimum area triangle in quadratic time, but the best known lower bound is only Omega(n log n). Find a subquadratic algorithm, or prove a quadratic lower bound in any model of computation.
+
+	Anchored Rectangles
+
+Suppose we want to pack a unit square with non-overlapping rectangles that have sides parallel to the axes. The catch is that the lower left corners of all the rectangles are given. By the way, such rectangles are called anchored. Now, given some points in the unit square, aka the lower left corners, we want to find anchored rectangles with the maximum total area.
+
+Increasing Permutation
+When the given points are close to the right upper corner of the square, the total area is small. When a single point is in the bottom left corner of the square, we can cover the whole square. The problem becomes more interesting if we add one extra assumption: one of the given points has to be the bottom left corner of the square. In the 1960’s, it was conjectured by Allen Freedman that any set of points has an anchored rectangle packing with the area of at least one half. The problem is quite resistant. In 2011, Dumitrescu and Tóth showed that every set of points has a packing of area at least 0.09, which was the first constant bound found, and is the best bound currently known.
+
+	Enumerate Self Avoiding Walks
+
+A self avoiding walk is a sequence of moves on a lattice not visiting the same point more than once. What is the number of self avoiding walks from [0,0] to [n-1,n-1] in an nxn grid, taking steps from [0,1], [0,-1], [1,0], [-1,0]?
+
+	Markov-Hurwitz Equations
+
+x1^2+x2^2+...+xn^2 = a*x1*x2*...*xn
+See literature.
+
+	Open Problems In Mathematics And Computational Science
+
+Copy Paste From Math Web UCSD Erdos Problems All
+
+Ramsey Theory
+The Happy Ending problem: forcing convex polygons (Szekeres)
+Forcing empty convex polygons
+Does the Ramsey limit exist? What is the limit? ($100 / $250)
+Constructive Ramsey ($100)
+Lower bound for r(4,n) ($250)
+Lower bound for r(k,n)
+Consecutive Ramsey numbers (Burr)
+Bounds for growth of r(3,n) (Sós) (two problems combined)
+Linear Ramsey numbers (Burr) ($25)
+Cliques are Ramsey-extremal (Graham)
+r(G) is subexponential in sqrt(edges)
+r(G) is bounded by r(χ(G)) (1)
+r(G) is bounded by r(χ(G)) (2)
+Upper bound for Ramsey on trees (Burr)
+Exact Ramsey value for some trees
+Upper bound on r(tree, complete multi-partite)
+Upper bound for Ramsey number for 4-cycle
+Exact values for Ramsey numbers for k-cycle (Faudree, Rousseau, Schelp)
+Exact value for Ramsey number of k-cycle and star (Burr, Faudree, Rousseau, Schelp)
+Upper bound for Ramsey number for the hypercube (Burr)
+Multi-color Ramsey number for triangles ($250/$100)
+r(3,3,n) is much larger than r(3,n)
+Multi-color Ramsey number for triangles grows faster than for other odd cycles (Graham)
+Multi-color Ramsey number for even cycles (Graham)
+3-color Ramsey number for n-cycles (Bondy)
+Multi-color Ramsey number for trees (Graham)
+Multi-color Ramsey number for complete bipartite graphs (Chung, Graham)
+Size Ramsey number for graphs of bounded degree (Beck)
+Size Ramsey number for complete balanced bipartite graphs (Faudree, Rousseau, Schelp)
+Size Ramsey number for unions of stars (Burr, Faudree, Rousseau, Schelp)
+A linear bound on some size Ramsey numbers (Faudree, Rousseau, Schelp)
+A linear bound on some size Ramsey numbers for particular graphs (Faudree, Rousseau, Schelp)
+A linear bound on some size Ramsey numbers for trees (Faudree, Rousseau, Schelp)
+A linear bound on some size Ramsey numbers for odd cycles (Faudree, Rousseau, Schelp)
+A linear bound on some size Ramsey numbers for cycles (Faudree, Rousseau, Schelp)
+Upper bound on induced Ramsey numbers (Rödl)
+Double exponential lower bound for 3-uniform hypergraph Ramsey numbers (Hajnal, Rado) ($500)
+Asymptotic behavior of t-uniform hypergraph Ramsey numbers (Hajnal, Rado)
+Asymptotic behavior of generalized Ramsey numbers
+Behavior of generalized hypergraph Ramsey numbers ($500)
+
+Extremal Graph Theory
+Turán number for complete balanced bipartite graphs (Zarankiewicz, not Erdős)
+Lower bound for Turán number for K4,4
+Upper bound for Turán number for bipartite degenerate graphs (Simonovits) ($100)
+Lower bound for Turán number for bipartite non-degenerate graphs
+Turán number for bipartite graphs is a rational power of n (Simonovits)
+Turán number for even cycles (Simonovits)
+Turán number for families of graphs behave like Turán number for one of the members (Simonovits)
+Asymptotic behavior for joint Turán number for 3- and 4-cycles (Simonovits)
+Asymptotic behavior for joint Turán number for consecutive cycles (Simonovits)
+Extremal graph avoiding 3- and 4-cycles avoids all odd cycles
+Behavior of Turán number for a family of graphs is controlled by a bipartite member
+Turán number for cubes (Simonovits)
+Turán number for graphs with subgraphs of minimum degree >2 (Simonovits) ($250/$100)
+Number of edges in a graph with small independent sets avoid the octahedron (Hajnal, Sós, Szemerédi)
+Subgraphs of the cube without a 2k-cycle ($100)
+Number of edges to force all trees (Sós)
+The (n/2−n/2−n/2) conjecture (Füredi, Loebl, Sós)
+Making a triangle-free graph bipartite (Faudree, Pach, Spencer)
+Largest bipartite subgraph of a triangle free graph
+2-coloring K4-free graphs to avoid monochromatic triangles ($100) (Proven by Linyuan Lu in "Explicit construction of small Folkman graphs", 2008)
+Forcing triangles with local edge densities (Rousseau)
+Graphs covered by triangles (Rothschild)
+Edge-partitioning into paths (Gallai)
+Forcing large directed paths or independent sets (Rado)
+Minimizing the harmonic sum of cycle lengths (Hajnal)
+Subgraphs where every pair of edges is in a short cycle (Duke, Rödl) (two problems combined)
+Many edges are contained in 5-cycles
+Decomposing a complete graph to avoid small odd cycles (Graham)
+Existence of Cycles of Order 2k (Gyárfás)
+Estimate the clique transversal number of a graph (Gallai, Tuza)
+Upper bound on clique transversal number
+Clique transversal number is sublinear for graphs with no small cliques
+Diameter of a Kr-free graph (Pach, Pollack, Tuza)
+Linearly many edges force certain cycle lengths ($100)
+Unions of bipartite graphs and graphs with bounded degree
+A problem on sparse induced subgraphs
+Any graph with many large independent sets is almost bipartite
+Upper bound for rt(n,4;n/log(n))
+If G has no 5-cliques, and any large subset of vertices contains a triangle, then G is sparse
+A graph without induced 5-cycles has large cliques or independent sets
+
+Coloring, Packing, and Covering
+Growth of girth in graphs with fixed chromatic number
+Counting vertices of a graph with large girth and chromatic number
+Finding subgraphs with large girth and chromatic number (Hajnal)
+Ratio of chromatic number to clique number
+Decomposing graphs into subgraphs with higher total chromatic number (Lovász)
+Bipartite graphs with high list-chromatic numbers
+If G is (a,b)-choosable, then G is (am,bm)-choosable for every positive integer m (Rubin, Taylor)
+Estimate the maximum number of edges for a k-critical graph on n vertices
+Find the exact maximum number of edges for a k-critical graph on n vertices
+Critical graphs with large minimum degree
+Vertex critical graphs with many extra edges
+Bounding the strong chromatic index (Nešetřil)
+Many disjoint monochromatic triangles (Faudree, Ordman) (two problems combined)
+Edge-coloring to avoid large monochromatic stars (Faudree, Rousseau, Schelp)
+Anti-Ramsey graphs (Burr, Graham, Sós)
+Anti-Ramsey problem for balanced colorings
+Bounding the acyclic chromatic number for graphs of bounded degree
+Any graph of large chromatic number has an odd cycle spanning a subgraph of large chromatic number (Hajnal)
+Any graph of large chromatic number has many edge-disjoint cycles on one subset of vertices (Hajnal)
+Covering by 4-cycles
+Maximum chromatic number of the complement graph of graphs with fixed h(G) (Faudree)
+Ratio of clique partition number to clique covering number (Faudree, Ordman)
+Difference of clique partition number to clique covering number
+Maximum product of clique partition numbers for complementary graphs
+The ascending subgraph decomposition problem (Alavi, Boals, Chartrand, Oellermann)
+
+Random Graphs and Graph Enumeration
+At what density is the chromatic number of a random graph r?
+Find the range of expected chromatic numbers for a random graph
+Random graphs contain cubes (Bollobás)
+Large independent sets in all large subgraphs of a random graph (Bollobás)
+Covering a random graph with triangles (Spencer)
+Avoiding anti-monotone graph properties in a random graph (Suen, Winkler)
+Number of induced G-subgraphs in a given graph
+Adding an edge to an extremal 4-cycle-free graph gives two 4-cycles (Siminovits)
+Number of triangles in a multi-partite graph with large minimum degree (Bollobás, Szemerédi)
+Number of graphs with a forbidden subgraph (Kleitman, Rothschild)
+Regular induced subgraphs (Fajtlowicz, Staton)
+Graphs with induced subgraphs of any number of edges (McKay) ($100)
+Count the ways to add a K4 (Tuza)
+Number of triangle-free graphs
+Number of pentagons in a triangle free graph
+A conjecture of 3-colored triangles in the complete graph (Sós)
+
+Hypergraphs
+Turán's conjecture: hypergraph Turán numbers: tr(n,k) (Turán, not Erdős) ($1000)
+Exact values for t3(n,4) (Turán, not Erdős) ($500)
+Asymptotics of t3(n,5) (Turán, not Erdős)
+Adding an edge to extremal K(3)k-free graph gives two copies of K(3)k
+Adding an edge to extremal K(3)k-free graph gives a K(3)k+1 missing an edge
+Avoiding triple systems (Brown, Sós)
+Lower bound for hypergraph Turán numbers
+Turán densities are rational
+Unavoidable stars (Rado)
+Special case: unavoidable 3-stars
+Unavoidable stars of an n-set (Szemerédi)
+Weak Δ-systems (Milner, Rado)
+Weak Δ-systems of an n-set (Szemerédi)
+Erdős-Faber-Lovász conjecture: a simple hypergraph on n vertices has chromatic index at most n (Faber, Lovász)
+Minimum number of edges for a n-graph to not have Property B (that is: to not be 2-colorable)
+Minimum number of edges for a 3-chromatic 4-graph
+Conjecture on 3-chromatic hypergraphs (Lovász)
+Conjecture on minimum 3-chromatic hypergraphs (Lovász)
+Maximum edges in a 3-chromatic r-clique (Lovász)
+Maximum vertices in a 3-chromatic r-clique (Lovász)
+3-chromatic cliques have edges with large intersection (Lovász) ($100)
+Number of sizes of edge intersections in a 3-chromatic r-graph (Lovász)
+Jumping densities for 3-hypergraphs ($500)
+Conjecture on covering a hypergraph (Lovász)
+Stronger conjecture on covering a hypergraph
+Maximum unavoidable hypergraphs (Chung)
+Unavoidable stars with fixed intersection size (Duke)
+Hypergraph decomposition (Chung, Graham)
+Characterize hypergraphs with maximum/minimum product of point and line covering numbers (Chung, Graham)
+Covering complete 3-graphs (Tuza)
+r-sets with common union and intersection (Füredi)
+Finding small global vertex covers for r-graphs with small local vertex covers (Fon der Flaass, Kostochka, Tuza)
+A Ramsey-type conjecture for 2-colorings of complete 3-graphs
+A Ramsey-Turán upper bound for 3-graphs
+A Ramsey-Turán lower bound for 3-graphs (Sós)
+
+Infinite Graphs
+Menger's theorem for infinite graphs
+Ordinal Ramsey: For which α does ωα→(ωα,3)2? (Hajnal) ($1000)
+Ordinal Ramsey: If α→(α,3)2, then α→(α,4)2 (Hajnal)
+Ordinal Ramsey: ω1→(α,4)3 for α<ω1
+Ordinal Ramsey: ω21→(ω21,3)2
+Ordinal Ramsey: ω3→(ω2+2)3ω
+Almost-bipartite graphs with infinite chromatic number (Hajnal, Szemerédi) ($250)
+Another problem on almost-bipartite graphs with infinite chromatic number
+Uncountable-chromatic graphs have common 4-chromatic subgraphs (Hajnal)
+Infinite K4-free graphs are the union of triangle-free countable graphs (Hajnal) ($250)
+The harmonic sums of odd-cycle lengths diverges for graphs of infinite chromatic number (Hajnal)
+There is an uncountable-chromatic graph G so that the size of the smallest n-chromatic subgraph grows arbitrarily slowly (Hajnal, Szemerédi)
+Infinite graphs have infinite paths or arbitrary independent sets (Hajnal, Milner)
+Down-up matchings in infinite graphs (Larson)

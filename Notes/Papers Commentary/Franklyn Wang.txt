@@ -1,0 +1,162 @@
+OK
+
+Legendary legend.
+
+Strong Notes, strong massive corpus, some weak stuff.
+
+	Ecne: Automated Verification Of Zero Knowledge Circuits
+
+OK solid one.
+
+	Recommending With Recommendations
+
+OK solid one. Wish I was there hanging out with Scott Duke Kominers ideating and getting co signs on papers like such as this one.
+
+	Intrinsic Gradient Compression For Federated Learning
+
+OK
+
+	Monodromy Groups Of Indecomposable Rational Functions
+
+This the paper that got it all popping off. This dude is a fucking legendary legend of the Fall, Winter, Spring, and Summer and a real esthete to boot. Legendary legend.
+
+	FranklynWang.com
+
+Just an OK website.
+
+The Papers section is very interesting.
+
+The Courses section is half interesting but some of the content is mediocre frankly in my perception and was a big update for me in the direction of like Franklyn Wang, Siye Zhu, and Jacob Klegar are much less impressive than I thought and I cannot really be that sure how impressive a Master Of Science In Computer Science degree from Harverd is really but I do not want to cringe until I myself have a PhD or Master Of Science degree and can contemplate and comprehend what precisely it was that I contemplated or supposedly comprehended I mean I ought to read like 1000 books on Software Engineering here shortly and really Truly become the best me me I can be... become the Rank 1 Lazar Ilic Software Engineer in the whole wide world universe.
+
+	Respect for Improvements via Matching with Contracts
+
+OK solid one.
+
+	An Accurate and Scalable Subseasonal Forecasting Toolkit for the United States
+
+OK pretty interesting this relates sort of to those Kalshi tasks from earlier.
+
+	Intrinsic Gradient Compression Algorithms for Federated Learning
+
+Cool cool yeah yup yup.
+
+	Recommending with Recommendations
+
+See above if I actually comment upon this one.
+
+	Putting the "Learning" into Learning-Augmented Algorithms for Frequency Estimation
+
+OK
+
+	Generalization by Recognizing Confusion
+
+	Optimizing reserves in school choice: A dynamic programming approach
+
+OK whatever yeah yeah yup yup.
+
+And Courses.
+
+Fall 2018:
+
+Math 55A: Algebra
+Econ 1011A: Microeconomic Theory I
+Stat 210 (G): Probability I
+Spring 2019:
+
+Econ 1152: Big Data in Economics
+Math 55B: Analysis and Topology
+Stat 212 (G): Probability II
+CS 181: Machine Learning
+6.853 (G): Introduction to Algorithmic Game Theory (final project: report)
+Fall 2019:
+
+CS 61: Systems
+CS 223 (G): Probability and Algorithms (final project: report)
+Stat 211 (G): Inference I
+Math 114: Measure Theory
+Spring 2020:
+
+CS 229R (G): Essential Coding Theory
+CS 228 (G): Computational Learning Theory report
+Ling 190: Introduction to Computational Linguistics (final project: report)
+Math 243 (G): Evolutionary Dynamics
+Fall 2020:
+
+CS 229R (G): Spectral Graph Theory in Computer Science (final project: report, slides)
+CS 222 (G): Algorithms at the End of the Wire
+Stat 236 (G): Statistical Machine Learning (final project: report, slides)
+Math 278y (G): Introduction to Spinglasses
+6.438 (G): Algorithms and Inference
+Spring 2021:
+
+18.408 (G): Algorithms in Deep Learning (final project: report)
+CS 229BR (G): Theory of Deep Learning (final project: report)
+Math 229 (G): Analytic Number Theory (final project: report)
+CS 221 (G): Complexity Theory (final project: report, slides)
+Stat 213 (G): Inference II (final project: slides)
+
+	Github @franklynwang
+
+quick-sketches Public
+ C++ Other Updated 11 days ago
+
+EcneProject Public
+Ecne: An engine for verifying the soundness of R1CS constraints
+ Julia  36  2 GNU General Public License v3.0 Updated on May 22
+
+R1CSConstraintSolver.jl Public
+Constraint Solver for R1CS files.
+ Julia MIT License Updated on Apr 13
+
+lean_proof_recording Public
+Forked from jasonrute/lean_proof_recording
+Proof recording for Lean 3
+ Python  3 Apache License 2.0 Updated on Sep 30, 2021
+
+putting-the-learning-in-LAA Public
+ Python Updated on Jul 20, 2021
+
+BenignOverfitting-JAX Public
+ Jupyter Notebook Updated on Apr 25, 2021
+
+faiss Public
+Forked from facebookresearch/faiss
+A library for efficient similarity search and clustering of dense vectors.
+ C++  2,634 MIT License Updated on May 18, 2020
+
+fairseq Public
+Forked from facebookresearch/fairseq
+Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+ Python  4,577 MIT License Updated on Mar 1, 2020
+
+self-adaptive-training Public
+Forked from LayneH/self-adaptive-training
+Official implementation of the paper 'Self-Adaptive Training: beyond Empirical Risk Minimization'
+ Python  23 MIT License Updated on Feb 26, 2020
+
+JEM Public
+Forked from wgrathwohl/JEM
+Project site for "Your Classifier is Secretly an Energy-Based Model and You Should Treat it Like One"
+ Python  53 Apache License 2.0 Updated on Dec 11, 2019
+
+data-open-2019 Public
+Updated on Sep 27, 2019
+
+cs181-practical-4 Public
+CS 181 Practical 4: We support vector machines
+ Python Updated on May 8, 2019
+
+bitcoin Public
+Forked from bitcoin/bitcoin
+Bitcoin Core integration/staging tree
+ C++  32,634 MIT License Updated on Jan 18, 2018
+
+abinit Public
+Forked from qsnake/abinit
+Qsnake's ABINIT package
+ Fortran  12 GNU General Public License v3.0 Updated on Jan 13, 2018
+
+ojuz-problem-statements Public
+Forked from ojuz/ojuz-problem-statements
+문제 번역을 용이하게 하기 위함.
+ 144 Updated on Dec 9, 2017

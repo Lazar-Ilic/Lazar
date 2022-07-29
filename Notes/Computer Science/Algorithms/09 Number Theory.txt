@@ -1,0 +1,42 @@
+Prime Factorisation: n^[1/4]
+
+Is Prime: log^3 n
+
+Is Fibonacci: 1
+
+Is Power Of 2: 1
+	(a ba (a-1))==0
+
+Greatest Common Divisor, Least Common Multiple: log nm
+
+Sieve Generating Primes And Minimum Prime Factor Array: n
+
+Modular Power: log b
+
+Generate All Inverses Modulo p: p
+
+Inverse Modulo p On The Spot: log p
+	Binary exponentiation a^[p-2] is a^[-1] by Euler's Totient Phi Theorem
+
+Greatest Common Divisor As Linear Combination: log n
+	To solve ax+by=c in general
+
+Chinese Remainder: log n
+
+Continued Fractions/Rational Approximation: log z
+	Compute closest rational p/q with p,q <= z
+
+Phi Function Array: n
+	Number of positive integers <= a coprime with a
+
+Sum Of Modded Arithmetic Progressions: log p
+
+Modular Square Root: log^2 p
+
+Modular Logarithm: p^[1/2]
+	Smallest b such that a^b = c [mod p]
+
+Fractional Binary Search: log n
+	Finds the smallest a/b with a,b <= n such that f[a/b] is true
+
+-------------

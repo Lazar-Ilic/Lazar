@@ -1,0 +1,11 @@
+Unclear.
+
+Google around a little.
+
+Andrew Gelman
+Error Statistics
+Simply Statistics
+Rob Hyndman
+John Cook
+Statsblog
+Various R Statistics Web Logs

@@ -1,0 +1,14 @@
+Shoelace Area: n
+	Sum of x[i] * y[i+1] - x[i+1] * y[i]
+
+Pick:
+	Lattice Points
+	Area = Interior + Boundary/2 - 1
+
+Minimum Pair Distance: n log n
+
+Convex Hull: n log n
+	Sort radially from e.g. minimum y-coordinate point and then process in order.
+
+-------------
+

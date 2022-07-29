@@ -1,0 +1,740 @@
+Might sketch up, draft up some ideations in public for how I might have gone about executing some market making like producing values ab initio or whatever when a new market is being introducted, dunno quite how they decide to go about doing that, with what credences they have, what people want to be trading upon, etc.
+
+But anyways might lowkey just ideate and hope to come back mid latency day by day ping more follow on thoughts just to practice this see my latency see what I could cook up say for this firm in a 1 hour, 4 hour, 8 hour type of timeline for which objects exactly. Dunno just how many markets they expect to be made daily by a Quantitative Researcher Market Maker or just what sorts of R and Python files I would want to be dreaming up. Get more in the mix with real world relevant econometrics metrics perhaps.
+
+Dunno it really matters but obviously of course as a private trader here one could execute some analysis look at different classes sub classes of these instruments try and gain some information track volume and track histories of other traders how things went down with respect to trade timing, information flow, markets open, time of day, presumably quite a few centaurs exist on this platform like genuine just centaurs who do think they have an edge.
+
+Inflation
+In June
+>0.9%
+Yes 53¢
+No 51¢
+>1.0%
+Yes 39¢
+No 64¢
+$191,090
+Monthly
+
+Tricky. So this is a canonical deep in Economics 101 territory type of thing and one supposes it has been studied very extensively. They probably already have OK fairly performant models. I uh now am getting more into just surveilling the territories surrounding these Banking datasets. So uh one can view quite a few extant .csv files from the FRED Federal Reserve Economic Data and elsewhere in public.
+
+Fed interest rates
+December 2022 meeting
+>3.50%
+Yes 47¢
+No 54¢
+>3.75%
+Yes 35¢
+No 70¢
+$233,842
+
+OK canonical dunno I have any edge.
+
+New COVID-19 wave
+Before fall
+Buy Yes
+29¢
+Buy No
+76¢
+$130,737
+
+Read up on the formal terms of resolution for this contract. This one is also very tricky I mean supposedly I have the centaur edge in biorxiv comprehension and like predicting the future of biology and pharmaceuticals but... yikes. I mean PredictIt and Metaculus... I would have thought off the dome a priori maybe that Yes would be higher frankly here. So that is Good that is reassuring News.
+
+Negative GDP growth
+2022 Q2 - 2022 Q4
+Buy Yes
+75¢
+Buy No
+28¢
+$31,971
+Annual
+
+Canonical.
+
+S&P500 end-of-week value
+On July 01
+3800-3849.99
+Yes 13¢
+No 90¢
+4000-4049.99
+Yes 10¢
+No 91¢
+$4,132
+Weekly
+
+Canonical.
+
+Unemployment
+In June
+>3.6%
+Yes 59¢
+No 46¢
+>3.7%
+Yes 29¢
+No 75¢
+$14,967
+Monthly
+
+Canonical. Dunno what sorts of models they have and use for this if it is based on some well known stuff. Perhaps implicitly captured off of other markets like the usual assets betting markets? I mean they factor that information in to their forecast maybe maye I dunno.
+
+Nasdaq-100 end-of-week value
+On July 01
+>12700
+Yes 10¢
+No 93¢
+12100-12199.99
+Yes 14¢
+No 88¢
+$2,569
+Weekly
+
+
+
+Jobs numbers
+In June
+>300,000
+Yes 49¢
+No 56¢
+>200,000
+Yes 76¢
+No 28¢
+$6,996
+Monthly
+
+
+
+Gas price this week
+On Jun 27
+>$4.80
+Yes 48¢
+No 54¢
+>$4.90
+Yes 5¢
+No 97¢
+$8,175
+Weekly
+
+Might look up some time series stuff on this where the precise location of gas sales was being made compared here. I uh dunno if private firms can get information on this sort of asset via satellite or how much weather actually does hit this a la that Social Network scene. Predicting like usage rates. One might think holidays would have an impact that some other people's models might not capture or estimate which throws in some non trivial factor. I dunno.
+
+Peak mortgage rate
+By December 29
+>6.5%
+Yes 53¢
+No 52¢
+>7.0%
+Yes 35¢
+No 66¢
+$55,122
+Annual
+
+
+
+30-yr mortgage rate
+From Jun 24-30
+>5.80%
+Yes 43¢
+No 61¢
+>5.70%
+Yes 77¢
+No 28¢
+$4,008
+Weekly
+
+
+
+Annual inflation
+In 2022
+Between 8.0-8.9%
+Yes 44¢
+No 61¢
+Between 7.0-7.9%
+Yes 23¢
+No 81¢
+$79,621
+Annual
+
+
+
+Gas price this month
+On Jul 11
+>$4.90
+Yes 46¢
+No 59¢
+>$5.20
+Yes 9¢
+No 96¢
+$15,737
+Monthly
+
+
+
+538 Biden approval rating
+On June 29
+39.7-39.9
+Yes 4¢
+No 99¢
+>40.2
+Yes 2¢
+No --¢
+$760
+Weekly
+
+OKOKOK I dunno they do a ton of like simple economic numbers which might enable some people to hedge in some ways... usefully that is. But OK this is an interesting one again one might immediately think that like a sentiment analysis Natural Language Processing approach might work OK but like I dunno forget latencies here if Biden is gonna give a speech a shtick on something important or there will be novel bits and bytes in standard White House press releases what exactly goes down then. At those moments I mean tracking sentiments in public online commentariat is one thing and in like the press articles.
+
+Return to March 2020 COVID level
+<11,790 average new cases per day
+Buy Yes
+47¢
+Buy No
+58¢
+$137,502
+
+Interesting market. Again it is funny to consider this whole forecasting thing in the context of the entire prediction track record of Messieur Scott Adams.
+
+Big Tech regulation
+American Choice and Innovation Online Act becomes law by January 3, 2023
+Buy Yes
+19¢
+Buy No
+85¢
+$7,091
+No 5 · 32¢
+
+Interesting interesting interesting market to think one might have an edge in based on just... oh I dunno like reading the News a ton or knowing some stuff about Amerikan politiks.
+
+Harvard affirmative action SCOTUS case
+Ban on use of race in admissions
+Yes 75¢
+No 30¢
+Ban on Harvard's use of race, no universal ban
+Yes 26¢
+No 79¢
+$8,084
+
+Yeah yeah yeah hopped in the mix on this one with a low bet compared to total volume just to get a little bit of a feel for the system platform user experience user interface and all of that. OK. OK market.
+
+‘Bad News for Harvard’: Future of Affirmative Action in Doubt as Conservative Court Takes Up Admissions Cases
+After the Supreme Court agreed Monday to take up a lawsuit against race-conscious admissions processes at Harvard and the University of North Carolina, legal experts say the case could spell the end of affirmative action in higher education.
+
+OKOKOK so one can read up on a variety of opinions on the internet and perhaps try and weight them somehow based upon like a literal credential and/or readership/viewership counts so there are some starting ideas. I mean how to judge these sources over time like say we are at some trading firm maybe we eventually discover to try and weight the .txt files generated from the Russia Today website more highly than some other News source I mean I dunno what basket and how they normally process these things in their Natural Language Processing algorithms but I assume when it comes to live Twitter analysis they might actually be pretty half sophisticated I just dunno I dunno what they do at the Two Sigma firm for real for real but I am dying to living to know.
+
+Initial jobless claims
+>225,000 from Jun 19-25
+Buy Yes
+71¢
+Buy No
+34¢
+$477
+Weekly
+
+OK interesting one.
+
+Gasoline tax holiday bill becomes law
+In 2022
+Buy Yes
+15¢
+Buy No
+88¢
+$16,979
+Annual
+
+Again a bill one.
+
+Bipartisan Innovation Act
+Becomes law by election day
+Buy Yes
+67¢
+Buy No
+36¢
+$10,888
+
+Another bill yikes.
+
+Reconciliation bill passes Senate
+By Election Day
+Yes 55¢
+No 49¢
+By July 4
+Yes 1¢
+No --¢
+$166,576
+
+Tricky stuff man.
+
+Price of oil monthly
+From Jun 07-July 11
+<$100
+Yes 48¢
+No 56¢
+>$125
+Yes 21¢
+No 84¢
+$18,512
+Monthly
+
+
+
+Permanent Daylight Saving Time bill becomes law
+Buy Yes
+16¢
+Buy No
+86¢
+$10,482
+
+
+
+Congressional Stock Trading Ban becomes law
+Buy Yes
+12¢
+Buy No
+91¢
+$11,877
+
+
+
+Omicron share
+Less than half of cases by July 30
+Buy Yes
+7¢
+Buy No
+94¢
+$9,552
+
+
+
+Recession by 2022 Q2
+by 2022 Q2 -- One quarter of negative GDP (Revisions included)
+Buy Yes
+96¢
+Buy No
+7¢
+$544,679
+Annual
+
+
+
+US GDP
+In 2022 Q2
+>1.0%
+Yes 29¢
+No 74¢
+>2.0%
+Yes 12¢
+No 90¢
+$52,008
+
+
+
+RCP Biden approval rating
+On July 01
+38.9-39.1
+Yes 27¢
+No 78¢
+<38.6
+Yes 23¢
+No 81¢
+$100
+Weekly
+
+
+
+Build Back Better passes
+By election day
+Buy Yes
+24¢
+Buy No
+80¢
+$34,624
+
+
+
+NYC high temp
+On June 25
+89-90°
+Yes 71¢
+No 30¢
+>90°
+Yes 66¢
+No 87¢
+$10,317
+Daily
+
+
+
+China begins to join CPTPP
+By Jan 4, 2023
+Buy Yes
+8¢
+Buy No
+95¢
+$5,827
+
+
+
+S&P500 end-of-day value
+On June 27
+3800-3849.99
+Yes 11¢
+No 91¢
+4000-4049.99
+Yes 8¢
+No 93¢
+$2,257
+Daily
+
+
+
+Unemployment spike
+>6.0% in any month in 2022
+Buy Yes
+30¢
+Buy No
+75¢
+$7,409
+Annual
+
+
+
+TSA check-ins
+>2.3 million from Jun 20-26
+Buy Yes
+89¢
+Buy No
+14¢
+$5,634
+Weekly
+
+Odd market to be sure one might think that this sort of thing is easily predictable from like public airlines airplanes intended flight records mixed up with the very public price tracking one could do on those flights to produce a fairly accurate model.
+
+Student debt forgiveness becomes law
+By Dec 31
+Buy Yes
+60¢
+Buy No
+44¢
+$58,238
+Annual
+
+Gee I mean I did not even realise this was a real thing maybe upcoming soon.
+
+EURO/USD exchange rate
+On June 24
+1.050-1.060
+Yes --¢
+No 1¢
+<1.050
+Yes 1¢
+No --¢
+$14,335
+Weekly
+
+Very well studied financial instrument asset here. Would think that maybe some people at some firms have edges sometimes in these markets depending upon the spreads.
+
+Student loan payment pause
+Extended past August 31
+Buy Yes
+76¢
+Buy No
+25¢
+$20,011
+Annual
+
+
+
+Chicago high temp
+On June 25
+95-96°
+Yes 2¢
+No --¢
+<93°
+Yes --¢
+No 2¢
+$9,073
+Daily
+
+
+
+Hottest year on record
+2022
+Buy Yes
+13¢
+Buy No
+89¢
+$34,176
+Annual
+
+
+
+Income tax hike
+Highest tax bracket in 2022
+Buy Yes
+17¢
+Buy No
+85¢
+$51,778
+Annual
+
+
+
+New COVID variant of concern identified
+By Aug 15
+Buy Yes
+25¢
+Buy No
+79¢
+$14,434
+
+
+
+Unemployment keeps falling
+<3.5% in any month in 2022
+Buy Yes
+54¢
+Buy No
+48¢
+$8,707
+Annual
+
+
+
+NYC rain
+>0in on June 25
+Buy Yes
+4¢
+Buy No
+98¢
+$1,001
+Daily
+
+I mean that chick from Mean Girls can maybe just feel it in her breasts or whatever and have the ultimate edge here just Win... or like Abel can maybe dance on the clouds today and make it rain on everybody beneath us and also market manipulate here for the edge.
+
+High inflation ends
+<0.2% in any month in 2022
+Buy Yes
+48¢
+Buy No
+57¢
+$24,109
+Annual
+
+
+
+Nasdaq-100 end-of-day value
+On June 27
+12100-12199.99
+Yes 21¢
+No 83¢
+12000-12099.99
+Yes 21¢
+No 84¢
+$178
+Daily
+
+
+
+Natural gas price max and min
+Between June 7-July 11
+>$10.00
+Yes 3¢
+No --¢
+>$9.50
+Yes 5¢
+No 98¢
+$26,820
+Monthly
+
+
+
+Euro area inflation
+In 2022
+>6%
+Yes 87¢
+No 17¢
+>5%
+Yes 92¢
+No 12¢
+$8,573
+Annual
+
+
+
+COVID-19 case average in China
+>50,000 from June 22-28
+Buy Yes
+15¢
+Buy No
+--¢
+$1,184
+Weekly
+
+
+
+Turkey joining EU
+By June 29, 2022
+Buy Yes
+1¢
+Buy No
+--¢
+$14,797
+
+
+
+GDP peak
+>5% in any quarter in 2022
+Buy Yes
+17¢
+Buy No
+86¢
+$4,094
+Annual
+
+
+
+Employment-population ratio
+Pre-pandemic level in 2022
+Buy Yes
+54¢
+Buy No
+47¢
+$4,006
+Annual
+
+
+
+Moon landing
+Before Jan 1, 2025
+Buy Yes
+12¢
+Buy No
+90¢
+$17,884
+
+Funny. NASA etc. analogs insiders trading.
+
+Number of Fed rate hikes
+In 2022
+>11 times
+Yes 87¢
+No 17¢
+11 times
+Yes 7¢
+No 95¢
+$271,340
+Annual
+
+
+
+Annual NGDP growth
+>7.5% in 2022
+Buy Yes
+34¢
+Buy No
+67¢
+$1,932
+Annual
+
+
+
+China inflation
+In 2022
+>2%
+Yes 52¢
+No 53¢
+>3%
+Yes 26¢
+No 79¢
+$245
+Annual
+
+
+
+COVID variant of high consequence identified
+By September 30
+Buy Yes
+9¢
+Buy No
+95¢
+$5,023
+
+OK
+
+Global GDP growth
+In 2022
+>3%
+Yes 57¢
+No 48¢
+>4%
+Yes 20¢
+No 84¢
+$924
+Annual
+
+
+
+European Union GDP growth
+In 2022
+>3%
+Yes 25¢
+No 77¢
+>4%
+Yes 9¢
+No 95¢
+$3,354
+Annual
+
+
+
+US CO2 totals
+>430m metric tons in March
+Buy Yes
+20¢
+Buy No
+84¢
+$2,872
+Monthly
+
+
+
+Corporate tax rate increase
+In 2022
+Buy Yes
+7¢
+Buy No
+96¢
+$37,209
+Annual
+
+
+
+Seattle rain
+>0in on June 25
+Buy Yes
+1¢
+Buy No
+--¢
+$0
+Daily
+
+Man dude they must have some sort of an edge here or something wanting to pitch all these weather contracts was not sure to whom exactly they are giving these hedging instruments to in major cities... hmm.
+
+Manchin realignment
+By July 5, 2022
+Buy Yes
+1¢
+Buy No
+--¢
+$20,286
+
+Interesting just to read up on this one. I dunno how these precise dates are set always and how one always feeds in dates and relevant update data dates in I mean if one is centaur managing assets one either needs a Good News feed or pay attention to like Twitter and markets of course and also like have on one's Calendar to be paying attention to certain things at known certain times in advance when global events take place on schedule.
+
+China GDP growth
+In 2022
+>4%
+Yes 56¢
+No 45¢
+>3%
+Yes 70¢
+No 35¢
+$2,129
+Annual
+
+OK hmm.

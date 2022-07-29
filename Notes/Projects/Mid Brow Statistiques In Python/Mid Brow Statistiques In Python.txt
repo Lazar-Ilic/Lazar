@@ -1,0 +1,17 @@
+OKOKOK
+
+So I guess here maybe I compose up, write up, draft up some codes of my own... or like copy and paste some codes from a variety of sources and then do a shadow mock exercise where I like further slightly modify those codes and apply them to some other dataset from those massive troves of datasets and notebooks which exist on the Kaggle platform and elsewhere. Think some Bayesian stuff too in the mix, ton of Monte Carlo Markov Chain, some mid brow, some high brow, some R web logs too maybe, we shall see should be fun fun fun fun could maybe even take some inspiration from my R Machine Learning course here at the University Of Texas At Austin where a BS Mathematics with a 3.8 Grade Point Average is in fact supposed to have some paper value and my other awards are supposed to be impressive in their own rights and merits...
+
+Some potentially useful Githubs:
+
+https://github.com/aloctavodia/BAP
+
+https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers
+
+https://github.com/markdregan/Bayesian-Modelling-in-Python
+
+https://github.com/AllenDowney/ThinkBayes2
+
+https://github.com/tirthajyoti/Stats-Maths-with-Python
+
+OK might look through some of these and maybe just do like a fork with extended commentary and bonus codes of my own division at some point.

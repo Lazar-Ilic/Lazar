@@ -1,0 +1,538 @@
+Might go do some commentary on the Lex Fridman podcast over in Literature Critically Reading at some point. Some folk benefit from this YouTube to feel less lonely and also think very highly of his Twitter feed for real and like that style of preachy preaching. Robin Hanson is cool cool cool.
+
+Controversial offensive to clock performances measurements of human brain organs on a variety of metrics and like compare them bro... very simple useful powerful O[1] queries of brain organs and where to find them I mean... in like an IQ test or neuro assessment I guess... think this dude's got a pretty biggus whiggus big brain galaxy meme brain organ himself.
+
+"
+Here's my conversation with Richard Haier (
+@rjhaier
+), psychologist specializing in the science of human intelligence. This is a controversial topic, but a critically important one for understanding the human mind. 
+"
+
+Anyways remember brother if you get high don't want people thinking you are a dog, a pregnant Chinese mother, or like this dude on the internet boy:
+
+https://www.youtube.com/watch?v=r-IFUJWMNuc&ab_channel=BestScenesIndia
+
+Hit me up any time brother Dottore Lex Fridman we could hang out I could ensure you we chould chit chat yeah yeah yeah nothing weird no punching no deltoids no weird poozles puzzles messing around with noodle noggins...
+
+For me personally I struggle with like competitiveness gone amok weak spot and you know I am like a boundedly rational guy and all so absolutely 0 pool, table tennis, chess, games, board games, puzzles outside of my feed and all for me personally you know stress levels and all of that. I don't consent to no measurements no nothing on the fly I not prepared you know.
+
+An evidence review of face masks against COVID-19
+J Howard, A Huang, Z Li, Z Tufekci, V Zdimal, HM van der Westhuizen, ...
+Proceedings of the National Academy of Sciences 118 (4), e2014564118	948*	2021
+
+OK
+
+DeepTraffic: Crowdsourced Hyperparameter Tuning of Deep Reinforcement Learning Systems for Multi-Agent Dense Traffic Navigation
+L Fridman, J Terwilliger, B Jenik
+Neural Information Processing Systems (NIPS 2018) Deep Reinforcement …	259*	2018
+
+OK
+
+Active authentication on mobile devices via stylometry, application usage, web browsing, and GPS location
+L Fridman, S Weber, R Greenstadt, M Kam
+IEEE Systems Journal 11 (2), 513-521	225	2016
+
+OK
+
+MIT advanced vehicle technology study: Large-scale naturalistic driving study of driver behavior and interaction with automation
+L Fridman, DE Brown, M Glazer, W Angell, S Dodd, B Jenik, J Terwilliger, ...
+IEEE Access 7, 102021-102038	214*	2019
+
+
+
+Learning human identity from motion patterns
+N Neverova, C Wolf, G Lacey, L Fridman, D Chandra, B Barbello, G Taylor
+IEEE Access 4, 1810-1820	177	2016
+
+OK huh very interesting.
+
+Driver gaze region estimation without use of eye movement
+L Fridman, P Langhans, J Lee, B Reimer
+IEEE Intelligent Systems 31 (3), 49-56	128	2016
+
+OK huh very interesting.
+
+To walk or not to walk: Crowdsourced assessment of external vehicle-to-pedestrian displays
+L Fridman, B Mehler, L Xia, Y Yang, LY Facusse, B Reimer
+arXiv preprint arXiv:1707.02698	112	2017
+
+
+
+Cognitive load estimation in the wild
+L Fridman, B Reimer, B Mehler, WT Freeman
+Proceedings of the 2018 chi conference on human factors in computing systems …	104	2018
+
+OK
+
+A machine learning approach for power allocation in HetNets considering QoS
+R Amiri, H Mehrpouyan, L Fridman, RK Mallik, A Nallanathan, D Matolak
+2018 IEEE international conference on communications (ICC), 1-7	96	2018
+
+
+
+Owl and Lizard: patterns of head pose and eye pose in driver gaze classification
+L Fridman, J Lee, B Reimer, T Victor
+IET Computer Vision 10 (4), 308-314	81	2016
+
+OK
+
+Multi-modal decision fusion for continuous authentication
+L Fridman, A Stolerman, S Acharya, P Brennan, P Juola, R Greenstadt, ...
+Computers & Electrical Engineering 41, 142-156	66	2015
+
+
+
+Human-centered autonomous vehicle systems: Principles of effective shared autonomy
+L Fridman
+arXiv preprint arXiv:1810.01835	57	2018
+
+
+
+Detecting road surface wetness from audio: A deep learning approach
+I Abdić, L Fridman, DE Brown, W Angell, B Reimer, E Marchi, B Schuller
+2016 23rd International Conference on Pattern Recognition (ICPR), 3458-3463	47	2016
+
+
+
+Driver frustration detection from audio and video in the wild
+I Abdic, L Fridman, D McDuff, E Marchi, B Reimer, B Schuller
+Proceedings of the KI, 237	44	2016
+
+
+
+Arguing Machines: Human Supervision of Black Box AI Systems That Make Life-Critical Decisions
+L Fridman, L Ding, B Jenik, B Reimer
+arXiv preprint arXiv:1710.04459	43*	2017
+
+
+
+Automated synchronization of driving data using vibration and steering events
+L Fridman, DE Brown, W Angell, I Abdić, B Reimer, HY Noh
+Pattern Recognition Letters 75, 9-15	43	2016
+
+
+
+What can be predicted from six seconds of driver glances?
+L Fridman, H Toyoda, S Seaman, B Seppelt, L Angell, J Lee, B Mehler, ...
+Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems …	42	2017
+
+OK
+
+Decomposition of l-Valine under Nonthermal Dielectric Barrier Discharge Plasma
+Y Li, A Kojtari, G Friedman, AD Brooks, A Fridman, HF Ji
+The Journal of Physical Chemistry B 118 (6), 1612-1620	41	2014
+
+
+
+Decision fusion for multimodal active authentication
+L Fridman, A Stolerman, S Acharya, P Brennan, P Juola, R Greenstadt, ...
+IT Professional 15 (4), 29-33	35	2013
+
+
+
+Behavioral impact of drivers' roles in automated driving
+B Reimer, A Pettinato, L Fridman, J Lee, B Mehler, B Seppelt, J Park, ...
+Proceedings of the 8th international conference on automotive user …	30	2016
+
+
+
+Distinguishing patterns in drivers’ visual attention allocation using Hidden Markov Models
+M Muñoz, B Reimer, J Lee, B Mehler, L Fridman
+Transportation research part F: traffic psychology and behaviour 43, 90-103	28	2016
+
+
+
+Eye contact between pedestrians and drivers
+D AlAdawy, M Glazer, J Terwilliger, H Schmidt, J Domeyer, B Mehler, ...
+arXiv preprint arXiv:1904.04188	25	2019
+
+
+
+A simplification algorithm for visualizing the structure of complex graphs
+D Hennessey, D Brooks, L Fridman, D Breen
+Information Visualisation, 2008. IV'08. 12th International Conference, 616-625	25	2008
+
+
+
+Hacking nonverbal communication between pedestrians and vehicles in virtual reality
+H Schmidt, J Terwilliger, D AlAdawy, L Fridman
+arXiv preprint arXiv:1904.01931	19	2019
+
+
+
+User authentication through biometric sensors and decision fusion
+S Acharya, L Fridman, P Brennan, P Juola, R Greenstadt, M Kam
+Information Sciences and Systems (CISS), 2013 47th Annual Conference on, 1-6	16	2013
+
+
+
+Distributed path planning for connectivity under uncertainty by ant colony optimization
+L Fridman, S Weber, V Kumary, M Kam
+American Control Conference, 2008, 1952-1958	15	2008
+
+
+
+Decomposition of sugars under non-thermal dielectric barrier discharge plasma
+Y Li, G Friedman, A Fridman, HF Ji
+Clinical Plasma Medicine 2 (2), 56-63	14	2014
+
+
+
+Nonthermal Plasma Reduces Water Consumption While Accelerating Arabidopsis thaliana Growth and Fecundity
+B Peethambaran, J Han, K Kermalli, J Jiaxing, G Fridman, R Balsamo, ...
+Plasma Medicine 5 (2-4)	13	2015
+
+
+
+Human side of Tesla Autopilot: Exploration of functional vigilance in real-world human-machine collaboration
+L Fridman, DE Brown, J Kindelsberger, L Angell, B Mehler, B Reimer
+Tesla	11	2019
+
+
+
+Linking the detection response task and the attend algorithm through assessment of human–machine interface workload
+J Lee, BD Sawyer, B Mehler, L Angell, BD Seppelt, S Seaman, L Fridman, ...
+Transportation research record 2663 (1), 82-89	11	2017
+
+
+
+Active linguistic authentication revisited: Real-time stylometric evaluation towards multi-modal decision fusion
+A Stolerman, L Fridman, R Greenstadt, P Brennan, P Juola
+Proc. IFIP WG 11, 1-11	11	2014
+
+
+
+OMAN: A Mobile Ad Hoc Network Design System
+L Fridman, S Weber, C Graff, D Breen, K Dandekar, M Kam
+Mobile Computing, IEEE Transactions on, 1-1	11	2012
+
+
+
+Measuring adult drivers’ use of Level 1 and 2 driving automation by roadway functional class
+IJ Reagan, W Hu, JB Cicchino, B Seppelt, L Fridman, M Glazer
+Proceedings of the Human Factors and Ergonomics Society Annual Meeting 63 (1 …	10	2019
+
+
+
+Plasma Processes Polym. 7, 194 (2010)
+G Lloyd, G Friedman, S Jafri, G Schultz, A Fridman, K Harding
+10	
+Predicting road scenes from brief views of driving video
+B Wolfe, L Fridman, A Kosovicheva, B Seppelt, B Mehler, B Reimer, ...
+Journal of vision 19 (5), 8-8	9	2019
+
+
+
+MIT autonomous vehicle technology study: large-scale deep learning based analysis of driver behavior and interaction with automation. CoRR 1711.06976 (2019)
+L Fridman, DE Brown, M Glazer, W Angell, S Dodd, B Jenik, J Terwilliger, ...
+arXiv preprint arXiv:1711.06976	9	2017
+
+
+
+Communication-based motion planning
+L Fridman, J Modi, S Weber, M Kam
+Information Sciences and Systems, 2007. CISS'07. 41st Annual Conference on …	9	2007
+
+
+
+Tesla Vehicle Deliveries and Autopilot Mileage Statistics
+L Fridman
+https://www.researchgate.net/profile/Lex_Fridman/publication …	8	2019
+Cross-layer multicommodity capacity expansion on ad hoc wireless networks of cognitive radios
+L Fridman, S Weber, KR Dandekar, M Kam
+Information Sciences and Systems, 2008. CISS 2008. 42nd Annual Conference on …	8	2008
+
+
+
+Dynamics of pedestrian crossing decisions based on vehicle trajectories in large-scale simulated and real-world data
+J Terwilliger, M Glazer, H Schmidt, J Domeyer, H Toyoda, B Mehler, ...
+arXiv preprint arXiv:1904.04202	7	2019
+
+
+
+Investigating the correspondence between driver head position and glance location
+J Lee, M Muñoz, L Fridman, T Victor, B Reimer, B Mehler
+PeerJ Computer Science 4, e146	7	2018
+
+
+
+Sideeye: A generative neural network based simulator of human peripheral vision
+L Fridman, B Jenik, S Keshvari, B Reimer, C Zetzsche, R Rosenholtz
+arXiv preprint arXiv:1706.04568	7	2017
+
+
+
+Investigating Drivers' Head and Glance Correspondence
+J Lee, M Muñoz, L Fridman, T Victor, B Reimer, B Mehler
+arXiv preprint arXiv:1602.07324	5	2016
+
+
+
+Robust optimal power control for ad hoc networks
+L Fridman, R Grote, S Weber, KR Dandekar, M Kam
+2006 40th Annual Conference on Information Sciences and Systems, 729-733	5	2006
+
+
+
+Value of temporal dynamics information in driving scene segmentation
+L Ding, J Terwilliger, R Sherony, B Reimer, L Fridman
+IEEE Transactions on Intelligent Vehicles 7 (1), 113-122	4	2021
+
+
+
+Mit-avt clustered driving scene dataset: Evaluating perception systems in real-world naturalistic driving scenarios
+L Ding, M Glazer, M Wang, B Mehler, B Reimer, L Fridman
+2020 IEEE Intelligent Vehicles Symposium (IV), 232-237	4	2020
+
+
+
+Object as Distribution
+L Ding, L Fridman
+arXiv preprint arXiv:1907.12929	4	2019
+
+
+
+Polymerization of d-ribose in dielectric barrier discharge plasma
+Y Li, R Atif, K Chen, J Cheng, Q Chen, Z Qiao, G Fridman, A Fridman, ...
+Plasma 1 (1), 144-149	4	2018
+
+
+
+Mit driveseg (manual) dataset for dynamic driving scene segmentation
+L Ding, J Terwilliger, R Sherony, B Reimer, L Fridman
+Technical report	3	2020
+
+
+
+Perceiving the roadway in the blink of an eye-rapid perception of the road environment and prediction of events
+B Wolfe, L Fridman, A Kosovicheva, B Seppelt, B Mehler, R Rosenholtz, ...
+Driving Assesment Conference 9 (2017)	3	2017
+
+
+
+Semi-automated annotation of discrete states in large video datasets
+L Fridman, B Reimer
+arXiv preprint arXiv:1612.01035	3	2016
+
+
+
+A framework for robust driver gaze classification
+L Fridman, J Lee, B Reimer, B Mehler
+SAE Technical Paper	3	2016
+
+
+
+Oxidation of N-Acetylcysteine (NAC) under Nanosecond-Pulsed Nonthermal Dielectric Barrier Discharge Plasma
+Y Li, A Kojtari, G Friedman, AD Brooks, A Fridman, SG Joshi, HF Ji
+Plasma Medicine 6 (3-4)	3	2016
+
+
+
+Active linguistic authentication using real-time stylometric evaluation for multi-modal decision fusion
+A Stolerman, A Fridman, R Greenstadt, P Brennan, P Juola
+IFIP International Conference on Digital Forensics, 165-183	3	2014
+
+
+
+Designing Toward Minimalism in Vehicle HMI
+J Kindelsberger, L Fridman, M Glazer, B Reimer
+arXiv preprint arXiv:1805.02787	2	2018
+
+
+
+A Fast Foveated Fully Convolutional Network Model for Human Peripheral Vision
+L Fridman, B Jenik, S Keshvari, B Riemer, C Zetzsche, R Rosenholtz
+Verlag nicht ermittelbar	2	2017
+
+
+
+Non-equilibrium plasmas in agriculture
+J Han, B Peethambaran, R Balsamo, A Fridman, A Rabinovich, V Miller, ...
+2015/7 presented on 22nd international symposium on plasma chemistry …	2	2015
+
+
+
+Precipitation of calcium ions in hard water by pulsed spark discharge
+Y Yang, A Starikovskiy, A Fridman, YI Cho
+2009 IEEE International Conference on Plasma Science-Abstracts, 1-1	2	2009
+
+
+
+Coopertive surveillance in video sensor networks
+L Fridman, R Primerano, S Weber, M Kam
+Distributed Smart Cameras, 2008. ICDSC 2008. Second ACM/IEEE International …	2	2008
+
+
+
+Path planning for network performance
+A Fridman, S Weber, C Graff, M Kam
+IEEE GLOBECOM 2007-IEEE Global Telecommunications Conference, 1258-1262	2	2007
+
+
+
+Owl and lizard: Patterns of head pose and eye pose in driver gaze classification. IET Computer Vision, 2016
+
+
+
+L Fridman, J Lee, B Reimer, T Victor
+Press	2	
+Mobile Active Authentication via Linguistic Modalities
+R Greenstadt, M Kam, L Fridman, P Brenna
+DREXEL UNIV PHILADELPHIA PA	1	2015
+
+
+
+Learning of Identity from Behavioral Biometrics for Active Authentication
+L Fridman
+Drexel University	1	2014
+
+
+
+Active Authentication Linguistic Modalities
+A Fridman, A Stolerman, S Acharya, P Brennan, P Juola, R Greenstadt, ...
+DREXEL UNIV PHILADELPHIA PA	1	2013
+
+
+
+Observations on sum user rate for cellular downlink
+A Fridman, J Wildman, S Weber
+8th International Conference on Cognitive Radio Oriented Wireless Networks …	1	2013
+
+
+
+Plasma wound treatment: From physics to animal models
+G Friedman, A Fridman, G Fridman, S Davis, L Piano
+2010 Abstracts IEEE International Conference on Plasma Science, 1-1	1	2010
+
+
+
+Optimum statistical representation obtained from an intermediate feature level of the visual hierarchy
+N Cheema, L Fridman, R Rosenholtz, C Zetzsche
+Submitted for publication	1	
+Neurobiologically realistic model of statistical pooling in peripheral vision
+N Cheema, L Fridman, R Rosenholtz, C Zetzsche
+Submitted for publication	1	
+Deep Learning for Understanding the Human
+L Fridman
+Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing …		2018
+
+
+
+Seeing the road in the blink of an eye-rapid perception of the driver's visual environment
+B Wolfe, L Fridman, A Kosovicheva, B Reimer, R Rosenholtz
+Journal of Vision 17 (10), 561-561		2017
+
+
+
+Neural Computation of Statistical Image Properties in Peripheral Vision
+C Zetzsche, R Rosenholtz, N Cheema, K Gadzicki, L Fridman
+2017
+
+
+
+On the joint impact of bias and power control on downlink spectral efficiency in cellular networks
+L Fridman, J Wildman, S Weber
+arXiv preprint arXiv:1512.02425		2015
+
+
+
+Enhancement of Limb Growth by Non-Thermal Plasma Generated Reactive Species
+N Shainsky, M Steinbeck, G Fridman, A Fridman, G Friedman, T Freeman
+APS Annual Gaseous Electronics Meeting Abstracts, MR1. 066		2013
+
+
+
+Clinical Plasma Medicine
+YF Li, D Taylor, JL Zimmermann, W Bunk, R Monetti, G Isbary, ...
+2013
+
+
+
+Sterilization of E. coli by pulsed spark discharge in continuous water circulation system
+Y Yang, A Starikovskiy, A Fridman, YI Cho
+2009 IEEE International Conference on Plasma Science-Abstracts, 1-1		2009
+
+
+
+Visualization of resource allocation in large-scale mobile ad hoc networks
+L Fridman, D Hennessey, D Breen, S Weber, M Kam
+International Symposium on Visual Computing, 554-563		2007
+
+OK
+
+MIT DriveSeg (Semi-auto) Dataset: Large-scale Semi-automated Annotation of Semantic Driving Scenes
+L Ding, M Glazer, J Terwilliger, B Reimer, L Fridman
+Active Linguistic Authentication Revisited
+A Stolerman, A Fridman, R Greenstadt, P Brennan, P Juola
+Articles 1–78
+HelpPrivacyTerms
+
+OK
+
+Anyways one day we do a little Jordan Peterson shtick the next you know it...
+
+"
+Oh
+Jordan Belfort, Jordan Belfort
+Yo, yo
+Yo, yo
+Yo, yo
+I've been getting dirty money; Jordan Belfort
+Stacking penny stocks while I'm flipping these birds
+Sipping on Ciroc, trip 'em up with the words
+I just popped a molly and I think this be my third
+Jordan Belfort, Jordan Belfort
+I been getting dirty money; Jordan Belfort
+Stacking penny stocks while I'm flipping these birds
+I just flipped a birdy, money so dirty
+Got my bitch a mink, furry like Furby
+I came up, made a milly, spent it on a rollie
+Stackin gouda, feta, chedda cheese and ravioli
+Or maybe fettuccine, dirty martini
+I'ma fuck your bitch, call me Houdini
+I'm drivin' Lamborghini, your ho in a bikini
+Eight bottles to the neck, three wishes from a genie
+Benjamin ain't dirty, but these Franklins be filthy
+Always going to court, but I'm never pleadin' guilty
+Ballin' so hard I only be slam dunkin’
+Beat steady rock and the trunk straight thumpin'
+I be ridin' foreign, pourin' merlot while I swerve
+Pedal to the medal when I'm whippin' round the curb
+And I'm rollin' up this marijuana, you can smell the herb
+And I be getting all this lettuce, I ain't talkin' iceberg
+I've been getting dirty money; Jordan Belfort
+Stacking penny stocks while I'm flipping these birds
+Sipping on Ciroc, trip 'em up with the words
+I just popped a molly and I think this be my third
+Jordan Belfort, Jordan Belfort
+I been getting dirty money; Jordan Belfort
+Stacking penny stocks while I'm flipping these birds
+Jordan Belfort, Burberry shirt
+LV loafers on my sofa in Bel-Air
+Turnin' up daily cause we can't turn down at work
+I been lightin' loud lately like my volume switch don't work
+And my cologne is Versace, Medusa got me stoned
+I'm always high on something, but I usually like to smoke
+We been long time friends, me and Ben Frank
+Every fucking day he needs a ride home from the bank
+Muhfucka, you don't know me, you ain't in my tax section
+My wallet ain't fat, it's in the gym straight flexing
+I don't call your bitch back and she's checkin' her reception
+Bitch with double D's, she's all up on my erection
+And I'm in the ovaries, but I ain't about affection
+So easily the sober me just smokes and then forgets them
+Sometimes this life seems a little stressful
+Especially when they tell me that I am something special
+I've been getting dirty money; Jordan Belfort
+Stacking penny stocks while I'm flipping these birds
+Sipping on Ciroc, trip 'em up with the words
+I just popped a molly and I think this be my third
+Jordan Belfort, Jordan Belfort
+I been getting dirty money; Jordan Belfort
+Stacking penny stocks while I'm flipping these birds
+Jordan Belfort, Jordan Belfort
+Yo, yo
+Yo, yo
+Yo, yo
+Yo, yo
+"

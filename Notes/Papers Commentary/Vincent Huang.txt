@@ -1,0 +1,68 @@
+Cool stuff for the most part in line and aligned with my own interests to some degree.
+
+Home
+Favorites
+Projects
+Resume
+Writing
+
+Hello :]
+I'm Vincent, an undergrad at MIT majoring in math and exploring computer science and biology. I'm interested in understanding and improving individual behaviour through both human-centered approaches [eg. introspection, therapy, cognitive science] and technical ones [eg. artificial intelligence, friendly design, brain tech]. In my free time I enjoy working on miscellaneous projects, writing, and meeting new people. Previously, I've worked in crypto, biotech, healthcare, and other roles. I've also participated in communal living experiments such as School 2.0 and math contests such as the IMO. Feel free to reach out if any of the above interests you!
+
+
+I am currently exploring
+Becoming a better writer
+Running a fake hotel
+Systems code and performance engineering
+Up next
+Brain-Computer Interfaces
+The Periodic Table by Primo Levi
+Rust
+Made by Vincent Huang. Design inspired by Claire Wang, Dhruvik Parikh, Eric Zhang
+
+Home
+Favorites
+Projects
+Resume
+Writing
+
+Education
+Massachusetts Institute of Technology
+August 2019 -
+Pursuing B.S. in Math and Computer Science, Minor in Biology
+Selected coursework [† graduate-level]:
+Math: Functional Analysis [18.102], Combinatorics† [18.218], Probability† [18.675]
+CS: Embedded Systems [6.08], Machine Learning [6.036], Algorithms II [6.046], Computation Structures [6.004], Robotic Manipulation† [6.843], Parallel Computing† [6.338]
+Bio: Genetics [7.03], Biochemistry [7.05], Systems Biology [7.32], Organic Chemistry [5.12], Infectious Disease [7.26]
+Work Experience
+Zero Knowledge Researcher at 0xPARC
+Spring 2022
+Implemented and optimized the first ever implementation of the optimal Ate pairing within a zk-SNARK, and then wrote servers to verify proofs of BLS signature validity
+Quantitative Research Intern at Two Sigma
+Summer 2021
+Modeled market returns as part of the News team
+Machine Learning Intern at Asimov
+Spring 2021
+Used convolutional neural networks and transformers to solve problems in generative DNA sequence design and to better understand the role of UTRs and synonymous codons in mammalian genomes
+Data Scientist Contractor at Ambience Healthcare
+Winter 2020
+Applied NLP techniques to extract and summarize information from doctor-patient meeting notes for usage in telemedicine
+Software Engineering Intern at Amazon Web Services
+Summer 2020
+Developed features related to test execution and reporting of test results for AWS Codebuild, a continuous integration service
+Researcher at MIT UROP Program
+Spring 2020
+Improved results related to convex optimization over polytopes. Studied properties of graphs and proved new bounds on the size of the spanning tree polytope for chordal graphs
+Instructor at AlphaStar Academy
+Summer 2018
+Taught math classes, prepared handouts, and wrote curriculum for gifted high school students preparing for national math competitions
+Researcher at PRIMES-USA
+Spring 2018 - Summer 2019
+Predicted the movements of refugees across a region during refugee crises. Devised new models that work as accurately as existing models and more efficiently. Recognized as a Regeneron STS Finalist, 9th Overall. Published in the IMA Journal of Applied Mathematics, Volume 85, Issue 6, December 2020
+Selected Awards
+International Math Olympiad [2017-2019]: Represented the USA, individually ranked 103rd [Silver], 10th [Gold], 11th [Gold]
+Regeneron Science Talent Search [2019]: Finalist, 9th overall
+USA Math Olympiad [2018-2019]: Winner, ranked 2nd twice
+USA Computing Olympiad [2016-2019]: Platinum Division, top 200 overall
+Alibaba Global Math Contest [2020]: Honorable Mention, top 60 overall
+Made by Vincent Huang. Design inspired by Claire Wang, Dhruvik Parikh, Eric Zhang

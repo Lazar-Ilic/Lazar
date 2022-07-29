@@ -1,0 +1,9 @@
+From a recent discussion I decided to brain storm a little bit on the topic of market making say for an upcoming Grammy Awards. Now the actual metric used to evaluate say if I output some credence function is very important and relevant. I am fairly confident that there exists an infinite family of metrics which do incentivise True or nearly True credence reporting but it still matters quite a lot really.
+
+I was thinking of making some model based upon song data, metrics from Spotify, YouTube, etc. as well as Natural Language Processing based upon like sentiment analysis from Reddit, Pitchfork, reviewers, commentariat. I thought it might be wise to do some bigrams... basically any type of project which does involve some degree of web scraping.
+
+I consulted some previous attempts for this task.
+
+Music Industry Analysis With Unsupervised And Supervised Machine Learning - Binary Classification
+
+Analysing Grammy, Emmy, And Academy Awards Data Using Regression And Maximum Information Coefficient - David E. Peacock, Gongzhu Hu

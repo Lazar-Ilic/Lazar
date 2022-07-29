@@ -1,0 +1,48 @@
+Solid writing. Solid expository writings too. Frankly again this human would get instantly rejected by many firms for totally fucking flagrantly lying and misrepresenting herself in a clear violation of United States Of Amerika contract law for there was no Putnam 2020 actually and this is really dishonest and disingenuous. The LaTeX thing was half interesting too.
+
+Sara Fish
+I am a math major at Caltech, expected graduation date June 2022.
+
+My research interests are in discrete mathematics, theoretical computer science, interactive/automatic theorem proving, and machine learning, especially where they intersect.
+
+My (academia oriented) CV.
+
+Feel free to email me at sfish at caltech dot edu.
+
+In summer 2021, I was a counselor at PROMYS, a TA for Caltech's Math 0, and a mentor at the Polymath Jr. REU.
+In Fall 2020 - Spring 2021, I took a year off from undergrad to do research in geometric group theory and then ML/AI.
+In summer 2020, I did combinatorics research with David Conlon through Caltech's SURF program.
+In summer 2019, I participated in the SMALL REU at Williams College.
+In summer 2018, I worked as a JC at Canada/USA Mathcamp and participated in the CUNY Combinatorics REU.
+I enrolled at Caltech in Fall 2017.
+Research
+Google Scholar
+My favorite paper
+A Construction for Difference Sets with Local Properties
+with Ben Lund and Adam Sheffer, during the CUNY Combinatorics REU
+European Journal of Combinatorics, Vol. 79, June 2019, pg. 237-243.
+arXiv
+Other papers
+Crescent configurations in Normed Spaces
+with D. King, S. J. Miller, E. A. Palsson, and C. Wahlenmayer, during the SMALL REU
+Integers, Vol. 20, #A96. URL
+
+Local Properties via Color Energy Graphs and Forbidden Configurations
+with Cosmin Pohoata and Adam Sheffer, during the CUNY Combinatorics REU
+SIAM Journal on Discrete Mathematics, Vol. 34, Jan 2020, pg. 177-187.
+arXiv
+
+Math Notes
+I taught a 2-day class about Cayley graphs at Canada/USA Mathcamp (July 18-19 2018)
+Day 1: Lecture Notes, Homework
+Day 2: Lecture Notes, Homework
+Talk given at the Caltech Undergraduate Math Club about the Erdős distinct distances problem:
+Lecture Notes (October 5 2018)
+Talk given at the Caltech Undergraduate Math Club about the unit distances problem:
+Lecture Notes (October 4 2019)
+Talk given at the Caltech Undergraduate Math Club about Cayley graphs:
+Lecture Notes (February 7 2020)
+Fast-paced 90min competition prep session on CHMMC (Caltech Harvey Mudd Math Competition) problems:
+Slides (January 16 2021)
+Other
+I wrote an interactive LaTeX Tutorial (July 2021). I used it to teach a LaTeX minicourse at PROMYS, and it was also used in Caltech's summer course Math 0.

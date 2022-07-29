@@ -1,0 +1,57 @@
+Trie Insert And Find: n
+	B-A-N-A-N-A
+	     `T-E-R
+
+Hashing: n
+
+Prefix Function/String Match: n+m
+	Prefix Function for ABACABA one obtains 0010123 is the length of the longest nonidentical prefix which is also a suffix of as[0,1,..,i].
+
+Strings Match: m+n+p
+
+Max Prefix Matched From Index: n
+	For ABACABA one obtains 0010301
+
+Max Palindromes: n
+	The maximal size of palindrome centered at each index.
+
+Min Rotation: n
+	Finds the lexicographically smallest rotation.
+
+Suffix And Least Common Prefix Array: n log n
+	For example for BAABA one obtains that the suffixes sorted lexicographically are:
+	A
+	AABA
+	ABA
+	BA
+	BAABA
+	The Suffix Arrray is 541230 indices of suffixes in original string.
+	And the Least Common Prefix Array is 001102 representing the mutual prefix match length between consecutive suffixes.
+
+Suffix Trie: n
+
+-------------
+
+Type Printer: n
+	Trie and Depth First Search through being sure to end on longest string by entering those vertices last.
+
+Number Of Strings In Set With Certain Prefix: n
+	Auxiliary to trie, size of subtree of vertex.
+
+Rareville:
+	Similar, key idea is auxiliary to trie useful.
+
+Hash Of Substring After n Preprocessing: 1
+
+Substring Range Matching:
+	Hash the dictionary. Note the sum of lengths 20000 condition implies the number of distinct lengths is ~sqrt(20000) ~ 140 means i.e. sorting queries on length of S then standard interval processing for queries.
+
+Max Palindromes Around Each Index: n
+
+Min Rotation: n
+
+String Match: n
+	To find matches of "LOL" in "LOLOL" one runs Prefix Function on string "LOL#LOLOL" and obtains 001012323 i.e. 3s map to instances and indices of occurrences map to indices in original string.
+
+Longest Common Substring: nm
+	Dynamic Program max[LCS[a][b-1],LCS[a-1][b]] or 1+LCS[a-1][b-1] if as[a]==bs[b]

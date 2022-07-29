@@ -1,0 +1,1559 @@
+Comparative evaluation of Received Signal-Strength Index (RSSI) based indoor localization techniques for construction jobsites
+X Luo, WJ O’Brien, CL Julien
+Advanced Engineering Informatics 25 (2), 355-363	317	2011
+
+OK
+
+Egospaces: Facilitating rapid development of context-aware mobile applications
+C Julien, GC Roman
+IEEE Transactions on Software Engineering 32 (5), 281-298	201	2006
+
+
+
+Virtual sensors: Abstracting data from physical sensors
+S Kabadayi, A Pridgen, C Julien
+2006 International Symposium on a World of Wireless, Mobile and Multimedia …	194	2006
+
+OK
+
+Perceptions on the state of the art in verification and validation in cyber-physical systems
+X Zheng, C Julien, M Kim, S Khurshid
+IEEE Systems Journal 11 (4), 2614-2627	105*	2015
+
+
+
+Egocentric context-aware programming in ad hoc mobile environments
+C Julien, GC Roman
+Proceedings of the 10th ACM SIGSOFT symposium on Foundations of software …	103	2002
+
+
+
+Network abstractions for context-aware mobile computing
+GC Roman, C Julien, Q Huang
+Proceedings of the 24th International Conference on Software Engineering …	80	2002
+
+
+
+A formal treatment of context-awareness
+GC Roman, C Julien, J Payton
+International Conference on Fundamental Approaches to Software Engineering …	71	2004
+
+OK
+
+A platform for evaluating autonomous intersection management policies
+CL Fok, M Hanna, S Gee, TC Au, P Stone, C Julien, S Vishwanath
+2012 IEEE/ACM Third International Conference on Cyber-Physical Systems, 87-96	62	2012
+
+
+
+Relying on safe distance to achieve strong partitionable group membership in ad hoc networks
+Q Huang, C Julien, GC Roman
+IEEE Transactions on Mobile Computing 3 (2), 192-205	62	2004
+
+
+
+Relying on safe distance to achieve strong partitionable group membership in ad hoc networks
+Q Huang, C Julien, GC Roman
+IEEE Transactions on Mobile Computing 3 (2), 192-205	62	2004
+
+
+
+An energy-efficient quality adaptive framework for multi-modal sensor context recognition
+N Roy, A Misra, C Julien, SK Das, J Biswas
+2011 IEEE international conference on pervasive computing and communications …	54	2011
+
+
+
+Verification and validation in cyber physical systems: Research challenges and a way forward
+X Zheng, C Julien
+2015 IEEE/ACM 1st International Workshop on Software Engineering for Smart …	53	2015
+
+
+
+Blend: practical continuous neighbor discovery for bluetooth low energy
+C Julien, C Liu, AL Murphy, GP Picco
+2017 16th ACM/IEEE International Conference on Information Processing in …	47	2017
+
+OK
+
+Software engineering for mobility: reflecting on the past, peering into the future
+GP Picco, C Julien, AL Murphy, M Musolesi, GC Roman
+Future of Software Engineering Proceedings, 13-28	41	2014
+
+
+
+Challenges of satisfying multiple stakeholders: quality of service in the internet of things
+CL Fok, C Julien, GC Roman, C Lu
+Proceedings of the 2nd workshop on software engineering for sensor network …	41	2011
+
+OK
+
+Active coordination in ad hoc networks
+C Julien, GC Roman
+International Conference on Coordination Languages and Models, 199-215	40	2004
+
+OK
+
+Software engineering for smart cyber-physical systems--towards a research agenda: report on the First International Workshop on Software Engineering for Smart CPS
+T Bures, D Weyns, C Berger, S Biffl, M Daun, T Gabor, D Garlan, ...
+ACM SIGSOFT Software Engineering Notes 40 (6), 28-32	37	2015
+
+
+
+The case for end-user programming of ubiquitous computing environments
+S Holloway, C Julien
+Proceedings of the FSE/SDP workshop on Future of software engineering …	37	2010
+
+
+
+A framework for evaluating dtn mobility models
+A Petz, J Enderle, C Julien
+Proceedings of the 2nd International Conference on Simulation Tools and …	37	2009
+
+
+
+Efficient and scalable runtime monitoring for cyber–physical system
+X Zheng, C Julien, R Podorozhny, F Cassez, T Rakotoarivelo
+IEEE Systems Journal 12 (2), 1667-1678	36	2016
+
+
+
+Evasion planning for autonomous vehicles at intersections
+TC Au, CL Fok, S Vishwanath, C Julien, P Stone
+2012 IEEE/RSJ International Conference on Intelligent Robots and Systems …	34	2012
+
+
+
+Resource-optimized quality-assured ambiguous context mediation framework in pervasive environments
+N Roy, SK Das, C Julien
+IEEE transactions on mobile computing 11 (2), 218-229	34	2011
+
+
+
+On coordination in practical multi-robot patrol
+N Agmon, CL Fok, Y Emaliah, P Stone, C Julien, S Vishwanath
+2012 IEEE International Conference on Robotics and Automation, 650-656	32	2012
+
+
+
+Modeling adaptive behaviors in context UNITY
+GC Roman, C Julien, J Payton
+Theoretical Computer Science 376 (3), 185-204	32	2007
+
+
+
+Pervasive computing middleware: current trends and emerging challenges
+C Becker, C Julien, P Lalanda, F Zambonelli
+CCF Transactions on Pervasive Computing and Interaction 1 (1), 10-23	27	2019
+
+
+
+Pharos: A testbed for mobile cyber-physical systems
+C Fok, A Petz, D Stovall, N Paine, C Julien, S Vishwanath
+Univ. of Texas at Austin, Tech. Rep. TR-ARiSE-2011-001	27	2011
+
+
+
+
+Braceassertion: Runtime verification of cyber-physical systems
+X Zheng, C Julien, R Podorozhny, F Cassez
+2015 IEEE 12th International Conference on Mobile Ad Hoc and Sensor Systems …	26	2015
+
+
+
+A declarative approach to agent-centered context-aware computing in ad hoc wireless environments
+R Gruia-Catalin, C Julien, AL Murphy
+International Workshop on Software Engineering for Large-Scale Multi-agent …	26	2002
+
+
+
+Madserver: A server architecture for mobile advanced delivery
+A Petz, A Lindgren, P Hui, C Julien
+Proceedings of the seventh ACM international workshop on Challenged networks …	25	2012
+
+
+
+A local data abstraction and communication paradigm for pervasive computing
+S Kabadayi, C Julien
+Fifth Annual IEEE International Conference on Pervasive Computing and …	25	2007
+
+
+
+Coordination middleware supporting rapid deployment of ad hoc mobile systems
+R Handorean, J Payton, C Julien, GC Roman
+23rd International Conference on Distributed Computing Systems Workshops …	25	2003
+
+
+
+Chitchat: Navigating tradeoffs in device-to-device context sharing
+S Cho, C Julien
+2016 IEEE International Conference on Pervasive Computing and Communications …	24	2016
+
+
+
+Automatic consistency assessment for query results in dynamic environments
+J Payton, C Julien, GC Roman
+Proceedings of the the 6th joint meeting of the European software ...	23	2007
+
+
+
+Resource discovery with evolving tuples
+D Stovall, C Julien
+International workshop on Engineering of software services for pervasive ...	23	2007
+
+
+
+Supporting generalized context interactions
+G Hackmann, C Julien, J Payton, GC Roman
+International Workshop on Software Engineering and Middleware, 91-106	22	2004
+
+
+
+Reasoning about context-awareness in the presence of mobility
+C Julien, J Payton, GC Roman
+Electronic Notes in Theoretical Computer Science 97, 259-276	21	2004
+
+
+
+Expressive analytical model for routing protocols in mobile ad hoc networks
+T Jun, A Dalton, S Bodas, C Julien, S Vishwanath
+2008 IEEE International Conference on Communications, 2134-2140	20	2008
+
+
+
+A dynamic architecture for lightweight decision support in mobile sensor networks
+C Julien, J Hammer, W O’Brien
+Proc. of the Wkshp. on Building Software for Pervasive Comp	20*	2005
+
+
+
+Braceforce: A middleware to enable sensing integration in mobile applications for novice programmers
+X Zheng, DE Perry, C Julien
+Proceedings of the 1st International Conference on Mobile Software …	19	2014
+
+
+
+Grapevine: Efficient situational awareness in pervasive computing environments
+E Grim, CL Fok, C Julien
+2012 IEEE International Conference on Pervasive Computing and Communications …	19	2012
+
+
+
+Gander: Mobile, Pervasive Search of the Here and Now in the Here and Now
+J Michel, C Julien, J Payton
+IEEE Internet of Things Journal 1 (5), 483-496	18	2014
+
+
+
+Automated routing protocol selection in mobile ad hoc networks
+C Julien
+Proceedings of the 2007 ACM symposium on Applied computing, 906-913	18	2007
+
+
+
+Lasso: A device-to-device group monitoring service for smart cities
+M Saloni, C Julien, AL Murphy, GP Picco
+2017 International Smart Cities Conference (ISC2), 1-6	17	2017
+
+
+
+A secure modular mobile agent system
+A Pridgen, C Julien
+Proceedings of the 2006 international workshop on Software engineering for …	17	2006
+
+
+
+Supporting context-aware interaction in dynamic multi-agent systems
+C Julien, GC Roman
+International Workshop on Environments for Multi-Agent Systems, 168-189	17	2004
+
+
+
+Semantic self-assessment of query results in dynamic environments
+J Payton, C Julien, GC Roman, V Rajamani
+ACM Transactions on Software Engineering and Methodology (TOSEM) 19 (4), 1-33	16	2010
+
+
+
+Real-time simulation support for runtime verification of cyber-physical systems
+X Zheng, C Julien, H Chen, R Podorozhny, F Cassez
+ACM Transactions on Embedded Computing Systems (TECS) 16 (4), 1-24	15	2017
+
+
+
+Network coded routing in delay tolerant networks: An experience report
+A Petz, CL Fok, C Julien, B Walker, C Ardi
+Proceedings of the 3rd Extreme Conference on Communication: The Amazon …	15	2011
+
+
+
+The context of coordinating groups in dynamic mobile networks
+C Julien
+International Conference on Coordination Languages and Models, 49-64	15	2011
+
+
+
+Madman: A middleware for delay-tolerant mobile ad-hoc networks
+A Petz, A Bednarczyk, N Paine, D Stovall, C Julien
+University of Texas at Austin	15	2010
+
+
+
+Pharos: An application-oriented testbed for heterogeneous wireless networking environments
+D Stovall, N Paine, A Petz, J Enderle, C Julien, S Vishwanath
+The University of Texas at Austin, Tech. Rep. TR-UTEDGE-2009-006	15	2009
+
+
+
+Role of digital games in self-management of cardiovascular diseases: A scoping review
+K Radhakrishnan, T Baranowski, C Julien, E Thomaz, M Kim
+Games for health journal 8 (2), 65-73	14	2019
+
+
+
+Scents: Collaborative sensing in proximity iot networks
+C Liu, J Hua, C Julien
+2019 IEEE International Conference on Pervasive Computing and Communications …	14	2019
+
+OK
+
+Quality and context-aware smart health care: Evaluating the cost-quality dynamics
+N Roy, C Julien, A Misra, SK Das
+IEEE Systems, Man, and Cybernetics Magazine 2 (2), 15-25	14	2016
+
+OK
+
+An architecture for decision support in ad hoc sensor networks.
+WJ O'Brien, C Julien, S Kabadayi, X Luo, J Hammer
+J. Inf. Technol. Constr. 14, 309-327	14	2009
+
+
+
+An interrelational grouping abstraction for heterogeneous sensors
+V Rajamani, S Kabadayi, C Julien
+ACM Transactions on Sensor Networks (TOSN) 5 (3), 1-31	14	2009
+
+
+
+Quality-of-inference (QoINF)-aware context determination in assisted living environments
+N Roy, A Misra, SK Das, C Julien
+Proceedings of the 1st ACM international workshop on Medical-grade wireless …	14	2009
+
+
+
+Cross-layer discovery and routing in reconfigurable wireless networks
+C Julien, M Venkataraman
+2006 IEEE International Conference on Mobile Ad Hoc and Sensor Systems, 119-128	14	2006
+
+
+
+Integrating participatory sensing in application development practices
+J Payton, C Julien
+Proceedings of the FSE/SDP workshop on Future of software engineering …	13	2010
+
+
+
+Inquiry and introspection for non-deterministic queries in mobile networks
+V Rajamani, C Julien, J Payton, GC Roman
+International Conference on Fundamental Approaches to Software Engineering …	13	2009
+
+
+
+Trends and challenges for software engineering in the mobile domain
+L Baresi, WG Griswold, GA Lewis, M Autili, I Malavolta, C Julien
+IEEE Software 38 (1), 88-96	12	2020
+
+
+
+An architecture for context-aware adaptation of routing in delay-tolerant networks
+A Petz, A Hennessy, B Walker, CL Fok, C Julien
+Proceedings of the 4th Extreme Conference on Communication (ExtremeCom 2012)	12	2012
+
+
+
+Supporting multi-fidelity-aware concurrent applications in dynamic sensor networks
+N Roy, V Rajamani, C Julien
+2010 8th IEEE International Conference on Pervasive Computing and …	12	2010
+
+
+
+Opportunistic federated learning: An exploration of egocentric collaboration for pervasive computing applications
+S Lee, X Zheng, J Hua, H Vikalo, C Julien
+2021 IEEE International Conference on Pervasive Computing and Communications …	11	2021
+
+
+
+Gander: Personalizing search of the here and now
+J Michel, C Julien, J Payton, GC Roman
+International Conference on Mobile and Ubiquitous Systems: Computing …	11	2011
+
+
+
+Modeling delivery delay for flooding in mobile ad hoc networks
+T Jun, N Roy, C Julien
+2010 IEEE international conference on communications, 1-6	11	2010
+
+
+
+Resolving and mediating ambiguous contexts for pervasive care environments
+N Roy, C Julien, SK Das
+Mobile and Ubiquitous Systems: Networking & Services, MobiQuitous, 2009 …	11*	2009
+
+
+
+Context-sensitive data structures supporting software development in ad hoc mobile settings
+J Payton, GC Roman, C Julien
+Proc. the 3rd International Workshop on Software Engineering for Large-Scale …	11	2004
+
+OK
+
+Communications methods and apparatus
+J Michel, V Bhargava, C Julien
+US Patent 10,205,505	10	2019
+
+
+
+Methods and apparatus for efficiently communicating time varying data
+J Michel, V Bhargava, C Julien
+US Patent 9,451,514	10	2016
+
+OK
+
+Experiments on the spatial distribution of network code diversity in segmented dtns
+B Walker, C Ardi, A Petz, J Ryu, C Julien
+Proceedings of the 6th ACM workshop on Challenged networks, 15-20	10	2011
+
+
+
+Passive network-awareness for dynamic resource-constrained networks
+A Petz, T Jun, N Roy, CL Fok, C Julien
+IFIP International Conference on Distributed Applications and Interoperable …	10	2011
+
+
+
+Adaptive data quality for persistent queries in sensor networks
+V Rajamani, C Julien
+International Conference on Heterogeneous Networking for Quality …	10	2009
+
+OK
+
+Opening pervasive computing to the masses using the SEAP middleware
+S Holloway, D Stovall, J Lara-Garduno, C Julien
+2009 IEEE International Conference on Pervasive Computing and Communications …	10	2009
+
+
+
+Developing collaborative applications using sliverware
+S Holloway, C Julien
+OTM Confederated International Conferences" On the Move to Meaningful …	10	2006
+
+OK
+
+PINCH: Self-organized context neighborhoods for smart environments
+C Liu, C Julien, AL Murphy
+2018 IEEE 12th International Conference on Self-Adaptive and Self-Organizing …	9	2018
+
+
+
+Blurring snapshots: Temporal inference of missing and uncertain data
+V Rajamani, C Julien
+2010 IEEE International Conference on Pervasive Computing and Communications …	9	2010
+
+OK
+
+Delay analysis for symmetric nodes in mobile ad hoc networks
+T Jun, C Julien
+Proceedings of the 4th ACM workshop on Performance monitoring and …	9	2009
+
+
+
+Scenes: Abstracting interaction in immersive sensor networks
+S Kabadayı, C Julien
+Pervasive and Mobile Computing 3 (6), 635-658	9	2007
+
+
+
+Adaptive preference specifications for application sessions
+C Julien
+International Conference on Service-Oriented Computing, 78-89	9	2006
+
+
+
+Determining quality-and energy-aware multiple contexts in pervasive computing environments
+N Roy, A Misra, SK Das, C Julien
+IEEE/ACM Transactions on Networking 24 (5), 3026-3042	8	2015
+
+
+
+Demo abstract disseminate: A demonstration of device-to-device media dissemination
+V Srinivasan, T Kalbarczyk, C Julien
+2015 IEEE International Conference on Pervasive Computing and Communication …	8	2015
+
+
+
+A cloudlet-based proximal discovery service for machine-to-machine applications
+J Michel, C Julien
+International Conference on Mobile Computing, Applications, and Services …	8	2013
+
+
+
+Rethinking context for pervasive computing: Adaptive shared perspectives
+C Julien, A Petz, E Grim
+2012 12th International Symposium on Pervasive Systems, Algorithms and …	8	2012
+
+
+
+What users want from smart environments
+S Holloway, D Stovall, C Julien
+Technical Report, UT-EDGE-2009-008	8	2009
+
+OK
+
+An adaptive middleware to support delay tolerant networking
+A Petz, C Julien
+Proceedings of the 7th Workshop on Reflective and Adaptive Middleware, 17-22	8	2008
+
+
+
+Dynamic Decision Support in Direct-Access Sensor Networks; A Demonstration
+J Hammer, I Hassan, C Julien, S Kabadayi, WJ O'Brien, J Trujillo
+2006 IEEE International Conference on Mobile Ad Hoc and Sensor Systems, 578-581	8	2006
+
+
+
+Enabling ubiquitous coordination using application sessions
+C Julien, D Stovall
+International Conference on Coordination Languages and Models, 130-144	8	2006
+
+
+
+Relying on safe distance to ensure consistent group membership in ad hoc networks
+Q Huang, C Julien, G Roman, A Hazemi
+Proc. 23rd Int’l. Conf. in Software Engineering (ISCE)	8	2001
+
+
+
+Project SMART: A cooperative educational game to increase physical activity in elementary schools
+C Julien, D Castelli, D Bray, S Lee, S Burson, Y Jung
+Smart Health 19, 100163	7	2021
+
+
+
+Warble: Programming abstractions for personalizing interactions in the internet of things
+Y Saputra, J Hua, N Wendt, C Julien, GC Roman
+2019 IEEE/ACM 6th International Conference on Mobile Software Engineering …	7	2019
+
+
+
+Omni: An application framework for seamless device-to-device interaction in the wild
+T Kalbarczyk, C Julien
+Proceedings of the 19th International Middleware Conference, 161-173	7	2018
+
+
+
+Pervasive Context Sharing in Magpie: Adaptive Trust-Based Privacy Protection
+C Liu, C Julien
+International Conference on Mobile Computing, Applications, and Services …	7	2015
+
+
+
+The Grapevine Context Processor: Application support for efficient context sharing
+S Cho, C Julien
+2015 2nd ACM International Conference on Mobile Software Engineering and …	7	2015
+
+
+
+Trust-based, privacy-preserving context aggregation and sharing in mobile ubiquitous computing
+M Xing, C Julien
+International Conference on Mobile and Ubiquitous Systems: Computing …	7	2013
+
+
+
+The gander search engine for personalized networked spaces
+JR Michel
+7	2012
+
+
+
+PAQ: persistent adaptive query middleware for dynamic environments
+V Rajamani, C Julien, J Payton, GC Roman
+ACM/IFIP/USENIX International Conference on Distributed Systems Platforms …	7	2009
+
+
+
+Sicc: Source-initiated context construction in mobile ad hoc networks
+C Julien, GC Roman, Q Huang
+IEEE transactions on mobile computing 7 (4), 401-415	7	2008
+
+
+
+Resource-directed discovery and routing in mobile ad hoc networks
+C Julien, M Venkataraman
+Technical Report TR-UTEDGE-2005-01, Univ. of Texas	7	2005
+
+
+
+Formal specification and design of mobile systems
+GC Roman, C Julien, Q Huang
+Parallel and Distributed Processing Symposium, International 3, 0211-0211	7	2002
+
+
+
+Arciot: Enabling intuitive device control in the internet of things through augmented reality
+J Hua, S Lee, GC Roman, C Julien
+2021 IEEE International Conference on Pervasive Computing and Communications …	6	2021
+
+
+
+LGBTQ+ in ECE: Culture and (non) visibility
+JA Yang, MK Sherard, C Julien, M Borrego
+IEEE Transactions on Education 64 (4), 345-352	6	2021
+
+Uh interesting yeah yeah interesting enough I mean of course obviously all of us in the Science 101 community might think that even if the culture war was flawless and so on and so on gayness and LGBTQ+ would still be non trivially anti correlated with becoming a top academician but this would vary I mean I know a lot of gay men have done Great Great Great things as well as Lesbian girls and Asexual humans of a variety of differing different biologies and morphologies so... you know you see Rainbow flags everywhere these days nowadays.
+
+Paco: A System-Level Abstraction for On-Loading Contextual Data to Mobile Devices
+N Wendt, C Julien
+IEEE Transactions on Mobile Computing 17 (9), 2127-2140	6	2018
+
+
+
+Experiences using a miniature vehicular network testbed
+A Petz, CL Fok, C Julien
+Proceedings of the ninth ACM international workshop on Vehicular inter …	6	2012
+
+
+
+Virtual sensors: a demonstration
+S Kabadayi, C Julien, W O’Brien, D Stovall
+The 26th international conference on computer communications: demonstrations …	6	2007
+
+
+
+Passive network awareness for adaptive mobile applications
+R Srinivasan, C Julien
+Proc. of MUCS, 22-31	6	2006
+
+
+
+rIoT: Enabling seamless context-aware automation in the internet of things
+J Hua, C Liu, T Kalbarczyk, C Wright, GC Roman, C Julien
+2019 IEEE 16th International Conference on Mobile Ad Hoc and Sensor Systems …	5	2019
+
+
+
+Bloc: A game-theoretic approach to orchestrate cps against cyber attacks
+M Guirguis, A Tahsini, K Siddique, C Novoa, J Moore, C Julien, ...
+2018 IEEE Conference on Communications and Network Security (CNS), 1-9	5	2018
+
+
+
+Brace: An assertion framework for debugging cyber-physical systems
+K Boos, CL Fok, C Julien, M Kim
+2012 34th International Conference on Software Engineering (ICSE), 1341-1344	5	2012
+
+
+
+Enabling Local Communication for Immersive Mobile Computing
+S Kabasayi, C Julien
+Pervasive Computing and Communications (Percom) 2007	5	2006
+
+
+
+DAIS: enabling declarative applications in immersive sensor networks
+S Kabadayi, C Julien, A Pridgen
+Technical Report TR-UTEDGE-2006	5	2006
+
+
+
+Simplifying Context-Aware Agent Coordination Using Context-Sensitive Data Structures
+J Payton, GC Roman, C Julien
+5	2004
+
+
+
+Declarative and dynamic context specification supporting mobile computing in ad hoc networks
+C Julien, GC Roman, Q Huang
+5	2003
+
+
+
+Cultural scripts, space, and identity: Perspectives of two LGBTQ+ engineering students on inclusive spaces
+JA Yang, A Boklage, MK Sherard, C Julien, MJ Borrego
+2021 CoNECD	4	2021
+
+OK
+
+Resistance and community-building in LGBTQ+ engineering students
+JA Yang, MK Sherard, C Julien, M Borrego
+Journal of Women and Minorities in Science and Engineering 27 (4)	4	2021
+
+OK
+
+Jive: Spatially-constrained encryption key sharing using visible light communication
+J Shenoy, A Tyagi, M Halabe, C Julien
+Proceedings of the 16th EAI International Conference on Mobile and ...	4	2019
+
+
+
+MadApp: A Middleware for Opportunistic Data in Mobile Web Applications
+V Srinivasan, C Julien
+2014 IEEE 15th International Conference on Mobile Data Management 1, 172-177	4	2014
+
+
+
+A spatiotemporal model for ephemeral data in pervasive computing networks
+J Michel, C Julien, J Payton, GC Roman
+2012 IEEE International Conference on Pervasive Computing and Communications …	4	2012
+
+
+
+The MaDMAN Middleware for Delay Tolerant Networks
+A Petz, C Julien
+4	2010
+
+
+
+Adaptive access control in coordination-based mobile agent systems
+C Julien, J Payton, GC Roman
+International Workshop on Software Engineering for Large-Scale Multi-agent …	4	2004
+
+
+
+Bringing context-awareness to applications in Ad hoc mobile networks
+C Julien, GC Roman, J Payton
+4	2004
+
+
+
+Context-Aware Middleware Abstractions for Ad Hoc Mobile Computing
+C Julien
+Proposal). URL: http://www. cse. wustl. edu/mobilab/pubs/proposal. pdf	4	2003
+
+
+
+Multi-modal data collection for measuring health, behavior, and living environment of large-scale participant cohorts
+C Wu, H Fritz, S Bastami, JP Maestre, E Thomaz, C Julien, DM Castelli, ...
+GigaScience 10 (6), giab044	3	2021
+
+
+
+Stacon: Self-stabilizing context neighborhood for mobile iot devices
+C Liu, J Hua, C Hu, C Julien
+2019 IEEE International Conference on Pervasive Computing and Communications …	3	2019
+
+
+
+Size efficient big data sharing among Internet of Things devices
+S Cho, C Julien
+2017 IEEE International Conference on Pervasive Computing and Communications …	3	2017
+
+
+
+Relationship between ruminal redox potential and pH in dairy cattle
+Y Huang, C Julien, J Philippe Marden, C Bayourthe
+Proceedings of the 20th Congress of the European Society of Veterinary and …	3	2016
+
+OK fascinating.
+
+Braceassertion: Behavior-driven development for cps application
+X Zheng, C Julien, R Podorozhny, F Cassez
+Technical Report UTARISE-2015-002	3	2014
+
+
+
+Coordination Models and Languages: 15th International Conference, COORDINATION 2013, Held as a Part of the 8th International Federated Conference on Distributed Computing …
+R De Nicola, C Julien
+Springer	3	2013
+
+
+
+Coordination Models and Languages
+R Nicola, C Julien
+Springer	3	2013
+
+
+
+Using snapshot query fidelity to adapt continuous query execution
+J Payton, C Julien, V Rajamani, GC Roman
+Pervasive and Mobile Computing 8 (3), 317-330	3	2012
+
+
+
+myGander: A mobile interface and distributed search engine for pervasive computing
+J Michel, C Julien, J Payton, GC Roman
+2012 IEEE International Conference on Pervasive Computing and Communications …	3	2012
+
+
+
+The click convergence layer: Putting a modular router under DTN2
+A Petz, B Walker, C Ardi, C Julien
+Proceedings of the 2nd Extreme Workshop on Communication	3	2010
+
+
+
+Ad Hoc Networks
+T Jun, N Roy, C Julien
+3	2010
+
+OK
+
+Towards adaptive resource-driven routing
+A Dalton, C Julien
+2009 IEEE International Conference on Pervasive Computing and Communications …	3	2009
+
+OK
+
+Rapid prototyping of routing protocols with evolving tuples
+D Stovall, C Julien
+IFIP International Conference on Distributed Applications and Interoperable …	3	2008
+
+
+
+So many sensors, so little data
+S Holloway, D Stovall, A Dalton, C Julien
+Proceedings of the 1st international workshop on Software architectures and …	3	2008
+
+OK
+
+An adaptive architecture to support delay tolerant networking
+A Petz, C Julien
+In Proceedings of the 7th Workshop on Adaptive and Reflective Middleware	3	2008
+
+
+
+An architecture for local decision support in ad hoc sensor networks
+WJ O’brien, C Julien, J Hammer, I Hassan, S Kabadayi, X Luo, J Trujillo
+Proceeding of the 2007 ASCE International Workshop on Computing in Civil …	3	2007
+
+
+
+SMASH: Modular security for mobile agents
+A Pridgen, C Julien
+International Workshop on Software Engineering for Large-Scale Multi-agent …	3	2006
+
+
+
+Context-sensitive data structures supporting software development in ad hoc networks
+J Payton, G Roman, C Julien
+In Proc. of the 3rd Int’l. Wkshp. on Software Eng. for Large Scale Multi …	3	2004
+
+OK
+
+Development of a school-based physical activity intervention using an integrated approach: project SMART
+Y Jung, SL Burson, C Julien, DF Bray, DM Castelli
+Frontiers in Psychology, 3408	2	2021
+
+
+
+Usability testing of a sensor-controlled digital game to engage older adults with heart failure in physical activity and weight monitoring
+K Radhakrishnan, C Julien, M O'Hair, T Baranowski, G Lee, C Allen, ...
+Applied Clinical Informatics 11 (05), 873-881	2	2020
+
+
+
+Usability assessment of a sensor-controlled digital game for older adults with heart failure
+K Radhakrishnan, C Julien, M O’Hair, C Fournier, G Lee, T Baranowski, ...
+Innovation in Aging 3 (Suppl 1), S892	2	2019
+
+
+
+Intelligent Information Sharing among IoT Devices: Models, Strategies, and Language
+SS Cho, M Song, C Julien
+2018 IEEE International Conference on Electro/Information Technology (EIT …	2	2018
+
+
+
+Data-directed contextual relevance in the IoT
+C Maxfield, C Julien
+2017 IEEE/ACM 39th International Conference on Software Engineering …	2	2017
+
+
+
+From human mobility to data mobility: Leveraging spatiotemporal history in device-to-device information diffusion
+J Michel, C Julien
+2016 17th IEEE International Conference on Mobile Data Management (MDM) 1 …	2	2016
+
+
+
+Mason: An open development contextual sensing framework enabling reactive applications
+N Wendt, C Julien
+2016 IEEE/ACM International Conference on Mobile Software Engineering and …	2	2016
+
+
+
+XD (exchange-deliver): a middleware for developing device-to-device mobile applications
+T Kalbarczyk, C Julien
+2016 IEEE/ACM International Conference on Mobile Software Engineering and …	2	2016
+
+OK
+
+Cyber-physical systems and pervasive computing: Overlap or divergent?(PerCom Panel)
+C Lu, J Cao, D Corman, C Julien, L Sha, F Zambonelli
+2015 IEEE International Conference on Pervasive Computing and Communications …	2	2015
+
+
+
+Demo abstract MoodChat: Using context-awareness to connect likeminded co-located individuals
+T Díaz, C Julien
+2015 IEEE International Conference on Pervasive Computing and Communication …	2	2015
+
+
+
+Immersive physiotherapy: challenges for smart living environments and inclusive communities
+N Roy, C Julien
+International Conference on Smart Homes and Health Telematics, 242-248	2	2014
+
+OK
+
+WiP abstract: Braceforce: Software engineering support for sensing in CPS applications
+X Zheng, DE Perry, C Julien
+2014 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS …	2	2014
+
+
+
+4th International Workshop on Software Engineering for sensor network applications (SESENA 2013)
+C Julien, K Wehrle
+2013 35th International Conference on Software Engineering (ICSE), 1551-1552	2	2013
+
+
+
+A mixed approach to spectrum-based fault localization using information theoretic foundations
+S Roychowdhury
+2	2013
+
+
+
+Braceforce: A middleware enabling novice programmers to integrate sensing in cps applications
+X Zheng, DE Perry, C Julien
+Technical Report TR-ARISE-2013-003	2	2013
+
+
+
+Brace: Assertion-driven development of cyber-physical systems applications
+X Zheng, CL Fok, C Julien, S Khurshid, M Kim
+Tech. Report TR-ARiSE-2013-001, University of Texas at Austin	2	2013
+
+
+
+Spitty Bifs are Spiffy Bits: Interest-based context dissemination using spatiotemporal bloom filters
+E Grim, C Julien
+International Conference on Mobile and Ubiquitous Systems: Computing …	2	2012
+
+
+
+Fidelity-based continuous query introspection and adaptation
+C Julien, V Rajamani, J Payton, GC Roman
+2011 IEEE International Conference on Pervasive Computing and Communications …	2	2011
+
+
+
+Usability of semantic web for enhancing digital living experience
+N Roy, K Brooks, C Julien
+2010 7th IEEE Consumer Communications and Networking Conference, 1-6	2	2010
+
+
+
+Sama: Static analysis for mobile applications
+V Rajamani, C Julien
+Proc. of HotMobile	2	2010
+
+
+
+Automated assessment of aggregate query imprecision in dynamic environments
+V Rajamani, C Julien, J Payton
+IFIP International Conference on Distributed Applications and Interoperable …	2*	2009
+
+
+
+Adaptive strategies for persistent queries in dynamic environments
+C Julien, J Payton, G Roman
+2	2007
+
+
+
+Virtual sensors: Heterogeneous aggregation in pervasive networks
+S Kabadayi, C Julien, J Trujillo
+Pervasive & Mobile Computing, TR-UTEDGE-2006-009, University of Texas at Austin	2	2006
+
+
+
+Context-sensitive access control for open mobile agent systems
+C Julien, J Payton, GC Roman
+3rd International Workshop on Software Engineering for Large-Scale Multi …	2	2004
+
+
+
+A Protocol for Supporting Context Provision in Wireless Mobile Ad Hoc Networks
+C Julien, GC Roman
+2	2003
+
+
+
+Rapid Deployment of Coordination Middleware Supporting Ad Hoc Mobile Systems
+GC Roman, J Payton, R Handorean, C Julien
+2	2002
+
+
+
+Analysis of IFTTT Recipes to Study How Humans Use Internet-of-Things (IoT) Devices
+H Yu, J Hua, C Julien
+Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems …	1	2021
+
+
+
+Personal Data Gentrification
+JL Herrera, J Berrocal, J Garcia-Alonso, JM Murillo, HY Chen, C Julien, ...
+arXiv preprint arXiv:2103.17109	1	2021
+
+
+
+A privacy-aware architecture to share device-to-device contextual information
+JL Herrera, J Berrocal, JM Murillo, HY Chen, C Julien
+2020 IEEE International Conference on Smart Computing (SMARTCOMP), 188-195	1	2020
+
+
+
+Dataset: User side acquisition of People-Centric sensing in the Internet-of-Things
+C Liu, J Hua, T Kalbarczyk, S Lee, C Julien
+Proceedings of the 2nd Workshop on Data Acquisition To Analysis, 10-12	1	2019
+
+
+
+LAD: Learning Access Control Polices and Detecting Access Anomalies in Smart Environments
+T Kalbarczyk, C Liu, J Hua, C Julien
+2019 IEEE 16th International Conference on Mobile Ad Hoc and Sensor Systems …	1	2019
+
+
+
+Opportunistic crowds: A place for device-to-device collaboration in pervasive crowd applications
+C Julien
+2019 IEEE International Conference on Pervasive Computing and Communications …	1	2019
+
+
+
+Reminisce: Transparent and Contextually-Relevant Retrospection
+S Lee, T Kalbarczyk, C Julien
+2019 IEEE International Conference on Pervasive Computing and Communications …	1	2019
+
+
+
+SEMComm: sharing electronic medical records using device to device communication
+T Kalbarczyk, C Julien
+Proceedings of the posters and demos session of the 17th international …	1	2016
+
+
+
+Efficient Decentralized Context Sharing via Smart Aggregation
+S Cho, C Julien
+2014 IEEE 11th International Conference on Mobile Ad Hoc and Sensor Systems …	1	2014
+
+
+
+Erratum to “Replacing alfalfa silage with corn silage in dairy cow diets: Effects on enteric methane production, ruminal fermentation, digestion, N balance, and milk production …
+F Hassanat, R Gervais, C Julien, DI Massé, A Lettat, PY Chouinard, ...
+Journal of Dairy Science 97 (2), 1169	1	2014
+
+
+
+Engaging the Masses in Pervasive Computing: A Missed Opportunity?
+C Julien, J Payton
+IEEE internet computing 16 (5), 74-77	1	2012
+
+OK interesting huh.
+
+The Breadcrumb Router: Bundle Trajectory Tracking and Geographic Source Routing in DTN
+T Kalbarczyk, B Walker&, C Julien, A Hennessy&, P Santacruz, J Michel, ...
+Proc. of ExtremeCom	1	2012
+
+
+
+Addition of live yeast (ACTISAF® Sc47) to hay-based diets fed dry dairy cow: desirability and limits
+C Julien, JP Marden, C Bayourthe
+1	2011
+
+OK
+
+A demonstration of pervasive device integration with seap-based middleware
+D Stovall, S Holloway, J Lara-Garduno, C Julien
+Proceedings of the ACM/IFIP/USENIX Middleware'08 Conference Companion, 62-65	1	2008
+
+
+
+Composable context-aware architectural connectors
+C Julien, D Perry
+Proceedings of the 1st international workshop on Software architectures and …	1	2008
+
+
+
+Efficient Quality-of-Inference (QoINF)-Aware Context Determination in Pervasive Care Environments
+N Roy, A Misra, C Julien, SK Das
+1	2008
+
+
+
+Enabling Programmable Ubiquitous Computing Environments: A Middleware Perspective
+C Julien, S Kabadayi
+Advances in Ubiquitous Computing: Future Paradigms and Directions, 117-149	1	2008
+
+
+
+Query domains: Grouping heterogeneous sensors based on proximity
+V Rajamani, S Kabadayi, C Julien
+2007 IEEE International Conference on Mobile Adhoc and Sensor Systems, 1-6	1	2007
+
+
+
+Remotely Deployed Virtual Sensors
+S Kabadayi, C Julien
+1	2007
+
+
+
+Application Session Semantics for Mobile Ubiquitous Computing
+C Julien
+1	2006
+
+
+
+Certificate Free Anonymous Routing for Mobile Ad Hoc Networks
+A Banerjee, C Julien, V Shmatikov
+Copyright	1	2006
+
+
+
+Supporting context-aware application development in ad hoc mobile networks
+C Julien
+Washington University in St. Louis	1	2004
+
+OK
+
+Managing access control in the presence of physical and logical mobility
+C Julien, GC Roman, J Payton
+1	2003
+
+
+
+Context-aware protocol selection for routing in mobile ad hoc networks
+T Jun, C Julien
+1	
+CoPI: Enabling Probabilistic Conflict Prediction in Smart Space Through Context-awareness
+J Hua, H Yu, S Lee, HM Adal, C Milhaupt, GC Roman, C Julien
+2022 IEEE/ACM Seventh International Conference on Internet-of-Things Design …		2022
+
+
+
+Prototyping Opportunistic Learning in Resource Constrained Mobile Devices
+H Yu, HY Chen, S Lee, X Zheng, C Julien
+2022 IEEE International Conference on Pervasive Computing and Communications …		2022
+
+
+
+Facilitating Decentralized and Opportunistic Learning in Pervasive Computing
+S Lee, C Julien, X Zheng
+2022 IEEE International Conference on Pervasive Computing and Communications …		2022
+
+
+
+Swarm: Playground for Large-scale Decentralized Learning Simulations
+S Lee, H Yu, X Zheng, C Julien
+2022 IEEE International Conference on Pervasive Computing and Communications …		2022
+
+
+
+GamifyHealth: A Generic Software Framework for Health Behavioral Change
+G Lee, C Julien
+International Conference on Pervasive Computing Technologies for Healthcare …		2022
+
+OK
+
+The space broker: a middleware for mediating interactions in smart IoT spaces
+HM Adal, C Milhaupt, J Hua, C Julien, GC Roman
+Proceedings of the 8th ACM International Conference on Systems for Energy …		2021
+
+
+
+Feasibility of a Sensor-Controlled Digital Game for Heart Failure Self-management: Randomized Controlled Trial
+K Radhakrishnan, C Julien, T Baranowski, M O'Hair, G Lee, AS De Main, ...
+JMIR serious games 9 (4), e29044		2021
+
+
+
+Process for improving wheat straw degradation
+C Julien, J Marden
+US Patent App. 16/972,216		2021
+
+OK
+
+Process for improving ruminal degradation of wheat straw
+C Julien, J Marden
+US Patent App. 16/972,772		2021
+
+OK
+
+Privacy-Aware and Context-Sensitive Access Control for Opportunistic Data Sharing
+JL Herrera, HY Chen, J Berrocal, JM Murillo, C Julien
+2021 IEEE/ACM 21st International Symposium on Cluster, Cloud and Internet …		2021
+
+
+
+REMOTE DELIVERY OF SENSOR-BASED DIGITAL INTERVENTIONS FOR HEART FAILURE SELF-MANAGEMENT BEHAVIORS
+K Radhakrishan, C Julien, O Matthew, L Grace, S Atami, K Allen, M Kim
+ANNALS OF BEHAVIORAL MEDICINE 55, S536-S536		2021
+
+
+
+Artifact: Opportunistic Federated Learning: An Exploration of Egocentric Collaboration for Pervasive Computing Applications
+S Lee, X Zheng, J Hua, H Vikalo, C Julien
+2021 IEEE International Conference on Pervasive Computing and Communications …		2021
+
+
+
+Sensor-controlled Digital Game May Improve Weight Monitoring Among Older Adults With Heart Failure
+K Radhakrishnan, C Julien, M O'Hair, T Baranowski, G Lee, A Sagna, ...
+Circulation 142 (Suppl_3), A13122-A13122		2020
+
+
+
+Multi-Modal Data Collection for Measuring Health, Behavior, and Living Environment of Large-Scale Participant Cohorts: Conceptual Framework and Findings from Deployments
+C Wu, H Fritz, Z Nagy, JP Maestre, E Thomaz, C Julien, DM Castelli, ...
+arXiv preprint arXiv:2010.08457		2020
+
+
+
+A Practical Application of Visible Light Communication: Opportunistic Sharing of Encryption Keys
+J Shenoy, A Tyagi, M Halabe, C Julien
+The 25th Annual International Conference on Mobile Computing and Networking, 1-3		2019
+
+OK
+
+Improving Child Health through Technology-Supported Active Transport: A Survey of Parent Perspectives
+C Maxfield, C Julien, M Tiwari
+Proceedings of the 13th EAI International Conference on Pervasive Computing …		2019
+
+
+
+Using the Internet of Things to Teach Good Software Engineering Practice to High School Students
+C Julien
+ASEE Gulf-Southwest Section Annual Meeting 2018 Papers		2019
+
+OK
+
+Effects of high dosage yeast supplementation during the transition period in dairy cows
+L Alvès De Oliveira, C Julien, L Desmaris, P DUBOIS, M Vagneur, ...
+2017
+
+
+
+SpatioTemporal Traveler
+N Wendt, C Julien
+Proceedings of the Posters and Demos Session of the 17th International …		2016
+
+
+
+Cyber-Physical Systems and Pervasive Computing: Overlap or Divergent?
+D Corman, C Julien, L Sha, F Zambonelli
+IEEE International Conference on Pervasive Computing and Communications …		2015
+
+
+
+Balance: Budget-driven smart thermostat control
+K McArdle, C Julien
+2014 IEEE International Workshop on Intelligent Energy Systems (IWIES), 52-57		2014
+
+OK
+
+MadApp: Dynamic content support for delay-tolerant web applications
+V Srinivasan, C Julien
+2014 IEEE International Conference on Pervasive Computing and Communication …		2014
+
+
+
+Editorial| Pervasive and Mobile Computing-Volume 10, Part A
+C Bettini, M Gruteser, C Julien, M Portmann
+Pervasive and Mobile Computing 10, 1-2		2014
+
+
+
+Selected Papers from the Eleventh Annual IEEE International Conference on Pervasive Computing and Communications (PerCom 2013)
+C Bettini, M Gruteser, C Julien, M Portmann
+Pervasive and mobile computing (Print) 10		2014
+
+
+
+Message from the technical program chairs
+C Bettini, M Gruteser, C Julien, M Portmann
+2013 IEEE International Conference on Pervasive Computing and Communications …		2013
+
+
+
+Adaptive Coordination for Dynamic Mobile Systems
+C Julien
+The University of Texas at Austin Austin United States		2010
+
+
+
+Article 12 (33 pages) Semantic Self-Assessment of Query Results in Dynamic Environments
+J Payton, C Julien, GC Roman, V Rajamani
+ACM Transactions on Software Engineering andMethodology-TOSEM 19 (4)		2010
+
+OK
+
+A Prototype for Resource Optimized Context Determination in Pervasive Care Environments
+N Roy, C Julien, A Misra, SK Das
+International Conference on Mobile Computing, Applications, and Services …		2009
+
+
+
+Enabling Programmable Ubiquitous Computing Environments
+C Julien, S Kabadayi
+2009
+
+
+
+Article 27 (31 pages)-An Interrelational Grouping Abstraction for Heterogeneous Sensors
+V Rajamani, S Kabadayi, C Julien
+ACM Transactions on Sensor Networks		2009
+
+
+
+Reflective Content-Driven Coordination for Pervasive Computing Applications
+A Dalton, C Julien
+2009
+
+
+
+ROCC: A Communication Overlay Abstraction for Wireless Users
+S Holloway, C Julien
+2008 The 28th International Conference on Distributed Computing Systems …		2008
+
+
+
+Enabling Deliberate Design for Energy Management in Pervasive Systems
+A Dalton, C Ellis, C Julien
+2008 Sixth Annual IEEE International Conference on Pervasive Computing and …		2008
+
+
+
+The Evolving Tuples Approach to Application Approach to Application Development
+D Stovall, C Julien
+2008
+
+
+
+SEAP: Sensor Enablement for the Average Programmer
+S Holloway, D Stovall, A Dalton, T Petz, C Julien
+2008
+
+
+
+Cooperative Communication Mechanism and Architecture for Cross-Layer Coordination
+S Nettles, C Julien
+TEXAS UNIV AT ARLINGTON		2007
+
+
+
+SASSI: the sliverware architecture for sensor system integration
+S Holloway, A Griffith, A Dalton, D Stovall, C Julien
+Proceedings of the 5th international conference on Embedded networked sensor …		2007
+
+
+
+Effects of twice-daily milking of cows at very unequal intervals upon milk production
+B Rémond, D Pomiès, C Julien
+58. Annual Meeting of the European Association for Animal Production (EAAP)		2007
+
+
+
+Adaptive Strategies for Persistent Queries in Persistent Queries in Dynamic Environments
+C Julien, J Payton
+2007
+
+
+
+Application Sessions: Middleware for Application Development Targeting Pervasive Environments
+D Stovall, C Julien
+2007
+
+
+
+Passive Sensing for Context-Aware Mobile Computing
+C Julien, A Dalton
+2007
+
+
+
+Expressive Analytical Model for Routing Protocols in for Routing Protocols in Mobile Ad Hoc Networks
+T Jun, A Dalton, C Julien, S Vishwanath
+2007
+
+
+
+An Analytic Framework for Protocol Analysis in Mobile Protocol Analysis in Mobile Ad hoc Networks
+S Bodas, T Jun, C Julien
+2007
+
+
+
+Deux traites rapprochées ou monotraite: les conséquences zootechniques d'une organisation du travail différente en élevage bovin laitier
+C Julien
+Institut National Polytechnique (Toulouse)		2006
+
+
+
+Agent-oriented architecture for monitoring and diagnosis in supervisory systems
+A Garcia, C Lucena, R Bordini, K Breitman, P Bresciani, JP Briot, G Cabri, ...
+Computer Systems Science and Engineering		2006
+
+
+
+Architectural metrics and evaluation for component based software systems
+S Bhattacharya
+2006
+
+
+
+Geodesic packet routing over self-organizing mobile ad-hoc virtual coordinates
+TR Coffman, C Julien
+2006
+
+
+
+Context-Sensitive Data Structures Supporting Software Development in Mobile Ad Hoc Networks
+J Payton, GC Roman, C Julien
+2004
+
+
+
+Managing Access Control in the Presence of Mobility
+C Julien, GC Roman, J Payton
+2003
+
+
+
+A Software Engineering Perspective on Context-Awareness in Ad Hoc Mobile Environments
+C Julien, GC Roman, J Payton
+2003
+
+
+
+Using EgoSpaces for Scalable, Proactive Coordination in Ad Hoc Networks** PLEASE SEE WUCSE-03-11
+GC Roman, C Julien
+2002
+
+
+
+Project moveSMART: When Physical Education Meets Computational Thinking in Elementary Classrooms
+C Fritz, D Bray, G Lee, C Julien, S Burson, D Castelli, C Ramsey, J Payton
+2022 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops): Artifacts-Welcome and Committees
+J Edinger, C Julien, M Herrscher, L Kobras
+
+
+
+Project moveSMART: Integrating Physical Activity and Computer Science Learning in Elementary School Classrooms
+C Fritz, S Burson, G Lee, C Julien, D Castelli, J Payton, C Ramsey
+SMARTCOMP 2021
+
+
+
+V Issarny, M Kumar, C Becker, P Bellavista, S Bhattacharyya, C Boldrini, ...
+Program Committee MOBILESoft 2021
+
+
+
+R Abreu, M Fazzini, H Bagheri, L Baresi, G Catolino, M Ceccato, L Cruz, ...
+2021 PerCom Artifacts-Welcome and Committees
+J Edinger, C Julien, M Breitbach, HY Chen, Y Deng, LH Acosta, ...
+JSEET Program Committee
+M Alhammad, ES de Almeida, M Ardis, M Barker, L Barroca, W Billingsley, ...
+DCOSS 2018 Technical Program Committee
+EO Blass, C Boano, Z Cao, JF Chamberland-Tremblay, J Chen, ...
+Oleynik, Yury 40 Papadopoulos, Alessandro Vittorio 150 Patelli, Alina 1 Patros, Panagiotis 168
+G Peterson, D Burth Kurka, R Buyya, M Ceriotti, B Cürüklü, W Danny, ...
+DCoSS 2017
+T Abdelzaher, N Aschenbruck, S Basagni, C Bettstetter, CA Boano, ...
+TPC Chair
+C Julien
+Effect of live yeast (Saccharomyces cerevisiae) supplementation on rumen fermentation and metabolic profile of dairy cows in
+D Kumprechtová, J Illek, C Julien, P Homolka
+Congestion Control and Routing over Challenged Networks
+S Vishwanath, C Julien
+Program Committee of MOBILESoft 2019
+
+
+
+M Autili, S Dustdar, S Krusche, S Malek, H Muccini, A Sabetta, L Seinturier, ...
+Workshops Program Committee of ICSE 2019
+
+
+
+C Anslow, O Baysal, M Di Penta, R Feldt, A Filieri, D German, L Guerrouj, ...
+15 Quality and Context-Aware Smart Health Care
+N Roy, C Julien, A Misra, SK Das, X Wang, Y He, C Ye, S Hong, X Qian, ...
+PerCom 2011 PhD Forum: Fourth annual PhD Forum on pervasive computing and communications-committees and welcome
+C Julien
+age from
+C Julien
+Organizing Committee for MOBILESoft 2018
+
+
+
+C Julien, G Lewis, I Segall, I Malavolta, S Malek, D Poshyvanyk, C Elsner, ...
+Welcome from the Demo Chairs
+SS Kanhere, D Reinhardt, H Alizai, C Alberto, F Dürr, C Julien, S Kanhere, ...
+Technology for Child Independent Mobility: Parent Perspectives
+C Julien
+IoTDI 2018 Program Committee
+
+
+
+J Cao, O Chipara, S Das, F Eliassen, D Eyers, A Gokhale, H Haddadi, ...
+Network Abstractions for Context-Aware Mobile Computing
+C Julien
+MOBILESoft 2017
+
+
+
+C Julien, M Musolesi, Q Han, R Rouvoy, E Tilevich, X Zheng, T Mikkonen, ...
+IoTDI 2017 Program Committee
+J Bacon, J Bravo, J Cao, O Chipara, P Chrysanthis, F Eliassen, D Eyers, ...
+ICSE 2016
+
+
+
+F Paulisch, R Prikladnicki, F Hermans, F Caelefato, F Chen, D Falessi, ...
+ICSE 2016
+
+
+
+Y Brun, G Canfora, BHC Cheng, V Cortellessa, D Damian, P Devanbu, ...
+ICSE 2016
+
+
+
+D Perry, J Burge, R Alarcon, P Avgeriou, MA Babar, R Capilla, ...
+Middleware 2008-Poster and Demo Session: Programme
+D Hughes, N Bencomo, G Blair, G Coulson, P Grace, B Porter, ...
+Workshop General Chair
+SK Das, C Julien, N Race, T Pfeifer, HM Ammari, M Kumar, D O'Shea, ...
+MobiCASE 2014 Conference Organization
+
+
+
+C Julien, N Lane, S Mishra, J Payton, M Guirguis, R Likamwa, Y Lee, ...
+Lossy Space-Time Filters: An Application Layer for Storing and Querying Spatiotemporal Data
+N Wendt, C Julien
+I-SPAN 2012
+
+
+
+C Julien, A Petz, E Grim
+Moderator
+AJ La Salle, M Dohler, C Julien, M Mutka, K Roemer
+IBM PhD Forum 2012: IBM PhD Forum on Pervasive Computing and Communications, 2012 0 Committees and Welcome
+
+
+
+J Indulska, M Battelli, C Bettini, K Henricksen, C Julien, M Kumar, J Liu, ...
+Articles 1–276
+HelpPrivacyTerms
+

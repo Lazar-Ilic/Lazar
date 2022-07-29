@@ -1,0 +1,161 @@
+I dunno kind of funny hypomanic thoughts perhaps on a variety of topics and novel things outside of the Kaggle Competitions platform.
+
+	International Mathematics Olympiad Results/Scores/Rankings
+
+Pretty interesting dataset actually if we exclude information from other olympiads and restrict to the IMO website corpus basically... some naive models are not so sharp I mean we could consider the generation process of the team for each country and track when competitors historically have come multiple times. Maybe run simulations, models based upon possible distributions of tasks discretised into the 4 primary domains, and then have sub you know components like maybe we discover implicitly that in fact the United States Of Amerika performs quite well on Combinatorics or whatever. I uh could try and write up one here attempting to minimise errm I dunno total error aggregate linear in predicting like the scores of the countries but that is pretty yikesy because year to year fluctuation in difficulty is so real. However I mean predicting Rank is tricky tricky confidence intervals etc. I dunno I dunno.
+
+	Further Webpage Analyses
+
+Well the more I study front end stuff, user interface, user experience literature I mean the more I am prone to thinking that some Machine Learning models based upon web scraping will in fact be too simplistic if they ignore certain easy to grasp input parameters from the web design. But I mean we might need more information about the distribution of users viewing what webpage from what device, what screen size, tab size, etc. I dunno the implicit capture if we merely tag the News source for certain applications. But it was all of the whining about the recent colour change in the Astral Codex X SubStack that got me on this topic.
+
+	Detecting "Fake News"
+
+https://scholar.google.com/scholar?q=detecting+fake+news&hl=en&as_sdt=0&as_vis=1&oi=scholart
+
+Half interesting task I mean uh dunno if we have strong history track records of the spread of the so called fake news or how it impacts algorithms, traders, the internet, policymakers, etc. or just how quickly information is prone to being corrected. Maybe I need to read up much much more literature to be competitive for Quantitative Researcher just do a ton of Statistics literature reading and trawling, memming the canon or whatever, maybe throw down a few Machine Learning models of my own here in public soon.
+
+	National Basketball Association et al. Players Trading
+
+It is an interesting task you know whether or not we can predict synergy or like a Good or Bad team coming together, how to valuate different players in the league. If I was say to be hired by a professional sports team here shortly various tasks one can execute regressions and machine learning models upon.
+
+	Back To That International Mathematics Olympiad Task
+
+Yeah yeah I still have not quite thought of a Good metric to evaluate performance I mean I dunno how to norm it like could predict uh some weighted mixture between raw score and ranking or like predict the deviations off of the mean score rather than the raw score I mean... I dunno in any case might seriously just predict raw score with a credence function for each country literally produce some Python program to hit us with a vector of doubles or whatever for each of the 253 possible scores in [0,252=42*6]. The more I think about the dataset I mean we can track multiplicity. But like in terms of scraping I think we scrape names, contestant ages, and also track individual problems, even their say C4/6 or whatever get full information on the shortlist dataset. And then maybe try and predict the results knowing the ages, names, and shortlist to actual contest selection so say we know that task 1 this year will be C3/7 then update on that information and make a prediction... hmm seems interesting enough and I might even try and convert the website into useful helpful .csv files later today without actually executing any Bayesian Statistics upon that data just as a Proof Of Concept Proof Of Action that I can in fact scrape data from a webpage. Scratch that. Maybe maybe.
+
+https://www.kaggle.com/datasets/luckyt/imo-scores
+
+It is actually extremely humorous that this extant .csv file comes from the Kaggle platform and a user known as Bai Li for that is the same precise man who hosts the GitHub with the literal answers solutions strings for the Project Leonhard Euler platform system. Anyways might continue to kind of free ideate here in this file today make a final push later comment on some other things some other potential projects and predictions tasks. Might tank like 100 hours into freely ideating prior to actually settling down on a project though this IMO one seems kind of fun and funny and soon enough we will have the 2022 data needed to evaluate my predictions. Again, I am fairly confident centaur style off the dome say 80% maybe 85% sure that Luke Robitaille scores >=31/42 I dunno I dunno credence Rank Top 5 Top 10 Top 1 yadda yadda yadda. Hope that Amerika wins Rank 1.
+
+	Freely Ideating
+
+Yeah I mean this can be super fun but at the end of the day I will actually soon need to like write up some code to predict something. One natural line of questioning to wonder about really is advertising, and what is public like I can see if a firm is suddenly hiring a ton for marketing positions, and maybe capture some external evidence suggesting that they are about to invest heavily in a marketing campaign. Kinda curious what billboards do do. Curious if like there is a huge right tail and smash hit catchy viral memes like the whole "Priceless" ad campaign really do do something and work effectively. One supposes that the impact with super spreader contagions such as this one really might be sorta kinda right tailed and a human with a history of producing such sort of content with high impact and numbers could be Good for hiring. I am seriously half considering literally going into freelance writing here if I need to half support myself depending on if I do or do not get a job or an internship.
+
+In terms of Aaron Lamoreaux studies, it is interesting enough the line on his CV which says he implemented a program synthesis tool, WebQA, for extracting information from heterogenous webpages.
+
+OK uh errm anyways sounds OK sounds Good enough I guess he says he created a so called library to interact with cryptocurrency SQL tables. And designed algorithms for balancing cryptocurrency inventory across exchanges. Think multiple people I have viewed from the outside do in fact get around to considering a variety of risk metrics and writing scripting composing up some sort of a live program to manage a portfolio of assets. So if I want to seriously directly approach like the Virtu firm for Crypto Assets Manager or the DRW firm or whatever I ought to Just Do It.
+
+	Five Thirty Eight 538 Cool Cool Cool Stuff Datasets
+
+Yeah so I Googled a ton of lists of datasets beyond like Kaggle and FRED so there exist many many many sources of interesting datasets and one can read through many many many more dataset titles to get ideas about what sorts of datasets are out there and exist in the public written records.
+
+Yeah yeah this is actually really really fascinating I feel like a total idiotic idiot dumb stoopid bozo here for having never looked at these datasets before.
+
+It is interesting too now that I see it trying to actually track causality and like measurable data capture part of reality a little more hardcore from like the perspective maybe of someone some dude ideating inside of a private proprietary trading firm to read their headlines and think if they are Not Even Wrong or in fact fairly well formulated.
+
+Certainly in certain datasets it is useful to track the author.
+
+The national office of the NCAA in Indianapolis
+JUN. 30, 2022
+
+College Athletes Suffered When Schools Weren’t Ready For NIL
+By Josh Planos
+
+Filed under NCAA
+
+OK so here what precisely was measured? Did the schools not being ready for NIL really cause the suffering of the college athletes? What was also going on in the world around the same time, was it COVID era, etc.? Confounded or what or did they compare colleges based upon a Good indicator for NIL readiness and observe a strong connection between that metric and some other reasonable metric here.
+
+Jackie Young of the Las Vegas Aces
+JUN. 29, 2022
+
+Jackie Young’s Breakout Has Lifted The Aces To The Top Of The WNBA
+By James L. Jackson
+
+Filed under WNBA
+
+OK some observation of something like this while other things look similar OKOKOK.
+
+A player celebrates after winning a medal at the Youth Olympic Games
+JUN. 28, 2022
+
+What Happens When You Cancel The Youth Olympic Games?
+By Sydney Bauer
+
+Filed under Olympics
+
+Right what happens now? What happens with those athletes and their incentives? Kiddos and prospective parents long run? Television and advertising?
+
+Nathan MacKinnon celebrates as he hoists the Stanley Cup
+JUN. 27, 2022
+
+The Colorado Avalanche Reached Hockey’s Summit — And Took Down A Dynasty In The Process
+By Neil Paine
+
+Filed under NHL
+
+Uh huh OK some team won some stuff and like some other team did not win some stuff, right, moving right along I mean we can make observations such as this one in datasets.
+
+Iga Swiatek
+JUN. 27, 2022
+
+Can Iga Świątek Keep Her Winning Streak Going At Wimbledon?
+By Jonathon Braden
+
+Filed under Tennis
+
+Uh huh tennis is super super interesting I should read up more on tennis statistics.
+
+Aaron Judge of the New York Yankees high fives teammates
+JUN. 24, 2022
+
+The Yankees Are Partying Like It's 1998
+By Neil Paine
+
+Filed under MLB
+
+Right right Good stuff partying like it is 1998.
+
+Tommy Edman of the St. Louis Cardinals catches a line drive
+JUN. 23, 2022
+
+Tommy Edman Is The Latest Unlikely Star In St. Louis
+By Brian Menéndez
+
+Filed under MLB
+
+OK like they did not predict this in advance or something and the dude is popping off now for unknown or a variety of reasons. Could be gear or steroids dunno if that is easy to track in the MLB dataset historically might be worth looking at the detected True positives and see if the statistics revealed something. Maybe we can like predict when a player in the big league will get busted. Dunno how often people in other leagues do think frankly detection is just eh and maybe NBA and NFL players get away with it especially rich NBA players I am deeply of the opinion they plausibly use gear or very very very strong lifestyle and supplementation.
+
+Muffet McGraw
+JUN. 23, 2022
+
+Title IX Gave Women More Chances To Coach In College. But It Gave Even More Opportunities To Men.
+By Dvora Meyers
+
+Filed under Title IX
+
+OK right as with many matters this has to do with the enforcement and practice of law in the United States Of Amerika.
+
+Dawn Staley coaches her South Carolina team
+JUN. 22, 2022
+
+Title IX Didn’t Guarantee Black Women An Equal Playing Field
+By Santul Nerkar
+
+Filed under Title IX
+
+OK see before commentary yeah yeah.
+
+OKOKOK so Five Thirty Eight has many solid and half interesting datasets to begin to trawl. I am starting to think this is fun cool stuff I can dig this I can like this I can soon get into executing more Statistics code and maybe snag convince some firm to hire me for Quantitative Researcher see what I do here time series what and so on and so on.
+
+Suicide Prevention Could Prevent Mass Shootings
+
+Interesting stuff especially given my own history, track record of thought, and noted contribution in the public written record of the co signing of that Kanye West radical visionary genius opening subpiece I Thought About Killing You.
+
+	Centaur Trading And Where Humans Have An Edge
+
+Not sure I do want to freely ideate in public about like how I might go about predicting the price of an asset like a Tesla stock say. It is uh I would want to brush up read up on I mean canonical econometrics more but really just still defer you to like the current market trading price. I dunno if there can exist humans who simply read like Elon Musk's Twitter account and try and make a profitable strategy incorporating some kind of a low latency human numerical generated feedback input there a kind of off the dome sentiment analysis executed by a human knowing that perhaps in this market there is a radical tendency of other random human centaur and ignorant traders just kinda doing what one might think of as wonky bonky donkey donk stuff so in conjunction with a half decent algorithm a naive outside might think this could do OK but again I feel kind of like an idiot penning this in public. I mean one can also use an algorithm on lower latency live comments, pingbacks, and Twitter threads responses. Dunno still what precisely it is that the Two Sigma firm is doing with News. Their Kaggle recall was Natural Language Processing focused.
+
+	Value Judgements
+
+Yeah yeah I gotta watch my mouth watch my language but maybe we can run a simple little sentiment analysis on the Wikipedia corpus I mean the Wikipedia English corpus and discover if there is like racism in articles about artists or like maybe athletes or whatever. Dunno. Dunno neutral tone and so on and so on.
+
+Read more Andrew Gelman web log here shortly maybe maybe a be Good.
+
+Need more and more examples, insights made, examples.
+
+	Gelman Updates
+
+Yeah yeah Gelman is fucking Good Good to have in the nightly mixture of chronic reviews exposures memming when I am buzzed at night on my iPhone SE so that is Good for my performance for the firm but.
+
+	Revenue Perhaps Predictions From Advertising
+
+Might do a couple of projects on advertising here try and learn some things about advertising and predict some other things like useful assets and econometrics metrics.

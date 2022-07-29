@@ -1,0 +1,116 @@
+OK cool dude serious dude famous mathematician.
+
+	- Large-scale tensor decomposition: implicit subspace power method (with J. Pereira and T. Kolda)
+	In-preparation
+
+
+
+	- Fast moment inversion for cryo-EM and XFEL with uniform distribution of viewing angles (with C. Liu)
+	In-preparation
+
+
+
+	- Scalable symmetric Tucker tensor decomposition (with R. Jin, T. Kolda and R. Ward)
+	Available on arXiv
+
+
+
+	- Tensor moments of Gaussian mixture models: theory and applications (with J. Pereira and T. Kolda)
+	Available on arXiv
+
+
+
+	- On the instability of relative pose estimation and RANSAC's role (with H. Fan and B. Kimia)
+	Accepted to IEEE Conference on Computer Vision and Pattern Recognition 2022
+
+
+
+	- Finding stationary points on bounded-rank matrices: a geometric hurdle and a smooth remedy (with E. Levin and N. Boumal)
+	Accepted to Mathematical Programming
+
+
+
+	- Landscape analysis of an improved power method for tensor decomposition (with T. Klock and J. Pereira)
+	Advances in Neural Information Processing Systems 2021
+
+
+
+	- Symmetry breaking in symmetric tensor decomposition (with Y. Arjevani, J. Bruna, M. Field, M. Trager and F. Williams)
+	Available on arXiv
+
+
+
+	- Manifold learning with arbitrary norms (with A. Moscovich, N. Zelesko and A. Singer)
+	Journal of Fourier Analysis and Applications 27 82 (2021), pp. 1-56  
+
+
+
+	- Subspace power method for symmetric tensor decomposition and generalized PCA (with J. Pereira)
+	Available on arXiv
+
+
+
+	- Earthmover-based manifold learning for analyzing molecular conformation spaces (with N. Zelesko, A. Moscovich and A. Singer)
+	IEEE International Symposium on Biomedical Imaging 2020, pp. 1715-1719   (code)
+
+
+
+	- Method of moments for 3-D single particle ab initio modeling with non-uniform distribution of viewing angles (with N. Sharon, Y. Khoo, B. Landa and A. Singer)
+	Inverse Problems 36 044003 (2020), pp. 1-40   (code)
+
+
+
+	- On the expressive power of deep polynomial neural networks (with M. Trager and J. Bruna)
+	Advances in Neural Information Processing Systems 2019, pp. 10310-10319   (code)
+
+
+
+	- Estimation under group actions: recovering orbits from invariants (with A. Bandeira, B. Blum-Smith, A. Perry, J. Weed and A. Wein)
+	Available on arXiv
+
+
+
+	- 3D ab initio modeling in cryo-EM by autocorrelation analysis (with E. Levin, T. Bendory, N. Boumal and A. Singer)
+	IEEE International Symposium on Biomedical Imaging 2018, pp. 1569-1573   (code)
+
+
+
+	- Algebraic geometry for computer vision
+	University of California, Berkeley, PhD thesis, 139 pages, May 2017
+	Bernard Friedman Memorial Prize for Best Thesis in Applied Mathematics
+
+
+
+	- Numerical implicitization (with J. Chen)
+	Journal of Software for Algebra and Geometry 9 (2019), pp. 55-63   (code)
+
+
+
+	- Distortion varieties (with Z. Kukelova, T. Pajdla and B. Sturmfels)
+	Foundations of Computational Mathematics 18 (2018), pp. 1043-1071  
+
+
+
+	- The Chow form of the essential variety in computer vision (with G. Fløystad and G. Ottaviani)
+	Journal of Symbolic Computation 86 (2018), pp. 97-119   (supplementary)
+
+
+
+	- Minimal problems for the calibrated trifocal variety
+	SIAM Journal on Applied Algebra and Geometry 1 (2017), pp. 575-598   (supplementary)
+
+
+
+	- A clever elimination strategy for efficient minimal solvers (with Z. Kukelova, B. Sturmfels and T. Pajdla)
+	IEEE Conference on Computer Vision and Pattern Recognition 2017, pp. 3605-3614
+
+
+
+	- Rigid multiview varieties (with M. Joswig, B. Sturmfels and A. Wagner)
+	International Journal of Algebra and Computation 26 (2016), pp. 775-788  
+
+
+
+	- Hadamard products of linear spaces (with C. Bocci and E. Carlini)
+	Journal of Algebra 448 (2016), pp. 595-617
+

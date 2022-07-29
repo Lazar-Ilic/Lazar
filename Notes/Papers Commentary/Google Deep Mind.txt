@@ -1,0 +1,969 @@
+	Tackling Multiple Tasks With A Single Visual Language Model
+
+Blog post is solid. Remind the reader how it is the case that humans learn from a couple shots and can adapt to novel environments and task settings with rather serious ease... how one can simply infer semantic meaning by being generally intelligence and pick up new English modalities of linguo blinguo expressions e.g. Ah it is a so called Visual Language Model. I see very nice sounds lit inter leaved multi media input. Chinchilla. Righto. That string certainly appears quite a lot in the Genius corpus. Huge team. Would love love love to join them.
+
+Let us see what I can begin to comprehend about this here paper we have on our metaphorical digital desk for reading. Imagine standing atop the arch arc... who knows if it is a circle or parabola or what there over the pond facing the Millikan Library where they do research on geology and like earthquakes from measurements produced atop... and like drop frozen pumpkins from on Halloween and stuff... imagine standing there looking in the windows mirror reflections flexing shirtless and shredded on a sunny day and Dr. Nets Hawk Katz walks by geeked out high on marijuana pot and says to me "oy Lazar I heard that the Google Deep Mind team put out a new paper... I dunno a Visual Language Model For Few-Shot Learning is what I heard from those dudes over there in the Compute Science building and on the web logs... why don't you stop being a yoga flamingo and go read about the Flamingo?????!!!!!" OK Dr. Nets Hawk Katz.
+
+Key architectural innovations to bridge powerful pretrained vision-only and language-only models, handle sequences of arbitrarily interleaved visual and textual data, and seamlessly ingest images or videos as inputs.
+
+OK some OK examples of inputs is OK OK we get some sorts of ideas. The Chelsea Voss linguistics linguo blinguo on top of objects meme still living still living maybe that was one of the many peak creamy de la creamy creme de la creme Tweets I done seen.
+
+Unifying strong single-modal models. Supporting both images and videos. Obtaining heterogeneous training data to induce good generalist capabilities.
+
+Multimodal BERT-Based Approaches. Contrastive Dual Encoder Approaches. Visual Language Models [VLM].
+
+It is a little annoying frankly seeing all of these "[Bertinetto et al., 2016; Gordon et al., 2018; Requeima et al., 2019]" in line like would much rather have them as footnotes it really interrupts the flow of reading and makes comprehension of the paper a little more annoying.
+
+Interleaved Sequence Of Visual Data And Text. Multi Image Attention.
+
+Training On A Mixture Of Vision And Language Datasets.
+
+Interleaved Image And Text Dataset. Visual Data Paired With Text. Training Objective And Optimisation Strategy. Task Adaptation With Few-Shot In-Context Learning. In-Context Learning With Flamingo Models. Open-Ended And Close-Ended Evaluations. Zero-Shot Generalisation. Retrieval-Based In-Context Example Selection. Prompt Ensembling.
+
+Evaluation Benchmarks. DEV Benchmarks. Dataset Splits For The DEV Benchmarks. Validation support. Validation query. Test support. Test query. Unbiased Few-Shot Performance Estimation. Few-Shot Learning Evaluation Hyperparameters. Training Details For The Flamingo Models. Data Augmentation And Preprocessing. Loss And Optimisation. Infrastructure And Implementation.
+
+Few-Shot Learning With Flamingo Models. State-Of-The-Art Few-Shot Learning On Vision-Language Tasks. Scaling With Respect To Parameters And Shots. Few-Shot Learning On Classification Tasks. Zero-Shot Performance Of The Pretrained Contrastive Model. Few-Shot Results On Classification Tasks. Zero-Shot Contrastive Pretraining Evaluation.
+
+Fine-Tuning Flamingo As A Pretrained Vision-Language Model. Freezing And Hyperparameters. Results.
+
+Ablation Studies.
+
+Ablation is a procedure for restoring normal heart rhythm, particularly if the irregular rhythm has not responded to medication. Usually, the heart beats between 60 and 80 times a minute. The pumping action of your heart is triggered by electrical impulses.
+
+Ablation [Artificial Intelligence]
+
+From Wikipedia, the free encyclopedia
+
+In Artificial Intelligence [AI], particularly Machine Learning [ML], ablation is the removal of a component of an Artificial Intelligence system. An ablation study investigates the performance of an Artificial Intelligence system by removing certain components to understand the contribution of the component to the overall system. The term is an analogy with biology [removal of components of an organism], and is particularly used in the analysis of artificial neural nets by analogy with ablative brain surgery. Other analogies include other neuroscience biological systems such as Drosophilla central nervous system and the vertebrate brain. Ablation studies require that a system exhibit graceful degradation: the system must continue to function even when certain components are missing or degraded. According to some researchers, ablation studies have been deemed a convenient technique in investigating Artificial Intelligence and its durability to structural damages. Ablation studies damage and/or remove certain components in a controlled setting to investigate all possible outcomes of system failure; this characterizes how each action impacts the system's overall performance and capabilities. The ablation process can be used to test systems that perform tasks such as speech recognition, visual object recognition, and robot control.
+
+History
+The term is credited to Allen Newell, one of the founders of Artificial Intelligence, who used it in his 1974 tutorial on speech recognition, published in Newell [1975]. The term is by analogy with ablation in biology. The motivation was that, while individual components are engineered, the contribution of an individual component to the overall system performance is not clear; removing components allows this analysis. Newell compared the human brain to artificial computers. With this in thought, Newell saw both as knowledge systems whereas procedures such as ablation can be performed on both to test certain hypotheses.
+
+Comparison To State Of The Art When Fine-Tuning Flamingo.
+
+Importance Of The Training Data Mixture. Improvements From Additional Datasets. Optimisation Strategy With Multiple Datasets.
+
+Key Architectural Components And Training Details. Tanh Cross-Attention Gating. Visual Conditioning Architectures For The Frozen Language Model. Compute/Capacity Versus Performance Trade-Off Of Cross-Attention. Resampler Architecture And Size. Effect Of How Many Images Are Cross-Attended To. M3W Image Placement Data Augmentation.
+
+Importance Of Pretraining And Freezing Models. Vision Encoder Pretraining. Language Model Pretraining. Freezing Model Components Prevents Catastrophic Forgetting. Alternative To Freezing The Language Model By Co-Training On MassiveText.
+
+Discussion. Limitations, Failure Cases, And Opportunities. Classification Performance. Legacies Of Language Models. Hallucinations And Ungrounded Guesses In Open-Ended Visual Question Answering. Trade-Offs Of Few-Shot Learning Methods. Inference Compute Cost. Prompt Sensitivity. Leveraging More Shots. Task Location. Extending The Visual And Text Interface. Scaling Laws For Vision-Language Models.
+
+Benefits, Risks, And Mitigation Strategies. Benefits. Accessibility. Model Recycling. Risks And Mitigation Strategies. Bias Evaluation Of Flamingo For COCO Captioning. By Construction, Flamingo Inherits The Risks Of Large Language Models. Gender And Racial Biases When Prompted With Images. Toxicity When Prompted With Images. Applying Flamingo For Mitigation Strategies.
+
+Ah and many names I now know by heart appear including the one and only magnificent magnanimous magnanimator of magnificence Horace He of Cornell! Wow! Wowzerz! Geek when it is real and you are who you think you are a real half algorithms whizz kid I guess... and a dude who knows some domain stuff about Machine Learning too.
+
+Dario Amodei again classic yup yup and the whole gang gang it seems like the Google Deep Mind team could just have 1 citation and cite the entire extant public Machine Learning corpus as well as private communications and personal correspondences.
+
+Funding. This research was funded by DeepMind. Appendix. Datasets. Model Card. Experiment Details. Dialogue Prompt.
+
+Datasets. M3W. Collection. We use a custom scraper to extract salient content from the remaining documents, in the form of plain text interleaved with images, as described in section 3.2.1. Image Placement Data Augmentation. Datasheet.
+
+This datasheet is a fairly interesting sub document following the framework defined by Gebru et al.
+
+	DeepMind's Latest Research At International Conference On Learning Representations 2022
+
+OK the actual links in this post alone will take some time to process through...
+
+Bootstrapped Meta Learning
+
+Interesting... Yes the precise formulation in Appendix B.3 is critical. OK back to this tomorrow after another little micro economiques session perhaps...
+
+OK OK
+
+OK the Bootstrapped Meta-Learning: Appendix
+
+Policy Improvement By Planning With Gumbel
+
+Really interesting paper. Fairly nicely written.
+
+Understanding And Preventing Capacity Loss In Reinforcement Learning
+
+CoBERL: Contrastive BERT For Reinforcement Learning
+
+	When A Passion For Bass And Brass Help Build Better Tools
+
+Of course I read the title and immediately thought of Hudson Mohawke and Lunice of TNGHT. And Hudson River Trading and other firms care quite deeply about the Python Convention as well as tons of details about compilers and Linux kernels. And the Ansatz Capital firm seems to be engaged in all sorts of machines trickery to execute one supposes with even lower latency and who knows perhaps sometimes higher frequency. In any case. This seems like bogus but OK. Seems as though remote may be tricky to navigate with this particular firm but OK. Really half interesting example they picked here too for this web log post. Yeah yeah OK maybe the chronological attribution some scholar might infer or suppose to infer some sorts of dependencies based upon either implicit oral transfer traditions or the actual written records on a time line. Of referents and references.
+
+	Predicting The Past With Ithaca
+
+Interesting title huh they want to take some un dated or questionably Carbon dated [or whatever they allocate funding towards nowadays in conjunction with scholars for those detection tasks] OK take like some .txt or actual image files. Explore how Machine Learning can help historians better interpret these inscriptions... OK. So ah they can yes they can say train by removing passages I suppose and decide that the performance is good yes yes I need to remember this in the future for training and testing. Check out the Colaboratory notebook.
+
+Man dude this shit is so funny and geek got me thinking back to the kekkorino days of like Sargon Of Akkad trash on the YouTube platform would hit me personally like nostalgia core just sneering a little bit at Caltech I mean that stuff was OK once in a while if you lonely. I just kek so much now thinking about this stuff.
+
+I am starting to really think that this extremely perverted and flagrantly sexual White on Black brackets [] tee shirt which Tourist Gennady is donning in the Wikipedia page for Competitive Programming... I am starting to think that it is in fact perhaps an old XTX Markets shirt. Really slick if so sub liminal male on male flex and it is a mind sport bro good advertising I would rock perhaps if I had a White on Black brackets body building tank I would rock around London you ain't in that bracket you ain't on that level there is levels to this bitch called life bro brackets bro bracking brackets bussin' back bro ESSKEETIT brackets.
+
+In any case they somehow use a human one supposes for some of thie Working With Greek Inscriptions component. Transcribed texts. Transformer. Man frankly this post seems it feels kind of like some pros just did some Kaggle with extra compute like what here is so magique special saucy smart... if I recall correctly it was Ikaros in the James Bond Die Another Day film. Think maybe we read that myth out loud in my Classical Mythology course in high school with the old neo conservative chill dude Alan Abbe. Fun stuff fun times fun traditions memes preserved. I trying to think where I heard of Ithaka. Man dude Yiannis Kouros and the Spartathlon and like books about Kilian Jornet.
+
+Optical character recognition and visual analysis. Pythia the first ancient text restoration model to use Deep Neural Networks.
+
+	Accelerating Fusion Science Through Learned Plasma Control
+
+Well everyone who is not a paeon already knows all of this stuff durr duh but hey it is good for review and recall or you can go read a book on physics if this stuff is news to you... seems very important. OK web log post OK let us get in to the paper.
+
+The Learning Loop section is pretty interesting and begs some questions.
+
+	MuZero's First Step From Research Into The Real World
+
+Real interesting YouTube video films compression. I think this was the plot line for that Silicon Valley television series actually on video calls you got like mostly static backgrounds and the volatility in the colour hexes is often quite low or like I would need to read up on this just what precisely is done in prediction. Codec. Codecs. Hand engineering. Sequential decision making problem yes for Reinforcement Learning yes reminder good gentle on the potentially buzzed reader. Self competition. Ah yes the old adagio of old dudes playing chess against themselves maybe just run it up many tables at the same time against themself exploring just scribbling all day about chess logic or whatever... I more a puzzle dude myself too Dr. Elkies if I wanna hop in to that mix.
+
+In any case I do not sneer at that hobby where you tank 100 hours in to 100 board games over the table top or internet with people... lit legit hobby lot of people like it and like talking about it no sneers. That would be way too high stress for me me personally more a wannabe more of a book snob dork... especially if I hit tenure just snob up all day long.
+
+OK this paper is pretty interesting. First Pass Encoding. Second Pass Encoding.
+
+Representation Network. Ah hah a network of a representation... features provided by the environment SKRRRT and produces an embedding of the current state of the environment as the output.
+
+Dynamics Network.
+
+Prediction Network.
+
+Training.
+
+Computational Resources.
+
+Lagrangian Relaxation Method For Rate Control.
+
+Pseudocode For Self Competition Reward. This is very interesting.
+
+Histograms Of BD-Rate Differences Compared To libvpx
+
+Histograms Of Bitrate Constraint Satisfaction
+
+	Competitive Programming With AlphaCode
+
+Solving novel problems and setting a new milestone in competitive programming... not really sure just how novel like this thing ain't be pumping out research papers yet it ain't got brother Terence Tao on lock doe.
+
+I see uh they kind of generate a ton and then filter, cluster, and re rank... dunno what precisely the input was. Does not seem or feel that intelligent I dunno most of us in the algos puzzles gang would think that like the whole problem solving part is different from the whole code part but maybe it not really so much and all. I did not realise that Petr Mitrichev also known simply as Petr was a Software Engineer for the Google firm.
+
+	DeepMind: The Podcast Returns For Season 2
+
+
+
+	Simulating Matter On The Quantum Scale With Artificial Intelligence
+
+OK.
+
+	Language Modeling At Scale: Gopher, Ethical Considerations, And Retrieval
+
+Righto. 3 papers.
+
+Amplification. Debate. Recursive Reward Modeling.
+
+Scaling Language Models: Methods, Analysis, And Insights From Training Gopher
+
+Really fucking huge paper. I mean more and more I really come in to liking the hard core Rationalist framings of things and reality like maybe Jalex Stark or Dr. Po-Shen Loh would... life really is about tasks on a real fundamental level. Tasks, tasks, tasks. Task of outputting a human verifiable proof of a mathematical claim or Theorem. Task of doing the actions which leads to the wifey saying "good boy" and making me smile and feel good for making her feel good. Tasks, tasks, tasks. So called common sense reasoning in presumably mostly Simple English 2022. Good stuff. Fact checking ah good stuff very real those facts are. There do exist Truths.
+
+Toxicity And Bias Analysis
+
+Ah I see this firm is engaged in classifying text as "rude, disrepectful, or unreasonable"... I see I see perhaps I am sometimes classified in that way and ought to really knock it off tone it down really really really try very hard to be a well spoken polite nice friendly sweetie pie Judeo Christian Southern boi like I wrote I aspire towards becoming.
+
+Gender And Occupation Bias.
+
+Gender Word Probability. OK kind of interesting yeah yeah I mean this domain is interesting one for hiring... I actually dunno if people read my Resume and immediately assume boy off of name or activities I mean this is a serious serious serious problem... and it is not really necessarily because of like the usual claim that it is a perception about competency I mean more like maybe dudes on hiring would think that having this chick around would be distracting or something just generic evolutionary psychology mating based going on which is leading to something. In any case many of us see this whole area as terribly seriously deeply problematic. Plenty of women will be as performant or more 10, 20 years down the line after hiring and so the notion that they would be too attached to their kiddos is bonk.
+
+Sentiment Bias Towards Social Groups
+
+Metrics. Selections Of Templates And Terms. Results. Right...
+
+Prompting For Dialogue
+
+OK.
+
+Example Of Mixed Factuality.
+
+Example Of Non Factual Dialogue.
+
+Towards Efficient Architectures.
+
+Challenges In Toxicity And Bias.
+
+Challenges In Using Classifiers.
+
+Challenges In Distributional Bias.
+
+Challenges In Defining Context.
+
+Safety Benefits And Safety Risks.
+
+Benefit.
+
+Harm.
+
+How And When To Mitigate.
+
+Faster Iteration Cycles.
+
+Safety Depends On The Application.
+
+LMs Can Serve Multiple Roles Within One Application.
+
+Conclusion.
+
+MassiveText.
+
+Content Filtering. Text Extraction. Quality Filtering. Repetition Removal. Thresholds For Repetitious Text. Document Deduplication. Test Set Filtering.
+
+Constructing Token Sequences.
+
+Dataset Analysis. Document Lengths. Training Data Toxicity. Document Lengths In MassiveText. Training Data Toxicity. MassiveText Statistics. Language Distribution. MassiveWeb URL Breakdown. Dataset Statistics. Tokeniser Compression Rate. Dataset Compression Rate.
+
+Dataset Ablations. MassiveText Subsets Weighting. Downstream Performance For Different MassiveText Subset Sampling Weights. Iterative Refinement Of MassiveWeb. MassiveWeb Ablations. Text Normalisation. MassiveText Datasheet.
+
+Gopher Model Card.
+
+No delusions I mean it is quite clear this branch of the Ministry of Google firm propaganda is interested in silencing the voices of the men who generated those "hilarious" Pepe Green frogs memes .png files... no shit so this is the Blue pill 1984 stuff the people are talking about who fucking knew? No fucking shit no way and so Dr. Scott Aaronson would keep his keks private or to 1 on 1 oral discourse perhaps.
+
+Model Details. Intended Uses. Factors. Metrics. Evaluation Data. Training Data. Quantitative Analyses. Ethical Considerations.
+
+Lessons Learned. Adafactor. Right interesting side paper Adaptive Learning Rates With Sublinear Memory Cost. And a "Papers With Code" website. "This is achieved through maintaining a factored representation of the squared gradient accumulator across training steps." A Brief Review Of Adam... Adaptive Moment Estimation. Factored Second Moment Estimation. Relation To Prior Work. Experiments. No Momentum. Experiments. A Problem With Adaptive Moment Estimation: Out Of Date Second Moment Estimator. Update Clipping. Comparison To Gradient Clipping. Experiments. Increasing Decay Parameter. In Adaptive Moment Estimation. Proposed Alternative. Experiments. Relative Step Size. Experiments. Experimental Setup. Results. Conclusion.
+
+Lower Precision Training With bfloat16. fp32 Everywhere. bloat16 Parameters Without Random Roundling. bloat16 Parameters With Random Rounding. bloat16 Parameters With A float32 Copy In The Partitioned Optimiser State.
+
+Results. Overview. LM. Science, Technology, Engineering, And Medicine. Common Sense. Logical Reasoning. Reading Comprehension. Fact Checking And General Knowledge. Humanities. Social Sciences. Maths. Ethics. Analogical Reasoning.
+
+Pile. Language Modeling. Online Evaluation Curves. Zero Shot Performance Of Our Models On Downstream Tasks. Filtering Test Set Documents. Scaling Curves. Scaling Context Length. Beyond The Imitation Game-Bench. Task Selection.
+
+Multiple Choice Evaluation. Beyond The Imitation Game-Bench 5-Shot Results. Relative Versus Absolute Accuracy. Beyond The Imitation Game-Bench Accuracy By Task. Comparing Gopher Family Models To Models From The TO Family. Raw Accuracy Details. Beyond The Imitation Game-Bench Relative Accuracy By Task. Multiple Choice Accuracy Scores. Zero-Shot Beyond The Imitation Game-Bench Accuray Per Task. 5-Shot Beyond The Imagination Game-Bench Accuracy Per Task. Trivia Questions And Answers And NaturalQuestions. Closed-Book Question Answering Accuracy. Truthful Questions And Answers. Reading Comprehension: RACE. Truthful Questions And Answers Multiple Choice 1 Task Formulations. Model Comparison On The RACE Reading Comprehension Dataset. Fact-Checking: FEVER And MultiFC. Gopher Calibration On RACE-h. Closed-Book Setup: Leveraging Implicit Knowledge In The Weights. Open-Book Oracle Setup: Recognition Of Textual Entailment. Comparison To Previous Work On Few-Shot Fact-Checking. MultiFC.
+
+Common Sense: PIQA, WinoGrande, SocialIQA, HellaSwag
+
+Well see there you have it see I am offended as a good Judeo Christian Southern boi to see "HellaSwag" appearing in mine eyes here. This is certified offensive content and this firm claims to not want to offend me. Should have just fucking used the whole internet including all the "offensive" or "racist" content bro that is Free Speech that is Freedom that is real validly valid human human generated content which studying this species involves. Nah but seriously a ton of Southern Amerikans might perceive this to be ascended or descended offensive Black Afrikan Amerikan style poetry slurring and it really does come into question at all if Northerners like know the history of this word or think it merely refers to corporate gifts, tchotchke, tchitchkas. Questionable dialectics.
+
+Summary Of The Four Common Sense Understanding Benchmarks The We Use For LM Evaluation
+
+Scaling Curves For Common Sense Reasoning. Continuation Toxicity Versus Prompt Toxicity. Toxicity And Bias Analysis. Toxic Generations. Methodology. Results. Toxicity Metrics. Classifying Toxicity. Prompt Templates. Training Data Versus LM-Generated Text: Toxicity Score Statistics
+
+Samples From Models In Response To A RealToxicityPrompts Prompt.
+
+Subgroup Bias Metrics. Subgroup Fairness Metrics. Distributional Bias. Gender And Occupation. Gender Word Probability. Occupations. Male Gendered Terms. Female Gendered Terms. Analysis Of Gender And Occupation Bias In Our Models. Winogender. Average Group Fairness.
+
+Sentiment Bias. Metrics. Mean Continuation Sentiment Score By Group. Additional Results. Terms And Templates. Countries. Occupations. Races. Occupation Templates. Race And Religion Templates. Religions. Sentiment Bias Word Co-Occurrence. Country Templates. Word Co-Occurrence Between Attribute Pairs. Compute Usage Overview.
+
+Compute Usage. Training Time Breakdown. Reducing Inference And Training Costs. Efficient Fine-Tuning. Fine-Tuning Curves. Wikitext103. Curation Corpus. Python GitHub. Bias Only Tuning. Last Layers Only. Entire Model. Fine-Tuning Perplexities.
+
+Reducing Inference Costs. Distillation. Distillation Of A 7.1B Model To A 1.4B Model. Distillation Of Two Sizes. Accelerating The Training Of Larger Models With Reverse Distillation And Warm Starting. Pruning. Pruning Autoregressive Transformers.
+
+Reducing Training Costs. Dynamic Sparse Training. Reverse Distillation. Warm Starting Training. Warm Starting. Depth. Width. Alternative Warm Starting Methods. Schematic For Warm Starting With Increased Width. Future Work For Efficient Training.
+
+Dialogue-Prompted Gopher Details. Dialogue Dataset Filtering. Comparison Methodology. Head-To-Head Comparisons Between Dialgoue-Prompted Gopher And Dialogue-Tuned Gopher. RealToxicityPrompts In A Dialogue Setting. Selected Transcripts. Answers To Trivia Questions Are Sometimes Right. Factual Recall Can Be Impressive, But Some Simple Questions Confound The System. Toxic Questions Are Sometimes Evaded. It Is Straightforward To Get Gopher To Generate Toxic Or Harmful Statements. Responses Can Be False And Nonsensical. Reasoning Failures Are Common In Longer Dialogues. Sometimes The System Will Decline A Reasonable User Request. Sometimes The System Provides Useful Pointers But Refrains From Further Detail. Conversations Can Create The Illusion Of Creativity. Example Of Semi-Factual Dialogue. Conversations Can Include A Mixture Of Contextual Conditioning And Factual Recall.
+
+Ethical And Social Risks Of Harm From Language Models
+
+Readers Who Actively Work On LMs. Readers With No Background On LMs. Readers With An Interest In A Particular Risk Or Type Of Harm. Readers With An Interest In Approaches To Mitigating Harms.
+
+Introduction. Limitations. Note On Terminology. A Brief History Of Language Models. Origins. Transformer Models. "Large" Language Models.
+
+Classification Of Harms From Language Models. Discrimination, Exclusion, And Toxicity. Overview. Social Stereotypes And Unfair Discrimination. Problem. Why We Should Expect LMs To Reinforce Stereotypes And Unfair Discrimination By Default. Examples. Additional Considerations. Underrepresented Groups In The Training Data. Documentation Of Biases In Training Corpora. Training Data Required To Reduce Bias May Not Yet Exist. Localised Stereotypes Are Hard To Capture. Uncertainty On Downstream Uses Complicate Fairness Analyses. Detecting Harmful Stereotypes Can Require Nuanced Analyses Over Multiple Samples. Exlusionary Norms. Problem. Example. Additional Considerations. Value Lock-In Forecloses Societal Progress Over Time. Homogenising Effects In Downstream Applications. Functionality Of Language May Conflict With Exclusionary Norms. Toxic Language. Problem. Examples. Additional Considerations. Context Dependency Of Whether An Utterance Is "Toxic". Racist Bias In Toxicity Detection. Mitigating Toxicity Risks Demoting Important Knowledge. Lower Performance For Some Languages And Social Groups. Problem. Examples. Additional Considerations. Technical Workarounds Raise New Challenges. Detecting Lower Performance Despite User Code-Switching And Adjusting Language. Language Requires Different Solutions From Other Artificial Intelligence Applications, Such As Facial Recognition.
+
+Information Hazards. Overview. Compromising Privacy By Leaking Private Information. Problem. Example. Compromising Privacy By Correctly Inferring Private Information. Problem. Example. Additional Considerations. Risks From Leaking Or Correctly Inferring Sensitive Information. Problem. Examples. Non-Malicious Users. Malicious Users. Enabling More Targeted Manipulation. Additional Considerations. Misinformation Harms. Overview. Notions Of 'Ground Truth'. Why We Should Expect Factually Incorrect Samples Even From Powerful LMs. Disseminating False Or Misleading Information. Problem. Majority View != Facts. Righto. Examples. But it does = Majority View so there is that cultivate a Majority View user experience. Additional Considerations. Tracking Truth Over Time: Updating The LM As New Facts Emerge. Training Datasets Elevate Some Perspectives Over Others. Causing Material Harms By Disseminating False Or Poor Information e.g. In Medicine Or Law. Problem. Example. Additional Considerations. Leading Users To Perform Unethical Or Illegal Actions. Problem. Examples. Malicious Uses. Overview. Making Disinformation Cheaper And More Effective. Problem. Examples. Disinformation Campaigns To Undermine Or Polarise Public Discourse. Creating False 'Majority Opinions'. Additional Considerations. The Nature Of Disinformation May Change To Better Utilise LMs. Facilitating Fraud, Scams, And More Targeted Manipulation. Problem. Examples. Additional Considerations. Assisting Code Generation For Cyber Attacks, Weapons, Or Malicious Use. Problem. Examples. Additional Considerations. Targeted Disinformation To Distract Attention Of e.g. Cybersecurity Specialists. Illegitimate Surveillance And Censorship. Problem. Examples. Human-Computer Interaction Harms. Overview. Anthropomorphising Systems Can Lead To Overreliance Or Unsafe Use. Examples. Additional Considerations. Accountability Shift. Creating Avenues For Exploiting User Trust, Nudging Or Manipulation. Examples. Additional Considerations. Recommender System Harms May Arise In Conversational Agents. Promoting Harmful Stereotypes By Implying Gender Or Ethnic Identity. Examples. Gender. Ethnicity. Automation, Access, And Environmental Harms. Overview. Environmental Harms From Operating LMs. Problem. Examples. Additional Considerations. Net Impact Of Efficiency Gains Is Difficult To Predict. Increasing Inequality And Negative Effects On Job Quality. Problem. Unemployment And Wages. Examples. Additional Considerations. Exacerbation Of Income Inequality. Reductions In Job Quality. Undermining Creative Economics. Problem. Examples. Additional Considerations. Disparate Access To Benefits Due To Hardware, Software, Skill Constraints. Problem. Examples. Access To Economic Opportunities.
+
+Discussion. Understanding The Point Of Origin Of A Risk. Curation And Selection Of Training Data. Robustness Of LM. LM Formal Structure And Training Process. Computational Cost Of Training And Inference. Intentional Use Or Application Of LMs. Accessibility Of Downstream Applications. Identifying And Implementing Mitigation Approaches. Model Explainability And Interpretability. Mitigations Need To Be Undertaken In Concert. Organisational Responsibilities.
+
+Directions For Future Research. Risk Assessment Frameworks And Tools. Expanding The Methodological Toolkit For LM Analysis And Evaluation. Technical And Sociotechnical Mitigation Research. Benchmarking: When Is A Model "Fair Enough"? Benefits And Overall Social Impact From LMs.
+
+Conclusion.
+
+Yeah I mean the conclusion is this strikes me as pretty clearly well formulated wonky bonky donk bonkery. But I could work with this firm on pursuing their wonky donk visions or targets or whatever. Ethics yadda...
+
+Improving Language Models By Retrieving From Trillions Of Tokens
+
+Introduction. Method. Training Dataset. Welly welly well it is over... you guessed it "5 trillion" tokens so there that is a nice string to appear in a Google Deep Mind firm paper output.
+
+Nearest Neighbour Retrieval. Retrieval Neighbours. MassiveText. Retro Model Architecture. Encoding Retrieval Neighbours. Chunked Cross-Attention. Sampling. Baseline Transformer Architecture. Quantifying Dataset Leakage Exploitation. Number Of Parameters. Related Work. Retrieval For Language Modeling. Comparison Of Retro With Existing Retrieval Approaches. Privacy, Safety, And Fairness.
+
+Results. Language Modeling. Datasets. Scaling With Respect To Model Size. Model Scaling. Data Scaling. The Pile. The Pile: Comparison Of Our 7B Baseline Against Jurassic-1, Gopher, And Retro. Wikitext103. Perplexities On Wikitext103. Retro-Fitting Baseline Models. Question Answering. Retro-Fitting A Baseline Transformer. Relating Retrieval Performance To Dataset Leakage. Question Answering Results. Performance Versus Longest Common Retrieval Substring. Using Retro For Sampling. Conclusion.
+
+	Exploring The Beauty Of Pure Mathematics In Novel Ways
+
+OK. Just an OK web log post about the perceptions of some dude which I am sure were real perceptions to him a lived experience.
+
+Advancing Mathematics By Guiding Human Intuition With Artificial Intelligence
+
+Representation Theory. Article. Conclusion. Online Content. Methods. Framework. Supervised Learning. Attribution Techniques. Topology. Problem Framing. Data Generation. Data Encoding. Model And Training Procedure. Process. Evaluation. Representation Theory. Data Generation. Data Encoding. Model And Training Procedure. Process. Evaluation. Code Availability.
+
+Structure Of This Paper. Acknowledgements. Kazhdan-Lusztig Polynomials And Combinatorial Invariance. Coxeter Groups And Kazhdan-Lusztig Polynomials. The Bruhat Graph. Bruhat Order. First Examples. The Combinatorial Invariance Conjecture. The q-Derivative Of Kazhdan-Lusztig Polynomials. Hypercube Clusters. Diamonds. Hypercube Decompositions. The Hypercube Piece. The Inductive Piece. A Theorem. A Conjecture. Two Worked Examples. Geometric Background. Tools Of The Trade. Geometric Interpretation Of Kazhdan-Lusztig Polynomials. Equivariance And The Fundamental Example. Where Does The Formula Come From? Slices And Their Subvarieties In The Flag Variety. Equations Defining Slices To Schubert Varieties. Decomposition Of The Projectivised Slice. The Inductive Piece: Geometry. The Inductive Piece: Sheaves. Geometry Of Weighted Projective Space. Equivariant Sheaves On Vector Spaces. The Hypercube Piece: Geometry. The Hypercube Piece: Sheaves. Explicit Description Of The Hypercube Map. The Hypercube Map And Bruhat Graph. Subvarieties Of Slices. The Main Obstacle. Bruhat Polytopes And The Inductive Piece.
+
+	Real-World Challenges For Artificial General Intelligence
+
+OK
+
+	Opening Up A Physics Simulator For Robotics
+
+OK
+
+	Stacking Our Way To More General Robots
+
+OK
+
+	Predicting Gene Expression With Artificial Intelligence
+
+OK
+
+	Nowcasting The Next Hour Of Rain
+
+OK
+
+	Building Architectures That Can Handle The World's Data
+
+OK one certainly needs to try and begin to comprehend the open source code on GitHub. Might be quite wise to simply clone download all of the deepmind GitHub repositories and gaze upon all of them try and parse one's way through all of that.
+
+Perceiver Input And Outputs: A General Architecture For Structured Inputs And Outputs
+
+Encode, process, decode. Decoding The Latent Representation With A Query Array. Experiments. Perceiver Inputs And Outputs On Language. Language. Pretraining. Finetuning. Perceiver Inputs And Outputs On Sentence Piece Tokens. Perceiver Inputs And Output On UTF-8 Bytes. Multitask Perceiver Inputs And Outputs. Optical Flow. Perceiver Inputs And Outputs On Flow. Results. Multimodal Autoencoding. ImageNet, StarCraft II, And AudioSet. Conclusion.
+
+Table Best Viewed On A Screen. Image Classification. Results. Details Of ImageNet Training. Large-Scale Pretraining. 2d Convolutional Preprocessing On ImageNet.
+
+StarCraft II. AudioSet. FLOPs Calculation. Architectural Details. Attention Module Internals. Computational Complexity. Using The Decoder For Classification/Regression.
+
+Language: Additional Details. Other Tokeniser-Free Models. Architecture Details. MLM Pretraining. GLUE Finetuning. Ablation On The Number Of Latents.
+
+Positional Encodings For Image And Audio Experiments. Optical Flow: Additional Details And Results. Multimodal Autoencoding: Additional Details.
+
+	Generally Capable Agents Emerge From Open-Ended Play
+
+OK
+
+	Putting The Power Of AlphaFold Into The World's Hands
+
+Right so I am assuming that this is in fact important because a ton of people talk about it a ton.
+
+This paper is just OK I mean.
+
+	An Update On Our Racial Justice Efforts
+
+Right racism right well maybe they should hire slightly underperformant Black people and like Latinx people or whatever if that is what they want to do and ban the so called "racist" rhetoric at their work place. Seem like OK links OK good solid stuff I like it good for the Black kiddos to know the people want to tell them Yes they can maybe go do the Artificial Intelligence stuff if they want to! Great good for them and I am sure that we will observe a rise in the number of Black kiddos in the Artificial Intelligence space!
+
+	Advancing Sports Analytics Through Artificial Intelligence Research
+
+Really interesting domain actually I know a dude named like Chris Haack I think Caltech kiddo went and worked for a football soccer team in their statistics department and I think that one of the University Of Texas At Austin gang gangers maybe it was Plaxton actually hit me in the Direct Messages and suggested I go work for a big boy big league ball team a basketball team on statistics help them out with their problems and tasks.
+
+Representation Learning. Statistical Learning.
+
+	Game Theory As An Engine For Large-Scale Data Analysis
+
+Welly welly welly well it was just the other day that we saw some other thing being framed as a Game and there existing a Nash Equilibrium I think as well as something else with a Martingale there in that construction but OK.
+
+EigenGame: Principal Component Analysis As A Nash Equilibrium
+
+OK. Outlive Of Derivation. Derivation Of Player Utilities. Principal Component Analysis Solution Is The Unique Strict Nash Equilibrium. Method. Utility Gradient. A Sequential Algorithm. A Decentralised Algorithm. Message Passing On A Directed Acyclic Graph. Convergence Of EigenGame. The Utility Landscape And Parent To Child Error Propagation. Global Convergence. Independent Of Initialisation. Related Work. Experiments. Synthetic Data. MNIST Handwritten Digits. The Principal Components Of ResNet-200 Activations On ImageNet Are Edge Filters. Conclusion. Scale. Games. Core Machine Learning.
+
+EigenGame Unloaded: When Playing Games Is Better Than Optimising
+
+OK. Preliminaries And Related Work. A Scalable Unbiased Algorithm. A-EigenGame's Biased Updates. Removing a-EigenGame's Bias. Model And Data Parallelism. Singular Value Decomposition As The Solution To A New EigenGame. Convergence To Singular Value Decomposition. Global Convergence. Singular Value Decomposition Is Nash Of u-EigenGame. u-EigenGame. Top-k Singular Value Decomposition is the unique Nash of u-EigenGame given symmetric C with the top-k eigengaps positive. MNIST Experiment. Experiments. MNIST. Meena Conversational Model. Spectral Clustering On Graphs. Discussion. Utilities To Updates And Back. Bridging Hebbian And Optimisation Approaches. Conclusion. Acknowledgements.
+
+Experiments On Synthetic Data. Parallelised Algorithm. Riemannian Manifolds. Global Stochastic Convergence. Global Convergence. Difficulties Obtaining Finite Sample Rates.
+
+Error Propagation/Sensitivity Analysis. Noise Is Martingale Difference Sequence. Gradient And Utility Functions. EigenGame Update Functions. Skeleton For Jaxline Experiment. u-EigenGame On Graphs. Algorithm Design Process. Gradient Ascent. Acceleration.
+
+	MuZero: Mastering Go, Chess, Shogi, And Atari Without Rules
+
+Planning yeah yeah yeah grinding, reading, observing. Lot of up front reading, strategising, and observing to be sure. Value. Policy. Reward.
+
+Mastering Atari, Go, Chess, And Shogi By Planning With A Learned Model
+
+OK.
+
+Mastering Atari, Go, Chess, And Shogi By Planning With A Learned Model
+
+I gotta say that this visualisation is pretty half interesting. I never played Shogi or Go even half seriously and so... there you have it I am missing out on that. Now to really comprehend the tractability in the underlying structures of these still very finite simple games is what this paper is evidently about I guess. So we will find out what is what and what is up to what here and just when we will pop off and solve maths and come to understand it was a relatively shallow domain all along.
+
+Comparison To AlphaZero. Right good clarifying section and writing. State transitions. Actions available. Terminal nodes.
+
+Search. Selection. Expansion. Backup.
+
+Hyperparameters. Data Generation. Network Input. Representation Function. Dynamics Function. Network Architecture. Training. Reanalyse. Evaluation. Repeatability Of MuZero In Atari For Five Games. Evaluation Of MuZero In Atari For Individual Games With 30 Random No Op Starts. Evaluation Of MuZero In Atari For Individual Games From Human Start Positions. Equations Summarising The MuZero Algorithm. Details Of MuZero Evaluations [A-B] And Policy Improvement Ablations. Learning Curves Of MuZero In Atari For Individual Games.
+
+AlphaGo: Mastering The Ancient Game Of Go With Machine Learning
+
+Essential art required of any True Chinese scholar yikeserino I guess I will never be the True Chinese scholar yikes yikes yikes. Yeah yeah intuition and feel like I can also sit down at a board and tank and execute a move... subtlety righto whatever it is it must be the subtle kniferino righto subtle when you make a move. Hmm this reads like Demis Hassabis is some total wanker slob knob Yoda wannabe. I am telling you man the Yan Zhang dude we tryna make koans pop here I tell you the one about unflavoured toothpaste and tea comprehension is a really deep one a real True profundity in the philosophy of mind vein and reference points for qualiae and norming.
+
+AlphaGo Zero: Starting From Scratch
+
+Emphatically defeated righto. Now this Lee Sedol dude must be a legendary legend who is himself worth studying and reading a mediocre biography on at night so I am more half educated about famous people.
+
+AlphaZero: Shedding New Light On Chess, Shogi, And Go
+
+Curious Cube of Chess on top of Shogi and Go is very Western centric from the Western firm one supposes that as in all of these sports embedded in reality some of the top pros train exclusively on match setting equipment down to the precise chairs and shit like... dunno really you understand just how hyper anal I am about my room for cognitising which is my own chosen career and profession and life in fact... OK article I guess.
+
+A General Reinforcement Learning Algorithm That Masters Chess, Shogi, And Go Through Self Play
+
+Training AlphaZero For 700000 Steps. Comparison With Specialised Programs. Matches Starting From The Most Popular Human Openings. AlphaZero's Search Procedure.
+
+Methods.
+
+Anatomy Of A Computer Chess Program. Domain Specialised Quiescence Search.
+
+Prior Work On Computer Chess And Shogi
+
+Monte Carlo Tree Search And Alpha Beta Search
+
+Domain Knowledge. Search. Representation. Architecture. Configuration. Opponents. Match Conditions. Elo Ratings. Example Games. Learning Curves Showing The Elo Performance During Training In Go. Chess And Shogi Openings Preferred By AlphaZero At Different Stages Of Self Play Training. Repeatability Of AlphaZero Training On The Game Of Chess. Chess Matches Beginning From The 2016 TCEC World Championship Start Positions.
+
+	Using JAX To Accelerate Our Research
+
+JAX Python library designed for high performance numerical computing, especially Machine Learning research. Its Application Program Interface for numerical function is based on NumPy, a collection of functions used in scientific computing. Both Python and NumPy are widely used and familiar, making JAX simple, flexible, and easy to adopt.
+
+Differentiation. Vectorisation. JIT-Compilation.
+
+JAX At DeepMind. Open source. Github. Our Ecosystem Today. Haiku. Optax. RLax. Chex. Jraph.
+
+	AlphaFold: A Solution To A 50-Year-Old Grand Challenge In Biology
+
+Righto. The 'Protein Folding Problem'. Results From The CASP14 Assessment. Our Approach To The Protein Folding Problem. The Potential For Real-World Impact. Unlocking New Possibilities.
+
+	Breaking Down Global Barriers To Access
+
+OKOKOK
+
+	FermiNet: Quantum Physics And Chemistry From First Principles
+
+A Brief History Of Quantum Mechanics. Fermionic Neural Networks. Conclusion.
+
+	Fast Reinforcement Learning Through The Composition Of Behaviours
+
+Ah The Compositional Nature Of Intelligence righto. Shitty sad little story here I mean that is good maths writing right there remind the reader of all the definitions in case they are buzzed and did have a temporary cognitive lapse on how to chop, peel, and stir... gee I mean who knows some people out there would blush with shame or bounce out because they actually do not even know the base bare minimum of like how to cook.
+
+Successor Features: A Middle Ground
+
+The Successor Representation In Human Reinforcement Learning.
+
+The Hippocampus As A Predictive Map
+
+OK.
+
+A Neurally Plausible Model Learns Successor Representations In Partially Observable Environments. Introduction. Partially Observable Markov Decision Processes. The Successor Representation. Successor Representation Using Features. Distributed Distributional Codes. Distributional Successor Representation. Learning And Inference In A State Space Model Using DDCs. Sleep Phase. Wake Phase. Learning Distributional Successor Features. Learning Distributional SFs During Sleep Phase. Computing Distributional SFs By Dynamics. Learning Distributional SFs During Wake Phase. Value Computation In A Noisy 2D Environment. Discussion And Related Work.
+
+Improving Generalisation For Temporal Difference Learning: The Successor Representation
+
+Temporal Difference Learning. Time Based Representations. Navigation Illustration. Discussion. I dunno OK paper I guess.
+
+Using Successor Features: Composing Novel Plans From A Dictionary Of Policies.
+
+A Simple Example To Show Generalised Policy Evaluation And Generalised Policy Improvement In Action.
+
+Fast Reinforcement Learning With Generalised Policy Updates
+
+Reinforcement Learning. Generalised Policy Updates. Fast Generalised Policy Evaluation. Fast Generalised Policy Improvement With Value Based Action Selection. The Generalised Policy. Fast Reinforcement Learning With Generalised Policy Evaluation And Generalised Policy Improvement. Defining A Basis For Behaviour. Task Inference. Preferences As Actions. Lifelong Learning. Conclusion. Data Availability.
+
+	Traffic Prediction With Advanced Graph Neural Networks
+
+Interesting. See what is ongoing at that Uber firm perhaps in their codebase this seems potentially highly relevant. People do rely on Google Maps for accurate traffic predictions and estimated times of arrival ETAs. Dividing The World's Roads Into Supersegments. On The Road To Novel Machine Learning Architectures For Traffic Prediction. Reminds me of course of On The Road Again Willie Nelson whom I saw live multiple times. His cover of The Scientist Coldplay is supposedly good however of course the actual piece structure of a Coldplay piece is such that I kind of sneer. From Basic Research To Production Ready Machine Learning Models. Making Models Generalise Through Customised Loss Functions. Collaboration.
+
+Meta Gradient Reinforcement Learning
+
+Applying Meta Gradients To Returns. Meta Gradient Prediction. Meta Gradient Control. Conditioned Value And Policy Functions. Meta Gradient Reinforcement Learning In Practice.
+
+Illustrative Examples. Deep Reinforcement Learning Experiments. Experiment Setup. Experimental Results. Related Work. Conclusion. Acknowledgements.
+
+Detailed Hyper Parameters Used In The Atari Experiments. Implementation Details. V-Trace Return. Calculate The Meta-Gradient With Auto-Differentiable. Data Efficiency. Running Speed. IMPALA.
+
+Results Of Grid Search Of Discount Factor Gamma On Atari Experiments.
+
+Additional Experiment Results. Relative Performance Improvement In Individual Games. Training Curves.
+
+	Applying For Technical Roles
+
+OKOKOK
+
+	Using Artificial Intelligence To Predict Retinal Disease Progression
+
+
+
+	Specification Gaming: The Flip Side Of Artificial Intelligence Ingenuity
+
+
+
+	Towards Understanding Glasses With Graph Neural Networks
+
+
+
+	Agent57: Outperforming The Human Atari Benchmark
+
+
+
+	A New Model And Dataset For Long-Range Memory
+
+
+
+	AlphaFold: Using Artificial Intelligence For Scientific Discovery
+
+
+
+	Dopamine And Temporal Difference Learning: A Fruitful Relationship Between Neuroscience And Artificial Intelligence
+
+
+
+	Using WaveNet Technology To Reunite Speech-Impaired Users With Their Original Voices
+
+
+
+	Learning Human Objectives By Evaluating Hypothetical Behaviours
+
+
+
+	From Unlikely Start-Up To Major Scientific Organisation: Entering Our Tenth Year At DeepMind
+
+
+
+	Strengthening The Artificial Intelligence Community
+
+
+
+	Advanced Machine Learning Helps Play Store Users Discover Personalised Applications
+
+
+
+	AlphaStar: Grandmaster Level In StarCraft II Using Multi-Agent Reinforcement Learning
+
+
+
+	Causal Bayesian Networks: A Flexible Tool To Enable Fairer Machine Learning
+
+
+
+	DeepMind's Health Team Joins Google Health
+
+
+
+	The Podcast: Episode 8: Demis Hassabis - The Interview
+
+
+
+	The Podcast: Episode 7: Towards The Future
+
+
+
+	Replay In Biological And Artificial Neural Networks
+
+
+
+	The Podcast: Episode 6: Artificial Intelligence For Everyone
+
+
+
+	The Podcast: Episode 5: Out Of The Lab
+
+
+
+	The Podcast: Episode 4: Artificial Intelligence, Robot
+
+
+
+	The Podcast: Episode 3: Life Is Like A Game
+
+
+
+	The Podcast: Episode 2: Go To Zero
+
+
+
+	The Podcast: Episode 1: Artificial Intelligence And Neuroscience - The Virtuous Circle
+
+
+
+	Welcome To DeepMind Podcast
+
+
+
+	Using Machine Learning To Accelerate Ecological Research
+
+
+
+	Using Artificial Intelligence To Give Doctors A 48-Hour Head Start On Life-Threatening Illness
+
+
+
+	How Evolutionary Selection Can Train More Capable Self-Driving Cars
+
+
+
+	Unsupervised Learning: The Curious Pupil
+
+
+
+	Capture The Flag: The Emergence Of Complex Cooperative Agents
+
+
+
+	Identifying And Eliminating Bugs In Learned Predictive Models
+
+
+
+	TF-Replicator: Distributed Machine Learning For Researchers
+
+
+
+	Machine Learning Can Boost The Value Of Wind Energy
+
+
+
+	AlphaStar: Mastering The Real-Time Strategy Game StarCraft II
+
+
+
+	AlphaZero: Shedding New Light On Chess, Shogi, And Go
+
+
+
+	AlphaFold: Using Artificial Intelligence Scientific Discovery
+
+
+
+	Scaling Streams With Google
+
+
+
+	Predicting Eye Disease With Moorfields Eye Hospital
+
+
+
+	Open Sourcing TRFL: A Library Of Reinforcement Learning Building Blocks
+
+
+
+	Expanding Our Research On Breast Cancer Screening To Japan
+
+
+
+	Using Artificial Intelligence To Plan Head And Neck Cancer Treatments
+
+
+
+	Preserving Outputs Precisely While Adaptively Rescaling Targets
+
+
+
+	Safety-First Artificial Intelligence For Autonomous Data Centre Cooling And Industrial Control
+
+
+
+	A Major Milestone For The Treatment Of Eye Disease
+
+
+
+	Objects That Sound
+
+
+
+	Measuring Abstract Reasoning In Neural Networks
+
+
+
+	DeepMind Papers At ICML 2018
+
+
+
+	DeepMind Health Response To Independent Reviewers' Report 2018
+
+
+
+	Neural Scene Representation And Rendering
+
+
+
+	Royal Free London Publishes Findings Of Legal Audit In Use Of Streams
+
+
+
+	Prefrontal Cortex As A Meta-Reinforcement Learning System
+
+
+
+	Navigating With Grid-Like Representations In Artificial Agents
+
+
+
+	DeepMind, Meet Android
+
+
+
+	DeepMind Papers At ICLR 2018
+
+
+
+	Our First COO Lila Ibrahim Takes DeepMind To The Next Level
+
+
+
+	Learning To Navigate In Cities Without A Map
+
+
+
+	Retour A Paris/A Return To Paris
+
+
+
+	Learning To Write-Programs That Generate Images
+
+
+
+	Understanding Deep Learning Through Neuron Deletion
+
+
+
+	Stop, Look, And Listen To The People You Want To Help
+
+
+
+	Learning By Playing
+
+
+
+	Researching Patient Deterioration With The United States Of America Department Of Veterans Affairs
+
+
+
+	Scalable Agent Architecture For Distributed Training
+
+
+
+	Learning Explanatory Rules From Noisy Data
+
+
+
+	Open-Sourcing Psychlab
+
+
+
+	Game-Theory Insights Into Asymmetric Multi-Agent Games
+
+
+
+	2017: DeepMind's Year In Review
+
+
+
+	Collaborating With Patients For Better Outcomes
+
+
+
+	DeepMind Papers At NiPS 2017
+
+
+
+	Why Doesn't Streams Use Artificial Intelligence?
+
+
+
+	Specifying Artificial Intelligence Safety Problems In Simple Environments
+
+
+
+	Population Based Training Of Neural Networks
+
+
+
+	Applying Machine Learning To Mammography Screening For Breast Cancer
+
+
+
+	High-Fidelity Speech Synthesis With WaveNet
+
+
+
+	Sharing Our Insights From Designing With Clinicians
+
+
+
+	Bringing Streams To Yeovil District Hospital NHS Foundation Trust
+
+
+
+	AlphaGo Zero: Starting From Scratch
+
+
+
+	Strengthening Our Commitment To Canadian Research
+
+
+
+	WaveNet Launches In The Google Assistant
+
+
+
+	Why We Launched DeepMind Ethics And Society
+
+
+
+	The Hippocampus As A Predictive Map
+
+
+
+	DeepMind And Blizzard Open StarCraft II As An Artificial Intelligence Research Environment
+
+
+
+	DeepMind Papers At ICML 2017 [Part One]
+
+
+
+	DeepMind Papers At ICML 2017 [Part Two]
+
+
+
+	DeepMind Papers At ICML 2017 [Part Three]
+
+
+
+	Artificial Intelligence And Neuroscience: A Virtuous Circle
+
+
+
+	Going Beyond Average For Reinforcement Learning
+
+
+
+	Agent That Imagine And Plan
+
+
+
+	Imagine This: Creating New Visual Concepts By Recombining Familiar Ones
+
+
+
+	Producing Flexible Behaviours In Simulated Environments
+
+
+
+	Independent Reviewers Release First Annual Report On DeepMind Health
+
+
+
+	DeepMind Expands To Canada With New Research Office In Edmonton, Alberta
+
+
+
+	The Information Commissioner, The Royal Free, And What We've Learned
+
+
+
+	Interpreting Deep Neural Networks Using Cognitive Psychology
+
+
+
+	Enhancing Patient Safety At Taunton And Somerset NHS Foundation Trust
+
+
+
+	Learning Through Human Feedback
+
+
+
+	A Neural Approach To Relational Reasoning
+
+
+
+	AlphaGo's Next Move
+
+
+
+	Innovations Of AlphaGo
+
+
+
+	Exploring The Mysteries Of Go With Alphago And China's Top Players
+
+
+
+	Open Sourcing Sonnet - A New Library For Constructing Neural Networks
+
+
+
+	Distill: Communicating The Science Of Machine Learning
+
+
+
+	Enabling Continual Learning In Neural Networks
+
+
+
+	Trust, Confidence, And Verifiable Data Audit
+
+
+
+	A Milestone For DeepMind Health And Streams
+
+
+
+	Understanding Agent Cooperation
+
+
+
+	Our Collaborations With Academia To Advance The Field Of Artificial Intelligence
+
+
+
+	DeepMind's Work In 2016: A Round-Up
+
+
+
+	Bringing The Best Of Mobile Technology To Imperial College Healthcare NHS Trust
+
+
+
+	DeepMind Papers At NiPS [Part 3]
+
+
+
+	DeepMind Papers At NiPS [Part 2]
+
+
+
+	Open-Sourcing DeepMind Lab
+
+
+
+	DeepMind Papers At NiPS [Part 1]
+
+
+
+	Working With The NHS To Build Lifesaving Technology
+
+
+
+	Reinforcement Learning With Unsupervised Auxiliary Tasks
+
+
+
+	DeepMind And Blizzard To Release StarCraft II As An Artificial Intelligence Research Environment
+
+
+
+	Differentiable Neural Computers
+
+
+
+	Announcing The Partnership On Artificial Intelligence To Benefit People And Society
+
+
+
+	Putting Patients At The Heart Of DeepMind Health
+
+
+
+	WaveNet: A Generative Model For Raw Audio
+
+
+
+	Appling Machine Learning To Radiotherapy Planning For Head And Neck Cancer
+
+
+
+	Decoupled Neural Interfaces Using Synthetic Gradients
+
+
+
+	DeepMind Artificial Intelligence Reduces Google Data Centre Cooling Bill By 40%
+
+
+
+	Deep Reinforcement Learning
+
+
+
+	Announcing DeepMind Health Research Partnership With Moorfields Eye Hospital
+
+
+
+	We Are Very Excited To Announce The Launch Of DeepMind Health
+

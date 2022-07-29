@@ -1,0 +1,56 @@
+	Dash
+
+Digital [fingers]... Dash minimal identifying prefix set.
+
+0  1  2  3  4  5  6  7  8  9
+
+Z  O  TW TH FO FI SI SE E  N
+
+13944125691475181921166181513291411825
+
+13 9 4 4 12 5 6 9 14 7 5 18 19 21 16 6 18 15 13 2 9 14 1 18 25
+
+MIDDLE FINGERS UP FROM BINARY
+
+Answer: 132 Or 3
+
+[It is trivial to make a popularity based "play list" generator from Genius for example with all "tracks" that contain "middle fingers up" which goes to include G-Dragon, that Flosstradamus song, as well as To The World Getting Out Our Dreams Music and the Laser Blazer Remix of Stick Talk Future.]
+
+	Conundrum 2
+
+In this case I have yet to draft a flavour text or a follow on hint and bonus round. But the colour hexes, or here Red Blue Yellow coordinates correspond in R3 with the centroids of the 6 faces of a cube. And thus they form an octahedron. Further, they are in the proper location on a net which will fold into that cube and it dually makes the shape of the Roman alphabet letter T, which is one of my favourites for a variety of reasons. In any case if we cook up a Non Fungible Token for this one, I give it to Scott Duke Kominers for free courtesy of the artiste I transfer to him that asset, for one day it will be worth a technical bazillions of US dollars. Think normally the origin and [1,1,1] would map into Black and White, with the [1,0,0] cyclic being Red, Blue, Yellow, and the [1,1,0] cyclic being Purple, Green, Orange on a traditional colour wheel so these points emerge in a 3x3x3 setting.
+
+The email I sent to Scott Duke Kominers:
+
+For each Platonic solid embed it in R3 in a unit cube with one vertex at (0,0,0) now map each vertex in to a colour hex of coordinates. And then just present these in some non arbitrary sequence like sort first on x, then on y, then on z or in a path even better. Consider a hint of the graphs of the Platonic solids consider each vertex with its corresponding colour.
+
+Or maybe like some Hamming strings sets which partition binary strings somehow or other strings with a mutual distance neighbourhood partitioning analog to 000 having neighbourhood 001,010,110 and 111 having neighbourhood 011,101,110 captured so like... eh.
+
+	WEEKENDS!!!
+
+A number of things going on here, and this is still really a draft. Initially I proposed to Scott Duke Kominers that the tracks be selected such that the final word in each track's lyrics was clear. So then the final words together would string to form a lyric from the intended final track. However, in this it is first words of track titles, and the other set is out of order. Also, the hinting is a little bit hypomanic and not quite in good faith. Practice with Contact or crossword style hinting is needed.
+
+1 All Of The Lights				Kanye West
+2 My Love						Justin Timberlake
+3 Girls							Kid Cudi
+4 Do You...						Cashmere Cat [Kashmiri?]
+5 [Do] Yoga						Rae Sremmurd
+
+"
+All my girls do yoga
+All my girls do yoga, hey
+All my girls do yoga
+All my girls do yoga, hey
+Then get high at night
+Then get high at night
+Then get high at night
+Then get high at night
+"
+
+1 Here Comes The Sun			Beatles
+2 Strange Brew					Cream
+3 Dare							Gorillaz
+4 Under The Bridge				Red Hot Chili Peppers
+5 Bohemian Rhapsody				Queen
+6 Smells Like Teen Spirit		Nirvana
+7 Rock Like You A Hurricane		Scorpions

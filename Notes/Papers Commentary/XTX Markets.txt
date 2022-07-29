@@ -1,0 +1,71 @@
+Fantastic looking firm obviously from the outside it would seem that both the Quantitative Researcher and C++ Software Engineer position might be quite lucrative though the payout structure might also be a little bit top heavy, unclear. Their actual performance has been very very Good as has like Hudson River Trading lately.
+
+I would read the job descriptions very very very closely and carefully and only engage with this firm when totally ready though if you are a sharp young lad out there would think that studying, studying, studying, and targeting the Quantitative Researcher role could be a quite sharp move.
+
+QUANTITATIVE RESEARCHER
+THE ROLE
+XTX Markets is an algorithmic trading firm that actively trades tens of thousands of instruments on over eighty venues with a daily volume of almost three hundred billion USD. Trading algorithms are developed by the quant team, which consists of fewer than twenty researchers and a research cluster of a hundred thousand cores and six thousand A/V100 GPUs (and growing fast). The algorithms we develop are necessarily extremely general and robust. The culture is collaborative and friendly. The team structure is flat. There is no bureaucracy.
+
+Trading provides a unique set of challenges for machine learning research. Datasets contain trillions of observations. Markets constantly adapt. They react rapidly, often adversarially, to trades and, over longer horizons, to new trading strategies. Algorithms must be as fast as possible: every microsecond matters when reacting to new market information. At the same time, it is necessary to account for risks associated with holding periods that can be weeks – a range of timescales that spans twelve orders of magnitude.
+
+The models that drive our trading strategies evolved considerably over the last 10 years, from econometric methods that gave a name to the company, to trees, to neural networks, to modern deep learning architectures. We are actively seeking new methods and ideas.
+
+REQUIREMENTS
+Degree in math, physics, computer science or another quantitative field
+Strong evidence of ability to conduct original research
+Demonstrated practical experience of, or deep understanding of, modern deep learning architectures
+Good knowledge of other machine learning techniques and statistics
+Solid programming skills (language does not matter)
+OTHER BENEFICIAL QUALITIES (NOT REQUIRED)
+Track record of solving practical and analytical problems
+Outstanding performance in any quantitative field or contest (Kaggle, hackathons, olympiads, academic contests etc)
+Experience implementing machine learning algorithms in industry
+HIRING PROCESS
+Our interview process seeks to gain signal in the following topics:
+
+Modern machine learning techniques, especially deep learning
+Classical machine learning techniques
+Probability theory
+General mathematics (linear algebra, analysis etc)
+Computer science / algorithms
+Your process will follow the following format:
+
+Phone or video call with a quant researcher covering the above topics. You may have a second if we do not cover all the topics
+Practical assignment - we provide a dataset, and this exercise is about building a model end to end
+Onsite interview - there will be 10 interviewers, and you will be interviewed on each topic twice
+Success Criteria:
+
+We seek to get a broad signal in our process. Successful candidates are those who are strong in all areas and exceed expectations in at least one
+CONTACT: careers@xtxmarkets.com
+
+C++ SOFTWARE ENGINEER
+THE FIRM
+XTX Markets is a leading algorithmic trading company partnering with counterparties, exchanges and e-trading venues globally to provide liquidity in the Equity, FX, Fixed Income and Commodity markets. We provide consistent liquidity, helping market participants throughout the world obtain the best prices in the various assets classes we cover, regardless of changing market conditions.
+
+At XTX Markets technology is our business and we are a diverse organisation which attracts outstanding talent from across all industry backgrounds. We are focused on teamwork and our people collaborate on all aspects of the business, working openly and with respect for each other, our clients and the market. Our culture is non-hierarchical and one where everyone is valued. We strive for excellence in everything we do.
+
+THE ROLE
+We are hiring a C++ engineer to join our exchange trading development team (ETD) which covers all of XTX’s proprietary trading technology. We take trading ideas from our Quant Research team and turn them into reality using the most appropriate technology. The team is responsible for everything from interpreting the flashes of light arriving encoding market data to dispatching flashes of light to indicate our orders. This unusually wide scope gives us the ability to make cross-domain optimisations unavailable to our competitors.
+
+In addition to our core trading platform, we're currently working on an exabyte-scale highly available distributed filesystem, an optimising JIT compiler targeting massively parallel computation and several in-house custom compression codecs.
+
+We're not serving up adverts, or worrying about user acquisition metrics, or building software for a faceless third party - everything we build is for our own use, and we use what we build to trade c. $300 billion worth of assets every day, all in a completely automated manner.
+
+We use the right tool for the job but it's likely you would mostly be using C++.
+
+ESSENTIAL ATTRIBUTES
+You should have a strong knowledge of modern C++ (C++11 onwards). We use a lot of modern C++ (we have the advantage of a completely post-2011 codebase) and have been eager to adopt features from C++17/20 as soon as they are released (std::optional and std::variant finally!).
+We expect a strong understanding of what really is going on inside a computer when your code is running, for example caching, paging and system calls, as well as how these work and why they work like that. Knowledge of the execution pipeline in a modern CPU is even better: when are instructions executed out of order, why would they be, how is the branch target predicted for an indirect call? A lot of our code is very high performance, and the only way to achieve that is by understanding what’s really going on when it’s executed.
+You should have a good familiarity with common algorithms and data structures and their performance trade-offs, as well as the ability to reason about the running time of algorithms that you haven’t seen before. Although traditionally this would be covered in a computer science degree most of our existing team are self-taught, so a computer science degree is not necessarily a prerequisite.
+You will often have to work independently designing complex systems that need to run uninterrupted for long periods of time, so practical experience designing and implementing software systems is a plus.
+All of our development is in a Linux environment, in fact many of us run Linux on our desktops also, so familiarity with the Linux command line and common tools is a plus but by no means a necessity.
+Prior finance knowledge is not required.
+
+BENEFITS
+25 days paid holiday per year + statutory holiday and paid sick days.
+Onsite gym, sauna, and fitness classes at no charge.
+Extensive medical & wellbeing benefits including an on-site doctor and therapist at no charge.
+Breakfast and lunch provided Monday through Thursday.
+Various supports for caregivers, including emergency dependent care
+Beautiful Kings Cross office: HTTPS://VIMEO.COM/257888726
+Contact: careers@xtxmarkets.com

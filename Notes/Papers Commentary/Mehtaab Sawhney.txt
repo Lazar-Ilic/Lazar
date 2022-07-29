@@ -1,0 +1,160 @@
+This is my guy Right here to be quite frank and honest it is competitive you know it is a mind sport.
+
+Mehtaab Sawhney
+
+Publications and Preprints
+My papers can be found on my publications page, as well as on the arXiv and Google Scholar.
+Publications
+Enumerating coprime permutations
+Ashwin Sah, and Mehtaab Sawhney Mathematika, to appear arXiv:2203.06268
+
+Singularity of the k-core of a random graph
+Asaf Ferber, Matthew Kwan, Ashwin Sah and Mehtaab Sawhney. Duke Mathematics Journal, to appear arXiv:2106.05719
+
+Random symmetric matrices: rank distribution and irreducibility of the characteristic polynomial
+Asaf Ferber, Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. Mathematical Proceedings of the Cambridge Philosophical Society, to appear arXiv:2106.04049
+
+Majority Dynamics: The Power of One
+Ashwin Sah and Mehtaab Sawhney. Israel Journal of Mathematics, to appear arXiv:2105.13301
+
+Rank deficiency of random matrices
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. Electronic Communications in Probability, to appear arXiv:2103.02467
+
+Fast and memory optimal dimension reduction using Kac's walk.
+Vishesh Jain, Natesh Pillai, Ashwin Sah, Mehtaab Sawhney, and Aaron Smith. Annals of Applied Probability, to appear arXiv:2003.10069
+
+Online Edge Coloring via Tree Recurrences and Correlation Decay
+Janardhan Kulkarni, Yang Liu, Ashwin Sah, Mehtaab Sawhney, and Jakub Tarnawski STOC 2022, to appear arXiv:2111.00721
+
+Approximate counting and sampling via local central limit theorems
+Vishesh Jain, Will Perkins, Ashwin Sah and Mehtaab Sawhney. STOC 2022, to appear arXiv:2108.01161
+
+Optimal and algorithmic norm regularization of random matrices
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. Proceedings of the American Mathematical Society, to appear arXiv:2012.00175
+
+Large deviations in random Latin squares
+Matthew Kwan, Ashwin Sah and Mehtaab Sawhney. Bulletin of the London Mathematical Society, to appear arXiv:2106.11932
+
+A Gaussian fixed point random walk
+Yang Liu, Ashwin Sah and Mehtaab Sawhney. ITCS 2022 arXiv:2104.07009
+
+Non-classical polynomials and the inverse theorem
+Aaron Berger, Ashwin Sah, Mehtaab Sawhney, and Jonathan Tidor Mathematical Proceedings of the Cambridge Philosophical Society, to appear arXiv:2107.07495
+
+Popular differences for matrix patterns
+Aaron Berger, Ashwin Sah, Mehtaab Sawhney, and Jonathan Tidor. Transactions of the American Mathematical Society, to appear arXiv:2102.01684
+
+On the smallest singular value of symmetric random matrices
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. Combinatorics, Probability and Computing, to appear arXiv:2011.02344
+
+Singularity of discrete random matrices
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. Geometric and Functional Analysis, to appear arXiv:2010.06554
+
+The smallest singular value of dense random regular digraphs.
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. IMRN, to appear. arXiv:2008.04755
+
+The cylindrical width of transitive sets
+Ashwin Sah, Mehtaab Sawhney and Yufei Zhao. Israel Journal of Mathematics, to appear arXiv:2101.11207
+
+Local limit theorems for subgraph counts.
+Ashwin Sah and Mehtaab Sawhney. Journal of the London Mathematical Society, to appear arXiv:2006.11369
+
+On the smoothed analysis of the smallest singular value with discrete noise
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. Bulletin of the London Mathematical Society, to appear arXiv:2009.01699
+
+Patterns without a popular difference.
+Ashwin Sah, Mehtaab Sawhney and Yufei Zhao. Discrete Analysis, to appear arXiv:2004.07722
+
+Anticoncentration versus the number of subset sums
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. Advances in Combinatorics, to appear arXiv:2101.07726
+
+On the real Davies' conjecture.
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. Annals of Probability, to appear arXiv:2005.08908
+
+Perfectly Sampling -Colorings in Colors.
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. STOC 2021 arXiv:2007.06360
+
+Discrepancy Minimization via a Self-Balancing Walk.
+Ryan Alweiss, Yang Liu and Mehtaab Sawhney. STOC 2021 arXiv:2006.14009
+
+A counterexample to the Bollobás-Riordan conjectures on sparse graph limits.
+Jonathan Tidor, Ashwin Sah, Mehtaab Sawhney and Yufei Zhao. Combinatorics, Probability and Computing, to appear. arXiv:2003.05272
+
+Cayley graphs without a bounded eigenbasis.
+Ashwin Sah, Mehtaab Sawhney and Yufei Zhao. IMRN, to appear. arXiv:2005.04502
+
+Number of arithmetic progressions in dense random subsets of .
+Ross Berkowitz, Ashwin Sah, and Mehtaab Sawhney. Israel Journal of Mathematics, to appear. arXiv:1907.11807
+
+Bounded Degree Spanners of the Hypercube.
+Rajko Nenadov, Mehtaab Sawhney, Benny Sudakov and Adam Wagner. Electronic Journal of Combinatorics, 27 (2020), P3.3. arXiv:1910.09868
+
+Exponential improvements for superball packing upper bounds.
+Ashwin Sah, Mehtaab Sawhney, David Stoner and Yufei Zhao. Advances in Mathematics, 365 (2020), 107056. arXiv:1904.11462
+
+Triforce and Corners.
+Jacob Fox, Ashwin Sah, Mehtaab Sawhney, David Stoner and Yufei Zhao. Mathematical Proceedings of the Cambridge Philosophical Society, 169 (2020), 209–223. arXiv:1903.04863
+
+A reverse Sidorenko inequality.
+Ashwin Sah, Mehtaab Sawhney, David Stoner and Yufei Zhao. Inventiones Mathematicae, 221, 665–711. arXiv:1809.09462
+
+The number of independent sets in an irregular graph.
+Ashwin Sah, Mehtaab Sawhney, David Stoner and Yufei Zhao. Journal of Combinatorial Theory, Series B, 138 (Sep), 172-195. arXiv:1805.04021
+
+Hypercube Packings and Coverings with Higher Dimensional Rooks.
+Mehtaab Sawhney and David Stoner. Australasian Journal of Combinatorics, to appear. arXiv:1801.10607
+
+Properties of non-symmetric Macdonald polynomials at  and .
+Per Alexandersson and Mehtaab Sawhney. Annals of Combinatorics, 23, No.2, 219--239 (2019). arXiv:1801.04550
+
+On the Discrepancy Between Two Zagreb Indices.
+Ashwin Sah and Mehtaab Sawhney. Discrete Mathematics, 341 (2018), 2575--2589. arXiv:1801.02532
+
+Characters of Independent Stanley Sequences.
+Richard Moy, Mehtaab Sawhney and David Stoner. European Journal of Combinatorics, 70 (2018), 354--363. arXiv:1708.01849
+
+On a conjecture regarding permutations which destroy arithmetic progressions
+Mehtaab Sawhney and David Stoner. Electronic Journal of Combinatorics, 25 (2018), P2.42. arXiv:1708.00144
+
+On Symmetric But Not Cyclotomic Numerical Semigroups
+Mehtaab Sawhney and David Stoner. SIAM Journal of Discrete Mathematics, 32 (2018), 1296--1304. arXiv:1707.00782
+
+A major-index preserving map on fillings.
+Per Alexandersson and Mehtaab Sawhney. Electronic Journal of Combinatorics, 24, No.4, 2017. arXiv:1703.03088
+
+Further Results on Bar and Arc Visibility Graph.
+Mehtaab Sawhney and Jonathan Weed. Minnesota Journal of Undergraduate Mathematics, Volume 3. arXiv:1601.01231
+
+Two classes of modular Stanley sequences.
+Mehtaab Sawhney and Jonathan Tidor. Journal of Combinatorics, 11 (2020), 127--140 arXiv:1506.07941
+
+Preprints
+Cayley graphs that have a quantum ergodic eigenbasis
+Assaf Naor, Ashwin Sah, Mehtaab Sawhney, and Yufei Zhao Submitted arXiv:2207.05527
+
+Spencer's theorem in nearly-input sparsity time
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. Submitted arXiv:2206.04549
+
+Optimal minimization of the covariance loss
+Vishesh Jain, Ashwin Sah and Mehtaab Sawhney. Submitted arXiv:2205.01773
+
+Threshold for Steiner triple systems
+Ashwin Sah, Mehtaab Sawhney, and Michael Simkin Submitted arXiv:2204.03964
+
+Sparse recovery properties of discrete random matrices
+Asaf Ferber, Ashwin Sah, Mehtaab Sawhney, and Yizhe Zhu Submitted arXiv:2203.06115
+
+Substructures in Latin squares
+Matthew Kwan, Ashwin Sah, Mehtaab Sawhney, and Michael Simkin Submitted arXiv:2202.05088
+
+High-Girth Steiner Triple Systems
+Matthew Kwan, Ashwin Sah, Mehtaab Sawhney, and Michael Simkin Submitted arXiv:2201.04554
+
+Enumerating Matroids and Linear Spaces
+Matthew Kwan, Ashwin Sah, and Mehtaab Sawhney Submitted arXiv:2112.03788
+
+Friendly bisections of random graphs
+Asaf Ferber, Matthew Kwan, Bharghav Narayanan, Ashwin Sah and Mehtaab Sawhney. Submitted arXiv:2105.13337
+
+Paths of given length in tournaments
+Ashwin Sah, Mehtaab Sawhney and Yufei Zhao. Submitted arXiv:2012.00262

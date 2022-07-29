@@ -1,0 +1,1 @@
+In this folder on my machine locally I have a .txt file with 300 heavy handed clear, technical, precise tutorial writeups for my own review and chronic exposure as well as a massive .cpp file which includes task statements and code chunks segments to review implementation praxis details as well. Useful.

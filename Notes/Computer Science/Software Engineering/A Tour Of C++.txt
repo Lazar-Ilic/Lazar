@@ -1,0 +1,559 @@
+Maybe cold memorise this book for interviews at the advice of a Good friend of mine. Yeah yeah yeah execute execute execute the day by day actions of building and then soon boom boom boom very performant C and C++ in the interviews coding rounds and voila a job will appear in my inbox and Life Is Good.
+
+Preface xi
+
+When you wish to instruct,
+be brief.
+- Cicero
+
+1 The Basics 1
+
+The first thing we do, let's
+kill all the language lawyers.
+- Henry VI, Part II
+
+1.1 Introduction 1
+
+
+
+1.2 Programs 2
+
+
+
+1.3 Functions 4
+
+
+
+1.4 Types, Variables, and Arithmetic 5
+
+
+
+1.5 Scope and Lifetime 9
+
+OK
+
+1.6 Constants 9
+
+
+
+1.7 Pointers, Arrays, and References 11
+
+
+
+1.8 Tests 14
+
+
+
+1.9 Mapping to Hardware 16
+
+
+
+1.10 Advice 18
+
+
+
+2 User-Defined Types 21
+
+
+
+2.1 Introduction 21
+
+
+
+2.2 Structures 22
+
+OKOKOK
+
+2.3 Classes 23
+
+OK
+
+2.4 Unions 25
+
+
+
+2.5 Enumerations 26
+
+OK
+
+2.6 Advice 27
+
+
+
+3 Modularity 29
+
+OK
+
+3.1 Introduction 29
+
+
+
+3.2 Separate Compilation 30
+
+OKOKOK
+
+3.3 Modules [C++20] 32
+
+OK
+
+3.4 Namespaces 34
+
+OK
+
+3.5 Error Handling 35
+
+OK
+
+3.6 Function Arguments and Return Values 36
+
+
+
+3.7 Advice 46
+
+OK
+
+4 Classes 47
+
+
+
+4.1 Introduction 47
+
+
+
+4.2 Concrete Types 48
+
+OK
+
+4.3 Abstract Types 54
+
+OK
+
+4.4 Virtual Functions 56
+
+OK
+
+4.5 Class Hierarchies 57
+
+OKOKOK
+
+4.6 Advice 63
+
+
+
+5 Essential Operations 65
+
+When someone says
+I want a programming language in which
+I need only say what I wish done,
+give him a lollipop.
+- Alan Perlis
+
+5.1 Introduction 65
+
+OK
+
+5.2 Copy and Move 68
+
+
+
+5.3 Resource Management 72
+
+OK
+
+5.4 Conventional Operations 74
+
+
+
+5.5 Advice 77
+
+
+
+6 Templates 79
+
+Your quote here.
+- B. Stroustrup
+
+6.1 Introduction 79
+
+
+
+6.2 Parameterised Types 79
+
+OK
+
+6.3 Parameterised Operations 84
+
+
+
+6.4 Template Mechanisms 89
+
+
+
+6.5 Advice 92
+
+
+
+7 Concepts and Generic Programming 93
+
+Programming:
+you have to start with interesting algorithms.
+- Alex Stepanov
+
+7.1 Introduction 93
+
+
+
+7.2 Concepts 94
+
+
+
+7.3 Generic Programming 98
+
+OK
+
+7.4 Variadic Templates 100
+
+OK
+
+7.5 Template Compilation Model 104
+
+
+
+7.6 Advice 104
+
+
+
+8 Library Overview 107
+
+Why waste time learning
+when ignorance is instantaneous?
+- Hobbes
+
+Everybody seeks happiness! Not me, though! That's the difference between me and the rest of the world. Happiness isn't good enough for me! I demand euphoria!
+- Calvin
+
+8.1 Introduction 107
+
+OKOKOK
+
+8.2 Standard-Library Components 108
+
+OK
+
+8.3 Standard-Library Headers and Namespace 109
+
+OKOK
+
+8.4 Advice 110
+
+OK
+
+9 Strings and Regular Expressions 111
+
+
+
+9.1 Introduction 111
+
+OKOK
+
+9.2 Strings 111
+
+OK
+
+9.3 String Views 114
+
+OK
+
+9.4 Regular Expressions 116
+
+OKOK
+
+9.5 Advice 122
+
+OK
+
+10 Input and Output 123
+
+What you see is all you get.
+- Brian W. Kernighan
+
+10.1 Introduction 123
+
+
+
+10.2 Output 123
+
+OK
+
+10.3 Input 125
+
+
+
+10.4 Input/Output State 127
+
+OK
+
+10.5 Input/Output of User-Defined Types 128
+
+OK
+
+10.6 Formatting 129
+
+OKOK
+
+10.7 File Streams 130
+
+
+
+10.8 String Streams 130
+
+
+
+10.9 C-style Input/Output 131
+
+
+
+10.10 File System 132
+
+
+
+10.11 Advice 136
+
+
+
+11 Containers 137
+
+It was new.
+It was singular.
+It was simple.
+It must succeed!
+– H. Nelson
+
+[Me precisely.]
+
+11.1 Introduction 137
+
+
+
+11.2 vector 138
+
+
+
+11.3 list 142
+
+
+
+11.4 map 144
+
+
+
+11.5 unordered_map 144
+
+
+
+11.6 Container Overview 146
+
+
+
+11.7 Advice 148
+
+OKOKOK
+
+12 Algorithms 149
+
+Do not multiply entities beyond necessity.
+- William Occam
+
+12.1 Introduction 149
+
+
+
+12.2 Use of Iterators 150
+
+
+
+12.3 Iterator Types 153
+
+
+
+12.4 Stream Iterators 154
+
+OKOK
+
+12.5 Predicates 155
+
+OK
+
+12.6 Algorithm Overview 156
+
+OKOK
+
+12.7 Concepts [C++20] 157
+
+OK
+
+12.8 Container Algorithms 160
+
+OK
+
+12.9 Parallel Algorithms 161
+
+OKOK
+
+12.10 Advice 161
+
+OK
+
+13 Utilities 163
+
+The time you enjoy wasting is not wasted time.
+- Bertrand Russell
+
+[Right gee hedons and planning I mean... I don't waste time, time wastes me.]
+
+13.1 Introduction 163
+
+
+
+13.2 Resource Management 164
+
+OK
+
+13.3 Range Checking: span 168
+
+OK
+
+13.4 Specialized Containers 170
+
+
+
+13.5 Alternatives 174
+
+OK
+
+13.6 Allocators 178
+
+
+
+13.7 Time 179
+
+OK
+
+13.8 Function Adaption 180
+
+OK
+
+13.9 Type Functions 181
+
+OK
+
+13.10 Advice 185
+
+OK
+
+14 Numerics 187
+
+The purpose of computing is insight, not numbers.
+- R. W. Hamming
+
+... but for the student,
+numbers are often the best road to insight.
+- A. Ralston
+
+14.1 Introduction 187
+
+
+
+14.2 Mathematical Functions 188
+
+
+
+14.3 Numerical Algorithms 189
+
+
+
+14.4 Complex Numbers 190
+
+
+
+14.5 Random Numbers 191
+
+
+
+14.6 Vector Arithmetic 192
+
+
+
+14.7 Numeric Limits 193
+
+
+
+14.8 Advice 193
+
+
+
+15 Concurrency 195
+
+Keep it simple:
+as simple as possible,
+but no simpler.
+- A. Einstein
+
+15.1 Introduction 195
+
+
+
+15.2 Tasks and threads 196
+
+OK
+
+15.3 Passing Arguments 197
+
+OKOK
+
+15.4 Returning Results 198
+
+
+
+15.5 Sharing Data 199
+
+OK
+
+15.6 Waiting For Events 200
+
+OK
+
+15.7 Communicating Tasks 202
+
+OK
+
+15.8 Advice 205
+
+
+
+16 History And Compatibility 207
+
+
+
+16.1 History 207
+
+
+
+16.2 C++ Feature Evolution 214
+
+
+
+16.3 C/C++ Compatibility 218
+
+
+
+16.4 Bibliography 222
+
+
+
+16.5 Advice 225
+
+
+
+Index 227
+

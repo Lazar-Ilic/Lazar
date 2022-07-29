@@ -1,0 +1,305 @@
+\Large
+
+\textbf{Geometric Transformations}
+
+1 \\
+Geometrically or system of equations linear algebra on the mapping equation.
+
+2 \\
+Canonical.
+
+3 \\
+a Canonical. \\
+b Canonical.
+
+1 \\
+Affine transformation sending the ellipse to the unit circle sends the line $y=\frac{1}{2}x$ to $y=\frac{3}{2}x$ whence by symmetry it would be the line $y=\frac{2}{3}x$ which maps back to $y=\frac{2}{9}x$ so $\boxed{\frac{2}{9}}$
+
+2 \\
+Smoothing leads to the incircle in the equilateral triangle case whence the affine transformation produces the desired Steiner inellipse.
+
+3 \\
+Without loss of generality/affine transformation to the $y=\frac{1}{x}$ and $y=ax+b$ case through $(0,b)$ and $(-\frac{b}{a},0)$ we obtain $\frac{1}{x}=ax+b$ and we note that the conclusion follows by symmetry as indeed the $x$-values of the solutions/intersections in the quadratic are centered around $-\frac{b}{2a}$.
+
+4 \\
+Without loss of generality/affine transformation to the equilateral triangle case. It suffices to show that the sum of the triangle areas is $\ge \frac{1}{2}$ of the area of the induced hexagon, halving each parallelogram. But this follows from $S=\frac{ab\sin(\theta)}{2}$ and noting $a^2+b^2+c^2 \ge ab+bc+ca$ by AM-GM for example.
+
+5 \\
+Miquel Point, Simson Lines.
+
+6 \\
+AIME. $\boxed{20\pi +30\sqrt{3}}$
+
+7 \\
+Putnam. Without loss of generality equilateral triangle one variable equations $\boxed{\frac{7-3\sqrt{5}}{4}}$
+
+8 \\
+China 1997. Poles, polars, La Hire, Brokard.
+
+\newpage
+
+\textbf{Graph Theory}
+
+1 \\
+Each edge contributes $1$ to each.
+
+2 \\
+$\boxed{\binom{n-1}{2}+1}$, indeed the minimum size of a cut is $n-1$.
+
+3 \\
+(a) When $0$ or $2$ vertices have odd degree. When $0$ vertices have odd degree. \\
+(b) No, for example the degree of the squares next to the corners is $3$.
+
+4 \\
+(a) DFS or BFS on parity and contradiction on parity. \\
+(b) Trivial. \\
+(c) Hall.
+
+1 \\
+No, each domino must cover $1$ white and $1$ black square.
+
+2 \\
+Strong induction. Indeed, take an arbitrary vertex and form a chain in the in-vertices and out-vertices and connect the, up to, $2$ chains through it.
+
+3 \\
+Consider a DFS tree. Pave each leaf edge and then proceed upwards towards the root level by level paving on parity as needed. The root will have an odd number of paved roads leading to it by parity.
+
+4 \\
+DFS order. Indeed, the root is adjacent to edge $1$, and for every other vertex with degree $>1$, i.e. non-leaf vertex, the incoming edge and first exiting edge have difference $1$ thus GCD $1$.
+
+5 \\
+By Hall as every set of $n$ columns hits $\ge n$ ranks. Indeed $n$ columns hit $4n$ cards and there are at most $4$ of each rank.
+
+6 \\
+By Hall as indeed $m$ days hit $m$ teams. If $m$ days do not hit $p$ teams then it must be the case that no pair of those teams played each other on those $m$ days, thus they played each other all on those other days, thus there were at least $p-1$ other days and we deduce that $m+(p-1) \le 2n-1 \to m \le 2n-p$ as desired as the right hand side counts the number of teams which were hit on those $m$ days.
+
+7 \\
+It follows from the decomposition of each number in to a multiple of $n$ and a shifted residue modulo $n$. Indeed half of each are captured by each colour.
+
+\newpage
+
+\textbf{Number Theory}
+
+1 \\
+$\boxed{101}$. $k_n=\frac{10^{2n}-1}{99}=\frac{(10^n-1)(10^n+1)}{99}$. If $n>2$ is even then it can be factored as $k_{\frac{n}{2}}(10^n+1)$ and if $n>2$ is odd then $11|(10^n+1)$ and $9|(10^n-1)$ giving compositivity.
+
+2 \\
+Note that the difference, re notating the indices as needed, $(d_i-e_i)10^i \equiv d \pmod{7}$, and similarly $(e_i-f_i)10^i \equiv e \pmod{7}$ thus $(d_i-f_i)10^i \equiv d+e \pmod{7}$ and it suffices to show that $d \equiv -e \pmod{7}$. Indeed summing over the $9$ digits we obtain $d-e \equiv 9d \equiv 2d \pmod{7}$ implies the desired.
+
+3 \\
+$\boxed{13}$ as $2,7,0,6,11,12,11,6,0,7,2,1,2,7,\dots$
+
+4 \\
+Expanding $a_n (f(n)+1)^n+\dots+a_0 \equiv f(1) \pmod{f(n)}$ and positive integer coefficients means for $n>1$ one has $f(1) < f(n)$.
+
+5 \\
+By the Chinese Remainder Theorem, consider the natural reduction modulo $100$ and $101$. One obtains that $n_i \equiv (-8)^i \pmod{101}$ and $i+2^i \pmod{100}$ so that $n_a+n_b$
+
+6 \\
+
+
+7 \\
+Putnam
+
+8 \\
+Putnam
+
+9 \\
+Putnam
+
+10 \\
+Putnam
+
+11 \\
+
+
+\newpage
+
+\textbf{Pigeonhole Principle}
+
+1 \\
+Trivial.
+
+2 \\
+$1 \times 1$ square grid lattice partition and note $3^2+3^2=18>16=4^2$ thus excluding $4$ corner squares.
+
+3 \\
+There exist $2^{10}=1024$ subsets with sums between $0$ and $10 \cdot \frac{90+99}{2}=945$ thus two with the same sum and then exclude from each all common mutual elements.
+
+4 \\
+$\frac{1}{2} \times \frac{1}{2}$ square grid lattice partition. Then inside a square for example smoothing argumentation on maximality.
+
+5 \\
+There exist $4$ points with each line passing through $1$ of those points. Indeed they are the $2$ each $r$ points on $x=\frac{s}{2}$ and $y=\frac{s}{2}$.
+
+6 \\
+There are $9$ relevant primes so it is isomorphic with sums of exponents modulo $4$ i.e. $\mathbb{Z}_4^9$. Note that among $513=2^9+1$ positive integers one has a pair which is equivalent in $\mathbb{Z}_2^9$ i.e. whose product is a square. Repeatedly remove such pairs until we have $513$ and then do the same on the square roots of this set to produce a fourth power.
+
+7 \\
+In $\mathbb{Z}_2$ linearity of expectation.
+
+1 \\
+For example there must exist $5$ rooks in one of the diagonals in the set of $10$ diagonals under toroidal identification.
+
+2 \\
+Isomorphic to exponent prefix sums being identical in $\mathbb{Z}_2^n$.
+
+3 \\
+Putnam. Recall that the inverse is $\frac{1}{ad-bc}\begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$ whence the determinant divides all elements, thus the determinant squared divides the determinant, thus is $\pm 1$. But then by definition it will follow as a system that the determinant of all of these $A+nB$ matrices are the same as the determinant of $A$.
+
+4 \\
+Putnam. For each prefix sum of the $y_i$ consider the minimal prefix sum of the $x_i$ which is $\ge$. Then if none are equal, these $18$ differences are each in $\{1,2,3,\dots ,17 \}$. But then there are $2$ with the same difference and the induced range sums work.
+
+5 \\
+Pick $I+\frac{B}{2}-1$ it suffices to note that if precisely $2$ of the $5$ vertices leave the same pair of remainders in $\mathbb{Z}_2^2$ then their midpoint is either an interior point or it produces an edge/boundary midpoint which produces another $2$ edge/boundary midpoints or an interior point. Else $2$ relevant points are produced.
+
+6 \\
+Putnam. Prefix sums modulo $1$ either done or induced range sum.
+
+7 \\
+Otherwise the sequence of maximum-thus-fars is infinite by an there exists an $n$ such that some system of residue modulo $1$ remainders inequalities holds.
+
+8 \\
+Putnam.
+
+9 \\
+Linearity of expectation. For example consider some fixed point being positioned uniformly randomly in $[0,1] \times [0,1]$ and then e.g. summing the probabilities in a reasonable lattice mesh approximation say.
+
+10 \\
+$[1,2,4,8,\dots ],[3,6,12,24,\dots ],[5,10,20,40,\dots ],\dots$ as there are $n$ odd generators.
+
+\newpage
+
+\textbf{Proof By Contradiction}
+
+1 \\
+Trivial.
+
+2 \\
+Trivial.
+
+3 \\
+For example $P(0) | P(nP(0))$ and thus they are all $P(0)$ and thus all roots of $P(x)-P(0)$ contradiction on finite degree.
+
+4 \\
+Otherwise consider $E_1=\{x_1,x_2,\dots,x_r \}$. Then there must exist an $E_j$ which does not contain $x_i$ for each $i$, but then the intersection of these $r+1$ is empty, contradiction.
+
+5 \\
+Trivial.
+
+1 \\
+Putnam. Assume otherwise that there exists a rational root $\frac{p}{q}$. Then by rational root theorem, e.g. clearing denominators in expression by multiplying by $q^n$, one obtains that $p$ and $q$ are odd but this then leads to the contradiction $0 \equiv 1 \pmod{2}$
+
+2 \\
+For $n>5$ the larger set will have a larger product as $n(n+1)(n+2)(n+3)(n+4)>(n+5)(n+6)(n+7)(n+8)$ and modulo $7$ the other $5$ non trivial cases.
+
+3 \\
+Suppose that no colour attains all distances, meaning that there exist real numbers $r \ge g \ge b$ such that no two red points have distance $r$ and similar. Then consider a sphere of radius $r$ centered at a red point. Then consider the circle intersection with a sphere of radius $g$ centered at a green point on the first sphere. It must be a blue circle which must contain a chord pair $b$ apart, contradiction.
+
+4 \\
+$\boxed{f(x)=c}$ works. Indeed if $f(x)=f(y)$ we may deduce that $f(x^2+y^2)=f(x)=f(y)$ enabling us to deduce that $f(1)=f(2)=f(5)=f(8)=f(26)=f(50)=\dots$ but then for example we may also deduce in reverse $f(\sqrt{y-x^2})=f(x)=f(y)$ whence $f(7)$ e.g. and it suffices to show these enable the generation of the entirety of $\mathbb{N}$. Perhaps there exists a contradiction supposing that there exists another value like if $f(n)$ is the smallest value not equal to $f(1)$...
+
+5 \\
+Trivial.
+
+6 \\
+Turan. $K_{n,n}$
+
+7 \\
+Erdos-Anning. A set of $3$ points with integer distances at most $a$ can have at most $4(a+1)^2$ points at integer distances added to it by hyperbola intersections. Because e.g. by the Triangle Inequality $|d(A,X)-d(B,X)| \le a$ means these $a+1$ hyperoblae contain the points and then $2$ hyperbolae intersect in at most $4$ points.
+
+\newpage
+
+\textbf{Proof By Induction}
+
+1 \\
+Base Case $n=1$: by given. \\
+Inductive Step $n \to n+1$: $x^{n+1}+\frac{1}{x^{n+1}}=\left(x+\frac{1}{x} \right)\left(x^n+\frac{1}{x^n} \right)-\left(x^{n-1}+\frac{1}{x^{n-1}} \right)$ is an integer.
+
+2 \\
+Trivial.
+
+3 \\
+Follows by characteristic polynomial generating function argumentation.
+
+4 \\
+Zeckendorf.
+
+5 \\
+$\boxed{F_{n+2}}$
+
+6 \\
+$\boxed{3^{100}+1}$ indeed $3^n+1+2+2(3^n+1-2)$ as all but the end $1$s contribute twice to the next row.
+
+1 \\
+The question assumes positivity, which is an invariant under these operations, and is not true as stated due to analysis on terms which map in to certain other target terms. Note that one can transform from $1$. Indeed imitate the Euclidean Algorithm for the computation of the GCD, the Greatest Common Divisor. That is, for example, $1 \to 2 \to 3 \to \frac{1}{3} \to \frac{4}{3} \to \frac{3}{4} \to \frac{7}{4} \to \frac{11}{4} \to \frac{4}{11}$.
+
+2 \\
+Indeed one has the stronger $A(n) \le \frac{1}{\sqrt{3n+1}}$ as it suffices to note that $\frac{2k+1}{2k+2} \cdot \frac{1}{\sqrt{3n+1}} \le \frac{1}{\sqrt{3n+4}}$
+
+3 \\
+Impossible for odd $n$ as $(2n-1)\left(\frac{n+1}{2}\right) > n^2$ counting incidences as each diagonal element contributes to $1$ of these union sets, and each off-diagonal element contributes to $2$ of these union sets, and we must hit each set thus requiring at least $\frac{n+1}{2}$ of each of the $2n-1$ values to appear in the matrix. For the even case, and the particular task of demonstrating existence for infinitely many values of $n$, one may do an inductive/recursive construction for powers of $2$. Namely, create $4$ copies, and shift the upper right and lower right copies by $2^{n}$ and then shift the upper right diagonal by $-1$, so for example at step $4$ we have: \\
+$
+\begin{matrix}
+1 & 2 & 4 & 6 & 8 & 10 & 12 & 14 \\
+3 & 1 & 7 & 4 & 11 & 8 & 15 & 12 \\
+5 & 6 & 1 & 2 & 13 & 14 & 8 & 10 \\
+7 & 5 & 3 & 1 & 15 & 13 & 11 & 8 \\
+9 & 10 & 12 & 14 & 1 & 2 & 4 & 6 \\
+11 & 9 & 15 & 12 & 3 & 1 & 7 & 4 \\
+13 & 14 & 9 & 10 & 5 & 6 & 1 & 2 \\
+15 & 13 & 11 & 9 & 7 & 5 & 3 & 1
+\end{matrix}
+$
+
+4 \\
+$\boxed{n^2}$ for example by invariant swapping to edge case analysis. Or removing/inserting $a_1,b_1$ structure type analysis.
+
+5 \\
+Note this forms Sylvester's sequence, A000058 in OEIS: $2$, $3$, $7$, $43$, $1807$, $3263443$, $10650056950807$ and the conclusion follows as $a(n)=a(0)a(1)\dots a(n-1)+1$
+
+6 \\
+Because we can scale up any such representation by multiplying with a power of $3$ it suffices to address the case when $n$ is not a multiple of $3$. Then we may pick the largest power of $2$ less than or equal to $n$ and congruent to $n$ modulo $3$ and note that this $2^a > \frac{n}{4}$ whence in the $3$ multiplied construction for $\frac{n-2^a}{3} < 2^a$ we won't contradict on divisibility.
+
+7 \\
+Assuming otherwise one obtains that $g$ is not the zero function on one of the axes, namely without loss of generality that $g(x,0)$ is not the zero function. But then there is a sufficiently small interval wherein we may derive a sign based, arbitrarily large exponential over harmonic blowup based on the partition size of a Riemann sum.
+
+\newpage
+
+\textbf{Symmetry And The Extremal Principle}
+
+1 \\
+$\boxed{\frac{\pi}{4}}$
+
+2 \\
+Unreflecting the minimum path straight line from $(-3,-5)$ to $(8,2)$ gives $\boxed{\sqrt{170}}$
+
+3 \\
+$\boxed{3}$ indeed draw a picture, a tri force. Then if there was a point in the exterior, it would be mapped in to the invalid region under either $\frac{\pi}{3}$ rotation from the opposite vertex and then any point in the interior would be mapped to the exterior to the invalid region.
+
+4 \\
+Note the degree of $f$ and hence of $g$ by definition must be even. And $g=f+g'$ thus consider the minimum of $g$ at say $g(a)$ so that $g'(a)=0$. Then $g(x) \ge g(a)=f(a)+g'(a)=f(a) \ge 0$ by the given as desired.
+
+5 \\
+There exists a minimum attained value and each of its $4$ neighbours must share that value, and each of their $4$ neighbours, and so on and so on. Without the positive requirement one may take e.g. $f(x,y)=x+y$
+
+1 \\
+Iterated reflections to circular slices and $bn+2a>\pi$ so $n > \frac{\pi-2a}{b}$ or $\boxed{1+\left \lfloor \frac{\pi-2a}{b} \right \rfloor}$
+
+2 \\
+$\boxed{\frac{\pi}{4}}$ as $1=\frac{1}{1+x}+\frac{1}{1+\frac{1}{x}}$
+
+3 \\
+Reflections $(b,a)$ and $(a,-b)$ so $\boxed{\sqrt{2(a^2+b^2)}}$
+
+4 \\
+Definition.
+
+5 \\
+Putnam. $\boxed{\frac{1}{8}}$
+
+6 \\
+Snub square tiling and angle contradiction.
+
+7 \\
+No for example the maximal appearing $10^k$ is a unique string of $k$ $0$s and thus, as a unique subpalindrome, must occur in the center. But it has $\dots 9100\dots 010\dots$

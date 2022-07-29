@@ -1,0 +1,98 @@
+1
+Yes. Start with an out edge from v and keep on adding unused edges until we hit u. This is valid by definition as each in to a vertex will induce a valid out unless we have hit u. Iterate k times. I.e. the k edge-disjoint paths necessarily induce k edge-disjoint cycles from u to u through v.
+
+2
+Source v with relevant capacity 1 edges and target with capacity 1 edges from u and w. If and only if maximum flow is 2.
+
+3
+(a) Definition
+(b) Source with an infinite capacity edge to each source and target with an infinite capacity edge from each target and run maximum flow from source to target.
+
+4
+Vertex capacity 1 condition and run maximum flow minimum cut. The cut set of edges corresponds with a minimal set of stations to be closed.
+
+5
+(a) Source with capacity 1 edge to each terminal, target with capacity 1 edge from each boundary vertex, vertex capacity 1 condition, capacity 1 edges, and run if and only if maximum flow is m.
+(b) 
+(c) 
+
+6
+Maximum bipartite matching. Underlying graph can be computed via radial sorting.
+
+7
+Each vertex must have degree 2. Force via replacing each vertex with a K{d,d-2} and naturally induce the original graph from the left components. Cycle cover if and only if complete matching. See Tutte 1954. Further vertex expansion is a powerful general technique and this works for forcing any desired combination of degrees.
+
+8
+If and only if complete bipartite matching. See Thiant 2003. See Pak, Sheffer, Tassy 2016 for simply connected regions.
+
+9
+Source with capacity 1 edge to each row, target with capacity 1 edge from each column, capacity 1 edge between row and column if and only if white square, if and only if maximum flow is n.
+
+10
+Run DAG disjoint path cover to produce minimal chain decomposition.
+
+11
+(a) Directed edge if and only if to is down-right of from then process in order i.e. left to right then top to bottom storing maximal path from source terminating at each vertex i.e. by propagating through each edge if relevant while processing a vertex then output the target value.
+(b) Trivially for example in
+OXX
+XXO
+If the first maximal monotone path is
+YYO
+OYY
+Then the remainder is
+OOX
+XOO
+Which requires another 2 paths is a total of 3 is suboptimal as it can be done in 2.
+(c) Run DAG disjoint path cover.
+
+12
+Source with capacity d/3 edges to assistant, associate, and full with capacity 1 edges to relevant professors with capacity 1 edges to relevant departments with capacity 1 edges to target. If and only if maximum flow is d.
+
+13
+Source with capacity 1 edges to taken courses with capacity 1 edges to relevant requirements with capacity must take edges to target. If and only if maximum flow is sum of must takes.
+
+14
+Source with capacity 3 edges to each Disc Jockey with capacity 1 edges to each relevant genre with capacity 1 edges to each day with capacity k edges to target. If and only if maximum flow is 3k.
+
+15
+Source with capacity 1 edges to each visitor with capacity 1 edges to each relevant demographic group with capacity how many to each relevant advertiser with capacity how many to target. If and only if maximum flow is sum of how manies.
+
+16
+(a) Source with capacity sum modulo 1 to each row with capacity 1 edges to each relevant column with capacity sum modulo 1 to target. If and only if maximum flow is sum modulo 1.
+(b) Trivial for obviously impossible.
+(c) Trivial possibility check. The construction of 1/0 assignment for each of the mn entries to satisfy the row and column constraints follows via i.e. iterating through if a row and column still need a 1 then fill and decrement from the target remaining values. See "Combinatorial Matrix Theory", "Matrices with prescribed row and column sums" etc.
+e.g. if the target is
+  2 1 1
+1
+2
+1
+Then we simply assign in order
+   2 1 1
+
+1  1 0 0
+2  1 1 0
+1  0 0 1
+
+17
+Create an in and an out vertex for each device. Relevant edges from sufficiently close outA to inB and outB to inA. Source with capacity k edges to each out vertex and target with capacity b edges from each in vertex. If and only if maximum flow is nk.
+
+18
+One can binary search for threshold on source1 with capacity threshold edge to source2 with infinite capacity edges to class vertices with relevant infinite capacity edges between class vertices with cap capacity edges to target. Threshold is valid if and only if maximum flow is sum of capacities.
+
+19
+(a) One can expand each vertex into h timestamped of arrival copies and with infinite capacity edges up each chain. Then induce simply the capacity 1 edges between relevant A{n} and B{n+1} vertices and run maximum flow.
+(b) Lacking rigour just a sketch note for sufficiently large h that the long run maximizing behavior emerges from flow 1 person per time step through maximum number of edge-disjoint flow paths whence it suffices to analyze for small h.
+(c) Immediately one can binary search for the target threshold via (a) but (b) suffices.
+
+20
+(a) Longest increasing subsequence in for example list the neighbors of L1 in decreasing order, then the neighbors of L2 in decreasing order, etc. There exists n log log n via Malucelli 1993
+(b) Run DAG disjoint path cover on the graph where edges are vertices and there exists an edge if and only if from was above to in the original. There exists coloring n^2 log log n via Malucelli 2001
+Trawl references in Malucelli bibliography.
+
+21
+(a) Source to R vertices with edge capacity 2, relevant intraedges with capacity 2, edges from L vertices L1 and L2 to Pair{1}, L2 and L3 to Pair{2} etc. with capacity 1, and edges from Pair vertices to Target with capacity 1. If and only if maximum flow is n-1.7
+(b) 
+(c) 
+
+22
+See references in Droschinsky, Kriege, Mutzel 2016

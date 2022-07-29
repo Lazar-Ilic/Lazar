@@ -1,0 +1,5 @@
+Without [url=https://github.com/Lazar-Ilic/Notebook/blob/main/a.cpp]Template[/url]:
+
+[code=C++]
+
+[/code]

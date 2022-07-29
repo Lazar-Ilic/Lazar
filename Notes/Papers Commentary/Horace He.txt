@@ -1,0 +1,87 @@
+Fantastic quality stuff all around.
+
+2020 Facebook Research Engineer (TBD)
+TBD
+2019 Facebook Intern
+Pytorch JIT and research with SysML
+2018 Google Intern
+SQLx Compiler
+2017 Facebook Intern
+Nuclide for VSCode and dependency management
+
+Writing
+2022-03-15 Making Deep Learning Go Brrrr From First Principles
+[Twitter]
+2021-01-31 How many paths of length K are there?: And I show you how deep the rabbit hole goes
+[Reddit]
+2020-04-24 The State of Machine Learning Frameworks in 2019
+[Hacker News][r/MachineLearning] [Twitter: 1, 2] [Code][Criticism]
+
+OKOKOK very very very solid writing hits flies through Green check marks from me as the legitimatey legitimate dude.
+
+Solid Resume.
+
+Very solid Google Scholar page:
+
+Horace He
+Cornell University
+
+The pile: An 800gb dataset of diverse text for language modeling
+L Gao, S Biderman, S Black, L Golding, T Hoppe, C Foster, J Phang, H He, ...
+arXiv preprint arXiv:2101.00027	138*	2020
+
+Combining Label Propagation and Simple Models Out-performs Graph Neural Networks
+Q Huang*, H He*, A Singh, SN Lim, AR Benson
+ICLR 2021 (International Conference on Learning Representations)	114	2020
+
+Enhancing Adversarial Example Transferability with an Intermediate Level Attack
+Q Huang*, I Katsman*, H He*, Z Gu*, S Belongie, SN Lim
+ICCV 2019 (IEEE International Conference on Computer Vision)	88	2019
+
+The state of machine learning frameworks in 2019
+H He
+The Gradient	41	2019
+
+Measuring coding challenge competence with apps
+D Hendrycks, S Basart, S Kadavath, M Mazeika, A Arora, E Guo, C Burns, ...
+arXiv preprint arXiv:2105.09938	30	2021
+
+Value learning for throughput optimization of deep learning workloads
+B Steiner, C Cummins, H He, H Leather
+Proceedings of Machine Learning and Systems 3, 323-334	18*	2021
+
+Better Set Representations For Relational Reasoning
+Q Huang*, H He*, A Singh, Y Zhang, SN Lim, A Benson
+NeurIPS 2020	16	2020
+
+Gpt-neox-20b: An open-source autoregressive language model
+S Black, S Biderman, E Hallahan, Q Anthony, L Gao, L Golding, H He, ...
+arXiv preprint arXiv:2204.06745	10	2022
+
+Measuring Coding Challenge Competence With APPS. CoRR abs/2105.09938 (2021)
+D Hendrycks, S Basart, S Kadavath, M Mazeika, A Arora, E Guo, C Burns, ...
+arXiv preprint arXiv:2105.09938	5	2021
+
+Geometry Types for Graphics Programming
+D GEISLER, I YOON, H HE, A KABRA, Y SANDERS
+OOPSLA 2020 (Object-oriented Programming, Systems, Languages, and Applications)	5	2020
+
+Edge proposal sets for link prediction
+A Singh, Q Huang, SL Huang, O Bhalerao, H He, SN Lim, AR Benson
+arXiv preprint arXiv:2106.15810	4	2021
+
+functorch: Jax-like composable function transforms for pytorch
+H He, R Zou
+2	2021
+
+torch. fx: Practical Program Capture and Transformation for Deep Learning in Python
+J Reed, Z DeVito, H He, A Ussery, J Ansel
+Proceedings of Machine Learning and Systems 4, 638-651	1	2022
+
+Value Learning for Throughput Optimization of Deep Neural Networks
+B Steiner, C Cummins, H He, H Leather
+1	2021
+
+Adversarial Example Decomposition
+H He, A Lou*, Q Jiang*, I Katsman, P Pawakapan, S Belongie, SN Lim
+ICML, SPML 2019 (International Conference on Machine Learning, Workshop on …		2018

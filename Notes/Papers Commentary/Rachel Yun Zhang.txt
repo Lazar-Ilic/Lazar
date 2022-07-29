@@ -1,0 +1,33 @@
+Funny girl.
+
+2022
+	[c4]		Meghal Gupta, Yael Tauman Kalai, Rachel Yun Zhang:
+Interactive error correcting codes over binary erasure channels resilient to > ½ adversarial corruption. STOC 2022: 609-622
+	[c3]		Meghal Gupta, Rachel Yun Zhang:
+The optimal error resilience of interactive communication over binary channels. STOC 2022: 948-961
+	[i9]		Meghal Gupta, Rachel Yun Zhang:
+Positive Rate Binary Interactive Error Correcting Codes Resilient to >1/2 Adversarial Erasures. CoRR abs/2201.11929 (2022)
+	[i8]		Meghal Gupta, Rachel Yun Zhang:
+Efficient Interactive Coding Achieving Optimal Error Resilience Over the Binary Channel. CoRR abs/2207.01144 (2022)
+2021
+	[j1]		Rachel Yun Zhang:
+The relation between composability and splittability of permutation classes. Discret. Math. 344(4): 112271 (2021)
+	[c2]		Ruta Jawale, Yael Tauman Kalai, Dakshita Khurana, Rachel Yun Zhang:
+SNARGs for bounded depth computations and PPAD hardness from sub-exponential LWE. STOC 2021: 708-721
+	[c1]		Yael Tauman Kalai, Vinod Vaikuntanathan, Rachel Yun Zhang:
+Somewhere Statistical Soundness, Post-Quantum Security, and SNARGs. TCC (1) 2021: 330-368
+	[i7]		Meghal Gupta, Rachel Yun Zhang:
+The Optimal Error Resilience of Interactive Communication Over Binary Channels. CoRR abs/2110.15395 (2021)
+	[i6]		Meghal Gupta, Yael Tauman Kalai, Rachel Yun Zhang:
+Interactive Error Correcting Codes Over Binary Erasure Channels Resilient to $>\frac12$ Adversarial Corruption. CoRR abs/2111.04181 (2021)
+	[i5]		Yael Tauman Kalai, Vinod Vaikuntanathan, Rachel Yun Zhang:
+Somewhere Statistical Soundness, Post-Quantum Security, and SNARGs for P. IACR Cryptol. ePrint Arch. 2021: 788 (2021)
+	[i4]		Meghal Gupta, Yael Tauman Kalai, Rachel Yun Zhang:
+Interactive Error Correcting Codes Over Binary Erasure Channels Resilient to $>\frac12$ Adversarial Corruption. IACR Cryptol. ePrint Arch. 2021: 1481 (2021)
+	[i3]		Meghal Gupta, Rachel Yun Zhang:
+The Optimal Error Resilience of Interactive Communication Over Binary Channels. IACR Cryptol. ePrint Arch. 2021: 1482 (2021)
+2020
+	[i2]		Yael Tauman Kalai, Rachel Yun Zhang:
+SNARGs for Bounded Depth Computations from Sub-Exponential LWE. IACR Cryptol. ePrint Arch. 2020: 860 (2020)
+	[i1]		Ruta Jawale, Yael Tauman Kalai, Dakshita Khurana, Rachel Yun Zhang:
+SNARGs for Bounded Depth Computations and PPAD Hardness from Sub-Exponential LWE. IACR Cryptol. ePrint Arch. 2020: 980 (2020)

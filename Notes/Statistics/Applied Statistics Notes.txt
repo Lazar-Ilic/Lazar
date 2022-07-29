@@ -1,0 +1,289 @@
+1
+Who and What: Respondents, Subjects, Participants, Experimental Unity, Records
+Sample from Population
+Categorial/Qualitative/Nominal Variables
+Quantitative Variable
+
+2
+Area Principle ratio plotting
+Frequency Table
+Relative Frequency Table
+Distribution
+Bar Charts
+Pie Charts
+Independence
+Segmented Bar Chart
+Simpson's Paradox - means across groups contradicting overall means
+
+3
+Distribution
+Histogram
+Stem-and-Leaf Display
+Dotplot
+Shape
+Modes
+Unimodal
+Bimodal
+Multimodal
+Uniform Distribution
+Symmetric
+Center
+Mean
+Median
+Range
+Lower Quartile, Upper Quartile, Interquartile Range, Percentile
+5-Number Summary, Maximum, Q3, Median, Q1, Minimum
+Boxplot
+Variance and Standard Deviation
+
+4
+Comparing Distributions
+Comparing Boxplots
+Outliers
+Timeplot
+
+5
+Standardize
+Standardized Value
+Shifting
+Rescaling
+Normal Model
+Parameter
+Statistic
+Z-Score
+Standard Normal Model
+Nearly Normal Condition
+68-95-99.7 Rule
+Normal Percentile
+Normal Probability Plot
+
+6
+Scatterplots
+Association
+Outlier
+Response Variable, Y-Variable
+Explanatory Variable, X-Variable
+Correlation Coefficient R
+R^2 Value
+Lurking Variable
+Re-Expression
+Ladder of Powers
+
+7
+Least Squares
+Linear Model
+Predicted Value - yhat
+Residual - y-yhat
+Line of Best Fit
+Slope
+Intercept
+Conditions:
+    Quantitative Variables
+    Straight Enough
+    No Outliers
+    Equal Variance Assumption/Does The Residuals Plot Thicken/Thin
+    Nearly Normal Condition on Residuals
+
+8
+Sifting Residuals for Groups
+Subsets
+Extrapolation - beyond data X-Variable values
+Predicting Changes
+Leverage - distance from X-mean
+Influential - omitting changes model a lot
+Lurking Variable
+Causation
+
+11
+Population
+Sample
+Sample Surveys
+Biased
+Randomizing
+Sample Size
+Census - entire Population
+Population Parameter - e.g. mean
+Statistic
+Sample Statistic - e.g. sample mean
+Representative
+Simple Random Sample - RNG
+Sampling Frame
+Sampling Variability
+Stratified Sampling - first sliced into homogenous groups called strata then SRS inside/within each stratum before data combined leads to reduced sampling variability
+Cluster Sampling - splitting population into representative clusters and then peforming a census within each of them
+Multistage Sampling - combine several methods
+Systematic Sampling - e.g. every 10th representative
+Valid Survey - know what you want to know, use the right sampling frame, tune your instrument, ask specific rather than general questions, ask for quantitative results when possible, be careful in phrasing questions
+Pilot - protect from unanticipated measurement errors by trial run on smaller group using survey draft and analyzing results
+Mistakes:
+    Voluntary Response Sample/Bias
+    Convenience Sampling
+    Use Bad Sampling Frame
+    Undercoverage
+    Nonresponse Bias
+    Response Bias - non-neutral wording e.g.
+Always report your sampling methods in detail
+
+16
+Bernoulli
+    The 10% Condition - if not independent OK sample <10% of population
+Geometric: [1,2,...] with [p,p(1-p),...]
+    E = 1/p
+    Var = (1-p)/p^2
+Binomial(n,p)
+    E = np
+    Var = np(1-p)
+Explicitly Compute Sum
+Normal Approximation
+    Success/Failure Condition - np, nq ≥ 10
+Poisson(λ)
+    E = λ
+    Var = λ
+Uniform
+Exponential
+
+17
+Normal Proportion - phat ± (z*)(sqrt(phat(1-phat)/n))
+    Randomization Condition
+    10% Condition - Sample ≤ 10% Population
+    Success/Failure Condition - Successes, Failures ≥ 10
+Central Limit Theorem
+    Independence Assumption
+    Randomization Condition
+    Sample Size Condition
+Sample Mean - yhat ± (z*)(σ/sqrt(n))
+    E[Sample Mean] = Population Mean
+    Var[Sample Mean] = Var[Population]/n
+
+18
+Standard Error - sqrt(phat(1-phat)/n)
+Confidence Interval
+One-Proportion z-Interval
+Margin of Error - (z*)(sqrt(phat(1-phat)/n))
+Critical Value
+
+19
+Hypothesis
+H0 - Null Hypothesis
+HA - Alternate Hypothesis
+Effect Size
+P-Value
+Two-Sided Alternative e.g. p ≠ 0.2
+One-Sided Alternative e.g. p < 0.2
+
+20
+Sample Mean Estimator
+t-Score
+df = n-1
+SE(yhat) = s/sqrt(n)
+One Sample t-Interval for the Mean
+    yhat ± (t*)(s/sqrt(n))
+    Randomization Condition
+    Nearly Normal Condition
+Hypothesis Test for Proportion Exception: use H0 Value rather than phat
+
+21
+Hypotheses
+P-Values
+Alpha Level - decide in advance like .05 for P < .05 reject null
+Statistically Significant - see above
+Significance Level
+Critical Value
+Power - probability correctly rejects a false null hypothesis
+    β = P[Test Fails to Reject False Null Hypothesis]
+    1-β = Power
+    Increase Power with More Data, Precision
+Type I Error - P [Reject True Null Hypothesis]
+Type II Error - P [Fail to Reject False Null Hypothesis]
+Effect Size
+
+22
+Variances Add for Independent
+Comparing Proportions
+    Independence Assumption
+    Randomization Condition
+    10% Condition
+    Independent Groups Assumption
+    Success/Failure Condition
+Two Proportion z-Interval for p1-p2
+    (p1hat-p2hat) ± (z*)(sqrt(p1hat(1-p1hat)/n1+p2hat(1-p2hat)/n2))
+Two Sample z-Test for Difference Between Proportions
+    H0: p1-p2 = 0
+    Pooling
+    phat = (Success1+Success2)/(n1+n2)
+    SE = sqrt(phat(1-phat)/n1+phat(1-phat)/n2)
+Comparing Means
+    Independence
+    Nearly Normal Condition
+    Independent Groups Assumption
+Two Sample Interval for μ1-μ2
+    Usually t then df, else if know σ then z*
+    (μ1hat-μ2hat) ± (t*)(sqrt(s1^2/n1+s2^2/n2))
+    df = (s1^2/n1+s2^2/n2)^2/((s1^2/n1)^2/(n1-1)+(s2^2/n2)^2/(n2-1))
+Two Sample t-Test for Difference Between Means
+    H0: μ1-μ2 = 0
+Pooled t-Test for Means
+    Equal Variances Assumption Suspicious
+    SE in Pooled
+
+23
+Paired Assumptions
+    Paired Data Condition
+    Independence Assumption
+    Randomized Condition
+    Nearly Normal Condition
+Paired t-Test
+    H0: μd = 0 usually
+    df = n-1 for n pairs values
+    SE = sd/sqrt(n)
+Paired t-Interval
+    dhat ± (t*)(sd/sqrt(n))
+
+24
+Goodness-of-Fit Tests
+Assumptions
+    Counted Data Condition - categorical
+    Independence Assumption
+    Sample Size Assumption
+    Expected Cell Frequency Condition - ≥ 5 per cell
+Chi-Square
+    χ^2 = Σ (Obs-Exp)^2/Exp
+    df = n-1 for n cells
+    P-Value
+For Homogeneity Multiple Groups on Same Categorical
+    Pool
+    df = (#Rows-1)(#Cols-1)
+Chi-Square Test of Independence for One Group on 2 Categorical
+    Like Homogeneity
+
+25
+Inferences For Regression
+    Straight Enough Condition
+    Quantitative Data Condition
+    Independence Assumption
+    Does the Residuals Plot Thicken/Thin
+    Nearly Normal Condition
+    Outlier Condition
+Logistic Regression
+
+28
+Multiple Regression
+R^2
+R^2 Adjusted For More Explanatory Variables
+Partial Regression Plot
+Assumptions
+    Linearity Assumption
+    Straight Enough Condition
+    Independence Assumption
+    Randomization Condition
+    Equal Variance Assumption
+    Does The Residuals Plot Thicken/Thin
+    Nearly Normal Residuals Condition
+
+29
+Indicator
+Leverage
+Influential Case
+Studentized Residual
+Stepwise Regression
+Collinearity

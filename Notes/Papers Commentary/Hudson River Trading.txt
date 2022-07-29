@@ -1,0 +1,39 @@
+See The Hudson River Trading Beat.txt for web log commentary. And some other Notes and follow on readings.
+
+On Github @hudson-trading
+
+	erigon
+
+Ethereum implementation on the efficiency frontier.
+
+Oh OK maybe I look at enough codes such as this one then some firm will hire me for Quantitative Researcher or like Crypto Software Engineer or Developer roles.
+
+	netbox-nagios
+
+
+
+	web3.py
+
+I see this must be important. Has 1.1k forks is interesting dunno how many employees are forking and how many other people use this.
+
+	go-ethereum
+
+OKOKOK
+
+This is interesting I know a little Go could pick up some more here maybe maybe maybe some industry relevant stuff.
+
+	phabricode
+
+Oh I see I see I see very interesting extensions for Visual Studio Code, I have messed around with a few here on my Asus Chromebook machine which have interfered with and tanked performance but I would suppose that code reviews are super duper wooper critical at all firms and that minimising processing times is thus important and ensuring ease of usage. I dunno if people regularly onsight suboptimal codes others write and the vice versa just how latency just how onsighted just how much tanking goes down on what precisely or what is contemplated on the day to day by Software Engineers employed at this firm in particular. Uh it would seem that interns are often tasked with projects where maybe a like binary outcome is expected or performance is not too too critical but for a New Graduate hire one would think they hope to take some talent and convert it into tons of very optimal useful helpful contribs and pushes into their codebase.
+
+	wwhrt-bookbuilder-workshop
+
+The Women We Heart [the verb] I guess or like Women With Hudson River Trading something about Core Developer. Ah hah the usual market data, exchange order book review stuff.
+
+So here like in all of these .cc and .h files I guess one can see the sort of style that they might expect in submissions on interviews coding rounds... I uh think I sort of approximately did that right on my most recent one.
+
+Yeah this is all half interesting I mean like maybe I need some 20 file C++ codes corpus or actually do get around to like trying to do either interviews coding rounds in good sharp performant C++ or those algorithmic trading finance tasks finally just get around to it.
+
+	cmu-15-112-ml-workshop
+
+OKOKOK this is half interesting to me right now.

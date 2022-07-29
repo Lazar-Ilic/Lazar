@@ -1,0 +1,1 @@
+OK might get around to doing this in relatively performant C++ soon.

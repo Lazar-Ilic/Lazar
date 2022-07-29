@@ -1,0 +1,59 @@
+New News
+Lazar Ilic
+
+Black on White
+White on Black
+Custom Colours
+
+Website, applications too. But ensure maximum article body width so like Leo Babauta rants about right we want it to look good and be legible for human eyes if the user is say on Chrome and has it set to the full window but also half window. So default behaviour is centered maximum width.
+
+Legibility is critical frankly the font needs to be sufficiently heavy and a nice Monospace because like Reddit and Hacker News are frankly illegible.
+
+Maybe at the top we have a Left and Right Triangle arrows so you can go back and see the previous days but it is partitioned on a day by day basis so like you come in 1/month or you can set the range. I might do a little mock up soon a little .png sketch of my vision.
+
+Updates 1/day say custom time but default 18:00 is the summary of the business day.
+
+Simple minimal interface, maybe fonts options, defaults to a nice Monospace font like the one in Visual Studio Code.
+
+Horizontal long rectangles, 1 wide like a long stream. But each rectangle is just the title or headline with 0 content or 1st line or summary no none of that think like Reddit but each horizontal bar is literally 1 line so like 5 times smaller. Like Hacker News without the annoying numbers to the Left and maybe 2 times smaller due to 0 comments or points. Maybe include comments when expanded from selected sources or offer links to comments from other sources so if the underlying has a Hacker News comment thread then offer that option once expanded at the bottom.
+
+So I guess the next obvious idea would be to use all of the user's data in conjunction with the other user's data see if that can help us suggest further better links for users. And figure out the precise route via which a user can contribute a link in to the mix and suggest to the algorithm that they wanted that link in fact. Just um this user's taste correlates with that user's taste yadda yadda yadda and that way if that dude at Jump Trading and I like the same stuff and he discovers whatever I discover whatever this application will link it up make it so that we both pop poop on eachother's screen or whatever.
+
+OK so a simple click on the bar will reveal the summary as well as the .txt and then the image files load in place too.
+
+OK this might be tricky tricky tricky it may actually be easier to simply provide the user with links to the article and their selected relevant comment sites should those exist. Then if they select or opt out of The New York Times say... they can opt in if they have the script subscription otherwise opt out say. So we want a heavy handed opt in and a heavy handed opt out.
+
+But also consider maybe having the first custom say 25 or 50 links be just the general News for the day which is not like their favourite topics or whatever we learn with Machine Learning.
+
+Certainly would like the option to call a function to block all headlines with "LGBT" string appearing. Useful function for others too maybe they get triggered by "Putin" e.g. or "Netanyahu", "Trump", "Biden", etc.
+
+Maybe when the user just starts out and signs up we have them 1 time list off some topics they are interested in to curate an OK starting initial point of content for them from day 1. It is critical to maximise retention and rate of hooking them in to the feed otherwise they just leave. And we want the critical mass needed to gain useful cross user relational data. And we need need need to be able to toss in links quite easily.
+
+I am not going to lie if we could simply have a minimal text scaper and have it all simply internal to the website, feed, application on infinite scroll that would be hella chill just hella esthetic font size adjustable like 14 point Courier New is even acceptable. I know you can obviously New Incognito Window cookies clear scrape off of The New York Times too but I dunno I think that would get sued in the form of a website dedicated to doing that especially if we monetise.
+
+Oh yeah and we need an option for the user to add in a link as desired so like if they stumble across some content on the interconnected network they can throw it in and it can get added to other users' feeds and noted as a data point in their data set. Like a: I wish this link had come up and I want to see more content like this.
+
+Think that blocking The New York Times idea comes right into simple simple simple blacklisting domains. Like I personally hate seeing links to The New York Times on Reddit and so this could shut that off completely on my end which is a serious improvement to the user experience.
+
+Now here is the trick we also give the user the option to opt in to upvotes and downvotes so if they opt in we can further track via this 3 tier partition system. So then they can hit upvote on a headline without actually clicking on the link look here we do link Hacker News style and comments links to the Right of the primrary headline link. And then though if they upvote just a headline without following that link we note it like they liked that headline type content without following the link.
+
+In any case maybe we even do page by page so they can just start off with 1-100 and go endlessly or nearly endlessly say scroll through 10000 links per day.
+
+Actual content needs to be pre selected 100 1000 custom who knows maybe 1000 headlines per day. Of course the user will benefit from simply reading the headline "Palestine Destroyed By Israel" even if they do not want to read the summary from the AP piece or whatever. And maybe the summary for some other shtick suffices. Maybe Artificial Intelligence and/or highly rated user summaries for summaries.
+
+Anyways yeah simple click to open panel and simple click to close again so you click on that rectangle, but also you could simply scroll through down and then open a new one and default behaviour maybe may be to store the last 5 open in case they were topical or whatever and user wanted to skim back but otherwise close by default. So we do not have 1000 articles open all at the same time.
+
+In any case yeah yeah we want to use the information about the ones they click on but also need to want to force them to see the useful stuff too so potential sources, maybe we let them pick from these with check marks and also have the usual RSS importing options:
+
+Wikipedia News
+Hacker News
+Chosen Subreddits
+Bloomberg
+The New York Times
+Russia Today
+... [Popular News Sources]
+RSS
+Web Logs
+Twitter Trending Hash Tags
+
+I was thinking about about like colour hexes and Conrad Bassett-Bouchard. Now a User Experience Design Manager at Google. And the various things he did on the web log of theCollins Coalition at CoCo Scrabble. And Woogles.io. I might apply to Google Fi in fact but anyways thinking back to my News Feed application I want it to look really good. And be simple maybe simple horizontal rectangles and you click on the thing and it has all the raw .txt pre loaded 0 image files and then when you click it the .txt expands and then any relevant image files come in but it needs to have 0 latency on the .txt components in the feed. And maybe a summary up top to give the user the option to exit after reading that summary. In any case still working on some fundamentals and ideations for that project. And I want custom colour options but especially White on Black and Black on White as pre set button options for users. Call it New News.txt OK sketch this out a little further.

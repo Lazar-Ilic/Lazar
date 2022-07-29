@@ -1,0 +1,5 @@
+OK
+
+	On The Maximum Of The Weighted Binomial Sum
+
+Seems to me like an extremely trivial paper, a Good example of just how low brow can in fact sneak into the Electronic Journal Of Combinatorics. Furthermore there exist immediate natural variants and generalisations they could have considered like changing the natural information theoretic computer scientific 2^[-r] function to say a^[-r] or 4^[-r] or some other classes of functions.

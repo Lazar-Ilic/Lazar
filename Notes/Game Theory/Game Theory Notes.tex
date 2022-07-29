@@ -1,0 +1,852 @@
+\Large
+\twocolumn
+
+1 Introduction 1
+
+Maybe these notes can function for some readers as a litmus test of their own reading comprehension abilities or as a commentary on the experience of reading a textbook if you are like me and think thoughts like this whilst reading. Perhaps the modern experience which involves a text editor and Wikipedia trawling.
+
+Let's see here for the reader of these notes off the dome I know a vast majority of the content of this book in fact I have understood most of this content since the age of roughly $15$ as quite a lot of these key ideas come up unironically as the literal content of some of the rationality blogosphere and e.g. Douglas Hofstadter readings. In terms of funny stories of course it is humorous if Jane Street Capital employees get interns to iteratedly bid $++$ for a $20$ bill such that the top $2$ bidders have to pay up and the top $1$ bidder obtains the bill. Now the game theoretically optimal GTO outcome here is for the interns to collude and split the profit evenly each obtaining $\frac{19}{2}$, however word on the street has it that in fact interns regularly lose money at this game. Another story from my own life has to do with the Caltech Social Science Experimental Laboratory where I joked to Nets Katz that thankfully they don't do stuff like what they did to Ted Kaczynski the Unabomber at Harvard, rather they task us with rapidly spotting or guessing social group pyschology equilibria and then we can win walk away with $100$ bucks, not so shabby for a little $50$ minute maths puzzling session.
+
+Of course in maths contests the key ideas which appear often have to do with simple winning/losing position analysis, monovariants, and the Sprague-Grundy Theorem. Now Omer Tamuz has so called graduate notes on this topic which explain quite a lot more really if you are interested in further reading and references to even further literature. I do not know if Osborne and Rubinstein is a good tract or not.
+
+This book kind of emphasizes that you can really look at nearly anything and decide to throw some low resolution casting in to some hammer of mathematical structure see if you have a blast producing anything really.
+
+1.1 What Is Game Theory? 1
+
+Yeah yeah models interesting mathematical objects the fact of the matter is when the object under study is a human who knows theorems about rationality and game theory then it often is helpful to apply the rationality lens to the prediction of their actions. And of course it is a theorem that there exists a Nash equilibrium, at the very least a mixed strategy for certain sorts of games. Now the matter of authentic sources of random bits comes in to play when embedded in reality...
+
+An Outline Of The History Of Game Theory 2
+
+
+
+John von Neumann 3
+
+
+
+1.2 The Theory Of Rational Choice 4
+
+Right the theory yadda yadda computation rationality. Exactly, she might be facing an NP hard task of a constrained integer linear programming task! Yikes! Exercise 5.3 they want $u(x,y)=x+y$ for example. this comes in to actual utility functions and this statement very naturally suggests that when problem solving we may assume without loss of generality that the preference function satisfies certain desiderata.
+
+1.3 Coming Attractions: Interacting Decision-Makers 7
+
+Right what is supposed to happen is the candidate is a high functioning human so they gaze upon the evidence and suddenly feel internal shifts in authentic genuine belief such that the $P$ of winning the election is maximized and then they just represent that and critics call it "flippy floppy" but the reality is it's strategic.
+
+Notes 9
+
+Right recall the Von Neumann-Morgenstern Utility Theorem.
+
+I Games With Perfect Information 11
+
+Frankly I am not totally sure what the Core is so maybe this will help me recall and brush up on some key ideas or at least lingo.
+
+2 Nash Equilibrium: Theory 13
+
+Recall when neither agent is incentivized to deviate e.g. a little more formally when the equilibrium outcome is $\ge$ the outcomes attained by a ceteris paribus deviation.
+
+2.1 Strategic Games 13
+
+
+
+2.2 Example: The Prisoner's Dilemma 14
+
+the notation is standard so:
+
+$
+\begin{bmatrix}
+2,2 & 0,3 \\
+3,0 & 1,1
+\end{bmatrix}
+$
+
+Refers to $(1,2)$ payouts e.g. bottom strictly dominates for player $1$ and right strictly dominates for player $2$ and thus the equilibrium is attained uniquely at the pure bottom right.
+
+Exercise 16.1:
+
+$
+\begin{bmatrix}
+4,4 & 0,3 \\
+3,0 & 1,1
+\end{bmatrix}
+$
+
+2.3 Example: Bach Or Stravinsky? 18
+
+$
+\begin{bmatrix}
+2,1 & 0,0 \\
+0,0 & 1,2
+\end{bmatrix}
+$
+
+2.4 Example: Matching Pennies 19
+
+$
+\begin{bmatrix}
+1,-1 & -1,1 \\
+-1,1 & 1,-1
+\end{bmatrix}
+$
+
+2.5 Example: The Stag Hunt 20
+
+$
+\begin{bmatrix}
+2,2 & 0,1 \\
+1,0 & 1,1
+\end{bmatrix}
+$
+
+2.6 Nash Equilibrium 21
+
+
+
+John E Nash, Jr. 23
+
+
+
+Studying Nash Equilibrium Experimentally 24
+
+
+
+2.7 Examples Of Nash Equilibrium 26
+
+To demonstrate a non equilibrium it suffices to show that one player can increase their payoff by deviating. So his example of technology where users had a strong interest in adopting the same standard leading to a Pareto suboptimal equilibrium in an iterated societal game is quite relevant and recalls some of Paul Christiano's writing on these Economics 101 matters.
+
+Experimental Evidence On The Prisoner's Dilemma 28
+
+
+
+Focal Points 32
+
+He does not introduce this quite clearly and precisely but Schelling focal means likely to attract the players' attentions vague in any case one might think that symmetric Pareto optimal outcomes satisfy this desideratum.
+
+Strict equilibrium if each player's equilibrium action is strictly better $>$ than all their other actions ceteris paribus.
+
+I don't actually want to parse the word salad of Exercise 34.3 but one supposes that it may represent Braess's "Paradox" of a new road causing an increase in driving times. This is good fun canonical stuff to recall fairly solid examples for a UT Austin undergraduate introduction course which can be rather banal, dreck, and boring.
+
+2.8 Best Response Functions 35
+
+They use notation of a star to represent a player's best response as in the $2$ Nash equilibria pairs $(*,*)$:
+
+$
+\begin{bmatrix}
+1,2* & 2*,1 & 1*,0 \\
+2*,1* & 0,1* & 0,0 \\
+0,1 & 0,0 & 1*,2*
+\end{bmatrix}
+$
+
+This is good this book may contain some of the old calculuso perhaps some maths one notes it hiding in these discrete settings setting first derivatives to $=0$ e.g.
+
+2.9 Dominated Actions 45
+
+One supposes that an action (weakly) dominates or strictly dominates another action if for each outcome the inequality $\ge$ or $>$ holds.
+
+2.10 Equilibrium In A Single Population: Symmetric Games And Symmetric Equilibria 50
+
+Each player faces precisely the same action profile:
+
+$
+\begin{bmatrix}
+w,w & x,y \\
+y,x & z,z
+\end{bmatrix}
+$
+
+Notes 53
+
+This is fantastic stuff now I will be further enabled to sneer at others as uneducated paeons who fail to appreciate the full history and lineage of these key ideas...
+
+3 Nash Equilibrium: Illustrations 55
+
+
+
+3.1 Cournot's Model Of Oligopoly 55
+
+Right recall some key ideas from microeconomics.
+
+So one kinda general takeaway key idea in 3.1.3 would be that one can execute a rather simple computation of a best response function continuous analog and perhaps deduce a simple system of equations to produce the equilibria.
+
+One can reason about optimal collusion and about loci of regions a firm prefers over an equilibrium and note the existence or lack thereof of an intersection.
+
+3.2 Bertrand's Model Of Oligopoly 63
+
+Certainly a little smoothing symmetry analysis can reveal the set of equilibria more simply so I will assume such lines of argumentation are valid in the context of this UT Austin course exams and homeworks.
+
+Cournot, Bertrand, And Nash: Some Historical Notes 69
+
+
+
+3.3 Electoral Competition 70
+
+Well I'm really glad that Hotelling was capable of gazing upon the evidence and thinking it was "strikingly exemplified" in any case I really prefer the framing of this one as about I dunno mango lassi sellers on a beach in Hawaii or something.
+
+Recall matching markets theory from Caltech of course a Condorcet winner $x$ is such that for every position $y$ different from $x$, a majority of voters prefer $x$ to $y$. Now of course if there was more than $1$ an immediate contradiction arises comparing the two. Now $a>b>c, b>c>a, c>a>b$ is a trivial example with $0$ Condorcet winner as the voters as a majority election cyclically prefer $a>b$, $b>c$, and $c>a$. Now the equilibrium is both candidates choose the Condorcet winner by definition.
+
+3.4 The War Of Attrition 77
+
+
+
+3.5 Auctions 80
+
+Start with a simple iteratively increasing auction wherein the valuations are static and e.g. the maximal valuator bidder pays the second highest maximal bid.
+
+Now consider a second-price sealed-bid auction where the highest bidder pays the second highest bid now note equilibria $(v_1,v_2,\dots,v_n)$ as well as $(v_1,0,0,\dots,0)$ and even $(v_2,v_1,0,0,\dots,0)$.
+
+Now consider a first-price sealed-bid auction. $(v_2,v_2,v_3,\dots,v_n)$ and he fully characterizes equilibria. Calls $(v_2,v_2,b_3,\dots,b_n)$ the "distinguished" equilibria.
+
+Auctions From Babylonia To eBay 81
+
+
+
+3.6 Accident Law 91
+
+
+
+Notes 97
+
+
+
+4 Mixed Strategy Equilibrium 99
+
+Recall in Putnam Notes Problem Sets CMU 2019 task 1 for example:
+
+In the Nash Equilibrium one obtains that $-2ab+3(1-a)b=3a(1-b)-4(1-a)(1-b),-2ab+3a(1-b)=3(1-a)b-4(1-a)(1-b)$ thus $a=b=2-\sqrt{2}$ thus the game has expected value $34\sqrt{2}-48 \neq 0$ and thus is not fair.
+
+4.1 Introduction 99
+
+So he does in fact decide to invoke vNM preferences utility theorem here great fantastic stuff Bernoulli payoff function.
+
+Some Evidence On Expected Payoff Functions 104
+
+
+
+4.2 Strategic Games In Which Players May Randomize 106
+
+
+
+4.3 Mixed Strategy Nash Equilibrium 107
+
+One immediately notes like in each subset of positive probability the expected value of each column and row ought to be the same which gives a solvable system of linear equations in $a+b-2$ variables. But best response function argumentation works too. But he comes back and just states this simply as such so that is that.
+
+I have to say that I have not in fact been exposed to seen all of these Exercise examples before so this is in fact somewhat pedagogical it's good to increase the stack of one's own canon and know a thing or two more about a thing or two.
+
+4.4 Dominated Actions 120
+
+Seems intuitively obvious that a mixed strategy equilibrium need assign $P=0$ to a dominated action.
+
+4.5 Pure Equilibria When Randomization Is Allowed 122
+
+Pure equilibrium if and only if extant under permitted randomization.
+
+4.6 Illustration: Expert Diagnosis 123
+
+Right good psychological example the equilibrium can involve both the expert lying and the consumer sometimes choosing to reject the advice.
+
+4.7 Equilibrium In A Single Population 128
+
+And the existence of a symmetric mixed strategy equilibrium in symmetric finite games is a theorem.
+
+4.8 Illustration: Reporting A Crime 131
+
+
+
+Reporting A Crime: Social Psychology And Game Theory 133
+
+
+
+4.9 The Formation Of Players' Beliefs 134
+
+This was kind of oddly written and not all that clear, technical, precise, and formal really.
+
+4.10 Extension: Finding All Mixed Strategy Nash Equilibria 137
+
+Execute over all potential subsets of positive probability works.
+
+4.11 Extension: Games In Which Each Player Has A Continuum Of Actions 142
+
+Intuitive.
+
+4.12 Appendix: Representing Preferences By Expected Payoffs 146
+
+
+
+Notes 150
+
+
+
+5 Extensive Games With Perfect Information: Theory 153
+
+Righto.
+
+5.1 Extensive Games With Perfect Information 153
+
+So the way I had read his earlier writing included cases like this where each player had fully computed out the full decision tree or something but perhaps his writing was a little unclear on that front.
+
+The obvious path to deducing the game theoretically optimal play from both players is referred to as backward induction.
+
+5.2 Strategies And Outcomes 159
+
+A strategy of player $i$ in an extensive game with perfect information is a function that assigns to each history $h$ after which it is player $i$'s turn to move an action in the set of actions available after $h$.
+
+5.3 Nash Equilibrium 161
+
+This definition is a little odd and its strategic form I am not totally sure these examples are optimal for information transfer and clarifying what precisely is meant here since the subgame perfect equilibrium notion is so intuitive.
+
+5.4 Subgame Perfect Equilibrium 164
+
+A subgame perfect equilibrium is a strategy profile with the property that in no subgame can any player do better by choosing a different strategy ceteris paribus e.g. the $\ge$ inequality holds. Every subgame perfect equilibrium is a Nash equilibrium.
+
+5.5 Finding Subgame Perfect Equilibria Of Finite Horizon Games: Backward Induction 169
+
+Yes. One can write out equivalent diagrams layering up e.g.
+
+Ticktacktoe, Chess, and Related Games 178
+
+
+
+Notes 179
+
+Righto The Art Of Warfare and Gardner.
+
+6 Extensive Games With Perfect Information: Illustrations 181
+
+
+
+6.1 The Ultimatum Game, The Holdup Game, And Agenda Control 181
+
+This Ultimatum Game exposition is alright he makes it clear that there can be a mixture of continuous and discrete decisions and one can still assert the finite horizon and execute analyses here again invoking continuity in $\mathbb{R}$ to assert unique subgame perfect equilibrium.
+
+Experiments On The Ultimatum Game 183
+
+Critical canonical oft referenced stuff.
+
+6.2 Steckelberg's Model Of Duopoly 187
+
+Constant-profit curves.
+
+6.3 Buying Votes 192
+
+
+
+6.4 A Race 197
+
+Seems like an actual concrete win/loss positional analysis and backwards induction really just means recursion. They bring up Nim.
+
+Notes 203
+
+
+
+7 Extensive Games With Perfect Information: Extensions And Discussion 205
+
+
+
+7.1 Allowing For Simultaneous Moves 205
+
+There is something kinda odd about the writing of this book too it's like supposed to be for economics majors kiddos but it dives in to such severe formality really like hides the intuitions and actual points and key ideas from like some kid who is new to all of this.
+
+More Experimental Evidence On Subgame Perfect Equilibrium 211
+
+
+
+7.2 Illustration: Entry Into A Monopolized Industry 213
+
+
+
+7.3 Illustration: Electoral Competition With Strategic Voters 215
+
+
+
+7.4 Illustration: Committee Decision-Making 217
+
+A binary agenda example would be first they vote on $x$ or a further vote, in this case to $y$ or $z$. So if they vote $x$ now as the winner done and again one can analyse the subgame the further vote and compress up a level to analyze the earlier vote. A Condorcet winner wins under any binary agenda as it wins on its level and every above it trivially by definition. The outcome of sophisticated voting can depend on the agenda.
+
+So in the simple cyclic triplet toy example from earlier when the preference orderings were $x>y>z,y>z>x,z>x>y$ one obtains $x$ wins and we say $x$ indirectly beats $z$ definition beats in a $1$ on $1$ election and $x$ beats $u_1$, $u_1$ beats $u_2,\dots$, and $u_k$ beats $y$. The set of options $x$ such that $x$ beats every other alternative either directly or indirectly is called the top cycle set.
+
+For each alternative $x$ in the top cycle set there exists a binary agenda for which $x$ is the outcome of sophisticated voting. And the outcome in the subgame perfect equilibrium for a binary agenda must be in the top cycle set.
+
+So for example in Exercise 220.1: \\
+a. The top cycle set is $\boxed{x,y,z}$
+b. $z$ beats $x$, $x$ beats $y$, $y$ beats $w$ induces all chains. In particular $z$ only directly beats $x$ but indirectly beats $y,w$.
+
+7.5 Illustration: Exit From A Declining Industry 221
+
+This is an interesting example because the careful analysis leads to precisely the conclusion we would expect actually the equilibrium is for the bigger firm to exit the time step where both firms cannot profitably coexist in the industry and the small firm continues operating until the period after which it alone becomes unprofitable.
+
+Now also exactly as one might expect if hypothetically one firm has a very low debt tolerance then the threat of being run in to the ground actually forces it to exit immediately prior to incurring the debt so common knowledge of assets can be powerful.
+
+7.6 Allowing For Exogenous Uncertainty 225
+
+
+
+7.7 Discussion: Subgame Perfect Equilibrium And Backward Induction 231
+
+
+
+Experimental Evidence On The Centipede Game 234
+
+
+
+Notes 236
+
+
+
+8 Coalitional Games And The Core 239
+
+
+
+8.1 Coalitional Games 239
+
+Mmm hmm two-player unanimity game, landowner and workers, three-player majority game.
+
+Transferable payoff if there is a collection of payoff functions, one representing each player's preferences, such that for each coalition $S$, every action of $S$ generates a distribution of payoffs among the members of $S$ that has the same sum.
+
+So for example house allocation with payoff distributions $(v_1,w_2),(v_2,w_1)$ is not in general a game with transferable payoff.
+
+8.2 The Core 243
+
+Core of a coalitional game is the set of actions $a_N$ of the grand coalition $N$ such that no coalition has an action that all its members prefer to $a_N$.
+
+8.3 Illustration: Ownership And The Distribution Of Wealth 247
+
+
+
+8.4 Illustration: Exchanging Homogeneous Horses 251
+
+
+
+8.5 Illustration: Exchanging Heterogeneous Houses 256
+
+Top Trading Cycle Procedure. First we look for cycles among the houses at the top of the players' rankings and assign to each member of each cycle her favourite house. Then we eliminate from consideration the players involved in these cycles and the houses they are allocated, look for any cycles at the top of the remains of the players' rankings, and assign to each member of each of these cycles her favourite house among those remaining. We continue in the same manner until all players have been assigned houses.
+
+8.6 Illustration: Voting 260
+
+
+
+8.7 Illustration: Matching 263
+
+Gale-Shapley deferred acceptance algorithm. Recall that the resultant matching is male optimal and female pessimal e.g. the male is paired with his top preference which is viable in stable matchings and the female is paired with her lowest preference among all stable matchings.
+
+1. Each $X$ whose offer was rejected at the previous stage and for whom some $Y$ is acceptable proposes to her top-ranked $Y$ out of those who have not rejected an offer from her.
+
+2. Each $Y$ rejects the proposal of any $X$ who is unacceptable to her, is "engaged" to the $X$ she likes best in the set consisting of all those who proposed to her and the one (if any) to whom she was previously engaged, and rejects all other proposals.
+
+No single player may improve upon $\mu$ because no $X$ ever proposes to an unacceptable $Y$, and every $Y$ always rejects every unacceptable $X$.
+
+Consider a coalition $\{i,j\}$ of two players, where $i$ is an $X$ and $j$ is a $Y$. If $i$ prefers $j$ to $\mu(i)$, she must have proposed to $j$, and been rejected, before proposing to $\mu(i)$. The fact that $j$ rejected her proposal means that $j$ obtained a more desirable proposal. Thus $j$ prefers $\mu(j)$ to $i$,so that $\{i,j\}$ cannot improve upon $\mu$.
+
+Strategic behaviour. So far, I have considered the deferred acceptance procedures only as algorithms that an administrator who knows the participants' preferences may use to find matchings in the core. Suppose the participants' preferences are not known. We may use the tools developed in Chapter 2 to study whether the participants' interests are served by revealing their true preferences. Consider the strategic game in which each player names a ranking of her possible partners and the outcome is the matching produced by the deferred acceptance procedure with proposals by $X$s, given the announced rankings. One can show that in this game each $X$s naming her true ranking is a dominant action, and although in a Nash equilibrium the actions of the $Y$s may not be their true rankings, the Nash equilibrium is in the core of the coalitional game defined by the players' true rankings. 
+
+Matching Doctors With Hospitals 268
+
+
+
+8.8 Discussion: Other Solution Concepts 269
+
+
+
+Notes 270
+
+Von Neumann in the flesh! Morgenstern, Gale, Shapley, Roth, Arrow, Aumann dude it would be litty lit lit if Scott Duke Kominers won the Nobel Prize I would really cherish that he needa actually write down some more tracts on uh decentralized finance here and then in $50$ years for real for real it's finna pop happen bling blaow.
+
+II Games With Imperfect Information 271
+
+Ah finally we come to the matters that matter the matters of the imperfect informacione.
+
+9 Bayesian Games 273
+
+
+
+9.1 Motivational Examples 273
+
+
+
+9.2 General Definitions 278
+
+
+
+9.3 Two Examples Concerning Information 282
+
+More Information May Hurt:
+
+$
+P=\frac{1}{2}:
+\begin{bmatrix}
+1,2\epsilon & 1,0 & 1,3\epsilon \\
+2,2 & 0,0 & 0,3
+\end{bmatrix}
+,
+P=\frac{1}{2}:
+\begin{bmatrix}
+1,2\epsilon & 1,3\epsilon & 1,0 \\
+2,2 & 0,3 & 0,0
+\end{bmatrix}
+$
+
+Indeed if it is common knowledge that player $2$ knows the state then the equilibrium changes from $B,L$ to $T,\{M,R\}$ depending on the known true state.
+
+9.4 Illustration: Cournot's Duopoly Game With Imperfect Information 285
+
+Now finally we get in to the matters of multiagent tasks which involve both cost and information and so one supposes that subtree analysis sort of still does work and well if you have good intuitions about incentives you can write down and solve the right systems of equations in these sorts of tasks in general.
+
+9.5 Illustration: Providing A Public Good 289
+
+This example is nice but I am sort of having a hard time thinking of such an example in real life in the context of public goods! Maybe like say it's after the holidays and there is junk in the trees by the road and the question is how many people take the time and energy to drive out and clean the trees and I guess if you sink that cost and see someone cleaning them maybe you return home and still sunk a sunk cost there. Public disutility negative externality fixing.
+
+The notion of a Bayesian game may be used to model a situation in which each player is uncertain of the number of other players. I didn't read Exercise 291.1 but one supposes that if there is a cost to calling one can just simply execute the calculus on the equations utility function simple stuff really.
+
+9.6 Illustration: Auctions 291
+
+We conclude, in particular, that a second-price sealed-bid auction with imperfect information about valuations has a Nash equilibrium in which every type of every player bids her valuation. The game has also other equilibria,some of which you are asked to find in the next exercise. Exercise 294.2 (Nash equilibria of a second-price sealed-bid auction) For every player $i$, find a Nash equilibrium of a second-price sealed-bid auction in which player $i$ wins.
+
+Nash equilibrium in a first-price sealed-bid auction. When the number $n$ of bidders exceeds $2$, the game has a symmetric Nash equilibrium in which every player bids the fraction $\frac{n-1}{n}$ of her valuation.
+
+Signals, common valuations, imperfect information, etc. etc. questions about expected values conditional upon winning. A lot of stating the existence of equilibria which we suppose have some real serious meaning in the context of even trading perhaps auctions are a fantastic metaphor/reality in some settings where it is not sooooo obvious I suppose.
+
+Auctions Of The Radio Spectrum 300
+
+
+
+9.7 Illustration-Juries 301
+
+Yeah I mean this is really really interesting actually I never saw this maths written out before and it is awfully interesting and it is here I want to see some measured psychology but in any case all this talk of juries reminds me of the old Jewish practice of rejecting a candidate who manages to sneakily obtain unanimity in favour!
+
+Swing voter's curse.
+
+9.8 Appendix: Auctions With An Arbitrary Distribution Of Valuations 307
+
+Right this naturally comes in to the seller hoping to manipulate the auction structure such that they maximize the expected selling price.
+
+Notes 311
+
+I think my old main man Scott Duke Kominers once wrote a real wonked out think piece about just how eminent and pre eminent Vickrey was in Bloomberg Opinion and now tenure has reduced that man in to a mere wannabe theorist of the value of digital "art" on the Twitter platform... sad stuff really tenure is what it does to libido and lust for maths and life. He's like kids these days man glued to his screen whereas I am glued to the screen of knawledge brah. "Dropped out of school now we dumb rich." I shouldn't be so cynical about the old main man Scott Duke Kominers that dude is an esthete too and you know his puzzles the littiest litty lit lit and you know I trawl the Wikipedia after every round dig up all the references in the flavour text reference game wanna know what information been bouncing around in his noggin. And he the one afforded the luxurious opportunity to be a patron, to spread the word about the hard working ahem Bored Ape crew so we all know it is aptly titled incisive works which really speak to the modern emotion and vibe and feeling brudda brah brojim brate. So it is crystal clear this behaviour is known in the academic literature as twiddling around with a dreidel whilst market manipulating on an unregulated speculative asset market. One can gaze upon such works via performant 8k colour sensitive monitours qua stimulus once in awhile but to actually buy one must be the feeling of prospective speculative art asset management praxis theory. Fun fun fun good for him it might be very lit and rational from his perspective. I am sure he really emanates with eminence over there and those blazers really are very eh "esthetique" and all and he wrote those number theory papers down and also those economics papers and also those puzzles and so I know he must observe many many deeply wise things and understand the deep wisdom when I finish reviewing these notes and go back to the Deep Learning.
+
+10 Extensive Games With Imperfect Information 313
+
+Oh boy yet another potential metaphor for trading. Sounds like it will all be intuitive incentives again maybe with the half surprising existence of some equilibria in odd settings pointed out to the casual, ignorant, and uncareful reader.
+
+10.1 Extensive Games With Imperfect Information 313
+
+The simplest extensive games, in which each player moves once and no player, when moving is informed of any other player's action, model situations that may alternatively be modeled as strategic games, as illustrated by the next example.
+
+10.2 Strategies 317
+
+There are some rather straightforward card game decision trees. Again it's just like actions and mixed strategies as one would expect.
+
+10.3 Nash Equilibrium 318
+
+Nash Equilibrium Of Extensive Game. The mixed strategy profile $a^*$ in an extensive game is a (mixed strategy) Nash equilibrium if, for each player $i$ and every mixed strategy $a$, of player $i$, player $i$'s expected payoff to $a*$ is at least as large as her expected payoff to $(a_i,a^*_{-i})$ according to a payoff function whose expected value represents player $i$'s preferences over lotteries.
+
+And some example are not too illuminating but demonstrate how this author likes to write on this particular topic, including card games, and optimal card games betting bluffing randomization probabilities which of course comes up when real live poker players use an RNG on their wrist watch to literally determine their decisions in game when they have precomputed such values memmed I know this level of rationality is genuine real life stuff as is walking in to an interview with things such as Kelly values and example input values precomputed as well.
+
+10.4 Beliefs And Sequential Equilibrium 323
+
+A Nash equilibrium of a strategic game maybe characterizedby two requirements: that each player choose her best action given her belief about the other players, and that each player's belief be correct (see page 21). The notion of equilibrium I now define for extensive games embodies the same two requirements, and, like the notion of subgame perfect equilibrium for extensive games with perfect information, insists that they hold at each point at which a player has to choose an action.
+
+It blows my mind how badly this is written I mean yet again an awful lot of severe formality itself over what could really be summarized in a 1 liner.
+
+A couple more trees and one supposes that these sorts of tasks would be rather easy to compute for a UT Austin professor on a homework in a LaTeX file per usual and the exams in this course are most certainly going to be mind bogglingly... we'll put it this way the A is in the bag credence $>.8$
+
+10.5 Signaling Games 331
+
+In many interactions, information is "asymmetric": some parties are informed about variables that affect everyone, and some parties are not. In one interesting class of situations, the informed parties have the opportunity to take actions observed by the uninformed parties before the latter take actions that affect everyone. In some circumstances, the informed parties' actions may "signal" their information.
+
+Finally we come in to the maths of some of the key ideas of the rationality corpus on employers and degrees from degree mills.
+
+This example illustrates two kinds of pure strategy equilibrium that may exist in signaling games:
+
+Separating Equilibrium. Each type of the sender chooses a different action (in the first sort of equilibrium in the example, a strong challenger chooses Ready and a weak challenger chooses Unready),so that upon observing the sender's action, the receiver knows the sender's type.
+
+Pooling Equilibrium. All types of the sender choose the same action (in the second sort of equilibrium in the example, both types of challenger choose Unready), so that the sender's action gives the receiver no clue to the sender's type.
+
+Something about a bird and a mommy bird and food seems very important like how those flowers seeds disperse optimally around a circle near the Golden Ratio important. The maths of evolution is real bro wake up sheeple nobody taught you to freak the fuck out over seeing a snake like motion in your periphery that's evolutionary psychology bro.
+
+10.6 Illustration; Conspicuous Expenditure As A Signal Of Quality 336
+
+Firm, belief, strategy, inference of quality.
+
+10.7 Illustration: Education As A Signal Of Ability 340
+
+Workers, firms, beliefs, strategies again get the degrees bro get the MS in CS it's GTO life strategy even better career optionality later.
+
+10.8 Illustration: Strategic Information Transmission 343
+
+Sender and receiver. Perfect information transmission and a strategy where the sender sends a constant $0$ information value which the receiver totally ignores there is $0$ update it is all his prior and that is that optimum. Some information transfer. I mean one can construct some contrived examples for things. Interesting stuff the "most informative" equilibrium.
+
+10.9 Illustration: Agenda Control With Imperfect Information 351
+
+I am sure one day maybe we get an American politician who represents reason in the sense that they say they are merely the human up top signing the signatures but they represent good discretion in choice of advisors and computational analysis and that their platform is fundamentally about rational neoliberalism and so their role is really in choosing the good advisors. You know "I am not a domain expert" during the debates and so on and so on.
+
+In any case here we study supposedly the maths behind agenda control in the US House Of Representatives and The Rules Committee. Committee, legislature, open rule, closed rule, delegation, yadda, quadratic curves, and stair functions.
+
+Notes 357
+
+Really wow it is the one and only Emile Borel appearing here not in the measure theory context but that man also had an interest in the fine old cards game of poker!
+
+III Variants And Extensions 359
+
+Rationalizability this sounds really important maybe we gonna finally get in to the serious matters finally I been looking for the serious matters.
+
+11 Strictly Competitive Games And Maxminimization 361
+
+Righto in the canon.
+
+11.1 Maxminimization 361
+
+Intuitive apt title of course in a $0$ sum game, compute the value which maximizes the minimum. Right so like those star values representations earlier one can do that in both a discrete and continuous setting, calculus, etc.
+
+11.2 Maxminimization And Nash Equilibrium 364
+
+A simple argument establishes that a player's payoff in a mixed strategy Nash equilibrium is at least her maxminimized payoff.
+
+11.3 Strictly Competitive Games 365
+
+Rather than $0$ sum on a Bernoulli utility function we actually have a definition here a little simpler.
+
+Strictly Competitive. If whenever one player prefers some outcome $a$ to another outcome $b$, the other player prefers $b$ to $a$.
+
+11.4 Maxminimization And Nash Equilibrium In Strictly Competitive Games 367
+
+In a strictly competitive game that possesses a mixed strategy Nash equilibrium, a pair of mixed strategies is a mixed strategy Nash equilibrium if and only if each player's strategy is a maxminimizer.
+
+Maxminimization: Some History 370
+
+
+
+Empirical Tests: Experiments, Tennis, And Soccer 373
+
+Well to be sure the moment they start writing about tennis you see that the author has failed to comprehend their severe epistemic ignorance. They demonstrate some like Dunning-Kruger here thinking tennis is just some simple little hit a ball to a position smoooth whatever au contraire there is spin and there is credence and accuracy and a good serve can just be hard dead in the middle of the box in to the body of the receiver they know nothing about tennis and this discussion is going to be stupid stupid.
+
+Notes 375
+
+
+
+12 Rationalizability 377
+
+Probably has to do with computation.
+
+12.1 Rationalizability 377
+
+Right we fully compute something and detect an internal inconsistency or a there does not exist such a coherent belief contradiction argumentation.
+
+12.2 Iterated Elimination Of Strictly Dominated Actions 385
+
+The notion of rationalizability, in requiring that a player act rationally, eliminates from consideration actions that are not best responses to any belief. Such actions are called never-best responses.
+
+A player's action in a strategic game with vNM preferences in which each player has finitely many actions is a never-best response if and only if it is strictly dominated.
+
+12.3 Iterated Elimination Of Weakly Dominated Actions 388
+
+
+
+12.4 Dominance Solvability 391
+
+
+
+Notes 392
+
+I don't know frankly this chapter seemed rather odd like one would suppose the interesting objects to study here are precisely both players suppose rationality etc. all common knowledge Aumann in the references.
+
+13 Evolutionary Equilibrium 393
+
+Again this is like a really amateurish casual shitty introduction to Darwinian theory of evolution. If you read Darwin you would know more and these authors clearly fail to really comprehend evolution as a process. They should read Eliezer Yudkowsky's writings on this topic and then really dive in to more hyper literal clear precise technical agentic descriptions of reality rather than hand waving in a dumb way. A mode of behaviour like the mode of there being no simple mode like a hungry human feels hunger and then thinks thoughts like "gee I better go find some food" whereas a well fed one does not and thinks thoughts like "gee I am in a real state of resource abundance the idea of reading a maths book now sounds rather eminently appealing".
+
+13.1 Monomorphic Pure Strategy Equilibrium 394
+
+Hawk dove is an old classic for sure.
+
+Evolutionary Game Theory: Some History 399
+
+Right I mean I am fairly confident this is false in fact for some species. See also Beautiful People Have More Daughters.
+
+13.2 Mixed Strategies And Polymorphic Equilibrium 400
+
+Right I agree man the gonads are of course a really fantastic source of genuinely truly random bits we were looking for earlier what a kekkerino fest this book is really.
+
+13.3 Asymmetric Contests 406
+
+
+
+Side-Blotched Lizards 407
+
+Right so in terms of male humans Delta beats Alpha beats Beta beats Delta somehow... and we need some Machine Learning Natural Language Processing code to determine which type a human is from their written text corpus.
+
+If you think this is offensive think again you think biology is offensive, nature is offensive. No misogyny or transphobia intended, I mean puss as in an animal that jumps $10$ times their body height at the sight of a little running water of a shower or whatever a scaredy cat... I think perhaps my colleagues will chuckle a little at how my Github README insists that solving maths problems is a "mind sport". Some may even think it is a tautological definitional case of being a puss. But I'd like to be at a firm engaged in the mind sport of the markets who would see it another way. It's vulgar, it's gross even the dumby wummy female lizards can clearly see when a male lizard is the beta puss from his throat colour. It's the similar nature biology that Darwin and all the greats were looking at. Organs systems machines and all. Just so it's totally clear to the reader, I am proud to be a Delta puss. To quote Slavoj Zizek:
+
+"My relationship towards tulips is inherently Lynchian. I think they are disgusting. Just imagine. Aren't these some kind of, how do you call it, vagina dentata, dental vaginas threatening to swallow you? I think that flowers are something inherently disgusting. I mean, are people aware what a horrible thing these flowers are? I mean, basically it's an open invitation to all insects and bees, "Come and screw me," you know? I think that flowers should be forbidden to children."
+
+More and more variants this book loves to do a trillion variants on Bach or Stravinsky and now Hawk and Dove variants.
+
+Explaining The Outcomes Of Contests In Nature 409
+
+Right I mean group selection and all that I mean something just pops off in the resource abundance male human brain sub routine says go donate money show girls how great you are donate money I personally feel $0$ regret I love pushing the button here soon $5$ figures bro easy when you're rich.
+
+Escalate, display, withdraw yadda yadda I mean I remember those net flicks shows these birdies man have such short lives and dedicate a non trivial fraction to preparing to dance in front of a female birdy dancing dancing mating. One supposes the male birdy there is feeling an eminent rush of it I don't know male humans get more tries or not in life just how high stress it is they thinking they all sexy and all hoping to be sexy to bust some nuts in some female birdy make some babies keep the genes going.
+
+13.4 Variation On A Theme: Sibling Behavior 411
+
+Well a priori of course a sibling shares more genes than a random human but the numbers here are like worth bringing up say probably very falsely maximal information uniform, in fact there are probably tons of low information genes, then of course like your parents agree in roughly $\frac{1}{4}$ of genes means you agree with each in roughly $\frac{5}{8}$ and your sibling as well. This is more than the prior $\frac{1}{4}$ on another human however the ratio of degree of caring then would be $5:2$ i.e. in a really also suspicious and contrived thought experiment you might prefer keeping $2$ siblings alive with $5$ random humans. No actual upper bound of $4$ implied. In the sense of pushing a button to kill one group or the other I mean perhaps there exist some people who would jump with joy internally at the retribution actually hate their siblings as people and say on the outside they merely are good utilitarians who comprehended that the $5$ all are real humans with rich internal emotional lives just like them or whatever some non sequitur about all human lives being equally "valuable". Humans are diverse so some may be brutal sociopathic monsters who would do anything to save their own kin siblings and would interpolated "off off with their heads" of a million random humans just to save a sibling. I am insinuating that these people are misanthropes, negative utilitarianish, or have a latent desire to murder people. And that in fact it is the press secretary, the elephant in their brain, which leads them to think the true reason has to do with something it does not, they just want to push the million button. Not kosher to bring up Heads Will Roll in this setting as if I would ever chuckle at these thought experiments about button pushing murder. Yeah yeah but I mean it ain't no knowing same look from the outside ain't no knowing what's going on inside that's impossible know verification so if someone tells you they choose kill a million that's an update in favour of brutal monster sociopath that's for sure unless a good sociopath lie here or whatever. Of course being genetically similar may lead to more attraction feelings leads to more likely to mate and so your parents and siblings may in fact agree in more spots but the fact that these disagreements transfer through means siblings and parents same for sure and also maybe even studies could be done there exists a correlation between tightly knit families and the informationally weighted agreements in parents codes. But in any case you might care more because of all of the proximal feelings developed over years with these humans and all the familial subroutines I mean I dunno these warm oxytocin responses are even quite as biological genetic as supposed or learned. In any case standard evolutionary theory says you are supposed to sort of care about your siblings and their progeny and reproductive success but my sister sure as hell would not give an ounce of a poo if I was a massive sperm donor. I'm just trying to lowkey be a "sociopathic economist" here bro I want that tag that's a badass tag to have you know I wanna join the cool dudes of the George Mason University Economics a real thinker contemplator iconoclast and maker of profound insights. That Robin Hanson controversy about rape and cuckoldry was very deadpan mathematical and that's the fact. It "gets the people going". Good thing the technology of genetic testing ended cuckoldry.
+
+13.5 Variation On A Theme: The Nesting Behavior Of Wasps 414
+
+
+
+13.6 Variation On A Theme: The Evolution Of The Sex Ratio 416
+
+Yeah this is actually a really interesting title because some people never even do even think much about evolution or why it might often be the case that the ratio would be $\approx 1:1$.
+
+Notes 417
+
+Dawkins, Fisher, recall Red Queen hypothesis.
+
+14 Repeated Games: The Prisoner's Dilemma 419
+
+This is a very well known deeply canonical part of history the book The Evolution Of Cooperation by Robert Axelrod is considered a critical component of the rationality canon and basically most half educated well read people have at the very least skimmed this particular book.
+
+14.1 The Main Idea 419
+
+The main idea here is apparently to study iterated prisoner's dilemna now it is unclear just how general we are talking, noise, etc. algorithms to get back on to the cooperate cooperate track.
+
+14.2 Preferences 421
+
+Ah ha the arisal of intertemporal discounting factors. Equivalent preferences, atemporal lotteries, etc.
+
+14.3 Repeated Games 423
+
+
+
+14.4 Finitely Repeated Prisoner's Dilemma 424
+
+Extremely canonical defect defect through is the only Nash equilibrium.
+
+14.5 Infinitely Repeated Prisoner's Dilemma 426
+
+
+
+14.6 Strategies In An Infinitely Repeated Prisoner's Dilemma 426
+
+
+
+14.7 Some Nash Equilibria Of An Infinitely Repeated Prisoner's Dilemma 428
+
+
+
+14.8 Nash Equilibrium Payoffs Of An Infinitely Repeated Prisoner's Dilemma 431
+
+
+
+Experimental Evidence 436
+
+
+
+14.9 Subgame Perfect Equilibria And The One-Deviation Property 437
+
+
+
+Axelrod's Tournaments 439
+
+
+
+14.10 Some Subgame Perfect Equilibria Of An Infinitely Repeated Prisoner's Dilemma 441
+
+
+
+Reciprocal Altruism Among Sticklebacks 445
+
+Trivers right I mean you know it is never quite clear to me what precisely the economic incentives for Formula 1 teams are really like I don't know in race betting on strategies which can involve commands and pit stop times team mates reward functions Bottas, Hamilton upsides winning money etc. and like in the NBA for example Kobe Bryant was a notoriously egotistical player in terms of shots taken and so it's like his incentives and how coaches call things and team mates and if the team is performing suboptimally like for their talent base yadda how you manage the discrete NBA team.
+
+14.11 Subgame Perfect Equilibrium Payoffs Of An Infinitely Repeated Prisoner's Dilemma 446
+
+
+
+Medieval Trade Fairs 448
+
+
+
+14.12 Concluding Remarks 449
+
+Cooperate cooperate can occur.
+
+Notes 449
+
+Well still reality is noisier and so we need noise in models evolution animals and noise may even be able to lead animals to being more forgiving and more prone to getting back in to cooperate cooperate inside a species team under some conditions or whatever and I am sure there is extant literature on this and what precise conditions one might want in a mathematical structure for this to occur etc.
+
+See Folk theorem on Wikipedia.
+
+15 Repeated Games: General Results 451
+
+Maybe related to folk theorems.
+
+15.1 Nash Equilibria Of General Infinitely Repeated Games 451
+
+I may come back and execute a couple of these calculi here in this file to demonstrate my ability to do so though I highly doubt it will really be all too instructive or directly useful in trading I can't be sure dark pools yadda sending statistical signals yadda incentives yadda always incentivized to be cut throat, maximize PNL against any firm yadda SEC regulators yadda yadda yadda.
+
+Nash folk theorem for infinitely repeated games: Let $G$ be a strategic game in which each player has finitely many actions.
+
+For any discount factor $\delta$ with $0<\delta<1$, the discounted average payoffof each player in any Nash equilibrium of the infinitely repeated game of $G$ is at least her minmax payoff.
+
+Let $w$ be a feasible payoff profile of $G$ for which each player's payoff exceeds her minmax payoff. There exists $\hat{\delta}<1$ such that if the discount factor exceeds $\hat{\delta}$, then the infinitely repeated game of $G$ has a Nash equilibrium in which the discounted average payoff of each player $i$ is $w_i$.
+
+If $G$ has a Nash equilibrium in which each player's payoff is her minmax payoff, then for any value of the discount factor the infinitely repeated game of $G$ has a Nash equilibrium in which the discounted average payoff of each player $i$ is her minmax payoff.
+
+15.2 Subgame Perfect Equilibria Of General Infinitely Repeated Games 455
+
+Subgame perfect folk theorem for two-player infinitely repeated games: Let $G$ be a two-player strategic game in which each player has finitely many actions.
+
+For any discount factor $\delta$ with $0<\delta<1$, the discounted average payoff of each player in any subgame perfect equilibrium ofthe infinitely repeated game of $G$ is at least her minmax payoff.
+
+Let $w$ be a feasible payoff profile of $G$ for which each player's payoff exceeds her minmax payoff. There exists $\hat{\delta<1}$ such that if the discount factor exceeds $\hat{\delta}$, then the infinitely repeated game of $G$ has a subgame perfect equilibrium in which the discounted average payoff of each player $i$ is $w_i$.
+
+If $G$ has a Nash equilibrium in which each player's payoff is her minmax payoff, then for any value of the discount factor the infinitely repeated game of $G$ has a subgame perfect equilibrium in which the discounted average payoff of each player $i$ is her minmax payoff.
+
+The conclusion of this result holds for any multiplayer game in which each player has finitely many actions and no player's payoff function is equivalent to any other's.
+
+15.3 Finitely Repeated Games 460
+
+Nash folk theorem for finitely repeated games: Let $G$ be a strategic game that,for each player, has a Nash equilibrium in which that player's payoff exceeds her minmax payoff. Let $w$ be a feasible payoff profile of $G$ for which each player's payoff exceeds her minmax payoff. For every $\epsilon>0$ there exists an integer $T^*$ such that if $T>T^*$, then the $T$-period repeated game of $G$ with discount factor $1$ has a Nash equilibrium in which the average payoff of each player $i$ is within $\epsilon$ of $w_i$
+
+15.4 Variation On A Theme: Imperfect Observability 461
+
+We have seen that outcomes desirable for all players can be achieved as equilibria of repeated games when the players use strategies that threaten to "punish" deviations. In the worlds we have studied, the threats deter all deviations, and no punishment is ever carried out, so that the severity of the threatened punishment has no direct impact on the players' payoffs. In less perfect worlds, punishment is sometimes carried out, so that its severity entails a tradeoff: more drastic punishment may allow more desirable outcomes to be sustained, but at the same time may entail low payoffs during its implementation.
+
+Notes 463
+
+
+
+16 Bargaining 465
+
+Immediately recall the algorithm the task problem for $n$ players I think and a variety of settings frankly where uh the structure is such that there is like an upper bound on steps and somehow what happens is player $1$ makes a fair cut proposal to which player $2$ chooses the slice they prefer and that is the division algorithm.
+
+Now we will have some models not as extensive games but rather a discussion of the so called apparently sensible properties e.g. some list of desiderata and existence of algorithms which satisfy certain ones now this is like some task monkey junkie stuff for certain academic economists theorists I believe to just rant about and like I don't know some computer scientists too making random shit up nobody cares about at all just noting something but alas such is the way of things and incentives.
+
+16.1 Bargaining As An Extensive Game 465
+
+A finite horizon game with alternating offers and impatient players. Two-period bargaining with constant cost of delay. Three-period bargaining with constant cost of delay. An infinite horizon game with alternating offers and impatient players. Efficiency. Effect of changes in patience. First-mover advantage.
+
+16.2 Illustration: Trade In A Market 477
+
+Finally maybe this will cover all of the public academic writing on the so called "trade in a market" theory and praxis.
+
+In the bargaining game of alternating offers, the two parties are restricted to negotiate only with each other. When trading in a market, an agent typically has the option to abandon her current partner and start negotiating with someone else. In this section I present some very simple models in which a single seller has the opportunity to trade with one oftwo buyers. Public price announcements.
+
+16.3 Nash's Axiomatic Model 481
+
+Some potential desiderata including Pareto efficiency/optimality.
+
+Pareto efficiency PAR: Let $(U,d)$ be a bargaining problem, and let $(v_1,v_2)$ and $(v'_1,v'_2)$ be members of $U$. If $v_1>v'_1$ and $v_2>v'_2$, then the bargaining solution does not assign $(v'_1,v'_2)$ to $(U,d)$.
+
+Symmetry SYM: Let $(U,d)$ be a bargaining problem for which $(v_1,v_2)$ is in $U$ if and only if $(v_2,v_1)$ is in $U$, and $d_1=d_2$. Then the pair $(v^{*}_1,v^{*}_2)$ of payoffs the bargaining solution assigns to $(U,d)$ satisfies $v^{*}_1=v^{*}_2$.
+
+Invariance to equivalent payoff representations INV: Let $(U,d)$ be a bargaining problem, let $\alpha_i$, and $\beta_i$ be numbers with $\alpha_i>0$ for $i=1,2$, let $U'$ be the set of all pairs $(\alpha_1 v_1+\beta_1,\alpha_2 v_2 + \beta_2)$, where $(v_1,v_2)$ is a member of $U$, and let $d'=(\alpha_1 d_1+\beta_1,\alpha_2 d_2+\beta_2)$. If the bargaining solution assigns $(w_1,w_2)$ to $(U,d)$, then it assigns $(\alpha_1 w_1+\beta_1,\alpha_2 w_2+\beta_2)$ to $(U',d')$.
+
+Independence of irrelevant alternatives IIA: Let $(U,d)$ and $(U',d')$ be bargaining problems for which $U'$ is a subset of $U$ and $d=d'$. If the agreement the bargaining solution assigns to $(U,d)$ is in $U'$, then the bargaining solution assigns the same agreementto $(U',d')$.
+
+Nash bargaining solution: A unique bargaining solution satisfies the axioms INV, SYM, IIA, and PAR. This solution assigns to the bargaining problem $(U,d)$ the pair ofpayoffs that solves the problem $\text{max}_{(v_1,v_2)}(v_1-d_1)(v_2-d_2)$ subject to $(v_1,v_2) \in U$ and $(v_1,v_2)\ge (d_1,d_2)$.
+
+16.4 Relation Between Strategic And Axiomatic Models 489
+
+The subgame perfect equilibrium outcome of the variant of the bargaining game of alternating offers with risk of breakdown (and discount factors of $1$ for each player) converges to the Nash bargaining solution of the associated bargaining problem as the probability of breakdown converges to $0$.
+
+Notes 491
+
+Solid introductory book.

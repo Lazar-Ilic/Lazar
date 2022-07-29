@@ -1,0 +1,5804 @@
+Really interesting to read through these titles maybe comment a little bit and gaze upon some of them.
+
+One of CS230's main goals is to prepare students to apply machine learning algorithms to real-world tasks. Check out a list of our students past final project.
+
+Winter 2018 Spring 2018 Fall 2018 Winter 2019 Spring 2019 Fall 2019 Winter 2020 Spring 2020 Fall 2020 Winter 2021
+
+
+
+#Fall 2021
+
+
+
+#Outstanding Projects
+
+
+
+Classification of Medical Imagery using DL (?) by Alex Loia, Alex Nam: report
+
+
+
+In Learning we Truss: Structural Design Optimization Using Deep Learning by Vicente Ariztia, Amber Zoe Yang: report
+
+
+
+Predicting Regional US COVID Risk Using Publicly Available Satellite Images by Amy Yue Zhang, Sameer Sundrani: report
+
+OK half interesting.
+
+Image Exposure Correction with DNN by ZhuoYi Cai: report
+
+
+
+Identifying presence or absence of seismic facies types in geological images using deep learning by Joe Dalton Stitt, Adam Shugar, Rachael Liu Wang: report
+
+
+
+Turbulence error correction by Ryan Hass, Kyle Pietrzyk, Olivia Grace Martin: report
+
+
+
+Neural networks explanation models to support earthquake mitigation decision-making by Rodrigo Ivan Silva Lopez: report
+
+
+
+Face Age Prediction with Small Dataset by Brian Jang: report
+
+
+
+Deep Songwriter (Music Generator Using Deep Learning) by Roy Park, Hyun Soo Jeon: report
+
+
+
+Overwatch (FPS Game) self-play AI bot by Chenyang Dai: report
+
+OK half interesting.
+
+Gesture Evolution - Understanding the Nonverbal Communication of Creative Design Teams by Lawrence Domingo, Kyle Tadao Yoshida: report
+
+
+
+Sea Otter Detection from Aerial Imaging Data by Salman Mohammed, Carlota Pares Morlans, Margaret Daly: report
+
+
+
+Denoising Diffusion Tensor Imaging (DTI) by Ariel Hannum: report
+
+
+
+Use Hyperspectral Satellite Images to Predict Carbon Soil Levels by James Milan Kanoff, Qianli Song, Arjun Jayant Deopujari: report
+
+
+
+#Submissions
+
+
+
+Human Protein Atlas Image Classification by Elizabeth Anne Fitzgerald, Constantine J Athanitis: report
+
+
+
+Deep Learning for Fluid Dynamics by Matthew Bonanni, Ali Lasemi, Brett Bornhoft: report
+
+
+
+Image As Thermometer: Temperature Prediction using Sequential Images by Zilu Wang, Yuwei Wu, Hanxiao Zhao: report
+
+
+
+Self-supervised regularization on Quora question similarity by Lynette Gao, Yujing Zhang: report
+
+OK interesting enough topic related to the Quora firm.
+
+Sentiment Classifier Behind Words by Jiwen Chen: report
+
+OK interesting.
+
+Deep Q-Learning for Option Pricing by Frederic Ladouceur: report
+
+OK interesting enough.
+
+Semantic ImageSegmentation for Deep Learning Applications forAutonomous Satellite Rendezvous by William Scot Armstrong, Nicholas Lui, Spencer Drakontaidi: report
+
+
+
+Deep Modeling of Corporate Credit Risk by Khalid Abbas El-Awady: report
+
+
+
+Noise reduction for LSTM using Wavelet Transform and Singular Spectrum Analysis by Matthew Thomas: report
+
+
+
+Application of Deep Neural Networks to Estimating Flexible Survival Curves by Zachary Ryan McCaw: report
+
+
+
+Chronological determination of artwork by Richie Wang: report
+
+
+
+A Deep Learning Approach to Predicting the Mechanisms of Action of Drugs by Edward Gao: report
+
+Sus obviously.
+
+AI-Driven Molecular Dynamics Simulation for Graphene by Jingchao Zhang: report
+
+
+
+Cloud Removal of Satellite Imagery via Conditional Pixel Synthesis by Yuxiao Chen, Qinxi Meng: report
+
+
+
+Movie Genre Classification using Text and Image Data by David Allen LeBaron: report
+
+
+
+Prediction of the Estimated Time of Arrival of an airborne aircraft using Deep Learning by Guillermo Frontera Sanchez, Marta Toledano: report
+
+
+
+Transformer for Predicting Non-Accidental Trauma from Electronic Health Records by David Huang: report
+
+
+
+Translating classic Russian Literature into English using NLP by Alice Dai: report
+
+
+
+Object Pose Estimation by Umesh Thillaivasan: report
+
+
+
+Building a Deep Reinforcement Learning Model to Improve Our Understanding of Gambling Utility Maximization by Ziang Liu, Gabriel Spil: report
+
+OKOKOK
+
+Classifying multi-contact sliding vs tipping from large area tactile sensor data by Dane Brouwer: report
+
+
+
+Snake Game AI Agent by Thomas Wentao Jiang, Claire Mei Jun Mai: report
+
+OK
+
+Classifying YouTube Videos by Thumbnail by Yan Wang, Cynthia Chen, Robert Beiming Tan: report
+
+
+
+Wikipedia Web Traffic Time Series Forecasting Using Clickstream Graph Embedding by Eric Liu: report
+
+OK
+
+Automated identification of lateral plant root emergence points by Vivian Zhong, Meiqi Yang: report
+
+
+
+Generating Realistic Emotional Pictures with Matched Visual and Emotional Attributes by Insub Kim, Jinxiao Zhang: report
+
+
+
+Sustainable Development Goals: Creating an Active Learning Benchmark by Rob Harries: report
+
+
+
+Weightlisting video analysis by Stephone Maurice Christian: report
+
+
+
+Mesh: Generating 3D Renderings from 2D Images by Tony Sun, Sanjana Sarda: report
+
+
+
+Nuclear segmentation and gene expression quantification in mouse brain in-situ hybridization image data by Elyse Louise Morin: report
+
+
+
+Predicting True Regional Income via Satellite Images of Lights at Night by Leo Goldman: report
+
+
+
+Pokemon Generator by Rebecca Joyce Wong: report
+
+
+
+Gesture Detection in Videos by Transfer Learning by Rajorshi Paul, Reetika Kumari Agarwal, Myra Kurosu Jalil: report
+
+
+
+Towards More Accurate Herbal Medicine Classiﬁcation with Electronic Nose under Sensor Drift by Jialuo Yuan, Zikun Cui: report
+
+OK interesting enough.
+
+Identifying Misconduct in Finance by Seyeon Kim, Youngchul Joo: report
+
+OK
+
+Long-Term Stock Prediction using Quantitative and Text-Based Data by Dylan Marshall Crain: report
+
+OKOKOK just OK
+
+Predicting ground-state molecular properties using the quantum-mechanical dataset QM7-X by Austin Atsango, Fathelrahman Ahmed Elmisbah Ali, Sanjari Srivastava: report
+
+
+
+COVID-19 detection based on CT images by Shiyu Li, Chungfu Chang, Chunjiang Mou: report
+
+
+
+Lymphoma Diagnosis For Treatment Decisions by Vrishab Krishna: report
+
+
+
+Stock price prediction with sentiment by Eziz Durdyev, Daniella Grimberg, Kevin Hu: report
+
+OKOKOK
+
+A Multi-Label Approach to Covid Vaccination Card Classification by Yingxiao LIU, Xiaojuan Liu: report
+
+
+
+Visual recognition of electronic parts by Boyeon Kim: report
+
+
+
+A neural network model for predicting aging trajectory of Li-ion batteries by Lude Rong, Benson Zu, Jihan Zhuang: report
+
+
+
+Multispeaker Speech Synthesis with Configurable Emotions by Jiaxiang FU: report
+
+
+
+Increasing the electricity consumption usage ... by Vasu G Patel, Benjamin Koranteng Amoh: report
+
+
+
+Text-Based Sales Prediction with Deep Learning Approaches by Haishan Gao, Zhaoqiang Bai, Jingqian Li: report
+
+
+
+Prediction of Coronary Artery Disease Via Calcium Scoring of Chest CTs by Sahar Kazemzadeh, Samvel Gyurdzhyan, Manish Kumar Singh, Besher Ashouri: report
+
+
+
+Generative Modeling of Lightning Patterns from Climatological Data by Yuzu Marie-Christine Ido, Henri Solomon Stern: report
+
+
+
+Characterizing Use of Solar Panels in Germany From Satellite Imagery by Selena Sun, Xinqi Wang, Anh Hoang Nguyen: report
+
+
+
+Improving Models for Various SustainBench Tasks by James Zheng: report
+
+
+
+Reinforcement learning to optimize simple 2D fighting games by Anthony C Xie, Kantapong Kotchum, Jake Lee: report
+
+
+
+Facial Expression Recognition in the Masked COVID-19 Times by Juan Carlos Meave Ojeda: report
+
+
+
+Photo Filter Estimation by Alex Tae Lee, Leon Bi, Michael Juneho Chang: report
+
+
+
+Trash Harvester by Goutham Krishna Teja Muppala: report
+
+
+
+Predicting inflation with satellite imagery of store parking lots by Andrew Hugh Conkey, Atindra Jha, Kyle Nguyen: report
+
+
+
+Identifying ALS patients from speech by Nik Alexander Caryotakis, Eric Xu, Cortney Curtis Weintz: report
+
+
+
+A Two-Step, Two-Pronged Approach to Binary Classification of Melanoma by Tom Stephen McIlwain: report
+
+
+
+Exploration of User Privacy Preservation via CTGAN Data Synthesis for Deep Recommenders by Savannah McCoy: report
+
+
+
+High Topology SEMI wafers - Height Variation Map Prediction using DL by Muthukumar Kalyanaraman, Krishnachandiran Ravichandiran: report
+
+
+
+Brain Maximum Principal Strain (MPS) Evaluation in Head Impact by Mabel Jiang, Shunyao Xu, Mingruo Shen: report
+
+
+
+Predicting Housing Markets Using Deep Learning by Ryan B Cao, Sam Alan Spinner, Kiara Nirghin: report
+
+
+
+Timbre Transformation using Deep Learning by Yamaan Mohammed Atiq, Kathlynn Marie Simotas: report
+
+
+
+Predicting California Wildfire Risk with Deep Neural Networks by Ian MacFarlane, Majo Lozano: report
+
+
+
+The Refinement of “The Automatic Driving of TBM” by JINPU CAO: report
+
+
+
+Improving Sim-to-Real Transfer on an Inexpensive Quadruped Robot by Gabrael Levine: report
+
+
+
+Multi-modal Chaining by Hassan Hossam Fahmy: report
+
+OKOKOK
+
+African Motif Pattern Generation using Generative Adversarial Network by Nnamdi Michael Jacob, Eliel Akinbami: report
+
+
+
+Re:L Catan by Chris Chankyo Kim, Aaron Y. Li: report
+
+
+
+Don't believe What You See by Barry Cheung, Isaiah Williams: report
+
+
+
+Zoom in on agents: investigating circuits in reinforcement learning models by Mauricio Baker: report
+
+
+
+TINGMAN: Biomimetic Deep Reinforcement Learning Architecture for NetHack Agent by Eduardo Alanis Esteban, Ayush Pandit: report
+
+
+
+#Winter 2021
+
+
+
+#Outstanding Projects
+
+
+
+Small Vessel Detection from Synthetic Aperture Radar (SAR) Imagery using Deep Learning by Jake Taylor, Toktam Mohammadnejad: report
+
+
+
+Context-to-Image CNN Approach to Predict Soybean Yields in Illinois and Rural Areas by Benjamin Liu, Christopher Yu: report
+
+
+
+Time Series based Wikipedia traffic preidction to aid Caching algorithms by Vaishnav Janardhan: report
+
+
+
+Unsupervised Text Generation Using Generative Adversarial Networks by Anastasios Sapalidis, Andrew Freeman, Anna Shors: report
+
+Hmmm OK
+
+Deep Learning to Detect Heavy Drinking Episodes Using Smartphone Accelerometer Data by Bo Yang: report
+
+OKOKOK
+
+Semi-Supervised Classification of Images for Post-Earthquake Building Damage Assessment by Aaron Appelle: report
+
+
+
+Predicting Ground-Level Ozone Concetration from Urban Satellite and Street Level Imagery using Multimodal CNN by Andrea Vallebueno, Nicolas Suarez, Nina Prakash: report
+
+OK
+
+Challenges in Scalable Distributed Training of Deep Neural Networks under communication constraints by Akshay Nalla, Kate Pistunova, Rajarshi Saha: report
+
+
+
+Deep Learning for Physics Discovery by Danyal Mohaddes Khorassani: report
+
+
+
+Learning To Learn: A Dual Network Approach To Multi-Class Active Learning by Sameer Khanna: report
+
+OKOKOK
+
+Generation of Realistic Facemasked Faces With GANs by Samuel Mumford: report
+
+
+
+ArXiv paper recommender by Milind Shyani: report
+
+
+
+#Submissions
+
+
+
+Stock Market Prediction using CNN and LSTM by Hamdy Hamoudi, Mohamed Elseifi: report
+
+OK
+
+Bitcoin High-Frequency Trend Prediction with Convolutional and Recurrent Neural Networks by Jingyu Shen, Zihan Qiang: report
+
+OK
+
+Long Term Stock Prediction Based on Financial Statements by Shujia Liu: report
+
+OK
+
+Inpainting the Cosmic Microwave Background with Partial Convolutional Neural Networks by Emmy Li: report
+
+
+
+Surgical Metrics: Technique classification during simulated surgical bowel repair by Kayla Huemer: report
+
+
+
+Time-series prediction of COVID-19 ICU admissions to assist with managing healthcare system resources by Sotiris Papasotiriou: report
+
+
+
+Small Vessel Detection from Synthetic Aperture Radar (SAR) Imagery using Deep Learning by Jake Taylor, Toktam Mohammadnejad: report
+
+
+
+Context-to-Image CNN Approach to Predict Soybean Yields in Illinois and Rural Areas by Benjamin Liu, Christopher Yu: report
+
+
+
+Atmospheric River Identification in Climate Datasets using Deep Learning by Deveshi Buch: report
+
+
+
+Deep Learning Approach to Finding Extra-solar Planets from TESS Light Curves by Ingrid Beerer: report
+
+
+
+Multimodal Financial Market-Crash Prediction and Market-Health Analysis by Harshal Agrawal, Pratham Soni: report
+
+
+
+Teacher-Student Distillation for Heart Sound Classification by Pranav Sriram: report
+
+
+
+Time Series based Wikipedia traffic preidction to aid Caching algorithms by Vaishnav Janardhan: report
+
+OKOKOK this reminds me of what I wrote down when I was doing my own analyses of the Wikipedia website and in particular their mobile application back when I was applying to work for Wikimedia re background loading of blue linked text and image files. Suppose processing order and selection there at that critical juncture could be important.
+
+Unsupervised Text Generation Using Generative Adversarial Networks by Anastasios Sapalidis, Andrew Freeman, Anna Shors: report
+
+
+
+Semantic-aware Image Similarity Search by Yueming Zhang: report
+
+
+
+Colorizing Grayscale Paintings using cGANs by Luca Pistor, Samarpreet Pandher, Wesley Peisch: report
+
+
+
+Learning DNA Encodings for Metagenome Binning by Peter Mccaffrey: report
+
+
+
+Deep Learning to Detect Heavy Drinking Episodes Using Smartphone Accelerometer Data by Bo Yang: report
+
+
+
+Masked Face Recognition by Swathi Gangaraju, Vibhaakar Sharma, Vishal Sharma: report
+
+
+
+Learning TV Ads Video Image Frames Products Classification by Raul Salles de Padua: report
+
+
+
+Improvements of SCNN on lane detection in harsh scenarios by Yiyun Gu, Yizhi Zhang, Ziyue Xiao: report
+
+
+
+Tennis serve classifier by Sandy Lee, Vincent Xia: report
+
+OK
+
+Up-sampling low resolution surveillance feeds using GANs by Abdalla Al-ayrot, Jake Sparkman, Utkarsh Contractor: report
+
+
+
+Predicting Ground-Level Ozone Concetration from Urban Satellite and Street Level Imagery using Multimodal CNN by Andrea Vallebueno, Nicolas Suarez, Nina Prakash: report
+
+
+
+Drought Prediction in Western U.S. Using a Long Short-Term Memory (LSTM) Model by Bennett Bolen, Hannah Hampson, Mo Sodwatana: report
+
+
+
+Semi-Supervised Classification of Images for Post-Earthquake Building Damage Assessment by Aaron Appelle: report
+
+
+
+Host Similarity on Palo Alto Networks Dataset by Seiji Eicher: report
+
+
+
+Challenges in Scalable Distributed Training of Deep Neural Networks under communication constraints by Akshay Nalla, Kate Pistunova, Rajarshi Saha: report
+
+OK
+
+Stroke Detection and Dating from FLAIR MRI Scans by Alex Maruniak, Caroline Zanze, Hayden Hofmann: report
+
+
+
+Brain Aneurysm Classification/Segmentation from MRI Images using MONAI Framework by Abhishek Akkur, Navya Veeturi, Vivek Gupta: report
+
+
+
+Deep Learning Assisted Compact Modeling of Nanoscale Transistor by Hei Kam: report
+
+OKOKOK
+
+Learning Neural Network Models of Aircraft Flight Dynamics by Loren Newton: report
+
+OK
+
+Towards NLP Question-Generation that Maximizes Student Learning and Engagement by Kevin Adams, Michael Herrera: report
+
+OK
+
+A Deep Learning Approach to Parameter Mapping from Perfusion MRI in Ischemic Stroke by Aaron Sossin, Mackenzie Carlson, Matthew Radzihovsky: report
+
+
+
+Correcting Lecture Audios Using Speech Synthesis by Rongxin Liu: report
+
+
+
+Diagnosing Chest Abnormalities with Deep Learning by Kyle Orciuch, Philip Lambert, Ryan Ludwick: report
+
+
+
+Predicting COVID-19 in Chest X-Ray Images by Arvind Subramanian, Madhu Karra, Yash Maniyar: report
+
+
+
+Pacman - using Deep Networks for State evaluation by Manuel Anton Kohnen: report
+
+
+
+Combining Deep Q-Networks and Double Q-Learning to Mnimize Car Delay at Traffic Lights by Timmy Hussain: report
+
+
+
+Using CNNs to Recognize Bird Species by Song by John Ngoi, Patrick Liu, Utuq Ablikim: report
+
+
+
+Multimodal Biometric Verification Using Deep Neural Network by Carlo Provenzani, Mohammad Pournazeri: report
+
+
+
+Improving Generalization Results for 3D Point Cloud Data Reconstruction From 2D Images by Jaineel Dalal, Rosie Zou: report
+
+
+
+Detection of Bird Species Through Sounds by Julie Wang, Shirley Cheng: report
+
+
+
+Real-time ASL to English text translation by Anil Kumar Srikantham, Gerardo Gomez Martinez, Neha Keshari: report
+
+
+
+Learning To Learn: A Dual Network Approach To Multi-Class Active Learning by Sameer Khanna: report
+
+
+
+An Attention Based Model For Musical Rhythmical Structure by Mustafa Bayramov: report
+
+
+
+COVID-19 Cough Detection by Jiaxuan Guo, Shuo Xin: report
+
+
+
+Detecting and Classifying Musical Instruments with Convolutional Neural Networks by Connor Settle, Dominick Hing: report
+
+OK
+
+Monophonic Pitch Tracking Using a Convolutional Neural Network by Koye Alagbe: report
+
+
+
+Learning the Inverse Kinematics of a 6-DOF Concentric Tube Robot through a Generative Adversarial Network by Soham Sinha: report
+
+
+
+OSRSNet: Real-time Object Recognition in 3D MMORPGs by Matt Rickard: report
+
+
+
+Generation of Realistic Facemasked Faces With GANs by Samuel Mumford: report
+
+
+
+Deep Knowledge Tracing and its Variants by Chao Xu, Nuntanut Raksasri, Tianqi Yan: report
+
+
+
+ArXiv paper recommender by Milind Shyani: report
+
+
+
+Duolingo Shared Task on Second Language Acquisition Modeling (SLAM) by Christopher Wong, Nathaniel Goenawan: report
+
+
+
+Film Success Prediction Using NLP Techniques by Bay Foley-cox, Joshua Gross, William Roberson: report
+
+
+
+Patent Technology Classification and Citation Level Projection by Hanning Su: report
+
+
+
+Missing Ingredient Prediction by Courtney Moran, Masha Karelina: report
+
+
+
+Chinese-to-English machine translation by Cynthia Hao, Zhuoer Gu: report
+
+OK
+
+Personalized Motion Models to Predict Short-Term Lower-Limb Kinematics by Akshay Sreekumar: report
+
+
+
+Improving Medical Knowledge in the Automated Chest Radiograph Report by Ethan Schonfeld, Edward Vendrow: report
+
+
+
+Chest X-ray Abnormalities Detection by Heyang Huang, Yi Wei, Yijun Long: report
+
+
+
+Deep Learning Approaches for Predicting Drug Mechanisms of Action by Kai Fronsdal, Toren Fronsdal: report
+
+
+
+Ga Yau: Machine analysis of Hong Kong horse racing data by Olaf Torne: report
+
+
+
+Sign Language Translation by Benedict Fraser Walker, Elnaz Ansari, Vu Nguyen: report
+
+
+
+Deep Learning for Physics Discovery by Danyal Mohaddes Khorassani: report
+
+
+
+Decoding Images from Multi-Region, High Resolution, Electrode Recordings In the Mouse Visual System by Chris Fritz: report
+
+
+
+Offline Signature Recognition with Convolutional Neural Networks by Diego Kaulen, Kaitlyn Baab: report
+
+OK
+
+TastifyNet: Leveraging adversarial examples for generating improved recipes by Abigail Russo, Brynne Hurst, Trey Weber: report
+
+
+
+Machine Learning to Predict Electronic Structure Properties by Pranjal Agarwal, Aisulu Aitbekova: report
+
+
+
+#Fall 2020
+
+
+
+#Outstanding Projects
+
+
+
+Effect of Demonstrations for Deep Reinforcment Learning-Based Control of Concentric Tube Robots by Fredrik Samdal Solberg: report
+
+
+
+Embedding Free, Adversarially Trained, Generative Steganography by Trevor Blake Maxfield: report
+
+
+
+Using Deep Neural Networks to Approximate Real Time Current Correlation Functions by Sophia Claire Kivelson: report
+
+
+
+Studying the Relationship between Social Position and the Meaning of Work using Siamese BERT Networks and Generalized K-Means Clustering by Sheridan Alexander Stewart: report
+
+
+
+Sequential Deep Learning for Terrain Classification from Raw Tactile Data of Small-Legged Robots by Hojung Choi: report
+
+
+
+#Submissions
+
+
+
+Predicting Chilean retirement plan decisions by Akshay Malhotra, Daniel Zhang, Sebastián Espinoza: report
+
+
+
+Sequential Deep Learning for Terrain Classification from Raw Tactile Data of Small-Legged Robots by Hojung Choi: report
+
+
+
+Multi-Class Traffic Sign Classification using AutoAugment and Spatial Transformer by Hongbo Miao, Labib Tazwar Rahman: report
+
+
+
+Learning low-dimensional representation for whole-genome gene regulatory elements by Zan Xu: report
+
+
+
+Price Formation in Stock Markets Using Fundamental Analysis by Paul Hans Boehringer: report
+
+OK
+
+Question Generator by Ahmad Nazeri, Lupe Hernandez, Sam Randall: report
+
+
+
+Detecting the Emotion Dynamics of Profanity Language In Social Media Through Time by Haozheng Du, Kezia Yemima Lopez, Wenxin Dong: report
+
+OK right right I mean this is all as I bring up repeatedly super duper wooper tricky stuff to claim or verify now that everything can degenerate into the most over super liminal extremal bullshit.
+
+Dicing up Newton: Exploring Deep Learning Solutions to the Chaotic Three-Body Problem with Nonlinear Data Transformations by Arthur Campello: report
+
+
+
+Spoken digit recognition by Avi Khemani: report
+
+
+
+Fake news: generating nonsense newspapers in the name of art by Miranda Li: report
+
+OK hmmm right righto.
+
+Sketch2Fashion: Generating clothing visualization from sketches by David Haikuo Wang, Manya Bansal, Vy Hoang Ngoc Thai: report
+
+
+
+Unsupervised Semantic Face Synthesis by Jack Lee: report
+
+
+
+Neural network finite element in solid mechanics by Jessica Zou, Wei Alex Chen, Xinwei He: report
+
+OK
+
+AST-Enhanced Code Summarization for Java Subroutines by Brad Kyle Ramunas: report
+
+
+
+Developing scientific answers to questions with bert by Siheng He, Zahra: report
+
+
+
+Generating six word stories by Gianna Galicia Chien: report
+
+
+
+Joint Embeddings of Programming and Natural Language by Joseph Christian Pagadora: report
+
+
+
+Dazzler Laser Shaper Parameter Prediction by Jack Eden Hirschman: report
+
+
+
+Fine-tuning BERT on Fine Foods by Mengmeng Ji: report
+
+
+
+Voice Conversion using Generative Techniques by Niral Shah: report
+
+
+
+Generating human antibodies using language models by Aaron Behr, Felipe Calero Forero, Mira Partha: report
+
+
+
+Improving Text Representations using Contrastive Unsupervised Learning by John Duc-tuan Nguyen: report
+
+OK
+
+Unbiased toxic comment prediction by Raghuram Kowdeed: report
+
+OK
+
+Identify differential expression of (bio)neural circuitry by Colton Orion Swingle, Jen Owens: report
+
+
+
+Learning protein subcellular localization patterns from peptide sequence by Chung-ha Davis, Olivia Gautier: report
+
+
+
+Accent Transfer with Discrete Representation Learning and Latent Space Disentanglement by Paul Mure, Renee Li: report
+
+
+
+Paint like Vincent Van Gogh: Artistic Style Generator Using CycleGAN and VGG19 by Chih-hsuan Kao, Junkun Pan, Xiaoye Yuan: report
+
+OK
+
+DeepWine by Andy Chow, Jeffrey Sink, Yu-ann Wang: report
+
+
+
+Predicting depression symptoms by Jessica Jones, Joy Doong, Michael Wornow: report
+
+
+
+Exploring Different Deep Learning Architectures on a Large Chest Radiograph Dataset by Sean Afshar: report
+
+
+
+Detecting Cyberbullying in Online Forums by Han Bit Yoon: report
+
+
+
+Predicting CDS Spreads with Deep Learning Architecture by Weimu Lei: report
+
+
+
+TransformerFTC: Scaling Low-Dimensional Transformers for Higher Performance by Viswesh Krishna: report
+
+
+
+Automatic music transcription by Ruoyan Chen, Yiwen Liu: report
+
+OK
+
+Transferable Audio Adversarial Attacks by Yazen Shunnar: report
+
+
+
+Graph Convolutional Networks for Friend Recommendation by Albert Pun: report
+
+
+
+Identifying DNA sequencing anomalies by Chuck Seberino, Ryan Humble: report
+
+
+
+Algorithmic Venture Capital by Abraham Oshotse, Casey Caruso, Francisco Enriquez, Gautam Govind Pradeep: report
+
+
+
+Graph-Convolutional Neural Networks for Hydrocarbons Kinetics Predictions by Anthony Taing, Vincent Dufour Decieux: report
+
+
+
+HMM-Viterbi Based Decoders vs Deep Neural Architectures by Erol Aygar: report
+
+
+
+Tweet like @InsertNameHere by Victoria Magdalena Dax: report
+
+
+
+Robust Coding Strategies for Neural Network Weights by Berivan Isik: report
+
+
+
+Generate news tips for local journalism with topic modeling by Amy Dipierro: report
+
+
+
+Deep Surrogate Models for Atomic Systems by Alex Xiaotong Gui, Sathya Ranjan Chitturi: report
+
+
+
+Auto Doodling Using Generative Modeling by Tuo Shi, Xinhua Ren, Yiting Zhang: report
+
+
+
+Modeling of Odor Prediction from Chemical Structures by Chengling Qiu: report
+
+
+
+County-Level COVID-19 Case Predictions using Deep Learning by Kento Perera, Shannon, Timothy Sah, William Buchanan: report
+
+
+
+Gender bias in dictionary-derived word embeddings by Edward Lee: report
+
+
+
+Making Neural Architectures Learn to Compile by Jeffrey Shen: report
+
+OK I guess.
+
+Improving Language Model Performance on the United States Uniform Bar Exam by Lucia Zheng: report
+
+
+
+Using Deep Neural Networks to Approximate Real Time Current Correlation Functions by Sophia Claire Kivelson: report
+
+
+
+Deep Reinforcement Learning for Forex Trading by Deon Jordan Richmond: report
+
+
+
+Studying the Relationship between Social Position and the Meaning of Work using Siamese BERT Networks and Generalized K-Means Clustering by Sheridan Alexander Stewart: report
+
+
+
+A Dialogue Policy with Conversation State Embeddings by David Brown: report
+
+
+
+Presidential Debate Cross-Talk Separation With U-Nets by Danny Schwartz, Nick Myerberg, Thatcher Freeman: report
+
+
+
+Automated Topic-Tagging for Software-Related Question-and-Answer Sites by Ankur Agrawal, Ryan Andrew Chi, Varuni: report
+
+
+
+Deep Learning: Confidence Through Interpretation by Bhaskar Chattaraj: report
+
+OK
+
+Beating the Odds - NBA Analytics by Bodhi Nguyen, Matteo Santamaria: report
+
+OKOKOK
+
+Painting2Auction: Art price prediction with a Siamese CNN and LSTM by Tom Worth: report
+
+
+
+Embedding Free, Adversarially Trained, Generative Steganography by Trevor Blake Maxfield: report
+
+
+
+On the Generation of Music by Alec Bryan Janowski, Alejandro Gabriel Cid, Bowen Jiang: report
+
+OK boo lame dumb stoopid in my humble opinion.
+
+Exploring ways of Generating Free Text Unconditionally and Conditionally by Cecile Loge: report
+
+
+
+GAN Generated Images of Fruit Decay by Krithika Iyer: report
+
+
+
+Static analyzer for solidity smart contracts by Luke Theodore Tchang: report
+
+
+
+DeepSponsorBlock: Detecting Sponsored Content in YouTube Videos by Cem Gokmen, Jennie Yang, Nikhil Athreya: report
+
+
+
+FallDetectNet: A Computer Vision Platform for Fall Detection by Ariel Kelly Leong, Stephanie Brito, Yanichka Ariunbold: report
+
+
+
+Human activity recognition by Jeong O Jeong: report
+
+
+
+Multiperson 2d pose estimation by Michael Terrence Sylvester, Qingjun Wang, Xialiang Dou: report
+
+
+
+neXt-Ray: Deep Learning on Bone X-Rays by Anfal Siddiqui: report
+
+
+
+A ResNet-50-based Transfer Learning and Ensemble Method for Structural Health Monitoring by Chun-liang Wu, Jaewon Saw, Langston Gary Nashold, Salil Sanjay Deshpande: report
+
+
+
+Student Dropout Prediction by Aarushi Subhasis Majumder: report
+
+
+
+Deep Neural Vision for people with Visual Impairment by Akshita Agarwal, Mayank Gupta, Niki Agrawal: report
+
+
+
+Predicting Popularity of Rap/Hip-Hop Songs by Hansub Kim, Nick Wilson, Temidayo Folorunso Dairo: report
+
+
+
+Meter Current Transformer Polarity Detection with Deep Neural Networks by Dale Annin: report
+
+
+
+Effect of Demonstrations for Deep Reinforcment Learning-Based Control of Concentric Tube Robots by Fredrik Samdal Solberg: report
+
+
+
+Food Classification with CNNs by Katherine Anna Gjertsen: report
+
+
+
+Synthetic data augmentation for small datasets by Mehrad Mohammadi Khalesi Fard, Shobit Kishore, Steve Maccabe: report
+
+
+
+3d point cloud completion by Chen Wang: report
+
+
+
+Super-Resolution of Low-Quality Dashcam Images for Realtime Pothole Detection by Moo Jin Kim, Sharan Ramjee: report
+
+
+
+3D object detection by Suvasis Mukherjee: report
+
+
+
+Lyft Motion Prediction for Autonomous Vehicles by Dipti Nemade, Govinda Puthalapat: report
+
+
+
+Analysis of the Effectiveness of Temporal Point Cloud Data for Object Classification and Perception in Autonomous Vehicles by Matei Armanasu, Shrividya Manmohan, Yuhao He: report
+
+
+
+DeepEdgeNet: Edge Detection with EfficientNets by Atem John Aguer, Dean Zhou: report
+
+
+
+Frustum Votenet and its Application to the Waymo Lidar Dataset by Brian Johnson: report
+
+
+
+Deep Kurve! by Taylor Howell, Lawrence Peirson: report
+
+
+
+Exoplanet Candidate Stellar Companion Detection using a Mask R-CNN by Simon Engler: report
+
+
+
+Small vessel detection in satellite imagery by Richard Correro: report
+
+
+
+Leveraging spoken term detection for improved resource access for language documentation and revitalisation projects by Nay San: report
+
+
+
+Semantic segmentation for seismic facies classification by Min Jun Park: report
+
+
+
+Recognize diseased coffee leaves by Shelly Deng: report
+
+
+
+Tinkering with Tingets: Using Computer Vision to Improve Image Processing in a Children’s Social and Emotional Learning Toy by Merve Cerit, Victoria Docherty: report
+
+
+
+Haptic Vest: Image Classification on the Edge by Philip Mateo Pfeffer, Raul Gallo Dagir: report
+
+
+
+Automatic Recolorization of Movie Posters by Alex Meistrenko: report
+
+
+
+Bayesian Optimized Deep Neural Network for Nuisance Event Filter by Yuping He: report
+
+
+
+Neural Genre Transfer by Ashwin Arasu, Tyler Alan Consigny: report
+
+
+
+Prediction of Velocity Magnitude for Flows around Bluff Bodies on Irregular Geometries by Ali Kashefi: report
+
+
+
+Vision-Guided Laser Safety System by Aidan James Fitzpatrick: report
+
+
+
+Indianajones.ai: evaluating methods for mapping water management features across the South Indian Neolithic–Iron Age transition by Haoran Shi, Tanish Jain: report
+
+
+
+Binocular Stereopsis via Image Matching and Learned Filtering by Gordon Alexander Charles, Manoj Rajagopalan: report
+
+
+
+Adversarial Wekness Recognition for Efficient Black-Box Validation by Robert Moss: report
+
+
+
+Application of Deep Learning to Detection and Survival Prediction of COVID-19 Patients Based on Lung X-Ray Images by Barry Brian Barrios, Bhavik Shah, Michal Maciejewski: report
+
+
+
+Facial recognition for masked faces by Zhen Li: report
+
+
+
+Where'd You Get That? An Efficient Deep Learning Approach to Fashion Identification by Beri Kohen Behar, Ece Korkmaz, Varun Tandon: report
+
+
+
+Evaluating the Effectiveness of Adversarial Attacks on Traffic Light Color Classification Deep Neural Networks by Connor Toups, Eunji Lee, Spencer Louis Paul: report
+
+OKOKOK
+
+Predicting lung cancer survival time by Oualid El Hajouji, Sasson: report
+
+
+
+Predicting Road Traffic Accidents with Deep Learning by Jean-felix Brouillette: report
+
+
+
+Time is of the essence: Portfolio multi-scale scheduling via Reinforcement Learning by Emile Clastres: report
+
+
+
+Generating Fashion Through Neural Style Transfer by Aayush Amit Agrawal, Luis M Alcaraz, Robert Hu: report
+
+
+
+Brain tumor segmentation by Nikesh Omprakash Mishra, Rodrigo J Nieto, Scott Lee: report
+
+
+
+Forecasting PM 2.5 Pollution Using Weather Data by Jack Philip Seagrist, Karthik Ramesh: report
+
+
+
+Segmentation of Modern Human genotypes based on ancient DNA by Pierre Chambon, Rebecca L Hwang: report
+
+
+
+Gradient-based Accelerated Adaptation of Deep Networks by Prerna Pankaj Khullar: report
+
+
+
+Conversational Image Recognition Chatbot by Shengyang Su: report
+
+
+
+Comprehend Sentiments in Product Reviews by Aditya Thakkar, Huaping Gu, Yecheng Yang: report
+
+
+
+Pongfuscated: Teaching RL Pong Agents to Self-Obfuscate by Eli Andrew: report
+
+
+
+Deep learning approaches for the Lyft Motion Prediction for Autonomous Vehicles challenge by Augustine Chemparathy, Bowen Liang, Vergnes Hugo: report
+
+
+
+Predicting Opinion Change in Deliberative Groups by Ross Dahlke: report
+
+
+
+Guess the Stance: Predicting Political Orientation from Congressional Statements by Miroslav Suzara, Saurabh Khanna: report
+
+
+
+Unsupervised summarization of psychotherapy data by Aaron Reed, Ivan Villa-renteria: report
+
+
+
+Predicting neural network inference times by Daniel Marcos Mendoza, Sijin Wang: report
+
+
+
+End-to-End Speech to Named Entity Recognition System by Xiang Jiang, Teeno Ouyang: report
+
+
+
+A Deep Learning Approach for Stock Market Prediction by Yan Miao: report
+
+OKOKOK
+
+Generating Images of the Consequences of Wildfire by Chang Wan Ryu, Dingjie Wang, Minh Quang Nguyen: report
+
+OK
+
+Cat photo-to-sticker translation by Cassie Zhang, Elaine Liu, Zhenglun Lou: report
+
+OK
+
+Listener-Adaptive Music Generation by Christopher Frederic Wolff, Sterling Alic: report
+
+Whatever bro.
+
+Using Generative Adversarial Imitation Learning for Policy Learning in Agent-based Simulation Environments by Kaushik Kasi: report
+
+
+
+#Spring 2020
+
+
+
+#Outstanding Projects
+
+
+
+Measuring Political Polarization of Federal Regulations by Jake Jares, Cindy Chung, Mary Zhu: report
+
+
+
+Transforming Portraits to Classical Paintings using CycleGAN by Helen Wu, Phillip Keonho Kim: report
+
+Whatever.
+
+Trash Classification Using Convolutional Neural Networks Project by Maoguo Shi, Qinyue (Jessica) Gu, Grace He: report
+
+
+
+QuAMD: An end-to-end oracle for Question and Answering in the Medical Domain by Amir Sahabi, Jacky Lin, Richard Wang: report
+
+
+
+Link Prediction with Graph Neural Networks and Knowledge Extraction by Xiaohan Li, Danni Ma, Zecheng Zhang: report
+
+
+
+#Submissions
+
+
+
+Identification of Discriminative Features in Raman Spectra for Antiobiotic Susceptibility Testing by Ahmed Shuaibi: report
+
+
+
+HWR for math by Taylor Song, Daniel Xia, Juan Ricardo Grau: report
+
+
+
+Assessing Crowd Size at Essential Stores in the Age of COVID-19 by Steve Francis Burke: report
+
+
+
+OCR for table content in historical records by Marcelo Moura Jardim Teixeira Sena, Chiin-Zhe Tan, Jonas Mueller-Gastell: report
+
+
+
+Detecting potential pneumonia cases with Xray image data by Daniel Valner, Anthony Le: report
+
+
+
+MTG Card Grader using Image Classification and Detection by Juan: report
+
+
+
+Exploring the Use of Recurrent Circuits in Action Segmentation by Danny Du: report
+
+
+
+Predicting Retail Petrol Prices in Australian Restorative Markets by Miles Perry: report
+
+
+
+Handwritten Chinese Character Recognition by Ze Wang: report
+
+OK interesting enough I guess I suppose.
+
+Predicting Index Option Implied Volitality Surfaces by James P Michels III: report
+
+OKOKOK
+
+Coronavirus by County by Sean Roelofs: report
+
+
+
+Family kinship Recognition Using Deep Learning by Bruce Liu: report
+
+
+
+DL for directed evolution by Anthony John Agbay: report
+
+
+
+Which Stats Matter? by Juliette Elizabeth Love: report
+
+OK
+
+Video Snippet Retrieval from Image and Text Queries for Gaming by Sirisha Akkanapragada: report
+
+
+
+Automatic Species Classification in Camera Trap Images for New Locations by Gen Rex Woods, Samantha Koire, Emma Mary Dolan: report
+
+
+
+Predicting Flight Arrival Delays from JFK based on Domestic Weather Patterns by Nico Stainfeld, Jimmy Robert Rabe: report
+
+
+
+CoVariance Imaging by Alyssa Cartwright, Vlad Kesler, Nicholas Vitale: report
+
+
+
+DanceGAN by Michelle Xing, Allison Lettiere: report
+
+
+
+Developing a method for a robot to accomplish a task involving options uncertainty by Negin Heravi, Peter Anastasi Zachares: report
+
+
+
+Get Rich or Die Trying: Predicting QQQ ETF Movement with Numerical and Sentiment Data by Namit Mishra, Aparna Tumkur, Nikhil Bharat Hira: report
+
+OKOKOK
+
+Kaggle's ultrasound image based nerve segmentation by Sibi Shanmugaraj: report
+
+
+
+You’re Not Real: Deep Fake Image Detection by John William Kustin, Andy Tianren Wang, Isaac Santiago Schaider: report
+
+
+
+Early Crop Type Identification from Satellite Radar Imagery by Yingan Pan, Joanna Jiaqi Zou, Teke Dado: report
+
+
+
+Recurrent Neural Network for MoonBoard Climbing Route Classification and Generation by Yi-Shiou Duh, Ray Chang: report
+
+
+
+Reconstructing the temporal-electric field of attosecond X-ray pulses from an angularly streaked 2D photoelectron momentum distribution by Paris Lee Franz, Rachel Anne Margraf: report
+
+
+
+Football Match Prediction using Deep Learning by Ahmed Amr Awadallah, Raghav Khandelwal: report
+
+OKOKOK
+
+Capturing Key Equations in Recorded Lectures by Nathaniel Simon, James Wang: report
+
+
+
+Label-free SEM Content Recognition with Cycle- consistent Generative Adversarial Networks by CyrusLi, Xiaojun Sun, Ching-Ting Tsai: report
+
+
+
+Cloud service anomaly detection by Rishabh Kumar, Dhruv Lakhani: report
+
+
+
+EEG wave data to intent by Will Leopold Ross, Roman Pinchuk: report
+
+
+
+DeepFake Image Detection by Omkar Salpekar: report
+
+
+
+Brain scan superreso by Jay Kocherlakota, Christopher Moffitt, Yamen Mubarka: report
+
+
+
+Natural Disaster Infrastructure Damage Analysis from Satellite Imagery by Melvin Agung Juwono, Abuzar Royesh, Tsion (T) Tesfaye, Cade Crow: report
+
+
+
+Using CNN Architecture to detect SARS-CoV-2 from Chest Radiographs by Miguel Ayala: report
+
+
+
+Multi symbol latex math HWR by Jonas Shomorony, Kevin Baichoo, Peter Do: report
+
+
+
+Face pokemonizer by Jen-Feng Chang, Hao-Hsiang Chuang, Jheng-Hao Huang: report
+
+
+
+Surfer identification by Nihat Cem Inan, Daniel Kenneth Angell, Joseph Louis Mann: report
+
+
+
+Streamflow prediction with deep learning methods on hydrology by Rahul Raj Dhakal, Rohan Pasalkar, Josue Fonseca: report
+
+
+
+Determining Landable Areas for Urban Air Vehicles via Image Segmentation by Seraj N Desai, Andrew Christopher Denig: report
+
+
+
+Estimating access to mobile broadband by Eric William Colbert, Tyler Donovan Robbins: report
+
+
+
+Detect+localize bladder cancer in real time by Colt William Mcnealy, Mark Laurie, Victor Yin: report
+
+
+
+Detecting Compostable & Non-Compostable Waste from Images by Dakota McNealy: report
+
+
+
+Generative Lattice Structures for 3D Printing by Ruiqi Chen: report
+
+
+
+Predicting Basis Set Superposition Error from Molecular Geometry by Ethan Robert Curtis: report
+
+
+
+Abstractive summ. on covid19 publications by jiachen xu: report
+
+
+
+Music generation (genre, instruments, raw wav) by Hongxu Ma, Cali Chen, Zhengyu Chen: report
+
+OK boo.
+
+Minor Identity Protection through De-Identified Generated Faces by Akhil Arvind Jariwala, Isaac Hales, Laurel Hales: report
+
+
+
+Detecting Fake News of COVID-19 using Deep Learning by Karissa Cyn-Yun Yau, Avalon Wolfe, Anmol Tukrel: report
+
+
+
+Logistics supply detection from sat img by Anastasiya Vitko, Eleni Alexandraki, Kevin van der Wees: report
+
+
+
+Deblurring/coloring images by Omar Ahmed El Sayed Rashad El Safty, Karsu Ipek Kilic: report
+
+
+
+Piano Music Generation with LSTMs by Ronak Anuj Malde: report
+
+OK boo.
+
+Skin lesion image superreso by Joshua Vernon Tanner, Eric Yeh: report
+
+
+
+Sentiment Analysis on COVID-19 Tweets by George Charles Younger, Michael Lin: report
+
+
+
+Using deep autoencoder feature embeddings to explore single-cell phenotypes in pediatric cancer by Tim Keyes: report
+
+
+
+Learning neural representations of complex motor behavior with recurrent neural networks by Mark Plitt, Xulu Sun: report
+
+
+
+Reconstructing temporally high resolution brain fMRI from low resolution images by Divya Nagaraj, Sreya Halder, Ryan Dong Li: report
+
+
+
+Recipe/kitchen QA agent/helper by Stephanie Nanette Schneider: report
+
+
+
+Hate in Politics: Can Transfer Learning on Political Tweets Help Detect Hate Speech? by William Ellsworth, Matthew Franklin Kolodner, Sergio Gino Charles, Bharath Raj Namboothiry: report
+
+
+
+CNN-based robust sidewalk identification for autonomous drone applications by Tri Khuu, Milan S Bidare, Arvind Srivastav: report
+
+
+
+Question Answering for Long Texts by Alfred Wechselberger, Rekha Kumar, Shreyas Vinayakumar: report
+
+
+
+Automatic Code Generation Project Proposal by Lizi, Sudharshan Viswanathan, Luis Antonio Perez: report
+
+
+
+Extracting Time-Linked Lecture Video Outline via Optical Character Recognition and Semi-Summarization Techniques by Oluseyi Adeolu-Joseph Olujide, Kaili Wang, Sam Gorman: report
+
+
+
+Nationality Identification using Name by Jackie Hong, Wei Ren, Jiate Li: report
+
+
+
+Predicting disease from plant leaf images by Colin Shi, Eric Zeng: report
+
+
+
+Forecasting Walmart Retail Goods Unit Sales via Recurrent Neural Networks by Jesse Quy Doan, Andy Guten Jin, Jasmine Grace Bayrooti: report
+
+
+
+Surface Detect Image Classification with Convolutional Neural Network by Po-Hsiang Wang: report
+
+
+
+Music generation (midi) by Jinho Chung, Mallika Khullar, Euirim Choi: report
+
+
+
+EEG biomarkers + deep learning/attention by Kevin Chen, Ziad Ahmed Ali, Oguz Tolga Celik: report
+
+
+
+Accent ID by Andea Scott, John Michael Wall, James Thieu: report
+
+
+
+High Fidelity Song Identification via Audio Decomposition and Fingerprint Reconstruction by CNN and LSTM Networks by Simon Tao, Yosheb M Getachew: report
+
+OK lol.
+
+Music gen (MIDI) by Wen Zhong: report
+
+
+
+Segmentation of Acute Respitaroy Artifacts due to Coronavirus Related Infection with Deep Learning by Zeke Dakjung Randolph: report
+
+
+
+Spike Prediction for Electricity Market Prices by Lingyu Ren: report
+
+OKOKOK interesting enough topic.
+
+Construct metabolic networks from data by Jensina Froland: report
+
+
+
+Learning Lipstick Colors and Brands from Images by Nina Du: report
+
+
+
+RecycleNet by Cameron David Tew, Veer Siraj Shah, Nikhil Parab: report
+
+
+
+Predicting cellular capacity for growth after starvation from phase contrast microscopy images by Spencer Cesar: report
+
+
+
+Abstract-DCGAN by Sebastianos Hapte-Selassie, Nico Galeo Garcia: report
+
+
+
+Looking for Low Vision Patients: Deep Learning Approaches Integrating Clinical Free Text from Electronic Health Records by Sumit Singh, Sophia Wang, Samba Njie Jr.: report
+
+
+
+Side channel cryptanalysis against AES-128 by Casey Tzui-Kwang Long: report
+
+
+
+Automated Correction of Timing Tool Jitter Based on Convolutional Neural Network by Viktor Krapivin: report
+
+
+
+Visual Map Embedding with Neural Networks by Colin Richard Schultz: report
+
+
+
+Training a RL tractor agent by Junming Wang: report
+
+
+
+Audio denoising by Semir Shafi, Marco Antonio Mora-Mendoza, Schuyler Anne Tilney-Volk: report
+
+
+
+Machine Music Translation by Aitan Grossman, Josh Grossman: report
+
+
+
+Automatic Speech Recognition for Childhood Language Development by Daniel Patrick Ryan: report
+
+
+
+Reinvent your Hair by Sam Mark Liokumovich: report
+
+
+
+Improving the COVID-Net Convolutional Neural Network for Detecting COVID-19 from X-Rays by Hashem Elezabi, Ethan Lo: report
+
+
+
+Orbit determination from sat img by Flynn Reyes Dreilinger, Jesus E Meza Rosales, Grant Amos Regen: report
+
+
+
+Learning Acoustic Properties of Human Skull from Medical Images by Kasra Naftchi-Ardebili, Kris Quah, Ningrui Li: report
+
+
+
+Predicting Outcomes in the Intensive Care Unit by Daniel Jun: report
+
+
+
+Album Cover Art Generation by Tongxin Cai, Di Sun, Jonathan Li: report
+
+
+
+Automated Correction of Timing Tool Jitter Based on Convolutional Neural Network by Yijing Huang: report
+
+
+
+Music genre classifier by Aidan Donohue, Khalil Miri, Erick Enriquez: report
+
+
+
+Abstractive summ. on covid19 publications by Zhengzhi Lou, Ju Zhang: report
+
+
+
+Segmenting Tumors in Imaging Studies and Predicting Clinical Outcome in Patients with Gliomas by Jacky Huang: report
+
+
+
+Identifying fish skeletal elements from X-ray images by TzuChiao Hung: report
+
+
+
+Intelligent Personal Assistant Dialog Generation using Paraphrasing by Weiwei Zhang: report
+
+
+
+Generating Rom-Com movie scripts (@345) by Connie Hsueh: report
+
+
+
+Extracting Structured Data from Raw Recipe Text by Peter: report
+
+
+
+Sentence Compression for Text Summarization by Lum Yao Jun: report
+
+
+
+Incorporating Differential Privacy Techniques into Neural Networks by Tim Gianitsos: report
+
+
+
+Transfering Cell Type Annotations between Single Cell Atlases by Pankaj Kumar Sharma, Tingting Gong, Chew M Chai: report
+
+
+
+Embedding object into image with realistic lighting by Kevin Long Su, Natasha Saki Ong: report
+
+
+
+Am I the Asshole (NLP classif) by Ivy Wang: report
+
+LOL LMAO
+
+GAN fashion lookbook by Aish Rameshkumar: report
+
+
+
+Learning Football Play Calling (Structured Deep Learning) by Xuyi Guo: report
+
+OKOKOK half interesting in the context of Westlake High School quite literally allocating funding and hiring a statistician for their Amerikan Football team. Back to Back to Back champions though is a 3Peat.
+
+Multilingual Toxic Comment Classification by Dezhen Kong: report
+
+OKOKOK
+
+A Deep Learning Approach to Continuous ASL-English Translation by Sunny Manish Shah, Teresa Noyola: report
+
+
+
+Predicting the Viral Human-Host Probability Using Deep Learning by Hina Dixit: report
+
+
+
+Identifying Laughter in Video by Ethan Duncan He-Li Hellman: report
+
+
+
+#Winter 2020
+
+
+
+#Outstanding Projects
+
+
+
+Predicting Material Properties using Chemical Structure by Shayta Roy, Tyler James Quill, Yaakov Tuchman: report poster
+
+
+
+Characterizing hair style/color/style transfer by Clemens Konstantin Macho: report poster
+
+OKOKOK
+
+Motion based handwriting detection by Kelly He, Kevin Chen, Wanze Xie: report poster
+
+
+
+Activity Recognition Using 3D Human Pose Estimation with Deep Learning by Wendell Hom: report poster
+
+
+
+Food image to recipe generator by Dorian Kawehionale'a Raboy-McGowan, Luciano Gonzalez, Sabrina Rong Lu: report poster
+
+
+
+Learning powerflow mappings for power grid simulation by Lily Douglas Buechler: report poster
+
+
+
+Local ancestry reference by Jan Sokol, Matthew Aguirre: report poster
+
+
+
+Large-scale Seismic Attributes Computation with GAN by Joao Paulo Pecanha Navarro De Oliveira: report poster
+
+
+
+Underwater gesture classificaiton by Veronica Peng, Wenxi Zhao, Xi Yu: report poster
+
+
+
+Predicting gait with parkinsons by Johanna Jianping O'Day, Kirsten Anne Seagers, Marissa Rachel Lee: report poster
+
+
+
+#Submissions
+
+
+
+Deep-Learning Based Surrogate Model for Subsurface Flow Problem by Haoyu Tang, Jingru Cheng, Su Jiang: report poster
+
+
+
+Diagnosing diabetic retinopaphy by Amelie Schaefer, Lucy Monyue Wang: report poster
+
+
+
+CNNs in Logarithmic Gradient Image Sensing by Qianyun Lu: report poster
+
+
+
+Predicting organelle localization by Anjali Bisaria, Nalin Joseph Ratnayeke, Yilin Fan: report poster
+
+
+
+Skin cancer self diagnosis by Chafik Taiebennefs: report poster
+
+
+
+Real time risk eval for flights by Nicolas Jean-Jacques Tragus, Saakaar Bhatnagar: report poster
+
+
+
+Predicting structures in job title taxonomy by Shuang Jin: report poster
+
+
+
+Frieght document transcription by King Castillo Alandy Dy: report poster
+
+
+
+Fast Brain Strain Evaluation in Head Impact by Xianghao Zhan, Yiheng Li: report poster
+
+
+
+Building footprint extraction based on RGB-D satellite imagery by Andriy V Syrov, Denis Ulanov: report poster
+
+
+
+Fake audio/speaker detection by Daniel Evert: report poster
+
+
+
+Deep learning for seeking alpha (finance) by Zhichao Zou, Zihao Qu: report poster
+
+OKOKOK every single Chinese dude in this course wants to make money with Deep Learning wow me too bro.
+
+Generative Text style transfer by Robert Andrew Schmidt, Spencer Flick Braun: report poster
+
+
+
+Depth Image Estimation From RGB Image Using Deep Learning by Isha Singhal, Mei Jiao Png, Xu Guo: report poster
+
+
+
+Learning powerflow mappings for power grid simulation by Lily Douglas Buechler: report poster
+
+
+
+Chest XRay disease detection by Hugo Kitano: report poster
+
+
+
+Learning Probability Distributions of Future Stock Prices by Jeffrey Sun, Julius Zhang, Mohammad Lari: report poster
+
+OKOKOK
+
+Classify subcellular proteins by Pradeep Chaitanya Mylavarapu: report poster
+
+
+
+Search My Favorites by Color: Fashion Parsing through Color Classification by Calvin Hwei Guo: report poster
+
+
+
+Local Privacy Against Inference Attacks: A Generative Modeling Approach by Dennis Rich, Wei-Chen Chen, Wei-Ning Chen: report poster
+
+
+
+Image distortion classification by Alex He, Mike Victor Hsieh, Roland Dominique Pascal Duffau: report poster
+
+
+
+CNNs for dementia onset detection by Michael Wang: report poster
+
+
+
+Predicting gait with parkinsons by Johanna Jianping O'Day, Kirsten Anne Seagers, Marissa Rachel Lee: report poster
+
+
+
+Graph based classification of Rock Climbing difficulties by Cheng-Hao Tai, Luis Rafael Hinojosa Vazquez: report poster
+
+
+
+Precipitation nowcasting by Anika Jain, Georgios Sarmonikas, Yash Gaur: report poster
+
+
+
+Predicting wildfire spread patterns by Emily Wu, Glynnis Elizabeth Millhouse, Olamide Oladeji: report poster
+
+
+
+Underwater gesture classificaiton by Veronica Peng, Wenxi Zhao, Xi Yu: report poster
+
+
+
+Brass Trio Music Generation by Ben Iver Rocklin, William Dunlop: report poster
+
+
+
+Tennis shot identifier by Ganapathy Sankararaman, Siddharth Buddhiraju: report poster
+
+
+
+Voice Activity Detection for Low Resource Settings by Abhipray Sahoo: report poster
+
+
+
+Generating anime characters from sketches by Robert Yang, Tai Duc Vu: report poster
+
+
+
+Deep Learning in Crown Defects Inspection by Huaizhen Chen: report poster
+
+
+
+Predicting NFL outcomes by Cameron Taylor: report poster
+
+OK
+
+Stock prediction with NLP by Shelly Wang, Yitian Zeng, Yuan Fang: report poster
+
+OK
+
+Deepfake detection by Joshua Denholtz: report poster
+
+
+
+Voice conversion using neural style transfer by Haiyun Wang, Luoyi Yang, Ziqi Chen: report poster
+
+
+
+Real Time Beat Tracking: A Mixed Approach by George Alex Woskob: report poster
+
+
+
+Reproduce Distributed Learning Framework for Medical Imaging + edge scenarios by Miao Zhang: report poster
+
+
+
+Predicting Material Properties using Chemical Structure by Shayta Roy, Tyler James Quill, Yaakov Tuchman: report poster
+
+
+
+Deep Learning based speech recognition for dysarthric speech disability by Siddhartha Prakash: report poster
+
+
+
+Food image to recipe generator by Dorian Kawehionale'a Raboy-McGowan, Luciano Gonzalez, Sabrina Rong Lu: report poster
+
+
+
+Predicting Small Medium Size Firm Bankruptcy by Giovanni Cialone: report poster
+
+
+
+Characterizing hair style/color/style transfer by Clemens Konstantin Macho: report poster
+
+
+
+Lunar landscape segmentation by Chen Wu, Ziyang Yuan: report poster
+
+
+
+Analyzing and Enhancing Facial Expression Recognition CNNs by Amil Khanzada, Charles Bai, Ferhat Turker Celepcikay: report poster
+
+
+
+Predicting protein inhibition sites through point-cloud atomic encodings and 3D deep convolutional neural networks (Healthcare) by David J Toomer: report poster
+
+
+
+Deepfake detection by Aleksander Dash, Nolan Handali: report poster
+
+
+
+Abstractive Summarization for structured conversational text by Ayush Chordia: report poster
+
+
+
+Speech to Text: Pastor Wang Mandarin Bible Teachings by Yen Peng Kao: report poster
+
+
+
+Motion based handwriting detection by Kelly He, Kevin Chen, Wanze Xie: report poster
+
+
+
+Assessing Severity of Building Damage by Kevin Yang, Robert Pablo Trevino, Vinay Sawal: report poster
+
+
+
+Detection of Pulmonary Embolism in CT Angiography images using Deep Learning by Jananan Mithrakumar: report poster
+
+
+
+Large-scale Seismic Attributes Computation with GAN by Joao Paulo Pecanha Navarro De Oliveira: report poster
+
+
+
+Multi agent RL with imperfect info games by Eric Von York: report poster
+
+
+
+Credit Card Fraud Detection using Deep Learning based on Generative Adversarial and Tensor Flow by Rajesh Sabari : report poster
+
+
+
+Activity Recognition Using 3D Human Pose Estimation with Deep Learning by Wendell Hom: report poster
+
+
+
+Transform faces to anime avatar by Hui Su, Jin Fang: report poster
+
+
+
+Animal Detection Using Deep Learning by Lei Lin: report poster
+
+
+
+Deep Learning Based Texture Rendering by Joon Hwa Jung: report poster
+
+
+
+Deep RL for equity trading by Roy Blaine Justus: report poster
+
+OK
+
+Detect deepfakes by Dong Bing, Luke Kim, Sergei Petrov: report poster
+
+
+
+Predicting Likelihood of Road Accidents in Nairobi by Alexandr Lenk, Matias Nicolas Cersosimo, Negin Mohammadi Raoof: report poster
+
+
+
+Crystal Facet Segmentation by Rouven Spiess: report poster
+
+
+
+Using Graph Convolutional Networks to Predict Molecular Properties by Kevin Yimin Guo, Rohan Mehrotra: report poster
+
+
+
+Deep Consumer Choice Models by Ayush Kanodia, Sakshi Ganeriwal: report poster
+
+
+
+Ideal basketball player by Vamsi Saladi: report poster
+
+
+
+Movie Genre Classification from its Poster using Deep Learning by Rahul Monal Chokshi, Sam Han-Joo Sung: report poster
+
+
+
+Local ancestry reference by Jan Sokol, Matthew Aguirre: report poster
+
+
+
+Using aerial satellite images to predict crime by Johannes Nehemiah Hui, Jonah Wu, Ricky Joshua Toh Wen Xian: report poster
+
+
+
+Vehicle make/model/year classification by Sean Li: report poster
+
+
+
+Garbage Classification using Neural Networks by Aditya Gera: report poster
+
+
+
+#Fall 2019
+
+
+
+#Outstanding Posters
+
+
+
+Forecasting groundwater quality using continuous-time recurrent neural networks
+
+
+
+font-gen: Deep Models for Inferring Alternate Language Sets from Fonts
+
+
+
+CNN Transfer Learning for Visual Guitar Chord Classification
+
+
+
+Everyone could be artist: sketch to style-specified artwork
+
+
+
+Neural Network Authentication using Biometric Keystroke Dynamics
+
+
+
+#Submissions
+
+
+
+"Hinglish" Language - Modeling a Messy Code-Mixed Language by Vivek Kumar Gupta: report poster
+
+
+
+2D to 3D Animation Style Transfer by Swathi Vish Iyer, Timothy Quang-Tin Le: report poster
+
+
+
+3D Object Detection from Point Cloud by Alexander Arzhanov: report poster
+
+
+
+3D Object Detection in Point Clouds by Shao Yuan Ho, Tzu-Sheng Kuo, Yen-Yu Chang: report poster
+
+
+
+A Deep Learning Approach for Human Activity by Derek Bryan McCreight, Susana Benavidez: report poster
+
+
+
+A Deep Learning Approach to Classifying Intracranial Hemorrhages by Michael Beckinghausen: report poster
+
+
+
+A method to improve classifier performance using Generative Adversarial Networks(GANs) based data augmentation on the Kannada MNIST dataset by Prateik Harwalker: report poster
+
+
+
+Alzheimer’s Disease Stage Diagnosis, Applying 3D Convolution Neural Networks to MRI Brain Scans by Ben Karl Moore, Mohammadhossein Shafinia, Utkarsh Tandon: report poster
+
+
+
+An AI for Dominion using Deep Reinforcement Learning by Eric Yang, Yu-chi Kuo: report poster
+
+
+
+Application of Computer Vision in Intracranial Hemorrhage (ICH) Detection by Amit Bhatia: report poster
+
+
+
+Art Nouveau Style Transferwith Face Alignment by Elena Tuzhilina: report poster
+
+
+
+Audio Separation and Isolation: A Deep Neural Network Approach by Ahmed Mohamed H Hamdy, Muni Venkata Jasantha Konduru, Pratap Kiran Vedula: report poster
+
+OK
+
+Authio: Neural Network Authentication using Biometric Keystroke Dynamics by Alex Langshur, Harry Mellsop: report poster
+
+
+
+Automatic Voice Title Generation by Extractive Summarization of Long Product Titles using Bi-LSTM by Snehasish Mukherjee: report poster
+
+
+
+BERT has a Mouth, and it can Taste: Identifying Points of Interest using BERT with Triplet Loss by Le Zhang, Richa Rastogi, Yanlin Qu: report poster
+
+
+
+Baby Face Generator with CycleGAN by Shihao Li: report poster
+
+
+
+Beyond Vid2Vid: Few-Shot Video Synthesis for Road Scene Generation by Akash Ashok Modi, Roshan Toopal, Trenton Chang: report poster
+
+
+
+CNN Transfer Learning for Visual Guitar Chord Classification by Eric Zhou, Leon King Tran, Shawn Brian Zhang: report poster
+
+
+
+CNNs for Bulk Material Defect Detection by Aakriti Varshney, Akshay Aravindan, Harrison Hoyt Greenwood: report poster
+
+
+
+Can drought conditions be used to predict the likelyhood of utility-caused wildfires? by Anne-Laure Strong: report poster
+
+
+
+Categorization of seen images from brain activity using sequence models by Arash Jamalian, Faraz Fadavi Akhavan Bonab, Rafi Ayub: report poster
+
+
+
+Chest X-Rays Pathology Detection Using Augmented Datasets with GAN and Radiology Reports by Aditya Kumar Srivastava, Viveak Ravichandiran, Ying Chen: report poster
+
+
+
+Classification of Respiratory Sounds by Vinita Shivakumar: report poster
+
+OK
+
+Computing Nonlinear Active Subspaces for Highly Parameterized Optimization Problems using Autoencoders by Gabriele Boncoraglio: report poster
+
+
+
+Controllable Real-Time Style Transfer by Xiangcao Liu, Yuting Sun: report poster
+
+
+
+Counting Actor Screen Time in Movies by Christina Lin, Sam Wai-Yan Wong, Stephany Liu: report poster
+
+OK
+
+Cutting Down "Fluff" A Twist on Text Summarization by Gustavo Torres da Silva, Kate Mary Salmon: report poster
+
+
+
+Dancing Seq2Seq: An Adversarial Approach to Transformer Generative Dialog by Alan Salimov: report poster
+
+
+
+Deep Learning Model for Subsurface Flow Prediction with Multifidelity Data by Yusuf Nasir: report poster
+
+
+
+Deep Learning Music Generation by Kinbert Chou, Ryan Dominic Peng: report poster
+
+OK
+
+Deep Learning for Efficient Riverine Bathymetry Inversion by Shima Salimi-Tari, Steven Das: report poster
+
+
+
+Deep Reinforcement Learning Framework for Factor Investing by Pierre Nowicki: report
+
+
+
+Deep Tennis: Mid-Match Tennis Predictions by DIPIKA BADRI, Kevin Monogue, Sven Lerner: report poster
+
+OK
+
+Deep Vein Thrombosis Detectionfrom CT Scans by Anirudh Rajiv Joshi, Ishan Jay Shah, Rui Liu: report poster
+
+
+
+Deep learning for bipolar disorder: anticipating manic and depressive episodes by Shreya Shankar: report poster
+
+Hmm sus OK I dunno manic depressive yadda just some words insofar as I can discern.
+
+Deep- Learning Based Modelsfor Wafer by Jeong Cheol Seo: report poster
+
+
+
+DeepBreath: An Automated Chest X-Ray Diagnostic Tool by Andrea Lujan Oviedo Buitrago: report poster
+
+
+
+DeepDerm: Detection of Cancerous Skin Lesions Through Deep Learning by Anna Beryl Verwillow, Santosh Kumaran Murugan: report poster
+
+
+
+DeepFX by Raman Vilkhu: report poster
+
+
+
+Detecting Release Decade From Song Lyrics by Joseph Sommer: report poster
+
+
+
+Detecting and Understanding Pneumonia with Deep Learning by Nikolaos Altiparmakis: report poster
+
+
+
+Determining familial resemblances from face images by Kaushik Sah: report poster
+
+
+
+Distinguishing Professional and Amateur Abstract Art Using Convolutional Neural Networks by Sharman Tan: report poster
+
+
+
+Effectof President\'s Tweets on the S&P 500 Index by Sid Assawaworrarit: report poster
+
+
+
+Efficient Sampling of Equilibrium States using Boltzmann Generators by Jeremy Patrick Binagia, Kevin Jia-Yu Hou, Sean Gregory Friedowitz: report poster
+
+
+
+Evaluating the Factual Correctness for Abstractive Summarization by Yuhui Zhang: report poster
+
+
+
+Everyone could be artist: sketch to style-specified artwork by Fei Jia, Kefan Wang, Qian Dong: report poster
+
+
+
+Face Recognition with Sub-Sampled Images by ChungChun Wan, Yuxuan Wang: report poster
+
+OK
+
+Fake News Detection by Anushya Subbiah, Divya Sudhakar, Kenny Hsu: report poster
+
+OK
+
+Finding Your Celebrity Look Alike by Amanda Nicole Jacquez, Chase Simeon Davis: report poster
+
+
+
+Finding the Value of Aggressiveness in Autonomous Vehicles by William David Brannon: report poster
+
+
+
+Food Image Classification with Convolutional Neural Networks by Malina Jiang: report poster
+
+
+
+Food Macro Ratio Calculator by Dongze Li: report poster
+
+
+
+FoodGAN: SuperResolution on Low-Quality Food Images by Amay Aggarwal, Chinmay Suhrud Patel, Federico Jose Reyes Gomez: report poster
+
+
+
+Forest-to-Coast Unpaired Image Translation with Cycle Consistency by Lydia Maria Tsiverioti, Stelios Rousoglou: report poster
+
+
+
+GAN Base 7-Minute Prediction in Stock Market by Dae Han Han: report poster
+
+
+
+Generating Cartoon Style Facial Expressions with StackGAN by Xiaowen Yu, Xiaoyi Li: report poster
+
+
+
+Generative Adversarial Network for Stock Market price Prediction by Ricardo Alberto Carrillo Romero: report poster
+
+OKOKOK
+
+Human Emotion Classification & Prediction of the OASIS Image Dataset by Protip Roy: report poster
+
+
+
+Image Level Forgery Identification and Pixel Level Forgery Localization via a Convolutional Neural Network by Dean Deng, Yitao Qiu: report poster
+
+
+
+Improving the Performance of Evolutionary Algorithms via Gradient-Based Initialization by Andrew James Shoats, Chris Andrew Waites, Matthew Tyler Prelich: report poster
+
+
+
+Inferring Shading Parameters from Graphically Generated Images by Anthony Robert Carrington, Madeleine Yip, Ruta Suhas Joshi: report poster
+
+
+
+Intracranial Hemorrhage Classification using CNN by Hyun Joo Lee: report poster
+
+
+
+Inverting Facial Embeddings with GANs by Akash Singhal, Edward Benjamin Vendrow: report poster
+
+
+
+Literary Muzak by Chuan He, Liang Ping Koh, Qiyin Wu: report poster
+
+
+
+Liver Lesion Localization using Deep Convolutional Neural Networks by Sheun Aluko, Surya Narayanan Hari, Vadim Piccini Yakubenko: report poster
+
+
+
+MathBot – A Deep Learning based Elementary School Math Word Problem Solver by Anish Nayak, Rajeev Patwari, Viswanathan Subramanian: report poster
+
+OKOKOK
+
+Multi-Language Intent Prediction by Junhua Zhao, Rongbin Li, Yuehao Wu: report poster
+
+
+
+Multi-modal Model for Sentence Level Captioning by Hikaru Hotta, Tom Pritsky: report poster
+
+
+
+Music and Instrument Classification using Deep Learning Technics by Lara Haidar-Ahmad: report poster
+
+
+
+NNeural Style Transfer for Understanding How Stylistic Choices Affect Emotional Affect by Alex Kinneret Weitzman, Phoebe Yao: report poster
+
+
+
+Neural Content Moderation by Guy David Wuollet, Isabella Garcia-Camargo, Martin Amethier: report poster
+
+
+
+Neural Network Structure for Traffic Forecasting by Will Zhuk: report poster
+
+
+
+Neurobiologically Inspired Encoding and Transfer Learning by George Sivulka: report poster
+
+
+
+Object Localization of Concentrated Animal Feeding Operations by Jorge Andres Troncoso, Minnie Ho: report poster
+
+
+
+Optimize Robots Physical Design by Parameterization in Deep Reinforcement Learning by Peide Huang: report poster
+
+
+
+Option Pricing with Deep Learning by Alexander Xingchen Ke, Andrew Yang: report poster
+
+
+
+Painting Genre Classification by Soheil Golara: report poster
+
+
+
+Pet Cat Face Verification and Identification by Adam Daniel Klein: report poster
+
+
+
+Photo to Doodle Generator Using a GAN by Manu Agarwal, Talbot Morris-Downing: report poster
+
+
+
+Predicting Biological Age and Sex using Spatial Temporal Graph CNN for functional MRI data by Erick Fidel Siavichay, Soham Uday Gadgil, Sunwoo Kang: report poster
+
+
+
+Predicting DNA Recombination Attachment Sites by Josh Curtis Wolff, Matt Durrant, Vinay Sriram: report poster
+
+
+
+Predicting Power and Area for Chip Design by Kalhan Koul, Kartik Prabhu: report poster
+
+
+
+Predicting US Stock Market Movement from Political Tweets by Brian Anthony Phan Wai, Chenghao Peng: report poster
+
+OKOKOK
+
+Real-Time Object Detection on an Edge Device by Elias Stein, John Sun, Siyu Liu: report poster
+
+
+
+Retinal Cell Identification from Compressed Signals by Andrew Wang, Maxwell Bradley Strange, Pumiao Yan: report poster
+
+
+
+Robust 3D Object Tracking in Autonomous Vehicles by Anthony Galczak, Eric Ryan Chan: report poster
+
+
+
+Robust Face Recognition in the Deep Learning Era by Leo Mehr, Luca Florian Schroeder: report poster
+
+
+
+SMate: Synthetic Minority Adversarial Technique by Pablo Martin Pablo Rodriguez Bertorello: report poster
+
+
+
+Segmentation of Breast Cancer Tumors using Deep Learning by Eric Tetsuo Matsumoto, Jason Lin: report poster
+
+
+
+Shallow Cloud Classification in Satellite Images by Timur Reziapov: report poster
+
+
+
+Simplifying Grocery Checkout with Deep Learning by Ajay Ramesh, Jing Ning, Yongfeng Li: report poster
+
+
+
+Skin Cancer Recognition via Computer Vision by Chen Chen, Tao Jia, Yinuo Yao: report poster
+
+
+
+State-of-the-art Approaches for Handwriting-based Recognition on Gender and Handedness Using Deep Learning by Jiangshan Li, Tiancheng Cai, Yanbang Wang: report poster
+
+
+
+Stock Price Volatility Prediction with Long Short-sTerm Memory Neural Networks by Jason Christopher Sullivan: report poster
+
+OKOKOK
+
+Temporal Analysis of Regional Sustainability Using CNNs and Satellite Data by Nikita Namjoshi, Rubi Elydeth Rodriguez Mendoza, Xinyuan Cheng: report poster
+
+
+
+Testing BERT Word Prediction Effect on Accuracy in Handwritten Text Recognition by Anna Claire Widder: report poster
+
+
+
+Text Replacement and Generation in Images Using GANs by Andrew Warren Sharp, Christian Alexander Gabor, Joseph Son: report poster
+
+
+
+Time to Default & Time to Prepayment Estimation Using LSTM and Deep Learning Techniques by Peter Gordon Drembelas, Vibhor Varun Khar: report poster
+
+
+
+Transformer Model for Mathematical Reasoning by Will Raymond White: report poster
+
+OK uh.
+
+Using EMRs to Predict Patient Outcomes by Gaurab Banerjee: report poster
+
+
+
+Visualizing adverse effects of Global Warming on Mountains through CycleGAN by Gunguk Kim, Troy Lining Shen: report poster
+
+
+
+Wafer Map Failure Pattern Classification Using Deep Learning by Chen Lin, Jie GONG, Jie Gong: report poster
+
+
+
+Wafer Topographical Map Interpolation by Luis Miguel Castaneda: report poster
+
+
+
+Waste Object Detection and Classification by Hrushikesh Narendra Kulkarni, Nandini Kannamangalam Sundara Raman: report poster
+
+
+
+White Christmas: Remaking Augmented Reality Censorship from Black Mirror with Identity-Preserving Instance Segmentation by Michael Yoomin Lee: report poster
+
+
+
+YouTube-8M Video Understanding by Kun Huang: report poster
+
+
+
+font-gen: Deep Models for Inferring Alternate Language Sets from Fonts by Garrick Domalanta Fernandez: report poster
+
+
+
+iSeeBetter: Spatio-Temporal Video Super Resolution using Recurrent-Generative Back-Projection Networks by Aman Chadha: report poster
+
+
+
+predicting NBA Game Outcomes by Jesse Alexander Rodriguez: report poster
+
+OKOKOK
+
+#Spring 2019
+
+
+
+#Final Project Prize Winners
+
+
+
+A Computational Knowledge Engine for Human Neuroscience by Elizabeth Beam
+
+
+
+Recovery of Latent Vectors and Exploration of Latent Space from StyleGAN by Chenyu You, Hao Wang
+
+
+
+Who is Ernie and if so how many? A multitasking Bert for question answering with discrete reasoning by Barthold Immanuel Albrecht, Xiaofang Zhu, Yanzhuo Wang
+
+
+
+Tackling Obstacle Tower Challenge by Hanchul Choi
+
+
+
+NBA 2K19 DeepBot: A Neural Network Controlled Real-Time Video Game AI by Kylan Sakata, Pablo Santos, Wyatt Pontius
+
+OK
+
+#Outstanding Posters
+
+
+
+Typing Biometrics for User Authentication - a One-Shot Approach by Hannes Lindström, Josef Malmström (cs229)
+
+
+
+Predicting Gene Expression State from 3D DNA Architecture by Aparna R Rajpurkar
+
+
+
+ElderNet: Automated Electroencephalography Sleep Stage Scoring for Elderly Patient Populations by Abhijeet Rajendra Phatak, Michael Paul Silvernagel, Spyridon Baltsavias
+
+
+
+Deep Attentive Neural Models for Algorithmic Trading by Will Geoghegan
+
+OK
+
+Attacking Autonomous Driving ML Algorithms with Adversarial Examples by Koosha Nassiri Nazif, Stephanie Tietz
+
+
+
+#Submissions
+
+
+
+Pneumonia Classification by Eugene Tian, Pablo Ocampo: report poster
+
+
+
+Automating Melanoma Segmentation by Grace Wang, Louis Li, Makena Low: report poster
+
+
+
+A Survey of Deep CNNs for Mouse Paw Localization by Konstantin Kaganovsky, Molly Lucas: report poster
+
+
+
+Language Translation using RNNs by Gita Krishna, Jackson Eilers: report poster
+
+
+
+Workflow Recognition in Cholecystectomy by Ruben Mayer-hirshfeld, Suraj Menon, Wei Zhi Cheung: report poster
+
+
+
+Chest X-Ray Screening by Jad Faraj, Rishabh M Sirdesai: report poster
+
+
+
+CheXDualNet: A View-Specific Approach to Chest Pathology Classification by Michael Yan, Ying Chang, Yu Xin Ang: report poster
+
+
+
+U-Net-Based Architectures for Medical Image Segmentation by Dillon Laird: report poster
+
+
+
+Nicolai Ostberg by Max Melin, Nicolai Ostberg: report poster
+
+
+
+Future Prediction in Brownian Dynamics Simulations Using Deep Neural Networks by Brian Ryu: report poster
+
+
+
+Boosting MRI Quality with Deep Learning by Alex Walczak, Avanika Narayan, Jordan Greenberg: report poster
+
+
+
+Computer Vision: Using Satellite images to infer AQI in different regions by Michael Chen, Sean Hsu, Simon Bumm: report poster
+
+
+
+Differentiable Protein Loop Detector by Alex Chu: report poster
+
+
+
+Semi-Supervised Learning for Predicting GMAT Scores by Yi-fu Wu: report poster
+
+
+
+Trajectory Prediction with Deep Learning by Maneekwan Toyungyernsub: report poster
+
+
+
+FIFA Player Analysis by Conner Smith, Jonathon Tynan, Zach Taylor: report poster
+
+
+
+Knowledge Base Construction from Richly Formatted Data to Extract Selected Financial Information from SEC Filings by Roberto Seminario: report poster
+
+
+
+Speaker Identification in Noisy Environment by David Grogan, Peter Karnchanapimonkul: report poster
+
+
+
+Photoshop Detection Using Machine Learning by Ozi anyanwu, Thapelo Sebolai: report poster
+
+
+
+CAPTCHA Breaking by Haotian Sun, Jiaying Li, Yutong Zhang: report poster
+
+
+
+Depth Prediction by Alex Fu, Elena Chen, Nithin Poduval, Yannick Meier: report
+
+
+
+CopyCat by Julia Arnardottir, Solveig Asta Einarsdottir: report poster
+
+
+
+Chess Vision: Transcribing Chess Positions by Adam Stanford-moore, Hristo Stoyanov: report poster
+
+
+
+Celebrity and You Synthesis by Zhu Chen: report poster
+
+
+
+Super Resolution for sporting events by James Liljenwall: report poster
+
+
+
+Tampering Image Detection for Online Fake News by Veronica Wang, Yingdan Lu: report poster
+
+
+
+Deep Learning Implementation of a Recommendation System for Restaurants by Nasreddine El Dehaibi: report poster
+
+
+
+Lane Detection with Lite SegNet by Junjie Lou, Xiangbing Ji, Zhengxun Wu: report poster
+
+
+
+Attacking Autonomous Driving ML Algorithms with Adversarial Examples by Koosha Nassiri Nazif, Stephanie Tietz: report poster
+
+
+
+Detecting Toxicity in Online Forums by Amy Chen, Farzaan Kaiyom, Kristen Anderson: report poster
+
+OKO
+
+Typing Biometrics for User Authentication - a One-Shot Approach by Hannes Lindström, Josef Malmström (cs229): report poster
+
+
+
+Project Refeed: nutrition tracker by Bryce Yao: report poster
+
+
+
+Fine-Grained Image Classification for Vehicle Makes and Models using Convolutional Neural Networks (CNNs) by Christian Tae, Nicholas Benavides: report poster
+
+
+
+Xceptional Landmark Recognition by Heidi Chen, Tyler Yep: report poster
+
+
+
+Computer Vision Aided Fire Localization for Wildfire Monitoring by Laura Spector: report poster
+
+
+
+Mental Health - Predicting Stress in the Tech Industry by Sindhu Subramanya: report poster
+
+OK righto the so called "mental health" returns.
+
+Predicting the rating of a company using employee reviews. by Aaron Marks, Dhruv Kedia: report poster
+
+
+
+Image Caption Generation with a Sequence-to-Sequence Model by Boyu Zhang, Mayukh Roy: report poster
+
+
+
+Deep Affinity Networks for Multiple Object Tracking by Aditya Khandelwal, Darren Mei, Duncan Macwilliams: report poster
+
+
+
+Multi-task Deep Network for Ophthalmology Screening on Fundus Images by Bozhao Liu, Lijing Song: report poster
+
+
+
+Content Recognition in Surgical Videos by Madhu Hegde, Nithin Akkati, Senthil Gunasekaran: report poster
+
+
+
+Chest x-ray diagnosis with deep learning CNN models and image classification by Ali Borhan: report poster
+
+
+
+Detecting Brain Tumors in Low Quality Magnetic Resonance Images by Venkat Yerramsetti: report poster
+
+
+
+Improved Reliability using Data Augmentation by Amit Kulkarni, Mike Murugan: report poster
+
+
+
+Deep RNNs for Non-Linear State Estimation by Catherine Watkins: report poster
+
+
+
+Using Deep Learning to Predict Toxicity and Lipophilicity from Molecular Fingerprints and 2D Structures by Celia Xinuo Chen, Riccardo Verzeni: report poster
+
+
+
+Probabilistic and Multimodal Trajectory Predictions for Autonomous Driving by Philippe Weingertner: report poster
+
+
+
+Sign Language Recognition and Transcription with Neural Networks by Shubham Patil: report poster
+
+
+
+Predicting Effective Customer Touchpoint by Ahmed Bux Abro, Nagarjuna Rao Venkata Sai Chakka: report poster
+
+
+
+State-of-the-Art: End-to-End Deep Learning for Art Appraisal by Alexander Verge, Ishaan Singal: report poster
+
+
+
+Deep Attentive Neural Models for Algorithmic Trading by Will Geoghegan: report poster
+
+
+
+Sound Source Separation via Deep Neural Networks by Yichangle Zhao: report poster
+
+
+
+PyTorch implementations and benchmarking of 2019 AI CIty Challenge models - using enriched labelsets for vehicle object detection by Koen Frankhuizen: report poster
+
+
+
+Generating Realistic Facial Expressions through Conditional Cycle-Consistent Generative Adversarial Networks (CCycleGAN) by Gino Tesei: report poster
+
+
+
+Deep Video Face Swap by Chi Wang, Jinil Jang: report poster
+
+
+
+Object Detection for Vehicle Identification by Mohith Rajendra, Tesa Ho: report poster
+
+
+
+Human face super resolution with GAN/Autoencoder by Sheng Tan: report poster
+
+OK
+
+High-Speed Logo Scan Algorithm using CNN by Unni Krishnan Ambady: report poster
+
+OK
+
+License Plate Detection & Applications via Neural Network by Kaiyu Zhao, Yuan Wang: report poster
+
+
+
+Deep Learning Vehicle Dynamics by David Casterton: report poster
+
+
+
+Lane Detection using Fully CNN by Ahmed El Koutbia, Khaled Mohammed, Shengchang Zhang: report poster
+
+
+
+Vehicle Make, Model & Color Recognization by Jiupeng Sun: report poster
+
+
+
+Landmark Recognition by Chenjiao Wang, Renke Cai: report poster
+
+
+
+Sign Language Translation with Minimal Labelled Data by Guanzhou Ye: report poster
+
+
+
+Text Style Transfer by Gao Han, Zhuoming Li: report poster
+
+
+
+Indoor sound classification by Vishwanath Marimuthu: report poster
+
+
+
+Predicting blood glucose levels for diabetics by Diego Zavala, Pedro Salgado: report poster
+
+OK
+
+Modeling A Messy Language - "Araby" by Rami Botros: report poster
+
+
+
+Spoken Command Recognition by Thomas Karpati: report poster
+
+
+
+ElderNet: Automated Electroencephalography Sleep Stage Scoring for Elderly Patient Populations by Abhijeet Rajendra Phatak, Michael Paul Silvernagel, Spyridon Baltsavias: report poster
+
+
+
+Generating Hip Hop Lyrics with Recurrent Neural Networks by Abraham Apellanes, Jacob Wagner: report poster
+
+OK could be interesting enough.
+
+Deep Learning Prediction on Price Movement of NASDAQ by Will Vithayapalert: report poster
+
+
+
+What's That Pokemon? by Tariq Zahroof: report poster
+
+
+
+Sustainable Waste Classification using Deep Convolutional Networks by Anand Natu, Sarah Ciresi: report poster
+
+
+
+Predicting Stock Returns Using Historical Financial Statement Information and Deep Learning by Justin Amezquita: report poster
+
+
+
+Engineer Level Automated Interpretation of Geothermal Well Logs by Ahinoam Pollack: report poster
+
+
+
+Sketch2Face: Using CycleGAN to Produce Photo-Like Images from Unpaired Sketches by Connor Quinn, Danny Takeuch, Jerry Meng: report poster
+
+
+
+Semantic Segmentation of Colon Polyps in Colonoscopy Images by Christian H. Nunez: report poster
+
+
+
+Conditional GANs for generating food images by Eric Wu, Sudip Guha: report poster
+
+
+
+SnapAndSnack by Andrea Dahl, Cristian Lomeli, Kevin Tien: report poster
+
+
+
+Spotify Spectrograms by Gene Tanaka, Jaime Hurtado: report poster
+
+
+
+Climate Change Impacts on the Occurrence and Intensity of Riverine Heatwaves by Tristan Ballard: report poster
+
+
+
+Classifying Album Genres by Album Artwork by Christopher Koenig: report poster
+
+
+
+NBA 2K19 DeepBot: A Neural Network Controlled Real-Time Video Game AI by Kylan Sakata, Pablo Santos, Wyatt Pontius: report poster
+
+
+
+Predicting Virality of Reddit Posts by Henry Lin, Kristy Duong: report poster
+
+
+
+Describe That GIF - A GIF Description Generator by Chuma Kabaghe: report poster
+
+
+
+Igneous Rock Image Classification by Camilo Saavedra, Jabs Aljubbran: report poster
+
+
+
+Dysarthric Speech Recognition Using a Deep Bidirectional LSTM by Jeremy Tate Campbell: report poster
+
+
+
+Handwriting Sequence Generation from ASCII by Jason Chen: report poster
+
+
+
+Neural Network Agent for Control Tasks in OpenAI Gym by Shengjun (sophia) Qin: report poster
+
+
+
+Patent Predict by Marcos Torres: report poster
+
+
+
+Predicting Delays in Flight Departure Time at SFO by Yanqiu Wang, Yutong Coco Sun: report poster
+
+
+
+Experimental Neural Net Framework by Bruziuz@stanford.edu: report poster
+
+
+
+Person Re-ID for Follow-Me Task by Sarah Brennan: report poster
+
+
+
+A Comparison of Abstractive and Extractive Techniques in Text Summarization by Devin Cintron: report poster
+
+
+
+Battery Health Prediction Using Deep Learning by Chen Liu: report poster
+
+
+
+Flu Cold Meter by Srikar Nallan: report poster
+
+
+
+Who is Ernie and if so how many? A multitasking Bert for question answering with discrete reasoning by Barthold Immanuel Albrecht, Xiaofang Zhu, Yanzhuo Wang: report poster
+
+
+
+Deep learning for portfolio management by Long Shen: report poster
+
+OKOKOK
+
+Time Series Forecasting with Deep Learning Models by Eric Steen, Orion Darley, Ryan Silva: report poster
+
+OKOKOK
+
+DeepBug: A hybrid of CNN and RNN approach for software bugs triage by Yuanliang Lu: report poster
+
+
+
+Neural Technical Trader by Patrick Kelly: report poster
+
+
+
+Transfer Learning for Multi-label Street Fashion Images by Yiying Hu: report poster
+
+
+
+#Winter 2019
+
+
+
+#Final Project Prize Winners
+
+
+
+Real-Time Trading Card Recognition in Live Video by Kevin Culberg
+
+
+
+Crop Type Mapping with Multi-Temporal and Multi-Spatial Satellite Imagery by Rose Marie Rustowicz, Robin Cheong, Lijing Wang
+
+
+
+Listen, Speak in Hindi! by Dinesh Chaudhary
+
+
+
+#Outstanding Posters
+
+
+
+Learning Joint Acoustic-Phonetic Word Embeddings by Mohamed G Mahmoud
+
+
+
+Improving Mobile Robot Navigation with Deep Neural Control and Search-based Motion Planning by Max Kristian Fergusonposter
+
+
+
+#Submissions
+
+
+
+Deep Fake Detector: Using ML techniques to Distinguish Real Images from Fake by Jervis Jerome Muindi, Yash Lundia, Raj Prateek Kosaraju: report poster
+
+OKOKOK
+
+Predicting Stock Market Movements Using Global News Headlines by Jason Norio Kurohara, Joshua Richard Chang, Callan Alden Hoskins: report poster
+
+OKOKOK
+
+Analyzing Phase Transitions through Deep Learning by Anjli M Patel, Shaughnessy Brennan Brown, Stephanie Tietz: report poster
+
+
+
+FEELING TO LISTEN: SEPARATING SIMULTANEOUS IMPACT SOUNDS USING MULTI-MODAL LEARNING by Jui-Hsien Wang: report poster
+
+
+
+Identifying Metastatic Cancer through Deep Learning by Lucky Ihunanyachukwu Adike, Swadhin Ajay Thakkar, Jonathan Tan: report poster
+
+
+
+Hierarchical Neural Network by Suresh Sugumar: report poster
+
+
+
+Read My Lips by Hao Mao, Xiaotong Chen: report poster
+
+
+
+Deep Hearing: Classifying Audio Underwater by Behrad Habib Afshar, Jeremy Witmer, Jonathan Morgan Wheeler, Taha Rajabzadeh: report poster
+
+
+
+SuperMIBI: A convolutional neural network for prediction of upsampled mutliplexed imaging data from short acquisition times by Noah Frey Greenwald, Erin Francis Mccaffrey: report poster
+
+
+
+Complex Food Classification by Priyal Harshadbhai Mehta, Bryce Long, I-Sheng Yang: report poster
+
+
+
+First TextWorld Problems by Renat Aksitov: report poster
+
+
+
+Mineral Species Classification by Guillermo Alejandro Gomez, Gawan Fiore, Jorge Cueto: report poster
+
+
+
+Genre Detection with DN networks by Daniel Thomas Way, Yasaman Shirian, Matt Jones: report poster
+
+
+
+Sequence-to-Sequence Generative Argumentative Dialogue Systems with Self-Attention by Ademi Andrew Adeniji: report poster
+
+
+
+Predicting Loan Grades Using Deep Neural Networks by Liang Ping Koh, Kaushal Atul Alate, Bilguunzaya Battogtokh: report poster
+
+
+
+Graphical Feelings: GIF Sentiment Learning by Gordon Leo Blake: report poster
+
+
+
+Automatic Disaster Detection from Aerial Imagery by Richard Daniel Chen, Angelica Pando Morales: report poster
+
+
+
+Headline Generator by David John Liedtka, Dane Michael Hankamer: report poster
+
+
+
+Assessing Music Similarity Through Deep Learning by Nicholas Allen: report poster
+
+
+
+Reconstructing Pore Images Using Generative Adversarial Networks by Kelly Guan: report poster
+
+
+
+Deep learning for relative stock performance prediction by Ruben Ignacio Contesti, Sebastian Hurubaru, Jun Yan: report poster
+
+
+
+Deep Neural Networks for Image Compression by Brian Matthew Graham, Jacob John Decoto: report poster
+
+
+
+Modeling Polymer reflow and shape evolution with neural networks by Charmaine Chia: report
+
+
+
+A Deep Learning Approach to Improved Video Colorization by Yang Fang, Vedi Chaudhri: report poster
+
+
+
+Multilabel Classification of Restaurants Throught User-Submitted photos by Neval Cam, Kaan Ertas: report poster
+
+
+
+Determining Style of Paintings using Deep Learning and Convolutional Neural Networks by Jeffrey Dong Chen, Patrick James Tanaka Mogan, Sean Chang: report poster
+
+
+
+Trajectory generation for autonomous vehicles in racing using Deep Neural Networks by Mingyu Wang: report poster
+
+
+
+SuctionNet: An end to end model for suction by Nikita-Girey Nechvet Demir, Jose Miguel Giron, Mauricio Wulfovich: report poster
+
+
+
+Generating synthetic wireline logs from real-time drilling data by Mehrdad Yousefzadeh, Rayan Sami Kanfar, Obai N Shaikh: report poster
+
+
+
+GPU-Accelerated Deep Reinforcement Learning Simulation for Vision-Based Robotic Manipulation by Kihiro Bando, Victor Zhang, Kingway Liang: report poster
+
+
+
+Object detection using regression-type model vs. faster region-convolutional neural networks by Yuetao Lv, Yang Zhao, Alfred Cheung: report poster
+
+
+
+Task Discovery by Ajay Sohmshetty: report poster
+
+
+
+Gender Classifier and CycleGAN for Altering Facial Images by Srinivas Halembar, Harry Jiang, Mark Darryl Cramer: report poster
+
+
+
+Auto FC by Ryan Tyler Rice: report poster
+
+
+
+Privacy Preserving Deep Learning for Image Classification - a Case Study with Microsoft Research Celebrity Data by Meidan Bu: report poster
+
+
+
+Seismic Signal and Noise Separation by Siyuan Yuan, Xiaoxi Zeng, Ruiming Zhu: report poster
+
+
+
+SwimMaster by Erick Rodrigo Cardenas Casas, Troy Ling, Emilio Unda Trillas: report poster
+
+
+
+Astronomical Image Colorization and Super Resolution using Residual Encoder Networks and GANs by Kai Marshland, Gao Xian Peh: report poster
+
+
+
+Quick Draw! Doodle Recognition Deep Learning Strategy by Yumeng Yue, Rui Ning, Zewen Zhang: report poster
+
+
+
+DEEP HONEYNET ANALYSIS FOR NETWORK DETECTION by Napoleon Cornel Paxton, Berkay Polat: report poster
+
+
+
+Public Forgetfulness? Reputation Visualization in the Wake of #MeToo by Michael Liwei Cai, Alex Ross Goodman: report poster
+
+
+
+Image-to-Image Translation using CNN and Cycle-Consistent Adversarial Networks by Sherry Li, Wenxin Wei, Ip Chun Chan: report poster
+
+OK
+
+Real-Time Trading Card Recognition in Live Video by Kevin Culberg: report poster
+
+OKOKOK
+
+Histopathologic Cancer Detection of Lymph Node Patches for Breast Cancer by Gundu Gowtham, Jad Salim Aboudiab: report poster
+
+
+
+HATRNet: Human Activity/TransitionRecognition using Deep Neural Networks by Nicholas Streich Gaudio, Akash Levy, Jonas Messner: report poster
+
+
+
+Robust Learning-based Pose Estimation of Noncooperative Spacecraft by Jeff Park: report poster
+
+
+
+Predicting Loan Default by Prinslou Kipchumba Tare, Ken Mutethia Nturibi, Robert Wanjau Kinini: report poster
+
+
+
+PetFinder.my Adoption Speed Prediction using Pet Profiles by Yuhui Wang, Yifan Gong: report poster
+
+
+
+Named entity disambiguation for graphs by Sruthi Poddutur: report poster
+
+
+
+Recurrent CNNs for Bounding Box Stability in Object Detection by Prerna Mahesh Dhareshwar, Sanjeev Suresh, Donovan Yuen Jie Fung: report poster
+
+
+
+Question Answering on SQuAD 2.0 by Liz Guo: report poster
+
+
+
+SomaNet: Segmenting Neurons in Forebrain Assembloid Microscopy by Julia Marie Schaepe, Ashi Agrawal: report poster
+
+
+
+Evaluating Strike Slip Fault Evolution with 2D CNN: Identifying the geohazard zones? by Laainam Chaipornkaew: report poster
+
+
+
+DeepASPECTS by Salmonn Talebi, Rukhsana Yeasmin, Tony Joseph: report poster
+
+
+
+Runway Recognition by Michael William Hardt, Grzegorz Marian Kawiecki, Carlos Querejeta Masaveu: report poster
+
+
+
+Predicting Loan Default by Robert Wanjau Kinini, Prinslou Kipchumba Tare, Ken Mutethia Nturibi: report poster
+
+
+
+Transfer Learning-based CNN Classification for Simpsons Characters by Yueheng Li: report poster
+
+
+
+Nuclear segmentation with Deep Learning by Antoine Barge: report poster
+
+
+
+Make yourself into a work of art by Kiah Hardcastle, Julie Myriam Makelberge: report poster
+
+
+
+Predicting programming success using deep learning by Ben Alan Stenhaug, Raejoon Jung, Neeraj Mathur: report poster
+
+
+
+Speaker identification with deep neural networks by Jorge Alfredo Mendez Pulgar: report poster
+
+
+
+A white hat approach to fighting online trolls: Experiments with BERT and GAN by Jiaying Huang, Zhihao Lin: report poster
+
+OK
+
+Diverse Challenging Driving Tests by Farid Soroush: report poster
+
+
+
+Predicting cell type specific functional consequences of non-coding variation using deep learning by Santosh Kumar, Sangjukta Kashyap: report poster
+
+
+
+Using Neural Speech Recognition Models For Optical Character Recognition of Cursive Script by Jon Farrell Braatz: report poster
+
+
+
+Event-driven asset pricing prediction by Daniel Huang: report poster
+
+OKOKOK
+
+Deep Learning for Exposure Normalization on Regions of Interest in Digital Images by Benjamin Elvon Bay, Rohit Aggarwal, Vincent Wang Fat Chung: report poster
+
+
+
+Yog.ai: Deep Learning for Yoga by Anna Wei Lai, Bhargav Reddy, Bruis Hidde Corneel Van Vlijmen: report poster
+
+
+
+Object Detection with Satellite Imagery: Using YOLO to Detect and Localize Objects in Aerial Satellite Imagery by Jaydon Samuel Krok, Canyon Cruz Robins: report poster
+
+
+
+Predicting Age-Appropriateness of Fan Fiction Short Stories by Minh Nguyen, Oishi Lucienne Banerjee, Christine Xuan Phan: report poster
+
+
+
+Unearthing Crop Insights: Plant Seedling Classification Using a Dense Convolutional Neural Network by Madison Hall, Jackie Helen Ennis: report poster
+
+
+
+Generative Aging of Photographs for Kinship Verification by Yash Chandramouli, Zoe Ghiron: report poster
+
+
+
+Urban Sound Classification: A CNN Exclusive by Victoria Chiu, Brijesh Patel: report poster
+
+
+
+Applying Recurrent Neural Network Based-model to the Assessment of Problem-solving Skills by Max Joseph Arseneault, Karen Dan Wang: report poster
+
+
+
+Neural Style Transfer for Low-Complexity Animated Inputs by David Blair Schmidt-Fellner: report
+
+
+
+Predicting Stock Price Dynamics by Gleb Stronov, Raul Overdijk Girbal: report poster
+
+OKOKOK
+
+Detecting Duplicate Questions by Alfonce Nzioka: report
+
+
+
+GAN-based Translation Between Medical Image Modalities by Ketan Bhaskar Pant, Aditi Maheshwari: report poster
+
+
+
+Predictive BMI with Conditional Adversarial Autoencoder by Edward Guzman, Alejandro Bravo, John Joseph Romano: report poster
+
+
+
+Deep Architectural Style Classification by Alan Flores-Lopez, Alexander James Wade, Paavani Dua: report poster
+
+
+
+Teaching Your MAML by Gleb Shevchuk: report poster
+
+
+
+DeepSquat: Analyzing Weightlifting Form with Deep Learning by Weixiong Zheng, Peicun Jiang: report poster
+
+
+
+Image Recognition Algorithm for Packed Products by Luka Salamunic, Cynthia Brosque, Asherin George Anto George: report poster
+
+
+
+Automatic Detection of Epileptic Seizures in Rodents by Alexander Heneghan Ruch, Steven Tan, Michael Princton Reddick: report poster
+
+
+
+Setting a Benchmark for Representation Learning of Source Code by Richard Zhao, Kaviarasan Selvam: report
+
+
+
+Predicting stock prices with LSTM networks by David Manuel Duemig: report poster
+
+OKOKOK
+
+Winton Stock Market Challenge by Joaquin Borggio, Cheyenne Ali Sadeghi, Sagar Maheshwari, Maxim Nikolai Serebriakov: report poster
+
+
+
+Application of DL in Subsurface faults detection with seismic data by Di Fan, Anatoly Aseev, Andrew Lawrence Deng: report poster
+
+
+
+Crop Type Mapping with Multi-Temporal and Multi-Spatial Satellite Imagery by Rose Marie Rustowicz, Robin Cheong, Lijing Wang: report poster
+
+
+
+IMAGE INPAINTING USING GANS WITH PARTIAL CONVOLUTIONS by Nico Jersch, Wilhelm Bolin, Justin Lundgren: report poster
+
+
+
+AI Agent for NES Super Mario Brothers by Denis Barkar: report poster
+
+
+
+Recreating AlphaZero Chess Engine by Ting Liang, Mark Chang: report poster
+
+
+
+Animal Adoptability Analysis by Chun Kit Chan, Xu Zhao, Hengkai Qiu: report poster
+
+
+
+Automated Essay Scoring: My Way or the Highway! by Alex Joshua Hurtado: report poster
+
+
+
+Drawbot - Converting Bad Sketches into World Class Masterpieces by Jimmie Deion Harris, Tayo Ayomikun Falase, Usman Khaliq: report poster
+
+
+
+Upscaling Audio Quality with Deep Convolutional Networks by Daniel Semeniuta: report poster
+
+
+
+Predicting Gene Expression Using Epigenetic Markers on the Genome by Sonja Q Johnson-Yu, Sunil Bodapati: report poster
+
+
+
+Classifying Native Advertisements and Sponsored Content by Michael Kaplan, Dellarontay Alexander Readus: report poster
+
+
+
+Fine-grained image classification by Debabrata Sengupta: report poster
+
+
+
+Human Pose Estimation using Convolutional Neural Networks by Richard Hsieh: report poster
+
+
+
+Band Gap Prediction of 2D Materials from 3D Bulk Counterparts by Ishaa Bishnoi, Disha Dasgupta: report poster
+
+
+
+DeepFlow - Flow data prediction using deep learning techniques by Sebastian Fischer: report poster
+
+OKOKOK
+
+HOV car detection by Ivan Ho: report poster
+
+
+
+Cooperative-Competitive Multi-Agent Learning in Soccer Environments by Patipan Pipatpinyopong, Christopher William Covert, Cameron Mcmillan: report poster
+
+
+
+Identifying Parasitized Cells with Deep Convolutional Neural Networks by Sara Kristina Olsson, Julia Isabel White: report poster
+
+OK
+
+Computer “Vision”: Using CNNs to Detect Diabetic Retinopathy by Sushil Baalaji Upadhyayula, Pranav Aadithya Upadhyayula, Lauren W Yang: report poster
+
+
+
+Neural Machine Translation using Sequence Level Training by Kyu-Young Kim: report poster
+
+
+
+Predicting Bitcoin Price Trends by Lucas Shyh-Shyang Lin, Orien Zeng, Cindy Ding Jiang: report poster
+
+OK
+
+DeepWhale: Humpback whales tail-shots classification using CNNs and Siamese Neural Networks by Marios Galanis, Vladimir Kozlow: report poster
+
+
+
+Bias Detection in Sports Articles Using Structured Data by Sherman Sequan Ng: report poster
+
+
+
+Deep Learning Insights into Many-Body Physics by Mae Teo, Chao Wang: report poster
+
+
+
+Piano music transcription using neural networks by Zehui Wang: report poster
+
+
+
+Listen, Speak in Hindi! by Dinesh Chaudhary: report poster
+
+
+
+Let’s Drive: Learning Autonomous Driving through Behavior Cloning by Jenna Lee, Mario John Srouji: report poster
+
+
+
+Deep Reinforcement Learning for Unsteady Flow Control by Anthony Louis Corso: report poster
+
+
+
+Point Cloud Grasp Classification for Robot Grasping by Zachary Blum, Neethu Renjith, Navjot Singh: report poster
+
+
+
+“Who is This Person on Your Screen?” Classification of Celebrities Using CNN models by Yuzhou(chris) Wang: report poster
+
+
+
+Predicting Flight Delays with Deep Learning by Ethan Andrew Chi, Jillian Tang: report poster
+
+
+
+News Classification Model by Xiaobo Zhang, Yuhao Zhang: report poster
+
+OK
+
+Captcha Recognition Using CNN's by Yichen Wang: report
+
+
+
+Applying Conditional GANs to Generate Realistic Microarray Gene Expression Data by Madeleine Scott, Lawrence Bai: report poster
+
+
+
+Sentiment analysis of company earnings conference calls with long short-term memory by Shafiq Kamrudin Ebrahim: report poster
+
+OK
+
+Digest generation for the news articles using LSTMs by Mikhail Sidorov: report poster
+
+
+
+Learning Joint Acoustic-Phonetic Word Embeddings by Mohamed G Mahmoud: report poster
+
+
+
+Spoof Detection with RGB Cameras in Facial Recognition Systems by Jiyao Yuan, Kairen Ye, Ye Li: report poster
+
+
+
+Identifying Parasitized Cells with Deep Convolutional Neural Networks by Sara Kristina Olsson, Julia Isabel White: report poster
+
+
+
+Winter 2019 Doodle Recognition Challenge by John Cheng Yu, Arsh Hemant Buch, Sophia Yuenchih Chen: report poster
+
+OK
+
+Predicting Protein-Protein Interaction interfaces with coevolution matrices by Esha Atolia: report poster
+
+
+
+Detect and track people aerially over Stanford campus by Priya Dwivedi: report poster
+
+
+
+Harmonizing with Piano Genie by Craig Chan, Divya Gupta, Matthew Richard Stein: report poster
+
+
+
+Generating Realistic Handwriting With Deep Learning by Shipra Banga, Saumya Pathak: report poster
+
+OK
+
+Generating Tweets using GANs by Ruowen Wang: report poster
+
+OK
+
+Customer Analytics: Identification and Classification using YOLO by Chu-Chi Liu, Yan Liu, Senthil Selvaraj: report poster
+
+
+
+Question-Answering System for SQuAD by Weiquan Mao: report poster
+
+
+
+Learning Histology Slice Processing Steps (Image orientation and mirror) by Fang-Yu Lin: report poster
+
+
+
+Deep Convolutional Generative Adversarial Network for Simulating the 2D Ising Model by Fangze Liu, Shujia Liang, Tianyi Liu: report poster
+
+
+
+Star Cluster Classification into Open and Globular Clusters with Interpretative Grad-CAMs by Jordan Dwight Stipp: report
+
+
+
+DeepRemix: an automated remix film generator. by Rey Manuel Barcelo: report poster
+
+
+
+Tracking Vehicles Across Multiple Viewpoints by Paul Andrew Warren: report poster
+
+
+
+DeepNewsNet: Automated Fake News Classification by Alaukik Aggarwal: report poster
+
+
+
+Sentiment Analysis on News and Politics Text by Mel Tutar: report poster
+
+OK
+
+Stylized Text-to-Image Generation by Eric Gordon Vincent, Deepak Chandran: report poster
+
+
+
+Generating websites from mockups using GANs by Siddhant Prakash Pardeshi, Pranit Pradeep Kothari: report poster
+
+
+
+Improving Mobile Robot Navigation with Deep Neural Control and Search-based Motion Planning by Max Kristian Ferguson: report poster
+
+
+
+Manga-to-Anime Translation Using Cycle-Consistent Generative Adversarial Networks by Jonathan Griffin: report poster
+
+
+
+Object Detection using Raspberry Pi by Ranga Rao Chadalavada: report poster
+
+
+
+Exploring additive and multiplicative similarity measures in multilayer perceptrons by Santi Tomas Aranguri: report poster
+
+
+
+A deep learning approach for predicting function of non coding genomic variants by Fred Sun Lu: report poster
+
+OK
+
+Automated Detection of Left Ventricle in Arterial Input Function (AIF) Image Series for Cardiac MR Perfusion Imaging: A Large Study on 13K Patients by Hui Xue: report poster
+
+
+
+Malaria Detection by Maxime Voisin: report poster
+
+
+
+Stock Price Predictions from News Headline Embeddings by Ryan Jacob Almodovar: report poster
+
+OK
+
+Tour Guide: Deep Learning for Trajectory Optimization by James Donald Guthrie: report poster
+
+
+
+Detecting depression: how to have a happier campus by Diogo Pinto Leite De Braganca: report poster
+
+OK
+
+Detecting damaged buildings in post-Hurricane satellite imagery by Chetan Suresh Bademi: report poster
+
+
+
+Formatting instructions for CS230 by Tae Myung Huh: report
+
+
+
+Predicting Cycling Conditions of Lithium-ion Batteries through Air-free Disassembly Imaging by Jerry Liao: report poster
+
+
+
+Using daily inpatient Serum Creatinine to predict Chronic Kidney Disease in children by Alton Alton Russell: report poster
+
+
+
+Automated segmentation of CT temporal bone structures by George Siyuan Liu: report poster
+
+
+
+#Fall 2018
+
+
+
+#Final Project Prize Winners
+
+
+
+Deep Energies for Estimating Three-Dimensional Facial Pose and Expression (Jane Hong Wu, Xinwei Yao)
+
+
+
+Realistic Image Synthesis and Classification (Christopher Fontas, Emanuel Mendiola, Wendy Li)
+
+
+
+Human Portrait Super Resolution Using GANs (Yujie Shu)
+
+
+
+Photorealistic Neural Style Transfer (Richard Ruiqi Yang)
+
+
+
+#Outstanding Posters
+
+
+
+TimbreNet: A Convolutional Network for Blind Audio Source Separation (Nathaniel Jacob Okun, Scott Henry Reid)
+
+
+
+Direct Velocity estimation for seismic imaging using deep neural network (Abhishek Tapadar, Stuart Farris, Vishal Das)
+
+
+
+Advancing the Search for Dark Matter with Deep Convolutional Neural Networks (Ben Sorscher, Sebastian Matthias Wagner-Carena)
+
+
+
+Question Answering (Anuprit Kale, Edgar Gerardo Velasco)
+
+OK
+
+Efficient Neural Network Implementation of the UniverseMachine (Ethan Oliver Nadler, Chun-Hao To)
+
+
+
+Human Portrait Super Resolution Using GANs (Yujie Shu)
+
+
+
+Human Trajectory Prediction in Socially Interacting Crowds (Bilan Jackie Yang, Haruki Nishimura)
+
+
+
+#Submissions
+
+
+
+Consistent Video Colorization by Gael Gurvan Colas, Kevin Lee, Rafael Mitkov Rafailov: report poster
+
+
+
+GAN for fashion: Fashion Image Generation Conditioned on Text Description by Chen Huang: report poster
+
+
+
+A deep learning approach to predicting knee loading using 3D trajectories of anatomical landmarks by Melissa Ann Boswell, Scott David Uhlrich: report poster
+
+
+
+Automatic Detection of Brain Aneurysms: segmenting CT scans using CNNs by Harry Leighton Emeric, Jason Qin: report poster
+
+
+
+Advancing the Search for dark matter with Deep Convolutional Neural Networks by Ben Sorscher, Sebastian Matthias Wagner-Carena: report poster
+
+
+
+IDG-DREAM Drug-Kinase Binding Prediction by Mayukh Majumdar: report poster
+
+
+
+Deep Sketch Drawer by Di Bai, Wantong Jiang, Yipeng He: report poster
+
+
+
+Primary Weight Estimation for eVTOL Aircraft via Neural Network Regression by Jordan Trent Smart: report poster
+
+
+
+Learning the Deep Emotional Intelligence of Artists by Arturo Garrido Contreras, Masoud Charkhabi: poster
+
+OKOKOK LOL
+
+Question Answering: Examining Top Trends from the SQuAD Task by Anuprit Kale, Edgar Gerardo Velasco: report poster
+
+
+
+Neural network for compression of photon counting detector projection data by Picha Shunhavanich: report poster
+
+
+
+Learning to manage a system of bridges subject to seismic hazard using deep-Q networks by Gitanjali Bhattacharjee: report poster
+
+
+
+ANET: Automated Optical Inspection Network by Harold WANG: report poster
+
+
+
+Deep Layer Regeneration: Image Reconstruction by Jesus Mendez: report poster
+
+
+
+Monitoring the Operational Performance of an Anaerobic Wastewater Treatment Plant with Deep Learning Methods by Christopher Philip James Pearce, Jose Bolorinos: report poster
+
+
+
+Breast Cancer Fine-Needle Classification by Lea-Tereza Tenekedjieva: report poster
+
+
+
+QuickDraw Sketch Recognition Using CNN and RNN by Fangqin Dai, Xiaomeng Shen: report poster
+
+
+
+California Wildflower Field Guide & New Species Name Generator by Lorraine Lin: report poster
+
+
+
+Musit Style Transfer by Kun Fang, Xihui Wu: report poster
+
+
+
+The Unordered Transformer for Web-page Classification by Ramy El Garawany: report poster
+
+
+
+Achieving Comparable Performance with Less Parameters in Segmentation of Melanoma Images Using Dense U-Nets by Charles Huang, Gustavo Chau Loo Kung: report
+
+
+
+Chord Recognition with Deep Learning by Chen Ji: report
+
+
+
+Kaggle Human Protein Atlas by Iason Solomos, Pascal Pompey: report
+
+
+
+An Examination and Application of Text Summarizer (Textsum) on Amazon by Can Jin, Yi He: report
+
+
+
+Drivable Area Segmentation by Ritu Bajpai, Sundeep Kolliboyina: report
+
+
+
+Learning the Deep Emotional Intelligence of Artists by Arturo Garrido Contreras, Deepak Bansal, Masoud Charkhabi: report
+
+
+
+Deep Energies for Estimating Three Dimensional Facial Pose and Expression by Jane Hong Wu, Xinwei Yao: report poster
+
+
+
+Instance-U-Net and Watershed: Improved Segmentations for Breast Cancer Cells by Chenyu You, Linfeng Yang: report poster
+
+
+
+Deep Learning Models for Restaurant Choice by Evan Matthew Munro: report poster
+
+
+
+Efficient Neural Network Implementation of The Universemachine by Ethan Oliver Nadler, Chun-Hao To: report poster
+
+
+
+Human Portrait Super Resolution Using GANs by Yujie Shu: report poster
+
+
+
+Unsupervise Face to Manga Translation with CycleGAN by Marcella Cindy Prasetio: report poster
+
+
+
+Word Embeddings Quantify Exogenous Cultural Change by Paul Anthony Vicinanza: report poster
+
+OK
+
+Path Based Real Time Road Object Detection Using YOLOv3 by Megan Leanne Rowe, Naveen Rajeev Krishnamurthi, Puyang Ma: report poster
+
+
+
+Deep Learning for Enterprise API Traffic by Mamoon Yunus: report poster
+
+OK
+
+Music Tagging with COnvolutional Neural Network by Xiao Fei Yu: report poster
+
+OK
+
+Predicting Political Affiliation from Tweets by Eddie Sun, Jorge Isaac Cordero Enriquez, Zoey Zhou: report poster
+
+
+
+Scaling Up Medical Entity Extraction by Vignesh Venkataraman: report poster
+
+
+
+When is Deep Multitask Learning Effective in NLP? An Exploration of Cyberhate in Wikipedia by Abraham Starosta: report poster
+
+
+
+High Frequency Exchange Rate Forecasting using Deep Learning on Cryptocurrency Markets by Bernardo Ramos, Imanol Arrieta Ibarra: report poster
+
+
+
+Multi-Lingual Audio Classification by Cynthia Hua, Hiroshi Mendoza: report poster
+
+
+
+Supervised Adversarial-Attack Classification by Kumar Kallurupalli, Nicholas Tan, Shalini Keshavamurthy: report poster
+
+
+
+Predicting Water Usage for Automated Irrigation System by George Gui: report poster
+
+
+
+Through Thick and Thin: MRI Super-Resolution Using a Generative Adversarial Network by Andrew Osceola Narcomey, Angela Jessica Gu: report poster
+
+
+
+Automatic Automobile Taxonomy: Car Identification using a CNN Architecture by Samuel Frishman, Wilson Ruotolo: report poster
+
+
+
+Segmented Neural Style Transfer for Stylized Chair Generation by Samuel Marshall Premutico: report poster
+
+
+
+Voice Accent Transfer Using Recurrent Neural Networks on Spectograms by Henry Wang: report poster
+
+
+
+Fine-Grained Sentiment Analysis of Restaurant Customer Reviews in Chinese Language by Suofei Feng: report poster
+
+OK
+
+Gotta Train 'Em All: Learning to Play Pokemon Showdown with Reinforcement Learning by Elbert Lin, Kevin Chen: report poster
+
+
+
+Astronomical Object Classification from Photometric Time-Series Data by Ryan Wang Gao: report poster
+
+
+
+Structural Damage Classification for Post-Earthquake Recovery by Mengfan Zhang, WEN-YI Yen: report poster
+
+
+
+Real Time Video Colorization Using Color Priors by Sneha Venkataramana: report poster
+
+
+
+DeepMeal: Food Recognition and Localization with YOLO by Alexander Uhunoma Iyabor: report poster
+
+
+
+Human Protein Atlas Image Classification by Amita Chandrakant Patil, Rudra Bandhu: report poster
+
+
+
+Image Contextualization for the Visually Impaired by Aditya Dusi, Asish Koruprolu, HITHA REVALLA: report poster
+
+
+
+Neural Network Based Correction of Fixed Pattern Noise in Image Sensors by Paul Go Lim, Steve Wallace Mims: report poster
+
+
+
+The Classification of Musical Scores by Composor by Chenduo Huang, Christina Montefalcon Ramsey, Daniel Joseph Costa: report poster
+
+OK
+
+Drivable Area Segmentation by Ritu Bajpai: poster
+
+
+
+Multi-focus image fusion with a Deep Convolutional Neural Network for Semiconductor Wafer Inspection tools by Antariksh De, Srinivasa Rao: report poster
+
+
+
+Neural Anomaly Transfer for Wafer Inspection Systems by Karthikeyan Kalaiarasan, Nagendra Prasad Kamalapuri, Songyang Yu: report poster
+
+
+
+Duplicate Question Detection by Doug Chang, Shiyuan Gu: report poster
+
+
+
+Building Deep Learning Architectures to Understand Building Architecture Styles by Caroline Cin-kay Ho, Cole Orr Thomson: report poster
+
+
+
+An Examination and Application of Text Summarizer by Yi He: poster
+
+
+
+DOTA2 Game Prediction with Deep Neural Network by Luyao Hou, Yiqing Ding: report poster
+
+
+
+Toxic Comment Classification Challenge by Wenyi Tian Jones: report poster
+
+
+
+Load and Solar Power Forecasting in a Residential Distributed Energy System by Wael Abid: report poster
+
+
+
+Untrained Image Restoration using Deep Decoder: Evaluation and Improvements by Salman H Naqvi, Tyler Joseph Sellmayer: report poster
+
+
+
+Convolutional Neural Networks in Radiology by Max Norris: report poster
+
+
+
+Exploration of predicting power of ARIMA, Facebook Prophet and LSTM on time series by Jingyue Zhang, Yi Jiang: report poster
+
+OKOKOK
+
+Captcha Solving Using Neural Networks by Isaiah Loren Brandt-Sims, Thunder Justice Keck: report poster
+
+
+
+Protein Location Classification by Laura Victoria Cruz-Albrecht: report poster
+
+
+
+Automated Diagnostic Classification of Pediatric Magnetic Resonance Angiography (MRA) by Dennis Chang, Ye Akira Wang, Yong-hun Kim: report poster
+
+
+
+Deep Mix by Ashwin Neerabail, Joseph Gilles Ballouz, William Park: report poster
+
+
+
+Learning to Play Starcraft II by Mimicking the Pros: Style Extraction in Adversarial Games by Chunya Hua, David Joseph Rendleman: report poster
+
+
+
+Clothing Texture Synthesis using CycleGAN by Andy Kim, Miguel Ferrer Avila: report poster
+
+
+
+Old Photo Restoration: Pix2Pix vs Partial Convolutions by Daria Reshetova, Nivedita Rahurkar: report poster
+
+
+
+Confirmation Generation for Almond Virtual Assistant by Silei Xu: report poster
+
+
+
+Stock Price Prediction with Deep Learning Framework by Anran Lu, Huanzhong Xu, Zeyu Wang: report poster
+
+OKOKOK
+
+Human Trajectory Prediction in Socially Interacting Crowds by Bilan Jackie Yang, Haruki Nishimura: report poster
+
+
+
+Is a Picture Worth 1,000 words? Visual Emotional Analysis using Transfer Learning and CNNs by Hasna Rtabi, Katherine Irena Kowalski, Noah Abraham Jacobson: report poster
+
+
+
+DeepRating: A Deep Learning Approach to Credit Default Forecasting by Raphael Andreas Rene Abbou: report poster
+
+OKOKOK
+
+Deep Learning Approach to Automatically Extract Gene-Phenotype Relationships from Unstructured Literature Data by Bo Yoo, Tiffany Yonaha Eulalio: report poster
+
+
+
+Multiple-Instance and Transfer Learning for Detecting Breast Cancer by David Wei Liang, Kais Ajmal Kudrolli, Nathan Dass: report poster
+
+
+
+ServiceNet: End to End Dialogue System for Technical Support by David Uvalle, Madhulima Pandey: report poster
+
+
+
+Contextual Linking of News Articles by Aamir Abdur Rasheed, Dunia Hakim: report poster
+
+OK
+
+2-Stage Conditional GAN for Sketch Auto-Coloring by Yu-Shun Cheng: report poster
+
+
+
+DoodleNet: accurate doodle sketch recognition by Jiajing Wang, Yixin Shi: report poster
+
+
+
+Predicting Stock Trends from News Articles by Sahil Nayyar: report poster
+
+OKOK
+
+Aerial Imaging Classification with a Lightweight Network for Edge Computing by Brian Chan: report poster
+
+
+
+Anime Super Resolution Using GANs by Jin Huang: report poster
+
+
+
+AgingGAN: Age Progression with CycleGAN by Jie Chen, Junwen Bu, Yu Zhao: report poster
+
+
+
+Drivable Area Segmentation by Sundeep Kolliboyina: poster
+
+
+
+Photorealistic Neural Style Transfer: Generating Realistic Images without GANs by Richard Ruiqi Yang: report poster
+
+
+
+Automated annotation of cellular cryo-electron tomograms using U-Net by Weijiang Zhou, Yanyan Zhao: report poster
+
+
+
+Deep Reinforcement Learning for Classic Control Tasks by Andrew Zhang: report poster
+
+OK
+
+Imitating Driving Behavior in an Urban Environment by Ianis Bougdal-Lambert, Malik Abdelkrim Boudiaf: report poster
+
+
+
+GONE Offers Nice Editing by Alexis Goh Weiying, Jing Lim, Travis McGuire: report poster
+
+
+
+Deep Learning for Wireless Channel Coding by Yun Liao: report poster
+
+OK
+
+Style Verification - Differentiating Artists Based on Their Style by Albin Gustav Andersson Jagesten, Josef Malmström: report poster
+
+
+
+An Iterative Unfreezing Strategy for Predicting Human Emotional Response to Images by Ashwin Sreenivas, Jessica Zhao: report poster
+
+
+
+Direct velocity estimation for seismic imaging using deep neural network by Abhishek Tapadar, Stuart Farris, Vishal Das: report poster
+
+
+
+Realistic Image Synthesis and Classification by Christopher Fontas, Emanuel Mendiola, Wendy Li: report poster
+
+
+
+Hardware Acceleration of Lattice Networks by Matthew Feldman, Tushar Swamy: report poster
+
+
+
+Visualization and Prediction for a High Frequency Limit Order Book by Alan Dunetz: report poster
+
+
+
+Deep Learning to Predict Extreme Wind Loads on Buildings by Giacomo Lamberti, William Henry McCloskey: report poster
+
+
+
+Neural Weather Transfer using Segmentation & Matting Laplacian by Juliet Nkechiyere Okwara, Nicholas Brian Seay: report poster
+
+
+
+EditGan: Using GANS for Image Editing by Logan O'Sullivan Bruns: report poster
+
+
+
+Achieving Comparable Performance With Less Parameters in Segmentation of Melanoma Using Dense U-Nets by Gustavo Chau Loo Kung: poster
+
+
+
+Novel View Synthesis by Geometric Transformation and Image Completion Neural Network by Molly Zhang: report poster
+
+
+
+Investigating Hate Speech and Abusive Language on Twitter with Deep Learning by Emiliano Leopoldino Rodrigues Jr: report poster
+
+OK
+
+Extended Hotword Detection to Arbitrary Audio Triggerwords by Kevin Ming Yeun: report poster
+
+
+
+Dilated CNN + LSTM Music Style Transfer by Gavin Zhang, Haojun Li: report poster
+
+
+
+Estimating the Gait Deviation Index of Children with Cerebral Palsy by Cara Gonzalez Welker, Jon Phillip Stingel, Vince Joseph Salpietro: report poster
+
+
+
+Automatic Fetal Brain Segmentation for Prenatal MRI Screening by Cheng Chen, Pablo Gabriel Diaz-Hyland: report poster
+
+
+
+TimbreNet: A Convolutional Network for Blind Audio Source Separation c by Nathaniel Jacob Okun, Scott Henry Reid: report poster
+
+
+
+Deep Learning to Predict Stock Market Movements by Evan Taylor Ragosa Rosenman: report poster
+
+OK
+
+Kaggle Human Protein Atlas by Iason Solomos: poster
+
+
+
+Deep Learning for Classifying Heavy Drinkers from Normal Controls by Chuanqi Chen: report poster
+
+
+
+Music Box for CS230-Winter 2018 by Somnath Purkayastha : report poster
+
+OK
+
+Quantitative Trading Strategies using Deep Learning: Pairs Trading by Simerjot Kaur: report poster
+
+OK
+
+Deep Sketch Network for Million-scale Sketch Recognition by Dan Xia, Hongwei Zhang, Kegang Xu: report poster
+
+OK
+
+Predicting Stock Movements Using LSTM by Matt Roche: report poster
+
+OK
+
+Deep Visual-Semantic Embedding Models for Mobile by Swarna Saraf: report poster
+
+
+
+Independent Component Analysis with Neural Networks by Raul Rojas-Gonzalez: report poster
+
+
+
+Fighting Crime With Deep Learning by Muhammad Ayub, Sean Thomas Fitzgerald: report poster
+
+
+
+Deep-CNN based Semantic Segmentation of Aortic Dissection Images by David James Bell Esq, Indrasen Bhattacharya, Sara Nasiri Amini: report poster
+
+OKOKOK
+
+Tackling Occlusion in Person Reidentification by Boxiao Pan, Pragya Mishra, Soutik Chakraborty: report poster
+
+
+
+#PleaseUpVote: Virality Prediction with Title and Thumbnail Image on Reddit by Chaonan Ye, Vera Lin, Zijian Wang: report poster
+
+
+
+Classify Subcellular Protein Patterns In Human Cells by Dongkai Chen, Yixiao Song: report poster
+
+
+
+Question Answering on the SQuAD Dataset by Oghenetegiri Edward Sido: report poster
+
+
+
+Blood Vessel Segmentation from Fundus Photographs by Meeran Ismail: report poster
+
+
+
+Video Vehicle Detection with YOLO by Albert Zheng, Jeffrey Gu: report poster
+
+
+
+A Sure Bet: Predicting Outcomes of Football Matches by Evgeny Moshkovich, Rohan Reddy Challa, Seb Jocelyn Goddijn: report poster
+
+OKOKOK reminds me of course of that Codeforces Machine Learning contest round when I think it was the case that Viraj Maddur actually entered and signed up at least.
+
+Kaggle Human Protein Atlas by Pascal Pompey: poster
+
+
+
+Generating Scanning Electron Microscopic Images from Optical Designs using image to image translation by Jacob George: report poster
+
+
+
+Ranking financial assets using neural networks by Anton Ponomarev: report poster
+
+OKOKOK
+
+Locating Ships on the High Seas and in Ports by Lee Michael Arthurs: report poster
+
+
+
+Parcel Package Classifier for Automated Conveyor System by Hodges Haywood: report poster
+
+
+
+Classification of Radiographic Evidence for Pneumonia by Ekaterina Kastrama, Karina Giselle Samuel-Gama, Robert Pinkerton: report poster
+
+
+
+Fashion Clothing Category Identification by Abhishek Rawat, Dibyajyoti Ghosh, Shweta Karwa: report poster
+
+
+
+Achieving Comparable Performance with Less Parameters in Segmentation os Melanoma by Charles Huang: poster
+
+
+
+Unrestricted Adversarial Defending Deep Neural Network by Qiwen Wang, Xinshuo Zhang: report poster
+
+
+
+#Spring 2018
+
+
+
+#Final Project Prize Winners
+
+
+
+First place: Image-to-Image Translation with Conditional-GAN (Weini Yu, Jason Hu, Yujo Zhouchangwan Yu)
+
+
+
+Second place: Deep Knowledge tracing and Engagement with MOOCs (Klint Kanopka, Kritphong Mongkhonvanit, David Lang)
+
+OKOKOK
+
+Third place: Deep Learning for Improving Power-Accuracy of Heart Rate Monitors (Albert Gural)
+
+
+
+#Outstanding Posters
+
+
+
+First place: Painting Outside the Box: Image Outpainting with GANs (Mark Sabini, Gili Rusak)
+
+
+
+Second place: LeafNet: A Deep Learning Solution to Tree Species Identification (Krishna Rao, Elena Herrero, Gabrielle Pacalin)
+
+
+
+Third place: Earthquake warning system: Detecting earthquake precursor signals using deep neural networks (Mustafa Al Ibrahim, Jihoon Park, Noah Athens)
+
+
+
+#Submissions
+
+
+
+LSTM Music Generation by Xingxing Yang: report poster
+
+
+
+Extracting High-Quality Poster Images From Videos by Katie Fo, Nat William Gardenswartz, Tam N Dinh: report poster
+
+
+
+Image Colorization by Alex Avery, Dhruv Amin: report poster
+
+
+
+Sketch Classification by Sushan Bhattarai: report poster
+
+
+
+DeepSecurity Cybersecurity Threat Behavior Classification by Giovanni Sean Paul Malloy, Isaac Justin Faber, Isha Thapa: report poster
+
+
+
+Predicting the Success of Crowdfunding by Chenchen Pan, Yan Chen, Yiwen Guo: report poster
+
+
+
+Classification of blood cell subtypes by Sharon Shin Newman, Therese Maria Persson: report poster
+
+
+
+Simulating nanophotonic neural networks at a component level by Ben Bartlett: report poster
+
+
+
+Image Restoration of Low-Quality Medical-Diagnostic Images by Fariah Hayee, Katherine Lee Sytwu: report poster
+
+
+
+Automatic Chord Arrangement from Melodies by Shuxin Meng, Yulou Zhou: report poster
+
+
+
+Project Sunroof by Pranjal Patil, Vedang Hemant Vadalkar: report poster
+
+
+
+Brain Computer Interface: Using Neural Activity to Predict Cursor Kinematics by Jonathan Henry Zwiebel, Robert Terrell Ross, Samuel Lurye: report poster
+
+
+
+Guaging Political Bias on Twitter by Catherine Frances Lee, Jacob Shiff, Sridatta Thatipamala: report poster
+
+
+
+DeepFugue: a model to generate Baroquestyle fugues by Aditya Chander, Samantha Elinon Silverstein, Marina Barbara Cottrell: report poster
+
+
+
+Deep Learning for Partial Differential Equations (PDEs) by Bella Shi, Kailai Xu, Shuyi Yin: report poster
+
+
+
+ChexNet2: Improvements for The Detection of Pneumonia with Deep Learning by Alexander Kucy, Liam Hassen Neath: report poster
+
+
+
+Neural Network based Building Earthquake Vulnerability Prediction by Haiwen Wang, Zhaozhuo Xu, Zhiyuan Li: report poster
+
+
+
+Image Super-Resolution for Facial Recognition by Corey Tze-chung Shih: report poster
+
+
+
+Neural Networks for Baseball Data Analysis by Yifan Pi: report poster
+
+
+
+House Price Prediction using Satellite Imagery by Hoormazd Rezaei, Sina Jandaghi Semnani: report poster
+
+
+
+DeepNews.ai: Exploring the Link between Investment and Return in News Media by Joshua Griffin, Kayiita Johnson, Levi Lian: report poster
+
+
+
+Standardized Aerial Object Detection and Classification for Unmanned Aerial Vehicles by Joshua Payne, Peggy Wang: report poster
+
+
+
+Predicting the distribution of car demand by Hyoungju Seo: report poster
+
+
+
+Painting Outside the Box: Image Outpainting with GANs by Mark William Sabini, Gili Rusak: report poster
+
+
+
+Reinforcement Learning by Jeffrey Hu: report poster
+
+OK
+
+Learned Indices : Point Index by Rahul Palamuttam: report poster
+
+
+
+FaceNet: Emotion Detection Based On Deep Convolutional Neural Network Using Inception Architecture by Joseph Wang, Martin Maina: report poster
+
+
+
+Application of Deep Learning Techniques For Drilling Predictions by Ouassim Khebzegga: report poster
+
+OK
+
+Addressing the US Opioid Epidemic with Deep Learning: Predicting Opioid-Related Mortality Risk in US Counties from Twitter Data by Zoe Michelle Robert: report poster
+
+
+
+Bitcoin Transaction Deanonymization by Peter Wang: report poster
+
+
+
+Pump it Up: Mining the Water Table by Alex Thien Gia Pham, Ben Backus, Lauren Zhu: report poster
+
+
+
+Excuse Me? I Didn’t Quite Catch That?: Audio Super Resolution with Generative Adversarial Networks by Arjun Sawhney, Jonathan Michael Gomes Selman, Woody Zhouyuan Wang: report poster
+
+OK
+
+Speaker Identification: Text Independent Context by Manish Pandit, Rish Gupta, Sophia Zheng: report poster
+
+
+
+ATLAS MRI by Ayush Jain, Ray Zhong, Rosario Errazuriz Vergara: report poster
+
+
+
+Post-stroke lesion detection for the ATLAS dataset by Diana Ding Chin, Karen May Wang, Will Robert Thomas Roderick: report poster
+
+OK
+
+An Exploration of Neural Net Architectures for 3D Region-Proposal Networks and Object Detection by Shawn Hu: report poster
+
+
+
+Piano Automatic Music Transcription Using Neural Networks by Maddie Julie Wang, Susan Chang: report poster
+
+
+
+Earthquake warning system: Detecting earthquake precursor signals using deep neural networks by Jihoon Park, Mustafa Ali H Al Ibrahim, Noah Daniel Athens: report poster
+
+
+
+Image-to-Image Translation with Conditional GAN by Jason Hu, Weini Yu, Yujo Zhouchangwan Yu: report poster
+
+
+
+Predicting mortgage loan delinquency status by Ksenia Ponomareva: report poster
+
+
+
+Harmonic Combiner by Katherine Pregler: report poster
+
+
+
+Post-Stroke Lesion Segmentation via 3D-CNN by Beite Zhu, Weston Joseph Ungemach: report poster
+
+
+
+PokeNet: Predicting Pokemon Card features through Deep Learning by Eddy Albarran, Piper Caroline Keyes: report poster
+
+
+
+Predicting Success of Global Terrorist Activities by Trisha Jani: report poster
+
+
+
+Natural Language Processing and Event-driven Stock Prediction by Cheryl Ji, Jimmy Qin: report poster
+
+
+
+MR-AC using deep learning by Jonathan Fisher: report poster
+
+
+
+Modern DL Algos To Systematically Trade A Hedged Portfolio Of US Equities by Kevin M. Lalande: report poster
+
+OKOKOK
+
+InstaFashion: Clothing Segmentation and Retrieval using Region-based Approach by Kevin Fry, Vivian Yang, Xianming Li: report poster
+
+
+
+AI Music Composition with Chords and Dynamics by Daniel Nelson Dore, Joey Zou: report poster
+
+
+
+A Content-Based Image Retrieval System (CBIR) for eCommerce Purposes Using Deep Neural Networks by Lee Reed III, Nicholas Sinthunont: report poster
+
+
+
+Music Popularity Prediction via Techniques in Deep Supervised Learning by Albert Mitchell Pleus, Brian Pasquale Rossi: report poster
+
+
+
+Stock forecasting using Deep Learning by Francis Tran: report poster
+
+
+
+BuildingNet: Building Detection from Satellite Imagery by Manan Rai, Vivian Wong, Xiaolin Hu: report poster
+
+
+
+Building Detection in Satellite Images - Improving Resource Distribution in Iraqi Refugee Camps by Aprotim Cory Bhowmik, Minh-An Quinn, Nichelle Alston Hall: report poster
+
+
+
+Math image to LATEX by Junwen Zheng, Zhengqing Zhou, Zhongnan Hu: report poster
+
+
+
+Deep Learning on Multimodal Brain Tumor Segmentation by Erika Thompson Earley, Manisha Moumita Basak, Shaina Sara Reji: report poster
+
+
+
+Video Gesture Classification Using LSTMs and OpenPose Features by Kenny Kin Fai Leung: report poster
+
+
+
+Topological data analysis by Anjan Dwaraknath: report poster
+
+
+
+Identifying Political Spectrum in News Articles by Halldora Gudmundsdottir, Markus Zechner: report poster
+
+
+
+A Deep Learning Approach to Identifying Fraudulent Disinformation Networks by Josh Michael DuFault: report poster
+
+
+
+Deep Learning for Improving Power-Accuracy of Heart Rate Monitors by Albert Gural: report poster
+
+
+
+Semi-supervised Super-Resolution for Compressed Sensing MRI by Lisa Lei, Tian Tan: report poster
+
+
+
+Using Baseline X-Ray Images to Predict Osteoarthritis Outcomes by Matthew Robert Titchenal, Nishant Pandit, Stephanie Rebecca Young: report poster
+
+
+
+Using Attention on Movie Sentiment Classification by James Li, Samuel Kwong: report poster
+
+OKOKOK
+
+Gibberfish: Modeling Language by Detecting Nonsense by Bo Peng, Matthew Gagnon Mistele: report poster
+
+
+
+Threats Detection for Airport Scanned Body Images by ChayawanJaikla, Krongrath Suwannasri: report poster
+
+
+
+Cryptocurrency Price Prediction Based on Twitter, News, Reddit and Trade Volume Data by Alexander Kalil Fine: report poster
+
+OKOKOK
+
+Car Accident Predictor: Identifying the Probability of Getting in a Car Crash Based on Dash-Cam Cues by Aakarshan Dhakal, Armando Banuelos, James Michael Carroll: report poster
+
+
+
+Deep Learning Approaches to Brain Tumor Image Segmentation by Cameron Ward Backes, Jon Paul Deaton: report poster
+
+
+
+CNN-based seismic facies classification from 3D seismic data by Iris Yang, Wei Chu: report poster
+
+
+
+Classifying Pictures of Food by Luis Gerardo Govea Moreno: report poster
+
+
+
+Deep Learning for Medical Imaging: Post-stroke lesion detection for the ATLAS dataset by David Zhou: report poster
+
+
+
+ASL Video Translator by Diego Alejandro Celis, Ella Hofmann-Coyle: report poster
+
+
+
+Iceberg Classifier by Justin Donato: report poster
+
+
+
+DeepDowNN: Deep Learning for Crossword Generation by Angad Singh Rekhi, Charlotte Sophia Kirk, Ting Chia Chang: report poster
+
+
+
+Siamese Neural Network for One-shot Image Recognition by Saumya Yadav, Surabhi Sankhla: report poster
+
+
+
+Post-stroke Lesion Detection using ATLAS Dataset by Andrew James Zhang, Chenyao Yu, Helen Jiang: report poster
+
+
+
+Video Segmentation at instance level within image frames for autonomous driving. by HiroTien, Wenfei Du, Mayank Malhotra: report poster
+
+
+
+V for Vehicular Video Vision by John Luke Chuter: report poster
+
+
+
+Investing in SPY ETF: Using ML on SPY Constituents’ Momentum Data by Dale Angus: report poster
+
+
+
+Dense-Captioning Videos with Learnable Pooling by Julio A Martinez, Parker R. Miller: report poster
+
+
+
+Comparing Character Level ConvNets with Traditional Options for Text Classification by Gobi Dasu, Michelle Song, Rahul Manoj Makhijani: report poster
+
+OKOKOK
+
+Music Generation by Cade Monroe May, Gabriel Francis Voorhis-Allen, KK Keeme Mokobi: report poster
+
+
+
+Video Interpolation of Human Motion by Max Cody Evans, Rishabh Ajay Kothari, Sizhu Cheng: report poster
+
+
+
+Image Editing with Invertible Conditional GANs by Boyao Sun, Wensheng Li, Xinyu Xu: report poster
+
+
+
+Using CNN for image separation of overlapping galaxies by Sowmya Kamath: report poster
+
+
+
+Make AI Great Again: Generating Tweets in 'Presidential' Style Using Recurrent Neural Networks by Naveen Srivatsa, Stephanie Morgan Scott: report poster
+
+
+
+Fashion Product Recognition in Fine-Grained Visual Categorization by Klemen Cas, Renato Baba, Yaya Khoja: report poster
+
+
+
+Detection of Early Stage Lung Cancer from CT-Generated 3D Lung Volumes by Ankit Singh Baghel, Lucas Ivan Ramos: report poster
+
+
+
+Predicting Bone Age from Hand X-Rays Using Deep Convolutional Neural Networks by Amin Ojjeh, Caroline Grace Kimmel, Samir Nabil Safwan: report poster
+
+
+
+Predicting epileptic seizures using intracranial EEG recording by Gerardo Rendon Gonzalez, Vickram Gidwani, Yunha Hwang: report poster
+
+
+
+Evoking the Quasi-Periodic Pulse of Free Jazz Drumming: Recurrent Neural Networks for Rhythm Generation by Nolan Vincent Lem: report poster
+
+
+
+Macroeconomic forecast of USDJPY Daily Spot Rate using Deep Learning by Gerald Tan: report poster
+
+
+
+Arbitrary Neural Style Transfer by Man zhu Esq, Ningyuan Zhang, Willow Wu: report poster
+
+
+
+Multispectral Satellite Imagery Feature Detection by Elvis Dowson: report poster
+
+
+
+Food Image Aesthetic Quality Measurement by Distribution Prediction by Hang Yang, Jiayu Lou: report poster
+
+
+
+OscarNet v1​ by John Knowles, Sam James Kennedy, Tom Joseph Kennedy: report poster
+
+
+
+Applying Natural Language Processing to the World of Wine by Clara Isabel Meister, Tim Scott Aiken: report poster
+
+
+
+Extraction and Analysis of Earth Tide Signals by Xuhua Gao: report poster
+
+
+
+Semi-Supervised RNN-GAN for Chord Estimation by Charles Zhijie Chen, Corey McNeish, Elizabeth Chu: report poster
+
+
+
+Mathematical Expressions to LaTeX by Cameron Drew Cruz, Kofi Adu, Zen Alexander Simone: report poster
+
+OKOKOK this is in fact on that precise topic I brought up earlier in my own written records.
+
+Database bias reduction by Zheng Lyu: report poster
+
+OKOKOK
+
+Dog Breed Classification and Visualization by Jesse Candido: report poster
+
+
+
+Predicting Goal Setting in Weight Loss Journeys by Mitchell Louis Gordon, Sharon Zhou, Shushman Choudhury: report poster
+
+OK
+
+Automated Executable Code Generation by Janette Linqing Cheng, Jinhie Lee Skarda, Priyanka Puram Sekhar: report poster
+
+
+
+Image-to-Image Translation with Generative Adversarial Networks by Noah William Makow: report poster
+
+
+
+Practical Prediction in Dota 2 by Jack Thomas Scott: report poster
+
+
+
+DeepNews.AI: Detecting Political Bias by Abraham Ryzhik, Jason Jin Zhao, Nate Lee: report poster
+
+
+
+Deep Learning to Identify Plant Species by Elena Galbally Herrero, Krishna Rao, Zoe Gabrielle Pacalin: report poster
+
+
+
+Denoising ATAC-seq with Convolutional Neural Networks by Nic Jonathan Wilson Fishman, Sarah Faye Gurev: report poster
+
+
+
+Project DeepNews by Harper Carroll, Susannah Meyer: report poster
+
+
+
+AcId by Emilio Botero: report poster
+
+
+
+Dilated Convolutions for Music Generation by Hannah Leou, Kaleb Scott Morris: report poster
+
+
+
+CNNs in Climate Ensembles by Brian Andrew Reed: report poster
+
+
+
+F*** *** Detector: Identifying Offensive and Obscene Comments by Akshay Gupta, Alex Ilia Samardzich, Sai Anurag Modalavalasa: report poster
+
+
+
+Image Segmentation Kaggle Challenge by Eley Ng, Hubert Hsueh-Hsien Lu, Yokila Arora: report poster
+
+
+
+Analyzing Tweets Written by Russian Trolls by Brendan Zane Edelson, Elijah Robinson Taylor, Ethan Scott Brown: report poster
+
+
+
+Deep Learning Segmentation of Strokes in ATLAS by Brian Prescott Triana, Alewis, rkalthof: report poster
+
+
+
+Event Recommendation Engine by Renner Leite Lucena: report poster
+
+
+
+Deep Learning Application in Well Production Problems by Tita Ristanto: report poster
+
+
+
+TreeNet: U-Nets for Satellite Image Segmentation by Andrew Alexander Kondrich, Isaac Edward Kasevich: report poster
+
+
+
+Partial-Fourier reconstruction for fMRI using deep learning by Seul Lee: report poster
+
+
+
+Google Landmark Recognition Milestone by Aamnah Khalid, Uzair Navid Iftikhar: report poster
+
+
+
+Super resolution for atrial fibrillation mapping by Francisco Sahli: report poster
+
+
+
+Classification of Natural Gas Leaks by Jingfan Wang, Sindhu Sreedhara: report poster
+
+
+
+Deep Learning for MRI Analysis and Diagnosis by Charles Tsao, Neel Vikram Rao: report poster
+
+
+
+Predicting Educational Opportunity with Satellite Imagery within the United States by Gregory Alexander DePaul, Hugo Andres Valdivia: report poster
+
+
+
+Position Reconstruction in the CDMS HV100mm Detector by Shridevi Sharangowda Muthkhod, To Chin Yu: report poster
+
+
+
+Predicting postoperative opioid cessation in patients undergoing lumbar fusion by Chloe O'Connell, Felipe Kettlun, Thomas A Petersen: report poster
+
+
+
+Tennis Match Predictions using Neural Nets by Mitchell Allen Dumovic, Trevor Noel Howarth: report poster
+
+OKOKOK
+
+Evaluating Mask R-CNN Performance for Indoor Scene Understanding by Shiva Badruswamy: report poster
+
+
+
+Classifying Russian Propaganda Tweets by James Kusik Schull, Javier Echevarria Cuesta, Talal Ramzi Rishani: report poster
+
+OK
+
+Santander Customer Satisfaction by Nick Allan Steele, Samuel Roland Schwager, Scott William Morris: report poster
+
+
+
+Deep Knowledge Tracing with Course Engagement Covariates by David Nathan Lang, Klint Kanopka, Kritphong Mongkhonvanit: report poster
+
+
+
+Neural Generation of Source Code for Program Synthesis by Kensen Shi: report poster
+
+
+
+Action Recognition with Depth and Thermal data using Densely Connected Convolutional Network by Vivian Yang: report poster
+
+
+
+Predicting a fiber Bragg grating’s parameters from its transmission spectrum using deep learning by Arushi Arora: report poster
+
+
+
+Learning to Play Minichess Without Human Knowledge by karthik selvakumar bhuvaneswaran: report poster
+
+
+
+Bird Generation with DCGAN by Zhiling Huang: report poster
+
+
+
+Instance Segmentation using Depth and Mask RCNNs by Mohamed Masoud, Rewa Rohit Sood: report poster
+
+
+
+Automated Segmentation Mask Generator for Post-Stroke Lesions Using MRI by Elizabeth Botbol Ponte, Marcus Paul Dungca Lavengco, Oscar Rodriguez Guerrero: report poster
+
+
+
+Predicting protein-DNA binding affinity from structure and sequence by Alex Michael Tseng: report poster
+
+
+
+Reinforcement Learning for Imperfect Information Games by Divy Rohit Murli, Edgard Luis Bonilla, Geoff Penington: report poster
+
+
+
+Word Vectors From Small Corpora by Eric Zelikman: report poster
+
+
+
+Air Quality Forecasting Using Convolutional LSTM by Gaoxiang Liu, Shuo Sun: report poster
+
+
+
+Classical Composer Identification by Andrew Davis: report poster
+
+
+
+A Deep Learning Approach to Player Forecast Systems by Elliott Jake Chartock: report poster
+
+
+
+Semantic segmentation in precision agriculture by Raunaq Rewari: report poster
+
+
+
+SQUaD: Question Answering with Attention by Sajana Hemandra Weerawardhena: report poster
+
+
+
+Screw Identifier for smart power tools by Ryan Kwon, Sean Seol Woong Choi: report poster
+
+
+
+Road Detection Using Satellite Imagery by David Kwok, Kate Wharton, Soumya Patro: report poster
+
+
+
+Backprop Considered Harmful? Evolution and Hybrid-Evolution Strategies for Supervised Learning by Andrew Michael Bartolo: report poster
+
+
+
+What’s on my plate? Identifying different food categories by Nate B Nunta, Surbhi Maheshwari, Mo Islam: report poster
+
+
+
+Deep Learning for Catfish Prevention by Kris Anthony Kaya, Stefan Amir Swaans: report poster
+
+
+
+The impact of language on image representations in multimodal variational autoencoders by Ben Nathan Peloquin: report poster
+
+
+
+Crypto Exchange Price Prediction using Limit Order Book by Ashwin Selka Padmanabhan, Ben Gilboa, Tamal Biswas: report poster
+
+
+
+Personalized Ad Recommendation Systems with Deep Learning by Andrei Cheremukhin: report poster
+
+
+
+A Deep Learning Approach to DNA Sequence Denoising by Abhishek Kumar Roushan, Christine Andrea Tataru, Clara McCreery: report
+
+
+
+Neural Networks for Santander Customer Satisfaction by Nick Allan Steele, Samuel Roland Schwager, Scott William Morris: report
+
+
+
+Applying PyramidLSTM to the ATLAS Dataset by Kevin The-Hung Pham: report
+
+
+
+TreeNet: U-Nets for Satellite Image Segmentation by Andrew Alexander Kondrich, Isaac Edward Kasevich: report
+
+
+
+Strongly-lensed quasar selection based on multi-band time series by Ji Won Park: report
+
+
+
+Investing with NLP: Market Predictions by Alex Marshall Sareyan: report
+
+
+
+Fashion Product Recognition in Fine-Grained Visual Categorization by Klemen Cas, Renato Baba, Yaya Khoja: report
+
+
+
+#Winter 2018
+
+
+
+#Final Project Prize Winners
+
+
+
+First place: Semantic Segmentation of 3-D Protein Architectures in 2-D Contact Maps (Raphel Eguchi)
+
+
+
+Second place: MagNet: Gravitational Lens Source Reconstruction using Deep Learning (Warren Morningstar, Dylan Rueter)
+
+
+
+Third place: A Deep Learning Solution for Blood Diagnostics of Cancer through Error Suppresion (Zaid Nabulsi, Vineet Kosaraju, Shuvam Chakraborty)
+
+
+
+#Outstanding Posters
+
+
+
+First place: A Chemical Analog for the Convolutional Operation (Kristopher Brown, Michael Statt, Brian Rohr)
+
+
+
+Second place: ChefNet: Image Captioning and Recipe Matching on Food Image Dataset with Deep Learning (Kaylie Zhu, Chenlin Meng, Harry Sha)
+
+
+
+Third place: Using DL to predict Solar Far-Side Magnetic Flux from Far-Side EUV Flux (Ruizhu Chen)
+
+
+
+Third place (ex-aequo): Image Segmentation in Traffic Environment (Shaw Lu, Chen Luo, Michelle Zhang)
+
+
+
+#Submissions
+
+
+
+Tennis stroke recognition using deep neural networks by Ohiremen Dibua, Vincent Hsu Yu Chow: report, poster
+
+
+
+Diagnosis of Diseases from Chest X-ray scans by Fanny Yang, Jimmy Wu: report, poster
+
+
+
+ChefNet: Image Captioning and Recipe Matching on Food Image Dataset with Deep Learning by Chenlin Meng, Harry Sha, Kaylie Zhu: report, poster
+
+
+
+Hipppocrates: Personal Doctor RL by Ciro Di Lanno, Massi Gori: report, poster
+
+OK
+
+Sudoku Solving with RL by Charles Akin-David, Richard Akrofi Mantey: report, poster
+
+OK
+
+FlumeNet: A neural network model for generating videos of flume experiments by Julio Hoffimann Mendes: report, poster
+
+
+
+Inferring Educational Preferences through Deep Learning by Zhaolei Shi: report, poster
+
+OK
+
+Automated Coconut Tree Detection from Aerial Imagery by Amber Thomas, Tynan Challenor: report, poster
+
+
+
+Hybrid Autoregressive-Recurrent Neural Network Architecture for Algorithmic Trading of Cryptocurrencies by Andrew Jonathan Slottje, Ian Edward Shaw, Samuel Karl Joel Persson: report, poster
+
+
+
+Spot Nuclei: Segmentation with U-Net by Ta Tang: report,
+
+
+
+Translate Music Notation to English Alphabet by Ali Hemmatifar, Ashish Krishna: report, poster
+
+
+
+Deep Learning for Stock Trading by Glenn Yu, Kevin Q Li: report, poster
+
+OKOKOK
+
+Detecting Epileptic Seizure Onset from Electroencephalogram (EEG) data by Nick Singh Hershey: report, poster
+
+
+
+Visuomotor Learning: Object Classification and Location by Dylan Moore, Justin Kang, Payton Broaddus: report, poster
+
+
+
+Estimating the Bandwidith of bandlimited signal using neural networks by Jonathan Eric Tuck: report, poster
+
+
+
+Character-to-Actor Translator by Alex Joseph Gabourie, Connor McClellan: report, poster
+
+
+
+Recognition of East Asian language characters by Po-Nan Li, Tim Chen: report,
+
+OK
+
+EmotiveLens: webcam-based classification of emotional facial expressions by Anthony Van, Kevin Song: report, poster
+
+OK
+
+Salient-SNE: interpreting non-linear clustering algorithms by Karthik Jagadeesh: report, poster
+
+
+
+Music Stream Splitting by Nidhi Manoj, Sandhini Agarwal, Vikul Gupta: report, poster
+
+
+
+Downscaling Oceanographic Data with Convolutional Neural Networks by Bertrand Louis Rene Delorme: report, poster
+
+
+
+Colorization of Grayscale Images by Bardia Beigi, Fabian Frederik Frank, Vamsi Krishna Chitters: report, poster
+
+
+
+Computer Vision Radiology by Cameron Bassett Andrews, Linus Aidan Meyer-Teruel, William Taylor Bakst: report, poster
+
+
+
+Deep Learning Architectures in Visual Question Answering by Alex Nutkiewicz, Jasdeep Singh: report, poster
+
+OK
+
+Reconstruction of Undersampled Non-Cartesian Magnetic Resonance Imaging Datasets by Mario Octavio Malave: report, poster
+
+
+
+Using Deep Learning on Natural Language Features to predict Ether prices by Michael David Zhu: report, poster
+
+OKOKOK
+
+Music Genre Classification by Aidan Luke O'Beirne, Al Zamora: report, poster
+
+
+
+Predicting who will get a mortgage in New York by Aris Konstantinidis, Dasmer Singh, Manjinder Singh Kandola: report, poster
+
+
+
+Image Colorization and Classification by Peng Li, Zhefan Wang: report, poster
+
+
+
+Singing Synthesis with WaveNet by Amy Wang: report, poster
+
+OK
+
+Application of Deep Learning in Credit Risk Modeling by Guanting Chen, Shiqi Yang: report,
+
+OKOKOK
+
+Deep Learning for Road Segmentation by Anjali Roychowdhury, Chandler Watson, Justin Dieter: report, poster
+
+
+
+Competitive Gaming Analysis in LoL by Ben Michael Barnett: report, poster
+
+OK
+
+Photo Geolocation Recognition based on CNN by Yancheng Li, Yao Chen, Yifan Yu: report, poster
+
+
+
+AfroNet: Shopping Afrowear from Anywhere by Oluwasanya Oluwafemi Awe, Robel Eneyew Mengistu, Vikram Sreedhar: report, poster
+
+
+
+Predicting Small Molecule Binding Affinity to Serotonin Receptors by Annie Marsden: report, poster
+
+
+
+Muzip: Music Compression using Neural Networks by David Morales, Divya Saini, Michael Arruza Cruz: report, poster
+
+
+
+Safe RL with Simulation by Michael Kelly: report, poster
+
+
+
+Exploring Novel Methods for Classifying Sketches by Mandy Lu, Natasha Goenawan: report, poster
+
+
+
+Playing ZSY with Deep Learning by Leon Lin: report, poster
+
+
+
+NSFW Image Detector by Isaac Gustav Westlund, Lucas Sebastian Ege: report, poster
+
+
+
+A Deep Learning Solution for Blood Diagnostics of Cancer through Error Suppresion by Shuvam Chakraborty, Vineet Sai Kosaraju, Zaid Nabulsi: report, poster
+
+
+
+Nucleus Detection using Deep Learning by Benjamin Knapp, Burak Bartan, James Juin Pao: report, poster
+
+
+
+DL for Semantic Segmentation of Remote Sensing Imagery by Nick Naixuan Guo, Sherrie Wang, William Chen: report, poster
+
+
+
+SQuAD and Biographical Trajectories by Felipe Kup Barbieri de Matos: report,
+
+
+
+Super-resolution with GAN by Qixiang Zhang, Yang Wang, Yangxin Zhong: report, poster
+
+
+
+Yelp Review Generation with Generative Adversarial Networks by Abhi Raju Kulgod, Jayen Jay Ram, Veeral Patel: report, poster
+
+
+
+Computer-Aided Brain Abnormality Detection Using CAT Images of Brain by Ahmadreza Momeni, Nima Hamidi: report, poster
+
+
+
+Predicting Stock Price using Form 8-K Transcripts by Kapil Ashok Kanagal, Tarek Wael Fathi Abdelghany, Wesley Chan Olmsted: report,
+
+OKOK
+
+Predicting Cryptocurrencies Fluctuation based on Public Opinion by Abdulmalik Mahmoud Obaid, Dante Zakhidov, Scott Tom Keene: report, poster
+
+OK
+
+The Tomato-Meter Predictor by Kate Park, Leslie Tianlan Tu, Petra Luna Grutzik: report, poster
+
+
+
+Trendy Tunes: Predicting Popularity of Top 200 Spotify Songs using RNN's by Dhruv Medarametla: report, poster
+
+
+
+Semantic rock-type segmentation of seismic images by Anshuman Pradhan: report, poster
+
+
+
+GAN for Spacecraft Docking by Sumant Sharma: report, poster
+
+
+
+LSTiestoM - Music Generation by Daniel Gallegos Ortega, Sean Metzger: report, poster
+
+
+
+Searching for short-term Stellar Variabilities with Wide Field Telescopes by David Thomas: report, poster
+
+
+
+Using GANs to Generate Pollution-Free Images with Customized Conditions by Jiaqi Jiang, Kaiwen Wang, Lijing Wang: report, poster
+
+
+
+Automatic Temoval of Human Shapes in Pictures by Alexandre El Assad, Elise Francoise Marie Fournier-Bidoz: report, poster
+
+
+
+Transferring 3D Object Detection and Pose Estimation by Antonio Recto III Tan-Torres, Ethan Jeffery Li, Jacob Michael Hoffman: report, poster
+
+
+
+Topology Optimization + Deep Learning in .Microelectromechanical Systems by Anne Louise Alter: report, poster
+
+
+
+Deep Graph Classification by Huy Tuan Pham: report, poster
+
+
+
+Applying Computer Vision and Deep Learning to the Art of Boxing by Cedric Fraces, Evan Huang: report, poster
+
+
+
+Multiclass Tagging of Videos by Mu-Heng Yang, Wei-ting Hsu: report,
+
+
+
+A Study on the Stanford Natural Language Inference by Alex Alexandrovich Kolchinski, JEHA YANG, Katherine Yu, Yao Liu: report, poster
+
+
+
+Image Dataset Validation with Unsupervised Deep Learning by Eric James Wang, Nancy Xu: report,
+
+
+
+League Net by Brandon Walker, Sergio Luke Davood Sardar: report, poster
+
+
+
+Predicting Autism using Recurrent Neural Networks and Functional Magnetic Resonance Imaging by Larry Kalesinskas, Nielson Weng, Rohan Paul: report, poster
+
+
+
+Topic Analysis of Large Documents with Deep Learning by Jiahui Wang, Nathan Zhiwen Zhao, Xianling Long: report, poster
+
+
+
+Clip search in videos matching a caption by Erik Jones, Joe Lou, Milind Jagota: report, poster
+
+
+
+Identifying Cell Nuclei by Alexander Haigh, Frits van Paasschen, Joseph Michael Akana Murphy: report, poster
+
+
+
+Training a DNN to Deblur Images by Andy David Gilbert, Paul Andrew Westhoff, Shai Messingher: report, poster
+
+
+
+VAEs for Medical Data by Jesper Erik Westell, Matt Millett, Scott Lanyon Fleming: report, poster
+
+
+
+Turbulence Enrichment using GANs by Akshay Subramaniam, Man Long Wong, Raunak Deepak Borker, Sravya Nimmagadda: report, poster
+
+
+
+Video-based Falls Detection by JIE WU, Qianmin Hu, Weixuan Gao: report, poster
+
+
+
+Your F-ai-vorite Face by JeongWoo Ha, Kye GaHyun Kim, Simon Kim: report, poster
+
+
+
+Identifying humpback whale individuals by their tails by David Zweig, Marc Achille Antoine Negre: report, poster
+
+
+
+Replacing Financial Charting with sequence models for trading stocks by SONGLIN QING, Terry Chan: report, poster
+
+
+
+Identifying Fungal Diseases in Growing Wheat using Deep Convolutional Neural Networks by Joseph Likhuva Okonda: report, poster
+
+
+
+RepKit - A Deep Learning Model for Exercise Recognition by Evan Sabri Eyuboglu, Geoffrey Lim Angus, Pierce Barrett Freeman, Rooz Mahdavian: report, poster
+
+
+
+Using Satellite Imagery and a Deep CNN to Track Infection Risk for Schistomiasis in Senegal Africa by Ben Carlo Gaiarin, Michael Vobejda, Zac Ian Espinosa: report, poster
+
+
+
+Deep Script: handwriting synthesis with Deep Neural Networks by Christopher Ankeny Chute, Justin Myles, Mansheej Paul, Maximilian C Lam: report, poster
+
+
+
+Image Captioning with SCST-PPO and Attention by Charles Lu, Cindy Kuang: report, poster
+
+
+
+Sparsifying Regularization by Nicholas Dwork: report, poster
+
+
+
+Handwriting Recognition by Connor Robert Meany, Matias Kimmo Benjamin Arola: report, poster
+
+
+
+Predicting Product Prices from Descriptions by Emmie Kehoe, Ian Naccarella, Javier Enrique Raygada: report, poster
+
+
+
+Makeup Removal System by Mingchen Li, Yifan He, Yiyang Li: report, poster
+
+
+
+Chromatin Accessibility by Alex McKeehan Boulton, Brandon Benson: report, poster
+
+
+
+Handwriting generation by James Michael Ortiz, Michelle Grace McGhee: report, poster
+
+
+
+Representing Quantum States with Restricted Boltzmann Machines by Alexander Hristov, Emily Davis, Kevin Andrew Fischer: report, poster
+
+
+
+DisasterNet: a Seq2Seq model for Recipe Instruction Generation by Dev Bhargava, Thomas Olmsted Teisberg: report, poster
+
+
+
+Keyword detection by Ben Limonchik, Rysen Otomo: report, poster
+
+
+
+Object Localization with CNN by Holly Liang, Yuwen Zhang, Zixuan Zhou: report, poster
+
+
+
+Predicting Emergency Room Readmissions within 72 hours of discharge by Hershel Amal Mehta, Maeva Fincker, Sara Kai Altman: report, poster
+
+
+
+Automated Clinical Order Decision Support through Deep Neural Networks by Adam Wells, Alex Wells, Delaney Sullivan, Jon X Wang: report, poster
+
+
+
+Exploring Iterative Pruning in Deep Convolutional Networks by Brian Edward Jackson: report, poster
+
+
+
+Prediction of Review Quality by Analyzing Text by Christina Ashley Pan, John Martin Poothokaran: report, poster
+
+
+
+Emojify This: The GSB CS Experience by Ruchir Shah, Shammi Quddus, Srishti Sundram: report, poster
+
+
+
+Deep Learning based Collaborative Filtering by Arjun Kunnasagaran, Omar Alhadlaq: report, poster
+
+
+
+Audio Style Transfer by Grant Kaijuin Yang, Patricia Lan, Steven Leung: report, poster
+
+
+
+Creating New Dependent Variables for Social Scientists: Change in Job Labelling and Descriptions by Adrian Jose Apaza: report, poster
+
+
+
+Accent Transfer of English Speech by Laura Lynette Shen, Lily Chen, Meng Tang: report, poster
+
+
+
+Nicebot: DeepRL meets Sentiment Analysis by Yoni Lerner: report, poster
+
+
+
+Simplifying Pathfinder: Automatically Calculating the Sum of Rolled Dice by Hana Lee: report, poster
+
+
+
+MentorBot by Cooper J Galvin, Nina Louise Hooper: report, poster
+
+
+
+Honey I Shrunk the Image by Kiko Ilagan, Neel Chowdary Yerneni, Varun Nambikrishnan: report, poster
+
+
+
+Classifying Photography Style by Jeff Sheng: report, poster
+
+
+
+MA Imitation learning applied to AD by Raunak Pushpak Bhattacharyya: report, poster
+
+
+
+Facial Tracking using CNNs by Hannah Nichols DeBalsi, Will Lauer: report, poster
+
+
+
+Single Molecule Neural Net (SiMoNN) by Joshua Yoon: report, poster
+
+
+
+Deep Learning based Sarcasm Detection by Daniel Khang Thieu Do, Rohan Bais: report, poster
+
+
+
+2D character sketches to 3D models by Andrew Christopher Yu: report, poster
+
+
+
+Deep learning jet clustering algorithms for analysis of particle collisions at the Large Hadron Collider by Camila Arantxa Cendra Guinassi, Justin Yu-wei Chen, Khaled Jedoui: report, poster
+
+
+
+Recurrent Neural Network for brain-machine interfaces: decoding arm kinematics from intracortical signal by Julien Boussard, Maxime Cauchois, Theodor Jakub Misiakiewicz: report,
+
+
+
+Deep Learning and Deforestation by Ben Mullet, Dennis Chui Wang, Ian Avery Bick: report, poster
+
+
+
+DeepCell: Automating cell nuclei detection with neural networks by Ashwin Ramaswami, Cristian Bartolome Aramburu, Yiguang Zhang: report, poster
+
+
+
+Evocalist by Eric William Loreaux, Yuri Zaitsev: report, poster
+
+
+
+Convolutional Neural Networks for Aircraft Model Identification by Guilherme Ferreira dos Reis: report, poster
+
+
+
+Image Completion with Deep Learning by Yi Liu, Yijun Jiang, ZHENGLI WANG: report, poster
+
+
+
+Audio Transfer Learning with Voices Natural Language Processing by Eric Gong, Fabian Kevin Boemer, Youkow Homma: report, poster
+
+
+
+Predicting Patient Discharge times by Andrew Thomas Ward: report,
+
+
+
+Automated Nuclei Detection by Aditya Garg, Suvrat Bhooshan, William Marshall: report, poster
+
+
+
+Deep Orthogonal Neural Networks by Benjamin Lee Nosarzewski: report, poster
+
+
+
+Using Discriminators to transfer style on end-to-end TTS systems by Justin Alexander Rose: report, poster
+
+
+
+Movie Recommendation System based on Metadata and User Ratings by Jiaxi Chen, Yongshang Wu, Ziran Zhang: report, poster
+
+
+
+Optical Character Recognition on Arabic Medieval Scripts by Ammar Al-Qatari, Nawaf Alnaji: report, poster
+
+
+
+Music Genre Classification using Deep Learning by Job Khaemba Nalianya, Matthew Albert Meza: report, poster
+
+
+
+Style Transfer on Instrumental Music by Austin Osceola Narcomey: report, poster
+
+
+
+Deep Signs by Daniel Robert Book, Grant Jackson Fisher: report, poster
+
+
+
+Using Deep Learning to Predict Solar Far-Side Magnetic Flux from Far-Side EUV Flux by Ruizhu Chen: report, poster
+
+
+
+Intelligent Voice Identification with Neural Networks by David Benjamin Troner, Lloyd Peter Maza, Michael Thompson: report, poster
+
+
+
+Journalism Classification by Aashiq Muhamed, Ayush Singhania, Eun Seo Jo, Shashank Nuthakki: report, poster
+
+
+
+Exploration of Deep Learning Application to Modem Physical Layer Design by Nate Chizgi: report, poster
+
+
+
+Cryptocurrency Price Change Prediction based on News and Social Media Sentiment by Connor Lamon, Eric Nielsen, Eric Redondo: report, poster
+
+OKO
+
+Crop yield estimation for rice crop in India by Adeesh Goel, Agneya Sunil Loya, Ife Anyansi: report, poster
+
+
+
+Predicting Air Quality Values from Webcam Images by Adele Kuzmiakova: report, poster
+
+
+
+Deep-Learning to Detect Pump-and-Dump by Brandon Chang Wei Peh, Ren Hao: report, poster
+
+
+
+RL for Energy Resources by Thomas Navidi: report, poster
+
+
+
+Learning to play Mario with Deep RL by Evan Darke, Jakub Smola, Michael Mernagh: report, poster
+
+
+
+Autogroove by Alex Javier Bertrand, Jordan Friedland: report, poster
+
+
+
+Deep Learning for Initial Relative Orbit Determination by Josh Anthony Sullivan: report, poster
+
+
+
+Playing Card Games with DeepRL by Allen Tianshi Wu: report, poster
+
+
+
+Deep Knowledge Tracing by Chris Wang: report, poster
+
+
+
+Reconstructing Ultrasound Images using GANs by Ahmad Ghalayini, Khaled Kamal Saab, Soheil Hor: report, poster
+
+
+
+Machine Learning Application to A Physical System by Abdullah Ahmed Alakeely: report, poster
+
+
+
+Seeking high-order modes in Free electron lasers by Peihao Sun, Yanwen Sun: report, poster
+
+
+
+Emotion Recognition by Christopher Paul Bucknell, Oseas Adelso Ayerdi: report, poster
+
+
+
+Efficient Neural Architecture Search by Gregory John Weaver: report, poster
+
+
+
+Playing Penguin Tag using Conv Nets by JR Belino Jr Cabansag: report, poster
+
+
+
+Automatic multi-disease diagnosis - a deep learning application using the modified CheXNet by Jiawei Li, Yue Zhang, Zixi Xu: report, poster
+
+
+
+Exploring Knowledge Distillation of DNNs for Efficient Hardware Solutions by Haitong Li: report, poster
+
+
+
+Object replacement using Deep Learning by Xin Jiang: report, poster
+
+
+
+Encoder/Discriminator-Trained CNN For Adversarial Resistance by Anirudh Jain, Peter Dun: report, poster
+
+
+
+Planet: Understanding the Amazon from Space by Bernardo Casares Rosa: report, poster
+
+
+
+RL and Generalization of QMDP-Net by Sheng Li, Xiaobai Ma, Zhenkai Wang: report, poster
+
+
+
+Generating Images from Captions by Karan Singhal, Samir Sen, Trevor Ted Tsue: report, poster
+
+
+
+Epileptic Seizure Detection using EEG data by Debashri Mukherjee, Hannah Qiuhan Li: report, poster
+
+
+
+Deep Learning for the Automatic Detection of Congenital Lung Abnormalities by David Xue, Dominic Abbondanzo, Mazin Bokhari, Shaimaa Hesham Bakr: report, poster
+
+
+
+Using Deep Neural Networks to Understand Social Norms by Bogdan State: report, poster
+
+OKOKOK
+
+MagNet: Gravitational Lens Source Reconstruction using Deep Learning by Dylan Rueter, Warren Morningstar: report, poster
+
+
+
+Cancer Survival Prediction based on Gene Expression by Chao Li, Meng Zhang: report, poster
+
+
+
+Generating web-pages from screenshots by Andrew Soohwan Lee: report, poster
+
+
+
+Machine Translation English to Yup�ik Eskimo by Christopher W Liu, Kevin Chavez: report, poster
+
+
+
+Deep Neural Networks for Handwritten Chinese Character Recognition by Gendong Zhang, Lantao Mei, Xiao Zhang: report, poster
+
+OK
+
+Constructing an RNN to Predict Stock Prices by Franklin L Jia: report, poster
+
+OK
+
+Exploring Effects of Knowledge Distillation in Model Compression and Accuracy by Dian Ang Yap, Evan Sheehan, Matthew Ang Tan: report, poster
+
+
+
+Transfer Learning for Ultrasound Image Despeckling by Leah Lynn Brickson: report, poster
+
+
+
+Tracking the Evolution of Underground Music Culture via Sentiment Analysis by Christian Brown: report, poster
+
+OK LOL
+
+Semantic Segmentation of 3-D Protein Architectures in 2-D Contact Maps by Raphael Ryuichi Eguchi: report, poster
+
+
+
+Audio Generation from Lip Reading by Cary Kaiming Huang, James Yang WoMa: report, poster
+
+
+
+Deep IV for Virulence Causative Genes by Billy Alton Ferguson, Charles Walker, Jack Thomas Andraka: report, poster
+
+
+
+3D Bounding Box Estimation and Recognition of Objects From Multisensor Data using Deep Learning by Ayush Gupta, Malavika Bindhi: report, poster
+
+
+
+Investigation on Robustness of Quantized Ternary Weights for Deep Neural Nets by Behzad Haghgoo, Golrokh Khoddambashi Emami, Ying Hang Seah: report, poster
+
+
+
+Alzheimer's Disease Levels Diagnosis from Brain MRI Images by Dimitrios Ioannis Belivanis, Soheil Esmaeilzadeh: report, poster
+
+
+
+Meme Generation Networks by Lawrence Peirson: report, poster
+
+
+
+Identifying Travel Stops from a Photo Album by Scott Ings: report, poster
+
+
+
+Image Completion on CIFAR-10 by Mason Riley Swofford: report, poster
+
+
+
+Cocktail Party Problem for Song Birds by CHUN-HAO TO, Jason Chou: report, poster
+
+
+
+Image Super-resolution by Jenny Jin: report, poster
+
+
+
+Automated Driving in TORCS by Matej Kosec: report,
+
+
+
+Image Segmentation in Traffic Environment by Chen Luo, Michelle Mengxuan Zhang, Shaw Lu: report, poster
+
+
+
+Environment-Agnostic Wildfire Detection with Satellite Imagery by Jennifer Lin, Yanbing Zhu: report, poster
+
+
+
+Clickbait Article Detection using Deep Learning: These Results Will Shock You! by Kali Michelle Cornn: report, poster
+
+
+
+LightGAN: An Adversarial Approach to Natural Language Generation at a Large Scale by Enrique Jr De Alba, Jonathan Austin Booher, Nithin Venkat Kannan: report, poster
+
+OK
+
+A Deep Learning Approach to Identifying Wind-bufferflies in the GPI Exoplanet Survey by Alexander Bogdan Madurowicz: report, poster
+
+
+
+Inverting Yann-level Cloth Relaxation by Jonathan Leaf: report, poster
+
+
+
+New Object Designs using GANs by Matias Castillo Tocornal: report, poster
+
+OK
+
+HailRick: A Camera tool to help the visually impaired in India hail auto-rickshaws by Sriraman Madhavan: report, poster
+
+
+
+</ul>
+
+
+
+Copyright © 2022. - Stanford University
+
+
+
+All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

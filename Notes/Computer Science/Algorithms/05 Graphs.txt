@@ -1,0 +1,42 @@
+Depth First Search: V
+	Obtain sizes of subtrees, Depth First Search level, Depth First Search order [for subtree range updating in conjunction with subtree sizes], Depth First Search in out order [for other canonical tasks], Depth First Search parent, auxiliaries.
+
+Breadth First Search: V
+	Obtain Breadth First Search level i.e. distances, Breadth First Search parent, auxiliaries.
+
+Topological Sorting: E+V
+	Directed acyclic graph in order. One can Dynamic Program on this structure.
+
+Minimum Spanning Tree: E log V
+
+Minimum Paths From Source: E log V
+
+Minimum Paths From Source Negative Edge Weights: EV
+
+Minimum Paths All Pairs: V^3
+
+Maximum Bipartite Matching: E * V^[1/2]
+
+Minimum Cost Bipartite Matching: N^3 Hungarian Or N^2 * M
+
+Strongly Connected Components: E+V
+	Directed graph is partitioned into components where A and B in component means there exist paths from A to B and B to A.
+
+2-Satisfiability: N+E
+	e.g. [a or b] and [!a or d] and...
+
+Articulations And Bridges: E+V
+	Vertices and edges whose removal disconnects a graph. Partition graph.
+
+Biconnected Components: E+V
+	e.g. the graph partitioned by bridges.
+
+Maximum Flow: E * min[E^[1/2], V^[2/3]]
+
+Maximum Flow Push Relabel: E^[1/2] * V^2
+
+Minimum Cost Maximum Flow: ~E^2
+
+Minimum Hamiltonian Path: Nondeterministic Polynomial Time Complete
+
+-------------

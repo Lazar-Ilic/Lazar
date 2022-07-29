@@ -1,0 +1,585 @@
+Setup
+Calendar
+Text Or LaTeX Everything
+Habits
+Lifestyle
+Things [Comprehensive]
+Background Malodour Minimisation
+Teeth Brushing
+
+	Setup
+
+To maximise productivity, be hikikomori [?], leave apartment 0, work 18 hours per day. I am executing this .txt program. I use local files and Visual Studio Code/Chrome for nearly everything. My file organisation is reflected in my Github, I have unshared files locally. See after for further details.
+
+	Calendar
+
+Mine is a .txt file which works across devices. I can always see years ahead and remove pending items upon completion. Can include air filter replacement, rent, interviews, tests, groceries, upcoming Amazon purchases, etc. The first lines can contain daily reminders. Example:
+
+"
+Challenge yourself with increasingly complex structure and intelligence.
+Do not cry, do not be angry, focus work work work work keep on pumping out high quality useful helpful insights.
+
+[?] I love you, how are you feeling, what are your plans, what are you curious about [to girlfriend/wife/child]?
+
+[Of course during nightly petting tell her you love her very much and she makes you feel very good and happy "good girl" whatever if she likes that.]
+
+SDS323 MW [15] UGS303 T/Th[15:30] F[12]
+
+03-01		Air Filter
+03-07	17	Test Game Theory
+03-10		Bills
+03-24		Rent
+"
+
+One may even record their responses, plan accordingly, and ensure to follow up later.
+
+	Text Or LaTeX Everything
+
+It is critical to record ideas, so that one can review them later. And the grading boost. The transition cost is low, and this habit yields massive upside. By "everything", I really mean everything! I suggest Googling ~ "GOV312 Exam 3 Quizlet" then [ctrl a] [ctrl c] [ctrl v] the 3 most recently published relevant Quizlets into a .txt file. Study this for 1 hour each day for 3 days leading in to the test with the completed review sheet also in a .txt file. This way, maybe obtain an A with a total of <20 hours of labour. One can sometimes utilise the replace all function in Visual Studio Code and turn a .mobi or .pdf into a .txt file. I pick the best looking file from Library Genesis. Also, I have all my school work saved. Everything is backed up on a Drive.
+
+Chronic Exposure To Notes
+Dramatically improves learning and retention. When solving, many moving parts seem routine.
+
+Brainstorming
+Sometimes initial ideas are wrong and seemingly stupid ideas are right.
+
+Writing And Emails
+Draft and contemplate prior to pushing. Simple, simple, simple, emphatic, assertive, 5 sentences or less, terse, actionable, important, key ideas, technical, anticipate cruxes, already defended rather than defensible. Compose in text editor, tank for >10 minutes, contemplate, query around to form an up to date model of the reader who is gazing upon the text file you cause to appear in front of their eyes and perhaps annoy them with a notification ping. Email girls at most 1 time [concrete date plan, real life or Instant Messaging session, or potential plans] and never chain, limit to 1 email per day otherwise. Do not send emails to people who ask, clearly or implicitly by not responding or bouncing back, for you not to. Email 1 person at a time or Blind Carbon Copy. To correct False information errors, post technical documentation in a public comment. Set up an automatic forwarding system to/or store all emails in a folder and locally and backed up. Optimise all outgoing signals in order to obtain desired goals target outcomes. Do not push between 20:00 and 08:00. Scheduled emails exist. Do not post the names of coworkers, relatively private individuals, citizens, intellectuals in public. Provide source texts and/or links perhaps to Internet Archive. Ensure to not ruffle the feathers of coworkers or bother/annoy/miff girls at a firm. Probably a policy of using only exclusively first names for all coworkers including bosses. No "messieur", "dottore", "brain organ", "brother", "executing whining computations", animals, swearing, "retarded", offensive, etc. I might even try very hard to full on omit all pronouns like "he/she" from my writing in fact use exclusively first names if possible from now on. Apparently this style of writing is dominant and in fashion nowadays and perhaps from hereon out. Omit jokes, metaphors, isms, references. This includes strings such as "Red pill" which have yet to Truly enter the lexicon or add value in a meaningful way.
+
+Drafting Weeks In Advance
+Then one has follow on and spin off ideas.
+
+Lists
+For the Putnam, I created a list of topics I knew I needed to cover and understand deeply to maximise my performance.
+
+Homework Writing
+Include task details like "definition X" and "for matrix $A=\begin{bmatrix} 3 & 5 \\ 2 & 4 \end{bmatrix}$ one obtains eigenvectors..." so that later it makes sense as a self contained document. Or include task statements. No "canonical", "simple", "immediate", "trivial", "of course", etc. Consider using a comment with "%" for WolframAlpha code. Save all school work and assignments.
+
+Reading And Working Through Books
+Take notes on definitions, key ideas, and related insights. Consider completionism: solving all tasks, or reading the first line of the solution and contemplating etc. This may be the 2nd best option to Graduate School. Email authors or post on Stack to ask questions.
+
+Reading And Working Through Papers
+Imagine insights, experiments, paths, and "how would I have thought of that?" type questions. See the bibliography. Email authors or post on Stack to ask questions.
+
+Writing Papers
+Record thoughts, tank, followup ideas, generalisations, can this be generalised? Read extant literature. Use keywords and massive list of citations for bibliography. Hack cross references. Line up many long editing sessions prior to submissions. Perhaps consult friends.
+
+	Habits
+
+Form them. Do homework upon release and go to class 0. I have a library of .pdf and .txt books and on day 0 of courses, copy all deadlines to calendar, perhaps take notes through the entire textbook, set up templates for all homework assignments including correct titling, and compile all readings and film transcripts into .txt files. One can often view past course syllabi when planning, have a .txt file of course numbers and details ready for registration opening time, and use a phone call green button push or dual authentication code once per month on a machine by clicking to remember for 30 days.
+
+~ Daily
+Check Weather Forecast, Metaculus, [? News Headlines Skim]
+Poo [Flush Before x 2, Immediate, And Followup Toilet Paper]
+Microfiber Towel Clean Water Wiping Bum
+Stretching
+	Quads
+	Hamstrings
+	Glutes
+	Hips Flexors
+	Hips Anti Flexors
+	Calves
+	Arms And Back Potpourri
+Floss And Teeth Brush [x2]
+Scalp Exfoliate With Comb
+[?] 2 Email Checks Per Day
+Diet
+Change Earplugs And Clean Ears
+Nightly [Auto] Petting/Grooming And Purring
+
+~ Weekly
+Shave Armpits And Comprehensive Pubic Region [~2 Per Week]
+Shave Body [Every 2 Or 3 Weeks]
+Microfiber Towel Clean Water Wiping Skin Organ
+Back Up Machine To Drive
+Cut Hands Nails
+Run Water Through All Drains And Pipes Including Kitchen Sprayer, Shower Head, Sink Backflows, And Bath Pipe e.g.
+Readjust Mattress Protector
+[?] Change Bedding [Have Multiple Copies Ready To Go]
+
+~ Monthly
+Pay Bills
+Push/Commit To GitHub
+Relatively Odourless [[?] Anti Malodour, Microbial, Bacterial] Microfiber Cloth Clean [[?] Isopropyl Alcohol] Water Wiping Counter Tops, Toilet Bowl [Closed Down By Default When Not In Use], Sink Bowls, Sills, Machine, etc.
+Replace Batteries In Thermostat If No Low Signal
+Cut Feet Nails, Shave, Rub Skin Off, Change Socks
+Shave Head
+Change Toothbrush
+Review ArXiV, Journals, Kaggle, Twitter, Puzzles Solutions, Reddit [slatestarcodex, sneerclub, philosophy], Blogosphere, bioRxiv, News, Quanta, Nautilus, Aeon, Reason, Quillette, Verso, Rightist Twitter "Trolls", Rightist Libertarian Twitter, Austrian And Chicago Schools Of Economiques Twitter, Scott Adams, Tons Of Journals, etc.
+
+~ Biannually
+Bloodworks And Doctors [Seek Second Opinions If Needed] [Bring Health Medical Insurance Card And Driver's License/Identity Card]
+New Socks
+Review All Maths Contests And Puzzles Archives
+
+~ Annually
+Dentist [Epistemically Suspicious] [Close Eyes During] [Sunglasses En Route And Full Towel Down Upon Return] [Ask For Unflavoured]
+Donating Money
+	Berkeley Existential Risk Initiative
+Reflecting On Life. Who Do I Want To Become? Magnanimity. Reducing suffering.
+
+	Lifestyle
+
+Sleep, exercise, and diet are all important. What makes one person feel good may not make another person feel good. Breakfast and fruits/vegetables are not necessary. Many would benefit from the energy of eating chicken [rotisserie] fettuccine alfredo, ground grass fed beef, white rice, anything warm, salty, maybe watery which can be rapidly digested and will not cause bloating. Your mileage may vary with 16/8 or 20/4 intermittent fasting. Ensure to eat adequately by once in awhile writing down on Calendar.txt to try modulating upwards. Muscle mass and magnesium relate with carbohydrate uptake and release. One can start off one's day with instant coffee. A 1 per week indoor rowing habit [>70 minutes] can improve memory, cardiovascular strength, sense of wellbeing, baseline hedonic tone. For houses, one can get a free real estate agent, send desiderata, view 20 houses, and pick the one which will be best after 50 hours of optimisation upon moving in. Closely monitour sounds, smells, certain materials, run air conditioning and heater, ask in writing for management to remove all fragrances and wipe with water prior to viewing if possible. Tile floors can be squeegeed with water 50 times and perhaps [?] Ozone gas manipulation tricks 1 time followed by airing [?] will not produce too many harmful compounds in air [[?] lungs damage risk versus mold and pathogen minimisation upside].
+
+	Things [Comprehensive]
+
+Visual Studio Code
+.txt Files
+Google Chrome
+AdBlock [Remove CSS Elements As Desired]
+Wizmage Image Hider
+Stylish
+AdBlock For YouTube
+Super Dark Mode Extension
+Blank Dark New Tab Page
+Diary .txt File
+Library Genesis
+Google Scholar [For Citations/Cited By]
+Sci Hub
+Internet Archive
+Venmo ["LazarIlic"]
+Human Walking Service
+Darkweb Human Touching Service
+Background Funding Pooling Service
+Grocery Delivery
+Image Files Of Important Cards And Documents
+Pro Bono And Institutional Legal Services And Title IX Offices
+311, 911 [Non [Emergency] Phone Numbers Analogs], Police And Harassment Online Forms, Emails, Phone Numbers
+Bank Loans
+YIFY And Subtitles [White Helvetica]
+uTorrent
+The Pirate Bay Etc. For Torrenting Files And Art 4k Pornography Films
+Google Commands https://www.gwern.net/Search
+Coding
+Wolfram Alpha Commands https://www.wolframalpha.com/examples/
+Custom Bash Commands
+Native, Twilight, Layered Filters For Red Light At Night [On iPhone SE Reduce White Point 100% Triple Click Home Button For Color Filters On Color Tint Intensity 100% Hue 100%] [Lowest Level Flash Light]
+
+Creating A Nice Digital Workplace
+Focus On 1 Task
+Lying In Bed Naked Warm 0 Blankie 23-26C/74-79F With 0 Direct Airflow
+	Very delicate and first order. Apartment airflow, thermostat sensor location, auto mode functioning, outside temperature, weatherstrip, caffeine, lights, nocturnal hormones, vasodilation/constriction, electrolytes, skin functioning, shaved perceptions, air humidity, and other factors come into play here. This can be tricky to nail, but it is critical both during the day and night. Build a strong trigger action pattern habit of actually doing the action thing where you get up mid day and change the temperature as needed if poor control.
+Liquids Ingestion Via Glass Straw To Throat
+Rinsing Mouth With Water [Oral Microbiome] [Mouth Closed Except Eating]
+Lifting Days [Can Timer Sets] [Can Go To 80% Exertion]
+	"52"kg/"115"lb 8 Day Cycle: Overhead Press, Squats And Calves Raises, Biceps, Traps And Stretching Hardcore Upper Back And Spine Bidirectional
+	[11:00] 1L/32floz Jogurt
+	[16:00] 1- Cup White Rice And Smooshed 400g/0.8lb Atlantic Salmon [Consider 1 Or 1/2 Stick Butter If Stressed]
+Off Days
+	[16:00] 800g/1.8lb New York Strip Steak And 1 Cup White Rice
+Alternately Perhaps:
+Lifting Days
+	[11:00] Warm White Rice Jogurt Stew [1 Cup, 1L/32floz Jogurt]
+	[18:30] 600g/1.3lb Atlantic Salmon
+Lifting Days
+	[11:00] 1L/32floz Jogurt
+	[18:30] 1- Cup White Rice And 500g/1lb Chicken Thighs With 1 Stick Butter
+Off Days
+	[15:30] 800g/1.8lb New York Strip Steak
+	[18:30] 1 Cup White Rice
+0 Showering [Skin Microbiome, Nitric Oxide, Endogenous Human Growth Hormone [?], etc.] Or Only When Needed [Water Warm End Cool, Air Dry, Sun Skin Organ]
+0 Body Products [Deodorant, Creams, Dish Soap, Soap, etc.]
+~0 Artificial Light [Dim White Text On Black Monitour]
+0 Notifications
+
+$200 15.6in 1920x1080 Asus Chromebook Machine
+2015 Metaphys Locus Black 0.5mm Mechanical Pencil
+[?] [???] Judaea First Revolt Silver Shekel... Contemplation, "Good Luck", 
+Hanging Framed Over Dinner Table As A Reminder To Thank Myself, My Mother And Father, And All The Inspirational Great Women, Men, Mothers, And Fathers For Putting The Meat There
+[???] 69 Karat Gold Dreidel For Spinning Whilst Contemplating "Art" Market
+7 Big Relatively Odourless Plastic Boxes [Store ~Everything]
+Bag Of Comfortable [Clean Ears Dry, Compress Earplug, Lift Ear To Open Ear Canal, Nearly Fully Insert] Foam Earplugs [34/33/32dB NRR] [Big Thick Straight [?] OR Bell [?]] [Firm Not Soft, Maximum, For Large Ear Canals] [Mack's Maximum For Large Ear Canals, DISON, Radians Resistor FP8000BP, etc.] ["Partially Deaf" "Severe Hyperosmia" "Highly Sensitive Person" Causing One To Sound Much More Agitated And Aggressive Than One Truly Is In Written Records With Police And Doctors] [Unclear If Regret Or Profound Win]
+White Card Stock Paper
+Black Card Stock Paper
+2013 HP Wireless Mouse Black Minimal
+Ray-Ban RB2447NM F602/30 Scuderia Ferrari
+2020 White iPhone SE [1 Button Home Page Lower Bar Google Drive Application] [Find My iPhone, Google Drive, Google Chrome, Google Maps, Phone, Messages, App Store, Settings, Clock, Camera, Photos, Files, Wallet, Health] [Everything Else Basically Compute And Annoyingness Minimised] [Setup Takes ~2 Hours] [Screen Shot Good Ideas At Night To Process In Drive In Morning]
+Secure Passwords Hidden Ad Hoc To Google And Distinct Chained
+Key By Door [Lock Electronic Devices Prior To Leaving]
+Rechargeable Batteries [8 AA, 4 Charged Up And Ready]
+[?] Digital Drawing Pad With Hard Solid Tipped Thin Stylus
+Black Comb
+Metal Dim Red Flashlight
+Cooler For Trunk If Grocery Shopping
+Backup Phone Or Machine Internet Phone Callling Application Or Website
+Locked Gate Or "Trespasser, Solicitors, Canvassers, ... Will Be Shot" Sign
+[?] Glass [[?] Black, Light Blocking] Cylinders And Lids For Foods Storage
+Metal Tweezers And Nail Clippers
+Cordless Electric Clippers [Shaving Most Of Body]
+Generic Razor [Shave With Cold Water]
+Nice Waxing Set, Strips, Not Hairs Removal Cream [One Can Read Female And MaleToFemale Web Logs On Personal Grooming Ideas]
+Mini Metal Screwdriver
+Steel Sponges
+Prop The Matrix Morpheus And National Treasure Benjamin Franklin Sunglasses
+The Number Devil Style Silver Pentaram Pentagon Necklace Chain
+Yu-Gi-Oh! Millenium Puzzle 69 Karat Gold Necklace Chain
+Two-Face Double Headed Coin The Dark Knight Interviews
+Kippah And Gold Jesus Christ Cross Necklace
+Tesla Model 3 Or Tesla Roadster [3.0 If Possible] [White Or Black Or Red]
+"NMBR DVL" White On Black License Plate
+Tesla Or Other Solar Panels And Charger
+Clean Microneedler Dermaroller For Beardier Beard etc.
+Texts On Penis/Phallus Enlargement Theory And Praxes
+Large White Stone Erect Phallus Statue To Left Side Of Front Door
+Shirts [White or Red or Gold on Black or Red or White Mostly]: If You Know You Know, Within Temptation Resist Temptation, Kanye West Power Bloody Decapitation Sword, Kanye West Power Bloody Decapitation, CCCP/SSSR, CCP, Stalin, Lenin, Hitler, Trump, Xi, I Would Prefer Not To, Bad Ass Mudder Fugger, Dope Beast It Is A Competitive Mind Sport, Player Character Nonzombie, Young Rich Ninjas
+[Mala Fide] Dom Perignon Bottle For "Just Water" At The Office
+Scale For Milligrams And Microdosing, X, etc.
+Baking Soda [Disperse From A Low Height So As To Not Breathe In Minor Particles Thick Layer Cover Smelly Floor Dry, [?] Wipe Up With Hands, Wash Clothes Washing Machine] [True Cardboard Interior Top Preference On Hands Observations And Plausibly Subjective Wellbeing Experience] [Currently Trying 1lb/2lb/4lb HEB Hill Country Fare Cardboard Boxes] [Bulk On My Radar Plausibly Bad Like 50lb Paper Bag Of Arm And Hammer Or Genesis Alkali Perhaps And Scientific] [Perhaps Try 50 Different Brands And Packagings] [Trying Resealable Bucket, Restaurant Quality, Highest Purity, Food & USP Pharmaceutical Grade] [Perhaps Consider Trying 50lb Plastic Buckets Say From Amazon Or A Water Pool Chemicals Supplier Store]
+[?] Hyrdogen Peroxide
+[?] Isopropyl Alcohol
+[?] Extra Strength White Vinegar [4L/128floz Jugs]
+[?] Saline Water Down Nose
+Floss And Oranurse Unflavoured Toothpaste] [?] [Unflavoured] [Sensodyne Or Parodontax Offerings?] [Too Sweet Artificial Sugars Binding To Receptors Brain Organ Hacking] [Stowed, Stored Separately] [Water Rinse Packaging Upon Starting Tube]
+[Mala Fide] Instant Coffee And C4 Original Watermelon [~150mL/5floz Cool Water] [~400mg Caffeine] [Opt For Coffee Not C4 If Hyper Stressed] [Can Skip A Workout Day Or Push It Back 24 Hours]
+Rice Cooker [Metal And Glass Pot Style]
+White Rice [Thai Jasmine] [2x Water, Desired Liquidity] [Fill Rice Cooker With Water Immediately Post Rice Pre Dinner For Easier Washing]
+1 Cup Metal
+Metal Scissors
+3 Relatively Odourless Disposable Face Masks
+Freezer And Fridge [Coldest Temperature Setting]
+$19/lb New York Strip Steak And Salmon Baked
+[Outdoors On Balcony And Eating] Electric Oven [Ninja Foodi Smart XL] [175C/350F 18-24 Minutes [Well Done, Eyeball In Natural Light], Pour Fats/Juices Onto Meat] [Water Rinse Mouth Prior]
+White Mountain Foods Organic Bulgarian Jogurt [1L/32floz Glass Jars] [Gut Microbiome] [Water Rinse Mouth And Brush Teeth After] [Shake 1 Time Drink Half Then Swirl To Liquidate And Maximise Consumption Minimise Loss Error]
+Pulpless Orange Juice [Concentrate And Black Cherry, Pomegranate Exist]
+Magtein Or [Mala Fide] "Magnesium Glycinate Lysinate Chelate" At Night [300mg Or 400mg]
+Glass Drinking Glass
+Glass Straws
+Iodised Salt [In Glass Cylinder] [Monitour Bloating Re Potassium, Calcium, Magnesium]
+White Ceramic Plate And Glass Bowl
+Metal Knife And Fork [Carry With Small Hidden Practiced Pepper Spray When Out If Not Enabled To Closed Carry]
+Simple Masturbator Sex Toy Relatively Odourless Stretchy Tight "Anal"
+Water Based Hypoallergenic Lubricant
+Uncoated 99.99% Aluminum Foil [100m^2/1000ft^2] [Cover Things] And Tape [Floor Cracks, Corners, Trims, etc.]
+Ankle/Quarter Merino Wool Socks [Ballston Lightweight 81% Merino] [1 Bed 1 For Baking Soda On Smelly Floor]
+Black Slides
+2 Foldy Black Metal Chairs
+2 Foldy Black Metal Tables
+100% Cotton Silky Thin Cool Public Wearable Boxers/Shorts And e.g. Baggy Pajama Pants For Offices [Functioning, Count, Health, Motility, Transcription Errors Minimisation [iPhone SE On Airplane Mode], etc.] [Hand Wash In Sink With Water]
+95% Cotton Silky Spaghetti Strap Body Building Tanks [Black/Red/White]
+100% Cotton Silky Long Sleeved Shirts [Black] [Maybe Assert/Flex/Signal To Coworkers "Designed By Kanye West"]
+Pillow[s] [Down, Thin, Long]
+Bedding [Thin 1000 Thread Count Egyptian Cotton And Cotton Mattress Cover] [Lower Thread Count May Be Cooler]
+Queen Sized Mattress [Ikea, WinkBed, Saatva, DreamCloud]
+Black Metal Bed Desk
+28 Day Pill Box [With 1 "Magnesium" Pill As Representative]
+Ibuprofen
+Safe Safe
+2 10000 IU hCG Bottles [Prescription Pharmaceutical Human Chorionic Gonadotropin For "Hypogonadism"]
+200 Individual 30G 1/2in Needles
+200 10mL Syringes
+Isopropyl Alcohol
+30 Rolls Of Relatively Odourless Toilet Paper [[?] Could Towel Instead]
+Lot Of Similar Large Buffers For Psychic Comfort
+2 Foot Stools For Pooing Comfort [Massage Entire Wummy Before, During, Whenever]
+Wireless Quiet Doorbell System [D Note Or D Minor Chord]
+Weatherstrip For Doors/Windows Exteriors
+Warmable Clay For Wummy And Muscles
+[?] Iron And [?] Chocolate, Mild Tea Bags, Hot Chocolate
+Butter And Eggs And Gelato/Ice Cream 2Qt/1.5Qt/Quarts/Pints [Amy's Mexican Vanilla, Blue Bell Home Made Vanilla [? Rather Organic Free Of High Fructose Corn Syrup], Talenti Salted Caramel With Chocolate Chunks Or Hazelnut, etc. Green Tea, Jasmine Tea, Red Bean, Coconut, Mango And Rasp Pseudo Berry Sorbet Perhaps, etc.] And/Or Merci Potpourri Chocolates Box, White Chocolates, Milk Chocolates, Dark Chocolates, Belgian Chocolates, etc. [I Enjoy 1.5qt When Stressed]
+Steel Clothes Drying Racks [As Standing Desk Until Poo]
+Odourless Cotton [[?] Anti Malodour, Microbial, Bacterial] Microfiber, Thin Cotton, Or Sock [Pouring Meats Fats Onto Meat]
+$400 Metal Rack, Barbell, Plates [Lift Naked Warm] [May Last 100 Years]
+High Performance Air Filters
+Blue Light Blocking Goggles
+Blue And Green Light Blocking Goggle Goggles
+Relatively Odourless Eyes Covering Sleep Mask
+[?] Airthereal MA10K-PRO Ozone Generator 10000 mg/h
+
+	Background Malodour Minimisation
+
+Total Time: >50 Hours
+
+Odour particles emanate with various intensities and density curves/latencies of clearance.
+
+In clean air, one ought to feel minimal impulsion to touch nose, effectively clearing out boogies with clean water rinsed fingers perhaps twice per day. Consider plucking nose hairs with fingers at one's risk. Malodour can transfer via chains like hand to doorknobs and later back to hands so ensure to adequately exfoliate fingers skin prior to touching or else induce cognitive dysfunction via transfer into nasal passages. One ought to water wipe squeegee 50 times to remove.
+
+One can nearly wrap a home in aluminum foil, cover walls, create quasi air seals everywhere, hang at door-floor joints, and put everything inside of sealed nearly odourless plastic boxes. Apply tape over cracks and at trim joints. Cover smelly floor from a low height so as to not breathe in minor particles with a thick layer of dry baking soda. Air out once in awhile as needed otherwise malodours can linger in air for quite awhile.
+
+Odour particles pass through cracks in windows, thin walls, fluctuating based upon air pressure deltas, in conjunction with temperature control systems. Taping aluminum foil necessarily involves tape, and thus releases tape/glue fumes into the air. Ensure to fully seal tape leaving 0 exposed ambiently. Air out a place following the application of tape, so as to not get a headache. There may also be off gassing from aluminum foil which takes a little while. I do not think that the 0.01% of non aluminum in my foil is unhealthful, versus the counterfactual.
+
+Alternately, one can consider closely smelling every single thing. This includes every single 6in x 6in square of water wipeable wall.
+
+Cover cabinets in aluminum foil and tape. Floor to counter top, fully sealed, or wall to wall, point to point, nearly sealed. All wooden elements in aluminum foil and tape. Use aluminum foil to cover toilet paper which is malodorous. Cover vent over stove. Slam every window shut with force if needed. Foldy metal tables and plastic boxes for things rather than native cabinets. Holes, outlets, and light switches. Water washing a variety of components near the air conditioning in flow and potentially covering the region between the air filter and the air conditioning unit itself.
+
+Do property damage, remove things, wipe insecticide and chemicals off of sills [this step alone can take >10 hours], ledges, door frames, trims, etc.
+
+One can write: "My air conditioning unit needs maintenance. Either there is a leak in my refrigerant line or the drain, evaporator coil, drip pan, drain line, etc. need to be cleaned." One can examine and water wipe some components. Bring your neighbour "fragrance free" dish soap and other such products with a kind, nice, friendly note, and perhaps $3000 in cold hard cash [neighbours can be douchebags who respond to asks with mala fide harm causing reactions]. To convince apartment managements to care about extant air flow problems, write "I have been suffering cardiovascular arrhythmias and respiratory problems, observed weapons, explosives, powders, chemicals which can be dangerously mixed, and suspect my neighbours of chemical and biological terrorism" to local police and their apartment management as well as your own.
+
+One can obtain a 20 gallon steel pot and stir laundry in boiling water, prior to sunlight drying/airing.
+
+[?] Hydrogen Peroxide
+
+Or air out and clean [pinky or clawer] laundry room at 5am or 6am when 0 neighbours are using it to minimise air in flow malodour transfer during the washing machine's spin cycle. Examine communal washers carefully, and run a baking soda hot water wash cycle [one can really mix around water 5 minutes in to liquidate all around the edges and upper portion of the bowl perhaps] prior to every [[?] 1 cup baking soda] simple hot water wash cycle, followed by drying on rack in apartment or on balcony rather than using a communal dryer where malodour transfer will occur, carcinogenic, causing skin, respiratory problems [certain such products are banned in Western Europe with good reason], cardiovascular arrhythmias, and death via discrete cardiovascular respiratory events.
+
+A litmus test for air cleanliness may be the resolution with which one can smell body odour. Other proxies: the resolution and degree with which one smells things e.g. transient minutiae like neighbour's bacon. It is possible to thoroughly rinse the mouth following teeth brushing, keep mouth closed, touch nose 0, and feel that one's mouth is relatively clean 7:00 to 18:30 dinner breakfast. Leave home for a few minutes then enter to perceive background odour prior to norming.
+
+Some other general notes about apartment life: one can find the warmest, quietest, location for head of a bed in bedroom, and then light optimise accordingly [black and white card stock paper on window exteriors, aluminum foil can be used in commons facing interiors], or try different locations and discover the optimum. Pooing ought to be relaxed, not tense or muscular, optimal feet legs position, one can use hands on torso, lower torso, totally relaxed to maximise throughput. Given my small stomach and dietary volume, my lower back nearly always feels good regardless.
+
+To navigate remote work with firms, consider trying to find a rhinologist or psychiatrist who will execute a measurement, write down "severe hyperosmia", and will perhaps endorse the notion, if they observe said earplugs [actually, do not wear earplugs during observation, and indicate 0 caffeine usage], that one is habituated and needs them to function and sleep, or that one is a transhuman whose earplugs are a part of one's body legally and medically, and thus one is medically something to be granted 100% remote work so that the firm can process all of that via their usual systems and processes. Write that one has 0 interest in "medication". "Hey doc, I just gotta tell you honestly man that if I were to choose to remove these earplugs... I would go absolutely batshit insane." Record all notes and measurements with doctors and consider revealing 0 about supplements and/or other medications. A doctor may note nearly perfect ears interiors canals, and suggest that iterated exposure to certain smells will improve baseline stress, hedonic tone, and overall functioning. I obtained a written medical record of severe "hyperosmia" on 2022-03-28.
+
+The thing about this is that what can happen is you decrease the background malodour by say 100x but then due to re norming still perceive that it is a source of stress and anxiogenic and can never really always be totally quite sure just how really bad it is objectively. However, frequently shaving the chest and moustache region of hairs is very helpful. If there is nothing more to be done in a suboptimal environment then whining is unproductive. What can be done has been done. And insofar as the hedonic treadmill is concerned, with Rationality one is still reaping the benefits that go along with the cleaner air cognitively.
+
+This again very hyper literally has to do with lived experience so one can be in the kitchen smelling one's testes or whatever and open a bottle of orange juice and immediately be greeted by the overwhelming-almost sharp odour of the orange juice product itself depending on just how low the background malodour is or how one's brain organ is normed and perceiving/reacting to organic and inorganic volatile compounds in the air. Make it more crystal clear here I mean if I pour a glass of orange juice this will maybe like permeate and dominate the apartment.
+
+This is precisely where details about epsilon1 and epsilon2 come in to play, Builder, etc. and say shaving testes leading to a massive first order alteration in bed room background odour.
+
+This form of biological hacking confers risks and may be considered to be in the domain of esoteric abnormal experi mental psychology, psychiatry, anti psychiatry, neuro science, neurology, nootropics, cognitive performance hacking, cognition.
+
+I can only suggest some of these actions in good faith once one has assets and perhaps a house with a backup electricity plan for there exists a massive downside risk of things going awry if say the city grid crashes. One may survive very unpleasant scenarios with central nervous system over heating and unwanted sensory input. Koans about mild farts lingering in the air for 10 minutes. Or that matter of instant coffee odour in the air going from the living room through the air in flow in to my bed room.
+
+It really is possible to throw up and be in agonising brutal pain over some dude walking by on the street outside one's home with smelly cologne on and begin to perhaps deeply comprehend the meaning of Who Will Survive In Amerika? line "with a gagging perfume". Errm scratch that actually ensure to avoid tape, wet tape, and wet paper near window cracks. Very critical in fact to monitour the precise conditions of the regions surrounding window cracks on both the exterior and interior in janky apartments and houses.
+
+	Teeth Brushing
+
+Rinse with water and thoroughly floss. 1 or 2 large dabs. Thoroughly brush, do not push hard, until everything feels nice and smooth. Brush tongue and around mouth exterior with toothpaste. Wipe completely with clean water finger. Rinse with water whilst scraping tongue with teeth. Rinse with water. Open mouth 0 during the day.
+
+Setup
+Books
+Chronic Exposure To Notes
+Resources
+Problem Solving
+Reading Solutions
+Reading Code
+Implementation
+Effective Debugging
+Competing
+
+Setup
+Extremely important. I run the Visual Studio Code text editor application [see 00 Settings.json] and compile and output in a Google Colab for C++ and Python or Kaggle for R on a 15.6in 1920x1080 Asus Chromebook. Settings in Visual Studio Code are heavily modified rendering it a minimal text editor with hover triggering information to appear [sometimes useful].
+
+Books
+Guide To Competitive Programming, Erickson, CLRS.
+
+Chronic Exposure to Notes
+I like reviewing my .txt files to refresh my memory and think about algorithms and implementations.
+
+Resources
+Competitive Programming Algorithms, Codeforces blogs, Codechef discussions, etc.
+
+Problem Solving
+Project Euler, Code Submission Evaluation System, AtCoder, Google Code Jam. When preparing for X, do the contest X archive.
+
+Reading Solutions
+Pick tasks with editorials. Read after some time and implement. Read a lot of solutions files too to learn ideas. Look up unknown things and read further references.
+
+Reading Code
+Learn better ways of doing things.
+
+Implementation
+Do not be scared, practice, and this will be smooth. Use Notebook and modify it for ease of use. Filter by "accepted" and sort by execution time on AtCoder, Codeforces, etc. for performant C++ implementations.
+
+Effective Debugging
+Do not just ponder code logic: write print statements! Consider writing a naive implementation, comparing the outputs for variables.
+
+Competing
+Competing often makes it less stressful.
+
+GitHub
+To commit a folder:
+cd Lazar
+git init
+git checkout -b main
+git add Notes Resume
+git commit -m "Commit."
+git remote add origin https://github.com/Lazar-Ilic/Lazar.git
+git push -u origin main
+git push origin main
+
+Visual Studio Code
+	[ctrl a] [ctrl c] [ctrl v] Select All Copy Paste
+	[ctrl n] New File
+	[ctrl z] Undo
+	[ctrl f] Find Replace Replace All Capitilisation Match
+	Replace All Function
+		New Line to ""/Null
+		" a" to " A"
+		"    " to "	"
+		""" to """ and "'" to "'"
+		" in to " to " into "
+		" don't " to " do not "
+	Replace Function
+	Capitalisation Match Search Function
+	Default Native Files Directory Save Function Handling
+	Saving Place In File Bookmark Reading Where Left Off Upon Opening
+	Code Colours And Brackets Psyche
+	Autosave With [ctrl z] If Error As Needed
+	...
+.txt Files
+Google Chrome
+AdBlock
+Wizmage Image Hider
+	Pause
+	Exclude Website Domain
+AdBlock For YouTube
+Super Dark Mode Extension
+	Allow Access To File URLs
+All Black - Full Dark Theme/Black Theme Chrome Theme
+Blank Dark New Tab Page
+Calendar .txt File
+Diary .txt File
+Library Genesis
+.mobi .epub .pdf to .txt Conversion
+.torrent to Magnet URL
+Sci Hub
+Google Commands https://www.gwern.net/Search
+Coding
+WolframAlpha Functions
+	https://www.wolframalpha.com/examples/
+	https://www.wolframalpha.com/examples/everyday-life/surprises/
+	t Tests
+	Inverse
+	Determinant
+	Choose
+	Mathematical Constants
+	Unit Conversion
+	Optimal Algorithms Sometimes
+	...
+Google Colab For Execution With 12GB RAM
+	%%writefile a.cpp
+	New Code Cell:
+	%%shell
+	g++ -std=c++17 a.cpp -o a
+	./a
+
+ChromeOS Setup
+
+"Advanced" "Developers" "Linux development environment" "30.0 GB"
+In Chrome open "chrome-untrusted://terminal"
+sudo apt-get install g++
+sudo apt install build-essential
+sudo apt-get install gdb
+Install Visual Studio Code via .deb
+Do Not Add Visual Studio Code Extensions
+Use settings.json file
+In "Linux files" ... "hidden files" ".bashrc" "alias" insert:
+	alias a='g++ -std=c++17 a.cpp'
+	alias s='./a.out'
+	alias d='python a.py'
+Where "a.cpp" and "a.py" are in "Linux files"
+In Chrome open "chrome-untrusted://terminal" and Compile/Output/Execute
+In Super Dark Mode "Manage extensions" "Allow access to file URLs"
+In Chrome append "#toolbar=0" after ".pdf"
+Backup To Google Drive Manually Only
+[Settings, Play Store, Terminal, Files, Chrome, Camera, Visual Studio Code, uTorrent, Explore, Web Store, Video Player All Format, Tor]
+[Auto Hide Lower Bar Pinned Chrome, Files, Visual Studio Code]
+
+sudo apt-get install python3.8
+sudo apt-get install python3-pip
+pip3 install torch
+pip3 install keras
+pip3 install tensorflow
+pip3 install numpy
+pip3 install pandas
+pip3 install scipy
+pip3 install matplotlib
+pip3 install scikit-learn
+pip3 install statsmodels
+pip3 install seaborn
+
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    "editor.fontSize": 20,
+    "editor.wordWrap": "on",
+    "editor.codeLens": false,
+	"editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.dragAndDrop": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.foldingHighlight": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestions": false,
+    "editor.snippetSuggestions": "none",
+    "editor.suggest.filterGraceful": false,
+    "editor.suggest.showClasses": false,
+    "editor.suggest.showConstants": false,
+    "editor.suggest.showColors": false,
+    "editor.suggest.showConstructors": false,
+    "editor.suggest.showEnumMembers": false,
+    "editor.suggest.showCustomcolors": false,
+    "editor.suggest.showEnums": false,
+    "editor.suggest.showEvents": false,
+    "editor.suggest.showFields": false,
+    "editor.suggest.showFiles": false,
+    "editor.suggest.showFolders": false,
+    "editor.suggest.showFunctions": false,
+    "editor.suggest.showIcons": false,
+    "editor.suggest.showInlineDetails": false,
+    "editor.suggest.showInterfaces": false,
+    "editor.suggest.showIssues": false,
+    "editor.suggest.showMethods": false,
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showModules": false,
+    "editor.suggest.showOperators": false,
+    "editor.suggest.showProperties": false,
+    "editor.suggest.showReferences": false,
+    "editor.suggest.showSnippets": false,
+    "editor.suggest.showStructs": false,
+    "editor.suggest.showTypeParameters": false,
+    "editor.suggest.showUnits": false,
+    "editor.suggest.showUsers": false,
+    "editor.suggest.showValues": false,
+    "editor.suggest.showVariables": false,
+    "editor.suggest.showWords": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": false,
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "workbench.tips.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
+    "window.titleBarStyle": "custom",
+	"editor.scrollbar.verticalScrollbarSize": 0,
+	"editor.renderLineHighlight": "none",
+	"editor.guides.indentation": false,
+    "workbench.colorCustomizations": {
+		"editor.background":"#000000"
+		"editorLineNumber.foreground":"#000000"
+		"editorLineNumber.activeForeground":"#000000"
+		"titleBar.activeBackground":"#000000"
+		"titleBar.activeForeground":"#000000"
+		"titleBar.inactiveBackground":"#000000"
+		"titleBar.inactiveForeground":"#000000"
+		"titleBar.border":"#000000"
+		"window.activeBorder":"#000000"
+		"window.inactiveBorder":"#000000"
+		"editor.selectionBackground":"#222222"
+		"editor.selectionHighlightBackground":"#111111"
+		"editor.inactiveSelectionBackground":"#111111",
+		"statusBar.background" : "#000000",
+		"statusBar.noFolderBackground" : "#000000",
+		"statusBar.debuggingBackground": "#000000",
+		"editorGroupHeader.tabsBackground": "#000000",
+		"editorGroup.border": "#000000",
+		"editorGroupHeader.tabsBorder": "#000000",
+		"editorGroupHeader.border": "#000000",
+		"editorGroup.focusedEmptyBorder": "#000000",
+		"tab.activeBackground": "#000000",
+		"tab.unfocusedActiveBackground": "#000000",
+		"tab.border": "#000000",
+		"tab.activeBorder": "#000000",
+		"tab.inactiveBackground": "#000000"
+    },
+    "editor.fontFamily": "monospace",
+	"editor.lineNumbers": "off",
+	"editor.folding": false,
+	"editor.glyphMargin": false,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"python.showStartPage": false
+}

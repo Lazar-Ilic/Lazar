@@ -1,0 +1,209 @@
+Good friend likes raps and rapping.
+
+	Maximum Flow And Minimum-Cost Flow In Almost-Linear Time
+
+Seminal seminal seminal seminal paper with the OK comment through each part for real for real maybe.
+
+1 Introduction 1
+
+
+
+1.1 Applications 2
+
+
+
+1.2 Key Technical Contributions 2
+
+
+
+1.3 Paper Organization 4
+
+
+
+2 Overview 5
+
+
+
+2.1 Computing Min-Cost Flows via Undirected Min-Ratio Cycles 5
+
+
+
+2.2 High Level Overview of the Data Structure for Dynamic Min-Ratio Cycle 7
+
+
+
+2.3 Building Core Graphs 10
+
+
+
+2.4 Maintaining a Branching Tree Chain 13
+
+
+
+2.5 Going Beyond Oblivious Adversaries by using IPM Guarantees 14
+
+
+
+2.6 The Rebuilding Game 16
+
+
+
+2.7 Dynamic Embeddings into Spanners of Decremental Graphs 17
+
+
+
+3 Preliminaries 21
+
+
+
+4 Potential Reduction Interior Point Method 24
+
+
+
+4.1 One Step Analysis 25
+
+
+
+4.2 Stability Bounds 29
+
+
+
+4.3 Initial and Final Point 30
+
+
+
+5 Decremental Spanner and Embedding 31
+
+
+
+5.1 The Algorithm 32
+
+
+
+5.2 Implementing the Sparsification Procedure 37
+
+
+
+6 Data Structure Chain 41
+
+
+
+6.1 Dynamic Low-Stretch Decompositions (LSD) 42
+
+
+
+6.2 Worst-Case Average Stretch via Multiplicative Weights 44
+
+
+
+6.3 Sparsified Core Graphs and Path Embeddings 44
+
+
+
+6.4 Full Data Structure Chain 45
+
+
+
+7 Routings and Cycle Quality Bounds 46
+
+
+
+7.1 Passing Circulations and Length Upper Bounds Through a Tree-Chain 47
+
+
+
+7.2 Finding Approximate Min-Ratio Cycles in a Tree-Chain 57
+
+
+
+8 Rebuilding Data Structure Levels 61
+
+
+
+8.1 Analyzing the rebuilding game algorithm 63
+
+
+
+8.2 Dynamic Min-Ratio Cycle Using the Rebuilding Game 68
+
+
+
+9 Computing the Min-Cost Flow via Min-Ratio Cycles 68
+
+
+
+10 General Convex Objectives 72
+
+
+
+10.1 General Setup for General Convex Objectives 72
+
+
+
+10.2 Applications: p-Norms, Entropy-Regularized Optimal Transport, and Matrix 
+
+
+
+Scaling 79
+
+
+
+References
+
+
+
+A Previous Works 90
+
+
+
+A.1 Maximum Flow 90
+
+
+
+A.2 Minimum-Cost Flows 92
+
+
+
+B Omitted Proofs 92
+
+
+
+B.1 Proof of Lemma 4.12 92
+
+
+
+B.2 Proof of Theorem 5.11 93
+
+
+
+B.3 Proof of Lemma 6.5 94
+
+
+
+B.4 Proof of Lemma 6.6 98
+
+
+
+C Cost and Capacity Scaling for Min-Cost Flows 99
+
+
+
+C.1 Reduction to Polynomially Bounded Cost Instances 100
+
+
+
+C.2 Reduction to Polynomially Bounded Capacity Instances 103
+
+
+
+D Applications 107
+
+
+
+List of Figures
+1 Finding good min-ratio cycles using a low-stretch tree 8
+2 A dichotomy: Either the spanner preserves the circulation, or a fundamental spanner cycle is good 10
+3 Changes in the core graph under edge deletions 12
+4 Maintaining the Sparsifier under edge deletions 20
+List of Tables
+1 Important definitions and notation to describe the data structure. 43

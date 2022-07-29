@@ -1,0 +1,37 @@
+Factorials Precomputed: n
+
+Inverse: log p
+	Binary exponentiation a^[p-2] is a^[-1] by Euler.
+
+Choose: 1
+	With precomputed.
+
+Multinomial: n
+	n multiplications.
+
+Exponent: log b
+	Binary exponentiation.
+
+Precompute Choose: n^2
+	Up to Choose[n][n] Pascal's triangle.
+
+Precompute A Choose: n log p
+	A single row Choose[n][] via simple multiplications.
+
+Precompute Exponents Of a: n
+	Iterated multiplications.
+
+Precompute Stirling i.e.: n^2
+	Recursion.
+
+Order Statistic
+	Built in C++.
+
+Sprague-Grundy Theorem
+
+OEIS
+	Read formulae carefully thinking about the entire toolkit including Is Prime, Factor, and Convolution.
+
+-------------
+
+If one has some structure some summation of arithmetic progressions or some induced finite differences higher degree polynomials one can simply execute a big polynomial interpolation for the true underlying formulae in true O[log n] time! O[n] in the bits of input.

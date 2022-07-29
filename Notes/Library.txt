@@ -1,0 +1,849 @@
+lazar_ilic@yahoo.com for .zip of .pdf/.txt
+
+101 Problems In Algebra
+102 Combinatorial Problems
+104 Number Theory Problems
+110 Geometry Problems
+A Path To Combinatorics For Undergraduates
+A Problem Seminar
+A Tour Of C++
+A=B
+Abstract Algebra
+Abstract Algebra Corpus
+Advanced C And C++ Compiling
+Advanced Econometric Methods
+Advances In Econometrics A
+Advances In Econometrics B
+Advances In Financial Machine Learning
+American Invitational Mathematics Examination Solutions
+Algebra Artin
+Algebra Chapter 0
+Algebraic Topology
+Algorithmic Puzzles
+Algorithms A Protracted 10000 Text Books Chortle Corpus
+Algorithms CLRS
+Algorithms Erickson
+Algorithms Knuth
+Algorithms Vazirani
+Alibaba Global Mathematics Competition Solutions
+Architecture Potpourri
+Area Mazes
+Area Mazes 2
+Ariana Goh Collection
+	Algebra
+		Kenneth Hoffman, Ray Kunze - Linear Algebra
+		Nathan Jacobson - Basic Algebra 1
+		Nathan Jacobson - Basic Algebra 2
+		Serge Lang - Algebra
+		Claudio Procesi - Lie Groups
+		Atiyah, MacDonald - Introduction to Commutative Algebra
+		Matsumura, Reid - Commutative ring theory
+		Hartshorne - Algebraic Geometry
+	Analysis
+		Munkres - Topology [At Least Until Chapter 4, Chapters 5&6 Are Cool Too]
+		Walter Rudin - Principles of Mathematical Analysis [Until Chapter 7]
+		Walter Rudin - Real and Complex Analysis
+		Walter Rudin - Functional analysis
+		Klenke - Probability Theory: A Comprehensive Course
+		Miranda - Algebraic curves and Riemann surfaces
+	Topology
+		Lee - Introduction to Smooth Manifolds
+		Joseph J. Rotman - An Introduction to Algebraic Topology
+		Bredon - Topology and geometry
+		Tammo tom Dieck - Algebraic Topology
+		Martelli - An Introduction to Geometric Topology
+	Number Theory
+		Neukirch - Algebraic Number Theory
+		Silverman - Arithematic of Elliptic Curves
+		Koblitz - Introduction to Elliptic Curves and Modular Forms
+		Diamond, Shurman - A First Course in Modular Forms
+	Physics
+		Goldstein - Classical mechanics
+		Landau, Lifshitz - The Classical Theory of Fields
+		John David Jackson - Classical electrodynamics
+		Charles W. Misner, John Archibald Wheeler, Kip Thorne - Gravitation
+		R. Shankar - Principles Of quantum mechanics
+		Steven Weinberg - Quantum theory of fields. Foundations Volume 1
+Art And Craft Of Problem Solving
+Art And Craft Or Problem Solving Solutions
+Art Of Problem Solving
+Art Of Problem Solving Solutions
+AtCoder Solutions
+Bayesian Choice
+Bayesian Data Analysis
+Bayesian Statistics The Fun Way
+Beginning Logic
+Bennett Calculus Solutions
+Bennett Differential Equations Solutions
+Bennett Linear Algebra Solutions
+Biology Olympiads Solutions
+Calculus Apostol 1
+Calculus Apostol 2
+Calculus Of Computation
+Calculus Solutions Harvard MIT Maths Tournament
+Calculus Solutions Rice
+Calculus Solutions Stanford Maths Tournament
+Causality
+Change Is The Only Constant
+Chemistry Olympiads Solutions
+China Mathematics Olympiads Corpus
+Code Submission Evaluation System Solutions
+Codeforces Global Solutions
+Combinatorial Problems And Exercises
+Combinatorial Optimisation Algorithms And Complexity
+Combinatorics A Protracted 10000 Text Books Chortle Corpus
+Combinatorics 3
+Combinatorics A Walk Through Combinatorics
+Combinatorics Algebraic Combinatorics
+Combinatorics Bijective Combinatorics
+Combinatorics Combinatorics A Guided Tour
+Combinatorics Combinatorics The Art Of Counting
+Combinatorics Combinatorics Through Guided Discovery
+Combinatorics Cosmin Pohoata
+Combinatorics Darij Grinberg's Entire List From "Undergrad-Level Combinatorics Texts Easier Than Stanley's Enumerative Combinatorics"
+Combinatorics De Brujin's Combinatorics
+Combinatorics Discrete Mathematics
+Combinatorics Dospinescu
+Combinatorics Foundations Of Combinatorics With Applications
+Combinatorics Generating Functionology
+Combinatorics Graph Theory And Additive Combinatorics
+Combinatorics Introduction To Combinatorics And Graph Theory
+Combinatorics Lecture Notes For "Enumerative Combinatorics"
+Combinatorics Lecture Notes On Algebraic Combinatorics
+Combinatorics Mathematics Of Choice Or How To Count Without Counting
+Combinatorics Problem Solving Methods In Combinatorics
+Combinatorics Olympiad Corpus
+Competitive Programmer's Handbook
+Competitive Programming 3
+Complex Analysis
+Computational Complexity
+Computational Linguistics Olympiads Solutions
+Computer Systems A Programmer's Perspective
+Concepts And Practice Of Mathematical Finance
+Contemporary Abstract Algebra
+Contemporary Abstract Algebra Solutions
+Convex Optimisation Algorithms And Complexity
+Cookie Utility Monsters Corpus
+Cut The Knot
+C++
+	A Complete Guide To Programming In C++
+Data Science A Gentle Introduction
+Decision Procedures An Algorithmic Point Of View
+Deep Learning
+Deep Learning Natural Language Processing
+Deep Learning With Python
+Deep Learning Advanced Deep Learning With Keras
+Deep Learning Hands On Deep Learning Algorithms
+Deep Learning Hands On Machine Learning
+Deep Learning Neural Networks And Deep Learning
+Deep Learning Neural Networks For Pattern Recognition
+Deep Learning Neural Smithing Supervised Learning
+Differential Equations And Their Applications
+Doing Bayesian Data Analysis
+Electrical Engineering Corpus
+Elementary Linear Algebra
+Elements Of Statistical Learning
+Empirical Market Microstructure
+Entire History Of Humanity
+Enumerative Combinatorics 1
+Enumerative Combinatorics 2
+Essentials Of Economics
+Financial Mathematics For Actuaries
+Foundations Of Machine Learning
+Founders Fund Corpi
+Franklyn Wang Harvard Intermediate Microeconomic Theory
+Franklyn Wang Harvard Machine Learning
+Franklyn Wang Harvard Math 55A
+Franklyn Wang Harvard Math 55B
+Franklyn Wang Harvard Probability I
+Franklyn Wang Harvard Probability II
+Game Theory Corpus
+Game Theory Open Problems Corpus
+Gelman
+	Bayesian Data Analysis
+	Teach Statistics
+	Applied Bayesian Modeling And Causal Inference From Incomplete Data Perspectives
+	Data Analysis Using Regression and Multilevel/Hierarchical Models
+	Red State, Blue State, Rich State, Poor State
+	A Quantitative Tour Of The Social Sciences
+	Handbook Of Markov Chain Monte Carlo
+	Regresion And Other Stories
+	Applied Regression And Multilevel Models
+	Also See Like: Error And Inference... Experimental Reasoning, Reliability, And The Objectivity And Rationality Of Science
+Google Code Jam Solutions
+Google Distributed Code Jam Solutions
+Guide To Competitive Programming
+Guide To NumPy
+H01 Heard On The Street
+H02 Frequently Asked Questions In Quantitative Finance
+H03 Interview Primer For Quantitative Finance
+H04 Quant Job Interview Questions
+H05 Quant Job Interview Q&A
+H06 500 Data Science Interview Questions
+H07 120 Data Science Interview Questions
+H08 Data Science And Machine Learning Interview Questions
+H09 Starting Your Career As A Quant
+H10 A Practical Guide To Quantitative Finance Interviews
+H11 Vault Guide To Quant Interviews
+H12 Fifty Challenging Problems In Probability
+H13 Quant Aaron Cao
+H14 A Primer For The Mathematics Of Financial Engineering
+H15 A Primer For The Mathematics Of Financial Engineering Solutions
+H16 High Frequency Trading
+H17 Advances In Financial Machine Learning
+H18 Empirical Market Microstructure
+H19 Probability And Random Processes
+H19 Probability And Random Processes Solutions
+H20 Probability With Martingales
+H21 Introduction To Stochastic Integration
+H22 Concepts And Principles Of Mathematical Finance
+H23 Stochastic Calculus For Finance I
+H24 Stochastic Calculus For Finance II
+H25 Dynamic Hedging
+H26 Python For Data Analysis
+H27 Advanced Portfolio Management
+Hands On Machine Learning With SciKit Learn And TensorFlow
+Hanzhi Zheng LinkedIn Stanford Motivation Inspiration Corpus
+	Applied Multivariate Analysis
+	Compilers
+	Convex Optimisation I
+	Convolutional Neural Networks For Visual Recognition
+	Design And Analysis Of Algorithms
+	Introduction To Automata And Complexity Theory
+	Introduction To Stochastic Differential Equations
+	Introduction To Time Series Analysis
+	Machine Learning
+	Machine Learning With Graphs
+	Mathematical Finance
+	Mining Massive Data Sets
+	Natural Language Understanding
+	Principles Of Computer Systems
+	Probabilistic Graphical Models: Principles And Techniques
+	Random Processes On Graphs And Lattices
+	Randomised Algorithms And Probabilistic Analysis
+	Real Analysis
+	Statistical Methods In Finance
+Harvard Business School Corpus
+Harvard Mathematics Courses Corpus
+Harvard Statistics Courses Corpus
+Harvard Computational Learning Theory
+Harvard Data Structures And Algorithms
+Harvard Micro Economiques
+Harvard Deep Learning For Natural Language Processing
+High School Textbooks Mixture
+Interactive/Automatic Theorem Proving Corpus
+Intermediate Microeconomics Harvard Notes
+International Business Machines Research Ponder This
+International Collegiate Programming Contest Solutions
+International Olympiad Informatics Solutions
+International Mathematics Competition Solutions
+International Mathematics Olympiad Compendium
+International Mathematics Olympiad Solutions
+Introduction To Computational Learning Theory
+Introduction To Game Theory
+Introduction To Game Theory Solutions
+Introduction To Generalised Linear Models
+Introduction To Generalised Linear Models Solutions
+Introduction To Linear Algebra Gilbert Strang
+Introduction To Mathematical Statistics
+Introduction To Partial Differential Equations
+Introduction To Smooth Manifolds
+Introduction To Statistical Learning
+Introduction To Statistical Learning Solutions
+Introduction To Statistical Learning Solutions R
+Introduction To Stochastic Integration
+Introduction To Stochastic Processes
+Iowa Solutions
+International Mathematical Olympiad Short List Solutions
+Jane Street Puzzles
+Language Lover's Puzzle Book
+Linear Algebra Done Right
+Linear Algebra Done Wrong
+Linear Algebra Foundations To Frontiers
+Linear Algebra Problem Book
+Linear Algebra University Of California Davis Notes
+Linux Bible
+Linux Pocket Guide
+Living Proof
+Logic Corpus
+Looking For A Challenge
+Looking For A Challenge 2
+Loss Data Analytics
+Machine Learning 100 Pages
+Machine Learning For Finance
+Machine Learning For Hackers
+Machine Learning Harvard Notes
+Machine Learning In Finance
+Maths 55B Harvard Notes
+MathCounts 1990-2013
+Mathematical Mind Benders
+Mathematical Olympiad Treasures
+Mathematical Olympiads Solutions
+Mathematical Puzzles A Connoisseur's Collection
+Mathematical Puzzles
+Mathematics Of Chip-Firing
+McCombs School Of Business Corpus
+Measure And Integral
+Microeconomics
+Miklos Schweitzer Solutions
+Mind Your Decisions 1-3
+MIT Mystery Hunt
+Napkin
+Natural Language Processing
+Number Fields
+Numerical Analysis
+Olympiad Combinatorics
+Open Problems Corpus
+Open Problems In Economic Theory Corpus
+Open Problems In Mathematics Nash
+Open Problems In Mathematics And Computational Science
+Operating Systems Three Easy Pieces
+Option Volatility And Pricing
+Options Hull
+Options Hull Solutions
+Parallel Corpus
+Parallel Advances On P2P, Parallel, Grid, Cloud, And Internet Computing
+Parallel Computing For Real-Time Signal Processing And Control
+Parallel Introduction To Parallel Processing Algorithms And Architectures
+Parallel Learn CUDA Programming
+Parallel Principles Of Parallel Programming
+Parallel Sourcebook Of Parallel Computing
+Parallel Structured Parallel Programming Patterns For Efficient Computation
+Parallel Programming Using C++
+Parallel Scientific Computing In C++
+Parallel C++ Concurrency In Action
+Parallel An Introduction To Parallel Programming Pacheco
+Partial Differential Equations
+Physics Corpus
+Physics Olympiads Solutions
+Princeton Companion To Mathematics
+Princeton Mathematics Generals Oral Examinations Transcripts
+Principles Of Algorithmic Problem Solving
+Principles Of Mathematical Analysis
+Probability 1 Harvard Notes
+Probability 2 Harvard Notes
+Probability And Computing
+Probability And Random Processes
+Probability And Random Processes Solutions
+Probability With Martingales
+Problems From The Book
+Problems In Real Analysis
+Programming Challenges
+Project Euler Forum Archive
+Putnam And Beyond
+Putnam Carnegie Mellon University
+Putnam Cornell
+Putnam Massachusetts Institute Of Technology
+Putnam Solutions 1938-1964
+Putnam Solutions 1965-1984
+Putnam Solutions 1985-2000
+Putnam Solutions 2001-2016
+Putnam University Of Texas At Austin
+Python For Data Analysis
+Python Building Skills In Obect Oriented Design
+Python Learning Python
+Python 3 Object Oriented Programming
+Quantum Computing Since Democritus
+Randomised Algorithms University Of Texas At Austin Notes
+Reinforcement Learning Algorithms For Reinforcement Learning
+Reinforcement Learning An Introduction
+Reinforcement Learning Markov Decision Processes
+Riddler
+SciPy And NumPy
+Series 57
+Set Theory Corpus
+Short Term Actuarial Mathematics Solutions
+Siye Zhu LinkedIn Harverd Motivation Inspiration Corpus
+	CS 228 Computational Learning Theory
+	CS 124 Data Structures And Algorithms
+	CS 287 Deep Learning For Natural Language Processing
+	CS 136 Economics And Computation
+	Stat 171 Introduction To Stochastic Processes
+	Stat 244 Linear And Generalised Linear Models
+	CS 183 Foundations Of Machine Learning
+	Harverd Financial Analysts Club
+	Math 55a Algebra And Group Theory
+	Math 55b Analysis And Topology
+	Stat 220 Bayesian Data Analysis
+	CS 124 Data Structures And Algorithms
+	Math 136 Differential Geometry
+	CS 136 Economics And Computation
+	Stat 211 Graduate Inference I
+	Stat 210 Graduate Probability I
+	Econ 1011a Intermediate Microeconomics: Advanced
+	Psy 1/SLS 20 Introduction To Psychology
+	Stat 244 Linear Models And Generalised Linear Models
+	CS 121 Theoretical Computer Science
+	Physics 125 Widely Applied Physics [Physics For Future Presidential Advisors]
+Software Engineering And Systems Design Corpus
+Stochastic Calculus For Finance I
+Stochastic Calculus For Finance II
+Sublinear Algorithms Corpus
+Sublinear Algorithms University Of Texas At Austin Notes
+Theory Of Probability
+To Mock A Mockingbird
+Topology
+Understanding Machine Learning
+United States Of America Mathematical Olympiad Solutions
+United State Of America Mathematical Talent Search Solutions
+Vector Calculus
+Vojtech Jarnik International Mathematical Competition Solutions
+Virginia Tech Regional Maths Contest Solutions
+當代中文課程 1-6
+Chinese Language
+
+Annals Of Statistics
+Neural Information Processing Systems
+ArXiV
+Rose-Hulman Undergraduate Mathematics Journal
+American Mathematical Monthly
+Electronic Journal Of Combinatorics
+Annals Of Mathematics
+...
+
+Lazar Ilic
+Yuefang Zhou
+Elon Musk
+Alexander Gerko
+Emily Jia
+Yan Zhang
+Jacob Steinhardt
+Terence Tao
+Paul Christiano
+Greg Brockman
+Ilya [Ilijah] Sutskever
+Dario Amodei
+Sam Altman
+Wojciech Zaremba
+Peter Thiel
+Paul Graham
+Jordan Alexander
+Lex Fridman
+Joe Rogan
+Sam Ehlinger
+Benjamin Shapiro
+Milo Yiannopoulos
+Slavoj Zizek
+Chelsea Voss
+Andrew Critch
+Anna Salamon
+Eliezer Yudkowsky
+Robin Hanson
+Nick Bostrom
+
+Bibliographies [More Exist Privately]:
+Lazar Ilic
+Duluth Research Experience For Undergraduates Alumni
+Open Artificial Intelligence
+Google Deep Mind
+MIT Computer Science And Artificial Intelligence Laboratory
+Berkeley Artificial Intelligence Research
+Berkeley Associated Center For Human Compatible Artificial Intelligence
+Machine Intelligence Research Institute/Singularity Institute
+Hudson River Trading, Jump Trading, Jane Street Capital, XTX Markets, etc. And Employees Corpi
+European Girls' Mathematical Olympiad Corpi
+European Girls' Olympiad In Informatics Corpi
+Math Prize For Girls Corpi
+Girls Gold Medals Role Models Inspirations Corpi
+Female Mathematicians, Physicists, Computer Scientists, Electrical Engineers Corpi
+Alice T. Schafer Mathematics Prize Winners Corpi
+Association For Women In Mathematics Dissertation Prize Winners Corpi
+Association For Women In Mathematics Dissertation Joan And Joseph Birman Research Prizes Winner Corpi
+Association For Women In Mathematics Microsoft Research Prize Winners Corpi
+Association For Women In Mathematics Sadosky Research Prize In Analysis Corpi
+Ruth I. Michler Memorial Prize Winners Corpi
+Princeton Mathematics Faculty
+Princeton Computer Science Faculty
+Columbia Mathematics Faculty
+Columbia Computer Science Faculty
+Rice Mathematics Faculty
+Rice Computer Science Faculty
+Darryl Wu [Rest In Peace Legend]
+Hannah Larson
+Isabel Vogt
+Laura Pierson
+Jason Carroll
+Suhas Daftuar
+Alex Morcos
+Prashant Lal
+Oaz Nir
+Yan Zhang
+Jacob Steinhardt
+Alex Pan
+Kush Bhatia
+Ruiqi Zhong
+Charlie Snell
+Dan Klein
+Yaodong Yu
+Zitong Yang
+Yi Ma
+Erik Jones
+Dan Hendrycks
+Shirley Zhu
+Ziheng Chen
+Andy Zou
+Mantas Mazeika
+Leonard Tang
+Bo Li
+Dawn Song
+Wei Hu
+Antonia Creswell
+Murray Shanahan
+Irina Higgins
+William Fedus
+Berret Zoph
+Noam Shazeer
+Vincent Huang
+Chris Umans
+Chloe Ching-Yun Hsu
+Philipp Krahenbuhl
+Chao-Yuan Wu
+Peter Stone
+Inderjit Dhillon
+Raymond Mooney
+Qiang Liu
+Risto Mikkulainen
+Allen Liu
+Kevin Tian [+]
+Sameer Deshpande
+Victor Zhou
+Dara Wenjia Li
+Sheryl Li
+John Li
+James Rowan
+Patrick Guo
+Sergei Bernstein
+Alexey Radul
+Kristy Chang
+Angela Deng
+Angie Rao
+Jessica Wang
+Ellen Li
+Emma Qin
+Janabel Xia
+Vivian Loh
+Wanlin Li
+Isabella Zhu
+Kaylee Ji
+Jessica Wan
+Rayna Arora
+Tarushii Goel
+Vivian Han
+Claire Zhang
+Luoluo Li
+Katherine Li
+Jonathan Paulson
+Rishabh Pipada
+Ariana Goh
+Timothy Feng
+Siyong Huang
+Rain Jiang
+Richard Qi
+Walden Yan
+Danny Mittal
+Xinyang Chen
+William Lin
+Leigh Marie Braswell
+Benjamin Qi
+Eric Zhang
+Daniel Zhang
+Spencer Compton
+Daniel Chiu
+Jesse Zhong
+Kaden Han
+Michelle Song
+William Hu
+Zhezheng Luo
+Dhruv Rohatgi
+Lawrence Li
+Megan Joshi
+Wanlin Li
+Qi Qi
+Celine Liang
+Demi Guo
+Sherry Gong
+Cassandra Xia
+Victoria Xia
+Julia Huang
+Alex Wei
+Hugh Zhang
+Franklyn Wang
+Victoria Krakovna
+Mehtaab Sawhney
+Jim Tao
+James Damore
+Jinyoung Park
+Huy Tuan Pham
+Siye Zhu
+Yuan Yao
+Erisa Hasani
+Luhao Zhang
+Maria Soria Carro
+Qiaochu Chen
+Yi-Hsuan Hsieh
+Wei-Jen Ko
+Yi-Shan Lu
+Mei Wang
+Eunsol Choi
+Qijia Jiang
+Rachel Ward
+Ngoc Mai Tran
+Jayoon Jang
+Ying Jin
+Shuangning Li
+Yuege Xie
+Ruhui Jin
+Jerry Li
+Ruqi Zhang
+Henry Cohn
+Laurent Demanet
+Alan Edelman
+Michel Goemans
+Jonathan Kelner
+Daniel Kleitman
+Tom Leighton
+Dor Minzer
+Pablo Parrilo
+Alexander Postnikov
+Philippe Rigollet
+Lisa Sauermann
+Richard Stanley
+Daniel Stroock
+Madhu Sudan
+Mirjana Vuletic
+Yufei Zhao
+Linus Hamilton
+Qiaochu Yuan
+Chelsea Voss
+Noam Chomsky
+Tara Javidi
+Madison Lee
+Ross Rheingans-Yoo
+Ross Ulbricht
+William West
+Thomas Carlyle
+Curtis Yarvin
+Nick Land
+Michael Vassar
+Michael Anissimov
+Unabridged Humanity Legal And Political Corpus
+Supreme Court Of The United States Of America Corpus
+Drew Gilpin Faust
+Giuseppe Paleologo
+Nassim Nicholas Taleb
+Julian Assange
+Barack Obama
+Bill Clinton
+Edward Snowden
+Chelsea Manning
+Presley Graham
+Cynthia Stoner
+Robin Hanson
+Tyler Cowen
+Bryan Caplan
+Theodore Kaczynski
+Joe Gallian
+Alan Kessler
+Randall Rausch
+Elizabeth Haluska Rausch
+Eugenio Miravete
+Eugenio Miravete
+Yongmei Lu
+Bill Minutaglio
+Jian Shen
+Max Warshauer
+Eugene Curtin
+Cody Patterson
+Hiroko Warshauer
+Jeff Boyd
+Sam Baethge
+Josh Frost
+Weizhen Gu
+Isil Nal
+Stephen Price
+Jeffrey Huang
+John Urschel
+Ruoxi Chen
+Jane Ahn
+Yang Patil Liu
+Stephanie Ding
+Alex Meiburg
+William Ballinger
+Karthik Karnik
+Vasilije Dobrosavljevic
+Victor Chen
+Mayank Pandey
+Vinayak Kumar
+Gideon Leeper
+Felix Weilacher
+Sara Fish
+Amy Wang
+Zhengyuan Shang
+Kushal Agarwal
+Zhaorong Jin
+Xiangyi Huang
+Samuel Eler
+Brian Lawrence
+Yakov/Yasha Berchenko-Kogan
+Eunjie Klegar
+Andrew Lu Bai
+Albert Xu
+Allison Wang
+Aristotelis Panagiotopoulos
+Mikhail Chebotar
+Zavosh Amir-Khosravi
+Arjun Bose
+Kathy Garcia
+Xander Rudelis
+Richard Hess
+Will Overman
+Hsuan-Te [Miriam] Sun
+Robin Brown
+Chenyue Li
+Lewis Jones
+Rachel Gardner
+Richard Lin
+Gavin Duckett
+Isabella Dalla Betta
+Emma Stephenson
+Neal Baker
+Drew Burd
+Shravika Lam
+Shannon Lu
+Kati Chen
+Nicholas Truong
+Grant McDaniel West
+Jessica Zhao
+Sunny Tian
+Viraj Mehta
+Keyur Mehta
+Nicholas Cen
+Lincoln Valdez
+Rachel Yun Zhang
+Amy Pian Zhang
+Meghal Gupta
+Yael Tauman Kalai
+Yunseo Choi
+Danielle Wang
+Lisa Yang
+Jacob Klegar
+Alexander Yang
+Wilbur Li
+Shomik Verma
+Mark Sellke
+Xiaoyu He
+Hanzhi Zheng
+Amy Anmei Chou
+Fenqjen Luo
+Jacob Fox
+Andrew Suk
+Omer Tamuz
+Aaron Lamoreaux
+Viraj Maddur
+Adam Sheffer
+Elisabeth Markham
+Andy Niedermaier
+Caroline Ellison
+Sam Trabucco
+Nate Parke
+Wenchien Chou
+Desheng Zhang
+Benjamin Krause
+Tanya Khovanova
+Zachary Chase
+Terence Tao
+Alec Sun
+Maria Chudnovsky
+David Conlon
+Gyorgy Elekes
+Hugo Hadwiger
+Gil Kalai
+Donald Knuth
+Joseph Kruskal
+Drake Thomas
+Lex Fridman
+Pedro Santacruz
+Christine Julien
+Nhat Ho
+Adam Klivans
+Jennifer Listgarten
+Moritz Hardt
+Darko Stefanovic
+Karl Mahlburg
+Ken Ono
+George Polya
+Gian Carlo Rota
+Neil Sloane
+Emanuel Sperner
+Zvezdelina Stankova
+Geroge Szekeres
+Gabor Tardos
+Catherine Yan
+Doron Zeilberger
+Andrew Critch
+Yan Zhang
+Kiran Kedlaya
+Wei-Yin Loh
+Po-Shen Loh
+Po-Ling Loh
+Po-Ru Loh
+Nets Hawk Katz
+Jalex Stark
+William Hoza
+David Zuckerman
+Calvin Lin
+Scott Aaronson
+James Tao
+Andrew Suk
+Paul Erdos
+George Szekeres
+Vladimir Markovic
+Natasa Pavlovic
+Gordan Zitkovic
+Milica Cudina
+Milan Stojanovic
+Diana Stojanovic
+Alexander Grothendieck
+Ryan Alweiss
+Nina Zubrilina
+Iurie Boreico
+Zarathustra Brady
+Bobby Shen
+Michelle Shen
+Sherry Gong
+Melanie Wood
+Philip Wood
+Dennis Gaitsgory
+Greg Plaxton
+Anna Gal
+Colin Defant
+Levent Alpoge
+Cosmin Pohoata
+Benjamin Krause
+Andrei Frimu
+Michael Kural
+David Yang
+Ashwin Sah
+Benjamin Gunby
+Scott Duke Kominers
+Alvin Roth
+Noam Elkies
+Peter Winkler
+Noga Alon
+Robert Aumann
+Yuval Peres
+Etienne Vouga
+Gokul Gowri
+Alex Krotz
+Madison Lee
+David Rusin
+Judea Pearl
+Clark Glymour
+Jaksa Cvitanic
+Antonio Rangel
+Frederick Eberhardt
+Christopher Hitchcock
+Juri Minxha
+Stephen Grant
+
+Inanity

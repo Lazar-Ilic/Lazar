@@ -1,0 +1,59 @@
+	Cayley Graphs Formed By Conjugate Generating Sets Of Sn
+
+
+
+	On Coloring The Odd-Distance Graph
+
+
+
+	Permutations With Ascending And Descending Blocks
+
+
+
+	Finite-Time Regional Verification Of Stochastic Nonlinear Systems
+
+
+
+	Pathological Properties Of Deep Bayesian Hierarchies
+
+
+
+	Flexible Martingale Priors For Deep Hierarchies
+
+
+
+	Filtering With Abstract Particles
+
+
+
+	Concrete Problems In AI Safety
+
+Really focused on this one. Maybe Mehtaab Sawhney that day actually was much much much more deeply literati ganger than I was and this was all cohering to him much more reasonably and mathematically than it was to me at the time for I lacked the background prerequisite reading I mean maybe he also a lowkey geek flex at firms' interviews with references to a couple books on Mathematical Finance type a dude I do not know cannot be sure. I know now and understand quite a few of these Physics PhDs types I rant about can geek super super hard in interviews settings and nail tasks and perform for firms so that is that I gotta keep working do something to impress someone or nail a Software Engineer process read all the books.
+
+OK so this whole document is very worth reading very closely. For it points out quite a few very concrete simple toy thought experiments examples of real real real world failure modes. And a lot of stuff very relevant to our mid term timeline problems and analyses for systems and the analysis of human feedback inside such systems with respect to reward hacking, wireheading, and just how much of long run value non drift can be like captured. Still kind of comes into like volition thought experiment territory like the machine proposes a Finite Jest proposes a machine generated sequence of entertaining films or musique or whatever and the human says Yes I mean degeneracy is desired degeneracy there or whatever. And like I do not know their examples are good but like man this stuff is complex I gotta view more on contemporary systems and where things might head for which precise domains when. This is the thing like "seem happy" you know I would seem like just a dude lying in bed working... now I want a system to force me to gaze upon harder literature or ration my Inanity.txt time but I like impulsively flinging memories into there so be it.
+
+	AI Alignment Research Overview
+
+Well again of course the immediate quibble from the get go is of course the ongoing joke which is that what humans want is not so well defined insofar as what we can measure and volition is not well defined and so this is as I said about choosing some structure we think is OK and running with it for measurements to be fed into a machine system at least in the short to mid term timelines.
+
+	Research as a Stochastic Decision Process
+
+Interesting and OK. Obviously for me I have some severely grandiose thoughts in the early morning when I drop caffeine and these can include ideas for fundamental foundational Deep Learning structural insights like trying variants on the Long Short Term Memory cell structure all sorts of non trivial fundamental sort of axiomatic structural assumptions being made or thought of as obviously good when maybe we really can do better. Literally different novel graphs structures in these networks and mechanisms of actions, mostly ad hoc and not really biologically inspired. In any case I record basically all thoughts in my own local .tex files and follow up on them later eventually do literature trawling and frequently just execute banal code debugging type tasks later in the day or have ideas about little optimisations and tweaks. In any case noted maybe soon I will be having ideas for Statistics papers and actually meandering my own way through proofs or non proofs of claims and the sorts of desiderata which appear in these papers. As well as the sort of motivational motivated shticky examples and fun little asides for the readership to think one is a more lit author writer which does count for something, quite a lot really. But the maths and ideation there must be good too and my reputation is important. I need to repair my imago.
+
+	Long-Term and Short-Term Challenges to Ensuring the Safety of AI Systems
+
+This one is OK the Related Work section is worth checking out. Especially Research Priorities For Robust And Benefcial Artifcial Intelligence and A Survey Of Research Questions For Robust And Beneficial AI.
+
+	The Power of Noise
+
+Yeah this is for some "another one, another one, another one, and another one" tier content legendary bro legendary I feel like Khaled bro in the projects where Jigga Hova Jay Shawn Carter was from bro I wanna see what brother Jacob Steinhardt was seeing out of his window... if he even had a window! I bet that dude had a window of opportunity and did not blow it bro. Great references and implicit further readings for sure lotta stuff ton of stuff to really process through here would require more background readings. Not gonna lie I had to re examine all of this Solomonoff Prior stuff myself here been a long minute it is OK kids OK to need to remind yourself of stuff all the time when doing technical readings. Obviously going in I thought that Dr. Scott Aaronson was obviously correct and that Eliezer Yudkowsky is a total wonky donkey donk clown and I come out kind of thinking similarly but great great great writing here from the man himself Dr. Jacob Steinhardt really a consummate professional bar bar bar bar bar. Yeah the commented linked dissertation Using Lotteries To Expand The Range Of Litigation Settlements is alright and user "Dagon" always reminds me as a name of the existence of Dr. Nets Hawk Katz's son Dagon Katz. Qiaochu Yuan's comment is alright I did not remember this even was a debate to be bugging people I mean.
+
+	Random Matrix Models Predict How Real-World Neural Representations Generalize
+
+Section 2.2 is interesting. Yeah so there is some noise and randomness. Needed to read up again on the Marchenko-Pastur Law a little again re mind myself.
+
+Oh I see this is so interesting that Messiuer Alexander Wei my good old friend, pal, buddy, little brother, youngn would be holding a perspective in a paper about neural representations and findings which suggest several promising directions for future inquiry which are discussed.
+
+	Predicting Out-Of-Distribution Error With The Projection Norm
+
+Well this was yet another interesting and tricky to parse document think I might need more background readings here more textbooks so we shall see if I push more Notes on hardcore Deep Learning and Reinforcement Learning textbooks here shortly at some point just copy and paste the table of contents and chug my way through it make sure to follow each and every line and argumentation and maybe ask myself some questions on comprehension too and execute some tasks too.

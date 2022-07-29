@@ -1,0 +1,94 @@
+A. Benjamin, G. Levin, K. Mahlburg, J. Quinn, "Random approaches to Fibonacci identities," The American Mathematical Monthly 107 (2000), 511–16. link
+
+J. Getz, K. Mahlburg, "Partition identities and a theorem of Zagier," Journal of Combinatorial Theory (A) 100 (2002), 27–43. pdf
+
+K. Mahlburg, K. Ono, "Arithmetic of certain hypergeometric modular forms," Acta Arithmetica 113 (2004), no. 1, 39–55. pdf
+
+K. Mahlburg, “The overpartition function modulo small powers of 2,” Discrete Mathematics 286 (2004), no. 3, 263–267. pdf
+
+K. Mahlburg, "More congruences for the coefficients of quotients of Eisenstein series,”  Journal of Number Theory 115 (2005), no. 1, 89–99.  pdf
+
+K. Mahlburg, "Partition congruences and the Andrews-Garvan-Dyson crank," Proceedings of the National Academy of Sciences 102 (2005), no. 43, 15373–76. pdf
+
+K. Bringmann, F. Garvan, K. Mahlburg, "Partition statistics and quasiharmonic Maass forms", Int. Math. Res. Not., 2009, no. 1, 63–97. arXiv:0803.1891  pdf
+
+K. Bringmann, K. Mahlburg, "Inequalities between crank and rank moments", Proc. Amer. Math. Soc. 137 (2009), no. 8, 2567–2574. pdf
+
+K. Bringmann, K. Mahlburg, "An extension of the Hardy-Ramanujan circle method and applications to partitions without sequences", American Journal of Mathematics 133 (2011), 1151–1178. pdf
+T. Kemp, K. Mahlburg, A. Rattan, C. Smyth, "Enumeration of noncrossing pairings on bit strings", Journal of Combinatorial Theory (A) 118 (2011), 129–151. arXiv:0906.2183  pdf
+
+K. Bringmann, K. Mahlburg, R. Rhoades, "Asymptotics for crank and rank moments", Bulletin of the London Mathematical Society 43 (2011), 661–672. arXiv:0903.1297  pdf
+
+K. Bringmann, K. Mahlburg, "Improved bounds on metastability thresholds and probabilities for generalized bootstrap percolation", Transactions of the American Mathematical Society 364 (2012), 3829–3859. arXiv:1001.1977  pdf
+
+K. Bringmann, K. Mahlburg, A. Mellit, "Convolution bootstrap percolation models, Markov-type stochastic processes, and mock theta functions", International Mathematics Research Notices 2013; 971–1013. pdf
+
+K. Bringmann, A. Holroyd, K. Mahlburg, M. Vlasenko, "k-run overpartitions and mock theta functions", Quarterly Journal of Mathematics (2013), 64 (2013), 1009–1021. doi:10.1093/qmath/has019. arXiv:1203.6344  pdf
+
+K. Bringmann, K. Mahlburg, R. Rhoades, "Taylor coefficients of mock-Jacobi forms and moments of partition statistics", Mathematical Proceedings of the Cambridge Philosophical Society, 157 (2014), 231–251. pdf
+
+K. Bringmann, K. Mahlburg,  "Asymptotic formulas for coefficients of Kac-Wakimoto characters", Mathematical Proceedings of the Cambridge Philosophical Society 155 (2013), 51–72. pdf
+
+K. Bringmann, K. Mahlburg, "Asymptotic inequalities for positive crank and rank moments", Transactions of the American Mathematical Society 366 (2014), 1073–1094. arXiv:1205.2155  pdf
+
+Note: The published version of this paper has an incorrect proof of Corollary 3.4. The linked .pdf file corrects the error (p. 11-12).
+
+K. Bringmann, A. Folsom, K. Mahlburg, "Quasimodular forms and $s\ell(m|m)^\wedge$ characters", Ramanujan Journal 36 (2015), 103–116.  arXiv:1302.4040  pdf
+
+Update: “Correction to: Quasimodular forms and $s\ell(m|m)∧\wedge$ characters”, Ramanujan Journal 47 (2018), no. 1, 237–241. pdf
+
+K. Mahlburg, C. Smyth, "Symmetric polynomials and symmetric mean inequalities", Electronic Journal of Combinatorics 20 (2013), P34, 14 pp. pdf
+
+K. Bringmann, J. Lovejoy, K. Mahlburg, "On q-difference equations for partitions without k-sequences", Proceedings of The Legacy of Ramanujan Conference, Ramanujan Mathematical Society Lecture Notes 20, 2013, pp. 129–137. pdf
+
+M. Di Nasso, I. Goldbring, R. Jin, S. Leth, M. Lupini, K. Mahlburg, "On a sumset conjecture of Erdös", Canadian Journal of Mathematics 67 (2015), 795–809. dx.doi.org/10.4153/CJM-2014-016-0. arXiv:1307.0767  pdf
+
+K. Bringmann, K. Mahlburg, "Asymptotic formulas for stacks and unimodal sequences", Journal of Combinatorial Theory (A) 126 (2014), 194–215. arXiv:1308.6813  pdf
+
+M. Di Nasso, I. Goldbring, R. Jin, S. Leth, M. Lupini, K. Mahlburg, "High density piecewise syndeticity of sumsets", Advances in Mathematics 278 (2015), 1–33. arXiv:1310.5729  pdf
+
+G. Andrews, K. Bringmann, K. Mahlburg, "Double series representation for Schur's partition function and related identities", Journal of Combinatorial Theory (A) 132 (2015), 102–119. arXiv:1405.3345  pdf
+
+K. Bringmann, K. Mahlburg, "False theta functions and companions to Capparelli's identities", Advances in Mathematics 278 (2015), 121–136. arXiv:1404.3113  pdf
+
+K. Bringmann, K. Mahlburg, K. Nataraj, "Distinct parts partitions without sequences", Electronic Journal of Combinatorics 22 (2015), Paper 3.3, 13 pp. arXiv:1501.02305  pdf
+
+K. Bringmann, J. Dousse, J. Lovejoy, K. Mahlburg, "Overpartitions with restricted odd differences", Electronic Journal of Combinatorics 22 (2015), Paper 3.17, 16 pp. pdf
+
+Note: The published version has typos on p. 7, where several (k+1)’s should be k’s. This is corrected on p.8 of the linked file.
+
+K. Bringmann, J. Lovejoy, K. Mahlburg, "A partition identity and the universal mock theta functions $g_2$", Mathematical Research Letters 23 (2016), 67–80. arXiv:1311.5483  pdf
+
+M. Di Nasso, I. Goldbring, R. Jin, S. Leth, M. Lupini, K. Mahlburg, "A monad measure space for logarithmic density", Monatshefte für Mathematik 181 (2016), 577–599. arXiv:1503.03810  pdf
+
+M. Di Nasso, I. Goldbring, R. Jin, S. Leth, M. Lupini, K. Mahlburg, "High density piecewise syndeticity of product sets in amenable groups," Journal of Symbolic Logic 81 (2016), 1555–1562. arXiv:1505.04701  pdf
+M. Di Nasso, I. Goldbring, R. Jin, S. Leth, M. Lupini, K. Mahlburg, "Approximate polynomial structure in additively large sets," INTEGERS - Electronic Journal of Combinatorial Number Theory 16 (2016), Paper No. A49, 11 pp. arXiv:1508.02350  pdf
+K. Bringmann, K. Mahlburg, A. Milas, "The Lusztig-Macdonald-Wall conjectures and q-difference equations", Lie Algebras, Vertex Operator Algebras, and Related Topics, p.41–49, Contemporary Mathematics 695, American Mathematical Society, Providence, R.I. 2017. pdf
+
+K. Bringmann and K. Mahlburg, "Three-colored partitions and dilated companions of Capparelli's identities", Analytic number theory, modular forms, and q-hypergeometric series, 139-56, Springer Proc. in Math. and Stat. 221, 2017. pdf
+K. Bringmann, C. Jennings-Shaffer, K. Mahlburg, "On a modularity conjecture of Andrews, Dixit, Schultz, and Yee for a variation of Ramanujan's $\omega(q)$," Advances in Mathematics 325 (2018), 505–532. arXiv:1612.08219  pdf
+
+K. Bringmann, C. Jennings-Shaffer, K. Mahlburg, R. Rhoades, "Peak positions of strongly unimodal sequences”, Transactions of the American Mathematical Society 273 (2019), 7087-7019. arXiv:1806.03217  pdf
+
+K. Bringmann, K. Mahlburg, A. Milas, "On characters of $L_{\frak{sl}_n}(-\Lambda_0)$-modules$,” Communications in Contemporary Mathematics 22 (2020), 1950030, 22 pp. arXiv:1803.08029  pdf
+
+K. Bringmann, C. Jennings-Shaffer, K. Mahlburg, "Proofs and reductions of various conjectured partition identities of Kanade and Russell”, Journal für die reine und angewandte Mathematik (Crelle’s Journal) 766 (2020), 109-135.  arXiv:1809.06089  pdf
+
+K. Bringmann, K. Mahlburg, A. Milas, “Quantum modular forms and plumbing graphs of 3-manifolds”, Journal of Combinatorial Theory (A) 170 (2020), 105145, 32 pp. arXiv:1810.05612  pdf
+
+K. Bringmann, K. Mahlburg, A. Milas, “Higher depth quantum modular forms and plumbed 3-manifolds”, Letters in Mathematical Physics 110 (2020), 2675-2702. arXiv:1906.10722
+
+K. Bringmann, C. Jennings-Shaffer, K. Mahlburg, “On a Tauberian theorem of Ingham and Euler-Maclaurin Summation”, to appear in The Ramanujan Journal. arXiv:1910.03036
+
+K. Bringmann, C. Jennings-Shaffer, K. Mahlburg, “The Asymptotic Distribution of the Rank for Unimodal Sequences”, Journal of Number Theory 229 (2021), 444-462. arXiv:1910.10790
+
+
+
+Other writing, including surveys, unpublished works, and Ph.D. Thesis:
+
+K. Mahlburg, “Ranks and Cranks”, to appear in the Encyclopedia of Ramanujan and His Mathematics, Springer.
+K. Mahlburg, “Honoring a Gift from Kumbakonam”, to appear in the Encyclopedia of Ramanujan and His Mathematics, Springer.
+K. Bringmann, K. Mahlburg, "Schur's second partition theorem and mixed mock modular forms". arXiv:1307.1800
+K. Mahlburg, "An overview of braid group cryptography", 2004. (unpublished graduate school project) pdf
+
+K. Mahlburg, "Congruences for the coefficients of modular forms and applications to number theory," Ph.D. Thesis, University of Wisconsin-Madison, 2006. pdf

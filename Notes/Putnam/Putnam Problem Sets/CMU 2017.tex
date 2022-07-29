@@ -1,0 +1,427 @@
+\twocolumn
+
+\textbf{Introduction}
+
+1 \\
+The designers decided to manufacture them that way, I suppose. Perhaps they just liked that on some asymmetry account like balance of mass pip weight loss.
+
+2 \\
+Pigeonhole $\mathbb{Z}_2^3$
+
+3 \\
+For example the area of the bottom region is $\frac{5}{2}$ thus the induced triangle $\frac{7}{2}$ and thus as $S=\frac{bh}{2}=\frac{7}{2}=\frac{3h}{2}$ one obtains $h=\frac{7}{3}$ and thus $\boxed{2:1}$
+
+4 \\
+If and only if odd number of factors e.g. by pairing squares so $\boxed{44}$
+
+5 \\
+Definition of convex hull.
+
+6 \\
+It follows from Caratheodory that $\log_2(n+1)$ iterations is enough to fully generate the convex hull.
+
+7 \\
+Count in $2$ ways the number of ways to count off $n$ distinct elements from a set of $x+y$ elements in order. Given that $k$ will come from the first $x$ elements, there are $k$ ways to choose which $k$ out of $n$ positions come from that set and the rest is free.
+
+8 \\
+$f(1)=1$ and maybe blowup argumentation.
+
+9 \\
+Dilworth, Erdos-Szekeres type argumentation.
+
+10 \\
+Gallai-Hasse-Roy-Vitaver. From Wikipedia: Maximal acylic subgraph and then colouring each vertex by the length of the longest path in the chosen subgraph that ends at that vertex. Sort of imitating Erdos-Szekeres. Each edge within the subgraph is oriented from a vertex with a lower number to a vertex with a higher number by construction, and is therefore properly coloured. For each edge not in the subgraph there must exist a directed path within the subgraph connecting the same two vertices in the opposite direction, therefore, from higher to lower not equal and again properly coloured.
+
+\newpage
+
+\textbf{Polynomials}
+
+1 \\
+
+
+2 \\
+Note $p(z^2+1)-p(z)^2-1=0$ is the $0$ polynomial but $p(1)=1,p(2)=2,p(5)=5,\dots$ so $p(z)-z$ has infinitely many roots is the $0$ polynomial and thus one obtains the satisfying $\boxed{p(z)=z}$
+
+3 \\
+$\boxed{2}$ trivially $1$ is not enough but $p(1)$ is an upper bound on the coefficients so for example $p(10^a)$ with $10^a>p(1)$ will be a nice read out of the coefficients.
+
+4 \\
+
+
+5 \\
+Count in $2$ ways the number of ways to count off $n$ distinct elements from a set of $x+y$ elements in order. Given that $k$ will come from the first $x$ elements, there are $k$ ways to choose which $k$ out of $n$ positions come from that set and the rest is free.
+
+6 \\
+Affine transformation to the interval $[0,1]$ note $\int_0^1 ax^3+bx^2+cx+d=\frac{a}{4}x^4+\frac{b}{3}x^3+\frac{c}{2}x^2+d$ whence it suffices to solve the set of equations $x_1^3+x_2^3=\frac{1}{2},x_1^2+x_2^2=\frac{2}{3},x_1+x_2=1$ for $\frac{1}{2}\pm \frac{1}{2\sqrt{3}}$
+
+7 \\
+$\boxed{\text{Yes}}$ $1-x$ can be repeatedly extended with sufficiently small magnitude terms so that near the previous set of zeroes behavior is roughly similar and the set is augmented with a new asymptotically further out zero.
+
+8 \\
+Should follow algebraically by definition $p(z)=cz^n$
+
+\newpage
+
+\textbf{Number Theory}
+
+1 \\
+$n|(2^n-1) \iff 2^n \equiv 1 \pmod{n} \iff \phi(n)|n$ contradiction for $n>2$
+
+2 \\
+Let the common difference be $b$ then it contains $(a+mb)^n$
+
+3 \\
+Parity yields squares. In terms of generating functions the value for $p_1^{a_1}p_2^{a_2}\dots$ is $(1-1+1-1+\dots)(1-1+1-1+\dots)\dots$ where each summation in the product contains $a_i$ powers of $-1$
+
+4 \\
+$a$ and $b$ are coprime with $(a-1)(b-1)=70$, thus $\boxed{8,11}$
+
+5 \\
+$n-1$ is coprime with $24$ thus it suffices to note that indeed $1(-1) \equiv 5(-5) \equiv 7(-7) \equiv 11(-11) \equiv -1 \equiv n-1 \pmod{24}$ and thus the divisors pair off with each pair summing to a multiple of $24$
+
+6 \\
+Contradiction otherwise if $2^{\alpha}$ is not a power of $2$ by definition and logarithms.
+
+\newpage
+
+\textbf{Calculus}
+
+1 \\
+Riemann $\boxed{\frac{\pi}{2}}$
+
+2 \\
+Partial fractional decomposition and note degree reveals viability. $\int_0^1 \frac{x^4(1-x)^4}{1+x^2} = \int_0^1 x^6-4x^5+5x^4-4x^2+4-\frac{4}{1+x^2} = \boxed{\frac{22}{7}-\pi}$
+
+3 \\
+Integral inequality one obtains without loss of generality $> \int_0^2 x dx=2$ delta in $f(x)$ values, contradiction because there exists an interval of length at least $2$ around that value of $f'(x)$ and the requisite inequalities all hold.
+
+4 \\
+Contradiction by definition around $f(0)$ continuity yields a maximum value of the function and thus a sufficiently small interval where the inequality is false.
+
+5 \\
+Given that we know this is true and that a function like $1_{0 \le x \le 1}$ can be tightly approximated, one realizes that it suffices to show the measure/length of the region which maps in to $[a,b]$ via $x-\frac{1}{x}$ is $b-a$ but this is true as it results from $[\frac{a}{2}-\frac{\sqrt{a^2+4}}{2},\frac{b}{2}-\frac{\sqrt{b^2+4}}{2}] \cup [\frac{a}{2}+\frac{\sqrt{a^2+4}}{2},\frac{b}{2}+\frac{\sqrt{b^2+4}}{2}]$
+
+6 \\
+StackExchange. $x^x=e^{x\ln(x)}$ and one can make $u$-substitutions, integrations by part, double summations/integrals.
+
+7 \\
+Contradiction. Perhaps on Taylor.
+
+8 \\
+Contradiction otherwise similar to 3.
+
+\newpage
+
+\textbf{Functional Equations}
+
+1 \\
+An even function minus an even function is even and similarly. Thus we may note that even powers are even and subtract off all of them whence we obtain a contradiction on evenness on asymptotic behavior of a remaining nonzero polynomial of odd degree terms as $x \to \pm \infty$ and the vice versa.
+
+2 \\
+$f(x)=\frac{1\pm\sqrt{5}}{2}x$ works and the only zero is $0$ thus the only such $a$ is $0$. Note $f(x)+f(f(x))=f(f(f(x)))=x+2f(x)=f(x+f(x))$ $f(0)=f(f(0))$ and thus $f(f(f(0)))=f(f(0))=f(0)=2f(0)$ thus $f(0)=0$.
+
+3 \\
+Like Putnam. One obtains $f(x)+f\left(\frac{x-1}{x}\right)=1+x,f\left(\frac{x-1}{x}\right)+f\left(\frac{-1}{x-1}\right)=1+\frac{x-1}{x},f\left(\frac{-1}{x-1}\right)+f(x)=1+\frac{-1}{x-1}$ so $\boxed{f(x)=\frac{x^3-x^2-1}{2(x-1)x}}$
+
+4 \\
+$\boxed{f(x)=x+c}$ work. $f(f(x))+x=2f(x)$
+
+5 \\
+For $0<\alpha<1$ one can approximate a point mass of integral $1$ at $\alpha$.
+
+6 \\
+Consider the first value where $f(x)>x$ then contradiction I don't know square free primes generators maybe.
+
+7 \\
+$\boxed{f(x)=ce^x}$. Smooth Solutions of Iterative Functional Differential Equations.
+
+8 \\
+IMO.
+
+9 \\
+Taking the derivative with respect to $x$ one obtains that $2f(x)f'(x)=f'(x+y)f(x-y)+f(x+y)f'(x-y)$ for all $y$ and with respect to $y$ one obtains $-2f(y)f'(y)=f'(x+y)f(x-y)-f(x+y)f'(x-y)$ for all $x$. Also $f(0)=0$ and $f(x)=-f(-x)$ so $f'(x)=f'(-x)$. Note that $f(x)=cx$ work.
+
+\newpage
+
+\textbf{Inequalities}
+
+1 \\
+$\boxed{\left \lfloor \frac{n}{2} \right \rfloor \left \lceil \frac{n}{2} \right \rceil}$ roughly half $0$ half $1$ because this is in fact the maximum multiplicity of contribution for any sub interval.
+
+2 \\
+$\boxed{(\alpha,1-\alpha)| \alpha \in [0,1]}$
+
+3 \\
+For $0<\alpha<1$ one can approximate a point mass of integral $1$ at $\alpha$.
+
+4 \\
+
+
+5 \\
+Otherwise a contradiction via the Isodiametric Inequality.
+
+6 \\
+Follows from $\text{LHS}=n^2(1-d(O,\text{centroid})^2)$
+
+7 \\
+Smooth. Determining The Minimum-Area Encasing Rectangle For An Arbitrary Closed Curve. Minimum bounding box algorithms.
+
+8 \\
+Smooth, for example to center in to a computation in a single free variable.
+
+\newpage
+
+\textbf{Convergence}
+
+1 \\
+Log transform and sub-additivity.
+
+2 \\
+$f(n) \ge \frac{n-1}{2}$ so this series is dominated by $\sum e^{-\frac{n-1}{2}}=\frac{\sqrt{e}}{\sqrt{e}-1}$
+
+3 \\
+StackExchange. Follows from the definition induction exponential asymptotic inequality convergence to $\frac{a}{3}$
+
+4 \\
+No for example $a_i=(-1)^i$ and $a_i=(-2)^i$.
+
+5 \\
+Seems like otherwise one obtains a contradiction on convergence by comparison with the divergent harmonic series.
+
+6 \\
+Seems like otherwise one obtains a contradiction on convergence by comparison with the divergent harmonic series.
+
+7 \\
+Ramanujan.
+
+\newpage
+
+\textbf{Recursions}
+
+1 \\
+$101^2-2\cdot 101=101\cdot 99=\boxed{9999}$
+
+2 \\
+Increasing sequence upper bounding $L=\sqrt{6+L} \to L=\boxed{3}$
+
+3 \\
+
+
+4 \\
+If $a>1$ then it gets mapped in to $a<1$ where one obtains blowup $-\infty$. If $a=0,1$ maps to fixed point $0$. Otherwise it is a decreasing convergence to $0$, if it approached some positive $c$ contradiction passing the limit as $c+e$ for sufficiently small $c$ maps in to less than $c$.
+
+5 \\
+Logistic map. Geometric decay.
+
+6 \\
+Follows by definition and Wallis $\sqrt{\frac{2}{\pi}}=\frac{1}{2} \cdot \frac{3}{4} \cdot \frac{5}{6} \dots$
+
+7 \\
+I think continuity leads to finite bounds leads to like an inductive interval argumentation where one can produce another splitting point repeatedly cut down the region in which the sequence is oscillating potentially repeatedly or some such thing.
+
+8 \\
+Ramanujan.
+
+\newpage
+
+\textbf{Linear Algebra}
+
+1 \\
+$
+\begin{vmatrix}
+0 & 1 & 2 & 3 & 4 \\
+1 & 0 & 1 & 2 & 3 \\
+2 & 1 & 0 & 1 & 1 \\
+3 & 2 & 1 & 0 & 1 \\
+4 & 3 & 2 & 1 & 0
+\end{vmatrix}
+=
+\begin{vmatrix}
+-1 & 1 & 1 & 1 & 1 \\
+-1 & -1 & 1 & 1 & 1 \\
+-1 & -1 & -1 & 1 & 1 \\
+-1 & -1 & -1 & -1 & 1 \\
+4 & 3 & 2 & 1 & 0
+\end{vmatrix}
+=
+\begin{vmatrix}
+-1 & 1 & 1 & 1 & 1 \\
+-1 & -1 & 1 & 1 & 1 \\
+-1 & -1 & -1 & 1 & 1 \\
+-1 & -1 & -1 & -1 & 1 \\
+0 & 0 & 0 & 0 & 4
+\end{vmatrix}
+=
+\begin{vmatrix}
+-2 & 0 & 0 & 0 & 2 \\
+-2 & -2 & 0 & 0 & 2 \\
+-2 & -2 & -2 & 0 & 2 \\
+-1 & -1 & -1 & -1 & 1 \\
+0 & 0 & 0 & 0 & 4
+\end{vmatrix}
+=
+\boxed{(-1)^{n-1}(n-1)2^{n-2}}
+$
+
+2 \\
+Putnam. $\boxed{2}$. StackExchange. For $n=2$ note that the characteristic polynomials of $AB$ and $BA$ are the same. Therefore, if $ABAB=(AB)^2=0$ so $AB$ is nilpotent it must be that $BA$ is too and in particular $(BA)^2=BABA=0$. Kalva.
+
+3 \\
+$\boxed{\text{Barbara}}$ pairing copying for example the first and second column to be identical hence determinant $0$.
+
+4 \\
+StackExchange. Otherwise there exists a row in the inverse $A^{-1}$ with $0$ or $1$ nonzero entries the former is a contradiction as is the latter. Indeed, then the product of this row with a column in $A$ being $0$ would imply that corresponding entry in $A$ was $0$, contradiction.
+
+5 \\
+Recall that a matrix is nilpotent if and only if $\text{tr}(A^k)=0$ for all $k>0$ and these are $n+1$ means e.g. span argumentation one can deduce from a suitable linear combination that indeed any such power sum of eigenvalues of $A$ and $B$ can be expressed in terms of these expressions known to be $0$.
+
+6 \\
+StackExchange. Cauchy-Binet. Characteristic polynomial of $BA$ must divide characteristic polynomial of $AB$ is $P_{AB}(\lambda)=-\lambda^3+18\lambda^2-81\lambda=-(\lambda-9)^2\lambda$ and $\text{tr}(AB)=\text{tr}(BA)=18=\lambda_1+\lambda_2$ whence one deduces the eigenvalues and that $(a-x)(d-x)-bc=x^2-18x+81$ whence $ad-bc=81$ and one can bash in some way non trivial symmetric hence diagonalizable hence minimal polynomial hence manipulations. Using Cayley-Hamilton however at this point yields $(BA-9I)^2=0$ but $BA$ has nonzero determinant hence is invertible hence has rank $2$ and so on and so on.
+
+\newpage
+
+\textbf{Combinatorics}
+
+1 \\
+For example each game contributes $1$ to each of the sums in the first one. To prove the second one it suffices to show that swapping the outcome of a single match preserves the equality e.g. keeps the difference at $0$ because one may repeatedly flip the match outcomes in to any tournament graph and this is clear because $a^2+b^2-(n-a)^2-(n-b)^2=(a+1)^2+(b-1)^2-(n-(a+1))^2-(n-(b-1))^2$
+
+2 \\
+OK so counting in that way one sees the number of such $\{i,j,k\}$ can be counted by adding up cases over which city element is $j$ and for each $j$ we can freely choose both amongst its neighbours.
+
+3 \\
+i.e. show that an $\{n,n\}$ bipartite graph with $2n$ edges contains a cycle but this is clear otherwise it would be an acylic graph i.e. a tree and have $\le 2n-1$ edges for the $2n$ vertices.
+
+4 \\
+Isomorphs in to a statement about binary matrices and frequently appears in combinatorics handouts. One solution is to note that counting in two ways incidences linearity of expectation whatever there exists a student who solved $\ge \frac{120}{200} \cdot 6=\frac{720}{200}$ problems e.g. they solved $4$ problems. Now consider that there were $240$ solves on the other $2$ problems, thus there exists some student who solved those $2$. Now these together solved all $6$ problems.
+
+5 \\
+It suffices to note that clearly the order is the LCM of the cycle lengths in the cycle decomposition and thus the LCM of all of these is the LCM of all possible cycle lengths but then this necessarily is merely the product of all of the maximal prime powers which appear in $[n]$ and i.e. one obtains the recursion. Sequence A003418 in the OEIS.
+
+6 \\
+$\boxed{2^1,2^2,\dots,2^n}$ indeed consider the families generated by $\varnothing,\{\{1\}\},\{\{1\},\{2\}\},\dots$ under the conditions e.g. binary strings where the final block acts as a single digit and note that it must be the case $F$ permits such a block acting as a block subset representation as if $a$ and $b$ are ever not both on or both off then one can utilize the rules and isolate them e.g. one can always determine the minimal block sets with repeated pruning trimming down applications of the intersection function.
+
+7 \\
+$\boxed{\text{No,Yes}}$ indeed for the former consider, imitating a construction from a previous Putnam CMU task: \\
+$11000000000000\dots$ \\
+$10110000000000\dots$ \\
+$01101100000000\dots$ \\
+$10011011000000\dots$ \\
+$01100110110000\dots$ \\
+$10011001101100\dots$ \\
+$01100110011011\dots$ \\
+Where each $1$ represents an indicator function e.g. the first set listed is the set  $\{1,2\}$ and the second is $\{1,3,4\}$. Then by construction $a_i \cap a_{i+1}=\{2i-1\}$ an infite set of intersections. I think the other case follows as for example $U=\{1,2,\dots,\text{max}(A_1)\}$ works. It would be very nice to compose a task with a literal functional transformation in to a discrete Helly setting.
+
+\newpage
+
+\textbf{Integer Polynomials}
+
+1 \\
+Homer has the ultimate turn and so to make $p(x)$ divisible by $x-2012$ is equivalent with making $2012$ a root of $p(x)$ e.g. Homer can choose the correct real coefficient for the final term to produce $0$. Note that for $x^2+1$ one would need that both the polynomials of the even degree and odd degree only terms would need to be divisible by it and in particular one needs $\pm i$ as roots or $0=1-a_{2010}+a_{2008}-\dots+a_0=a_{2011}-a_{2009}+\dots-a_1$ but then each of these chains has $1006$ terms and so Homer can adopt a copy cat strategy and just do something random in the same chain until he gets to place the ultimate coefficient in each chain which he can set precisely as needed, as long as he is paying attention, not eating donuts or whatever the show producers have him doing on the job, and can compute those big numbers Albert is sure to put down.
+
+2 \\
+i.e. $p(x)=2008=2^3 \cdot 251$ has $2\cdot 4\cdot 2=16$ factors and so otherwise $q(x)$ could take on one of these factors at at most $16\cdot 5=80$ distinct integer values contradiction.
+
+3 \\
+For example one thing which works is to plug in $0$ and obtain that, working modulo $5$, the constant term is $0$, and then plug in $\pm 1$ to obtain that $a_2+a_1 \equiv a_2-a_1 \equiv 0 \pmod{5}$ and thus they must both also be multiples of $5$.
+
+4 \\
+It would be convenient and suffice if each term was i.e. if the only solution to the former modulo $29$ was the trivial solution. So, it suffices to compute the quartic residues modulo $29$, indeed they are $0,1,7,16,20,23,24,25$ and then e.g. observe by inspection that there do not exist any non trivial solutions i.e. no $3$ of these sum to $0$ like $29$ or $58$.
+
+5 \\
+Nice extension so for example $p(a_i) \equiv 0 \pmod{p(a_i)}$ means that it suffices by Chinese Remainder to compute an $a$ such that $a \equiv a_i \pmod{p(a_i)}$ I think for this to not exist one would need something about common factors which would lead to a contradiction from the $(a_i-a_j)|(p(a_i)-p(a_j))$ fact.
+
+6 \\
+I don't know actually if one can do argumentation modulo $1$ looking at first degree terms in limiting cases as $n \to \pm \infty$
+
+7 \\
+See 9 below.
+
+8 \\
+See 9 below.
+
+9 \\
+One would think density argumentation would work or say in the $n=2$ case a modulo argumentation.
+
+10 \\
+This is an interesting extension question.
+
+\newpage
+
+\textbf{Probability}
+
+1 \\
+Randomly select hand and a threshold value such that for any non trivial interval $P>0$ that the threshold value is in that interval. Then guess in comparison with the threshold value and note that with probability $1-p$ we win with probability $\frac{1}{2}$ and with probability $p$ we win with probability $1$
+
+2 \\
+$\boxed{\text{No}}$ indeed $\frac{1}{1}>\frac{18}{19},\frac{1}{19}>\frac{0}{1},\frac{18}{20}>\frac{2}{20}$ e.g.
+
+3 \\
+$P(0)=0$ \\
+$P(1)=\frac{1}{3}P(0)+\frac{2}{3}P(2)$ \\
+$P(2)=\frac{1}{3}P(1)+\frac{2}{3}P(3)$ \\
+$P(3)=\frac{1}{3}P(2)+\frac{2}{3}P(4)$ \\
+$\dots$ \\
+$P(1000)=1$ \\
+$2x^2-3x+1=(x-1)(x-\frac{1}{2})=0$ whence the fundamental solution is $c_1 \left(\frac{1}{2} \right)^n + c_2 1^n + c_3 = c_1 \left(\frac{1}{2} \right)^n + c_2$ in this case $c_1+c_2=0,c_1 \left(\frac{1}{2} \right)^{1000}+c_2=1$ and we compute that $P(1)=c_1 \left(\frac{1}{2} \right)+c_2=\boxed{\frac{2^{999}}{2^{1000}-1}}$
+
+4 \\
+$\frac{\sum i\left(\frac{2}{6}\right)^{i-1}\left(\frac{1}{6}\right)}{\sum \left(\frac{2}{6}\right)^{i-1}\left(\frac{1}{6}\right)}=\boxed{\frac{3}{2}}$
+
+5 \\
+This task statement is mind boggling incomprehensible Lucky Charms marshmellow stew to me coming from a dude who did competitive programming and knows a thing or $2$ about technical clarity and precision.
+
+\newpage
+
+\textbf{Just Do It}
+
+1 \\
+Other file. Contradiction otherwise.
+
+2 \\
+$659$ $3$s and a $2$
+
+3 \\
+E.g. you have a binary string like $10110001$ of length $8$ and follow it with its inverse and the final step back in to it and count the number of instances of $11$ so the number of instances in $10110001010011101$ is $3$. well then it suffices to note the result for alternating binary string and then note that insertion next an equivalent dude in the previous string will increase both the length and count by precisely $1$ thus preserving the parity criterion as desired.
+
+4 \\
+I don't know it does not need to be surjective was think some counting up digitary function such that this gets satisfied perhaps in some triangular way to force the condition where I suppose a terminating decimal would correspond to a finite subset or a finite subset with some simple infinite block appended at the end e.g.
+
+5 \\
+A bijection can be decomposed in to $2$ involutions. A permutation can be decomposed in to a composition of $2$ permutations of order $2$. Cycle decomposition and then for each cycle $p_i \to p_{-i}$ and $p_i \to p_{1-i}$ where the indices are taken modulo $n$ as needed.
+
+6 \\
+Other file. Flip until comparison between the binary string of flips and $\alpha$ is determined at which point the player wins if the binary string is less than $\alpha$ loses otherwise.
+
+7 \\
+We want to evaluate the sum of the probabilities over the cases of the sum being $10,15,20,\dots,60$ and thus use the roots of unity filter summing over the evaluations at the $5$th roots of unity of, where the equality follows for these particular values and the fraction is to produce the desired target $1$ indicator function for each corresponding probability, $\frac{1}{5}\left(\frac{x+x^2+x^3+x^4+x^5+x^6}{6}\right)^{10}=\frac{1}{5\cdot 6^{10}}\left(\frac{x^7-x}{x-1}\right)^{10}=\frac{1}{5\cdot 6^{10}}\left(\frac{x^2-x}{x-1}\right)^{10}=\frac{1}{5\cdot 6^{10}}x^{10}=\frac{1}{5\cdot 6^{10}}$ where the evaluation at $1$ is $\frac{1}{5}$ and we obtain $\boxed{\frac{1}{5}+\frac{4}{5\cdot 6^{10}}}$
+
+\newpage
+
+\textbf{Geometry}
+
+1 \\
+Reflect and the shortest distance between $2$ points is a line.
+
+2 \\
+I would think there exists a rather simple windmilling sort of algorithm starting with an edge of the convex hull.
+
+3 \\
+I think you can smooth vertices outwards while increasing this sum of squares or project on to an enclosing rectangle and utilize Cauchy-Schwarz and Pythagorean.
+
+4 \\
+Reflect the path $2$ times and the shortest distance between $2$ points is a line.
+
+5 \\
+Putnam Notes. Either the convex hull contains $5$ points or $4$ points in which case we are done or consider the side we do not intersect with the line through the $2$ points inside the triangle convex hull.
+
+6 \\
+Maybe Miquel related or some inversive inequality emerges.
+
+7 \\
+I don't know frankly a plane intersection formula computation.
+
+8 \\
+Smooth to $1$ vertex and e.g. $2$ extremal symmetric edges points like $(x,0),(0,x),(1,1)$ and compute $\sqrt{x^2+x^2}=\sqrt{1^2+(1-x)^2}=\boxed{\sqrt{6}-\sqrt{2}}$
+
+9 \\
+i.e. a la Putnam show that $2R \le abc$ but $S=\frac{abc}{4R}\ge \frac{1}{2}$ by Pick.

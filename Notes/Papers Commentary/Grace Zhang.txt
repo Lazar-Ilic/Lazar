@@ -1,0 +1,96 @@
+Cute anyways unclear what her profile picture is supposed to be of on the GitHub system platform @gzgracez uh unclear unclear fails a back reverse image search but makes me think of a trio of penguins of course. Widdle flipper flapper flooper flopper happy feet.
+
+Auto-Theremin Public
+GENED 1080 Final Project
+ Jupyter Notebook Updated on Dec 10, 2019
+BLOW Public
+Wind Turbines
+ HTML Updated on May 13, 2016
+BreakingBarriersTheGame Public
+Breaking Barriers literally and metaphorically
+ Processing Updated on Nov 27, 2014
+CongressSearcher Public
+ JavaScript Updated on Mar 5, 2016
+FishTales Public
+Virtual Fish Tanks
+ Processing Updated on Dec 22, 2015
+FlappyBird-SpriteBuilder Public
+Forked from MakeSchool/FlappyBirdTemplate-Spritebuilder
+ Objective-C  3,736 Updated on Oct 20, 2014
+Fractals Public
+Generating the Mandelbrot and Julia sets with complex numbers
+ JavaScript Updated on Oct 19, 2016
+Google-Apps-Scripts Public
+A collection of useful Google Apps Scripts
+ JavaScript Updated on Dec 29, 2015
+HTML-CSS-Intro Public
+ HTML Updated on Feb 2, 2016
+HackTrin Public
+Website for HackTrin at Trinity!
+ CSS  2 Updated on Nov 29, 2017
+HackTrin2014 Public
+Created at HackTrin 2014 - a collection of 6 programs that every student needs
+ Processing Updated on Dec 22, 2015
+LeapAudio Public
+Forked from VjiaoBlack/LeapAudio
+Using the Leap Motion to play different chords based on different hand positions
+ JavaScript  3 Updated on Sep 6, 2014
+LeapMusic Public
+Forked from PhilippSteinmann/LeapMusic
+A Chrome extension that allows Pandora to be controlled by the Leap Motion
+ JavaScript  2 Updated on Jan 20, 2015
+MultiA Public
+Forked from nhsegal/MultiA
+A sim to illustrate the path integral approach to QM
+ JavaScript  1 Updated on May 27, 2015
+PersonalBudgetAdvisor Public
+ Python Updated on Jul 21, 2017
+PhysicsScoresDisplayer Public
+Using Google Apps Script to display students' physics scores on well-formatted Google Sheets
+ JavaScript Updated on Apr 1, 2015
+PlayThatTune Public
+Randomly generates and plays a song, and displays a dynamically generated visualization as well
+ Java  1  1 Updated on Feb 16, 2015
+Roll-A-Bunny Public
+CS 175 Final Project
+ ASP Updated on Dec 17, 2018
+Rosalind Public
+Solutions to problems from rosalind.info
+ Python Updated on Oct 25, 2014
+abc Public
+Website created at the Women In Tech Hackathon
+ CSS Updated on Dec 23, 2014
+check50 Public
+Forked from cs50/check50
+This is check50, a command-line program with which you can check the correctness of your programs.
+ Python  194 Updated on Sep 19, 2017
+checks Public
+Forked from cmbear37/checks
+ Python Updated on Sep 22, 2017
+dynamicQuiz Public
+A dynamic quiz web application using Node.js
+ JavaScript  31  28 Updated on Feb 12, 2020
+fini Public
+ HTML Updated on Dec 9, 2016
+firebase Public
+Testing out a firebase authentication system
+ JavaScript Updated on Apr 19, 2015
+gzgracez Public
+For fun & testing out Jekyll
+ CSS  1 Updated on Jul 5, 2015
+harvardnow Public
+Forked from jshen/harvardnow
+ Python  68 Updated on Jan 15, 2018
+localhackday Public
+Website for YH: LocalHackDay
+ HTML  1  4 Updated on Oct 18, 2015
+mesa Public
+Forked from projectmesa/mesa
+Mesa is an agent-based modeling framework in Python
+ Python  718 Other Updated on Mar 21, 2020
+percentage Public
+Forked from kas/percentage
+🔋 See your battery percentage in the Windows 10 system tray
+ C#  101 MIT License Updated on Jul 22, 2018
+
+OK

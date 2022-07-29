@@ -1,0 +1,253 @@
+Impressive. Perhaps he is summered, programmed, applied, rationalised, and cognitised.
+
+Kushal Agarwal
+Kushal Agarwal
+Quantitative Researcher at Jump Trading LLC
+Chicago, Illinois, United States121 connections
+Join to connect
+Jump Trading LLC
+Jump Trading LLC
+California Institute of Technology
+California Institute of Technology
+
+Experience
+Jump Trading LLC Graphic
+Quantitative Researcher
+Jump Trading LLC
+Jul 2017 - Present5 years 1 month
+
+Chicago
+
+Caltech Robotics Team Graphic
+Programming Lead
+Caltech Robotics Team
+Sep 2013 - Jun 20173 years 10 months
+
+Caltech
+
+Our team has designed, built, and programmed four underwater autonomous vehicle for the 2014, 2015, and 2016 AUVSI RoboSub competitions. We've been steadily improving every year, and our 2016 entry won 1st place out of 46 teams.
+
+As head programmer, I designed and wrote our custom ten-thousand-line, multi-process, C++ software stack, which includes 6DoF Kalman state estimation, quaternion LQR control loops, computer vision object detection and localize algorithms, and the acoustic pinger…
+
+Show more 
+Google Graphic
+Software Engineer Intern
+Google
+Jun 2016 - Sep 20164 months
+
+Mountain View
+
+I prototyped an audio-based device localization system which used ultrasonic time-of-flight measurements from a 5.1 surround sound setup to achieve <200ms latency and <5cm accuracy. It used cutting-edge research in signal processing and localization, and included both an offline version in Python for research and development and an online Android demo version
+
+Jump Trading LLC Graphic
+Algorithmic Trading Intern
+Jump Trading LLC
+Jun 2015 - Aug 20153 months
+
+Chicago
+
+Infrared Processing and Analysis Center (IPAC) Graphic
+Ph 11 Research Fellowship
+Infrared Processing and Analysis Center (IPAC)
+Jun 2014 - Sep 20144 months
+
+Caltech
+
+Used machine learning techniques to estimate properties including redshift and 6.2um PAH peak width for infrared galaxies in the AllWise catalog based on a measured subsample.
+
+CV Robotics Team 955 Graphic
+Engineering Manager
+CV Robotics Team 955
+Sep 2009 - Apr 20133 years 8 months
+
+Corvallis, Oregon
+
+I led the team to win 1st place (of 60 teams) at Portland FIRST Regional and qualify for the 2013 FIRST World Championship, the team’s best performance in its 12 year history. I was responsible for the robot our 30+ member team would create. This meant I made critical design trade-off and construction decisions; managed scheduling, parallel projects, lead times, and set-backs; organized meetings and kept them productive; and worked with students, mentors, and our coach so that everyone was on…
+
+Show more 
+Venture Ad Astra Graphic
+Intern
+Venture Ad Astra
+Sep 2012 - Mar 20137 months
+
+Wilsonville, Oregon
+
+I helped the research team at this small innovative technology start-up develop and test an alternative to GPS location-sensing using any Wi-Fi network for indoor or military use. I maintained test equipment, tested software revisions, added functionality to the source code, and learned how to effectively work on large-scale software.
+
+Oregon State University - EECS Graphic
+Intern
+Oregon State University - EECS
+Jun 2010 - Aug 20103 months
+
+Corvallis, Oregon
+
+Implemented “QuadCover – Surface Parameterization using Branched Coverings” (Kälberer et al., 2007) in C++ using discrete calculus, linear algebra, and numerical methods in order to automatically compute a continuous parameterization of a 3D triangular mesh aligned with the principle curvature directions.
+
+Education
+California Institute of TechnologyCalifornia Institute of Technology Graphic
+California Institute of Technology
+BSComputer Science & Applied and Computational Mathematics4.1/4.0
+2013 - 2017
+
+Activities and Societies: Caltech Robotics Team
+
+Crescent Valley High School Graphic
+Crescent Valley High School
+4.0/Valedictorian
+2009 - 2013
+
+Activities and Societies: FIRST Robotics Team 955
+
+Courses
+Advanced Linear Algebra
+ACM 104
+Advanced Robotics: Navigation and Vision
+CS 132a
+Algorithms
+CS 38
+C++
+CS 11
+Classical Analysis
+Ma 108ab
+Differential Equations and Statistics
+Ma 2ab
+Discrete Math
+Ma 6a
+Kinematics
+ME 115ab
+Machine Learning
+CS 156ab, 155, 159
+Operating Systems
+CS 24
+Statistical and Quantum Mechanics
+Ph 12
+Stochastic Processes
+ACM 116
+Honors & Awards
+William Lowell Putnam Math Competition: Top 200
+Mathematical Association of America (MAA)
+Dec 2015
+ACM Intercollegiate Programming Contest
+-
+Nov 2014
+Ranked 4th of 70 teams in the S. California region
+
+USA Math Olympiad (USAMO) Qualifier
+Mathematical Association of America
+Apr 2012
+I qualified for the USA Math Olympiad based on two previous tests. (Out of over 200,000 high school students, only 250 are invited for USAMO)
+USA Computing Olympiad (USACO) Gold level Competitior
+-
+Mar 2012
+USACO Competition to create and code efficient and correct algorithms, where I qualified to compete at the Gold level, among only 40 other US high school students (2011-2013)
+
+Groups
+ASE Alumni - SAASE Alumni - SA Graphic
+ASE Alumni - SA
+-
+Caltech Alumni AssociationCaltech Alumni Association Graphic
+Caltech Alumni Association
+-
+FIRST Alumni NetworkFIRST Alumni Network Graphic
+FIRST Alumni Network
+-
+View Kushal’s full profile
+See who you know in common
+Get introduced
+Contact Kushal directly
+Join to view full profile
+People also viewed
+Nikola Yolov
+Quantitative Researcher at Jump Trading LLC
+
+Greater Oxford Area
+Sinan Zhao
+Quantitative Researcher at Jump Trading LLC
+
+Greater Chicago Area
+Vinicius Silva de Oliveira
+Quantitative Research Intern at Jump Trading LLC
+
+Palaiseau
+Daodi Lu
+Quantitative Researcher at Jump Trading LLC
+
+Greater Chicago Area
+Tairu Lyu
+Quantitative Researcher at Citadel Securities
+
+Chicago, IL
+Chengkai Zhang
+Quantitative Researcher at Jump Trading LLC
+
+New York City Metropolitan Area
+Austin Collins
+Quantitative Researcher at Jump Trading LLC
+
+Cambridge, MA
+Simon Zheng
+Non-Compete at Jump Trading LLC
+
+New York, NY
+Ruizhou Ding
+Quantitative Researcher at Citadel Securities
+
+Chicago, IL
+Bingyuan (Patrick) Liu
+Quantitative Researcher at Citadel Securities
+
+Chicago, IL
+Show more profiles 
+
+Looking for career advice?
+Visit the Career Advice Hub to see tips on accelerating your career.
+
+View Career Advice Hub
+Others named Kushal Agarwal
+
+Kushal Agarwal
+Finance Controller at Tolaram Group
+
+Accra
+
+Kushal Agarwal
+Senior Consultant, Specialty Tax, Tax Automation Services at Baker Tilly US
+
+Hyderabad
+
+Kushal Agarwal
+Sport for Development | Education
+
+Bihar, India
+
+Kushal Agarwal
+Director at Sarvesh Refractories Ltd
+
+Sundargarh
+
+Kushal Agarwal
+Deloitte
+
+Hyderabad
+268 others named Kushal Agarwal are on LinkedIn
+
+See others named Kushal Agarwal
+Add new skills with these courses
+
+Computer Vision on the Raspberry Pi 4
+
+Python for Engineers and Scientists
+
+Julia for Data Scientists First LookSee all courses
+Kushal’s public profile badge
+Include this LinkedIn profile on other websites
+
+Kushal Agarwal
+Kushal Agarwal
+Quantitative Researcher at Jump Trading LLC
+
+company image for Jump Trading LLC
+Quantitative Researcher at Jump Trading LLC
+
+school image for California Institute of Technology
+California Institute of Technology

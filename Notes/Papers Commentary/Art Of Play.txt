@@ -1,0 +1,468 @@
+Fascinating fun stuff yeah I met these Art Of Play dudes at Gathering 4 Gardner G4G 13. Nice name nice ideas. It's actually funny you know thinking about sipping sake and like High End sushi joints and like the history of rap hip hop musique in Atlanta.
+
+Of course their offering of the Shashibo Cube product is funny in the context of the Alibaba Global Mathematics Competition 2022 Qualifications Round Task 1
+
+https://www.artofplay.com/collections/toys/products/shashibo-cube
+
+https://www.artofplay.com/
+
+https://a16zcrypto.com/puzzles-crypto-web3-with-a16z-podcast/
+
+Puzzles (& crypto) — web3 with a16z #4… with bonus puzzle!
+by Matthew Stein, Scott Duke Kominers and Sonal Chokshi
+July 5, 2022
+
+a16z Crypto
+Puzzles (& crypto) — web3 with a16z #4… with bonus puzzle!
+by Matthew Stein, Scott Duke Kominers and Sonal Chokshi
+July 5, 2022
+
+
+Welcome to web3 with a16z, a show about the next internet from the team at a16z crypto; that includes me, your host Sonal. This show is for anyone – whether developer, artist, community leader, or other builder – seeking to understand, and go deeper on all things crypto and web3.
+
+You can catch episodes 1 through 3, in which we cover everything from “methods to the madness” when it comes to thinking about the markets, and the longer arc of innovation; to the foundations, and deeper meanings and arcs of blockchains, crypto, and web3; to specifics on auction design, and mechanism design, for web3 and beyond.
+
+But this episode is a special, *bonus* holiday episode to tide us over until we resume with our regular programming after a brief holiday vacation. It’s based on a fun hallway-style riff we did linking two seemingly unrelated things: puzzle design, and crypto. And beyond the surface analogies and comparisons discussed in here, we’ll go deeper into specific product design & UI best practices in future episodes, but here — our experts riff on all things puzzle design, with deep passion as members of the community, also commenting within on themes that generally connect to crypto:
+
+We have Scott [Duke] Kominers, a16z crypto research partner and professor at Harvard Business School who specializes in market and incentive design — but who also wrote Bloomberg’s puzzle column for a couple years; has designed several puzzle experiences in collaboration with different NFT communities; and, whose team also won the MIT Mystery Hunt several years ago (that’s an internationally renowned and one of the longstanding puzzle hunts in the world, that takes place annually on the Massachusetts Institute of Technology campus).
+We also have, as our special guest, Matthew Stein, whose team won the 2021 MIT Mystery Hunt — he’s a former software engineer at Google; and, for the last few years, a full-time puzzle designer who specializes in narrative puzzle hunts… as well as in designing alternate reality games for NFT communities, movies, and musicians (speaking of: Matthew is also a violinist, violist, and composer, which connects to his puzzle design aesthetic); Matthew also designs puzzles for Art of Play’s art journal; and is a reviewer for Room Escape Artist, the largest escape room website in North America, where he also writes about various topics in immersive gaming.
+Oh! And since this is a vacation bonus episode, be sure to check out the transcript at a16zcrypto.com [below] for a mini puzzle that you can play within [editor’s note: submit your answers to the puzzle here!]. (As a reminder, we’ll resume our regular programming in mid-July.) And, another reminder that none of the following is investment, business, tax, or legal advice; please see a16z.com/disclosures for more important information, including a link to a list of our investments. And with that: the first voice you’ll hear is Scott’s, followed by Matt’s. ~Enjoy!
+
+Scott: Let me give you the 20-second spiel on like why I think of this as being intuitively related to crypto —
+
+I think of structuring and designing a puzzle very much as structuring and designing an incentive scheme… Building a protocol that’s gonna be intuitive, and make sense to people, that they can explore, and discover, and build out — you know and experience, sort of over time — is very much like being a puzzle architect, like designing the experience of a puzzle and the associated unlocks.
+
+And that second bit even copies over to NFT communities and how they think about gradually building up the components of what they do. It’s very much allowing the experience to periodically evolve — sometimes through the user interactions, and sometimes through new discoveries. So: puzzling and problem-solving is like formulating a- an incentive design; it often has the same mixture of elegance and precision — figuring out how to make a crypto design actually work together.
+
+Matthew: Totally agree. And puzzle design is not just about designing the medium, it’s about designing the full experience <Scott: yes>. So when you’re designing a puzzle, it’s not just “I made a crossword, here, solve it” — it’s everything contextually around how that puzzle is presented — because the puzzle is the experience that the solver has.
+
+I think this is often overlooked in puzzle contests in any format — where incentivization structure, the prize structure is part of the puzzle, whether you like it or not. Like in an escape room also: The fact that there is a time limit, is part of the puzzle; <Sonal: yah> it’s not separate from the puzzles. That totally dictates how you engage with the puzzles, whether you’re taking your time; whether you’re solving as quickly as possible just to get to the answer and then moving on; or fully solving and appreciating each of the intermediate a-ha’s of the puzzle.
+
+For me: A big part of the style of puzzle design I do and enjoy solving is about puzzles as a type of personal expression, and encouraging <Scott: yah> research rabbit-holes, and sharing deep areas of knowledge and hobbies and identities and such <Sonal: yess!> So like I have a background as a software engineer; I’m also a violinist, I do some visual art stuff; when I design puzzles, it brings in all of these different perspectives. And the a-ha moments I create in puzzles are- whether from existing hobbies or new areas of research rabbit holes that I enjoy leading people down.
+
+And in particular I think this contrasts with how people often view a specific type of puzzle-solving as influenced by — the Times crossword specifically; it’s — you can’t look things up; It’s how much you know already <Sonal: yah> If there’s a way to figure it out, if there’s a way to sort of piece stuff together, there certainly is more puzzle-y trivia… but trivia on its own isn’t necessarily a puzzle.
+
+And I don’t necessarily view trivia (in and of itself) as a type of puzzle-solving, simply because it’s you-know-it-or-you-don’t. If anything it’s the exact opposite: I’m designing the puzzle around getting you to look things up and then keep going deeper, and be four hours into researching <Sonal: mhm> asteroid-naming conventions, and suddenly you have this discovery.
+
+Scott: Exactly; discover this entirely new world that the puzzle introduced you to. And hilariously, this is how I got into NFTs, originally… <Sonal: Oh! Say more!>
+
+So, for a couple of years (so starting early in the pandemic), Bloomberg had me write a mostly-weekly puzzle column. And… you know we tied the columns, when we could, to things that were in the news that were kind of puzzle-y, and potentially of interest to Bloomberg readers. And crypto is of course highly of interest to Bloomberg readers, and so we actually did two puzzles around NFTs:
+
+One right after the Beeple sale — NFTs feel really puzzle-y, right; like <Sonal: mhm> you’ve got this art that’s in the open, but it’s cryptographically secured; and there’s a bunch of puzzles that are about solving different sorts of codes, or cryptosystems. And so I did a puzzle –the story was: This new art is in the open; but the address is hidden, can you locate it? (It was one of the best puzzles we ran in the entire series I think, got lots of solvers, lots of attention.)
+
+And then you know a couple months later, these profile-picture projects — I know PFP doesn’t stand for profile picture project, but hey <Sonal laughs> it matches the acronym — you know these PFPs really became popular. And around the time I was reading a New Yorker article about the Bored Ape Yacht Club, and I was like oh wow these feel really puzzle-y too. And I went to my editor I was like “Look can we do a second one on NFTs around these characters; like everyone’s playing these characters.” And he sort of said “Our readers are interested in crypto; if you think there’s a puzzle here!”
+
+So, I did a second one that was built around the PFPs: The imagined setup was you had all of these new NFTs had been released — that we, Bloomberg Conundrums (the puzzle group) <Soal: mhm> had been collecting them surreptitiously for months — and now we’d hidden them but you needed to figure out again something about decoding and understanding the addresses.
+
+And I mentioned in that column — I referenced the Bored Ape Yacht Club and CryptoPunks and SupDucks — and then the SupDucks community reached out and said, “Look, I think you would like this; why don’t you join our discord and check it out?” SupDucks is a 10000-PFP collection from the mind of FrankyNines, based on an earlier NFT he’d created called “Sup Duck” and a related one called “King Frog” — I don’t know, it’s a series of ducks… — it’s a great group of people who boost and cheer each other up by saying “’sup” a lot… And then there’s, you know-
+
+Sonal: <laughs> ‘sup, Scott?
+
+Scott: Exactly. ‘sup?! And no seriously, I mean like the process of getting your first NFT is very complicated <Sonal: yah>, one of my friends who was already really deep in crypto (Far!) helped me navigate84 this — but when I got my first duck, I had hundreds of people within like minutes posted like “’sup”, “’sup”, “’sup” with their ducks… — it was totally magical. (A lot of other NFT projects have emerged out of this initial community.)
+
+And… that was my first entry into an NFT community: I’d written this puzzle about NFTs, that appealed enough to the NFT community, and that they could sort of tell that I you know, had the personality type that would find this stuff fun. And so I joined the SupDucks pond and I haven’t looked back.
+
+Puzzling is like a metaphor for crypto — but the other thing is that lots of crypto people like puzzles. <Sonal: mhm> And like we’ve been doing puzzle with a variety of different crypto projects; it fits in with their experience of game design and stuff like that. We’ve built it with projects, community engagement activities; sometimes collaborative puzzles, sometimes competitive ones… There’s some Bored Ape community-run hunt going on right now… There’s sort of a lot of puzzling in the NFT communities.
+
+Matthew: Yah.
+
+I have an article about the Pilcrow Bar puzzle hunt, and, it was a six-week-long puzzle hunt that a collaborator Sandy Weisz, and I designed for Alinea (this Michelin-star restaurant in Chicago, early pandemic, like June 2020). And it started off easy to moderate difficulty and got into like three to four-hour-long puzzle solves by the end.
+
+And what was exciting about the project was: It was a group of many thousands of people, solving really deep puzzle-hunt puzzles — who hadn’t really heard of or solved puzzle hunts before. So, for me it was really… sort of proof of concept of just how many people there are out there, who would really deeply enjoy this medium of puzzle-solving — that goes much deeper than the like 30-second puzzles you see on social media, or even like the 2- to 5-minute type puzzles that you see in escape rooms.
+
+And, is much more uniquely architected than like The New York Times crossword — to find friends, family, significant others; strangers on the internet even — to solve these puzzles with, and it formed so many incredible connections, and micro sub-communities and things, of people working on solving these puzzles together.
+
+For the record: I wanna state that using standard crosswords and sudokus as examples of what we don’t do, we don’t mean to be shitting on those puzzles — I write crosswords also. I love standard crosswords; I love cryptic crosswords quite a bit more — It’s… more that those are fun, somewhat more static, mediums. Whereas the world of puzzle hunts is vastly more open, and less constrained, and, more open62 to unique types of architecture (of what the experience is).
+
+Sonal: Well that’s a perfect segue to go into *types* of puzzle design actually — I like to do this in all my episodes, where we map out the terrain, or like the taxonomy – so, what’s the broader landscape of puzzle types, just so people have that as context? And then we can dig into more of the specifics of puzzle-hunt mediums, design philosophies, incentive design mindsets… let’s actually talk more now about the categories, of puzzle types.
+
+Matthew: Yah, absolutely. So, when I tell people I’m a professional puzzle designer, oftentimes I get the response “What is that, like jigsaws?”
+
+And it’s sort of hard to describe, because it’s such a vast and deep world in so many different directions. So, briefly, there are a few different categories of puzzles:
+
+In terms of specific puzzle types, there are many different types of word puzzles: So of course we have crosswords, many variants on crosswords; crypto crosswords that are more wordplay-dependent; other types of wordplay.
+Then we have the whole realm of logic puzzles — from sudoku to many different types of Japanese logic puzzles.
+Then, we have puzzles that are sort of puzzle-hunt style — where they don’t obviously fit into a specific category, or there are various niche categories — but for now I’ll just describe them as: puzzles where the puzzle is figuring out what to do. <Sonal: That’s a great definition!> Thank you.
+Then of course, we have the realm of physical puzzles, of mechanical puzzles; I’m an avid puzzle box collector myself! So there are puzzle boxes…
+There are sequential discovery puzzles, where you discover items along the way that serve as tools helping you with later steps.
+Disentanglement puzzles; packing puzzles where you’re fitting pieces together into some form.
+Then we have sort of types of puzzle presentations:
+
+Puzzle hunts, which are sort of puzzle games where each puzzle solves to a word or phrase as an answer.
+And then there are metapuzzles that use the answers to each of those feeder puzzles, altogether.
+Then there are sort of sandboxed, immersive puzzle experiences — which is a fancy way of saying escape rooms, typically.
+So, escape rooms: I describe escape rooms as typically in-person — there’s been quite the renaissance of virtual escape room options also <Sonal: mhm> — but, escape rooms are essentially a form of immersive in-person gaming. Where typically you’re in a self-contained environment versus treasure hunting, ARGs etc., are more broadly just site-specific gaming out in the real world (instead of contained in a controlled space). But, escape rooms are so much more than escaping or even just about rooms these days: They’re really incredible types of immersive gaming experiences that are typically puzzle-driven.
+
+Sonal: Sorry what does A-R-G stand for again?
+
+Matthew: Alternate reality game.
+
+Sonal: Oh okay; keep going, yah.
+
+Matthew: Then we also have types of pervasive puzzle experiences — pulling from the great book “Pervasive Games” which uses that term to describe games that exist out in the real world.
+
+So, this takes a few different forms most notably, alternate reality games: Which are sort of narrative-driven (often times also puzzle-driven games), juxtaposed on the real world — where anything and everything in the world can be part of a puzzle.
+
+There also are more contained, but also site-specific, types of puzzling: this includes treasure hunts, letterboxing, geocaching — various types of engagement with in-person sites, where you’re solving puzzles out in the real world — urban treasure hunts as well.
+
+Did I miss anything Scott? Oh and then tabletop games, there’re narrative puzzle games.
+
+Scott: Oh yes yes; the narrative category is big.
+
+Matthew: Yes yes, which is an emerging genre.
+
+Scott: There’re also like novels that are puzzle novels…
+
+Sonal: Choose your own adventure <yah> — or what do you guys mean by like the narrative examples.
+
+Matthew: So imagine a tabletop game, except it’s almost like an escape-room-in-a-box — and that term was used early on but I don’t think necessarily fits it now —
+
+One of my favorite designers in this realm, Rita Orlov of PostCurious, has been using the term “puzzle tale”, which I really like. “Puzzle-telling”, where you’re telling a story through puzzles where you have a box or maybe some other form filled with objects, and you’re interacting with them solving puzzles, discovering some story from your home.
+
+And then of course… the genre of video-game puzzles is vast.
+
+And then you have various other subcultures: So you have standard crosswords and deep cultures around that, crossword competitions, Twitter communities of people who design crosswords; <Sonal: yup> you have the National Puzzlers’ League around other types of wordplay, especially focusing on cryptic crosswords… You have the MIT Mystery Hunts and other puzzle hunt communities <Sonal: yup>, and it just goes on and on.
+
+Sonal: Great overview Matthew — by the way, the full title of the book that you referenced (this is just for listeners) is Pervasive Games: Theory and Design by Markus Montola, Jaakko Stenros, and Annika Waern (that’s spelled W-A-E-R-N); just so listeners can find it, I’ll put it in the show notes as well, as always —
+
+Alright. Now that we have a high-level lay of the land of puzzle types, I’d love go even deeper into the puzzle mediums – or, I guess what you just called Matthew the “puzzle presentation” aspect — especially when it comes to puzzle hunts (which you both won and mentioned a lot!)
+
+Matthew: Certainly! So, it’s sort of hard to describe as one thing, but they have a few general properties —
+
+Typically, each puzzle solves to a word or phrase as a final answer. So in contrast to maybe a New York Times crossword, where a correctly filled in grid is the answer to the puzzle; in a puzzle hunt, if you had a crossword, it would go one step further.
+
+Scott: And that might be reading every square that has a prime number in it or something. <Sonal: Got it>
+
+There’d be a clue that led you to realize, the prime numbers mattered or something.
+
+Matthew: Exactly. Which gets to… In a crossword, you sort of know what you’re doing when you’re presented with a puzzle: You know that you have some clues, and you need to answer the clues, and fill them into a grid.
+
+In a puzzle hunt, oftentimes the puzzle is figuring out what to do: You’re presented with some information, some piece of data, some object. And, puzzle-hunt puzzles will oftentimes have (what’s called) “flavor text” accompanying them, which gives some keywords18 that you need to pay special attention to, keying in on what might be going on in the puzzle.
+
+But typically it requires: pattern observation, paying attention to small details, noticing what might be amiss, applying common techniques. You have some clues, figure out what the answers might be. Maybe some of the clues are a little bit too ambiguous to figure out the answer at first, but you fill in the ones that you know for sure.
+
+And then maybe you notice that — this is just gonna be an example of a very generic, simple puzzle-hunt style puzzle — maybe you noticed that the left column of the answers, the answers are in alphabetical order; but the right column, the answers seem to be in some particular order. And then you notice that the left column maybe, are anagrams of one of the answers in the right column plus a letter. That type of wordplay is called a “transaddition”. So you match one from the left column, one to the right column; since the left column (the alphabetized ones), already has a strict ordering, you know that probably the ordering of the right column answers matters. And then maybe the extra letters spell out a clue phrase, which then clues some final word is the final answer.
+
+That might be the flow for <Sonal: mhm> a really generic style of this puzzle. <Sonal: Got it>
+
+So, there are things to figure out along the way; you don’t necessarily know what the later steps are — but there are layers that reveal themselves as you progress through the puzzle. And somehow you can get a final answer.
+
+Another property46 of puzzle hunts is “metapuzzles”. At the end of the round, you metapuzzle — which, in some way uses the answers to all the individual puzzles in that round — which are called the “feeder” puzzle answers. Again this can take so so many different forms; <Sonal: yah!> I’m not even going to try and get into examples of that now…
+
+There are sort of two categories of metapuzzles: “shell” metapuzzles or “shell-less” metapuzzles. Shell metapuzzles means that you’re presented with some extra information for the metapuzzle. Whereas shell-less means that the metapuzzle is elegantly contained just within the answers themselves. One is not necessarily better than the other, but, it certainly can be a level more elegant if you can make a shell-less metapuzzle — where there’s that extra layer of hidden meaning contained within the answers staring you in the face the entire time. That then once you’ve solved all of these individual puzzles (that individually are cohesive satisfying experiences), you then reveal another entirely new layer of meaning.
+
+And, the structure can continue on from there; there can be meta metapuzzles that combine all the metapuzzles. Metapuzzle structures can get really creative: So, they can use more than just even the answers to the feeder puzzles. They can also use some version of the mechanics to the feeder puzzles. They can use answers to feeder puzzles from previous rounds, sort of a waterfall/ cascade structure.
+
+One of my favorite MIT Mystery Hunt puzzle rounds — the world’s biggest annual puzzle hunt which happens at MIT annually in January; it involves thousands of participants, hundreds of puzzles; it’s all-out battle-royale of puzzles, with pulling out all the stops in terms of difficulty and depth and such — one of my all-time favorite metapuzzle structures I’ve seen was in the 2020 Mystery Hunt designed by Galactic Trendsetters.
+
+Scott: The official team name is like “Whoosh, Galactic Trendsetters, screeeee…” right, there you go. <Matthew: Yes, that one>
+
+Sonal: Nice sound effects, Scott! <Scott: thank you>
+
+Matthew: The sound effects are part of their name <Sonal: I love it (laughs)>; I mispronounced it.
+
+But they had this one round, the nano round — I don’t know if you remember this Scott~
+
+Scott: ~Oh god yah that was epic~
+
+Matthew: ~Yah; Where normally, you have a bunch of feeder puzzles, and then there’s a metapuzzle at the end. In this round, you were presented with the answer to the metapuzzle at the start — and then a bunch of feeder puzzles —
+
+Except one of the constituent feeder puzzles wasn’t solvable, on its own, and you had to realize that it was a reverse metapuzzle structure: So you actually had to backsolve that feeder puzzle answer, from knowing the meta answer to the round and solving all the other puzzles to that round. “Backsolve” basically means once you know the answer to a metapuzzle, by the constraints of the meta, and by maybe some of the constraints of an individual puzzle, you can actually figure out the answer to a feeder puzzle without actually forward-solving it.
+
+Sonal: Ah, fascinating.
+
+Matthew: So, that’s backsolving, and then constrasting <Sonal: yah> “partial-solving” means solving a puzzle without fully solving it. So say there’s a puzzle that has 30 lines of data, and I’m getting a letter from each line; if I have two-thirds of those letters, I can probably figure out what the words it’s spelling out are. And without fully solving the puzzle, I can still figure out what the missing letters are and arrive at the final answer.
+
+But anyhow: You backsolve this one answer, and then solving that puzzle unlocked a sub-round for which that puzzle was the meta. And then it recursively continued forward for I think three layers or so? I’m getting pretty deep pretty quickly in this sort of…
+
+Sonal: Keep going, we like the deep; go ahead.
+
+Matthew: Yah. But I think a bigger theme that I’m getting at here is — puzzle design has to be for a specific audience. A puzzle is not a good puzzle generally, it’s a good puzzle relative to who it’s designed to be solved by.
+
+So if I’m designing a puzzle for team-building activity for a tech company, for a bunch of software engineers, I know I can rely on a certain type of analytical thinking and communication skills, but not on knowledge of puzzle conventions. <Sonal: Right> But I will know that software engineers intuitively will know what puzzle indexing is, because indexing is a key concept in programming.
+
+Versus if I’m designing a puzzle hunt for an audience of puzzle hunters, <Sonal: mhm> I can’t just design generic97 puzzles and expect them to be interesting and thought-provoking — because those people will know all the conventions; they’ll know what to expect.
+
+So, when I’m designing for that sort of audience, I’m intending to subvert their expectations relative to how they would expect the puzzles to unfold.
+
+And similarly, if I’m designing a music puzzle for an audience of musicians, I can design a-ha moments, I can design shifts in perception around getting those musicians to maybe see conventions of musical notation, or manipulate audio files in a way that is novel to them. Versus if I’m designing a music puzzle for an audience of non-musicians, I may pick something that’s a special property of music that myself as a musician, something that I want to share with those people… Some a-ha I’ve had about music; and I’ll use the structure of the puzzle to get the solvers to experience that moment on their own.
+
+Scott: Teach!
+
+Matthew: Exactly.
+
+Puzzles have this really special property — in contrast to other types of game and interaction design — where you’re not telling people what to do; you’re providing them with some materials, some experiential framing that leads them to figure out what to do on their own. And, when done properly, it sets them up for these really powerful moments of revelation.
+
+Sonal: So to pick on this education note for a moment — Scott just said, it’s like teaching — and I came from the world of developmental psychology (that was my grad work); and one of the things that was very much in vogue was you know this idea of constructivism and how students learn. It was an NSF grant, National Science Foundation grant that I was on about early numeracy in preschoolers; and it was how you harness children’s natural numeracy and skills, before they even have any formal systems for learning math.
+
+And, what was super fascinating about it is the philosophy of this Russian cognitive psychologist — Vygotsky, who wrote a book called Mind in Society — and one of the key concepts that comes up is this idea of “scaffolding”… as a way to set up the learning.
+
+So the ideal teacher essentially — in this context (and this applies in Montessori, Reggio Emilia, lots of school practices) — they essentially set up a scaffolding in the environment, that this child or student or person then explores, to construct their own learning. And that’s literally just kinda like what you just said and how <Scott: One hundred percent> it maps to puzzle design. And it’s like what you said Scott about education, it’s like teaching.
+
+Scott: That’s exactly it; and we should both talk about the sort of philosophies of puzzle design. But for me, this scaffolding component is absolutely central <Sonal: yah>:
+
+You want people to be able to make discoveries right; you want a discovery to feel like an accomplishment and a major a-ha… But you also want to sort of enable them to make constant forward progress in some sense, right. Like it’s okay to get stuck sometimes or it’s okay to you know be thinking like where is this puzzle taking me — but it shouldn’t be a way/ in the sense that you’re stuck in that like you wanna quit. It’s you’re stuck, but you’re so intrigued that you have to, and you want to, understand and you wanna enable yourself to have that level-up — that it sort of continues to pull you forward even if it’s by tiny, little, marginal bits.
+
+And the other thing: You have to really engage with the content of the idea or of the experience as you solve; like solving a puzzle is by nature active.
+
+Sonal: Right, it’s not a passive activity; you’re not just like a recipient of a one-way dissemination <Scott: Yah> — or you’re receiving it in a very deeply immersive way.
+
+Scott: Exactly.
+
+Matthew: Yeah. Puzzle hunts and alternate reality games are especially intriguing because they are fertile ground for really densely layered puzzle architectures — contrasting with other types of puzzles where, you sort of know what you’re supposed to do; it’s more figuring out how to do it, than figuring out what to do, <Sonal: mmm… mhm> and then sort of peeling back layer upon layer. So what you were saying with scaffolding is absolutely spot on. <Sonal: mhm>
+
+And because there’s more intricate architecture — because there is more scaffolding to sort of implicitly contained puzzle experience — there are so many opportunities for unexpected moments along the journey.
+
+Sonal: You know actually just on that note, like, what strikes me about what you’re saying there Matthew… is: It’s not just like learning but how to learn; it’s creating these systems in your head.
+
+And it reminds me so much again of the work when I was in grad school in developmental psychology, and cognitive psychology because it’s also very closely tied to this other hot topic back then — which was metacognition, and like awareness of your own mind, and how you think and navigate a system — And of course this then connects to even the interesting question of what happens when computer AI solves puzzles right; like we’ve talked about this actually on my old podcast (the a16z Podcast), a number of episodes on AlphaGo, and how humans can learn differently from computers.
+
+Matthew: The computer-solving-puzzles point is really fascinating, because I make a distinction in puzzle design between the solution and the answer <Scott: yes> <Sonal: mhm…!> —
+
+The answer is sort of the flag at the end of the puzzle: It’s the answer word or phrase that means that you’ve solved it; it’s the grid-is-correct notification you get when you correctly solve a crossword; it means that, yes, you’ve reached the intended end point of the puzzle. Whereas the solution is the intended path getting there. And what really matters about the puzzle (generally speaking, of course there are exceptions to this), is the solution not so much the answer. The answer confirms that you followed the correct solution path — but, what really matters is– “it’s the journey, not the destination”… in puzzle form.
+
+So the solution path is sort of a dance between the solver and the designer. It’s in part architected when the puzzle is designed — but in part played out uniquely by each solver <Sonal: yah>, as they circle their way around the answer.
+
+Scott: It’s part of why it’s fun to do in teams, right; it’s a lot like engineering a new piece of software or something — you have people with different backgrounds, and experiences, and intuitions, and expertise — that together can sort of crack even the very complicated or extremely difficult puzzles and puzzle hunts.
+
+You know footnote, for example: I have a perfect record of solving every “We Didn’t Start the Fire”-related <Sonal chuckles> puzzle that has been in Mystery Hunts since I started competing in Mystery Hunts.
+
+So, the reason “We Didn’t Start the Fire” crops up frequently is — remember Matthew was explaining this idea that like you need to somehow get to a word or phrase in the answer or something? — And he mentioned this idea of an ordering, right, like maybe one column, everything’s in alphabetical order, or one thing and they’re not; and that not in alphabetical order column might tell you which order you wanna put the input data into or something –With really serious puzzlers, you’re often looking for a way to induce an ordering that is not like something as simple as alphabetical order, <Sonal: mm> or periodic table order, or something like a standard way of putting things in an order…
+
+So it’s useful to have lists of things in canonical orders — where, if you don’t know what the list means, like if you don’t recognize the list, you might have to think a little bit to figure out that this is the list of objects. And “We Didn’t Start the Fire” is like a perfect example of such a list right <sings>: Harry Truman, Doris Day, Red China, Johnnie Ray.
+
+Sonal: <sings back> We didn’t start the fire… <chuckles>
+
+Scott: <chuckles> Exactly; <sings more> South Pacific, Walter Winchell, Joe DiMaggio — goes on.
+
+So if you’re like me and you memorized all the lyrics of “We Didn’t Start the Fire” in middle school or something, and you hear someone across the room in your puzzle team saying “Harry Truman” — You just sort of shout: “It’s Harry Truman, Doris Day, Red China, Johnnie Ray” <Sonal laughs> — like you know, <Sonal: yah> that’s gotta be the order, it’s “We Didn’t Start the Fire” <Scott chuckles>. Anyhow it comes up a lot.
+
+Sonal: And Scott like what’s the bottom line on that <Scott: Oh!> — cuz it connected, you didn’t close the thread though — why does it matter, like, beyond the intricacies of puzzle designers.
+
+Scott: Yeah good point. So, often, that’s a trick that gets you to the solution faster. Whereas if you don’t know those lyrics, and you start seeing hints of it, you sort of have to discover your way to “We Didn’t Start the Fire” as well. When done well, the puzzle will confirm that piece of the solution as you go.
+
+Those sorts of like cross-confirmation, lets you know that you’ve got it. But the experience of solving is very different depending on what background and priors you come from, <Sonal: yah> and it means that there’s a lot of value doing it as a team just like with you know any sort of engineering.
+
+Matthew: One other very quick thing that I wanted to add on to what Scott said about the “We Didn’t Start the Fire” is — puzzlers generally59 love structured data: <Scott: yah> Like with “We Didn’t Start the Fire,” it’s a list of names that are bringing seemingly random references together in ordering in the category.
+
+There are many types of structured data that people who do puzzle hunts in particular regularly utilize and will recognize. So if I see some data that can be parsed as two-by-three grids, I know it might be braille. If I see numbers in a particular range, if they’re in 1 through 26, I know it’s going to be the alphabet. If they’re in the low hundreds, I know it might be ASCII. If it’s numbers in the periodic table of elements range, I know it might be elements. If I hear Juliet and Lima, Peru — I know it might be NATO letters. [editor’s note: see also this resource (from a friend) for help memorizing them!]
+
+So there’s all these categories of types of data that regularly get utilized in puzzle hunts. And at that point it’s less about what you do with the data — it’s less about this specific abstraction being the puzzle — as the context in which it’s (ideally novelly) presented, being a matter of recognizing the puzzle.
+
+And this is the case with any sorts of ciphers: It’s deciphering something, solving a Vigenère cipher, or a pigpen cipher — it’s not about decoding that is a puzzle, it’s about recognizing the cipher; it’s about the type of environmental pattern recognition, that is the actual act of puzzling.
+
+Sonal: Yup. And the community and affinity in recognizing each other in it.
+
+Matthew: Exactly. It’s a language. Solving a puzzle is about crossing a threshold of perception — It’s about seeing something one way, and then through a process of frustration, and observation, and playing around, and looking for patterns, and making discoveries… you’re led to see it a different way.
+
+And you can be given that final answer; that doesn’t mean you have solved the puzzle. In the context of a competition, when something is framed as a competitive puzzle hunt and you need to call on this final answer — sure, it’s marked as solved; but solving the puzzle for me really is about experiencing that shift in perception.
+
+Sonal: Yah. Love that.
+
+Matthew: And this gets into (another thing that Scott mentioned before), which is that shift in perception needs to be satisfying. That it needs to be a proportionately satisfying payoff for the solver, to make them want to go through this process.
+
+When you really put in the legwork, feeling like you’re making progress — not just grinding and not getting anywhere — but when you finally overcome the final hurdle, it’s all the more satisfying because of the work that you’ve put in. When that work is designed in such a way so that it does feel like it’s leading into the final answer, instead of just sort of fizzling off at the end. When done well can be this really climactic moment of revelation. <Sonal: Yeah>
+
+This gets into another point, which is: A puzzle needs to be designed such that what it gates– So, gating in puzzle design or escape room design, game design generally — means, there’s something preventing you from accessing further content: So in the case of an escape room, it might be a padlock that you have to put a number into that opens a chest that has a new item you need. Or in the case of a puzzle hunt, it might be typing in your answer to a puzzle, which in turn unlocks a new round of puzzles.
+
+The gating needs to be conceived such that it’s worth fully solving the puzzle, it’s worth <Sonal: mhm> getting a satisfying experience instead of being inclined to sidestep that.
+
+So, to give a simple example from a sort of escape room-type mindset: If you have a padlock on a chest, the a-ha of the puzzle aligns with the satisfaction of the lock popping open, and then you move on.
+
+But, say you had four separate puzzles that each gave you one digit — in addition to it not being very satisfying to just get a digit from zero through nine from a puzzle — It also means that when you get down to that last puzzle, it’s not a matter of if I fully solve this one puzzle that has a cohesive mechanic, but rather, do I go through the process of solving this last puzzle? Or do I do what’s probably less effort of just spinning the last dial?
+
+And you’re sort of gating yourself instead of the game gating you. So, the stakes for the a-ha feel less real because you’re sort of breaking the immersion. It really has to be worth it for you to solve that last puzzle <Sonal: mhm> if that requires more effort than the other path of just brute-forcing it.
+
+This applies to competitive framing as well: Does it make sense to fully solve the puzzle; are you borrowing the answer from a different team who you happen to hear the answer from. What types of behavior are you incentivizing? And, is the path of least resistance — is that the experience you want solvers to take? What types of behavior at each possible point throughout the experience, are you setting them up for?
+
+Sonal: So talking about incentive design and behavioral design <Matthew: yah>, and this, obviously maps onto crypto — given what we’ve talked about so far, taxonomy of puzzles, some of the mechanics, some of the design, some of the software analogies — how would you think about this in the context of crypto?
+
+Scott: Well first of all, it’s very similar to the intellectual challenge of designing an incentive scheme. Like how is your token going to work; what is it going to do or enable your community to do? What will happen as people start to engage with it; how will the experience evolve? Like these are all the same types of questions that you sort of formulate when you’re constructing a puzzle.
+
+Like I often think of a token system as being sort of a big community puzzle environment, that’s set up by the project creators, and enabling it to evolve and build upon itself in exactly the way that like a collaborative puzzle-solving exercise works. And that means that as the designer that you have to think about all of these things that Matthew was just talking about in terms of puzzle design: You want it to drive incentives that make people excited about engaging and exploring the boundaries of what your design can do.
+
+You also wanna make the thing feel intuitive — even if it’s new; right something can be novel and yet sort of be intuitive at every step of engagement — And if you’re a crypto project that’s trying to reach broad consumers, you’re facing very much the same design challenge that Matthew and I face when we write puzzles for general audiences. It turns out: you can get people in very very general audiences to solve incredibly difficult puzzles… even thinking going in that they’re not gonna be able to, if you design the architecture of the puzzle in a way that sort of leads them along, and then the unlocks start to appear, and then they gain confidence and understanding of the structure of the puzzle as they go, and it can get harder. Similarly, that’s very much how a crypto project — especially one that’s trying to reach an audience that’s not already deep in the weeds of crypto, but rather that is going to engage with it and sort of use it as an exploration and a path in…
+
+And then similarly, this point about audiences, right — the idea that the same thing will be interpreted very differently by two audiences with different experiences and different backgrounds — this crops up in crypto design all the time, too. Even just the interfaces through which we interact with crypto, right: Are you using a custodial wallet or a non-custodial wallet; are you minting on a website, or are you minting through the contract.
+
+And, you see you see NFT launches that are only minted through contract. And why is that? The aesthetic of what the project is trying to accomplish, they essentially want to limit to people who have the technical sophistication to access it in this way: It’s not that they’re trying to be a closed community for the sake of just being insular, rather, the technical complexity of joining is helping screen for the audience that they think will actually appreciate what they’re doing. <Sonal: Yeah…>
+
+So in a puzzle hunt, often the first puzzles or the first round of puzzles are much more accessible than the others. And then if you find that the environment and the ecosystem being set up by the project is one that feels right, then you might start working really hard and be willing to like put much more effort in. And all of that pulls back to a design problem on behalf of the creator — right, if you’re creating this project, you want to enable people to dip their toe in and then discover <Sonal: yup> they want to swim and then you know also immerse.
+
+Matthew: Yah, that intro round really is a welcome — but it’s also about building trust in the integrity of the design. It’s also an opportunity to level the playing field just a little bit. <Scott: yes> So, when people are newer to puzzles, they may not be as familiar with the conventions — or even just the conventions of a particular designer or design team — and those newer puzzles are opportunities to present the atomic elements of whatever puzzle world people are being presented with. <Sonal: yah>
+
+So, like in a video game where you’re maybe taught some basic mechanics, and then you’re throwing variation after variation and hybrids of those variations — similarly with puzzle mechanics, you’re introducing people to the general style and aesthetics and what they can do, what they can’t do: Are the puzzles going totally outside of the box, and expecting you to dive into the source code, and use real-world components? Are they all just contained within PDF? Are you expected to maybe interact with other teams who have different types of data than you?
+
+They’re establishing the rules of the world that you’re playing in.
+
+Scott: Which that is also a component of crypto projects — Every crypto project you’re entering into, by conceptual definition, has a set of rules, and ecosystem constraints, and features that you have to learn as a new entrant.
+
+And so when you’re onboarding new people, you have to sort of help them understand like what your ecosystem feels like, and what its boundaries are, like what it contains, and how it might evolve.
+
+Sonal: It’s funny this reminds me so much of the art of onboarding <Scott: yes> — into any new open-source community, and any community in general — But particularly in open source, there’s a whole school of thought about how the attention you pay proactively to really having good onboarding documentation, mentoring, partnerships, people who can kinda hold your hand, guide you, shepherd you.
+
+And again, we might be talking about a nuance in puzzles where people might actually like solving it themselves; but to your guys’ point, they don’t wanna feel like they’re just flitting about in something that’s just really rough and raggedly designed and they have to like slog through it. They wanna get the intentionality (to Matthew’s point), that they are in a trusted place, where someone has intentionally put things together for them; <yah> so I think that’s a really great analogy.
+
+One quick thing: The two of you are kinda dancing in a really interesting tension between both the idea of insider access, and the idea of accessibility <Scott: yes> It’s almost like a bit of a paradox — Okay there’s a little signaling to your like-minded, quote-“community”, whatever it is, it could be cut across whatever level — a certain domain knowledge, a certain specialty, a certain interest; it could just be puzzles in the meta. Or, there’s also the sense of, well, how do we also make it not too insular and inaccessible to people joining? <Scott: yah>
+
+Because honestly when I hear you guys talk, it feels extremely intricate73 and internal — and frankly just to draw the analogy to crypto — that also comes up quite a bit with people feeling like they’re entering into a crypto community. So I’d love you to kinda break down how this works in the puzzle world.
+
+Scott: Totally; this is such a great question.
+
+Matthew: So I think this touches on a few things. One is, how to approach difficulty in puzzle design. Because difficult puzzles can be fun, but it’s a lot harder to design an easy novel elegant puzzle than it is to design a difficult puzzle. And of course it’s challenging to design a difficult puzzle that is also elegant and satisfying… But the easiest type of puzzle to design is a very very difficult puzzle that absolutely nobody can solve and nobody would have fun solving. And, we see plenty of people doing this.
+
+And, one of the safeguards against this is of course, “playtesting” — where when you come up with a puzzle idea, implement it, you don’t just release it to your solvers; you show it to some playtesters first who are a curated community of people. When I’m designing a project, depending on the audience and timeline and budget, I’ll have anywhere from one or two playtesters to dozens across multiple rounds — from people playtesting sort of a stub of the initial idea, to a fully implemented draft, to final proofing the sort of post-prod, fully artified version of the puzzle.
+
+If I’m designing a puzzle hunt for a crypto community for instance, it’s likely that those people aren’t going to be familiar with puzzle hunts already. They aren’t going to know all of these conventions and all of the sort of in-the-weeds nuances that Scott and I are discussing here. And, to some extent they don’t have to, but to some extent we also need to meet them halfway: We need to recognize what their behaviors are going to be, what their initial perceptions are going to be, how to properly engage them and really get them excited about exploring this world in the way that we hope for them to.
+
+So it’s important to playtest with a representative sampling of the type of community who is actually going to be playing the game. So, I have (for my own puzzle work) a private Discord server where I have a bunch of puzzle people who regularly playtest my puzzles, give me their feedback, make sure the actual puzzle mechanics work.
+
+But then when I’m figuring out the exact framing of the puzzle, how it’s going to be presented, the flavor text, the hints that accompany the puzzle, I’m not playtesting with those people still — I’m finding some people who are of a similar demographic, similar background to the actual people who are going to be solving my hunt. And, that allows me to sort of gauge the way the puzzles are going to be received, before they’re actually out in the field. And if things go terribly wrong then, it doesn’t mean that the hunt is going to be wrong, it is going to be totally broken; <Sonal: mhm> I can adjust accordingly in advance. <Sonal: that’s great>
+
+Of course, this is similar to software development cycles as well: <Sonal: yup> We would never release a piece of software without unit-testing everything, and integration testing everything, and making sure that it fully works at all stages. We would never commit one final code change and be like oh it worked in the last stage <Sonal: yah… totally> so it probably still works; we would run all of our tests again before releasing it. And the same applies to experience design and its many forms, and especially to puzzle design, where, we are actively encouraging solvers to pay attention to every last detail to get in the mindset that anything could be part of the puzzle.
+
+And… in an elegant puzzle-hunt style puzzle, everything sort of is part of the puzzle. We’re not adding in random text that seems puzzle-y but actually means nothing. There’s a lot of attention paid to making sure that any actual noise in the puzzle couldn’t be interpreted as meaningful noise. <Sonal: right!> So that means if we expect the solvers to put a list of data in a new ordering based on some property of the data, we intentionally put the data initially in some ordering that’s clearly not the final ordering. So like I was saying previously, that can be alphabetical ordering, that can be a bullet-point list rather than a numbered list; various things to signal the type of behavior we expect.
+
+So, what this all translates to in terms of access to the community, is: Not that we should design easier puzzles, but rather that we should give accessible points to people and welcome them into this community. Where, by the final puzzle, the solvers are solving things that they didn’t realize they were able to — they’re presented with something that would’ve seemed utterly impenetrable at the beginning… but by the end through the way in which the game has guided them to build up their abilities they realize that yes, they’re able to do this as well.
+
+And this actually gets at one of the biggest differences between newer puzzlers, and people who are familiar with these styles of puzzles (or any styles of puzzles really) — which is: Simply just the willingness to try things. Oftentimes when I’m running puzzles of any level of difficulty for people who are new to puzzles, they’ll prematurely come to me or whoever is running the game, for hints. And of course, prior to telling them what to do, we’ll say, “What have you tried so far?” And oftentimes they’ll make a correct observation; they’ll describe part of the solution, and then I’ll reply “Well, did you try that?”
+
+And so many times I hear the response, “No, because I wasn’t sure if it would be correct.” And it’s that willingness to just try that really differentiates those more novice solvers from more experienced solvers who are willing to go down a rabbit hole, see if it works… and then embrace the fact that even when it doesn’t work, they perhaps learn something interesting along the way.
+
+Sonal: It’s so fascinating ‘cause earlier when you talked about the “payoff” — that was like a word that I use in editorial all the time — because a lot of people have these religious debates about how long a piece should be… <Matthew: mhm> and I always say length is arbitrary to me, quite frankly; it’s really about the “payoff proportional” to what you’re putting in.
+
+And similarly, editorially, when you just described that like the designer has to put in these sort of intermediate things, and things to kinda bring people along – and-and you again, reinforced this idea of trust — it made me think of a very editorial concept that I use all the time when it comes to religious debates between quote-“dumbing things down” or not (‘cause a lot of people say, oh technical content, oh we have to simplify it) and I’m just like, it’s not like an either/or, you can actually have both: as long as you have good “signposting” to bring people along.
+
+Scott: So, this insider/outsider piece is very salient… coming back to how you think about this from the perspective of crypto, a lot of crypto communities are mostly — by nature at the moment, right, mostly made up of people who are insiders because they’ve overcome tremendous technical hurdles to gain access in the first place —
+
+If you have a custodial crypto wallet and you’re just collecting you know NBA Top Shot NFTs or something like that, you learned a bunch of stuff: You’ve signed up for a piece of software; you’ve overcome a bunch of different steps to get in; and you already have some intuition for the lingo, for the lay of the land, for the types of things you might be doing. And for what the crypto actually is: Like what are these digital assets that you’re trading, or like what are these protocols you’re interfacing with.
+
+And one thing is the people who have all done that have a shared text, right — it’s very much like puzzlers right, you have this set of shared knowledge and understanding of some basic conventions and features of what a thing might be — But by the same token, what’s often most intriguing or exciting are using and remixing all of those ideas in new and powerful ways; right, new, powerful, and hopefully elegant ways.
+
+And meanwhile, if you’re someone who is outside — right as you were both just saying, like the signposting, and the simple access points to start to understand what’s going on, are really really important — and the more complex the eventual exercise is, the more individual signposting steps you need, the more sort of components;
+
+I really connected to Matthew’s description that first-time puzzlers often have really good instincts, but are afraid to try… And like crypto, because you know still so much of it is so hard to navigate, you could accidentally pay a massive gas fee while trying to do a transaction that doesn’t even succeed; like there’s lots of stuff that can go wrong: There’s the same sort of trepidation.
+
+And so it’s really important if you’re building — especially if you’re building something that is unusual, and novel, and exciting in all the ways that a new type of puzzle might be — it’s all the more incumbent on the builder to provide those sorts of signposting and create the trust and understanding with your user that enables them to enter, and explore, and gain confidence to explore25 further.
+
+And that’s an incentive design challenge, right; and that’s exactly what you have to do when you’re launching a crypto project.
+
+Matthew: Absolutely. One of the most important principles is that puzzles are experiences, and we need to design them as experiences, not things.
+
+So looking at other experiences, a restaurant for instance: When you go to a nice restaurant, your experience starts not when you get served your plate of food — but from the moment you go to that restaurant’s website, and make a reservation; and look at the menu; figure out how to get in the door, get seated, order, your conversation with the waiter, how you pay for the food; the entire thing is part of your dining experience.
+
+And similarly, a puzzle experience starts the first touch point of however you’re engaging with the puzzle — whether that’s signing up for a puzzle hunt, or getting an email about a promotional game that an NFT community is putting on. All of this affects your mindset, your motivations going into the game, and really affects how you solve the puzzle, how you experience the puzzles themselves. Those things in my opinion really are inseparable. <Sonal: mhm>
+
+So, you can design the most amazing crossword puzzle, and if the website that checks your answers breaks while solving it, that’s a bad puzzle experience. If, halfway through the puzzle you notice a typo in it, and you don’t get a response from the people running the puzzle hunt for three hours; that’s part of the puzzle experience.
+
+You can’t really distinguish between the quality of what the puzzle could have been (if it ran perfectly), and the experience you actually had with it. Your feeling of when you solve the puzzle, are you reveling in the victory, or are you worried that you didn’t win the prize so did it matter??
+
+Scott: This is exactly the experience of being part of an NFT community. If the community does things that don’t match your expectations in one way or another, they set up a story, and then there’s like a second like spinoff project, and there’s no sort of aesthetic sensibility…
+
+One that did it really incredibly recently is Chain Runners — and I’m a holder, I’m a very involved member of the community (so like all biases to be clear, and this is not financial advice, of course) — but they did something really cool that I liked: So their genesis collection was these sort of pixelated, two-dimensional, characters; you know very sci-fi, cyberpunk characters. And they just launched a three-dimensional, metaverse-ready instantiation of these same types of characters (the Chain Runners). And for the experience of minting the Chain Runners XR (this follow-up collection), normally, when you mint an NFT, you just go to a website or you go to the contract, potentially, and you press some buttons, and then the NFT gets added to your wallet.
+
+Here… a big part of the story was this emergence from 2-D to 3-D. And, the minting website literally took you into a 3-D world: So, you walked to the computer where you access the mint process. And then once you did the mint, it took you through a tunnel, and like now you’re in a 3-D mini escape room that you could explore (shoutouts to Nav who did most of the development; and I guess footnote disclosure: I had a little bit of influence on the puzzle design for the escape room).
+
+But, then when you solved the escape room, it gave you a code that you could bring back to the Discord server, and it would give you access to a special channel just for the people who ‘d sort of played the full mint experience through solving all the puzzles. It was totally immersive — you were immersed in almost a video game experience — but then, it turned out that the game was self-aware: It knew the experience of being a Chain Runner is not just your metaverse immersion, but also the experience with the community in the Discord, and pulls back to something that you take out of this three-dimensional world… that shows the game world and the real world are one and the same, that sort of there’s a semi-permeable membrane between the two somehow.
+
+Sonal: This actually makes me think, how much puzzles apply so much to token-gated communities, and any other token-gated events; like there’s so many ways to bridge the physical and digital <Scott: exactly> there, as well as in going through tiering to show commitment. <Scott: yup> Because the whole point again, is skin in the game and proportional — not to necessarily financial investment of things — but actually your contributions, your work, your time, your interest; like that’s how you know people wanna be in the community.
+
+Scott: Right! I mean people spent literally hours solving this escape-room game in order to gain access to this secret Discord channel. And it was incredible to think of this, realization, right: In the mint experience, people usually pop in and pop out; you’re talking a minute, you know if you sped up the gas enough, it might be seconds. Whereas here, it became this transformation of the two-dimensional to the three-dimensional world that then gives you something for the outside world as well. <Sonal: yah>
+
+And all of this fits very coherently and intuitively in the mythos of the world the Chain Runners are setting up. <Sonal: mhm> If instead, the secondary collection had been, I don’t know, renaissance fair characters or weird like cartoon animals — like nothing wrong with renaissance character NFTs, nothing wrong with cartoon animal NFTs — but they would be jarring in the experience of this cyberpunk world. Whereas in the cyberpunk world, the Discord is part of the cyberpunk world too, right; it all sort of comes together and forms a really coherent single piece.
+
+Sonal: Fantastic.
+
+Okay, so a question I’ve been dying to ask you guys throughout this episode, which is who designs the puzzle, like who is the designer. And is the puzzle architect — like you know, what’s his name from Hunger Games; I was thinking of (ohmygosh, I forgot his name, the Philip Hoffman character in the movie version but, he had some kinda Greek name) — but anyway:
+
+In crypto, we have this unique challenge-slash / opportunity of it being decentralized — even though there are people who have more stakes or are the original creators or have unique IP rights or various things — who is the creator?
+
+Matthew made the analogy that this is like software design, and both of you guys have said this; and to me, it strikes me as a very opinionated form of software design. Even if you have it revealing itself in gates, and various forms, it still is sort of almost pre-decided, <Scott: mm> and it made me think again of this notion of like smart contracts, and even formal verification: Like you put the thing out the world, you don’t get to necessarily edit it after the fact.
+
+And similarly, I wondered how does and does that not play out as analogies with puzzles and crypto; and, are there cases of successful puzzles where they are actually modified once they’ve been created, in real-time.
+
+Scott: Oh gosh… that is such a great analogy I’ve never thought of before — yeah, a puzzle is basically a smart contract.
+
+That you design and experience, that should proceed in certain ways, and like has boundary conditions and things can happen outside the boundaries, but basically you’re helping people follow a path where all the components of the path are locked in up front. <Sonal: Encoded!> If you get something wrong — if you like leave a red herring that’s really confusing, that people might get lost and sort of fall off the path, and you usually don’t want to be in the position of retconning (of having to go back and remove a red herring or fix something) — ideally, it all gets locked in up front, it’s a smart contract, and then people explore all of the affordances and possibilities of the contract as they go.
+
+Matthew: This leads into another distinction I like to make in puzzle design which is that between “clueing” and “hinting” —
+
+For me, clues represent the integral, baked-in information needed to solve the puzzle. So a clue is something that is included with the puzzle, that you couldn’t take it away and be left with a complete puzzle. (Maybe you could still solve it by an arbitrary leap of logic, but the clue structure is really what allows the puzzle to make sense, that allows everything to lock in and be elegantly cohesive.)
+
+Hinting, in contrast, is what allows you to dynamically adapt to a variety of solving behavior. It acknowledges that different people may get stuck in a certain way of thinking, or not be familiar with something: the puzzle is referring to a specific video game that isn’t as easily googleable as the designer thought, and the hint allows people who aren’t familiar with that video game reference to make that connection too.
+
+But: When we design a puzzle, we need to take into account both the static and dynamic guardrails for the experience, signposting for the experience <Sonal: mhm> — both how we guide people to solve puzzle on the core path; and how we keep them along the intended experience, if they’re passing that “threshold of frustration”.
+
+Scott: We’re not here to design puzzles that no one’s ever gonna be able to solve, right. Some people think the goal is actually to design puzzles that are hard — and that’s totally not the goal.
+
+Sonal: Yah.
+
+Matthew: This actually relates back to another extension of what I was saying previously about difficulty, which is —
+
+When I design a puzzle for different types of audiences, whether it’s designing a custom puzzle for a specific individual, for a proposal; versus for teams of 3 to 5 people with 200 teams solving at once; versus a 2000-person community solving an ARG and all uniting together to tackle puzzles (And oftentimes it’s harder to test that experience because I don’t have a group of 2000 people working together testing a puzzle).
+
+But, I approach difficulty very differently, and I approach how precisely I’m going to clue something differently. I don’t want the puzzle to be solved within minutes of its release. And at the same time, I don’t want the a-has to be completely arcane, and random, and unsatisfying. They still need to adhere to the principles of good puzzle design.
+
+Sonal: You know it’s interesting because — I know you joked earlier Matthew that you don’t really know games; and I did actually, growing up; I grew up on Atari games as a young child <Matthew: Nice> — but, one thing keeps coming up, this idea of difficulty/ tiering — I do wanna reference a popular law that came out of the Atari world and Nolan Bushnell, the founder of Atari, which was:
+
+That games should be “easy to learn but difficult to master”. I’m just curious if you guys have any thoughts, just this general principle of “Nolan’s law”, and how that does and doesn’t apply in this context of puzzles and/or crypto design.
+
+Matthew: Yah I think mastery is an interesting concept when it comes to puzzle hunts. Because, there oftentimes isn’t the same type of linear, incremental mastery that you see in videogame <Sonal: a game, yah> puzzles, for instance — once you cross the threshold of a specific puzzle (of knowing how it works), you know how it works; there’s no going back.
+
+And that certainly may influence your knowledge of when approaching any future puzzles of being able to recognize, “Oh I’ve seen this mechanic before”. But it’s not necessarily about iterating through a level and finding the best way to solve it, per se.
+
+But: There’s sort of a “meta mastery” where you’re building up your skills — and “skills” not just in terms of recognizing mechanics, and having better-honed logical abilities — it’s also knowing your own behavior, the sort of psychological mastery of how you approach solving puzzles.
+
+And… this actually gets to one of the properties of really broadly impactful puzzle design — that I somewhat rarely see but often happens accidentally — which is: Some of the best puzzles stay with you outside of the experience of solving the puzzle.
+
+And: It can also apply to yourself; it can apply to even just identifying the puzzles in the world around you. And, this actually relates back to what we were saying earlier about the difference between behavior of newer puzzle solvers versus more experienced solvers…  So, puzzles are about creating meaning from noise, from chaos. And through this, we really are telling a narrative; we are telling a cohesive story.
+
+Sonal: Well I don’t know if it applies, but Loot and the derivatives that the community co-created — that’s a case where, there is like this sense of unfolding, but what’s really fascinating is undoing a lot of classic narrative construction. Because it is being created by the community, <mhm> and then they’re putting a lore around it. I think it’s something we see a lot more in crypto because of the decentralized nature of it.
+
+Scott: That’s really interesting; you know there are memes that take on form in crypto, and the exact same thing happens in the puzzle community —
+
+Like, there’s a puzzle type that was invented where somebody came up with this puzzle format; and the original one I think was just called Duck Konundrum — That’s right, Matthew, right? Like, it was just called Duck Konundrum?
+
+Matthew: Yeah by Dan Katz I believe, in a Mystery Hunt many years ago.
+
+Scott: Yeah. So they introduced this puzzle called “Duck Konundrum“, in which you get rules out of order, and you have to put them in order and then sort of step through all of them — It’s like getting a computer program in shards, and having to figure out you know the unique way in which the shards make coherent sense. And what’s fun about it is: lots of different sequences almost make sense. And then you get to the last one you’re like, Oh wait no I can’t- I now can’t use the last shard — like the n-minus-one shard has got me to a position that the last shard can’t act upon.
+
+And so you’re constantly trying to reorganize this thing in sort of like a meta-logic puzzle somehow. And this was so popular, that people started riffing off of this format, and now it’s called a “Duck Konundrum” — like you’ll open up a puzzle and be like ohmygosh, it’s another Duck Konundrum.
+
+Sonal: That’s kinda what happened, I think, with releasing bits of Loot. <Scott: Totally!> The community was like they’d come in at midnight and be like, “What does this mean,” and kinda try to figure it out together, you know.
+
+Scott: Yeah. And then these things sort of establish memes, within communities that then start crossing over across communities… And so you can introduce like a new central meme. Like some of Dom’s work, created a new way of designing an NFT project, that others then started building on, and reformatting, and remixing in different ways. That’s exactly what happens with puzzles as well. And Duck Konundrums are a perfect example of this…
+
+You now even see ones where there are metareferences made to the duck — but you know it’s about alligators or something — but somehow there’s a duck that appears midway through the story, and you’re like wait oh I get it.
+
+Matthew: Yeah. Puzzle hunts are deeply a community that constantly is riffing on their discoveries, and the way that they’re subverting expectations35 of solvers is by referencing previous things and then doing something slightly different.
+
+And like we were saying before about how to welcome people to this community, it’s by being self-aware of how it’s so self-referential, and inviting people into the community — without expectations of needing to go so deeply <Sonal: yes!> but rather distilling the key experiential architecture, for people who people who don’t know or need all the context.
+
+Sonal: Yes exactly; it’s inclusion, not exclusion.
+
+Scott: Exactly.
+
+Matthew: Exactly.
+
+Sonal: Well, that’s a great note to end on; thank you both so much for joining this special bonus holiday-ish episode of “web3 with a16z”; we’ll resume our regular programming with the next episode. Thank you again you guys!
+
+Matthew: Thank you so much for having me; it was an absolute pleasure.
+
+Scott: Yah thank you so much, it’s always so much fun to talk with you, and it’s especially fun to chat puzzles and crypto at the same time — right two of my favorite topics.
+
+Sonal: I can’t believe I didn’t even know there was a connection! Awesome, thank you so much, you guys; take care.
+
+Scott: You too.
+
+Matthew: Thank you.
+
+Sonal: Bye-bye.
+
+Thank you for listening to web3 with a16z. You can find show notes with links to resources, books, or papers discussed; transcripts, and more at a16zcrypto.com. This episode was produced and edited by Sonal Chokshi (that’s me). The episode was technically edited by our audio editor Justin Golden. Credit also to Moonshot Design for the art. And all thanks to support from a16z crypto.
+
+To follow more of our work and get updates, resources from us, and from others, be sure to subscribe to our web3 weekly newsletter — you can find it on our website at a16zcrypto.com.
+
+ Thank you for listening, and for subscribing. Let’s <BLEEP> go!
+
+GOT PUZZLE? submit your answer here!

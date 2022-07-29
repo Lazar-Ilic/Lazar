@@ -1,0 +1,221 @@
+OKOKOK so maybe I actually do half spam Notes in public on this topic to half verify that I half payed attention and like half cared enough to half compose some .txt files on these topics and observe these sorts of things regularly 1/month in my News binging sessions. Maybe reverse chronological from time of observation works OK.
+
+----------
+
+	YouTube Number Of Views And Comments Predictions
+
+Yeah yeah yeah kind of interesting tasks related to like if I am one of these firms who sponsors and advertises on some channel want to know over what timeline and timeframe expected numbers of views who like which channels to hit up and propose what sort of contract offers to. I dunno GymShark swoop in on some young dudes before they really blow up and 5 years later those dudes got metric shit tons of views then that was a Good move for that firm or whatever.
+
+	Joe Rogan Podcasts Comments
+
+OK this one is like half interesting I mean gee "The data has been cleaned by removing emojis and duplicates. The comments of a single user are combined in a single comment. The data is tokenized, lowercase and ready to be used for Natural Language Processing".
+
+	Volatility
+
+I dunno like volumes of various things can be hacked like simple metrics to incorporate such as number of Tweets on some topic or Tweet frequency dunno dunno huge spikes around big events how exactly live centaurs are pinged to be paying attention to what exactly obviously some have News on televisions as well as live feeds at their desk paying attention to sort of market events.
+
+	In Terms Of Edges At Firms With Varying Budgets
+
+As I said in my earlier Notes on these topics I mean this can obviously come into hardware hacking errm tinkering. I mean of course like the plots of old mystery novels sometimes have to do with like Private Eyes like hiring someone to literally track private individuals and so yeah yeah people pay close attention to the movement of big CEOs like Elon Musk and perhaps Jack Ma etc. but like perhaps one tracks average time per day of employees at an office and notes that big spikes often precede important discrete announcement events or whatever and this requires some low cost imagery capturing surveillance footage which certain firms can do or like cars counts in parking lots at various time points etc. etc.
+
+	Climate Datasets
+
+Huh interesting. So I guess we need to be performant on these water levels rising prediction tasks to allocate capital and secure housing for those affected by the ongoing climate change dilemna. OK so prediction of temperature change.
+
+	Free Thoughts Here
+
+OKOKOK maybe I just do some ranting here and ideation here instead of in the Predictions .txt file over in the Mid Brow Statistiques project folder but see how long I take to process through some more of the Courseras corpus which I have all saved locally. Some of the films footage is Good too communicates some maths quite nicely. Might read up some more on the power of image files and see if there is an interesting effect of like default AOPS avatars colours on say average Upvotes per post of a user like just what effect is that colours profile having upon the readership base in clicking the Upvote button there. I know that obviously some economically relevant Twitter users probably fail to optimise their profile pictures or biographies quite hard enough to maximise impact but cannot be quite totally sure.
+
+	Finance
+
+In any case finna trawl through thousands of these codes for more ideation and maybe snag the old certificate in like a Coursera Reinforcement Learning Finance course NYU for free whatever 7 days trial or something here.
+
+	Gender In Writing
+
+Yeah it is an interesting task to detect gender or try and produce a spectrum or metric based around the notion that male and female writing tends to be quite easily detectable in a dataset. It makes one wonder about executing a Google or other translate from a first draft into Simplified English or like Simplified Neutral English. So that way like also maybe obnoxious vocabulary signaling gets automatically taken down to a minimum as do some other things. I dunno female authors want to be taken more seriously by which target audience doing things like trying to write more masculinely or whatever using pen name male pseudonyms and so on and so on.
+
+	Advertising
+
+You know it would be kind of interesting as say I am an advertising firm now and I want to avoid doing some market research or testing by actually running some Machine Learning on like both historical advertising and also perhaps somehow try and tie in stock valuations or somehow get feedback on those advertising campaigns. I mean in modernity one supposes that big firms run good strong robust testing in advance so I can learn nearly for free quite a lot really like maybe I detect in the dataset that other firms opted to use sans serif fonts in Asia and serifs in Western Europe and thereby I simply default to having a posterior that I ought to run some scheme like that rather than actually running internal testing myself. Dunno just how often decisions like this are made by a private individual actor at such a firm tasked with such a task like Asai Meyer and how many people process feedback through various forms of review cycles in advertising and marketing development. Could be a half interesting topic to detect these sorts of things. Maybe we could mix in advertising to Amazon product reviews like. Somehow want to try and predict a firm's performance and stock asset in the future based off of an edge based on current advertising.
+
+	Lexicons For Sentiment Analysis In Text Mining
+
+It of course makes one think hmm OK well this is interesting re my commentary in the Stanford Deep Learning Notes.txt file however one might think that over time we can infer different sorts of value judgements from different words changing in connection with other words. I think I would suppose that perhaps in my own models I would seriously restrict myself to text generated in the last 5 years perhaps. And when it comes to discussions of markets and stocks of course one might think that the actual nations I mean surely at firms they may separate based upon geographic location too at least a little bit because for sure massively different sentiment appears in the United Kingdom corpus from the Amerikan one.
+
+	User cmanning
+
+Interesting he uh is apparently retired and from McLean, Virginia, United States Of Amerika. In any case he only has 4 codes publicly visible and those are related to COVID predictions forecasting.
+
+But OKOKOK he was Rank 91 / 185573 on the Kaggle Competitions platform which is very solid. And it is worth going through the history of some of these other competitions and reading through those codes and contemplating a bit.
+
+He is currently in Rank 2 here and got Rank 4 / 1946 on the G-Research Crypto Forecasting which is enough to immediately make me think he must in fact be a real real real sharp dude with some edges and perhaps I could work hard here and brew up a similar position on this Competitive Programming platform system here shortly too. Perhaps he even has centaur edges in markets with his own machines at home! Wow!
+
+Ubiquant Market Prediction
+Make predictions against future market data
+$100,000 Prize Money
+Ubiquant    2,459 teams    12 days to go
+2/2459
+
+G-Research Crypto Forecasting
+Use your ML expertise to predict real crypto market data
+Featured · Code Competition · 1946 Teams · 2 months ago
+4/1946
+
+Profile picture for cmanning
+
+Google Cloud & NCAA® ML Competition 2019-Women's
+Apply Machine Learning to NCAA® March Madness®
+Featured · 497 Teams · 3 years ago
+16/497
+
+Profile picture for cmanning
+
+OSIC Pulmonary Fibrosis Progression
+Predict lung function decline
+Featured · Code Competition · 2097 Teams · 2 years ago
+18/2097
+
+Profile picture for cmanning
+
+March Machine Learning Mania 2021 - NCAAW
+Predict the 2021 NCAAW Basketball Tournament
+Playground · 451 Teams · a year ago
+27/451
+
+Profile picture for cmanning
+
+Mechanisms of Action (MoA) Prediction
+Can you improve the algorithm that classifies drugs based on their biological activity?
+Research · Code Competition · 4373 Teams · 2 years ago
+28/4373
+
+Profile picture for cmanning
+
+Bosch Production Line Performance
+Reduce manufacturing failures
+Featured · 1370 Teams · 6 years ago
+54/1370
+
+Profile picture for cmanning
+
+Zillow Prize: Zillow’s Home Value Prediction (Zestimate)
+Can you improve the algorithm that changed the world of real estate?
+Featured · 3770 Teams · 4 years ago
+132/3770
+
+Profile picture for cmanning
+
+Jane Street Market Prediction
+Test your model against future real market data
+Featured · Code Competition · 4245 Teams · 10 months ago
+140/4245
+
+Profile picture for cmanning
+
+March Machine Learning Mania 2021 - NCAAM
+Predict the 2021 NCAAM Basketball Tournament
+Playground · 707 Teams · a year ago
+69/707
+
+Profile picture for cmanning
+
+Grupo Bimbo Inventory Demand
+Maximize sales and minimize returns of bakery goods
+Featured · 1963 Teams · 6 years ago
+107/1963
+
+Profile picture for cmanning
+
+TalkingData Mobile User Demographics
+Get to know millions of mobile device users
+Featured · 1680 Teams · 6 years ago
+118/1680
+
+Profile picture for cmanning
+
+Springleaf Marketing Response
+Determine whether to send a direct mail piece to a customer
+Featured · 2221 Teams · 7 years ago
+202/2221
+
+Profile picture for cmanning
+
+Optiver Realized Volatility Prediction
+Apply your data science skills to make financial markets better
+Featured · Code Competition · 3852 Teams · 6 months ago
+288/3852
+
+Profile picture for cmanning
+
+COVID19 Global Forecasting (Week 5)
+Forecast daily COVID-19 spread in regions around world
+Research · Code Competition · 173 Teams · 2 years ago
+10/173
+Profile picture for cmanning
+
+March Machine Learning Mania 2016
+Predict the 2016 NCAA Basketball Tournament
+Featured · 596 Teams · 6 years ago
+56/596
+Profile picture for cmanning
+
+COVID19 Global Forecasting (Week 4)
+Forecast daily COVID-19 spread in regions around world
+Research · Code Competition · 472 Teams · 2 years ago
+79/472
+Profile picture for cmanning
+
+Google Cloud & NCAA® ML Competition 2018-Men's
+Apply Machine Learning to NCAA® March Madness®
+Featured · 933 Teams · 4 years ago
+95/933
+
+And he is Good across a variety of domains. Very cool stuff!
+
+	Ubiquant Market Prediction
+
+Umm interesting stuff really. Was thinking about hopping in the mix on some competitions here might look Good might not really... uh might look Good to actually take and improve upon some baseline or at least try to and then throw up those codes in public here on my Kaggle shortly executed with the nice default outputs + some of mine own Exploratory Data Analyses codes.
+
+	Financial Tweets
+
+Dunno if I have seen a ton like this one but worth noting:
+
+"
+I have been interested in using public sentiment and journalism to gather sentiment profiles on publicly traded companies. I first developed a Python package (https://github.com/dwallach1/Stocker) that scrapes the web for articles written about companies, and then noticed the abundance of overlap with Twitter. I then developed a NodeJS project that I have been running on my RaspberryPi to monitor Twitter for all tweets coming from those mentioned in the content section. If one of them tweeted about a company in the stocks_cleaned.csv file, then it would write the tweet to the database. Currently, the file is only from earlier today, but after about a month or two, I plan to update the tweets.csv file (hopefully closer to 50,000 entries.
+
+I am not quite sure how this dataset will be relevant, but I hope to use these tweets and try to generate some sense of public sentiment score.
+"
+
+	Foursquare - Location Matching
+
+Ah righto the raw data can contain noise well of course and that is the thing about that Alibaba Global Mathematics Competition 2022 Final Round task on the Applied Math section like task 2 about querying the gradient function with noise and an updating algorithm is that in reality in the real world we are very seriously deeply concerned with the theoretical performance and assured times to being within a desired target epsilon of the True optimum that these things matter.
+
+Anyways another Light Gradient Boosting Machines baseline is solid. Always observe all of them so the way in which location is tracked is quite relevant as numerical data fed as input into a model. Extreme Gradient Boosting Inference.
+
+	United States Patent Phrase To Phrase Matching
+
+OK multiple Good solid Grandmaster notebooks here. I always like watching other people execute massive Exploratory Data Analyses, those are always very very very useful and helpful to eyeball and see and get new ideas for ideations in the future. One would of course initially think to somehow jack in like some thesaurus for real for real and possibly augment with a half clever Natural Language Processing based machine generated half thesaurus type of document. If this thesaurus source document was say very tightly human generated over the usual generic semantic similarity type parsings.
+
+	Store Sales - Time Series Forecasting
+
+OK seems like a half interesting task for the "getting started" series. Right right interesting motivational "Context" section. OKOKOK the submissions are like OK there exist multiple good Grandmasters. There is a very funny fork to a submission called "Econometrics Is All You Need" now I thought that from the Beatles "Love Is All You Need" but in any case soon I might go take Notes on a few Econometrics text books.
+
+	Feedback Prize - Predicting Effective Arguments
+
+Classification of argumentative elements as "effective, "adequate", or "ineffective". Of course immediately many kind of fundamental foundational issues around langauge, philosophy of language, philosophy of mind, perception, and so on and so on come in to play. Furthermore even in the dataset supposing some sort of a valid axiomatics and so on it is like we will be discovering something more about the training data and whatever the humans doing the generation of this human generated .txt whatever classification was like it might come from what I might think of as a bunch of low brow Amerikan high school teachers who are in their position to execute their own classification however it may not jive with like a very sophistiquated high brow academician philosopher or debate judge.
+
+Anyways FeedBack MeanPooling is half interesting. Optimisation Approaches For Transformers is OK. A bunch of DeBERT. Decoding Enhanced Bidirectional Encoder Representations From Transformers With Disentangled Attention. And so we can tank here read up on a bunch of academic literature for fun on top of paying attention to these submissions so OK Microsoft and the SuperGLUE Benchmark is interesting. Natural Language Understanding. Righto.
+
+	JPX Tokyo Stock Exchange Prediction
+
+Well the usual reviews occur. Some interesting analysis I guess gives one ideas for how things might go down... in a public Kaggle that is based around time ticked series data without really comprehensive market data. There was yet another introduction to imputation, different techniques post which is always good to re review everything from 5 trillion different angles perspectives, and literal .txt and .py compositions. Different feature engineering posts are half interesting.
+
+Optimal Portfolios And The Efficient Frontier is of course half interesting as it is not like really "optimal" per se in the usage I think which is intended more precisely and technically when invoked computationally in say the Hudson River Trading firm's web log. But alas elem this theoretical stuff is fine. Recall like 5 trillion different metrics some of which are proposed to be superior to Sharpe for people working at proprietary trading firms.
+
+	American Express - Default Prediction
+
+Observe the usual Extreme Gradient Boosting submissions, the Grandmaster and Master submissions, Light Gradient Boosting Machines, TensorFlow, and a variety of starter Exploratory Data Analyses as usual.
+
+	CAVA Locations
+
+OK so this is a half interesting dataset. Recall the story narrative of this particular firm and like how it was popping in Pasadena near the Caltech campus. Obviously quite salty and tasty food offerings there. Chipotle style Subway style ordering service and like uh there exist I guess more direct competitors in Southern California and certain parts of the United States Of Amerika Northeast. Who knows how to predict their expansion externally or when they announce closings and openings of new locations. One might think it is tricky to map out like rent prices costs to really try and drill in probabilities or forecasts over precise locations inside of cities even knowing if there might exist a new location in that city and mapping out profits is tricky without perhaps good external footage surveillance. Dunno much about what is legally required or pushed by firms with respects to these sorts of numbers or correlates tracked online with respect to say digital dash orders and deliveries.

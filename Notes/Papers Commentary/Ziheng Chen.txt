@@ -1,0 +1,31 @@
+	RLOP: Reinforcement Learning Methods In Option Pricing From A Mathematical Perspective
+
+Well Good Good I am glad the per spect ive is mathematical rather than the merest of mere sneer non mathematical. We all know those kiddos out there who struggle with maths seem to think they have a real helpful edge with uh errm the fine arts of "qualtitative thinking are deeply powerful" or uh errm whatever that means quite precisely I could not be quite sure but ahem in any case pro bono shrinks of like a rubber duck of Vincent Huang laughing and chuckling aside let us get right in to it.
+
+Uh huh OK literature review and a risk averse setting under the framework studied in some cited paper which I may also review.
+
+Right the trading cost.
+
+Righto the Q-Learning the Quality of a state-action combination perhaps this is a more logical and formal examination of the qualitative thinking we were mentioning and joking about earlier.
+
+Ah Hah 2.2 Make the Qualitative Learning Black-Scholes Model Interactive
+
+The Bellman's Equation oh ho ho. Optimal policy. Abundant data on the correlation structure of the portfolio value and the stock price change time or order seriesed Deltas.
+
+"
+To deal with the aforementioned issues, we propose a modified QLBS model which is
+
+1. fully adapted with respect to the given filtration {Ft},
+2. compatible with the transaction cost proposed in Sec. 1.3, and
+3. works well with value-based or policy-based learning algorithms
+"
+
+OKOKOK a variety of experiments.
+
+Um OKOKOK visualisations. Generalisation power.
+
+RLOP: Replication Learning Of Option Pricing
+
+Markov Decision Process Formulation
+
+OKOKOK and like some citations. And that Barto book I was supposed to go back to at some point in time for sure.

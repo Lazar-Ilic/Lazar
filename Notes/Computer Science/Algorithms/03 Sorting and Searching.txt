@@ -1,0 +1,32 @@
+Set Insert, Find, Delete: log n
+
+Ordered Set Insert, Find, Delete, Find By Order, Order Of Key: log n
+
+Array Order Statistic: n
+	Compute ith smallest element in expected O[n] time using selection rank pivot. Guaranteed exists, see CLRS.
+
+Extremum On Unimodal Function: log n
+	Ternary search.
+
+Query Interval Processing On Static Array: n^[3/2]
+	Sort queries into n^[1/2] blocks on left and inside blocks on right and two pointers through.
+
+Monotone Queue
+	Deque.
+
+2 Pointers
+	And many pointers for a variety of tasks auxiliaries.
+
+Index Compression
+	If for example inputs have some numbers in a large range but there are few of them one can form a bijective mapping into a more tenable range for processing.
+
+-------------
+
+Number Of Distinct Values: n
+	Hash set size. For e.g. ints in a small range binary appearance vector. Or robust n log n with a set.
+
+Queries Number Of Distinct Values In Each Range:
+	mos interval handling with frequency map and counter.
+
+Compute Sum Of Minima Of All axb Submatrices: nm
+	Monotone queue across rows then down columns.

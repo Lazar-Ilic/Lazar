@@ -1,0 +1,55 @@
+Convolution: n log n
+	Generating Functions.
+	Multiplicities.
+
+Convolution Modulo p: n log n
+
+Faster Convolution Modulo p: n log n
+	For primes of form [2^a][b]+1 with size <= 2^a.
+
+Determinant: n^3
+	Invertibility.
+	Determinant = Volume Of Paralleliped = n! * Volume Of Simplex.
+	Product Of Eigenvalues.
+
+Determinant Modulo p: n^3
+
+Fast Integration
+
+Fast Subset Transform: n log n
+
+Integral
+
+Linear Recurrence: n^2 * log k
+	Generates the kth term of an n-order linear recurrence.
+
+Matrix
+	Multiplication.
+	Exponentiation.
+	Inversion: n^3
+	Inversion Modulo p: n^3
+
+Polynomial
+	Differentiate: n
+	Divide Out Root: n
+
+Polynomial Interpolation: n^2
+	Compute [n-1] degree polynomial through input n points.
+
+Polynomial Roots: n^2
+	Compute real roots of a polynomial with error epsilon.
+
+Recurrence: n^2
+	Compute n-order linear recurrence from first 2n terms.
+
+Simplex
+	Solves general linear programming problem over simplex.
+
+Solve Linear Set of Equations: n^2 * m
+
+Tridiagonal: n
+	ai = bi a[i-1] + ci a[i+1] + di for 1 <= i <= n
+
+Unimodal Extremum
+
+-------------

@@ -1,0 +1,692 @@
+Legendary legend Rank 2 IMO Gold Medal girl.
+
+https://blog.tanyakhovanova.com/
+
+https://www.tanyakhovanova.com/
+
+"
+Random Quote
+You can buy food, but not appetite; medicine, but not health; soft beds, but not sleep; knowledge but not intelligence; glitter, but not comfort; fun, but not pleasure; acquaintances, but not friendship; servants, but not faithfulness; grey hair, but not honor; quiet days, but not peace. The shell of all things you can get for money. But not the kernel. That cannot be had for money.
+- Arne Garborg
+"
+
+First an extremely funny story with what might strike some as woo or Not Even Wrong poetry and others as deep profundity.
+
+	The Path to Better Thinking Through Puzzles and Riddles
+
+	https://tim.blog/2022/04/25/how-to-solve-problems/
+
+The following is a guest post from A.J. Jacobs (@ajjacobs), a bestselling author, journalist, and human guinea pig. It is excerpted from his new book The Puzzler: One Man’s Quest to Solve the Most Baffling Puzzles Ever, from Crosswords to Jigsaws to the Meaning of Life. A.J. has written four New York Times bestsellers, including The Year of Living Biblically (for which he followed all the rules of the Bible as literally as possible) and Thanks a Thousand (for which he went around the world and thanked every person who had even the smallest role in making his morning cup of coffee possible). He has given four TED talks with a combined 10M+ views. He contributes to NPR and The New York Times and wrote the article “My Outsourced Life,” which was featured in The 4-Hour Workweek. He was once the answer to one down in The New York Times crossword puzzle. 
+
+You can find my interview from 2016 with A.J here, and you can find last week’s interview with A.J. here.
+
+Please enjoy!
+
+Enter A.J…
+My father was the one to introduce me to math puzzles.
+
+He didn’t focus on the traditional kind. His were weirder than that, more homegrown. My dad’s greatest joy comes from baffling unsuspecting people—strangers, friends, family, whomever—and he often accomplishes this with math-based hijinks.
+
+One time, when I was about eight years old, I asked my dad how fast race cars went. This was before Google, so my father was my version of a search engine.
+
+“The fastest ones get up to about 50 million,” my dad said.
+
+Even to my unschooled mind, 50 million miles per hour seemed off.
+
+“That doesn’t sound right,” I said.
+
+“Yes it is,” he said. “50 million fathoms per fortnight.”
+
+I just stared at him.
+
+“Oh, you wanted miles per hour?” my dad said. “I thought you meant in fathoms per fortnight.”
+
+As you might know, a fathom equals six feet, and a fortnight is two weeks. My dad had decided that fathoms per fortnight would be his default way to measure speed, on the probably correct theory that no one else on earth had ever used that metric. I thanked him for this helpful information.
+
+So, as you can see, I was exposed to recreational math early on, leaving me with a mixed legacy—a love of numbers, a healthy skepticism about numbers, and paranoia.
+
+For this puzzle project, I’ve bought a dozen books with math and logic brainteasers. Reading these books often induces a mild panic. How would I know how many spheres can simultaneously touch a center sphere? I can’t even figure out where to start. What’s the entry point?
+
+To remedy this problem, I decided to consult one of the world’s experts on math puzzles, hoping to learn some of her methods. Tanya Khovanova greets me on a video call. But before I’m allowed to ask her anything, she has a question for me.
+
+“I have two coins,” she says, in a Russian accent. “Together they add up to 15 cents. One of them is not a nickel. What are the two coins?”
+
+My palms begin to sweat. I did not expect a pop quiz.
+
+Maybe she’s talking about foreign coins? Maybe rubles are involved, I say?
+
+“Not foreign coins,” she says. “American currency.”
+
+I employ one of the puzzle-solving strategies that I do know: Look closely at all of the words and see if you have fallen for any hidden assumptions.
+
+Two coins.
+Add up to 15.
+One of them is not a nickel.
+
+That last phrase is kind of ambiguous. She didn’t say “neither of them are nickels.” So . . . what if one is not a nickel, but the other one is?
+
+“A dime and a nickel?” I say, tentatively. “Because the other one is a nickel?”
+
+“Okay. You passed the test. So you can continue,” she says, smiling.
+
+This is a relief. Because Tanya is a fascinating character. She is a Russian émigré who is now a lecturer at MIT. She writes a popular blog about the world’s twistiest math and logic puzzles (it’s called simply Tanya Khovanova’s Math Blog). And she has cracked pretty much every great math puzzle ever created. We’re talking coin puzzles, matchstick-arranging puzzles, river-crossing puzzles, math equation puzzles.
+
+Tanya is on a mission. “I am very upset at the world,” she says. “There is so much faulty thinking, and puzzles can help us think better.”
+
+Consider probability, she says. We are terrible at thinking probabilistically, and puzzles about odds can help us learn. They could teach us, for instance, the folly of playing the lottery. “The situation is unethical. I think that lottery organizers should spend part of the money they make on lotteries to educate people not to play the lottery.”
+
+Tanya has been fascinated with math since her childhood in Moscow.
+
+“The first thing that I remember, it wasn’t a puzzle, it was an idea. I remember that I was five years old and we were on a vacation in a village, and I was trying to go to sleep and I was thinking after each number there is the next number, and then there is the next number. At some point, I realized that there should be an infinity of numbers. And I had this feeling like I’m touching infinity, I’m touching the universe, just a euphoric feeling.”
+
+Being a female Jewish math genius in 1970s Soviet Russia was not easy. She faced sexism and anti-Semitism. Tanya says the test for the prestigious Moscow State University—the Soviet equivalent of MIT—was rigged against Jews. Jewish students were given a separate and more difficult test. The problems were called “coffin problems,” which translates to “killer problems.” Tanya studied with other Jewish students and managed to pass the unfair test.
+
+In 1990, Tanya left Russia. She moved to the United States and married a longtime American friend. She worked for a defense contractor near Boston but hated it because “I thought it destroyed my karma.” She started teaching as a volunteer at MIT before they hired her as a full-time lecturer.
+
+Her philosophy: puzzles should be used more often in teaching math. First of all, they entertain us while teaching us how to think rigorously. And second, puzzles can lead to genuine advances in mathematics—topics such as conditional probability and topology were originally explored in puzzle form.
+
+Math Puzzles 1.0
+
+The very first math puzzles—at least according to some scholars—date back to Egypt’s Rhind Papyrus, about 1500 B.C.E. They’re closer to problems than puzzles, since they don’t require much ingenuity. But the unnamed author did try to spice them up with some whimsical details, such as in Problem 79.
+
+Problem 79. There are seven houses.
+In each house there are seven cats.
+Each cat kills seven mice.
+Each mouse has eaten seven grains of barley.
+Each grain would have produced seven hekat (a unit of measurement).
+What is the sum of all the enumerated things?
+
+Arguably the first book with actual twisty and turny math puzzles came several centuries later. The ninth century Holy Roman Emperor Charlemagne was a puzzle addict, and he hired a British scholar named Alcuin of York to be his official puzzlemaker. Alcuin’s book Problems to Sharpen the Young introduced, among other things, the first known river-crossing problem. Here it is:
+
+A man has to transport a wolf, a goat, and a bunch of cabbages across a river. His boat could take only two of these at a time. How can he do this without leaving the wolf alone with the goat (as he might eat it) or the goat alone with the cabbages (as it might eat them)?
+
+For river-crossing problems, you need to realize that you must take a counterintuitive step backward before continuing forward. You must think outside the box.
+
+Way Outside the Box
+
+Tanya reminds me that “thinking outside of the box” wasn’t always a cliché. The origin of the phrase is an actual puzzle: Connect all the dots in this diagram using just four straight lines:
+
+Background pattern
+
+Description automatically generated
+The answer:
+
+A picture containing chart
+
+Description automatically generated
+Nowadays the phrase is overused and is often a punchline, as in the cartoon of the cat thinking outside its litter box. But it’s still an important concept: to find a solution, you often have to break expectations.
+
+“My students have taught me as much as I have taught them about this,” she says.
+
+“How do you mean?” I ask.
+
+She tells me to think about this puzzle: “You have a basket containing five apples. You have five hungry friends. You give each of your friends one apple. After the distribution, each of your friends has one apple, yet there is an apple remaining in the basket. How can that be?”
+
+The traditional answer is: you give four friends an apple, and then hand the fifth friend the basket with the apple still in it. So each friend has an apple, and there’s still one in the basket.
+
+“For that answer, you have to think out of the box,” says Tanya. “But my students have come up with answers that are even farther out of the box.”
+
+Their suggestions include:
+
+One friend already has an apple.
+You kill one of your friends.
+You are narcissistic and you are your own friend.
+The friend who didn’t get an apple stops being your friend.
+An extra apple falls from the tree to the basket.
+And Tanya’s favorite: The basket is your friend. We should not discount people’s emotional connection with inanimate objects.
+
+“The lesson my students taught me is that I’m good at thinking outside the box. But I realized, I’m inside my own bigger box. And maybe we all are.”
+
+How to Solve Problems
+
+But how do you get yourself to think outside the box? How do you approach a math problem? I know how to start a jigsaw puzzle (the edges, usually) and a crossword (look for plurals and fill in the Ses). But how do you approach a math problem?
+
+After talking to Tanya and another great math puzzle expert, Dartmouth professor Peter Winkler, I’ve come up with a list of tools for math and logic problems. Here are three of my favorites.
+
+1) Reverse it.
+
+When confronted with a problem, try reversing it. Turn it upside down.
+
+Sometimes quite literally, turn it upside down.
+
+Such as this problem:
+
+What number belongs in the blank in this sequence:
+16 06 68 88 __ 98
+(It’s 87. Turn the page upside down to see why.)
+
+There are other puzzles that require you to reverse your thinking in a slightly less literal way. Like this one:
+
+A man is imprisoned in a ten-foot by ten-foot by ten-foot room. The walls are made of concrete, the floor is made of dirt, and the only openings are a locked door and a skylight. The man has a small shovel and starts to dig a hole in the floor. He knows that it is impossible to tunnel out of the prison cell, but he continues to dig anyway. What is the man’s plan?
+
+Pause here if you want to figure it out yourself.
+
+The solution is: The man wasn’t just digging a hole. He was also doing the opposite: building a little mountain of dirt. And his plan was to climb the mountain and get to the skylight.
+
+I love reversing my thinking. Earlier this week, I was cleaning up the trail of clothes left by the males in our family (including me) that littered our apartment. I picked up an armload of clothes, then went to the hamper in my bedroom and dumped the clothes, then went back out. But wait. What if I . . . took the hamper with me. If I bring the hamper to the clothes. I’d save myself several trips. As Will Shortz once suggested, I took a bow.
+
+2) Figure out the real goal.
+
+One of my favorite brainteasers comes from Martin Gardner, who wrote a famous monthly column about math puzzles in Scientific American for three decades, starting in 1962. He died in 2010, but he still has tons of devotees, hundreds of whom attend a biannual event, the Gathering 4 Gardner, where they talk puzzles, paradoxes, and the genius of Martin.
+
+Martin posed this puzzle in his book Entertaining Mathematical Puzzles:
+
+Two boys on bicycles, 20 miles apart, began racing directly toward each other. The instant they started, a fly on the handlebar of one bicycle started flying straight toward the other cyclist. As soon as it reached the other handlebar, it turned and started back. The fly flew back and forth in this way, from handlebar to handlebar, until the two bicycles met.
+
+If each bicycle had a constant speed of 10 miles an hour, and the fly flew at a constant speed of 15 miles an hour, how far did the fly fly?
+
+Pause here if you want to try it yourself, spoilers ahead.
+
+So how to solve this? Most people’s first instinct—including mine—is to trace the back-and-forth path of the fly and try to add up the distance.
+
+With this method, you’d try to calculate the distance from Biker 1’s handlebars to Biker 2’s handlebars. Then the fly would make a U-turn, so you’d calculate the next distance, from Biker 2 to Biker 1. And so on until the bikes met.
+
+This turns out to be a highly complex computation involving the speed of the bikers, the speed of the insect, and time and distance. The operation is called “summing an infinite series.”
+
+This calculation is impossible to do in your head. Well, practically impossible. Legend has it that the brilliant Hungarian mathematician John von Neumann was once asked this brainteaser at a party, and, to the amazement of the quizzer, gave the correct answer by summing the “infinite series” in his head, no calculator needed.
+
+Von Neumann was too smart for his own good. If he had paused for a moment, he might have realized there’s a much easier way to solve this problem.
+
+Which brings me back to the strategy: What is the real goal?
+
+You want to phrase the problem in the simplest possible way. Strip the problem to its basics, and you’ll realize you are looking for one thing: the distance the fly can fly in an allotted amount of time.
+
+You can ignore the fly’s back and forth switch of directions. You can ignore the handlebars. They’re irrelevant. You just need to know how far the insect can go in the time it takes the bikes to meet.
+
+Which turns out to be a pretty easy calculation:
+
+If each bike was going at 10 miles per hour, and they were 20 miles apart, then it would take the bikes one hour to reach each other.
+
+So the fly was buzzing around for one hour. What is the distance the fly can cover in one hour? Well, it’s going 15 miles per hour. So the answer is fifteen miles.
+
+We often complicate problems when there’s an easier method right in front of us. I think this is true in more than just math puzzles.
+
+I’m not sure if this is exactly analogous, but it’s staring me in the mirror, so let me tell you about one example. Recently, I was faced with the puzzle of how to cut my own hair. During quarantine, I couldn’t go to the barber, and Julie claimed she wasn’t qualified. I had to do it myself using YouTube tutorials.
+
+My first attempt to cut my own hair had mixed results. The front turned out okay, but the harder-to-reach back of my head was a disaster, filled with uneven patches.
+
+So I paused. I rephrased the problem. The goal is not to cut my hair flawlessly. The goal is to look respectable on Zoom. And on Zoom, no one ever sees the back of my head.
+
+So the simplest solution: Just cut the front of my hair and leave the back alone to grow wild and free. Puzzle solved! Though for the first time in my life, I do have a mullet.
+
+3) Break it down into manageable chunks 
+
+One type of logic puzzle—often called Fermi Problems—provides excellent training for solving some real-life problems. A Fermi Problem is one like this: “How many piano tuners are there in New York City?” You have to estimate the size of something about which you are totally ignorant. 
+
+If you just take a wild guess without reflecting, you’ll probably be off by orders of magnitude. Instead, as David Epstein explains in the psychology book Range: Why Generalists Triumph in a Specialized World, the best method is to break the problem down into parts you can reasonably estimate.
+
+As Epstein writes: ﻿“How many households are in New York? What portion might have pianos? How often are pianos tuned? How long might it take to tune a piano? How many homes can one tuner reach in a day? How many days a year does a tuner work?” 
+
+You won’t guess it exactly, but you’ll be much more likely to be in the ballpark. As Epstein writes, “None of the individual estimates has to be particularly accurate in order to get a reasonable overall answer.”
+
+Epstein calls it an important tool in his “conceptual Swiss Army knife.” I too find it helpful when reading statistics from dubious media sources, or listening to wild cocktail party speculation. 
+
+Breaking problems into chunks even works when trying to motivate yourself. Take the puzzle of how I can get my lazy butt to walk the treadmill for a few minutes a day. If I say to myself, “You have to walk on the treadmill for an hour today,” I will delay this task forever. So I break it down. I put the big picture out of my mind. First, I tackle the subgoal of putting on my sneakers. I can do that. Then the subgoal of turning the treadmill on. I can do that. And just step onto the rubber belt for just five minutes. I can do that. And eventually, I’m walking and realize this isn’t so bad. I can do this. I stay on for the full hour.
+
+Excerpted with permission from THE PUZZLER: One Man’s Quest to Solve the Most Baffling Puzzles Ever, from Crosswords to Jigsaws to the Meaning of Life by A.J Jacobs.
+
+OKOKOK Papers.
+
+	List of Publications
+	Tanya Khovanova
+	Some of my research is reflected on my webpage. Namely,
+
+How to Create a New Integer Sequence — an online version of the same paper.
+Double Trouble — a discussion on puzzling behaviour of Doubles in Java.
+Recursive Sequences — a page devoted to recursive sequence of order 1 and 2. Common properties of these sequences and proofs.
+Number Gossip — my encyclopedia of integers. I checked all the unique properties. Many of them required a program or a proof.
+I am the author and a coauthor of many sequences in the OEIS. I have a separate web page with the list of my sequences.
+
+(with Atharva Pathak), Combinatorial Aspects of the Card Game War, math.CO arXiv: 2202.00473.
+
+This paper studies a single-suit version of the card game War on a finite deck of cards. There are varying methods of how players put the cards that they win back into their hands, but we primarily consider randomly putting the cards back and deterministically always putting the winning card before the losing card. The concept of a \emph{passthrough} is defined, which refers to a player playing through all cards in their hand from a particular point in the game. We consider games in which the second player wins during their first passthrough. We introduce several combinatorial objects related to the game: game graphs, win-loss sequences, win-loss binary trees, and game posets. We show how these objects relate to each other. We enumerate states depending on the number of rounds and the number of passthroughs.
+
+Obviously this one might come via Zarathustra Elessar Brady commentary.
+
+(with Kyle Burke, Joshua Lee, Richard J. Nowakowski, Amelia Rowland, and Craig Tennenhouse), Æquitas: Two-Player Counterfeit Coin Games, math.HO and math.CO arXiv: 2201.04973.
+
+We discuss games involving a counterfeit coin. Given one counterfeit coin among a number of otherwise identical coins, two players with full knowledge of the fake coin take turns weighing coins on a two-pan scale, under the condition that on every turn they reveal some information to an Observer with limited prior knowledge about the coins. We study several games depending on the types of the counterfeit coin, the end-game condition, and the availability of extra genuine coins. We present the winning positions and the Grundy numbers for these games.
+
+OK
+
+(with Matvey Borodin, Eric Chen, Aidan Duncan, Boyan Litchev, Jiahe Liu, Veronika Moroz, Matthew Qian, Rohith Raghavan, Garima Rastogi, and Michael Voigt), Sequences of the Stable Matching Problem, math.HO arXiv: 2201.00645.
+
+In this paper, we begin by discussing different types of preference profiles related to the stable marriage problem. We then introduce the concept of soulmates, which are a man and a woman who rank each other first. Inversely, we examine hell-pairs, where a man and a woman rank each other last. We generate sequences enumerating preference profiles of different types. We also calculate sequences related to the egalitarian cost, or "quality", of a matching. In total, we introduce and discuss 30 new sequences related to the stable marriage problem and discuss 6 sequences that are already in the OEIS.
+
+OKOKOK interesting enough.
+
+(with Michael Han, Ella Kim, Evin Liang, Miriam (Mira) Lubashev, Oleg Polin, Vaibhav Rastogi, Benjamin Taycher, Ada Tsui, and Cindy Wei), Fun with Latin Squares, math.HO and math.CO arXiv: 2109.01530.
+
+Do you want to know what an anti-chiece Latin square is? Or what a non-consecutive toroidal modular Latin square is? We invented a ton of new types of Latin squares, some inspired by existing Sudoku variations. We can't wait to introduce them to you and answer important questions, such as: do they even exist? If so, under what conditions? What
+
+OK
+
+(with Matvey Borodin, Eric Chen, Aidan Duncan, Boyan Litchev, Jiahe Liu, Veronika Moroz, Matthew Qian, Rohith Raghavan, Garima Rastogi, and Michael Voigt), The Stable Matching Problem and Sudoku, math.HO arXiv: 2108.02654.
+
+Are you having trouble getting married? These days, there are lots of products on the market for dating, from apps to websites and matchmakers, but we know a simpler way! That's right — your path to coupled life isn't through Tinder: it's through Sudoku! Read our fabulous paper where we explore the Stable Marriage Problem to help you find happiness and stability in marriage through math. As a bonus, you get two Sudoku puzzles with a new flavor.
+
+OKOKOK fun fun fun.
+
+(with Sean Li) The Penney's Game with Group Action, math.CO arXiv: 2009.06080, published in Annals of Combinatorics (2022).
+
+We generalize word avoidance theory by equipping the alphabet 𝒜 with a group action. We call equivalence classes of words patterns. We extend the notion of word correlation to patterns using group stabilizers. We extend known word avoidance results to patterns. We use these results to answer standard questions for the Penney's game on patterns and show non-transitivity for the game on patterns as the length of the pattern tends to infinity. We also analyze bounds on the pattern-based Conway leading number and expected wait time, and further explore the game under the cyclic and symmetric group actions.
+
+OK I read this one awhile back I think when it dropped.
+
+(with Kevin Wu) Base 3/2 and Greedily Partitioned Sequences, math.NT arXiv: 2007.09705.
+
+We delve into the connection between base 3/2 and the greedy partition of non-negative integers into 3-free sequences. Specifically, we find a fractal structure on strings written with digits 0, 1, and 2. We use this structure to prove that the even non-negative integers written in base 3/2 and then interpreted in base 3 form the Stanley cross-sequence, where the Stanley cross-sequence comprises the first terms of the infinitely many sequences that are formed by the greedy partition of non-negative integers into 3-free sequences.
+
+OK come back to processing through this corpus another day maybe make some comments.
+
+(with Isha Agarwal, Paul Braverman, Patrick Chen, William Du, Kaylee Ji, Akhil Kammila, Shane Lee, Alicia Li, Anish Mudide, Jeffrey Shi, Maya Smith, Isabel Tu) Confirming the Labels of Coins in One Weighing, math.HO arXiv: 2006.16797.
+
+There are n bags with coins that look the same. Each bag has an infinite number of coins and all coins in the same bag weigh the same amount. Coins in different bags weigh 1, 2, 3, and so on to n grams exactly. There is a unique label from the set 1 through n attached to each bag that is supposed to correspond to the weight of the coins in that bag. The task is to confirm all the labels by using a balance scale once.
+We study weighings that we call downhill: they use the numbers of coins from the bags that are in a decreasing order. We show the importance of such weighings. We find the smallest possible total weight of coins in a downhill weighing that confirms the labels on the bags. We also find bounds on the smallest number of coins needed for such a weighing.
+
+(with Isha Agarwal, Matvey Borodin, Aidan Duncan, Kaylee Ji, Shane Lee, Boyan Litchev, Anshul Rastogi, Garima Rastogi, Andrew Zhao) From Unequal Chance to a Coin Game Dance: Variants of Penney's Game, math.HO arXiv: 2006.13002, published in Recreational Mathematics Magazine, v. 8, issue 14, (2021), pp. 19-38.
+
+We analyze a coin-based game with two players where, before starting the game, each player selects a string of length $n$ comprised of coin tosses. They alternate turns, choosing the outcome of a coin toss according to specific rules. As a result, the game is deterministic. The player whose string appears first wins. If neither player's string occurs, then the game must be infinite.
+We study several aspects of this game. We show that if, after 4n − 4 turns, the game fails to cease, it must be infinite. Furthermore, we examine how a player may select their string to force a desired outcome. Finally, we describe the result of the game for particular cases.
+
+(with Isha Agarwal, Matvey Borodin, Aidan Duncan, Kaylee Ji, Shane Lee, Boyan Litchev, Anshul Rastogi, Garima Rastogi, Andrew Zhao) The No-Flippancy Game, math.CO arXiv: 2006.09588.
+
+We introduce and analyze several variations of Penney's game aimed to find a more equitable game.
+
+(with Eric Chen, William Du, Tanmay Gupta, Alicia Li, Srikar Mallajosyula, Rohith Raghavan, Arkajyoti Sinha, Maya Smith, Matthew Qian, and Samuel Wang) The Classification of Magic SET Squares, math.HO arXiv: 2006.04764, published in Recreational Mathematics Magazine, v. 7, issue 13, (2020), pp. 71-94.
+
+A magic SET square is a 3 by 3 table of SET cards such that each row, column, diagonal, and anti-diagonal is a set. We allow the following transformations of the square: shuffling features, shuffling values within the features, rotations and reflections of the square. Under these transformations, there are 21 types of magic SET squares. We calculate the number of squares of each type. In addition, we discuss a game of SET tic-tac-toe.
+
+(with Sebastian Jeon) 3-Symmetric Graphs, math.CO arXiv: 2003.03870.
+
+An intuitive property of a random graph is that its subgraphs should also appear randomly distributed. We consider graphs whose subgraph densities exactly match their expected values. We call graphs with this property for all subgraphs with k vertices to be k-symmetric. We discuss some properties and examples of such graphs. We construct 3-symmetric graphs and provide some statistics.
+
+(with Matvey Borodin, Aidan Duncan, Joshua Guo, Kunal Kapoor, Anuj Sakarda, Jerry Tan, Armaan Tipirneni, Max Xu, and Kevin Zhao) It's Common Knowledge, math.HO arXiv: 1909.02415, published in Recreational Mathematics Magazine Volume 6 (2019) Issue 12, pp. 9–32.
+
+We discuss some old common knowledge puzzles and introduce a lot of new common knowledge puzzles.
+
+(with Joshua Lee) The 5-Way Scale math.CO and math.HO arXiv: 1903.04900, published in Recreational Mathematics Magazine (2019) Issue 11.
+
+In this paper, we discuss coin-weighing problems that use a 5-way scale which has five different possible outcomes: MUCH LESS, LESS, EQUAL, MORE, and MUCH MORE. The 5-way scale provides more information than the regular 3-way scale. We study the problem of finding two fake coins from a pile of identically looking coins in a minimal number of weighings using a 5-way scale. We discuss similarities and differences between the 5-way and 3-way scale. We introduce a strategy for a 5-way scale that can find both counterfeit coins among 2k coins in k + 1 weighings, which is better than any strategy for a 3-way scale.
+
+(with Matvey Borodin, Hannah Han, Kaylee Ji, Alexander Peng, David Sun, Isabel Tu, Jason Yang, William Yang, Kevin Zhang, and Kevin Zhao) Variants of Base 3 over 2, math.CO arXiv: 1901.09818. Published in the Journal of Integer Sequences, Vol 23 (2020), Article 20.2.7.
+
+We discuss two different systems of number representations that both can be called 'base 3/2'. We explain how they are connected. Unlike classical fractional extension, these two systems provide a finite representation for integers. We also discuss a connection between these systems and 3-free sequences.
+
+A Boston story in 50 words Boston Globe, Dec 16, 2018
+
+When I immigrated to Boston, I didn't know how to drive. Someone gifted me "The Boston Driver's Handbook" and I studied it. I learned to buy cheap cars, speed up on yellow lights, and other useful habits. Years later, I realized it wasn't a manual. It was a humor book.
+
+(with Matvey Borodin, Hannah Han, Kaylee Ji, Alexander Peng, David Sun, Isabel Tu, Jason Yang, William Yang, Kevin Zhang, and Kevin Zhao) Chip-Firing and Fractional Bases math.CO arXiv: 1809.09676, published in the Minnesota Journal of Undergraduate Mathematics, v.6, n.1, 2021.
+
+We study a particular chip-firing process on an infinite path graph. At any time when there are at least a + b chips at a vertex, a chips fire to the left and b chips fire to the right. We describe the final state of this process when we start with n chips at the origin.
+
+(with Eric Zhang) On 3-Inflatable Permutations math.CO arXiv: 1809.08490, published as Limit Densities of Patterns in Permutation Inflations in the Electronic Journal of Combinatorics, v28, P1.24, (2021).
+
+Call a permutation k-inflatable if it can be "blown up" into a convergent sequence of permutations by a uniform inflation construction, such that this sequence is symmetric with respect to densities of induced subpermutations of length k. We study properties of 3-inflatable permutations, finding a general formula for limit densities of pattern permutations in the uniform inflation of a given permutation. We also characterize and find examples of 3-inflatable permutations of various lengths, including the shortest examples with length 17.
+
+(with Wayne Zhao) Mathematics of a Sudo-Kurve math.HO arXiv: 1808.06713, published in Recreational Mathematics Magazine, Number 10, (2018) pp. 5-27, DOI:https://doi.org/10.2478/rmm-2018-0005
+
+We investigate a type of a Sudoku variant called Sudo-Kurve, which allows bent rows and columns, and develop a new, yet equivalent, variant we call a Sudo-Cube. We examine the total number of distinct solution grids for this type with or without symmetry. We study other mathematical aspects of this puzzle along with the minimum number of clues needed and the number of ways to place individual symbols.
+
+(with Ben Chen, Richard Chen, Joshua Guo, Shane Lee, Neil Malur, Nastia Polina, Poonam Sahoo, Anuj Sakarda, Nathan Sheffield, Armaan Tipirneni) On Base 3/2 and its Sequences math.NT arXiv: 1808.04304. A short version Sorted Fibs in Base 3/2 is published in The Mathematical Intelligencer, 43(2), 92-98 (2021).
+
+We discuss properties of integers in base 3/2. We also introduce many new sequences related to base 3/2. Some sequences discuss patterns related to integers in base 3/2. Other sequence are analogues of famous base-10 sequences: we discuss powers of 3 and 2, Look-and-say, and sorted and reverse sorted Fibonaccis. The eventual behavior of sorted and reverse sorted Fibs leads to special Pinocchio and Oihcconip sequences respectively.
+
+Crypto Word Search, published in G4G13 Exchange Book, volume 2, p.134, 2019.
+
+A Crypto Word Search puzzle made as a gift exchange for G4G13.
+
+Murder at the Asylum math.HO arXiv: 1803.09607.
+
+I describe a puzzle I wrote for the 2018 MIT Mystery Hunt which introduced new types of people in logic puzzles. I discuss the puzzle itself, the solution, and the mathematics behind it.
+
+Coins and Logic math.HO arXiv: 1801.01143. Published in The Mathematics of Various Entertaining Subjects, Volume 3, The Magic of Mathematics, Princeton University Press, 2019.
+
+We establish fun parallels between coin-weighing puzzles and knights-and-knaves puzzles.
+
+(with Dhroova Aiylam) Weighted Mediants and Fractals math.NT arXiv: 1711.01475.
+
+In this paper we study a natural generalization of the Stern-Brocot sequences which comes from the introduction of weighted mediants. We focus our attention on the case k=3, in which (2a+c)/(2b+d) and (a+2c)/(b+2d) are the two mediants inserted between a/b and c/d. We state and prove several properties about the cross-differences of Stern-Brocot sequences with k=3, and give a proof of the fractal-like rule that describes the cross-differences of the unit k=3 Stern-Brocot sequences, i.e. the one with usual starting terms 0/1, 1/1 and with reduction of fractions.
+
+On the Mathematics of Fraternal Birth Order Effect and the Genetics of Homosexuality q-bio.OT arXiv: arXiv q-bio.OT 1711.09692. Published in the Archives of Sexual Behavior, 49(2), 551-555 (2020). doi.org/10.1007/s10508-019-01573-1
+
+Mathematicians have always been attracted to the field of genetics. I am especially interested in the mathematical aspects of research on homosexuality. Certain studies show that male homosexuality may have a genetic component that is correlated with female fertility. Other studies show the existence of the fraternal birth order effect, that is the correlation of homosexuality with the number of older brothers.
+This paper is devoted to the mathematical aspects of how these two phenomena are interconnected. In particular, I show that the fraternal birth order effect produces a correlation between homosexuality and maternal fecundity. Vice versa, I show that the correlation between homosexuality and female fecundity implies the increase of the probability of the younger brothers being homosexual.
+
+PRIMES STEP Plays Games (Pratik Alladi, Neel Bhalla, Nathan Sheffield, Eddie Song, William Sun, Andrew The, Alan Wang, Naor Wiesel, Kevin Zhang, Kevin Zhao) math.CO arXiv: 1707.07201. Published in Math Horizons, Vol 26, No 2, pp. 10-13, 2018 (with the title misspelled).
+
+A group of students in 7-9 grades are inventing combinatorial impartial games. The games are played on graphs, piles, and grids. We found winning positions, optimal strategies, and other interesting facts about the games.
+
+On Variations of Nim and Chomp (June Ahn, Benjamin Chen, Richard Chen, Ezra Erives, Jeremy Fleming, Michael Gerovitch, Tejas Gopalakrishna, Neil Malur, Nastia Polina, Poonam Sahoo) math.CO arXiv: 1705.06774. Published in Minnesota Journal of Undergraduate Mathematics, Vol 4, No 1, pp. 1-12, 2018.
+
+We study two variations of Nim and Chomp which we call Monotonic Nim and Diet Chomp. In Monotonic Nim the moves are the same as in Nim, but the positions are non-decreasing numbers as in Chomp. Diet-Chomp is a variation of Chomp, where the total number of squares removed is limited.
+
+(with Konstantin Knop) Coins that Change Their Weights math.CO arXiv: 1611.09201.
+
+As in many coin puzzles, we have several identical-looking coins, with one of them fake and the rest real. The real coins weigh the same. Our fake coin is special in that it can change its weight. The coin can pretend to be a real coin, a fake coin that is lighter than a real one, and a fake coin that is heavier than a real one. In addition to this, each time the coin is on the scale, it changes its weight in a predetermined fashion.
+In this paper, we seek to find our fake coin using a balance scale and the smallest number of weighings.
+We consider different possibilities for the fake coin. We discuss coins that change weight between two states or between three states. The 2- state coin that changes weight from lighter to real and back has been studied before, so we concentrate on the 2-state coin that changes weight from lighter to heavier, and back. We also study the 3-state coin, which changes its weight from lighter to heavier to real, and back to lighter.
+Given the total number of coins and the starting state of the fake coin, we calculate the smallest number of weighings needed to identify the fake coin. We provide an oblivious optimal strategy for this number of weighings. We also discuss what happens if the starting state is not known or mixed. In such cases, adaptive strategies are often more powerful than oblivious ones.
+
+(with Rafael M. Saavedra) Discreet Coin Weighings and the Sorting Strategy math.CO arXiv: 1609.07466.
+
+In 2007, Alexander Shapovalov posed an old twist on the classical coin weighing problem by asking for strategies that manage to conceal the identities of specific coins while providing general information on the number of fake coins. In 2015, Diaco and Khovanova studied various cases of these "discreet strategies" and introduced the revealing factor, a measure of the information that is revealed.
+
+In this paper we discuss a natural coin weighing strategy which we call the sorting strategy: divide the coins into equal piles and sort them by weight. We study the instances when the strategy is discreet, and given an outcome of the sorting strategy, the possible number of fake coins. We prove that in many cases, the number of fake coins can be any value in an arithmetic progression whose length depends linearly on the number of coins in each pile. We also show the strategy can be discreet when the number of fake coins is any value within an arithmetic subsequence whose length also depends linearly on the number of coins in each pile. We arrive at these results by connecting our work to the classic Frobenius coin problem. In addition, we calculate the revealing factor for the sorting strategy.
+
+(with Shuheng Niu) m-Modular Wythoff math.CO arXiv: 1608.01025.
+
+We discuss a variant of Wythoff's Game, m-Modular Wythoff's Game, and identify the winning and losing positions for this game.
+
+with Benjamin Chen, Ezra Erives, Leon Fan, Michael Gerovitch, Jonathan Hsu, Neil Malur, Ashwin Padaki, Nastia Polina, Will Sun, Jacob Tan, Andrew The) Alternator Coins math.CO arXiv: arXiv math.CO 1605.05601, published in Math Horizons, v.25.1, pp. 22-25, (2017).
+
+We introduce a new type of coin: the alternator. The alternator can pretend to be either a real or a fake coin (which is lighter than a real one). Each time it is put on a balance scale it switches between pretending to be either a real coin or a fake one. In this paper, we solve the following problem: You are given N coins that look identical, but one of them is the alternator. All real coins weigh the same. You have a balance scale which you can use to find the alternator. What is the smallest number of weighings that guarantees that you will find the alternator?
+
+Thinking Inside and Outside the Box math.GM arXiv: 1605.02232. The paper is published in G4G12 Exchange book, v1 p.238-245.
+
+I discuss puzzles that require thinking outside the box. I also discuss the box inside of which many people think.
+
+(with Benjamin Chen, Ezra Erives, Leon Fan, Michael Gerovitch, Jonathan Hsu, Neil Malur, Ashwin Padaki, Nastia Polina, Will Sun, Jacob Tan, Andrew The) Who Is Guilty? math.HO arXiv: arXiv math.HO 1603.08549, published in Recreational Mathematics Magazine, v. 8, issue 15, (2021), pp. 41-52.
+
+We discuss a generalization of logic puzzles in which truth-tellers and liars are allowed to deviate from their pattern in case of one particular question: "Are you guilty?"
+
+The dying art of mental math tricks. Hacker Bits, Feb, 2016. pp.24-25.
+
+(with Konstantin Knop and Oleg Polubasov) Chameleon Coins math.HO arXiv: 1512.07338.
+
+We discuss coin-weighing problems with a new type of coin: a chameleon. A chameleon coin can mimic a fake or a real coin, and it can choose which coin to mimic for each weighing independently.
+We consider a mix of N coins that include exactly two non-real coins: one fake and one chameleon. The task is to use a balance to find two coins one of which has to be fake. We find bounds for the number of coins for which we can find a solution in a given number of weighings. We also introduce an important idea of solution scaling.
+
+(with Caleb Ji, Robin Park, Angela Song) Chocolate Numbers. math.CO arXiv: arXiv 1509.06093. Published in the Journal of Integer Sequences, Vol. 19 (2016), Article 16.1.7.
+
+In this paper, we consider a game played on a rectangular m by n gridded chocolate bar. Each move, a player breaks the bar along a grid line. Each move after that consists of taking any piece of chocolate and breaking it again along existing grid lines, until just mn individual squares remain.
+This paper enumerates the number of ways to break an m by n bar, which we call chocolate numbers, and introduces four new sequences related to these numbers. Using various techniques, we prove interesting divisibility results regarding these sequences.
+
+(with Niket Gowravaram) On the Structure of nil-Temperley-Lieb Algebras of type A. math.CO arXiv: arXiv 1509.00462.
+
+We investigate nil-Temperley-Lieb algebras of type A. We give a general description of the structure of monomials formed by the generators. We also show that the dimensions of these algebras are the famous Catalan numbers by providing a bijection between the monomials and Dyck paths. We show that the distribution of these monomials by degree is the same as the distribution of Dyck paths by the sum of the heights of the peaks minus the number of peaks.
+
+(with Karan Sarkar) P-positions in Modular Extensions to Nim. math.CO arXiv: arXiv 1508.07054. Published in International Journal of Game Theory Volume 46, Issue 2, pp 547-561, 2016. DOI 10.1007/s00182-016-0545-7.
+
+In this paper, we consider a modular extension to the game of Nim, which we call m-Modular Nim, and explore its optimal strategy. In m-Modular Nim, a player can either make a standard Nim move or remove a multiple of m tokens in total. We develop a winning strategy for all m with 2 heaps and for odd m with any number of heaps.
+
+(with Nicholas Diaco) Weighing Coins and Keeping Secrets. math.HO cs.CR arXiv: arXiv 1508.05052. A shorter versions Privacy and Counterfeit Coins Published in the Mathematical Intelligencer, 38(3) 6–11, 2016. DOI 10.1007/s00283-016-9652-3.
+
+In this expository paper we discuss a relatively new counterfeit coin problem with an unusual goal: maintaining the privacy of, rather than revealing, counterfeit coins in a set of both fake and real coins. We introduce two classes of solutions to this problem — one that respects the privacy of all the coins and one that respects the privacy of only the fake coins — and give several results regarding each. We describe and generalize 6 unique strategies that fall into these two categories. Furthermore, we explain conditions for the existence of a solution, as well as showing proof of a solution's optimality in select cases. In order to quantify exactly how much information is revealed by a given solution, we also define the revealing factor and revealing coefficient; these two values additionally act as a means of comparing the relative effectiveness of different solutions. Most importantly, by introducing an array of new concepts, we lay the foundation for future analysis of this very interesting problem, as well as many other problems related to privacy and the transfer of information.
+
+Octopus Logic. Published in the book: Playing with Math: Stories from Math Circles, Homeschoolers, and Passionate Teachers (2015), pages 247-248.
+
+(with Pavel Etingof and Slava Gerovitch) Mathematical Research in High School: the PRIMES Experience, Notices, v62, pp. 910-918, (2015). The article is available at the Notices website.
+
+Mentioned as notable writing in The best writing on mathematics 2016.
+Dragons and Kasha. An extended version is at the math.HO: arXiv 1602.08488.
+
+Kasha-eating dragons introduce advanced mathematics. The goal of this paper is twofold: to entertain people who know advanced mathematics and inspire people who don't.
+
+(with Dhroova Aiylam) Stern-Brocot Trees from Weighted Mediants. math.NT: arXiv 1502.00682, published as Stern-Brocot Sequences from Weighted Mediants in Journal of Number Theory. DOI: 10.1016/j.jnt.2021.08.014.
+
+In this paper we discuss a natural generalization of the Stern Brocot tree which comes from the introduction of weighted mediants. We focus our attention on the case k=3, in which (2a+c)/(2b+d) and (a+2c)/(b+2d) are the two mediants inserted between a/b and c/d. Our main result is a determination of which rational numbers between the starting terms appear in the tree. We extend this result to arbitrary reduction schemes as well.
+
+(with Alexey Radul) (Not so) Much Ado About Nothing.
+
+Nothing is discussed in this paper.
+
+There are no Coincidences. math.CO arXiv: arXiv 1410.2193.
+
+This paper is inspired by a seqfan post by Jeremy Gardiner. The post listed nine sequences with similar parities. In this paper I prove that the similarities are not a coincidence but a mathematical fact.
+
+(with Konstantin Knop) Coins of Three Different Weights. math.HO arXiv: arXiv 1409.0250. Published in Barrycades and Septoku, AMS Spectrum Vol 100, Papers in Honor of Martin Gardner and Tod Rodgers, 2020.
+
+We discuss several coin-weighing problems in which coins are known to be of three different weights and only a balance scale can be used. We start with the task of sorting coins when the pans of the scale can fit only one coin. We prove that the optimal number of weighings for n coins is ⌈3n/2⌈ − 2. When the pans have an unlimited capacity, we can sort the coins in n + 1 weighings. We also discuss variations of this problem, when there is exactly one coin of the middle weight.
+
+(with Eric Nie and Alok Puranik) The Sierpinski Triangle and The Ulam-Warburton Automaton. math.HO arXiv: arXiv 1408.5937. Published in Math Horizons, Sep 2015, pp. 5-9 as The Pioneering Role of the Sierpinski Gasket. Also republished in the book The best writing on mathematics 2016.
+
+This paper is about the beauty of fractals and the surprising connections between them. We will explain the pioneering role that the Sierpinski triangle plays in the Ulam-Warburton automata and show you a number of pictures along the way.
+
+(with Joshua Xiong) Cookie Monster Plays Games. math.HO arXiv: arXiv 1407.1533, published in College Mathematics Journal, v.46(4) pp.283-293 (2015).
+
+We research a combinatorial game based on the Cookie Monster problem called the Cookie Monster game that generalizes the games of Nim and Wythoff. We also propose several combinatorial games that are in between the Cookie Monster game and Nim. We discuss properties of P-positions of all of these games.
+Each section consists of two parts. The first part is a story presented from the Cookie Monster's point of view, the second part is a more abstract discussion of the same ideas by the authors.
+
+Attacking ApSimon's Mints. math.HO arXiv: arXiv 1406.3012.
+
+ApSimon's Mints problem is a very difficult and often misunderstood counterfeit-coin puzzle. I explain the problem and suggest ways to approach it, while giving several fun exercises for the reader.
+
+(with Joshua Xiong) Nim Fractals. Combinatorics arXiv: arXiv 1405.5942. Published in the Journal of Integer Sequences, Vol. 17 (2014), Article 14.7.8.
+
+We enumerate P-positions in the game of Nim in two different ways. In one series of sequences we enumerate them by the maximum number of counters in a pile. In another series of sequences we enumerate them by the total number of counters.
+We show that the game of Nim can be viewed as a cellular automaton, where the total number of counters divided by 2 can be considered as a generation in which P-positions are born. We prove that the three-pile Nim sequence enumerated by the total number of counters is a famous toothpick sequence based on the Ulam-Warburton cellular automaton. We introduce 10 new sequences.
+
+Love and Math: The Heart of Hidden Reality by Edward Frenkel. A book review. Published in The College Mathematics Journal, Vol. 45, No. 3 (March 2014), pp. 217-219.
+
+Hat Puzzles. History and Overview arXiv: arXiv 1404.4973, published in Recreational Mathematics Magazine, Issue 2 (2014)
+
+This paper serves as the announcement of my program---a joke version of the Langlands Program. In connection with this program, I discuss an old hat puzzle, introduce a new hat puzzle, and offer a puzzle for the reader.
+
+(with Brandon Avila) Free Fibonacci Sequences. Number Theory arXiv: arXiv 1403.4614. Published in the Journal of Integer Sequences, Vol. 17 (2014), Article 14.8.5.
+
+This paper describes a class of sequences that are in many ways similar to Fibonacci sequences: given n, sum the previous two terms and divide them by the largest possible power of n. The behavior of such sequences depends on n. We analyze these sequences for small n: 2, 3, 4, and 5. Surprisingly these behaviors are very different. We also talk about any n. Many statements about these sequences are difficult or impossible to prove, but they can be supported by probabilistic arguments, we have plenty of those in this paper.
+We also introduce ten new sequences. Most of the new sequences are also related to Fibonacci numbers proper, not just free Fibonacci numbers.
+
+Parallel Weighings. History and Overview arXiv: arXiv 1310.7268, published as Parallel Weighings of Coins in The Mathematics of Various Entertaining Subjects: Research in Recreational Math, Princeton University Press, 2015, pp. 95-104.
+
+I introduce, solve and generalize a new coin puzzle that involves parallel weighings.
+
+(with Dai Yang) Fission of Halving Edges Graphs. Combinatorics arXiv: arXiv 1310.3510, published in Geombinatorics, Volume XXIX, issue 2, pp. 56-71 (2019).
+
+In this paper we discuss an operation on halving edges graph that we call fission. Fission replaces each point in a given configuration with a small cluster of k points. The operation interacts nicely with halving edges, so we examine its properties in detail.
+
+(with Leigh Marie Braswell) On the Cookie Monster Problem. History and Overview arXiv: arXiv 1309.5985, published as The Cookie Monster Problem in The Mathematics of Various Entertaining Subjects: Research in Recreational Math, Princeton University Press, 2015, pp. 231-244.
+
+The Cookie Monster Problem supposes that the Cookie Monster wants to empty a set of jars filled with various numbers of cookies. On each of his moves, he may choose any subset of jars and take the same number of cookies from each of those jars. The Cookie Monster number of a set is the minimum number of moves the Cookie Monster must use to empty all of the jars. This number depends on the initial distribution of cookies in the jars. We discuss bounds of the Cookie Monster number and explicitly find the Cookie Monster number for jars containing cookies in the Fibonacci, Tribonacci, n-nacci, and Super-n-nacci sequences. We also construct sequences of k jars such that their Cookie Monster numbers are asymptotically rk, where r is any real number between 0 and 1 inclusive.
+
+Linguistic Problems. in Puzzles in Logic, Languages and Computation, (2013), Red book pages 73-74, Green book pages 83-83.
+
+Four linguistic puzzle from my blog are published in the books: A Killer Puzzle (Red book, page 73), It's All Greek to Me (Red book, page 74), Made in Psilvania (Green book, page 83), Voulez-Vous Compter Ave Moi (Green book, page 84).
+
+(with Jesse Geneson and Jonathan Tidor) Convex geometric (k+2)-quasiplanar representations of semi-bar k-visibility graphs. Combinatorics arXiv: arXiv 1307.1169. Published in Discrete Mathematics, Volume 331, Pages 83-88 (2014).
+
+We examine semi-bar visibility graphs in the plane and on a cylinder in which sightlines can pass through k objects. We show every semi-bar k-visibility graph has a (k+2)-quasiplanar representation in the plane with vertices drawn as points in convex position and edges drawn as segments. We also show that the graphs having cylindrical semi-bar k-visibility representations with semi-bars of different lengths are the same as the (2k+2)-degenerate graphs having edge-maximal (k+2)-quasiplanar representations in the plane with vertices drawn as points in convex position and edges drawn as segments.
+
+A Line of Sages. Published in The Mathematical Intelligencer, September 2014, Volume 36, Issue 3, pp 44-46; DOI:10.1007/s00283-013-9415-3.
+
+The article is mentioned in the list of notable writing in The best writing on mathematics 2015.
+PDF.
+A new variation of an old hat puzzle, where sages are standing in line one behind the other.
+
+(with Leigh Marie Braswell) Cookie Monster Devours Naccis. History and Overview arXiv: arXiv 1305.4305. Published in The College Mathematics Journal, Vol. 45, No. 2 (March 2014), pp. 129-135. DOI: 10.4169/college.math.j.45.2.129.
+
+In 2002, Cookie Monster appeared in The Inquisitive Problem Solver. The hungry monster wants to empty a set of jars filled with various numbers of cookies. On each of his moves, he may choose any subset of jars and take the same number of cookies from each of those jars. The Cookie Monster number is the minimum number of moves Cookie Monster must use to empty all of the jars. This number depends on the initial distribution of cookies in the jars. We discuss bounds of the Cookie Monster number and explicitly find the Cookie Monster number for Fibonacci, Tribonacci and other nacci sequences.
+
+(with Matthew Babbitt and Jesse Geneson) On k-visibility graphs. Combinatorics arXiv 1305.0505. Published in the Journal of Graph Algorithms and Applications, Vol. 19, no. 1, pp. 345-360, (2015), DOI: 10.7155/jgaa.00362.
+
+We examine several types of visibility graphs in which sightlines can pass through k objects. For k ≥ 1 we improve the upper bound on the maximum thickness of bar k-visibility graphs from 2k(9k−1) to 6k, and prove that the maximum thickness must be at least k+1. We also show that the maximum thickness of semi-bar k-visibility graphs is between the ceiling of 2(k+1)/3 and 2k. Moreover we bound the maximum thickness of rectangle k-visibility graphs. We also bound the maximum number of edges and the chromatic number of arc and circle k-visibility graphs. Furthermore we give a method for finding the number of edges in semi-bar k-visibility graphs based on skyscraper puzzles.
+
+(with Joel Brewster Lewis) Skyscraper Numbers. Combinatorics arXiv 1304.6445. Published in the Journal of Integer Sequences, v.16 (2013), Article 13.7.2.
+
+We introduce numbers depending on three parameters which we call skyscraper numbers. We discuss properties of these numbers and their relationship with Stirling numbers of the first kind, and we also introduce a skyscraper sequence.
+
+(with Dai Yang) Connected Components of Underlying Graphs of Halving Lines. Combinatorics arXiv 1304.5658. Published in Geombinatorics, XXIII(4) (2013) pp. 177-185.
+
+In this paper we discuss the connected components of underlying graphs of halving lines' configurations. We show how to create a configuration whose underlying graph is the union of two given underlying graphs. We also prove that every connected component of the underlying graph is itself an underlying graph.
+
+(with Ziv Scully) Efficient Calculation of Determinants of Symbolic Matrices with Many Variables. CS Symbolic Computation arXiv 1304.4691.
+
+Efficient matrix determinant calculations have been studied since the 19th century. Computers expand the range of determinants that are practically calculable to include matrices with symbolic entries. However, the fastest determinant algorithms for numerical matrices are often not the fastest for symbolic matrices with many variables. We compare the performance of two algorithms, fraction-free Gaussian elimination and minor expansion, on symbolic matrices with many variables. We show that, under a simplified theoretical model, minor expansion is faster in most situations. We then propose optimizations for minor expansion and demonstrate their effectiveness with empirical data.
+
+My IQ. A copy of my blog essay My IQ: Published in Hacker Monthly Vol. 34, (2013), p. 34.
+
+Conway's Wizards. History and Overview arXiv 1210.5460. Published in The Mathematical Intelligencer, Volume 35, Issue 4, pp 18-20 (2013). DOI:10.1007/s00283-012-9354-4. Also in the book The Best Writing on Mathematics 2014.
+
+I present and discuss a puzzle about wizards invented by John H. Conway.
+
+(with Dai Yang) Halving Lines and Their Underlying Graphs. Combinatorics arXiv 1210.4959. Published as On halving-edges graphs in Involve v. 11 (2018) 1, 1-11. DOI: 10.2140/involve.2018.11.1
+
+In this paper we study underlying graphs corresponding to a set of halving lines. We establish many properties of such graphs. In addition, we tighten the upper bound for the number of halving lines.
+
+(with Richard K. Guy, Julian Salazar) Conway's subprime Fibonacci sequences. Number Theory arXiv 1207.5099. Published in Mathematics Magazine, Vol. 87, No. 5, pp 323–337. (2014)
+
+It's the age-old recurrence with a twist: sum the last two terms and if the result is composite, divide by its smallest prime divisor to get the next term (e.g., 0, 1, 1, 2, 3, 5, 4, 3, 7, ...). These sequences exhibit pseudo-random behaviour and generally terminate in a handful of cycles, properties reminiscent of 3x+1 and related sequences. We examine the elementary properties of these 'subprime' Fibonacci sequences.
+
+Tricky Arithmetic. History and Overview arXiv 1204.3112. Published in the proceedings of G4GX.
+
+This article is an expanded version of my talk at the Gathering for Gardner, 2012.
+
+(with Andrew Buchanan, Alex Ryba) Saturated Domino Coverings. Combinatorics arXiv 1112.2115. Published at Geombinatorics XXIV(2) pp.53-68 (2014).
+
+A domino covering of a board is saturated if no domino is redundant. We introduce the concept of a fragment tiling and show that a minimal fragment tiling always corresponds to a maximal saturated domino covering. The size of a minimal fragment tiling is the domination number of the board. We define a class of regular boards and show that for these boards the domination number gives the size of a minimal X-pentomino covering. Natural sequences that count maximal saturated domino coverings of square and rectangular boards are obtained. These include the new sequences A193764, A193765, A193766, A193767, and A193768 of OEIS.
+
+(with Alexey Radul) Jewish Problems. History and Overview arXiv 1110.1556. Published as "Killer Problems" in The American Matheamtical Monthly Vol. 119, No. 10 (2012), pp815-823.
+
+This is a special collection of problems that were given to select applicants during oral entrance exams to the math department of Moscow State University. These problems were designed to prevent Jews and other undesirables from getting a passing grade. Among problems that were used by the department to blackball unwanted candidate students, these problems are distinguished by having a simple solution that is difficult to find. Using problems with a simple solution protected the administration from extra complaints and appeals. This collection therefore has mathematical as well as historical value.
+
+(with Christina Chen, Daniel A. Klain) Volume bounds for shadow covering. Metric Geometry arXiv 1109.1619. Published in Trans. Amer. Math. Soc. 366 (2014), 1161-1177. DOI: http://dx.doi.org/10.1090/S0002-9947-2013-05855-2
+
+For n ≥ 2 a construction is given for a large family of compact convex sets K and L in n-dimensional Euclidean space such that the orthogonal projection Lu onto the subspace u⊥ contains a translate of the corresponding projection Ku for every direction u, while the volumes of K and L satisfy Vn(K) > Vn(L).
+
+It is subsequently shown that, if the orthogonal projection Lu onto the subspace u⊥ contains a translate of Ku for every direction u, then the set (n/(n-1))L contains a translate of K. If follows that Vn(K) ≤ (n/(n-1))n Vn(L). In particular, we derive a universal constant bound Vn(K) ≤ 2.942 Vn(L), independent of the dimension n of the ambient space.
+
+Related results are obtained for projections onto subspaces of some fixed intermediate co-dimension. Open questions and conjectures are also posed.
+
+(with Sergei Konyagin) Sequences of Integers with Missing Quotients and Dense Points Without Neighbors. Combinatorics arXiv 1104.0441. Published in Discrete Mathematics 312 (2012), pp 1776-1787.
+
+PDF.
+Let A be a pre-defined set of rational numbers. We say a set of natural numbers S is an A-quotient-free set if no ratio of two elements in S belongs to A. We find the maximal asymptotic density and the maximal upper asymptotic density of A-quotient-free sets when A belongs to a particular class. It is known that in the case A = {p, q}, where p, q are coprime integers greater than one, the latest problem is reduced to evaluation of the largest number of lattice non-adjacent points in a triangle whose legs lie on coordinate axis. We prove that this number is achieved by choosing points of the same color in the checkerboard coloring.
+
+Martin Gardner's Mistake. Probability arXiv 1102.0173. Published in The College Mathematics Journal Vol 43, No. 1 (2012), pp. 20-24. Also in the book Martin Gardner in the Twenty-First Century.
+
+PDF.
+When Martin Gardner first presented the Two-Children problem, he made a mistake in its solution. Later he corrected the mistake in another publication, but unfortunately his incorrect solution is more widely known than his correction. In fact, a Tuesday-Child variation of this problem went viral in 2010, and the same flaw keeps reappearing in solutions for that problem as well. In this article, I would like to popularize Martin Gardner's correction and conduct a detailed discussion of the new problem.
+
+(with Joel Brewster Lewis) Baron Munchhausen Redeems Himself: Bounds for a Coin-Weighing Puzzle. Combinatorics arXiv 1006.4135. Published in the Electronic Journal of Combinatorics, v.18 P37, (2011).
+
+PDF.
+We investigate a coin-weighing puzzle that appeared in the Moscow Math Olympiad in 1991. We generalize the puzzle by varying the number of participating coins, and deduce an upper bound on the number of weighings needed to solve the puzzle that is noticeably better than the trivial upper bound. In particular, we show that logarithmically-many weighings on a balance suffice.
+
+Odd One Out. History and Overview arXiv 1005.2700. Published in the proceedings of G4G9.
+
+PDF.
+This article covers my second talk at the Gathering for Gardner in March, 2010. It is about an Odd One Out puzzle I invented, after having been inspired by Martin Gardner. I do not like Odd One Out questions; that is why I invented one.
+
+(with Konstantin Knop and Alexey Radul) Baron Munchhausen's Sequence. Combinatorics arXiv 1003.3406. Published in the Journal of Integer Sequences, v.13 (2010), Article 10.8.7.
+
+PDF.
+We investigate a coin-weighing puzzle that appeared in the all-Russian math Olympiad in 2000. We liked the puzzle because the methods of analysis differ from classical coin-weighing puzzles. We generalize the puzzle by varying the number of participating coins, and deduce a complete solution, perhaps surprisingly, the objective can be achieved in no more than two weighings regardless of the number of coins involved.
+
+Clifford Algebras and Graphs. Combinatorics arXiv 0810.3322. Published in Geombinatorics v.XX, pp. 56-76, (2010)
+
+PDF.
+I show how to associate a Clifford algebra to a graph. I describe the structure of these Clifford graph algebras and provide many examples and pictures. I describe which graphs correspond to isomorphic Clifford algebras and also discuss other related sets of graphs. This construction can be used to build models of representations of simply-laced compact Lie groups.
+
+Jamming as Information: a Geometric Approach. History and Overview arXiv 0809.0011. Published in the Journal of Recreational Mathematics, v.35, n.2, 99-111 (2006)
+
+PDF.
+In this paper I discuss the kinds of information that can be extracted by our enemy if our jamming is too precise. I show geometric solutions for reconstructing linear routes given certain information about them, such as the shortest distance to a point or the times of entering and exiting a circle.
+
+Number Gossip. Combinatorics arXiv 0804.2277. Published in Proceedings of G4G8., v.1, 215-220.
+
+PDF.
+This article covers my talk at the Gathering for Gardner 2008, with some additions. It is related to my pet project Number Gossip.
+
+Autobiographical Numbers. Combinatorics arXiv 0803.0270. Published as "A Story of Storytelling Numbers" in Math Horizons, v.17, n.1, 14-17 (2009).
+
+PDF.
+I introduce autobiographical numbers as defined in A046043 (see Online Encyclopedia of Integer Sequences). I continue by defining and analyzing biographies, curricula vitae and complete life stories of numbers. I end with the definition of mutually-praising number pairs.
+
+9 Divides no Odd Fibonacci. Combinatorics arXiv 0712.3509.
+
+PDF.
+I discuss numbers that divide no odd Fibonacci. The number 9 plays a special role among such numbers.
+
+How to Create a New Integer Sequence. Combinatorics arXiv 0712.2244.
+
+There are several standard procedures used to create new sequences from a given sequence or from a given pair of sequences. In this paper I discuss the most popular of these procedures. For each procedure, I give a definition and provide examples based on three famous sequences: the natural numbers, the prime numbers and the Fibonacci numbers. I also add my thoughts on what makes a sequence interesting. My goal is to help my readers invent new sequences, differentiate interesting sequences from boring ones, and better understand sequences they encounter.
+
+Unique Tournaments and Radar Tracking. Combinatorics arXiv 0712.1621. Published in Geombinatorics Quarterly Vol XXIII, (1) 16-26 (2013)
+
+The sequence counting the number of unique tournaments with n people is the same as the sequence counting non-tracking binary strings corresponding to n-2 radar observations with the tracking rule "3 out of 5 with loss 2." This fact allows us to build a bijection between unique tournaments and non-tracking binary strings.
+
+(with M. Curry and M. Flint) Decentralized Control Using Global Optimization (DCGO). AIAA Infotech@Aerospace 2007 Conference Proceedings (2007).
+
+Abstract.
+Global-scope plans for the team are generated and distributed using the principle of emergent leadership to provide efficient plan generation and execution with minimal performance degradation compared to a centralized controller under delayed communications.
+
+(with Ingrid Daubechies and Konstantinos Drakakis) A Detailed Study of the Attachment Strategies of New Autonomous Systems in the AS Connectivity Graph. Internet Mathematics, v.2, n2, 185-246 (2005).
+
+Abstract.
+In the first part of this paper, we use real BGP data to study some properties of the AS connectivity graph and its evolution in time. In the second part, we build a simple model that is inspired by observations made in the first part, and we discuss simulations of this model.
+
+(with J. Bernstein) Quantum groups and representations with highest weight. Quantum Algebra and Topology arXiv q-alg/9704007.
+
+Abstract,
+Tex File,
+PostScript,
+PDF.
+We connect quantum groups to minimal objects in the category of representations with highest weight λ: they correspond to irreducible representations.
+
+On quantum group GLp,q(2). Quantum Algebra and Topology arXiv q-alg/9701033.
+
+Abstract,
+Tex File,
+PostScript,
+PDF.
+In the Hopf algebra GLp,q(2) the determinant is central iff p=q. In this case we put determinant to be equal to 1 to get SLq(2). In this paper I consider the case when p/q is a root of unity; and, consequently, a power of the determinant is central.
+
+(with J.Bernstein) On Quantum Group SLq(2). Comm. Math. Phys., v.117, n3, 691-708 (1996).
+
+Abstract,
+Tex File,
+PostScript,
+PDF.
+We show how to construct the quantum group SLq(2), starting from the Hopf algebra of regular functions on the torus, adding some natural conditions. Our approach allows us to construct metaplectic quantum groups of the SL(2)-type.
+
+Tetramodules over Hopf Algebra of Regular Functions on a Torus. IMRN, No.7, 275-284 (1994).
+
+Abstract,
+Tex File,
+PostScript,
+PDF.
+Discussion of the definition of "tetramodule," (a special kind of bimodule and bicomodule), its properties, and its applications.
+
+Sturm-Liouville Operators Connected with Superanalogs of Virasoro algebra. Reports of Department of Mathematics, University of Stockholm, Sweden, 1988, No.5, 67-76.
+
+We describe different ways of superizing the Sturm-Liouville operator.
+
+(with O. Ovsienko) Superversion of Miura Transformations. Reports of Department of Mathematics, University of Stockholm, Sweden, 1988, No.5, 60-66.
+
+The Miura transformation of the Korteveg-de Vries equation can be described in terms of the Virasoro algebra. We construct the analog of the Miura transformation for the Lie superalgebras of the Neveu-Schwarz type.
+
+The Korteweg-de Vries Superequation Related to the Lie Superalgebra of Neveu-Schwarz-2 String Theory. Teor. Mat. Fiz., 72, No.2, 899-904 (1987).
+
+The short version of the next paper.
+
+Superization of the Korteveg-de Vries Equation Related with the Neveu-Schwarz Superalgebra NS(2). Reports of Department of Mathematics, University of Stockholm, Sweden, 1986, No.21, 58-73.
+
+We construct the integrable Korteveg-de Vries type super-equation related to the Neveu-Schwarz superalgebra NS(2) by means of the hamiltonian reduction method from the Kac-Moody algebra $\widehat {sl(2,1)}$.
+
+Lie Superalgebra Structure on Eigenfunctions and Jets of Resolvent's Kernel, near the Diagonal of an n-th Order Ordinary Differential Operator. in 'Integrable and Superintegrable Systems' ed. B.A.Kupershmidt. World Scientific 1990, p.321-335.
+
+An n-th order ordinary differential operator can be regarded as a point in the dual space of the Lie superalgebra $\widehat {gl(n,1)}$. The stabilizer of this point in the coadjoint action inherits the structure of the Lie superalgebra and can be described as the direct sum of the jets of the kernel of the resolvent of, and the eigenfunctions of, the given differential operator.
+
+Structure of Lie Superalgebras on Eigenfunctions and Jets of the Kernel of the Resolvent near the Diagonal for an n-th-order Differential Operator. Funkts. Anal. Prilozhen., 20, No.2, 162-164 (1986).
+
+The short version of the previous one.
+
+Lie Superalgebra osp(1,2), Neveu-Schwarz Superalgebra and Superization of Korteweg-de Vries equation. Group Theoretical Methods in Physics. Proceedings of the third seminar: Yurmala 1985. Utreht, Netherlands, VNU Science Press, 1986, v.1, 307-315.
+
+The description of the super Korteveg-de Vries equation and the Neveu-Schwarz superalgebra as the Hamiltonian reduction of the Lie superalgebra $\widetilde{osp(1,2)}$.
+
+The Gel'fand-Dikii Algebras and the Virasoro Algebra. Funkts. Anal. Prilozhen. 20, No.4, 332-334 (1986).
+
+An investigation of the Gelfand-Dikii algebras as the generalizations the of Virasoro algebra.
+
+Representation Models and Generalized Clifford Algebras. Funkts. Anal. Prilozhen., 16, No.4, 322-323 (1982).
+
+For every simply-laced Dynkin diagram Δ of a Lie algebra G, we construct a generalization of the Clifford algebra, CΔ. The involutive subalgebra of G can be imbedded into CΔ. Using the induced representation of the involutive subalgebra in CΔ we construct the model representation of G - the direct sum of irreducible representations taken once each.
+
+Back to Tanya Khovanova's welcome page
+Send mail to: Tanya Khovanova
+
+tanyakh@yahoo.com
+Revised August 2008

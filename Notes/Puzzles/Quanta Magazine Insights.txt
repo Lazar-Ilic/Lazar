@@ -1,0 +1,283 @@
+2021-10 Prize Winner #3
+
+Thanks Dr. Mutalik and Quanta Magazine. In the future if I comment I will wait at least 14 days. If I do write up something it will be clear, explanatory, and comprehensible to the readership. But more interesting would be light hints and follow on questions and tasks. I like when you lead us inquiring minds to further insights! I'm always hoping to crack one of these open Erdos tasks, cement my legacy as a mathematician, and make it to the front page! Of course we hope that playing around with puzzles such as these can lead other members of the readership in these fruitful and novel directions.
+
+https://www.quantamagazine.org/where-transcendental-numbers-hide-in-everyday-math-20211027/
+
+Puzzle 1: Partition
+a. The function [a/x]^x is unimodal with maximum at x=a/e and derivative [a/x]^x*[ln[a/e]-ln[x]] and thus the maximum subject to the discretization that x must be an integer will occur either for x=floor[a/e] or x=ceiling[a/e]. Now certainly one could simply compute or note that [a/[floor[a/e]]]^[floor[a/e]] > [a/[ceiling[a/e]]]^[ceiling[a/e]] if and only if, taking the logarithm of both sides, floor[a/e]*ln[a/[floor[a/e]]] > ceiling[a/e]*ln[a/[ceiling[a/e]]] is equivalent with floor[a/e]*[ln[a]-ln[floor[a/e]]] > ceiling[a/e]*[ln[a]-ln[ceiling[a/e]]] is equivalent with ceiling[a/e]*ln[ceiling[a/e]]-floor[a/e]*ln[floor[a/e]] > ln[a]. So, in the hint "closest" can mean different things but computationally speaking it is certainly feasible to directly compute and compare. One senses perhaps there exists a further manipulation relating to e and logarithms giving something even more computationally convenient.
+b. In the integer case there is a trivial sense in which 4 with 4^1=2^2=4 are the two identical maxima. Unimodality implies that the maximum occurs at one of these two values, but does not imply that the second largest does as well. But we expect the minimal ratio to occur when they have very similar evaluations and do lie across the continuous maximum from each other and the following Python gives 53:
+import math
+a=0
+m=100
+for b in range[5,101]:
+	c=float[[float[b]/math.floor[float[b]/math.e]]**float[math.floor[float[b]/math.e]]]/float[[float[b]/math.ceil[float[b]/math.e]]**float[math.ceil[float[b]/math.e]]]
+	if c<1:
+		c=1/c
+	if c<m:
+		m=c
+		a=b
+print[a]
+c. I can not really explain why e arises in this apparently simple problem without going in to the tautology of maths.
+Puzzle 2: Union
+This task is best known in the literature as the secretary problem and there exist many interesting papers which Dr. Mutalik has led me to exploring.
+a. Reject the first 3 applicants and then select the first subsequent applicant that is better than them. Success with probability P=3349/8400~0.39869
+b. I did not understand the task statement quite clearly and precisely enough but if the heir knows that his relative ranks over all the candidates is either distinct or 1,1,3,4,5,6,7,8,9,10 then one can compute it explicitly of course encountering a tie immediately leading to a deduction of optimality in that case.
+c. The optimal policy is a stopping rule with threshold value roughly n/e to maximize P of success which tends towards 1/e as n goes to infinity.
+d. See Optimal Selection Based On Relative Rank by Chow, Moriguti, Robbins, and Samuels. One can dynamically program and compute for each step a threshold value for rank-thus-far to stop e.g. maybe for some n it is optimal to stop at step #17 if the candidate is the 2nd best thus far.
+Puzzle 3: Togetherness
+a. The expected number of seats left unfilled is 0, 1, 0, 1, 2/3, 1, 16/15, 11/9, 142/105, ... from f[n]=2[f[0]+f[1]+...+f[n-2]]/[n-1] is [n-1]f[n]=2[f[0]+f[1]+...+f[n-2]] of course then [n-2]f[n-1]=2[f[0]+f[1]+...+f[n-3]] and subtracting gives [n-1]f[n]-[n-2]f[n-1]=2f[n-2] has solution f[n]=[e^2*[-2]^[n+1]+Γ[n+3,-2]]/[e^2*Γ[n+2]] so the proportion is that divided by n which approaches 1/e^2 as n goes to infinity.
+b. A la Putnam 2020 A4 task it enters via natural algebraic manipulation of these relations in terms of inverses of factorials.
+
+2021-06
+
+https://www.quantamagazine.org/can-math-help-you-escape-a-hungry-bear-20210629/
+
+Puzzle 1
+Reference: https://datagenetics.com/blog/october12013/index.html
+A. The swimmer can swim outwards whilst maintaining the diametrically opposite position.
+B. A semicircle of radius 1/[2K] or 1/2 here
+C. 1/2
+D. pi/[2K] or pi/2 here
+E. Yes as long as K < ~4.603339
+Puzzle 2
+In a more general setting one could consider radially applying a dynamic programming solution or writing down a differential equation.
+For case C. we may smooth and note that the minimum such path terminates at a point and the minimum path from the center satisfying the requisite radial inequality consists of the semicircle to the line of tangency from the cemicircle to the point. In particular one obtains via trigonometry and geometric deductions that for K>=pi, the distance we swim is [1/[2*K]][pi][y/pi]+sqrt[1-[[sin[y]/[2*K*sin[[pi-y]/2]]]*cos[[pi-y]/2]]^2]-[sin[y]/[2*K*sin[[pi-y]/2]]]*sin[[pi-y]/2] and the distance around is pi+y-arcsin[[[sin[y]/[2*K*sin[[pi-y]/2]]]*cos[[pi-y]/2]]] so we obtain sqrt[K^2-[[sin[y]/[2*sin[[pi-y]/2]]]*cos[[pi-y]/2]]^2]-[sin[y]/[2*sin[[pi-y]/2]]]*sin[[pi-y]/2]=pi+y/2-arcsin[[[sin[y]/[2*K*sin[[pi-y]/2]]]*cos[[pi-y]/2]]] and for K=3.5 one obtains an angle of ~0.3722969 one ought to walk around the semicircle before going off on a tangent which has an escape time of ~3.5031029
+Puzzle 3
+B. It is the strictly dominating strategy to follow the squirrel strategy until it doesn't help any longer, i.e. until we reach the circle with radius R/K. Then we compute as in the reference: maximize pi+y-sqrt[K^2-2*K*cos[y]+1] occurs when we continue straight at an angle of pi/2 from the radial direction becomes pi+arccos[1/K]-sqrt[K^2-1] and for K=3.5 one obtains ~1.06854 or ~3.73987 ahead here.
+Bonus 1
+Not as I characterized the strategy in terms of the equations. Angle of ~2.0221506 escape time of ~5.003482. ~0.100814 or ~0.453662 ahead here.
+Bonus 2
+~4.603339
+
+2021-04 Prize Winner #2
+
+https://www.quantamagazine.org/the-puzzling-power-of-simple-arithmetic-20210420/
+
+Puzzle 1
+a. Each number is followed by its digits in decreasing and increasing order. The next term in the sequence is given by the the former minus the latter so we obtain: 5634 [6543, 3456], 3087 [8730, 0378], 8352 [8532, 2358], 6174...
+b.
+i. 6372 [7632, 2367], 5265 [6552, 2556], 3996 [9963, 3699], 6264 [6642, 2466], 4176 [7641, 1467], 6174...! Aha, we have found a fixed point! An element which this process maps into itself! What is the underlying equation which will precisely define the set of fixed points I wonder?
+ii. 8956, 4176, 6174...
+iii. 5058, 7992, 7173, 6354, 3087, 8352, 6174...
+iv. 7191, 8532, 6174...
+v. 5355, 1998, 6174...
+c. There is a set of 10000 4 digit strings and this function maps each one into this set and the structure of functions such as these [finite set into itself] are to descend into infinite cycles of some length. Note after 1 step it will be 0 modulo 9. Note 6174 maps into itself i.e. is a cycle of size 1. Note 0000 maps into itself too. Prior to firing up my program I was not confident what I would find and discovered that indeed save for 1111 and similar they all map into 6174. 0015 for example takes 7 steps and this is the maximum obtained by many values. One could characterize the set which take 0, 1, 2, etc. steps by definition or with code however I did not see anything simpler or deeper.
+d. 1 solution: 6174, verified by C++
+e. Z=3 works and you can add more or fewer. In the context of the original discovery this means that there exists a nontrivial fixed point a cycle of size 1 for even string lengths >=4. It does not say too much to me about the behavior for 8 digit numbers. In the 5 digit case, nontrivial cycles of length 4 quite a lot [ii and iv only] and 2 [i only]. All nontrivial cases led to these 3 and the maximal number of steps to enter was 6. In the 6 digit case OEIS defines this as the Kaprekar map and so on, things continue below.
+f.
+i. 53955, 59994, 53955...
+ii. 62964, 71973, 83952, 74943, 62964...
+iii. 420876, 851742, 750843, 840852, 860832, 862632, 642654, 420876...
+iv. 61974, 82962, 75933, 63954, 61974...
+v. 549945, 549945...
+vi. 631764, 631764...
+Puzzle 2
+a.
+i. 0.5 0.6 0.576 0.5861376 0.5821927533 0.5837864431 0.5831515967 0.5834059487 0.5833042745 0.5833449548 0.5833286844 0.5833351929 0.5833325895 0.5833336309 approaching a constant.
+ii. 0.5 0.825 0.4764375 0.8231678684 0.4803563452 0.8237266185 0.4791635523 0.8235672801 0.4795039104 0.823613704 0.4794047629 0.8236002595 0.4794334778 0.8236041599 0.4794251473... approaching alternating constants i.e. a cycle of length 2.
+iii. 0.5 0.875 0.3828125 0.8269348145 0.5008976948 0.8749971795 0.3828199038 0.8269408877 0.5008837959... 0.5008842103 0.8749972636 0.382819683 0.8269407066 0.5008842103... cycle of length 4.
+iv. 0.5 0.8875 0.3544453125 0.812289107... 0.5060305096 0.887370897 0.354800448 0.8126556699 0.540474834 0.8816843467 0.3703255611 0.8278051166 0.5060305096... cycle of length 8.
+b.
+Feigenbaum constant delta bifurcation! Wow! Time to go read a little literature! Thanks as always Dr. Mutalik!
+
+2021-02
+
+https://www.quantamagazine.org/zen-and-the-art-of-puzzle-solving-20210210/
+
+The monk lay contemplating how he knew that every night he would find himself with a bowl of rice, the how a puzzle.
+
+Puzzle 1: The Zen of the Frenzied Ants
+
+a. This universe and the universe where ants are ghosts which pass through eachother look roughly the same, canonical for quite some time, recently in Peter Winkler's Museum of Mathematics weekly puzzle email list, because of this it will take 1 minute as the leftmost ghost ant at coordinate 0 takes 1 minute to be free from the twig.
+b. It is either the leftmost ghost ant or the rightmost rightmost ghost ant so whichever is closer to the end it is 1 minute multiplied by their fractional twig length and if rightmost being close to the end but not quite there means maximal fractional twig length then it is that.
+c. See b. now we need to return to the setting of the real non-ghost ants and without loss of generality say the writing does strongly insinuate the rightmost ant is closer to the end than the leftmost ant so invariants are the number of ants moving left and the number of ants moving right and the order of the ants so certainly 75 ants fall off the left end and 25 off the right and thus the last ant to leave the twig must be the 75th ant because it carries the final message off and it could have been facing either way originally by the logic.
+
+Puzzle 2: Zen and the Art of Gambling
+
+In terms of expected linear winnings they are all the same per Peter Winkler.
+
+I would adopt the strategy espoused by Peter Winkler via a huge chain and minimize variance to 0 and guarantee the expected winnings of $100*2^52/[52 choose 26]~$908.13.
+
+Well if we want to engage in this process for fun knowing the outcome in advance and chit chat over the stochasticity of the cards you should charge precisely my final pot/winnings to break even with probability 1.
+
+Puzzle 3: The Zen of Accepting the Empty Seat
+
+Well this is canonical to lovers of puzzles, mathematical puzzles especially, for it even made an appearance on the radio talk show Car Talk in its Puzzler segment. The answer is 1/2 because of the symmetry between a free seat of someone sitting and my seat. At each sitting with both present it is necessarily the case that each is equally likely and the outcome of the process is fixed once one of those two is taken by definition.
+
+Perhaps there is a meta puzzle, the title suggests Zen and the Art of Motorcycle Maintenance: An Inquiry into Values by Robert M. Pirsig, The Art and Craft of Problem Solving by Paul Zeitz, and The Art of Problem Solving by Richard Rusczyk and Sandor Lehoczky.
+
+Dr. Mutalik invites the reader to make insights in the very act of solving, as illumination may come from contemplating, illumination being a mission of Quanta.
+
+"Banish ye the clutter of complications with the sudden wisdom of insight." suggests puzzle 2.
+
+"Follow ye the message, not the messenger." suggests Winkler's canonical representation of the ants in Puzzle 1 where one adds messages and the ants are the messengers.
+
+"Hold ye to what is constant. Shun the transient and changeable." suggests the mathematical idea of invariance in the context of Puzzle 3.
+
+However, applications can be made across puzzles.
+
+"Remember, building the most complex temple starts with the first brick."
+
+One insight is that all the puzzles have to do with order emerging from chaos/randomness. Apollonian and Dionysian, yin and yang, human stories from the past.
+
+Look up and I see a sky full of stars, dust being what we came from and where we may end. I also see a header.
+
+In the present, Quanta has been doing awesome work covering these topics which also are frequently about order emerging from chaos. If I had to match them I would as follows:
+
+Physics - we can predict extremely stochastic processes.
+Computer Science - computers can change, not known algorithms and their outputs.
+Mathematics - logic is a constant, proof is eternal.
+Biology - it is what we are, our brains the complex temple somehow emerging from the building bricks of life through phases.
+
+And this is why Insights touches on these topics all the time.
+
+When I Googled "the first brick" I read on Wikipedia about many ancient cultures and their brick and temple production. However, in the math puzzle context I would suppose it could be about set theory and the Peano axioms.
+
+A poem with potential variants:
+
+Banish the clutter
+Hold ye to what is constant
+Follow the message
+
+May you also be showered with insights Dr. Mutalik, and the same goes to all readers of this column.
+
+The imagery evokes something about the infinitude of life as a process.
+
+Peter Winkler's books are deeply beautiful to lovers of mathematical puzzles.
+
+Order and chaos is a driving force in reality, and insight is the force we produce.
+
+1b: in the message/messenger setting note that each collision causes 1 crossing between messages. So the number of collisions is the number of crossings which will occur between all the messages between the start and the end. In particular, each crossing stems from a left moving message which starts to the right of a right moving message bijectively. Thus, to count the collisions we count these for example by summing some indicator type function. It is something like the area under the curve if we were to draw a 75 by 25 and a corresponding path related to the initial directions of the ants in order.
+
+3: If we number the people 1 through 100 in seating/chair order, so the VIP is 1, and we are 100, then note that if the VIP sits in chair number a, all the people between 1 and a sit in their assigned chair and then a randomly picks a chair b and so on where unless 1 sits in chair 1 then each such sitting corresponds bijectively to a mismatch. In particular this analysis and presentation make it clearer we are talking about a cycle structure and that 100 will either end up in seat 1 or 100 with probability 1/2 which is a more informative analysis. In particular, the chairs taken at each a step are 2 through a. So, there will be a cycle 1 to a to b to... and the length of that cycle is the number of mismatched seats. But now we can do a state based recursive computation which should simplify things equivalent to taking a sum over all nonempty subsets of probabilities multiplied by sizes. If we define f to be the expected number of additional elements to the cycle length from a person onwards then we may see:
+
+f_100=[1][1]=1
+
+f_99=[1/2][1+1+f_100]=
+1+[1/2][f_100]=3/2
+
+f_98=[1/3][1+1+f_99+1+f_100]=
+1+[1/3][f_99+f+100]=11/6
+
+f_97=[1/4][1+1+f_98+1+f_99+1+f_100]=
+1+[1/4][f_98+f_99+f_100]=25/12
+
+...
+
+except f_1=[1/100][0+1+f_1+...+1+f_100]=
+99/100+[1/100][f_2+f_3+...+f_100]
+
+Due to the 0 rather than a 1.
+
+But this just means f_1=1+1/2+1/3+...+1/100-1/100=1+1/2+...+1/99~5.1773775 and in general for n people it is the [n-1]th harmonic sum. This can be demonstrated by induction.
+
+2020-10 Prize Winner #1
+
+https://www.quantamagazine.org/three-math-puzzles-inspired-by-john-horton-conway-20201015/
+
+Puzzle 1:
+
+First note that j is 0 and e is 5. b, d, f, and h must be the other even digits. f is even so gh is divisible by 8 and cd by 4. gh must then be 16, 32, 72, 96. From there we know ghi, hence g+h+i is divisible by 3 and i is odd. Then we note c is odd so d is 2 mod 4. Then we note def, hence d+e+f is divisible by 3. So we have the following 10 cases and need to check for the divisible by 7 condition:
+
+8 6543210: 79
+8 6543270: 19
+8 6547230: 19
+8 6547290: 13
+4 2589630: 17
+
+3816547290
+
+Puzzle 2:
+
+The law of sines says sin[[pi-x]/2]=sin[pi-2*x] whence x in range is pi/5 using sin[y]=sin[pi-y]. Then y is the golden ratio, [1+rt5]/2, as these are for example triangles ABC and ABD in a regular pentagon ABCDE and the angle is ACB and BAC in ABC and ADB in ABD. The common ratio then is that of the diagonal to the side.
+
+Googling "John Conway" and keywords reveals a few connections.
+
+Puzzle 3:
+
+Note that for the purposes of this puzzle we are discussing a particular transition function between polyominoes increasing the number of squares by 1 in each step. It creates precisely the set of polyominoes up to congruence.
+
+Suggested name for this game: Polyominogenesis
+
+It is a very natural growth process to consider, on par in terms of simplicity with randomly uniformly adding a unit square amongst the possible ones.
+
+1. A new tile being placed next to a single edge increases the number of exposed edges by 2. At a corner or sandwich does not change it. Inside a "U" decreases it by 2. Inside a hole decreases it by 4.
+
+2. The maximum is 4 achieved by a single tile and exactly [2n+2]/n=2+2/n in the general n tile case by 1. This is achieved by any set of tiles where the underlying connection by mutual edge graph is a tree. The minimum is achieved for example by constructing squares layer by layer. For n=a^2 H is 4a/[a^2]=4/a. For n in [[a^2+1],[a^2+a]] H is [4a+2]/n and in [[a^2+a+1],[a^2+2a]] [4a+4]/n. We may recover a literal formula in terms of n in reverse using the square root and floor functions. In the limiting case as n goes to infinity this approaches 0. The family of minimal tile patterns includes those if the sequence of deltas after the previous a by a square or a by [a+1] rectangle agrees with 2 and 0s. That is we may adjoin a 1 by b rectangle to these configurations. Smoothing, Pick's theorem analysis, extremal delta removal reversal should complete this study of the family. Moving corner tiles to corner tiles and extremal rows and columns and concavities. Convexity is needed to force the addition of 2 edges, this only occurs for rectangles. In the initially disconnected case 4 is achieved by any set of pairwise unadjacent tiles.
+
+3. One can easily obtain an approximate for the case of starting with one tile by running simulations, noting desiderata underyling the process and resultant distribution imply something about accuracy a la the law of large numbers. We also can analyze polyominoes and try and be clever. For example, as n goes to infinity, what is the limit of the expected value of H? It might be 0. Curve fitting from simulations is one approach. This might suggest a function in n of degree less than 0 in particular -1/2 might be implied by results about a transition function where we always or more frequently remove holes and "U"s when they exist. We can look at the output tilings from these simulations. What is the probability an edge exists forever? 0. From our previous upper bound on the number of edges hence probability of existing after a step, and [1-1/cn][1-1/[c[n+1]]...=0 for an edge which exists at the nth time step. This implies for example edge sequentially probability 1 on any finite region being filled eventually, hence connectedness in initially disconnected setting for example.
+
+The growth of the number of edges being O[n] for some transition function could fall from an argument that there is a subset of tilings with nontrivial measure which has O[n] edge size, for example the set of tilings with at least Ln single edges. A probabilistic method approach is to look at some annulus of O[n] edges and lower bound the probability for each edge. Something about random walks and normal distributions to obtain O[rt n] radius and thickness. In particular if we never remove "U"s and holes, this is intuitively the most edge prone in this class.
+
+4. Assuming smallest means minimal number of tiles, there exists precisely one with 9 tiles. Taking a 1 by 5 and adjoining a square at the 2 and 4 positions on both sides creates 1 "U"s so there are 6 edges leading to a decrease and 6 edges leading to an increase. Assuming symmetric means line reflection, this is symmetric. Inspection reveals minimality. A family producing a probability ratio approaching 1 in the infinite limit of decreasing is very Swiss cheese, that is a square with unit squares removed so the convex hull has length O[a] and the length of the holes O[a^2]. Merging/connecting can be done in a way to generate tilings which achieve values. In the initially disconnected case, there are two with 4 tiles. A hole, and a 2 "U" zig zag and a 2 "U" Tidal HiFi logo.
+
+5. Assuming this means a tiling with an H value where the expected value of the new H value after adding one tile is the old H value. Inspection leads us to the tetromino known as the O or square. Indeed, it's H is 2=8/4 and it always leads to the P pentomino which also has an H of 2=10/5. To find the next-smallest such tiling we inspect the possible number of edges, totaledges, and totaldeltas and discover the next case occurs in a tiling with size 16, 24 edges, with probabilities [3/4] and [1/4] of moving to 26 or 24 edges.
+
+[n+1]*edges*edges=n*[totaledges]=n*edges*edges+n*totaldeltas
+edges*edges=n*totaldeltas=n*[2*[single edges]-2*[threesome edges]-4*[foursome edges]]
+edges*edges/n=totaldeltas=2*[single edges]-2*[threesome edges]-4*[foursome edges] is divisble by 4 because the number of single edges and threesome edges have the same parity.
+
+24*24/16=36=18*2
+
+In the initially disconnected case, the next-smallest tiling is two far enough apart copies of the O block.
+
+Extremal families for totaldeltas should move towards fully characterizing this family in terms of edge types.
+
+There are unexamined asymptotics, algorithmics, generalizations, enumeratives, and so on and so on.
+
+1: 4
+2: 3
+3: 8/3
+4: 29/12
+
+In the following we track the set of edges directed on interior exterior. By ordering we could get a simulation in nlogn. By further dividing by edge types we can do this process in full generality on transition functions which emerge from simply weighting by edge type. Implementation in C++ would be superior.
+
+import random
+iterations=10000
+for n in range[0,30]:
+    edges=0
+for a in range[iterations]:
+    b=[[0,0,0,1],[0,0,1,0],[0,0,0,-1],[0,0,-1,0]]
+for c in range[n]:
+    new=b[random.randint[0,len[b]-1]]
+
+if [new[2]+1,new[3],new[2],new[3]] in b:
+    b.remove[[new[2]+1,new[3],new[2],new[3]]]
+else:
+    b.append[[new[2],new[3],new[2]+1,new[3]]]
+
+if [new[2],new[3]+1,new[2],new[3]] in b:
+    b.remove[[new[2],new[3]+1,new[2],new[3]]]
+else:
+    b.append[[new[2],new[3],new[2],new[3]+1]]
+
+if [new[2]-1,new[3],new[2],new[3]] in b:
+    b.remove[[new[2]-1,new[3],new[2],new[3]]]
+else:
+    b.append[[new[2],new[3],new[2]-1,new[3]]]
+
+if [new[2],new[3]-1,new[2],new[3]] in b:
+    b.remove[[new[2],new[3]-1,new[2],new[3]]]
+else:
+    b.append[[new[2],new[3],new[2],new[3]-1]]
+
+edges+=len[b]
+print[edges/[[n+1]*iterations]]
+
+With approximates we can curve fit and start with a reasonable guess.
+
+import numpy as np
+import random
+from scipy.optimize import curve_fit
+x=[]
+y=[
+
+]
+for n in range[,]:
+    x.append[n]
+def func[x,a,b,c,d]:
+return
+param, param_cov = curve_fit[func, x, y]
+print[param]
+print[param_cov]

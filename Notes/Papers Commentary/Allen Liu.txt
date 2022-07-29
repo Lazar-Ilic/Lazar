@@ -1,0 +1,87 @@
+OK legendary legend.
+
+"
+Allen Liu
+
+I am currently a first-year graduate student in Electrical Engineering And Computer Science at MIT working under the wonderful supervision of Ankur Moitra. I also completed my undergraduate degree [in Mathematics] at MIT. I am generally interested in algorithms and learning theory, particularly developing algorithms for machine learning with provable guarantees. My work is supported by an NSF Graduate Research Fellowship and a Hertz Fellowship.
+
+Email: cliu568 at mit dot edu
+"
+
+	Learning GMMs with Nearly Optimal Robustness Guarantees
+	with Ankur Moitra
+	Manuscript
+
+OK this is a Good one from a while back.
+
+	How to Decompose a Tensor with Group Structure
+	with Ankur Moitra
+	Manuscript
+
+OK solid I always gotta brush up on my Algebra more frankly so that one day soon I can get back into those high brow scientific computation research problems tasks.
+
+	Sparsification for Sums of Exponentials and its Algorithmic Applications
+	with Jerry Li, Ankur Moitra
+	Manuscript
+
+I gonna need to parse process through this one.
+
+	Variable Decomposition for Prophet Inequalities and Optimal Ordering
+	with Renato Paes Leme, Martin Pal, Jon Schneider, Balasubramanian Sivan
+	EC 2021
+
+OK
+
+	Settling the Robust Learnability of Mixtures of Gaussians
+	with Ankur Moitra
+	STOC 2021
+
+OK this is quite interesting. Man I need to pay more attention to this dude, this dude knows some real real real cool stuff.
+
+	Optimal Contextual Pricing and Extensions
+	with Renato Paes Leme, Jon Schneider
+	SODA 2021
+
+OK
+
+	Distributed Load Balancing: A New Framework and Improved Guarantees
+	with Sara Ahmadian, Binghui Peng, Morteza Zadimoghaddam
+	ITCS 2021
+
+
+
+	Tensor Completion Made Practical
+	with Ankur Moitra
+	NeurIPS 2020
+
+
+
+	Myersonian Regression
+	with Renato Paes Leme, Jon Schneider
+	NeurIPS 2020
+
+
+
+	Better Algorithms for Estimating Non-Parametric Models in Crowd-Sourcing and Rank Aggregation
+	with Ankur Moitra
+	COLT 2020
+
+
+
+	Fourier and Circulant Matrices are Not Rigid
+	with Zeev Dvir
+	Preliminary version appeared in CCC 2019
+	Full version in Theory of Computing 2020
+
+
+
+	Efficiently Learning Mixtures of Mallows Models
+	with Ankur Moitra
+	FOCS 2018
+
+
+
+	Wavelet Decomposition and Bandwidth of Functions Defined on Vector Spaces over Finite Fields
+	with Alex Iosevich, Azita Mayeli, Jonathan Pakianathan
+	Bulletin of the Hellenic Mathematical Society 2018
+

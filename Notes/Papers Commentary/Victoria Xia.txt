@@ -1,0 +1,51 @@
+Fascinating stuff one can view the entire public and semi public corpus, interesting, school, interviews, YouTube films, etc. believe in yourself, watch the day by day actions of building that. Always dying to know Victoria's secrets but in any case some of mine are public like covering my floor with a, and I quote, "thick layer of Baking Soda".
+
+Quick skim, Master Of Science In Computer Science, impressive experience, and a Github presence with some unironic codes.
+
+	ksql
+
+OK
+
+	kafka
+
+OK
+
+	changelogs
+
+OK
+
+	ksqldb-client-iot-demo
+
+OK
+
+	demo-scene
+
+OK
+
+	ear-training
+
+OK
+
+	schema-registry
+
+OK
+
+	rest-utils
+
+OK
+
+	ksql-benchmark
+
+OK
+
+	streams-prototyping
+
+OK
+
+	cave-hack
+
+OK
+
+	857Coin
+
+OK

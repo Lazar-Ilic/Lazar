@@ -1,0 +1,108 @@
+OK dude totally wack Wrong stuff on his web log. Whatver.
+
+	Benjamin Gunby, Xiaoyu He, and Bhargav Narayanan, Down-set thresholds, preprint [2021]. [pdf]
+
+
+
+	Xiaoyu He, Emily Huang, Ihyun Nam, and Rishubh Thaper, Shuffle squares and reverse shuffle squares, preprint [2021]. [pdf]
+
+Fascinating fun little introduction reminding the readership of a variety of canonical invocations of these and related tasks.
+
+Uh yeah I mean I guess this is pretty like Duluth REU tier or Putnam tier frankly I could try and pop something of this calibre and complexity out here very shortly soon would really boost my imago with legitimate people at firms as well as perhaps with Messieur Dottore Joe Gallian himself and like David Rusin et al.
+
+Solid solid solid paper very solid interesting one for me to read up further readings and maybe pop back to this later contemplate these sorts of things.
+
+	Jacob Fox, Xiaoyu He, and Yuval Wigderson, Ramsey goodness of books revisited, preprint [2021]. [pdf]
+
+
+
+	Xiaoyu He, Jiaxi Nie, and Sam Spiro, Maximal independent sets in clique-free graphs, preprint [2021]. [pdf]
+
+OKOKOK see this is the thing I maybe need to ease up for the day settle down and stew brew mull contemplate a little further what sorts of maths I do here or if I line up either some statistics projects implementations or some performant C++ codes to impress firms one or the other I cannot dedicate myself to maths papers entirely I need to produce at least 1 or 2 impressive projects in the next 60 days for sure if I do not sign right here right now.
+
+	Venkatesan Guruswami, Xiaoyu He, and Ray Li, The zero-rate threshold for adversarial bit-deletions is less than 1/2, FOCS [2021]. [pdf]
+
+
+
+	Jacob Fox, Xiaoyu He, and Yuval Wigderson, Ramsey numbers of sparse digraphs, preprint [2021]. [pdf] [slides]
+
+
+
+	Jacob Fox, Xiaoyu He, Sammy Luo, and Max Xu, Multicolor list Ramsey numbers grow exponentially, preprint [2021]. [pdf]
+
+
+
+	Xiaoyu He, Yuzu Ido, and Benjamin Przybocki, Hat guessing on books and windmills, preprint [2020]. [pdf]
+
+
+
+	Persi Diaconis, Ron Graham, Xiaoyu He, and Sam Spiro, Card guessing with partial feedback, Combin. Probab. Comput. 31 [2022], 1-20. [pdf]
+
+
+
+	Xiaoyu He and Ray Li, Hat guessing numbers of degenerate graphs, Electron. J. Combin. 27 [2020], P3.58. [pdf]
+
+
+
+	Jacob Fox and Xiaoyu He, Independent sets in hypergraphs with a forbidden link, Proc. London Math. Soc. 123 [2021], 384-409. [pdf] [slides]
+
+
+
+	John Engbers, Aysel Erey, Jacob Fox, and Xiaoyu He, Tomescu’s graph-coloring conjecture for l-connected graphs, SIAM J. Discrete Math. [2021], 1478–1502. [pdf]
+
+
+
+	Jacob Fox, Xiaoyu He, and Yuval Wigderson, Ramsey, Paper, Scissors, Random Structures Algorithms 57 [2020], 1157–1173. [pdf]
+
+
+
+	Xiaoyu He and Matthew Kwan, Universality of random permutations, Bull. London Math. Soc. 52 [2020], 515–529. [pdf]
+
+
+
+	Ryan Alweiss, Chady Ben Hamida, Xiaoyu He, and Alexander Moreira, On the subgraph query problem, Combin. Probab. Comput. 30 [2020], 1–16. [pdf]
+
+
+
+	Xiaoyu He and Yuval Wigderson, Hedetniemi’s conjecture is asymptotically false, J. Combin. Theory Ser. B 146 [2020], 485–494. [pdf]
+
+
+
+	Xiaoyu He and Yuval Wigderson, Multicolor Ramsey numbers via pseudorandom graphs, Electron. J. Combin. [2020], P1.32. [pdf]
+
+
+
+	David Gonzalez, Xiaoyu He, and Hanzhi Zheng, An upper bound for the restricted online Ramsey number, Discrete Math. 342 [2019], 2565–2569. [pdf]
+
+
+
+	David Conlon, Jacob Fox, Andrey Grinshpun, and Xiaoyu He, Online Ramsey numbers and the subgraph query problem, Building Bridges II, Bolyai Soc. Math. Stud. 28 [2019]. [pdf] [slides]
+
+
+
+	Jacob Fox, Xiaoyu He, and Freddie Manners, A proof of Tomescu’s graph-coloring conjecture, J. Combin. Theory Ser. B 136 [2019], 204–221. [pdf]
+
+
+
+	Jared Bitz, Sarah Griffith, and Xiaoyu He, Exponential lower bounds on the generalized Erdős-Ginzburg-Ziv constant, Discrete Math. 342 [2020], 112083. [pdf]
+
+
+
+	Xiaoyu He, Linear dependence between hereditary quasirandomness conditions, Electron. J. Combin. 25 [2018], P4.12. [pdf]
+
+
+
+	Xiaoyu He, Geometric progression-free sequences with small gaps II, INTEGERS 16, Paper No. A31, [2016], 9pp. [pdf]
+
+
+
+	Xiaoyu He, Zero-sum subsequences of length kq over finite abelian p-groups, Discrete Math. 339 [2016], 399–407. [pdf]
+
+
+
+	Xiaoyu He, Geometric progression-free sequences with small gaps, J. Number Theory 151 [2015], 197–210. [pdf]
+
+
+
+	Xiaoyu He, Cross number invariants of finite abelian groups, J. Number Theory 136 [2014], 100–117. [pdf]
+

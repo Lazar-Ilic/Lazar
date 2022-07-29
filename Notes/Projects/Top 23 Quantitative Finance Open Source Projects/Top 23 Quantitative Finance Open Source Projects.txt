@@ -1,0 +1,269 @@
+OK seems OK
+
+https://www.libhunt.com/topic/quantitative-finance
+
+OpenBBTerminal
+83
+ 
+12,261
+ 
+9.9
+ Python
+Investment Research for Everyone, Anywhere.
+
+OpenBB-finance logo
+Project mention: OpenBBTerminal: Investment Research for Everyone, Anywhere | news.ycombinator.com | 2022-06-19
+
+
+awesome-quant
+9
+ 
+9,783
+ 
+8.2
+ Python
+A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
+
+Project mention: Why building profitable trading bot is hard? | news.ycombinator.com | 2022-05-22
+If the financial analyst does not have a (possibly piecewise) software function to at least test with backtesting and paper trading, do they even have an objective relative performance statistic? Your notebook or better should also model fees and have a parametrizable initial balance.
+
+Here's the awesome-quant link directory: github.com/wilsonfreitas/awesome-quant
+
+Scout APM
+scoutapm.com
+ sponsored
+Less time debugging, more time building. Scout APM allows you to find and fix performance issues with no hassle. Now with error monitoring and ﻿external services monitoring, Scout is a developer's best friend when it comes to application development.
+
+Scout APM logo
+qlib
+4
+ 
+8,764
+ 
+9.6
+ Python
+Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
+
+microsoft logo
+Project mention: Double Ensemble Model | reddit.com/r/mltraders | 2022-04-19
+arxiv.org/abs/2010.01265 DoubleEnsemble is a model that ensembles a sample reweighing model and a feature selection model. It seems to perform quite well based off those benchmarks and on the Microsoft qlib benchmarks: github.com/microsoft/qlib/tree/main...
+
+ta-lib
+7
+ 
+6,699
+ 
+7.8
+ Cython
+Python wrapper for TA-Lib (http://ta-lib.org/).
+
+Project mention: How are these guys doing automated trend analysis like finding falling wedges, bullish pennants or bull flag? | reddit.com/r/algotrading | 2022-06-17
+Not sure what they are using specifically, but ta-lib has candle pattern matching.
+
+StockSharp
+50
+ 
+4,995
+ 
+9.0
+ C#
+Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).
+
+StockSharp logo
+Project mention: StockSharp: NEW Derivatives and Hedging - star count:4945.0 | reddit.com/r/algoprojects | 2022-06-04
+Financial-Models-Numerical-Methods
+1
+ 
+3,721
+ 
+1.0
+ Jupyter Notebook
+Collection of notebooks about quantitative finance, with interactive python code.
+
+Project mention: Pricing models - which do MMs use these days | reddit.com/r/options | 2022-05-30
+If you have experience with Python, here is a great repo: github.com/cantaro86/Financial-Models-Numerical-Methods If you don't know Python, I suggest you learn. It's one of the easier languages to learn. The course below will teach you everything you need to get started. www.youtube.com/watch?v=rfscVS0vtbw
+
+QuantLib
+0
+ 
+3,261
+ 
+9.6
+ C++
+The QuantLib C++ library (by lballabio)
+
+JetBrains
+surveys.jetbrains.com
+ sponsored
+Developer Ecosystem Survey 2022. Take part in the Developer Ecosystem Survey 2022 by JetBrains and get a chance to win a Macbook, a Nvidia graphics card, or other prizes. We’ll create an infographic full of stats, and you’ll get personalized results so you can compare yourself with other developers.
+
+JetBrains logo
+tf-quant-finance
+44
+ 
+3,110
+ 
+8.8
+ Python
+High-performance TensorFlow library for quantitative finance.
+
+google logo
+Project mention: tf-quant-finance: NEW Derivatives and Hedging - star count:3076.0 | reddit.com/r/algoprojects | 2022-05-21
+mlfinlab
+95
+ 
+3,015
+ 
+4.2
+ Python
+MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools.
+
+hudson-and-thames logo
+Project mention: mlfinlab: open source library maintained by hudson and thames though much of the content has moved to a subscription model. Idea is to implement academic research in python code and aggregate it as a package. Sources from [Journal of financial data s | reddit.com/r/algoprojects | 2022-06-24
+quant-trading
+58
+ 
+2,863
+ 
+4.5
+ Python
+Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD
+
+Project mention: quant-trading: NEW Derivatives and Hedging - star count:2833.0 | reddit.com/r/algoprojects | 2022-06-24
+PyPortfolioOpt
+100
+ 
+2,860
+ 
+7.8
+ Jupyter Notebook
+Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity
+
+Project mention: PyPortfolioOpt: Financial portfolio optimisation, including classical efficient frontier and advanced methods. Portfolio Selection and Optimisation - star count:2840.0 | reddit.com/r/algoprojects | 2022-06-18
+financial-machine-learning
+66
+ 
+2,650
+ 
+9.4
+ Python
+A curated list of practical financial machine learning tools and applications.
+
+Project mention: financial-machine-learning: NEW Other Models - star count:2633.0 | reddit.com/r/algoprojects | 2022-06-18
+quantstats
+4
+ 
+2,115
+ 
+8.4
+ Python
+Portfolio analytics for quants, written in Python
+
+Project mention: QuantStats: Portfolio Analytics for Quants | news.ycombinator.com | 2022-02-09
+zvt
+1
+ 
+2,043
+ 
+8.5
+ Python
+modular quant framework.
+
+zvtvz logo
+Project mention: Algo trading in matlab / C++ | reddit.com/r/algotrading | 2022-06-09
+vectorbt
+4
+ 
+1,989
+ 
+8.8
+ Python
+Find your trading edge, using the fastest engine for backtesting, algorithmic trading, and research.
+
+Project mention: Is there any python libraries to backtest buy and sell signals with dates? | reddit.com/r/algotrading | 2022-06-14
+For exactly this I use this github.com/polakowo/vectorbt it’s really a powerful tool and you can tons of things with it. Recently the developer decided to maintain it but not adding new features, which from now on will be released on the pro version. However, the free version is still very valuable, incredibly fast and suitable for basic to intermediate tasks.
+
+qtpylib
+0
+ 
+1,664
+ 
+0.0
+ Python
+QTPyLib, Pythonic Algorithmic Trading
+
+bulbea
+69
+ 
+1,635
+ 
+0.0
+ Python
+:boar: :bear: Deep Learning based Python Library for Stock Market Prediction and Modelling
+
+Project mention: Deep Learning IV: Bulbea: Deep Learning based Python Library. Deep Learning And Reinforcement Learning - star count:1638.0 | reddit.com/r/algoprojects | 2022-04-23
+awesome-ai-in-finance
+44
+ 
+1,419
+ 
+3.1
+🔬 A curated list of awesome machine learning strategies & tools in financial market.
+
+Project mention: awesome-ai-in-finance: curated list of books/online courses/papers on AI and finance. Topics include crypto trading strategies/ta/backter etc. Other Models - star count:1377.0 | reddit.com/r/algoprojects | 2022-05-07
+machine-learning-asset-management
+0
+ 
+1,343
+ 
+5.1
+ Jupyter Notebook
+Machine Learning in Asset Management (by @firmai)
+
+Riskfolio-Lib
+116
+ 
+1,310
+ 
+7.5
+ Python
+Portfolio Optimization and Quantitative Strategic Asset Allocation in Python
+
+Project mention: Riskfolio-Lib: NEW Portfolio Selection and Optimisation - star count:1269.0 | reddit.com/r/algoprojects | 2022-06-11
+robin_stocks
+26
+ 
+1,305
+ 
+3.2
+ Python
+This is a library to use with Robinhood Financial App. It currently supports trading crypto-currencies, options, and stocks. In addition, it can be used to get real time ticker information, assess the performance of your portfolio, and can also get tax documents, total dividends paid, and more. More info at
+
+Project mention: robin_stocks: NEW Derivatives and Hedging - star count:1292.0 | reddit.com/r/algoprojects | 2022-05-28
+MachineLearningStocks
+8
+ 
+1,194
+ 
+0.0
+ Python
+Using python and scikit-learn to make stock predictions
+
+Project mention: Scikit-learn Stock Prediction: using fundamental and pricing data to predict future stock returns. Sklearn's randomforest classifier is trainded and author claimed positive live trading results. Not actively mainained Other Models - star count:1144.0 | reddit.com/r/algoprojects | 2022-02-05
+fastquant
+1
+ 
+918
+ 
+7.1
+ Jupyter Notebook
+fastquant — Backtest and optimize your trading strategies with only 3 lines of code!
+
+Project mention: Launch HN: Coinrule (YC S21) – Automated Trading Made Easy | news.ycombinator.com | 2021-07-15
+I would never trust a service like this, but at the same time, I'm curious on how to setup the opposite of their motto: "compete with professional algorithmic traders and hedge funds. coding required!".
+
+Does Fidelity offer an API of some sort so that I can login with my normal credentials and buy/sell? I'm assuming the strategies being used here, like "Ride the Trend", are basically the same ones available here: github.com/enzoampil/fastquant
+
+So, given that the previous statements are true, do I just need some Yahoo! Finance API + FastQuant and then MyBank API to autotrade for myself? What else would be involved?
+
+NOTE: The open source projects on this list are ordered by number of github stars. The number of mentions indicates repo mentiontions in the last 12 Months or since we started tracking (Dec 2020). The latest post mention was on 2022-06-24.

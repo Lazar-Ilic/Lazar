@@ -1,0 +1,19 @@
+I might actually take the time to go through say 300 tasks from the public written records on top trading firms and try and implement them in nearly flawless C++ style.
+
+Maybe just kind of casually and openly discuss some potpourri tasks from the GlassDoor corpus here too not really sure I want to leak out tasks I have been given in currently live rounds for proprietary trading firms but we can maybe do some post facto analyses.
+
+	Minimum Number Of Knight Moves
+
+From [a,b] to [c,d] in an n x n chess board should be an O[1] computation for n up to 1000000000 say. Not a simple Breadth First Search on a vector of vector of booleans processed.
+
+	Maximum Square Frame Of 0s In An n x n Grid
+
+Onsight flawless C in O[n^2].
+
+	Construct Binary Search Tree In Order And Least Common Ancestor
+
+Can use an auxiliary set e.g. to execute the insert operation in O[log n] worst case rather than O[n]. Vector/array based approach works as does a standard canonical usual struct node pointer based technique.
+
+	Compute Sum Of First n Integers Hit By Vector Of Size m << n
+
+One way which uses minimal auxiliary memory is to call the relatively fast C++ Standard Template Library sort function on the hitting vector and then binary search for a threshold index value at which point we could call resize and accumulate and subtract off e.g. from long(a)*(a+1)/2. Technical O[m log m]. However, depending upon the input test cases limits one may also opt to use auxiliary memory with a vector<bool> followed by relevant += calls and compares in loop. O[n].

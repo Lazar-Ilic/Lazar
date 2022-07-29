@@ -1,0 +1,75 @@
+Yi Sun
+research
+teaching
+research interests
+My research interests are in probability and its applications to machine learning and high-dimensional statistics. Recent work has focused on:
+
+random matrices, free probability, and applications to high-dimensional statistics
+probabilistic and representation theoretic approaches to conformal field theories
+robustness and data augmentation for neural networks
+learning theory for multi-reference alignment and cryo-EM
+See also my pages at arXiv and Google Scholar Citations.
+
+mathematics and statistics research
+Maximum likelihood for high-noise group orbit estimation and single-particle cryo-EM (with Z. Fan, R. Lederman, T. Wang, and S. Xu), preprint (2021). (arXiv) (show abstract)
+
+Likelihood landscape and maximum likelihood estimation for the discrete orbit recovery model (with Z. Fan, T. Wang, and Y. Wu), Communications on Pure and Applied Mathematics, to appear. (pdf) (arXiv) (video) (show abstract)
+
+Probabilistic conformal blocks for Liouville CFT on the torus (with P. Ghosal, G. Remy, and X. Sun), submitted (2020). (pdf) (arXiv) (video) (show abstract)
+
+Principal components in linear mixed models with general bulk (with Z. Fan and Z. Wang), Annals of Statistics, 49(2021), 1489-1513. (pdf) (arXiv) (journal) (show abstract)
+
+Gaussian fluctuations for products of random matrices (with V. Gorin), American Journal of Mathematics, to appear. (pdf) (arXiv) (show abstract)
+
+Spiked covariances and principal components analysis in high-dimensional random effects models (with Z. Fan and I. Johnstone), preprint (2018). (arXiv) (show abstract)
+
+Affine Macdonald conjectures and special values of Felder-Varchenko functions (with E. Rains and A. Varchenko), Selecta Mathematica N. S. 24 (2018), 1549-1591. (pdf) (arXiv) (journal) (video) (show abstract)
+
+Laguerre and Jacobi analogues of the Warren process (with an appendix by A. Sarantsev), submitted (2016). (pdf) (arXiv) (video 1, video 2) (show abstract)
+
+Traces of intertwiners for quantum affine algebras and difference equations (after Etingof-Schiffmann-Varchenko), Transformation Groups 23 (2018), 1167-1215. (pdf) (arXiv) (journal) (show abstract)
+
+Matrix models for multilevel Heckman-Opdam and multivariate Bessel measures, submitted (2016). (pdf) (arXiv) (video 1, video 2) (show abstract)
+
+Traces of intertwiners for quantum affine sl2 and Felder-Varchenko functions, Communications in Mathematical Physics 347 (2016), 573-653. (pdf) (arXiv) (journal) (show abstract)
+
+The polynomial representation of the type An−1 rational Cherednik algebra in characteristic p∣n (with S. Devadas), Communications in Algebra 45 (2017), 1926-1934. (pdf) (arXiv) (journal) (show abstract)
+
+A representation-theoretic proof of the branching rule for Macdonald polynomials, Mathematical Research Letters 23 (2016), 887-927. Extended abstract in FPSAC 2015. (pdf) (arXiv) (journal) (proceedings) (show abstract)
+
+A new integral formula for Heckman-Opdam hypergeometric functions, Advances in Mathematics 289 (2016), 1157-1204. (pdf) (arXiv) (journal) (show abstract)
+
+Finite dimensional representations of the rational Cherednik algebra for G4, Journal of Algebra 323 (2010), 2864-2887. (pdf) (arXiv) (journal) (show abstract)
+
+computer science research
+B. Hanin∗ and Y. Sun∗, How Data Augmentation affects Optimization for Linear Regression, NeurIPS 2021. (arXiv) (show abstract)
+
+D. Kang∗, J. Guibas∗, P. Bailis, T. Hashimoto, Y. Sun, M. Zaharia, Accelerating Approximate Aggregation Queries with Expensive Predicates, VLDB 2021. (proceedings) (arXiv) (show abstract)
+
+D. Kang∗, Y. Sun∗, D. Hendrycks, T. Brown, and J. Steinhardt, Testing robustness against unforeseen adversaries. (arXiv) (blog) (code) (workshop) (show abstract)
+
+T. Hashimoto, Y. Sun, and T. Jaakkola, From random walks to distances on unweighted graphs, NIPS 2015. (pdf) (arXiv) (supplement and code) (poster) (proceedings) (show abstract)
+
+T. Hashimoto, Y. Sun, and T. Jaakkola, Metric recovery from directed unweighted graphs, AISTATS 2015. NIPS Networks Workshop 2014. (pdf) (arXiv) (supplement and code) (workshop) (poster) (proceedings) (show abstract)
+
+Y. Sun and M. Sundararajan, Axiomatic attribution for multilinear functions, Electronic Commerce 2011, 177-178. (pdf) (arXiv) (extended abstract) (proceedings) (show abstract)
+
+other research
+P. Y. Wang, Y. Sun, R. Axel, L. F. Abbott, and G. R. Yang, Evolving the olfactory system with machine learning, Neuron, in press, 2021. (journal) (show abstract)
+
+presentations
+2021: UChicago (x2), Integrability in Conformal Probability (online), Simons Foundation, Luminy, Princeton, NeurIPS
+
+2020: UChicago, UW Madison, Google X, Bernoulli-IMS One World Symposium, DeepMath 2020, NeurIPS OPT 2020 Workshop
+
+2019: UCSD, Virginia, OpenAI, ICML Workshop on Uncertainty and Robustness in Deep Learning, AMS Western Sectional Meeting
+
+2018: Simons Society of Fellows Retreat, Yale
+
+2017: ESI, Columbia-Princeton Probability Day, Rutgers, Perimeter Institute (video), Rochester, PCMI (video 1, video 2)
+
+2016: HCM, MIT (x2), IESC, Columbia (x2)
+
+2015: ICERM, AISTATS, CMI, FPSAC, Yale, Columbia, Northeastern, ETH Zurich (x2), UC Berkeley, NIPS
+
+2014: MIT, IHP, UC Berkeley, NIPS Workshop on Networks

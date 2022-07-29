@@ -1,0 +1,17 @@
+Get back to that Two Sigma web log here later today maybe maybe some pretty interesting stuff going on over there but now we are getting back into the fine art forms and matters of tanking 1000 hours on C and C++... swoop back into some MIT and Carnegie Mellon University courses, notes, and codes.
+
+	Elements of Statistical Learning. 8/10
+
+
+
+	OutOfLine - A Memory-Locality Pattern for High Performance C++
+
+
+
+	Successfully Starting a Career in Quant Research
+
+
+
+	Quantitative Trading Summary
+
+Yeah I think that uh I might need to read up soon at some point on the finer technical matters of FPGAs or something.

@@ -1,0 +1,2605 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://usamts.org/Leaders/U_Leaders_yr25.php
+Subject: USAMTS Leaderboard
+Date: Sun, 13 Mar 2022 14:55:09 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----"
+
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: text/html
+Content-ID: <frame-25FDB3195C3F5AC6790E0D61C7AF72E2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://usamts.org/Leaders/U_Leaders_yr25.php
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><link type=3D"text/css"=
+ id=3D"dark-mode" rel=3D"stylesheet" href=3D"chrome-extension://nlgphodecce=
+bbcnkgmokeegopgpnjfkc/data/content_script/general/dark_1.css"><head><meta h=
+ttp-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+ =20
+  <link rel=3D"icon" href=3D"https://usamts.org/favicon.ico" type=3D"image/=
+x-icon">
+  <link rel=3D"shortcut icon" href=3D"https://usamts.org/favicon.ico" type=
+=3D"image/x-icon">
+  <link rel=3D"stylesheet" type=3D"text/css" href=3D"https://usamts.org/Tem=
+plates/CSS/usamtspage.css">
+  <link rel=3D"stylesheet" type=3D"text/css" href=3D"https://usamts.org/Tem=
+plates/CSS/usamtsleftbar.css">
+  <link rel=3D"stylesheet" type=3D"text/css" href=3D"https://usamts.org/Tem=
+plates/CSS/usamtstopbar.css">
+
+
+<!--[if lt IE 7]>
+  <link rel=3D'stylesheet' type=3D'text/css' href=3D'/Templates/CSS/usamtsi=
+efixes.css' />
+  <script type=3D'text/javascript' src=3D'/Templates/JS/minmax.js'></script=
+>
+  <script type=3D'text/javascript' src=3D'/Templates/JS/iefixmenus.js'></sc=
+ript>
+<![endif]-->
+<!--[if IE 7]>
+  <link rel=3D'stylesheet' type=3D'text/css' href=3D'/Templates/CSS/usamtsi=
+e7fixes.css' />
+<![endif]-->
+
+<title>USAMTS Leaderboard</title>
+</head>
+
+<body>
+  <!-- top bar -->
+  <div class=3D"usamtstop">
+    <p class=3D"usamtsname"><img src=3D"https://usamts.org/Images/PageBorde=
+rs/TemplateTop.jpg">
+    </p><div class=3D"usamtstitlebar">
+    Leaders    </div><p></p>
+    <div class=3D"usamtslogo"><a href=3D"https://usamts.org/index.php"><img=
+ src=3D"https://usamts.org/Images/PageBorders/TemCorner.gif"></a></div>
+  </div>
+
+  <!-- start mainpage -->
+  <div class=3D"usamtsmainpage">
+
+<div class=3D"usamtsbody">
+		<div class=3D"usamtsbodymenu">
+	<!-- this is where you put the drop-down menus -->
+		<ul class=3D"usamtstopmenubar" id=3D"usamtstopmenubar">
+<li id=3D"usamtsselected">
+			<a href=3D"https://usamts.org/Leaders/U_Leaders.php">Year 33 (2021-22)</=
+a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders.php">Leaderboard</a=
+></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats.php">Statistics</a></=
+li>
+			</ul>
+
+	</li><li id=3D"usamtsselected">
+			<a href=3D"https://usamts.org/Leaders/U_Leaders.php">Year 32 (2020-21)</=
+a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr32.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr32.php">Statistics<=
+/a></li>
+			</ul>
+</li><li id=3D"usamtsselected">
+			<a href=3D"https://usamts.org/Leaders/U_Leaders.php">Year 31 (2019-20)</=
+a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr31.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr31.php">Statistics<=
+/a></li>
+			</ul>
+		</li><li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders.php">Year 30 (2018-19)</=
+a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr30.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr30.php">Statistics<=
+/a></li>
+			</ul>
+		</li>
+		<li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders.php">Year 29 (2017-18)</=
+a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr29.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr29.php">Statistics<=
+/a></li>
+			</ul>
+		</li>
+			<li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders_yr28.php">Year 28 (2016-=
+17)</a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr28.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr28.php">Statistics<=
+/a></li>
+			</ul>
+		</li>	=09
+		<li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders_yr27.php">Year 27 (2015-=
+16)</a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr27.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr27.php">Statistics<=
+/a></li>
+			</ul>
+		</li>
+		<li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders_yr26.php">Year 26 (2014-=
+15)</a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr26.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr26.php">Statistics<=
+/a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders_yr25.php">Year 25 (2013-=
+14)</a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr25.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr25.php">Statistics<=
+/a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders_yr24.php">Year 24 (2012-=
+13)</a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr24.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr24.php">Statistics<=
+/a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders_yr23.php">Year 23 (2011-=
+12)</a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr23.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr23.php">Statistics<=
+/a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders_yr22.php">Year 22 (2010-=
+11)</a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr22.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr22.php">Statistics<=
+/a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders_yr21.php">Year 21 (2009-=
+10)</a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr21.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr21.php">Statistics<=
+/a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href=3D"https://usamts.org/Leaders/U_Leaders_yr20.php">Year 20 (2008-=
+09)</a>
+			<ul>
+				<li><a href=3D"https://usamts.org/Leaders/U_Leaders_yr20.php">Leaderboa=
+rd</a></li>
+				<li><a href=3D"https://usamts.org/Leaders/U_Stats_yr20.php">Statistics<=
+/a></li>
+			</ul>
+		</li>
+
+		<!-- Let's not show these anymore
+				<li >
+			<a href=3D'U_Leaders_yr19.php'>Year 19 (2007-08)</a>
+			<ul>
+				<li><a href=3D'U_Leaders_yr19.php'>Leaderboard</a></li>
+				<li><a href=3D'U_Stats_yr19.php'>Statistics</a></li>
+			</ul>
+		</li>
+
+		<li >
+			<a href=3D'U_Leaders_yr18.php'>Year 18 (2006-07)</a>
+			<ul>
+				<li><a href=3D'U_Leaders_yr18.php'>Leaderboard</a></li>
+				<li><a href=3D'U_Stats_yr18.php'>Statistics</a></li>
+			</ul>
+		</li>
+
+		<li >
+			<a href=3D'U_Leaders_yr17.php'>Year 17 (2005-06)</a>
+			<ul>
+				<li><a href=3D'U_Leaders_yr17.php'>Leaderboard</a></li>
+				<li><a href=3D'U_Stats_yr17.php'>Statistics</a></li>
+			</ul>
+		</li>
+
+		<li >
+			<a href=3D'U_Leaders_yr16.php'>Year 16 (2004-05)</a>
+			<ul>
+				<li><a href=3D'U_Leaders_yr16.php'>Leaderboard</a></li>
+				<li><a href=3D'U_Stats_yr16.php'>Statistics</a></li>
+			</ul>
+		</li>
+	    -->
+	   =20
+		</ul>=09
+	</div> 	<div class=3D"usamtsbodytext">=20
+
+
+                  <a href=3D"https://usamts.org/Leaders/U_Leaders.php"><img=
+ src=3D"https://usamts.org/Leaders/Images/TopScores_Y.gif" width=3D"96" hei=
+ght=3D"24" border=3D"0"></a><a href=3D"https://usamts.org/Leaders/U_Stats.p=
+hp"><img src=3D"https://usamts.org/Leaders/Images/Stats_N.gif" width=3D"72"=
+ height=3D"24" border=3D"0"></a>=20
+
+                  <br><div><a href=3D"https://usamts.org/Leaders/U_Leaders_=
+yr25.php#overall">Overall</a> - <a href=3D"https://usamts.org/Leaders/U_Lea=
+ders_yr25.php#rd1">Round 1</a> - <a href=3D"https://usamts.org/Leaders/U_Le=
+aders_yr25.php#rd2">Round 2</a> - <a href=3D"https://usamts.org/Leaders/U_L=
+eaders_yr25.php#rd3">Round 3</a></div><div class=3D"usamtsscoreheader"><a n=
+ame=3D"overall"></a>Overall</div><div class=3D"usamtsleaderssubheader">Over=
+all: 75</div><table class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><t=
+d>Jacob Gurev (10, CA)</td><td>Lazar Ilic (10, TX)</td></tr>
+<tr class=3D"oddrow"><td>Eric Neyman (11, MD)</td><td>Timur Vural (11, CA)<=
+/td></tr>
+<tr class=3D"evenrow"><td>William Xiao (12, NY)</td><td>Larry Yang (11, CA)=
+</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 74</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Chau Bui (11, A=
+Z)</td><td>Andy Chen (11, NM)</td></tr>
+<tr class=3D"oddrow"><td>Matthew Hase-Liu (9, CA)</td><td>Ashwin Sah (9, OR=
+)</td></tr>
+<tr class=3D"evenrow"><td>Christopher Shao (11, NJ)</td><td>Kada Williams (=
+9, VA)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 73</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Zachary Bogorad=
+ (11, OH)</td><td>Patrick Hiatt (12, IA)</td></tr>
+<tr class=3D"oddrow"><td>Saranesh Prembabu (11, CA)</td><td>Nicholas Wu (10=
+, PA)</td></tr>
+<tr class=3D"evenrow"><td>Thomas Zhang (11, MN)</td><td>Joseph Zurier (11, =
+RI)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 72</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Swapnil Garg (8=
+, CA)</td><td>Jessica  Li (11, NJ)</td></tr>
+<tr class=3D"oddrow"><td>Tahsin Saffat (11, OR)</td><td>Mihir Singhal (8, C=
+A)</td></tr>
+<tr class=3D"evenrow"><td>Nathan Soedjak (9, MO)</td></tr></tbody></table><=
+div class=3D"usamtsleaderssubheader">Overall: 71</div><table class=3D"usamt=
+sleaders"><tbody><tr class=3D"evenrow"><td>Nikolay Grantcharov (11, CA)</td=
+><td>Wilbur Li (10, TX)</td></tr>
+<tr class=3D"oddrow"><td>Allen Liu (10, NY)</td><td>Yang Liu (11, MO)</td><=
+/tr>
+<tr class=3D"evenrow"><td>Byron Xu (9, TX)</td></tr></tbody></table><div cl=
+ass=3D"usamtsleaderssubheader">Overall: 70</div><table class=3D"usamtsleade=
+rs"><tbody><tr class=3D"evenrow"><td>Eshaan Nichani (10, CA)</td></tr></tbo=
+dy></table><div class=3D"usamtsleaderssubheader">Overall: 69</div><table cl=
+ass=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Yan (Bill) Huang (11=
+, NJ)</td><td>Vivek Miglani (11, FL)</td></tr>
+<tr class=3D"oddrow"><td>Benjamin Schiffer (10, IL)</td></tr></tbody></tabl=
+e><div class=3D"usamtsleaderssubheader">Overall: 68</div><table class=3D"us=
+amtsleaders"><tbody><tr class=3D"evenrow"><td>Jackie Bredenberg (11, MI)</t=
+d><td>Sam Heil (10, MO)</td></tr>
+<tr class=3D"oddrow"><td>Shyam Narayanan (11, KS)</td></tr></tbody></table>=
+<div class=3D"usamtsleaderssubheader">Overall: 67</div><table class=3D"usam=
+tsleaders"><tbody><tr class=3D"evenrow"><td>Andrew Bai (10, OR)</td><td>Joe=
+ Buzzi (11, IL)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 66</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Gerry Chen (11,=
+ PA)</td><td>Vikram Sundar (12, CA)</td></tr>
+<tr class=3D"oddrow"><td>Tony Zhang (11, CA)</td></tr></tbody></table><div =
+class=3D"usamtsleaderssubheader">Overall: 65</div><table class=3D"usamtslea=
+ders"><tbody><tr class=3D"evenrow"><td>Owen Goff (12, WA)</td><td>Jason Shi=
+ (11, NJ)</td></tr>
+<tr class=3D"oddrow"><td>David Zhu (9, CA)</td></tr></tbody></table><div cl=
+ass=3D"usamtsleaderssubheader">Overall: 64</div><table class=3D"usamtsleade=
+rs"><tbody><tr class=3D"evenrow"><td>Alexander Katz (11, NJ)</td></tr></tbo=
+dy></table><div class=3D"usamtsleaderssubheader">Overall: 62</div><table cl=
+ass=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Calvin Qi (11, CA)</=
+td></tr></tbody></table><div class=3D"usamtsleaderssubheader">Overall: 61</=
+div><table class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Kartik =
+Chandra (9, CA)</td><td>Rachel Zhang (10, MO)</td></tr>
+<tr class=3D"oddrow"><td>Wanqi Zhu (9, IL)</td></tr></tbody></table><div cl=
+ass=3D"usamtsleaderssubheader">Overall: 60</div><table class=3D"usamtsleade=
+rs"><tbody><tr class=3D"evenrow"><td>Pranav Lalgudi (9, CA)</td></tr></tbod=
+y></table><div class=3D"usamtsleaderssubheader">Overall: 59</div><table cla=
+ss=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Steve Guo (9, CA)</td=
+><td>Walter Li (11, IN)</td></tr>
+<tr class=3D"oddrow"><td>Ryan Soedjak (9, MO)</td></tr></tbody></table><div=
+ class=3D"usamtsleaderssubheader">Overall: 58</div><table class=3D"usamtsle=
+aders"><tbody><tr class=3D"evenrow"><td>Sanat Mulay (11, TN)</td><td>Tim Su=
+dijono (11, NY)</td></tr>
+<tr class=3D"oddrow"><td>Vickie Wang (12, OH)</td><td>John Michael Wu (9, M=
+A)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 57</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Scott Becker (8=
+, VA)</td><td>Alicia Guo (8, TX)</td></tr>
+<tr class=3D"oddrow"><td>Tara Liu (10, NJ)</td><td>Alexander Wei (10, NY)</=
+td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 56</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Bryce Cai (10, =
+IL)</td><td>Jordan Haack (11, MN)</td></tr>
+<tr class=3D"oddrow"><td>Michael Tong (12, NY)</td></tr></tbody></table><di=
+v class=3D"usamtsleaderssubheader">Overall: 55</div><table class=3D"usamtsl=
+eaders"><tbody><tr class=3D"evenrow"><td>Cody Johnson (11, FL)</td><td>Part=
+h Kumar (10, GA)</td></tr>
+<tr class=3D"oddrow"><td>Bovey Rao (11, UT)</td><td>Eric Xu (11, CA)</td></=
+tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 53</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Alec Leng (9, O=
+R)</td></tr></tbody></table><div class=3D"usamtsleaderssubheader">Overall: =
+52</div><table class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Sar=
+vasva Raghuvanshi (10, IL)</td></tr></tbody></table><div class=3D"usamtslea=
+derssubheader">Overall: 51</div><table class=3D"usamtsleaders"><tbody><tr c=
+lass=3D"evenrow"><td>Alex Gu (8, IN)</td><td>Kimberly Ruth (11, WA)</td></t=
+r>
+<tr class=3D"oddrow"><td>Michael Tang (9, MN)</td><td>William Wang (10, NY)=
+</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 50</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Jamin Chen (10,=
+ CA)</td><td>Andrew Gu (8, PA)</td></tr>
+<tr class=3D"oddrow"><td>Jeffrey Huang (9, TX)</td><td>Bob Krueger (11, OH)=
+</td></tr>
+<tr class=3D"evenrow"><td>David Stoner (11, SC)</td></tr></tbody></table><d=
+iv class=3D"usamtsleaderssubheader">Overall: 49</div><table class=3D"usamts=
+leaders"><tbody><tr class=3D"evenrow"><td>Jeffery Li (7, CA)</td><td>Alliso=
+n Paul (10, RI)</td></tr>
+<tr class=3D"oddrow"><td>Brian Xie (10, CA)</td></tr></tbody></table><div c=
+lass=3D"usamtsleaderssubheader">Overall: 48</div><table class=3D"usamtslead=
+ers"><tbody><tr class=3D"evenrow"><td>Alexander Jiang (11, TX)</td><td>Chri=
+stine Jou (10, TX)</td></tr>
+<tr class=3D"oddrow"><td>Philip Lamkin (9, MA)</td></tr></tbody></table><di=
+v class=3D"usamtsleaderssubheader">Overall: 47</div><table class=3D"usamtsl=
+eaders"><tbody><tr class=3D"evenrow"><td>Matthew Larson (11, MO)</td><td>Br=
+ian Liu (8, TX)</td></tr>
+<tr class=3D"oddrow"><td>Anton Maliev (11, NJ)</td><td>Sung Hyun Yoo (8, NJ=
+)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 46</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Mikhail Gromov =
+(6, IL)</td><td>Lucy Jiang (11, CT)</td></tr>
+<tr class=3D"oddrow"><td>Vinjai Vale (8, NH)</td></tr></tbody></table><div =
+class=3D"usamtsleaderssubheader">Overall: 45</div><table class=3D"usamtslea=
+ders"><tbody><tr class=3D"evenrow"><td>Anshul Ramachandran (12, CA)</td><td=
+>George  Spahn (11, ME)</td></tr>
+<tr class=3D"oddrow"><td>Steven Yang (11, FL)</td><td>Christopher Zhang (12=
+, NJ)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 44</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Angela Deng (9,=
+ NC)</td><td>Nancy Lu (10, PA)</td></tr>
+<tr class=3D"oddrow"><td>Junha Park (11, OR)</td><td>Colin Tang (7, WA)</td=
+></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Overall: 43</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>William Dong (1=
+0, NY)</td><td>Shreyan Jain (10, CA)</td></tr>
+<tr class=3D"oddrow"><td>Daniel Wang (10, TX)</td></tr></tbody></table><div=
+ class=3D"usamtsscoreheader"><a name=3D"rd1"></a>Round 1</div><div class=3D=
+"usamtsleaderssubheader">Round 1: 25</div><table class=3D"usamtsleaders"><t=
+body><tr class=3D"evenrow"><td>Zachary Bogorad (11, OH)</td><td>Chau Bui (1=
+1, AZ)</td></tr>
+<tr class=3D"oddrow"><td>Adam Busis (11, MD)</td><td>Owen Goff (12, WA)</td=
+></tr>
+<tr class=3D"evenrow"><td>Jacob Gurev (10, CA)</td><td>Andrew He (11, CA)</=
+td></tr>
+<tr class=3D"oddrow"><td>Patrick Hiatt (12, IA)</td><td>Lazar Ilic (10, TX)=
+</td></tr>
+<tr class=3D"evenrow"><td>Jessica  Li (11, NJ)</td><td>Kevin Li (11, NJ)</t=
+d></tr>
+<tr class=3D"oddrow"><td>Allen Liu (10, NY)</td><td>Yang Liu (11, MO)</td><=
+/tr>
+<tr class=3D"evenrow"><td>Alexander Mason (12, NJ)</td><td>Eric Neyman (11,=
+ MD)</td></tr>
+<tr class=3D"oddrow"><td>Eshaan Nichani (10, CA)</td><td>Saranesh Prembabu =
+(11, CA)</td></tr>
+<tr class=3D"evenrow"><td>Tahsin Saffat (11, OR)</td><td>Christopher Shao (=
+11, NJ)</td></tr>
+<tr class=3D"oddrow"><td>Nathan Soedjak (9, MO)</td><td>Timur Vural (11, CA=
+)</td></tr>
+<tr class=3D"evenrow"><td>Kada Williams (9, VA)</td><td>William Xiao (12, N=
+Y)</td></tr>
+<tr class=3D"oddrow"><td>Larry Yang (11, CA)</td><td>Tony Zhang (11, CA)</t=
+d></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 1: 24</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Scott Becker (8=
+, VA)</td><td>Andy Chen (11, NM)</td></tr>
+<tr class=3D"oddrow"><td>Matthew Hase-Liu (9, CA)</td><td>Ashwin Sah (9, OR=
+)</td></tr>
+<tr class=3D"evenrow"><td>Byron Xu (9, TX)</td><td>Thomas Zhang (11, MN)</t=
+d></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 1: 23</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Andrew Bai (10,=
+ OR)</td><td>Benjamin Chen (11, GA)</td></tr>
+<tr class=3D"oddrow"><td>Swapnil Garg (8, CA)</td><td>Nikolay Grantcharov (=
+11, CA)</td></tr>
+<tr class=3D"evenrow"><td>Wilbur Li (10, TX)</td><td>Vivek Miglani (11, FL)=
+</td></tr>
+<tr class=3D"oddrow"><td>Kevin Sun (10, IL)</td><td>Vickie Wang (12, OH)</t=
+d></tr>
+<tr class=3D"evenrow"><td>Nicholas Wu (10, PA)</td><td>Jesse Zhang (0, CO)<=
+/td></tr>
+<tr class=3D"oddrow"><td>David Zhu (9, CA)</td><td>Joseph Zurier (11, RI)</=
+td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 1: 22</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Joe Buzzi (11, =
+IL)</td><td>Jordan Haack (11, MN)</td></tr>
+<tr class=3D"oddrow"><td>Yan (Bill) Huang (11, NJ)</td><td>Matthew Lipman (=
+9, MA)</td></tr>
+<tr class=3D"evenrow"><td>Max Murin (11, WA)</td><td>Calvin Qi (11, CA)</td=
+></tr>
+<tr class=3D"oddrow"><td>Andrew Salmon (12, AZ)</td><td>Mihir Singhal (8, C=
+A)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 1: 21</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Bryce Cai (10, =
+IL)</td><td>Alicia Guo (8, TX)</td></tr>
+<tr class=3D"oddrow"><td>Meghal Gupta (0, CA)</td><td>Tara Liu (10, NJ)</td=
+></tr>
+<tr class=3D"evenrow"><td>Vikram Sundar (12, CA)</td><td>Michael Tong (12, =
+NY)</td></tr>
+<tr class=3D"oddrow"><td>Girishvar Venkat (10, TX)</td></tr></tbody></table=
+><div class=3D"usamtsleaderssubheader">Round 1: 20</div><table class=3D"usa=
+mtsleaders"><tbody><tr class=3D"evenrow"><td>Joshua Benabou (11, NY)</td><t=
+d>Jackie Bredenberg (11, MI)</td></tr>
+<tr class=3D"oddrow"><td>Kartik Chandra (9, CA)</td><td>Victor Chen (10, CA=
+)</td></tr>
+<tr class=3D"evenrow"><td>Steve Guo (9, CA)</td><td>Cody Johnson (11, FL)</=
+td></tr>
+<tr class=3D"oddrow"><td>Matthew Larson (11, MO)</td><td>Walter Li (11, IN)=
+</td></tr>
+<tr class=3D"evenrow"><td>Shyam Narayanan (11, KS)</td><td>Samuel Reinehr (=
+11, CA)</td></tr>
+<tr class=3D"oddrow"><td>Jason Shi (11, NJ)</td><td>Eric Xu (11, CA)</td></=
+tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 1: 19</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Gerry Chen (11,=
+ PA)</td><td>Preetham Gujjula (11, CA)</td></tr>
+<tr class=3D"oddrow"><td>Sam Heil (10, MO)</td><td>Cary Huang (11, CA)</td>=
+</tr>
+<tr class=3D"evenrow"><td>Alexander Katz (11, NJ)</td><td>Alec Leng (9, OR)=
+</td></tr>
+<tr class=3D"oddrow"><td>Benjamin Schiffer (10, IL)</td><td>Tim Sudijono (1=
+1, NY)</td></tr>
+<tr class=3D"evenrow"><td>Brian Xie (10, CA)</td></tr></tbody></table><div =
+class=3D"usamtsleaderssubheader">Round 1: 18</div><table class=3D"usamtslea=
+ders"><tbody><tr class=3D"evenrow"><td>Kapil Chandran (10, CT)</td><td>Part=
+h Kumar (10, GA)</td></tr>
+<tr class=3D"oddrow"><td>Pranav Lalgudi (9, CA)</td><td>Junha Park (11, OR)=
+</td></tr>
+<tr class=3D"evenrow"><td>Tristan Pollner (10, CA)</td><td>George  Spahn (1=
+1, ME)</td></tr>
+<tr class=3D"oddrow"><td>John Michael Wu (9, MA)</td></tr></tbody></table><=
+div class=3D"usamtsleaderssubheader">Round 1: 17</div><table class=3D"usamt=
+sleaders"><tbody><tr class=3D"evenrow"><td>Anton Maliev (11, NJ)</td><td>Mi=
+tchell Roberts (11, MD)</td></tr>
+<tr class=3D"oddrow"><td>Aryeh Zax (12, NY)</td><td>Rachel Zhang (10, MO)</=
+td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 1: 16</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Shyan Akmal (11=
+, OR)</td><td>Sierra Chapman (11, CA)</td></tr>
+<tr class=3D"oddrow"><td>Anna Ellison (11, MA)</td><td>Patrick Girardet (12=
+, TX)</td></tr>
+<tr class=3D"evenrow"><td>Jeffrey Huang (9, TX)</td><td>Brian Liu (8, TX)</=
+td></tr>
+<tr class=3D"oddrow"><td>Brian Reinhart (8, FL)</td><td>Daniel Wang (10, TX=
+)</td></tr>
+<tr class=3D"evenrow"><td>William Wang (10, NY)</td><td>Alexander Wei (10, =
+NY)</td></tr>
+<tr class=3D"oddrow"><td>Casey Xing (11, WA)</td><td>Christopher Zhang (12,=
+ NJ)</td></tr>
+<tr class=3D"evenrow"><td>Kai  Zhao (11, TN)</td><td>Wanqi Zhu (9, IL)</td>=
+</tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 1: 15</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>William Dong (1=
+0, NY)</td><td>Shreyan Jain (10, CA)</td></tr>
+<tr class=3D"oddrow"><td>Bob Krueger (11, OH)</td><td>Philip Lamkin (9, MA)=
+</td></tr>
+<tr class=3D"evenrow"><td>Seung Yun Lee (8, VA)</td><td>Anshul Ramachandran=
+ (12, CA)</td></tr>
+<tr class=3D"oddrow"><td>Bovey Rao (11, UT)</td><td>Kimberly Ruth (11, WA)<=
+/td></tr>
+<tr class=3D"evenrow"><td>Maya Sankar (9, CA)</td><td>Timothy Su (11, CA)</=
+td></tr>
+<tr class=3D"oddrow"><td>Daniel Sun (8, California)</td><td>Michael Tang (9=
+, MN)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 1: 14</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Jamin Chen (10,=
+ CA)</td><td>Sanath Devalapurkar (8, CA)</td></tr>
+<tr class=3D"oddrow"><td>Theodore Faust (10, VA)</td><td>Alexander Gorden (=
+11, TX)</td></tr>
+<tr class=3D"evenrow"><td>Andrew Gu (8, PA)</td><td>Alexander Jiang (11, TX=
+)</td></tr>
+<tr class=3D"oddrow"><td>Akshaj Kadaveru (8, VA)</td><td>Frank Lin (11, NY)=
+</td></tr>
+<tr class=3D"evenrow"><td>Jin Lu (11, AL)</td><td>Nancy Lu (10, PA)</td></t=
+r>
+<tr class=3D"oddrow"><td>John Maienne Mangalili (11, MA)</td><td>Matthew Pr=
+ashker (10, NJ)</td></tr>
+<tr class=3D"evenrow"><td>Gili Rusak (11, NY)</td><td>Ryan Soedjak (9, MO)<=
+/td></tr>
+<tr class=3D"oddrow"><td>Colin Tang (7, WA)</td><td>Matthew Torrance (11, G=
+A)</td></tr>
+<tr class=3D"evenrow"><td>Sung Hyun Yoo (8, NJ)</td></tr></tbody></table><d=
+iv class=3D"usamtsscoreheader"><a name=3D"rd2"></a>Round 2</div><div class=
+=3D"usamtsleaderssubheader">Round 2: 25</div><table class=3D"usamtsleaders"=
+><tbody><tr class=3D"evenrow"><td>Zachary Bogorad (11, OH)</td><td>Andy Che=
+n (11, NM)</td></tr>
+<tr class=3D"oddrow"><td>Jacob Gurev (10, CA)</td><td>Matthew Hase-Liu (9, =
+CA)</td></tr>
+<tr class=3D"evenrow"><td>Sam Heil (10, MO)</td><td>Lazar Ilic (10, TX)</td=
+></tr>
+<tr class=3D"oddrow"><td>Jessica  Li (11, NJ)</td><td>Wilbur Li (10, TX)</t=
+d></tr>
+<tr class=3D"evenrow"><td>Eric Neyman (11, MD)</td><td>Tahsin Saffat (11, O=
+R)</td></tr>
+<tr class=3D"oddrow"><td>Ashwin Sah (9, OR)</td><td>Benjamin Schiffer (10, =
+IL)</td></tr>
+<tr class=3D"evenrow"><td>Mihir Singhal (8, CA)</td><td>Nathan Soedjak (9, =
+MO)</td></tr>
+<tr class=3D"oddrow"><td>Ryan Soedjak (9, MO)</td><td>David Stoner (11, SC)=
+</td></tr>
+<tr class=3D"evenrow"><td>Timur Vural (11, CA)</td><td>Kada Williams (9, VA=
+)</td></tr>
+<tr class=3D"oddrow"><td>Nicholas Wu (10, PA)</td><td>William Xiao (12, NY)=
+</td></tr>
+<tr class=3D"evenrow"><td>Larry Yang (11, CA)</td><td>Joseph Zurier (11, RI=
+)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 2: 24</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Chau Bui (11, A=
+Z)</td><td>Joe Buzzi (11, IL)</td></tr>
+<tr class=3D"oddrow"><td>Gerry Chen (11, PA)</td><td>Swapnil Garg (8, CA)</=
+td></tr>
+<tr class=3D"evenrow"><td>Patrick Hiatt (12, IA)</td><td>Yan (Bill) Huang (=
+11, NJ)</td></tr>
+<tr class=3D"oddrow"><td>Sanat Mulay (11, TN)</td><td>Shyam Narayanan (11, =
+KS)</td></tr>
+<tr class=3D"evenrow"><td>Saranesh Prembabu (11, CA)</td><td>Christopher Sh=
+ao (11, NJ)</td></tr>
+<tr class=3D"oddrow"><td>Thomas Zhang (11, MN)</td></tr></tbody></table><di=
+v class=3D"usamtsleaderssubheader">Round 2: 23</div><table class=3D"usamtsl=
+eaders"><tbody><tr class=3D"evenrow"><td>Jackie Bredenberg (11, MI)</td><td=
+>Nikolay Grantcharov (11, CA)</td></tr>
+<tr class=3D"oddrow"><td>Pranav Lalgudi (9, CA)</td><td>Bovey Rao (11, UT)<=
+/td></tr>
+<tr class=3D"evenrow"><td>Vikram Sundar (12, CA)</td><td>Wanqi Zhu (9, IL)<=
+/td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 2: 22</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Andrew Gu (8, P=
+A)</td><td>Christoph Kinzel (12, KS)</td></tr>
+<tr class=3D"oddrow"><td>Yang Liu (11, MO)</td><td>Eshaan Nichani (10, CA)<=
+/td></tr>
+<tr class=3D"evenrow"><td>Allison Paul (10, RI)</td><td>Jason Shi (11, NJ)<=
+/td></tr>
+<tr class=3D"oddrow"><td>Tim Sudijono (11, NY)</td><td>Byron Xu (9, TX)</td=
+></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 2: 21</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Andrew Bai (10,=
+ OR)</td><td>Owen Goff (12, WA)</td></tr>
+<tr class=3D"oddrow"><td>Alex Gu (8, IN)</td><td>Allen Liu (10, NY)</td></t=
+r>
+<tr class=3D"evenrow"><td>Vivek Miglani (11, FL)</td><td>Alexander Wei (10,=
+ NY)</td></tr>
+<tr class=3D"oddrow"><td>John Michael Wu (9, MA)</td></tr></tbody></table><=
+div class=3D"usamtsleaderssubheader">Round 2: 20</div><table class=3D"usamt=
+sleaders"><tbody><tr class=3D"evenrow"><td>Kartik Chandra (9, CA)</td><td>J=
+amin Chen (10, CA)</td></tr>
+<tr class=3D"oddrow"><td>Steve Guo (9, CA)</td><td>Meghal Gupta (0, CA)</td=
+></tr>
+<tr class=3D"evenrow"><td>Christine Jou (10, TX)</td><td>Alexander Katz (11=
+, NJ)</td></tr>
+<tr class=3D"oddrow"><td>Jeffery Li (7, CA)</td><td>Michael Tong (12, NY)</=
+td></tr>
+<tr class=3D"evenrow"><td>Rachel Zhang (10, MO)</td><td>Tony Zhang (11, CA)=
+</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 2: 19</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Mikhail Gromov =
+(6, IL)</td><td>Alicia Guo (8, TX)</td></tr>
+<tr class=3D"oddrow"><td>Sonia Kim (9, CA)</td><td>Bob Krueger (11, OH)</td=
+></tr>
+<tr class=3D"evenrow"><td>Tara Liu (10, NJ)</td><td>William  Paul (12, CA)<=
+/td></tr>
+<tr class=3D"oddrow"><td>Kimberly Ruth (11, WA)</td></tr></tbody></table><d=
+iv class=3D"usamtsleaderssubheader">Round 2: 18</div><table class=3D"usamts=
+leaders"><tbody><tr class=3D"evenrow"><td>Kapil Chandran (10, CT)</td><td>L=
+ucy Jiang (11, CT)</td></tr>
+<tr class=3D"oddrow"><td>Luke Kiernan (10, WI)</td><td>Thomas Kim (11, CA)<=
+/td></tr>
+<tr class=3D"evenrow"><td>Parth Kumar (10, GA)</td><td>Michael Tang (9, MN)=
+</td></tr>
+<tr class=3D"oddrow"><td>Eric Xu (11, CA)</td><td>Sung Hyun Yoo (8, NJ)</td=
+></tr>
+<tr class=3D"evenrow"><td>David Zhu (9, CA)</td></tr></tbody></table><div c=
+lass=3D"usamtsleaderssubheader">Round 2: 17</div><table class=3D"usamtslead=
+ers"><tbody><tr class=3D"evenrow"><td>Bryce Cai (10, IL)</td><td>Austin Kan=
+g (10, CA)</td></tr>
+<tr class=3D"oddrow"><td>Shwetark Patel (8, VA)</td><td>Sarvasva Raghuvansh=
+i (10, IL)</td></tr>
+<tr class=3D"evenrow"><td>William Wang (10, NY)</td><td>Steven Yang (11, FL=
+)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 2: 16</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Edward Athaide =
+(8, TX)</td><td>Scott Becker (8, VA)</td></tr>
+<tr class=3D"oddrow"><td>Sameer Lal (10, PA)</td><td>Matthew Lipman (9, MA)=
+</td></tr>
+<tr class=3D"evenrow"><td>Justin Luo (12, NC)</td><td>Nicholas McConnell (9=
+, NJ)</td></tr>
+<tr class=3D"oddrow"><td>Daniel Wang (10, TX)</td></tr></tbody></table><div=
+ class=3D"usamtsleaderssubheader">Round 2: 15</div><table class=3D"usamtsle=
+aders"><tbody><tr class=3D"evenrow"><td>Angela Deng (9, NC)</td><td>Kaan Do=
+kmeci (8, CT)</td></tr>
+<tr class=3D"oddrow"><td>William Dong (10, NY)</td><td>Jordan Haack (11, MN=
+)</td></tr>
+<tr class=3D"evenrow"><td>Jeffrey Huang (9, TX)</td><td>Misha Ivkov (9, CA)=
+</td></tr>
+<tr class=3D"oddrow"><td>Alexander Jiang (11, TX)</td><td>Cody Johnson (11,=
+ FL)</td></tr>
+<tr class=3D"evenrow"><td>Philip Lamkin (9, MA)</td><td>Kathy Lee (7, CA)</=
+td></tr>
+<tr class=3D"oddrow"><td>Kevin Li (11, NJ)</td><td>William Mitchell (11, AK=
+)</td></tr>
+<tr class=3D"evenrow"><td>Timothy Park (12, CA)</td><td>Michael Peng (9, GA=
+)</td></tr>
+<tr class=3D"oddrow"><td>Ethan Perez (12, TX)</td><td>Calvin Qi (11, CA)</t=
+d></tr>
+<tr class=3D"evenrow"><td>Kevin Qian (7, MD)</td><td>Tiancheng Qin (10, CA)=
+</td></tr>
+<tr class=3D"oddrow"><td>Andrew Ragonese (12, NY)</td><td>Anshul Ramachandr=
+an (12, CA)</td></tr>
+<tr class=3D"evenrow"><td>Brian Reinhart (8, FL)</td><td>George  Spahn (11,=
+ ME)</td></tr>
+<tr class=3D"oddrow"><td>Colin Tang (7, WA)</td><td>Vinjai Vale (8, NH)</td=
+></tr>
+<tr class=3D"evenrow"><td>Vickie Wang (12, OH)</td><td>Brian Xie (10, CA)</=
+td></tr>
+<tr class=3D"oddrow"><td>Jason  Zhang (9, TX)</td><td>Yue Zhang (10, KY)</t=
+d></tr>
+<tr class=3D"evenrow"><td>Taiji Zhou Tai (12, OH)</td></tr></tbody></table>=
+<div class=3D"usamtsleaderssubheader">Round 2: 14</div><table class=3D"usam=
+tsleaders"><tbody><tr class=3D"evenrow"><td>Lear Du (11, PA)</td><td>Mary G=
+iambrone (11, IL)</td></tr>
+<tr class=3D"oddrow"><td>Alec Leng (9, OR)</td><td>Walter Li (11, IN)</td><=
+/tr>
+<tr class=3D"evenrow"><td>Brian Liu (8, TX)</td><td>Nilai Sarda (9, GA)</td=
+></tr>
+</tbody></table><div class=3D"usamtsscoreheader"><a name=3D"rd3"></a>Round =
+3</div><div class=3D"usamtsleaderssubheader">Round 3: 25</div><table class=
+=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Jackie Bredenberg (11, =
+MI)</td><td>Chau Bui (11, AZ)</td></tr>
+<tr class=3D"oddrow"><td>Andy Chen (11, NM)</td><td>Swapnil Garg (8, CA)</t=
+d></tr>
+<tr class=3D"evenrow"><td>Nikolay Grantcharov (11, CA)</td><td>Jacob Gurev =
+(10, CA)</td></tr>
+<tr class=3D"oddrow"><td>Matthew Hase-Liu (9, CA)</td><td>Lazar Ilic (10, T=
+X)</td></tr>
+<tr class=3D"evenrow"><td>Alexander Katz (11, NJ)</td><td>Walter Li (11, IN=
+)</td></tr>
+<tr class=3D"oddrow"><td>Allen Liu (10, NY)</td><td>Vivek Miglani (11, FL)<=
+/td></tr>
+<tr class=3D"evenrow"><td>Eric Neyman (11, MD)</td><td>Calvin Qi (11, CA)</=
+td></tr>
+<tr class=3D"oddrow"><td>Ashwin Sah (9, OR)</td><td>Benjamin Schiffer (10, =
+IL)</td></tr>
+<tr class=3D"evenrow"><td>Christopher Shao (11, NJ)</td><td>Mihir Singhal (=
+8, CA)</td></tr>
+<tr class=3D"oddrow"><td>David Stoner (11, SC)</td><td>Timur Vural (11, CA)=
+</td></tr>
+<tr class=3D"evenrow"><td>Nicholas Wu (10, PA)</td><td>William Xiao (12, NY=
+)</td></tr>
+<tr class=3D"oddrow"><td>Byron Xu (9, TX)</td><td>Larry Yang (11, CA)</td><=
+/tr>
+<tr class=3D"evenrow"><td>Thomas Zhang (11, MN)</td><td>Joseph Zurier (11, =
+RI)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 3: 24</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Sam Heil (10, M=
+O)</td><td>Patrick Hiatt (12, IA)</td></tr>
+<tr class=3D"oddrow"><td>Yang Liu (11, MO)</td><td>Shyam Narayanan (11, KS)=
+</td></tr>
+<tr class=3D"evenrow"><td>Saranesh Prembabu (11, CA)</td><td>Kada Williams =
+(9, VA)</td></tr>
+<tr class=3D"oddrow"><td>Rachel Zhang (10, MO)</td><td>David Zhu (9, CA)</t=
+d></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 3: 23</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Andrew Bai (10,=
+ OR)</td><td>Zachary Bogorad (11, OH)</td></tr>
+<tr class=3D"oddrow"><td>Gerry Chen (11, PA)</td><td>Yan (Bill) Huang (11, =
+NJ)</td></tr>
+<tr class=3D"evenrow"><td>Wilbur Li (10, TX)</td><td>Sanat Mulay (11, TN)</=
+td></tr>
+<tr class=3D"oddrow"><td>Eshaan Nichani (10, CA)</td><td>Jason Shi (11, NJ)=
+</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 3: 22</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Jessica  Li (11=
+, NJ)</td><td>Nicholas McConnell (9, NJ)</td></tr>
+<tr class=3D"oddrow"><td>Sarvasva Raghuvanshi (10, IL)</td><td>Tahsin Saffa=
+t (11, OR)</td></tr>
+<tr class=3D"evenrow"><td>Nathan Soedjak (9, MO)</td><td>Vikram Sundar (12,=
+ CA)</td></tr>
+<tr class=3D"oddrow"><td>Wanqi Zhu (9, IL)</td></tr></tbody></table><div cl=
+ass=3D"usamtsleaderssubheader">Round 3: 21</div><table class=3D"usamtsleade=
+rs"><tbody><tr class=3D"evenrow"><td>Joe Buzzi (11, IL)</td><td>Kartik Chan=
+dra (9, CA)</td></tr>
+<tr class=3D"oddrow"><td>Tony Zhang (11, CA)</td></tr></tbody></table><div =
+class=3D"usamtsleaderssubheader">Round 3: 20</div><table class=3D"usamtslea=
+ders"><tbody><tr class=3D"evenrow"><td>Cody Johnson (11, FL)</td><td>Alec L=
+eng (9, OR)</td></tr>
+<tr class=3D"oddrow"><td>Nancy Lu (10, PA)</td><td>Anton Maliev (11, NJ)</t=
+d></tr>
+<tr class=3D"evenrow"><td>Ryan Soedjak (9, MO)</td><td>Kaida Tong (9, NJ)</=
+td></tr>
+<tr class=3D"oddrow"><td>Vickie Wang (12, OH)</td><td>Alexander Wei (10, NY=
+)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 3: 19</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Angela Deng (9,=
+ NC)</td><td>Owen Goff (12, WA)</td></tr>
+<tr class=3D"oddrow"><td>Steve Guo (9, CA)</td><td>Jordan Haack (11, MN)</t=
+d></tr>
+<tr class=3D"evenrow"><td>Jeffrey Huang (9, TX)</td><td>Alexander Jiang (11=
+, TX)</td></tr>
+<tr class=3D"oddrow"><td>Parth Kumar (10, GA)</td><td>Pranav Lalgudi (9, CA=
+)</td></tr>
+<tr class=3D"evenrow"><td>Yelim Lee (9, PA)</td><td>John Michael Wu (9, MA)=
+</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 3: 18</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Bryce Cai (10, =
+IL)</td><td>Mary Giambrone (11, IL)</td></tr>
+<tr class=3D"oddrow"><td>Alex Gu (8, IN)</td><td>Christine Jou (10, TX)</td=
+></tr>
+<tr class=3D"evenrow"><td>Philip Lamkin (9, MA)</td><td>Michael Tang (9, MN=
+)</td></tr>
+<tr class=3D"oddrow"><td>Vinjai Vale (8, NH)</td><td>William Wang (10, NY)<=
+/td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 3: 17</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Scott Becker (8=
+, VA)</td><td>Alicia Guo (8, TX)</td></tr>
+<tr class=3D"oddrow"><td>Jeffery Li (7, CA)</td><td>Brian Liu (8, TX)</td><=
+/tr>
+<tr class=3D"evenrow"><td>Tara Liu (10, NJ)</td><td>Jin Lu (11, AL)</td></t=
+r>
+<tr class=3D"oddrow"><td>Junha Park (11, OR)</td><td>Bovey Rao (11, UT)</td=
+></tr>
+<tr class=3D"evenrow"><td>Kimberly Ruth (11, WA)</td><td>Aaditya  Singh (7,=
+ VA)</td></tr>
+<tr class=3D"oddrow"><td>Tim Sudijono (11, NY)</td><td>Eric Xu (11, CA)</td=
+></tr>
+<tr class=3D"evenrow"><td>Steven Yang (11, FL)</td><td>Christopher Zhang (1=
+2, NJ)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 3: 16</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Sichen (Shawn) =
+Chao (9, MS)</td><td>Jamin Chen (10, CA)</td></tr>
+<tr class=3D"oddrow"><td>Lear Du (11, PA)</td><td>Mikhail Gromov (6, IL)</t=
+d></tr>
+<tr class=3D"evenrow"><td>Deepankar Gupta (10, IL)</td><td>Lucy Jiang (11, =
+CT)</td></tr>
+<tr class=3D"oddrow"><td>Bob Krueger (11, OH)</td><td>Huangying Kuang (11, =
+CT)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 3: 15</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Kaan Dokmeci (8=
+, CT)</td><td>Agustin Garcia (9, IN)</td></tr>
+<tr class=3D"oddrow"><td>Michael Isakov (8, MA)</td><td>Shreyan Jain (10, C=
+A)</td></tr>
+<tr class=3D"evenrow"><td>Matthew Larson (11, MO)</td><td>Tiancheng Qin (10=
+, CA)</td></tr>
+<tr class=3D"oddrow"><td>Anshul Ramachandran (12, CA)</td><td>Cindy Ren (9,=
+ TX)</td></tr>
+<tr class=3D"evenrow"><td>Colin Tang (7, WA)</td><td>Michael Tong (12, NY)<=
+/td></tr>
+<tr class=3D"oddrow"><td>Brian Xie (10, CA)</td><td>Casey Xing (11, WA)</td=
+></tr>
+<tr class=3D"evenrow"><td>Sung Hyun Yoo (8, NJ)</td></tr></tbody></table><d=
+iv class=3D"usamtsleaderssubheader">Round 3: 14</div><table class=3D"usamts=
+leaders"><tbody><tr class=3D"evenrow"><td>Theodore Faust (10, VA)</td><td>A=
+ndrew Gu (8, PA)</td></tr>
+<tr class=3D"oddrow"><td>Sameer Lal (10, PA)</td><td>Allison Paul (10, RI)<=
+/td></tr>
+<tr class=3D"evenrow"><td>Andreas Ravichandran  (11, VA)</td><td>Daniel Sun=
+ (8, California)</td></tr>
+</tbody></table><div class=3D"usamtsleaderssubheader">Round 3: 13</div><tab=
+le class=3D"usamtsleaders"><tbody><tr class=3D"evenrow"><td>Victor Chen (10=
+, CA)</td><td>Tommy Colen (10, NJ)</td></tr>
+<tr class=3D"oddrow"><td>William Dong (10, NY)</td><td>Thomas Kim (11, CA)<=
+/td></tr>
+<tr class=3D"evenrow"><td>Shwetark Patel (8, VA)</td><td>William  Paul (12,=
+ CA)</td></tr>
+<tr class=3D"oddrow"><td>Ethan Perez (12, TX)</td><td>Ahaan Rungta (10, MA)=
+</td></tr>
+<tr class=3D"evenrow"><td>Charlie Tian (11, CA)</td></tr></tbody></table>
+                 =20
+</div></div>
+
+<!-- left side bar-->
+<!-- must appear AFTER body-->
+<div class=3D"usamtsleft">
+	<ul class=3D"usamtsleftbar" id=3D"aopsleftbar">
+=09
+					<li><a href=3D"https://usamts.org/Login/U_Login.php">Login</a></li>
+			<li><a href=3D"https://usamts.org/Register/U_Register.php">Register</a><=
+/li>
+			=09
+		<li><a href=3D"https://usamts.org/About/U_AbOverview.php">About</a></li>
+		<li><a href=3D"https://usamts.org/Problems/U_Problems.php">Problems</a></=
+li>
+		<li><a href=3D"https://usamts.org/Leaders/U_Leaders.php">Leaderboard</a><=
+/li>
+		<li><a href=3D"https://usamts.org/Rules/U_Rules.php">Rules</a></li>
+		<li><a href=3D"https://usamts.org/Forms/U_Forms.php">Forms</a></li>
+		<li><a href=3D"https://usamts.org/TipsFAQ/U_Tips.php">Tips/FAQ</a></li>
+		<li><a href=3D"https://usamts.org/About/U_Sponsors.php">Sponsors</a></li>
+		<li><a href=3D"https://usamts.org/MailingList/U_MailingList.php">Mailing =
+List</a></li>
+	=09
+	=09
+	=09
+	</ul>
+
+		<div class=3D"usamtsflashmovie">
+<!-- changed by DP 6/30/06 to XHTML standards
+		<object class=3D'flashmovie' classid=3D"clsid:D27CDB6E-AE6D-11cf-96B8-444=
+553540000" codebase=3D"http://download.macromedia.com/pub/shockwave/cabs/fl=
+ash/swflash.cab#version=3D6,0,0,0" width=3D"110" height=3D"150" hspace=3D"0=
+" vspace=3D"0">
+-->
+		<object class=3D"flashmovie" type=3D"application/x-shockwave-flash" data=
+=3D"https://usamts.org/Images/Flash/Side3.swf" width=3D"110" height=3D"150"=
+>
+		<param name=3D"movie" value=3D"https://usamts.org/Images/Flash/Side3.swf"=
+>
+		<param name=3D"quality" value=3D"high">
+        <param name=3D"bgcolor" value=3D"#91A5BD">
+<!-- deprecated
+   		<embed src=3D"/Images/Flash/Side3.swf"  width=3D"110" height=3D"150" h=
+space=3D"0" vspace=3D"0" align=3D"" quality=3D'high' bgcolor=3D'#91A5BD' ty=
+pe=3D"application/x-shockwave-flash" pluginspage=3D"http://www.macromedia.c=
+om/go/getflashplayer" />
+-->
+        </object>
+	</div>
+=09
+</div>
+
+</div>
+<!-- end body -->
+ =20
+<!-- end mainpage -->
+
+<!-- nearbottom with copyright/site map stuff -->
+
+<div class=3D"usamtsnearbottom">
+	<div class=3D"usamtsnbleft"><img src=3D"https://usamts.org/Images/PageBord=
+ers/TemLBot.jpg"></div>
+	<div class=3D"usamtsnbright">
+		=C2=A9 Copyright 2022 <a href=3D"http://www.artofproblemsolving.org/">Art=
+ of Problem Solving Initiative</a>.  All Rights Reserved.
+		=E2=80=A2 <a href=3D"https://usamts.org/Privacy/U_Privacy.php">Privacy</a=
+>
+		=E2=80=A2 <a href=3D"https://usamts.org/About/U_Contact.php">Contact Us</=
+a>
+	 </div>
+</div>
+
+<!-- bottom bar -->
+
+<div class=3D"usamtsbottom">
+	<div class=3D"usamtsbottomleft"><img src=3D"https://usamts.org/Images/Page=
+Borders/TemBotL.jpg"></div>
+<!--	<div class=3D'usamtsbottomright'><img src=3D'/Images/PageBorders/TemBo=
+tEnd.jpg' /></div>-->
+</div>
+
+
+
+
+
+</body></html>
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://nlgphodeccebbcnkgmokeegopgpnjfkc/data/content_script/general/dark_1.css
+
+@charset "utf-8";
+
+:root { --bg-color: rgb(15, 15, 15); --text-color: rgb(183, 183, 183); --a-=
+color: rgb(27, 109, 168); --a-visited-color: rgb(165, 99, 13); --a-hover-co=
+lor: #acc; --input-border-color: rgba(211, 211, 211, 0.2); --input-placehol=
+der-color: rgb(103, 103, 103); --dialog-bg-color: rgba(36, 36, 36, 0.95); -=
+-bg-image: linear-gradient(rgb(15, 15, 15), rgb(15, 15, 15)); --header-colo=
+r: #00b786; }
+
+::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-button,=
+ div::-webkit-scrollbar { width: 8px !important; height: 5px !important; ba=
+ckground-color: var(--bg-color)  !important; border: none !important; }
+
+::-webkit-scrollbar-thumb { background: var(--input-border-color)  !importa=
+nt; border: none !important; }
+
+::-webkit-scrollbar-button { display: none !important; }
+
+html, body { background-position-x:  !important; background-position-y:  !i=
+mportant; background-size:  !important; background-repeat-x:  !important; b=
+ackground-repeat-y:  !important; background-attachment:  !important; backgr=
+ound-origin:  !important; background-clip:  !important; background-image: v=
+ar(--bg-image)  !important; background-color: var(--bg-color)  !important; =
+}
+
+img { background-color: transparent !important; }
+
+html, body, body :not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not([class=
+*=3D"title"]):not([id*=3D"title"]) { color: var(--text-color)  !important; =
+}
+
+h1, h2, h3, h4, h5, [class*=3D"title"], [id*=3D"title"] { color: var(--head=
+er-color)  !important; }
+
+* { box-shadow: none !important; }
+
+html :not(body):not(span):not(a):not([style*=3D"background-image"]):not([st=
+yle*=3D"background-color"]):not([style*=3D"url"]):not(figure):not(svg):not(=
+img):not([class*=3D"dialog"]):not([id*=3D"dialog"]):not([class*=3D"Dialog"]=
+):not([id*=3D"Dialog"]):not([role*=3D"dialog"]):not([class*=3D"sub-items"])=
+:not([class=3D"sbsb_b"]):not(input):not(select):not(textarea):not(option):n=
+ot([style*=3D"background-position"]):not([class*=3D"menu"]):not([class*=3D"=
+logo"]):not([class*=3D"Menu"]):not([class*=3D"Header"]):not([class*=3D"head=
+er"]):not([role*=3D"menuitem"]):not([aria-labelledby*=3D"menu"]):not([class=
+*=3D"msg-overlay"]):not([class*=3D"dropdown-options"]):not([class*=3D"rsdc-=
+dual-month"]):not([class*=3D"popup"]):not([class*=3D"bui-calendar__content"=
+]):not([class*=3D"tooltip"]):not(header):not([class*=3D"playControls__contr=
+ol"]):not([class*=3D"playControls__elements"]):not([class=3D"now-playing-ba=
+r-container"]):not([class*=3D"flowtip-flyout-modal"]):not([data-tl-id=3D"Fe=
+aturedTopNav-FeaturedTopNavFlyout"]):not([for*=3D"variant-swatcher-item-"])=
+:not([class*=3D"masthead"]):not([class*=3D"fbDockChatTabFlyout"]):not([role=
+=3D"banner"]):not([class*=3D"Footer_graphikFont_2aDKW"]):not([class=3D"css-=
+kp204g"]):not([class=3D"nova-c-dropdown__body"]):not([class*=3D"nova-c-card=
+__body"]):not([class*=3D"StoreNavDropdown--fullWidthLifestyleImgs"]):not(dd=
+):not([class*=3D"jfk-radiobutton-radio"]):not([class*=3D"jfk-checkbox-check=
+mark"]):not([class*=3D"nova-c-modal__body"]):not([class*=3D"repeatControl"]=
+):not([class*=3D"playbackTimeline__progressBackground"]):not([class*=3D"pla=
+ybackTimeline__progressBar"]):not([class=3D"trb_nh_un_ulw"]):not([class=3D"=
+trb_nh_uw"]):not([class=3D"trb_nh_lw"]):not([class=3D"trb_nh_sf"]):not([cla=
+ss=3D"uc-corpNav-flyout"]):not([class*=3D"js_global-nav-wrap"]):not([class=
+=3D"container__3tWa1zW_F3ZU29BQPEWw9Q"]):not([class*=3D"ms-bg-color-white"]=
+):not([class=3D"h-c-header__bar"]):not([class=3D"h-c-header__nested-nav-lis=
+t"]):not([class=3D"glue-c-zippy__content-container"]):not([class=3D"fixed-t=
+abs"]):not([class*=3D"nova-c-modal__footer--spacing-inherit"]):not([class*=
+=3D"bigsearch-area"]):not([id=3D"hplogo"]):not([class*=3D"user-form-overlay=
+"]):not([class*=3D"modal-overlay"]):not([class*=3D"rapid-nonanchor-lt"]):no=
+t([class*=3D"JPdR6b"]):not([class*=3D"wds-dropdown-level-2__content"]):not(=
+[class*=3D"wds-dropdown__content"]):not([class*=3D"wds-global-navigation"])=
+:not([class*=3D"wds-global-navigation-wrapper"]):not(artdeco-typeahead-depr=
+ecated-results-container):not([class*=3D"dropdownMenu"]):not([class*=3D"sea=
+rch-result"]):not([class*=3D"dropdown"]):not([class*=3D"Dropdown"]):not([ro=
+le=3D"navigation"]):not([class=3D"clearfix"]):not([class*=3D"navigation"]):=
+not([class*=3D"Navigation"]):not([class*=3D"cookie"]):not([class*=3D"fixed"=
+]):not([class*=3D"drop-"]):not([class=3D"variant-swatch"]):not([class=3D"le=
+vel-one-list"]):not([class*=3D"sc-hd-ms-panel"]):not([class*=3D"sc-hd-ms-ho=
+ver"]):not([class*=3D"sc-hd-panel"]):not([class*=3D"sc-hd-ms-full-ver"]):no=
+t([class*=3D"networknav__hovernav-wrapper"]):not([class=3D"icbu-simple-shop=
+ping-cart-panel"]):not([class*=3D"_icon"]):not([class*=3D"hamburger__bar"])=
+:not([class*=3D"j-select-opts"]):not([class*=3D"J-search-suggest"]):not([cl=
+ass=3D"aside-floating"]):not([class*=3D"floating-account"]):not([class=3D"f=
+loating-w"]):not([class=3D"desktop-categoryContainer"]):not([class=3D"deskt=
+op-userActions"]):not([class*=3D"gws-flights-widgets-"]):not([class*=3D"Rea=
+ctModal__Content--after-open"]):not([class=3D"nav-background-static"]):not(=
+[role=3D"img"]):not([class*=3D"planGrid__planLabel"]):not([class*=3D"nf-loa=
+ding-spinner"]):not([class=3D"aajZCb"]):not([class=3D"sitemap screen-only"]=
+) { border-color: rgba(255, 255, 255, 0.1) !important; outline: none !impor=
+tant; box-shadow: none !important; background: none rgba(0, 0, 0, 0) !impor=
+tant; }
+
+span[class=3D"jfk-radiobutton-radio"]::after { background-color: gray !impo=
+rtant; }
+
+[style*=3D"background-color"] { background-color: var(--bg-color)  !importa=
+nt; }
+
+svg { fill: var(--text-color)  !important; }
+
+html [class*=3D"menu"]:not([class*=3D"primary-menu"]):not([class*=3D"dropdo=
+wnMenu"]) { color: var(--text-color)  !important; border-color: rgba(255, 2=
+55, 255, 0.1) !important; box-shadow: none !important; background-image: no=
+ne !important; }
+
+html * [class*=3D"header"], html [class*=3D"menu"]:not([class*=3D"modal-bac=
+kdrop"]), html [class*=3D"Menu"], html [class*=3D"search-result"], html [cl=
+ass*=3D"dropdown"], html [class*=3D"Dropdown"], html [role=3D"navigation"],=
+ html [class=3D"clearfix"], html [class*=3D"navigation"]:not([class*=3D"mod=
+al-backdrop"]), html [class*=3D"Navigation"], html [class*=3D"cookie"], htm=
+l [class*=3D"fixed"], html [class*=3D"drop-"] { background-color: var(--bg-=
+color)  !important; }
+
+.star.display-inline-block { filter: invert(70%) sepia(100%) saturate(200%)=
+; }
+
+html span:not([class*=3D"ms-fwt-r"]):not([class*=3D"jfk-radiobutton-radio"]=
+):not([class*=3D"jfk-checkbox-checkmark"]):not([class*=3D"_icon"]):not([cla=
+ss*=3D"hamburger__bar"]):not([class*=3D"Button"]):not([class*=3D"button"]):=
+not([class*=3D"planGrid__selectorLabel"]):not([class*=3D"planGrid__planLabe=
+l"]):not([class*=3D"nf-loading-spinner"]) { color: var(--text-color)  !impo=
+rtant; border-color: rgba(255, 255, 255, 0.1) !important; outline: none !im=
+portant; box-shadow: none !important; background-color: rgba(0, 0, 0, 0) !i=
+mportant; }
+
+span[class*=3D"Button"], span[class*=3D"button"] { background-color: var(--=
+dialog-bg-color)  !important; }
+
+html span[class~=3D"logo"], html span[class~=3D"img"], html a[class~=3D"log=
+o"], html div[class~=3D"logo"] { background: none !important; }
+
+[class*=3D"logo"] { background-color: transparent !important; }
+
+a:not([class*=3D"ResponsiveHeader-logo"]) { color: var(--a-color)  !importa=
+nt; border-color: rgba(255, 255, 255, 0.1) !important; outline: none !impor=
+tant; box-shadow: none !important; background-color: rgba(0, 0, 0, 0) !impo=
+rtant; }
+
+section[class*=3D"section"], div[class*=3D"section"]:not([class*=3D"section=
+-popular-image"]), section[class], section[id], section { background: none =
+rgba(0, 0, 0, 0) !important; }
+
+div::before, div::after, section::before, section::after, li::before, li::a=
+fter, header::before, header::after, span:not([class*=3D"_icon"])::before, =
+span:not([class*=3D"_icon"])::after, article::before, article::after, a:not=
+([class*=3D"sc-button-play"])::after, a:not([class*=3D"sc-button-play"])::b=
+efore, ul::before, ul::after { background: none rgba(0, 0, 0, 0) !important=
+; border-color: rgba(255, 255, 255, 0.1) !important; }
+
+li:not([class*=3D"menu"]):not([id*=3D"menu"]):hover { background-color: var=
+(--bg-color)  !important; }
+
+a, a:link, a.fl, a.fl:link, .departments-facet-desktop .dept-head-list-head=
+ing a, .departments-facet-desktop .dept-head-list-heading a:link, a *, a:li=
+nk * { color: var(--a-color)  !important; }
+
+* a:visited, * a.fl:visited, a:visited, a:visited * { color: var(--a-visite=
+d-color)  !important; }
+
+a:hover, a.fl:hover, a :hover { }
+
+h4 a { color: var(--header-color)  !important; }
+
+ul[class*=3D"menu"], li[class*=3D"menu"], div[class*=3D"menu-"]:not([class=
+=3D"material-menu-backdrop"]):not([class*=3D"modal-backdrop"]), a[class*=3D=
+"menu"], a[id*=3D"menu"], a[class*=3D"Menu"], div[class*=3D"Menu"], ul[clas=
+s*=3D"sub-items"], div[class*=3D"Header"]:not([class=3D"HeaderedGrid__heade=
+r"]):not([data-tl-id=3D"categorypage-CuratedCategoryCarousel-ModuleHeader"]=
+):not([class*=3D"HomeSlideHeader_"]):not([class*=3D"HeaderTitle_headerTitle=
+"]):not([class*=3D"Header_logoProviderWrapper"]), [role*=3D"menuitem"], div=
+[aria-labelledby*=3D"menu"], ul[class*=3D"dropdown-options"], [role=3D"dial=
+og"], [class*=3D"popup"], div[class*=3D"bui-calendar__content"], div[class*=
+=3D"tooltip"], header, button[class*=3D"playControls__control"], footer.now=
+-playing-bar-container, div.fbDockChatTabFlyout, div[role=3D"banner"], div.=
+nova-c-dropdown__body, div.nova-c-card__body, [class*=3D"StoreNavDropdown--=
+fullWidthLifestyleImgs"] { background-color: var(--bg-color)  !important; }
+
+header { background: var(--bg-color)  !important; }
+
+#J_popCtn, dl dd { background-color: var(--dialog-bg-color)  !important; }
+
+header, nav::before, nav::after { border-color: rgba(255, 255, 255, 0.1) !i=
+mportant; }
+
+[class*=3D"masthead"]:not([class*=3D"c-masthead__"]), #nav__plain-header { =
+background-color: var(--bg-color)  !important; border-color: rgba(255, 255,=
+ 255, 0.1) !important; }
+
+input::placeholder, textarea::placeholder { color: var(--input-placeholder-=
+color)  !important; }
+
+div[class*=3D"dialog"], div[id*=3D"dialog"], div[role*=3D"dialog"] { backgr=
+ound: var(--dialog-bg-color)  !important; }
+
+div[class*=3D"Dialog"], div[id*=3D"Dialog"] { background: var(--bg-color)  =
+!important; }
+
+[class*=3D"msg-overlay"] { background-color: var(--dialog-bg-color)  !impor=
+tant; }
+
+input, select, textarea, #CountryUrlChooser { border: 0.5px solid var(--inp=
+ut-border-color)  !important; background-image: none !important; background=
+-position: initial !important; background-size: initial !important; backgro=
+und-repeat: initial !important; background-attachment: initial !important; =
+background-origin: initial !important; background-clip: initial !important;=
+ color: var(--text-color)  !important; background-color: var(--dialog-bg-co=
+lor)  !important; }
+
+select option { color: var(--text-color)  !important; background-color: var=
+(--dialog-bg-color)  !important; border: 1px solid var(--input-border-color=
+)  !important; }
+
+div[role=3D"button"].goog-inline-block, div#gt-sl-gms, div#gt-tl-gms { back=
+ground-image: none !important; }
+
+div#gt-sl-gms, div#gt-tl-gms { border: 1px solid var(--input-border-color) =
+ !important; }
+
+#yDmH0d .T47uwc { background-color: var(--bg-color)  !important; }
+
+#yDmH0d .irf0hb { background-color: var(--dialog-bg-color)  !important; }
+
+#rcnt a *, #rcnt a:link * { color: var(--a-color)  !important; }
+
+#rcnt a:visited * { color: var(--a-visited-color)  !important; }
+
+ul[class=3D"sbsb_b"][role=3D"listbox"] { background-color: var(--bg-color) =
+ !important; border: 0.5px solid var(--input-border-color)  !important; }
+
+a.gb_b.gb_fc[role=3D"button"] { background-color: var(--input-border-color)=
+  !important; }
+
+#gbwa .gb_ba.gb_aa.gb_ua.gb_ca.gb_g, #gbw .gb_ub.gb_aa.gb_g { background-co=
+lor: var(--bg-color)  !important; border: 0.5px solid var(--input-border-co=
+lor)  !important; }
+
+#tsf .UUbT9 { background-color: var(--bg-color)  !important; border: 1px so=
+lid rgba(255, 255, 255, 0.1) !important; }
+
+#gb #gbw #gbwa div:first-child a { filter: invert(80%); }
+
+#gbwa .gb_A.gb_z.gb_U.gb_Sb.gb_B, #gbw .gb_Ta.gb_z.gb_Sb, #spch { backgroun=
+d-color: var(--dialog-bg-color)  !important; }
+
+#searchform .sfbg.nojsv { background-color: var(--bg-color)  !important; }
+
+#lb .cF4V5c, #hdtbMenus .hdtbU.hdtb-mn-o { background-color: var(--bg-color=
+)  !important; border: 1px solid rgba(255, 255, 255, 0.2) !important; }
+
+a.gb_b.gb_fc[role=3D"button"] { background-color: var(--input-border-color)=
+  !important; }
+
+#gbwa .gb_ba.gb_aa.gb_ua.gb_ca.gb_g, #gbw .gb_ub.gb_aa.gb_g { background-co=
+lor: var(--bg-color)  !important; border: 0.5px solid var(--input-border-co=
+lor)  !important; }
+
+#cdr_cont .cdr_dlg { background-color: var(--dialog-bg-color)  !important; =
+}
+
+#flt-app .gws-flights__homepage-form.gws-flights-form__search-form.gws-flig=
+hts-form__homepage { background-color: var(--dialog-bg-color)  !important; =
+}
+
+#flt-app .mSPnZKpnf91__menu.mSPnZKpnf91__cover-button.mSPnZKpnf91__open { b=
+ackground-color: var(--dialog-bg-color)  !important; }
+
+#gb .gb_A.gb_z.gb_U.gb_7b.gb_B, #gb .gb_Ta.gb_z.gb_7b { background-color: v=
+ar(--dialog-bg-color)  !important; }
+
+#gb .gb_Sa, #gb .gb_A, #fbarcnt #footcnt #fsett { background-color: var(--d=
+ialog-bg-color)  !important; }
+
+#searchform #tsf .gLFyf.gsfi { background-color: transparent !important; bo=
+rder: none !important; }
+
+#searchform .RNNXgb { background-color: transparent !important; }
+
+#searchform .xtSCL { background: transparent !important; border: transparen=
+t !important; }
+
+#hdtb-msb #hdtb-tls, #hdtb-msb #hdtb-tls:hover { background: rgb(34, 34, 34=
+) !important; }
+
+#hdtbSum #hdtb-msb { background-color: var(--bg-color)  !important; }
+
+#gb .gb_Ua, #gb div[img-loaded] { background-color: var(--dialog-bg-color) =
+ !important; }
+
+#gb .gb_ac.gb_ec { background-color: var(--dialog-bg-color)  !important; }
+
+#flt-app filter-chip { background-color: black !important; }
+
+#gb #gbwa > div, header#gb > div > div { background-color: var(--dialog-bg-=
+color)  !important; }
+
+#yDmH0d .wDSX5e, .JPdR6b { background-color: var(--dialog-bg-color)  !impor=
+tant; }
+
+#ls-canvas #booking_update, #ui-datepicker-div.ui-datepicker { background-c=
+olor: var(--dialog-bg-color)  !important; }
+
+#ls-canvas #booking_update input { background-color: var(--dialog-bg-color)=
+  !important; border-color: var(--border-input-color)  !important; }
+
+#page-container #main #content .nova-c-option-list, #page-container .global=
+-sidebar__wrapper { background-color: var(--dialog-bg-color)  !important; }
+
+body.home #main #content.has-right-col { background: var(--bg-color)  !impo=
+rtant; }
+
+#main .cols-65-35, #main .c-col-right, #main .sidebar-footer { background: =
+var(--bg-color)  !important; }
+
+.nova-c-modal__body { background-color: var(--dialog-bg-color)  !important;=
+ }
+
+#page-container .sticky-inner-wrapper, #page-container .application-bar, #s=
+ticky-inner-wrapper .sticky-inner-wrapper, .nova-c-modal__footer--spacing-i=
+nherit { background-color: var(--dialog-bg-color)  !important; }
+
+#extended-nav, nav#ac-globalnav { background: var(--bg-color)  !important; =
+}
+
+artdeco-typeahead-deprecated-results-container { background-color: var(--di=
+alog-bg-color)  !important; }
+
+#form1 .cookie-banner, #form1 #header .container { background-color: var(--=
+dialog-bg-color)  !important; }
+
+.rsdc-wrapper.corgi.rsdc-dual-month { background-color: var(--bg-color)  !i=
+mportant; }
+
+div.page[style*=3D"background-image"], #topActionHeader.J_NavScroll { borde=
+r-color: rgba(255, 255, 255, 0.1) !important; box-shadow: none !important; =
+background-image: none !important; background-position: initial !important;=
+ background-size: initial !important; background-repeat: initial !important=
+; background-attachment: initial !important; background-origin: initial !im=
+portant; background-clip: initial !important; background-color: var(--bg-co=
+lor)  !important; }
+
+span.paragraph-end { background: var(--bg-color)  !important; }
+
+form#search-form.search__form { background: var(--bg-color)  !important; }
+
+div.playControls__elements { background-color: var(--bg-color)  !important;=
+ }
+
+#overlay_243 .modal__modal.sc-border-box.g-z-index-modal-content, #overlay_=
+341 .modal__modal.sc-border-box.g-z-index-modal-content { background-color:=
+ var(--dialog-bg-color)  !important; }
+
+.dropdownMenu { background-color: var(--dialog-bg-color)  !important; }
+
+#nav_tutorials, #nav_references, #nav_examples, .w3-bar-item.w3-button:hove=
+r { background-color: var(--bg-color)  !important; color: var(--text-color)=
+  !important; }
+
+#ac-localnav, #ac-localnav :not([class=3D"ac-ln-title"]) { background: var(=
+--bg-color)  !important; }
+
+div.GlobalHeaderSearchbar { border-color: rgba(255, 255, 255, 0.1) !importa=
+nt; }
+
+div.flowtip-flyout-modal, div[data-tl-id=3D"FeaturedTopNav-FeaturedTopNavFl=
+yout"] { background: var(--bg-color)  !important; }
+
+#header-spark-menu { background-color: var(--bg-color)  !important; }
+
+#js-global-header-wrapper #vh-header, #global-search-form #SearchDropdown-l=
+ist, #global-search-dropdown { background-color: var(--bg-color)  !importan=
+t; }
+
+#Header.contentFixed { background-color: var(--bg-color)  !important; }
+
+header[class*=3D"has-masthead-bg"], header.Header_container_3Mm30.Header_gr=
+aphikFont_OVNDf, div.Footer_outerContainer_3wJv4.Footer_graphikFont_2aDKW, =
+header.css-1jot0f9.e1pwcx9q0 { background-image: none !important; backgroun=
+d-color: var(--dialog-bg-color)  !important; }
+
+.pm-full-bleed-wrapper { z-index: 1 !important; }
+
+span.ms-fwt-r { background: var(--bg-color)  !important; }
+
+.css-kp204g { background-color: var(--dialog-bg-color)  !important; }
+
+a.blue-on-white__592d78ad, a.white-on-blue__867fec32, a.black-on-white__9c3=
+dc95a, a.white-on-black__3dbf9315 { background: var(--bg-color)  !important=
+; border-color: var(--input-border-color)  !important; }
+
+a.blue-on-white__592d78ad:hover, a.white-on-blue__867fec32:hover, a.black-o=
+n-white__9c3dc95a:hover, a.white-on-black__3dbf9315:hover { background: var=
+(--dialog-bg-color)  !important; color: var(--text-color)  !important; bord=
+er-color: var(--input-border-color)  !important; }
+
+#header, .row-fluid.panel-header { background: none !important; }
+
+.linkToOpenLayer { background: none !important; }
+
+.navbar.navbar-default.navbar-shrink .menubar, .navbar.navbar-default .menu=
+bar, .navbar.navbar-default .dropdown-menu, .navbar.navbar-default.navbar-s=
+hrink .dropdown-menu { background-color: var(--bg-color)  !important; }
+
+#YDC-UH.YDC-UH { background-color: var(--bg-color)  !important; }
+
+#uh-tb-more-menu *, #uh-tb-more-menu a:link, #uh-tb-more-menu * a:visited {=
+ background-color: var(--bg-color)  !important; color: var(--text-color)  !=
+important; }
+
+header#js-body-header #body-header-wrapper { background-color: var(--bg-col=
+or)  !important; }
+
+#janrainModal[style*=3D"z-index"] { background-color: var(--bg-color)  !imp=
+ortant; }
+
+#wrap-main-nav { background-color: var(--bg-color)  !important; }
+
+.pin_bottom_content.pin-up .btn_next, .pin_bottom_content.pin-up .btn_prev =
+{ background-image: none !important; }
+
+video#ads_playerid { display: none; }
+
+#myvne_profile_tool .myvne_user_status { background-color: var(--dialog-bg-=
+color)  !important; }
+
+header#rbHeader .primary .submenu .menu .tab .wrapper { background-color: v=
+ar(--dialog-bg-color)  !important; }
+
+.devsite-top-logo-row-wrapper { background-color: var(--bg-color)  !importa=
+nt; }
+
+.gb_mb.gb_oh.gb_R.gb_nh.gb_rh.gb_hg .gb_b.gb_xc, .gb_mb.gb_oh.gb_R.gb_nh.gb=
+_rh.gb_hg .gb_bd.gb_cd.gb_xc { background-color: orange !important; }
+
+#side.swl8g { border-right: 1px solid rgba(255, 255, 255, 0.3) !important; =
+}
+
+#app .copyable-area, #app ._2vPAk, #app .Le35d, #app ._1abwg { background-c=
+olor: var(--bg-color)  !important; }
+
+#app ._2imug { background-color: var(--bg-color)  !important; border: var(-=
+-input-border-color) solid 1px  !important; }
+
+#app ._3_7SH.message-out { background-color: rgb(3, 3, 75) !important; }
+
+#app ._3_7SH.message-in { background-color: rgb(1, 42, 51) !important; }
+
+#app .tail-container { background: none !important; }
+
+#site-main #content { background-color: var(--bg-color)  !important; }
+
+#primary #content .et_pb_row { background-color: var(--bg-color)  !importan=
+t; }
+
+#menu-main-navigation-1 .submenu { background-color: var(--dialog-bg-color)=
+  !important; }
+
+#myvne_notify_box { opacity: 0.9; background: var(--bg-color)  !important; =
+}
+
+#content .detail_body { background: var(--bg-color)  !important; }
+
+#global-nav-secondary .global-nav-container { background: var(--bg-color)  =
+!important; }
+
+nav.nav .u-clear[role=3D"navigation"] * { background-color: var(--bg-color)=
+  !important; }
+
+.jsx-973181833.menu, #__next .jsx-399554191.results { opacity: 0.9; backgro=
+und-color: var(--bg-color)  !important; }
+
+#content .bg.coverContent { background: rgba(0, 0, 0, 0.48) !important; }
+
+#content .bg.coverContent * { color: lightblue !important; }
+
+#__next div.jsx-3356235800.menu, #__next .jsx-973181833.menu { background: =
+var(--bg-color)  !important; }
+
+#navigation #searchBar .secondaryControls, #calroot { background-color: var=
+(--bg-color)  !important; }
+
+#tds-header-main .tds-header-nav--list.tds-header-nav--parent_nav { backgro=
+und-color: var(--bg-color)  !important; }
+
+#atomic .Bgc\(\#fff\)\!, #atomic .Bgc\(\$bg-content\)\! { background-color:=
+ var(--bg-color)  !important; }
+
+#Nav-0-DesktopNav * { background: var(--bg-color)  !important; }
+
+body .image-result.js-image-result.js-infinite-scroll-item { border: 2px so=
+lid var(--bg-color)  !important; }
+
+.image-preview-block.js-image-preview-block.js-infinite-scroll-item { backg=
+round-color: var(--bg-color)  !important; }
+
+#cbs-site-nav, #cbs-site-nav div[class*=3D"site-nav-"] { background-color: =
+var(--dialog-bg-color)  !important; }
+
+#XenForo #content dl.sectionHeaders dt.posterAvatar { background-color: var=
+(--bg-color)  !important; }
+
+#XenForo form#pageLogin.xenForm.formOverlay, #XenForo form.xenForm.formOver=
+lay, #XenForo .xenOverlay.memberCard, #XenForo .xenPreviewTooltip { backgro=
+und-color: var(--bg-color)  !important; border: var(--input-border-color) 1=
+px solid  !important; }
+
+#XenForo #content .mr_nodeIconContent { background-color: var(--bg-color)  =
+!important; }
+
+#merchant-header-main-wrapper-internal { background-color: var(--bg-color) =
+ !important; }
+
+#m_excelWebRenderer_ewaCtl_Ribbon, #appLauncher { background-color: var(--b=
+g-color)  !important; border-bottom: 1px solid rgba(255, 255, 255, 0.1) !im=
+portant; }
+
+.band.add_background_color_null.add_background_position_top.remove_backgrou=
+nd_image_xs { background-image: none !important; }
+
+body#addon_details, body#responsive_b { background-color: var(--bg-color)  =
+!important; }
+
+body#addon_details .sticky_header_container.includes_subnav.affix, body#res=
+ponsive_b .sticky_header_container.includes_subnav.affix { background-color=
+: var(--dialog-bg-color)  !important; }
+
+body .sticky_header_container.includes_subnav.affix { background: var(--bg-=
+color)  !important; }
+
+.js_global-nav-wrap { background-color: var(--bg-color)  !important; }
+
+#header-dropdown { background-color: var(--dialog-bg-color)  !important; }
+
+#stage #unit #side-tile, #stage #unit #text #row { background-color: var(--=
+bg-color)  !important; }
+
+.trb_nh_un_ulw, .trb_nh_uw, .trb_nh_lw, .trb_nh_sf, .uc-corpNav-flyout { ba=
+ckground-color: var(--bg-color)  !important; }
+
+body.j-body.t-homepage.loadComplete { background-color: var(--bg-color)  !i=
+mportant; }
+
+body#udemy .full-width.full-width--streamer.streamer--fixed { background-co=
+lor: var(--dialog-bg-color)  !important; }
+
+#rendered-content .filter-section-sticky-wrapper.fixed { background-color: =
+var(--bg-color)  !important; }
+
+#rendered-content .gradientBg_19vf5d5.Banner { background-color: var(--bg-c=
+olor)  !important; }
+
+#react-autowhatever-1 { background-color: var(--dialog-bg-color)  !importan=
+t; }
+
+#views-exposed-form-courses-subject-revision-page .views-widget, #views-exp=
+osed-form-courses-subject-revision-page .fieldset-wrapper, #block-views-sub=
+ject-areas-menu .view-content { background-color: var(--dialog-bg-color)  !=
+important; }
+
+aside.single-post-sidebar::before { background-color: var(--bg-color)  !imp=
+ortant; }
+
+.container__3tWa1zW_F3ZU29BQPEWw9Q { background-color: var(--dialog-bg-colo=
+r)  !important; }
+
+img.ellipse__1jElw8CXFnRj154tdjqHks { filter: sepia(100%) brightness(20%); =
+}
+
+#isz_lt .hdtb-mn-c.CKV5te.jfk-scrollbar { background-color: var(--bg-color)=
+  !important; }
+
+#isz_ex .Hrg3ab, #isz_ex .Hrg3ab * { background-color: var(--dialog-bg-colo=
+r)  !important; color: var(--text-color)  !important; }
+
+#isz_ex .Hrg3ab { border: 1px solid var(--input-border-color)  !important; =
+}
+
+#ac-gn-searchresults { background-color: var(--dialog-bg-color)  !important=
+; }
+
+#topnav { background-color: var(--bg-color)  !important; }
+
+#masthead .headR .alertList { background-color: var(--dialog-bg-color)  !im=
+portant; }
+
+#searchSuggestionsCallout, .ms-bg-color-white { background-color: var(--dia=
+log-bg-color)  !important; }
+
+.widget.responsive-layout { background-color: var(--bg-color)  !important; =
+background-image: none !important; }
+
+.widget.responsive-layout, .fixed-tabs { background-color: var(--bg-color) =
+ !important; background-image: none !important; }
+
+.h-c-header__bar, .h-c-header__nested-nav-list, .glue-c-zippy__content-cont=
+ainer { background-color: var(--bg-color)  !important; }
+
+#container .metabar.js-metabar, #container .u-fixed.js-stickyFooter { backg=
+round-color: var(--dialog-bg-color)  !important; }
+
+#react-view ul.DropdownMenu-items, #react-autowhatever-1 .AutoSearchInput-s=
+uggestions-list { background-color: var(--bg-color)  !important; border: 1p=
+x solid rgba(255, 255, 255, 0.1) !important; }
+
+#allrecords .t-cover__filter { background-image: none !important; backgroun=
+d-color: var(--bg-color)  !important; }
+
+#td-outer-wrap .td-banner-wrap-full { background-color: transparent !import=
+ant; }
+
+.bigsearch-area { background-color: var(--dialog-bg-color)  !important; }
+
+#gsc_dd_mor-d, #gsc_dd_add-d { background-color: var(--dialog-bg-color)  !i=
+mportant; }
+
+#wrapper .menubar, #wrapper .statusbar, #cookienotif, #wrapper #bg-menubar,=
+ #wrapper .statusbar-hp, #spovl1 .spovl1box, #wrapper #topovl1 { background=
+-color: var(--dialog-bg-color)  !important; }
+
+#root #tc-main-content .comments-sidebar, #root .navigation-desktop__flyout=
+, #root .modal.search-modal { background-color: var(--bg-color)  !important=
+; }
+
+.navigation__flyout__trending-topics .menu__item { -webkit-text-fill-color:=
+ green !important; }
+
+#search-box.i-search_box.is-results-hidden, #engadget-context-nav, #engadge=
+t-context-nav .i-context_nav__related.o-context_nav__related { background-c=
+olor: var(--bg-color)  !important; }
+
+#Atom div[data-test-id=3D"mail-right-rail"] { width: 30px; }
+
+#Atom div[data-test-id=3D"comms-properties-bar"] { transform: rotate(90deg)=
+; width: 20px !important; }
+
+#Atom #slot_LREC { display: none; }
+
+#Atom #ybar #mail-search .select-dropdown { background-color: var(--dialog-=
+bg-color)  !important; }
+
+#Atom #mail-app-container div[data-test-id=3D"advanced-search-pane"] { back=
+ground-color: var(--dialog-bg-color)  !important; }
+
+#Atom #mail-app-container #app div[data-test-id=3D"popover-content"], #Atom=
+ #ybar #ybarDialpadMenuBody { background-color: var(--bg-color)  !important=
+; }
+
+#wrapper #topNav, #wrapper #topNav #hmbMenu, #wrapper #topNav #filterOption=
+s { background-color: var(--bg-color)  !important; }
+
+.user-form-overlay { background-color: var(--bg-color)  !important; border:=
+ 1px solid rgba(255, 255, 255, 0.1) !important; }
+
+#wrapper #topNav #siteNavigation, #searchFormContainer #searchBarSelectionO=
+ptions { background-color: var(--bg-color)  !important; }
+
+#searchFormContainer #searchBarSectionSelector { background-color: var(--di=
+alog-bg-color)  !important; }
+
+#cse-search-header input { text-align: right; }
+
+#wrapper #topNav #siteNavigation .subMenu { background-color: var(--bg-colo=
+r)  !important; }
+
+#nav-header-fixed { background-color: var(--bg-color)  !important; }
+
+.modal-overlay { background-color: var(--dialog-bg-color)  !important; }
+
+.wds-dropdown-level-2__content, .wds-dropdown__content, #globalNavigation, =
+[class*=3D"wds-global-navigation"], .wds-global-navigation-wrapper { backgr=
+ound-color: var(--bg-color)  !important; }
+
+body.background-dynamic.skin-oasis.background-fixed::before, body.backgroun=
+d-dynamic.skin-oasis.background-fixed::after, .dotted-background__dots { op=
+acity: 0.04; }
+
+:not([class*=3D"_icon"]) { border-color: rgba(255, 255, 255, 0.1) !importan=
+t; }
+
+#search_autocomplete { background-color: var(--bg-color)  !important; }
+
+#shopNavigation div { background-color: var(--bg-color)  !important; }
+
+.level-one-list, .sc-hd-ms-panel, .sc-hd-ms-hover, .sc-hd-panel, .sc-hd-ms-=
+full-ver, .icbu-simple-shopping-cart-panel { background-color: var(--bg-col=
+or)  !important; border: 1px solid rgba(255, 255, 255, 0.2) !important; }
+
+#form-searchbar .ui-autocomplete { background-color: var(--dialog-bg-color)=
+  !important; }
+
+.networknav__hovernav-wrapper { background-color: var(--bg-color)  !importa=
+nt; }
+
+.p-channel.p-channel--hardfork.is-canvas.tnw-canvas--opened .app { margin-t=
+op: 0px !important; }
+
+div[id*=3D"canvas_scroller_html"] { display: none !important; }
+
+#site_container #headerimg { opacity: 0.1; }
+
+#navbar .sublevel { background-color: var(--bg-color)  !important; }
+
+#leftNavMenuRevamp .leftNavigationRightBlock { background: linear-gradient(=
+var(--bg-color), var(--bg-color))  !important; }
+
+#category .allcate *, .j-select-opts, .J-search-suggest, .aside-floating, .=
+floating-account, .floating-w { background-color: var(--bg-color)  !importa=
+nt; }
+
+.aside-floating, .floating-account, .floating-w { border: 1px solid rgba(25=
+5, 255, 255, 0.1) !important; }
+
+#ui-id-1 .mm-wrapper { background-color: var(--dialog-bg-color)  !important=
+; }
+
+#chrome-sticky-header ._2u0LGMW { background-color: var(--dialog-bg-color) =
+ !important; }
+
+#top #geoip-info { background-color: var(--dialog-bg-color)  !important; }
+
+#top #nav_desktop_multi-dropdown { background-color: var(--bg-color)  !impo=
+rtant; }
+
+#head .head_wrapper { background-color: var(--bg-color)  !important; }
+
+#gb .b42OPe { background-color: var(--dialog-bg-color)  !important; }
+
+#lst-ib.gsfi, #gs_taif0.gsfi { background: transparent !important; border: =
+none !important; }
+
+#flt-app .gws-flights__white-focus, #flt-app .gws-flights-form__menu-label,=
+ #flt-app .gws-flights__seating_class_dropdown { background: transparent !i=
+mportant; }
+
+#mathjax-container .Workspace.text-s { background-color: var(--bg-color)  !=
+important; border: 1px solid rgba(255, 255, 255, 0.2) !important; }
+
+#screen-reader-main-content { background-color: var(--bg-color)  !important=
+; border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important; }
+
+#main-nav #extra-nav { background-color: var(--bg-color)  !important; }
+
+#cbheader #mainnav .container { background-color: var(--dialog-bg-color)  !=
+important; }
+
+#appMountPoint .track { background-color: rgba(20, 20, 20, 0.4) !important;=
+ }
+
+#appMountPoint .buffered { background-color: rgba(20, 20, 20, 0.9) !importa=
+nt; }
+
+#appMountPoint .current-progress, #appMountPoint .scrubber-head { backgroun=
+d-color: red !important; }
+
+.ReactModal__Content--after-open { border-radius: 10px; border: 1px solid v=
+ar(--input-border-color)  !important; }
+
+#c-search_autocomplete__suggestion_list .c-search_autocomplete__suggestion_=
+item--selected { background-color: var(--dialog-bg-color)  !important; }
+
+#floatingEntry .floatingEntryContent { background-color: var(--bg-color)  !=
+important; border: 1px solid var(--input-border-color)  !important; }
+
+#query_field_and_button #autocompletion { background-color: var(--bg-color)=
+  !important; border: 1px solid var(--input-border-color)  !important; }
+
+.nav-background-static { background-color: var(--dialog-bg-color)  !importa=
+nt; }
+
+#pb-root .page-gradient { background: var(--bg-color)  !important; }
+
+#pb-root img.masthead-logo { filter: invert(1); }
+
+#sign-form, #sign-form .sign-form, #dmsg-form, #go-top .dialog { background=
+: transparent !important; }
+
+#masthead .site-branding-in { background-color: var(--bg-color)  !important=
+; }
+
+::after, ::before { background-image: none !important; background-color: tr=
+ansparent !important; }
+
+#content_inside .home_post_cont { z-index: 9999 !important; }
+
+#content_inside .hover_caption { background-color: var(--dialog-bg-color)  =
+!important; }
+
+* .with-4-items ul * { background-color: var(--dialog-bg-color)  !important=
+; }
+
+#NYT_TOP_BANNER_REGION, #app .MAG_web_non-us_regi_bau { background: var(--d=
+ialog-bg-color)  !important; }
+
+#app div[id*=3D"google_ads_iframe_"] { opacity: 0.7 !important; }
+
+#mainList, #secondaryNav { background-color: var(--dialog-bg-color)  !impor=
+tant; }
+
+main #new-game, main #newbie-modal, main #game-settings { background-color:=
+ black !important; }
+
+embed[src=3D"about:blank"][type=3D"application/pdf"] { filter: invert(1) br=
+ightness(0.6) sepia(1); }
+
+#gsr #searchform { background-color: var(--bg-color)  !important; }
+
+form#sf input#REsRA { background-color: transparent !important; border: non=
+e !important; }
+
+form#sf svg.TYpZOd { fill: var(--bg-color)  !important; }
+
+#maincontent .with-video { background-color: transparent !important; }
+
+#maincontent .slider-white { background-color: rgba(0, 0, 0, 0.9) !importan=
+t; }
+
+#nav-desktop div[id*=3D"mm-"] { background-color: rgba(0, 0, 0, 0.8) !impor=
+tant; }
+
+#root ._1UDxB.VIArj { background-color: var(--bg-color)  !important; border=
+-bottom: 1px rgba(255, 255, 255, 0.6) !important; }
+
+#main #home-page, #global-nav { background-color: var(--bg-color)  !importa=
+nt; }
+
+#main #home-page pre, #main #home-page .code-block { background-color: var(=
+--dialog-bg-color)  !important; }
+
+#appMountPoint .our-story-card-text { background-color: rgba(0, 0, 0, 0.7) =
+!important; }
+
+#appMountPoint .PlayerControls--control-element, #appMountPoint .nf-loading=
+-spinner, #appMountPoint .popup-content.volume-controller, #appMountPoint .=
+touchable.popup-content-wrapper.active.popup-content-wrapper--centered-cont=
+ent { background-color: transparent !important; }
+
+#appMountPoint button.PlayerControls--control-element, #appMountPoint .Play=
+erControls--control-element svg { border: none !important; }
+
+#appMountPoint .slider-bar-container { background-color: darkgray !importan=
+t; }
+
+.aajZCb { background-color: var(--dialog-bg-color)  !important; }
+
+grammarly-extension { visibility: hidden; }
+
+#__PWS_ROOT__ .zI7.iyn.Hsu[style=3D"height: 100%;"], #__PWS_ROOT__ .YDx.MIw=
+[style=3D"stroke: rgb(239, 239, 239); visibility: visible; top: 59.9915px; =
+left: 1521px;"] { background-color: var(--dialog-bg-color)  !important; }
+
+nav.sitemap.screen-only { background-color: var(--bg-color)  !important; }
+
+button.hamburger.menu .rows, button.hamburger.menu .rows::before, button.ha=
+mburger.menu .rows::after { background-color: var(--text-color)  !important=
+; text-rendering: var(--text-color)  !important; }
+
+#app header .css-stscvm svg path { fill: white !important; }
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://usamts.org/Templates/CSS/usamtspage.css
+
+@charset "utf-8";
+
+* { margin: 0px; border: 0px; padding: 0px; }
+
+body { font-family: Arial, Helvetica, sans-serif; background-color: rgb(255=
+, 255, 234); min-width: 800px; }
+
+div.usamtstop { position: relative; margin-left: 0px; margin-right: 0px; ba=
+ckground-image: url("/Images/PageBorders/TemplateTopBack.jpg"); background-=
+repeat: repeat-x; }
+
+div.usamtslogo { position: absolute; top: 0px; left: -1px; }
+
+div.usamtspeople { position: absolute; top: 0px; right: 0px; z-index: 2; }
+
+.usamtstitlebar { position: absolute; top: 30px; right: 20px; font-family: =
+Verdana, Arial, Helvetica, sans-serif; font-style: italic; font-size: 24px;=
+ font-weight: bolder; color: rgb(255, 255, 234); z-index: 3; }
+
+div.usamtstitleshadow { position: absolute; right: 52px; top: 32px; font-fa=
+mily: Verdana, Arial, Helvetica, sans-serif; font-style: italic; font-size:=
+ 24px; font-weight: bolder; color: rgb(85, 85, 85); z-index: 1; }
+
+div.usamtstop p.usamtsname { text-align: left; margin-left: 220px; margin-r=
+ight: auto; position: relative; z-index: 3; }
+
+div.usamtsmainpage { position: relative; top: 52px; background-image: url("=
+/Images/PageBorders/TemLBack.gif"); background-repeat: repeat-y; margin-lef=
+t: 12px; min-height: 500px; }
+
+div.usamtsbody { position: relative; top: -20px; left: 0px; margin-left: 15=
+3px; margin-right: 20px; margin-bottom: -10px; padding: 20px; background-co=
+lor: rgb(255, 255, 251); border: 5px solid rgb(102, 0, 0); z-index: 10; }
+
+div.usamtsbody p { margin: 1ex 0px; }
+
+div.usamtsbodymenu { position: relative; top: -50px; z-index: 100; }
+
+div.usamtsbodytext { position: relative; padding: 0px 10px; }
+
+div.usamtsbodytext ul { margin-left: 20px; }
+
+div.usamtsbodytext ol { margin-left: 20px; }
+
+div.usamtsbodytext input { border: 3px rgb(0, 0, 0); }
+
+div.usamtsbodytext textarea { border: 1px rgb(0, 0, 0); }
+
+div.usamtsbodyannounce { position: relative; top: -20px; margin: 0px 50px -=
+30px 180px; padding: 2px; border-width: 5px; border-color: rgb(170, 170, 17=
+0); border-style: outset; text-align: center; font-size: 13px; z-index: 500=
+; font-family: Georgia, "Times New Roman", Times, serif !important; }
+
+div.usamtshighlightbox { width: 90%; margin-left: auto; margin-right: auto;=
+ border: 2px outset black; background-color: rgb(255, 204, 204); text-align=
+: center; font-weight: bolder; padding: 2px; }
+
+div.usamtsnearbottom { position: relative; top: -20px; margin: 60px 0px 0px=
+; }
+
+div.usamtsnbleft { border-left: 12px solid rgb(255, 255, 234); border-top-c=
+olor: rgb(255, 255, 234); border-right-color: rgb(255, 255, 234); border-bo=
+ttom-color: rgb(255, 255, 234); border-top-style: solid; border-right-style=
+: solid; border-bottom-style: solid; }
+
+div.usamtsnbright { position: absolute; top: 20px; right: 0px; font-family:=
+ Arial, Helvetica, sans-serif; font-size: 11px; margin-right: 20px; margin-=
+top: 15px; }
+
+div.usamtsnbright a { text-decoration: none; }
+
+div.usamtsnbright a:hover { color: rgb(108, 235, 146); }
+
+div.usamtsbottom { position: relative; top: -20px; height: 59px; margin: 25=
+px 0px 0px; background-image: url("/Images/PageBorders/TemBotBack.jpg"); ba=
+ckground-repeat: repeat-x; background-position: center bottom; z-index: 10;=
+ }
+
+div.usamtsbottomleft { position: absolute; left: 0px; bottom: 0px; margin-l=
+eft: 0px; border-left: 12px solid rgb(255, 255, 234); border-top-color: rgb=
+(255, 255, 234); border-right-color: rgb(255, 255, 234); border-bottom-colo=
+r: rgb(255, 255, 234); border-top-style: solid; border-right-style: solid; =
+border-bottom-style: solid; }
+
+div.usamtsbottomright { position: absolute; right: 0px; bottom: 0px; }
+
+form input[type=3D"text"], form input[type=3D"password"] { border: 1px groo=
+ve black; }
+
+form input[type=3D"submit"] { border: 1px solid black !important; }
+
+.usamtsbotnavigation { background-color: rgb(145, 164, 189); border-color: =
+rgb(31, 40, 52); border-style: outset; border-width: 2px; color: rgb(255, 2=
+55, 234); min-height: 2ex; padding: 5px; }
+
+.usamtsbotnavigationleft { float: left; }
+
+.usamtsbotnavigationright { float: right; }
+
+.usamtsbotnavigationcenter { float: none; text-align: center; }
+
+.usamtsbotnavigation a { color: rgb(255, 255, 234); }
+
+.usamtsadvert { position: relative; top: -65px; margin: 20px 50px 3px 180px=
+; padding: 2px; height: 63px; vertical-align: middle; background-color: rgb=
+(245, 248, 252); border-width: 5px; border-color: rgb(31, 52, 86); border-s=
+tyle: outset; z-index: 10; font-size: 14px !important; }
+
+.usamtsadvert td { text-align: center; font-family: Georgia, "Times New Rom=
+an", Times, serif !important; }
+
+.usamtstitlecart { display: inline; font-size: 12px; font-style: normal; }
+
+.usamtstitlecart a { color: rgb(238, 255, 255); text-decoration: none; }
+
+.usamtstitlecart a:hover { color: rgb(108, 235, 146); text-decoration: none=
+; }
+
+table.usamtspastprobs { width: 100%; border: 2px solid red; }
+
+table.usamtspastprobs td, table.usamtspastprobs th { border: 1px solid blac=
+k; }
+
+ol.usamtsrules { margin-top: 10px; }
+
+ol.usamtsrules li { margin: 5px 0px; }
+
+ol.usamtsrules h4 { margin-left: -20px; }
+
+form.register select, form.register input { border: 1px solid rgb(153, 153,=
+ 153); }
+
+form.register table tr { height: 30px; }
+
+div.usamtsscoreheader, div.usamtsmischeader { background-color: rgb(153, 0,=
+ 0); color: rgb(255, 255, 234); text-align: center; font-weight: bold; widt=
+h: 100%; }
+
+div.usamtsleaderssubheader { background-color: rgb(56, 74, 95); color: rgb(=
+234, 255, 255); text-align: center; font-weight: bold; width: 100%; }
+
+table.usamtsleaders { width: 100%; }
+
+table.usamtsleaders tr.evenrow { background-color: rgb(255, 255, 234); }
+
+table.usamtsleaders tr.oddrow { background-color: rgb(255, 255, 192); }
+
+table.usamtsleaders td { width: 50%; }
+
+table.usamtsstats { width: 100%; }
+
+table.usamtsstats tr, table.usamtsstats tr td { margin: 5px 0px; }
+
+table.usamtsadmin { width: 100%; }
+
+table.usamtsadmin td { border-left: 1px solid black; border-top: 1px solid =
+black; }
+
+table.usamtsadmin tr.evenrow { background-color: rgb(255, 255, 187); }
+
+table.usamtsadmin tr.oddrow { background-color: rgb(255, 255, 238); }
+
+table.usamtsadminscores { width: 75%; border-right: 1px solid black; border=
+-bottom: 1px solid black; }
+
+table.usamtsadminscores td { border-left: 1px solid black; border-top: 1px =
+solid black; height: 30px; text-align: center; }
+
+ol.usamtsfaqanswers li, ul.usamtschangelist li { margin: 10px 0px; }
+
+div.error { margin: 0em 2em 1em; padding: 1em; border: 2px solid red; backg=
+round-color: white; }
+
+.small { font-size: 0.8em; }
+
+.errors { color: rgb(221, 0, 0); font-weight: bold; border: 2px solid rgb(1=
+70, 0, 0); padding: 0.5em 1em; margin: 0px 2em 1em; }
+
+.headerbar { background-color: rgb(102, 0, 0); color: rgb(255, 255, 234); p=
+adding: 2px; font-weight: bold; font-size: 14px; }
+
+.error-box { color: darkred; background-color: rgb(242, 222, 222); padding:=
+ 10px; border-left: 10px solid darkred; margin-bottom: 10px; }
+
+.success-box { color: rgb(68, 68, 136); background-color: rgb(222, 242, 222=
+); padding: 10px; border-left: 10px solid green; margin-bottom: 10px; }
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://usamts.org/Images/PageBorders/TemplateTopBack.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUF
+BQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4O
+Dw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABCADcDAREA
+AhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAMJBQYK/8QAIBABAAADCQAAAAAAAAAAAAAAAAEF
+CBQWGFFXkqXU4f/EABsBAQACAgMAAAAAAAAAAAAAAAADBAEFAgYH/8QAHxEBAAAEBwAAAAAAAAAA
+AAAAAAECERMEEhQWU6HS/9oADAMBAAIRAxEAPwC/RokoAAAAAAAAAAAADnzxw1Mas8LI+gizPTNv
+YLj7m9GOGpjVnhZH0DMbewXH3N6McNTGrPCyPoGY29guPub0Y4amNWeFkfQMxt7Bcfc3oxw1Mas8
+LI+gZjb2C4+5vRjhqY1Z4WR9AzG3sFx9zejHDUxqzwsj6BmNvYLj7m9KuL1zHOO7xVq7jZgXrmOc
+d3hUswL1zHOO7wqWYF65jnHd4VLMC9cxzju8KlmBeuY5x3eFSzAvXMc47vCpZg1ZhMAAAAAAAAAA
+AAAAAAAAAAxNris22j1kS1xLZrIlriWzWRLXEtmsiWuJbNZEtcS2ayJa4ls1kULkr0AoBQCgFAKA
+Uf/Z
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://usamts.org/Images/PageBorders/TemLBack.gif
+
+R0lGODlhgwAKALMAAEoAAP//6nsjI2YAAHAREYg5OVQAAIMxMWwKCnUZGYk7O1gAAAAAAAAAAAAA
+AAAAACH5BAQUAP8ALAAAAACDAAoAAARtMMhJT7nliETQ+GAojmRpnmiqossCvDAlSxamcd6q73zv
+fy1YbFbBZDadn3LJ3AWFAGLRhsw1r9jrUyid1C63ZHZM5m2H3e8RV267TedXl2YMW994dzw6V9vz
+gG17cwF+VYGIWYN9dYeJj0uDEQA7
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://usamts.org/Images/PageBorders/TemBotBack.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUF
+BQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4O
+Dw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAA4ACgDAREA
+AhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAQHCQj/xAAiEAABAgMJAAAAAAAAAAAAAAAAAQMC
+GeUUF1NXWJahptH/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAwQGBwX/xAAeEQEAAAUFAAAAAAAAAAAA
+AAAAEhQWouIBERNTY//aAAwDAQACEQMRAD8A6ambvZHt7npJn4m3pL1tyJm72R7e56SIikvW3Imb
+vZHt7npIiKS9bciZu9ke3uekiIpL1tyJmzuR7e56SIikvW3JhleG7iRc+FaN0SVLw3cSLnwRkqXh
+u4kXPgjJUvDdxIufBGSpeG9iRc+CMlVVEa6AAAAAAAAAAAAAAAAIVrQl43mzpa0HGTpa0HGTpa0H
+GTpa0HGTrbqS2mpLp9bLOzndUadV2JJbTUl0+tjYqjTquxJLaakun1sbFUadV2JJbTUl0+tjYqjT
+quxJLaakun1sbFUadV2L/9k=
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://usamts.org/Templates/CSS/usamtsleftbar.css
+
+@charset "utf-8";
+
+div.usamtsleft { position: absolute; top: 0px; width: 131px; padding-left: =
+3px; z-index: 2000; }
+
+div.usamtsleft ul { list-style-image: none; list-style-type: none; cursor: =
+pointer; }
+
+div.usamtsleft ul li { font-family: Tahoma, Arial, sans-serif; font-weight:=
+ bold; font-size: 14px; margin: 2px 0px 2px 16px; padding: 2px 0px 2px 8px;=
+ position: relative; background-image: url("/Images/DiamondBlue.gif"); back=
+ground-position: left center; background-repeat: no-repeat; }
+
+div.usamtsleft ul li div.usamtsleftshadow { position: absolute; color: rgb(=
+102, 102, 102); top: 3px; left: 10px; z-index: 99; }
+
+div.usamtsleft ul li div.usamtslefttext { position: relative; z-index: 100;=
+ }
+
+div.usamtsleft ul li a { color: rgb(255, 255, 234); text-decoration: none; =
+}
+
+div.usamtsleft ul li:hover, div.usamtsleft ul li.over { background-image: u=
+rl("/Images/DiamondYel.gif"); }
+
+div.usamtsleft ul a:hover { color: rgb(162, 182, 206); }
+
+div.usamtsflashmovie { margin: 0px; padding: 40px 0px 2px 14px; }
+
+div.usamtsleft ul ul { position: absolute; margin: 0px; padding: 2px 0px; d=
+isplay: none; left: 110px; top: 0px; }
+
+div.usamtsleft ul ul li { background-color: rgb(102, 0, 0); border-width: 1=
+px 0px; border-top-style: solid; border-bottom-style: solid; border-top-col=
+or: rgb(162, 182, 206); border-bottom-color: rgb(162, 182, 206); border-ima=
+ge: initial; border-left-style: initial; border-left-color: initial; border=
+-right-style: initial; border-right-color: initial; padding: 2px 0px 2px 10=
+px; margin: 0px; width: 130px; }
+
+div.usamtsleft li:hover ul, div.usamtsleft li.over ul { display: block; }
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://usamts.org/Images/DiamondBlue.gif
+
+R0lGODlhEAAUAMQAAJGlvY6iuYyftYSXrHyKnXeGl3J9i2txeWRrc1pgaVdeZ1FYYXhETndCTHZA
+SXQ8RW0sMmYWGmURE2UJCmQFBWUFBmUDBGUCA2UCAmYBAWYAAAAAAAAAAAAAAAAAAAAAACH5BAAH
+AP8ALAAAAAAQABQAAAVboCaOZGme6Ek5KQkBTKtFDQC3j61ffPnquoWFFGEAgYqeyHjUJTKZEbMJ
+eEaXVJsCKs0CJqXpUVAJZwvQq0ZsGxzKZl3AgIDHAYRDHWUcIBATFykNEhWGMogaIQA7
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://usamts.org/Templates/CSS/usamtstopbar.css
+
+@charset "utf-8";
+
+#usamtstopmenubar { position: absolute; top: 14px; }
+
+#usamtstopmenubar li { float: left; position: relative; width: auto; paddin=
+g: 2px 5px 3px; line-height: 0.8; margin-bottom: 0px; text-align: left; cur=
+sor: default; background-color: rgb(255, 221, 221); border: 2px solid rgb(3=
+2, 40, 53); list-style-type: none; }
+
+#usamtstopmenubar li#usamtsselected { background-color: rgb(255, 255, 234);=
+ }
+
+#usamtstopmenubar a { font-family: Tahoma, Arial, sans-serif; font-size: 13=
+px; font-weight: bold; color: rgb(32, 40, 53); }
+
+#usamtstopmenubar a { text-decoration: none; }
+
+#usamtstopmenubar li:hover, #usamtstopmenubar li.over { background-color: r=
+gb(255, 255, 234); }
+
+#usamtstopmenubar li ul { display: none; position: relative; background-col=
+or: rgb(255, 255, 234); font-weight: normal; margin: 5px 0px 0px; padding: =
+0px; }
+
+#usamtstopmenubar li li { margin: 0.25ex 0px; padding: 0px 10px; border: 0p=
+x; float: none; display: block; text-align: left; width: auto; line-height:=
+ normal; background-color: rgb(255, 255, 234); }
+
+#usamtstopmenubar li li a { font-size: 11px; font-weight: bold; color: rgb(=
+32, 40, 53); padding: 0.1em 0px; margin: 0px; display: block; text-align: l=
+eft; white-space: nowrap; }
+
+#usamtstopmenubar li li:hover, #usamtstopmenubar li li a:hover { background=
+-color: rgb(162, 182, 206); }
+
+#usamtstopmenubar li li:hover a, #usamtstopmenubar li li.over a, #usamtstop=
+menubar li li a:hover { color: rgb(255, 255, 201); }
+
+#usamtstopmenubar li:hover ul, #usamtstopmenubar li.over ul { display: bloc=
+k; }
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://usamts.org/Images/PageBorders/TemplateTop.jpg
+
+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
+iYJRMEomCUX/2Q==
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://usamts.org/Images/PageBorders/TemCorner.gif
+
+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
+PMu5XMvA3BCBAAA7
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://usamts.org/Leaders/Images/TopScores_Y.gif
+
+R0lGODlhYAAYAOYAAAtFHZ3TlESqYymQRfb7x2C3cRFsLWu8hN7wujmlWvf75lWybn3Ek8Xkq06Z
+WG2tbRmFOhFpKz6ESYTGhCqaTLzeo5nMmRBjKUytaVWmYYm2ffH3w2aZZi53PRV5Mw5YJLbVnE+u
+aR2JPdXpsuHlz5PLiqfLkmy8eDafVXC+h7XNmUysYonKkHigeh5pMVu0b4vAgbXepcTXusblxUKj
+WTKMR6XWmlmIYX7Eg3qqchN6Mg1RIVCdWkyJUeXyvBuKPen13Vm0dCOURdPlrw9bJnK+eWK4fInJ
+nfT6xsLNtaPVrEGVUTGbUViqZL3erVyfao7EhSF2NxJzMFuVXef0voTHjGu3cbTdt121eCSEPkGo
+YMTXo4PHl3uygmukadjszi97Pz+MTXi+eq/Ym0ijWo7MoP//zHG1c5nMmSKMQsXdpZjCiGaZZlWy
+cczorrPcn4alhXvDipnMmaHUl///6hZ/NjWjVimVStbstjCFRHO/iobImgxMICBxNcXerf///yH5
+BAUUAH8ALAAAAABgABgAAAf/gHSCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXkkBKRkZBQQsLGKKjpKWm
+p6ipqquoAgIMX4lXDFwMenoHRli7vL2+v8DBwsPEwEFtISFaKHGHM1xlZXu2B7mcxdjZ2ttYyMoo
+dxaFCnpH5gwMKXEsVe3uVZ2e8vP09fb3+Pn4bW0YAst30kAgQeiKHi4I4+AiYKahw4ZuQEmcSLGi
+xCA2qJih4uSTxY8gPyZTlgCcwDpdCKWLoxCXkRh48GikMgKJmTesVC1A8NBMgJxAT/1LwCQghDo6
+lhBqU62prk8hbJiZ46qqgBBFXrgKEQAH1hBWw1Yw00DriyJWz4Y9C9YVWgFF/05Uxfq2apG4doqe
+lCJFB6EQnK4d64dhjs8EiBGPcTghQQkzNhuKSUw5QcMTlRU3RNJYgJvNBRybcRMZcwCHVEJPiGxm
+ghAhR3XwlUIIQxAsg0X90zLBJ4rfKHBAbLjiNGQ8ZnwAX44CuUMkb2igKALRJoo3x5OjMJ7cJ3Uz
+Mc1UQGETz+cJP2JLiRCB9iABEkVp0WInb4HRd/LfQS7mzuIJViRXlA9mrKDfgUyMscFDeNxB4AR3
+rGAFEw3R4GCBj22wQm8TIFcCDWMFcGEJTJAxgHoGpGgAIVqMokUCed3xWhNkiWCjCA3ZCIUZUGRQ
+owgNmJHBjUQWSQaBZyRHpP+PDdgYZAY7QmHjkA2N0FAJNpIR5AYweOABXylecIF7giTgyotMUCDE
+D+nxYIYadXjpQUNZeGCCGQ+4qYaXQ5jBg5xyDjFEnV7WQCAMZgwh5xJuKuoBgTUg2qWcDXFZAw9i
+yMkDCGZooKKYYq44SALzxbjmUR448OZsUnCqxhoN5aHqBhpwugGrsy04hAYaqNHQEFEsqIYGPIWx
+oAmcIiCFBp2yeucQavS5QRhv1mrGFuxdQMS2RIgqCBaI6fVDHUhJQa0aKhoAxoINeWGAqg9Nka6K
+XrDrkAlRGFCvQ2pEMYVD0xrArKcqRsFppVOsG6+YRHzg8AcSEGIBCnqpJ0WuihL0wd7GfeSggQTs
+9WAGAryCsfHJ7IHhBa9TaLwxGB6DnLIGOZgcQR8auHwyGD30wPHKOXSg7bY7FP1BC4QAQYFRXn4K
+6tNQiynyFlFXbfXVWGf9NLc78OH1BwRJLNCXYQ7N7dloEzF12my37fbbcKddNAAA7ADHIWeUW3bc
+3LqgAgd8By744EXvwEEiMjwh28Upouz445BHLvnklDsu5g1JYKL55px37vnnhwQCADs=
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://usamts.org/Leaders/Images/Stats_N.gif
+
+R0lGODlhSAAYAOYAAA8TGcbHo05WXygwOm1xY///zIuOeTxDTl1kYqCkkxkgKf//6t3ft3V7gjg+
+QEpRW2ZmZh4lMPHywomOlLu9nRUbIlRZVLG0mHZ8doGGjDU7PcjLq+rr3FNaY5aahtnazNDSrpaa
+jEFHREdOUhMZIWxyerW4tGZmZnyAbiQsN8PDtSw0P+Xmu6isk32CiWZmZl5jWZmZmYeLkiEoMkJJ
+U/X1xhkhIY2RfDQ8R32CfqapqFdeZ5mZmREWHFJSY4eKgvf45sjKw3Z7eWZmZkBFSHB2dHl+hePk
+uL3Fpbi7mkZNV0ZMSnF2ftTVrVxjbDMzM4OId+Hhz5ygi4SJjBwkLmRrcyYtMjpCSTE5QykpOmBl
+W87QrGhudsjKppqdhGpxb0JCUlFYWo2ShNbWtXp9eI2RmL3ApLW4nK2wk+3u3EpKSuLj0f///wAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAUUAGwALAAAAABIABgAAAf/gAuCg4SFhoeIiYqLjI2Oj5CRkpOUjBw6XFVVTjsdnp+goaKjpKWh
+Ag8PUx+JJhkyGUZMJZmatre4ubq7vLdOTh0CSgdTh0EyZWUTsbO1vc/Q0ZvBw1gxhUBGyWVTLg20
+m7/i4+Tl5ufo4p0PNAdYAzNrhCZGMvbeTJm/O/z9IQwFamwQ0k+MmH4IEwpJkLAhv0/CaFx5N4NK
+DkJTmLhwYaTBrHCeBIgUYKaASZMbRgYcybJlkwJFWsocyU4iRSoKlhDaUYKJT3CcdqBK9UBMAQYY
+HnTA0OHBFwwmMXwhuhRBKgQYAIZImuopU6KpaLTDsQIeTgUKCHWoAg5ksAdK/8TSAFEggVyxEE6e
+hEAjwUkQD2roLeABAouTAe62c7ciRYQIaNESEuAkXCeRcdtd2dxiMBIEI85sMbkFyQgppE2GkbJF
+MIMtCJAUYNEayebbZBs/jix50IN+TdkdOIADBxYsK5J7OHxSwojkJpNfMQlhRfTkGwpUX3GhgJkR
+4JOLH5Bixm4FFdJXIKREALWxycmnmF9+hv0ZRCgUgGLfpH0YBTTRXwH3dVEADPatgIZJaKxw331U
+nIWeeusNQkMqw0xEnnkRRuiFBEt0OEASBdwQoUkRWhDgiQV0GEABFnRIhQNeFBCAjBJOSGGFgtCg
+xDBkwXNeZCRKYIABSUhQgMIEGqBlElpWmOQFiQVogdaLFqAlwREG1FgAb2jtSMKYYxJShVhklZdj
+ZCIcMVgAIkS2ZGQGDJbElQXEqcBLJ3kR2Y4VkEkmEYTEcMAVukEW5o4zwHAkARrsCAMMFIpgAAqN
+ipCeCChQ6KgBmgIa6Jg9lFoqGYSkcZxjiorq6quwxkqhoKUCYCsJURQSQ3mLjiror8AGK+yww5pq
+q60/HCLEWbMS6+yz0P5q6heJqIAAb7Jmq+22MKhQybfghivuuIcEAgA7
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://usamts.org/Images/PageBorders/TemLBot.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUF
+BQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4O
+Dw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAcAIMDAREA
+AhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAkKBQYIB//EADEQAAEBBQUGBAcBAAAAAAAAAAAB
+AgMEBREGBwkSIQgUMTiGtiJRYXEVIzI1dIKxwf/EABsBAQACAwEBAAAAAAAAAAAAAAADBAEFBwYC
+/8QAJxEBAAECBQMDBQAAAAAAAAAAAAECAwQFBoGyMTTBERJRISRxkbH/2gAMAwEAAhEDEQA/AJ9D
+RJVffbncPXG0rei8esZWIt3JnsOtUXMwkmgnddOHiYVNSKp0vT0/ZW9+UosrVfcF/b/CrL2Vno1g
+wmAAAAAAAAAAAAAxMXxLNto8YtV4bHJVcv1F3HMyaHL8+72vbjDucy1CCHESlvw6/wDiojIjKz+z
+Esj66+LIr+Err+PTT+1Iq3RdL1+7CfiqY/k+URdq2FSNzeqoVant7PRqphOAAAAAAAAAAAABiYvi
+WbbR4xarw2OSq5fqLuOZk0OX593te3GHc5lqEPWKBZxYe0F1VsXbqrMzl0xksW/ROG5vXcQ4ZaX1
+3l5T2Ujre50jd9aLlHxMT+/p4hCHbB1R+015LUq1Og2JaIfKyAAAAAAAAAAAABioviWbbSYxaqw2
+OSq5fqLuOZk0OXZ93te3GHc5lqEfeJNKoSN2f5fMXzK73JbVy99BPWaV+c4iXDbK6fSqN190TyPi
+vo9NpWuYxcx80z4V1rYMMrn9lKtTqNh5gfC4AAAAAAAAAAAABi4riWLbSYzqtU4bHJVcv1F3HMye
+HL8+72vbjD//2Q==
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://usamts.org/Images/PageBorders/TemBotL.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUF
+BQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4O
+Dw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABYALwDAREA
+AhEBAxEB/8QAHgABAAAGAwEAAAAAAAAAAAAAAAEDBggJCgQFBwL/xABEEAAABQIDBAYECggHAAAA
+AAAAAQIDBAUGBxESCAkhMRMUFSJBUTJCgZEWGSM0Q1JhcXKhFzNTV5KW0eUkJWJzsbTw/8QAHAEB
+AAIDAQEBAAAAAAAAAAAAAAIDAQQFBgcI/8QAOxEBAAECAwMJBAcJAQAAAAAAAAECAwQREgUG0RMU
+ITFBUXGBoUJhkbEWIjJjouLwIyRTYnKywdLh8f/aAAwDAQACEQMRAD8Az6DhLVtm11h65iVs94j0
+KIyb1Wp0DtyiJSnWs5NKUUvo2y+s822tovxiNUZw6uxMTzfF0VT1Z5T59H/WrlczRPNayLPMhqy+
+v2ZeSrTpUpJ+BitvPkGQAAAAAAAAAAAAB1kohfbcfGQ2md2XPRM2M8LY6UkSqVKuCK6erPM1VubI
+zy8ODxf8jYh8t2/H75X5f2wv2GXGAAAAAAAAAEDIlEZGRGR8DIwGrftcYQOYLY03nZbcc2KBKd7Z
+s08skqpU9SlspR/sqJbBn5tmNauMpfXdi47neHpr7eqfGOPX5rJKgybbyj94pl6Kic4deMLAAAAA
+AAAAAAAABwpSRbbc3F0tiLdBXm1V8Br4spx1Kp9l3cuSTRerCq0VlTOf3vR3xs0vme89nTfpq76f
+WP1DLOJPNAAAAAAAAAAAx47xTZ+cxWwn+H1twOsXvhah6d0bSc3plGMtU2OWXFSmsieR+FaUlmsQ
+rpzel3a2lza/ydX2a/Sezh/41tqmhK81F4jVmH1K1UpsyyPIQbaAMgAAAAAAAAAAAJLqdRCVMta/
+RnC/jdtY8wsFNoCNR7jnIgWbirHRbtXlOq0sx5pua6bJcMzIiInTNo1HwSl1Sj4ENmmp47eHZ838
+PnT9qjp8u3j5NooWvmwAAAAAAAAAAIGRGRkZZkfMgGtpvA9lF/Aq+F33Z9O04TX3KWuChlOTdHqT
+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
+/9k=
+
+------MultipartBoundary--2GSZpiYLKifkTpaCYoieMRDqnIEuzmclpQCPYJTLDw------

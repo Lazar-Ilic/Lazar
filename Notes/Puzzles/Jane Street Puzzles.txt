@@ -1,0 +1,778 @@
+2022-06 Solve #14
+
+https://www.janestreet.com/puzzles/block-party-4-index/
+
+4365374965
+8T24112382
+9232125124
+5721263113
+6311321427
+1145111356
+3123242123
+4211113149
+5834216238
+769T534725
+
+4*3*6*5*3*7*4*9*6*5+
+8*10*2*4*1*1*2*3*8*2+
+9*2*3*2*1*2*5*1*2*4+
+5*7*2*1*2*6*3*1*1*3+
+6*3*1*1*3*2*1*4*2*7+
+1*1*4*5*1*1*1*3*5*6+
+3*1*2*3*2*4*2*1*2*3+
+4*2*1*1*1*1*3*1*4*9+
+5*8*3*4*2*1*6*2*3*8+
+7*6*9*10*5*3*4*7*2*5
+= 24405360
+
+A few key ideas were ruling out squares like this 3 here means these nearby dudes cannot be 3s, sometimes eying a square in particular and being like this dude cannot be a 1, 2, 4, or 5, therefore it must be a 3, deductions based around like if this dude is an 8 then a contradiction emerges as it blocks all viables 8s over in that other block, a couple depth 2 type deductions and inferences as well.
+
+2022-05 Solve #13 [Fake "1st Solver"]
+
+https://www.janestreet.com/puzzles/robot-updated-swimming-trials-index/
+
+0.999560
+
+# The key is that for each sub strategy the probability of winning from that strategy must be 1/3 because that is the overall winning probability and in the Nash Equilibrium we are getting equal odds on all sub strategies or else it would make sense and we would be incentivised to shift probability mass around from one strategy to another. But upon the observation that we either do that given strategy or a smoothing argument to an 8 wide strategy it then becomes clear.
+
+# ----------
+
+# Compute P of winning from 8 state actually... by noting that we are a random instance of such a dude and adding up over all of the cases for when there were only 0s... otherwise a contradiction emerges as there would be a 1 dude already out contradiction.
+
+2022-02 Solve #12 ["1st Solver"]
+
+https://www.janestreet.com/puzzles/eldrow-index/
+
+Just kidding, I skimmed through and eyeballed the words list and ad hoc de novo Sherlock forces composed:
+
+15
+
+QUEER
+ODDER
+BOXER
+FOYER
+GONER
+HOVER
+JOKER
+WOOER
+COWER
+LOWER
+MOWER
+POWER
+ROWER
+SOWER
+TOWER
+
+Tragically not the global maximum extremum of 16 for me on this round. Tricky verification. Nearly 0 intuition on global maximum going into task. Tiles. Maximising green chains up columns. Ad hoc ways to get grey multiplicity like QQQQQ or QQQJJ. Eyeballing the words list. Produce triplets. 2 vowels. Some patterns:
+
+.A.ER
+.HA.E
+.HO.E
+.I.ER
+.LA.E
+.O.ER
+.OU.D
+.OUN.
+.RA.E
+.REA.
+.RO.E
+S.A.E
+S.EA.
+S.I.E
+S.O.E
+
+This round made me decide to nearly always run verification code, strongly question and rarely write down intuitions and feelings, and never record a date or statistic on my Resume until it is in the public written record. Gareth Owen's Github page of Jane Street Puzzles solutions was nice, more general algorithms in code for logic puzzles. It is fantastic fun that I sent the Jane Street Puzzles team my text file indicating a hatred and dispassion for words list puzzles, as well as my desire for a hard more open ended unique winner round and they obliged, and I failed to win! No veni, vidi, vici for me!
+
+2022-01 Solve #11
+
+https://www.janestreet.com/puzzles/hooks-8-index/
+
+The sum in each box is [9*10*19/6]/19 = 15. The 9s and 8s hit 17/19 of the boxes whence deduce with logic and on sight eyeball inspection at the end 2*4*5*17 = 680:
+
+578666666    578 6 6 6
+578999996    5  999996
+578    96    5784 4 9
+578    96       422396
+578    96      84 1 9
+578    96       3  396
+578888888     7888 8 8
+577777777      777 7 7
+555555555         55
+
+2021-12 Solve #10
+
+https://www.janestreet.com/puzzles/robot-archery-index/
+
+Code 0.1834376509 as the probability this process lasts more than 100 rounds is tiny. So casework brute force on the tuples of rounds where each player loses. Due to isomorphism with a uniform random partial permutation ordering. The error term could be written out in terms of maxrounds [for example one can probably produce an upper bound on the error term by a sum of something in terms of binomials, factorials, and perhaps geometric series which is greater than this error term].
+
+2021-11 Solve #9
+
+https://www.janestreet.com/puzzles/split-division-2-index/
+
+Code 6467972 casework on the multiplicands and remainder to produce plausible multiplicands remainder tuples in phase 1 and then consider pairs amongst those until producing a consistent pair in phase 2.
+
+2021-10 Solve #8
+
+https://www.janestreet.com/puzzles/robot-swimming-trials-index/
+
+WolframAlpha Implementation:
+
+sum from 1 to a-1 of [-1]^[n+1]*[a choose n]*[[a-n]/[a]]^[3*a-1] > 1/3
+
+8,0.334578 ~ 96435636697422619/288230376151711744
+
+2021-09 Solve #7
+
+https://www.janestreet.com/puzzles/knight-moves-4-index/
+
+17 regions means 17|[n[n+1]/2] and in particular bounds suggest plausibly 75 or 78 being the target sum with some plausible local paths suggesting 75 from 1 to 50. Now chain pairs logically i.e. the 50 with the 25, noting the parity black/white tiling, and the 37 38 bottom left corner L transition, and completing.
+
+12^2+23^2+17^2+24^2+50^2+48^2+49^2+45^2+46^2+44^2 = 14820
+
+2021-08
+
+https://www.janestreet.com/puzzles/robot-tug-of-war-index/
+
+f[a] = [a+1/2]+integral from a to 1/2 of integral from 0 to x of f[y] dy dx and taking the derivative twice gives f''[a] = -f[a] so f[a] = c1*sin[a]+c2*cos[a] and f[-1/2] = 0 and f[1/2] = 1 so f[a] = 1/2 = [[1/2]*csc[1/2]]*sin[a]+[sin[1/2]*csc[1]]*cos[a] whence a = -0.06574409 wrong due to discontinuity. Upon reflection, I commit to trying harder to be errorless, and always trying hard to fix errors when they do occur, for Jane will take non initial submissions.
+
+2021-07 Solve #6
+
+https://www.janestreet.com/puzzles/it-s-symmetric-2-index/
+
+The center is not of the 13x13 deduce it is rotational around the center + [0,1/2] and deduce from there.
+
+4^2+2^2+1^2+2^2+7^2+2^2+1^2+2^2+1^2+2^2+7^2+1^2+2^2+19^2 = 503
+
+XXOOOOOXXOOOO
+XXOOOOOOOOOOO
+OOOXOOOOOXXOO
+OOOOXXXXOOOOO
+XOOXXOOOOOOOO
+XOOXOOXOOOOXO
+OXOOOOXOOXOOX
+OOOOOOOOXXOOX
+OOOOOXXXXOOOO
+OOXXOOOOOXOOO
+OOOOOOOOOOOXX
+OOOOXXOOOOOXX
+XXXXXXXXXXXXX
+
+2021-06
+
+https://www.janestreet.com/puzzles/robot-weightlifting-index/
+
+[1-a][1-b] = a[1-b]/[1-[1-a][1-a][1-b]] = b/[1-[1-a][1-b][1-b]]
+
+0.286833
+0.436041
+
+So I made a minor little tiny careless error reasoning about the epsilon argumentations here and see their solution this other value which I submitted is wrong, however I did compute and produce the target desired answer value in round! Alas!
+
+2021-05 Solve #5
+
+https://www.janestreet.com/puzzles/past-tens-index/
+
+Download, rotate pi/2 counterclockwise, view half full screen for easy transcription, non-alphabetical, what's the band on the #1 1973 song My Love? THE WINGS
+
+2021-04 Solve #4
+
+https://www.janestreet.com/puzzles/bracketology-101-index/
+
+Code might come back and do a terse little competitive programming style Python implementation for fun here shortly or not.
+
+2021-03
+
+https://www.janestreet.com/puzzles/tit-for-tat-index/
+
+GUNS NROSES being 6 4 led me astray. I thought PI SHUFFLER 2 8 and numbers. A PRESS, ON SALE, THE FIRTH, WEAK POINT. Very cute. Note that on these words puzzles Jane rounds the parentheses do often refer to letter count or index in words strings.
+
+2021-02 Solve #3
+
+https://www.janestreet.com/puzzles/hooks-7-index/
+
+The sum in each region is [1*1+2*2+...+9*9]/19 = [9*10*19/6]/19 = 15. Perimeter insight forces yet again 9 6 Ls and 8 7 Ls pairing and there are 17 regions capturing the 17 9s and 8s which cannot go into the same region. The deduction is that indeed 9 L and 8 L must be opposite inducing the central sub 7x7 and then again voila the 7 L and 6 L must be opposite inducing the central sub 5x5. For there exist these 2 central regions. As there are 6 interior blocks in the 5x5 we deduce that each of the 19-6=13 7 and 6s must be in completed external pairs. Which forces interior blocks in the 8 7 Ls layer to be unfilled. I personally use the paint bucket right click function to fill with black throughout as well as thick black and red line drawing. This is because one ought to use a paint application as a part of serious performant Jane puzzles setup theory and praxis. Now this means that there is 1 surplus unpaired 8 to hit an interior block. This implies that in particular the bottom row having 2 interior blocks must be a part of the 9 6 Ls and then in particular it must be that they are both pinned in the bottom right corner as otherwise the 3 surplus 9s would be forced and the bottom right yellow square would be forced 8 7 which positionally violates the no 2x2 rule with the 2x1 blue. The bottom purple must be a 9 5 1 partition which then forces frankly all the 8s and 7s fall and nearly all the 9s and 6s too on connectedness. There may exist many outs at this point to proceed including brute force casework bashing but the 4 in fact forces its 2 neighbours to also be in the 4 L and hence also the 1 must be surrounded by the 2 L. But then it must be to the upper right of the 1 degenerate L. Now the 2s and 3s resolve to force the triple 5 5 5 in the upper left and the interior nearly resolves with connectedness pushing the 6.
+
+11*5*2*5*2*2 = 2200
+
+   88 88
+    777
+  5 4 4 9
+875 3 4 9
+8 53 2469
+87 312 6
+ 7  5 569
+87  66 6
+  999 99
+
+In terms of tasks like this I mean if I am at a firm and observe this I infer the solver has the technical skill cognitive ability brain organ functioning of spotting things other people miss, holding many bits in their head at one point in time, ad hoc de novo Sherlock forces, but I could also just ask Lazar Ilic to memorise a 1000 digit number on the spot which he could in fact just do and that is actually a real check on cognition in clinical psychiatry. This type of task appears on the CGTN China Global Television Network.
+
+2021-01 Solve #2
+
+https://www.janestreet.com/puzzles/figurine-figuring/
+
+One can compute the number of ways each maximum can occur for each partridge index and induct from the [1,2,...,n] case to the [1,2,...,[n+1]] case by precomputing the relevant binomial coefficients and then adding the multiplicity multiplied by the relevant one into the next row.
+
+Python gave the following explicit solution:
+610162145810667049298895975245243607042849985000177512319991333875200000/
+88947676160040791974346016626050476411997512534477592385407365120000000
+
+Another simpler way is to convolve the relevant generating functions. This gives the number of ways to choose sets to the left and right of the partridge for each partridge index if all dudes are distinct e.g. for a maximum of 3 we multiply in code [1+2x+x^2][1+3x+3x^2+x^3][1+4x+6x^2+4x^3][1+5x+10x^2+10x^3]... and then further multiply out by the relevant factorials for arranging these 2 subsets with a b![77-b]! term prior to adding to our answer multiplied with the relevant maximum actual value term.
+
+77682161038422014731040713759277275735573766179820794507204040211300150315479681265698007299253661554634629973016576/11324281178206297831457521158732046228731749579488251990048962825668835325234200766245086213177344000000000000000000
+=316343027949316246437219125115453707856863705903613474566438009125764122878034364041032368128/46115573374579236391644507746945811815363708747585584798840945105550963916972667694091796875
+~6.859787373340939
+
+2020-12
+
+https://www.janestreet.com/puzzles/twenty-four-seven-2-by-2-2-index/
+
+I tanked around 1 hour thinking about "pencil and papering" this one, making logical deductions, did not see any effective way to use a machine. Might come back and upsolve this one was before I was really a proper member of the Jane gang so a round like this I might nowadays ping a couple times in a corresponding .txt and .png file and might repeatedly hit for weeks on end until the ace crack solve.
+
+2020-10 Solve #1
+
+https://www.janestreet.com/puzzles/candy-collectors-index/
+
+Mathematically one can reduce the search space a little and compute and store multiplicities via binomial coefficients. Firstly note there are [[25] choose [5,5,5,5,5]] relevant orderings. By symmetry it suffices to count 5!=120 multiplied by the number of ways for the first child to get more of the first candy, the second the second, etc. Note that the multiplicities and relevant partitions of 5 are:
+
+5/1   5
+20/4  4 1
+20/4  3 2
+30/6  3 1 1
+20/4  2 1 1 1
+
+Now one can compute the multiplicity of relevant suborderings inductively where the relevant information to store is the number of candies in each partition/bucket since that will uniquely determine the number of ways to insert candies in the future. For example after round 1:
+
+M[5][0][0][0][0]=1
+M[4][1][0][0][0]=25
+M[4][0][1][0][0]=25
+...
+
+After round 2 though:
+
+M[5][5][0][0][0]=126
+...
+
+Code
+318281087/8016470462
+~0.03970339421928004
+
+2020-09
+
+https://www.janestreet.com/puzzles/tangled-index/
+
+I truly failed to care but nowadays would care.
+
+2020-08
+
+https://www.janestreet.com/puzzles/study-and-ponder-index/
+
+I remember this one too actually I onsighted "AMD" of course because my mother works there.
+
+2020-07
+
+https://www.janestreet.com/puzzles/what-a-trit-index/
+
+I recall this one from my quick terse skim prior to joining the Jane gang.
+
+2020-06
+
+https://www.janestreet.com/puzzles/circle-time-index/
+
+One takes the maximum ring and then inside that layer a geometric series of rings.
+
+So for example the distance between [0,2*y] and [1/3,sqrt(3)/3] must be 1/3+y and then we compute the ratio between layers is [y/[1/3]]^2 and thus WolframAlpha implementation:
+
+[1/3]^2+[sqrt(3)/3-2*y]^2=[1/3+y]^2, compute 6*[1/3]^2/[1-[y/[1/3]]^2]
+
+3/[2[sqrt[1+sqrt[3]]+2[1+sqrt[3]+sqrt[3[1+sqrt[3]]]]]]
+~0.7834638278093472251798304944082464901111076643029637271531
+
+2020-05
+
+https://www.janestreet.com/puzzles/expelled-index/
+
+OK.
+
+2020-04
+
+https://www.janestreet.com/puzzles/triads-index/
+
+Unfortunate the Jane puzzle team hadn't precomputed the entire John Conway canon! Alas!
+
+2020-02
+
+https://www.janestreet.com/puzzles/single-cross-index/
+
+Fun in the context of Putnam 2021 Task B1. Fairly high quality technical writeup perhaps the Jane firm really values that technical skill quite a lot really.
+
+2020-01
+
+https://www.janestreet.com/puzzles/alter-nate-index/
+
+Dynamic program with states in general.
+
+2019-12
+
+https://www.janestreet.com/puzzles/poetry-in-motion-index/
+
+Update chess was common. Maybe they start alluding to games again. Think like some Scrabble words values hidden could be good mechanism to push into my puzzles drafts ideas text file which contains quite a lot of content and high quality ideation.
+
+2019-11
+
+https://www.janestreet.com/puzzles/hooks-6-index/
+
+OK.
+
+2019-10
+
+https://www.janestreet.com/puzzles/tri-tri-again-again-index/
+
+OK.
+
+2019-09
+
+https://www.janestreet.com/puzzles/block-party-3-index/
+
+OK.
+
+2019-08
+
+https://www.janestreet.com/puzzles/knight-moves-3-index/
+
+OK.
+
+2019-07
+
+https://www.janestreet.com/puzzles/scraggle-index/
+
+Scrabble Boggle. Nice one.
+
+2019-06
+
+https://www.janestreet.com/puzzles/hooks-5-index/
+
+OK.
+
+2019-05
+
+https://www.janestreet.com/puzzles/disassembled-rainbow-bagel-index/
+
+Fascinating fun reminds me of childhood toy. Nice one.
+
+2019-04
+
+https://www.janestreet.com/puzzles/remote-sudoku-index/
+
+OK.
+
+2019-03
+
+https://www.janestreet.com/puzzles/twenty-four-seven-2-by-2-index/
+
+OK.
+
+2019-02
+
+https://www.janestreet.com/puzzles/tile-and-trouble-2-index/
+
+Interesting.
+
+2019-01
+
+https://www.janestreet.com/puzzles/fences-index/
+
+OK. Really logic heavy in this time period.
+
+2018-12
+
+https://www.janestreet.com/puzzles/block-party-2-index/
+
+OK.
+
+2018-11
+
+https://www.janestreet.com/puzzles/pent-up-frustration-index/
+
+OK
+
+2018-10
+
+https://www.janestreet.com/puzzles/subtiles-index/
+
+OK.
+
+2018-09
+
+https://www.janestreet.com/puzzles/spiral-region-index/
+
+OK.
+
+2018-08
+
+https://www.janestreet.com/puzzles/hooks-4-index/
+
+OK another Hooks these mechanisms man wacky need more creative like the old ones man.
+
+2018-07
+
+https://www.janestreet.com/puzzles/triangle-math-index/
+
+Nice simple one result which ought to be noted.
+
+2018-06
+
+https://www.janestreet.com/puzzles/twenty-four-seven-index/
+
+OK.
+
+2018-05
+
+https://www.janestreet.com/puzzles/swing-time-2-index/
+
+Too much to parse.
+
+2018-04
+
+https://www.janestreet.com/puzzles/where-in-the-world-index/
+
+Laugh out loud at the flavour text "after a few months of straightforward puzzles, it's our turn to post a tough one!" Nice one yeah Kominers recently had the flavour text "drawing blanks" to Scrabble to appending a blank to each set to produce words here there is 1 extra.
+
+2018-03
+
+https://www.janestreet.com/puzzles/it-s-symmetric-index/
+
+OK I used this upsolve on It's Symmetric 2.
+
+2018-02
+
+https://www.janestreet.com/puzzles/hooks-3-index/
+
+OK. I think this one resolves fairly rapidly inwards on 9s and 8s etc.
+
+2018-01
+
+https://www.janestreet.com/puzzles/rather-square-sudoku-index/
+
+OK.
+
+2017-12
+
+https://www.janestreet.com/puzzles/crosswords-index/
+
+OK.
+
+2017-11
+
+https://www.janestreet.com/puzzles/block-party-index/
+
+OK. Interesting enough could do later.
+
+2017-10
+
+https://www.janestreet.com/puzzles/turn-based-strategy-game-index/
+
+Unsure if I have or have not seen this one before but considering the underlying graph, colours, numbers, and looking up the name of this game is worthwhile as well as considering the title.
+
+2017-09
+
+https://www.janestreet.com/puzzles/square-run-index/
+
+OK.
+
+2017-08
+
+https://www.janestreet.com/puzzles/middlylinks-index/
+
+OK.
+
+2017-07
+
+https://www.janestreet.com/puzzles/split-division-index/
+
+I think bashing, modulo, C++, a little pruning works.
+
+2017-06
+
+https://www.janestreet.com/puzzles/well-well-well-index/
+
+One would think that a relatively naive simulation [1 step to fill up until the next new block joins the relevant set] would in fact do the trick not sure you need any sort of binary searching on depths some induced depth first searching and then threshold search like maybe in one of those old UT Programming Contest tasks.
+
+2017-05
+
+https://www.janestreet.com/puzzles/kenken-concatenated-index/
+
+OK been a long time since I did a Kenken I used to do these at Caltech think maybe even a kid who killed himself there was or knew the authors of that puzzle column in the student newspaper. And anyways I often did not invoke a rule I ought to have for deductions doing like easy onsightable 4x4s and 6x6s with some other insights. Anyways so I invert colours in JSPaint and let's see here. OK so it is the case that the only blocks with >2 rows are + and * which makes sense so the other operations are binary executions. The 59049* jumps out as 729*81*1 fails as does 729*27*3 so it must be 243 and 81*3 fails so it must be 243*27*9. Now this means the 392*5 is ruled out and thus the 1960* must be 245*8. This means that 21/1 42/2 84/4 ruled out so the 21/ must be 63/3. Now we have 1 7 8 9 remaining and the 1 forced right so to get 13/ it must be 78/6 leaving 19-2 for the 17-. This forces 4*264 for the 1056* as we must leave either 2-1 or 5-4 or 6-5 for the 1- and note that the 969* must lead with a 1 or 5. 17*57 or 19*51. The 6-5 for the 1- is now forced leaving the 1 5 pinned in the 969*. Now the other number in the 5/ must lead with a 1 forcing 17*57 for the 969*. This forces 945/189 for the 5/. Note leading 9 in the 1009+ is forced. Parity at this point means 1 8 are deduced their on ends leaving 3 5 9 now to get a 6 in the units digit forces 69-3 for the 66-. This forces the 5 at the end which then forces the 4 at the end in the 1- and then 15-14 is forced because we need 3+7=10 for the 1009+ quantity. The 42/2 for the 21/ falls. Now 57 is forced in the 342* leaving 6 at the end of the 17/. Now actually the units digit in the 63+ is forced ends to be 6 and 7 as all others fail. And this then forces 47+16 for the 63+. Now the 3 and 2 are pinned in the 342*. This resolves 81/9 for the 9/ and an end 8. Units digit then in the 22- is forced 5 to leave 3+6 for the 57+ so 25-3 for the 22- thus 8+43+6 for the 57+. 136/8 for the 17/ falls leaving 78+31 to finish in the 1009+. No Easter egg here. 4282. This writeup could have been done in new line logical deduction notation I suppose I could do that for future such rounds.
+
+632457819
+394586172
+421893657
+247369581
+165724398
+786215943
+859142736
+913678425
+578931264
+
+I can precisify a little here and comment that yes in terms of a little fun onsighting and ad hoc de novo this puzzle can be solved in like 5 minutes by a sharp puzzler and so one could observe that especially if it was captured. And be wowed or not really. It makes one think whoop dee whoop I really am the high functioning, caffeine using, Sherlock Holmes of the deductions in my logicking.
+
+2017-04
+
+https://www.janestreet.com/puzzles/knight-moves-2-index/
+
+OK. Seems doable given my history with knights moving.
+
+2017-03
+
+https://www.janestreet.com/puzzles/birthday-bash-index/
+
+Right I thought of both the Markov process as well as the expected number of days missed being 0.5 actually which leads to an upper bound of 2403 actually 365[364/365]^n=0.5 so that is OK on top of their lower bound. Now this can be approximated off the dome with the Taylor series for logarithm [lowkey joking] log[1+x]. Simulations work because this is a binary variable if you execute 10000000 simulations and the underlying p~1/2 then the variance is npq so standard deviation of 10000/2=5000 means even if p~0.5005 then it is aced so simulations work here.
+
+However, if one has an upper bound of n then in general one can multiply the relevant generating functions in O[n^2 * log[n]] using convolution, truncating terms above x^n as needed and then summing coefficients until clearing the threshold value. In this particular case each step is an exponential/geometric discrete distribution on support [1,2,3,...] and thus for example the generating function is given by [[362/365],[1-362/365][362/365],...] which is px/[1-[1-p]x] and thus product from 1 to 365 of [n/365]*x/[1-[1-n/365]*x] is the generating function and one could sum these coefficients until clearing the 0.5 threshold value at the x^j term where j is the desired value using computer algebra software for example. And furthermore in an online setting with some uncertainty but a known inequality one can optimally truncate terms as deduced.
+
+2017-02
+
+https://www.janestreet.com/puzzles/what-about-bob-index/
+
+OK.
+
+2017-01
+
+https://www.janestreet.com/puzzles/hex-agony-2-index/
+
+I will come back to these next time they drop a Hex Agony.
+
+2016-12
+
+https://www.janestreet.com/puzzles/star-search-index/
+
+Colours, underlines, actual actors... interesting interesting interesting stuff they should make Jane harder again harder and harder. I can't actually mock the libidinal energy and lust for win lust for rank 1 lust for low latency and lust for the solve.
+
+2016-11
+
+https://www.janestreet.com/puzzles/the-wright-stuff-index/
+
+Onsight Wright brothers I mean but really FOUNTAIN MINERAL FEMININE COOK ASK GRIP I can't be quite sure. Very interesting think in round with the hint I would have aced. I think so I think in this time period games such as applications like the jewel one were very popping and popular with such gravity based turn based puzzley mechanisms.
+
+2016-10
+
+https://www.janestreet.com/puzzles/tri-tri-again-index/
+
+Methinks of the canonical fact that there exist 2 such tetrahedra and then state based dynamic program from the bottom upwards ought to work.
+
+2016-09
+
+https://www.janestreet.com/puzzles/chess-dance-index/
+
+OK.
+
+2016-08
+
+https://www.janestreet.com/puzzles/swing-time-index/
+
+OK.
+
+2016-07
+
+https://www.janestreet.com/puzzles/number-cross-3-index/
+
+Starting to struggle to care might hop back in this commentary mix I mean the earliest ones were very surprisingly interesting I don't know if these more pure logicky ones are or are not lame.
+
+2016-06
+
+https://www.janestreet.com/puzzles/get-out-the-vote-index/
+
+Just OK.
+
+2016-05
+
+https://www.janestreet.com/puzzles/hooks-2-index/
+
+OK.
+
+2016-04
+
+https://www.janestreet.com/puzzles/long-journey-index/
+
+Long. Journey. To me the title suggests that one solve for 6 integers I can't be quite sure what the long journey is about.
+
+2016-03
+
+https://www.janestreet.com/puzzles/knight-moves-index/
+
+OK.
+
+2016-02
+
+https://www.janestreet.com/puzzles/travel-agent-index/
+
+OK.
+
+2016-01
+
+https://www.janestreet.com/puzzles/professor-rando-redux-index/
+
+Boring.
+
+2015-12
+
+https://www.janestreet.com/puzzles/professor-rando-index/
+
+Pretty boring puzzle but BitcoinsAreAmazing is an interesting name [just kidding] for parents to give their child circa 2000, rather prescient. I personally think that the Jane firm should force realish names and somehow cut the spams submissions.
+
+2015-11
+
+https://www.janestreet.com/puzzles/pair-dance-index/
+
+Onsight fakesolve the permanent of the 32x32 bipartite adjacency matrix. I have a performant C++ implementation from Code Golf "Calculate The Permanent As Quickly As Possible".
+
+2015-10
+
+https://www.janestreet.com/puzzles/hex-agony-index/
+
+I saw this one a long long long time ago maybe at some point during my Caltech undergraduate years. Not trivial.
+
+2015-09
+
+https://www.janestreet.com/puzzles/think-of-the-children-index/
+
+OK.
+
+2015-08
+
+https://www.janestreet.com/puzzles/number-cross-2-index/
+
+OK.
+
+2015-07
+
+https://www.janestreet.com/puzzles/good-chemistry-index/
+
+Don't think this one was too tricky.
+
+2015-06
+
+https://www.janestreet.com/puzzles/polymath-index/
+
+There do not exist that many 7ominoes and for each one it is easy to brute force casework each possible orientation and position and then compute the maximum number of mutually exclusive in a set such as the depicted one so one could code this up and produce the other set.
+
+2015-05
+
+https://www.janestreet.com/puzzles/tic-tac-oh-index/
+
+Onsight.
+
+2015-04
+
+https://www.janestreet.com/puzzles/hall-of-mirrors-index/
+
+OK.
+
+2015-03
+
+https://www.janestreet.com/puzzles/ticker-treat-index/
+
+It would appear that Scott Duke Kominers made a reference to the title of this one. Also Tit For Tat was similar in some ways and perhaps I ought to note patterns in their T T textual experiences so I will be sure to not miss the next one!
+
+SWI	SOLAR WINDS
+F	FORD
+T	AT&T
+P	PANDORA
+ACE	ACE
+
+SWIFT PACE
+
+SPRINT stock ticker S.
+
+2015-02
+
+https://www.janestreet.com/puzzles/oh-chute-index/
+
+Hint for sure here might have cracked on the title update.
+
+2015-01
+
+https://www.janestreet.com/puzzles/oh-shoot-index/
+
+Gee, tricky tricky tricky. Need to pay more attention to titles.
+
+2014-12
+
+https://www.janestreet.com/puzzles/deck-the-cards-index/
+
+I gonna bona fide this one so one read of the title is that deck the cards is a command to the puzzler so are there patterns here and what sorting might do I mean translate to numbers or look at permutations and suits and ranks. Maybe colours to binary even. Interesting.
+
+2014-11
+
+https://www.janestreet.com/puzzles/wrong-division-index/
+
+I think in C++ a brute force with mild pruning is fast.
+
+2014-10
+
+https://www.janestreet.com/puzzles/minesweeping-index/
+
+Really fascinating and fun round I wish they did more open ended maximisation approximations tasks to deem a unique rank 1 winner!
+
+2014-09
+
+https://www.janestreet.com/puzzles/superflip-index/
+
+I guess that the standard back upsolve analysis here would be to Google the title. I think it would have fallen from there with an engine.
+
+2014-08
+
+https://www.janestreet.com/puzzles/number-cross-index/
+
+OK.
+
+2014-07
+
+https://www.janestreet.com/puzzles/chain-reaction-index/
+
+Interesting.
+
+2014-06
+
+https://www.janestreet.com/puzzles/question-mark-index/
+
+Fun, creative, fascinating little one might have needed to tinker with this one for awhile or not solved at all really.
+
+2014-05
+
+https://www.janestreet.com/puzzles/tile-and-trouble-index/
+
+So the sum of all elements gives density expected value of element argumentation to deduce sum of cubes and overall sense for density pushing 5x5 and 4x4 maybe followed by natural each row being a sum of squares perhaps with some modulo argumentations.
+
+2014-04
+
+https://www.janestreet.com/puzzles/chess-pains-white-to-move-index/
+
+Really creative and interesting one I think it would have taken me either hours or onsight depending on chess engines solvers.
+
+2014-03
+
+https://www.janestreet.com/puzzles/altered-states-index/
+
+I don't like this one or any word list program puzzles. I frankly have 0 interest in them.
+
+2014-02
+
+https://www.janestreet.com/puzzles/hooks-index/
+
+Some of the sums are very large and some very small and those enable severe deductions.
+
+2014-01
+
+https://www.janestreet.com/puzzles/sum-of-squares-index/
+
+I don't know how to do this one really computationally I mean eyeball guessing and then hoping to minimise error from there.
+
+Why Puzzles
+
+First words in sentences.
+
+What's the only even prime number plus one?
+
+3
+
+Note that the text file formatting suggests raw text is what is relevant, not browser specific structural appearance. Insofar as I can discern, there exist a number of firms that compare puzzling with their work in writing on their websites so... maybe one day one of them gives me a job offer so I can quantitatively puzzle with them. In terms of puzzles manifesto or whatever I mean these can be pretty good fun ad hoc de novo forces but frankly Project Euler is the king crown jewel and to be Eulerian Rank 1 would be a potential major major major life milestone. These are frankly mostly pretty midbrow, some are textbook exercises, some are tricky textbook exercises, and some rise slightly beyond.

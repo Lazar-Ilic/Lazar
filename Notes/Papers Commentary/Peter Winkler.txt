@@ -1,0 +1,564 @@
+OK legendary legend I met him in the flesh.
+
+		Seven Puzzles You Think You Must Not Have Heard Correctly
+
+Great one as were all of his Gathering 4 Gardner talks and associated Notes and papers.
+
+	Model-completeness and Skolem expansions, P. Winkler, Interactions between Model Theory and Algebra: A Memorial Tribute to Abraham Robinson, D. Saracino and V. Weispfenning, eds., Springer-Verlag, Berlin, Lecture Notes in Mathematics Vol. 498 (1975), pp. 408-463.
+
+
+
+	Computational characterization of abelian groups, P. Winkler, The Kleene Symposium (Madison, WI, June 1978), J. Barwise, H.J. Keisler and K. Kunen (editors), North-Holland, Amsterdam, 1980, pp. 423-428.
+
+
+
+	On connectivity of triangulations of manifolds, P. Winkler, Discrete Math. 32 (1980), pp. 93-94.
+
+
+
+	Classification of algebraic structures by work space, P. Winkler, Algebra Universalis 11 (1980), pp. 320-333.
+
+
+
+	Graphic characterization of k-trees, P. Winkler, Congressus Numerantium 37 (1981), pp. 349-357.
+
+
+
+	Degree sets of k-trees: small k, R.A. Duke and P. Winkler, Israel J. Math. 40 (1981), pp. 296-306.
+
+
+
+	Average height in a partially ordered set, P. Winkler, Discrete Math 39 (1982), pp. 337-341.
+
+
+
+	On computability of the mean deviation, P. Winkler, Information Processing Letters 15 (1982), pp. 36-38.
+
+
+
+	Minimizing setups in cycle-free ordered sets, D. Duffus, I. Rival and P. Winkler, Proc. Amer. Math. Soc. 85 (1982), pp. 509-513.
+
+
+
+	A simple Venn diagram of five triangles (note), B. Grunbaum and P. Winkler, Math. Magazine 55:5 (1982), p. 311.
+
+
+
+	Realizability of almost all degree sets by k-trees, R.A. Duke and P. Winkler, Congressus Numerantium 35 (1982), pp. 261-274.
+
+
+
+	Vertex-to-vertex pursuit in a graph, R. Nowakowski and P. Winkler, Discrete Math. 43 (1983), pp. 235-239.
+
+
+
+	Correlation among partial orders, P. Winkler, SIAM J. on Algebraic and Discrete Methods 4:1 (1983), pp. 1-7.
+
+
+
+	On families of finite sets with bounds on unions and intersections, C. Bang, H. Sharp Jr. and P. Winkler, Discrete Math. 45 (1983), pp. 123-126.
+
+
+
+	Degree sets of k-trees: small degrees, R.A. Duke and P. Winkler, Utilitas Mathematica 23 (1983), pp. 177-200.
+
+
+
+	Existence of graphs with a given set of r-neighborhoods, P. Winkler, J. Combinatorial Theory (B) 34:2 (1983), pp. 165-176.
+
+
+
+	Proof of the squashed cube conjecture, P. Winkler, Combinatorica 3:1 (1983), pp. 135-139.
+
+
+
+	Polynomial hyperforms, P. Winkler, Algebra Universalis 17 (1983), pp. 101-109.
+
+
+
+	Isometric embedding in products of complete graphs, P. Winkler, Discrete Applied Math. 7 (1984), pp. 221-225.
+
+
+
+	On coverings of a finite set: depth and subcovers, C. Bang, H. Sharp Jr. and P. Winkler, Periodica Math. Hungarica 51:1 (1984), pp. 51-60.
+
+
+
+	Isometric embeddings of graphs, R.L. Graham and P. Winkler, Proc. Natl. Acad. Sci. USA 81 (1984), pp. 7259-7260.
+
+
+
+	Venn diagrams: some observations and an open problem, P. Winkler, Congressus Numerantium 45 (1984), pp. 267-274.
+
+
+
+	On the addressing problem for directed graphs, F.R.K. Chung, R.L. Graham and P. Winkler, Graphs and Combinatorics 1:1 (1985), pp. 41-50.
+
+
+
+	Random orders, P. Winkler, ORDER 1 (1985), pp. 317-331.
+
+
+
+	On isometric embeddings of graphs, R.L. Graham and P. Winkler, Trans. Amer. Math. Soc. 288:2 (1985), pp. 527-536.
+
+
+
+	On graphs which are metric spaces of negative type, P. Winkler, Graph Theory and its Applications to Algorithms and Computer Science, Y. Alavi (editor), John Wiley & Sons, New York, 1985, pp. 801-810.
+
+
+
+	Connectedness and diameter for random orders of fixed dimension, P. Winkler, ORDER 2 (1985), pp. 165-171.
+
+
+
+	Comparability invariance of the fixed point property, B. Dreesen, W. Poguntke and P. Winkler, ORDER 2 (1985), pp. 269-274.
+
+
+
+	Collapse of the metric hierarchy for bipartite graphs, R.L. Roth and P. Winkler, European J. Combinatorics 7 (1986), pp. 371-375.
+
+
+
+	Correlation and order, P. Winkler, Contemporary Mathematics 57 (1986), pp. 151-174.
+
+
+
+	On the regular part of varieties of algebras, E. Graczyńska, D. Kelly and P. Winkler, Algebra Universalis 23 (1986), pp. 77-84.
+
+
+
+	Mean distance and the four-thirds conjecture, P. Winkler, Congressus Numerantium 54 (1986), pp. 63-72.
+
+
+
+	Every connected graph is a query graph, P. Winkler, J. Graph Theory 11:2 (1987), pp. 231-234.
+
+
+
+	Factoring a graph in polynomial time, P. Winkler, European J. Combinatorics 8 (1987), pp. 209-212.
+
+
+
+	The metric structure of graphs: theory and applications, P. Winkler, Surveys in Combinatorics 1987/Invited Papers for the Eleventh British Combinatorial Conference, C. Whitehead (editor), Cambridge U. Press, 1987, pp. 196-221.
+
+
+
+	Arithmetic progressions in partially ordered sets, W.T. Trotter and P. Winkler, ORDER 4 (1987), pp. 37-42.
+
+
+
+	Recent results in the theory of random orders, P. Winkler, Applications of Discrete Mathematics, R.D. Ringeisen and F.S. Roberts (editors), SIAM Publications, Philadelphia, PA, 1988, pp. 59-64.
+
+
+
+	The longest chain among random points in Euclidean space, B. Bollobás and P. Winkler, Proc. Amer. Math. Soc. 103:2 (1988), pp. 347-353.
+
+
+
+	The complexity of metric realization, P. Winkler, SIAM J. Disc. Math. 1:4 (1988), pp. 552-559.
+
+
+
+	A Ramsey-type theorem for orderings of a graph, V. Rödl and P. Winkler, SIAM J. Disc. Math. 2:3 (1989), pp. 402-406.
+
+
+
+	A counterexample in the theory of random orders, P. Winkler, ORDER 5 (1989), pp. 363-368.
+
+
+
+	Bandwidth versus bandsize, P. Erdös, P. Hell and P. Winkler, Graph Theory in Memory of G.A. Dirac, L.D. Andersen et al. (editors), North-Holland, Amsterdam, 1989, pp. 117-129.
+
+
+
+	Sphere Orders, G. Brightwell and P. Winkler, ORDER 6 (1989), pp. 235-240.
+
+
+
+	Mean distance in a tree, P. Winkler, Discrete Applied Math. 27 (1990), pp. 179-185.
+
+
+
+	Maximum hitting time for random walks on graphs, G. Brightwell and P. Winkler, J. Random Structures and Algorithms 1:3 (1990), pp. 263-276. PDF file
+
+
+
+	Maximal chains and antichains in Boolean lattices, D. Duffus, B. Sands and P. Winkler, SIAM J. Disc. Math., 3:2 (1990), pp. 197-205.
+
+
+
+	Extremal cover time for random walks on trees, G. Brightwell and P. Winkler, J. Graph Theory 14:5 (1990), pp. 547-554.
+
+
+
+	Extremal problems for random walks on graphs, P. Winkler, Graph Theory Notes of New York XIX, New York Acad. Sci., 1990, pp. 18-25.
+
+
+
+	Computing with snakes in directed networks of automata, S. Even, A. Litman and P. Winkler, Proc. 31st IEEE Symp. on the Foundations of Computer Science, 1990, pp. 740-745.
+
+
+
+	Random intervals, J. Justicz, E. Scheinerman and P. Winkler, Amer. Math. Monthly 97:10 (1990), pp. 881-889.
+
+
+
+	Counting linear extensions is #P-complete, G. Brightwell and P. Winkler, Proc. 23rd ACM Symposium on the Theory of Computing, 1991, pp. 175-181. PostScript file
+
+
+
+	On a random walk problem arising in self-stabilizing token management, P. Tetali and P. Winkler, Proc. 10th ACM Symp. on the Principles of Distributed Computing, 1991, pp. 273-280.
+
+
+
+	On the number of k-realizations of an ordered set, D. Duffus and P. Winkler, ORDER 7:3 (1991), pp. 267-273.
+
+
+
+	The number of t-wise balanced designs, C. Colbourn, D. Hoffman, K. Phelps, V. Rödl and P. Winkler, Combinatorica 11:3 (1991), pp. 207-218.
+
+
+
+	Random orders of dimension 2, P. Winkler, ORDER 7:4 (1991), pp. 329-339.
+
+
+
+	On the number of Eulerian orientations of a graph, M. Mihail and P. Winkler, Proc. 3rd ACM-SIAM Symposium on Discrete Algorithms, 1992, pp. 138-145.
+
+
+
+	On playing "twenty questions" with a liar, A. Dhagat, P. Gacs and P. Winkler, Proc. 3rd ACM-SIAM Symposium on Discrete Algorithms, 1992, pp. 16-22. PostScript file
+
+
+
+	Counting linear extensions, G. Brightwell and P. Winkler, ORDER 8:3 (1992), pp. 225-242. PostScript file
+
+
+
+	Target shooting with programmed random variables, G. Brightwell, T. Ott and P. Winkler, Proc. 24rd ACM Symp. on the Theory of Computing, 1992, pp. 691-698. PostScript file
+
+
+
+	Three thresholds for a liar, J. Spencer and P. Winkler, Combinatorics, Probability and Computing 1:1 (1992), pp. 81-93. PostScript file
+
+
+
+	Recent results: proof checking and approximability, P. Winkler, Newsletter of the SIAM Activity Group on Discrete Mathematics 2:4 (1992), pp. 7-8 (expository). PostScript file
+
+
+
+	Fast information sharing in a complete network, V.S. Sunderam and P. Winkler, Disc. Appl. Math. 42 (1993), pp. 75-86. PostScript file
+
+
+
+	Collisions among random walks on a graph, D. Coppersmith, P. Tetali and P. Winkler, SIAM J. Disc. Math. 6:3 (1993), pp. 363-374. PostScript file
+
+
+
+	Simultaneous reversible Markov chains, P. Tetali and P. Winkler, Combinatorics, Paul Erdös is Eighty Vol. 1, D. Miklos, V.T. Sos and T. Szonyi (editors), Janos Bolyai Mathematics Institute, Budapest, 1993, pp. 433-452. PostScript file
+
+
+
+	A note on the last new vertex visited by a random walk, L. Lovász and P. Winkler, J. Graph Theory 17:5 (Nov. 1993), pp. 593-596.
+
+
+
+	Random structures and zero-one laws, P. Winkler, Finite and Infinite Combinatorics of Sets and Logic, N. Sauer, R. Woodrow and B. Sands, eds., NATO Advanced Science Institutes Series, Kluwer Academic Publishers, Kluwer Academic, Dordrecht, 1993, pp. 399-420.
+
+
+
+	Interval orders and linear extension cycles, G. Brightwell, P. Fishburn and P. Winkler, Ars Combinatoria 36 (1993), pp. 283-288.
+
+
+
+	Bounding the vertex cover number of a hypergraph, G.-L. Ding, P.D. Seymour and P. Winkler, Combinatorica 14:1 (1994), pp. 23-34. PostScript file
+
+
+
+	Control of acousto-optical tunable filters in a 4x4 Benes network, P. Winkler, Bellcore Technical Memorandum TM-24252, 1994.
+
+
+
+	On the size of a random maximal graph, P. Erdös, S. Suen and P. Winkler, J. Random Structures and Algorithms 6:2-3 (1995), pp. 309-318. PostScript file
+
+
+
+	Packing random intervals, E.J. Coffman, B. Poonen and P. Winkler, Prob. Theory Relat. Fields 102 (1995), pp. 105-121. PostScript file
+
+
+
+	The spanning tree enumeration problem for digraphs, N. Dean, A.K. Kelmans, K.-W. Lih, W.A. Massey and P. Winkler, Graph Theory, Combinatorics, and Applications, Y. Alavi and A. Schwenk (editors), John Wiley & Sons, New York, 1995, pp. 277-287. PostScript file
+
+
+
+	Monotone Gray codes and the middle levels problem, C. Savage and P. Winkler, J. Comb. Theory (A) 70:2 (May 1995), pp. 230-248. PostScript file
+
+
+
+	Efficient stopping rules for Markov chains, L. Lovász and P. Winkler, Proc. 27th ACM Symp. on the Theory of Computing, 1995, pp. 76-82. PostScript file
+
+
+
+	Exact mixing in an unknown Markov chain, L. Lovász and P. Winkler, Electronic J. Comb. 2 (1995), Paper R15. PostScript file
+
+
+
+	A key escrow system with warrant bounds, A. Lenstra, P. Winkler and Y. Yacobi, CRYPTO '95, 1995, pp. 197-207. PostScript file
+
+
+
+	Mixing of random walks and other diffusions on a graph, L. Lovász and P. Winkler, Surveys in Combinatorics, 1995, P. Rowlinson (editor), 1995, pp. 119-154, London Math. Soc. Lecture Note Series 218. PostScript file
+
+
+
+	Target shooting with programmed random variables, G. Brightwell, T.J. Ott and P. Winkler, Annals of Appl. Prob. 3:5 (1995), pp. 834-853. PostScript file
+
+
+
+	On the isolation of a common secret, D. Beaver, S. Haber and P. Winkler, The Mathematics of Paul Erdös Vol. II, R. Graham and J. Nesetril (editors), Springer-Verlag, Berlin, 1996. PostScript file
+
+
+
+	Comparing information without leaking it: simple solutions, R. Fagin, M. Naor and P. Winkler, Communications of the A.C.M. 39:5 (1996), pp. 77-85. PostScript file
+
+
+
+	On the number of Eulerian orientations of a graph, M. Mihail and P. Winkler, Algorithmica 16 (1995), pp. 402-414.
+
+
+
+	Multiple cover time, D. Zuckerman and P. Winkler, Random Structures and Algorithms 9 (1996), pp. 403-411. PostScript file
+
+
+
+	Shuffling biological sequences, D. Kandel, Y. Matias, R. Unger and P. Winkler, Disc. Appl. Math. 71 (1996) (special issue on Computational Molecular Biology), pp. 171-185. PostScript file
+
+
+
+	Mean distance and minimum degree, M. Kouider and P. Winkler, J. Graph Theory 25:1 (May 1997), pp. 95-99.
+
+
+
+	Computing with snakes in directed networks of automata, S. Even, A. Littman and P. Winkler, J. Algorithms 24 (1997), pp. 158-170. PostScript file
+
+
+
+	Mixing times for uniformly ergodic Markov chains, D. Aldous, L. Lovász and P. Winkler, Stochastic Processes and their Applications 71 (1997), pp. 165-185. PostScript file
+
+
+
+	The ring loading problem, A. Schrijver, P.D. Seymour and P. Winkler, SIAM J. Discrete Math. 11:1 (1998), pp. 1-14. PostScript file
+
+
+
+	Reversal of Markov chains and the forget time, L. Lovász and P. Winkler, Combinatorics, Probability and Computing 7:1 (1998), pp. 189-204. PostScript file
+
+
+
+	Ramsey theory and sequences of random variables, W.T. Trotter and P. Winkler, Combinatorics, Probability & Computing 7:1 (1998), pp. 221-238. PostScript file
+
+
+
+	Ring routing and wavelength translation, G. Wilfong and P. Winkler, Proc. Symp. on Discrete Algorithms, 1998, pp. 333-341. PostScript file
+
+
+
+	Mixing times, L. Lovász and P. Winkler, Microsurveys in Discrete Probability, D. Aldous and J. Propp, eds., DIMACS Series in Discrete Math. and Theoretical Computer Science 41, Amer. Math. Soc., Providence RI, 1998, pp. 85-134. PostScript file
+
+
+
+	Nonmonotonic behavior in hard-core and Widom-Rowlinson models, G. Brightwell, O. Häggström and P. Winkler, J. Stat. Physics 94 (1999), pp. 415-435. PostScript file
+
+
+
+	Graph homomorphisms and phase transitions, G. Brightwell and P. Winkler, J. Comb. Theory (Series B) 77 (1999), pp. 415-435. PostScript file
+
+
+
+	The ring loading problem, reprinted from SIAM Discrete with updates, A. Schrijver, P.D. Seymour and P. Winkler, SIAM Review 41 (Dec. 1999), pp. 777-791. PostScript file
+
+
+
+	Dependent percolation and colliding random walks, P. Winkler, Random Structures & Algorithms 16:1 (2000), pp. 58-84. PostScript file
+
+
+
+	Optimal linear arrangement of a rectangular grid, P. Fishburn, P. Tetali and P. Winkler, Discrete Math. 213 (2000), pp. 123-139. PostScript file
+
+
+
+	Time slot allocation in wireless TDMA, S.C. Borst, E.G. Coffman, E.N. Gilbert, P.A. Whiting and P. Winkler, in: System Performance Evaluation, Methodologies and Applications, E. Gelenbe, ed., CRC Press, Boca Raton (2000), pp. 203-213.
+
+
+
+	Gibbs measures and dismantlable graphs, G. Brightwell and P. Winkler, J. Comb. Theory (Series B) 78 (2000), pp. 141-169. PostScript file
+
+
+
+	Optimal carrier sharing in wireless TDMA, S. Borst, E. Coffman, E. Gilbert, P. Whiting and P. Winkler, J. Interconnection Networks 2:2 (2001), pp. 189-211. PostScript file
+
+
+
+	Packing random rectangles, E.J. Coffman, G.S. Lueker, J. Spencer and P. Winkler, Prob. Theory Relat. Fields 120 (2001), pp. 585-599. PostScript file
+
+
+
+	Games people don't play, Puzzlers' Tribute, David Wolfe and Tom Rodgers, eds., A K Peters Ltd. (2001). PostScript file
+
+
+
+	Optimality and greed in dynamic allocation, J. Algorithms 41:2 (2001), pp. 244-261. PostScript file
+
+
+
+	Universal configurations in light-flipping games, Y. Dodis and P. Winkler, Proc. 12th ACM-SIAM Symp. on Disc. Algs., Washington DC (2001), pp. 926-927. PostScript file
+
+
+
+	Information about information, S. Savari and P. Winkler, Proc. 2001 IEEE Int. Symp. Info. Thy., Washington, D.C., p. 22.
+
+
+
+	Packing rectangles in a strip, E.G. Coffman, P.J. Downey and P. Winkler, Acta Informatica 38 (2002), pp. 673-693. PostScript file
+
+
+
+	Random colorings of a Cayley tree, G. Brightwell and P. Winkler, Contemporary Combinatorics, B. Bollobás, ed., Bolyai Society Mathematical Studies (2002), pp. 247-276. PostScript file
+
+
+
+	Hard constraints and the Bethe lattice: adventures at the interface of combinatorics and statistical physics, G. Brightwell and P. Winkler, Proc. Int'l. Congress of Mathematicians Vol. III, Li Tatsien, ed., Higher Education Press, Beijing (2002), pp. 605-624. PostScript file
+
+
+
+	Clustering and server selection using passive monitoring, D.M. Andrews, F.B. Shepherd, A. Srinivasan, P.M. Winkler and F.X. Zane, Proc. IEEE Conf. on Computer Communications (INFOCOM) 2002. PostScript file
+
+
+
+	Wide-sense nonblocking WDM cross-connects, P. Haxell, A. Rasala, G. Wilfong and P. Winkler, Proc. 10th European Symp. on Algorithms (ESA '02), Sept. 2002. PostScript file
+
+
+
+	Wavelength assignment and generalized interval graph coloring, P. Winkler and L. Zhang, Proc. Symp. Disc. Algorithms (SODA) 2003, pp. 830-831. PostScript file
+
+
+
+	Graph homomorphisms and long range action, G. Brightwell and P. Winkler, Graphs, Morphisms and Statistical Physics , DIMACS Series in Disc. Math. and Theoretical CS, American Mathematical Society (2004), pp. 29-48. PostScript file
+
+
+
+	On playing golf with two balls, I. Dumitriu, P. Tetali and P. Winkler, SIAM J. Disc. Math. 16:4 (2003), pp. 604-615. PostScript file
+
+
+
+	On the economics of multicasting, Y. Shavitt, P. Winkler and A. Wool, Netnomics 6:1 (April 2004), pp. 1-20. PostScript file
+
+
+
+	Five algorithmic puzzles, P. Winkler, in Tribute to a Mathemagician, E. Demaine, M. Demaine, B. Cipra and T. Rodgers, editors, AK Peters Ltd. (2004). PostScript file
+
+
+
+	Building uniformly random subtrees, M. Luczak and P. Winkler, Random Structures & Algorithms 24:4 (July 2004), pp. 420-443. PostScript file
+
+
+
+	A second threshold for the hard-core model on a Bethe lattice, G.R. Brightwell and P. Winkler, Random Structures & Algorithms 24 (2004), pp. 303-314. PostScript file
+
+
+
+	Mixing points in an interval, D. Randall and P. Winkler, Proc. 7th ALENEX & 2nd ANALCO 2005 (Vancouver BC), C. Demetrescu, R. Sedgewick and R. Tamassia, eds, SIAM Press, pp. 216--221. PostScript file
+
+
+
+	Counting Eulerian circuits is #P-complete, G.R. Brightwell and P. Winkler, Proc. 7th ALENEX & 2nd ANALCO 2005 (Vancouver BC), C. Demetrescu, R. Sedgewick and R. Tamassia, eds, SIAM Press, pp. 259-262. PostScript file
+
+
+
+	Mixing points in a circle, D. Randall and P. Winkler, in Approximation, randomization and combinatorial optimization, Lecture Notes in Comput. Sci. #3624, Springer, Berlin, 2005; pp. 426-435 (MR2193706). PostScript file
+
+
+
+	Fluid/solid transition in a hard-core system, L. Bowen, R. Lyons, C. Radin and P. Winkler, Phys. Rev. Lett. 96, 025701 (2006). PostScript file
+
+
+
+	Dominating sets in k-majority tournaments, N. Alon, G.R. Brightwell, H.A. Kierstead, A.V. Kostochka and P. Winkler, J. Comb. Theory B 96:3 (May 2006), pp. 374-387. PDF file
+
+
+
+	Data synchronization methods based on ShuffleNet and Hypercube for networked information systems, D. Houck, K. Leung and P. Winkler, Proc. IEEE INFOCOM 2006.
+
+
+
+	A solidification phenomenon in random packings, L. Bowen, R. Lyons, C. Radin and P. Winkler, SIAM J. Math. Anal. 38 #4 (2006), 1075-1089. PostScript file
+
+
+
+	Maximum overhang, M. Paterson, Y. Peres, M. Thorup, P. Winkler and U. Zwick, extended abstract, Proc. ACM/SIAM Symp. on Discrete Algorithms (SODA) 2008. PDF file
+
+
+
+	On a form of coordinate percolation, E. Moseman and P. Winkler, Combinatorics, Probability and Computing 17 #6 (Nov. 2008), 837-845. PDF file
+
+
+
+	Sorting by Placement and Shift, S. Elizalde and P. Winkler, Proc. ACM/SIAM Symp. on Discrete Algorithms (SODA) 2009. PDF file
+
+
+
+	Branched Polymers, R. Kenyon and P. Winkler, Am. Math. Monthly 116 #7 (Aug-Sept 2009), 612-628. PDF file ; PPT presentation
+
+
+
+	Submodular percolation, G.R. Brightwell and P. Winkler, SIAM J. Disc. Math 23 #3, 1149-1178. PDF file
+
+
+
+	Maximum overhang, M. Paterson, Y. Peres, M. Thorup, P. Winkler and U. Zwick, Am. Math. Monthly 116 #9 (November 2009), 763-787. PDF file
+
+
+
+	Building graphs from colored trees, R. Esselstein and P. Winkler, Electr. J. Comb. 17 #1 (2010). PDF file
+
+
+
+	Two-color Babylon, A. Georgakopoulos and P. Winkler, Integers 12 (2012), Article G1
+
+
+
+	Impeding forgers at photo inception, H. Farid and M. Kirchner, P. Winkler and H. Farid, Media Watermarking, Security, and Forensics 2013 (Proceedings of SPIE, 2/5-7 2013, Volume 8665), A.M. Alattar, N.D. Memon and C.D. Heitzenrader, eds., 26 March 2013.
+
+
+
+	Avoidance Coupling, O. Angel, A. Holroyd, J. Martin, D.B. Wilson and P. Winkler, Elec. Comm. Probab. 18 #58 (2013), article
+
+
+
+	The phase transition for dyadic tilings, O. Angel, A. Holroyd, G. Kozma, J. Wastlund and P. Winkler, Trans. AMS, to appear.
+
+
+
+	Can extra updates slow mixing?, Y. Peres and P. Winkler, Communications in Mathematical Physics, to appear.
+
+
+
+	Firefighting on geometric graphs with density bounds, A. Barghi and P. Winkler, Ars Combinatoria, to appear. PDF file
+
+
+
+	New bounds for edge-cover by random walk, A. Georgakopoulos and P. Winkler, Comb. Probab. Comput., to appear. PDF file.
+
+
+
+	Firefighting on a random geometric graph, A. Barghi and P. Winkler, Random Structures & Algorithms, to appear.
+
+
+
+	Hunter, Cauchy rabbit and optimal Kakeya sets, Y. Babichenko, Y. Peres, R. Peretz, P. Sousi and P. Winkler, Trans. AMS, to appear.
+
+
+
+	Mixing times and moving targets, P. Sousi and P. Winkler, Comb. Probab. Comput., to appear.
+

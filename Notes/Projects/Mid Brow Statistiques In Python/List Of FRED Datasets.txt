@@ -1,0 +1,1 @@
+Well I thought it would be useful to scrape every single Dataset from the Kaggle platform so that the readership could get some senses for the sorts of extant datasets which exist there in their ideations sessions... dunno suppose I should figure out how to do this over simply clicking through.

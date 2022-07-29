@@ -1,0 +1,63 @@
+Determine The Determinants
+
+There is a matrix A and a vector B and you must print out the determinant of each matrix which results from replacing a column of A with B.
+
+Input
+
+
+Output
+
+
+Constraints
+
+
+Example
+
+
+Input:
+
+
+Output:
+
+
+Tutorial:
+Compute |A| * A^{-1} * B
+
+
+
+Variant: make a tricky sub task for each bucket.
+
+Variant: somehow incorporate some tricky polynomials insights
+
+Apples And Buckets
+
+There are n buckets of indistinguishable apples. Your task is to count the number of ways you can select some number of apples in a range.
+
+Input
+
+The first input line has the integer n,a,b: the number of buckets, the minimum allowed, and maximum allowed number of apples.
+
+The next line contains n integers c1,c2,...,cn: the number of apples in each bucket.
+
+Output
+
+Print one integer: modulo 1000000007, the number of ways to select between a and b apples inclusive e.g. the number of n-tuples of nonnegative integers (d1,d2,...,dn) such that 0<=di<=ci and a<=sum di<=b.
+
+Constraints
+
+0<=n<=100000
+0<=a,b<=100000
+1<=ci<=100000
+1<=sum ci<=500000
+
+Example
+
+Input:
+4 3 5
+2 3 4 5
+
+Output:
+90
+
+Tutorial:
+See file but target is amortized analysis O(n * (log n)^2), optimal processing order taking the 2 smallest, number theoretic convolution Fast Fourier Transform of the generating function i.e. the vector [1,1,1,1....,1]

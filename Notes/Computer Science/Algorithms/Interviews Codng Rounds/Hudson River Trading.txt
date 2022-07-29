@@ -1,0 +1,326 @@
+Might see about tasks, throwing up some tasks from their August 2022 recruiting cycle past that date which are in fact live in public on GlassDoor e.g.
+
+According to AlgoDaily:
+
+	Detect A Cycle In An Undirected Graph
+
+So cycle detection is an extremely canonical task in algorithms and competitive programming. The famous Tortoise And Hare Algorithm and Brent's Algorithm are both famous with lower memory usage. The most standard approach is a simple Depth First Search until a back edge and hence a cycle is detected. There exists much further literature and an extant start point here is the Wikipedia page.
+
+	Shortest Path Distance In Matrix
+
+I dunno if I read this task right but the actual technical input and output details have not been made quite clear. Depending on the input array say check if one can simply memory usage by modifying the input array in place. One approach is a simple floodfill from point A outwards say initiate A to 0 and then add neighbours to a queue and if the current dude has yet to be evaluated simply take the minimum of its neighbours + 1 as its value. I suppose this is a Breadth First Search ensured to terminate halt at the minimum Breadth First Search level. One might bring up alternate potential algorithms supposing that we have some expectations about input and can be like e.g. trying at first ab initio to be directionally quite greedy in some expansion or perhaps a multi phase approach.
+
+In any case if we consider say a case where like there exists a relatively short path kind of mazey around in some block of walls and then also paths around the walls it becomes rather quickly clear that even this task is at least half interesting and I am not sure that very strong algorithms are canonical.
+
+	Maximum Per Level
+
+Would strike me as trivial one can simply do a Breadth First Search and have a compare for each element with the relevant entry in the output array of maxima where one must set this not to be 0s initially but -1000000000s.
+
+	Swap Every Two Nodes In A Linked List
+
+OK given presented solution one would think that a simple pointer rearrangement in place approach would work perhaps having 1 temp temporary variable as needed for modifications. Rather than wasting memory building up a new one with the relevant memory pointers.
+
+	Implement A Binary Search Tree
+
+Canonical.
+
+	Traverse A Matrix In Spiral Order
+
+I think this appears in LeetCode however again I would be aspiring to do better and outperform. So one Bad algorithm I think would be to simply store a current direction, and follow it until hitting an edge, or a maximum variable to be changed later, with a compare operation taking place each time. Oh yikes critical error duh this proposed algorithm in for loops still executes those compares operations duh duh duh. We definitely want to avoid that compare operation taking place so it is much wiser to instead say note that for example say it was a 5x5 then we will do 4 Ups, 4 Rights, 4 Downs, 3 Lefts, 1 Up and then be in the same position with respect to the induced 3x3 here. So we can I think simply execute a big for or while loop with an internal set of loops. I think 1 big for loop works just fine frankly. But attention to detail and caution on boundary cases and e.g. when we get to a say final 1xn or nx1 must be handled and dealt with quite carefully.
+
+	Levenshtein Edit Distance
+
+Super canonical competitive programming implementations are Good.
+
+	Next Greater Element In A Circular Array
+
+The simplest algorithm to generate the desired output target array is again I think a simple stack approach works here as usual CSES style unsure.
+
+	Some GlassDoor Maybe Low Quality Copy Pasta From Like 12 Months Back Maybe Maybe Maybe Process Through Some Stuff Here Shortly
+
+	What do you know about Inode?
+
+	What is the difference between RAID 5 and RAID 6?
+
+	Any alternative to ls command?
+
+	Why du and df might have discrepancies?
+
+	What does the following command do?
+	mv *
+
+	How to install Linux on 100 compute node easily?
+
+	What is the difference between soft and hard link?
+
+	Takehome assessment sent with a lengthy timeline to complete. It was predicted to take 4-8 hours and it did take that much time. It required learning some new tools, and the project was self-checking, but the person reviewing got different results (incorrect) and there was no easy way of contesting this.
+
+	Programming project in Verilog language
+
+	Given a string containing only the characters 'A' 'B' 'C' 'D', return the string when all adjacent "AB" / "BA" and "CD" / "DC" pairs have been removed.
+
+	Given a graph (represented as an array) where nodes have value either 'A' or 'B', find the longest path where no two adjacent nodes have the same value.
+
+	Physical memory vs virtual memory. You have 4GB physical, but you allocate an 8Gb buffer. Is this possible? If so, how? How is the memory actually read as we traverse the memory?
+
+	Thread vs process, what's the difference? Talk about some common threading models.
+
+	What are some methods of inter-process communication. Between threads. Between processes.
+
+	Explain how a named pipe works (FIFO).
+
+	What does the inline keyword do in C++? What are the pros and cons?
+
+	How do virtual functions work in C++? Explain how vtable lookup works.
+
+	Map vs unordered_map in C++, how is each one implemented under the hood. What data structure is used.
+
+
+
+	Sql question has to deal with join concept and I used cte too. Python is about dataframe and need to join as well
+
+	Python decorators
+
+	Jason tags
+
+	Normal questions: count frequencies of things that can have equivalent representations, recursively calculate score for a string.
+
+	Troll question: given a string which may or may not contain newline characters, print a substring in a very specific format with many edge cases.
+
+	What kind of work environment you enjoy the most?
+
+	Calculating some algorithm in binary.
+
+	CV questions: ask some ML projects from the last company.
+
+	Heap Sort: Almost Sorted Array
+
+What? Just process through the first a dudes and then retain them in a heap reservoir popping out the minimum each time passing left to right works if for example no 2 dudes errm inversions occur with distance a or more >= a apart in the initial array.
+	
+	3x3 Colored Cube [surface Red], P[5 White 1 Red]?
+
+Assuming this is simply asking about a uniformly randomly selected sub cube of the 27 it is immediately quite clear that 6/27 = 2/9 of the cubes feature that face colour distribution.
+
+	Pearson coefficient definition and application
+
+	LeetCode questions were easy [similar to Quantitative Researcher/FAANG interviews]. Systems questions required deep knowledge on Operating Systems, memory, networking, etc.
+
+	Find the smallest positive integer that does not occur in a given sequence
+	A=[1,3,4,5]
+	return 2
+
+
+
+	Write an algorithm that returns if a string can be partitioned into k sized intervals with each k containing a specific amount of 1s [the string is binary].
+
+	Why Hudson River Trading?
+
+	Tell me about a time you had to work with someone different from you
+
+
+
+	Elaborate on x part of your resume
+
+
+
+	Tell me about a time you made a mistake.
+
+
+
+	Tell me about a time that you succeeded.
+
+See my Resume. Nearly every day I succeed mostly in getting some concrete actions, goals, targets done. Some readings, some ideations, some information processing, some manual labour, some work. I mean seriously odd question just can chime in that I hopped in the mix and had a global world shattering minimum latency edge on the Project Leonhard Euler Gold Medal round I won.
+
+	Why did you choose your major?
+
+I like maths. I was admitted into that major for undergraduate transfer at the University Of Texas At Austin.
+
+	Phone interview research + math; then 4 rounds of onsite interview: One round coding, one round data science [use pandas, prediction tasks], one round open-ended questions, one round behavioral. Signed non disclosure for the onsite part.
+
+	The interview was 30 minutes. He asked me some questions about operating systems and objected oriented programming and operating systems and some basic questions in algorithms and data structures. It was audio call.
+
+	He asked me System architecture and Operating Systems questions.
+
+	Tech interview on math 45 minutes, probability question, Bayes Theorem, random variable distributions, normal distribution;
+
+	Describe a recent interesting bug that you have resolved.
+
+	What's the purpose of 'yield' keyword?
+
+	How does hashtable works?
+
+	What happens in a lookup/insert operation when hashes of 2 different keys are the same?
+
+	What's the time complexity of hashtable ops (lookup/delete/insert)?
+
+	When does hashtable upsize/downsize? Runtime complexity?
+
+	How does computer memory work?
+
+	How does OS allocate memory to each process?
+
+	Virtual mem vs physical mem?
+
+	What happens when virtual mem exceeds physical mem?
+
+	Stack vs heap. What stores in which?
+
+	How does Global Interpreter Lock work? What's the advantage versus disadvantage of Global Interpreter Lock?
+
+	Are run time exceptions in C++ things you deal with through try/catch blocks? I would expect exceptions on out of bounds errors on vectors but NOT on arrays. If you use index [ whatever ] to access an element outside the array, I don't expect the compiler to help you at all. The behavior is undefined and BAD.
+
+	Kernel questions are fair questions to assess your understanding of operating systems, if that's required for a job. I would not be able to answer such questions.
+
+Key benefit of TCP Transmission Control Protocol over UDP User Datagram Protocol is that TCP Transmission Control Protocol is lossless.
+
+	Why are you interested in HRT?
+
+Yadda yadda some usual shtick about being fascinated by the markets, maths, statistics, game theory, algorithms, etc. and I guess one can mention all sorts of details from the street, Levels, compensation, and predicted future performance of the firm at large too even.
+
+The answer is reasonable but generic - it would work for any of their competitors just as well. To improve the answer, weave in something that is unique to the company you are interviewing with.
+
+	Which is better and why: list vs vector vs array - what's your answer for that?
+
+Uh I would suppose that one might chime in something about vector being industry standard in many setting due to being fairly performant dynamic array with reasonably fast deletions, insertions, lookups, dunno.
+
+	Implement String To Integer In C++
+
+stoi implementation may sound trivial but is not when you take into account all corner cases. What would you do if the input was 1234567890 and you had 16-bit integers to work with? I encourage you to seriously implement that and test with a bunch of corner cases.
+
+	Find 2 Numbers In An Array Summing To A Target
+
+Usual sort and 2 pointers.
+
+For the problem with finding two numbers in an array that add up to a target... How would you solve variation where you need to find two numbers whose sum is as close to the target as possible?
+
+Same but trivially modified.
+
+Certainly am free to have open Computer Systems as well as all notes documents on my machine quietly while doing a phone round in order to maximise interview performance and probability of securing the job.
+
+	How dictionary map works under the hood in Python.
+
+Well at the very least it's a relatively simple dynamic self extending hash map with hand waved O[1] lookup, delete, and insert operations but the next level of note is that the size of the hash increases with the number of elements inserted such that collision probability is kept to a reasonable low.
+
+	Basic algorithms question on deletion in an array.
+
+Unclear what this means precisely but it certainly came up in my online coding round that deletion in general is an O[n] operation however in the context of vectors, arrays, queues, stacks, and deques of course deletion from the relevant ends is O[1].
+
+	Optimisation problem, Statistics problem, Dynamic Programming problem.
+
+Well who can ever know what these things means but review statistics to be sure and consider that they may toss me an NP hard task and hope for a relatively tight performant polynomial approximation algorithms.
+
+	First round was a week long order router implementation. Then second round was an interview for checking concepts with respect to Linux, networking, and C++.
+
+It would be nice if they gave me a 168 hour task actually I would quite like that so I could contemplate ad nauseum and present them with 1 very high quality C file. I don't know that I know all the details of Linux and networking but I might recall some key ideas and learn some more things.
+
+	Questions related to the data structures binary trees, hash maps, and linked lists.
+
+Sounds trivial to me.
+
+	Quite a lot basic computer architecture knowledge. Including different aspects. Like C thread versus process, DNS, smart pointer. Quite a lot of basic complier information as well.
+
+Quote directly from StackExchange: A process is a collection of code, memory, data and other resources. A thread is a sequence of code that is executed within the scope of the process. You can (usually) have multiple threads executing concurrently within the same process.
+
+	Phone interview deep C++ questions, including implementation details of STL and memory allocation for the run time. Also ask C++ code run time exceptions. No algo questions during phone interview, only C++ questions.
+
+Well the implementation details of STL and malloc key ideas are well known and understood I don't quite know what they mean by run time exceptions I mean I know when core dumps will get thrown like out of bounds errors on vectors or arrays or trying to call an element from an empty set without checking nonempty first.
+
+	Explain STL implementations and malloc.
+
+Again this should be trivial.
+
+	Deep systems questions about memory management.
+
+Well OK I might know deep questions recall key ideas about the memory hierarchy, the fact that the machine specifics do matter, 1 2 3 caches etc. etc.
+
+	2nd round was a technical interview asking me about various C++ and kernel concepts.
+
+Don't know what various kernel concepts means quite clearly and precisely enough really these people should transcribe the literal tasks more.
+
+	Questions about memory, stack/heap, operating systems basics, networks (TCP/UDP).
+
+TCP is a connection-oriented protocol, whereas UDP is a connectionless protocol. A key difference between TCP and UDP is speed, as TCP is comparatively slower than UDP. Overall, UDP is a much faster, simpler, and efficient protocol, however, retransmission of lost data packets is only possible with TCP.
+
+	Why are you interested in HRT?
+
+I am extremely excited about math, computer science, and problem solving. Thus the automated high frequency trading space is naturally interesting and the HRT firm is a very top tier firm in that space and so I would love to join you all and learn and improve performance and algorithms.
+
+	Some basic networks question such as difference between TCP and UDP. Some concept questions about data structures such as which is better list vs vectors vs array and why.
+
+Quote directly from Google: TCP is a connection-oriented protocol, whereas UDP is a connectionless protocol. A key difference between TCP and UDP is speed, as TCP is comparatively slower than UDP. Overall, UDP is a much faster, simpler, and efficient protocol, however, retransmission of lost data packets is only possible with TCP. One would think C style arrays have superior performance and in some use cases Presley informed me that industry standard is vectors for basically memory management reasons not declaring up front allocational reasons.
+
+	Using C to implement stoi.
+
+This sounds extremely trivial just like loop through in whatever base whatever loop while loop long long or int and e.g. hold the relevant power and add like answer+=(S[a]-'0')*currentpower; or whatever.
+
+	Given a race track with 5 lanes, 25 bunnies, and no timer, how many races are required to find the top 3 fastest bunnies?
+
+At this point the firm says clearly on their website to be honest if you have seen a task before and this is so clearly flagrantly canonical to people who study puzzles. It may even appear in my own Github in the public written record and so I just instantly reply 7, of course each bunny must run in a race but run 5 races then the race amongst the 1st places at which point we can deduce from inequality chains the 7th and final race needed to discern the 2nd and 3rd fastest bunny.
+
+	Some in depth questions about polymorphism in C++.
+
+Blah.
+
+	Given an array of integers, find two numbers such that they add up to a specific target number. Follow up: what if it is the data type is double instead of int.
+
+Canonical. Sort in O(n log n) and 2 pointers from ends in O(n) iterating one in the relevant inequality direction until either halting on a solution or terminating at no solution. In C++ under some assumptions the double type might not work quite right with == calls unclear bring up epsilon precision stuff like check the delta is within a bound and consider that as == equality discovered.
+
+	How do you support multi-threading without kernel?
+
+http://www.it.uu.se/education/course/homepage/os/vt18/module-4/implementing-threads/
+
+
+Implementing Threads
+
+A thread library provides programmers with an API for creating and managing threads. Support for threads must be provided either at the user level or by the kernel.
+
+Kernel level threads are supported and managed directly by the operating system.
+
+User level threads are supported above the kernel in user space and are managed without kernel support.
+
+
+Kernel Level Threads
+
+Kernel level threads are supported and managed directly by the operating system.
+
+The kernel knows about and manages all threads.
+One process control block (PCP) per process.
+One thread control block (TCB) per thread in the system.
+Provide system calls to create and manage threads from user space.
+Advantages
+
+The kernel has full knowledge of all threads.
+Scheduler may decide to give more CPU time to a process having a large numer of threads.
+Good for applications that frequently block.
+Disadvantages
+
+Kernel manage and schedule all threads.
+Significant overhead and increase in kernel complexity.
+Kernel level threads are slow and inefficient compared to user level threads.
+Thread operations are hundreds of times slower compared to user-level threads.
+
+
+User Level Threads
+
+User level threads are supported above the kernel in user space and are managed without kernel support.
+
+Threads managed entirely by the run-time system (user-level library).
+Ideally, thread operations should be as fast as a function call.
+The kernel knows nothing about user-level threads and manage them as if they where single-threaded processes.
+Advantages
+
+Can be implemented on an OS that does not suport kernel-level threads.
+Does not require modifications of the OS.
+Simple representation: PC, registers, stack and small thread control block all stored in the user-level process address space.
+Simple management: Creating, switching and synchronizing threads done in user-space without kernel intervention.
+Fast and efficient: switching threads not much more expensive than a function call.
+Disadvantages
+
+Not a perfect solution (a trade off).
+Lack of coordination between the user-level thread manager and the kernel.
+OS may make poor decisions like:
+scheduling a process with idle threads
+blocking a process due to a blocking thread even though the process has other threads that can run
+giving a process as a whole one time slice irrespective of whether the process has 1 or 1000 threads
+unschedule a process with a thread holding a lock.
+May require communication between the kernel and the user-level thread manager (scheduler activations) to overcome the above problems.

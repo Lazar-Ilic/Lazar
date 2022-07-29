@@ -1,0 +1,3 @@
+	The Affine Hecke Category Is A Monoidal Colimit
+
+Dunno if I will ever get around to understanding this one but I will maybe work up the mental fortitude and power to do it one day.

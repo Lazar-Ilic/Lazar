@@ -1,0 +1,185 @@
+	The Harvard USPTO Patent Dataset: A Large-Scale, Well-Structured, and Multi-Purpose Corpus of Patent Applications
+	Mirac Suzgun, Luke Melas-Kyriazi, Suproteem K. Sarkar, Scott Duke Kominers, Stuart M. Shieber
+
+OKOKOK this is very half interesting.
+
+Scott Kominers
+Scott Duke Kominers
+[ Main | Research | Publications | Talks | Press | Teaching | QED ]
+   [ Selected | All ]
+ 
+Selected Publications
+Economics Research:
+
+Piotr Dworczak ® Scott Duke Kominers ® Mohammad Akbarpour. Redistribution through Markets. Econometrica 89(4), (2021), pp. 1665-1698. (Extended abstract, Proceedings of the 2018 ACM Conference on Economics and Computation, (2018), p. 611.) (Preprint.)
+John William Hatfield, Scott Duke Kominers, and Alexander Westkamp. Stability, Strategy-Proofness, and Cumulative Offer Mechanisms. Review of Economic Studies 88(3), (2021), pp. 1457-1502. (Extended abstract, Proceedings of the 2017 ACM Conference on Economics and Computation, (2017), pp. 673-674.) (Preprint.)
+Amrita Ahuja, Susan Athey, Arthur Baker, Eric Budish, Juan Camilo Castillo, Rachel Glennerster, Scott Duke Kominers, Michael Kremer, Jean Lee, Canice Prendergast, Christopher M. Snyder, Alex Tabarrok, Brandon Joel Tan, Witold Więcek. Preparing for a Pandemic: Accelerating Vaccine Availability. AEA Papers and Proceedings 111, (2021), pp. 331-335. (Earlier NBER working paper.)
+Juan Camilo Castillo, Amrita Ahuja, Susan Athey, Arthur Baker, Eric Budish, Tasneem Chipty, Rachel Glennerster, Scott Duke Kominers, Michael Kremer, Greg Larson, Jean Lee, Canice Prendergast, Christopher M. Snyder, Alex Tabarrok, Brandon Joel Tan, Witold Więcek. Market Design to Accelerate COVID-19 Vaccine Supply. Science 371(6534), (2021), pp. 1107-1109.
+John William Hatfield, Scott Duke Kominers, and Jordan M. Barry. To Thine Own Self Be True? Incentive Problems in Personalized Law. William & Mary Law Review 62(3), (2021), 723-790. (Preprint.)
+John William Hatfield, Scott Duke Kominers, Alexandru Nichifor, Michael Ostrovsky, and Alexander Westkamp. Chain Stability in Trading Networks. Theoretical Economics 16(1), (2021), pp. 197-234. (Extended abstract, Proceedings of the 2018 ACM Conference on Economics and Computation, (2018), pp. 617-618.) (Preprint.)
+John William Hatfield, Scott Duke Kominers, Richard Lowery, and Jordan M. Barry. Collusion in Markets with Syndication. Journal of Political Economy 128(10), (2020), pp. 3779-3819. (Preprint.)
+Arnaud Dupuy, Alfred Galichon, Sonia Jaffe, and Scott Duke Kominers. Taxation in Matching Markets. International Economic Review 61(4), (2020), pp. 1591-1634. (Preprint.)
+David Delacrétaz, Scott Duke Kominers, and Alexandru Nichifor. Comparative Statics for Size-Dependent Discounts in Matching Markets. Journal of Mathematical Economics 90, (2020), pp. 127-131. (Preprint.)
+Alfred Galichon, Scott Duke Kominers, and Simon Weber. Costly Concessions: An Empirical Framework for Matching with Imperfectly Transferable Utility. Journal of Political Economy 127(6), (2019), pp. 2875-2925. (Preprint.)
+Lauren Cohen, Umit G. Gurun, and Scott Duke Kominers. Patent Trolls: Evidence from Targeted Firms. Management Science 65(12), (2019), pp. 5461-5486. (Preprint.) (Earlier NBER working paper.)
+John William Hatfield, Scott Duke Kominers, Alexandru Nichifor, Michael Ostrovsky, and Alexander Westkamp. Full Substitutability. Theoretical Economics 14(4), (2019), pp. 1535-1590. (Extended abstract, Proceedings of the 16th ACM Conference on Economics and Computation, (2015), pp. 39-40.) (Preprint.)
+Franklyn Wang, Ravi Jagadeesan, and Scott Duke Kominers. Optimizing Reserves in School Choice: A Dynamic Programming Approach. Operations Research Letters 47(5), (2019), pp. 438-446. (Preprint.)
+Duncan Rheingans-Yoo, Hongyao Ma, Scott Duke Kominers, and David C. Parkes. Ridesharing with Driver Location Preferences. Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, (2019), pp. 557-564. (Preprint.)
+Taylor Lundy, Alexander Wei, Hu Fu, Scott Duke Kominers, and Kevin Leyton-Brown. Allocation for Social Good: Auditing Mechanisms for Utility Maximization. Proceedings of the 2019 ACM Conference on Economics and Computation, (2019), pp. 785-803.
+Umut Dur, Scott Duke Kominers, Parag A. Pathak, and Tayfun Sönmez. Reserve Design: Unintended Consequences and The Demise of Boston's Walk Zones. Journal of Political Economy 126(6), (2018), pp. 2457-2479. (Preprint.) (Earlier NBER working paper.)
+Gary S. Becker, Scott Duke Kominers, Kevin M. Murphy, and Jörg L. Spenkuch. A Theory of Intergenerational Mobility. Journal of Political Economy [Gary S. Becker Memorial Issue] 126(S1), (2018), pp. S7-S25. (Preprint.)
+Ravi Jagadeesan, Scott Duke Kominers, and Ross Rheingans-Yoo. Strategy-Proofness of Worker-Optimal Matching with Continuously Transferable Utility. Games and Economic Behavior [Lloyd Shapley Memorial Issue] 108, (2018), pp. 287-294. (Preprint.)
+Lauren Cohen, John M. Golden, Umit G. Gurun, and Scott Duke Kominers. "Troll" Check? A Proposal for Administrative Review of Patent Litigation. Boston University Law Review 97(5), (2017), pp. 1775-1841. (Online appendix.)
+Nikhil Naik, Scott Duke Kominers, Ramesh Raskar, Edward L. Glaeser, and César A. Hidalgo. Computer Vision Uncovers Predictors of Physical Urban Change. Proceedings of the National Academy of Sciences 114(29), (2017), pp. 7571-7576. (Project website.) (Earlier NBER working paper.)
+John William Hatfield, Scott Duke Kominers, and Alexander Westkamp. Stable and Strategy-Proof Matching with Flexible Allotments. American Economic Review Papers & Proceedings 107(5), (2017), pp. 214-219. (Preprint.)
+John William Hatfield and Scott Duke Kominers. Contract Design and Stability in Many-to-Many Matching. Games and Economic Behavior [Special Issue in Honor of John O. Ledyard] 101, (2017), pp. 78-97. (Preprint.)
+Scott Duke Kominers and Tayfun Sönmez. Matching with Slot-Specific Priorities: Theory. Theoretical Economics 11(2), (2016), pp. 683-710. (Extended abstract, Proceedings of the 14th ACM Conference on Electronic Commerce, (2013), pp. 603-604.) (Preprint.) (Earlier version entitled Designing for Diversity in Matching.)
+Edward L. Glaeser, Andrew Hillis, Scott Duke Kominers, and Michael Luca. Crowdsourcing City Government: Using Tournaments to Improve Inspection Accuracy. American Economic Review Papers & Proceedings 106(5), (2016), pp. 114-118. (NBER working paper.) (Preprint.)
+Lauren Cohen, Umit G. Gurun, and Scott Duke Kominers. The Growing Problem of Patent Trolling. Science 352(6285), (2016), pp. 521-522. (Explanatory video.)
+William R. Kerr and Scott Duke Kominers. Agglomerative Forces and Cluster Shapes. Review of Economics and Statistics 97(4), (2015), pp. 877-899. (NBER working paper.) (Preprint.)
+Abel N. Kho, John P. Cashy, Kathryn L. Jackson, Adam R. Pah, Satyender Goel, Jörn Boehnke, John Eric Humphries, Scott Duke Kominers, Bala N. Hota, Shannon A. Sims, Brad A. Malin, Dustin D. French, Theresa L. Walunas, David O. Meltzer, Erin O. Kaleba, Roderick Jones, and William L. Galanter. Design and Implementation of a Privacy Preserving Electronic Health Record Linkage Tool in Chicago. Journal of the American Medical Informatics Association 22(5), (2015), pp. 1072-1080.
+John William Hatfield and Scott Duke Kominers. Hidden Substitutes. Extended abstract, Proceedings of the 16th ACM Conference on Electronic Commerce, (2015), p. 37.
+John William Hatfield and Scott Duke Kominers. Multilateral Matching. Journal of Economic Theory [Special Issue on the Interface between Computer Science and Economic Theory] 156, (2015), pp. 175-206. (Extended abstract, Proceedings of the 12th ACM Conference on Electronic Commerce, (2011), pp. 337-338.) (Preprint.)
+Keisuke Bando, Toshiyuki Hirai, John William Hatfield, and Scott Duke Kominers. Corrigendum to "Multilateral matching" [J. Econ. Theory 156 (2015) 175–206]. Journal of Economic Theory 184, (2019). (Preprint.)
+John William Hatfield, Fuhito Kojima, and Scott Duke Kominers. Investment Incentives in Labor Market Matching. American Economic Review Papers & Proceedings 104(5), (2014), pp. 436-441. (Preprint.)
+Drew Fudenberg, Yuhta Ishii, and Scott Duke Kominers. Delayed-Response Strategies in Repeated Games with Observation Lags. Journal of Economic Theory 150, (2014), pp. 487-514. (Preprint.)
+John William Hatfield, Scott Duke Kominers, Alexandru Nichifor, Michael Ostrovsky, and Alexander Westkamp. Stability and Competitive Equilibrium in Trading Networks. Journal of Political Economy 121(5), (2013), pp. 966-1005. (Online appendix.) (Preprint.)
+Jordan M. Barry, John William Hatfield, and Scott Duke Kominers. On Derivatives Markets and Social Welfare: A Theory of Empty Voting and Hidden Ownership. Virginia Law Review 99(6), (2013), pp. 1103-1168. (Online appendix.) (Preprint.)
+Scott Duke Kominers and E. Glen Weyl. Holdout in the Assembly of Complements: A Problem for Market Design. American Economic Review Papers & Proceedings 102(3), (2012), pp. 360–365. (Preprint.)
+Scott Duke Kominers. On the Correspondence of Contracts to Salaries in (Many-to-Many) Matching. Games and Economic Behavior 75(2), (2012), pp. 984-989. (Preprint.)
+John William Hatfield, Nicole Immorlica, and Scott Duke Kominers. Testing Substitutability. Games and Economic Behavior 75(2), (2012), pp. 639-645. (Preprint.)
+Sonia Jaffe and Scott Duke Kominers. Discrete Choice Cannot Generate Demand that is Additively Separable in Own Price. Economics Letters 116(1), (2012), pp. 129-132. (Preprint.)
+John William Hatfield and Scott Duke Kominers. Matching in Networks with Bilateral Contracts. American Economic Journal: Microeconomics 4(1), (2012), pp. 176–208. (Extended abstract, Proceedings of the 11th ACM Conference on Electronic Commerce, (2010), pp. 119-120.) (Preprint.)
+John William Hatfield, Ravi Jagadeesan, and Scott Duke Kominers. Matching in Networks with Bilateral Contracts: Corrigendum. American Economic Journal: Microeconomics 12(3), (2020), pp. 277-285. (Preprint.)
+Scott Duke Kominers and E. Glen Weyl. Concordance among Holdouts. Extended abstract, Proceedings of the 12th ACM Conference on Electronic Commerce, (2011), pp. 219-220.
+Yuichiro Kamada and Scott Duke Kominers. Information Can Wreck Cooperation: A Counterpoint to Kandori (1992). Economics Letters 107(2), (2010), pp. 112-114. (Preprint.)
+Scott Duke Kominers. Matching with Preferences over Colleagues Solves Classical Matching. Games and Economic Behavior 68(2), (2010), pp. 773-780. (Preprint.)
+Mathematics Research:
+
+Scott Duke Kominers. Oh's 8-universality Criterion is Unique. Forthcoming, Kyungpook Mathematical Journal.
+Daniel M. Kane and Scott Duke Kominers. Prisoners, Rooms, and Lightswitches. Electronic Journal of Combinatorics 28(1), (2021), P1.27. (Preprint.)
+Noam D. Elkies and Scott Duke Kominers. Configurations of Extremal Type II Codes via Harmonic Weight Enumerators. Journal de Theorie des Nombres de Bordeaux 31(3), (2019), pp. 679-688. (Preprint.)
+Daniel M. Kane and Scott Duke Kominers. Asymptotic Improvements of Lower Bounds for the Least Common Multiples of Arithmetic Progressions. Canadian Mathematical Bulletin 57(3), (2014), pp. 551-561. (Preprint.)
+Noam D. Elkies, Daniel M. Kane, and Scott Duke Kominers. Minimal S-Universality Criteria May Vary in Size. Journal de Theorie des Nombres de Bordeaux 23(3), (2013), pp. 557-563. (Preprint.)
+Noam D. Elkies and Scott Duke Kominers. Weighted Generating Functions for Type II Lattices and Codes. Quadratic and Higher Degree Forms (ed. Krishnaswami Alladi, Manjul Bhargava, David Savitt, and Pham Huu Tiep), Developments in Mathematics 31, Springer, (2013), pp. 63-108. (Preprint.)
+Paul Myer Kominers and Scott Duke Kominers. A Constant Bound for the Periods of Parallel Chip-firing Games with Many Chips. Archiv der Mathematik 95(1), (2010), pp. 9-13. (Preprint.)
+Noam D. Elkies and Scott Duke Kominers. On the Classification of Type II Codes of Length 24. SIAM Journal on Discrete Mathematics 23(4), (2010), pp. 2173-2177. (Preprint.)
+Shaofang Hong and Scott Duke Kominers. Further Improvements of Lower Bounds for the Least Common Multiples of Arithmetic Progressions. Proceedings of the American Mathematical Society 138(3), (2010), pp. 809-813. (Preprint.)
+Zachary Abel, Nadia Benbernou, Mirela Damian, Erik D. Demaine, Robin Flatland, Scott D. Kominers, Robert Schweller, and Martin L. Demaine. Shape Replication Through Self-Assembly and RNase Enzymes. Proceedings of the 2010 ACM-SIAM Symposium on Discrete Algorithms, (2010), pp. 1045-1064.
+Noam D. Elkies and Scott Duke Kominers. Refined Configuration Results for Extremal Type II Lattices of Ranks 40 and 80. Proceedings of the American Mathematical Society 138(1), (2010), pp. 105-108. (Preprint.)
+Scott Duke Kominers. Configurations of Extremal Even Unimodular Lattices. International Journal of Number Theory 5(3), (2009), pp. 457-464. (Preprint.)
+Scott Duke Kominers and Zachary Abel. Configurations of Rank-40r Extremal Even Unimodular Lattices (r=1,2,3). Journal de Theorie des Nombres de Bordeaux 20(2), (2008), pp. 365-371. (Abstract, preprint.)
+Musicology Research:
+
+Scott Duke Kominers. Leonard Bernstein's Doodles: Reading Outside the Lines at the Library of Congress. Journal of the Society for American Music 3(1), (2009), pp. 26-33. (As an appendix to Leonard Bernstein's Jewish Boston: Cross-Disciplinary Research in the Classroom by Carol J. Oja and Kay Kaufman Shelemay.)
+Medicine Research:
+
+Minh-Phuong Huynh-Le, Amanda J. Walker, Scott Duke Kominers, Ido Paz-Priel, Moody D. Wharam, and Stephanie A. Terezakis. Patterns of failure after involved field radiation therapy for pediatric and young adult Hodgkin lymphoma. Pediatric Blood & Cancer 61(7), (2014), pp. 1210–1214.
+Books:
+
+Shiv Gaglani, Maria Elena De Obaldia, Scott Duke Kominers, Dayan Li, and Carol Y. Suh. Success with Science: The Winners' Guide to High School Research. Research Corporation for Science Advancement, (2011).
+Expository Articles, Reviews, and Surveys:
+
+Alexander Teytelboym ® Shengwu Li ® Scott Duke Kominers ® Mohammad Akbarpour ® Piotr Dworczak. Discovering Auctions: Contributions of Paul Milgrom and Robert Wilson. Scandinavian Journal of Economics 123(4), (2021), pp. 709-750. (Preprint.)
+Scott Duke Kominers. Review of Music and Capitalism: A History of the Present by Timothy D. Taylor. Ethnomusicology 65(2), (2021), pp. 396-398.
+Scott Duke Kominers and Alexander Teytelboym. The Parable of the Auctioneer: Complexity in Paul R. Milgrom's Discovering Prices. Journal of Economic Literature 58(4), (2020), pp. 1180-1196. (Preprint.)
+Scott Duke Kominers. Good Markets (Really Do) Make Good Neighbors. ACM SIGecom Exchanges 16(2), (2018), pp. 12-26. (Preprint.)
+Scott Duke Kominers, Alexander Teytelboym, and Vincent P. Crawford. An Invitation to Market Design. Oxford Review of Economic Policy 33(4), (2017), pp. 541-571. (Preprint.)
+Lauren Cohen, Umit G. Gurun, and Scott Duke Kominers. Empirical Evidence on the Behavior and Impact of Patent Trolls: A Survey. Patent Assertion Entities and Competition Policy (ed. D. Daniel Sokol), Cambridge University Press, (2017), pp. 27-49. (Preprint.)
+Edward L. Glaeser, Scott Duke Kominers, Michael Luca, and Nikhil Naik. Big Data and Big Cities: The Promises and Limitations of Improved Measures of Urban Life. Economic Inquiry [Kavli HUMAN Project Symposium Issue] 56(1), (2018), pp. 114-137. (NBER working paper.) (Preprint.)
+John William Hatfield and Scott Duke Kominers. Stability and Competitive Equilibrium in Matching Markets with Transfers. ACM SIGecom Exchanges 10(3), (2011), pp. 29-34.
+Scott Duke Kominers. Sharing the fun of research. Harvard University Gazette, October 27, 2011.
+Scott Duke Kominers. Finding Matrices that Satisfy Functional Equations. College Mathematics Journal 40(4), (2009), pp. 289-292. (Preprint, abstract.)
+Daniel Litt and Scott Kominers. The Harvard College Mathematics Review: A New Undergraduate Expository Journal. Math Horizons 15(4), (2008), pp. 30-31. (Abstract.)
+Business and Opinion Writing:
+
+Scott Duke Kominers. How a Ukrainian Economist Is Fighting the Russians. Bloomberg Opinion, March 15, 2022.
+Scott Duke Kominers. Why Facebook and Twitter Opened the Door to NFTs. Bloomberg Opinion, January 25, 2022.
+Arjun Narayan, Rohan Narayana Murty, Rajath B. Das, Scott Duke Kominers, Suraj Srinivasan, Tarun Khanna, and Kartik Hosanager. Do you Know How Your Teams Get Work Done?. Harvard Business Review [Online], December 1, 2021.
+Steve Kaczynski and Scott Duke Kominers. How NFTs Create Value. Harvard Business Review [Online], November 10, 2021.
+Scott Duke Kominers. World Can Have Covid Boosters and Its First Doses, Too. Bloomberg Opinion, September 28, 2021.
+Li Jin, Scott Duke Kominers, and Lila Shroff. A Labor Movement for the Platform Economy. Harvard Business Review [Online], September 24, 2021.
+Arjun Narayan, Rohan Narayana Murty, Rajath B. Das, and Scott Duke Kominers. The Endless Digital Workday. Harvard Business Review [Online], August 12, 2021.
+Scott Duke Kominers. Biden Is Rushing America's Return to Normalcy. Bloomberg Opinion, June 23, 2021.
+Clifford Maxwell and Scott Duke Kominers. What Makes an Online Marketplace Disruptive?. Harvard Business Review [Online], May 24, 2021.
+Andy Wu and Scott Duke Kominers. How Long Can a Company Thrive Doing Just One Thing?. Harvard Business Review [Online], December 10, 2020.
+Scott Duke Kominers. Making Auctions Work in Practice Is Worth a Nobel. Bloomberg Opinion, October 12, 2020.
+Scott Duke Kominers and Alex Tabarrok. Vaccines Use Bizarre Stuff. We Need a Supply Chain Now.. Bloomberg Opinion, August 18 2020.
+Scott Duke Kominers and Alex Tabarrok. Vaccines Use Bizarre Stuff. We Need a Supply Chain Now.. Bloomberg Opinion, August 18, 2020.
+Scott Duke Kominers and Ian Macomber. Delivery Apps Need to Start Treating Suppliers as Partners. Harvard Business Review [Online], July 3, 2020.
+Scott Duke Kominers. Keep Sanitizer Out of the Market's Invisible Hand. Bloomberg Opinion, March 16, 2020.
+Scott Duke Kominers. Food-Stamp Work Requirements Just Look Cruel. Bloomberg Opinion, January 27, 2020.
+Scott Duke Kominers. Amazon’s $15 Minimum Wage Might Cost Some Workers. Bloomberg Opinion, October 10, 2018.
+Scott Duke Kominers. Leonard Bernstein and the Promise of America. Bloomberg Opinion, August 24, 2018.
+Scott Duke Kominers. Why Work Requirements Hurt the Poor. Bloomberg Opinion, August 20, 2018.
+Scott Duke Kominers. Math Geeks Must Wait 100 Years for a Day Like This. Bloomberg Opinion, June 1, 2018.
+Scott Duke Kominers. Teen Rocket Scientists Offer a Peek Into the Future. Bloomberg Opinion, May 23, 2018.
+Scott Duke Kominers. Facebook Knows It Can’t Offer More Privacy. Bloomberg View, April 26, 2018.
+Scott Duke Kominers. Must-Reads for 2017: Grappling With Backlash. Bloomberg View, December 12, 2017.
+Scott Duke Kominers. Uber Really Wants You to Use Its Credit Card. Bloomberg View, December 6, 2017.
+Scott Duke Kominers. Fans Watch Taylor Swift. Economists Watch the Fans. Bloomberg View, August 29, 2017.
+Scott Duke Kominers. To Improve Wireless Networks, Auction the Airwaves. Bloomberg View, July 24, 2017.
+Scott Duke Kominers. Uber's New Pricing Idea Is Good Theory, Risky Business. Bloomberg View, June 13, 2017.
+Scott Duke Kominers. Kenneth Arrow Made Great Models, and Was One. Bloomberg View, February 23, 2017.
+Scott Duke Kominers. Why Obama Just Wrote Articles in 3 Academic Journals. Bloomberg View, January 22, 2017.
+Scott Duke Kominers. Prediction Markets Didn't Call Trump's Win, Either. Bloomberg View, November 15, 2016.
+Scott Duke Kominers. Apple Has Designs on Stifling Innovation. Bloomberg View, October 24, 2016.
+Scott Duke Kominers. For Better Online Product Reviews, Pay the Reviewers. Bloomberg View, September 21, 2016.
+Alex Teytelboym and Scott Duke Kominers. Matchmaking to Find Homes for Refugees. Bloomberg View, September 19, 2016.
+Lauren Cohen, Umit G. Gurun, and Scott Duke Kominers. How U.S. laws protecting America's best ideas are killing innovation. Fortune [Blog], January 22, 2015.
+Michael Luca, Scott Kominers, and Jonathan Smith. The High School Senior's Dilemma: Where Should I Go to College?. Forbes [Blog], April 22, 2014.
+Scott Kominers and Paul Kominers. Lessons from the GoDaddy Customer Revolt. Harvard Business Review [Blog], December 29, 2011.
+Benjamin G. Edelman, Sonia Jaffe, and Scott Duke Kominers. To Groupon or Not To Groupon: New Research on Voucher Profitability. Harvard Business Review [Blog], January 12, 2011.
+Comments:
+
+Scott Duke Kominers. Enhancing Patent Quality: Screening out Low-Quality Patents and Trolling Litigation. Public comment, (2015).
+Teaching Materials:
+
+Scott Duke Kominers and Alan Lam. Feeding America (A) and (B). Harvard Business School Case 818-130 and Supplement 818-131, (2018). (Podcast.)
+Rohit Deshpandé, Paul A. Gompers, and Scott Duke Kominers. Yo-Yo Ma and Silkroad. Harvard Business School Case 818-110, (2018).
+Scott Duke Kominers and Allison M. Ciechanover. GoFundMe: The Giving Layer of the Internet. Harvard Business School Case 818-108, (2018).
+Thomas R. Eisenmann and Scott Duke Kominers. Making Markets. Harvard Business School Technical Note 818-096, (2018).
+Thomas R. Eisenmann, Scott Duke Kominers, and Alan Lam. Updating Dating. Harvard Business School Case 818-052, (2017).
+Benjamin Edelman and Scott Duke Kominers. Online Marketing at Big Skinny. Harvard Business School Case 9-911-033 and Teaching Note 9-911-034, (2011). (Harvard Business School Faculty & Research page "Featured Case," December, 2011.)
+Workshop Papers:
+
+Andrea Hawksley and Scott Duke Kominers. Flipbook Polyhedra. Proceedings of Bridges 2013: Mathematics, Music, Art, Architecture, Culture, (2013), pp. 619-624.
+Problem Proposals:
+
+Scott Duke Kominers. Problem 10. American Invitational Mathematics Exam (II), (2010).
+Scott Duke Kominers. Problem 908. College Mathematics Journal 40(4), (2009), p. 294.
+John Rickert, Paul Kominers, and Scott Kominers. Alfred R. Schmidt Freshman Mathematics Competition 20, (2008).
+Scott Kominers. Problem 3/2/18. USA Mathematical Talent Search 18(3), (2006).
+Letters:
+
+Scott Duke Kominers. Why I Volunteer at the Intel International Science and Engineering Fair. Science News, February 28, 2018.
+Scott Duke Kominers and E. Glen Weyl. Collective decisions on land. The Economist, May 30, 2015.
+Scott D. Kominers and Gary S. Becker. Paying for Tissue: Net Benefits. Science 337(6100), (September 14, 2012), pp. 1292-1293.
+Scott Duke Kominers. Professional-School Training Is Invaluable, Even for Scholars. The Chronicle of Higher Education, February 14, 2012.
+Haiku:
+
+Scott Duke Kominers. Haiku #100. New England Letters 100, (2019), lead haiku.
+Scott Duke Kominers. Haiku #1031. A Hundred Gourds 3(3), (2014), p. haiku12.
+Scott Duke Kominers. Eusociality, Evolved (Haibun #121). Grey Sparrow [Print Edition] 10, (2011), p. 23.
+Scott Duke Kominers. Haiku #{7, 101}. Bear Creek Haiku 101, (2011), p. {3, 34}.
+Scott Duke Kominers. Senryu #25. Modern Haiku 42(2), (2011), p. 72. (Selected for the issue's online "sample haiku & senryu" feature.) (Selected for republication in carving darkness: The Red Moon Anthology of English-Language Haiku (ed. Jim Kacian), Red Moon Press, (2011), p. 44.)
+Scott Duke Kominers. Freshman Fall (Haibun #9). Frogpond 34(1), (2011), p. 89.
+Scott Duke Kominers. Haiku #-5. Frostwriting 6, (2011).
+Scott Duke Kominers. sleepless night (Haiku #102). Four and Twenty 4(2), (2011), p. 16.
+Scott Duke Kominers. Summer Haiku #75. tinywords 10(2), (2010).
+Scott Duke Kominers. Haiku #3. Modern Haiku 40(1), (2009), p. 43.
+Puzzles:
+
+Vinnie Hager and Scott Duke Kominers. Letters Community Puzzle. January 1, 2022.
+Paul Kominers and Scott Duke Kominers. Kominers's Conundrums: The Grinch Isn't Sure What to Steal. Bloomberg Opinion, December 19, 2021.
+Scott Duke Kominers and Lara Williams. A 'Hungry Caterpillar' Puzzle You Can Solve With Your Kids. Bloomberg Opinion, May 30, 2021.
+Scott Duke Kominers. Kominers's Conundrums: Can You Escape This Column?. Bloomberg Opinion, April 11, 2021.
+Paul Kominers and Scott Duke Kominers. Kominers's Conundrums: 'The Phantom Tollbooth' in Seven Puzzles. Bloomberg Opinion, March 28, 2021.
+Scott Duke Kominers. Kominers's Conundrums: This Puzzle Honors a Game-Show Legend. Bloomberg Opinion, November 15, 2020. (Solvers.)
+Scott Duke Kominers. Kominers's Conundrums: To Catch a Counterfeiter. Bloomberg Opinion, May 23, 2020.
+Scott Duke Kominers. Kominers's Conundrums: The Light-Switch Challenge. Bloomberg Opinion, April 4, 2020.
+Ξ (Scott Duke Kominers). Flat 22. The Enigma 1260, (2009), p. 15.
+Miscellaneous:
+
+Scott Kominers. K-Level Thinking: Holmes vs. Moriarty. Journal of Political Economy 121(1), (2013), back cover.
+Scott Kominers. Plunkitt: Won // Auctioneers: $2.50. Journal of Political Economy 120(2), (2012), back cover.

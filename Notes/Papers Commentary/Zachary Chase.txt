@@ -1,0 +1,50 @@
+	On sumsets containing a perfect square
+
+Yeah I uh liked this one a lot but it is super simple and goes to show that you really can just like write down compose a simple maths paper take some object and extend it slightly whatever direction pop boom a paper appeared.
+
+	New upper bounds for trace reconstruction
+
+
+
+	A new upper bound for separating words
+
+OK Good one.
+
+	A random analogue of Gilbreath's conjecture
+
+
+
+	A proof of the Gan-Loh-Sudakov conjecture
+
+I liked this one a lot.
+
+	New lower bounds for trace reconstruction
+
+
+
+	Additive conjugacy and the Bohr compactification of orthogonal representations
+
+
+
+	The maximum number of three term arithmetic progressions, and triangles in Cayley graphs
+
+
+
+	On the iterates of digit maps
+
+
+
+	Experimental evidence for asymptotic non-optimality of comb adversary strategy
+
+
+
+	Learning time dependent choice
+
+
+
+	Gaussian analytic functions and operator symbols of dirichlet type
+
+
+
+	Polynomial methods and incidence theory
+
