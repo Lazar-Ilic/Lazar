@@ -1,0 +1,207 @@
+If an initiate can perfect a Great work of mathematiques and purification he will have achieved eternal Gold on the underground stream... the underground stream will need to flow several centuries more... Kakeya Conjecture.
+
+I got a trillion ways to get it. Choose one. Feeling myself, I don't even need an X pill. Haters gon' be mad off my next proof.
+
+A sum-product estimate in finite fields, and applications
+J Bourgain, N Katz, T Tao
+Geometric & Functional Analysis GAFA 14 (1), 27-57	551	2004
+On the Erdős distinct distances problem in the plane
+L Guth, NH Katz
+Annals of mathematics, 155-190	513	2015
+Algebraic methods in discrete analogs of the Kakeya problem
+L Guth, NH Katz
+Advances in Mathematics 225 (5), 2828-2839	136	2010
+A cheap Caffarelli—Kohn—Nirenberg inequality for the Navier—Stokes equation with hyper-dissipation
+NH Katz, N Pavlović
+Geometric & Functional Analysis GAFA 12 (2), 355-379	135	2002
+The Fuglede spectral conjecture holds for convex planar domains
+A Iosevich, N Katz, T Tao
+Mathematical Research Letters 10 (5), 559-569	123	2003
+Some connections between Falconer's distance set conjecture, and sets of Furstenburg type
+NH Katz, T Tao
+arXiv preprint math/0101195	122	2001
+A new entropy inequality for the Erdos distance problem
+NH Katz, G Tardos
+Contemporary Mathematics 342, 119-126	112	2004
+New bounds on cap sets
+M Bateman, N Katz
+Journal of the American Mathematical Society 25 (2), 585-613	104	2012
+An Improved Bound on the Minkowski Dimension of Besicovitch Sets in R3
+NH Katz, I Laba, T Tao
+Annals of Mathematics, 383-446	94	2000
+Finite time blow-up for a dyadic model of the Euler equations
+N Katz, N Pavlović
+Transactions of the American Mathematical Society 357 (2), 695-708	91	2005
+A slight improvement to Garaev's sum product estimate
+NH Katz, CY Shen
+Proceedings of the American Mathematical Society, 2499-2504	88	2008
+New bounds on Kakeya problems
+N Katz, T Tao
+arXiv preprint math/0102135	84	2001
+Convex bodies with a point of curvature do not have Fourier bases
+A Iosevich, NH Katz, T Tao
+American Journal of Mathematics 123 (1), 115-120	82	2001
+Bounds on arithmetic projections, and applications to the Kakeya conjecture
+NH Katz, T Tao
+Mathematical Research Letters 6 (6), 625-630	77	1999
+Maximal operators over arbitrary sets of directions
+NH Katz
+Duke mathematical journal 97 (1), 67-79	67	1999
+Recent progress on the Kakeya conjecture
+N Katz, T Tao
+arXiv preprint math/0010069	60	2000
+Fourier bases and a distance problem of Erd\H os
+A Iosevich, N Katz, S Pedersen
+arXiv preprint math/0104092	58	2001
+On additive doubling and energy
+NH Katz, P Koester
+SIAM Journal on Discrete Mathematics 24 (4), 1684-1693	47	2010
+Garaev's inequality in finite fields not of prime order
+NH Katz, CY Shen
+arXiv preprint math/0703676	47	2007
+Remarks on maximal operators over arbitrary sets of directions
+NH Katz
+Bulletin of the London Mathematical Society 31 (6), 700-710	40	1999
+A counterexample for maximal operators over a Cantor set of directions
+NH Katz
+Mathematical Research Letters 3 (4), 527-536	38	1996
+An improved bound on the Hausdorff dimension of Besicovitch sets in ℝ³
+N Katz, J Zahl
+Journal of the American Mathematical Society 32 (1), 195-259	34	2019
+Matrix valued paraproducts
+NH Katz
+Journal of Fourier Analysis and Applications 3 (1), 913-921	32	1997
+Kakeya sets in Cantor directions
+MD Bateman, NH Katz
+arXiv preprint math/0609187	31	2006
+Haar multipliers, paraproducts, and weighted inequalities
+NH Katz, MC Pereyra
+Analysis of divergence, 145-170	26	1999
+The flecnode polynomial: a central object in incidence geometry
+NH Katz
+arXiv preprint arXiv:1404.3412	21	2014
+On the polynomial Wolff axioms
+NH Katz, KM Rogers
+Geometric and Functional Analysis 28 (6), 1706-1716	19	2018
+On the two weights problem for the Hilbert transform
+NH Katz, MC Pereyra
+Revista Matemática Iberoamericana 13 (1), 211-243	16	1997
+Remarks on the box problem
+NH Katz, E Krop, M Maggioni
+Mathematical Research Letters 9 (4), 515-519	14	2002
+On the discretized sum-product problem
+L Guth, NH Katz, J Zahl
+International Mathematics Research Notices 2021 (13), 9769-9785	13	2021
+Structure in additively nonsmoothing sets
+M Bateman, NH Katz
+arXiv preprint arXiv:1104.2862	12	2011
+Checkerboards, Lipschitz functions and uniform rectifiability
+PW Jones, NH Katz, A Vargas
+Revista matemática iberoamericana 13 (1), 189-210	12	1997
+Approximate multiplicative groups in nilpotent Lie groups
+D Fisher, NH Katz, I Peng
+Proceedings of the American Mathematical Society, 1575-1580	11	2010
+Fourier bases and a distance problem of Erdos
+A Iosevich, N Katz, S Pedersen
+arXiv preprint math/0104092	11	2001
+Fuglede conjecture holds for convex planar domains
+A Iosevich, N Katz, T Tao
+arXiv preprint math/0104087	10	2001
+A partial result on Lipschitz differentiation
+NH Katz
+Contemporary Mathematics 320, 217-224	9	2003
+A note on the slightly supercritical Navier Stokes equations in the plane
+NH Katz, A Tapay
+arXiv preprint arXiv:1206.3778	5	2012
+On Freiman's theorem in nilpotent groups
+D Fisher, NH Katz, I Peng
+arXiv preprint arXiv:0901.1409	5	2009
+On the self crossing six sided figure problem
+NH Katz
+New York J. Math 5 (121), 130	5	1999
+On arithmetic combinatorics and finite groups
+NH Katz
+Illinois Journal of Mathematics 49 (1), 33-43	4	2005
+Pseudodifferential operators onSU (2)
+F Geshwind, NH Katz
+Journal of Fourier Analysis and Applications 3 (2), 193-205	4	1997
+On the CNF-complexity of bipartite graphs containing no squares
+NH Katz
+Lithuanian mathematical journal 52 (4), 385-389	3	2012
+A new bound on partial sum-sets and difference-sets, and applications to the Kakeya conjecture
+NH Katz, T Tao
+arXiv preprint math/9906097	3	1999
+Elementary proofs and the sums differences problem
+NH Katz
+Collectanea Mathematica, 275-280	2	2006
+The Grone Merris conjecture and a quadratic eigenvalue problem
+NH Katz
+arXiv preprint math/0512647	2	2005
+Could the classical relativistic electron be a strange attractor?
+LP Horwitz, N Katz, O Oron
+Discrete Dynamics in Nature and Society 2004 (1), 179-204	2	2004
+A Kakeya maximal function estimate in four dimensions using planebrushes
+NH Katz, J Zahl
+Revista Matemática Iberoamericana 37 (1), 317-359	1	2020
+A model for studying double exponential growth in the two-dimensional Euler equations
+N Katz, A Tapay
+Analysis & PDE 8 (7), 1675-1693	1	2015
+Approximate aggregation in the neoclassical growth model with ideosyncratic shocks
+K Chipeniuk, NH Katz, T Walker
+arXiv preprint arXiv:1404.4665	1	2014
+On sums, products, and the multidimensional Falconer problem
+NH Katz
+arXiv preprint math/0607233	1	2006
+Noncommutative determinants and applications
+NH Katz
+University of Pennsylvania	1	1993
+Households, auctioneers, and aggregation
+KO Chipeniuk, NH Katz, TB Walker
+European Economic Review 141, 103997		2022
+About the Prize
+I Agol, FM Christ, SR Fenley, NH Katz, CM Voisin
+American Mathematical Society 29 (1), 147-176		2016
+On the CNF-complexity of bipartite graphs containing no 's
+NH Katz
+arXiv preprint arXiv:1206.6068		2012
+New bounds on cap sets
+NH Katz, M Bateman
+American Mathematical Society		2012
+Nonnegative Grassman Chambers are Balls
+C Connell, NH Katz
+arXiv preprint math/0607756		2006
+Simulation of the Radiation Reaction Orbits of a Classical Relativistic Charged Particle with Generalized Off-shell Lorentz Force
+N Katz
+Bar-Ilan University, Department of Physics.		2004
+The main result of this interesting paper is that there do not exist “approximate subrings” of Fp when p is prime. In fact, the authors prove that if δ> 0 and if A⊆ Fp has …
+J Bourgain, N Katz, T Tao
+Geom. Funct. Anal 14 (1), 27-57		2004
+Published: October 17, 2001
+NH Katz
+New York Journal of Mathematics 7, 149-187		2001
+Published: September 29, 1999
+NH Katz
+New York Journal of Mathematics 5, 121-130		1999
+WAVELETS: CALDERÓN–ZYGMUND AND MULTILINEAR OPERATORS (Cambridge Studies in Advanced Mathematics 48) By YVES MEYER and RONALD COIFMAN: 314 pp.,£ 40.00, ISBN 0 521 42001 6 …
+NH Katz
+Bulletin of the London Mathematical Society 31 (1), 108-125		1999
+On the two weights problem
+NH Katz, C Pereyra
+Revista Matemática Iberoamericana 13 (1), 211		1997
+A discrete model for the Carbery rectangle problem
+N Katz
+2022 Virtual Joint Mathematics Meetings (JMM 2022)		
+ANALYSIS & PDE
+N KATZ, A TAPAY
+REvistA MAtEm AticA IbEroAmEricAnA Vol. 13, Ν. F 1, 1997 On the two weights problem for the Hilbert transform
+NH Katz, C Pereyra
+x0 Introduction
+NH Katz, C Pereyra
+REvistA MAtEm AticA IbEroAmEricAnA Vol. 13, Ν. F 1, 1997 Checkerboards, Lipschitz functions and uniform rectifiability
+PW Jones, NH Katz, A Vargas
+H. Winter, Autoren-Verzeichnis zur Bibliographie der Veröffentlichungen über den Leichtbau und seine Randgebiete im deutschen und ausländischen Schrifttum aus den Jahren 1940 …
+JW Juppenlatz, K Jurczyk, W Jurecka, H Juretzek, HD Justis, H Juvan, ...
+Aaviksaar, A., see Schuster, M.(1036) 245 Alagna, L., Prosperi, T., Tomlinson, AAG, Kjosen, H. and Mo, F. An EXAFS, and preliminary X-ray crystallographic, investigation of an …
+PJ Ashman, A Mackenzie, PM Bramley, GJ Beckett, AF Howie, R Hume, ...
+Articles 1–69
+HelpPrivacyTerms
