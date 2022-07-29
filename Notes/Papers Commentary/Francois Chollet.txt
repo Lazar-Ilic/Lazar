@@ -1,0 +1,175 @@
+One must read and carefully process through parse through all citations and further readings literature references.
+
+Keras
+F Chollet
+keras.io 10	15786*	2015
+
+OK
+
+Xception: Deep learning with depthwise separable convolutions
+F Chollet
+Proceedings of the IEEE conference on computer vision and pattern ..,	9516	2017
+
+OK
+
+Deep Learning with Python
+F Chollet
+Manning Publications	4046*	2017
+
+OK
+
+Tensor2tensor for neural machine translation
+A Vaswani, S Bengio, E Brevdo, F Chollet, AN Gomez, S Gouws, L Jones, ...
+arXiv preprint arXiv:1803.07416	489	2018
+
+OK
+
+Depthwise separable convolutions for neural machine translation
+L Kaiser, AN Gomez, F Chollet
+arXiv preprint arXiv:1706.03059	238	2017
+
+OK
+
+On the Measure of Intelligence
+F Chollet
+arXiv preprint arXiv:1911.01547	218	2019
+
+OK I mean a ton of suspicious woo kind of garbage strings.
+
+DeepMath-deep sequence models for premise selection
+AA Alemi, F Chollet, N Eén, G Irving, C Szegedy, J Urban
+arXiv preprint arXiv:1606.04442	197*	2016
+
+OK
+
+Keras tuner
+T O’Malley, E Bursztein, J Long, F Chollet, H Jin, L Invernizzi
+Retrieved May 21, 2020	165	2019
+
+OK
+
+keras: R Interface to ‘Keras’
+JJ Allaire, F Chollet
+R package version 2 (5.0)	155	2019
+
+OK
+
+Building powerful image classification models using very little data
+F Chollet
+Keras Blog 5	141	2016
+
+OK
+
+Building autoencoders in keras
+F Chollet
+The Keras Blog 14	94	2016
+
+OK
+
+Holstep: A machine learning dataset for higher-order logic theorem proving
+C Kaliszyk, F Chollet, C Szegedy
+arXiv preprint arXiv:1703.00426	73	2017
+
+OK I mean this is pretty icy spicy dicy.
+
+R interface to keras
+F Chollet, J Allaire, D Falbel, Y Tang, W Van Der Bijl, M Studer
+Keras Team.[(accessed on 21 April 2020)]	67	2017
+
+OK
+
+Keras, GitHub repository (2015)
+F Chollet
+URL https://keras. io/examples/generative/vae	52	2020
+
+OK
+
+Deep Learning with R
+F Chollet, JJ Allaire
+Manning Publications	33*	2018
+
+OK
+
+Information-theoretical label embeddings for large-scale image classification
+F Chollet
+arXiv preprint arXiv:1607.05691	20	2016
+
+OK
+
+Introduction to keras
+F Chollet
+March 9th	18	2018
+
+OK
+
+The limitations of deep learning
+F Chollet
+Deep learning with Python	18	2017
+
+OK we shall see we shall see.
+
+Deep Learning mit R und Keras: Das Praxis-Handbuch von den Entwicklern von Keras und RStudio
+F Chollet, JJ Allaire
+MITP-Verlags GmbH & Co. KG	15	2018
+
+OK
+
+Deep Learning with JavaScript: Neural networks in TensorFlow. js
+S Cai, S Bileschi, ED Nielsen, F Chollet
+Manning	14	2020
+
+OK
+
+Keras, GitHub repository
+C Francois
+6	2016
+
+OK
+
+The future of deep learning
+F Chollet
+future 8 (2)	5	2017
+
+OK we shall see we shall see.
+
+A definition of intelligence for the real world
+F Chollet
+Journal of Artificial General Intelligence 11 (2), 27-30	4	2020
+
+OK just OK some garbage.
+
+Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models
+A Srivastava, A Rastogi, A Rao, AAM Shoeb, A Abid, A Fisch, AR Brown, ...
+arXiv preprint arXiv:2206.04615	3	2022
+
+OK
+
+Classifying images using machine learning models
+F Chollet
+US Patent App. 16/317,763	3	2019
+
+OK
+
+Deep learning: praca z językiem Python i biblioteką Keras
+F Chollet
+Helion	3	2019
+
+OK
+
+Depthwise separable convolutions for neural machine translation
+AN Gomez, LM Kaiser, F Chollet
+US Patent 10,853,590	2	2020
+
+OK
+
+Depthwise separable convolutions for neural machine translation
+AN Gomez, LM Kaiser, F Chollet
+US Patent App. 17/100,169		2021
+
+OK
+
+Image processing neural networks with separable convolutional layers
+F Chollet, AG Howard
+US Patent App. 16/338,963
+
+OK
