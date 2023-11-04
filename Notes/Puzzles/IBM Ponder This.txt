@@ -1,0 +1,2213 @@
+I am not on a script or Really Simple Syndication notification system. Winning 1st Solver is tricky as release times are unstable. Most IBM Ponder This and Jane Street Puzzles are significantly easier to me than tricky Project Euler or 2700 AtCoder CodeForces tasks.
+
+----------
+
+2023-10 Solve #26 [1st Solver #11]
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2023.html
+
+1110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111
+^2=1232100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000329230000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002020200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012321
+
+n = 1599376 [modulo 4281565]
+
+10^0+10^415+10^3819-10^4234+10^4649+10^8053+10^8468
+
+1st Solver 8Peat.
+
+The bonus bonus inspired me to read tens of ArXiV papers on related topics. One potential first attempt approach involves breaking down a number like 91... in to either 8888... + Remainder components or 9999... + Remainder components or XY... + Remainder components where XY... has interesting properties and|or is a nearby palindromic square root and then analyse known structural properties of the square in terms of order-of-magnitude and number theoretic analyses. Standard weak density arguments might naively suggest there exist 0 such numbers but more careful analysis of special 1111... + Remainder cases ought to be completed to update credence more in favour of that hypothesis.
+
+2023-09 Solve #25 [1st Solver #10]
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2023.html
+
+79820645
+1000,21
+
+1st Solver 7Peat.
+
+2023-08 Solve #24 [1st Solver #9]
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2023.html
+
+66
+6531240347184892454849237722169246600586075961192434058882920840740253494104859805019550623847957752
+
+1st Solver 6Peat.
+
+2023-07 Solve #23 [1st Solver #8]
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2023.html
+
+OnSight eyeball brain "NP-Hard" tasks.
+
+8D4D9D5D6D7L7L3D2R1R3D2R1R7U7U6U6L3L6U5U3L1D1D1R3R3U9U9R5D5D5R6D6D
+
+8D7D6R9D7L5R1D1D2L3L4L4D4D3R2R3R1U7L2R5U6L4L3D2R4U4U6R5D4L2L3U8U9R9R7D1D4L9R2L5D3L6L7R8U5R6D5R1D4D6R5R6R
+
+1st Solver 5Peat.
+
+2023-06 Solve #22 [1st Solver #7]
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2023.html
+
+87
+WWFWWFFWFFWFWWWFFWUUURUWFFFUUUURRFRRRUFFFFUUUFRFFFRFFFUURRRRFRRUUURRFUUURRRURUUFRRURUFFUFUURRRURRWW
+
+184
+FFFFFFFFFFFFUFUURRRRRRWUFULFFFFFRWRRRWRWUWRWRWUWFDWFWRDWRWUDDDUWRWUDUWUUWULRWFWRWFWRWURWURWFWFUUUUWRRWFFWFFWFRWFFWLFRWFFRDFFDFRRDFDFDFDLLLLLLLLLLLLLLWDDDLDLDDDDLUULDULUWULRLLRWRLLRLLRWRLLRLLRWRLLRLLL
+
+My first 1st Solver 4Peat and 1st Solver With Bonus 3Peat.
+
+2023-05 Solve #21 [1st Solver #6]
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2023.html
+
+52390.274 and 156033.941 and my first 1st Solver 3Peat.
+
+2023-04 Solve #20 [1st Solver #5]
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2023.html
+
+https://stackoverflow.com/questions/27436275/how-can-i-further-optimize-this-solver-of-a-variant-of-lights-out
+
+Initial run and credence on underlying structural probability leads to testing pseudorandom permutations of the target squares until finding 1 which works in order.
+
+[(2,13),(6,13),(11,22),(1,24),(2,10),(18,22),(23,24),(5,2),(18,24),(17,3),(13,2),(9,12),(16,20),(14,11),(1,1),(15,18),(21,20),(14,21),(14,5),(22,16),(4,8),(18,4),(5,8),(10,8),(23,11),(6,20),(19,17),(23,12),(23,16),(3,16),(19,6),(15,2),(17,17),(22,5),(15,4),(3,22),(6,14),(22,17),(1,8),(15,7),(20,4),(9,24),(12,12),(5,19),(12,5),(2,22),(15,3),(22,7),(8,12),(18,5),(3,23),(10,20),(6,11),(5,1),(18,3),(1,7),(1,3),(2,15),(11,21),(4,19),(10,13),(16,22),(10,17),(4,15),(22,19),(24,23),(24,14),(24,15),(2,17),(1,23),(10,18),(7,24),(1,14),(19,24),(2,18),(12,11),(13,3),(7,18),(20,16),(22,2),(12,10),(6,9),(4,4),(2,20),(6,1),(15,11),(12,18),(23,6),(16,2),(11,24),(16,6),(5,5),(19,10),(13,23),(11,4),(5,20),(21,24),(22,20),(19,23),(19,5),(11,13),(23,3),(4,5),(3,17),(13,16),(9,1),(8,4),(19,14),(11,3),(4,7),(17,4),(2,5),(7,19),(16,8),(4,1),(8,19),(18,19),(20,13),(22,21),(20,2),(1,17),(16,17),(1,13),(4,12),(12,9),(5,21),(20,17),(24,12),(1,5),(11,20),(20,14),(12,17),(6,21),(4,6),(15,24),(12,22),(18,17),(22,14),(18,14),(23,19),(24,16),(23,5),(18,13),(10,9),(15,5),(4,13),(12,19),(12,24),(3,15),(5,17),(21,6),(6,6),(18,23),(19,15),(21,15),(13,24),(11,9),(10,16),(21,16),(2,14),(1,9),(5,23),(24,10),(7,13),(14,1),(24,3),(5,11),(15,12),(12,14),(1,12),(10,4),(22,23),(17,15),(14,17),(9,3),(16,21),(18,15),(23,2),(9,22),(4,22),(15,23),(10,11),(11,8),(4,11),(17,19),(2,6),(7,10),(20,20),(19,7),(24,11),(14,15),(1,19),(8,22),(3,13),(6,3),(6,8),(21,18),(22,22),(5,4),(24,4),(15,21),(2,16),(1,15),(12,3),(7,1),(22,12),(21,7),(8,21),(9,6),(24,13),(3,4),(3,1),(12,21),(23,22),(3,14),(7,6),(14,10),(21,1),(3,2),(14,14),(19,3),(24,1),(1,4),(24,22),(16,23),(9,10),(1,21),(14,23),(8,18),(7,7),(18,16),(17,23),(16,1),(11,2),(24,21),(11,5),(13,19),(4,21),(1,20),(5,7),(4,2),(19,9),(8,2),(13,17),(5,12),(14,2),(20,1),(7,12),(13,18),(20,24),(9,20),(17,14),(21,19),(19,21),(15,6),(18,21),(19,1),(3,7),(23,4),(11,16),(10,7),(20,6),(10,3),(13,22),(4,17),(20,19),(21,10),(7,5),(12,7),(2,7),(17,13),(11,18),(13,7),(22,18),(24,6),(14,13),(1,22),(2,2),(11,23),(17,12)]
+
+[(5,21),(27,9),(25,19),(29,23),(13,20),(25,28),(30,8),(23,18),(23,29),(3,17),(20,5),(23,10),(26,30),(30,30),(28,29),(14,7),(8,25),(28,22),(11,2),(15,5),(21,10),(22,5),(16,2),(27,24),(29,16),(26,24),(4,15),(22,15),(3,28),(13,24),(30,26),(7,30),(19,11),(23,25),(12,8),(19,27),(17,22),(25,2),(28,23),(11,6),(24,20),(25,30),(27,10),(1,3),(14,22),(29,9),(24,14),(20,12),(17,15),(9,2),(16,3),(10,2),(18,18),(29,1),(25,10),(21,25),(1,11),(26,29),(18,2),(3,3),(7,18),(22,17),(16,5),(7,12),(18,5),(23,4),(8,23),(4,12),(29,18),(20,7),(7,5),(2,22),(12,21),(30,11),(7,3),(5,8),(16,30),(18,9),(20,26),(25,24),(14,18),(29,10),(19,20),(30,2),(26,3),(1,30),(6,2),(30,21),(23,16),(28,11),(30,4),(9,26),(24,3),(13,16),(4,30),(20,6),(8,27),(26,18),(27,14),(29,27),(23,15),(10,4),(15,20),(7,26),(15,29),(14,29),(7,22),(12,14),(10,5),(1,15),(17,18),(26,11),(15,18),(24,19),(11,1),(13,11),(9,3),(26,12),(24,24),(5,5),(27,12),(25,16),(29,7),(14,15),(6,10),(28,28),(21,21),(13,30),(25,21),(11,10),(9,9),(28,4),(27,15),(29,25),(21,11),(18,28),(1,22),(16,27),(17,26),(9,29),(21,13),(15,4),(9,11),(5,2),(8,14),(1,5),(5,24),(12,19),(18,6),(29,28),(28,18),(29,30),(10,30),(11,22),(29,15),(12,17),(25,4),(14,6),(23,3),(23,2),(7,9),(11,25),(16,25),(28,24),(29,12),(5,18),(10,17),(5,26),(28,14),(17,16),(1,8),(26,22),(6,1),(6,28),(25,20),(8,12),(28,12),(1,9),(3,27),(10,19),(10,7),(22,3),(26,19),(26,5),(19,5),(16,13),(22,10),(20,24),(21,27),(29,19),(11,20),(27,11),(12,11),(18,8),(8,19),(4,25),(7,29),(15,24),(8,20),(21,30),(11,12),(6,18),(26,16),(8,3),(28,3),(17,20),(3,11),(17,19),(3,13),(3,24),(22,16),(5,1),(5,7),(4,18),(16,15),(1,13),(16,9),(4,5),(23,7),(1,27),(1,23),(6,3),(5,9),(17,23),(4,22),(30,23),(19,22),(9,17),(10,6),(27,19),(24,4),(19,21),(2,2),(27,8),(6,30),(2,28),(27,16),(13,4),(27,1),(11,30),(18,3),(20,25),(25,12),(11,29),(21,2),(24,6),(22,24),(30,17),(14,4),(24,17),(24,13),(28,1),(7,10),(12,25),(12,2),(21,29),(19,30),(2,30),(14,8),(10,25),(29,22),(10,12),(10,23),(22,8),(15,19),(4,7),(16,19),(23,9),(15,7),(10,22),(2,27),(24,7),(26,21),(30,29),(18,7),(25,15),(13,18),(3,8),(1,28),(19,15),(29,13),(30,22),(21,6),(26,26),(23,5),(13,3),(19,19),(23,30),(13,2),(22,21),(13,10),(13,26),(30,25),(27,6),(27,28),(29,11),(12,20),(4,13),(13,28),(6,27),(27,30),(4,28),(23,14),(7,20),(15,23),(14,27),(13,22),(15,25),(24,27),(4,9),(17,5),(12,5),(6,20),(11,23),(14,2),(28,21),(6,19),(5,11),(26,10),(3,1),(16,6),(17,17),(18,13),(2,4),(11,7),(9,12),(5,6),(26,13),(10,21),(27,3),(12,24),(16,29),(18,11),(14,13),(18,4),(12,13),(11,18),(2,29),(18,10),(9,16),(22,30),(9,20),(6,9),(4,23),(7,6),(1,18),(19,23),(24,12),(5,17),(29,14),(20,8),(16,11),(10,13),(15,27),(16,18),(8,15),(22,1),(4,16),(13,7),(1,17),(21,8),(10,26),(11,26),(6,13),(23,23),(25,6),(30,3),(14,9),(7,24),(12,3),(19,8),(17,9),(11,8),(11,17),(19,12),(3,15),(16,7),(9,10),(21,16),(16,4),(6,6),(12,28),(22,13),(25,5),(3,18),(26,15),(3,5),(6,7),(2,23),(1,4),(6,5),(30,7),(7,21),(22,4),(19,24),(22,12),(2,8),(9,14),(22,22),(17,11),(4,4),(18,14),(21,14),(12,1),(11,24),(13,23),(5,4),(16,22),(21,19),(10,14),(22,25),(29,21),(17,4),(23,8),(11,28),(24,25),(6,23),(23,20),(2,19),(6,11),(9,21),(25,14),(29,24),(3,23),(24,2),(25,8),(14,14),(2,25),(5,19)]
+
+2023-03 Solve #19 [1st Solver #4]
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2023.html
+
+3733799911799539139382193991
+
+2023-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2023.html
+
+Bashing in C|C++ would probably have worked.
+
+Bonus: [(0, 24), (1, 19), (2, 21), (3, 18), (4, 0), (5, 17), (6, 20), (7, 2), (8, 6), (9, 1), (10, 3), (11, 5), (12, 15), (13, 12), (14, 14), (15, 16), (16, 13), (17, 23), (18, 25), (19, 27), (20, 22), (21, 26), (22, 8), (23, 11), (24, 28), (25, 10), (26, 7), (27, 9), (28, 4)]
+
+https://twitter.com/AlexFleischer1/status/1638533410028244992
+https://github.com/AlexFleischerParis/ponderthis/blob/master/challenge2023february.mod
+https://github.com/AlexFleischerParis/ponderthis/blob/master/challenge2023februarychecker.mod
+
+2023-01 Solve #18
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2023.html
+
+['A','A','A','A','A','A','A','A','A','A','A','A','A','A','C','C','C','C','A','C']
+885124
+845100400152152934331135480100
+
+2022-12 Solve #17
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2022.html
+
+'jtd cep ilb hyw'
+['bejeweled', 'diptych']
+
+Onsight and easy bonus to modify the Python but I was not really in the mood.
+
+https://puzzling.stackexchange.com/questions/105150/the-new-york-times-letter-boxed-puzzle-spoiler
+https://github.com/pmclaugh/LetterBoxedNYT
+https://medium.com/@pnmclaugh/solving-letter-boxed-in-python-5e6cc4b216f9
+https://www.r-bloggers.com/2019/04/solving-the-letterboxed-puzzle-in-the-new-york-times/
+https://www.dcode.fr/letter-boxed-solver
+https://github.com/blevic/nyt-puzzles-solver/blob/main/letter-boxed/main.py
+https://wordsolver.net/wordlists#!dic=d_sowpods&wl=wl_acwov&ml=15
+
+As a bonus consideration, I contemplated composing up a scraper and .txt file manipulator program to report errors in the results archive via essentially sorting the results lines alphabetically. To produce erroneous multiplicities and rankings e.g. "Jan Fricke" appears twice in a list.
+
+"
+Errors In Archive Of Results
+
+Lazar Ilic <lazar_ilic@yahoo.com>
+To:
+ponder@il.ibm.com
+
+Wed, Jan 4 at 4:34 AM
+
+Perhaps you all can compose a simple program to sort the results alphabetically and remove multiplicities such as "Jan Fricke" appearing twice here: https://research.ibm.com/haifa/ponderthis/challenges/May2022.html
+"
+
+2022-11 Solve #16
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2022.html
+
+WolframAlpha:
+
+integer solve 974170*c^2-d^2=974169, 2*10^99+4*10^101>d>2*10^99
+c=362199261446482692688138055403102941435241843892703744948533021226242523198167875305029226325489289
+d=357490854532566206792713753589412762838726227644171149425755523728976128050517316422838185990116589201
+
+a=181099630723241346344069027701551470717620921946351872474266510613121261599083937652514613162744645
+b=178745427266283103396356876794706381419363113822085574712877761864488064025258658211419092995058294601
+
+https://mathworld.wolfram.com/DiophantineEquation2ndPowers.html
+
+Perhaps with this and the Wolfram Mathematica piece of Computer Algebra software the Bonus is relatively easy. Or the suggested conversion into an equation of the form x^2 - ay^2 = 1 known as a Pell's Equation with standard techniques for generating all solutions. Their solution is not the requested minimum.
+
+2022-10 Solve #15
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2022.html
+
+One supposes after consulting the literature that perhaps a complete 148/148 is not impossible. Certainly one can produce 120/148 by taking a canonical Double Diagonal Latin Square and its cyclic shifts in sequence for a free immediate 12 extra bonus diagonals on top of the ensured 3*36=108 rows. Onsighted that for the bonus (x+2y)%5 works to ensure that all diagonals are good is 84/109. Also (x+2y+3z)%5 works for all but like 5+1=6 dudes total is 103/109.
+
+1 2 3 4 5 6
+2 1 4 3 6 5
+3 4 5 6 1 2
+4 3 6 5 2 1
+5 6 1 2 3 4
+6 5 2 1 4 3
+
+2 1 4 3 6 5
+1 2 3 4 5 6
+4 3 6 5 2 1
+3 4 5 6 1 2
+6 5 2 1 4 3
+5 6 1 2 3 4
+
+3 4 5 6 1 2
+5 6 1 2 3 4
+6 5 2 1 4 3
+1 2 3 4 6 5
+2 1 4 3 5 6
+4 3 6 5 2 1
+
+4 3 6 5 2 1
+6 5 2 1 4 3
+5 6 1 2 3 4
+2 1 4 3 5 6
+1 2 3 4 6 5
+3 4 5 6 1 2
+
+5 6 1 2 4 3
+3 4 5 6 1 2
+2 1 3 4 6 5
+6 5 2 1 3 4
+4 3 6 5 2 1
+1 2 4 3 5 6
+
+6 5 2 1 3 4
+4 3 6 5 2 1
+1 2 4 3 5 6
+5 6 1 2 4 3
+3 4 5 6 1 2
+2 1 3 4 6 5
+114
+
+1 2 3 4 5
+3 4 5 1 2
+5 1 2 3 4
+2 3 4 5 1
+4 5 1 2 3
+
+1 2 3 4 5
+3 4 5 1 2
+5 1 2 3 4
+2 3 4 5 1
+4 5 1 2 3
+
+1 2 3 4 5
+3 4 5 1 2
+5 1 2 3 4
+2 3 4 5 1
+4 5 1 2 3
+
+1 2 3 4 5
+3 4 5 1 2
+5 1 2 3 4
+2 3 4 5 1
+4 5 1 2 3
+
+1 2 3 4 5
+3 4 5 1 2
+5 1 2 3 4
+2 3 4 5 1
+4 5 1 2 3
+84
+
+https://research.ibm.com/haifa/ponderthis/solutions/October2022.html
+
+The presented solution did not attain 148/148 as erroneously claimed originally.
+
+2022-09 Solve #14
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2022.html
+
+Thought of decomposing a quasi Star Of David into an ISRL partition.
+
+I struggle to care about this task.
+
+A tree/mushroom with a very suspicious "L":
+
+ RRRRR
+SSSRIRL
+SRRIRRL
+S SIL L
+  SIL
+SSSILLL
+
+ISRL
+
+[[0,0],[0,1],[0,2],[0,3],[1,4]]
+[[0,0],[0,2],[0,3],[0,4],[1,0],[1,4],[2,0],[2,1],[2,2],[2,4]]
+[[0,0],[0,1],[0,2],[0,3],[0,4],[1,2],[1,4],[2,0],[2,1],[2,3],[2,4]]
+[[0,0],[0,1],[0,2],[1,0],[2,0],[2,2],[2,3],[2,4]]
+[[3,0,0],[0,0,0],[1,3,1],[4,0,0]]
+
+ IIII 
+  II  
+  II  
+  II  
+ IIII 
+ LLLL 
+RLRRRR
+R RR R
+ RRRR 
+R RR R
+RRRRLR
+ LLLL 
+SSSSSS
+SHHHHH
+SSHHSS
+HHHHHS
+SSSSSS
+
+HISRRLL
+
+[[0,1],[0,2],[0,3],[0,4],[0,5],[1,2],[1,3],[2,0],[2,1],[2,2],[2,3],[2,4]]
+[[0,0],[0,4],[1,0],[1,1],[1,2],[1,3],[1,4],[2,0],[2,1],[2,2],[2,3],[2,4],[4,0],[4,4]]
+[[0,0],[0,2],[0,3],[0,4],[1,0],[1,2],[1,4],[2,0],[2,4],[3,0],[3,4],[4,0],[4,2],[4,4],[5,0],[5,1],[5,2],[5,4]]
+[[0,0],[0,1],[0,2],[0,3],[0,4],[1,2],[1,4],[2,0],[2,1],[2,3],[2,4]]
+[[0,0],[0,1],[0,2],[0,3],[1,0]]
+[[0,1,1],[1,12,0],[0,0,0],[0,6,2],[3,6,0],[1,5,3],[1,10,1]]
+
+2022-08 Solve #13
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2022.html
+
+Markov Chain matrix transition multiplicity function binary exponentiation modulo.
+
+2022-07 Solve #12 [1st Solver #3]
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2022.html
+
+International Mathematics Olympiad 1994 Shortlist Combinatorics 3
+
+"
+The last part is trivial. Suppose all the money can be transferred to one account. Then the last move must be to double the money in that account. So Peter's total number of dollars must be even. If it is odd, then he cannot get all the money into one account.
+
+Suppose the initial amount in each account is a ≤ b ≤ c. If a > 0 we show how to make transfers which end up with the smallest amount being reduced. That is evidently sufficient.
+
+Call the account initially containing a, b, c the first, second, third account respectively. Write b = qa + r, with 0 ≤ r < a. Write q in binary: bk...b0. Now for i = 0, 1, ... , k make a transfer from the second account to the first if bi = 1 or a transfer from the third account to the first if bi = 0. In total, qa is transferred from the second account. Note also that at most 011...1 (k 1s) x a < bk0 ... 0 ≤ qa ≤ b ≤ c is transferred in total from the third account, so the transfers are possible. Since the second account is left with r < a, the effect of the transfers is to reduce the smallest amount, as claimed.
+"
+
+The algorithm is canonical. Binary. With some fudging and eyeballing one obtains:
+
+(855661, 1395050, 1402703, 1575981, 2956165, 4346904, 5516627, 5693538, 6096226, 7359806)
+
+(7653, 855661, 1575981, 2790100, 2956165, 4346904, 5516627, 5693538, 6096226, 7359806)
+
+(15306, 855661, 1575981, 2790100, 2956165, 4346904, 5516627, 5693538, 6096226, 7352153)
+
+(30612, 855661, 1575981, 2790100, 2956165, 4346904, 5516627, 5693538, 6096226, 7336847)
+
+(61224, 855661, 1575981, 2790100, 2956165, 4346904, 5516627, 5693538, 6096226, 7306235)
+
+(122448, 855661, 1575981, 2790100, 2956165, 4285680, 5516627, 5693538, 6096226, 7306235)
+
+(244896, 855661, 1575981, 2790100, 2956165, 4163232, 5516627, 5693538, 6096226, 7306235)
+
+(489792, 855661, 1575981, 2790100, 2956165, 3918336, 5516627, 5693538, 6096226, 7306235)
+
+(855661, 979584, 1575981, 2790100, 2956165, 3918336, 5516627, 5693538, 6096226, 6816443)
+
+(855661, 1575981, 1959168, 2790100, 2956165, 3918336, 5516627, 5693538, 5836859, 6096226)
+
+(855661, 1575981, 2790100, 2956165, 3918336, 3918336, 4137058, 5516627, 5693538, 5836859)
+
+(0, 855661, 1575981, 2790100, 2956165, 4137058, 5516627, 5693538, 5836859, 7836672)
+
+BOOM 11 STEPS
+
+Simply add 2^26 - [sum of all elements] = 2^26 - 37198661 = 29910203 to the 1st dude and it works inductively. As then the sum of all dudes is 2^26. On a parity argument based around the minimum element and dividing out by the Greatest Common Divisor etc. etc. factoring out powers of 2 as needed and reducing until finally hitting the required all-in-1-bin state. So:
+
+(1395050, 1402703, 1575981, 2956165, 4346904, 5516627, 5693538, 6096226, 7359806, 30765864)
+
+2022-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2022.html
+
+https://www-cs-faculty.stanford.edu/~knuth/programs/polynum.w
+
+I think that one can do the most obvious naive actual literal evaluation on top of codes such as this one to produce the desired target output and perhaps with a good machine simply execute for a while for up to the n = 20 case.
+
+Well apparently the one and only legendary Alpha Star A Star A* Star League Messieur Dottore Ali Gurel can hop in the mix here and beat me on this puzzle contest round!
+
+Had I viewed the Project Leonhard Euler archive fora for Task 275, perhaps I would have then more easily pinged this one down. Though I could have simply done it myself anyways and probably ought to in the future on rounds such as this one to increase my overall success Probability rate.
+
+2022-05 Solve #11
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2022.html
+
+Onsight simple recursion no need for Fast Fourier Transformation modulo p or multiplicatively.
+
+[194, 291, 721, 486, 2, 196, 293, 584, 197, 46, 586, 725, 822, 781, 920, 242, 976, 492, 493, 784, 106, 591, 537, 204, 689, 399, 690, 54, 206, 400, 207, 832, 498, 789, 111, 639, 305, 112, 500, 931, 888, 113, 933, 695, 503, 838, 116, 989, 937, 699, 893, 842, 22, 358, 313, 604, 553, 217, 941, 993, 70, 218, 168, 25, 653, 414, 753, 29, 950, 78, 999, 467, 31, 468, 857, 807, 761, 858, 712, 374, 665, 763, 132, 474, 862, 961, 135, 186, 672, 866, 770, 287, 384, 191, 676, 192, 581]
+
+[900, 823, 74, 75, 76, 826, 902, 827, 304, 604, 455, 755, 905, 6, 456, 606, 906, 7, 308, 758, 984, 9, 609, 909, 610, 760, 311, 687, 611, 761, 612, 762, 313, 690, 613, 164, 464, 764, 914, 392, 615, 915, 166, 994, 916, 317, 618, 768, 397, 320, 620, 700, 921, 323, 702, 923, 174, 554, 26, 926, 255, 478, 778, 556, 779, 707, 630, 930, 708, 631, 559, 482, 561, 483, 262, 34, 113, 784, 713, 186, 265, 637, 266, 339, 267, 490, 717, 940, 120, 641, 720, 121, 193, 872, 344, 124, 274, 495, 724, 275, 196, 725, 875, 947, 277, 877, 49, 129, 879, 200, 580, 880, 131, 951, 731, 432, 133, 205, 284, 734, 884, 359, 885, 436, 137, 287, 587, 811, 588, 888, 290, 590, 740, 964, 291, 592, 892, 143, 593, 744, 595, 895, 146, 897, 148, 298, 598, 149, 299, 599]
+
+2022-02 Solve #10 [1st Solver #2]
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2022.html
+
+10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[(442, 0), (440, 1), (438, 4), (437, 5), (436, 6), (431, 12), (429, 14), (422, 19), (419, 22), (416, 24), (415, 25), (414, 26), (413, 27), (409, 30), (405, 36), (402, 38), (399, 40), (396, 43), (395, 46), (394, 48), (393, 53), (392, 54), (388, 57), (385, 59), (384, 61), (383, 62), (382, 65), (379, 67), (378, 70), (377, 71), (376, 72), (373, 75), (372, 76), (371, 77), (370, 78), (369, 80), (366, 82), (364, 84), (363, 86), (360, 88), (359, 89), (358, 90), (356, 93), (355, 96), (354, 99), (353, 101), (351, 103), (349, 105), (347, 107), (344, 109), (342, 113), (341, 115), (340, 116), (339, 119), (336, 121), (335, 123), (333, 124), (332, 128), (331, 131), (328, 135), (325, 137), (322, 141), (320, 142), (319, 145), (318, 146), (315, 149), (313, 153), (310, 156), (309, 158), (308, 160), (307, 161), (303, 164), (302, 165), (300, 168), (299, 169), (297, 171), (296, 172), (294, 175), (293, 177), (288, 183), (284, 185), (283, 188), (282, 189), (281, 190), (279, 192), (278, 193), (277, 195), (276, 197), (274, 199), (269, 204), (267, 205), (266, 206), (262, 212), (255, 216), (254, 217), (253, 218), (252, 222), (251, 224), (250, 225), (248, 228), (246, 230), (243, 237), (241, 241), (240, 243), (239, 246), (235, 249), (234, 250), (233, 252), (232, 253), (230, 255), (228, 258), (226, 263), (223, 265), (220, 267), (218, 269), (216, 272), (214, 274), (213, 277), (212, 278), (211, 279), (208, 281), (207, 283), (206, 284), (200, 290), (199, 291)]
+100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[(682, 0), (680, 1), (677, 4), (676, 5), (673, 7), (671, 13), (669, 15), (663, 19), (662, 20), (661, 22), (657, 25), (656, 26), (655, 28), (654, 29), (653, 30), (651, 34), (650, 36), (648, 37), (647, 39), (646, 40), (644, 42), (643, 47), (641, 48), (640, 49), (639, 50), (637, 52), (636, 53), (634, 56), (633, 59), (632, 62), (629, 64), (627, 67), (626, 69), (625, 70), (624, 72), (623, 73), (622, 78), (619, 82), (616, 86), (614, 87), (612, 91), (610, 93), (609, 94), (608, 96), (607, 97), (605, 102), (603, 107), (599, 109), (593, 114), (589, 118), (587, 119), (583, 123), (582, 125), (580, 127), (574, 132), (572, 135), (570, 136), (569, 137), (568, 138), (564, 141), (560, 145), (558, 147), (555, 149), (553, 151), (550, 153), (549, 157), (548, 159), (546, 162), (544, 163), (542, 165), (538, 169), (537, 170), (533, 173), (532, 175), (529, 177), (528, 182), (526, 184), (524, 185), (523, 186), (522, 187), (521, 189), (520, 190), (516, 193), (515, 194), (514, 195), (511, 198), (509, 200), (508, 201), (505, 203), (504, 204), (503, 209), (502, 210), (500, 214), (498, 216), (497, 217), (493, 220), (492, 221), (490, 223), (487, 225), (486, 226), (484, 228), (483, 230), (480, 232), (477, 235), (473, 241), (472, 243), (471, 244), (470, 245), (469, 247), (467, 248), (465, 253), (460, 256), (459, 257), (458, 258), (457, 259), (456, 262), (455, 265), (453, 267), (448, 271), (443, 275), (442, 276), (441, 278), (438, 280), (434, 284), (432, 286), (431, 287), (430, 288), (429, 290), (428, 291), (427, 292), (426, 293), (425, 294), (421, 297), (420, 298), (417, 304), (415, 305), (414, 306), (413, 307), (409, 310), (407, 312), (406, 313), (404, 316), (403, 317), (402, 319), (400, 320), (399, 321), (397, 323), (396, 325), (390, 330), (387, 332), (386, 333), (382, 336), (381, 337), (380, 339), (379, 342), (377, 343), (376, 346), (375, 348), (374, 349), (371, 352), (368, 355), (366, 356), (365, 358), (362, 360), (361, 361), (358, 364), (355, 366), (354, 368), (353, 369), (352, 370), (351, 371), (349, 373), (347, 375), (345, 378), (344, 380), (343, 383), (342, 387), (340, 389), (338, 391), (337, 392), (334, 395), (333, 397), (331, 400), (329, 402), (324, 405), (323, 406), (322, 408), (319, 410), (314, 414), (313, 416), (312, 417), (311, 419), (308, 422), (306, 423), (305, 426), (304, 427), (303, 430), (302, 432), (301, 433), (299, 438)]
+
+I was not sure if the values 10^199 and 10^299 would produce the target length under the threshold but they did! And thus an implementation of an Erdos observation, from the Kedlaya archive solution for the Putnam 2005 A1, was born! It's a recursion which can be analysed either by simply plugging the recursion equation into WolframAlpha or what is known as the Master Theorem. So for example WolframAlpha Implementation:
+
+f(x)=log(x)+f(x/2)
+
+This returns that this algorithm is O[log^2 n]. In any case, if a is even we simply multiply all summands in a representation for a/2 by 2. If a is odd we append the maximal b relevant power of 3 to the list for (a-b)/2 multiplied by 2.
+
+2022-01 Solve #9
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2022.html
+
+[1,2,5,4,9,3,7]
+[1,0,6,2,8,5,4]
+
+[1,8,2,3,4,6,7,9]
+[1,0,6,9,5,2,8,4]
+
+Code. There exist a number of tweaks and optimisations I saw but did not implement because my C++ performed to produce the target output.
+
+Sieve to produce the primes up to n in O[n] and then loop through to produce precisely the set of relevant digit distinct primes. Loop through producing a hash map from ordered 5-tuplets of digits to vectors of primes formed by that set of digits. A rough upper bound estimate is that there are O[[a choose b]*b!/[log b]] such primes, from the Prime Number Theorem and the assumption that the fraction of digit-distinct numbers versus all numbers which are prime is not worth expounding upon further. And there is an O[b log b] or O[a] sort needed for each prime to insert or add it to the relevant vector in the hash map. However, a relevant upper bound is merely O[a choose b] elements in the hash map. Then using default permutation iterating library functions produce circles of digits, immediately pruning by fixing a minimum starting digit and a reflectional symmetry order by fixing the minimum of 2 adjacent elements to the next index. This is O[[d choose a]*[a-1]!/2] many circles. And one can precompute the digit-of map for each circle here for an additional O[a] factor bringing up the runtime of this component to O[[d choose a]*a!/2]. Depending on a, one can invoke the needed O[1] lookup to indexof and score structure for the set of circles, either an array or hash map will do. Then loop through the primes digit sets hash map and for each set of digits loop through all O[[d-a] choose [b-a]] possible extensions and each of the induced O[[a-1]!/2] circles add the relevant score for each prime in O[b]. Now one computes the overall runtime asymptotic of ~O[max[[a choose b]*b!/[log b]*[[d-a] choose [b-a]]*[a-1]!/2*b,[d choose a]*a!/2]]. I don't know if there are other potential structures here worth commenting, expositing, or ideating upon.
+
+2021-12 Solve #8
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2021.html
+
+There existed a typo and a trivial n^n score using static pins to send all balls to s[n] position. And I sent code to handle more general score functions which satisfy desiderata. Upon the update to the product intended score function metric:
+
+There exist O[4^[n^2]] possible states/configurations of pins so we must do better. Code generating row by row, in a total runtime ~O[n^2 * 4^n], to produce the maximum of this metric supposing all layers below are made up of the 5th pin type, genuine random as in the Galton Board depicted qua puzzle column flavour text and historical note. In the sense that we use the sum of induced double/floating binomial distributions downstream. Performance improvement over my own implementation results from precomputing these relevant downstream binomial distributions. However, really see later comments on a convex hull of discrete attainable points and the objective function because "we can do better" and really should aspire for more optimisation here.
+
+A verification:
+
+114.801
+L<><<><<<><<<<RL<<<R><R<<L>>LLR<RRLL
+
+This graphic depicts precisely how many balls will reach each pin in the constructed deterministic Galton Board:
+
+        150
+         L
+       75 75
+        <  >
+      75  0 75
+       <  <  >
+     75  0  0 75
+      <  <  <  >
+    75  0  0  0 75
+     <  <  <  <  R
+   75  0  0  0 37 38
+    L  <  <  <  R  >
+  38 37  0  0 18 19 38
+   <  R  <  <  L  >  >
+ 38 18 19  0  9  9 19 38
+  L  L  R  <  R  R  L  L
+19 28 18 10  4  9 15 28 19
+
+[9/150*4]^1*[9/150*9]^2*[9/150*10]^3*[9/150*15]^4*[9/150*18]^5*[9/150*28]^6*[9/150*28]^7*[9/150*19]^8*[9/150*19]^9
+
+Diving and taking the logarithm:
+
+Maximise log(a)+2*log(b)+3*log(c)+4*log(d)+5*log(f)+6*log(g)+7*log(h)+8*log(j)+9*log(k) for a+b+c+d+f+g+h+j+k=150 and a>0,b>0,c>0,d>0,f>0,g>0,h>0,j>0,k>0 by Lagrange Multipliers one obtains 1/a=2/b=3/c=4/d=5/f=6/g=7/h=8/j=9/k and the continuous maximum final distribution vector of:
+
+[90/3,70/3,50/3,30/3,10/3,20/3,40/3,60/3,80/3] =
+[30.0,23.3,16.7,10.0, 3.3, 6.7,13.3,20.0,26.7] compared to output:
+[19.0,28.0,18.0,10.0, 4.0, 9.0,15.0,28.0,19.0]
+
+Perhaps in this particular case one could manually construct from this. Or one could run a program which computes optimal discrete points near the continuous maximum and then generates a small set of potential reachable distributions from a current upstream distribution and evaluates the convex hull of those points somehow towards maximisation.
+
+136.172
+L<><<><<<>L<<<><><<<R<<><<<>L<<R<L<><R<L<<L<L
+
+2021-11 Solve #7
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2021.html
+
+["D1", "D1", "R1", "L5", "R6", "R6", "R6", "L7", "L7", "L8", "L9", "L10", "L10", "D3", "U8", "D9", "D9", "D9", "U10", (11,11), "L12", "U14", (14,14)]
+
+["R1", "R4", "U4", "U4", "U5", "U5", "D7", "U8", "U8", "D9", "L8", "R9", (9,9)]
+
+2021-10 Solve #6
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2021.html
+
+On sighted that I could rapidly execute this task manually rather than programatically and did.
+
+[(0,3), "C3", (4,6), "C6", (5,6), "C6"]
+
+["C1", (1,3), "R1", (2,5), "R2", (2,7), "R2, (3,7), "C7", (6,7), "R6", (6,8), "C8", (9,9)]
+
+["C1", (1,3), "R1", (3,4), "R4", (4,5), "R4", (5,6), "R5", (7,7), "C7", (8,7), "R8", (9,9)]
+
+2021-09 Solve #5
+
+https://www.research.ibm.com/haifa/ponderthis/challenges/September2021.html
+
+Interesting task oddly restricted minimized string distance construction. From my UT Austin MS Computer Science application Statement Of Purpose:
+
+"
+A story: the September 2021 IBM Research Ponder This of puzzle composer and editor Dr. Gadi Aleksandrowicz. The task was to manipulate a string and produce another string under some constraints such that the "distance" between the 2 strings was under a threshold. Immediately I thought of some canonical results in strings manipulation and in the direction of generalised Hamming distance notions. However, I was not able to alter any of these extant ideas in a meaningful way.
+
+It struck me a couple weeks later that I had missed a true underlying structure. This led to multiple insights, which came one after the other. Firstly, that one might be able to restrict to patterns of the form 0ABC and consider the task as a minimisation of sums of distances in Z3 under the taxicab metric. Secondly, that one can ignore certain input of 1s [fixed cost] to improve performance by significantly reducing the size of this region in Z3 from a 9x9x9 lattice cube to an 8x8x8 lattice cube. Thirdly, that one can, via trial and error, ignore input in order to induce a highly clustered [under this notion/metric of clusteredness] point set in Z3 upon which to execute a 15 dimensional gradient descent to compute the centers of the clusters and produce the target performance rather rapidly. This incurs a low constant term in a first phase to improve performance in a second phase. It was for me one of those tasks which I did not "on sight". Rather, I pondered in the background and had epiphanies! This simpler case, executing this dimensional reduction, imposing a more constraining condition on the used strings, transforms this into an easier task.
+
+This story is about the reality of tricky tasks; going beyond the most simple low latency puzzle solves and asymptotics to more interesting things and optimisations. I followed up with a note, in my Thoughts.tex file, considering the random initiation of gradient descents not from a lattice mesh, but rather from a set which includes points polynomially or exponentially near the vertices and boundary of the convex hull of the search region of inputs for certain objective functions where optima [of desired performance or say a global optimum] are more likely to be found there. One can consider step sizing in these cases as well.
+"
+
+["0265","0327","0159","0864","0397"]
+-314-159-265-358-979-323-846-264-338-327-9502-884-197-169-399-375-1058-2097-494-459-2307-8164
+0327015902650159086403270864026503270327086-40864039701590397026501-5903-9703970159032-708-64
+
+["0974","0382","0635","0748","0378"]
+-31415-9265-358-979-3238-462-643-383-279-5028-8419-7169-399-375-10582-0974-944-592-3078-16406-286-2089-986-28034-825-342-117067-982-14808-6513-282-3066-4709-384-4609-5505-822-3172-535-9408-1284-811174-5028-41027-01938-521105-559-644-622-948-954-9303-8196
+06-3-509-740378097403-78038206350382037807-48074-807-48037803780--3820-9740974038203-780-63-5037803-7809740-6-35063503820--7-4809740-37-8063-5038203-78037-80382037-8063-5063503-820635074-80-38209---7407-4806--350--748063---507480635063507480974097-409-74
+
+2021-08
+
+https://www.research.ibm.com/haifa/ponderthis/challenges/August2021.html
+
+One can bottom up dynamic program the game theoretically optimal strategy permutation and randomly generate vectors or test an entire set say a lattice or perhaps there exists a canonical set more prone to hitting target regions in a variety of functions i.e. induced extremal points in convex hulls.
+
+2021-07 Solve #4 [1st Solver #1]
+
+https://www.research.ibm.com/haifa/ponderthis/challenges/July2021.html
+
+Chernick [6p+1][12p+1][18p+1] and Chinese Remainder Theorem for [+-1,+-1,+-1] residues.
+
+1296000000000000000000000000014999943600000000000000000000057869935185960000000000000000074420933121035281
+60000000000000000000000000000231481 120000000000000000000000000000462961 180000000000000000000000000000694441
+1296000000000000000000000000014999943600000000000000000000057869935185960000000000000000074420933121035280
+
+2021-06 Solve #3
+
+https://www.research.ibm.com/haifa/ponderthis/challenges/June2021.html
+
+Leyland primes congruent to 1,9,25 modulo 56 by quadratic reciprocity and Wolfram Alpha.
+
+7259701736680389461922586102342375953169154793471358981661239413987142371528493467259545421437269088935158394128249
+34 75
+1333030648893058553789277061401358577881136005688481248832 -2341523227685802973317116937233099044272373695299363945845
+1688720447290015642452516760229506509635032011397287059257 -1484574852876236578030099116366398251085237658488907102090
+1393905404716216131892233482794414472900782174600716102781 -871511778412605044471256876208116162244764418001268613572
+
+2021-05 Solve #2
+
+https://www.research.ibm.com/haifa/ponderthis/challenges/May2021.html
+
+Ronald Graham, Donald Knuth - A Fibonacci-Like Sequence Of Composite Numbers
+
+2021-04
+
+https://www.research.ibm.com/haifa/ponderthis/solutions/April2021.html
+
+This is Exercise 26 from Chapter 1 of Concrete Mathematics by Ronald Graham, Donald Knuth, and Oren Patashnik. One can on the spot Josephus.
+
+2021-03 Solve #1
+
+https://www.research.ibm.com/haifa/ponderthis/challenges/March2021.html
+
+Note the logical condition is equivalent with max index in column is off by [-1,0,1] from max index in neighbouring column. Hence the problem is equivalent to computing the maximum sum of dudes above a path from left-to-right which satisfies this desideratum. Whence one can take column prefix sums and dynamic program the maximum path across in O[N^2].
+
+2021-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2021.html
+
+
+
+2021-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2021.html
+
+
+
+2020-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2020.html
+
+
+
+2020-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2020.html
+
+
+
+2020-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2020.html
+
+
+
+2020-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2020.html
+
+
+
+2020-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2020.html
+
+
+
+2020-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2020.html
+
+
+
+2020-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2020.html
+
+http://www.numbertheory.org/php/carmichael.html
+
+https://www.notebookarchive.org/finding-the-inverse-of-euler-totient-function--2018-10-10qtft8/
+
+Solving φ(x)=n, where φ(x) is Euler's totient function - testing Carmichael's conjecture
+Euler's function φ(m) is the number of integers x, 1 ≤ x ≤ m satisfying gcd(x,m)=1. Thus
+φ(1)=1, φ(2)=1, φ(3)=2, φ(4)=2, φ(5)=4, φ(6)=2, φ(7)=6, φ(8)=4, φ(9)=6, φ(10)=4.
+
+Also if m=p1a1⋯ptat is the prime-power factorization of m, then φ(m)=p1a1-1(p1-1)⋯ptat-1(pt-1).
+Carmichael's Totient Function Conjecture (1922, first stated in reference 6 below) states that Euler's function takes each value at least twice.
+
+In April 1997, Anthony J. Towns, then a student in my MP206 class, wrote an amazingly clever C program for solving φ(x)=n and which also finds the y > 1 such that φ(y) divides n.
+
+The BCMATH and BC versions start by determining the primes p such that p-1 divides n. The algorithm then traverses the tree described in section 4 of reference 1 below, from left to right.
+
+One limitation of our implementation is the use of a primitive factoring program which uses the Brent-Pollard algorithm and Pollard's p-1 algorithm. It should work on integers with no more than 20 digits. See the CALC version that works on larger numbers.
+
+e=0 determines solubility and prints out all solutions x of φ(x)=n, while e=1 tests Carmichael's conjecture.
+f=0 determines solubility and prints out all solutions y of φ(y) divides n, while f=1 prints only the x satisfying φ(x)=n.
+The algorithm deals with the set S(n) of primes p such that p-1 divides n. It produces sequences p1 < p2 < ··· < pj of primes in S(n), together with corresponding non-negative integers γ1, ... , γj as follows:
+e1 = p1γ1(p1-1) divides n0 = n;
+e2 = p2γ2(p2-1) divides n1 =n0/e1;
+···
+ej = pjγj(pj-1) divides nj-1 =nj-2/ej-1.
+Then e1e2···ej divides n and with y = p1γ1+1···pjγj+1, we have e1e2···ej = φ(y) divides n.
+
+Either a branch ends with a y such that φ(y) < n, or a y with φ(y) = n
+
+Here is the tree when n = 8, traversed from left to right. The solutions y, apart from 1, such that φ(y) divides 8, are listed, as are the corresponding (pj,γj,nj-1):
+
+2, 6, 30 10, 4, 12, 20, 8, 24, 16, 3, 15, 5,
+
+with the boldfaced integers being the solutions x of φ(x)=8.
+
+References
+Complexity of inverting the Euler function, Scott Contini, Ernie Croot and Igor Shparlinski, Math. Comp 75 (2006) 983-996.
+The number of solutions of φ(x) = m, Kevin Ford, Annals of Math. 150 (1999), 283-311.
+Carmichael's conjecture on the Euler function is valid below 1010,900,000, Aaron Schafly and Stan Wagon, Math. Comp. 63 (1994) 415-419.
+On Carmichael's conjecture, Carl Pomerance, Proc. Amer. Math. Soc. 43 (1974) 297-298.
+Sur l'equation φ(x)=m, André Schinzel, Elemente der Mathematik, 11 (1956) 75-78.
+On a conjecture of Carmichael, V.L. Klee Jr., Bull. Amer. Math. Soc. 53 (1947) 1183-1186.
+Note on Euler's φ-function, R.D. Carmichael, Bull. Amer. Math. Soc. 28 (1922) 109-110.
+On Euler's φ-function, R.D. Carmichael, Bull. Amer. Math. Soc. 28 (1907) 241-243.
+Errata: Volume 13: Bull. Amer. Math. Soc., Volume 54, Number 12 (1948), 1192-1192.
+Errata: Bull. Amer. Math. Soc., Volume 55, Number 2 (1949), 212-212.
+Enter n (≥ 1):
+3031634148236289733373855928919180891127808
+
+Enter e (0 or 1):
+
+Enter f (0 or 1):
+  
+Last modified 9th September 2010
+Return to number-theoretic functions page
+
+2020-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2020.html
+
+"
+In Florian's solution, you can see the Tree of Wisdom representing John Conway's immense knowledge, an aura showing his influence on us, a star at the zenith symbolizes his guidance and, at the corners, four little ornamental angels in the shape of gliders remind of his Game of Life.
+"
+
+In Lazar's Productivity.txt solution, you can see the Tree Of Wisdom representing Lazar Ilic's immense knowledge, an aura showing his influence on us, a star at the zenith symbolizes his guidance and, at the corners, four little ornamental angels in the shape of gliders remind of his 4 Dimensional Chess Game Of A Long Life.
+
+2020-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2020.html
+
+
+
+2020-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2020.html
+
+
+
+2020-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2020.html
+
+
+
+2020-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2020.html
+
+
+
+2019-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2019.html
+
+
+
+2019-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2019.html
+
+
+
+2019-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2019.html
+
+
+
+2019-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2019.html
+
+
+
+2019-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2019.html
+
+
+
+2019-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2019.html
+
+
+
+2019-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2019.html
+
+
+
+2019-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2019.html
+
+
+
+2019-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2019.html
+
+
+
+2019-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2019.html
+
+
+
+2019-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2019.html
+
+
+
+2019-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2019.html
+
+
+
+2018-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2018.html
+
+
+
+2018-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2018.html
+
+
+
+2018-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2018.html
+
+
+
+2018-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2018.html
+
+
+
+2018-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2018.html
+
+
+
+2018-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2018.html
+
+
+
+2018-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2018.html
+
+
+
+2018-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2018.html
+
+
+
+2018-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2018.html
+
+
+
+2018-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2018.html
+
+
+
+2018-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2018.html
+
+
+
+2018-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2018.html
+
+
+2017-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2017.html
+
+
+
+2017-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2017.html
+
+
+
+2017-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2017.html
+
+
+
+2017-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2017.html
+
+
+
+2017-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2017.html
+
+
+
+2017-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2017.html
+
+
+
+2017-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2017.html
+
+
+
+2017-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2017.html
+
+
+
+2017-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2017.html
+
+
+
+2017-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2017.html
+
+
+
+2017-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2017.html
+
+
+
+2017-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2017.html
+
+
+2016-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2016.html
+
+
+
+2016-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2016.html
+
+
+
+2016-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2016.html
+
+
+
+2016-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2016.html
+
+
+
+2016-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2016.html
+
+
+
+2016-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2016.html
+
+
+
+2016-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2016.html
+
+
+
+2016-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2016.html
+
+
+
+2016-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2016.html
+
+
+
+2016-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2016.html
+
+
+
+2016-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2016.html
+
+
+
+2016-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2016.html
+
+
+2015-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2015.html
+
+
+
+2015-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2015.html
+
+
+
+2015-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2015.html
+
+
+
+2015-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2015.html
+
+
+
+2015-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2015.html
+
+
+
+2015-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2015.html
+
+
+
+2015-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2015.html
+
+
+
+2015-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2015.html
+
+
+
+2015-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2015.html
+
+
+
+2015-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2015.html
+
+
+
+2015-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2015.html
+
+
+
+2015-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2015.html
+
+
+2014-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2014.html
+
+
+
+2014-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2014.html
+
+
+
+2014-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2014.html
+
+
+
+2014-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2014.html
+
+
+
+2014-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2014.html
+
+
+
+2014-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2014.html
+
+
+
+2014-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2014.html
+
+
+
+2014-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2014.html
+
+
+
+2014-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2014.html
+
+
+
+2014-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2014.html
+
+
+
+2014-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2014.html
+
+
+
+2014-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2014.html
+
+
+2013-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2013.html
+
+
+
+2013-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2013.html
+
+
+
+2013-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2013.html
+
+
+
+2013-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2013.html
+
+
+
+2013-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2013.html
+
+
+
+2013-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2013.html
+
+
+
+2013-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2013.html
+
+
+
+2013-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2013.html
+
+
+
+2013-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2013.html
+
+
+
+2013-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2013.html
+
+
+
+2013-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2013.html
+
+
+
+2013-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2013.html
+
+
+2012-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2012.html
+
+
+
+2012-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2012.html
+
+
+
+2012-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2012.html
+
+
+
+2012-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2012.html
+
+
+
+2012-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2012.html
+
+
+
+2012-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2012.html
+
+
+
+2012-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2012.html
+
+
+
+2012-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2012.html
+
+
+
+2012-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2012.html
+
+
+
+2012-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2012.html
+
+
+
+2012-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2012.html
+
+
+
+2012-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2012.html
+
+
+2011-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2011.html
+
+
+
+2011-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2011.html
+
+
+
+2011-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2011.html
+
+
+
+2011-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2011.html
+
+
+
+2011-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2011.html
+
+
+
+2011-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2011.html
+
+
+
+2011-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2011.html
+
+
+
+2011-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2011.html
+
+
+
+2011-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2011.html
+
+
+
+2011-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2011.html
+
+
+
+2011-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2011.html
+
+
+
+2011-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2011.html
+
+
+2010-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2010.html
+
+
+
+2010-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2010.html
+
+
+
+2010-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2010.html
+
+
+
+2010-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2010.html
+
+
+
+2010-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2010.html
+
+
+
+2010-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2010.html
+
+
+
+2010-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2010.html
+
+
+
+2010-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2010.html
+
+
+
+2010-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2010.html
+
+
+
+2010-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2010.html
+
+
+
+2010-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2010.html
+
+
+
+2010-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2010.html
+
+
+2009-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2009.html
+
+
+
+2009-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2009.html
+
+
+
+2009-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2009.html
+
+
+
+2009-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2009.html
+
+
+
+2009-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2009.html
+
+
+
+2009-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2009.html
+
+
+
+2009-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2009.html
+
+
+
+2009-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2009.html
+
+
+
+2009-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2009.html
+
+
+
+2009-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2009.html
+
+
+
+2009-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2009.html
+
+
+
+2009-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2009.html
+
+
+2008-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2008.html
+
+
+
+2008-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2008.html
+
+
+
+2008-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2008.html
+
+
+
+2008-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2008.html
+
+
+
+2008-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2008.html
+
+
+
+2008-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2008.html
+
+
+
+2008-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2008.html
+
+
+
+2008-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2008.html
+
+
+
+2008-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2008.html
+
+
+
+2008-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2008.html
+
+
+
+2008-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2008.html
+
+
+
+2008-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2008.html
+
+
+2007-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2007.html
+
+
+
+2007-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2007.html
+
+
+
+2007-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2007.html
+
+
+
+2007-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2007.html
+
+
+
+2007-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2007.html
+
+
+
+2007-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2007.html
+
+
+
+2007-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2007.html
+
+
+
+2007-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2007.html
+
+
+
+2007-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2007.html
+
+
+
+2007-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2007.html
+
+
+
+2007-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2007.html
+
+
+
+2007-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2007.html
+
+
+2006-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2006.html
+
+
+
+2006-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2006.html
+
+
+
+2006-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2006.html
+
+
+
+2006-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2006.html
+
+
+
+2006-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2006.html
+
+
+
+2006-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2006.html
+
+
+
+2006-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2006.html
+
+
+
+2006-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2006.html
+
+
+
+2006-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2006.html
+
+
+
+2006-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2006.html
+
+
+
+2006-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2006.html
+
+
+
+2006-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2006.html
+
+
+2005-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2005.html
+
+
+
+2005-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2005.html
+
+
+
+2005-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2005.html
+
+
+
+2005-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2005.html
+
+
+
+2005-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2005.html
+
+
+
+2005-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2005.html
+
+
+
+2005-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2005.html
+
+
+
+2005-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2005.html
+
+
+
+2005-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2005.html
+
+
+
+2005-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2005.html
+
+
+
+2005-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2005.html
+
+
+
+2005-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2005.html
+
+
+2004-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2004.html
+
+
+
+2004-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2004.html
+
+
+
+2004-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2004.html
+
+
+
+2004-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2004.html
+
+
+
+2004-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2004.html
+
+
+
+2004-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2004.html
+
+
+
+2004-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2004.html
+
+
+
+2004-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2004.html
+
+
+
+2004-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2004.html
+
+
+
+2004-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2004.html
+
+
+
+2004-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2004.html
+
+
+
+2004-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2004.html
+
+
+
+2003-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2003.html
+
+
+
+2003-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2003.html
+
+
+
+2003-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2003.html
+
+
+
+2003-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2003.html
+
+
+
+2003-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2003.html
+
+
+
+2003-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2003.html
+
+
+
+2003-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2003.html
+
+
+
+2003-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2003.html
+
+
+
+2003-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2003.html
+
+
+
+2003-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2003.html
+
+
+
+2003-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2003.html
+
+
+
+2003-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2003.html
+
+
+
+2002-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2002.html
+
+
+
+2002-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2002.html
+
+
+
+2002-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2002.html
+
+
+
+2002-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2002.html
+
+
+
+2002-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2002.html
+
+
+
+2002-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2002.html
+
+
+
+2002-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2002.html
+
+
+
+2002-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2002.html
+
+
+
+2002-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2002.html
+
+
+
+2002-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2002.html
+
+
+
+2002-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2002.html
+
+
+
+2002-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2002.html
+
+
+
+2001-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2001.html
+
+
+
+2001-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2001.html
+
+
+
+2001-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2001.html
+
+
+
+2001-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2001.html
+
+
+
+2001-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2001.html
+
+
+
+2001-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2001.html
+
+
+
+2001-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2001.html
+
+
+
+2001-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2001.html
+
+
+
+2001-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2001.html
+
+
+
+2001-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2001.html
+
+
+
+2001-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2001.html
+
+
+
+2001-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2001.html
+
+
+
+2000-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December2000.html
+
+
+
+2000-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November2000.html
+
+
+
+2000-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October2000.html
+
+
+
+2000-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September2000.html
+
+
+
+2000-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August2000.html
+
+
+
+2000-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July2000.html
+
+
+
+2000-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June2000.html
+
+
+
+2000-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May2000.html
+
+
+
+2000-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April2000.html
+
+
+
+2000-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March2000.html
+
+
+
+2000-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February2000.html
+
+
+
+2000-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January2000.html
+
+
+
+1999-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December1999.html
+
+
+
+1999-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November1999.html
+
+
+
+1999-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October1999.html
+
+
+
+1999-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September1999.html
+
+
+
+1999-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August1999.html
+
+
+
+1999-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July1999.html
+
+
+
+1999-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June1999.html
+
+
+
+1999-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May1999.html
+
+
+
+1999-04
+
+https://research.ibm.com/haifa/ponderthis/challenges/April1999.html
+
+
+
+1999-03
+
+https://research.ibm.com/haifa/ponderthis/challenges/March1999.html
+
+
+
+1999-02
+
+https://research.ibm.com/haifa/ponderthis/challenges/February1999.html
+
+
+
+1999-01
+
+https://research.ibm.com/haifa/ponderthis/challenges/January1999.html
+
+
+
+1998-12
+
+https://research.ibm.com/haifa/ponderthis/challenges/December1998.html
+
+
+
+1998-11
+
+https://research.ibm.com/haifa/ponderthis/challenges/November1998.html
+
+
+
+1998-10
+
+https://research.ibm.com/haifa/ponderthis/challenges/October1998.html
+
+
+
+1998-09
+
+https://research.ibm.com/haifa/ponderthis/challenges/September1998.html
+
+
+
+1998-08
+
+https://research.ibm.com/haifa/ponderthis/challenges/August1998.html
+
+
+
+1998-07
+
+https://research.ibm.com/haifa/ponderthis/challenges/July1998.html
+
+
+
+1998-06
+
+https://research.ibm.com/haifa/ponderthis/challenges/June1998.html
+
+
+
+1998-05
+
+https://research.ibm.com/haifa/ponderthis/challenges/May1998.html
+

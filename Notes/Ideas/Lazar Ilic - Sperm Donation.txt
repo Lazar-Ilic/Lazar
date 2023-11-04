@@ -1,0 +1,67 @@
+Email And Video Call And Meet Me For Free [I Will Consider Covering ~$10000 With A 0-Child-Support-And-No-Suing-Or-Annoying-Me Clause For Science Technology Engineering Mathematics Degree Holders] Intrauterine Or Intracervical Insemination In Massachusetts [Or Broader United States Of America]
+Top 700 global graduate mathlete. 3.8 Grade Point Average Bachelor Of Mathematics working on becoming a Master Of Computer Science. SAT Scholastic Aptitude Test 800s in Mathematics [Age 12], Critical Reading, Mathematics II, and Physics. GRE Graduate Record Examination 338.
+Birth Date: 1998-07-16
+Birth Order: 2nd Child
+Height: 180cm|71in
+Weight: 73.9kg|163.0lb
+Eyes: Hazel
+Hair Colour: Brown
+Handedness: Left
+Religion: None
+Ancestry: Serbian
+Nationality: United States Of America
+Career: Software Engineer
+Dream: Strong Healthy Kids
+Medical History: Hypopituitarism, Mother Severe Uterine Cancer, Grandfather Heart Disease
+Testicular Volume: ~25mL Via Orchidometer
+Phallus: ~18cm|7in Length × ~15cm|6in Girth Diameter [Photographed 2023-10-11]
+Sexual History: 1 Regretted Female Monogamous Partner ~2016-2018
+Skills: Mathematics, Physics, Logic Puzzles
+Athletics: Indoor Rowing 84 Minute Half-Marathons, Overhead Pressing 10 Repetitions Of 61.2kg|135lb
+Languages: English
+Hobbies: Reading, Climate Change Altruism
+Favourite Foods: Organic Beef Ribeye Steak, Atlantic Salmon, White Rice, Orange Juice, Lowfat Kefir, Instant Coffee
+Favourite Colour: Clear
+Personality: Hardworking, Serious, Creative, Mature
+Family: Mother, Teaching Me Mathematics
+Proud: Research
+Dream Meeting: Paul Erdős
+Life Lessons: Love Of Learning
+Adventurous: Hiking the Kalalau Trail in Kauai, Hawaii as a child. It was an uncontrived setting in which to feel the fear of death over the Pacific Ocean, listen to the waves, and gaze upon the Milky Way. A mountain lion meowing and big bears were awesome on the Lakes Trail near Alta Peak at Sequoia National Park. A hypoxia headache walking up towards the Caltech Submillimeter Observatory on Mauna Kea is notable too, as this is where Sonmi-451, and later Zachry, ascended in Cloud Atlas.
+[?] Staff Impressions: Quiet. Simple. Pleasant but aloof.
+Express Yourself:
+Periodic Circles
+This problem involves an iterative procedure that begins with a circle of n >= 3 integers. At each step every number is simultaneously replaced with the absolute difference of its two neighbours. For any initial values, the procedure eventually becomes periodic. Let S[N] be the sum of all possible periods for 3 <= n <= N. For example, S[6] = 6, because the possible periods for 3 <= n <= 6 are 1, 2, 3. Specifically, n = 3 and n = 4 can each have period 1 only, while n = 5 can have period 1 or 3, and n = 6 can have period 1 or 2. You are also given S[30] = 20381. Find S[100].
+Hint: Diana Thomas [Twitter @MathArmy] Moved On To Important Quantitative Medical Research
+Resume:
+Lazar Ilic
+lazar_ilic@yahoo.com
+GitHub.com/Lazar-Ilic/Lazar
+LaTeX C C++ Python+Libraries Java TypeScript AWS
+Software Engineer 2023 -
+MCS Computer Science-University Of Illinois UIUC 2024
+BS Mathematics 3.8-University Of Texas At Austin 2022
+CSES-1st
+USAMTS-1st
+CodeForces-Submaster
+Meta-319th
+阿里巴巴-Trip To 杭州+2×Top 700
+Putnam-87th
+USAMO-43rd
+Project Euler-10th+20 Out Of 20+3 Gold Medals
+Invitae Comprehensive Carrier DNA Screen 2023-09-26:
+
+Sexually Transmitted Diseases Test 2023-09-13:
+Analysis Details
+Chlamydia Negative - Bacteria Not Detected
+This test was looking for chlamydia trachomatis, the bacteria that causes chlamydia infection, in your urine sample. We did not find chlamydia bacteria in your urine sample. This means it's unlikely that you have a chlamydia infection.
+Gonorrhea Negative - Bacteria Not Detected
+This test was looking for neisseria gonorrhoeae, the bacteria that causes gonorrhea infection, in your urine sample. We did not find gonorrhea bacteria in your urine sample. This means it's unlikely that you have a gonorrhea infection.
+Hepatitis B Negative - Antigens Not Detected
+This test was looking for hepatitis B surface antigens, a protein found on the surface of the hepatitis B virus. We did not find hepatitis B antigens in your blood sample. This means it's unlikely that you have hepatitis B. If you haven't already, consider getting a hepatitis B vaccination to prevent future infection.
+Hepatitis C Negative -Antibodies Not Detected
+This test was looking for antibodies [immune cells] produced in response to the hepatitis C virus. We did not find hepatitis C antibodies in your blood sample. This means it's unlikely that you have hepatitis C.
+HIV Negative - Antigens Or Antibodies Not Detected
+This test was looking for several things in your blood sample: HIV p24 antigen, a protein found inside the human immunodeficiency virus [HIV]. Antibodies [immune cells] produced in response to the presence of HIV types 1 or 2. We did not find HIV 1/2 antigens or antibodies in your blood sample. This means it's unlikely that you have HIV 1 or 2. If you have a partner with HIV or have regular unprotected sex, consider talking to your doctor about pre-exposure prophylaxis [PrEP], a medication that can reduce your chances of contracting HIV.
+Syphilis Negative - Antibodies Not Detected
+This test was looking for antibodies [immune cells] produced in response to treponema pallidum, the bacteria that causes syphilis. We did not find T. pallidum antibodies in your blood sample. This means it's unlikely that you have a syphilis infection.

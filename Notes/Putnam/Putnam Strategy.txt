@@ -1,0 +1,39 @@
+Setup
+Books
+Chronic Exposure To Notes
+Resources
+Problem Solving
+Reading Solutions
+Proof Writing
+Practice Competing
+Putnam
+
+Setup
+Extremely important. I run Visual Studio Code and Chrome on a 15.6in 1920x1080 Asus Chromebook. Settings in VSC are heavily modified rendering it a beautiful minimal text editor.
+
+Books
+Putnam And Beyond
+
+Chronic Exposure To Notes
+I love reviewing my .pdf files to refresh my memory and think about key ideas.
+
+Resources
+Art Of Problem Solving, Kedlaya, MIT, CMU, LSU, Toronto, Cornell, UT Austin, Northwestern, 101 Problems In Algebra, 102 Combinatorial Problems, 104 Number Theory Problems, 110 Geometry Problems, A Path To Combinatorics For Undergraduates, A Problem Seminar, Art And Craft Of Problem Solving, Cut The Knot, Enumerative Combinatorics, Mathematical Puzzles, Olympiad Combinatorics, text books.
+
+Problem Solving
+Putnam, IMC, VTRMC, ISL, VJIMC, Miklos Schweitzer. In general when preparing for contest X do past contest X.
+
+Reading Solutions
+Pick tasks and text books with solutions. Read the solutions after solving or after some time if you do not solve, first line and try to solve etc. Can be very productive to simply read a lot of solutions too to learn new ideas.
+
+Proof Writing
+Practice and this will be smooth.
+
+Practice Competing
+One can certainly learn things about test day strategy from mocking but it does not really reproduce the stress or adrenaline from a real timed leaderboarded contest quite like say regular competitive programming will. I find competing very often has made it less stressful and mellowed me out about re how high variance these things truly are.
+
+Putnam
+It's very important that one secure an optimized testing environment like dim natural light, large tables, comfortable reasonable height chairs, etc. Also a number of lifestyle considerations going in must be made about food and exercise choices in the days prior especially re electrolytic and carbohydrate intake the night before and say planning potential good choices for the 2 hour intermission. And be sure to have a long piece of lead. Read all tasks immediately and write on the final submission, cancel undesired writing with 1 horizontal line through. Aspire to be terse, technical, clear, and precise. Consider allocating 20 minutes at the end of each half towards appending foot notes (one can use [1] notation in line) to proofs to include even more details which occur to you later may convince a grader to move from 0+ to 10- and also include nontrivial progress and ideas on un solved tasks.
+https://artofproblemsolving.com/community/c7h1349031p7357703
+https://artofproblemsolving.com/community/c7h1554573p9473176
+One can be a freshman and like to imagine things but I am fairly confident these writeups earned 0+ marks. In particular one ought to justify reordering a series as that is a critical component in logical deduction and proof writing. Furthermore, for legibility, one ought to invoke theorems precisely as written in text books and generally make it as easy as possible for the grader to deliver a 10- verdict to a writeup. For example, asymptotic in notation often refers to a certain precise limit being 1 and O, Theta, and o notation for their respective limit meanings but actual limits and inequalities are better. A flawless proof to a maths contest kid is a handwaving allusional justification to a grader accustomed to grading in the context of their career at a university. Consider double boxing final answers and placing them at the beginning of a proof to catch their attention. Write down critical words and maths ideas and motivations. Consider time allocation towards earlier tasks prior to sinking too much in to later tasks. Also it's a good idea to be writing writing writing ideas, thoughts, equations, small values, eyeballing, thinking, contemplating. I would not advise simply sitting there doing nothing. I strongly advise being alone and calm during the intermission, not talking with anyone, and then simply focusing on the B half and not worrying about discussion or how other people did until the end. It is rational to fully post up your contest solution on the AOPS forum afterwards so that the graders and rubric composers do know there exists a valid solution and are more likely to give you a 10- verdict.

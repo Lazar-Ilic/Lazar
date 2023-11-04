@@ -1,0 +1,1487 @@
+Maybe skim this book every single night as my "Bible" just kidding need to read more on optimisation and linear algebraic computations. I definitely need to come back to this one and do all the tasks in a separate file after perhaps reading the solutions files to a ton of other books on this topic. I will add Notes perhaps later on my favourite ideas from other books we shall see about the structure of these notes but from one list from a Google search I obtained:
+
+Parallel Advances On P2P, Parallel, Grid, Cloud, And Internet Computing
+Parallel Computing For Real-Time Signal Processing And Control
+Parallel Introduction To Parallel Processing Algorithms And Architectures
+Parallel Learn CUDA Programming
+Parallel Sourcebook Of Parallel Computing
+Parallel Structured Parallel Programming Patterns For Efficient Computation
+
+There exist tons of like solutions .pdf files which are useful.
+
+Part 1
+
+"
+Any sufficiently advanced technology is indistinguishable from magic.
+"
+
+- Arthur C. Clarke
+Profiles Of The Future, 1961
+
+Foundations
+
+Wow fantastic baby we will utilise parallel computation to more rapidly count the number of occurences of 3 in an array whilst ensuring the memory usage correctly ++es or aggregates in the right way.
+
+The architecture of the machines discussed will be discussed wow.
+
+Dependences wow great metaphor about home construction my dude tasks, tasks, tasks, and thinking real hard and extra clever about tasks. Lit.
+
+Supercomputers, clusters, servers, grid computing. Parallel computing versus distributed computing.
+
+Chapter 1
+
+So to be sure the structure of the shared caches is important with respect to cache misses and ensuring that these mutual memory components in ticks and sequences occur as desired behaviours. The first implementation struck me as a naive generic program isomorphic with a default sequential one I was not quite sure. Looks like some C with a race condition to explain to the reader quite clearly and precsiely about event timing and problems with the underlying primitive machine instructions in registers. Ah hah so now finally we get to know what a problem of lock overhead is and these units of sharing and what all this mutex stuff is about. Some dude on Stack makes a funny metaphor with a rubber chicken wing kids I mean people at his office use and the person holding the chicken wing is the only person who is allowed to talk. That is the rule on that island. Wow. Mutually exclusive flag for threading. Might want to cop or copy and paste or find some good example code on other people's Githubs for the exercises and in book discussions. We noted that existing sequential programs generally cannot take advantage of a parallel computer. The primary reason is that existing programming languages and standard programming techniques strongly incorporate the sequential processing of the traditional von Neumann computer architecture. Parallel solutions, as illustrated by several simple computations—summation, parallel prefix and illustrated features of parallel computations. Though they might not have been the first solutions to come to mind, they were still quite intuitive. A change in thinking about computation will be required—we called it a shift in paradigm—before programmers instinctively devise parallel solutions to their computational problems.
+
+Introduction
+
+
+
+The Power and Potential of Parallelism
+
+
+
+Parallelism, a Familiar Concept
+
+
+
+Parallelism in Computer Programs
+
+
+
+Multi-Core Computers, an Opportunity
+
+
+
+Even More Opportunities to Use Parallel
+
+
+
+Hardware
+
+
+
+Parallel Computing versus Distributed
+
+
+
+Computing
+
+
+
+System Level Parallelism
+
+
+
+Convenience of Parallel Abstractions
+
+
+
+Examining Sequential and Parallel
+
+
+
+Programs
+
+
+
+Parallelizing Compilers
+
+
+
+A Paradigm Shift
+
+
+
+Parallel Prefix Sum
+
+
+
+Parallelism Using Multiple Instruction
+
+
+
+Streams
+
+
+
+The Concept of a Thread
+
+
+
+A Multithreaded Solution to Counting 3s
+
+
+
+The Goals: Scalability and Performance
+
+
+
+Portability
+
+
+
+Scalability
+
+
+
+Performance Portability
+
+
+
+Principles First
+
+
+
+Chapter Summary 27
+
+
+
+Historical Perspective 28
+
+
+
+Exercises 28
+
+
+
+Chapter 2
+
+I definitely will need to like gaze upon thousands of examples of code to really understand this domain and topic more fully and comprehensively to the degree that I onsight use cases mid round and mid job.
+
+Some discussion of the concrete practical differences between Intel and AMD machines and it makes one wonder just how up to date on the latest and greatest these trading firms are and how much customisation or ad hoc de novo Sherlock forces they are enabled to do on their own machines... do really big firms have the assets needed to phase transition into manufacturing or outsourced manufacturing territory of custom machines with custom specifications or usually do they default to executing on some public market machines on the curve of nearly maxed out performance? I am not yet a domain expert on those topics but a quick Google search here might reveal something.
+
+Heterogeneous Chip Designs, Cell, Clusters, Supercomputers, Logical Organisation Of A BlueGene/L Node.
+
+An Abstraction Of A Sequential Computer.
+
+The Candidate Type Architecture: A Practical Parallel Computer Model
+
+The Candidate Type Architecture Model, Communication Latency, Properties Of The Candidate Type Architecture
+
+Memory Reference Mechanisms, Shared Memory, One Sided Communication, Message Passing, Memory Consistency Models, Programming Models, A Closer Look At Communication, Applying The Candidate Type Architecture Model
+
+Parallel computers are quite diverse, as the six computer profiles indicate. It would be impossible to know the hardware details of all parallel machines and to write portable programs capable of running well on any platform. To solve the problem, we adopted the Candidate Type Architecture, an abstract parallel machine, as the basis for our programming activities. By designing programs for the abstract machine - in the same way that we design sequential algorithms for the Random Access Memory model - we can design programs that can run on all machines modeled by the Candidate Type Architecture, which represents virtually all multi processor computers.
+
+From the potentially useful auxiliary readings of the Washington Computer Science notes:
+
+Variations on Parallel Random Access Memory:
+
+Resolving the memory conflicts considers read and write conflicts separately.
+Exclusive read/exclusive write [EREW].
+The most limited model.
+Concurrent read/exclusive write [CREW].
+Multiple readers are OK.
+Concurrent read/concurrent write [CRCW].
+Various write-conflict resolutions used.
+There are at least dozen other variations.
+All theoretical - not used in practice All theoretical - not used in practice.
+
+Another review of Valiant's Maximum Algorithm.
+
+This website is humorous apparently this is the Paul G. Allen School Of Computer Science And Engineering and it makes me think of Paul Allen and how hilarious it is that Paul Allen appears in American Psycho.txt and also that when Andrew Lu Bai and I were interviewing at the SIG firm in the flesh on the paper newspaper those days in their office waiting room there was a news headline related to Paul Allen. Gee I still forget sometimes when I do these jokey joke serious writings in public I have to make it crystal clear lossless to the reader what is supposed to be funny about this is back then yeah yeah we knew it was a joke about the Microsoft dude but nowadays we both know much much much more about what might have gone down behind the scenes at Microsoft and have much deeper appreciation for what those techie tech dudes really did in terms of counterfactually changing reality or whatever making techie tech stuff. Leads to Visual Studio Code products and so on. Headlines skimming man. CSEP 524.
+
+Reviewing these common topologies used for interconnection networks it again comes into question just how firstly OK focus energy on the important parts and the steps where large multiplicative improvements can be made first but secondly like how much attention is paid to these structures and is enough being done in place basically at firms are there enough default systems in place to prompt people to be reevaluating previous design decisions made thousands of iterations, deployment, development cycles ago which may now be obfuscated I mean how chronically are people at the firms doing massive codebase code review. And always questioning old modus operandi code which may be obfuscated or later rendered suboptimal and so on and one wants to be proactive but also have good robust structure in place to spot such things.
+
+Understanding Parallel
+
+
+
+Computers 30
+
+
+
+Balancing Machine Specifics
+
+
+
+with Portability 30
+
+
+
+A Look at Six Parallel Computers 31
+
+
+
+Chip Multiprocessors 31
+
+
+
+Symmetric Multiprocessor Architectures 34
+
+
+
+Heterogeneous Chip Designs 36
+
+
+
+Clusters 39
+
+
+
+Supercomputers 40
+
+
+
+Observations from Our Six
+
+
+
+Parallel Computers 43
+
+
+
+An Abstraction of a Sequential Computer 44
+
+
+
+Applying the Random Access Memory Model 44
+
+
+
+Evaluating the Random Access Memory Model 45
+
+
+
+The Parallel Random Access Machine: A Parallel Computer Model 46
+
+
+
+The Candidate Type Architecture: A Practical Parallel
+
+
+
+Computer Model 47
+
+
+
+The Candidate Type Architecture Model 47
+
+
+
+Communication Latency 49
+
+
+
+Properties ofthe Candidate Type Architecture 52
+
+
+
+Memory Reference Mechanisms 53
+
+
+
+Shared Memory 53
+
+
+
+VIII
+
+
+
+One-Sided Communication 54
+
+
+
+Message Passing 54
+
+
+
+Memory Consistency Models 55
+
+
+
+Programming Models 56
+
+
+
+A Closer Look at Communication 57
+
+
+
+ix
+
+
+
+Implications for Hardware 82
+
+
+
+Implications for Software 83
+
+
+
+Scaling the Problem Size 83
+
+
+
+Chapter Summary 84
+
+
+
+Historical Perspective 84
+
+
+
+Exercises 85
+
+Come back to these for sure.
+
+Applying the Candidate Type Architecture Model 58
+
+
+
+Chapter Summary 59
+
+
+
+Historical Perspective 59
+
+
+
+Exercises 59
+
+
+
+Chapter 3
+
+Performance is perhaps the most important goal apparently... no shit I mean how much do these systems cost and what precisely can they do for us? I really do not know that much about this stuff at all really and do not even think that it is so covered in my current news stream. Really this comes into these niche or not parts of the ArXiV stream and textbook literature stream I guess.
+
+Latency and throughput again right right righto.
+
+Sources Of Performance Loss
+
+Overhead
+Non Parallelisable Computation
+Idle Processors
+Contention For Resources
+
+Overhead, Communication, Synchronisation, Computation, Memory
+
+Non Parallelisable Code, Amdahl's Law
+
+Contention
+
+Idle Time, Load Imbalance, Memory Bound Computations
+
+Parallel Structure, Dependences, Data Dependence, Flow Dependence, Anti Dependence, Output Dependence, Dependences Limit Parallelism, Granularity, Granularity Of Parallelism, Applying Granularity Concepts, Locality, Performance Trade Offs, Communication Versus Computation, Overlapping Communication And Computation, Redundant Computation, Memory Versus Parallelism, Privatisation, Padding, Overhead Versus Parallelism, Parallelise Overhead, Load Balance Versus Overhead, Granularity Trade Offs
+
+Measuring Performance, Execution Time, Latency, FLOPS Floating Point Operations Per Second, Speedup, Superlinear Speedup, Efficiency, Concerns With Speedup, Hardware Generations, Sequential Time, Relative Speedup, Cold Starts, Peripheral Changes, Scaled Speedup Versus Fixed Size Speedup, Scalable Performance, Scalable Performance Is Difficult To Achieve, Implications For Hardware, Scaling The Problem Size
+
+Ah well back to hopping in the mixture with some other school work here and some other notes and work this was a productive little review and reading session and there are always further resources and books to read and learn more I mean that is the point we try and emphasise quite frankly Bill Gates does it too when he talks and promotes the idea of further education and adult humans reading like educational books at least once in awhile as these habits build and lead to knowing many many many many many useful things and interesting perspectives, framings, and .txt files.
+
+Reasoning about Performance 61
+
+
+
+Motivation and Basic Concepts 61
+
+
+
+Parallelism versus Performance 61
+
+
+
+Threads and Processes 62
+
+
+
+Latency and Throughput 62
+
+
+
+Sources of Performance Loss 64
+
+
+
+Overhead 64
+
+
+
+Non-Parallelizable Code 65
+
+
+
+Contention 67
+
+
+
+Idle Time 67
+
+
+
+Parallel Structure 68
+
+
+
+Dependences 68
+
+
+
+Dependences Limit Parallelism 70
+
+
+
+Granularity 72
+
+
+
+Locality 73
+
+
+
+Performance Trade-Offs 73
+
+
+
+Communication versus Computation 74
+
+
+
+Memory versus Parallelism 75
+
+
+
+Overhead versus Parallelism 75
+
+
+
+Measuring Performance 77
+
+
+
+Execution Time 77
+
+
+
+Speedup 78
+
+
+
+Superlinear Speedup 78
+
+
+
+Efficiency 79
+
+
+
+Concerns with Speedup 79
+
+
+
+Scaled Speedup versus Fixed-Size Speedup 81
+
+
+
+Scalable Performance 81
+
+
+
+Scalable Performance Is Difficult to Achieve 81
+
+
+
+PART 2
+
+
+
+Parallel Abstractions 87
+
+
+
+Chapter 4
+
+Data parallel. Task parallel. Illustrating data and task parallelism. A bunch of ranting about food preparation and kitchens, culinary stuff. Really funny stuff from Calvin Lin makes me think of Chris Lofgren there prior to teaching at the Driskill being a real chef I know some chefs like the Franklin's dude do not even eat BBQ and stuff they are like me just eat some White rice and Atlantic salmon at home without spices but savour something a once in awhile for the job du jour. The Austin Chronicle called it an icy spicy dish a real treat or whatever man SIG firm takes good care of kids when they interview feeds them a bunch of random realio dealio food ain't no prayer there in me but some meat for sure laugh out loud good times great firm great people good money.
+
+Peril-L notation. Is this standard? Minimal pseudocode expression route method for parallel algorithms. Sequential thread forall statement. Synchronisation and coordination. One thread can execute the <body> at a time. If one thread is executing the <body>, other threads attempting to execute the <body> must wait. When one thread finishes executing <body>, waiting threads proceed in an unspecified order.
+
+A second tool is the barrier synchronisation, barrier, which has meaning only inside of a forall. The barrier statement forces threads to stop and wait until all threads have arrived at the barrier, at which point they can proceed.
+
+Memory Model. Global address space and a local address space. By declaring a variable within a forall statement, a local copy is created for each thread, while a variable that is declared outside of a forall statement is a global variable and visible to all threads created by the forall statement.
+
+Synchronised Memory. Full/empty variables.
+
+Reduce And Scan. Curious Notation For Reduce And Scan. Global And Local Operands.
+
+Reduce And Scan Synchronisation. The Reduce Abstraction.
+
+Count 3s Example. Formulating Parallelism. Fixed Parallelism. So Figure 4.1 is rather interesting especially given the helpful pedagogical comments. Unlimited Parallelism. As is Figure 4.2.
+
+Scalable Parallelism.
+
+Alphabetising Example. Figure 4.3 Scalable Parallelism solution to Count 3s. Notice that the array segment has been localised. Nice comments too.
+
+Fixed Parallelism. Figure 4.5 fixed 26 way parallel solution to alphabetising. The function letRank(x) returns the O-origin of the Latin letter x. This Figure 4.5 is also very pedagogical.
+
+Comparing The Three Solutions
+
+First Steps Toward Parallel
+
+
+
+Programming 88
+
+
+
+Data and Task Parallelism 88
+
+
+
+Definitions 88
+
+
+
+Illustrating Data and Task Parallelism 89
+
+
+
+The Peril-L Notation 89
+
+
+
+Extending C 90
+
+
+
+Parallel Threads 90
+
+
+
+Synchronization and Coordination 91
+
+
+
+Memory Model 92
+
+
+
+Synchronized Memory 94
+
+
+
+Reduce and Scan 95
+
+
+
+The Reduce Abstraction 96
+
+
+
+Count 3s Example 97
+
+
+
+Formulating Parallelism 97
+
+
+
+Fixed Parallelism 97
+
+
+
+Unlimited Parallelism 98
+
+
+
+Scalable Parallelism 99
+
+
+
+Alphabetizing Example 100
+
+
+
+Unlimited Parallelism 101
+
+
+
+Fixed Parallelism 102
+
+
+
+Scalable Parallelism 104
+
+
+
+Comparing the Three Solutions 109
+
+
+
+Chapter Summary 110
+
+
+
+Historical Perspective 110
+
+
+
+Exercises 110
+
+
+
+Contents
+
+
+
+Chapter 5
+
+OK I gotta go do some other work right now call this for the day go compose some more performant Cython for some other side project hustle and pop back to this later.
+
+Blocks Of Independent Computation, Schwartz' Algorithm, The Reduce And Scan Abstractions, Reduce, Scan, Example Of Generalised Reduces And Scans, Histogram, Length Of Longest Run Of 1s, Index Of First Occurrence Of x, Team Standings, Keep The Longest Sequence Of 1s, Index Of Last Occurrence, The Basic Structure, Structure For Generalised Reduce, Example Of Components Of A Generalised Scan, Applying The Generalised Scan, Generalised Vector Operations, Assigning Work To Processes Statically, Block Allocations, Overlap Regions, Cyclic And Block Allocations, Irregular Allocations, Assigning Work To Processes Dynamically, Work Queues, Variations Of Work Queues, Case Study: Concurrent Memory Allocation, Trees, Allocation By Sub Tree, Dynamic Allocations
+
+Scalable Algorithmic
+
+
+
+Techniques 112
+
+
+
+Blocks of Independent Computation 112
+
+
+
+Schwartz’ Algorithm 113
+
+
+
+The Reduce and Scan Abstractions 115
+
+
+
+Example of Generalized Reduces
+
+
+
+and Scans 116
+
+
+
+The Basic Structure 118
+
+
+
+Structure for Generalized Reduce 119
+
+
+
+Example ofComponents
+
+
+
+of a Generalized Scan 122
+
+
+
+Applying the Generalized Scan 124
+
+
+
+Generalized Vector Operations 125
+
+
+
+Assigning Work to Processes Statically 125
+
+
+
+BlockAllocations 126
+
+
+
+Overlap Regions 128
+
+
+
+Cyclic and Block Cyclic Allocations 129
+
+
+
+Irregular Allocations 132
+
+
+
+Assigning Work to Processes
+
+
+
+Dynamically 134
+
+
+
+Work Queues 134
+
+
+
+Variations ofWork Queues 137
+
+
+
+Case Study: Concurrent Memory
+
+
+
+Allocation 137
+
+
+
+Trees 139
+
+
+
+Allocation by Sub-Tree 139
+
+
+
+Dynamic Allocations 140
+
+
+
+Chapter Summary 141
+
+
+
+Historical Perspective 142
+
+
+
+Exercises 142
+
+Yes once I finish up my 1st pass through this book I will definitely come back and execute every single exercise as well as gaze upon codebases for that is how mission critical and important this topic is or read like 10 different Parallel textbook solutions .pdf files.
+
+PART 3
+
+
+
+Parallel Programming
+
+
+
+Languages 143
+
+
+
+Chapter 6
+
+POSIX Threads. Thread Creation And Destruction. A Potential Pitfall. Mutual Exclusion. Mutex Creation And Destruction. Dynamically Allocated Mutexes. Serialisability. Correctness Issues. Deadlock and techniques to avoid deadlock. Synchronisation. Protecting Condition Variables. Creating And Destroying Condition Variables. Waiting On Multiple Condition Variables. Thread Specific Data. Thread Specific Data. Deadlock. Mutual exclusion. Hold And Wait. No Preemption. Circular Wait. Lock Hierarchies. Monitours. Re Entrant Monitours. Performance Issues. Performance Issues. Because locks dynamically impose dependences among threads, the granularity of locking can greatly affect parallelism. At one extreme, the coarsest locking scheme uses a single lock for all shared variables. Such a scheme is simple but severely limits concurrency when there is sharing. At the other extreme, we could associate a lock with each fine-grained sub-structure of a data structure. For example, in our Count 3s example, we might use a different lock to protect each node ofthe accumulation tree. This scheme not only increases concurrency, but it also increases the latency of acquiring and releasing locks, even when there is no contention for the data structure. Moreover, because each thread has to acquire multiple locks to operate on multiple data structures, the chance for deadlock increases. As an intermediate point, we might use one lock for each accumulation tree. In general, there is a granularity trade-off between parallelism and overhead. Readers And Writers Example: Granularity Issues. Spurious wakeups. Spurious lock conflicts. Thread Scheduling. Priority Inversion. Case Study: Successive Over Relaxation. Block Decomposition. Cyclic Decomposition. Load Balance. Case Study: Overlapping Synchronisation With Computation. Case Study: Streaming Computations On A Multi Core Chip. Assign Each Process Its Own Frame. Assign Each Process A Portion Of A Single Frame. Have Multiple Processes Collaborate On Each Portion Of A Frame. Synchronised Methods. Synchronised Statements.
+
+Programming with Threads 145
+
+
+
+POSIX Threads 145
+
+
+
+Thread Creation and Destruction 146
+
+
+
+Mutual Exclusion 150
+
+
+
+Synchronization 153
+
+
+
+Safety Issues 163
+
+
+
+Performance Issues 167
+
+
+
+Case Study: Successive Over-Relaxation 174
+
+
+
+Case Study: Overlapping Synchronization
+
+
+
+with Computation 179
+
+
+
+Case Study: Streaming Computations
+
+
+
+on a Multi-Core Chip 187
+
+
+
+Java Threads 187
+
+
+
+Synchronized Methods 189
+
+
+
+Synchronized Statements 189
+
+
+
+The Count 3s Example 190
+
+
+
+Volatile Memory 192
+
+
+
+Atomic Objects 192
+
+
+
+Lock Objects 193
+
+
+
+Executors 193
+
+
+
+Concurrent Collections 193
+
+
+
+OpenMP 193
+
+
+
+The Count 3s Example 194
+
+
+
+Semantic Limitations on parallel for 195
+
+
+
+Reduction 196
+
+
+
+Thread Behavior and Interaction 197
+
+
+
+Sections 199
+
+
+
+Summary of OpenMP 199
+
+
+
+Chapter Summary 200
+
+
+
+Historical Perspective 200
+
+
+
+Exercises 200
+
+
+
+Chapter 7
+
+The Count 3s Example. Volatile Memory. Atomic Objects. Sample Operations For Atomic Integer. Lock Objects. Executors. Concurrent Collections. OpenMP. The Count 3s Example. Semantic Limitations On parallel for. Reduction. OpenMP Parallel for Statement. OpenMP reduce operation. Thread Behaviour And Interaction. Atomic specification in OpenMP. Sections. Summary Of OpenMP. Shared Virtual Memory. Groups And Communicators. Point To Point Communication. Standard Send And Receive. Non Blocking Communication. Other Communication Modes. Synchronous Send. Buffered Send. Ready Send. Collective Communication. Example: Successive Over Relaxation. MPI Solution. Performance Issues. Overlapping Communication With Computation. Derived Data Types. Note on Profiling. Performance Analysis Tools. Safety Issues. Message Passing Summary. Partitioned Global Address Space Languages. Co Array Fortran. Unified Parallel C. Titanium. Chapter Summary.
+
+MPI and Other Local View
+
+
+
+Languages 202
+
+
+
+MPI: The Message Passing Interface 202
+
+
+
+The Count 3s Example 203
+
+
+
+Groups and Communicators 211
+
+
+
+Point-to-Point Communication 212
+
+
+
+Collective Communication 214
+
+
+
+Example: Successive Over-Relaxation 219
+
+
+
+Performance Issues 222
+
+
+
+Safety Issues 228
+
+
+
+Partitioned Global Address Space
+
+
+
+Languages 229
+
+
+
+Contents xi
+
+
+
+Co-Array Fortran 230
+
+
+
+Unified Parallel C 231
+
+
+
+Titanium 232
+
+
+
+Chapter Summary 233
+
+
+
+Historical Perspective 234
+
+
+
+Exercises 234
+
+
+
+Chapter 8
+
+Wow damn darn djarn darjn the main man Godfather Dr. Darko Stefanovic actually appears here in the Acknowledgments as a reviewer for valuable feedback and suggestions... so that is good good he must see that I am still a mere fledgling algorithms paeon who really must read 1000000 more papers on the topic to begin to comprehend something about the broader algorithms corpus and what those first order importante ideas were really in terms of C code.
+
+Despite decades of research, no general-purpose, high-level parallel language is in widespread use. In this chapter we present one high-level language, ZPL, which will illustrate some of the benefits of language and compiler support. We conclude the chapter by taking a brief look at the NESL language, another global view programming language with different goals and characteristics than ZPL.
+
+Flood Regions. Matrix Multiplication. This portion right here is extremely important and topical to much of the work and stuff I do and think about on the daily basis with respect to linear algebra, machine learning, and all of this mutex, machine learning, all of this finance stuff. This is all critical critical critical but this is super duper critical. Reordering Data With Remap. Index Arrays. Remap. Gather. Scatter. Repeated Values In Remap Arrays. Higher Dimensions. Ordering Example. All Comparisons Ranking Algorithm. Find The Ranking. Sort With The Rank Array. Parallel Execution Of ZPL Programs. Role Of The Compiler. Specifying The Number Of Processes. Assigning Regions To Processes. Array Allocation. Scalar Allocation. Work Assignment. Region Allocation Policy. Performance Model. Applying The Performance Model: Life. Calculating NN. Calculating TW. Or Reduce. Applying The Performance Model: SUMMA. Summary Of The Performance Model. NESL Parallel Language. Language Concepts. Matrix Product Using Nested Parallelism. NESL Complexity Model. Chapter Summary. Historical Perspective.
+
+ZPL and Other Global View
+
+
+
+Languages 236
+
+
+
+The ZPL Programming Language 236
+
+
+
+Basic Concepts of ZPL 237
+
+
+
+Regions 237
+
+
+
+Array Computation 240
+
+
+
+Life, an Example 242
+
+
+
+The Problem 242
+
+
+
+The Solution 242
+
+
+
+How It Works 243
+
+
+
+The Philosophy of Life 245
+
+
+
+Distinguishing Features of ZPL 245
+
+
+
+Regions 245
+
+
+
+Statement-Level Indexing 245
+
+
+
+Restrictions Imposed by Regions 246
+
+
+
+Performance Model 246
+
+
+
+Addition by Subtraction 247
+
+
+
+Manipulating Arrays of Different Ranks 247
+
+
+
+Partial Reduce 248
+
+
+
+Flooding 249
+
+
+
+The Flooding Principle 250
+
+
+
+Data Manipulation, an Example 251
+
+
+
+Flood Regions 252
+
+
+
+Matrix Multiplication 253
+
+
+
+Reordering Data with Remap 255
+
+
+
+Index Arrays 255
+
+
+
+Remap 256
+
+
+
+Ordering Example 258
+
+
+
+Parallel Execution of ZPL Programs 260
+
+
+
+Role ofthe Compiler 260
+
+
+
+Specifying the Number of Processes 261
+
+
+
+Assigning Regions to Processes 261
+
+
+
+Array Allocation 262
+
+
+
+Scalar Allocation 263
+
+
+
+WorkAssignment 263
+
+
+
+Performance Model 264
+
+
+
+Applying the Performance Model: Life 265
+
+
+
+Applying the Performance Model:
+
+
+
+SUMMA 266
+
+
+
+Summary ofthe Performance Model 266
+
+
+
+NESL Parallel Language 267
+
+
+
+Language Concepts 267
+
+
+
+Matrix Product Using Nested Parallelism 268
+
+
+
+NESL Complexity Model 269
+
+
+
+Chapter Summary 269
+
+
+
+Historical Perspective 269
+
+
+
+Exercises 270
+
+
+
+Chapter 9
+
+Assessing The State Of The Art. Four Important Properties Of Parallel Languages. Correctness. Performance. Scalability. Portability. Correctness. P-Independence. Global View And Local View Abstractions. Global View Abstractions. Local View Abstractions. Examples. Locks. Send/Receive. forall loops. Barrier. Reduce And Scan. Examples. ZPL Classic. NESL. Message Passing Libraries. Performance. Scalability. Portability. Evaluating Existing Approaches. POSIX Threads. Java Threads. OpenMP. MPI. PGAS Languages. ZPL. NESL. Lessons For The Future. Hidden Parallelism. Transparent Performance. Locality. Constrained Parallelism. Implicit Versus Explicit Parallelism.
+
+Assessing the State of the Art 271
+
+
+
+Four Important Properties of Parallel
+
+
+
+Languages 271
+
+
+
+Correctness 271
+
+
+
+Performance 273
+
+
+
+Scalability 274
+
+
+
+Portability 274
+
+
+
+Evaluating Existing Approaches 275
+
+
+
+POSIX Threads 275
+
+
+
+Java Threads 276
+
+
+
+OpenMP 276
+
+
+
+MPI 276
+
+
+
+PGAS Languages 277
+
+
+
+ZPL 278
+
+
+
+NESL 278
+
+
+
+Lessons for the Future 279
+
+
+
+Hidden Parallelism 279
+
+
+
+Transparent Performance 280
+
+
+
+Locality 280
+
+
+
+Constrained Parallelism 280
+
+
+
+Implicit versus Explicit Parallelism 281
+
+
+
+Chapter Summary 282
+
+
+
+Historical Perspective 282
+
+
+
+Exercises 282
+
+
+
+XII Contents
+
+
+
+PART 4
+
+
+
+Looking Forward 283
+
+
+
+Chapter 10
+
+The great Neils Bohr once said "Prediction is very difficult, especially about the future." This is particularly true in parallel computation because it is common for researchers and vendors to tout "silver bullet" solutions, which ultimately do not succeed. In this chapter we consider a small selection of ideas that are being developed. Because, as Bohr said, it is difficult to predict the future, we make no claim that these are the most promising topics. However, they have received a lot of "buzz," so readers will want to be familiar with them.
+
+Attached Processors. Graphics Processing Units. Vertex Buffer. Vertex Processor. Rasteriser. Fragment Processor. Frame Buffer. Texture Map. Cell Processors. Attached Processors Summary. Grid Computing. Transactional Memory. Comparison With Locks. Implementation Issues. Open Research Issues. Dynamic Optimistic Parallelisation. MapReduce. Problem Space Promotion. Emerging Languages. Chapel. Fortress. X10. Chapter Summary. Historical Perspective.
+
+Future Directions in Parallel
+
+
+
+Programming 284
+
+
+
+Attached Processors 284
+
+
+
+Graphics Processing Units 285
+
+
+
+Cell Processors 288
+
+
+
+Attached Processors Summary 288
+
+
+
+Grid Computing 290
+
+
+
+Transactional Memory 291
+
+
+
+Comparison with Locks 292
+
+
+
+Implementation Issues 293
+
+
+
+Open Research Issues 295
+
+
+
+MapReduce 296
+
+
+
+Problem Space Promotion 298
+
+
+
+Emerqinq Lanquaqes 299
+
+
+
+Chapel 300
+
+
+
+Fortress 300
+
+
+
+X10 302
+
+
+
+Chapter Summary 304
+
+
+
+Historical Perspective 304
+
+
+
+Exercises 304
+
+
+
+Chapter 11
+
+Getting Started. Access And Software. Hello, World. Optimising Compilers. Parallel Programming Recommendations. Incremental Development. Focus On The Parallel Structure. Testing The Parallel Structure. Sequential Programming. Be Willing To Write Extra Code. Controlling Parameters During Testing. Functional Debugging. Capstone Project Ideas. Implementing Existing Parallel Algorithms. Competing With Standard Benchmarks. Developing New Parallel Computations. Performance Measurement. Comparing Against A Sequential Solution. Maintaining A Fair Experimental Setting. Minimum Versus Average. Understanding Parallel Performance. Performance Analysis. Experimental Methodology. Portability And Tuning. Chapter Summary. Historical Perspective.
+
+Writing Parallel Programs 305
+
+
+
+Getting Started 305
+
+
+
+Access and Software 305
+
+
+
+Hello, World 306
+
+
+
+Parallel Programming Recommendations 307
+
+
+
+Incremental Development 307
+
+
+
+Focus on the Parallel Structure 307
+
+
+
+Testing the Parallel Structure 308
+
+
+
+Sequential Programming 309
+
+
+
+Be Willing to Write Extra Code 309
+
+
+
+Controlling Parameters during Testing 310
+
+
+
+Functional Debugging 310
+
+
+
+Capstone Project Ideas 311
+
+
+
+Implementing Existing Parallel
+
+
+
+Algorithms 311
+
+
+
+Competing with Standard Benchmarks 312
+
+
+
+Developing New Parallel Computations 313
+
+
+
+Performance Measurement 314
+
+
+
+Comparing against a Sequential Solution 315
+
+
+
+Maintaining a Fair Experimental Setting 315
+
+
+
+Understanding Parallel Performance 316
+
+
+
+Performance Analysis 317
+
+
+
+Experimental Methodology 318
+
+
+
+Portability and Tuning 319
+
+
+
+Chapter Summary 319
+
+
+
+Historical Perspective 319
+
+
+
+Exercises 320
+
+
+
+Glossary 321
+
+
+
+References 325
+
+
+
+Index 328
+

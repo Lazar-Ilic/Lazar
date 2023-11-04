@@ -1,0 +1,14 @@
+    in>>a>>b;
+    av.add(0);
+    av.add(a);
+    for(c=0;c<b;c++){
+        in>>d;
+        av.add(d);
+    }
+    sort(all(av));
+    for(c=0;c<sz(av);c++){
+        for(d=c+1;d<sz(av);d++){
+            aset.insert(av[d]-av[c]);
+        }
+    }
+    outset(aset);

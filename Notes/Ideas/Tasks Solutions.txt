@@ -1,0 +1,93 @@
+	Cracks Maze Puzzle
+
+This kind of depends upon the precise details of the Input and what gets mapped out how umm I would suppose that the key idea moving out could be to compute the cost for each potential shortcut and the effective time cut out assuming that we do simply walk along the optimal outpath the rest of the way which is not actually ensured even in the case where the maze consists of 1 simple path as is the case here at the University Of Texas At Austin hmm... because it could be advantageous to cheat and then walk 1 unit backwards and then cheat again depending even on that 1-path structure there hmm. Metaphor to the game of life mang so do not cheat too much. [And also never hop on to the DarkSide, NightCore, dark apartments, alcohol, ecstasy MDMA 3,4-Methyl​enedioxy​methamphetamine X XTC, psychedelics, marijuana, cigarettes, nicotine, choline, Cellucor C4, DHEA dehydroepiandrosterone, morphine, heroin, oxycodone, hydrocodone, fentanyl, krokod[b]il, ephedrine, L-DOPA, Jack3D, DMHA dimethylhexylamine, amphetamine, sleeping drugs, or [crack] cocaine. Stick to the instant coffee and matcha Uppers.] See AtCoder Beginner Contest 315 F - Shortcuts Editorial.
+
+	IBM Ponder This 2023-10 Post Facto Analysis Inspired Task Draft
+
+"
+A la infinite enumeration proofs in mathematics demonstrating the cardinality of the rational numbers is the cardinality of the integers, one may more simply test pairs in an outwards spiral, thus ensuring to not introduce such an additional logarithmic or rather polylogarithmic factor. Other tasks might get improved performance from such styles of searches, depending on underlying memory performance issues in a row-by-row sequential C setting. Perhaps a relatively simple task could be composed where statistical properties lead to acceptance if and only if the competitor searches the subrectangle [x*9/20,x*11/20]x[y*9/20,y*11/20] row-by-row before searching other squares, potentially outwards in a spiral.
+"
+
+	Optiver Task: read in 300000 horses, the market betting odds, our credence function upon their Winning probabilities, and compute the betting strategy portfolio maximising the expected value of logarithm of bankroll.
+
+Lagrange Multipliers. Canonical. Smoothing. Smoczynski and Tomkins. Whitrow. Grant et al. Buchen and Grant. Et al. Performant C implementation.
+
+	Integral Approximation
+
+Saw recent examples. Would love to have a non trivial insight about the structure of the integral or some half clever O[log[n]] querying needed.
+
+	Accumulation Summation
+
+O[log [min[b+c,e]] canonically but can demand certain precisions or integer fractional representations from Python in Input bounds cases.
+
+	Holy Crap
+
+See about Dynamic Programming, matrices, and transition functions computations on multiplicities state based approaches and the OEIS.
+
+	Favourite Numbers
+
+2 1 0 10 9999999999 Science Googol Minus One Psych' Ali G Sacha Baron Cohen Harverd 2004 Commencement Speech Redder Than Red Red On Red 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 Primes Powers [Of Primes And 10]
+
+	Determine The Determinants
+
+There is a matrix A and a vector B and you must print out the determinant of each matrix which results from replacing a column of A with B.
+
+Input
+
+
+Output
+
+
+Constraints
+
+
+Example
+
+
+Input:
+
+
+Output:
+
+
+Tutorial:
+Compute |A| * A^{-1} * B
+
+
+
+Variant: make a tricky sub task for each bucket.
+
+Variant: somehow incorporate some tricky polynomials insights
+
+	Apples And Buckets
+
+There are n buckets of indistinguishable apples. Your task is to count the number of ways you can select some number of apples in a range.
+
+Input
+
+The first input line has the integer n,a,b: the number of buckets, the minimum allowed, and maximum allowed number of apples.
+
+The next line contains n integers c1,c2,...,cn: the number of apples in each bucket.
+
+Output
+
+Print one integer: modulo 1000000007, the number of ways to select between a and b apples inclusive e.g. the number of n-tuples of nonnegative integers (d1,d2,...,dn) such that 0<=di<=ci and a<=sum di<=b.
+
+Constraints
+
+0<=n<=100000
+0<=a,b<=100000
+1<=ci<=100000
+1<=sum ci<=500000
+
+Example
+
+Input:
+4 3 5
+2 3 4 5
+
+Output:
+90
+
+Tutorial:
+See file but target is amortized analysis O(n * (log n)^2), optimal processing order taking the 2 smallest, number theoretic convolution Fast Fourier Transform of the generating function i.e. the vector [1,1,1,1....,1]

@@ -1,0 +1,421 @@
+Integer
+Bitwise Operations: 1
+
+Array
+Find: 1
+Insert Back: 1
+Delete Back: 1
+Insert: n
+Delete: n
+
+Priority Queue [Prefer Over Set If Possible For Performance]
+Find Extremum: 1
+Delete Extremum: log n
+Insert: log n
+
+Heap
+Make Heap Heapify: n
+Top: 1
+Push: log n
+Pop: log n
+
+Set [Sometimes Faster]
+Insert: log n
+Count: log n
+Delete: log n
+Iterate
+
+Unordered Hash Set [Sometimes Slower] [Context Dependent On Precise Hash Function And Desired Low Acceptable Probability Of Collision]
+Insert: 1
+Count: 1
+Delete: 1
+
+Order Statistic Set
+Insert: log n
+Count: log n
+Delete: log n
+Find By Order: log n
+Order Of Key: log n
+
+Map [Sometimes Faster]
+Find: log n
+Valueset Or Insert: log n
+Delete: log n
+Iterate
+
+Unordered Hash Map [Sometimes Slower] [Context Dependent On Precise Hash Function And Desired Low Acceptable Probability Of Collision]
+Find: 1
+Valueset Or Insert: 1
+Delete: 1
+
+Deque
+Find Front: 1
+Find Back: 1
+Insert Front: 1
+Insert Back: 1
+Delete Front: 1
+Delete Back: 1
+
+Queue
+Find Front: 1
+Find Back: 1
+Insert Back: 1
+Delete Front: 1
+
+Stack
+Find Top: 1
+Delete Top: 1
+Insert Top: 1
+
+Bitset
+Bitwise Operations: n
+
+Disjoint Set Union
+Find Representative And Size: log n
+Unite: log n
+
+Disjoint Set Union Delete
+Find Representative And Size: log n
+Unite: log n
+Undo: log n
+
+Range Minimum Query: n log n
+Query Range Minimum: 1
+
+Binary Indexed Tree [Use When Possible For Memory|Speed]
+Range Sum Query: log n
+Value Update: log n
+
+"
+Implementation note: don't use dynamic-size arrays [like std::vector in C++] to store the values in the matrices, it might slow your solution very seriously. Instead, use static-size arrays.
+"
+
+Segment Tree [Associative Operation Such As +, + Modulo p, Minimum, Maximum, XOR Bitwise Exclusive Or, Greatest Common Divisor, Least Common Multiple], Custom Ad Hoc De Novo
+Range Query: log n
+Value Update: log n
+Push All Updates And Query Through Complete Array: n
+
+[Lazy] Segment Tree
+Range Query: log n
+Range|Value Update Addition-To-Range: log n
+Range|Value Update Value-Setting: log n
+Push All Updates And Query Through Complete Array: n
+
+[Sparse] Segment Tree
+
+[Persistent] Segment Tree
+	Updates at timestamped times.
+
+[Multi-Dimensional] Segment Tree
+
+Order Statistic Intervals
+kth Smallest In Range [a,b]: log n
+Count <=m In Range [a,b]: log n
+Count ==m In Range [a,b]: log n
+Count >=m In Range [a,b]: log n
+Count >=m1 and <=m2 In Range [a,b]: log n
+
+Line Container Convex Hull Trick Invert-To-Concave
+Add Line: log n
+Query: log n
+
+Interval Container
+Add Interval: log n
+Remove Interval: log n
+
+Treap
+Insert: log n
+Find: log n
+Erase: log n
+Build: n
+kth Smallest: log n
+Index Of: log n
+Split: log n
+Join: log n
+
+Implicit Treap
+Insert: log n
+Erase: log n
+Find: log n
+Range Maximum/Minimum: log n
+Range Update: log n
+Reverse: log n
+
+Splay Tree
+Splaying: log n
+Join: log n
+Split: log n
+Insert: log n
+Erase: log n
+
+-------------
+
+	Heap
+
+In computer science, a heap is a specialised tree-based data structure which is essentially an almost complete tree that satisfies the heap property: in a max heap, for any given node C, if P is a parent node of C, then the key [the value] of P is greater than or equal to the key of C. In a min heap, the key of P is less than or equal to the key of C. The node at the "top" of the heap [with no parents] is called the root node.
+
+The heap is one maximally efficient implementation of an abstract data type called a priority queue, and in fact, priority queues are often referred to as "heaps", regardless of how they may be implemented. In a heap, the highest [or lowest] priority element is always stored at the root. However, a heap is not a sorted structure; it can be regarded as being partially ordered. A heap is a useful data structure when it is necessary to repeatedly remove the object with the highest [or lowest] priority, or when insertions need to be interspersed with removals of the root node.
+
+A common implementation of a heap is the binary heap, in which the tree is a binary tree [see figure]. The heap data structure, specifically the binary heap, was introduced by J. W. J. Williams in 1964, as a data structure for the heapsort sorting algorithm. Heaps are also crucial in several efficient graph algorithms such as Dijkstra's algorithm. When a heap is a complete binary tree, it has a smallest possible height - a heap with N nodes and a branches for each node always has log N height.
+
+Note that, as shown in the graphic, there is no implied ordering between siblings or cousins and no implied sequence for an in-order traversal [as there would be in, e.g., a binary search tree]. The heap relation mentioned above applies only between nodes and their parents, grandparents, etc. The maximum number of children each node can have depends on the type of heap.
+
+	Binary Search Tree
+
+In Computer Science, a Binary Search Tree [BST], also called an ordered or sorted Binary Tree, is a rooted Binary Tree data structure whose internal nodes each store a key greater than all the keys in the node's left subtree and less than those in its right subtree. The time complexity of operations on the binary search tree is directly proportional to the height of the tree.
+
+Binary Search Trees allow binary search for fast lookup, addition, and removal of data items, and can be used to implement dynamic sets and lookup tables. Since the nodes in a Binary Search Tree are laid in such as way that each comparison skips about half of the remaining tree, the lookup performance is proportional to that of binary logarithm.
+
+The performance of a Binary Search Tree is dependent on the order of insertion of the nodes into the tree; several variations of the binary search tree can be built with guaranteed worst-case performance. The basic operations include: search, traversal, insert and delete. Binary Search Trees with guaranteed worst-case complexities perform better than an unsorted array, which would require linear search time.
+
+The complexity analysis of Binary Search Trees shows that, on average, the insert, delete and search takes O[log n] for n nodes. In the worst case, they degrade to that of a singly linked list: O[n].
+
+	Self-Balancing Binary Search Tree
+
+In computer science, a self-balancing Binary Search Tree [BST] is any node-based binary search tree that automatically keeps its height [maximal number of levels below the root] small in the face of arbitrary item insertions and deletions. These operations when designed for a self-balancing Binary Search Tree, contain precautionary measures against boundlessly increasing tree height, so that these abstract data structures receive the attribute "self-balancing".
+
+For the height-balanced binary trees the height is defined to be logarithmic O[log n] in the number n of items. This is the case for many Binary Search Trees, such as the Adelson-Velsky-Landis trees and the Red-Black trees - the latter was called symmetric binary B-Tree [and was renamed; it can, however, still be confused with the generic concept of self-balancing binary search tree because of the initials.]
+
+But the Splay Trees and Treaps are considered self-balancing as well, although their height is not guaranteed to be logarithmic in the number of items.
+
+The self-balancing Binary Search Trees provide efficient implementations for mutable ordered lists, and can be used for other abstract data structures such as associative arrays, priority queues and sets.
+
+	Red-Black Tree
+
+In Computer Science, a Red-Black tree is a kind of self-balancing Binary Search Tree. Each node stores an extra bit representing "colour" ["Red" or "Black"], used to ensure that the tree remains balanced during insertions and deletions.
+
+When the tree is modified, the new tree is rearranged and "repainted" to restore the colouring properties that constrain how unbalanced the tree can become in the worst case. The properties are designed such that this rearranging and recolouring can be performed efficiently.
+
+The re-balancing is not perfect, but guarantees searching in O[log n] time, where n is the number of entries. The insert and delete operations, along with the tree rearrangement and recolouring, are also performed in O[log n] time.
+
+Tracking the colour of each node requires only one bit of information per node because there are only two colours. The tree does not contain any other data specific to its being a Red-Black tree, so its memory footprint is almost identical to that of a classic [uncoloured] Binary Search Tree. In many cases, the additional bit of information can be stored at no additional memory cost.
+
+	Hash Table
+
+In computing, a hash table [hash map] is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index, also called a hash code, into an array of buckets or slots, from which the desired value can be found. During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored.
+
+Ideally, the hash function will assign each key to a unique bucket, but most hash table designs employ an imperfect hash function, which might cause hash collisions where the hash function generates the same index for more than one key. Such collisions are typically accommodated in some way.
+
+In a well-dimensioned hash table, the average cost [number of instructions] for each lookup is independent of the number of elements stored in the table. Many hash table designs also allow arbitrary insertions and deletions of key-value pairs, at [amortised] constant average cost per operation.
+
+In many situations, hash tables turn out to be on average more efficient than search trees or any other table lookup structure. For this reason, they are widely used in many kinds of computer software, particularly for associative arrays, database indexing, caches, and sets.
+
+	Arrays
+
+Array
+Bit Array
+Bit Field
+Bitboard
+Bitmap
+Circular Buffer
+Control Table
+Image
+Dope Vector
+Dynamic Array
+Gap Buffer
+Hashed Array Tree
+Lookup Table
+Matrix
+Parallel Array
+Sorted Array
+Sparse Matrix
+Iliffe Vector
+Variable-Length Array
+
+	Lists
+
+Doubly Linked List
+Array List
+Linked List
+Association List
+Self-Organizing List
+Skip List
+Unrolled Linked List
+VList
+Conc-Tree List
+XOR Linked List
+Zipper
+Difference List
+Free List
+
+	Binary Trees
+
+AA Tree
+AVL Tree
+Binary Search Tree
+Binary Tree
+Cartesian Tree
+Conc-Tree List
+Left-Child Right-Sibling Binary Tree
+Order Statistic Tree
+Pagoda
+Randomised Binary Search Tree
+Red-Black Tree
+Rope
+Scapegoat Tree
+Self-Balancing Binary Search Tree
+Splay Tree
+T-Tree
+Tango Tree
+Threaded Binary Tree
+Top Tree
+Treap
+WAVL Tree
+Weight-Balanced Tree
+
+	B-Trees
+
+B-Tree
+B+ Tree
+B*-Tree
+B sharp Tree
+Dancing Tree
+2-3 Tree
+2-3-4 Tree
+Queap
+Fusion Tree
+Bx-Tree
+AList
+
+	Heaps
+
+Heap
+Binary Heap
+B-Heap
+Weak Heap
+Binomial Heap
+Fibonacci Heap
+AF-Heap
+Leonardo Heap
+2-3 Heap
+Soft Heap
+Pairing Heap
+Leftist Heap
+Treap
+Beap
+Skew Heap
+Ternary Heap
+D-ary Heap
+Brodal Queue
+
+	Trees
+
+Tree
+Radix Tree
+Suffix Tree
+Suffix Array
+Compressed Suffix Array
+FM-Index
+Generalised Suffix Tree
+B-Tree
+Judy Array
+X-Fast Trie
+Y-Fast Trie
+Merkle Tree
+C Tree
+
+	Multi-Way Trees
+
+Ternary Tree
+K-ary Tree
+And-Or Tree
+[A,B]-Tree
+Link/Cut Tree
+SPQR-Tree
+Spaghetti Stack
+Disjoint-Set Data structure [Union-Find Data structure]
+Fusion Tree
+Enfilade
+Exponential Tree
+Fenwick Tree
+Van Emde Boas Tree
+Rose Tree
+
+	Space-Partitioning Trees
+
+Segment Tree
+Interval Tree
+Range Tree
+Bin
+K-D Tree
+Implicit K-D Tree
+Min/Max K-D Tree
+Relaxed K-D Tree
+Adaptive K-D Tree
+Quadtree
+Octree
+Linear Octree
+Z-order
+UB-Tree
+R-Tree
+R+ Tree
+R* Tree
+Hilbert R-Tree
+X-Tree
+Metric Tree
+Cover Tree
+M-Tree
+VP-Tree
+BK-Tree
+Bounding Interval Hierarchy
+Bounding Volume Hierarchy
+BSP Tree
+Rapidly Exploring Random Tree
+
+	Application-Specific Trees
+
+Abstract Syntax Tree
+Parse Tree
+Decision Tree
+Alternating Decision Tree
+Minimax Tree
+Expectiminimax Tree
+Finger Tree
+Expression Tree
+Log-Structured Merge-Tree
+Lexicographic Search Tree
+
+	Hash-Based Structures
+
+Bloom Filter
+Count-Min Sketch
+Distributed Hash Table
+Double Hashing
+Dynamic Perfect Hash Table
+Hash Array Mapped Trie
+Hash List
+Hash Table
+Hash Tree
+Hash Trie
+Koorde
+Prefix Hash Tree
+Rolling Hash
+MinHash
+Quotient Filter
+Ctrie
+
+	Graphs
+
+Graph
+Adjacency List
+Adjacency Matrix
+Graph-Structured Stack
+Scene Graph
+Decision Tree
+Binary Decision Diagram
+Zero-Suppressed Decision Diagram
+And-Inverter Graph
+Directed Graph
+Directed Acyclic graph
+Propositional Directed Acyclic graph
+Multigraph
+Hypergraph
+
+	Other
+
+Lightmap
+Winged Edge
+Quad-Edge
+Routing Table
+Symbol Table
+Piece Table

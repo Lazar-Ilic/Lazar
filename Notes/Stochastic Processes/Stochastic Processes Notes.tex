@@ -1,0 +1,68 @@
+\twocolumn
+Support - set of outcomes with positive probability
+
+Bernoulli Distribution: $[0,1]$ with $[1-p,p]$\\
+$\text{E}[\text{Bernoulli}]=p$\\
+$\text{Var}[\text{Bernoulli}]=p(1-p)$\\
+$P_X(s)=ps+q$
+
+Binomial Distribution $(n,p)$: $[0,1,\dots,n]$ with $[\binom{n}{0}p^0(1-p)^n,\dots]$\\
+$\text{E}[\text{Binomial}(n,p)]=np$\\
+$\text{Var}[\text{Binomial}(n,p)]=np(1-p)$\\
+$P_X(s)=(ps+q)^n$
+
+Geometric Distribution: $[0,1,2,\dots]$ with $[p,p(1-p),p(1-p)^2,\dots]$\\
+$\text{E}[\text{Geometric}]=\frac{1-p}{p}$\\
+$\text{Var}[\text{Geometric}]=\frac{1-p}{p^2}$\\
+$P_X(s)=\frac{p}{1-qs}$
+
+Poisson Distribution: $[0,1,2,\dots]$ with $[e^{-\lambda}\frac{\lambda^k}{k!}]$\\
+$\text{E}[\text{Poisson}]=\lambda$\\
+$\text{Var}[\text{Poisson}]=\lambda$\\
+$P_X(s)=e^{\lambda(s-1)}$
+
+Gambler's Ruin: start with $x$ and $++$ with $p$ and $--$ with $1-p$ and halt at $a$ or $0$.
+
+Generating Functions - special case of Fourier/Laplace harmonic analysis way to capture probability distribution into function
+
+$P_X(s)=\sum_{k=0}^{\infty}p_k s^k$
+
+$P_{X+Y}(s)=P_X(s)P_Y(s)$ convolution by definition
+
+$Y=\sum_{k=1}^N g_k$ on $N$ independent distribution then $P_Y(s)=P_N(P_g(s))$
+
+$\text{E}[X], \text{E}[X(X-1)], \text{E}[X(X-1)(X-2)],\dots$ factorial moments given by $k$th derivative of $P_X(s)$ evaluated at $s=1$ whence we may deduce moments $\text{E}[X^k]$ linearly. And note $\text{Var}[X]=P''(1)+P'(1)-(P'(1))^2$
+
+$\text{E}[X]=\text{E}[X]$\\
+$\text{E}[X^2]=\text{E}[X(X-1)]+\text{E}[X]$\\
+$\text{E}[X^3]=\text{E}[X(X-1)(X-2)]+3\text{E}[X(X-1)]+\text{E}[X]$
+
+Branching process has offspring distribution $p_n$ then if $\text{E}[p_n]=u$ with finite variance then by definition $\text{E}[Z_n]=u^n$ and $\text{Var}[Z_n]=\text{Var}[p_n]u^n\frac{1-u^{n+1}}{1-u}$ if $u\neq 1$ and $\text{Var}[p_n](n+1)$ if $u=1$
+
+Extinction probability $p_E$ is smallest non-negative solution of the equation $x=P(x)$ where $P$ is the generating function of the offspring distribution.
+
+$i \rightarrow j$, $i$ communicates with $j$, $j$ is a consequent of/accesible from/follows $i$ - nonzero $\text{P}$ of arriving at $j$ from $i$
+
+$i \leftrightarrow j$, $i$ and $j$ intercommunicate if $i \rightarrow j$ and $j \rightarrow i$ a set $B$ of states is irreducible if so classes of a chain, maximal irreducible sets, are strongly connected components in this digraph.
+
+A set of states is closed if once there never escapes i.e. sink component.
+
+A closed singleton is an absorbing state.
+
+Recurrent if return with $\text{P}=1$, positive recurrent if the Expected Value of time between $2$ visits is finite, null if the EV is infinite, transient if positive $\text{P}$ of not returning.
+
+Recurrence and transience are class properties i.e. belong to all members of the same connected component.
+
+Class on a finte state space is recurrent if and only if it is closed.
+
+Write transition matrix $P$ in the canonical form: \\
+$\begin{bmatrix}
+PC & 0 \\
+R & Q
+\end{bmatrix}$
+
+So $Q$ is $T$ to $T$ edges and $PC$ is $C$ to $C$ edges and $R$ is $T$ to $C$ edges where $T$ is transient states i.e. union of all transient classes and $PC$ is recurrent/closed states i.e. union of all sink connected components whence:
+
+$U=(I-Q)^{-1}R=(1+Q+Q^2+\dots)R=FR$ is transition probabilities
+
+$F$ captures expected number of times hitting each state in $T$ prior to transitioning into $C$

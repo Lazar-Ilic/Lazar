@@ -1,0 +1,1077 @@
+\Large
+\twocolumn
+
+\textbf{Partial Differential Equations}
+
+$F(x,y,u(x,y),u_x (x,y),u_y (x,y))=F(x,y,u,u_x,u_y) = 0$
+
+$F(x,y,u,u_x,u_y,u_{xx},u_{xy},u_{yy}) = 0$
+
+1 $u_x+u_y = 0$ Transport \\
+2 $u_x+yu_y = 0$ Transport \\
+3 $u_x+u u_y = 0$ Shock Wave \\
+4 $u_{xx}+u_{yy} = 0$ Laplace's Equation \\
+5 $u_{tt}-u_{xx}+u^3 = 0$ Wave With Interaction \\
+6 $u_t+u u_x+u_{xxx} = 0$ Dispersive Wave \\
+7 $u_{tt}+u_{xxxx} = 0$ Vibrating Bar \\
+8 $u_t-iu_{xx}$ Quantum Mechanics
+
+Linear Operator: \\
+$L(u+v)=Lu+Lv, L(cu)=cLu$
+
+Homogeneous Linear Equation: \\
+$Lu=0$
+
+Inhomogeneous Linear Equation: \\
+$Lu=g, g \neq 0$
+
+Superposition Principle: \\
+If $u_1,u_2,\dots,u_n$ are all solutions to $Lu=0$ so is any linear combination $\sum c_i u_i(x)$
+
+$u_{xx}=0$ \\
+$u_x=f(y)$ \\
+$u=f(y)x+g(y)$
+
+$u_{xx}+u=0$ \\
+$u=f(y)\cos(x)+g(y)\sin(x)$
+
+$u_{xy}=0$ \\
+$u_y=f(y)$ \\
+$u=F(y)+G(x)$
+
+$au_x+bu_y=0$ \\
+$\frac{dy}{dx}=\frac{b}{a}$ \\
+$ay=bx+c$ (Characteristic Curves (Lines) On Which Solution Is Constant) \\
+$u=f(bx-ay)$
+
+$u_x+yu_y=0$ \\
+$\frac{dy}{dx}=\frac{y}{1}$ \\
+$y=ce^x$ \\
+$u(x,y)=u(0,e^{-x} y)$ \\
+$u(x,y)=f(e^{-x}y)$
+
+If $u(0,y)=y^3$ (Initial/Boundary Condition) \\
+$u(x,y)=(e^{-x}y)^3=e^{-3x}y^3$ \\
+
+$u_x+2xy^2u_y=0$ \\
+$\frac{dy}{dx}=\frac{2xy^2}{1}$ \\
+$y=(c-x^2)^{-1}$ \\
+$u(x,y)=f \left(x^2+\frac{1}{y} \right)$
+
+Simple Transport: \\
+$u_t+cu_x=0$ \\
+$u=f(x-ct)$
+
+Wave Equation/Vibrating String: \\
+$u_{tt}=c^2u_{xx}, c=\sqrt{\frac{T}{\rho}}$ \\
+Air Resistance $r$: \\
+$u_{tt}-c^2u_{xx}+ru_t=0$ \\
+Transverse Elastic Force: \\
+$u_{tt}-c^2u_{xx}+ku=0$ \\
+Externally Applied Force: \\
+$u_{tt}-c^2u_{xx}=f(x,t)$
+
+Two Dimensional Wave Equation/Vibrating Drumhead: \\
+$u_{tt}=c^2 \nabla \cdot (\nabla u)=c^2(u_{xx}+u_{yy})$
+
+Three Dimensional Wave Eqaution: \\
+$u_{tt}=c^2(u_{xx}+u_{yy}+u_{zz})$
+
+Three Dimensional Laplacian: \\
+$L=\frac{d^2}{dx^2}+\frac{d^2}{dy^2}+\frac{d^2}{dz^2}$
+
+Diffusion Equation: \\
+$u_t=ku_{xx}$
+
+Three Dimensional Diffusion Equation: \\
+$u_t=k(u_{xx}+u_{yy}+u_{zz})=k \delta u$
+
+General Diffusion/Heat Conduction/Brownian Motion/Population Dynamics: \\
+$u_t=\nabla \cdot (k \nabla u)+f(x,t)$
+
+Heat Equation: \\
+$c\rho \frac{du}{dt}=\nabla \cdot (k \nabla u)$
+
+Laplace Equation: \\
+$\delta u=u_{xx}+u_{yy}+u_{zz}=0$
+
+Schrodinger's Equation: \\
+$-ihu_t = \frac{h^2}{2m} \delta u+\frac{e^2}{r} u$
+
+Many Particles: \\
+$-hu_t = \sum \frac{h^2}{2m_i}(u_{x_i x_i}+u_{y_i y_i}+u_{z_i z_i})+V(x_1,\dots,z_n)u$
+
+Boundary Condition: \\
+Dirichlet Condition: $u$ is specified. \\
+Neumann Condition: The normal derivative is $\frac{du}{dn}$. \\
+Robin Condition: $\frac{du}{dn}+au$ is specified.
+
+Well-Posed Problems: \\
+1 Existence: There exists at least one solution $u(x,t)$ satisfying all these conditions. \\
+2 Uniqueness: There is at most one solution. \\
+3 Stability: The unique solution $u(x,t)$ depends in a stable manner on the data of the problem. This means that if the data are changed a little, the corresponding solution changes only a little.
+
+Nonuniqueness: If too few auxiliary conditions are imposed, then there may be more than one solution and the problem is called underdetermined.
+
+Nonexistence: If there are too many auxiliary conditions, there may be no solution at all and the problem is called overdetermined.
+
+Antidiffusion: For $t<0$ going backward the situation becomes more and more chaotic. Therefore, you would not expect well-posedness of the backward-in-time problem for the diffusion equation.
+
+$a_{11} u_{xx}+2a_{12} u_{xy}+a_{22} u_{yy}+a_1 u_{x}+a_2 u_{y}+a_0 u=0$
+
+By a linear transformation of the independent variables, the equation can be reduced to one of three forms:
+
+1 Elliptic Case: If $a_{12}^2 < a_{11} a_{22}$ it is reducible to $u_{xx}+u_{yy}+\dots =0$ (where $\dots$ denotes terms of order $1$ or $0$). \\
+2 Hyperbolic Case: If $a_{12}^2 > a_{11} a_{22}$, it is reducible to $u_{xx}-u_{yy}+\dots =0$. \\
+3 Parabolic Case: If $a_{12}^2 = a_{11} a_{22}$, it is reducible to $u_{xx}+\dots =0$ (unless $a_{11}=a_{12}=a_{22}=0$).
+
+Multivariable: \\
+$\sum a_{ij} u_{x_i x_j} + \sum a_i u_{x_i} + a_0 u = 0$
+
+Without loss of generality $a_{ij}=a_{ji}$ e.g. $A$ is a symmetric real matrix. Consider any linear change of variables $y=Bx$ where $B$ is an $n \times n$ matrix.
+
+$\frac{d}{dx_i}=\sum_k \frac{dy_k}{dx_i} \frac{d}{dy_k}$
+
+$u_{x_i x_j} = \left(\sum_k b_{ki} \frac{d}{dy_k} \right) \left(\sum_l b_{lj} \frac{d}{dy_l} \right) u$
+
+$\sum a_{ij} u_{x_i x_j}=\sum_{k,l} \left(\sum_{i,j} b_{ki} a_{ij} b_{lj} \right) u_{y_k y_l}$
+
+Recall that for any symmetric real matrix $A$, there is a rotation $B$ (an orthogonal matrix with determinant $1$) such that $BA^{t}B=D$ is the diagonal matrix with the real numbers $d_1,d_2,\dots,d_n$ the eigenvalues of $A$. A change of scale converts $D$ into a diagonal matrix with each of the $d$s equal to $+1$, $-1$, or $0$.
+
+Thus any PDE of this form can be converted by means of a linear change of variables into a PDE with a diagonal coefficient matrix.
+
+Elliptic: If all the eigenvalues are positive or all are negative. Equivalent with original coefficient matrix $A$ is positive definite.
+
+Hyperbolic: None of the eigenvalues vanish and one of them has the opposite sign from the $(n-1)$ others.
+
+Ultrahyperbolic: If none vanish, but at least two of them are positive and at least two are negative.
+
+Parabolic: If exactly one of the eigenvalues is $0$ and all the others have the same sign.
+
+Generally, if the coefficients are variable, that is, the $a_{ij}$ are functions of $x$, the equation may be elliptic in one region and hyperbolic in another.
+
+Wave Equation: \\
+$u_{tt}=c^2 u_{xx}$ for $-\infty < x < +\infty$ \\
+$u_{tt}-c^2 u_{xx} = \left(\frac{d}{dt}-c\frac{d}{dx} \right) \left( \frac{d}{dt}+c\frac{d}{dx} \right) u = 0$ \\
+$u(x,t) = f(x+ct) + g(x-ct)$ where $f,g$ are two arbitrary (twice differentiable) functions \\
+$v_t - cv_x = 0$ \\
+$u_t + cu_x = v$
+
+Initial Value Problem: \\
+$u_{tt} = c^2 u_{xx}$ for $ -\infty < x < +\infty$ \\
+$u(x,0) = \phi (x), u_t (x,0) = \psi (x)$ \\
+$\phi (x) = f(x) + g(x)$ \\
+$\psi (x) = cf'(x) - cg'(x)$ \\
+$\phi'=f'+g'$ and $\frac{1}{c} \psi = f'-g'$ \\
+$f'=\frac{1}{2} \left(\phi'+\frac{\psi}{c} \right)$ and $g'=\frac{1}{2} \left(\phi'-\frac{\psi}{c} \right)$ \\
+$f(s)=\frac{1}{2} \phi (s)+\frac{1}{2c}\int_0^s \psi + c_1$ \\
+$g(s)=\frac{1}{2} \phi (s)-\frac{1}{2c}\int_0^s \psi + c_2$ \\
+$u(x,t) = \frac{1}{2} \phi (x+ct) + \frac{1}{2c} \int_0^{x+ct} \psi + \frac{1}{2} \phi (x-ct) - \frac{1}{2c} \int_0^{x-ct} \psi$ \\
+$u(x,t) = \frac{1}{2} (\phi (x+ct) + \phi (x-ct)) + \frac{1}{2c} \int_{x-ct}^{x+ct} \psi (s) ds$
+
+Principle Of Causality: Part of the wave may lag behind (if there is an initial velocity), but no part goes faster than speed $c$.
+
+Domain Of Influence: The sector in which an initial condition (position or velocity or both) at the point $(x_0,0)$ can affect the solution for $t > 0$.
+
+Domain Of Dependence/Past History Of $(x,t)$: The region bounded by the pair of characteristic lines that pass through $(x,t)$.
+
+Energy Infinite String: \\
+$\rho u_{tt}=T u_{xx}$ for $ -\infty < x < +\infty$ \\
+Recall $\text{KE}=\frac{1}{2}mv^2$ \\
+$\text{KE} = \frac{1}{2} \rho \int u_t^2 dx$ \\
+$\frac{d\text{KE}}{dt} = \rho \int u_t u_{tt} dx$ \\
+$\frac{d\text{KE}}{dt} = T \int u_t u_{xx} dx = T u_t u_x - T \int u_{tx} u_x dx$ \\
+$u_{tx} u_x = \left(\frac{1}{2}u_x^2 \right)_t$ \\
+$\frac{d\text{KE}}{dt} = -\frac{d}{dt} \int \frac{1}{2} T u_x^2 dx$ \\
+$\text{PE} = \frac{1}{2} T \int u_x^2 dx$ \\
+$\text{E}=\text{KE}+\text{PE}$ \\
+$\frac{d\text{KE}}{dt}=-\frac{d\text{PE}}{dt}$ or $\frac{d\text{E}}{dt}=0$ \\
+$E = \frac{1}{2} \int_{-\infty}^{\infty} (\rho u_t^2 + T u_x^2) dx$ \\
+Law Of Conservation Of Energy
+
+One-Dimensional Diffusion Equation: \\
+$u_t = k u_{xx}$
+
+Maximum/Minimum Principle: If $u(x,t)$ satisfies the diffusion equation in a rectangle (say $0 \le x \le l, 0 \le t \le T$) in space-time, then the maximum/minimum value of $u(x,t)$ is assumed either initially ($t=0$) or on the lateral sides ($x=0$ or $x=l$). The maximum/minimum cannot be assumed anywhere inside the rectangly.
+
+Uniqueness For The Dirichlet Problem For The Diffusion Equation: \\
+There is at most one solution of \\
+$u_t-ku_{xx}=f(x,t)$ for $ 0<x<l, t>0$ \\
+$u(x,0)=\phi (x)$ \\
+$u(0,t)=g(t), u(l,t)=h(t)$ \\
+Take the difference and deduce that it is $0$.
+
+Stability: \\
+Square Integral \\
+$\int_0^l (u_1 (x,t) - u_2 (x,t))^2 dx \le \int_0^l (\phi_1 (x) - \phi_2 (x))^2 dx$ \\
+Uniform \\
+$\text{max}_{0 \le x \le l} |u_1 (x,t) - u_2 (x,t)| \le \text{max}_{0 \le x \le l} |\phi_1 (x) - \phi_2 (x)|$
+
+Diffusion On The Whole Line: \\
+$u_t = k u_{xx}$ for $ -\infty < x < \infty, 0 < t < \infty$ \\
+$u(x,0)=\phi (x)$
+
+Method: Solve it for a particular $\phi (x)$ and then build the general solution from this particular one. $5$ basic invariance properties of the diffusion equation \\
+1 Translate $u(x-y,t)$ of any solution $u(x,t)$ is another solution, for any fixed $y$. \\
+2 Derivative ($u_x$ or $u_t$ or $u_{xx}$, etc.) of a solution is again a solution.\\
+3 Linear Combination of solutions is again a solution. \\
+4 Integral of solutions is again a solution. Thus if $S(x,t)$ is a solution, then so is $v(x,t)=\int_{-\infty}^{\infty} S(x-y,t)g(y)dy$ for any function $g(y)$, as long as this improper integral converges appropriately. \\
+5 Dilated function $S(\sqrt{a}x,at)$ for $a>0$.
+
+Special Initial Condition: \\
+$Q(x,0)=1$ for $x>0$ and $Q(x,0)=0$ for $x<0$ \\
+$Q(x,t)=g \left( \frac{x}{\sqrt{4kt}} \right)$ \\
+$Q(x,t)=\frac{1}{2}+\frac{1}{\sqrt{\pi}}\int_0^{\frac{x}{\sqrt{4kt}}} e^{-p^2} dp$ \\
+$S=\frac{dQ}{dx}$ \\
+$u(x,t)=\int_{-\infty}^{\infty} S(x-y,t) \phi (y) dy, t > 0$ \\
+$S = \frac{dQ}{dx} = \frac{1}{\sqrt{4 \pi k t}} e^{-\frac{x^2}{4kt}} , t>0$ \\
+$u(x,t)=\frac{1}{\sqrt{4 \pi k t}} \int_{-\infty}^{\infty} e^{-\frac{(x-y)^2}{4kt}} \phi (y) dy$
+
+$S(x,t)$: Source Function, Green's Function, Fundamental Solution, Gaussian, Propagator, Diffusion Kernel
+
+Physical Interpretation: Consider diffusion. $S(x-y,t)$ represents the result of a unit mass of substance located at time $0$ exactly at the position $y$ which is diffusing (spreading out) as time advances. For any initial distribution of concentration, the amount of substance initially in the interval $\delta y$ spreads out in tims and contributes approximately the term $S(x-y_i,t) \phi (y_i) \delta y_i$. Heat flow, Brownian motion probability density.
+
+Diffusion Equation Initial Condition: \\
+$u(x,0)=e^{-x}$ \\
+$u(x,t)=e^{kt-x}$
+
+Basic Property Of Waves: Information gets transported in both directions at a finite speed.
+
+Basic Property Of Diffusions: The initial disturbance gets spread out in a smooth fashion and gradually disappears.
+
+Diffusion On The Half-Line: \\
+Dirichlet Boundary Condition: \\
+$v_t-kv_{xx}=0$ for $0<x<\infty,0<t<\infty$ \\
+$v(x,0)=\phi (x),t=0$ \\
+$v(0,t)=0,x=0$
+
+Odd Extension: Set $\phi_{\text{odd}} (x) = -\phi (-x)$ for $x<0$
+
+$v(x,t)=\frac{1}{\sqrt{4 \pi k t}} \int_0^{\infty} (e^{-\frac{(x-y)^2}{4kt}}-e^{-\frac{(x+y)^2}{4kt}}) \phi (y) dy$
+
+Neumann Problem: \\
+$w_t - kw_{xx}=0$ for $ 0<x<\infty, 0<t<\infty$ \\
+$w(x,0)=\phi (x)$ \\
+$w_x (0,t)=0$
+
+Even Extension: Set $\phi_{\text{even}} (x) = \phi (-x)$ for $x<0$
+
+$w(x,t)=\frac{1}{\sqrt{4 \pi k t}} \int_0^{\infty} (e^{-\frac{(x-y)^2}{4kt}}+e^{-\frac{(x+y)^2}{4kt}}) \phi (y) dy$
+
+Reflections Of Waves On The Half-Line: \\
+Dirichlet Problem: \\
+$v_{tt}-c^2 v_{xx} = 0$ for $ 0<x<\infty,-\infty<t<\infty$ \\
+$v(x,0)=\phi (x), v_t (x,0)=\psi (x)$ for $t=0,0<x<\infty$ \\
+$v(0,t)=0$ for $ x=0, -\infty<t<\infty$
+
+$v(x,t)=\frac{1}{2}(\phi (x+ct)+\phi (x-ct))+\frac{1}{2c}\int_{x-ct}^{x+ct} \psi (y) dy$ for $x>c|t|$ \\
+$v(x,t)=\frac{1}{2}(\phi (ct+x)+\phi (ct-x))+\frac{1}{2c}\int_{ct-x}^{ct+x} \psi (y) dy$ for $0<x<c|t|$
+
+The Finite Interval: \\
+$v_{tt}=c^2 v_{xx}, v(x,0)=\phi (x), v_t (x,0)=\psi (x)$ for $ 0<x<l$ \\
+$v(0,t)=v(l,t)=0$
+
+Odd Infinite Extension: Cycle the odd extension.
+
+Fourier's Method: Upcoming and superior.
+
+Diffusion With A Source: \\
+$u_t-ku_{xx}=f(x,t)$ for $ -\infty<x<\infty, 0<t<\infty$ \\
+$u(x,0)=\phi (x)$ \\
+$u(x,t)=\int_{-\infty}^{\infty} S(x-y,t) \phi (y) dy + \int_0^t \int_{-\infty}^{\infty} S(x-y,t-s) f(y,s) dy ds$ \\
+Sketch: Integrating factor, coupled system of $n$ linear ODEs, source operator transforms any function $\phi$ to the new function, the operator method, verification of satisfaction.
+
+Boundary Source On The Half-Line: \\
+Sketch: Use subtraction device to reduce to a simpler problem.
+
+Waves With A Source: \\
+$u_{tt}-c^2 u_{xx}=f(x,t)$ \\
+$u(x,0)=\phi (x)$ \\
+$u_t (x,0)=\psi (x)$ \\
+$u(x,t) = \frac{1}{2}(\phi (x+ct)+\phi (x-ct))+\frac{1}{2c}\int_{x-ct}^{x+ct} \psi + \frac{1}{2c} \int \int_{\delta} f$
+
+Well-Posedness: \\
+Choose a norm, metric.
+
+Duhamel's Principle/Moral Of The Operator Method: If you can solve the homogeneous equation, you can also solve the inhomogeneous equation.
+
+Source On A Half-Line: \\
+$v_{tt}-c^2 v_{xx}=f(x,t)$ for $ 0<x<\infty$ \\
+$v(x,0)=\phi (x), v_t (x,0)=\psi (x)$ \\
+$v(0,t)=h(t)$ \\
+$v(x,t)=\phi \text{tern} + \psi \text{term} + h\left(t-\frac{x}{c} \right) + \frac{1}{2c} \int \int_D f$
+
+Piecewise Continuous Initial Data: Notice that the continuity of $\phi (x)$ was used in only one part of the proof. With an appropriate change we can allow $\phi (x)$ to have a jump discontinuity.
+
+Separation Of Variables: \\
+Wave Equation Homogeneous Dirichlet Condition: \\
+$u_{tt}=c^2 u_{xx}$ for $ 0<x<l$ \\
+$u(0,t)=0=u(l,t)$ \\
+$u(x,0)=\phi (x), u_t (x,0)=\psi (x)$
+
+Method: Building up the general solutions as a linear combination of special ones that are easy to find.
+
+Separated Solution: Of the form $u(x,t)=X(x)T(t)$ \\
+$X(x)T''(t)=c^2 X''(x)T(t)$ \\
+$-\frac{T''}{c^2 T}=-\frac{X''}{X}=\beta^2$ \\
+$X''+\beta^2 X=0$ and $T''+c^2 \beta^2 T=0$ \\
+$X(x)=C \cos(\beta x)+D\sin(\beta x)$ \\
+$T(t)=A \cos(\beta ct)+B\sin(\beta ct)$ \\
+Impose Boundary Conditions \\
+$\lambda_n = \left(\frac{n \pi}{l} \right)^2, X_n (x)=\sin \left(\frac{n \pi x}{l} \right)$ \\
+$u(x,t)=\sum \left(A_n \cos \left(\frac{n \pi ct}{l} \right) + B_n \sin \left(\frac{n \pi ct}{l} \right) \right) \sin \left(\frac{n \pi x}{l} \right)$ \\
+Provided That: \\
+$\phi (x) = \sum A_n \sin \left(\frac{n \pi x}{l} \right)$ \\
+$\psi (x) = \sum \frac{n \pi c}{l} B_n \sin \left(\frac{n \pi x}{l} \right)$
+
+Fourier Sine Series: Practically any function $\phi (x)$ on the interval $(0,l)$ can be expanded in an infinite series as such.
+
+Eigenvalues: $\lambda_n = \left(\frac{n \pi}{l} \right)^2$ \\
+Eigenfunctions: $X_n (x)=\sin \left(\frac{n \pi x}{l} \right)$ \\
+$-\frac{d^2}{dx^2} X=\lambda X, X(0)=X(l)=0$
+
+Normal Modes: In physics and engineering the eigenfunctions are called normal modes because they are the natural shapes of solutions that persist for all time.
+
+Neumann Boundary Condition: \\
+$u_x(0,t)=u_x(l,t)=0$ \\
+$-X''=\lambda X, X'(0)=X'(l)=0$ \\
+$\lambda_n = \left(\frac{n \pi}{l} \right)^2, n=0,1,\dots$ \\
+$X_n (x)=\cos \left(\frac{n \pi x}{l} \right), n=1,2,\dots$
+
+Diffusion Equation Nemann Boundary Conditions: \\
+$u(x,t)=\frac{1}{2}A_0+\sum_{n=1}^{\infty} A_n e^{-\left(\frac{n \pi}{l} \right)^2 kt} \cos \left(\frac{n \pi x}{l} \right)$ \\
+Initial Data Must Have Fourier Cosine Expansion: \\
+$\phi (x)=\frac{1}{2} A_0 \sum_{n=1}^{\infty} A_n \cos \left(\frac{n \pi x}{l} \right)$
+
+Wave Equation Neumann Boundary Conditions: \\
+$T''(t)=\lambda c^2 T(t)=0 \to T(t)=A+Bt$ \\
+$u(x,t)=\frac{1}{2}A_0 + \frac{1}{2}B_0 t + \sum_{n=1}^{\infty} \left(A_n \cos \left( \frac{n \pi ct}{l} \right) + B_n \sin \left(\frac{n \pi ct}{l} \right) \right) \cos \left(\frac{n \pi x}{l} \right)$ \\
+Initial Data Must Satisfy: \\
+$\phi (x)=\frac{1}{2} A_0 + \sum_{n=1}^{\infty} A_n \cos \left(\frac{n \pi x}{l} \right)$ \\
+$\psi (x)=\frac{1}{2} B_0 + \sum_{n=1}^{\infty} \frac{n \pi c}{l} B_n \cos \left(\frac{n \pi x}{l} \right)$
+
+Schrodinger Equation Neumann Boundary Conditions: \\
+$u_t=i u_{xx}$ for $ 0<x<l$ \\
+$u_x(0,t)=u_x(l,t)=0$ \\
+$u(x,0)=\phi (x)$ \\
+$\frac{T'}{iT}=\frac{X''}{X}=-\lambda$ \\
+$T(t)=e^{-i\lambda t}$ \\
+$u(x,t)=\frac{1}{2}A_0 + \sum_{n=1}^{\infty} A_n e^{-i \left(\frac{n \pi}{l} \right)^2 t} \cos \left(\frac{n \pi x}{l} \right)$
+
+The Robin Condition: \\
+$-X''=\lambda X$ \\
+$X'-a_0 X=0, x=0$ \\
+$X'+a_l x=0, x=l$
+
+Method: Casework on only positive eigenvalues, only positive eigenvalues, zero is an eigenvalue all the rest are positive, one negative eigenvalue all the rest are positive.
+
+Diffusions: \\
+$u(x,t)=\sum A_n e^{- \lambda_n kt} X_n(x)$
+
+Waves: \\
+$u(x,t)=\sum (A_n \cos(\sqrt{\lambda_n}ct) + B_n \sin(\sqrt{\lambda_n}ct)) X_n(x)$
+
+Fourier Series
+
+The Coefficients
+
+Fourier Sine Series: \\
+$\phi (x)=\sum_{n=1}^{\infty} A_n \sin \left(\frac{n \pi x}{l} \right)$ for $ 0<x<l$ \\
+$\int_0^l \sin \left(\frac{n \pi x}{l} \right) \sin \left(\frac{m \pi x}{l} \right) dx =0$ if $m \neq n$ \\
+$A_m = \frac{2}{l} \int_0^l \phi(x) \sin \left(\frac{m \pi x}{l} \right) dx$ \\
+$B_m = \frac{2}{m \pi c} \int_0^l \psi (x) \sin \left(\frac{m \pi x}{l} \right) dx$
+
+Fourier Cosine Series: \\
+$\phi (x)=\frac{1}{2} A_0 + \sum_{n=1}^{\infty} A_n \cos \left(\frac{n \pi x}{l} \right)$ \\
+$A_m = \frac{2}{l} \int_0^l \phi(x) \cos \left(\frac{m \pi x}{l} \right) dx$
+
+Full Fourier Series: \\
+$\phi (x)=\frac{1}{2} A_0 + \sum_{n=1}^{\infty} \left(A_n \cos \left(\frac{n \pi x}{l} \right) + B_n \sin \left(\frac{n \pi x}{l} \right) \right) $ for $ -l<x<l$ \\
+$A_n=\frac{1}{l}\int_{-l}^l \phi (x)\cos \left(\frac{n \pi x}{l} \right) ,n=0,1,\dots$ \\
+$B_n = \frac{1}{l} \int_{-l}^l \phi (x) \sin \left(\frac{n \pi x}{l} \right) ,n=1,2,\dots$
+
+Even, Odd, Periodic, And Complex Functions
+
+Recall That $f(x)$ Is The Sum Of An Even And An Odd Function: \\
+$f(x)=\frac{f(x)+f(-x)}{2}+\frac{f(x)-f(-x)}{2}$
+
+Fourier Sine Series: An expansion of an arbitrary function that is odd and has period $2l$ defined on the whole line $-\infty < x < \infty$
+
+Fourier Cosine Series: An expansion of an arbitrary function which is even and has period $2l$ defined on the whole line $-\infty < x <\infty$
+
+Dirichlet: Odd Extension \\
+Neumann: Even Extension \\
+Periodic: Periodic Extension
+
+Complex Form: \\
+$c_n = \frac{1}{2l} \int_{-l}^l \phi (x) e^{-\frac{i n \pi x}{l}} dx$
+
+Inner Product: $(f,g) = \int_a^b f(x)g(x)dx$
+
+Orthogonal: $f(x)$ and $g(x)$ if $(f,g) = \int_a^b f(x)g(x)dx = 0$
+
+Key: Every eigenfunction is orthogonal to every other eigenfunction.
+
+Operator $A = -\frac{d^2}{dx^2}$ \\
+$-X_1'' = -\frac{d^2 X_1}{dx^2} = \lambda_1 X_1$ \\
+$-X_2'' = -\frac{d^2X_2}{dx^2} = \lambda_2 X_2$ \\
+$-X_1''X_2 + X_1 X_2'' = (-X_1'X_2 + X_1 X_2')'$ \\
+Green's Second Identity \\
+$\int_a^b (-X_1''X_2 + X_1X_2'') dx = (-X_1'X_2+X_1X_2') |_a^b$
+
+Dirichlet, Neumann, Periodic, Robin: \\
+$(\lambda_1 - \lambda_2) \int_a^b X_1 X_2 dx = 0$
+
+Symmetric Boundary Conditions: \\
+$\alpha_1 X(a) + \beta_1 X(b) + \gamma_1 X'(a) + \delta_1 X'(b)=0$ \\
+$\alpha_2 X(a) + \beta_2 X(b) + \gamma_2 X'(a) + \delta_2 X'(b)=0$ \\
+$f'(x)g(x)-f(x)g'(x) |_{x=a}^{x=b} = 0$
+
+Theorem 1: If you have symmetric boundary conditions, then any two eigenfunctions that correspond to distinct eigenvalues are orthogonal. Therefore, if any function is expanded in a series of these eigenfunctions, the coefficients are determined.
+
+$\phi (x) = \sum A_n X_n (x)$ \\
+$A_m = \frac{(\phi , X_m)}{c_m}$
+
+Complex Inner Product: \\
+$(f,g)=\int_a^b f(x)\bar{g(x)} dx$ \\
+Orthogonal if $(f,g)=0$
+
+Complex Eigenvalues: \\
+Symmetric/Hermitian: \\
+$f'(x)\bar{g(x)}-f(x)\bar{g'(x)} |_a^b = 0$ \\
+For all $f,g$ satisfying the boundary conditions.
+
+Theorem 2: Under the same conditions as Theorem 1, all the eigenvalues are real numbers. Furthermore, all the eigenfunctions can be chosen to be real valued.
+
+Negative Eigenvalues
+
+Theorem 3: Under the same conditions as Theorem 1, If $f(x)f'(x) |_{x=a}^{x=b} \le 0$ for all (real-valued) functions $f(x)$ satisfying the boundary conditions, then there is no negative eigenvalue.
+
+Completeness
+
+Consider the eigenvalue problem $X''+\lambda X = 0$ in $(a,b)$ with any symmetric boundary condition.
+
+Theorem 1: There an infinite number of eigenvalues. They form a sequence $\lambda_n \to \infty$. We may assume that the eigenfunctions $X_n (x)$ are pairwise orthogonal and real valued.
+
+Fourier Coefficients: \\
+$A_n = \frac{(f,X_n)}{(X_n,X_n)} = \frac{\int_a^b f(x) \bar{X_n (x)} dx}{\int_a^b |X_n (x)|^2 dx}$
+
+Fourier Series: \\
+$\sum A_n X_n (x)$
+
+There exists an integrable function $f(x)$ whose Fourier Series diverges at every point $x$. There exists a continuous function whose Fourier Series diverges at many point.
+
+Three Notions Of Convergence: \\
+1 We say that an infinite series $\sum_{n=1}^{\infty} f_n (x)$ converges to $f(x)$ pointwise in $(a,b)$ if it converges to $f(x)$ for each $a<x<b$. That is, for each $a<x<b$ we have $|f(x)-\sum_{n=1}^{N} f_n(x)| \to 0$ as $N \to \infty$ \\
+2 We say that the series converges uniformly to $f(x)$ in $[a,b]$ if $\text{max}_{a \le x \le b} |f(x)-\sum_{n=1}^N f_n (x)| \to 0$ as $N \to \infty$ \\
+3 We say the series converges in the mean-square (or $L^2$) sense to $f(x)$ in $(a,b)$ if $\int_a^b |f(x)-\sum_{n=1}^N f_n (x)|^2 dx \to 0$ as $N \to \infty$ \\
+Notice that uniform convergence is stronger than both pointwise and $L^2$ convergence.
+
+Convergence Theorems
+
+Theorem 2 Uniform Convergence: \\
+The Fourier series $\sum A_n X_n (x)$ converges to $f(x)$ uniformly on $[a,b]$ provided that \\
+1 $f(x),f'(x),f''(x)$ exist and are continuous for $a \le x \le b$ \\
+2 $f(x)$ satisfies the given boundary conditions \\
+Theorem 2 assures us of a very good kind of convergence provided that the conditions on $f(x)$ and its derivatives are met. For the classical Fourier Series (full, sine, and cosine), it is not required that $f''(x)$ exist.
+
+Theorem 3 $L^2$ Convergence: \\
+The Fourier series converges to $f(x)$ in the mean-square sense in $(a,b)$ provided only that $f(x)$ is any function for which $\int_a^b |f(x)|^2 dx$ is finite. Theorem 3 assures us of a certain kind of convergence under a very weak assumption on $f(x)$. Theorem 3 true for the most general possible functions via the Lebesgue integral rather than the standard Riemann integral.
+
+Theorem 4: Pointwise Convergence Of Classical Fourier Series: \\
+1 The classical Fourier Series (full or sine or cosine) converges to $f(x)$ pointwise on $(a,b)$ provided that $f(x)$ is a continuous function on $a \le x \le b$ and $f'(x)$ is piecewise continuous on $a \le x \le b$ \\
+2 More generally, if $f(x)$ itself is only piecewise continuous on $a \le x \le b$ and $f'(x)$ is also piecewise continuous on $a \le x \le b$, then the classical Fourier Series converges at every point $x$ ($-\infty < x < \infty$). The sum is $\sum A_n X_n (x) = \frac{f(x+)+f(x-)}{2}$ for all $a<x<b$ and $\frac{f_{\text{ext}} (x+)+f_{\text{ext}} (x-)}{2}$ for all $-\infty < x < \infty$
+
+Theorem 4 $\infty$: \\
+If $f(x)$ is a function of period $2l$ on the line for which $f(x)$ and $f'(x)$ are piecewise continuous, then the classical full Fourier Series converges to $\frac{f(x+)+f(x-)}{2}$ for $-\infty < x < \infty$. The Fourier Series of a continuous but nondifferentiable function $f(x)$ is not guaranteed to converge pointwise. By Theorem 3 it must converge to $f(x)$ in the $L^2$ sense. If we wanted to be sure of its pointwise convergence, we would have to know something about its derivative $f'(x)$.
+
+$L^2$ Norm Of $f$: \\
+$||f|| = (f,f)^{\frac{1}{2}} = \left[\int_a^b |f(x)|^2 dx \right]^{\frac{1}{2}}$ \\
+$L^2$ Metric \\
+$||f-g|| = \left[\int_a^b |f(x)-g(x)|^2 dx \right]^{\frac{1}{2}}$ \\
+Theorem 3 Restatement \\
+If $X_n$ are the eigenfunctions associated with a set of symmetric boundary conditions and if $||f|| < \infty$, then $||f-\sum_{n \le N} A_n X_n|| \to 0$ as $N \to \infty$
+
+Theorem 5 Least-Square Approximation: \\
+Let $X_n$ be any orthogonal set of functions. Let $||f|| < \infty$. Let $N$ be a fixed positive integer. Among all possible choices of $N$ constants $c_1,c_2,\dots,c_N$, the choice that minimizes $||f-\sum_{n=1}^{N} c_n X_n||$ is $c_1=A_1,\dots,c_n=A_n$
+
+Bessel's Inequality \\
+As long as $\int_a^b |f(x)|^2 dx$ is finite \\
+$\sum_{n=1}^{\infty} A_n^2 \int_a^b |X_n (x)|^2 dx \le \int_a^b |f(x)|^2 dx$
+
+Theorem 6: \\
+The Fourier Series of $f(x)$ converges to $f(x)$ in the mean-square sense if and only if \\
+Parseval's Equality: \\
+$\sum_{n=1}^{\infty} |A_n|^2 \int_a^b |X_n (x)|^2 dx = \int_a^b |f(x)|^2 dx$
+
+Corollary 7: \\
+If $\int_a^b |f(x)|^2 dx$ is finite, then the Parseval Equality is true.
+
+Completeness And The Gibbs Phenomenon
+
+$C^1$ Function: \\
+A function that has a continuous derivative in $(-\infty,\infty)$
+
+Let us begin with a $C^1$ function $f(x)$ on the whole line of period $2l=2\pi$, easily arranged through a change of scale. Thus the Fourier Series is: \\
+$f(x)=\frac{1}{2} A_0 + \sum_{n=1}^{\infty} (A_n \cos(nx) + B_n \sin (nx))$ \\
+With the coefficients: \\
+$A_n = \int_{-\pi}^{\pi} f(y)\cos(ny) \frac{dy}{\pi}, n=0,1,\dots$ \\
+$B_n = \int_{-\pi}^{\pi} f(y)\sin(ny)\frac{dy}{\pi}, n=1,2,\dots$ \\
+The $N$th partial sum of the series is: \\
+$S_N (x) = \frac{1}{2} A_0 + \sum_{n=1}^{N} (A_n \cos(nx)+B_n \sin(nx))$
+
+Dirichlet Kernel: \\
+$K_N (\theta) = 1+2\sum_{n=1}^N \cos (n \theta)$ \\
+$\int_{-\pi}^{\pi} K_N (\theta) \frac{d \theta}{2 \pi} = 1+0+0+\dots+0=1$ \\
+$K_N (\theta) = \frac{\sin \left(N+\frac{1}{2} \right) \theta}{\sin \left(\frac{1}{2}\theta \right)}$
+
+Theorem: Pointwise convergence of the Fourier Series of any $C^1$ function.
+
+Proof For Discontinuous Functions
+
+Proof Of Uniform Convergence
+
+The Gibbs Phenomenon: \\
+What happens to Fourier Series at jump discontinuities. For a function with a jump, the partial sum $S_N (x)$ approximates the jump as in Figure 2 for a large value of N. Gibbs showed that $S_N (x)$ always differs from $f(x)$ near the jump by an overshoot of about $9$ percent. The width of the overshoot goes to $0$ as $N \to \infty$ while the extra height remains at $9$ percent (top and bottom). Thus $\text{lim}_{N \to \infty} \text{max} |S_N (x)-f(x)| \neq 0$ althought $S_N (x)-f(x)$ does tend to $0$ for each $x$ where $f(x)$ does not jump.
+
+Inhomogeneous Boundary Conditions: \\
+The separation of variables technique will not work.
+
+Diffusion Equation With Sources At Both Endpoints: \\
+$u_t=ku_{xx}$ for $0<x<l,t>0$ \\
+$u(0,t)=h(t), u(l,t)=j(t)$ \\
+$u(x,0)=0$
+
+Expansion Method: \\
+$u(x,t)=\sum_{n=1}^{\infty} u_n (t) \sin \left(\frac{n \pi x}{l} \right)$ \\
+$u_n (t)=\frac{2}{l}\int_0^l u(x,t) \sin \left(\frac{n \pi x}{l} \right) dx$ \\
+$u_n (t) = Ce^{-\lambda_n kt}-2 n \pi l^{-2} k \int_0^t e^{-\lambda_n k (t-s)} ((-1)^n j(s)-h(s)) ds$
+
+Inhomogeneous Wave Problem: \\
+$u_{tt}-c^2 u_{xx}=f(x,t)$ \\
+$u(0,t)=h(t), u(l,t)=k(t)$ \\
+$u(x,0)=\phi (x), u_t (x,0)=\psi (x)$
+
+Method Of Shifting The Data: \\
+By subtraction, the data can be shifted from the boundary to another spot in the problem. The boundary conditions can be made homogeneous by subtracting any known function that satisfies them. The boundary condition and the differential equation can simultaneously be made homogeneous by subtracting any known function that satisfies them. There is also the method of Laplace transforms.
+
+Laplace Equation: \\
+$u_{xx}=0$ \\
+$u_{xx}+u_{yy}=0$ \\
+$u_{xx}+u_{yy}+u_{zz}=0$ \\
+e.g. If a diffusion or wave process is stationary (independent of time), then $u_t=0$ and $u_{tt}=0$. Therefore, both the diffusion and the wave equations reduce to the Laplace Equation. A solution of the Laplace Equation is called a harmonic function. The inhomogeneous version of Laplace's Equation: \\
+Poisson Equation: \\
+$\delta u=f$ \\
+
+Electrostatics
+
+Steady Fluid Flow
+
+Analytic Functions Of A Complex Variable: \\
+Write $z=x+iy$ and $f(z)=u(z)+iv(z)$ where $u,v$ are real-valued functions. An analytic function is one that is expressible as a power series in $z$. Thus $f(z)=\sum_{n=0}^{\infty} a_n z^n$ ($a_n$ complex constants). That is, $u(x+iy)+iv(x+iy)=\sum_{n=0}^{\infty} a_n (x+iy)^n$. Formal differentiation of this seties shows that the Cauchy-Riemann equations $\frac{du}{dx}=\frac{dv}{dy}, \frac{du}{dy}=-\frac{dv}{dx}$. If we differentiate them, we find that $u_{xx}=v_{yx}=v_{xy}=-u_{yy}$ so that $\delta u=0$ and $\delta v=0$. Thus the real and imaginary parts of an anlytic function are harmonic.
+
+Brownian Motion
+
+Maximum Principle: \\
+Let $D$ be a connected bounded open set (in either $2$ or $3$ dimensional space). Let either $u(x,y)$ or $u(x,y,z)$ be a harmonic function in $D$ that is continuous on $\bar{D}=D \cup (\text{bdy }D)$. Then the maximum and the minimum values of $u$ are attained on $\text{bdy }D$ and nowhere inside (unless $u$ is constant).
+
+Uniqueness Of The Dirichlet Problem
+
+Invariance In Two Dimensions \\
+The Laplace Equation is invariant under all rigid motions. A rigid motion in the plane consists of translation and rotations. A translation in the plane is a transformation. In engineering the laplacian $\delta$ is a model for isotropic physical situations, in which there is no preferred direction.
+
+Invariance In Three Dimensions
+
+Rectangles And Cubes \\
+Special geometries can be solved by separating the variables. \\
+1 Look for the separated solutions of the PDE. \\
+2 Put in the homogeneous boundary conditions to get the eigenvalues. This is the step that requires the special geometry. \\
+3 Sum the series. \\
+4 Put in the inhomogeneous initial or boundary conditions.
+
+Poisson's Formula
+
+Dirichlet Problem For A Circle
+
+$u_{xx}+u_{yy}=0$ for $ x^2+y^2<a^2$ \\
+$u=h(\theta)$ for $ x^2+y^2=a^2$ \\
+With radius $a$ and any boundary data $h(\theta)$. Our method, naturally, is to separate variables in polar coordinates.
+
+$u=\frac{1}{2}A_0+\sum_{n=1}^{\infty}r^n(A_n\cos(n\theta)+B_n\sin(n \theta))$ \\
+$A_n=\frac{1}{\pi a^n}\int_0^{2\pi}h(\phi)\cos(n\phi)d\phi$ \\
+$B_n=\frac{1}{\pi a^n}\int_0^{2\pi}h(\phi)\sin(n\phi)d\phi$ \\
+Poisson's Formula: \\
+$u(r,\theta)=(a^2-r^2)\int_0^{2\pi}\frac{h(\phi)}{a^2-2ar\cos(\theta-\phi)+r^2}\frac{d\phi}{2\pi}$ \\
+$u(x)=\frac{a^2-|x|^2}{2\pi a}\int_{|x'|=a}\frac{u(x')}{|x-x'|^2}ds'$
+
+Mean Value Property: \\
+Let $u$ be a harmonic function in a disk $D$, continuous in its closure $\bar{D}$. Then the value of $u$ at the center of $D$ equals the average of $u$ on its circumference.
+
+Differentiability: \\
+Let $u$ be a harmonic function in any open set $D$ of the plane. Then $u(x)=u(x,y)$ possesses all partial derivatives of all orders in $D$.
+
+Circles, Wedges, And Annuli: \\
+The technique of separating variables in polar coordinates works for domains whose boundaries are made up of concentric circles and rays. There exist formulae not transcribed here.
+
+$\text{grad }f=\nabla f=(f_x,f_y,f_z)$ \\
+$\text{div }F=\nabla \cdot F=\frac{dF_1}{dx}+\frac{dF_2}{dy}+\frac{dF_3}{dz}$ \\
+Where $F=(F_1,F_2,F_3)$ is a vector field. \\
+$\delta u=\text{div grad }u=\nabla \cdot \nabla u=u_{xx}+u_{yy}+u_{zz}$ \\
+$|\nabla u|^2 = |\text{grad }u|^2 = u_x^2 + u_y^2 + u_z^2$
+
+Divergence Theorem: \\
+$\int \int \int_{D} \text{div }F dx=\int \int_{\text{bdy }D}F \cdot n dS$
+
+Green's First Identity: \\
+$\int \int_{\text{bdy }D}v \frac{du}{dn} dS = \int \int \int_D \nabla v \cdot \nabla u dx + \int \int \int_D v \delta u dx$
+
+Mean Value Property: \\
+The average value of any harmonic function over any $n$-sphere equals its value at the center. \\
+$\frac{1}{\text{area of }S} \int \int_S u dS = u(0)$
+
+Maximum Principle: \\
+Exactly as in two dimensions we deduce from the mean value property the maximum principle. If $D$ is any solid region, a nonconstant harmonic function in $D$ can not take its maximum value inside $D$, but only on $\text{bdy }D$.
+
+Hopf Maximum Principle: \\
+It can also be shown that the outward normal derivative $\frac{du}{dn}$ is strictly positive at a maximum point: $\frac{du}{dn} > 0$ there.
+
+Uniqueness Of Dirichlet's Problem: \\
+Proof via energy method. Again take a difference proof. If we have two harmonic functions $u_1,u_2$ with the same boundary data then their difference $u=u_1-u_2$ is harmonic and has zero boundary data. Substitute in to Green's First Identity deduce $u(x)=0$.
+
+Dirichlet's Principle: \\
+Important mathematical theorem based on the physical idea of energy. Among all the functions $w(x)$ in $D$ that satisfy the Dirichlet boundary condition $w=h(x)$ on $\text{bdy }D$ the lowest energy occurs for the harmonic function. Energy in the present context defined as $E[w]=\frac{1}{2} \int \int \int_D |\nabla w|^2 dx$
+
+Green's Second Identity: \\
+$\int \int \int_D (u \delta v - v \delta u) dx = \int \int_{\text{bdy} D} \left(u \frac{dv}{dn} - v \frac{du}{dn} \right) dS$
+
+Symmetric Boundary Condition For Operator $\delta$: \\
+If the right side of Green's Second Identity vanishes for all pairs of functions $u,v$ that satisfy the boundary condition. Each of the three classical boundary conditions (Dirichlet, Neumann, and Robin) is symmetric.
+
+Representation Formula: \\
+This formula represents any harmonic function as an integral over the boundary. It states the following: If $\delta u = 0$ in $D$, then: \\
+$u(x_0) = \int \int_{\text{bdy }D} \left(-u(x) \frac{d}{dn} \left(\frac{1}{|x-x_0|} \right) + \frac{1}{|x-x_0|} \frac{du}{dn} \right) \frac{dS}{4 \pi}$
+
+Green's Function For $D$: \\
+The Green's function $G(x)$ for the operator $- \delta$ and the domain $D$ at the point $x_0 \in D$ is a function defined for $x \in D$ such that: \\
+1 $G(x)$ possesses continuous second derivatives and $\delta G = 0$ in $D$, except at the point $x=x_0$. \\
+2 $G(x)=0$ for $x \in \text{bdy }D$. \\
+3 The function $G(x)+\frac{1}{4 \pi |x-x_0|}$ is finite at $x_0$ and has continuous second derivatives everywhere and is harmonic at $x_0$.
+
+Theorem 1: If $G(x,x_0)$ is the Green's function, then the solution of the Dirichlet problem is given by the formula: \\
+$u(x_0)=\int \int_{\text{bdy }D} u(x) \frac{d G(x,x_0)}{dn} dS$
+
+Symmetry Of The Green's Function: \\
+For any region $D$ we have a Green's function $G(x,x_0$ is always symmetric: $G(x,x_0)=G(x_0,x)$
+
+Theorem 2: The solution of the problem: \\
+$\delta u=f$ in $D$, $u=h$ on $\text{bdy }D$ is: \\
+$u(x_0)=\int \int_{\text{bdy }D} h(x) \frac{d G(x,x_0)}{dn} dS + \int \int \int_D f(x) G(x,x_0) dx$
+
+Half-Space And Sphere
+
+Half-Space: \\
+$G(x,x_0)=-\frac{1}{4 \pi |x-x_0|}+\frac{1}{4 \pi |x-x_0^{*}|}$
+
+Let's now use it to solve the: \\
+Dirichlet problem: \\
+$\delta = 0$ for $z>0$, $u(x,y,0)=h(x,y)$ \\
+$u(x_0)=\frac{z_0}{2 \pi} \int \int_{\text{bdy }D} \frac{h(x)}{|x-x_0|^3} dS$
+
+Sphere: \\
+$G(x,x_0)=-\frac{1}{4 \pi \rho}+\frac{a}{|x_0|} \frac{1}{4 \pi \rho^*}$
+
+Let's now use it to solve the: \\
+Dirichlet Problem In A Ball: \\
+$\delta u=0$ in $|x|<a$, $u=h$ on $|x|=a$ \\
+$u(x_0)=\frac{a^2-|x_0|^2}{4 \pi a} \int \int_{|x|=a} \frac{h(x)}{|x-x_0|^3} dS$
+
+Computation Of Solutions: \\
+We have found formulas for many solutions to PDEs, but other problems encountered in practice are not as simple and can not be solved by formula... the most important techniques of computation using quite simple equations as examples.
+
+Finite Differences: \\
+Replacing each derivative by a difference quotient. Choose a mesh size $\delta x$. Three standard approximations for the first derivative $\frac{du}{dx} (j \delta x)$ are: \\
+Backward Difference: $\frac{u_j - u_{j-1}}{\delta x}$ \\
+Forward Difference: $\frac{u_{j+1}-u_{j}}{\delta x}$ \\
+Centered Difference: $\frac{u_{j+1}-u_{j-1}}{2 \delta x}$
+
+For the second derivative by Taylor, the simplest approximation is the: \\
+Centered Second Difference: $u''(j \delta x) \approx \frac{u_{j+1}-2u_j+u_{j-1}}{(\delta x)^2}$
+
+Truncation Error, Global Truncation Error, Roundoff Error
+
+Stability Criterion
+
+$\frac{\delta t}{(\delta x)^2} = s \le \frac{1}{2}$
+
+Amplification Factor $\epsilon (k)$: \\
+$|\epsilon (k)|\le 1 + O(\delta t)$ for all $k$
+
+Crank-Nicolson Scheme: \\
+There is a class of schemes that is stable no matter what the value of $s$: \\
+Pick a number $\theta$ between $0$ and $1$: \\
+$\frac{u_j^{n+1}-u_j^n}{\delta t} = (1-\theta)(\delta^2 u)_j^n + \theta (\delta^2 u)_j^{n+1}$ \\
+Unconditionally Stable Scheme: \\
+If $\frac{1}{2} \le \theta \le 1$, there is no restriction on the size of $s$ \\
+Crank Nicolson Scheme: \\
+$\theta = \frac{1}{2}$ \\
+On the other hand, in case $\theta < \frac{1}{2}$, a necessary condition for stability is $s \le \frac{1}{2-4 \theta}$. Thus expected to be a stable scheme if $\frac{\delta t}{(\delta x)^2} = s < \frac{1}{2-4 \theta}$
+
+Approximations Of Waves
+
+Initial Conditions
+
+Stability Criterion: \\
+$s = c^2 \frac{(\delta t)^2}{(\delta x)^2} \le 1$
+
+Approximation Of Laplace's Equation: \\
+For Dirichlet's problem in a domain of irregular shape, it may be more convenient to compute numerically than to try to find the Green's function. As with the other equations, the same ideas of numerical computation can easily be carried over to more complicated equations.
+
+Jacobi Iteration: \\
+We start from any reasonable first approximation. Then we successively solve something which converges very slowly and so Jacobi iteration is never used in practice.
+
+Gauss-Seidel Method: \\
+This method improves the rate of convergence. Compute one row at a time starting at the bottom row and let's go from left to right. But every time a calculation is completed, we'll throw out the old value and update it by its newly calculated one.
+
+Successive Overrelaxation: \\
+How to choose the relaxation factor $\omega$ in practice to make a significant performance improvement is an art whose discussion we leave to more specialized texts.
+
+Finite Element Method: \\
+There are other methods besides finite differences. The idea is to divide the domain into simple pieces (polygons) and to approximate the solution by extremely simple functions on these pieces. In one of its incarnations, the simple pieces are triangles and the simple functions are linear.
+
+Triangulated/Partitioned, Trial Functions, Unit Height Pyramids, Linear Combination of $v_i (x,y)=a+bx+cy$, Bilinear Elements On Rectangles, $v_i (x,y)=a+bx+cy+dxy$, Quadratic Elements On Triangles, $v_i (x,y)=a+bx+cy+dx^2+exy+fy^2$
+
+Waves In Space
+
+Energy And Causality
+
+Wave Equation: \\
+$u_{tt}=c^2 (u_{xx}+u_{yy}+u_{zz})$
+
+Characteristic Cone: \\
+Light cone if $c$ is the speed of light in electromagnetics, the cone is the union of all the light rays that emanate from the point $(x_0,t_0)$.
+
+Conservation Of Energy: \\
+Total Energy: \\
+$E = \frac{1}{2} \int \int \int (u_t^2 + c^2 |\nabla u|^2) dx$ \\
+The first term is the kinetic energy, the second the potential energy.
+
+Principle Of Causality: \\
+The initial data $\phi, \psi$ at a spatial point $x_0$ can influence the solution only in the solid light cone with vertex at $(x_0,0)$.
+
+The Wave Equation In Space-Time: \\
+$u_{tt}=c^2 (u_{xx}+u_{yy}+u_{zz})$ \\
+$u(x,0)=\phi (x), u_t (x,0)=\psi (x)$ \\
+Poisson/Kirchhoff's Formula: \\
+$u(x,t_0)=\frac{1}{4 \pi c^2 t_0} \int \int_S \psi (x) dS + \frac{d}{dt_0} \left(\frac{1}{4 \pi c^2 t_0} \int \int_S \phi(x) dS \right)$
+
+Huygen's Principle: \\
+Any solution of the $3$-dimensional wave equation propagates at exactly the speed $c$ of light, no faster and no slower.
+
+Huygen's Principle Is False In $2$ Dimensions
+
+Rays, Singularities, And Sources
+
+Theorem 1: All the level surfaces of $t-\gamma (x)$ are characteristic if and only if $|\nabla \gamma (x)|=\frac{1}{c}$
+
+Theorem 2: If $S$ if any spacelike surface, then one can uniquely solve the initial-value problem: \\
+$u_{tt}=c^2 \delta u$ in all of space-time \\
+$u=\phi$ and $\frac{du}{dn}=\psi$ on $S$
+
+Singularities
+
+Theorem 3: Characteristic surfaces are the only surfaces that can carry the singularities of solutions of the wave equation.
+
+Transport Equation: \\
+$v_t + c^2 \nabla \gamma \cdot \nabla v = -\frac{1}{2} c^2 (\delta \gamma) v$
+
+Wave Equation With A Source: \\
+$u_{tt}-c^2 \delta u = f(x,t)$ \\
+$u(x,0)=0, u_t (x,0)=0$ \\
+Duhamel Formula: \\
+$u(x,t)=\int_0^t \varphi (t-s) f(x,s) ds$ \\
+$u(x,t)=\frac{1}{4 \pi c^2} \int \int \int_{|\epsilon -x| \le ct} \frac{f(\epsilon, t-\frac{|\epsilon - x|}{c})}{|\epsilon - x|} d \epsilon$
+
+$3$-Dimensional Diffusion Equation: \\
+$\frac{du}{dt} = k \delta u = k \left(\frac{d^2 u}{dx^2}+\frac{d^2 u}{dy^2}+\frac{d^2 u}{dz^2} \right)$ \\
+$u(x,0)=\phi (x)$ \\
+$u(x,t) = \frac{1}{(4 \pi kt)^{\frac{3}{2}}} \int \int \int e^{-\frac{|x-x'|^2}{4kt}} \phi (x') dx'$
+
+Schrodinger's Equation: \\
+$-ihu_t = \frac{h^2}{2m} \delta u + \frac{e^2}{r} u$ \\
+
+Free Schrodinger Equation: \\
+$-i \frac{du}{dt} = \frac{1}{2} \delta u$ \\
+$u(x,t)=\frac{1}{(2 \pi it)^{\frac{3}{2}}} \int \int \int e^{-\frac{|x-x'|^2}{2it}} \phi (x') dx'$
+
+$1$-Dimensional Quantum Mechanical Harmonic Oscillator: \\
+$-iu_t=u_{xx}-x^2u$ for $ -\infty < x < \infty$ \\
+Hermite's Differential Equation: \\
+$w''-2xw'+(\lambda -1)w=0$
+
+Hermite Polynomial
+
+The Hydrogen Atom: \\
+$iu_t = -\frac{1}{2} \delta u-\frac{1}{r} u$ \\
+Vanishing At Infinity Condition: \\
+$\int \int \int |u(x,t)|^2 dx < \infty$ \\
+The $n$th state has $(n-1)$ nodes.
+
+Fourier's Method, Revisisted: \\
+$u(x,y,z,t)=T(t)=v(x,y,z)$ \\
+Eigenvalue Problem: \\
+$- \delta v = \lambda v$ in $D$ and $v$ satisfies (D), (N), (R) on $\text{bdy }D$ \\
+Eigenvalues $\lambda_n > 0$ and Eigenfunctions $v_n(x,y,z)=v_n(x)$ \\
+Wave Equation: \\
+$u(x,t)=\sum (A_n \cos(\sqrt{\lambda_n}ct) + B_n \sin (\sqrt{\lambda_n}ct))v_n (x)$ \\
+Diffusion Equation: \\
+$u(x,t)=\sum A_n e^{-\lambda_n kt}v_n (x)$
+
+Orthogonality
+
+Inner Product: \\
+$(f,g)=\int \int \int_D f(x) \bar{g(x)} dx$
+
+Theorem 1: All the eigenvalues are real. The eigenfunctions can be chosen to be real valued. The eigenfunctions that correspond to distinct eigenvalues are necessarily orthogonal. All the eigenfunctions may be chosen to be orthogonal.
+
+Recall to choose a set of orthogonal eigenfunctions for an eigenvalue with multiplicity via the Gram-Schmidt Orthogonalization Method.
+
+General Fourier Series
+
+Theorem 2: All the eigenvalues are positive in the Dirichlet case. All the eigenvalues are positive or zero in the Neumann case, as well as in the Robin case $\frac{du}{dn} + au = 0$ provided that $a \ge 0$
+
+$u(x,t)=\sum_n \sum_m \sum_l A_{lmn} e^{-(l^2+m^2+n^2)kt} \sin(lx) \sin(my) \sin(nz)$
+
+Vibrations Of A Drumhead: \\
+$u_{tt}=c^2(u_{xx}+u_{yy})$ in $D$ \\
+$u=0$ on $\text{bdy }D$ \\
+$u,u_t$ are given functions when $t=0$ \\
+$c^{-2}u_{tt}=u_{rr}+\frac{1}{r}u_r+\frac{1}{r^2}u_{\theta \theta}$
+
+Bessel's Differential Equation Of Order $n$: \\
+$R_{\rho \rho} + \frac{1}{\rho} R_{\rho} + \left(1-\frac{n^2}{\rho^2} \right)R=0$
+
+Bessel Function Of Order $n$
+
+The Eigenfunction Expansion
+
+The Radial Vibrations Of A Drumhead: \\
+$u(r,t)=\sum_{m=1}^{\infty} C_{0m} J_0 (\beta_{0m}r) \sin (\beta_{0m} ct)$
+
+Solid Vibrations In A Ball: \\
+$q(\phi)=A \cos(m \phi) + B \sin(m \phi)$ \\
+Associated Legendre Equation: \\
+$\frac{d}{ds} \left((1-s^2)\frac{dp}{ds} \right) + \left(\gamma - \frac{m^2}{1-s^2} \right)p=0$ \\
+Associated Legendre Function: \\
+$P_l^m (s)=\frac{(-1)^m}{2^l l!} (1-s^2)^{\frac{m}{2}} \frac{d^{l+m}}{ds^{l+m}} (s^2-1)^l$ \\
+Eigenvalue Equation: \\
+$J_{l+\frac{1}{2}} (\sqrt{\lambda} a)=0$ \\
+Eigenfunctions: \\
+$v_{lmj} (r,\theta,\phi) = \frac{J_{l+\frac{1}{2}} (\sqrt{\lambda_{lj}} r)}{\sqrt{r}} \cdot P_l^{|m|} (\cos (\theta)) \cdot e^{i m \phi}$
+
+Spherical Harmonics: \\
+$Y_l^m (\theta,\phi)=P_l^{|m|} (\cos (\theta)) e^{i m \phi}$
+
+Theorem 1: Every function on the surface of a sphere whose square is integrable can be expanded in a series of the spherical harmonics.
+
+Nodes
+
+Nodal Set $N$: \\
+The set of points $x \in D$ where $v(x)=0$ for eigenfunction $v(x)$ of the laplacian $- \delta v = \lambda v$ in $D$.
+
+The Square
+
+The Ball
+
+Bessel Functions
+
+Bessel's Differential Equation: \\
+$\frac{d^2 u}{dz^2}+\frac{1}{z} \frac{du}{dz}+ \left(1-\frac{s^2}{z^2} \right)u=0$
+
+$J_s (z)=\sum_{j=0}^{\infty} \frac{(-1)^j}{\Gamma (j+1) \Gamma (j+s+1)} \left(\frac{z}{2} \right)^{2j+s}$
+
+Asymptotic Behavior: \\
+As $z \to \infty$ the Bessel function has the form: \\
+$J_s (z) = \sqrt{\frac{2}{\pi z}} \cos \left(z-\frac{s \pi}{2}-\frac{\pi}{4} \right) + O(z^{-\frac{3}{2}})$
+
+Bessel Functions Of Half-Integer Order \\
+$J_{n+\frac{1}{2}} (z)=(-1)^n \sqrt{\frac{2}{\pi}} z^{n+\frac{1}{2}} \left(z^{-1} \frac{d}{dz} \right)^n \frac{\sin (z)}{z}$
+
+Neumann Function: \\
+$N_s (z) = \frac{\cos (\pi s)}{\sin (\pi s)} J_s (z) - \frac{1}{\sin (\pi s)} J_{-s} (z)$ \\
+As $z \to \infty$ \\
+$N_s (z) = \sqrt{\frac{2}{\pi z}} \sin \left(z-\frac{s \pi}{2}-\frac{\pi}{4} \right) + O(z^{-\frac{3}{2}})$
+
+Hankel Functions: \\
+$H_s^{\pm} (z) = J_s (z) \pm iN_s (z) = \sqrt{\frac{2}{\pi z}} e^{\pm i (z-\frac{s \pi}{2} - \frac{\pi}{4})} + O(z^{-\frac{3}{2}})$
+
+Two Identities: \\
+$e^{iz \sin (\theta)}=\sum_{n=-\infty}^{\infty} e^{i n \theta} J_n (z)$ \\
+$J_n (z) = \frac{1}{\pi} \int_0^{\pi} \cos (z\sin(\theta)-n\theta) d \theta$
+
+Recursion Relations
+
+Legendre Functions
+
+Legendre's Differential Equation: \\
+$((1-z^2)u')'+\gamma u=0$
+
+Legendre Polynomial: \\
+$P_l (z) = \frac{1}{2^l} \sum_{j=0}^m \frac{(-1)^j}{j!} \frac{(2l-2j)!}{(l-2j)!(l-j)!} z^{l-2j}$
+
+Rodrigues' Formula: \\
+$P_l (z)=\frac{1}{2^l l!} \frac{d^l}{dz^l} (z^2-1)^l$
+
+Generating Function: \\
+$(1-2tz+t^2)^{-\frac{1}{2}}=\sum_{l=0}^{\infty} P_l (z) t^l$
+
+Associated Legendre Equation: \\
+$((1-z^2) u')' + \left(\gamma - \frac{m^2}{1-z^2} \right) u = 0$
+
+Associated Legendre Functions: \\
+$P_l^m (z)=(1-z^2)^{\frac{m}{2}} \frac{d^m}{dz^m} P_l (z)$
+
+Hydrogen Atom: \\
+$R_{rr}+\frac{2}{r}R_r+\left(\lambda + \frac{2}{r} - \frac{l(l+1)}{r^2} \right) R = 0$
+
+Angular Momentum In Quantum Mechanics
+
+Principal Quantum Number: \\
+The index $n$.
+
+Eigenfunctions: \\
+For each $0 \le l < n$: \\
+$v_{nlm} (r,\theta,\phi) = e^{-\frac{r}{n}} L_n^l (r) \cdot Y_l^m (\theta,\phi)$
+
+Separated Solutions Of The Full Schrodinger Equation For The Hydrogen Atom: \\
+$e^{\frac{it}{2n^2}} \cdot e^{-\frac{r}{n}} \cdot L_n^l (r) \cdot Y_l^m (\theta,\phi)$
+
+General Eigenvalue Problems
+
+Eigenvalues Are Minima Of The Potential Energy
+
+$- \delta u = \lambda u$ in $D$, $u=0$ on $\text{bdy }D$
+
+Computation Of Eigenvalues
+
+Theorem 1: Minimum Principle For The First Eigenvalue: \\
+The first eigenvalue is the minimum of the energy. The first eigenfunction is called the ground state. It is the state of lowest energy.
+
+Theorem 2: Minimum Principle For The $n$th Eigenvalue
+
+Rayleigh-Ritz Approximation: \\
+The roots of the polynomial equation: \\
+$\text{det}(A-\lambda B)=0$ \\
+are approximations to the first $n$ eigenvalues $\lambda_1, \lambda_2, \dots$
+
+Theorem 1: Minimax Principle: \\
+The $n$th eigenvalue is: \\
+$\lambda_n = \text{min }\lambda_n^*$ \\
+Where the minimum is taken over all possible choices of $n$ trial functions.
+
+Completeness
+
+Theorem 2: For the Dirichlet boundary condition, the eigenfunctions are complete in the $L^2$ sense. The same is true for the Neumann condition.
+
+Symmetric Differential Operators
+
+$- \nabla \cdot (p \nabla u) + qu = \lambda mu$
+
+Sturm-Liouville Problems: \\
+Symmetric Boundary Conditions: \\
+$-(pu')'+qu=\lambda mu$ for $a<x<b$
+
+Singular Sturm-Liouville Problems: \\
+1 The coefficient $p(x)$ vanishes at one or both of the endpoints $x=a$ or $x=b$. \\
+2 One or more of the coefficients $p(x),q(x),m(x)$ becomes infinite at $a$ or $b$. \\
+3 One of the endpoints is itself infinite: $a = -\infty$ or $b = \infty$
+
+Completeness And Separation Of Variables
+
+Inhomogeneous Elliptic Problem: \\
+$- \nabla \cdot (p(x) \nabla u)+q(x)u(x) = a m(x)u(x)+f(x)$ in $D$
+
+Theorem 1: \\
+(a) If $a$ is not an eigenvalue (of the corresponding problem with $f=0$) then there exists a unique solution for all functions f(x) (such that $\int \int \int f^2(\frac{1}{m})dx < \infty$) \\
+(b) If $a$ is an eigenvalue of the homogeneous problem, then either there is no solution at all or there an infinite number of solutions, depending on the function $f(x)$
+
+Theorem 2: \\
+The set of products $v_n (x) w_m (y)$ is a complete set of eigenfunctions for $- \delta$ in $D$ with the given boundary conditions.
+
+Asymptotics Of The Eigenvalues
+
+Theorem 1: For a $2$-dimensional problem $- \delta u = \lambda u$ in any plane domain $D$ with $u=0$ on $\text{bdy }D$, the eigenvalues satisfy the limit relation $\lim_{n \to \infty} \frac{\lambda_n}{n} = \frac{4 \pi}{A}$ where $A$ is the area of $D$. For a $3$-dimensional problem in any solid domain, the relation is $\lim_{n \to \infty} \frac{\lambda_n^{\frac{3}{2}}}{n} = \frac{6 \pi^2}{V}$, where $V$ is the volume of $D$.
+
+Theorem 2: Maximin Principle: \\
+Let $\lambda_{n*} = \text{min }\frac{||\nabla w||^2}{||w||^2}$. Then $\lambda_n=\text{max }\lambda_{n*}$
+
+Theorem 3: $\hat{\lambda_j} \le \lambda_j$ for all $j=1,2,\dots$
+
+Theorem 4: If the domain is enlarged, each Dirichlet eigenvalue is decreased.
+
+Theorem 5: $\hat{\mu_n} \le \hat{\lambda_n} \le \lambda_n \le \mu_n$
+
+Distributions And Transforms
+
+Distributions
+
+Approximate Delta Functions
+
+Delta Function: \\
+The rule that assigns the number $\phi (0)$ to the function $\phi (x)$
+
+Distribution
+
+Convergence Of Distributions
+
+Derivative Of A Distribution
+
+Green's Functions, Revisited
+
+Fourier Transforms
+
+Fourier Transform: \\
+$F(k)=\int_{-\infty}^{\infty} f(k) e^{-ikx} dx$
+
+The Heisenberg Uncertainty Principle
+
+Convolution
+
+Three Dimensions
+
+Source Functions
+
+Laplace Transform Techniques
+
+Laplace Transform: \\
+$F(s)=\int_0^{\infty} f(t) e^{-st} dt$
+
+PDE Problems From Physics
+
+Electromagnetism
+
+Fluids And Acoustics
+
+Scattering
+
+Continuous Spectrum
+
+Equations Of Elementary Particles
+
+Nonlinear PDEs: \\
+The superposition principle ceases to hold. Therefore, the method of eigenfunctions and the transform methods can not be used. New phenomena occur, such as shocks and solitons.
+
+Shock Waves: \\
+Occur in explosions, traffic flow, glacier waves, airplanes breaking the sound barrier, and so on. They are modeled by nonlinear hyperbolic PDEs. The simplest type is the first-order equation: \\
+$u_t+a(u) u_x=0$
+
+Solitons: \\
+Localized traveling wave solution of a nonlinear PDE that is remarkably stable.
+
+Korteweg-deVries Equation: \\
+$u_t+u_{xxx}+6uu_x=0$
+
+Calculus Of Variations
+
+Bifurcation Theory
+
+Water Waves

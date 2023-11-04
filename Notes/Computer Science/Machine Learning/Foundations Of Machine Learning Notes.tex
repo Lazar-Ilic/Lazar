@@ -1,0 +1,1533 @@
+Preface xiii
+
+Ah fantastic back to this old book here which should probably actually contain quite a bit of sophisticated Linear Algebra argumentation with which to stimulate my mind and soul and let ooze and booze inside of my noodle noddle noggin. What a great blessed day and time to be alive.
+
+A general introduction covering fundamental modern topics in machine learning rather than the postmodern topics. Oh good applications of algorithms my favourite maybe some firm will compensate me to apply some algorithms finally rather than these silly combinatorics tasks which go nowhere.
+
+1 Introduction 1
+
+
+
+1.1 What is machine learning? 1
+
+Machine learning can be broadly defined as computational methods using experience to improve performance or to make accurate predictions. Here, experience refers to the past information available to the learner, which typically takes the form of electronic data collected and made available for analysis. This data could be in the form of digitized human-labeled training sets, or other types of information obtained via interaction with the environment. In all cases, its quality and size are crucial to the success of the predictions made by the learner.
+
+1.2 What kind of problems can be tackled using machine learning? 2
+
+Include the following: text or document classification, Natural Language Processing, speech processing applications, computer vision applications, computational biology applications, fraud detection, etc.
+
+This list is by no means comprehensive. Most prediction problems found in practice can be cast as learning problems and the practical application area of machine learning keeps expanding. The algorithms and techniques discussed in this book can be used to derive solutions for all of these problems, though we will not discuss in detail these applications.
+
+1.3 Some standard learning tasks 3
+
+Classification, regression, ranking, clustering, dimensionality reduction, manifold learning, etc.
+
+The main practical objectives of machine learning consist of generating accurate predictions for unseen items and of designing efficient and robust algorithms to produce these predictions, even for large-scale problems. To do so, a number of algorithmic and theoretical questions arise. Some fundamental questions include: Which concept families can actually be learned, and under what conditions? How well can these concepts be learned computationally?
+
+1.4 Learning stages 4
+
+Paul Graham is a living legend bro legendary legend. You gotta look at the upsides and not the downsides I mean the guy literally rants non sequiturs all day long on the Twitter platform you know "moral" this "moral" that strikes me and some others in the readership as a bunch of woo poo poo but the dude does maths man so put up or shut up bro life is about maths bro life is about value it is about adding value to the markets bro. Scoop.
+
+Here, we will use the canonical problem of spam detection as a running example to illustrate some basic definitions and describe the use and evaluation of machine learning algorithms in practice, including their different stages. Spam detection is the problem of learning to automatically classify email messages as either spam or non-spam. The following is a list of definitions and terminology commonly used in machine learning:
+
+Examples, Features, Labels, Hyperparameters, Training Sample, Validation Sample, Test Sample, Loss Function, Hypothesis Set.
+
+1.5 Learning scenarios 6
+
+We next briefly describe some common machine learning scenarios. These scenarios differ in the types of training data available to the learner, the order and method by which training data is received and the test data used to evaluate the learning algorithm.
+
+Supervised Learning, Unsupervised Learning, Semi Supervised Learning, Transductive Inference, On Line Learning, Reinforcement Learning, Active Learning.
+
+1.6 Generalisation 7
+
+Machine learning is fundamentally about generalization. As an example, the standard supervised learning scenario consists of using a finite sample of labeled examples to make accurate predictions about unseen examples. The problem is typically formulated as that of selecting a function out of a hypothesis set, that is a subset of the family of all functions. The function selected is subsequently used to label all instances, including unseen examples.
+
+How should a hypothesis set be chosen? With a rich or complex hypothesis set, the learner may choose a function or predictor that is consistent with the training sample, that is one that commits no error on the training sample. With a less complex family, incurring some errors on the training sample may be unavoidable. But, which will lead to a better generalization? How should we define the complexity of a hypothesis set?
+
+We will see that the trade-off between the sample size and complexity plays a critical role in generalization. When the sample size is relatively small, choosing from a too complex a family may lead to poor generalization, which is also known as overfitting. On the other hand, with a too simple a family it may not be possible to achieve a sufficient accuracy, which is known as underfitting.
+
+2 The Probably Approximately Correct Learning Framework 9
+
+Several fundamental questions arise when designing and analyzing algorithms that learn from examples: What can be learned efficiently? What is inherently hard to learn? How many examples are needed to learn successfully? Is there a general model of learning? In this chapter, we begin to formalize and address these questions by introducing the Probably Approximately Correct [Probably Approximately Correct] learning framework. The Probably Approximately Correct framework helps define the class of learnable concepts in terms of the number of sample points needed to achieve an approximate solution, sample complexity, and the time and space complexity of the learning algorithm, which depends on the cost of the computational representation of the concepts.
+
+2.1 The Probably Approximately Correct Learning Model 9
+
+Definition 2.1 [Generalisation Error]
+Definition 2.2 [Empirical Error]
+Definition 2.3 [Probably Approximately Correct-Learning]
+Example 2.4 [Learning Axis-Aligned Rectangles]
+
+2.2 Guarantees For Finite Hypothesis Sets - Consistent Case 15
+
+Theorem 2.5 [Learning Bound - Finite H, Consistent Case]
+Example 2.6 [Conjunction Of Boolean Literals]
+Example 2.7 [Universal Concept Class]
+Example 2.8 [k-term Disjunctive Normal Form Formulae]
+Example 2.9 [k-Conjunctive Normal Form Formulae]
+
+2.3 Guarantees For Finite Hypothesis Sets - Inconsistent Case 19
+
+Corollary 2.10
+Corollary 2.11 [Generalisation Bound - Single Hypothesis]
+Example 2.12 [Tossing A Coin]
+Theorem 2.13 [Learning Bound - Finite H, Inconsistent Case]
+
+2.4 Generalities 21
+
+
+
+2.4.1 Deterministic Versus Stochastic Scenarios 21
+
+This more general scenario is referred to as the stochastic scenario. Within this setting, the output label is a probabilistic function of the input. The stochastic scenario captures many real-world problems where the label of an input point is not unique. For example, if we seek to predict gender based on input pairs formed by the height and weight of a person, then the label will typically not be unique.
+
+Definition 2.14 [Agnostic Probably Approximately Correct-Learning]
+
+2.4.2 Bayes Error And Noise 22
+
+Definition 2.15 [Bayes Error]
+Definition 2.16 [Noise]
+
+2.5 Chapter Notes 23
+
+
+
+2.6 Exercises 23
+
+
+
+3 Rademacher Complexity And VC-Dimension 29
+
+Ah yes the VC-Dimension which was that object that was supposedly supposed to be studied at that Duluth Research Experience For Undergraduates rather than researching the dimension of how to penet... something about researching undergraduates rather than undergraduates researching eachother's re search and so on and so on pervert's guide to perversion. In any case the body count ninja I am double digits oy call that a hitting set. Ba dum ts.
+
+The hypothesis sets typically used in machine learning are infinite. But the sample complexity bounds of the previous chapter are uninformative when dealing with infinite hypothesis sets. One could ask whether efficient learning from a finite sample is even possible when the hypothesis set H is infinite. Our analysis of the family of axis-aligned rectangles [Example 2.4] indicates that this is indeed possible at least in some cases, since we proved that that infinite concept class was Probably Approximately Correct-Learnable. Our goal in this chapter will be to generalize that result and derive general learning guarantees for infinite hypothesis sets.
+
+A general idea for doing so consists of reducing the infinite case to the analysis of finite sets of hypotheses and then proceed as in the previous chapter. There are different techniques for that reduction, each relying on a different notion of complexity for the family of hypotheses. The first complexity notion we will use is that of Rademacher complexity. This will help us derive learning guarantees using relatively simple proofs based on McDiarmid's inequality, while obtaining high quality bounds, including data-dependent ones, which we will frequently make use of in future chapters. However, the computation of the empirical Rademacher complexity is NP-hard for some hypothesis sets. Thus, we subsequently introduce two other purely combinatorial notions, the growth function and the VC-dimension. We first relate the Rademacher complexity to the growth function and then bound the growth function in terms of the VC-dimension. The VC-dimension is often easier to bound or estimate. We will review a series of examples showing how to compute or bound it, then relate the growth function and the VC-dimensions. This leads to generalization bounds based on the VC-dimension. Finally, we present lower bounds based on the VC-dimension for two different settings: The realizable setting, where there is at least one hypothesis in the hypothesis set under consideration that achieves zero expected error, as well as the non-realizable setting, where no hypothesis in the set achieves zero expected error.
+
+3.1 Rademacher Complexity 30
+
+Definition 3.1 [Empirical Rademacher Complexity]
+Definition 3.2 [Rademacher Complexity]
+Theorem 3.3
+Lemma 3.4
+Theorem 3.5 [Rademacher Complexity Bounds - Binary Classification]
+
+3.2 Growth Function 34
+
+Definition 3.6 [Growth Function]
+Theorem 3.7 [Massart's Lemma]
+Corollary 3.8
+Corollary 3.9 [Growth Function Generalisation Bound]
+
+3.3 VC-dimension 36
+
+True
+It's a dance, we know the moves
+The bow, the dip, the woo
+Though the words are true
+The state is old news
+Wrap me
+In your arms
+I can't feel it but
+Rock me
+In your arms
+I can't feel it but
+Get up, get down
+Get up, get down
+Feel the turn of rotation and stop
+See the next one waiting
+Get up, get down
+Get up, get down
+Get up
+Sentiment's the same, but the pair of feet change
+I know my words will dry upon the skin
+Just like a name I remember hearing
+Wild winters
+Warm coffee
+Mom's gone
+Do you love me?
+Blazing summer
+Cold coffee
+Baby's gone
+Do you love me?
+
+Did I wake you? Were you sleeping? Were you still in the bed?
+Or is a nightmare keeping you up instead?
+Poor baby, are you feeling guilty for what you did?
+If you think you're hurting, you ain't seen nothing yet
+Was it really worth it?
+Was she everything that you were looking for to feel like a man?
+I hope you know that you can't come back
+'Cause all we have is broken like shattered glass
+You're gonna see me in your dreams tonight
+My face is gonna haunt you all the time
+I promise that you gon' want me back
+When your world falls apart like shattered glass
+Glass, glass, glass
+
+Here, we introduce the notion of VC-dimension [Vapnik-Chervonenkis Dimension]. The VC-dimension is also a purely combinatorial notion but it is often easier to compute than the growth function [or the Rademacher Complexity]. As we shall see, the VC-dimension is a key quantity in learning and is directly related to the growth function.
+
+Definition 3.10 [VC-Dimension]
+Example 3.11 [Intervals On The Real Line]
+Example 3.12 [Hyperplanes]
+Theorem 3.13 [Radon's Theorem]
+
+Ah yes Radon's Theorem returns yet again after Putnam Notes.pdf of course where it appears via none other than Mark Sellke who I happen to believe is in fact a wee bit of a Machine Learning domain expert there at Stanford and thus it is not really a terribly huge surprise that this particular Theorem and result appear their on his website in one of his .pdf files.
+
+Example 3.14 [Axis-Aligned Rectangles]
+Example 3.15 [Convex Polygons]
+Example 3.16 [Sine Functions]
+Theorem 3.17 [Sauer's Lemma]
+Corollary 3.18
+Corollary 3.19 [VC-Dimension Generalisation Bounds]
+
+3.4 Lower bounds 43
+
+Theorem 3.20 [Lower Bound, Realisable Case]
+Lemma 3.21
+Lemma 3.22
+Theorem 3.23 [Lower Bound, Non-Realisable Case]
+
+3.5 Chapter notes 48
+
+The use of Rademacher complexity for deriving generalization bounds in learning was first advocated by Koltchinskii [2001], Koltchinskii and Panchenko [2000], and Bartlett, Boucheron, and Lugosi [2002a], see also [Koltchinskii and Panchenko, 2002, Bartlett and Mendelson, 2002]. Bartlett, Bousquet, and Mendelson [2002b] introduced the notion of local Rademacher complexity, that is the Rademacher complexity restricted to a subset of the hypothesis set limited by a bound on the variance. This can be used to derive better guarantees under some regularity assumptions about the noise.
+
+Theorem 3.7 is due to Massart [2000]. The notion of VC-dimension was introduced by Vapnik and Chervonenkis [1971] and has been since extensively studied [Vapnik, 2006, Vapnik and Chervonenkis, 1974, Blumer et al., 1989, Assouad, 1983, Dudle 1999]. In addition to the key role it plays in machine learning, the VC-dimension is also widely used in a variety of other areas of computer science and mathematics [e.g., see Shelah [1972], Chazelle [2000]]. Theorem 3.17 is known as Sauer's Lemma in the learning community, however the result was first given by Vapnik and Chervonenkis [1971] [in a somewhat different version] and later independently by Sauer [1972] and Shelah [1972].
+
+3.6 Exercises 50
+
+Well it is in fact non trivial to dig up the official Solutions .pdf file for this textbook... really quite surprising that it does not appear on the clear net especially Library Genesis so hopefully someone who does have a copy will post it there rather shortly so that we all may benefit from it... and I really ought to get around to scripting and scraping the Project Euler fora archive in to a single nice .pdf file for the benefit of humanity at large in the free public domain.
+
+4 Model Selection 61
+
+A key problem in the design of learning algorithms is the choice of the hypothesis set H. This is known as the model selection problem. How should the hypothesis set H be chosen? A rich or complex enough hypothesis set could contain the ideal Bayes classifier. On the other hand, learning with such a complex family becomes a very difficult task. More generally, the choice of is subject to a trade-off that can be analyzed in terms of the estimation and approximation errors.
+
+Our discussion will focus on the particular case of binary classification but much of what is discussed can be straightforwardly extended to different tasks and loss functions.
+
+4.1 Estimation And Approximation Errors 61
+
+The first term is called the estimation error, the second term the approximation error. The estimation error depends on the hypothesis h selected. It measures the error of h with respect to the infimum of the errors achieved by hypotheses in H, or that of the best-in-class hypothesis h* when that infimum is reached. Note that the definition of agnostic Probably Approximately Correct-Learning is precisely based on the estimation error.
+
+The approximation error measures how well the Bayes error can be approximated using H. It is a property of the hypothesis set H, a measure of its richness. For a more complex or richer hypothesis H, the approximation error tends to be smaller at the price of a larger estimation error. This is illustrated by Figure 4.1.
+
+4.2 Empirical Risk Minimisation [ERM] 62
+
+Proposition 4.1
+
+4.3 Structural Risk Minimisation [SRM] 64
+
+This is precisely the idea behind the Structural Risk Minimization [SRM] method. For Structural Risk Minimisation, H is assumed to be decomposable into a countable set, thus, we will write its decomposition as H = S k≥1 Hk. Additionally, the hypothesis sets Hk are assumed to be nested: Hk ⊂ Hk+1 for all k ≥ 1. However, many of the results presented in this section also hold for non-nested hypothesis sets. Thus, we will not make use of that assumption, unless explicitly specified. SRM consists of choosing the index k* ≥ 1 and the ERM hypothesis h in Hk* that minimise an upper bound on the excess error.
+
+Theorem 4.2 [Structural Risk Minimisation Learning Guarantee]
+
+4.4 Cross-Validation 68
+
+An alternative method for model selection, cross-validation, consists of using some fraction of the training sample as a validation set to select a hypothesis set Hk. This is in contrast with the Structural Risk Minimisation model which relies on a theoretical learning bound assigning a penalty to each hypothesis set. In this section, we analyze the crossvalidation method and compare its performance to that of Structural Risk Minimisation.
+
+Proposition 4.3
+Theorem 4.4 [Cross-Validation Versus Structural Risk Minimisation]
+
+4.5 n-Fold Cross-Validation 71
+
+In practice, the amount of labeled data available is often too small to set aside a validation sample since that would leave an insufficient amount of training data. Instead, a widely adopted method known as n-fold cross-validation is used to exploit the labeled data both for model selection and for training.
+
+The folds are generally chosen to have equal size, that is mi = m/n for all i ∈ [n]. How should n be chosen? The appropriate choice is subject to a trade-off. For a large n, each training sample used in n-fold cross-validation has size m - m/n = m[1 - 1/n] [illustrated by the right vertical red line in figure 4.5b], which is close to m, the size of the full sample, and also implies all training samples are quite similar. At the same time, the ith fold used to measure the error is relatively small and thus the cross-validation error tends to have a small bias but a large variance. In contrast, smaller values of n lead to more diverse training samples but their size [shown by the left vertical red line in figure 4.5b] is significantly less than m. In this regime, the ith fold is relatively large and thus the cross-validation error tends to have a smaller variance but a larger bias.
+
+In applications, n is typically chosen to be 5 or 10. n-fold cross-validation is used as follows in model selection. The full labeled data is first split into a training and a test sample. The training sample of size m is then used to compute the nfold cross-validation error RbCV[θ] for a small number of possible values of θ. The free parameter θ is next set to the value θ0 for which RbCV[θ] is smallest and the algorithm is trained with the parameter setting θ0 over the full training sample of size m. Its performance is evaluated on the test sample as already described in the previous section.
+
+4.6 Regularisation-Based Algorithms 72
+
+
+
+4.7 Convex Surrogate Losses 73
+
+The guarantees for the estimation error that we presented in previous sections hold either for Empirical Risk Minimisation or for Structural Risk Minimisation, which itself is defined in terms of Empirical Risk Minimisation. However, as already mentioned, for many choices of the hypothesis set H, including that of linear functions, solving the Empirical Risk Minimisation optimisation problem is NP-hard mainly because the zero-one loss function is not convex. One common method for addressing this problem consists of using a convex surrogate loss function that upper bounds the zero-one loss. This section analyzes learning guarantees for such surrogate losses in terms of the original loss.
+
+Proposition 4.6
+Theorem 4.7
+
+4.8 Chapter Notes 77
+
+The Structural Risk Minimisation [SRM] technique is due to Vapnik [1998]. The original penalty term used by Vapnik [1998] is based on the VC-dimension of the hypothesis set. The version of Structural Risk Minimisation with Rademacher complexity-based penalties that we present here leads to finer data-dependent learning guarantees. Penalties based on alternative complexity measures can be used similarly leading to learning bounds in terms of the corresponding complexity measure [Bartlett et al., 2002a].
+
+4.9 Exercises 78
+
+
+
+5 Support Vector Machines 79
+
+This chapter presents one of the most theoretically well motivated and practically most effective classification algorithms in modern machine learning: Support Vector Machines [SVMs]. We first introduce the algorithm for separable datasets, then present its general version designed for non-separable datasets, and finally provide a theoretical foundation for Support Vector Machines based on the notion of margin. We start with the description of the problem of linear classification.
+
+5.1 Linear Classification 79
+
+
+
+5.2 Separable Case 80
+
+Definition 5.1 [Geometric Margin]
+
+5.2.1 Primal Optimisation Problem 81
+
+
+
+5.2.2 Support Vectors 83
+
+
+
+5.2.3 Dual Optimisation Problem 83
+
+
+
+5.2.4 Leave-One-Out Analysis 85
+
+Definition 5.2 [Leave-One-Out Error]
+Lemma 5.3
+Theorem 5.4
+
+5.3 Non-Separable Case 87
+
+
+
+5.3.1 Primal Optimisation Problem 88
+
+
+
+5.3.2 Support Vectors 89
+
+
+
+5.3.3 Dual Optimisation Problem 90
+
+
+
+5.4 Margin Theory 91
+
+This section presents generalisation bounds which provide a strong theoretical justification for the Support Vector Machine algorithm.
+
+Definition 5.5 [Margin Loss Function]
+Definition 5.6 [Empirical Margin Loss]
+Lemma 5.7 [Talagrand's Lemma]
+Theorem 5.8 [Margin Bound For Binary Classification]
+Theorem 5.9
+Theorem 5.10
+Corollary 5.11
+
+5.5 Chapter Notes 100
+
+The maximum-margin or optimal hyperplane solution described in section 5.2 was introduced by Vapnik and Chervonenkis [1964]. The algorithm had limited applications since in most tasks in practice the data is not linearly separable. In contrast, the Support Vector Machine algorithm of section 5.3 for the general non-separable case, introduced by Cortes and Vapnik [1995] under the name support-vector networks, has been widely adopted and been shown to be effective in practice. The algorithm and its theory have had a profound impact on theoretical and applied machine learning and inspired research on a variety of topics. Several specialized algorithms have been suggested for solving the specific Quadratic Programming Problem that arises when solving the Support Vector Machine problem, for example the Sequential Minimal Optimisation algorithm of Platt [1999] [see exercise 5.4] and a variety of other decomposition methods such as those used in the LibLinear software library [Hsieh et al., 2008], and [Allauzen et al., 2010] for solving the problem when using rational kernels [see chapter 6].
+
+Much of the theory supporting the Support Vector Machine algorithm [[Cortes and Vapnik, 1995, Vapnik, 1998]], in particular the margin theory presented in section 5.4, has been adopted in the learning theory and statistics communities and applied to a variety of other problems. The margin bound on the VC-dimension of canonical hyperplanes [exercise 5.7] is by Vapnik [1998], the proof is very similar to Novikoff's margin bound on the number of updates made by the Perceptron algorithm in the separable case. Our presentation of margin guarantees based on the Rademacher complexity follows the elegant analysis of Koltchinskii and Panchenko [2002] [see also Bartlett and Mendelson [2002], Shawe-Taylor et al. [1998]]. Our proof of Talagrand's lemma 5.7 is a simpler and more concise version of a more general result given by Ledoux and Talagrand [1991, pp. 112-114]. See Hoffgen et al. [1995] for hardness results related to the problem of finding a hyperplane with the minimal number of errors on a training sample.
+
+This is all very worthy and worthwhile follow on readings.
+
+5.6 Exercises 100
+
+
+
+6 Kernel Methods 105
+
+Kernel methods are widely used in machine learning. They are flexible techniques that can be used to extend algorithms such as Support Vector Machines to define non-linear decision boundaries. Other algorithms that only depend on inner products between sample points can be extended similarly, many of which will be studied in future chapters.
+
+The main idea behind these methods is based on so-called kernels or kernel functions, which, under some technical conditions of symmetry and positive-definiteness, implicitly define an inner product in a high-dimensional space. Replacing the original inner product in the input space with positive definite kernels immediately extends algorithms such as Support Vector Machines to a linear separation in that high-dimensional space, or, equivalently, to a non-linear separation in the input space.
+
+In this chapter, we present the main definitions and key properties of positive definite symmetric kernels, including the proof of the fact that they define an inner product in a Hilbert space, as well as their closure properties. We then extend the Support Vector Machine algorithm using these kernels and present several theoretical results including general margin-based learning guarantees for hypothesis sets based on kernels. We also introduce negative definite symmetric kernels and point out their relevance to the construction of positive definite kernels, in particular from distances or metrics. Finally, we illustrate the design of kernels for non-vectorial discrete structures by introducing a general family of kernels for sequences, rational kernels. We describe an efficient algorithm for the computation of these kernels and illustrate them with several examples.
+
+6.1 Introduction 105
+
+Definition 6.1 [Kernels]
+Theorem 6.2 [Mercer's Condition]
+
+This condition is important to guarantee the convexity of the optimization problem for algorithms such as Support Vector Machines, thereby ensuring convergence to a global minimum. A condition that is equivalent to Mercer's condition under the assumptions of the theorem is that the kernel K be Positive Definite Symmetric [PDS]. This propertyis in fact more general since in particular it does not require any assumption about X. In the next section, we give the definition of this property and present several commonly used examples of Positive Definite Symmetric kernels, then show that Positive Definite Symmetric kernels induce an inner product in a Hilbert space, and prove several general closure properties for Positive Definite Symmetric kernels.
+
+6.2 Positive Definite Symmetric Kernels 108
+
+Definition 6.3 [Positive Definite Symmetric Kernels]
+Example 6.4 [Polynomial Kernels]
+Example 6.5 [Gaussian Kernels]
+Example 6.6 [Sigmoid kernel]
+
+6.2.1 Definitions 108
+
+
+
+6.2.2 Reproducing Kernel Hilbert Space 110
+
+Lemma 6.7 [Cauchy-Schwarz Inequality For Positive Definite Symmetric Kernel]
+Theorem 6.8 [Reproducing Kernel Hilbert Space [RKHS]]
+Lemma 6.9 [Normalized Positive Definite Symmetric Kernels]
+Theorem 6.10 [Positive Definite Symmetric Kernels - Closure Properties]
+
+6.2.3 Properties 112
+
+
+
+6.3 Kernel-Based Algorithms 116
+
+In this section we discuss how Support Vector Machines can be used with kernels and analyze the impact that kernels have on generalisation.
+
+6.3.1 Support Vector Machines With Positive Definite Symmetric Kernels 116
+
+
+
+6.3.2 Representer Theorem 117
+
+Theorem 6.11 [Representer Theorem]
+
+6.3.3 Learning Guarantees 117
+
+Theorem 6.12 [Rademacher Complexity Of Kernel-Based Hypotheses]
+Corollary 6.13 [Margin Bounds For Kernel-Based Hypotheses]
+
+6.4 Negative Definite Symmetric Kernels 119
+
+Definition 6.14 [Negative Definite Symmetric [NDS] Kernels]
+Example 6.15 [Squared Distance - Negative Definite Symmetric Kernel]
+Theorem 6.16
+Theorem 6.17
+Theorem 6.18
+
+6.5 Sequence Kernels 121
+
+The examples given in the previous sections, including the commonly used polynomial or Gaussian kernels, were all for Positive Definite Symmetric kernels over vector spaces. In many learning tasks found in practice, the input space X is not a vector space. The examples to classify in practice could be protein sequences, images, graphs, parse trees, finite automata, or other discrete structures which may not be directly given as vectors. Positive Definite Symmetric kernels provide a method for extending algorithms such as Support Vector Machines originally designed for a vectorial space to the classification of such objects. But, how can we define Positive Definite Symmetric kernels for these structures?
+
+This section will focus on the specific case of sequence kernels, that is, kernels for sequences or strings. PDS kernels can be defined for other discrete structures in somewhat similar ways. Sequence kernels are particularly relevant to learning algorithms applied to computational biology or natural language processing, which are both important applications.
+
+How can we define Positive Definite Symmetric kernels for sequences, which are similarity measures for sequences? One idea consists of declaring two sequences, e.g., two documents or two biosequences, as similar when they share common substrings or subsequences. One example could be the kernel between two sequences defined by the sum of the product of the counts of their common substrings. But which substrings should be used in that definition? Most likely, we would need some flexibility in the definition of the matching substrings. For computational biology applications, for example, the match could be imperfect. Thus, we may need to consider some number of mismatches, possibly gaps, or wildcards. More generally, we might need to allow various substitutions and might wish to assign different weights to common substrings to emphasize some matching substrings and deemphasize others.
+
+6.5.1 Weighted Transducers 122
+
+Definition 6.19
+Composition
+
+6.5.2 Rational Kernels 126
+
+Definition 6.20 [Rational Kernels]
+Computation
+Positive Definite Symmetric Kernels
+Theorem 6.21
+Example 6.22 [Bigram And Gappy Bigram Sequence Kernels]
+Counting Transducers
+Theorem 6.23
+
+6.6 Approximate Kernel Feature Maps 130
+
+Theorem 6.24 [Bochner's Theorem]
+Proposition 6.25
+Lemma 6.26
+Lemma 6.27
+Theorem 6.28
+
+6.7 Chapter Notes 135
+
+The mathematical theory of Positive Definite Symmetric kernels in a general setting originated with the fundamental work of Mercer [1909] who also proved the equivalence of a condition similar to that of theorem 6.2 for continuous kernels with the Positive Definite Symmetric property. The connection between Positive Definite Symmetric and Negative Definite Symmetric kernels, in particular theorems 6.18 and 6.17, are due to Schoenberg [1938]. A systematic treatment of the theory of reproducing kernel Hilbert spaces was presented in a long and elegant paper by Aronszajn [1950]. For an excellent mathematical presentation of Positive Definite Symmetric kernels and positive definite functions we refer the reader to Berg, Christensen, and Ressel [1984], which is also the source of several of the exercises given in this chapter.
+
+6.8 Exercises 137
+
+
+
+7 Boosting 145
+
+Ensemble methods are general techniques in machine learning for combining several predictors to create a more accurate one. This chapter studies an important family of ensemble methods known as boosting, and more specifically the Adaptive Boosting algorithm. This algorithm has been shown to be very effective in practice in some scenarios and is based on a rich theoretical analysis. We first introduce Adaptive Boosting, show how it can rapidly reduce the empirical error as a function of the number of rounds of boosting, and point out its relationship with some known algorithms. Next, we present a theoretical analysis of the generalization properties of Adaptive Boosting based on the VC-dimension of its hypothesis set and then based on the notion of margin. The margin theory developed in this context can be applied to other similar ensemble algorithms. A game-theoretic interpretation of Adaptive Boosting further helps analyzing its properties and revealing the equivalence between the weak learning assumption and a separability condition. We end with a discussion of Adaptive Boosting's benefits and drawbacks.
+
+7.1 Introduction 145
+
+Definition 7.1 [Weak Learning]
+
+7.2 Adaptive Boosting 146
+
+
+
+7.2.1 Bound On The Empirical Error 149
+
+Theorem 7.2
+
+7.2.2 Relationship With Coordinate Descent 150
+
+
+
+7.2.3 Practical Use 154
+
+Here, we briefly describe the standard practical use of Adaptive Boosting. An important requirement for the algorithm is the choice of the base classifiers or that of the weak learner. The family of base classifiers typically used with Adaptive Boosting in practice is that of decision trees, which are equivalent to hierarchical partitions of the space [see chapter 9, section 9.3.3]. Among decision trees, those of depth one, also known as stumps, are by far the most frequently used base classifiers.
+
+7.3 Theoretical Results 154
+
+In this section we present a theoretical analysis of the generalization properties of Adaptive Boosting.
+
+7.3.1 VC-Dimension-Based Analysis 154
+
+
+
+7.3.2 L1-Geometric Margin 155
+
+Definition 7.3 [L1-Geometric Margin]
+
+7.3.3 Margin-Based Analysis 157
+
+Lemma 7.4
+Corollary 7.5 [Ensemble Rademacher Margin Bound]
+Corollary 7.6 [Ensemble VC-Dimension Margin Bound]
+Theorem 7.7
+
+7.3.4 Margin Maximisation 161
+
+
+
+7.3.5 Game-Theoretic Interpretation 162
+
+Definition 7.8
+Definition 7.9 [Zero-Sum Game]
+Definition 7.10 [Mixed Strategy]
+Theorem 7.11 [Von Neumann's MiniMax Theorem]
+
+We can now view AdaBoost as a zero-sum game, where an action of the row player is the selection of a training instance xi, i ∈ [m], and an action of the column player the selection of a base learner ht, t ∈ [T]. A mixed strategy for the row player is thus a distribution D over the training points' indices [m]. A mixed strategy for the column player is a distribution over the based classifiers' indices [T]. This can be defined from a non-negative vector a ≥ 0: the weight assigned to t ∈ [T] is at/kak1. The loss matrix M ∈ {-1,+1} mxT for AdaBoost is defined by Mit = yiht[xi] for all [i, t] ∈ [m] x [T]. By von Neumann's theorem [7.23], the following holds...
+
+7.4 L1-Regularisation 165
+
+
+
+7.5 Discussion 167
+
+Adaptive Boosting offers several advantages: it is simple, its implementation is straightforward, and the time complexity of each round of boosting as a function of the sample size is rather favorable. As already discussed, when using decision stumps, the time complexity of each round of boosting is in  [mN]. Of course, if the dimension of the feature space N is very large, then the algorithm could become in fact quite slow.
+
+7.6 Chapter Notes 168
+
+The question of whether a weak learning algorithm could be boosted to derive a strong learning algorithm was first posed by Kearns and Valiant [1988, 1994], who also gave a negative proof of this result for a distribution-dependent setting. The first positive proof of this result in a distribution-independent setting was given by Schapire [1990], and later by Freund [1990].
+
+These early boosting algorithms, boosting by filtering [Schapire, 1990] or boosting by majority [Freund, 1990, 1995] were not practical. The Adaptive Boosting algorithm introduced by Freund and Schapire [1997] solved several of these practical issues. Freund and Schapire [1997] further gave a detailed presentation and analysis of the algorithm including the bound on its empirical error, a VC-dimension analysis, and its applications to multi-class classification and regression.
+
+7.7 Exercises 170
+
+
+
+8 On-Line Learning 177
+
+This chapter presents an introduction to on-line learning, an important area with a rich literature and multiple connections with game theory and optimisation that is increasingly influencing the theoretical and algorithmic advances in machine learning. In addition to the intriguing novel learning theory questions that they raise, on-line learning algorithms are particularly attractive in modern applications since they provide an efficient solution for large-scale problems.
+
+These algorithms process one sample at a time with an update per iteration that is often computationally cheap and easy to implement. As a result, they are typically significantly more efficient both in time and space and more practical than batch algorithms, when processing modern data sets of several million or billion points. They are also typically easy to implement. Moreover, on-line algorithms do not require any distributional assumption; their analysis assumes an adversarial scenario. This makes them applicable in a variety of scenarios where the sample points are not drawn i.i.d. or according to a fixed distribution.
+
+We first introduce the general scenario of on-line learning, then present and analyze several key algorithms for on-line learning with expert advice, including the deterministic and randomized weighted majority algorithms for the zero-one loss and an extension of these algorithms for convex losses. We also describe and analyze two standard on-line algorithms for linear classification, the Perceptron and Winnow algorithms, as well as some extensions. While on-line learning algorithms are designed for an adversarial scenario, they can be used, under some assumptions, to derive accurate predictors for a distributional scenario. We derive learning guarantees for this on-line to batch conversion. Finally, we briefly point out the connection of on-line learning with game theory by describing its use to derive a simple proof of von Neumann's MiniMax theorem.
+
+8.1 Introduction 178
+
+The learning framework for on-line algorithms is in stark contrast to the Probably Approximately Correct learning or stochastic models discussed up to this point. First, instead of learning from a training set and then testing on a test set, the on-line learning scenario mixes the training and test phases. Second, Probably Approximately Correct learning follows the key assumption that the distribution over data points is fixed over time, both for training and test points, and that points are sampled in an i.i.d. fashion. Under this assumption, the natural goal is to learn a hypothesis with a small expected loss or generalization error. In contrast, with on-line learning, no distributional assumption is made, and thus there is no notion of generalization. Instead, the performance of on-line learning algorithms is measured using a mistake model and the notion of regret. To derive guarantees in this model, theoretical analyses are based on a worst-case or adversarial assumption.
+
+8.2 Prediction With Expert Advice 178
+
+
+
+8.2.1 Mistake Bounds And Halving Algorithm 179
+
+Here, we assume that the loss function is the standard 0-1 loss used in classification. To analyze the expert advice setting, we first consider the realisable case, that is the setting where at least one of the experts makes no errors. As such, we discuss the mistake bound model, which asks the simple question "how many mistakes before we learn a particular concept?” Since we are in the realizable case, after some number of rounds T, we will learn the concept and no longer make errors in subsequent rounds. For any fixed concept c, we define the maximum number of mistakes a learning algorithm A makes as...
+
+Theorem 8.1
+Theorem 8.2
+
+8.2.2 Weighted Majority Algorithm 181
+
+Theorem 8.3
+
+8.2.3 Randomised Weighted Majority Algorithm 183
+
+Theorem 8.4
+Theorem 8.5
+
+8.2.4 Exponential Weighted Average Algorithm 186
+
+Theorem 8.6
+Theorem 8.7
+
+8.3 Linear Classification 190
+
+This section presents 2 well-known on-line learning algorithms for linear classification: the Perceptron and Winnow algorithms.
+
+8.3.1 Perceptron Algorithm 190
+
+Theorem 8.8
+Theorem 8.9
+Theorem 8.10
+Theorem 8.11
+Theorem 8.12
+
+8.3.2 Winnow Algorithm 198
+
+This section presents an alternative on-line linear classification algorithm, the Winnow algorithm. Thus, it learns a weight vector defining a separating hyperplane by sequentially processing the training points. As suggested by the name, the algorithm is particularly well suited to cases where a relatively small number of dimensions or experts can be used to define an accurate weight vector. Many of the other dimensions may then be irrelevant.
+
+Theorem 8.13
+
+8.4 On-Line To Batch Conversion 201
+
+Lemma 8.14
+Theorem 8.15
+
+8.5 Game-Theoretic Connection 204
+
+Theorem 8.16 [Von Neumann's MiniMax Theorem]
+
+8.6 Chapter Notes 205
+
+Algorithms for regret minimization were initiated with the pioneering work of Hannan [1957] who gave an algorithm whose regret decreases as O[√T] as a function of T but whose dependency on N is linear. The weighted majority algorithm and the randomised weighted majority algorithm, whose regret is only logarithmic in N, are due to Littlestone and Warmuth [1989]. The exponential weighted average algorithm and its analysis, which can be viewed as an extension of the WM algorithm to convex non-zero-one losses is due to the same authors [Littlestone and Warmuth, 1989, 1994]. The analysis we presented follows Cesa-Bianchi [1999] and Cesa-Bianchi and Lugosi [2006]. The doubling trick technique appears in Vovk [1990] and Cesa-Bianchi et al. [1997]. The algorithm of exercise 8.7 and the analysis leading to a second-order bound on the regret are due to Cesa-Bianchi et al. [2005]. The lower bound presented in theorem 8.5 is from Blum and Mansour [2007].
+
+While the regret bounds presented are logarithmic in the number of the experts N, when N is exponential in the size of the input problem, the computational complexity of an expert algorithm could be exponential. For example, in the online shortest paths problem, N is the number of paths between two vertices of a directed graph. However, several computationally efficient algorithms have been presented for broad classes of such problems by exploiting their structure [Takimoto and Warmuth, 2002, Kalai and Vempala, 2003, Zinkevich, 2003].
+
+8.7 Exercises 206
+
+
+
+9 Multi-Class Classification 213
+
+The classification problems we examined in the previous chapters were all binary. However, in most real-world classification problems the number of classes is greater than 2. The problem may consist of assigning a topic to a text document, a category to a speech utterance or a function to a biological sequence. In all of these tasks, the number of classes may be on the order of several hundred or more.
+
+In this chapter, we analyze the problem of multi-class classification. We first introduce the multi-class classification learning problem and discuss its multiple settings, and then derive generalization bounds for it using the notion of Rademacher complexity. Next, we describe and analyze a series of algorithms for tackling the multi-class classification problem. We will distinguish between 2 broad classes of algorithms: uncombined algorithms that are specifically designed for the multiclass setting such as multi-class Support Vector Machines, decision trees, or multi-class boosting, and aggregated algorithms that are based on a reduction to binary classification and require training multiple binary classifiers. We will also briefly discuss the problem of structured prediction, which is a related problem arising in a variety of applications.
+
+9.1 Multi-Class Classification Problem 213
+
+Several issues, both computational and learning-related, often arise in the multiclass setting. Computationally, dealing with a large number of classes can be problematic. The number of classes k directly enters the time complexity of the algorithms we will present. Even for a relatively small number of classes such as k=100 or k=1000, some techniques may become prohibitive to use in practice. This dependency is even more critical in the case where k is very large or even infinite as in the case of some structured prediction problems.
+
+9.2 Generalisation Bounds 215
+
+Lemma 9.1
+Theorem 9.2 [Margin Bound For Multi-Class Classification]
+Proposition 9.3 [Rademacher Complexity Of Multi-Class Kernel-Based Hypotheses]
+Corollary 9.4 [Margin Bound For Multi-Class Classification With Kernel-Based Hypotheses]
+
+9.3 Uncombined Multi-Class Algorithms 221
+
+In this section, we describe 3 algorithms designed specifically for multi-class classification. We start with a multi-class version of Support Vector Machines, then describe a boosting type multi-class algorithm, and conclude with decision trees, which are often used as base learners in boosting.
+
+9.3.1 Multi-Class Support Vector Machines 221
+
+
+
+9.3.2 Multi-Class Boosting Algorithms 222
+
+
+
+9.3.3 Decision Trees 224
+
+We present and discuss the general learning method of decision trees that can be used in multi-class classification, but also in other learning problems such as regression [chapter 11] and clustering. Although the empirical performance of decision trees often is not state-of-the-art, decision trees can be used as weak learners with boosting to define effective learning algorithms. Decision trees are also typically fast to train and evaluate and relatively easy to interpret.
+
+Definition 9.5 [Binary Decision Tree]
+Prediction/Partitioning
+Learning
+
+9.4 Aggregated Multi-Class Algorithms 228
+
+
+
+9.4.1 One-Versus-All 229
+
+
+
+9.4.2 One-Versus-One 229
+
+The One Versus One technique is not subject to the calibration problem pointed out in the case of the One Versus All technique. However, when the size of the sub-sample containing members of the classes l and l 0 is relatively small, hll0 may be learned without sufficient data or with increased risk of overfitting. Another concern often raised for the use of this technique is the computational cost of training k[k-1]/2 binary classifiers versus that of the One Versus All technique.
+
+The OVO technique hmmm ovations for ova...
+
+More rest and sex is all a nigga needs
+In a lifetime of stress, tryna put my mind at ease
+I'm not lookin' at the phone, too much shit been goin' on
+But while we got this moment of peace alone, girl
+We should just get
+Drunk and fuck, drunk and fuck
+Drunk and fuck, drunk
+Girl, we should just get
+Drunk and fuck, drunk and fuck
+Drunk and fuck, drunk
+OVO, I ride; OMO, I ride
+Reps-Up, them my niggas from the Scarborough side
+Don't fuck with them, or hollow tips will fly
+I don't have to lie
+Lot of people say it in a song just to say it
+Man, I'm not that type of guy; hit me on the cell
+I just might bring you to the city
+Send you home with stories you can never tell
+I'm tryna break you out of your shell
+[And what?] You just turned 21 like Adele
+That's good with me; I put my business on hold
+Let me turn off the phone, let's explore the unknown
+If you not drinking with me, you force me to turn up alone
+No peer pressure, I just know you like to get in your zone
+You say that you'd rather smoke
+Well, let me call up OB's room and tell him, "Roll up a cone"
+I know he probably got that extra special [Yup]
+I never second-guess it
+"How's Villanova? What classes you taking next semester?"
+Man, she like, "Fuck the small talk
+I'm not here to discuss extra credits or my professors"
+No time for funny stories
+It's funny how she shows up late, but always comes before me
+We both young and misguided, but that's another story, yeah
+
+Andrew Luce Remix was litty lit lit back in the old days of Brenmar remixes too man... more moaning samples and bed squeaks lmao fucking Amerikans need platform beds and shit. Ree roo ree roo Trippy Turtle Keys N Krates.
+
+9.4.3 Error-Correcting Output Codes 231
+
+
+
+9.5 Structured Prediction Algorithms 233
+
+In this section, we briefly discuss an important class of problems related to multiclass classification that frequently arises in computer vision, computational biology, and Natural Language Processing. These include all sequence labeling problems and complex problems such as parsing, machine translation, and speech recognition.
+
+In these applications, the output labels have a rich internal structure. For example, in part-of-speech tagging the problem consists of assigning a part-of-speech tag such as N [Noun], V [Verb], or A [Adjective], to every word of a sentence. Thus, the label of the sentence ω1... ωn made of the words ωi is a sequence of part-of-speech tags t1... tn. This can be viewed as a multi-class classification problem where each sequence of tags is a possible label. However, several critical aspects common to such structured output problems make them distinct from the standard multi-class classification.
+
+9.6 Chapter Notes 235
+
+
+
+9.7 Exercises 237
+
+
+
+10 Ranking 239
+
+The learning problem of ranking arises in many modern applications, including the design of search engines, information extraction platforms, and movie recommendation systems. In these applications, the ordering of the documents or movies returned is a critical aspect of the system. The main motivation for ranking over classification in the binary case is the limitation of resources: for very large data sets, it may be impractical or even impossible to display or process all items labeled as relevant by a classifier. A standard user of a search engine is not willing to consult all the documents returned in response to a query, but only the top ten or so. Similarly, a member of the fraud detection department of a credit card company cannot investigate thousands of transactions classified as potentially fraudulent, but only a few dozens of the most suspicious ones.
+
+In this chapter, we study in depth the learning problem of ranking. We distinguish two general settings for this problem: the score-based and the preference-based settings. For the score-based setting, which is the most widely explored one, we present margin-based generalisation bounds using the notion of Rademacher complexity. We then describe an Support Vector Machine-based ranking algorithm that can be derived from these bounds and describe and analyze RankBoost, a boosting algorithm for ranking. We further study specifically the bipartite setting of the ranking problem where, as in binary classification, each point belongs to one of two classes. We discuss an efficient implementation of RankBoost in that setting and point out its connections with Adaptive Boosting. We also introduce the notions of Receiver Operating Characteristic curves and Area Under the Reciever Operating Characteristic curve [AUC] which are directly relevant to bipartite ranking. For the preference-based setting, we present a series of results, in particular regret-based guarantees for both a deterministic and a randomised algorithm, as well as a lower bound in the deterministic case.
+
+10.1 The Problem Of Ranking 240
+
+We first introduce the most commonly studied scenario of the ranking problem in machine learning. We will refer to this scenario as the score-based setting of the ranking problem. In section 10.6, we present and analyse an alternative setting, the preference-based setting.
+
+The general supervised learning problem of ranking consists of using labeled information to define an accurate ranking prediction function for all points. In the scenario examined here, the labeled information is supplied only for pairs of points and the quality of a predictor is similarly measured in terms of its average pairwise misranking. The predictor is a real-valued function, a scoring function: the scores assigned to input points by this function determine their ranking.
+
+10.2 Generalisation Bound 241
+
+Theorem 10.1 [Margin Bound For Ranking]
+Corollary 10.2 [Margin Bounds For Ranking With Kernel-Based Hypotheses]
+
+10.3 Ranking With Support Vector Machines 243
+
+In this section, we discuss an algorithm that is derived directly from the theoretical guarantees just presented. The algorithm turns out to be a special instance of the Support Vector Machine algorithm.
+
+10.4 RankBoost 244
+
+This section presents a boosting algorithm for pairwise ranking, RankBoost, similar to the Adaptive Boosting algorithm for binary classification. RankBoost is based on ideas analogous to those discussed for classification: it consists of combining different base rankers to create a more accurate predictor. The base rankers are hypotheses returned by a weak learning algorithm for ranking. As for classification, these base hypotheses must satisfy a minimal accuracy condition that will be described precisely later.
+
+10.4.1 Bound On The Empirical Error 246
+
+Theorem 10.3
+
+10.4.2 Relationship With Coordinate Descent 248
+
+
+
+10.4.3 Margin Bound For Ensemble Methods In Ranking 250
+
+Corollary 10.4
+
+10.5 Bipartite Ranking 251
+
+This section examines an important ranking scenario within the score-based setting, the bipartite ranking problem. In this scenario, the set of points X is partitioned into two classes: X+ the class of positive points, and X- that of negative ones. The problem consists of ranking positive points higher than negative ones. For example, for a fixed search engine query, the task consists of ranking relevant [positive] documents higher than irrelevant [negative] ones.
+
+The bipartite problem could be treated in the way already discussed in the previous sections with exactly the same theory and algorithms. However, the setup typically adopted for this problem is different: instead of assuming that the learner receives a sample of random pairs, here pairs of positive and negative elements, it is assumed that it receives a sample of positive points from some distribution and a sample of negative points from another. This leads to the set of all pairs made of a positive point of the first sample and a negative point of the second.
+
+10.5.1 Boosting In Bipartite Ranking 252
+
+
+
+10.5.2 Area Under The Receiver Operating Characteristic Curve 255
+
+The performance of a bipartite ranking algorithm is typically reported in terms of the area under the Receiver Operating Characteristic [ROC] curve, or the Area Under the Curve [AUC] for short.
+
+10.6 Preference-Based Setting 257
+
+This section examines a different setting for the problem of learning to rank: the preference-based setting. In this setting, the objective is to rank as accurately as possible any test subset X ⊆ X, typically a finite set that we refer to as a finite query subset. This is close to the query-based scenario of search engines or information extraction systems and the terminology stems from the fact that X could be a set of items needed to rank in response to a particular query. The advantage of this setting over the score-based setting is that here the learning algorithm is not required to return a linear ordering of all points of X, which may be impossible to achieve faultlessly in accordance with a general possibly non-transitive pairwise preference labeling. Supplying a correct linear ordering for a query subset is more likely to be achievable exactly or at least with a better approximation.
+
+10.6.1 Second-Stage Ranking Problem 257
+
+The ranking problem of the second stage is modeled as follows. We assume that a preference function h is given. From the point of view of this stage, the way the function h has been determined is immaterial, it can be viewed as a black box. As already discussed, h is not assumed to be transitive. But, we will assume that it is pairwise consistent, that is h[u,v]+h[v,u]=1, for all u,v∈X.
+
+10.6.2 Deterministic Algorithm 259
+
+Theorem 10.5 [Lower Bound For Deterministic Algorithms]
+
+10.6.3 Randomised Algorithm 260
+
+
+
+10.6.4 Extension To Other Loss Functions 262
+
+
+
+10.7 Other Ranking Criteria 262
+
+The objective function for the ranking problems discussed in this chapter were all based on pairwise misranking. Other ranking criteria have been introduced in information retrieval and used to derive alternative ranking algorithms. Here, we briefly present several of these criteria.
+
+10.8 Chapter Notes 263
+
+The problem of learning to rank is distinct from the purely algorithmic one of rank aggregation, which, as shown by Dwork, Kumar, Naor, and Sivakumar [2001], is NP-hard even for k=4 rankings. The Rademacher complexity and margin-based generalisation bounds for pairwise ranking given in theorem 10.1 and corollary 6.13 are novel. Margin bounds based on covering numbers were also given by Rudin, Cortes, Mohri, and Schapire [2005]. Other learning bounds in the score-based setting of ranking, including VC-dimension and stability-based learning bounds, have been given by Agarwal and Niyogi [2005], Agarwal et al. [2005] and Cortes et al. [2007b].
+
+The ranking algorithm based on Support Vector Machines presented in section 10.3 has been used and discussed by several researchers. One early and specific discussion of its use can be found in Joachims [2002]. The fact that the algorithm is simply a special instance of Support Vector Machines seems not to be clearly stated in the literature. The theoretical justification presented here for its use in ranking is novel.
+
+10.9 Exercises 264
+
+
+
+11 Regression 267
+
+This chapter discusses in depth the learning problem of regression, which consists of using data to predict, as closely as possible, the correct real-valued labels of the points or items considered. Regression is a common task in machine learning with a variety of applications, which justifies the specific chapter we reserve to its analysis.
+
+The learning guarantees presented in the previous sections focused largely on classification problems. Here we present generalisation bounds for regression, both for finite and infinite hypothesis sets. Several of these learning bounds are based on the familiar notion of Rademacher complexity, which is useful for characterising the complexity of hypothesis sets in regression as well. Others are based on a combinatorial notion of complexity tailored to regression that we will introduce, pseudo-dimension, which can be viewed as an extension of the VC-dimension to regression. We describe a general technique for reducing regression problems to classification and deriving generalisation bounds based on the notion of pseudodimension. We present and analyze several regression algorithms, including linear regression, Kernel Ridge Regression, Support Vector Regression, L1 Lasso, and several on-line versions of these algorithms. We discuss in detail the properties of these algorithms, including the corresponding learning guarantees.
+
+11.1 The Problem Of Regression 267
+
+We first introduce the learning problem of regression. Let X denote the input space and Y a measurable subset of R. Here, we will adopt the stochastic scenario and will denote by D a distribution over XxY. As discussed in Section 2.4.1, the deterministic scenario is a straightforward special case where input points admit a unique label determined by a target function f:X→Y.
+
+11.2 Generalisation Bounds 268
+
+This section presents learning guarantees for bounded regression problems. We start with the simple case of a finite hypothesis set.
+
+11.2.1 Finite Hypothesis Sets 268
+
+Theorem 11.1
+
+11.2.2 Rademacher Complexity Bounds 269
+
+Proposition 11.2 [Rademacher Complexity Of µ-Lipschitz Loss Functions]
+Theorem 11.3 [Rademacher Complexity Regression Bounds]
+
+11.2.3 Pseudo-Dimension Bounds 271
+
+Definition 11.4 [Shattering]
+Definition 11.5 [Pseudo-Dimension]
+Theorem 11.6
+Theorem 11.7
+Theorem 11.8
+Definition 11.9 [y-Shattering]
+Definition 11.10 [y-Fat-Dimension]
+
+11.3 Regression Algorithms 275
+
+The results of the previous sections show that, for the same empirical error, hypothesis sets with smaller complexity measured in terms of the Rademacher complexity or in terms of pseudo-dimension benefit from better generalisation guarantees. One family of functions with relatively small complexity is that of linear hypotheses. In this section, we describe and analyse several algorithms based on that hypothesis set: linear regression, Kernel Ridge Regression [KRR], Support Vector Regression [SVR], and L1 Lasso. These algorithms, in particular the last three, are extensively used in practice and often lead to state-of-the-art performance results.
+
+11.3.1 Linear Regression 275
+
+
+
+11.3.2 Kernel Ridge Regression 276
+
+Theorem 11.11
+Lemma 11.12
+
+11.3.3 Support Vector Regression 281
+
+In this section, we present the Support Vector Regression [SVR] algorithm, which is inspired by the Support Vector Machine algorithm presented for classification in chapter 5. The main idea of the algorithm consists of fitting a tube of width e>0 to the data, as illustrated by figure 11.4. As in binary classification, this defines 2 sets of points: those falling inside the tube, which are e-close to the function predicted and thus not penalised, and those falling outside, which are penalised based on their distance to the predicted function, in a way that is similar to the penalisation used by Support Vector Machines in classification.
+
+Theorem 11.13
+Theorem 11.14
+
+11.3.4 Lasso 285
+
+Theorem 11.15 [Rademacher Complexity Of Linear Hypotheses With Bounded L1 Norm]
+Theorem 11.16
+
+11.3.5 Group Norm Regression Algorithms 289
+
+
+
+11.3.6 On-Line Regression Algorithms 289
+
+The regression algorithms presented in the previous sections admit natural online versions. Here, we briefly present 2 examples of these algorithms. These algorithms are particularly useful for applications to very large data sets for which a batch solution can be computationally too costly to derive and more generally in all of the on-line learning settings discussed in chapter 8.
+
+Our first example is known as the Widrow-Hoff algorithm and coincides with the application of Stochastic Gradient Descent techniques to the Linear Regression objective function. Figure 11.7 gives the pseudocode of the algorithm. A similar algorithm can be derived by applying the Stochastic Gradient technique to L2 Ridge Regression. At each round, the weight vector is augmented with a quantity that depends on the prediction error [wt·xt-yt].
+
+11.4 Chapter Notes 290
+
+
+
+11.5 Exercises 292
+
+
+
+12 Maximum Entropy Models 295
+
+In this chapter, we introduce and discuss maximum entropy models, also known as Maxent models, a widely used family of algorithms for density estimation that can exploit rich feature sets. We first introduce the standard density estimation problem and briefly describe the Maximum Likelihood and Maximum a Posteriori solutions. Next, we describe a richer density estimation problem where the learner additionally has access to features. This is the problem addressed by Maxent models.
+
+We introduce the key principle behind Maxent models and formulate their primal optimisation problem. Next, we prove a duality theorem showing that Maxent models coincide with Gibbs distribution solutions of a regularised Maximum Likelihood problem. We present generalisation guarantees for these models and also give an algorithm for solving their dual optimisation problem using a coordinate descent technique. We further extend these models to the case where an arbitrary Bregman divergence is used with other norms, and prove a general duality theorem leading to an equivalent optimisation problem with alternative regularisations. We also give a specific theoretical analysis of Maxent models with L2 Ridge Regularisation, which are commonly used in applications.
+
+12.1 Density Estimation Problem 295
+
+Let S = [x1,... ,xm] be a sample of size m drawn i.i.d. from an unknown distribution D. Then, the density estimation problem consists of using that sample to select out of a family of possible distributions P a distribution p that is close to D.
+
+The choice of the family P is critical. A relatively small family may not contain D or even any distribution close to D. On the other hand, a very rich family defined by a large set of parameters may make the task of selecting p very difficult if only a sample of a relatively modest size m is available.
+
+12.1.1 Maximum Likelihood [ML] Solution 296
+
+
+
+12.1.2 Maximum A Posteriori [MAP] Solution 297
+
+Example 12.1 [Application Of The Maximum A Posteriori Solution]
+
+12.2 Density Estimation Problem Augmented With Features 297
+
+
+
+12.3 Maxent Principle 298
+
+
+
+12.4 Maxent Models 299
+
+
+
+12.5 Dual Problem 299
+
+Here, we derive an equivalent dual problem for [12.7] which, as we will show, can be formulated as a regularised maximum likelihood problem over the family of Gibbs Distributions.
+
+Theorem 12.2 [Maxent Duality]
+
+12.6 Generalisation Bound 303
+
+Theorem 12.3
+
+12.7 Coordinate Descent Algorithm 304
+
+Direction
+Step Size
+
+12.8 Extensions 306
+
+Theorem 12.4
+
+12.9 L2-Regularisation 308
+
+Theorem 12.5
+
+12.10 Chapter Notes 312
+
+The Maxent principle was first explicitly advocated by Jaynes [1957] [see also Jaynes [1983]] who referred to Shannon's notion of entropy [appendix E] to support this principle. As seen in Section 12.5, standard Maxent models coincide with Gibbs Distributions, as in the original Boltzmann models in statistical mechanics. In fact, Jaynes [1957] argued that statistical mechanics could be viewed as a form of statistical inference, as opposed to a physical theory, and that the thermodynamic notion of entropy could be replaced by the information-theoretical notion. The justification of the Maxent principle presented in this chapter is instead based upon learning theory arguments.
+
+12.11 Exercises 313
+
+
+
+13 Conditional Maximum Entropy Models 315
+
+This chapter presents algorithms for estimating the conditional probability of a class given an example, rather than only predicting the class label for that example. This is motivated by several applications where confidence values are sought, in addition to the class prediction. The algorithms discussed, conditional Maxent models, also known as multinomial logistic regression algorithms, are among the most well-known and most widely used multi-class classification algorithms. In the special case of two classes, the algorithm is known as logistic regression.
+
+As suggested by their name, these algorithms can be viewed as Maxent models for conditional probabilities. To introduce them, we will extend the ideas discussed in the previous chapter [Chapter 12], starting from an extension of the Maxent principle to the conditional case. Next, we will prove a duality theorem leading to an equivalent dual optimisation problem for conditional Maxent. We will specifically discuss different aspects of multi-class classification using conditional Maxent and reserve a special section to the analysis of logistic regression.
+
+13.1 Learning Problem 315
+
+
+
+13.2 Conditional Maxent Principle 316
+
+
+
+13.3 Conditional Maxent Models 316
+
+
+
+13.4 Dual Problem 317
+
+Here, we derive an equivalent dual problem for [13.3] which, as we will show, can be formulated as a regularised conditional Maximum Likelihood problem over the family of Gibbs distributions.
+
+Theorem 13.1
+
+13.5 Properties 319
+
+
+
+13.5.1 Optimisation Problem 320
+
+
+
+13.5.2 Feature Vectors 320
+
+
+
+13.5.3 Prediction 321
+
+
+
+13.6 Generalisation Bounds 321
+
+Theorem 13.2
+Theorem 13.3
+
+13.7 Logistic Regression 325
+
+
+
+13.7.1 Optimisation Problem 325
+
+
+
+13.7.2 Logistic Model 325
+
+
+
+13.8 L2-Regularisation 326
+
+Theorem 13.4
+
+13.9 Proof Of The Duality Theorem 328
+
+
+
+13.10 Chapter Notes 330
+
+
+
+13.11 Exercises 331
+
+
+
+14 Algorithmic Stability 333
+
+One may ask if an analysis of the properties of a specific algorithm could lead to finer guarantees. Such an algorithm-dependent analysis could have the benefit of a more informative guarantee. On the other hand, it could be inapplicable to other algorithms using the same hypothesis set. Alternatively, as we shall see in this chapter, a more general property of the learning algorithm could be used to incorporate algorithm-specific properties while extending the applicability of the analysis to other learning algorithms with similar properties.
+
+This chapter uses the property of algorithmic stability to derive algorithm-dependent learning guarantees. We first present a generalisation bound for any algorithm that is sufficiently stable. Then, we show that the wide class of kernel-based regularisation algorithms enjoys this property and derive a general upper bound on their stability coefficient. Finally, we illustrate the application of these results to the analysis of several algorithms both in the regression and classification settings, including Kernel Ridge Regression [KRR], Support Vector Regression, and Support Vector Machines.
+
+14.1 Definitions 333
+
+Definition 14.1 [Uniform Stability]
+
+14.2 Stability-Based Generalisation Guarantee 334
+
+Theorem 14.2
+
+14.3 Stability Of Kernel-Based Regularisation Algorithms 336
+
+Definition 14.3 [sigma-Admissibility]
+Proposition 14.4
+
+14.3.1 Application To Regression Algorithms: Support Vector Regression and Kernel Ridge Regression 339
+
+Corollary 14.5 [Stability-Based Learning Bound For Support Vector Regression]
+Corollary 14.6 [Stability-Based Learning Bound For Kernel Ridge Regression]
+Lemma 14.7
+
+14.3.2 Application To Classification Algorithms: Support Vector Machines 341
+
+Corollary 14.8 [Stability-Based Learning Bound For Support Vector Machines]
+
+14.3.3 Discussion 342
+
+
+
+14.4 Chapter Notes 342
+
+
+
+14.5 Exercises 343
+
+
+
+15 Dimensionality Reduction 347
+
+In settings where the data has a large number of features, it is often desirable to reduce its dimension, or to find a lower-dimensional representation preserving some of its properties. The key arguments for dimensionality reduction [or manifold learning] techniques are:
+
+Computational: to compress the initial data as a preprocessing step to speed up subsequent operations on the data.
+
+Visualization: to visualise the data for exploratory analysis by mapping the input data into 2- or 3-dimensional spaces.
+
+Feature extraction: to hopefully generate a smaller and more effective or useful set of features.
+
+The benefits of dimensionality reduction are often illustrated via simulated data, such as the Swiss roll dataset. In this example, the input data, depicted in figure 15.1a, is 3-dimensional, but it lies on a 2-dimensional manifold that is "unfolded" in 2-dimensional space as shown in figure 15.1b. It is important to note, however, that exact low-dimensional manifolds are rarely encountered in practice. Hence, this idealised example is more useful to illustrate the concept of dimensionality reduction than to verify the effectiveness of dimensionality reduction algorithms.
+
+15.1 Principal Component Analysis 348
+
+Theorem 15.1
+
+15.2 Kernel Principal Component Analysis [KPCA] 349
+
+
+
+15.3 Kernel Principal Component Analysis And Manifold Learning 351
+
+
+
+15.3.1 Isomap 351
+
+
+
+15.3.2 Laplacian Eigenmaps 352
+
+
+
+15.3.3 Locally Linear Embedding [LLE] 353
+
+
+
+15.4 Johnson-Lindenstrauss Lemma 354
+
+Lemma 15.2
+Lemma 15.3
+Lemma 15.4 [Johnson-Lindenstrauss]
+
+15.5 Chapter Notes 356
+
+
+
+15.6 Exercises 356
+
+
+
+16 Learning Automata And Languages 359
+
+This chapter presents an introduction to the problem of learning languages. This is a classical problem explored since the early days of formal language theory and computer science, and there is a very large body of literature dealing with related mathematical questions. In this chapter, we present a brief introduction to this problem and concentrate specifically on the question of learning finite automata, which, by itself, has been a topic investigated in multiple forms by thousands of technical papers. We will examine 2 broad frameworks for learning automata, and for each, we will present an algorithm. In particular, we describe an algorithm for learning automata in which the learner has access to several types of query, and we discuss an algorithm for identifying a sub-class of the family of automata in the limit.
+
+16.1 Introduction 359
+
+Learning languages is one of the earliest problems discussed in linguistics and computer science. It has been prompted by the remarkable faculty of humans to learn natural languages. Humans are capable of uttering well-formed new sentences at an early age, after having been exposed only to finitely many sentences. Moreover, even at an early age, they can make accurate judgments of grammaticality for new sentences.
+
+In computer science, the problem of learning languages is directly related to that of learning the representation of the computational device generating a language. Thus, for example, learning regular languages is equivalent to learning finite automata, or learning context-free languages or context-free grammars is equivalent to learning pushdown automata.
+
+There are several reasons for examining specifically the problem of learning finite automata. Automata provide natural modeling representations in a variety of different domains including systems, networking, image processing, text and speech processing, logic and many others. Automata can also serve as simple or efficient approximations for more complex devices. For example, in natural language processing, they can be used to approximate context-free languages. When it is possible, learning automata is often efficient, though, as we shall see, the problem is hard in a number of natural scenarios. Thus, learning more complex devices or languages is even harder.
+
+We consider two general learning frameworks: the model of efficient exact learning and the model of identification in the limit. For each of these models, we briefly discuss the problem of learning automata and describe an algorithm.
+
+We first give a brief review of some basic automata definitions and algorithms, then discuss the problem of efficient exact learning of automata and that of the identification in the limit.
+
+16.2 Finite Automata 360
+
+Definition 16.1 [Finite Automata]
+
+16.3 Efficient Exact Learning 361
+
+In the efficient exact learning framework, the problem consists of identifying a target concept c from a finite set of examples in time polynomial in the size of the representation of the concept and in an upper bound on the size of the representation of an example. Unlike the Probably Approximately Correct-Learning framework, in this model, there is no stochastic assumption, instances are not assumed to be drawn according to some unknown distribution. Furthermore, the objective is to identify the target concept exactly, without any approximation. A concept class C is said to be efficiently exactly learnable if there is an algorithm for efficient exact learning of any c∈C.
+
+We will consider 2 different scenarios within the framework of efficiently exact learning: a passive and an active learning scenario. The passive learning scenario is similar to the standard supervised learning scenario discussed in previous chapters but without any stochastic assumption: the learning algorithm passively receives data instances as in the Probably Approximately Correct model and returns a hypothesis, but here, instances are not assumed to be drawn from any distribution. In the active learning scenario, the learner actively participates in the selection of the training samples by using various types of queries that we will describe. In both cases, we will focus more specifically on the problem of learning automata.
+
+
+16.3.1 Passive Learning 362
+
+Theorem 16.2
+Theorem 16.3
+
+16.3.2 Learning With Queries 363
+
+The model of learning with queries corresponds to that of a [minimal] teacher or oracle and an active learner. In this model, the learner can make the following 2 types of queries to which an oracle responds:
+
+Membership queries: the learner requests the target label f[x]∈[-1,+1] of an instance x and receives that label.
+
+Equivalence queries: the learner conjectures hypothesis h; it receives the response yes if h=f, a counter-example otherwise.
+
+We will say that a concept class C is efficiently exactly learnable with membership and equivalence queries when it is efficiently exactly learnable within this model.
+
+This model is not realistic, since no such oracle is typically available in practice. Nevertheless, it provides a natural framework, which, as we shall see, leads to positive results. Note also that for this model to be significant, equivalence must be computationally testable. This would not be the case for some concept classes such as that of context-free grammars, for example, for which the equivalence problem is undecidable. In fact, equivalence must be further efficiently testable, otherwise the response to the learner cannot be supplied in a reasonable amount of time.
+
+Theorem 16.4
+
+16.3.3 Learning Automata With Queries 364
+
+In this section, we describe an algorithm for efficient exact learning of Deterministic Finite Automata with membership and equivalence queries. We will denote by A the target Deterministic Finite Automata and by A the Deterministic Finite Automata that is the current hypothesis of the algorithm. For the discussion of the algorithm, we assume without loss of generality that A is a minimal Deterministic Finite Automata.
+
+The objective of the algorithm is to find at each iteration a new access string distinguished from all previous ones, ultimately obtaining a number of access strings equal to the number of states of A. It can then identify each state A[u] of A with its access string u. To find the destination state of the transition labeled with a∈Σ leaving state u, it suffices to determine, using the partition induced by V the access string u that belongs to the same equivalence class as ua. The finality of each state can be determined in a similar way.
+
+Theorem 16.5 [Learning Deterministic Finite Automata With Queries]
+
+16.4 Identification In The Limit 369
+
+In the identification in the limit framework, the problem consists of identifying a target concept c exactly after receiving a finite set of examples. A class of languages is said to be identifiable in the limit if there exists an algorithm that identifies any language L in that class after examining a finite number of examples and its hypothesis remains unchanged thereafter.
+
+This framework is perhaps less realistic from a computational point of view since it requires no upper bound on the number of instances or the efficiency of the algorithm. Nevertheless, it has been argued by some to be similar to the scenario of humans learning languages. In this framework as well, negative results hold for the general problem of learning Deterministic Finite Automata.
+
+Theorem 16.6
+
+16.4.1 Learning Reversible Automata 370
+
+In this section, we show that the sub-class of reversible automata or reversible languages can be identified in the limit. In particular, we show that the language can be identified given a positive presentation.
+
+Given a Deterministic Finite Automaton A, we define its reverse A^R as the automaton derived from A by making the initial state final, the final states initial, and by reversing the direction of every transition. The language accepted by the reverse of A is precisely the language of the reverse [or mirror image] of the strings accepted by A.
+
+Definition 16.7 [Reversible Automata] A finite automaton A is said to be reversible if and only if both A and A^R are deterministic. A language L is said to be reversible if it is the language accepted by some reversible automaton.
+
+Proposition 16.8
+Proposition 16.9
+Theorem 16.10
+
+16.5 Chapter Notes 375
+
+For an overview of finite automata and some related results, see Hopcroft and Ullman [1979] or the more recent Handbook chapter by Perrin [1990], as well as the series of books by M. Lothaire [Lothaire, 1982, 1990, 2005] and the even more recent book by De la Higuera [2010].
+
+16.6 Exercises 376
+
+
+
+17 Reinforcement Learning 379
+
+This chapter presents an introduction to reinforcement learning, a rich area of machine learning with connections to control theory, optimisation, and cognitive sciences. Reinforcement learning is the study of planning and learning in a scenario where a learner actively interacts with the environment to achieve a certain goal. This active interaction justifies the terminology of agent used to refer to the learner. The achievement of the agent's goal is typically measured by the reward it receives from the environment and which it seeks to maximise.
+
+We first introduce the general scenario of reinforcement learning and then introduce the model of Markov Decision Processes [MDPs], which is widely adopted in this area, as well as essential concepts such as that of policy or policy value related to this model. The rest of the chapter presents several algorithms for the planning problem, which corresponds to the case where the environment model is known to the agent, and then a series of learning algorithms for the more general case of an unknown model.
+
+17.1 Learning Scenario 379
+
+The general scenario of reinforcement learning is illustrated by figure 17.1. Unlike the supervised learning scenario considered in previous chapters, here, the learner does not passively receive a labeled data set. Instead, it collects information through a course of actions by interacting with the environment. In response to an action, the learner or agent, receives 2 types of information: its current state in the environment, and a real-valued reward, which is specific to the task and its corresponding goal.
+
+The objective of the agent is to maximise its reward and thus to determine the best course of actions, or policy, to achieve that objective. However, the information he receives from the environment is only the immediate reward related to the action just taken. No future or long-term reward feedback is provided by the environment. An important aspect of Reinforcement Learning is to consider delayed rewards or penalties. The agent is faced with the dilemma between exploring unknown states and actions to gain more information about the environment and the rewards, and exploiting the information already collected to optimize its reward. This is known as the exploration versus exploitation trade-off inherent to reinforcement learning.
+
+17.2 Markov Decision Process Model 380
+
+Definition 17.1 [Markov Decision Processes]
+
+17.3 Policy 381
+
+
+
+17.3.1 Definition 381
+
+Definition 17.2 [Policy]
+
+17.3.2 Policy Value 382
+
+Definition 17.3 [Policy Value]
+
+17.3.3 Optimal Policies 382
+
+Definition 17.4 [Optimal Policy]
+Definition 17.5 [State-Action Value Function]
+Theorem 17.6 [Policy Improvement Theorem]
+Theorem 17.7 [Bellman's Optimality Condition]
+Theorem 17.8 [Existence Of An Optimal Deterministic Policy]
+
+17.3.4 Policy Evaluation 385
+
+Proposition 17.9 [Bellman Equations]
+Theorem 17.10
+
+17.4 Planning Algorithms 387
+
+
+
+17.4.1 Value Iteration 387
+
+The value iteration algorithm seeks to determine the optimal policy values V*[s] at each state s∈S, and thereby the optimal policy. The algorithm is based on the Bellman equations [17.4]. As already indicated, these equations do not form a system of linear equations and require a different technique to determine the solution. The main idea behind the design of the algorithm is to use an iterative method to solve them: the new values of V [s] are determined using the Bellman equations and the current values. This process is repeated until a convergence condition is met.
+
+Theorem 17.11
+
+17.4.2 Policy Iteration 390
+
+Theorem 17.12
+Theorem 17.13
+
+17.4.3 Linear Programming 392
+
+
+
+17.5 Learning Algorithms 393
+
+This section considers the more general scenario where the environment model of an Markov Decision Process, that is the transition and reward probabilities, is unknown. This matches many realistic applications of reinforcement learning where, for example, a robot is placed in an environment that it needs to explore in order to reach a specific goal.
+
+How can an agent determine the best policy in this context? Since the environment models are not known, it may seek to learn them by estimating transition or reward probabilities. To do so, as in the standard case of supervised learning, the agent needs some amount of training information. In the context of reinforcement learning with Markov Decision Processes, the training information is the sequence of immediate rewards the agent receives based on the actions it has taken.
+
+There are two main learning approaches that can be adopted. One known as the model-free approach consists of learning an action policy directly. Another one, a model-based approach, consists of first learning the environment model, and then of using that to learn a policy. The Q-learning algorithm we present for this problem is widely adopted in reinforcement learning and belongs to the family of model-free approaches.
+
+The estimation and algorithmic methods adopted for learning in reinforcement learning are closely related to the concepts and techniques in stochastic approximation. Thus, we start by introducing several useful results of this field that will be needed for the proofs of convergence of the reinforcement learning algorithms presented.
+
+17.5.1 Stochastic Approximation 394
+
+Stochastic approximation methods are iterative algorithms for solving optimisation problems whose objective function is defined as the expectation of some random variable, or to find the fixed point of a function H that is accessible only through noisy observations. These are precisely the type of optimisation problems found in reinforcement learning. For example, for the Q-learning algorithm we will describe, the optimal state-action value function Q* is the fixed point of some function H that is defined as an expectation and thus not directly accessible.
+
+We start with a basic result whose proof and related algorithm show the flavour of more complex ones found in stochastic approximation. The theorem is a generalisation of a result known as the strong law of large numbers. It shows that under some conditions on the coefficients, an iterative sequence of estimates µm converges almost surely [a.s.] to the mean of a bounded random variable.
+
+Theorem 17.14 [Mean Estimation]
+Theorem 17.15 [SuperMartingale Convergence]
+Theorem 17.16
+Theorem 17.17
+
+17.5.2 Temporal Difference[0] Algorithm 397
+
+
+
+17.5.3 Q-Learning Algorithm 398
+
+Theorem 17.18
+
+17.5.4 State Action Reward State Action 402
+
+State Action Reward State Action is also an algorithm for estimating the optimal state-action value function in the case of an unknown model. The pseudocode is given in figure 17.7. The algorithm is in fact very similar to Q-learning, except that its update rule [line 9 of the pseudocode] is based on the action a selected by the learning policy. Thus, State Action Reward State Action is an on-policy algorithm, and its convergence therefore crucially depends on the learning policy. In particular, the convergence of the algorithm requires, in addition to all actions being selected infinitely often, that the learning policy becomes greedy in the limit. The proof of the convergence of the algorithm is nevertheless close to that of Q-learning.
+
+17.5.5 Temporal Difference[λ] Algorithm 402
+
+
+
+17.5.6 Large State Space 403
+
+In some cases in practice, the number of states or actions to consider for the environment may be very large. For example, the number of states in the game of backgammon is estimated to be over 1020. Thus, the algorithms presented in the previous section can become computationally impractical for such applications. More importantly, generalisation becomes extremely difficult.
+
+17.6 Chapter Notes 405
+
+Reinforcement Learning is an important area of machine learning with a large body of literature. This chapter presents only a brief introduction to this area. For a more detailed study, the reader could consult the book of Sutton and Barto [1998], whose mathematical content is short, or those of Puterman [1994] and Bertsekas [1987], which discuss in more depth several aspects, as well as the more recent book of Szepesvari [2010]. The Ph.D. theses of Singh [1993] and Littman [1996] are also excellent sources.
+
+Noted I might continue on to one of these books like Puterman and Bertsekas.
+
+Some foundational work on Markov Decision Processes and the introduction of the Temporal Difference [TD] methods are due to Sutton [1984]. Q-learning was introduced and analysed by Watkins [1989], though it can be viewed as a special instance of Temporal Difference methods. The first proof of the convergence of Q-learning was given by Watkins and Dayan [1992].
+
+Many of the techniques used in reinforcement learning are closely related to those of stochastic approximation which originated with the work of Robbins and Monro [1951], followed by a series of results including Dvoretzky [1956], Schmetterer [1960], Kiefer and Wolfowitz [1952], and Kushner and Clark [1978]. For a recent survey of stochastic approximation, including a discussion of powerful proof techniques based on ODE [Ordinary Differential Equations], see Kushner [2010] and the references therein. The connection with stochastic approximation was emphasized by Tsitsiklis [1994] and Jaakkola et al. [1994], who gave a related proof of the convergence of Q-learning. For the convergence rate of Q-learning, consult Even-Dar and Mansour [2003]. For recent results on the convergence of the policy iteration algorithm, see Ye [2011], which shows that the algorithm is strongly polynomial for a fixed discount factor.
+
+Kek at "see Ye".
+
+Conclusion 407
+
+We described a large variety of Machine Learning algorithms and techniques and discussed their theoretical foundations as well as their use and applications. While this is not a fully comprehensive presentation, it should nevertheless offer the reader some idea of the breadth of the field and its multiple connections with a variety of other domains, including statistics, information theory, optimisation, game theory, and automata and formal language theory.
+
+The fundamental concepts, algorithms, and proof techniques we presented should supply the reader with the necessary tools for analysing other learning algorithms, including variants of the algorithms analyzed in this book. They are also likely to be helpful for devising new algorithms or for studying new learning schemes. We strongly encourage the reader to explore both and more generally to seek enhanced solutions for all theoretical, algorithmic, and applied learning problems.
+
+The exercises included at the end of each chapter, as well as the full solutions we provide separately, should help the reader become more familiar with the techniques and concepts described. Some of them could also serve as a starting point for research work and the investigation of new questions.
+
+A Linear Algebra Review 409
+
+In this appendix, we introduce some basic notions of Linear Algebra relevant to the material presented in this book. This appendix does not represent an exhaustive tutorial, and it is assumed that the reader has some prior knowledge of the subject.
+
+A.1 Vectors And Norms 409
+
+We will denote by H a vector space whose dimension may be infinite.
+
+A.1.1 Norms 409
+
+Definition A.1
+Definition A.2 [Hilbert Space]
+
+A.1.2 Dual Norms 410
+
+Definition A.3
+Proposition A.4 [Holder's Inequality]
+Corollary A.5 [Cauchy-Schwarz Inequality]
+
+A.1.3 Relationship Between Norms 411
+
+Proposition A.6
+
+A.2 Matrices 411
+
+
+
+A.2.1 Matrix Norms 411
+
+
+
+A.2.2 Singular Value Decomposition 412
+
+
+
+A.2.3 Symmetric Positive Semidefinite [SPSD] Matrices 412
+
+Definition A.7
+
+B Convex Optimisation 415
+
+
+
+B.1 Differentiation And Unconstrained Optimisation 415
+
+Definition B.1 [Gradient]
+Definition B.2 [Hessian]
+Theorem B.3 [Fermat's Theorem]
+
+B.2 Convexity 415
+
+Definition B.4 [Convex Set]
+Lemma B.5 [Operations That Preserve Convexity Of Sets]
+Definition B.6 [Convex Hull]
+Definition B.7 [Convex Function]
+Theorem B.8
+Theorem B.9
+Example B.10 [Linear Functions]
+Example B.11 [Quadratic Function] 
+Example B.12 [Norms]
+Example B.13 [Maximum Function]
+Lemma B.14 [Composition Of Convex/Concave Functions]
+Example B.15 [Composition Of Functions]
+Lemma B.16 [Pointwise Supremum Or Maximum Of Convex Functions]
+Example B.17 [Pointwise Supremum Of Convex Functions]
+Lemma B.18 [Partial Infimum]
+Example B.19
+Theorem B.20 [Jensen's Inequality] 
+
+B.3 Constrained Optimisation 419
+
+Definition B.21 [Constrained Optimisation Problem]
+Definition B.22 [Lagrangian]
+Definition B.23 [Dual Function]
+Definition B.24 [Dual Problem]
+Definition B.25 [Strong Constraint Qualification]
+Definition B.26 [Weak Constraint Qualification]
+Theorem B.27 [Saddle Point - Sufficient Condition]
+Theorem B.28 [Saddle Point - Necessary Condition]
+Theorem B.29 [Saddle Point - Necessary Condition]
+Theorem B.30 [Karush-Kuhn-Tucker's Theorem]
+
+B.4 Fenchel Duality 422
+
+
+
+B.4.1 Subgradients 422
+
+Definition B.31
+Lemma B.32
+Proposition B.33
+
+B.4.2 Core 423
+
+Proposition B.34
+Proposition B.35
+
+B.4.3 Conjugate Functions 423
+
+Definition B.36 [Conjugate Functions]
+Lemma B.37 [Conjugate Of Extended Relative Entropy]
+Proposition B.38 [Fenchel's Inequality]
+Theorem B.39 [Fenchel Duality Theorem]
+
+B.5 Chapter Notes 426
+
+
+
+B.6 Exercises 427
+
+
+
+C Probability Review 429
+
+
+
+C.1 Probability 429
+
+A probability space is a tuple consisting of 3 components: a sample space, an events set, and a probability distribution: sample space, events set, probability distribution.
+
+C.2 Random Variables 429
+
+Definition C.1 [Random Variables]
+Definition C.2 [Binomial Distribution]
+Definition C.3 [Normal Distribution]
+Definition C.4 [Laplace Distribution]
+Definition C.5 [Gibbs Distributions]
+Definition C.6 [Poisson Distribution]
+Definition C.7 [Chi-Squared Distribution]
+
+C.3 Conditional Probability And Independence 431
+
+Definition C.8 [Conditional Probability]
+Definition C.9 [Independence]
+
+C.4 Expectation And Markov's Inequality 431
+
+Definition C.10 [Expectation]
+Theorem C.11 [Markov's Inequality]
+
+C.5 Variance And Chebyshev's Inequality 432
+
+Definition C.12 [Variance - Standard Deviation]
+Theorem C.13 [Chebyshev's Inequality]
+Theorem C.14 [Weak Law Of Large Numbers]
+Example C.15 [Applying Chebyshev's Inequality]
+Definition C.16 [Covariance]
+Definition C.17
+Theorem C.18 [Central Limit Theorem]
+
+C.6 Moment-Generating Functions 434
+
+Definition C.19 [Moment-Generating Function]
+Example C.20 [Standard Normal Distribution]
+Example C.21 [Chi-Distribution]
+
+C.7 Exercises 435
+
+
+
+D Concentration Inequalities 437
+
+
+
+D.1 Hoeffding's inequality 437
+
+Lemma D.1 [Hoeffding's Lemma]
+Theorem D.2 [Hoeffding's Inequality]
+
+D.2 Sanov's Theorem 438
+
+Theorem D.3 [Sanov's Theorem]
+
+D.3 Multiplicative Chernoff Bounds 439
+
+Theorem D.4 [Multiplicative Chernoff Bounds]
+
+D.4 Binomial Distribution Tails: Upper Bounds 440
+
+
+
+D.5 Binomial Distribution Tails: Lower Bound 440
+
+
+
+D.6 Azuma's Inequality 441
+
+Definition D.5 [Martingale Difference]
+Lemma D.6
+Theorem D.7 [Azuma's Inequality]
+
+D.7 McDiarmid's Inequality 442
+
+Theorem D.8 [McDiarmid's Inequality]
+
+D.8 Normal Distribution Tails: Lower Bound 443
+
+
+
+D.9 Khintchine-Kahane Inequality 443
+
+Theorem D.9 [Khintchine-Kahane Inequality]
+
+D.10 Maximal Inequality 444
+
+Theorem D.10 [Maximal Inequality]
+Corollary D.11 [Maximal Inequality]
+
+D.11 Chapter Notes 445
+
+
+
+D.12 Exercises 445
+
+
+
+E Notions Of Information Theory 449
+
+
+
+E.1 Entropy 449
+
+Definition E.1 [Entropy]
+
+E.2 Relative Entropy 450
+
+Definition E.2 [Relative Entropy]
+Proposition E.3 [Non-Negativity Of Relative Entropy]
+Corollary E.4 [Log-Sum Inequality]
+Corollary E.5 [Joint Convexity Of Relative Entropy]
+Corollary E.6 [Concavity Of The Entropy]
+Proposition E.7 [Pinsker's Inequality]
+Definition E.8 [Conditional Relative Entropy]
+
+E.3 Mutual Information 453
+
+Definition E.9 [Mutual information]
+
+E.4 Bregman Divergences 453
+
+Definition E.10 [Bregman Divergences]
+Proposition E.11
+
+E.5 Chapter Notes 456
+
+
+
+E.6 Exercises 457
+
+
+
+F Notation 459
+
+Nice.
+
+Bibliography 461
+
+Nice.
+
+Index 475
+
+Nice.

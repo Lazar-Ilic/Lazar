@@ -1,0 +1,986 @@
+2-norm, 200, 206
+AC component, 541
+Adams-Bashforth Method, 352, 355, 359
+Adams-Moulton Method, 359, 362
+Adaptive Quadrature, 280, 281
+Adobe Corp., 144
+algorithm
+stable, 52
+Apple Corp., 144
+arbitrage theory, 486
+arc length integral, 253
+arcsine law, 474
+atomic clock, 248
+audio file
+aac, 518
+mp3, 519
+wav, 513, 555
+B-spline, 429
+piecewise-linear, 389
+Bézier curve, 186, 290
+in PDF file, 190
+Bézier, P., 144, 186
+Babylonian mathematics, 41
+back-substitution, 76, 79, 80, 87
+backsolving, see back-substitution
+Backward Difference Method, 401
+Backward Euler Method, 348
+barrier option, 487
+barycenter, 430
+base 60, 42
+base points, 149
+basis
+orthonormal, 564, 581
+beam
+Timoshenko, 110
+bell curve, 460
+bifurcation
+buckling, 375
+binary number, 6
+infinitely repeating, 7
+Bisection Method, 27, 46, 49, 53, 68, 73,
+370, 373, 384
+efficiency, 30
+stopping criterion, 31
+bit, 6
+Black, F., 453, 486
+Black-Scholes formula, 453, 487
+Bogacki-Shampine Method, 342
+Boole’s Rule, 274
+boundary conditions
+convective, 426
+Dirichlet, 403, 419
+homogeneous, 404
+Neumann, 404, 419
+Robin, 426
+boundary value problem, 366
+existence and uniqueness of solutions,
+368
+for systems, 371
+nonlinear, 379
+Box-Muller method, 460
+bracket, 41, 66
+bracketing, 27
+Brent’s Method, 68, 73
+Brownian bridge, 483
+Brownian motion, 479
+continuous, 472
+discrete, 469
+geometric, 486
+Broyden’s Method, 140, 376, 614
+Brusselator model, 447
+buckling
+of circular ring, 366, 374
+Buffon needle, 468
+bulk temperature, 425
+Burgers’ equation, 438, 440
+BVP, see boundary value problem
+byte, 12
+call option, 486
+cantilever, 74
+carbon dioxide, 156, 185, 219
+castanets.wav, 513, 515
+Casteljau, P., 144, 186
+Cauchy-Schwarz inequality, 206
+centered-difference formula, 396
+Central Limit Theorem, 472
+CFL condition, 417
+chaotic attractor, 334
+chaotic dynamics, 46, 63
+characteristic function, 457
+characteristic polynomial, 557
+Chebyshev interpolation, 169
+Cholesky factorization, 126
+chopping, 9
+cobweb diagram, 36, 37, 45
+codec, 551
+Collocation Method
+for BVP, 385
+color image
+RGB, 529
+YUV, 536
+column vector, 612
+completing the square, 123
+complex number, 490
+polar representation, 490
+compressibility, 374
+compression, 202
+image, 589
+lossy, 532, 538, 587
+computational neuroscience, 331
+computer animation, 253
+computer arithmetic, 47
+computer word, 8
+computer-aided manufacturing, 253
+computer-aided modeling, 289
+condition number, 52, 53, 92, 205, 302, 557
+conditioning
+normal equations, 205
+conduction, 425
+conic section, 324
+conjugate
+of a complex number, 490
+Conjugate Gradient Method, 128, 133
+preconditioned, 133
+convection, 425
+convective heat transfer, 425
+convergence, 35
+linear, 37, 40, 43, 58
+local, 38, 56, 59, 60
+quadratic, 56, 60
+superlinear, 65, 141
+conversion
+binary to decimal, 7
+decimal to binary, 6
+convex set, 300
+Cooley, J., 495
+cooling fin, 424
+CORDIC, 172
+Crank-Nicolson Method, 264, 405
+stability, 408
+cube root, 32
+cubic spline, 174
+clamped, 181
+curvature-adjusted, 181
+end conditions, 176
+MATLAB default, 182
+natural, 176
+not-a-knot, 182
+parabolically-terminated, 181
+cumulative distribution function, 460
+cuneiform, 42
+Dahlquist criterion, 357
+data
+automobile supply, 212
+height vs. weight, 215
+Intel CPU, 213
+Japan oil consumption, 218
+temperature, 209
+data compression, 144
+data-fitting, 196
+DC component, 527, 541
+decimal number, 6
+decimal places
+correct within, 30
+deflation, 568
+degree of precision, 268, 284
+demand curve, 207
+derivative, 254
+symbolic, 261
+determinant, 32, 585
+differential equation, 293
+autonomous, 294
+Index | 653
+first-order linear, 303
+ordinary, 294
+partial, 394
+stiff, 348
+stochastic, 474
+differentiation
+numerical, 254
+differentiation formula
+centered difference, 256, 377
+forward difference, 255
+diffusion, 476
+diffusion coefficient, 395
+dimension reduction, 587
+direct kinematics problem, see forward
+kinematics problem
+direct method, 110
+direction field, 294
+direction vector, 322
+Discrete Cosine Transform, 518
+one-dimensional, 519
+inverse, 520
+two-dimensional, 525
+inverse, 526
+version 4, 544
+Discrete Fourier Transform, 493
+inverse, 494
+discretization, 74, 107, 376, 395
+divided differences, 147
+Dormand-Prince Method, 343
+dot product, 198
+dot product rule, 240
+double helix, 593
+double precision, 8, 46, 47, 96, 205
+downhill simplex method, 600
+DPCM tree, 541
+drift, 476
+DSP chip, 496
+eigenvalue, 32, 556, 616
+complex, 567
+dominant, 565
+eigenvector, 557
+electric field, 419
+electrostatic potential, 437
+ellipsoid, 581
+elliptic equation
+weak form, 428
+engineering
+structural, 74, 87
+equation
+diffusion, 395
+reaction-diffusion, 410, 442
+equations
+inconsistent, 197
+equilibrium solution, 349
+equipartition, 289
+error
+absolute, 11, 42
+backward, 47, 52, 53, 89, 97
+forward, 47, 52, 53, 89, 97, 205
+global truncation, 306
+input, 92
+interpolation, 158, 161, 166
+local truncation, 306, 342, 396
+quantization, 531
+relative, 11, 42
+relative backward, 91
+relative forward, 91
+root mean squared, 200
+rounding, 11, 258
+squared, 200
+standard, 470
+tolerance, 340
+truncation, 258
+error magnification factor, 51, 91, 251
+escape time, 470
+Euler formula, 490, 499
+Euler’s Method, 297, 349
+convergence, 309
+global truncation error, 309
+local truncation error, 307
+order, 309
+Euler-Bernoulli beam, 74, 107
+Euler-Maruyama Method, 478
+exponent, 8
+exponent bias, 12
+extended precision, 8
+extrapolation, 259, 264, 276, 379, 383
+factorization
+Cholesky, 125
+eigenvalue-revealing, 568
+PA = LU, 102
+QR, 223, 565
+Fast Fourier Transform, 495
+operation count, 497
+Fick’s law, 395
+fill-in, 118, 120
+filtering
+low pass, 530
+financial derivative, 486
+Finite Difference Method, 377, 395
+explicit, 415
+unstable, 399
+Finite Element Method, 387
+first passage time, 470
+Fisher’s equation, 442
+fixed point, 33
+Fixed-Point Iteration, 33, 349
+divergence, 37
+geometry, 36
+fl(x), 10
+flight simulator, 26
+floating point number, 8
+normalized, 9
+subnormal, 13
+zero, 14
+forward difference, 254
+forward difference formula, 396
+Forward Difference Method
+conditionally stable, 400
+explicit, 397
+stability analysis, 399
+forward kinematics problem, 26, 71
+Fourier
+first law, 425
+Fourier, J., 490
+FPI, see Fixed-Point Iteration
+freezing temperature, 26
+FSAL, 342, 344
+function
+orthogonal, 506
+Riemann integrable, 429
+unimodal, 594
+fundamental domain, 157
+Fundamental Theorem of Algebra, 147
+Galerkin Method, 387, 428
+Gauss, C.F., 196
+Gauss-Newton Method, 240, 245, 251
+Gauss-Seidel
+Method, 114
+Gaussian elimination, 75, 95, 377
+matrix form, 82
+naive, 75, 99
+operation count, 78–80
+tableau form, 76
+Gaussian Quadrature, 287
+Generalized Minimum Residual Method,
+235, 238
+GIS, 250
+GMRES, 235
+preconditioned, 238
+restarted, 237
+Golden Section Search, 594
+Google.com, 575
+Gough, E., 26
+GPS, 196, 243, 248
+conditioning of, 251
+gradient, 240, 604
+gradient search, 605
+Gram-Schmidt Orthogonalization, 222,
+227
+Gram-Schmidt orthogonalization
+operation count, 224
+Green’s Theorem, 428
+Gronwall inequality, 301
+groundwater flow, 437
+half-life, 215
+Halton sequence, 465
+harmonic function, 419
+heat equation, 395, 406
+heat sink, 424
+heated plate, 437
+Heron of Alexandria, 42
+Hessian, 240
+Heun Method, 311
+hexadecimal number, 7
+Hodgkin, A., 331
+Hodgkin-Huxley neuron, 331
+Hooke’s Law, 337
+Horner’s method, 3
+Householder reflector, 228, 229, 570, 571
+Huffman coding, 524, 539
+in JPEG, 541
+654 | Index
+Huffman tree, 541
+Huxley, A., 331
+hypotenuse, 21
+ice cream, 63
+ideal gas law, 63
+IEEE, 8, 24, 96
+ill-conditioned, 53, 94, 386
+image compression, 528, 531, 589
+image file
+baseline JPEG, 536
+grayscale, 529
+JPEG, 518, 535
+importance sampling, 555
+Improved Euler Method, 311
+IMSL, 25
+incompressible flow, 420
+inflection point, 176
+information
+Shannon, 539
+initial condition, 294
+initial value problem, 294
+existence and uniqueness, 301
+initial-boundary conditions, 395
+inner product, 613
+integral
+arc length, 275
+improper, 273, 275
+integrating factor, 303
+integration
+Romberg, 277
+Intel Corp., 394
+Intermediate Value Theorem, 21, 27, 31
+Generalized, 255
+interpolating polynomial
+Chebyshev, 166
+interpolation, 145
+by orthogonal functions, 520
+Chebyshev, 166
+Lagrange, 67, 146, 265
+Newton’s divided difference, 148, 159
+polynomial, 264
+trigonometric, 489, 499
+interpolation error formula, 158
+inverse kinematics problem, 71
+Inverse Quadratic Interpolation, 67, 68, 73
+IQI, see Inverse Quadratic Interpolation
+iterative method, 110
+Ito integral, 475
+Jacobi Method, 111
+Jacobian, see matrix Jacobian, 380
+JPEG standard, 518
+Annex K, 536
+Keeling, C., 219
+knot
+cubic spline, 174
+Krylov methods, 235
+Langevin equation, 479
+Laplace equation, 419, 435
+Laplacian, 419
+least squares, 586
+by QR factorization, 225
+from DCT, 522
+nonlinear, 211
+parabola, 510
+trigonometric, 508
+left-justified, 9
+Legendre polynomial, 286
+Legendre, A., 196
+Lennard-Jones potential, 593, 609
+Levenberg-Marquardt Method, 245
+line
+least squares, 201
+linear congruential generator, 455
+Lipschitz constant, 300
+Lipschitz continuous, 300
+local extrapolation, 342
+logistic equation, 294
+long-double precision, see extended
+precision
+Lorenz equations, 334
+Lorenz, E., 333
+loss of significance, 17, 258
+loss parameter, 532
+low-discrepancy sequence, 464
+LU factorization, 82
+luminance, 536
+machine epsilon, 9, 14, 48, 258, 557
+magnitude
+of a complex number, 490
+of a complex vector, 494
+mantissa, 8
+Maple, 25
+Mathematica, 25
+matrix
+banded, 108
+coefficient, 82
+condition number, 92, 92
+diagonalizable, 617
+Fourier, 493
+full, 118
+Hessian, 605
+Hilbert, 32, 82, 97, 136, 208, 234, 624
+identity, 613
+inverse, 585
+invertible, 613
+Jacobian, 137, 604
+lower triangular, 82
+nonsymmetric, 567
+orthogonal, 223, 506, 518, 544, 568, 580
+permutation, 101, 102
+positive-definite, 122, 606
+projection, 229
+quantization, 532
+rank-one, 586, 613
+similar, 568, 617
+singular, 613
+sparse, 74, 118
+stochastic, 573
+structure, 87
+symmetric, 122, 564
+transpose, 198
+tridiagonal, 178, 378, 399
+unitary, 494
+upper Hessenberg, 570
+upper triangular, 82, 223, 567
+Van der Monde, 205
+matrix multiplication
+blockwise, 615
+Mauna Loa, 156
+Maxwell’s equation, 419
+Mean Value Theorem, 22, 38
+for Integrals, 23, 266, 273
+Mersenne prime, 456
+Method of False Position, 66
+slow convergence, 67
+midpoint, 28, 29, 66
+Midpoint Method, 328, 352
+Midpoint Rule, 272
+Composite, 273
+two-dimensional, 431
+Milne-Simpson Method, 361
+Milstein Method, 480
+MKS units, 107
+model
+drug concentration, 216
+exponential, 211
+linearization, 212
+population, 294
+power law, 214
+Modified Discrete Cosine Transform, 519,
+546
+Modified Gram-Schmidt, 227
+moment of inertia, 107
+Monte Carlo
+convergence, 467
+pseudo-random, 463
+quasi-random, 466
+Type 1, 456
+Type 2, 457
+Moore’s Law, 214, 394
+Moore, G.C., 214
+motion of projectile, 367, 373
+Muller’s Method, 67
+multiplicity, 48, 53
+multistep methods, 351
+consistent, 357
+convergent, 357
+local truncation error, 354
+stable, 356, 357
+strongly stable, 356
+weakly stable, 356
+MATLAB
+animation in, 291
+Symbolic Toolbox, 250
+MATLAB code
+ab2step.m, 353, 360
+adapquad.m, 281
+am1step.m, 360
+bezierdraw.m, 188
+bisect.m, 30, 371
+broyden2.m, 141
+Index | 655
+brusselator.m, 448
+burgers.m, 440
+bvpfem.m, 391
+clickinterp.m, 153
+crank.m, 407
+cubrt.m, 623
+dftfilter.m, 511, 515
+dftinterp.m, 502
+euler.m, 298
+euler2.m, 316
+eulerstep.m, 298
+exmultistep.m, 353
+fisher2d.m, 446
+fpi.m, 34
+gss.m, 596
+halton.m, 466
+heatbdn.m, 404
+heatfd.m, 398, 401
+hessen.m, 572
+hh.m, 332
+invpowerit.m, 561
+jacobi.m, 120
+nest.m, 3, 152, 154, 172
+newtdd.m, 152, 154
+nlbvpfd.m, 381
+nsi.m, 565
+orbit.m, 323
+pend.m, 320
+poisson.m, 423, 427
+poissonfem.m, 433
+powerit.m, 559
+predcorr.m, 360
+rk4step.m, 333
+romberg.m, 278
+rqi.m, 562
+shiftedqr.m, 569
+shiftedqr0.m, 569
+sin2.m, 172
+sparsesetup.m, 120
+spi.m, 599
+splinecoeff.m, 179
+splineplot.m, 180
+tacoma.m, 339
+trapstep.m, 321, 339, 353
+unshiftedqr.m, 566
+unstable2step.m, 353
+weaklystab2step.m, 353
+wilkpoly.m, 50
+MATLAB command
+axis, 622, 628
+backslash, 92, 98, 433
+break, 624
+button, 153
+cla, 628
+clear, 620
+cond, 93
+conj, 517
+dct, 528
+det, 32
+diag, 120, 398
+diary, 620
+diff, 261
+double, 529
+drawnow, 320, 628
+eig, 32, 573
+erf, 284
+error, 78, 625
+fft, 494, 502, 517
+figure, 623
+fminunc, 610
+for, 625
+format, 621
+format hex, 7, 12
+fprintf, 621
+fzero, 47, 50, 53, 68, 73
+ginput, 153, 188
+global, 333, 626
+grid, 622
+handel, 512
+hilb, 32, 93
+ifft, 494, 502, 517
+imagesc, 529
+imread, 529, 537
+int, 261
+interp1, 194
+length, 120, 627
+line, 291, 339
+load, 620
+log, 620
+loglog, 275
+lu, 105, 120, 469
+max, 32, 559
+mean, 626
+mesh, 412, 423, 427, 623
+nargin, 626
+ode23s, 346, 350
+ode45, 344, 346, 371
+odeset, 344
+ones, 93, 120, 627
+pause, 628
+pi, 32
+plot, 32, 621
+plot3, 610
+polyfit, 194, 204
+polyval, 194, 204
+pretty, 261
+qr, 565, 566, 569
+rand, 459
+randn, 461, 479, 517
+rem, 625
+round, 298, 554
+semilogy, 622
+set, 291, 320
+simple, 261
+size, 627
+solve, 250
+sound, 512, 515, 554
+spdiags, 120, 391
+spline, 182, 194
+std, 517, 626
+subplot, 333, 622
+subs, 250
+surf, 434, 623
+svd, 591
+syms, 250, 261
+wavread, 513, 555
+wavwrite, 513
+while, 624
+xdata, 628
+ydata, 628
+zeros, 120, 627
+NAG, 24
+Napoleon, 490
+Navier-Stokes equations, 449
+Nelder-Mead search, 600, 610
+nested multiplication,
+2, 145
+Newton
+law of cooling, 425
+second law of motion, 294, 318, 322,
+337, 367
+Newton’s Method, 54, 73, 350, 604
+convergence, 56
+Modified, 60
+Multivariate, 137, 240, 242, 379
+periodicity, 61
+Newton-Cotes formula, 265
+closed, 269
+open, 272
+Newton-Raphson Method, see Newton’s
+Method
+noise, 515
+Gaussian, 516
+norm
+Euclidean, 220
+infinity, 89
+matrix, 92, 94
+maximum, 89
+vector, 94
+normal equations, 199, 521
+Normalized Simultaneous Iteration, 565
+numerical integration, 264
+composite, 269
+objective function, 593
+ODE solver
+multistep, 351
+convergence, 308
+explicit, 347
+implicit, 349
+variable step size, 340
+one-body problem, 322
+option
+barrier, 487
+call, 486
+put, 487
+order
+of a differential equation, 316
+of approximation, 254
+of ODE solver, 308
+ordinary differential equation,
+367
+Ornstein-Uhlenbeck process, 479
+orthogonal
+functions, 387
+matrix, 223
+656 | Index
+orthogonalization, 565
+Gram-Schmidt, 220
+Modified Gram-Schmidt, 227
+orthonormal, 578, 617
+outer product, 613
+page rank, 575
+panel, 269
+parabola, 67
+interpolating, 145
+least squares, 202
+partial derivative, 349
+partial differential equation, 394
+elliptic, 419, 426
+hyperbolic, 413
+parabolic, 395
+PDF file, 190
+pencil, 46
+pendulum, 318
+damped, 321
+double, 322
+pivot, 78, 105
+pivoting
+partial, 99, 104
+Poincaré, H., 325
+Poincaré-Bendixson Theorem, 321
+Poisson equation, 419
+polishing, 118
+polynomial
+Chebyshev, 166, 386
+evaluation, 1
+Legendre, 286
+monic, 168
+orthogonal, 284
+Taylor, 50
+Wilkinson, 49, 53, 54
+PostScript, 144
+potential, 419
+Power Iteration, 557, 575
+convergence, 559
+inverse, 560
+shifted, 561
+power law, 214, 467
+Prandtl number, 334
+preconditioner, 132
+Gauss-Seidel, 133
+Jacobi, 132
+SSOR, 133
+preconditioning, 131
+predictor-corrector method, 360
+Prigogine, I., 447
+prismatic joint, 70
+probability distribution function, 459
+product rule
+matrix/vector, 619
+progress curve, 291
+projection
+orthogonal, 587
+psychoacoustics, 552
+QR Algorithm, 570
+shifted, 569
+unshifted, 566
+convergence, 567
+QR-factorization, 223
+operation count, 232
+reduced, 222
+quadratic formula, 19
+quadrature, 264
+Gaussian, 287
+quantization, 531, 589
+JPEG standard, 535
+linear, 532
+radix, 6
+random number
+exponential, 459
+normal, 460
+pseudo-, 454
+quasi-, 464
+uniform, 455
+random number generator
+minimal standard, 456, 459
+period, 455
+RANDNUM, 461
+randu, 458
+uniform, 455
+random seed, 455
+random variable
+standard deviation, 463
+standard normal, 460, 479
+variance, 463
+random walk, 469
+biased, 474
+rank, 585
+Rayleigh quotient, 559
+Rayleigh Quotient Iteration, 562
+Rayleigh-Bénard convection, 334
+reaction-diffusion equation, 410, 442
+recursion relation
+Chebyshev polynomials, 167
+Regula Falsi, see Method of False Position
+rejection method, 461
+relaxation parameter, 114
+residual, 89, 131, 243, 387
+Reynolds number, 334
+Richardson extrapolation, 259
+Riemann integral, 475
+right-hand side vector, 82
+RKF45, see Runge-Kutta-Fehlberg
+Method
+RMSE, 200
+robot, 26
+Rolle’s Theorem, 22
+Romberg Integration, 277
+root, 27
+double, 48
+multiple, 48, 59, 62
+simple, 48
+triple, 48
+root of unity, 491
+primitive, 492
+rounding, 10
+to nearest, 10, 15–17
+row exchange, 99
+row vector, 612
+run length encoding, 542
+Runge example, 163
+Runge Kutta Method, First-Order
+Stochastic, 482
+Runge phenomenon, 162, 164, 165, 386
+Runge-Kutta Method, 328
+global truncation error, 331
+embedded pair, 341
+order 2/3, 342
+order four, 330, 355
+Runge-Kutta-Fehlberg Method, 342
+sample mean, 470
+sample variance, 470
+sampling rate, 512
+Scholes, M., 453, 486
+Schur form
+real, 567
+Scripps Institute, 219
+Secant Method, 65, 67, 68
+convergence, 65
+slow convergence, 67
+sensitive dependence
+on initial conditions, 325, 334
+sensitivity, 50
+Sensitivity Formula for Roots, 51
+separation of variables, 299
+Shannon, C., 539
+Sherman-Morrison formula, 614
+shifted QR algorithm, 591
+Shooting Method, 370, 376
+sign, 8
+significant digits, 46
+loss of, 258
+Simpson’s Rule, 267, 342, 362
+adaptive, 282
+Composite, 271
+single precision, 8
+singular value, 579
+singular value decomposition, 580
+calculation of, 590
+nonuniqueness, 581
+singular vector, 579
+sinusoid
+least squares, 209
+size
+in JPEG code, 541
+slope field, 294
+solution
+least squares, 197
+SOR, see Successive Over-Relaxation
+spectral method, 387
+spectral radius, 116, 402, 618
+spline
+Bézier, 144, 186
+cubic, 174
+linear, 173
+square root, 32, 41, 57
+squid axon, 332
+stability
+Index | 657
+conditional, 400, 415
+unconditional, 402
+stage
+of ODE solver, 329
+steepest descent, 605
+stencil, 396
+step size, 296, 396, 438
+Stewart platform, 26, 70
+planar, 71
+stiffness, 74
+stochastic differential equation, 474
+stochastic process, 470
+continuous-time, 475
+stopping criterion, 42, 49, 68, 604
+stress, 74
+strictly diagonally dominant, 112, 178
+strike price, 486
+strut, 70
+submatrix
+principal, 124
+Successive Over-Relaxation, 114
+Successive Parabolic Interpolation, 597
+swamping, 95
+synthetic division, 3
+tableau form, 95
+Tacoma Narrows Bridge, 293, 337
+Taylor formula, 56
+Taylor Method, 313
+Taylor polynomial, 23
+Taylor remainder, 23
+Taylor’s Theorem, 23, 254, 354
+thermal conductivity, 425
+thermal diffusivity, 395
+three-body problem, 324
+time series, 498
+transpose
+of a matrix, 613
+Trapezoid Method
+explicit, 310, 352
+implicit, 359
+Trapezoid Rule, 267, 310
+adaptive, 280
+Composite, 270
+tridiagonal, 591
+trigonometric function
+order n, 499
+plotting, 502
+Tukey, J., 495
+Turing patterns, 447
+Turing, A., 447
+unconstrained optimization, 594
+updating
+interpolating polynomial, 150
+upper Hessenberg form, 570, 591
+Van der Corput sequence, 465
+Van der Waal’s equation, 63
+Van der Waals force, 593, 609
+vector
+orthogonal, 198
+residual, 89
+vector calculus, 618
+volatility, 487
+Von Neumann stability, 399
+Von Neumann, J., 454
+wave equation, 413
+wave speed, 413
+Weather Underground, 219
+web search, 575
+well-conditioned, 53
+Wiener, N., 515
+Wilkinson polynomial, 49, 53, 54, 91, 557
+Wilkinson, J., 50
+wind turbine, 219
+window function, 554
+world oil production, 164
+world population, 157, 185
+Young’s modulus, 74, 107
+zero-padding, 548
+ziggurat algorithm, 461

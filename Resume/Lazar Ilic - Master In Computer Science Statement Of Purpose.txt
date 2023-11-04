@@ -1,0 +1,11 @@
+[Email potential Doctor Of Philosophy In Mathematics ~2035 advisors like Dr. Noga Alon at Princeton. Massachusetts Institute Of Technology, Harvard, Princeton, Stanford, Carnegie Mellon University, etc. Master Of Science In Computer Science degrees seem overpriced at ~$100000 not covered by a firm when one can research solo or in a Doctor Of Philosophy context. Credence ~0.7 ACcepted upon 2023-09-29 ~15:40|03:40PM.]
+
+I have been interested in mathematics for a very long time, since early middle school. During my Bachelor Of Science In Mathematics at the University Of Texas At Austin, I took my quantitative studies seriously and rigorously. I secured a job as a software engineer at .
+
+I have been preparing myself for graduate school with puzzles, online competitive programming, and academic research readings. I regularly place top 10 in Project Leonhard Euler tasks and top 500 in AtCoder and CodeForces 2-3 hour rounds. Competitors are tasked with producing robust and algorithmically strong C++ codes to complete tricky tasks. This has been tonnes of fun. I take online notes on these topics and mathematics in my public GitHub repository "Lazar".
+
+I also study Kaggle machine learning notebooks and approximation algorithms competitions online, such as the AtCoder heuristic series. Most of my research readings have been in algorithms and discrete mathematics, a mixture of historical archives and modern combinatorics. I also have thought about many state of the art papers in machine learning.
+
+I want to pursue an online Master In Computer Science degree to update my skill set and maintain a job in the competitive software engineer labour market. My primary goal is to sustain a long and lucrative career in computing. This is notoriously tough, but I am up for the challenge of hard courses and tasks in order to stay sharp and learning.
+
+My targets and incentives are aligned with those of prospective employers. Many firms love to see a Master degree. As I have a job, a part-time program suits my schedule well. To the extent that I can select my courses, I intend to focus on parallel computing, machine learning, and software engineering.

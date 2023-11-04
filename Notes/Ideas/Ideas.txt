@@ -1,0 +1,241 @@
+	Dating
+
+Use smooth deep voice. Do not be boring and repetitive. Practise talking with nubile graduate students at departmental tea times, talks, and events. Use simple English. 0 value judgements about culture. Ensure to have debit card, driver's license, check in online, secure mobile boarding passes, earplugs, charged up iPhone, laptop machine, toothbrush, toothpaste, floss, Blue + Green light blocking goggle goggles, sweater, sweatpants, ankle merino wool socks, etc. Take rigorous notes immediately afterwards in diary.
+
+	Letter To Free Real Estate Agent
+
+Hi,
+
+I am looking to rent an extremely quiet unfurnished 1-story 0-1500sqft house with a stone, tile, low-odour modern vinyl|wood, or concrete floor on ~2 acres in a cul de sac or in a neighbourhood far from noisy primary roads. I prefer for the house to not be recently repainted, a thermostat sensor in bedroom if possible, extremely bright unshaded sunlight in bedroom and living room, effective ventilation fan in bathroom, a laundry washer machine hookup in basement rather than in-unit, and am willing to pay up to $4000|month. Please send me a list and we can schedule times in the next 48 days to visit properties. In particular, these properties listed on your website looked like appealing candidates:
+
+[Ranked In Preference Order:]
+
+X
+
+Y
+
+Z
+
+[With Links And MLS Multiple Listing Service Identification Numbers]
+
+[Ping Directly Via All Platforms To Minimise Cost And Latencies]
+
+Sincerely,
+
+Lazar Ilic
+
+----------
+
+	3rd Pitch To YCombinator ~2023: Firm Firm Selling 99% Al Aluminum Rectangles
+
+	2nd Pitch To YCombinator ~2022: Zen Cubes
+
+	1st Pitch To YCombinator ~2021: Biologically Realistic Water Based Lubricant And Sex Toy
+
+----------
+
+	Predict Property Taxes
+
+Consider evaluating land markets.
+
+	Textifying .txtifying Program
+
+Reflecting upon my 538 Riddler Official Solutions.txt file production and errors in my Google Code Jam and CodeForces manipulations I realise that I ought to produce a fairly robust first pass filter script. Replace all sorts of interesting things in the Right order if desired like:
+
+"
+
+"
+
+To
+
+"
+
+
+"
+
+And
+
+"
+
+
+
+"
+
+To
+
+"
+
+
+"
+
+And so on and so on. "One " to "1 " and " one" to " 1". Written up elsewhere in my Ideas folder file Textifying.txt.
+
+	26|26 Optiver Trader Numerical LogIQ Test Film Screen Captured
+
+	10 Citations By 2025-12-31 Credence ~0.9
+
+	CodeForces - Master Challenge
+
+I ought to secure Master by 2024-12-31 credence ~0.9. Then primarily focus upon research|阿里巴巴 Global Mathematics Competition and a little Meta Facebook Hacker Cup preparation.
+
+	Rapper To Onion Headline
+
+Examples... Lazar Ilic: Solipsism And "Love". Gerald Earl Gillum: Unhumble Bay Area Poet Struggles With Alcohol Addiction And Liver Failure. Symere Bysil Woods: Spooky Lovey Rager Is Forced To Undergo "Mental" "Health" "Treatment".
+
+	Facebook Friends Graph
+
+After many tasks on this topic including a recent Tanya Khovanova Maths web log post:
+
+"
+A Random Pair of Friends
+24th December 2022, 02:32 pm
+Consider a group of people in which some are friends. We assume that friendship is symmetric: if Alice is Bob's friend, then Bob is Alice's friend. That means we can build a friendship graph where vertices are people and edges correspond to friendships. Let's assume that every person has at least one friend, so the friendship graph doesn't have isolated vertices.
+
+Darla needs to conduct research by surveying random pairs of friends. But first, she has to find those pairs. To ensure that the pairs are randomly selected, she must pick two random people from the group, contact them, and ask them whether or not they are friends. If they are, she gives them her questionnaire. If not, Darla wasted tons of time and had to keep looking.
+
+The group she is surveying is enormous. So, when she picks two random people, they typically have never even heard of each other. Bother!
+
+Darla decides to speed up the process. She would pick a random person, ask them for a list of friends, and then randomly pick one person from the list. Since every person has at least one friend, Darla always ends up with a filled questionnaire.
+
+Puzzle question. Why is Darla's method wrong? Can you describe the pairs of friends her method favours?
+"
+
+I decided to go ahead and scrape ~10000 mathematics contestants, MassTechers, CalTechers, etc. etc. and their .txt friends lists into a large .txt .csv file to process through my own analyses of the friends and the overall underlying friendship graph.
+
+	33dB Noise Reduction Rating Earplugs Optimiser
+
+I ought to compose a program in conjunction with a digital microphone instrument to observe and predict background noise in apartment and ping me to remove or insert earplugs and optimise this live feedback loop perhaps with in-the-loop subjective perceptions in the mixture. It would seem as though I have been far too error prone in both directions and am underoptimising a somewhat deleterious status quo bias situation.
+
+	Sleep Health Quality Air Temperature Humidity Optimiser
+
+I want a ~odourless ankle health metrics monitour instrument with which to optimise a smart thermostat at night towards cognitive health tasks performance metrics and objective underlying Grey Goo health correlates. Obviously mood tracking is an objective subjective perceptive mooshy woo realm of non sequitur to the cognoscenti biological hacking nootropics gang. Maybe run it for ~1 week every ~3 months to track an underlying optimised nightly temperature and humidity curve.
+
+	LaTeX Typo Detection
+
+Compose a program which reports errors, ignoring macros and commands.
+
+	Pizza Cutting Task Generalisations
+
+How to cut object X with Y cuts such that so and so metric is minimised e.g. want roughly equal volume slices.
+
+	Election Information Flow
+
+Contemplating priority of bits and bytes to inform e.g. a trading firm over the expected utility information theoretic value of what precisely.
+
+	Twin Primes
+
+Of course 1 funny immediate idea has to do with the naive ideas related to sieving and prime factorisations of twin pairs of the form p1 * p2 * p3 * ... +-1.
+
+	A Drunk Man Will Find His Way Home
+
+Not sure what sorts of papers have been written up on the topic of other sorts of random walks in Z2 and when they do have a P=1 of returning or where threshold values are.
+
+	Automated And Application For Temperature Control
+
+I am not sure how precisely to optimise in IO with respect to daily curves, and say humidity perception tracking if humidity is not easy to tightly control at all times.
+
+	John Isner Versus Nicolas Mahut
+
+Off the dome interview style one might Fermi estimate say 100 years of Wimbledon and 128 - 1 = 127 matches per is 12700 matches and say like even if it was a coin flip then [4 choose 2]/[2^4] go to a 5th set for obtaining the score of 2-2 after 4 sets. Then [10 choose 5]/[2^10] will be 5-5 after 10 games and then even say if the probability of pairing off the relevant game is a 0.9 advantage there is something like an expected number of matches going this long or longer to be ~ 1.53 so this is a really interesting spot to try and come up with a posterior on say the match being rigged and the players being in Kahoots to form a world record. Got me thinking about the precise details of claims about the most unexpected sporting statistics across all sports and like "random" pointless events captured in the Guinness World Records book which I viewed a few times as a child. Bad weak model.
+
+	Auction Rigging
+
+Consult the literature on the game theory, credence, optimality of actions, and strategies say if one is bidding on one's own auction to price manipulate in this market.
+
+	Simple Typeface Ideas
+
+Forget what has been done before, been a long time since I deeply studied these. Would love to do simple lines, simple lines restricted to vertical and horizontal, as well as a restriction to circle arcs and lines.
+
+	Wikipedia Quiz
+
+Perhaps based upon local, American page views count... uh somehow use Natural Language Processing or human generated test questions perhaps multiple choice. Could give a very quick immediate little data point for a proxy of "generally half educated" in a formalised numeric notion. Could be a fun little one, I am a little curious about my own potential performance here which I know would be quite a lot worse really than plenty of "130 IQ" Westlakers in fact.
+
+	538 Riddler Troops Allocation Task
+
+I am not sure if this task has been resolved in the Game Theory literature. In a setting, there exist n discrete territories say with values. And each player can allocate their troops accordingly with the winner, judged under some metric, of each territory winning all of that territory's value. Worth examining coalition structures.
+
+	The Boring Project
+
+Perhaps many things will fly to get me in for Quantitative Researcher or Software Engineer at a top trading firm at this point. Could demonstrate a bunch of Object Oriented Programming and principles maybe cook up like some boring exploration game something with maybe history and countries and like new countries and like I dunno trading and currencies foreign exchange between countries.
+
+	Trading Computer Science Software Engineering Projects
+
+I have observed many projects listed on Resumes and Curricula Vitae which apparently rose beyond the level of utterly boring into slightly unboring enough... perhaps I can in fact soon get to composing up some outperformant C for those Joshi tasks I left hanging a few months back and/or some linear algebraic parallel library.
+
+	Tetris Game Theory
+
+It is an interesting enough game, not in the combo setting but rather in the traditional Marathon setting or perhaps 40 Line clear setting under some metric where the earlier the line clears... really considering analysing the 5x10 well case with and without a variety of different bag settings and look ahead settings. Think the canonical bag and 5 look ahead might be interesting. Immediately the sort of 2^50*... ebonicspositions suggests that a naive True full dynamic programming enumeration of states and state based action set analysis will not work out and so this particular task may be well suited for a little case study in Reinforcement Learning. Perhaps even this could constitute a cool little project or even a mediocre paper submission on say the sort of precise hand waved value evaluations of the look ahead feature function in strategy. Just how useful is it really? I was flashing back to the Tetris Effect from my youth and just how funny the latency is when you primarily feel like your conscious attention is exclusively on the look ahead bar. Also, could consider metrics in fact related to DAS, Delayed Automatic Shift, so that hypothetical key strokes are penalised. Dunno about 4 wide i.e. a 4x10 well. Maybe I can smash this out today and generate some nice graphics and visualisations, .gif files, .mp4 files even make it all look real good custom colours minimalism and everything and then yay maybe Neural Information Processing Systems will even take this type of esthetic garbage about such a deeply canonical and fascinating game and hoi polloi will love it and go wild and think I am what is litty lit lit and interesting and then choose to hire me finally yay list it as a Paper/Project. Nah but seriously for real maybe this is the Key Idea I need to secure the bag as a Quantitative Researcher or Algorithms Developer or whatever. Ensure to include memory of the bag used thus far in the state as well as say the T-spin move and similar moves in the transition function or else the hardcore observers will think it was a too casual paper and model.
+
+	Tron Light Bike And Snake Slither Games
+
+Worth examining. Maybe we can also like study different coalitions teams with different speeds or functions. Discrete Z2 setting. Not even quite sure what has been said enumeratively about number of distinct paths or sets of paths from which starting points in which underlying points sets or asymptotics and comparisons. Simple setting of square and corner starting point. In the vein of that Inernational Mathematics Olympiad hook problem task composition technique of just enumerating anything and seeing where it goes to flip it into a paper submission to like the Electronic Journal Of Combinatorics if it gets mid or high brow enough.
+
+	Front End Design On News Feed Application
+
+I was thinking about about like colour hexes and Conrad Bassett-Bouchard. Now a User Experience Design Manager at Google. And the various things he did on the web log of the Collins Coalition at CoCo Scrabble. And Woogles.io. I might apply to Google Fi in fact but anyways thinking back to my News Feed application I want it to look really good. And be simple maybe simple horizontal rectangles and you click on the thing and it has all the raw .txt pre loaded 0 image files and then when you click it the .txt expands and then any relevant image files come in but it needs to have 0 latency on the .txt components in the feed. And maybe a summary up top to give the user the option to exit after reading that summary. In any case still working on some fundamentals and ideations for that project. And I want custom colour options but especially White on Black and Black on White as pre set button options for users. Call it New News.txt OK sketch this out a little further. I think I will pitch this 1 to Y Combinator right now cook it up mostly pro bono it just fuck it great idea.
+
+	Statistical Learning And Inference Final Project Brain Storming
+
+Analog to advertising where they maybe generate like 100 advertisements and then test iteratively to produce the best 1 maybe somehow try and take articles body texts to produce optimised Headlines for a news firm e.g. Kind of interested in predicting say views count from the body, or views count from the Headlines based on a more complete Headlines dataset, maybe this could be useful, maybe predict plays on YouTube films, Likes on Tweets, plays on Spotify system platform or whatever... dunno if this is all seriously well studied. Maybe simply hop in the mix on one of these Kaggle Deep Learning Tensor Graphics Processing Units tasks. Maybe there exist some bored YouTube or Spotify users and I could help them with playlist generation tasks.
+
+	Natural Language Processing Text File Productions
+
+This is the thing about an application right like OK we can provide OK book summaries to people who want to query a machine for an OK book summary. We have some online human generated sources on those topics. They communicate something about some possibly superficial depths of meanings, who can be quite sure or measure what. But if I am finna go on a nice little pleasant date with a girl say on a hike in New Braunfels and I want to read up on New Braunfels well I can read a ton of text files in advance. But I would kind of like my machine to know the words I had already read and then use that corpus in a trained way to produce for me a nice little 5 page summary which I could skim immediately prior to the date to really impress the chick and entertain her with random facts about the area I most liked.
+
+	Podcast: The Even More Partially Examined Life
+
+Maybe just start a little podcast here try and become mildly wealthy and extremely famous just get in the money off of a microphone and my own style of rapping ranting about whatever it is I think is funny or interesting in the news with my own oration analyses on the interconnected network try and pop[ular] off like Milo Yiannopoulos or Benjamin Aaron Shapiro [with whom I have selfies I have not yet posted in public]. Maybe I can just do Slavoj Zizek style ranting over clips from cinema and do little like 300s films on YouTube if I get a good microphone.
+
+	Dr. Zarathustra Brady Logic And Satisfiability Literature
+
+There existed some interesting papers and open tasks here which are certainly worth contemplating deeply at some point in time. In the mix to stew and brew upon if possible, unclear how much more background reading will be required or helpful.
+
+	Lazar Ilic News .txt Aggregator
+
+At some point I will definitely need to write up my own little script, natural language processing, to have a good set of 1000 headlines, as well as some selected paragraphs from say the top 100 articles of the day or so roughly and might post the code and output somewhere on my own personal GitHub page. This one is going to be a smash hit at the implicit name your price to opt in to pay I mean hit me at my Venmo any time to contribute to the funding of this poor struggling natural language processing artist. Miniature links for post facto clicking after skimming. Frequency, quantity, mix of "the news hoi polloi need not want", and also learning from their clicks.
+
+	Metaculus Performance Hacking
+
+Of course one ought to solve the News .txt Aggregator task and practice on an alternate first, produce robust performance, and then hop in the mix on the primary "Lazar" account. Read and scrape the entire site and run a variety of analyses on other users and auto analyses as part of maxing out the centaur style updating and post facto machine learning based "fixing" and automated updating prior to optimal perhaps latest time commit.
+
+	Deep Learning
+
+One task I thought maybe search a lower resolution image version for the lower resolution version of the target such that we are properly prone to overly matching and then execute further matching analysis upstream in those search regions of the higher resolution image.
+
+There exist pre processing algorithms which can be executed upon a dataset pointset based upon X alone which may indicate that executing a k nearest neighbours or any variant thresholded functionised k nearest neighbours algorithm will be weaker e.g. one may think a degenerate case of a bunch of sets of k+1 close dudes is bad.
+
+	Light Bike Game
+
+Generalisations, graphs, game theory, combinatorics?
+
+	IBM Ponder This Task
+
+Sometimes one tries a natural lattice mesh of points, say to test some function, or inequality, or to randomly execute as starting points for a gradient descent. But, is there some smaller set, leading to more computational ease, which nevertheless performs highly on relevant queries for relevant data sets?
+
+I would think that in the distribution it would make sense at the very least to have some distributions polynomially and exponentially approaching convex hull vertices and boundaries along various paths.
+
+	Kaggle Upvoted Comments Analysis
+
+Write up some natural language processing and a script to ping the Kaggle server to automatically take me from 5 bronze comments to 50 and hit the "Expert" rating on the platform.
+
+	Betting Mechanism
+
+If it was not written down for circumstances without markets or simply private individuals choosing to engage in this. I proposed that 2 parties, say 1 proposes to the other that they bet on an upcoming binary event using this mechanism. Then they can discuss a magnitude e.g. a simple negotiation hopefully leaking not too much information for a constant c. Then the mechanism itself simply consists of the 2 people simultaneously writing down a and b and then the bet is given by c*f[a,b] now for example one might hope to satisfy a variety of desiderata. If one uses f[a,b] is the natural simple bet with bettings odds implied at [a+b]/2 : 1-[a+b]/2 then for example perhaps some agents can be incentivized to write down True underlying credences and have a bet wherein the EV capture prior to updating on the new information is something or other. Now I mean the actual matters are the matters but I wanted to propose something where they aren't using a bet following a friendly and revealing discussion rather the 2 agents are interested in a kind of a "fair" way to immediately attempt to capture EV off of eachother say they both just think they have an edge or whatever.
+
+	Another Natural Language Processing Thought
+
+Maybe to help editors, myself included, of Wikipedia a simple trawl to collect potential blue link insertions in to articles so that Wikipedia becomes even more connected of a graph help give the reader more easy use value.
+
+	Introduction To Introductions
+
+I feel that quite a few people would really benefit from a big survey perhaps even with estimates on information and hours like not just a compilation of 10000 Wikipedia articles to read in one single text file but rather a sequence of theorems and definitions to give people some ideas about what is out there.
+
+In terms of topic categories as a starting point: rationality books, economics, biology, maths, computer science, cities, great men, politics, classics, religion, mythology, scientists, food, art, countries, philosophy, etc.
+
+	Anthropics
+
+I pinged Robin Hanson prior to Grabby Aliens with the thought that our existence implies there was not a light speed expansive takeover singularity in the history of our light cone and that in conjunction with the age of the universe and perhaps the numbers on abiogenesis credence one would deduce a very low posterior on the probability of abiogenesis producing such a singularity and of course it would then follow that we don't have much evidence of being a particularly unusual instance of abiogenesis and thus our probability of producing such a singularity may be lower than thought a priori. In terms of "reference class"es my perception is that a large number of philosophers and thinkers are totally wonky wacky and out of touch with reality. They don't understand the philosophy of the mind, tbe brain organ, human diversity in terms of cognitive research. And they really lack an understanding of logic and computer science 101. A lot of Not Even Wrong, just poo which is not well mathematically formulated at all really and precisification reveals just how empty and inane some of their textual strings are really.
+
+	.mobi, .epub, .pdf to .txt File Conversion
+
+So there exist many techniques such as calling the replace all function with line breaks, nulls, "PARAGRAPH", more line breaks in order to rapidly convert in to a legible .txt file of a book. But making this more automated would help some people. For example to rapidly produce these table of contents to notes .tex template files I use [ctrl c] [ctrl v] and then I call like 52 instances of replace all with " a" to " A" and "-a" to "-A" and then I replace all new lines with 3 new lines. Native .epub and .mobi to .txt file conversion can be very very good and it is worth trying multiple source files until producing a 0 error conversion and then calling the replace all function on "'" to "'" and """ to """ as desired e.g. one can even call on "Mr" to "Mr." and "Mrs" to "Mrs." etc.

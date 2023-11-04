@@ -1,0 +1,131 @@
+\Large
+Alibaba Global Mathematics Competition 2023 Qualifying Round \\
+Lazar Ilic
+
+% Hopefully OK to post up and distribute the tasks in public after the Alibaba Global Mathematics Competition 2023 Qualifying Round server confirmed submissions were taken and locked for the round at the official closing time + 5 minutes. Most likely OK I mean last year's .pdf file indicated nearly as such in the writing at the bottom of each page re: the confidentiality time period. In terms of me here today upon 2023-04-17 reviewing this round I would say I did quite badly, maybe a Top 500 submission here but this round is easily ACeable 100|100 content with Task 6 Part 2 and I ought to have executed Harder Better Faster Stronger writeups to be sure. Top 500 credence ~0.55.
+
+% OKOKOK update on 2023-06-05 is that I made it Rank 515 and the update is that in the future I ought to reread all task statements quite closely clearly carefully technically precisely multiple times... run more verification codes. And consider allocating time to executing stronger writeups and proofs rather than tanking excessively on a task such as Task 6 B here this year when writeups are worth more vis a vis versus Zachary Chase et al. update upon 2023-08-13 is that this writeup is pretty mediocre, weak, lacks strong onsights, and also credence only ~0.2 on Top 70 on the 2023 Final Round due to weak writing. I need to practise writing and onsighting mathematics too ugh. Update 2023-09-17 is that my final round score was so low I ought to not reveal the writing and furthermore need to work work work upon my writing in order to secure Top 70 next year which I know is ideationally possible. But I must work on my writing and perhaps hire a Chinese Mathematics Writing Tutor. I have pinged Yufei Zhao, Yuan Yao, Mehtaab Sawhney, Ashwin Sah, Evan Chen, Michael Druggan, et al. and proposed tutoring to them.
+
+1 \\
+One may test the Input cases using software such as Wolram Mathematica or Alpha. Plugging in equations, A will not work as it will never clear the horizontal asymptote $\sqrt{2}$ value and C and D will not work either as after they clear it they will actually descend down in to horizontal asymptotes not to $0$ and thus the only answer which can be verified to work here is $\boxed{\text{B Set }a=3\text{, kick the instrument, wait for the ball lightning radius to strictly}}$ $\boxed{\text{exceed }\sqrt{2}\text{, then set }a=-\frac{1}{3}}$.
+
+% https://www.wolframalpha.com/input?i=y%27%3D-y%2F4%2By%5E3-y%5E5
+
+\newpage
+2 \\
+There exist ways to obtain $2-\epsilon$. In particular one can configure a needle with multiplicity $4$ along the edges e.g. by contracting a mid-square to nearly a point and then also obtain that needle with multiplicity $\approx 8$ by contracting $2$ of the diagonal points on that square up and $2$ of them downwards. Convexity is preserved but thus it is a super duper squiggly squiggle. So the answer ought to be $\boxed{\text{ABCD} (0,2)}$.
+
+% Wrong here actually did not prove and consider other degrees cases in their extremal settings.
+
+\newpage
+3 \\
+If I read the task statement quite crystal clearly technically and precisely then this first step is free from the condition but I am not too sure and can run naive Python simulations under both assumptions to spot patterns in the first 20 or so and see what I think about parity and behaviour as $n \to \infty$ and so on and so on. So I will just go ahead and assume that we are ignoring odd writing on the leading steps and thus the answer I think is $\boxed{\text{B }n=32}$.
+
+\newpage
+4 \\
+Note that we may cycle around a square until exiting with 1 straight operation costing 1 in any of the 4 directions and thus the task isomorphs in to finding the shortest path of squares which starts and ends at 2 squares sharing at least 1 vertex and this path of squares becomes adjacent to each vertex along the way. Well, each new square can add at most 2 unvisited vertices to the vertex set so assuming the initial move is free and has cost 0 it is still the case that this gives a proof that 48 is certainly impossible as the 2 new dudes each round means we can not have the 2 previous edge dudes as well as 1 of the initial 4 back in means after 48 steps I think we are doomed to end up 2 steps away or else maybe there would be a way with 49 steps where on e.g. the 48th and 49th step we merely add back in 1 final each step 1 final unvisited vertex. Closely examining the uh $5 \times 5$ case is enlightening with respect to a parity of parity of parity argumentation I think that modulo $4$ in the induced sub grid like checkering there exists some argumentation that after uh 46 steps it is like uh I dunno seems to me that after $46$ steps $4$ more are still forced and so on and so on. I do not think that there can exist a viable path on $49$ steps here just seems like impossible to me. $\boxed{\text{B }50 \le S < 90}$.
+
+% Yikes misread on each crossing exactly once... should still hopefully make it in to the final round credence ~0.5 on 2023-06-04.
+
+\newpage
+5 \\
+1 \\
+This is canonical. For example we may set all of the values to be equal to $1$ except for $a_{1,n}$ and $a_{i+1,i}$ for all $1 \le i \le n-1$. Then by standard Linear Algebra manipulations we may take in the $n=4$ case for example:
+
+$
+\begin{vmatrix}
+1 & 1 & 1 & 0 \\
+0 & 1 & 1 & 1 \\
+1 & 0 & 1 & 1 \\
+1 & 1 & 0 & 1
+\end{vmatrix}
+=
+\begin{vmatrix}
+1 & 1 & 1 & 0 \\
+-1 & 0 & 0 & 1 \\
+0 & -1 & 0 & 1 \\
+0 & 0 & -1 & 1
+\end{vmatrix}
+=
+\begin{vmatrix}
+0 & 0 & 0 & 3 \\
+-1 & 0 & 0 & 1 \\
+0 & -1 & 0 & 1 \\
+0 & 0 & -1 & 1
+\end{vmatrix}
+=
+(-1)^{n-1} \cdot
+\begin{vmatrix}
+3 & 0 & 0 & 0 \\
+1 & -1 & 0 & 0 \\
+1 & 0 & -1 & 0 \\
+1 & 0 & 0 & -1
+\end{vmatrix}
+=
+(-1)^{2n-2} \cdot (n-1)
+=
+\boxed{n-1}
+$
+
+As desired. Where in the first step we subtracted off the $1$st row from each of the other rows all whilst preserving the determinant. In the $2$nd step we added each of the other rows to the $1$st row. In the $3$rd step we swapped the $n-1$ adjacent pairs of columns from Right to Left until that Rightmost column became the Leftmost column, and each swap induced a $-1$ multiplier in to the determinant. And then finally we evaluated the determinant via the usual diagonal multiplication for a Lower Left Diagonal matrix. In this particular case the $3$ merely stands in as a clear function of $n-1$ as desired and needed for the claimed.
+
+2 \\
+This is canonically known as the Hadamard Maximal Determinant Problem and for example the original papers and Online Encylopaedia Of Integer Sequences Entry A003432 immediately reveal the result, as does a simple casework bashing computational approach for example. But I think citing the Theorem presented in that entry is strong enough for full points right here in this submission as a proof rather than enumerating the casework or providing a simple written proof. 1 relatively simple argumentation can start dealing with the determinant and the volume of the underlying paralleliped for example maybe. See Theorems below. Certainly Coq or Lean could be manipulated or the C programming language to produce a rigorous machine-verifiable proof here. The $n=2$ case is rather trivial as clearly $a_{1,1}a_{2,2}-a_{1,2}a_{2,1} \le 1$ by maximising the $1$st term at $1=1 \cdot 1$ and minimising the $2$nd term at $0$ with a $0$ in the product. The $n=3$ case in particular follows from Hadamard and Barba and Williamson Theorem. In fact, so does the $n=4$ case too in particular from $f(4) \le 2^{-4} \cdot 5^{\frac{5}{2}} \approx 3.493856$ so Hadamard's Theorem works here to prove the claim as it must be an integer and hence this implies that $f(4) \le 3$.
+
+% Much simpler here to simply state Hadamard's Theorem and write down the implied desired numerics from there for not only the f(4) case but also the f(3) and f(2) cases in essentially a 1-liner proof by Theorem citation.
+
+3 \\
+Strong induction relating matrix determinants and powers of $n$ and powers of $2$ along with exponential blowup asymptotic factors can be utilised to produce the desired matrices in a recursive construction. Frankly I think that the worked out base cases in the range of $16-31$ or $16-63$ depending upon your sources will work in conjunction with the Theorem presented as early as On The Value Of Determinants by John H. E. Cohn. There they proved that $f(n) > n^{n\left( \frac{1}{2}-\epsilon \right)} \cdot 2^{-n}$ essentially and so in particular it suffices to note that this is $> n^{\frac{n}{4}}$ in our case as $n \ge 2023 \rightarrow n^{\frac{n}{4}-\epsilon} > 2^n = \left( 2^4 \right)^{\frac{n}{4}} = 16^{\frac{n}{4}}$ as $n >>> 16$ and thus the claim is proven by Theorem 13 from that paper there in conjunction with the contemporary Computer Algebra solutions presented at the Online Encyclopaedia Of Integer Sequences links for example at Archives of The Hadamard Maximal Determinant Problem by William P. Orrick and B. Solomon hosted at Indiana.
+
+\begin{verbatim}
+https://www.jstor.org/stable/2034278
+
+https://oeis.org/A003432
+
+https://web.archive.org/web/20200219170713/http://www.indiana.edu/~maxdet/
+\end{verbatim}
+
+% Well it basically suffices to show that there exists a way to obtain the value $> 2 n^{\frac{n}{4}}$ while leaving essentially a $3 \times 3$ Upper Lefthand square matrix as $I_3$. At which point we can then inductively recursively build via essentially what is sometimes known as lifting or a binary exponentiation strategy. That is to say that armed with $2$ such copies of that we may construct a larger matrix of size $2n \times 2n$ with determinant $> 2 \cdot 2 \cdot 2 \cdot n^{\frac{n}{4}} \cdot n^{\frac{n}{4}} = $
+
+% The Online Encyclopaedia Of Integer Sequences certainly provides cases for low-$n$ and in any case I think that the references and paper Determinants Of Binary Matrices Achieve Every Integral Value Up To $\Omega \left( \frac{2^n}{n} \right)$ clearly implies the desired as for example in the paper they give $d_n > \frac{1}{201} \cdot \frac{2^n}{n}$ for $n \ge 8$ is strong enough and it suffices to note that indeed then as also $\frac{1}{201} \cdot \frac{2^n}{n} > n^{\frac{n}{4}}$ is equivalent with $2^n > 201 \cdot n^{\frac{5n}{4}}$ LOL draft Failed.
+
+% Determinants Whose Elements Are 0 And 1 by John Williamson was half interesting as well. The Hadamard Maximum Determinant Problem by Joel Brenner and Larry Cummings. Lower Bounds For Maximal (0,1)-Determinants by K. W. Schmidt. On The Value Of Determinants by John H. E. Cohn.
+
+\newpage
+6 \\
+1 \\
+$\boxed{\text{Yes}}$. Certainly there does exist such a nonzero real number $s$, namely $\boxed{s=1}$ works! In particular it then suffices to show that in the limit as $n \to \infty$ the difference between $\left( \sqrt{2}+1 \right)^n$ and its nearest positive integer goes to $0$. Well this is canonical as for example irrational conjugate multiples of $\sqrt{2}$ cancel and thus $\left( \sqrt{2} + 1 \right)^n + \left( \sqrt{2} - 1 \right)^n$ is always a positive integer in the expansion with no non-integer components. Well then it suffices now to note that indeed $\lim_{n \to \infty} \left( \sqrt{2} - 1 \right)^n = 0$ and thus the Left hand side component in the sum will is in fact this precise quantity, the effective limit of the minimal distance under question.
+
+2 \\
+$\boxed{\text{No}}$. In particular we may assume that there did exist such an $s$ value. Consider the canonical results about linear recurrences, and in particular degree-$2$ linear recurrences such as the famous Fibonacci Sequence. Well in particular if we consider the sequence of closest-positive-integers generated via $s$, that is to say $\text{NearestInt}(s(3+\sqrt{2})^n)$, and the given exponentiation this sequence will eventually be generated via a similar linear recurrence and generating function. In particular $x^2-6x+7$ and $g_n = 6 g_{n-1} - 7 g_{n-2}$. Otherwise we would have an immediate contradiction at any moment of deviation from that sequence with respect to the underlying modulo $1$ argumentation. So then the fundamental integrality I mean the fact that these initial values there are integers implies that the solution for an explicit formula is, a la Alfred Binet, of the form $g_n = a(3+\sqrt{2})^n + b(3-\sqrt{2})^n$. And in particular $b$ must be nonzero as otherwise the $n=0$ case immediately implies $a$ must be an integer but then the $n=1$ case would imply a contradiction on the integer rationality of $g_1$ supposing that $b=0$. Well then there is a contradiction as $\lim_{n \to \infty} \frac{g_n}{(3+\sqrt{2})^n} = a$ however this implies that $s=a$ but then in reverse producing terms outwards we get an immediate contradiction as the inequalities $b \neq 0$ and $|3-\sqrt{2}| > 1$ imply that this error term does not go to $0$ namely we have that $\lim_{n \to \infty} b(3-\sqrt{2})^n \neq 0$ which implies we are doomed to deviate non trivially from that underlying integer sequence and will thus never be able to attain the desired limit of $0$.
+
+% This argumentation is weak and certainly partially Wrong or almost fully Wrong. For example (x^2-6x+7)(x-1) = x^3-7x^2+13x-7 yields g_n = 7g_{n-1} - 13g_{n-2} + 7g_{n-3} which will also uh asymptote off to that ratio in consecutive terms and yet still we can uh ensure there is a nonzero coefficient on such a term perhaps on the other same term with the -sqrt{2} factor as needed.
+
+\newpage
+7 \\
+(a) \\
+This follows immediately via a strict domination smoothing argument. See the following Theorems cited below in links and papers and references.
+
+(b) \\
+This is extremely well known and canonical in the literature known as the Secretary Problem with answer of $\boxed{\frac{1}{e}}$ being well known and understood.
+
+\begin{verbatim}
+https://en.wikipedia.org/wiki/Secretary_problem
+\end{verbatim}
+
+(c) \\
+$\boxed{p^{\frac{1}{1-p}}}$ is a Theorem proven in A Secretary Problem With Uncertain Employment by M. H. Smith.
+
+\begin{verbatim}
+https://www.jstor.org/stable/3212880
+\end{verbatim}
+
+% Also interesting is Generalising The Secretary Problem With Rank-Dependent Rejection Probability by Mitsushi Tamaki et al.
+
+% It firstly ought to be noted that for example as we take and consider for a fixed $N$ the $\lim_{p \to 0}$ note that we will want to never reject a candidate in fact as the Probability of success is $\approx p$ and in particular I meant it is $\approx p \cdot \left( \frac{N-m_N+1}{N} \right)$ for the potential viable positions and the uniform random distribution of the underlying. So it is clear that as $\lim_{p \to 0}$ we have that $m_N \to 1$, that is to say simply give every single candidate in line the offer and when we reach the optimal Rank $1$ candidate with Probability $\approx 1$ almost always then hope that here this $\epsilon p$ pseudorandom number generation Win does occur.
+
+% This then leads us to hypothesising a natural answer of the form $\frac{f(p)}{e}$ for some function $f$ of the probability $p$ and in particular $f(p)=p$ or some relatively simple polynomial in $p$ for a final True underlying value of $\frac{p}{e}$. Now this can be experimentally verified for relatively low-n cases in Python or any other programming language of choice du jour. And in particular we may update upon simulations to a strong posterior of rejection i.e. a negligible posterior credence upon such a naive simple hypothesis which is not even really in line with intuition on the underlying structure here and might aspire towards producing a kind of a 1st 2nd 3rd order Taylor Polynomial Series sort of an approximation of an say n ~ 200 bash simulations.
+
+% OK so we want to maximise the Probability of winning for large $n$ this is functionally equivalent with computing for a random sample I think uh just simple Uniform $[0,1]$ variables should produce the same probabilities so we want to know what is the optimal fraction to capture and can do casework based around the distribution of number which clear it and hence the underlying probability of capture is based around that and an exponential in $1-(1-p)^b$ essentially. Thus we may transform this in to a question about relatively simple structures in multivariable calculus integral with respect to underlying simplices.
+
+% In any case I think that fully expanding this out using stars-and-bars and Combinatorics and then taking the limit and making some observations about the distribution of maximums-thus-far will help us to crack the task when our numerical estimate Python program suggests that $\frac{p}{e}$ is possibly Wrong. So we might need to more closely examine the Online Encyclopaedia Of Integer Sequences as well as some of the usual books like Stanley and consider Generating Functionology etc. potential avenues for cracking this asymptotic more simply here in round to a relatively full precision perhaps we may even produce a relatively tight formula up to $2$nd degree or higher terms for medium-large $n$-values rather than simply the $1$st-order asymptotic in the limit of the fraction needed for this task where I think Uniform $[0,1]$ suppositions would suffice to produce that requested value.

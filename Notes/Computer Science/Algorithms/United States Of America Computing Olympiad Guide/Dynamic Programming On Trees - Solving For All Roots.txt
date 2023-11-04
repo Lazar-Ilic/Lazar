@@ -1,0 +1,359 @@
+OKOKOK
+
+	Tree Distances I
+
+// first, find node a by finding the farthest node from an arbitrary node x
+// then, find node b (this step also computes distance from a to every other node)
+// finally, compute the distance from b to every other node
+
+"
+// dist[0][i] = distance from node a to node i
+// dist[1][i] = distance from node b to node i
+int dist[2][200000];
+vector<int> adj[200000];
+ 
+int dfs(int u, int p, int d, int i) {
+	dist[i][u] = d;
+	int opt = -1;
+	for (int v : adj[u]) {
+		if (v != p) {
+			int x = dfs(v, u, d+1, i);
+			if (opt == -1 || dist[i][x] > dist[i][opt]) opt = x;
+		}
+	}
+	return opt == -1 ? u : opt;
+}
+"
+
+"
+Solution - Tree Distances I
+
+ResourcesCPH14.3 - All Longest Paths
+
+NoteThis problem previously appeared in
+Intro to Trees. This is an
+alternate solution to the problem.
+
+It is a common technique to calculate two DP arrays for some DP on trees problems. Usually one DP array is responsible for calculating results within the subtree rooted at $i$. The other DP array calculates results outside of the subtree rooted at $i$.
+
+The focus problem asks us to find for each node the maximum distance to another node. We can divide the problem into two parts.
+
+Define $f[x]$ as the maximum distance from node $x$ to any node in the subtree rooted at $x$, and $g[x]$ as the maximum distance from node $x$ to any node outside of the subtree rooted at $x$. Then the answer for node $x$ is $\max(f[x],g[x])$.
+
+$f[x]$ can be calculated using a DFS since $f[x]=\max(f[c])+1$, where $c$ is a child of $x$.
+$g[x]$ can also be calculated using a DFS as $g[c]=\max(g[x]+1, f[d]+2)$, where $c$ and $d$ are both children of $x$ with $c \neq d$.
+
+
+To calculate $g$ in linear time, we can define another array $h$ such that $h[x]$ is the largest distance from node $x$ to any node in the subtree rooted at $x$ excluding the child subtree that contributed to $f[x]$. So if $f[x]$ is transitioned from the branch with $c$, $g[c]=\max(g[x]+1,h[x]+1)$. Otherwise $g[c]=\max(g[x]+1,f[x]+1)$.
+"
+
+	Tree Painting
+
+"
+CF - Tree PaintingAuthor: Yash Singh
+Language: C++Edit This PageAppears InGold - DP on Trees - Solving For All RootsView Problem Statement
+Table of ContentsExplanationImplementation
+Official Editorial
+Explanation
+Notice that choosing a leaf node is more optimal than
+choosing anything in the middle because that way we have the entire size of the
+rest of the tree as a part of the leftover connected component. This hints for a
+DP on Trees solution, where we choose one leaf node, work our way up through
+that leaf node's ancestors and work our way down for each of our ancestor's
+siblings, incorporating the maximum possible cost for each of their subtrees.
+For example, for the following tree:
+
+If we select the 4th node as our starting point, then the process would look
+like the following:
+
+Work our way up to 3
+Work our way down to 5
+Work our way up to 1
+Work our way down to 2
+
+We need to maintain the cost of two different scenarios for each node: working
+up from a leaf node to the current node and working down from the current node
+throughout its whole subtree, meaning that we have to maintain 2 DP arrays.
+Let's define the DP transitions for each of the arrays. We will use $dp_1$ for
+the cost of working down and $dp_2$ for the cost of working up and $sz$ for the
+size of a subtree.
+$$\begin{align*} sz[u] &= 1 + \sum_{c\in child(u)} sz[c] \\ dp_1[u] &= sz[u] + \sum_{c\in child(u)} dp_1[c] \end{align*}$$
+We can calculate this DP array with a single DFS search. Now, for the second DP
+array:
+$$dp_2[u] = \max_{c\in child(u)} (((sz[u] - sz[c])\cdot (\texttt{distance to initial node}+1)) + dp_2[c] + \sum_{d\in sibling(c)}dp_1[d])$$
+There is still one problem though. The cost of $sz[u] - sz[c]$ is multiplied by
+the number of nodes between the current node and the initial node inclusive.
+However, we can't anticipate this number beforehand, and we might have some
+ancestor node later on which would have prefered a higher distance over a higher
+cost. This means that we need to incorporate the $sz[u] - sz[c]$ for every
+ancestor node when initializing the $dp_2$ value for leaf nodes. That way we, it
+will be incorporated into the cost beforehand and we don't need to worry about
+choosing the wrong initial node with an inoptimal ending cost.
+We can calculate these initial values with another DFS search before the one
+calculating the values for $dp_2$. That way we can remove the term including
+$sz[u] - sz[c]$ from the recurrence formula for $dp_2$. To calculate these
+initial values, we notice that every time we go down by one depth, we add size
+of all the siblings and parent combined two times, one for the parent, and once
+for the current node. We also add the cost of all the ancestor's siblings and
+parent combined once more. Let's say $p_2[u]$ is the initial cost for a leaf
+node $u$, and $p_1[u]$ is the cost of the ancestor's siblings and parent
+combined till $u$. Then we can calculate $p_1[u]$ and $p_2[u]$ using the
+following recurrence:
+$$\begin{align*} p_1[u] &= p_1[p] + sz[p] - sz[u] \\ p_2[u] &= p_2[p] + p_1[u] + sz[p] - sz[u] \end{align*}$$
+"
+
+	AtCoder Dynamic Programming Contest - Subtree
+
+"
+AtCoder DP Contest - SubtreeAuthors: Benjamin Qi, Andi Qu
+Language: C++Edit This PageAppears InGold - DP on Trees - Solving For All RootsView Problem Statement
+Table of ContentsSolving For One RootSolving For All RootsImplementation
+Solving For One Root
+Let's consider a simpler problem:
+
+Assuming that node $1$ is painted black, how many ways can we paint the tree?
+
+First, root the tree at node $1$. Let $dp[i]$ be the number of ways that we can
+paint the subtree of node $i$ such that either node $i$ is colored black, or no
+nodes are colored black. Note that if $i$ is a leaf, then $dp[i]=2$ (we choose
+to color node $i$ black or not).
+For each child $c$ of $i$, there are $dp[c]$ ways to paint its subtree if $i$ is
+painted black. This means that we have the recurrence
+$$dp[i]=1+\prod_{c \in \text{Children of } i} dp[c]$$
+where the product corresponds to painting node $i$ black and the $1$ corresponds
+to painting node $i$ white.
+The answer to the simpler problem is thus $dp[1]-1$. Finding all $dp[i]$ takes
+$\mathcal{O}(N)$ time.
+Solving For All Roots
+First, root the tree arbitrarily and do a DFS to find all $dp[i]$.
+Let $dp2[i]$ be the number of ways to colour the tree if we remove node $i$'s
+subtree such that either the parent of $i$ is black, or no nodes are colored
+black. Note that $dp2[1]=1$.
+The number of ways to paint the tree if we know node $i$ is black is simply
+$(dp[i]-1)\cdot dp2[i]$. How can we find $dp2[i]$ efficiently though?
+The basic recurrence for computing $dp2[i]$ is
+$$dp2[i] = 1+dp2[\text{Parent of } i] \cdot \prod_{s \in \text{Siblings of } i} dp[s]$$
+where the product corresponds to painting the parent of $i$ black and the $1$
+corresponds to painting the parent of $i$ white.
+Since $M$ isn't guaranteed to be prime though, we can't just find the product of
+each node's children and divide that product by each of its children's $dp[i]$
+(since we can't find modular inverses easily).
+However, notice how if node $i$ is the $k$-th child of its parent, then we can
+use prefix and suffix products to compute
+$$\prod_{s \in \text{Siblings of } i}dp[s]$$
+without using division. (i.e. We find the product of $dp[s]$ for the first to
+the $(k - 1)$-th child of $i$'s parent, the product of $dp[s]$ for the
+$(k + 1)$-th to the last child of $i$'s parent, and then multiply those
+together.)
+Finding all $dp2[i]$ takes $\mathcal{O}(N)$ time using a DFS, so the total
+complexity of this algorithm is thus $\mathcal{O}(N)$.
+"
+
+	Balkan OI 2017 - City Attractions
+
+"
+Balkan OI 2017 - City AttractionsAuthor: Andi Qu
+Language: C++Edit This PageAppears InGold - DP on Trees - Solving For All RootsView Problem Statement
+Table of ContentsIntroductionA simpler problemFinding all tit_iti​ImplementationAlternative Code (Ben)
+Introduction
+Let the node that Gigel goes to from node $i$ be $t_i$. Since the graph made
+from the directed edges $i \rightarrow t_i$ is a
+functional graph, we can use
+binary jumping or any other efficient method to find the final
+node.
+Now we only need to find all $t_i$ and we are done! However, this isn't as
+straightforward as it sounds...
+A simpler problem
+Let's consider a simpler problem: suppose we root the tree at node $1$ and Gigel
+can only move down the tree (don't worry about the leaves). In this problem, we
+can find all $t_i$ (and $a[t_i] - dist(i, t_i)$) using a simple tree DP:
+Let $dp[i]$ be the node in the subtree of $i$ (excluding $i$ itself) such that
+$a[dp[i]] - dist(i, dp[i])$ is maximized. Additionally, we store this value in
+the DP array. We can find $dp[i]$ by taking the best of $c$ and $dp[c]$ over all
+children $c$ of $i$.
+This algorithm runs in $\mathcal{O}(N)$ time.
+Finding all $t_i$
+Obviously, the solution to the simpler problem doesn't solve the general
+problem: we might need to move up into a node's parent!
+To address this issue, we can first do a DFS to find $dp$ as defined above, and
+then do a second DFS to allow moving to a node's parent. See the
+solving for all roots module if you're unfamiliar with this
+technique. Essentially, we find the best destination from $i$ if we move up into
+$i$'s parent and then compare that with $dp[i]$.
+After doing this, $dp[i]$ is simply $t_i$ as desired.
+These two DFSes run in $\mathcal{O}(N)$ time, so the final complexity is
+$\mathcal{O}(N + \log K)$ (from the binary jumping).
+"
+
+	Directory Traversal
+
+"
+(Analysis by Dhruv Rohatgi)
+We are given a collection of directories and files, and asked to find the directory from which the sum of relative paths to files is minimized. Abstractly, this is a graph problem: the collection of directories forms a tree, where the files are special leaves of the tree, and there are two weights on each edge. For instance, if the weight from node u
+ to node v
+ is wuv
+, this means that any relative path ending at u
+ (but not passing through v
+) must be extended by w
+ characters to obtain a relative path for v
+. There is a corresponding weight wvu
+, which may not be equal to wuv
+.
+
+So we want to find, for each node in the tree, the sum of path lengths from the node to special leaves. Our answer will essentially be the minimum sum, although depending on how exactly the weights are chosen, some care should be taken with counting backslash characters correctly.
+
+Now the question is how to compute the sums. For each node, split the sum into an up-sum and a down-sum, where the down-sum counts paths to special leaves in the node's subtree, and the up-sum counts paths to all other special leaves. Then the down-sum of a node is almost equal to the sum over all its children of their down-sums: every special leaf in the node's subtree is counted by exactly one of the children. So we must simply account for how much each path increased. For a particular child, all paths in its subtree increased by the weight of the (directed) edge from the node to the child. This means that given the number of special leaves in each child's subtree, and the down-sum of each child, we can compute the down-sum of the parent node. Therefore we can compute all down-sums in a single depth-first search.
+
+We can compute the up-sums in a second depth-first search, as follows. Fix some node u
+ with parent p
+. Every special leaf not in the subtree of u
+ is either not in the subtree of p
+, or in the subtree of a different child of u
+. So the up-sum of u
+ can be computed from the up-sum of p
+ (for the first case), the down-sum of p
+ minus the contribution of u
+ to this down-sum (for the second case), and the weight of the (directed) edge from u
+ to p
+ (since all paths increase by this length when extended from p
+ to u
+), and the number of special leaves not in the subtree of p
+ (since this is the number of paths whose lengths increase by that weight).
+"
+
+	2010 - Patrol
+
+"
+Patrol: Solution
+The road network forms a tree T. A tree with N nodes has N − 1 edges.
+In T, the length of a tour that visits all edges is 2(N − 1), because each edge
+is visited twice. Recall that adding edges into a tree creates cycles.
+Simpler case
+We consider a simpler case when K = 1. Suppose that we add edge e to
+T. The resulting graph T" contain exactly one cycle C. The cheapest tour
+visiting all edges uses each edge in C once and all other edges twice. Denote
+C − e as path P. The new length of the required tour is
+2(N − 1) − L + 1
+where L is the length of P. Thus, for K = 1, we need to find the maximum
+path length for paths in T. This value is called the diameter of T.
+There are many ways to find the diameter. We shall use dynamic programming, which can be turn to be the solution for the general case.
+First we root the tree at some node r; the parent-child relation between
+adjacent nodes can be defined naturally. For each node u, let H[u] denote the
+length of the longest path from u to some of its descendants. We can compute
+H[u] for each u, in O(N) time, using a simple dynamic programming.
+Consider the longest path P, let node u be the node on P closest to the
+root r. By definition, u is unique. Given u, the length of P must be either
+H[u], if u has one children, or
+max
+v,w : different children of u
+(2 + H[v] + H[w])
+when u has more than one children. The value above is important to the
+case where K = 2 as well, so let’s define it as L[u]. Formally, L[u] is the
+maximum length of paths containing u such that u is the closest node to root
+r.
+Thus by enumerating all nodes, one can find the length of the longest
+path; thus, one can compute the answer to the case where K = 1.
+When K = 2
+Let’s call both edges e1 and e2. Let path Pi be a unique path that join two
+endpoints of ei, also let’s call a unique cycle induced by adding each edge ei
+(separately) as Ci. Note that Ci is a union of Pi and ei.
+English – Version 0.1
+Page 13/16
+Asia-Pacific Informatics Olympiad 2010
+Patrol: Solution
+Figure 1: (a) Edges e1 and e2 are shown as dashed lines. Paths P1 and P2
+intersect. The intersection is shown as thick line. In the tour, these edges
+must still be traversed over twice. (b) The new edges f1 and f2 are shown
+as dashed lines. Note that the number of times each edge on the tree is
+traversed on is the same as before.
+When P1 and P2 are disjoint, the length of the desired tour that traverses
+all edges is
+2(N − 1) − |L1| − |L2| + 2
+where Li is the length of Pi.
+It gets more complicated when Pi’s intersect. However, since one must
+traverse on each ei exactly once, it is not hard to prove the following claim.
+Claim: If P1 and P2 intersects, there is another pair of edges f1 and f2
+such that the paths joining each edge’s endpoints are disjoint, and the length
+of the tour traverses all edges in T + f1 + f2 is the same as in T + e1 + e2.
+The proof is left out, but Figure 1 illustrates the idea of the proof.
+From the claim, to find how to add two edges to minimize the tour, we
+need to only consider finding a pair of disjoint paths whose sum of lengths is
+maximum. This, again, can be solved using dynamic programming in O(N)
+time.
+Beside H[u], we need other variables. Let Tu be the subtree rooted at u.
+We define:
+• A[u] is the maximum length of paths inside Tu.
+• B[u] is the maximum sum of lengths of any pairs of edge-disjoint paths
+P and Q in Tu such that one endpoint of P is u.
+Figure 2 shows examples of paths considered in A[u] and B[u].
+English – Version 0.1
+Page 14/16
+Asia-Pacific Informatics Olympiad 2010
+Patrol: Solution
+Figure 2: (a) Paths considered in A[u]. (b) A pair of paths considered in
+B[u].
+Let ch(u) denote the number of children of u on the rooted tree T. It
+takes O(ch(u)) time to compute A[u] from information from its children by
+taking the maximum of A[v] for all children v of u and L[u].
+To compute B[u], a straight-forward implementation takes O(ch(u)2)
+time. A careful implementation only takes O(ch(u)) time. (See discussion in
+the next section.)
+With A’s and B’s of all child nodes of u at hand, one can find D[u] the
+maximum sum of lengths of pairs of paths P1 and P2 such that
+• P1 and P2 are disjoint,
+• P1 contains u, and
+• Among all nodes in P1 and P2, u is the closest to root r of T.
+Again, a careful implementation runs in O(ch(u)) time. Easier implementations that run in O(ch(u)2) time and O(ch(u)3) time exist. We discuss
+the implementations later.
+After computing all O[u]’s, the minimum length of the desired tour is
+2(N − 1) − maxu D[u]+2
+Computing B[u] and D[u]
+We first discuss how to compute B[u]. Let CH(u) denote u’s children. Recall
+that B[u] is the maximum sum of the length of a pair of edge-disjoint paths
+P and Q such that u is one end of P.
+There are many cases to for P and Q:
+English – Version 0.1
+Page 15/16
+Asia-Pacific Informatics Olympiad 2010
+Patrol: Solution
+• Case 1: Both P and Q contains u. In this case, we can compute B[u]
+by finding 3 children with largest hight.
+• Case 2a: P contains edge (u, v) for some child v in CH(u), and Q also
+lies entirely in Tv. In this case, we have that B[u]=1+ B[v].
+• Case 2b: P contains edge (u, v) for some child v in CH(u), but Q lies
+entirely in Tw for some child w not equal v. In this case, B[u] =
+1 + H[v] + A[w].
+Case 1 and Case 2a can be considered in O(ch(u)) time. By checking
+all pairs of children in CH(u), we can consider Case 2b in O(ch(u)2) time.
+The time can be reduced to linear by noticing that we can preprocess by
+finding a child x with maximum A[x]. With that, we can consider the value
+of 1 + H[v] + A[x] when v is not equal to x, and 1 + H[x] + maxw#=x A[w]
+when v = x. The total running time is O(ch(u)).
+The same idea can be applied to computing D[u]. In this case we want
+to find two edge-disjoint paths P and Q in Tu. There are 3 cases to consider:
+• Both P and Q contain u.
+• Neither P nor Q contain u.
+• One contains u.
+The first two cases are easy to implement to run in time O(ch(u)). The
+last one can be implemented to run in O(ch(u)3). The idea from the computation of B[u] can be applied here to reduce the running time to O(ch(u)2)
+and O(ch(u)).
+Scoring
+Since optimizing the computation of B’s and D’s are not the essential part
+of the task, solutions that uses both O(ch(u)3) and O(ch(u)2) per node u
+should score the majority of the test cases.
+"
+
+	2017 - Hard Route
+
+See uh I do not really want to violate copyright laws here frankly better and uh chiller to simply observe these documents myself privately at my own pace and comprehend what I will about executing trees and graphs tasks live in round soon hopefully hit 1-Dan GrandMaster BlackBelt from Proto IO 2 in 2023 or 2024 ungh.
+
+	2014 - Beads
+
+
+
+	2020 - Star Trek
+
+
+
+	Cow At Large
+

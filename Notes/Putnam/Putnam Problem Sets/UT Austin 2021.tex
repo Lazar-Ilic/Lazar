@@ -1,0 +1,170 @@
+\Large
+
+\textbf{1}
+
+1 \\
+Note that $f_1 (11)=1^2+1^2=1+1=2$, $f_2 (11)=f(2)=2^2=4$, $f_3 (11)=f(4)=4^2=16$, $f_4 (11)=37$ similarly, $f_5 (11)=58$, $f_6 (11)=89$, $f_7 (11)=145$, $f_8 (11)=42$, $f_9 (11)=20$, $f_{10} (11)=4$, and thus the involution becomes cyclic from hereon out and thus $f_{2021} (11) = f_{5} (11)=\boxed{58}$.
+
+2 \\
+$\boxed{c(n)=n}$. Indeed, for each $i=1,2,\dots,n$ there exists precisely $1$ such representation using $i$ summands. This can be explicitly derived in terms of multiplicities of the floor and ceiling function of $\frac{n}{i}$ in conjunction with the $1$ gap bound.
+
+3 \\
+Indeed, the right hand side naturally factors as $(1+1)(1+1)\dots(1+1)(1+x_1x_2\dots x_n)$ but another idea is smoothing, and yet another idea is induction. It suffices to note that $(1+x_1)(1+x_2)=1+x_1+x_2+x_1x_2 \le 2+2 x_1 x_2$ as indeed $x_1+x_2 \le 1+x_1 x_2$ as indeed $(x_1-1)(x_2-1)\ge 0$. Now the induction step follows as it suffices to note that $2^{n-1}(1+x_1x_2\dots x_n)(1+x_{n-1}) \le 2^n (1+x_1x_2\dots x_{n-1})$ as indeed this is the $n=2$ case in disguise with the first term replaced by the previous product!
+
+4 \\
+The determinant is $\boxed{0}$. Indeed the first row plus the third row is, by $\cos(a)+\cos(b) = 2\cos \left(\frac{a+b}{2} \right) \cos \left(\frac{a-b}{2} \right)$, $2\cos(3)$ times the second row, and thus the rows are linearly dependent.
+
+5 \\
+There exists a fundamental theorem which leads to a one liner of this assertion. However, one can note that $a^2=(b\sqrt{2}+c\sqrt{3})^2=2b^2+3c^2+2bc\sqrt{6}$ which re arranges to $a^2-2b^2-3c^2 = 2bc\sqrt{6}$ and if both $b=c=0$ we deduce $a=0$, if one of them is $0$ then we deduce a contradiction on irrationality a la canon, or neither are $0$ whence $\frac{a^2-2b^2-3c^2}{2bc} = \sqrt{6}$ and again a contradiction on irrationality.
+
+6 \\
+Intuitively one notes ideas about translations to the origin, affine transformations to algebraic manipulations, case work on the pair of complex conjugates root case, a derivative producing a tangent line which can be slightly shifted or wiggled, but an asymptotic growth analysis gives rise to the solution $y=cx$ for sufficiently large $c$ in the without loss of generality $p(x)=x^3+ax^2+bx$ case as indeed the intersection will be precisely when the difference is $0$ i.e. $x^3+ax^2+(b-c)x=0$ and for sufficiently large $c$ this has two nonzero real roots as the discriminant of the resultant quadratic ignoring the origin $x^2+ax+b-c=0$ is $a^2-4(b-c)=a^2-4b+4c$ grows arbitrarily large and e.g. clears the $0$ threshold.
+
+\newpage
+
+\textbf{2}
+
+1 \\
+Note that this is $\frac{1-2(3x+b)}{x(3x+b)}=\frac{(1-b)-6x}{bx+3x^2}$ whence for $\boxed{b=1}$ we obtain $\boxed{-6}$
+
+2 \\
+$\int_0^1 \frac{x^4(1-x)^4}{1+x^2} = \int_0^1 x^6-4x^5+5x^4-4x^2+4-\frac{4}{1+x^2} = \boxed{\frac{22}{7}-\pi}$
+
+3 \\
+Putnam.
+
+4 \\
+Recall that $\ln(ab)=\ln(a)+\ln(b)$ and that $a^3+b^3=(a+b)(a^2-ab+b^2)$ whence one obtains that the desired is $\sum_{n=2}^{\infty} \ln \left(\frac{(n-1)(n^2+n+1)}{(n+1)(n^2-n+1)} \right) = \sum_{n=2}^{\infty} \ln(n-1)+\ln(n^2+n+1)-\ln(n+1)-\ln(n^2-n+1) = \boxed{\ln \left(\frac{2}{3} \right)}$
+
+5 \\
+Let $I(a)=\int_0^{\infty} \frac{\arctan(ax)-\arctan(x)}{x} dx$. Then one obtains that $I'(a)=\int_0^{\infty} \frac{1}{1+a^2 x^2} dx = \frac{1}{a} \int_0^{\infty} \frac{a}{1+a^2 x^2} dx = \frac{1}{a} \cdot \arctan(ax) |_0^{\infty} = \frac{\pi}{2a}$. $I(1)=0$ and the desired is $I(\pi)$ by construction whence we obtain by integrating $\int_1^{\pi} \frac{\pi}{2x} dx = \frac{\pi}{2} \ln(x)|_1^{\pi} = \boxed{\frac{\pi}{2} \ln(\pi)}$
+
+6 \\
+The derivative $\frac{f'(x)x-f(x)}{x^2} > 0 \iff f'(x)x > f(x)$ graphically as e.g. the tangent line to the curve intersects the $y$-axis below the origin, and thus shifting this line up to the origin produces precisely this value above that value. But mathematically one would write $f(x)=f(x)-f(0)=f(x)-0=\int_0^x f'(t)dt < \int_0^x f'(x)dt = f'(x)x$
+
+7 \\
+Noting $(1+2)^3=1+6+12+8$ one obtains that $(e^{\frac{x}{2}}f(x))'=\frac{1}{2}e^{\frac{x}{2}}f(x)+e^{\frac{x}{2}}f'(x)$ and that $(e^{\frac{x}{2}}f(x))'''$ implies the desired in conjunction with the fact that $e^{\frac{x}{2}}$ has no zeros.
+
+8 \\
+By Cauchy-Schwarz one obtains $\left(\frac{1}{x}+\frac{1}{y}+\frac{1}{z} \right)(x+y+z) \ge (1+1+1)^2 = 3^2 = \boxed{9}$ with equality for $x=y=z=\frac{1}{3}$
+
+9 \\
+Indeed $n!=1 \cdot n \cdot 2 \cdot (n-1) \dots$ and for each pair one obtains that $a \cdot (n+1-a) < \left(\frac{n+1}{2} \right)^2$
+
+10 \\
+AM-GM directly to $9$ symmetric terms on the LHS.
+
+\newpage
+
+\textbf{3}
+
+1 \\
+For each $i$ it can not be in $0$ or $3$ of the sets, thus $(2^3-2)^{10}=\boxed{2^{10} 3^{10}}$
+
+2 \\
+Putnam. Contradiction otherwise one obtains that $12(0+1+2+3+4) \le 3 \cdot 39$
+
+3 \\
+$4$ squares partition, $\boxed{\text{no}}$ consider the set of the center and arbitrarily close to the $4$ corners.
+
+4 \\
+Probably Putnam. $\boxed{F_n}$ indeed case work on whether or not $n$ is in the subset, if it is not we recurse, otherwise we deduce that $1$ is not in the subset and that by definition the subset is selfish if and only if the subset from reducing each other element by $1$ was selfish whence we obtain the Fibonacci recursion.
+
+5 \\
+Add $\boxed{7}$
+
+6 \\
+Putnam. Note this expression appears in Stirling's Approximation that $\lim_{n \to \infty} \frac{n}{(n!)^{\frac{1}{n}}} = e$ and that log transforming this statement becomes $g(m+n)<g(m)+g(n)$. In any case $(m+n)^{m+n} > \binom{m+n}{m} m^m n^n$ because the binomial expansion includes the term on the right as well as some others. Or combinatorial interpretation.
+
+7 \\
+Isomorphs in to a statement about binary matrices and appears in combinatorics handouts. One solution is to note that counting in $2$ ways incidences linearity of expectation there exists a student who solved $\ge \frac{120}{200} \cdot 6=\frac{720}{200}$ problems e.g. they solved $4$ problems. Now consider that there were $240$ solves on the other $2$ problems, thus there exists some student who solved those $2$. Now these together solved all $6$ problems.
+
+8 \\
+$\boxed{2n-3}$ indeed $\frac{a_1+a_2}{2} < \frac{a_1+a_3}{2} < \dots < \frac{a_1+a_n}{2} < \frac{a_2+a_n}{2} < \dots < \frac{a_{n-1}+a_n}{2}$ equality obtained for arithmetic progressions.
+
+9 \\
+The extended binary representation framing is more natural. $\boxed{\left \lfloor \frac{n+2}{2} \right \rfloor}$
+
+\newpage
+
+\textbf{4}
+
+1 \\
+$\boxed{[332,350]}$ by examining delta differences between squares, resultant inequalities cases.
+
+2 \\
+Putnam. $\boxed{3987}=1993+1994$. Indeed note $\frac{a}{b} < \frac{a+c}{b+d} < \frac{c}{d}$ therefore $\frac{m}{1993} < \frac{2m+1}{3987} < \frac{m+1}{1994}$ and the bound results from manipulations of $\frac{1992}{1993} < \frac{k}{n} < \frac{1993}{1994}$
+
+3 \\
+$\boxed{1: 101}$ as one can otherwise factor out the $9$ and the $11$ terms in the representation $\frac{10^{2n}-1}{99}=\frac{(10^n+1)(10^n-1)}{9 \cdot 11}$
+
+4 \\
+A trollish task as $z=1$ gives $xy+x+y+1=(x+1)(y+1)=((a-1)+1)((b-1)+1)=ab$
+
+5 \\
+Rusin. $\boxed{(2^r,2^r,2r,2r+1)|r\in\mathbb{Z}_{\ge 0}}$
+
+6 \\
+Rusin. Analysis for $n=1,2,3,4$ modulo $4$ works.
+
+7 \\
+Thousandth might lead some readers to see the $1000$ precision in the task statement as less obvious (numerics in task statements are often very important for they are in fact precisely the task) but in any case $N=\frac{10^{2016}-1}{9}\approx \frac{10^{2016}}{9}$ whence, with a Taylor series type first order second order term break down decomposition e.g. one obtains that $\sqrt{N}\approx \frac{10^{1008}}{3}=3\dots 3.3\dots \boxed{3}\dots$. This sort of approach can be useful as one can engineer a solution backwards by writing out an inequality with that value and an error term.
+
+8 \\
+Putnam. And I quote, let $n$ be the smallest positive integer such that $\text{GCD}(s,n)>1$ for all $s$ in $n$; note that $n$ has no repeated prime factors. By the condition on $S$, there exists $s\in S$ which divides $n$. On the other hand, if $p$ is a prime divisor of $s$, then by the minimality of $n$, $\frac{n}{p}$ is relatively prime to some element $t$ of $S$. Since $n$ can not be relatively prime to $t$, $t$ is divisible by $p$, but not by any other prime divisor of $s$ (any such prime divides $\frac{n}{p}$). Thus $\text{GCD}(s,t)=p$, as desired.
+
+9 \\
+Rusin. One can do this algebraically after clearing out denominators but I want to note a key idea here prior to the break down which is of the ratio that to move from $\binom{n}{r}$ to $\binom{n}{r+1}$ one multiplies by $\frac{n-r}{r+1}$ whence this task transforms in to an arithmetic progression of $1,\frac{n-r}{r+1},\frac{(n-r)(n-r-1)}{(r+1)(r+2)},\frac{(n-r)(n-r-1)(n-r-2)}{(r+1)(r+2)(r+3)}$
+
+\newpage
+
+\textbf{5}
+
+1 \\
+Well I think it's very important that they commute and also that there is a subscript of $4$ in $M_4$ denoting that these are $4 \times 4$ matrices which means there exists I think one would admit there exists a computery computational proof at the very least perhaps Wolfram Alpha could output a proof.
+
+2 \\
+Putnam.
+
+3 \\
+Putnam.
+
+4 \\
+Putnam.
+
+5 \\
+There exists a linearly independent basis set of $r$ columns from which the column span can be generated i.e. all of the other columns can be written in terms of them as a linear combination and one can thus take precisely that set of columns for $B$ and then a bunch of one hots and other coefficient linear combination representations for $C$ like if the first column of $C$ is $[1,0,0,\dots,0]$ then the first column of the product will be the first column of $B$ e.g.
+
+6 \\
+Putnam.
+
+7 \\
+Putnam.
+
+8 \\
+Putnam.
+
+9 \\
+StackExchange. Commutativity Of Addition VS2. Perhaps Rusin intends something different and perhaps there exists a computery proof for this task as well.
+
+\newpage
+
+\textbf{6}
+
+1 \\
+$\boxed{28}$ I don't know locus Euler line coordinate bash something.
+
+2 \\
+Putnam. USAMO.
+
+3 \\
+$\boxed{2}$ otherwise the circumcenter is a rational point via perpendicular bisector lines intersection formula for example.
+
+4 \\
+Putnam.
+
+5 \\
+Putnam.
+
+6 \\
+$\boxed{\frac{3\sqrt{3}}{2}}$ unit regular hexagon.

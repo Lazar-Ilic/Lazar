@@ -1,0 +1,136 @@
+"
+Blood Talk
+"
+- Daniel Hernandez
+
+----------
+
+PSA - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+PSA, TOTAL	0.78	0.00 - 4.00	ng/mL		Final	1
+Different test methods cannot be used interchangeably. A change to a different
+method during serial monitoring of a patient should be accompanied by additional
+sequential testing to confirm baseline values.  Methodology: Ortho Vitros
+TSH - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+TSH	1.67	0.40 - 5.00	mIU/ml		Final	1
+FREE T4 - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+FREE T4	1.2	0.8 - 2.2	ng/dL		Final	1
+ESR - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+ESR	9	0 - 15	mm/hour		Final	1
+VITAMIN D - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+VITAMIN D 25-OH TOTAL	33.8	30.0 - 100.0	ng/ml		Final	1
+**********  Interpretive Ranges ***********
+INSUFFICIENT..............    < 20 ng/ml
+SUBOPTIMAL................       20-29 ng/ml
+OPTIMAL.....................      30-100 ng/ml
+POSSIBLE TOXICITY........    > 100 ng/ml								
+VITAMIN B12 - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+VITAMIN B12	529	240 - 930	pg/mL		Final	1
+ROUTINE URINALYSIS W/REFLEX - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+COLOR	yellow				Final	1
+CLARITY	clear				Final	1
+SPECIFIC GRAVITY	1.020	1.005-1.030			Final	1
+PH	6	5.0-8.0			Final	1
+GLUCOSE	neg	NEGATIVE			Final	1
+BILIRUBIN	neg	NEGATIVE			Final	1
+KETONE	neg	NEGATIVE			Final	1
+BLOOD	neg	NEGATIVE			Final	1
+PROTEIN	neg	NEGATIVE			Final	1
+UROBILINOGEN	neg	NORMAL			Final	1
+NITRITE	neg	NEGATIVE			Final	1
+LEUKOCYTE ESTERASE	neg	NEGATIVE			Final	1
+CHEST, 2 VIEWS
+Patient:       ILIC, LAZAR
+Exam Date:        06/07/2023
+DOB:           07/16/1998
+Patient Age:   24
+Patient Sex:   M
+Exam Status:   Routine
+Accession #:                                  
+CHEST, 2 VIEWS:  6/7/2023
+CLINICAL HISTORY:  Encntr for general adult medical exam w/o abnormal findings.
+COMPARISON:  12/06/2019.
+FINDINGS:
+The heart, lungs, mediastinum, pleural spaces, and pulmonary vasculature are
+within normal limits.
+IMPRESSION:  
+Normal chest.
+Electronically Signed:  6/7/2023 4:21 PM
+ELECTROCARDIOGRAM
+Report	Result	Ref. Range	Units		Status	Facility
+Result						
+LIPID PANEL - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+CHOLESTEROL	147	0 - 200	mg/dL		Final	1
+TRIGLYCERIDE	65	35 - 150	mg/dL		Final	1
+DIRECT HDL	45	40 - 65	mg/dL		Final	1
+CALCULATED LDL	90	65 - 130	mg/dL		Final	1
+CALCULATED NON-HDL	102	<	mg/dL		Final	1
+CREATINE KINASE - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+CREATINE KINASE	153	55 - 170	U/L		Final	1
+MAGNESIUM - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+MAGNESIUM	2.1	1.6 - 2.3	mg/dL		Final	1
+CBC/ AUTO DIFF - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+WBC	9.7	4.0 - 11.0	10e3/uL		Final	1
+RBC	4.57	4.00 - 6.20	10e6/uL		Final	1
+HGB	14.0	13.4 - 18.0	g/dl		Final	1
+HCT	40.5	42.0 - 54.0	%	Low	Final	1
+MCV	88.6	80.0 - 100.0	fL		Final	1
+MCH	30.6	25.4 - 34.6	pg		Final	1
+MCHC	34.6	30.0 - 37.0	g/dL		Final	1
+RDW-CV	11.9	8.0 - 16.0	%		Final	1
+PLT	256	150 - 400	10e3/uL		Final	1
+MPV	10.3	8.5 - 12.2	fL		Final	1
+NEUTROPHIL %	70.5	35.0 - 80.0	%		Final	1
+LYMPHOCYTE%	17.5	15.0 - 45.0	%		Final	1
+MONO%	8.2	2.0 - 17.0	%		Final	1
+EOS%	2.3	0.0 - 15.0	%		Final	1
+BASO%	0.9	0.0 - 5.0	%		Final	1
+NEUTROPHIL #	6.8	1.5 - 7.1	10e3/uL		Final	1
+LYMPH #	1.7	0.8 - 4.0	10e3/uL		Final	1
+MONO #	0.8	0.2 - 2.5	10e3/uL		Final	1
+EOS #	0.2	0.0 - 2.0	10e3/uL		Final	1
+BASO #	0.1	0.0 - 1.0	10e3/uL		Final	1
+IMMATURE GRANULOCYTES #	0.06	0.00 - 0.10	10e3/uL		Final	1
+IMMATURE GRANULOCYTES %	0.6	0.0 - 5.0	%		Final	1
+NRBC #	0.0	<0.0	10e6/uL		Final	1
+NRBC %	0.0	<0.2	%		Final	1
+Your test result on 06/07/2023
+CHEM-16 - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+GLUCOSE	91	60 - 100	mg/dL		Final	1
+BUN	18.0	7.0 - 25.0	mg/dL		Final	1
+CREATININE	1.0	0.5 - 1.5	mg/dL		Final	1
+CALCIUM	9.6	8.3 - 10.7	mg/dL		Final	1
+SODIUM	141	133 - 145	meq/L		Final	1
+POTASSIUM	4.8	3.5 - 5.5	meq/L		Final	1
+CHLORIDE	99	100 - 110	mEq/L	Low	Final	1
+CO2	32	21 - 31	mEq/L	High	Final	1
+URIC ACID	3.9	3.5 - 8.5	mg/dL		Final	1
+TOTAL PROTEIN	8.1	6.0 - 8.5	g/dL		Final	1
+ALBUMIN	5.0	3.5 - 5.0	g/dL		Final	1
+TOTAL BILI	0.4	0.1 - 1.5	mg/dL		Final	1
+ALKALINE PHOSPHATASE	81	38 - 126	U/L		Final	1
+AST	30	15 - 46	U/L		Final	1
+ALT	23	5 - 60	U/L		Final	1
+GGT	13	15 - 73	U/L	Low	Final	1
+LDH	167	120 - 246	units/L		Final	1
+A/G RATIO	1.7	0.8 - 2.0			Final	1
+EGFR	97.6	<			Final	1
+EGFR Reference = ( Normal Range: > OR = 60mL / min / 1.73m2)
+HBA1C - 06/07/2023
+Report	Result	Ref. Range	Units		Status	Lab
+HBA1C	5.3	4.0 - 6.0	%		Final	1
+American Diabetes Association Guidelines for HGB A1C:
+Glycemic Goal in Diabetes...............<7.0%
+Diagnosis of Diabetes..............> / = 6.5%
+Confirmed on repeat analysis or with appropriate symptoms.

@@ -1,0 +1,35 @@
+Might be wise to review LessWrong pre-2012 prior to rounds and ensure to stick to non-poetic particle-by-particle levels of analyses of reality and tangible material assets in round and always basically.
+
+"
+Trillness in machine instrument measurements. If it was not measured, then it was not trill. Facts and facts and facts and facts keep it real.
+"
+
+----------
+
+I might actually take the time to go through say 300 tasks from the public written records on top trading firms and try and implement them in nearly flawless C++ style.
+
+Maybe just kind of casually and openly discuss some potpourri tasks from the GlassDoor corpus here too not really sure I want to leak out tasks I have been given in currently live rounds for proprietary trading firms but we can maybe do some post facto analyses.
+
+	Optiver Task: read in 300000 horses, the market betting odds, our credence function upon their Winning probabilities, and compute the betting strategy portfolio maximising the expected value of logarithm of bankroll.
+
+Lagrange Multipliers. Canonical. Smoothing. Smoczynski and Tomkins. Whitrow. Grant et al. Buchen and Grant. Et al. Performant C implementation.
+
+	Minimum Number Of Knight Moves
+
+From [a,b] to [c,d] in an n x n chess board should be an O[1] computation for n up to 1000000000 say. Not a simple Breadth First Search on a vector of vector of booleans processed. This task in optimised C may be part of a litmus test for high frequency trading software engineer.
+
+	Maximum Square Frame Of 0s In An n x n Grid
+
+Onsight flawless C in O[n^2].
+
+	Construct Binary Search Tree In Order And Least Common Ancestor
+
+Can use an auxiliary set e.g. to execute the insert operation in O[log n] worst case rather than O[n]. Vector/array based approach works as does a standard canonical usual struct node pointer based technique.
+
+	Compute Sum Of First n Integers Hit By Vector Of Size m << n
+
+One way which uses minimal auxiliary memory is to call the relatively fast C++ Standard Template Library sort function on the hitting vector and then binary search for a threshold index value at which point we could call resize and accumulate and subtract off e.g. from long(a)*(a+1)/2. Technical O[m log m]. However, depending upon the input test cases limits one may also opt to use auxiliary memory with a vector<bool> followed by relevant += calls and compares in loop. O[n].
+
+	Count Number Of Increasing Subsequences Of Length 3
+
+Certainly there exists a very simple O[n log n] solution where we process through from the Left and Right directions with a set for example computing the number of dudes Left and less as well as Right and greater and then passing through again summing these products as a casework on the index of the middle dude in the increasing subsequence of length 3. Does not easily generalise to the general case of increasing subsequences of length m insofar as I can discern.

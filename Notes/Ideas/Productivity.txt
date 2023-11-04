@@ -1,0 +1,823 @@
+Setup
+Calendar
+Text Or LaTeX Everything
+Habits
+Lifestyle
+Things [~Comprehensive]
+Indoor Air Quality Maximisation | Background "Nerve Gas" Malodour Minimisation
+Teeth Brushing
+Visual Studio Code Settings.json File
+Mating Profile
+IO
+
+----------
+
+"
+The only cure for materialism is the cleansing of the 6 senses [eyes, ears, nose, tongue, body, and brain]. If the senses are clogged, one's perception is stifled. The more it is stifled, the more contaminated the senses become. This creates disorder in the world, and that is the greatest evil of all. Polish the heart, free the 6 senses and let them function without obstruction, and your entire body and soul will glow. 
+"
+- 植芝 盛平 [The Art Of Peace]
+
+"
+Do not hide your mistakes.
+"
+- Adam Gontier [Get Out Alive]
+
+----------
+
+	Setup
+
+To maximise productivity, be 引きこもり, leave apartment 0, work 15 hours per day. Dynamic Range 感性 Facts. I am executing this .txt program. I use local files and Visual Studio Code|Google Chrome for nearly everything. My files organisation is reflected in my GitHub, I have unshared files locally.
+
+	Calendar
+
+Mine is a .txt file which works across devices. I can always see years ahead and remove pending items upon completion. Can include air filter replacement, rent, interviews, tests, groceries, upcoming Amazon purchases, etc. The first lines can contain daily reminders. Example:
+
+"
+How are you feeling, what are you curious about, how is research going? [To partner|wife|child. Record their responses in writing, plan accordingly, and follow up later.]
+
+SDS323 MW [15] UGS303 T|Th[15:30] F[12]
+
+03-01		Air Filter
+03-07	17	Test Game Theory
+03-10		Bills
+03-24		Rent
+"
+
+	0 Public Web Logging Emotional Non-Mathematical Content
+	[Sorry For Sneering|Spamming|Scaring|Rapping|Marxing|Ranting|Whining|Trollzing|Sneaking|Dissing|Asking-Out-Coworkers And Decreasing My Expected Labour Market Valuation And Altruism]
+
+	Text Or LaTeX Everything
+
+It is critical to record ideas, so that one can review them later. And the grading boost. The transition cost is low, and this habit yields massive upside. By "everything", I really mean everything! I suggest Googling ~ "GOV312 Exam 3 Quizlet" then [ctrl a] [ctrl c] [ctrl v] the 3 most recently published relevant Quizlets into a .txt file. Study this for 1 hour each day for 3 days leading in to the test with the completed review sheet also in a .txt file. This way, maybe obtain an A with a total of < 20 hours of labour. One can sometimes utilise the replace all function in Visual Studio Code and turn a .mobi or .pdf into a .txt file. I pick the best looking file from Library Genesis. Also, I have all my school work saved. Everything is backed up on a Google Drive. Have compute and memory. Save .txt articles and stuff.
+
+Chronic Exposure To Notes
+Dramatically improves learning and retention. When solving, many moving parts seem routine.
+
+Brainstorming
+Sometimes initial ideas are wrong and seemingly stupid ideas are right.
+
+Drafting Weeks In Advance
+Then one has following ideas.
+
+Lists
+For the Putnam, I created a list of topics I knew I needed to cover and understand deeply to maximise my expected performance.
+
+Homework Writing
+Include task details like "definition X" and "for matrix $A=\begin{bmatrix} 3 & 5 \\ 2 & 4 \end{bmatrix}$ one obtains eigenvectors..." so that later it makes sense as a self-contained document. Or include task statements. No "canonical", "Minimal", "immediate", "trivial", "of course", etc. Consider using a comment with "%" for WolframAlpha code. Save all school work and assignments.
+
+Reading And Working Through Books
+Take notes on definitions, key ideas, and related insights. Consider completionism: solving all tasks, or reading the first line of the solution and contemplating etc. This may be the 2nd best option to Graduate School. Email authors or post on Stack to ask questions.
+
+Reading And Working Through Papers
+Imagine insights, experiments, paths, and "how would I have thought of that?" type questions. See the bibliography. Email authors or post on Stack to ask questions.
+
+Writing Papers
+Record thoughts, tank, followup ideas, generalisations, can this be generalised? Read extant literature. Use keywords and massive list of citations for bibliography. Hack cross references. Line up many long editing sessions prior to submissions. Perhaps consult friends.
+
+	Habits
+
+Form them. Do homework upon release and go to class 0. I have a library of .pdf and .txt books and on day 0 of courses, copy all deadlines to calendar, perhaps take notes through the entire textbook, set up templates for all homework assignments including correct titling, and compile all readings and screenplays|film transcripts in to .txt files. One can often view past course syllabi when planning, have a .txt file of course numbers and details ready for registration opening time, and use a phone call Green button push or dual authentication code once per month on a machine by clicking to remember for 30 days.
+
+~ Daily
+Check ArXiV Combinatorics + Machine Learning + Fluid Dynamics + Weather Forecast
+Poo Early [Flush Before + Immediately After + After Followup Toilet Paper]
+Microfibre Towel ~H2O Water Wiping Bum
+Stretching
+	Quadriceps
+	Hamstrings
+	Gluteals
+	Hips Flexors
+	Hips Anti Flexors
+	Calves
+	Arms And Back Potpourri
+Floss And Brush Teeth [×3|Day]
+Shower And Air Dry If Shaved Chest|Head [Shave Bum In Shower] Or Was Out And About [Or Used Malodourous Lubricant]
+Dishes Low-VolatileOrganicCompound With ~H2O Water [Do Not Place Stinky Dishes On Countertops Prior To Washing] [Return Electric Oven Meat Pan To Closet|Outside Immediately + Flush All Meaty White Ricey ~H2O Water Down Exterior Sink Drain|Toilet Rather Than Interior Kitchen Sink Drain + Hang Towels Outside]
+Change Earplugs And Clean Ears
+Setting Thermostat Optimised [Using Weather Forecast Information]
+[Prescription Pharmaceutical] 300mg Mg Magnesium L-Threonate
+[Urologist] Optimised Prescription Pharmaceutical Multimicronutrient [Natalist Male Prenatal > Legacy Male Fertility]
+Sleep Cycle ~From 22:00 To 06:00
+中文听说读写|中華民國國語 Review [Online Hot Young Female Shanghainese Tutor Or Real Life] [知乎 + 中文維基百科 + 新浪微博]
+[Auto] Petting
+
+~ Weekly
+Synthetic Procreational Sex
+Epilate|Shave Hairs [[Hand Held Mirror > iPhone SE Selfie Mode] With Mirror To Ace Back Of Head]
+Shower And Air Dry Or [(CH3)2CHOH Isopropyl Alcohol Soaked And ~H2O Water Rinsed] Microfibre Towel Skin Organ
+Backup Machine To 1TeraByte MicroSDXC And Google Drive
+Cut Hands Nails
+Run ~H2O Water Through All Drains And Pipes Including Kitchen Sprayer, Shower Head, Sink Backflows, And Bath Pipe e.g. Cover With 99% Al Aluminum Foil
+(CH3)2CHOH Isopropyl Alcohol Wipe Keyboards And Kitchen Sink Then ~H2O Water Rinse And Pour Down Drains And Through Stinky Toilet Tank
+Readjust [Optimised GOTS Organic Undyed] Cotton|Bamboo Viscose 16" Mattress Pad Protector And Sheets
+Change 99% Al Aluminum Foil On Window Sill, Toilet Paper, Drains, Sink Backflows, Shower Heads, Sink Sprayers, etc.
+Change NaHCO3 Baking Soda On Highly-Foot-Trafficked Floor Near Head Of Bed
+Office From 09:00 - 18:00 As Needed
+
+~ Monthly
+Vacuum Floor
+New Bedding [Soak In Stabiliser-Free Food Grade ~3% H2O2 Hydrogen Peroxide Then Hand Wash]
+Transfer Money From Savings To Checking And Pay Bills [Automatic Is Convenient]
+Microfibre Cloth Wipe Counter Tops, Toilet Bowl [Closed Down When Not In Use], Sink Bowls, Sills, Machine, Refrigerator Freezer Interior + Exterior, etc.
+Cut Feet Nails, Shave Hairs, Rub Skin Off
+Change Thin-Head Firm-Fibre Manual Toothbrush
+Review Mathematics Web Logs, ArXiV, bioRxiv, Journals, Kaggle, Puzzle Solutions
+Walk In Forest
+Memoryless Low-Error 1-Push To GitHub On 16th
+
+~ Biannually
+Bloodworks And Doctors [Seek 2nd Or 3rd Opinions As Desired] [Bring Medical Health Insurance Card And Organs Donor REAL ID Driver's License|Identity Card] [~$35 Remote Blood Extraction On Patio] [Full Hormonal Profile Highly Sensitive Assays, Urine Blood Skin Liver Organ Carcinogenic Toxic Chemicals And Other Risk Factors And Correlates, Free D 1,25[OH]2D, Free Thyroxine T4, Full Panel] [80 mg/dL Fasting Serum Glucose, 1.40 ng/dL Free Thyroxine T4, 2.400 UIU/mL ThyroidStimulatingHormone, EhOK Liver [30 AST, 23 ALT, 13 GGT], EhOK 25.0 ng/mL Prolactin, 800 ng/dL Total Testosterone, 40 pg/mL Oestradiol, ~57000000 Total Motile Count|Ejaculate [Target: 1000000000 By Sleeping, Avoiding Heat, Avoiding Synthetic Oestrogenics, Avoiding Adrenalin Cortisol, Using Real Life Mate Or 1080|2160p 2 16-Bit Depth 44.1kHz Sampling Rate Gold Medalist During Donations]]
+New Merino Wool Socks
+New [Optimised GOTS Organic Undyed] Cotton|Bamboo Viscose 16" Mattress Pad Protector
+Review ~All Mathematics Competition And Puzzle Archives
+Review Graduate Record Examinations 346 Law School Admission Test 180 Scholastic Assessment Test Critical Reading 800 Medical College Admission Test 528 United States Medical Licensing Examination Pass 300 300 Corpora
+
+~ Annually
+Cancer Testing
+Dual-Energy X-Ray Absorptiometry Bone Densitometry Scan [180cm|71in 73.9kg|163.0lb >= 9.160...% Body Fat 1.3 Age-Matched Z-Score Bone Strength Density]
+Dentist [Full Shower Or Towel Down After] [Ask For Unflavoured]
+Vote Left And Donate 10% Of Legal Definitional Post-Tax Income Including Rapidly Liquidated Stock To Founders Pledge Climate Change Fund [Do Not Rescind Giving What We Can Pledge For Wife] ["Artificial Intelligence" Might Be Important] [Bet Contra Dr. Jacob Steinhardt On Mathematics Progress By 2035]
+
+	Lifestyle
+
+Sleep, exercise, and diet are all important. What makes one person feel good may not make another person feel good. Breakfast and fruits|vegetables are not necessary. Many would benefit from the energy of eating chicken [rotisserie] fettuccine alfredo, ground grass fed beef, white rice, anything warm, NaCl table salty, maybe a tiny bit ~H2O Watery which will not cause too much bloating. Your mileage may vary with 12|12 hours intermittent fasting. Ensure to eat adequately by once in a while writing down on Calendar.txt to try modulating upwards. Muscle mass and Mg Magnesium relate with carbohydrate glycogen uptake and release. One can start off one's day with instant coffee. A 4|month indoor rowing half Marathon habit can potentially improve memory, cardiovascular strength, sense of wellbeing, baseline hedonic tone. Avoid indoor apartments, especially loud studios. Get a house on >= 2 acres. Consider air outside which will get on skin organ. Consider month-to-month or 1-6 month leases and strong early termination clauses during house and Trading job searches. For houses, one can get a free real estate agent, send desiderata, view > 30 houses whilst high and dehydrated early in the morning, and pick the one which will be best after 15 hours of optimisation upon moving in. Also consider houses on nice land which can turn in to a land purchase for an IO house on a later non-loaned demolition and construction. Closely monitour everything very crystal clearly technically and precisely, sounds, smells, certain materials, run air conditioning and heater monitouring sounds and smells, measuring indoor air quality, thermostat sensor location, examine patios, neighbours and neighbouring nearby firms, streets, read and measure 168 hours of exterior sound scores with one's own $100 Sony digital microphone instruments as well as interior at <=25dB for the entire duration of the 168 hours. >=70000 lumens|m^2 of sunlight measured through the IO skylights on to the IO work rooms' floors.
+
+	Things [~Comprehensive]
+
+Visual Studio Code
+.txt Files
+Google Chrome
+Stylish
+AdBlock [Remove CSS Cascading Style Sheets Elements As Desired]
+Wizmage Image Hider
+Super Dark Mode Extension
+Blank Dark New Tab Page
+Diary .txt File [Practising Illeism And Friendly Collaborative Mathematical "We"]
+Library Genesis [https://libgen.rs/]
+Google Scholar [For Citations|Cited By]
+Sci[ence] Hub [https://www.sci-hub.live/]
+Internet Archive
+[0 Notifications And 0 Data Sharing 0 Bank Account Information Sharing Saving]
+[Cancel Free Trials Immediately Upon Initiation]
+Art Of Problem Solving ["AwesomeMathlete"] [https://artofproblemsolving.com/community/user/73195] [https://artofproblemsolving.com/community/q2h1230493p6213930]
+Venmo ["LazarIlic"] [https://account.venmo.com/u/lazarilic]
+RocketReach [Mediocre Underlying Credence Function Free Via Account Deletion And Reformation Or Multiple Emails]
+BandCamp
+HighDefinitionTracks
+Qobuz [https://play.qobuz.com/playlist/12452404] [0|10 From Fatty Oldy Mouldy Јелена Аничић Илић And 10|10 From Lazyr Makes A 5|10 CRap Released Upon Retirement Or Later] [pip3 install --upgrade qobuz-dl && qobuz-dl --version ... email password 27... qobuz-dl dl https://play.qobuz.com/playlist/12452404] [State Of The Art "Artificial Intelligence" .flac .wav Instrumental And A Cappella Extraction]
+[
+Lazyr Loves The World Draft - Lazyr [Aspiring Roc' Nation Signee]
+Home Tapes - Oh Wonder
+Living Things - Linkin Park
+The Man Machine - Kraftwerk
+Watch The Throne Deluxe - Jay-Z And Kanye West
+Viva La Vida - Coldplay
+American Life - Madonna
+Hesitation Marks - Nine Inch Nails
+Ghost Stories - Coldplay
+Ascend - Illenium
+----------
+Kanye Omari West > Jamaal Talib Henry > Daniel Perez > ...
+Wasalu Muhammad Jaco > Terrence LeVarr Thornton > Shawn Corey Carter > ...
+]
+Genius [https://genius.com/LazarIlic]
+WhoSampled [https://www.whosampled.com/sample/1027551/Oh-Wonder-Lonely-Star-Oh-Wonder-All-We-Do-(Short-Film)/]
+WikiPedia [https://en.wikipedia.org/w/index.php?title=Bugz_Ronin&oldid=1167917695]
+[Rent CyberSound Recording Studio Booth With Strongly-Selected-Tested $50000 Neumann U47 Or $10000 Sony C-800G Or $3000 Neumann U87 For Rap Poetry And Finger Testes Skin Organ Or Poophole Prior To Fingering Nose Brain Organ Prior To Recording Or Purchase Miniature Isolation Booth And Buy|Rent Digital Microphone Instrument]
+NeoPets ["LazarIlic"]
+MyLifeIs"Average" - Life Is Pretty "Normal" Today
+Competitive Programmer List ["Lazar"] [https://clist.by/coder/Lazar/] [Consider Competitively Programming Nearly Exclusively From A Standing Desk Position Especially If Measured Keyboard Latency And|Or Indoor Air Quality There Is Superior]
+Yahoo Mail
+Real Estate Markets Inside Information
+[Pauly Presley Realty May Be Stronger Than Zillow Sorted By New e.g. If One Has 0 Realtor Friends] [In General, Search For > 100 Ratings And 5.0-4.8|5.0 Average Rating] [Try To Get On A Daily MLS Multiple Listing Service Listings Updates Email Thread So As To Immediately Ping Strong New Candidates To The Housing Rent Market For Showings And Ensure To Visit > 30]
+Google Drive [$20|Year For 100GigaBytes] [Move To Trash, Upload New, Then Permanently Delete]
+1TeraByte MicroSDXC Card For Backup
+Spell Checker
+.pdf Portable Document Format Files Merger [https://smallpdf.com/merge-pdf] [etc.] [Clear Cookies] [And .png Portable Network Graphic To .pdf Conversion]
+JSPaint [https://jspaint.app/]
+Google Images Reverse And Similar Search
+TinyEye Reverse Image Search
+Clear Pill Profile Image
+Red Square Disk Setting Sun Image
+Gold Medal Disk Rising Sun Image
+Image Conversion To Transparent Black Binary .png to .png Should Work At [https://tech-lagoon.com/imagechef/en/image-to-monochrome.html] [https://new.express.adobe.com/tools/remove-background#]
+6|Year Grass Rented Lawn Mowing Service
+Friend To Flow ~H2O Water Through Pipes During Vacations
+Human Touching Service
+Machine For Pseudohuman Touching And Petting Scritch Scratching
+Background Funding Pooling Service
+Productivity.txt Elite Service To Ensure ~Perfection [Pay Or Ask Highly Sensitive Friend]
+Service To Sell Solid 99% Pure Al Aluminum Rectangles And Temporary Hangers
+Back And Bum Hairs Shaving|Epilating Service [Ask Friend Or Parent] [[Full Back] European Wax Center]
+Image Files Of Important Cards And Documents [~Everything Including COVID-19 Vaccination Record etc. In-State-Tuition-Driver's-License]
+Read Documents Fully Multiple Times And Edit Prior To Public Sharing
+List Of Friends' Birth Dates For Emails
+List Of Contacts' Emails And Telephone Numbers And Addresses
+List Of Strings For Password Recovery Response Queries
+House Rental Contract Clause For Early Termination
+Rental Unit Storage Closet For e.g. Unscrewed Removed Ceiling Fans
+Passwords Recorded In Writing And|Or In Google Drive Chrome Passwords.csv Export
+Latest Draft Of Last Will And Testament [Top Preference Wife]
+Strong [Sui Caedere Credence < 0.03] Life Insurance Policy
+Frozen Sperms [Legacy 300 Vials For Life > $890 Paying Every 5 Years To Maintain Storage]
+Mother Guaranteeing Lease
+Pro Bono And Institutional Legal Services And Title IX Offices
+Fertility Lawyer
+Apartment Management, After Hours Emergencies, Emails, Phone Numbers, Online Forms, Electricity, ~H2O Water, Convenience Stores, 311, 911 [Non [Emergency] Phone Numbers [16173493300] Analogs], Police And Harassment Online Forms, Phone Numbers, Emergency Room [For ~$300 Deep Vein Thrombosis Testing Perhaps], Urgent Care [For Topical Dermal And|Or Oral Antibiotics etc.], Pharmacy, Hospitals [Harvard Beth Israel Deaconess Vascular Surgery + Sleep Neurology Medicine + ..., ...]
+Bank Loans [Job Offer, Construction]
+Prefer $1000000|Year Trading Firm [Citadel Securities, Hudson River Trading, Optiver, ...] In-Office Over $400000|Year Software Mostly-Remote [Can Apply For Trader Role If And Only If Low Stress +>$5000 In Online Poker Else Software Engineer Or Quantitative Researcher... Or Simply Apply For Software Engineer With Physics Research Ambitions Demonstrated]
+Retire At ~$3000000 Aggregate Assets With ~$10000000 Inheritance
+Temporary Jobs [Tutoring [Contest] Mathematics Etc., Rating Advertisements, Labeling "Artificial Intelligence" Training Data Sets, etc. etc.]
+UberElite Professional Private High School Admissions Essay And Email-To-Mathematics Department Writing Help [?]
+UberElite Professional Undergraduate Admissions Essay Writing Help [Kevin Martin Of Texas Admissions]
+Professor Graduate Admissions Essay Writing Adviser
+Ghost Writer For Essays [? And Long Form Work Drafts]
+Lawyers
+Doctors
+Pro Bono Doctor Friends
+Pro Bono Medical Research Friends
+Pro Bono Biology Research Friends
+...
+Pro Bono Lawyer Friends [Write To Police And Nearby Bar Firms To Cease Noise Pollution In Measured Violation Of Codes And Texas Alcoholic Beverage Commission Sales Hours After 22:00 And Before 08:00 At 02:00] [Consider Attempting To Route Via Homeowners' Association And|Or Apartment Building Management]
+YIFY And Subtitles [White Helvetica]
+uTorrent [8640|4320|2160p .mp4 Cinema With 24-Bit Depth 192.0kHz Sampling Rate .wav Mixed And Mastered Or 5.1 Converted To Bi-Channel Audio]
+The Pirate Bay etc. For Torrenting Files
+Google Commands [https://www.gwern.net/Search]
+Coding
+Wolfram Alpha Commands [https://www.wolframalpha.com/examples/]
+Custom Bash Commands
+Native, Twilight, Layered Filters For Red Light At Night [On iPhone SE Triple Click Home Button For Color Filters On Color Tint Intensity 100% Hue 100%] [Screen Itself Or Lowest Level Flash Light And Block Refrigerator Light Sensor With Tape etc.]
+Extra iPhone SE Charging Cables [Can Cut And Use 1 As A Plug To Keep Female End Clean]
+
+Create A Nice Digital Workplace
+Focus On 1 Task
+Stand Desk Naked In Bright Sunlight
+Lie In Bed Naked Or With + Sheet Warm 23-26C|73-79F With ~0 Direct Airflow
+	Very delicate and first order. Apartment airflow, thermostat sensor location, automatic mode functioning, outside temperature, weather strip, caffeine, lights, nocturnal hormones, vasodilation|constriction, electrolytes, skin organ [dys]functioning, shaved|epilated perceptions and partially shaved|epilated odd temperature and air malodour proprioceptions, air humidity, etc.
+Liquids Ingestion Via ~SiO2 Glass Straw To Throat
+~H2O Water Mouth Rinse After Every Mouth Opening|Eating|Drinking And Often As Desired
+[Indoor Rowing A Half Marathon Every 7 Days Rather Than Lifting Weights]
+[Can Timer Between Sets And|Or Go To 80% Exertion]
+Lifting Days
+	61kg|135lb 15-Days Cycle: Overhead Press, Squats And Calves Raises, Biceps, Traps And Stretching Hardcore Upper Back And Spine Bidirectional, 84 Minute Half Marathon
+	[06:00] Instant Coffee 400mg Caffeine
+	[09:00] 1.0L|32.0floz Lowfat Kefir
+	[16:00] 590g|1.3lb Thin Ribeye|New York Strip|Filet Mignon And 0.75 Cup White Rice And Oral Multimicronutrient
+	[18:00-20:00] Lemon Flavoured Fructose
+	[20:00-22:00] Orange Juice And Oral 300mg Mg Magnesium L-Threonate
+Off Days
+	[06:00] Instant Coffee 400mg Caffeine
+	[10:00] 1.0L|32.0floz Lowfat Kefir
+	[16:00] 454g|1.0lb Thin Ribeye|New York Strip|Filet Mignon|Atlantic Salmon And 0.75 Cup White Rice And Oral Multimicronutrient
+	[18:00-20:00] Lemon Flavoured Fructose
+	[20:00-22:00] Orange Juice And Oral 300mg Mg Magnesium L-Threonate
+Showering [Skin Organ Microbiome, NO Nitric Oxide, Endogenous Human Growth Hormones [?], etc.] Only When Needed [~H2O Water [Hot To] Cool, Air Dry [Sun] Skin Organ]
+~0 Sitting
+0 Body Products [Deodorant, Creams, Dish Soap, Soap, etc.]
+~0 Artificial Light [Dim White #FFFFFF Text On Black #000000 Monitour]
+0 Notifications
+
+----------
+
+$200 15.6in 1920x1080 Asus Google ChromeBook Machine [If Semi-Coerced In To Using Laptop In Extremely Malodourous Room Use This Model To Donate Later Also Monitour Fingers Prior To Touching Keyboards And Use Isopropyl Alcohol As Needed 1|Week]
+[? Check Keyboard Malodour] $5000 2023 Apple Macintosh Book Professional Machine Space Black 16.2in M3 Maximum 3456x2234 128GigaBytes Random Access Memory
+[?] Razer Blade 17 - 4K 144Hz - GeForce RTX 3080 Ti - Black
+[?] Dell XPS 17 4k
+Examine Brightness, Contrast, Font Size, Colours, Monitours, Ease Of Human Legibility, Myopia EyesGlasses
+$100 2015 村田 智明 Chiaki Murata メタファイズ Meta[phys[ical]] Locus Black 0.5mm Mechanical Pencil And 0.5mm Lead
+2019 Formula 1 United States Grand Prix "DRS" Vertical Drag Reduction System Sign Black On White From [$150 Craigslisted RaceSunday General Admission Wristband] Austin, Texas Lewis Hamilton Season Win: "Still We Rise, Still We Rise"
+[?] ¥2000000 村上 隆 Takashi Murakami Analog Lazyr Loves The World Draft Art Painty Bloody Coffee Brainy Sweaty Teary Cummy Livery Poopy Pissy Ashy Yeezus Red Gold On Peak Of Watch The Throne Deluxe Compact Disc Boxes Unfolded
+$300 Ray-Ban[ning] RB2447-N-M F602|30 49O21 145 3N Scuderia Ferrari
+Federal Deposit Insurance Corporation-Insured Up To $2000000 SoFi Social Finance "4.60%|0.50%" APY Annual Percentage Yield Checking + Savings Accounts
+Exchange Traded Funds And Index Funds [EWJ, ...]
+[Firm Maximised] 401[k] IRA, Roth IRA, Mega Back Door IRA, Mega Back Door Roth IRA, etc.
+10 Big ~Low-VolatileOrganicCompound Bisphenol-A-Free Plastic Boxes [Store ~Everything And Have Extras For New Malodourous Assets] [Can ~H2O Water Rinse Exteriors And Interiors]
+[Mala Fide] Bag Of Comfortable [Clean Ears Dry, Compress Earplug, Lift Ear To Open Ear Canal, ~Fully Insert] Foam Earplugs [34|33|32dB NRR Noise Reduction Rating] [Mack's Maximum For Large Ear Canals] ["Partially Deaf" In Written Records With Police And Remove And Orally Inform During Interactions... Also Remove In ~20dB Rooms And Monitour Via Programme With Digital Microphone Instrument] [Radically Mala Fide] [$750 42dB-Isolating C Diamond Au Gold ATH-CK2000Ti In Ear Monitours Instruments And $300 Au Gold ATH-M70X 69dB-Isolating Monitours Instruments For Home Listening And $450 Au Gold iBasso DX170 Digital Audio Player] [Sold After Wrapping Up Post Production 2023-08-27]
+Hacked External Wireless Thermostat Sensor In Bedroom
+Big White Card Stock Paper
+Black Card Stock Paper
+Small Black 2σ Bag
+~H2O Waterproof Laptop Slip
+Large Black Adidas Bag
+Hard-Shelled Black CarryOn Suitcase
+~Low-VolatileOrganicCompound 2023 Symmetric Black Matte Miniature Wireless Mouse
+Trackpad Tricks
+[?] Wired [Or Low-Latency Wireless] Keyboard
+2023 Midnight iPhone SE [1 Button Home Page Lower Bar Google Drive Application] [Google Drive, Safari, Yahoo Mail, Google Maps, Uber, WhatsApp, SoFi, Wikipedia, My Spectrum, Phone, Messages, App Store, Settings, Clock, Camera, Photos, Files] ["Record Video" "4K At 60 Frames Per Second" Everything Else Basically Compute And Annoyingness Minimised] [Setup Takes ~2 Hours Or ~15 Minutes Via Old To New iPhone SE BlueTooth Transfer] [Screen Shot Good Ideas At Night And Email From Work Email To Process Through Google Drive In The Morning] [Can Get Microphone And Charger Holes Cleaned At Apple Store Or With Toothpicks|Small Hypoallergenic 100% [Optimised GOTS Organic Undyed] Cotton Swabs] [Can Cover And Dim Flash Light With A Dual Sided Adhesive Such As A Cut Hanger Hook Apparatus Strip And Black Paper] [Cut Plug In Charger Port] [24-Bit Depth 192.0kHz Sampling Rate .wav Capturing External BlueTooth Digital Microphone Instrument [And For Optimised Important Telephone Calls]]
+Night Ankle Or Ring Smart Health Metrics Monitour [Oura Ring, ...]
+Secure Distinct Passwords Hidden Saved To Google Chrome
+Relatively Performant Metal Indoor Rowing Machine For Cardiovascular Exercise [Black Concept2 RowERG 14" Standard Seat Height Or RowPerfect 3 Dynamic] [Towel For Naked And Store In Air-Stagnant Closet] [Track Statistics Privately] [Rowcycle]
+Key By Door [Lock Electronic Devices Prior To Leaving Home]
+Rechargeable Batteries [12 AA, 8 Charged Up And Ready] [Remove When Moving]
+Digital Drawing Pad With Hard Solid Thin-Tipped Stylus
+Exterior ~Low-VolatileOrganicCompound ~Fully Light Blocking Window Shade Or Interior Putty And [Exterior-Facing White Blackout Curtains To Comply With Landlord-Tenant Homogeneity Clause With Interior-Facing] 99% Al Aluminum Foil [Permamently Block Light At Top And|Or Bottom As Desired To Create Rectangular Light Strip Daily With Minimal Cracks Light Throughput Measured In As Less Blue Than Apple Macintosh Book Professional Minimised Black Red Blue Nightlight Throughput] Or Custom Installed Top Down Bottom Up Shades Or Black [Optimised GOTS Organic Undyed] Cotton Sheet [With Magnets] [5'x7' Cut Bisphenol-A-Free Plastic And Black Paper Covered] [Measure ~0 Light In Bedroom At Night And Wait Until Sunrise To Use Bright Blue Light Devices Or Use On Red At Minimal Brightness Setting]
+Highly Sensitive Serum Assays On Wife [>= ~60ng|dL Total Testosterone]
+Prenuptial Relationship Agreement Contract [>= 50% Of Time With Kids]
+Genetic Paternity Testing
+Wife Genetic DNA String "IQ" Testing
+Divorce If First Child Is Dumby At Age 5 [Or Sex Drops Beneath 8|Month Threshold [Do Not Commit Marital Rape]]
+[High-"IQ"-"Intelligence"] Sperms Donation [Confirm Viability Prior To Contacting Firms... 上海市人类精子库 With Citizenship And "Health" etc. Or Facebook Sperm Donation USA United States Of America etc. Or Email Me For Free Donation With Signed Fertility Massachusetts-Lawyer-Composed Intrauterine Or Intracervical Insemination 0-Child-Support-And-No-Suing-Or-Annoying-Me Contract... Can Optimise Towards Strong [Science Technology Engineering Mathematics Degree Holding] Shanghainese And Hong Kongese Singles And Lesbians... And Consider Starting Donating Upon Admission To Bachelor Of Science Degree Bearing Program] [https://github.com/Lazar-Ilic/Lazar/blob/main/Notes/Ideas/Lazar%20Ilic%20-%20Sperm%20Donation.txt] [Target: >= 1 Kid] [Simple English Practise From Dating Application > Imagining Dating A ~35 Year Old Woman Whilst Writing]
+Black Bisphenol-A-Free Plastic Hairs Comb
+99% Al Aluminum Foil Hairs Comb
+Book Scanning And .mobi .pdf .txt Conversion Service To Mail Paper Books To
+Aethernetwork Modem [Protect From NaHCO3 Baking Soda e.g. By Setting Atop Stool] [Know How To Reset Restart And Initiate Outage Report] [Can Cover With Huge ~SiO2 Glass Bowl And Place Far From Walls]
+5 Huge ~SiO2 Glass Bowls
+Be Prepared
+GitHubs And Courseras Of Master In Computer Science Content
+Let Me Google That ~Everything For You
+Photographs Of ~Everything
+Backup Phone Or Machine Internet Phone Callling Application Or Website
+[?] ~SiO2 Glass [[?] Black, Light Blocking] Cylinders And Lids For Foods Storage
+~SiO2 Glass [?] Bottles For Baby|Wife's Milk
+~SiO2 Glass Cylinder And Metal Lids Jars [Urine In The Morning At Standing Desk To Pour Down Toilet]
+Hypoallergenic 100% [Optimised GOTS Organic Undyed] Cotton Underpants "Pads" Rather Than Tampons For Periods' Blood
+Hypoallergenic 100% [Optimised GOTS Organic Undyed] Cotton Underpants "Diapers"
+Potentially Monitour Babies' Sleep Via Cameras, Microphones, etc.
+邬冯值 Micro-Light Night Vision Camera [Useful For 阿里巴巴 Global Mathematics Competition At 04:00 With 20|05 2005 Vision] [~155IQ Giga Sigma Male Eureka Test Credence ~0.9 9999999999 邬 Wu Clan]
+10 Gallons Backup ~H2O Water In ~SiO2 Glass
+Metal Hairs Tweezers
+Metal Nail Clippers
+$70 Henson Metal 1-Blade Razor [Shave With Only Cold Pure ~H2O Water]
+Cordless Wide ~$100-300 Hairs Epilator [Braun Silk 9-720] [~H2O Water-Rinse Hairs From Cylinder And Hot To Cold Shower Prior And Go Back And Forth Rapidly]
+1.22m|4ft Miniature Ladder
+Miniature Metal Screwdriver
+Steel Sponges
+Minimal Black Bisphenol-A-Free Plastic Playing Cards
+Minimal Clay Poker Chips Set
+Red Discraft 175g Ultra Star Sport Disk
+3 Disk Golf Holes For IO
+Blacker Than Black Electric Automobile [? Smart #1 Or 4For4]
+[?] Tesla Or Other Solar Panels Roof And Charger
+Clean Microneedler Dermaroller For Beardier Beard etc.
+Milligrams Sensitivity Scale For Microdosing, X, etc.
+NaHCO3 Baking Soda [Disperse From A Very Low Height] [4lb HEB Howard Edward Butt Here Everything Is Better Hill Country Fare Cardboard Boxes Which Can Be Shipped Around The World] [Have ~100lbs Backup]
+Stabiliser-Free Food Grade ~3% H2O2 Hydrogen Peroxide [1 Gallon Jugs] [~SiO2 Glass, ~~FeC [304|304L|316|316L|...] Passivated Stainless Steel, 99% Al Aluminum Foil Preferences In General]
+> 90% (CH3)2CHOH Isopropyl Alcohol [1 Gallon Jugs] [~SiO2 Glass Or ? ~Low-VolatileOrganicCompound Plastic]
+Extra Strength White Vinegar [4L|128floz Jugs] [Partial Antiseptic]
+Thin-Head Firm-Fibre Manual Toothbrush
+Unflavoured Dental Floss And F- Fluoride Toothpaste Oranurse [> Dr. Bob etc. And Write Asking For Lower Flavourants Or Start Own Firm]
+[Mala Fide] Instant Coffee "MagIQ" ΔΟΠ [~150mL|5floz Cool ~H2O Water] [<= 400mg Caffeine] [Nescafe [Japanese] Gold Or CostCompany Taster's Choice 400g]
+2 Metal Pots > Rice Cookers [Metal And ~SiO2 Glass Pot Style] [+ Backup] [Can Cover With Huge ~SiO2 Glass Bowl]
+White Rice [2x ~H2O Water, Desired Liquidity] [Fill Metal Pot > Rice Cooker With ~H2O Water Immediately Post-Rice Pre-Dinner For Easier Post-Dinner Washing]
+1 Cup Metal Volumetric Measuring Cup
+Metal Scissors
+3 ~Low-VolatileOrganicCompound Disposable COVID-19 Face Masks
+Free COVID-19 Testing Timed Properly 4 Days Later [At-Home United States Postal Service] [Ensure To Score Negative] [Reserve Direct Aeroplane Flights And Avoid Potential Vectors etc.]
+~SiO2 Glass Drinking ~SiO2 Glass
+Straight ~SiO2 Glass Straws [+ Cleaning Rod]
+I Iodised NaCl Table Salt [In ~SiO2 Glass Cylinder] [Monitour Bloating Re K Potassium, Ca Calcium, Mg Magnesium]
+White Ceramic Plate And ~SiO2 Glass Bowl
+Metal Knife And Fork
+16 Black Chopsticks
+Freezer And Fridge [Coldest Temperature Setting]
+[?] Grocery Delivery [Amazon Prime [180 Day Student Trial] Fresh + InstaCart[+] + ? e.g. Wild Fork Foods]
+Black Umbrella
+$550 Upright Medium City Bicycle + Front Basket + $150 Helmet + Lock + [Borrowed] Tire Pump
+[? Aquasana] Optim~H2O Water Filtration System For Home
+[? ClearlyFiltered Bourgeois] ~H2O Water Filtration System
+Freezer Cold Packs
+Cooler For Groceries [Fresh Meat etc.]
+Thermic Bag For Groceries
+Ground Grass Fed Beef
+[$19-300|lb] Thin [Manually Cut] Ribeye [$23|lb] New York Strip [$23|lb] Filet Mignon [$35|lb] Atlantic Salmon [$15|lb] [Consider 25 Days-Worth Frozen And|Or Delivery]
+Baked [Consider CH3Hg Methylmercury|Hg Mercury Content] [Cook And Eat Outdoors On Balcony Patio Or Apartment Complex Courtyard] Electric Oven [忍者 Ninja Foodi Smart XL] [175C|350F 10-36 Minutes [Extremely Well Done, Eyeball In Sunlight], Pour Fats|Juices Onto Meat] [~H2O Water Rinse Mouth Prior]
+[LifeWay] Lowfat Kefir [1L|32floz ~SiO2 Glass Jars] [Gut Microbiome] [~H2O Water Rinse Mouth And Brush Teeth After] [Remove Packaging Wrap] [10 Bottles In Fridge]
+Orange Juice
+Lindy's High Fructose Lemon > Watermelon Italiano Shaved Ice
+[Prescription Pharmaceutical If Possible] [Magtein] Mg Magnesium L-Threonate [300mg]
+[Measure 0 Eyelids Nerves Twitching And [?] Medium Light Yellow Urine]
+Practised Knife And Small Hidden Pepper Spray When Out If Not Enabled To Closed-Carry Firearm
+Dates [Calm Peaceful Deep-Voice On Pleasant Days] Ceasing Synthetic Sex And Weightlifting Prior [Courtyard Beef Steak With White Rice, Art Museums, Botanical Gardens, Zoos, Restaurants [Steak Houses, Chinese, Japanese, Italian, French, Chipotle [2 x [1/2 White Rice + 2/3 Sour Cream + 2 Steak [If It Looks Well Done Otherwise Report Rawness In Writing]|Carnitas|Barbacoa]]]]
+Sex Toy For Practising ~Silent Standing|Missionary|Man-On-Top Procreational Reproductive Sex [Nubile Gold Medalist Modeled Black Mirror Ex Machina + Gentle + Lubricant + 0 Frenulum Tears + Wife Lying On Back For ~15 Minutes Afterwards To Maximise Pregnancy Probability] [Pee And Wipe Pee Pee Immediately Afterwards]
+.txt Application For Tracking Wife's Cycle
+.txt Application For Cycle Tracking
+Cu Copper IUD Intra Uterine Device
+NI Natural Insemination
+ICI Intracervical Insemination
+IUI Intrauterine Insemination
+Kids By 32 And 45 For Females And Males Respectively
+~H2O Water Based Hypoallergenic Lubricant
+Hypoallergenic ~Low-VolatileOrganicCompound 11.4cm|4.5in Long 7.6cm|3.0in Girth Dildo [For Wife And Daughters] And 0 Vibrator
+Uncoated 99% Al Aluminum Foil [100m^2|1000ft^2] [Cover Things] And Tape [Floor Cracks, Corners, Trims, etc.] [? Reflective Side Of 150 Square Feet Red Pink Reynolds Wrap Heavy Duty > 37.5 Square Feet Light Blue Reynolds Wrap Heavy Duty] [Remove From Malodourous Cardboard Box And Avoid Sweet-Smelling 99% Al Aluminum Foils Brands]
+Ankle Large Merino Wool Socks [Ballston Lightweight 81% Merino]
+Black Slides [2023 Black On Black Minimal Adidas Size 8 And 2023 Black On Black Xeros]
+4 Foldy Black Metal Chairs + Foldy Black Metal Table
+Foldy Black Chairless Metal Standing Table
+Meta Facebook Marketplace
+Used Stores And Clothing Donation To Rapidly Liquidate Undesired Assets [When One Upgrades]
+[Purchase Clothing Exclusively Online But Potentially Explore In The Flesh Optimised Japanese Chinese Bamboo Viscose > UniQlo Supima Wool And Women's ShortSweatShorts... KiNobody...]
+3 Black Hypoallergenic [Silk|Rayon|Bamboo Viscose|Bamboo Viscose|[Optimised GOTS Organic Undyed] Cotton|Wool] Thin Cool Publicly-Wearable Shorts
+Black Baggy Thin Cool Sweat|Pajama Pants For Offices [Sperms Functioning, Count, Health, Motility, Transcription Errors Minimisation [iPhone SE On Airplane Mode], etc.] [? Hand Rinse In Sink With ~H2O Water]
+3 Black And 1 Red DropTailFront Small Tanks And Crew Tees And Long Sleeved Crew Tees [Silk|Rayon|Bamboo Viscose|Bamboo Viscose|[Optimised GOTS Organic Undyed] Cotton|Wool]
+3 Black Sweaters [Add And Remove At Office As Desired, Can Sit ~Sweaty Alone In Tank]
+1 Cheap [?] Air Mattress
+2 Mattress Pads Prior To Obtaining Mattress
+4 Pillow[s] [Cotton + Down, Thin]
+Bedding [? [Cozy Earth] Bamboo Viscose] [Thin 400 Or 1000 Thread Count Egyptian Hypoallergenic 100% [Optimised GOTS Organic Undyed] Cotton And [?] Hypoallergenic 100% [Optimised GOTS Organic Undyed] Cotton Hypoallergenic ~Low-VolatileOrganicCompound 16" Mattress Pad Protector Larger Than Mattress [King On Full To Fully Wrap Underneath Overly Thick Malodourous Bottom]]
+Convenient ~Low-VolatileOrganicCompound Bed For Sexual Intercourse [iPhone SE|Macintosh Book Professional Black Red Light Or Sunlight]
+Stabiliser-Free Food Grade ~3% H2O2 Hydrogen Peroxide Soaked Then Rinsed [And Agitated] With Cool ~H2O Water In Negative Air Pressure Exterior Ventilated ~SiO2 Glass Shower|Laundry Room With Sealable Floor Pipe > Huge ~SiO2 Glass Bowl [~45.7cm|18in Diameter × ~30.5cm|12in Height] > ~~FeC [304|304L|316|316L|...] Passivated Stainless Steel Laundry [Michelin 3 Stars Culinary-Grade] 20|15|10 Gallon|80|60|40 Quart [Read Diameter] Hotpot With Lid For Usage With Cold Or ~100C|212F Boiling ~H2O Water Via Electric Induction > ~~Al Aluminum On Propane Outdoors In Back-To-Back-To-Back Manual Cycle Rinsing Out Pre-Soaked (CH3)2CHOH Isopropyl Alcohol [Avoid Fire] Or Stabiliser-Free Food Grade ~3% H2O2 Hydrogen Peroxide Maximally To Minimise Risk Of Corrosion
+Metal Miniature Vacuum [With HEPA MERV 16 + C Activated Carbon Filter] [? Dyson Cyclone V15|10 Animal Cordless]
+Metal mm Rulers [30cm|12in And 91cm|36in]
+High-Wattage UV UltraViolet Light ~254nm Doped Quartz ~SiO2 Glass [EPA Environmental Protection Agency] With Remote Control Without O3 Ozone Gas... Vacuum Floor And Remove Fabrics And Mattress Keratin Skin Organ Cells Which Might Produce Nontrivial SO2 If Exposed Too Close Too High Energy For Too Long Temporal Duration And Downstream Sulfurous Reactions [And Potentially Air Out Afterwards Anyways]
+[Hand Carried In Air Rather Than Dragging Upon Floor] 5 Full|King Sized [? > 13cm|5in Thick] Mattresses [? UL GreenGuard Gold GOTS Global Organic Textile Standard 100% [Optimised GOTS Organic Undyed] Cotton Down Various Japanese Markets > Naturepedic Chorus > Avocado Green 11" Mattress > The Futon Shop [Terrible Return|Exchange Policy] "Organic [Optimised GOTS Organic Undyed] Cotton Futon Mattress"] [Query 1000 Pages On Semi-Regulation MetaMedically Forensically] [1 In Measured ~0 NightLight Dark Sleep Bedroom And 1 In Bright Sunlight Day Office Work Room] [Potentially With Low Malodour Mattress Cover For Moving Between Houses] [Ensure To Not Malodourise With Malodourous Unclean Bedding Assets]
+[?] 1 ~Silent ~Low-VolatileOrganicCompound Gold Metal Miniature Refrigerator
+[?] Outdoor Electric Patio Dining Air Heater[s]
+[?] Low-VolatileOrganicCompound Electric Indoor Air Space Heater
+[?] Electric Service Without Gasoline Or Not Initiating Gasoline Air Heater
+[?] Indoor Air Humidifier[s] For Dry Weather
+[?] Very Quiet Portable Indoor Air Conditioner
+[?] Low-VolatileOrganicCompound Sounds Insulation And|Or ~$5000 Capital Allocation Towards Installation Of Much Quieter Heating Ventilation Air Conditioning Unit Potentially Hacking Lower Fan Speeds
+Black Metal Bed Desk [With Native Plastic Cooling Fans Structure Removed]
+28 Day Pill Box [With 1 "Mg Magnesium L-Threonate" Pill As Representative]
+Ibuprofen
+Safe Safe
+Low-VolatileOrganicCompound Functional Minimal Scotch Tape
+Gorila Glue [White And Clear] + Precut Putty
+[Urologist + Insurance] Myriad Foresight Universal DNA Test Or Invitae Comprehensive Carrier Screen [Email clientservices@invitae.com And Save Genetic Data .bam Binary Alignment Map File]
+[? Insurance] 2 10000 IU hCG Human Chorionic Gonadotropin Bottles [Urologist Prescription Pharmaceutical Human Chorionic Gonadotropin For "Hypopituitarism|Hypogonadotropic Hypogonadism" As Well As Varicocelectomy For Severe Left Testis Varicocele Missed By Mediocre General Practitioner [With Messaging Patient Portal] [<400ng/dL Total Testosterone Sensitive Assay] Subcutaneous ? 1200 IU Every Other Day > 600 IU Every Day > 1400 IU 3|Week] [Superior To Store Unreconstituted At 4C|40F Rather Than 32C|90F] [48 Hour hCG|Insulin Thermos TSA-Approved For Aeroplanes] [Measure Morning Erections + Testicular Volume + 0 Gynecomastia Nodules [Surgery]] [https://www.youtube.com/watch?v=Ne8YmpVVH4Q&ab_channel=TheClearPill]
+200 Individual 30G 1|2in Needles
+200 1.00mL Syringes
+Prescription Pharmaceutical Oral Levothyroxine For "Hypopituitarism|Hypothyroidism" [Store At Dry Dark Sealed 4C|40F And Consider Cutting Halfs Prior To Represcription]
+30 Rolls Of ~Low-VolatileOrganicCompound Toilet Paper
+Lots Of Similar Large Buffers On Many Things For Psychic Comfort
+2 Optimised Foot Stools For Pooing Comfort [Massage Entire Wummy Before, During, Whenever]
+Wireless Quiet Doorbell System [D Note Or D Minor Chord]
+99% Al Aluminum Foil Rectangle To Cover Malodourous Floor By Front Door Interior
+Optimised ~Low-VolatileOrganicCompound [Frost King EPDM D-Profile Self-Stick White 64mm|0.25in] Compressible Flexible Different Thicknesses Or Layers Of Weather Strip For Doors|Windows Exteriors [Bottom Of Apartment Unit Front Door With Separate Floor-Tight Stopper On Interior And Sides etc. Remove Previous Tenants' Glue Fumes With ~H2O Water And|Or (CH3)2CHOH Isopropyl Alcohol] [Can Also Add 99% Al Aluminum Foil Interior But Ensure Adequate O2 Oxygen Throughput]
+Rented Halloween Laughing Bovine Faeces "The Shit" Poomoji Costume Outfit etc.
+First Aid Kits
+Warmable Clay For Wummy And Muscles
+Gift Neighbours "Natural" Swimming Pool Cleaning Sets
+Steel Clothes Drying Racks [As Standing Desk Near Bright Symmetric Sunlight Window With 0 Direct Sunlight On Machine Considering Monitour Height And Feet Oedema + Neuropathy + ~H2O Water Retention + Na Sodium Salt + Oestradiol + Socks + Regular Calves Raises + Squats + Pacing Around + Stretching + Confirming Measured ~0 Blood Clot Deep Vein Thrombosis]
+~Low-VolatileOrganicCompound Undyed Hypoallergenic 100% [Optimised GOTS Organic Undyed] Cotton [[?] Anti Malodour, Anti Microbial, Anti Bacterial, Stored Separately From Other Malodourous Goods] Microfibre [Pouring Meats Fats Onto Meat]
+$400 Metal Home Gymnasium Rack, Barbell, Plates [Lift Naked Warm] [May Last 100+ Years] [CAP Olympic Grip Plates Fe Iron 165lb Set 2 x [35 + 25 + 10 + 5 + 5 + 2.5]] [Academy Sports Metal Model Rack]
+[? Nordic Pure|Medical Hospital Suppliers] MERV 20-16 HEPA + C Activated Carbon High Performance Air Filters [? Vent Exhausts Too]
+Blue Light Blocking Goggles
+Blue And Green Light Blocking Goggle Goggles
+~Low-VolatileOrganicCompound [Can Air Out Or ~H2O Water Rinse Potentially Hypoallergenic 100% [Optimised GOTS Organic Undyed] Cotton] Eyes Covering Sleep Mask
+~$6000 Ion Science Tiger XT [Accurate Sensitive Indoor Air Quality Airborne VolatileOrganicCompound Particle And Mould Measurement Tool [Measure ~0 Everywhere Especially On Bedding]]
+[?] ~$1500 IQAir GC MultiGas Air Purifier [~60dB]
+Sensitive Blood Pressure And Heart Rate Measurement Instrument
+Sensitive Blood Glucose Insulin Measurements
+Large Metal And ~SiO2 Glass Blender
+Global Poker Hands Tracker Analyses Semi-Automatic Next Day Feedback
+Scrabble Minimal 1973 De Luxe Edition [Collins Scrabble Words And L'Officiel Du Jeu Scrabble]
+Othello|Reversi ~2000 Austin, Texas
+Gomoku|Go 2016 Berkeley, California
+Chess ~1950 Beograd, Srbija Wood
+Stratego ~2000 Austin, Texas
+Settlers Of Catan 2003 Mayfair
+
+	Indoor Air Quality Maximisation | Background "Nerve Gas" Malodour Minimisation
+
+Total Time: ~15 Hours
+
+Odour particles emanate with various intensities and density curves|latencies of clearance. One ought to feel Minimal impulsion to touch nose, effectively clearing out boogies with ~H2O Water-rinsed fingers perhaps ×2|day. In a relatively low background malodour room environment the odours of orange juice, 14 days old bedding, and mildly uplifting ultrahighdefinition fidelity shaved untoweled poophole prior to toweling may be prominent or dominant. Plucking nose hairs is harmful, unhealthful, and not advisable. Malodour can transfer via chains like hand to doorknobs and later back to hands, so ensure to adequately rinse fingers skin. Some split air conditioners take unclean city air in flow and irreparable cracks and pressured air flows via neighbours' kitchens and air. Verify exterior 99% Al Aluminum Foil is blocking malodour particles flowing in by performing exterior malodour throughput testing, both subjective and machine verified. Air out wall paint from apartment while at office.
+
+One can cover a home residential environment in ~Low-VolatileOrganicCompound 99% Al Aluminum Foil, cover walls, all wall-wall neighbour outlet suboptimal potential throughput joints, paints, doors, create quasi air seals everywhere including e.g. over toilet piping, hang at some door-floor joints monitouring thermics, weather strip interior closets, and put ~everything inside of sealed ~Low-VolatileOrganicCompound Bisphenol-A-Free Plastic boxes. Apply tape rigourously over cracks and at trim joints. Cover stinky floor from a very low height so as to not breathe in minor NaHCO3 baking soda particles with a thick layer of dry NaHCO3 Baking Soda. Do property damage, remove things, wipe insecticide and chemicals off of sills, ledges, door frames, trims, wrap interior laundry closet in 99% Al Aluminum Foil, etc.
+
+	Teeth Brushing
+
+Can do every morning, 30 minutes after meals, and following nightly Orange Juice. Rinse with ~H2O Water and thoroughly floss. 1 or 2 large dabs of the rather expensive but worthy Oranurse Unflavoured F- Fluoride Toothpaste. Thoroughly brush, do not push hard, at angles, until everything feels nice and smooth. Brush tongue and around mouth exterior with toothpaste. Rinse completely with ~H2O Water. Scrape tongue with teeth. Open mouth 0 during the day. Some people prefer avoiding F- Fluoride in their toothpaste and nose mouth throat brain organs. And some who enjoy to utilise Stabiliser-Free Food Grade ~3% H2O2 Hydrogen Peroxide diluted to ~1% qua mouthwash rinse rather than full on brushing in the morning fasted e.g.
+
+	Visual Studio Code Settings.json File
+
+Setup
+Books
+Chronic Exposure To Notes
+Resources
+Problem Solving
+Reading Solutions
+Reading Code
+Implementation
+Effective Debugging
+Competing
+
+Setup
+Extremely important. I run the Visual Studio Code text editor application [see 00 Settings.json] and compile and output in a Google Colab for C++ and Python or Kaggle for R on a 15.6in 1920x1080 Asus Google ChromeBook. Settings in Visual Studio Code are heavily modified rendering it a Minimal text editor with hover triggering information to appear [sometimes useful].
+
+Books
+Guide To Competitive Programming, Erickson, CLRS.
+
+Chronic Exposure to Notes
+I like reviewing my .txt files to refresh my memory and think about algorithms and implementations.
+
+Resources
+Competitive Programming Algorithms, Codeforces blogs, Codechef discussions, etc.
+
+Problem Solving
+Project Euler, Code Submission Evaluation System, AtCoder, Facebook Meta Hacker Cup, Google Code Jam. When preparing for X, do the contest X archive.
+
+Reading Solutions
+Pick tasks with editorials. Read after some time and implement. Read a lot of solutions files too to learn ideas. Look up unknown things and read further references.
+
+Reading Code
+Learn better ways of doing things.
+
+Implementation
+Do not be scared, practice, and this will be smooth. Use Notebook and modify it for ease of use. Filter by "accepted" and sort by execution time on AtCoder, Codeforces, etc. for performant C++ implementations.
+
+Effective Debugging
+Do not just ponder code logic: write print statements! Consider writing a naive implementation, comparing the outputs for variables.
+
+Competing
+Competing often makes it less stressful.
+
+GitHub
+Commit Folder ["Lazar" After Deleting Git Hidden Folder With Updates Manually Copied-And-Pasted In From Master "Lazyr" Folder Via .txt Files Change Tracking In Calendar.txt Bottom|Via Sorting Unhidden Files By Last-Changed-Date|Continually]:
+cd Lazar && git init && git checkout -b main && git add Notes Resume && git commit -m "-" && git remote add origin http://GitHub.com/Lazar-Ilic/Lazar.git && git push origin main
+
+Remove History:
+cd Lazar && git init && git checkout -b main && git add Notes Resume && git commit -m "-" && git remote add origin http://GitHub.com/Lazar-Ilic/Lazar.git && git push -u --force origin main
+
+Visual Studio Code
+	[ctrl a] [ctrl c] [ctrl v] Select All Copy Paste
+	[ctrl n] New File
+	[ctrl z] Undo
+	[ctrl f] Find Replace Replace All Capitilisation Match
+	Replace All Function
+		New Line to ""|Null
+		" a" to " A"
+		"	" to "	"
+		""" to """ and "'" to "'"
+		" in to " to " into "
+		" don't " to " do not "
+		"." to ". " And ".  " to ". "
+		[https://github.com/Lazar-Ilic/Lazar/blob/main/Notes/Ideas/Textifying.txt]
+	Replace Function
+	Capitalisation Match Search Function
+	Default Native Files Directory Save Function Handling
+	Saving Place In File Bookmark Reading Where Left Off Upon Opening
+	Code Colours And Brackets Psyche
+	Automatic Save With [ctrl z]-Undo For Errors As Needed
+	...
+.txt Files
+Google Chrome
+AdBlock
+Wizmage Image Hider
+	Pause
+	Exclude Website Domain
+Red White Black Mode Extension
+Convert Google Chrome Number Strings Like "One" In To Numbers "1"
+Super Dark Mode Extension
+	Allow Access To File URLs Uniform Resource Locators
+CodeRetriever [For Downloading Users' CodeForces Submissions]
+Competitive Programming Submit Button Biological Hazard -20 Rating Points Symboliser
+YouTube Maximum Fidelity .mp4 Downloader + Cropper [https://www.adobe.com/express/feature/video/crop/mp4] [? + Machine Learning Wisard Animations Of Winking Set To Ultralife Acoustic Cover...] + Favourites Folder Saved To All Machines
+All Black - Full Dark Theme|Black Theme Google Chrome Theme
+Blank Dark New Tab Page
+Calendar .txt File
+Diary .txt File
+Library Genesis [https://libgen.rs/]
+.mobi .epub .pdf to .txt Conversion
+.torrent to Magnet URL Uniform Resource Locator Converter
+Science Sci Hub [https://sci-hub.ru/]
+Google Commands [https://www.gwern.net/Search]
+Coding
+WolframMathematica WolframScript [https://www.wolfram.com/wolframscript/]
+WolframAlpha Functions
+	[https://www.wolframalpha.com/examples/]
+	[https://www.wolframalpha.com/examples/everyday-life/surprises/]
+	t Tests
+	Inverse
+	Determinant
+	Choose
+	Mathematical Constants
+	Unit Conversion
+	Optimal Algorithms Sometimes
+	...
+[PARI|GP And Other Online In-Browser 10 Hour Execution At [https://www.tutorialspoint.com/execute_pari_online.php]]
+	Google Colab For Execution With Free 12GB RAM Or Paid More
+
+%%writefile a.cpp
+
+	New Code Cell:
+
+%%shell
+g++ -std=c++17 a.cpp -o a
+./a
+
+Google ChromeOS Operating System Setup
+
+"Advanced" "Developers" "Linux development environment" "30.0 GB"
+In Google Chrome open "Google Chrome-untrusted://terminal" [Google Chrome://Google Chrome-urls/ And Stack]
+sudo apt-get install g++
+sudo apt install build-essential
+sudo apt-get install gdb
+Install Visual Studio Code via .deb
+Do Not Add Visual Studio Code Extensions
+USEttings.json file
+In "Linux files" ... "hidden files" ".bashrc" "alias" insert:
+	alias a='g++ -std=c++20 a.cpp -o a'
+	alias s='./a.out'
+	alias d='python a.py'
+Where "a.cpp" and "a.py" are in "Linux files"
+Change Stack Size In C++ File As Needed
+In Google Chrome open "Google Chrome-untrusted://terminal" and Compile/Output/Execute
+In Super Dark Mode "Manage extensions" "Allow access to file URLs"
+In Google Chrome append "#toolbar=0" after ".pdf"
+Backup Machine To 1TeraByte MicroSDXC And Google Drive
+[Settings, Play Store, Terminal, Files, Google Chrome, Camera, Visual Studio Code, uTorrent, Explore, Web Store, Video Player All Format, Tor]
+[Auto Hide Lower Bar Pinned Google Chrome, Files, Visual Studio Code]
+.fontFamily Monospace IDE Text Editor Optimised Cousine, MonoLisa, etc.
+
+Apple Macintosh Operating System Setup
+
+Blah Blah Blah
+Remove Direct Messages In Slack With "X" And Customise Colours And Font Size etc.
+Black Minimal Simple
+Always Show Battery Percentage, Sound [Volume], Display [Brightness], And Accessibility [Colour Filters Only Via Accessibility Settings etc.] Shortcuts In Menu Bar
+Automatically Hidden Top And Bottom Bars
+Filter Bottom Bar Applications
+Custom Terminal Commands
+Force Quit And Terminal "sudo purge" To Clear Up RAM Random Access Memory
+Remove Terminal History Via ~"echo '' > ~/.zsh_history"
+Set Font Size
+Automated Night Shift And Colour Tint Red #FF0000 Filter
+Permanently Turn Off Keyboard Rectangle And Backlighting [Using Show In Menu Bar]
+Automator Record 60 Seconds 1 Click Lower Left Corner On Nothing Utilities Loop Loop Automatically Stop After 600 Minutes Save As "Loop" Application And Stop Via Top Bar For Retaining Active Status Whilst Away From Keyboard
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install gcc
+Finder [Command][Shift][g] "/Library/Developer/CommandLineTools/usr/include" New Folder "bits" New File "stdc++.h" Copypasta Comment Out "//#include <cstdalign>"
+code .zshrc:
+"
+alias a="g++ -Wl,-stack_size -Wl,268438000 -std=c++20 a.cpp -o a"
+alias s="./a"
+"
+Check Memory Limits And Alter As Needed ~"avl=VL(20000000000);out<<avl[20000000000-1]<<nl;"
+
+----------
+
+Linux Terminal Commands:
+
+sudo apt-get install python3.8
+sudo apt-get install python3-pip
+pip3 install torch
+pip3 install keras
+pip3 install tensorflow
+pip3 install numpy
+pip3 install pandas
+pip3 install scipy
+pip3 install matplotlib
+pip3 install scikit-learn
+pip3 install statsmodels
+pip3 install seaborn
+
+----------
+
+{
+	"telemetry.telemetryLevel": "off",
+	"C_Cpp.updateChannel": "Insiders",
+	"workbench.activityBar.visible": false,
+	"workbench.statusBar.visible": false,
+	"editor.fontSize": 17.5,
+	"editor.wordWrap": "on",
+	"editor.codeLens": false,
+	"editor.unicodeHighlight.nonBasicASCII": false,
+	"editor.copyWithSyntaxHighlighting": false,
+	"editor.dragAndDrop": false,
+	"editor.emptySelectionClipboard": false,
+	"editor.foldingHighlight": false,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.quickSuggestions": {
+		"comments": "off",
+		"strings": "off",
+		"other": "off"
+	},
+	"editor.snippetSuggestions": "none",
+	"editor.suggest.filterGraceful": false,
+	"editor.suggest.showClasses": false,
+	"editor.suggest.showConstants": false,
+	"editor.suggest.showColors": false,
+	"editor.suggest.showConstructors": false,
+	"editor.suggest.showEnumMembers": false,
+	"editor.suggest.showCustomcolors": false,
+	"editor.suggest.showEnums": false,
+	"editor.suggest.showEvents": false,
+	"editor.suggest.showFields": false,
+	"editor.suggest.showFiles": false,
+	"editor.suggest.showFolders": false,
+	"editor.suggest.showFunctions": false,
+	"editor.suggest.showIcons": false,
+	"editor.suggest.showInlineDetails": false,
+	"editor.suggest.showInterfaces": false,
+	"editor.suggest.showIssues": false,
+	"editor.suggest.showMethods": false,
+	"editor.suggest.showKeywords": false,
+	"editor.suggest.showModules": false,
+	"editor.suggest.showOperators": false,
+	"editor.suggest.showProperties": false,
+	"editor.suggest.showReferences": false,
+	"editor.suggest.showSnippets": false,
+	"editor.suggest.showStructs": false,
+	"editor.suggest.showTypeParameters": false,
+	"editor.suggest.showUnits": false,
+	"editor.suggest.showUsers": false,
+	"editor.suggest.showValues": false,
+	"editor.suggest.showVariables": false,
+	"editor.suggest.showWords": false,
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"editor.suggestOnTriggerCharacters": false,
+	"editor.wordBasedSuggestions": false,
+	"workbench.iconTheme": null,
+	"workbench.colorTheme": "Default Dark+",
+	"workbench.tips.enabled": false,
+	"window.menuBarVisibility": "compact",
+	"editor.minimap.enabled": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
+	"window.titleBarStyle": "custom",
+	"editor.scrollbar.verticalScrollbarSize": 0,
+	"editor.renderLineHighlight": "none",
+	"editor.guides.indentation": false,
+	"workbench.colorCustomizations": {
+		"editor.background":"#000000",
+		"editorLineNumber.foreground":"#000000",
+		"editorLineNumber.activeForeground":"#000000",
+		"titleBar.activeBackground":"#000000",
+		"titleBar.activeForeground":"#000000",
+		"titleBar.inactiveBackground":"#000000",
+		"titleBar.inactiveForeground":"#000000",
+		"titleBar.border":"#000000",
+		"window.activeBorder":"#000000",
+		"window.inactiveBorder":"#000000",
+		"editor.selectionBackground":"#222222",
+		"editor.selectionHighlightBackground":"#111111",
+		"editor.inactiveSelectionBackground":"#111111",
+		"statusBar.background" : "#000000",
+		"statusBar.noFolderBackground" : "#000000",
+		"statusBar.debuggingBackground": "#000000",
+		"editorGroupHeader.tabsBackground": "#000000",
+		"editorGroup.border": "#000000",
+		"editorGroupHeader.tabsBorder": "#000000",
+		"editorGroupHeader.border": "#000000",
+		"editorGroup.focusedEmptyBorder": "#000000",
+		"tab.activeBackground": "#000000",
+		"tab.unfocusedActiveBackground": "#000000",
+		"tab.border": "#000000",
+		"tab.activeBorder": "#000000",
+		"tab.activeBorderTop": "#000000",
+		"tab.inactiveBackground": "#000000",
+		"editor.foreground":"#ffffff"
+	},
+	"editor.fontFamily": "monospace",
+	"editor.lineNumbers": "off",
+	"editor.folding": false,
+	"editor.glyphMargin": false,
+	"breadcrumbs.enabled": false,
+	"editor.renderWhitespace": "none",
+	"workbench.editor.untitled.hint": "hidden",
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter-notebook"
+	},
+	"security.workspace.trust.startupPrompt": "never",
+	"security.workspace.trust.banner": "never",
+	"security.workspace.trust.untrustedFiles": "open",
+	"python.showStartPage": false,
+	"extensions.ignoreRecommendations": true,
+	"git.openRepositoryInParentFolders": "never",
+	"workbench.editor.empty.hint": "hidden",
+	"window.commandCenter": false
+}
+
+----------
+
+	Mating-By-2032 Profile
+
+[Email To Gold Medalists]
+
+"
+Would you like to eat beef steak and white rice with me in my apartment complex courtyard on a pleasant Sunday around noon?
+"
+
+[Compose List Of Plausible Conversation Topics With Written Precomputed Thoughts]
+
+I want to home school [or Stanford Online High School|Princeton International School Of Mathematics And Science] our Summer-born children until they go to Princeton whilst living with us. I like virginal 16-24 year old females with libido 8-25|month penis-in-vagina [optionally coitus interruptus], especially those with a strong background in mathematics competitions [Putnam Top 100, USAMO Top 24, CodeForces Master, > 70 United States Of America Mathematics Talent Search, > $3000000 career pre-tax aggregate income, GRE 346, SAT 1600]. Must be monogamous, shave head hairs, probably wait until the IO house to have sex, and use 0: hormonal contraception or history of usage, alcohol, cocaine, opioids, psychedelics, amphetamine, marijuana, fragrances, and not demand that I quit coffee. Email me at lazar_ilic@yahoo.com to schedule a date [perhaps in Cambridge, Boston, New York City, Princeton, Philadelphia, Pittsburgh, San Francisco, Austin, Vancouver, Toronto, London, Paris, Rome, 南京市, 香港, 上海, 臺北市, 東京都, 京都市, etc.].
+
+----------
+
+	IO-By-2026
+
+Hi,
+
+I am interested in the construction of an Insulated Concrete Form house at [~2-10 acres isolated land address with perhaps Aquasana Filtered Optim~H2O Water and electricity, near Princeton, New Jersey]. I want it to be extremely Low-VolatileOrganicCompound in my judgement and quiet, including 14, 7 pairs of 12'x12'x10' rooms with separate air inflows and temperature controls. I want Low-VolatileOrganicCompound, this includes each and every component. I am uniquely seriously concerned on this specification, and care about it more than looks. A high quality 0 VolatileOrganicCompound monolithic drywall rather than a paper-backed or fibreglass-backed and 0 VolatileOrganicCompound flat White paint might work. All painted elements in 0 VolatileOrganicCompound [VOC] White ECOS Air Filtering Zeolite paint. I would like a 0 VolatileOrganicCompound concrete floor with perhaps a 0 VolatileOrganicCompound ~H2O Water concrete polish such as RetroPlate. I am a bit of a perfectionist, and am interested in discussing each and every component so that I am satisfied with the outcome of this construction project. I might move in around 90 days after construction completion and request a small construction team wearing fragrance-free clothing and avoiding smoking cigarettes e.g.
+
+In each room, 1 thick soundproof large fixed single pane 6'x6' centered window from 2' to 8' height and 3' to 9' width with a Minimal White metal frame that leaks 0 external air borne particles through. I probably prefer for the glass panes to block UltraViolet UV [A+]B light. A soundproof precise solid White metal door on the left side of the rear wall, and for all involved doors is important to me. Perhaps the doors can be thick metal sliding embedded in deep grooves in the floor and ceiling. Perhaps each of the 7 work rooms could also feature an 8' by 8' centered ceiling skylight window. With nice exterior top to bottom window covering mechanisms for the windows.
+
+For temperature control, I want a high maximum-power unit running quietly on low power, like a recording studio might have. Somewhat far away from the house with the precise location of air inflow optimised. Or, rather than that, perhaps 8 separate nice extremely quiet modern air conditioning heating units: 1 for each building. With air inflow through the center upper portion of the rear wall without a grille over the vents. Each room with a hold option thermostat. That is to say, I want a thermostat which will automatically both trigger the air conditioning function in the heat, and the heating function in the cold, without me having to manually toggle between the 2 modes. As well as an effective quiet On mode rather than Automatic mode so that may help with dehumidifying. I want for this to have highly effective MERV ~18 + C Activated Carbon air filtering and dehumidifying. If possible, a temperature sensor position near the ground not too far from the window and bed, and connection with the internet so that I may change the temperature in a room from my laptop or iPhone SE. We ought to discuss air inflow in bedrooms and outflow in antechambers. No grilles on air vents such that internal air turbulence and fluctuation is minimised. A maximum performance dehumidifier separate from the air conditioner. And perhaps we can discuss truly optimised front doors with robust sealing such that air flow is all mediated via constructed channels.
+
+I want a robust reliable external power generator with automatic backup in the case of a local power outage. I do not want any artificial lighting, but I do want electricity in each room [6 outlets] [all on a side wall far from the window] and aethernetwork interconnected network connection.
+
+Minimal toilets with fully sealed closed lids and sinks without backflows with piping hidden in walls and potentially automatically lowering sealing in-sink-drains. Including the option to push a button and have a 15 minute timed ventilation fan running. We can discuss Minimal Gold coloured metal cylinders or rectangular prisms for many auxiliary elements, such as door handles, toilet paper covering implements, sink pipes, and handles. I want to ensure that the sinks are ~Low-VolatileOrganicCompound when wet but without being wiped down so perhaps we can discuss stone versus metal construction on those, as well as piping hidden behind the walls.
+
+And a disconnected living|gymnasium|shower room. Perhaps placement of a ~H2O Water heater element near the shower room. And an indoor shower [high performance ~H2O Water filter] with a removable hose, a large nice extremely high throughput pipe, and an automatically sealing drain. Including the option to push a button and have a 15 minute timed ventilation fan running. We can discuss Minimal Gold coloured metal cylinders or rectangular prisms for many auxiliary elements, such as door handles, sink pipes and handles, glass shower door handles, etc. Very large glass tiles for the shower interior and a glass door. Shower with a single handholdable high ~H2O Water throughput metal showerhead. I would strongly prefer for there to be 0 Silver coloured metal elements in the house so this implies I would prefer e.g. a Gold coloured Minimal toilet flushing bar element if at all possible as well as a purely Gold or White or Black coloured Minimal refrigerator in the living room etc. And a home gymnasium room there too. Living room: [roughly 24'x24'x10'] with a Minimal sink without backflow [high performance ~H2O Water filter] and electricity for a fridge|freezer and outdoors electric grill. All under a solid extended overhanging cover covering a ~patio of flat concrete probably.
+
+I have attached a sketch of a potential property layout. Minimal interior hand operated door locks with exterior numerical touchscreen keypads. And a tall highly soundproof stone wall surrounding the property including a gate. Truly opaque to external visual investigation and 12' high. An esthetic point of reference is attached. I want a 枯山水 rock garden rather than grass for the inner house wall structure and possibly the entire exterior lot. I ought to explore options for the rock. Please let me know if you have any questions and an estimate.
+
+Sincerely,
+
+Lazar Ilic

@@ -1,0 +1,79 @@
+Factorials Precomputed: n
+	Query: 1
+
+Inverse: log p
+	Binary exponentiation a^[p-2] is a^[-1] by Leonhard Euler.
+
+Choose: 1
+	With precomputed.
+
+Multinomial: m
+	m multiplications.
+
+Exponent: log b
+	Binary exponentiation.
+
+Precompute Choose: n^2
+	Query: 1
+	Pascal's Triangle up to Choose[n][n].
+
+Precompute A Choose: n log p
+	Query: 1
+	A single row Choose[n][] via simple multiplications. Much faster than binary lifted Fast Fourier Transformations or Number Theoretic Transformations.
+
+Precompute Exponents Of a: n
+	Query: 1
+	Iterated multiplications.
+
+Precompute Stirling i.e.: n^2
+	Query: 1
+	Recursion.
+
+Order Statistic
+	Built in C++.
+
+Sprague-Grundy Theorem
+
+OEIS Online Encyclopaedia Of Integer Sequences
+	Read formulae carefully thinking about the entire toolkit including Is Prime, Factor, Convolution, Convolution Modulo p, and Convolution Modulo Fast p.
+
+Recursions Modulo Low-n Cyclicity:
+	For example, it is trivial to compute the value of the nth term of a sequence modulo 1000 in a depth 2 recursion such as the Fibonacci Sequence by simply computing the first cycle and indices and then taking n modulo the cycle length if larger than the first index of that cycle. Or modulo 100 in a depth 3 recursion. This is ensured to cycle in the first 100^3 = 1000000 terms due to the Pigeonhole Principle. Trivial examples of long times until first cycle? Expected time until first cycle under different assumption conditions?
+
+Binomial Coefficients Choose Tricks: n^2
+	If one only needs to access row-by-row i.e. there exists a recursive formula for generating a sequence and in each outer ith for loop step we only need the ith row of Pascal's Triangle then one can initiate a vector to 0s or 1,0s or 1,1,0s or 1,2,1,0s as relevant and then loop through in each iteration downwards from i-1 to 1, setting to the relevant sum of previous dudes in this same vector and then set the ith dude to be 1. For this needed row from Pascal's Triangle. In general, when one is applying a Bottoms Up Dynamic Program in order and only ever needs access to a few previous rows e.g. one can store it in a vector of vector of ints and also have an auxiliary variable to cyclically shift around with respect to the underlying referent in order to save memory.
+
+Summing Modulo p
+	If we need to find some value modulo p and the value is in like the range of 10^14 say 10^5 loops of summing modulo p then it is faster to sum up a ton of modulo p values in a long long and then modulo p the final answer value in 1 modulo p operation at the end rather than modulo p-ing every single time. For tight cases remove all multiplications and not-needed modulo p operations and also natively convert in line from integer into long long as needed to minimise runtime latency. For larger summations in C++ we can more cleverly modulo p out still much less often for example in another loop structure to separate each time some sum hits around 10^18 or whatever to minimise those nontrivially costly modulo p operations calls.
+
+Convolution And Convolution Modulo p Exponentiation Via Matrices And Vectors Rather Than 1-By-1 Fast Fourier Transformations And Number Theoretic Transformations: n * log n * log m Or n^2 * log m
+	Rather than n^2 * log n * log m consider when using the same exponent in vector convolution exponentiation using matrices a la CodeForces 861 E. Remove a factor of n if the underlying vector to be exponentiated is merely a cyclic shift.
+
+-------------
+
+If one has some structure some summation of arithmetic progressions or some induced finite differences higher degree polynomials one can simply execute a big polynomial interpolation for the true underlying formulae in true O[log n] time! O[n] in the bits of input.
+
+For computing the first m terms of (1+x+x^2+x^3+x^4+^5+...)(x+x^2+x^4+x^5+x^7+x^8)^n one may simply separate the step sizes into 3s and 1|2 remainders so that this transforms into a summation of terms of the form [[c+a-1] choose [c-1]]*[FFF[n]] with prefix sums FFF of prefix sums FF of Fibonacci F recursion e.g.
+
+If one is tasked with processing n queries of the form: process through a list of length n except ignore 1 dude consider if there is a trivial way to process through all the dudes and then later go back and reverse|pretend 1 of those dudes did not occur. Marking progressions and flow through discrete timestamped time sequenced steps.
+
+Swapping order of double or triple or more summation. Exponential cases. If asked to compute the sum of (number of some dudes)^a e.g. consider if instead one can add up this sum over a-tuples of some dudes via [total some dudes choose a] into ordered a-tuples of course to remove an ~a! constant factor. And then clever manipulation of step by step transition walking between subsets even from there to further tighten up optimisation.
+
+Certainly note that e.g. Lucas and Kummer Theorems can help with simplifying massive polynomial generating function e.g. exponentials in rings e.g. one can more simply compute (x^a1+x^a2+...+x^an)^m by noting that we can do a binary exponentiation on m and as we are powering up by powers-of-2 note that e.g. (x^a1+x^a2+...+x^an)^2=(x^[2a1]+x^[2a2]+...+x^[2an]) in that ring of Z/Z2 and so on and so on.
+
+Robinson-Schensted Correspondence:
+	In mathematics, the Robinson-Schensted correspondence is a bijective correspondence between permutations and pairs of standard Young tableaux of the same shape. It has various descriptions, all of which are of algorithmic nature, it has many remarkable properties, and it has applications in combinatorics and other areas such as representation theory. The correspondence has been generalised in numerous ways, notably by Knuth to what is known as the Robinson-Schensted-Knuth correspondence, and a further generalisation to pictures by Zelevinsky.
+
+	The simplest description of the correspondence is using the Schensted algorithm (Schensted 1961), a procedure that constructs one tableau by successively inserting the values of the permutation according to a specific rule, while the other tableau records the evolution of the shape during construction. The correspondence had been described, in a rather different form, much earlier by Robinson (Robinson 1938), in an attempt to prove the Littlewood-Richardson rule. The correspondence is often referred to as the Robinson-Schensted algorithm, although the procedure used by Robinson is radically different from the Schensted algorithm, and almost entirely forgotten. Other methods of defining the correspondence include a nondeterministic algorithm in terms of jeu de taquin.
+
+	The bijective nature of the correspondence relates it to the enumerative identity:
+
+	{\displaystyle \sum _{\lambda \in {\mathcal {P}}_{n}}(t_{\lambda })^{2}=n!}\sum _{{\lambda \in {\mathcal  {P}}_{n}}}(t_{\lambda })^{2}=n!
+	where {\displaystyle {\mathcal {P}}_{n}}{\mathcal  {P}}_{n} denotes the set of partitions of n (or of Young diagrams with n squares), and tλ denotes the number of standard Young tableaux of shape λ.
+
+Sum Over Subsets: n * 2^n
+	 Given a fixed array A of 2^n integers, we need to calculate ∀ x function F(x) = Sum of all A[i] such that x&i = i, i.e., i is a subset of x.
+	 https://codeforces.com/blog/entry/45223
+
+Zeta Transformation, Mobius Transformation, And Subset Sum Convolution
+	https://codeforces.com/blog/entry/72488

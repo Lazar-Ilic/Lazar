@@ -1,0 +1,474 @@
+\Large
+
+\textbf{Introduction}
+
+1 \\
+Wow I don't recall ever proving that $e$ is irrational but I think that one can obtain a contradiction sandwiching on the denominator between $2$ rationals.
+
+2 \\
+Sylvester $2^n$ from $\begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}$ and $\begin{bmatrix} A & A \\ A & -A \end{bmatrix}$
+
+4 \\
+The statement is equivalent with having disjoint sets of points and their distance $1$ neighbours whence we obtain the upper bound of $\frac{2^7}{1+\binom{7}{1}}=\frac{2^7}{8}=16$. This bound is obtained Hamming $(7,4)$ for the $16$ binary strings of length $4$ augmented with $3$ parity bits covering $\{ d_1,d_2,d_4 \}, \{ d_1,d_3,d_4 \}, \{ d_2,d_3,d_4 \}$
+
+1 \\
+Induction like $3^2+4^2=5^2$ and multiply all representations by $5^2$ and then to generate a new $n+1$ break down $1$ dude in to $2$ via that Pythagorean triple.
+
+2 \\
+An inductive construction is take $2$ points at a unit distance from each other now copy and paste that set at some non intersecting unit offset so that each point has precisely $1$ new unit distance point in the set, namely its corresponding point in the copy. Iterate. This translates in to taking $n$ sufficiently close unit vectors and for each binary string, each subset, add those unit vectors in the subset so generate a quasi embedding of the hypercube of $n$-dimensions in to $\mathbb{R}^2$ essentially on the underlying unit-distance graph.
+
+3 \\
+Contradiction consider the face with the maximal number of edges and contradiction if all distinct on its adjacent faces.
+
+4 \\
+Contradiction. Indeed the condition says that for each of the positive integers it must be the case that it contains the strict majority of at least $1$ prime.
+
+5 \\
+Putnam And Beyond. Without loss of generality $r \ge g \ge b$ not obtained then sphere, circle, segment contradiction.
+
+6 \\
+Induction.
+
+7 \\
+Impossible for odd $n$ as $(2n-1)\left(\frac{n+1}{2}\right) > n^2$ counting incidences as each diagonal element contributes to $1$ of these union sets, and each off-diagonal element contributes to $2$ of these union sets, and we must hit each set thus requiring at least $\frac{n+1}{2}$ of each of the $2n-1$ values to appear in the matrix. For the even case, and the particular task of demonstrating existence for infinitely many values of $n$, one may do an inductive/recursive construction for powers of $2$. Namely, create $4$ copies, and shift the upper right and lower right copies by $2^{n}$ and then shift the upper right diagonal by $-1$, so for example at step $4$ we have: \\
+$
+\begin{matrix}
+1 & 2 & 4 & 6 & 8 & 10 & 12 & 14 \\
+3 & 1 & 7 & 4 & 11 & 8 & 15 & 12 \\
+5 & 6 & 1 & 2 & 13 & 14 & 8 & 10 \\
+7 & 5 & 3 & 1 & 15 & 13 & 11 & 8 \\
+9 & 10 & 12 & 14 & 1 & 2 & 4 & 6 \\
+11 & 9 & 15 & 12 & 3 & 1 & 7 & 4 \\
+13 & 14 & 9 & 10 & 5 & 6 & 1 & 2 \\
+15 & 13 & 11 & 9 & 7 & 5 & 3 & 1
+\end{matrix}
+$
+
+8 \\
+Eventual cyclicity argumentation.
+
+9 \\
+USAMO. $\boxed{1999}$ contradiction take a row and column excluding their intersection and in the other direction argue on rows with precisely $1$ coloured square.
+
+10 \\
+USAMO. $\boxed{10^5}=10^{n-1}$ bound and construction final bit error correcting sum of first $n-1$ digits modulo $10$ e.g.
+
+11 \\
+Induction.
+
+12 \\
+Contradiction otherwise we know precisely the full set of values taken on whence a contradiction arises by summing modulo $n!$
+
+13 \\
+
+
+14 \\
+IMO. Splitting lines left right argumentation.
+
+\newpage
+
+\textbf{Polynomials}
+
+1 \\
+$\boxed{x^6-6x^4-6x^3+12x^2-36x+1}$ is the minimal polynomial.
+
+2 \\
+Contradiction degree blowup magnitude argumentation.
+
+3 \\
+Smoothing, first derivative argumentation should work.
+
+4 \\
+$1,i,-i$ work and $e^{ia}$ substitution or Vieta in reverse cubic formula should work for uniqueness if not some more obvious argumentation.
+
+5 \\
+Quora. Assume not. Say $n=\text{deg}(P(x)) \ge \text{deg}(Q(x))$ and $P(x)$ has $A$ distinct roots: $A_1$ distinct single roots and $A_2$ distinct multiple roots. Then $P'(x)$ has $n-A$ roots in common with $P(x)$ counting multiplicity. Similarly $P(x)-1$ has $n-B$ roots in common with $P'(x)-1=P'(x)$. But these are distinct thus $P'(x)$ has at least $2n-A-B$ roots and degree $n-1$ whence $A+B \ge n+1$. But then as these $A$ roots of $P(x)$ and $B$ roots of $P(x)-1$ are also roots of $Q(x)$ and $Q(x)-1$ we obtain that they are $A+B$ distinct roots of $P(x)-Q(x)$ which is a polynomial of degree at most $n$, and thus is the $0$ polynomial contradiction.
+
+6 \\
+
+
+\newpage
+
+\textbf{Number Theory}
+
+1 \\
+$(x-y)^{p-1} \equiv x^{p-1}+x^{p-2}y+\dots+y^{p-1} \pmod{p}$ or note by Fermat that this expression must be $1$ or $0$ if and only if $x \equiv y \pmod{p}$ if and only if $x^p \equiv y^p \pmod{p}$ and norming.
+
+2 \\
+$\boxed{7}$ indeed $3^{\text{odd}} \equiv (-1)^{\text{odd}} \equiv -1 \pmod{4}$ thus $3,9,7,1,3,9,7,1,\dots$ implies this.
+
+3 \\
+$\boxed{87}$ indeed find the fixed point is easier than modulo $25$ and $4$ Chinese Remainder Theorem $\phi$ reductions.
+
+4 \\
+StackExchange. For example letting $C$ be the number of consecutive pairs in the partition and $S$ be the number of pairs that differ by $6$ one obtains that $C+S=999$ and the sum of the differences is $C+6S=999+5S$ whence it suffices to note that $a+b \equiv a-b \pmod{2}$ means the sum of differences is equivalent with the overall sum $1+2+\dots+1998=\frac{1998\cdot 1999}{2}=999\cdot 1999 \equiv 1 \pmod{2}$ and thus one obtains as desired $9 \pmod{10}$.
+
+5 \\
+$\boxed{\text{Yes}}$, for example converting this in to a statement about a sequence of elements in $Z_2^{\infty}$ e.g. binary strings corresponding with prime factors so $2^1 \cdot 3^0 \cdot 5^1 \cdot 7^1 = 70$ corresponds with $101100\dots$ one obtains for example: \\
+$1100000000000000\dots$ \\
+$0011000000000000\dots$ \\
+$1000110000000000\dots$ \\
+$0110001100000000\dots$ \\
+$1001100011000000\dots$ \\
+$0110011000110000\dots$ \\
+$1001100110001100\dots$ \\
+$0110011001100011\dots$
+
+6 \\
+USAMO. $\boxed{\text{GCD}(r,s)}$
+
+7 \\
+USAMO. Let $b$ be the least $n$ for which the problem statement is false. Note that for all integers $b$, the sequence $2^0, 2^1, 2^2, \dots$ eventually becomes cyclic modulo $b$. Let $k$ be the period of this cycle. Since there are $b-1$ nonzero residues modulo $b$ one obtains that $1 \le k \le b-1 < b$ and then it follows that as the sequence does not become constant modulo $b$ then the sequence of exponents must not become constant modulo $k$ contradicting the constructed minimality of $b$.
+
+8 \\
+RMM. $\boxed{2}$
+
+9 \\
+IMO. Let $p_1 < p_2 < p_3 < \dots$ be the prime numbers. Let $A$ consist of all products of $n$ distinct primes such that the smallest is greater than $p_n$. Now let $S=\{p_{a_1},p_{a_2},\dots \}$ be any infinite set of primes. Then $p_{a_1}p_{a_2}\dots p_{a_{a_1}}$ is not in $A$ but $p_{a_2}p_{a_3}\dots p_{a_{a_1}+1}$ is.
+
+\newpage
+
+\textbf{Calculus}
+
+1 \\
+$\boxed{(2x+1)\cos(x^2)}$ and for example to deduce that the $10$th derivative of this is $0$ at $0$ note the Taylor series implies vanishing for $n \equiv 2,3 \pmod{4}$
+
+2 \\
+$\boxed{\frac{\pi}{4}}$ from $\frac{x}{2}+\frac{\ln(\sin(x)+\cos(x))}{2}$
+
+3 \\
+$\boxed{0}$ as $u=\sqrt{x}=x^{\frac{1}{2}}$ has $du=\frac{1}{2}x^{-\frac{1}{2}}dx$ and thus $\int_1^2 \frac{2(u^2-2)}{u^4+4}$ by partial fractional decomposition in conjunction with Sophie Germain per usual one obtains $\frac{1}{2}(\ln(u^2-2u+2)-\ln(u^2+2u+2)) |_1^2 = 0$
+
+4 \\
+Steinmetz solid. $\boxed{8(2-\sqrt{2})}$
+
+5 \\
+$\boxed{\ln(2)}$
+
+6 \\
+$\boxed{\frac{\pi \ln(2)}{8}}$
+
+7 \\
+Let $I(a)=\int_0^{\infty} \frac{\arctan(ax)-\arctan(x)}{x} dx$. Then one obtains that $I'(a)=\int_0^{\infty} \frac{1}{1+a^2 x^2} dx = \frac{1}{a} \int_0^{\infty} \frac{a}{1+a^2 x^2} dx = \frac{1}{a} \cdot \arctan(ax) |_0^{\infty} = \frac{\pi}{2a}$. $I(1)=0$ and the desired is $I(\pi)$ by construction whence we obtain by integrating $\int_1^{\pi} \frac{\pi}{2x} dx = \frac{\pi}{2} \ln(x)|_1^{\pi} = \boxed{\frac{\pi}{2} \ln(\pi)}$
+
+8 \\
+
+
+\newpage
+
+\textbf{Functional Equations}
+
+1 \\
+$f(x^2)=f(x)=f(x^{\frac{1}{2}})=\dots$ in the limiting case as $n \to \infty$ one obtains by continuity that $f(x)=f(1)$ and it follows too that $f(0)=f(1)$ as desired.
+
+2 \\
+Note that $\boxed{f(x)=cx+1}$ works. So for example $g(x)=f(x)-1$ whence one obtains $g(x+y)=g(x)+g(y)$ and the desired by Cauchy.
+
+3 \\
+$\frac{1}{2}=f(0+0)=f(0)=f(a)$ whence $f(0+y)=\frac{1}{2}f(a-y)+\frac{1}{2}f(y)$ so $f(y)=f(a-y)$ and $f(x+y)=2f(x)f(y)$ so $2f(x+y)=2f(x)2f(y)$ so $\ln(2f(x+y))=\ln(2f(x)2f(y))=\ln(2f(x))+\ln(2f(y))$ and $g(x)=\ln(2f(x))$ satisfies $g(x+y)=g(x)+g(y)$ I don't know use the flip flop somehow. Balkan. $f(x+a-x)=f(x)=(f(x))^2+(f(a-x))^2=2(f(x))^2$ so $f(x)=\pm \frac{1}{2}$ but then $f(x)=f\left(\frac{x}{2}+\frac{x}{2} \right)=2f(x)f\left(a-\frac{x}{2}\right)=\frac{1}{2}$
+
+4 \\
+StackExchange. $f(x+y)+1=(f(x)+1)(f(y)+1)$ so $g(x+y)=g(x)g(y)$ is Cauchy $g(x)=x^c$ whence $\boxed{f(x)=x^c-1}$
+
+5 \\
+StackExchange. A substitution takes this sort of inequality to $f(a)+f(b)+f(c) \ge f(2b+c)$ and then e.g. the summation of cyclic permutations of this inequality gives something but in this task plugging in $(a,0,0)$ and $\left(\frac{a}{2},\frac{a}{2},-\frac{a}{2} \right)$ gives $f(0)\ge f(a)$ and $f(a)\ge f(0)$ thus $f(a)=f(0)$ as desired.
+
+6 \\
+StackExchange. this means $f(f(f(x)))=x$ has solutions $x,y,z$ but as a composition one obtains $f(f(x))$ is increasing and $f(f(f(x)))$ is decreasing which means it has a unique zero, the unique zero of $f(x)=x$.
+
+7 \\
+IMO.
+
+8 \\
+StackExchange. Continuous involutions $2$ fixed points surjective injective invertible symmetric around the line $y=x$ contradiction if there exists interval without fixed point on graph lying above or below this diagonal on that interval hence identity.
+
+9 \\
+IMO.
+
+10 \\
+IMO.
+
+11 \\
+$\boxed{\text{Yes }f(x)=\frac{1+\sqrt{5}}{2} \cdot x\text{, rounded}}$ works. Indeed suppose without loss of generality that $\frac{1+\sqrt{5}}{2} \cdot x=y+r$ with $r<\frac{1}{2}$ so that $f(f(x))=f(y)=\frac{1+\sqrt{5}}{2} \cdot \left(\frac{1+\sqrt{5}}{2} \cdot x-r \right)$ rounded and it suffices to note that the literal integer value of $f(x)+x=x+\frac{1+\sqrt{5}}{2} \cdot x -r$ and the difference in the unrounded is $\frac{1-\sqrt{5}}{2} \cdot r$ which is even lower in magnitude as desired hence the remainder rounding term is correct and the desired functional equation is satisfied.
+
+\newpage
+
+\textbf{Inequalities}
+
+1 \\
+Yes this is a very classical result of partial/prefix/interval sums and the solution is traditionally presented as going around letting the gas metric go negative and starting at the global minimum.
+
+2 \\
+We can always smooth regardless of sign keeping the sum fixed or increasing it with a flip flop while strictly increasing the sum of the squares in to the $2,2,\dots,2,n-2(n-1)=-(n-2)$ case and observe the inequality equality case threshold.
+
+3 \\
+i.e. the sum of $2$ non negative real numbers is $4$ what is the smallest possible value of the sum of their squares i.e. $\boxed{8}$
+
+4 \\
+ISL. Monovariant with bound the product of all the numbers becomes at least $4$ times larger after each step and then $AM-GM$ gives the desired equality at the symmetric pair off all the $1$s in to $2$s then $2$s in to $4$s etc. etc.
+
+5 \\
+IMO. Inded pairing off symmetric elements it suffices to show that $a_k+a_{m+1-k} \ge n+1$ but if not then the $k$ distinct numbers $a_1+a_{m+1-k},a_2+a_{m+1-k},\dots,a_k+a_{m+1-k}$ are all $\le n$ and hence equal to some $a_i$. But then they'd all be greater than $a_{m+1-k}$ but there are only $k-1$ such $a_i$ in that range contradiction.
+
+6 \\
+TSTST.
+
+7 \\
+Putnam. Recall the curve length and Taylor series.
+
+8 \\
+ISL.
+
+\newpage
+
+\textbf{Convergence}
+
+1 \\
+$\boxed{\text{Divergent}}$ as $\int \frac{1}{x\ln(x)}=\ln(\ln(x))$
+
+2 \\
+$\boxed{\text{Convergent}}$ as $\sum_{n=2}^{\infty}\frac{1}{n(\ln(n))^2}\le\sum_{n=1}^{\infty}\frac{2^n}{2^n(\ln(2^n))^2}=\sum_{n=1}^{\infty}\frac{1}{n^2(\ln(2))^2}=\frac{\pi^2}{6(\ln(2))^2}$ by Cauchy Condensation Test.
+
+3 \\
+$\boxed{\text{Divergent}}$ as $\int \frac{1}{x\ln(x)}=\ln(\ln(\ln(x)))$
+
+4 \\
+Riemann Series/Rearrangement Theorem.
+
+5 \\
+VTRMC. $\boxed{\text{Convergent}}$. Direct comparison with the maximum $a_1+a_2+a_4-a_3-a_5-a_6+\dots$
+
+6 \\
+$\boxed{\text{Convergent}}$
+
+7 \\
+
+
+8 \\
+$\boxed{\ln(2)}$
+
+9 \\
+VTRMC. Comparison, AM-GM, and the convergence of $\sum \frac{1}{n^2}$
+
+10 \\
+Putnam.
+
+11 \\
+
+
+12 \\
+
+
+\newpage
+
+\textbf{Recursions}
+
+1 \\
+Induction.
+
+2 \\
+No $91 \neq 89$
+
+3 \\
+$\boxed{\frac{1+\sqrt{5}}{2}}$ by Binet e.g.
+
+4 \\
+Sequence A000930 on the OEIS. $\boxed{277}$
+
+5 \\
+$n^2-1=(n+1)(n-1)=101 \cdot 99=\boxed{9999}$
+
+6 \\
+USAMO. Bijection.
+
+7 \\
+Zeckendorf binary strings algorithms and so on and so on.
+
+8 \\
+Note $\frac{1}{F_n F_{n+2}}=\frac{F_{n+1}}{F_n F_{n+1} F_{n+2}}=\frac{F_{n+2}-F_n}{F_n F_{n+1} F_{n+2}}=\frac{1}{F_n F_{n+1}}-\frac{1}{F_{n+1} F_{n+2}}$ whence the summation telescopes to $\frac{1}{F_1 F_2}=\boxed{1}$
+
+9 \\
+$\boxed{14}$ cyclic modulo $16,17$ probably works e.g.
+
+10 \\
+Advanced Problems And Solutions. Wow. With Fibonacci $F_1=1, F_2=1, F_{r+1}=F_r+F_{r-1}$ and Lucas $L_1=1, L_2=3, L_{r+1}=L_r+L_{r-1}$ one obtains that $(-1)^r+F_r^2=F_{r+1}F_{r-1}, L_r=F_{r+1}+F_{r-1}$ and subtracting $4$ times the first from the square of the second one obtains that $5F_r^2+4(-1)^r=L_r^2$. The converse is a little tricky.
+
+11 \\
+StackExchange.
+
+\newpage
+
+\textbf{Linear Algebra}
+
+1 \\
+$(I+aP)(I-cP)=I+(a-c)P-acP^2=I+(a-c-ac)P$ so if $a-c-ac=0$ then $I+aP$ is the desired inverse and one obtains $a(1-c)=c \to a=\frac{c}{1-c}$ and $\boxed{I+\frac{c}{1-c} P}$
+
+2 \\
+$
+\begin{vmatrix}
+0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 1 & 1 & 1 \\
+1 & 1 & 0 & 1 & 1 \\
+1 & 1 & 1 & 0 & 1 \\
+1 & 1 & 1 & 1 & 0
+\end{vmatrix}
+=
+\begin{vmatrix}
+-1 & 0 & 0 & 0 & 1 \\
+0 & -1 & 0 & 0 & 1 \\
+0 & 0 & -1 & 0 & 1 \\
+0 & 0 & 0 & -1 & 1 \\
+1 & 1 & 1 & 1 & 0
+\end{vmatrix}
+=
+\begin{vmatrix}
+-1 & 0 & 0 & 0 & 1 \\
+0 & -1 & 0 & 0 & 1 \\
+0 & 0 & -1 & 0 & 1 \\
+0 & 0 & 0 & -1 & 1 \\
+0 & 0 & 0 & 0 & n-1
+\end{vmatrix}
+=
+\boxed{(-1)^{n-1}(n-1)}
+$
+
+3 \\
+$abc=\boxed{3}$ given that by Spectral Mapping one obtains $a+b+c=1, a^2+b^2+c^2=-3, a^3+b^3+c^3=4$ by for example the usual Vieta symmetric expressions manipulations.
+
+4 \\
+Vandermonde argumentation gives $(x_i-x_j)|\text{det}$ whence one can deduce the desired on residues and primes and number theoretic argumentation.
+
+5 \\
+No as $(A^2+B^2)(A-B)=A^3-A^2B+B^2A-B^3=0$ and $A \neq B$ one would have $(A-B)=(A^2+B^2)^{-1}(A^2+B^2)(A-B)=(A^2+B^2)^{-1}0=0$ contradiction.
+
+6 \\
+
+
+7 \\
+Probably some algebraic manipulations related to traces and nilpotent matrices again perhaps utilizing the $0$ exponential traces fact and $2$ eigenvalues algebra.
+
+8 \\
+StackExchange. Suppose that $A=UV$ is a rank decomposition. We want $UVBUV=ABA=A=UV$ hence it suffices to find a $B$ such that $VBU=I$
+
+9 \\
+Probably follows from Cayley-Hamilton.
+
+\newpage
+
+\textbf{Combinatorics}
+
+IMC $\boxed{6}$ logic.
+
+1 \\
+The $1$ and $0$ multiplicities line up system of equations perhaps kind of inductively.
+
+2 \\
+Same.
+
+3 \\
+Some quasi greedy pairing symmetry like try and distribute as evenly as possible with respect to opponent possibly a greedy ranking based with opponent edge degree works if not one based on explicit decomposition in to matchings.
+
+4 \\
+IMC. Yoav Krauz pairing argumentation.
+
+5 \\
+StackExchange. $A$ for $2,3$ and $B$ for $>3$ due to parity of maximal minimal generating sets.
+
+6 \\
+ISL. Constructed line set, incidences, monovariant, yadda yadda.
+
+\newpage
+
+\textbf{Integer Polynomials}
+
+1 \\
+Shift to $P(-6)-2P(0)+P(6)$ whence on degree one obtains it suffices to examine terms of degree $\ge 2$ and thus $\boxed{72}$
+
+2 \\
+$(2x-y)(2x+1-y)$
+
+3 \\
+Cyclotomic polynomials, roots of unity, Eisenstein $\frac{x^p-1}{x-1}=\frac{(y+1)^p-1}{y}=y^{p-1}+\binom{p}{1}y^{p-2}+\binom{p}{2}y^{p-3}+\dots+\binom{p}{1}$
+
+4 \\
+$(P(x)-1)(P(x)+1)=(x-a)(x-b)(x-c)Q(x)=-1$ magnitude contradiction e.g.
+
+5 \\
+This is more commonly stated in the form that it is impossible to have $P(a)=b, P(b)=c, P(c)=a$ but this is the same it follows from distinct and divisibility that $(b-a)|(c-b),(c-b)|(a-c),(a-c)|(b-a)$ whence $|b-a| \le |c-b| \le |a-c| \le |b-a|$ whence $|b-a|=|c-b|=|a-c|$ contradiction.
+
+6 \\
+Otherwise a contradiction from the polynomial GCD of $p(x)$ and $p'(x)$
+
+7 \\
+Perron.
+
+8 \\
+
+
+9 \\
+Buffet Contest.
+
+10 \\
+Probably Chebyshev.
+
+\newpage
+
+\textbf{Probability}
+
+1 \\
+In the Nash Equilibrium one obtains that $-2ab+3(1-a)b=3a(1-b)-4(1-a)(1-b),-2ab+3a(1-b)=3(1-a)b-4(1-a)(1-b)$ thus $a=b=2-\sqrt{2}$ thus the game has expected value $34\sqrt{2}-48 \neq 0$ and thus is not fair.
+
+2 \\
+$98:1:1$ prior ratio updates to $98:16:0$ e.g. $\frac{16}{16+98}=\boxed{\frac{8}{57}}$
+
+3 \\
+$\boxed{\frac{1}{2}}$
+
+4 \\
+There is a $14 \times 14$ of equally likely potential first/second child sex/day pairs and in $\boxed{\frac{13}{27}}$ both children are girls.
+
+5 \\
+$\text{Higher}$ certainly strictly dominating and one could also write out the delta distributions or note the distribution over the final $7$ game delta as a sum of $4$ and $3$ Bernoulli point masses distributions where a positive delta corresponds with win probability as winning a best-of series is isomorphic with winning a full series.
+
+6 \\
+For example let $P(0),P(1),\dots$ be the probabilities we are ever behind i.e. we hit $-1$ delta from starting state $i$. So $P(0)=.49+(.51)P(1), P(1)=(.49)P(0)+(.51)P(2), P(2)=(.49)P(1)+(.51)P(3), \dots$ and obtain $P(0)=\frac{1-.51}{.51}=\frac{.49}{.51}$. Now the expected maximum is isomorphic with repeatedly asking each time we obtain a new maximum: do we obtain a new maximum from this level or not? And thus, it's a geometric series $\frac{\frac{.49}{.51}}{1-\frac{.49}{.51}}=\frac{49}{2}$
+
+7 \\
+Probably follows from some algebraic manipulations.
+
+8 \\
+$\sum_{k=0}^{\infty} \left( 1-\frac{1}{2^k} \right)^n$ so for example by $x=1-\frac{1}{2^k}$ one obtains $\frac{1}{\ln(2)}\int_0^1 (1-x^n) \frac{dx}{1-x}=\frac{1}{\ln(2)}\left(1+\frac{1}{2}+\dots+\frac{1}{n}\right)$ and so the asymptotic $\frac{\ln(n)}{\ln(2)}=\boxed{\log_2 (n)}$
+
+\newpage
+
+\textbf{Geometry}
+
+1 \\
+VTRMC. $\boxed{3\sqrt{7}}$
+
+2 \\
+Induce symmetry in to a square of side length $7$ and obtain $\boxed{7\sqrt{2}}$ or on sight the fact that the powerful hammer of coordinate bashing works and execute in a minute.
+
+3 \\
+$(a+b+c) \times b=0 \iff a \times b + b \times b + c \times b =0 \iff a \times b + c \times b = 0 \iff a \times b = b \times c$
+
+4 \\
+Consider expanding/projecting the original polygon outward each edge perpendicularly to itself.
+
+5 \\
+Classical result.
+
+6 \\
+Classical result extend to sphere argumentation Putnam Notes.
+
+7 \\
+IMO. Convex hull $\boxed{\text{regular }$n$\text{-gons}}$ interior contradiction.
+
+8 \\
+USAMO. The convex hull hexagon formed by the diagonals is always preserved works for the bound.
+
+9 \\
+VTRMC. $\boxed{42}$ by distance formula for example using the usual reflection isomorphic with extension through $\mathbb{Z}^3$ mapping.
+
+10 \\
+Putnam. Note, by e.g Pick, that $S \ge \frac{1}{2}$ whence the desired follows from $S=\frac{abc}{4R}$
