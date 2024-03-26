@@ -1,0 +1,15 @@
+[Massachusetts Institute Of Technology, Carnegie Mellon University, University Of Illinois Urbana-Champaign, Princeton University, Harvard, Harvard Statistics, University Of Pennsylvania, University Of Texas At Austin] [Credence ~0.7 Rejected From All]
+
+I have been preparing myself for graduate school with my Master Of Computer Science degree at the University Of Illinois At Urbana-Champaign, short stint as a Software Engineer at Amazon, puzzles, online competitive programming, and academic research readings. I regularly place top 10 in Project Leonhard Euler tasks and top 500 in AtCoder and CodeForces 2-3 hour rounds. Competitors are tasked with producing robust and algorithmically strong C++ codes to complete tricky tasks. This has been tonnes of fun. I take online notes on these topics and mathematics in my public GitHub repository "Lazar".
+
+I also study Kaggle machine learning notebooks and approximation algorithms competitions online, such as the AtCoder heuristic series. Most of my research readings have been in algorithms and discrete mathematics, a mixture of historical archives and modern combinatorics. I also have thought about many state of the art papers in machine learning. I am hoping to soon publish interesting results. I would like to study statistics for my thesis, as this is valuable for traders in the labour market.
+
+	Post Script - Email Sent To Tens Of Massachusetts Institute Of Technology And Harvard Professors:
+
+	Summer 2024 Internship?
+
+Would you like my unpaid help this summer?
+
+	Unpaid Internship At UIUC CS?
+
+Hi. I am in the MCS program and was reviewing Dr. Erickson's Quora posts... realizing that research experience is important if I want to try and apply for a PhD following the MCS. Do you know if anyone would like to support me as an unpaid labourer with their laboratory? I applied through the CS Job Portal as well as the Carle Illinois College Of Medicine Projects Available For Student Participation. I am somewhat interested in Hepatology.

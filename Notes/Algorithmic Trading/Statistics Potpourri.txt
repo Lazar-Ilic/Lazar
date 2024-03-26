@@ -1,0 +1,85 @@
+I might come back to this file later... was considering doing various little miniature ad hoc kind of a cursory examinations of some datasets writing down hypotheses and analysis data just to see if I could produce something half interesting or demonstrate to firms a willingness to go and grind some kind of projects... this was partially influenced by a Dr. Scott Alexander Siskind post on Simple Statistics and name string lengths re nominative determinism etc. etc. maybe I will list more here frankly to do later or so that other kind of lousy rat' web loggers can go do them for fun and to signal a bona fide interest in "recreational" statistics play studies... I will go do a bunch more kind of canonical Python implementations of statistics too on top of the usual GitHub readings and review.
+
+	Reddit Post Titles And Upvotes Analysis
+
+Could potentially just read up or start here and demonstrate an ability to snag a dataset myself in an automated digital fashion. And then look at simpler things first like the length of the title in characters, number of words, complexity and obscurity of words, etc. etc. look at generic sort of sentiment sentimental analysis datasets and value judgement laden associations with words etc. etc. I am somewhat interested in perceived "intelligence" based around purely the formatting. For example, I saw an InstaCart advertisement which read "Pls tell me your family is like this" and it made me cringe. How wise is it to maintain a habit of attempting flawless constructions? I think it is worth it.
+
+	Twitter Trending Trends
+
+I am sure this has been studied extensively and perhaps that post from the 2 Sigma firm web log sort of outlines different directions these trending tags can go in influencing markets and the flow of news information via various routes and social media.
+
+	Construction Noise Predictions And Productivity, Rent Market Valuations
+
+Interesting to see how information does in fact flow through laws on public announcement times and uninformed prospective tenants in developing urbane urban environments.
+
+	Bicycle Paths... Downstream Effects
+
+I dunno if taking notes like this in public is wise but to be sure if I was drilled on something like this in some interview setting ugh ugh ugh... would bring up measured kind of general vague health metrics and proxies... and then note error corrections like for example rates of vehicle bicyclist traffic accidents and deaths as well... accuracy is somewhat relevant in adjudicating policy decisions and proposals over what was what what precisely and what was eu good. I need to read more more more ugh general statistics. Even more. Could also include car car traffic accidents too in the mix. And consider reduction of overall car speeds if that latency is a problem or negative impact. 1st 2nd 3rd order effects on expectations. How to reason about known unknowns of the 1st or 2nd order calibre.
+
+	Emoji
+
+It is interesting stuff... parsing some older people writing on how they struggle to interpret younger kiddos' writing... and what emojis do or do not mean. I dunno much about Twitter sentiment analysis data sets and was under the impression that most trading firms mostly think about financial time series ugh not sure not sure not sure who generates which ideas for generating value ugh.
+
+	Signal And Noise
+
+Say we as statisticians are attempting to parse any connection between rainy dark outdoor light weather and measured reproduction of humans. But city birth statistics are prone to severe fluctuations for other reasons like immigration and emigration. We could quiz people on their sex habits in relation to weather... "hot weather causes a fall in birth rates 9 months later" according to Google. How much of this is due to decreased motility in male sperm?
+
+	Cold Weather And Heart Attacks
+
+Interesting statistics. Outdoor air temperature. Qualities. Various levels of downside risk.
+
+	Analysis Of YouTube Thumbnail Statistics
+
+Run my own maybe soon. "The Perfect Thumbnail Is Key To YouTube Success, Study Finds". "Anatomy Of A Popular YouTube Thumbnail". Colours. Background dominant colours. Is there a human present? How many humans? Is there text? Etc. etc. Maybe I can look up some canonical kind of metrics of poppiness or contrast or produce some myself to throw in the mixture analysis. "Classifying YouTube Videos By Thumbnail" from Stanford's Computer Science 230 was half interesting and had half interesting links contained therein. It was also somewhat interesting in that they commented upon AWS Amazon Web Services and their GPU Graphics Processing Units request for training from 4000 to 300000 image files failing. I was hoping to potentially snag say 1000000 random YouTube films with over 1000000 views or so... perhaps would also fail. If I was talking this task through with the Hudson River Trading firm or any firm for that matter... would consider trying to predict a popularity metric which is defined as say logarithm of number of views after 12 months. 24 months. Not sure. Somewhat interesting. If I had to handwave gesture a kind of a jokey causal tie-in to financial markets here... one might speculate on the price movements for the advertisers actually the advertisers and sponsors in the film which would then need to also be parsed like if NordMordVPN suddenly has 10 times the viewers on their advertisements there upon that platform system then we might expect increased sales and investment perhaps in NordMordVPN.
+
+	MIT Massachusetts Institute Of Technology PokerBots 2024
+
+Seems interesting enough. I might try and ping someone to join their team and hop in the mixture.
+
+	News Notes
+
+Perhaps I should try to imitate TechnologyLead Patrick Shyu and train a LLM Large Language Model to make money trading stocks based around some corpus of daily news bits and bytes. Just kidding. Maybe maybe not. Umm. Might want to take daily notes on news in public to demonstrate a technical skill ability to do just that precisely so and see... I am hopeful that one day soon perhaps United States Of America lawmakers will just go ahead and opt to ban TikTok outright in America... even if that piece of legislation is itself in violation of the law... found formally later or not... OK upon further review here maybe opt to preserve a very strong form of the 1st Amendment and yet still somehow ban the TikTok application in public schools.
+
+	More Simple Statistics Musings
+
+Not sure not sure not sure... might soon post up some projects to demonstrate that I can complete projects. Might even want to consider doing multiple to demonstrate Productivity... that is to say producing something half decent and half interesting.
+
+	The Short-Term Impact Of Super Bowl Advertising On Stock Prices: An Exploratory Event Study
+
+Somewhat interesting paper read... would be kind of interesting to throw around a little bit of money with a live centaur edge in advertisement consumer psychology analysis plus Twitter|X readings... and hope to go up in a few days with a precomputed sell strategy of ~4 days post facto.
+
+	Hepatology
+
+Interesting topics. I pinged University Of Illinois Urbana-Champaign professors. A simple ish way to review Omega 3 6 9 Clear Pills would be to analyse outcome variables retroactively... this requires ~$0 up front cost to do... versus prospective trials or direct formal analysis of biological chemical content. Do coffeine trembles in high-VolatileOrganicCompound malodourous rooms predict Parkinson's diagnosis or hepatic or renal failure or death? Do I trust Nootropics Depot [indicted versus the Food And Drug Administration's Office Of Criminal Investigations et al.] laboratory style analyses of over the counter supplement product integrity and non-toxicity?
+
+	Downside Risks With Low Probability...
+
+I would think that doing a PhD Doctor Of Philosophy Of Computer Science in Russia funded by the Russian government has some downside risks... of dying or lacking healthcare or being murdered. Working for Citadel Securities would also strike me as riskier than a tiny shop due to the serious negative public written records on that firm and the implied risk posterior of terrorism after 2001-09-11. How low are these probabilities? 0.01?
+
+	Hepatology
+
+10000 pages read... 1000000 more to go?
+
+	CostCompany Stock
+
+Interesting to analyse... if I was drilled upon this ideation session in a simple interview setting... might want to discuss models for how many people will join and leave membership... immigration numbers... gasoline prices... predicting gasoline prices... families... automobile ownership trends... tracking store openings and closings... food prices [notoriously high nowadays]... etc.
+
+	Pharmacy Betting
+
+Given my background in quantitative precision biology, I applied to multiple firms engaged in trading related to pharmaceuticals. Seems interesting. Not sure I currently have any major "centuar" edges in those markets. Perhaps I ought to post up a USMLE United States Of America Medical Licensing Examination Step 2 CK ace soon from Illinois or something... maybe New York University or the now-free Albert Einstein college... it is interesting reading certain post facto analyses of the Wegovy situation re: various losses for other firms selling foods and weight-loss products.
+
+	Inputs...
+
+Modeling firms like Home Depot versus Lowe's and eyeballing listed job salaries... I dunno yet what standard analyses are at a firm like Optiver. I ought to study more standard Econometrics GitHubs now.
+
+	Sell-Side Strategies
+
+I am kind of interested in running historical analysis of strategies based around... if I think I have some early human "centaur" edge in buying or short selling something based around a predicted soon "jump" basically in mid-latency home tapes attempts how to optimise the sell side e.g. where do we detect that the stock has now normed in to a "stability-without-stasis" zone?
+
+	Simple Business Idea Generator
+
+Perhaps I could code up a funny little script for wealthy private individuals to run if they are relatively neutral... and it could make predictions of profit net loss or something tell some dude to open up a restaurant in city X and an outdoor microhouse community in city Y.
+
+	"Kids are using phones in class, even when it's against the rules. Should schools ban them all day?"
+
+Yes.

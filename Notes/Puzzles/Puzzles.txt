@@ -1,0 +1,290 @@
+I like puzzles and mathematics contests. See Library. I retain all Solutions archives in .txt and .tex .pdf for review.
+
+Peter Winkler
+Using Your Head Is Permitted
+The Puzzle Toad
+Maths Puzzles Collected By Haidong Wang
+MathOverflow
+Matrix67
+[wu:riddles]
+Mind Your Decisions
+GlassDoor
+Miguel Barbosa Periera [https://miguelbper.github.io/] [https://github.com/miguelbper]
+et al. Solid Expository Puzzle Writer Mathematicians
+
+----------
+
+	[Donate Directly To The Poor "Exploited"] Tanya Khovanova's Mathematics Web Log Comments:
+
+	AMC, AIME, USAMO Contradiction
+	25th March 2009, 05:53 am
+To get to the national swimming championship, you need to win the state running championships.
+...
+
+Lazar Ilic:
+Fascinating old post to revive. I am hopeful that the MAA Mathematical Association Of America will continue to support the USAMTS United States Of America Mathematical Talent Search route with an AIME American Invitational Mathematics Examination score of 11.
+
+https://artofproblemsolving.com/community/u48336h3265944p30032043
+
+----------
+
+	Fudge Likes Meatballs
+	15th March 2024, 03:26 pm
+Here is an interesting puzzle by Ivan Mitrofanov.
+
+Puzzle. In front of my dog, Fudge, lies an infinite number of meatballs with a fly sitting on each of them. At each move, Fudge makes two consecutive operations described below.
+
+Eats a meatball and all the flies sitting on it at that time.
+Transfers one fly from one meatball to another (there can be as many flies as you want on a meatball).
+Fudge wants to eat no more than a million flies. Assuming that flies sit still, prove that Fudge doesn’t have a strategy where each meatball is eaten at some point.
+
+Lazar Ilic:
+Perhaps my noodle noddle noodling noodles are up to no good... proof by contradiction. Suppose there existed such a strategy and the meatballs are numbered 1, 2, ... without loss of generality we may permute the labels so that Fudge eats them in order. Then the following theorem becomes clear: if some prefix of length L of the remaining meatballs has >= L flies in total on the meatballs prefix then Fudge will eat >= 1 fly during their consumption of that prefix. Indeed, Fudge has L eat operations with only L-1 move operations between them on the prefix. OK. Intuition here is that a stronger strategy in the finite case would be to eat 1 then move from 2 to rear then eat 2 then move from 3 to rear then ... then lose on the last move of eating from rear. Proof in the infinite case follows. Each phase we will ensure Fudge eats >= 1 more fly by tracking the maximal index we have shifted a fly to thus far. Phase 1 ends when we eat the fly on meatball 1. Now if Fudge moves the fly from meatball 2 to meatball M the new "prefix" from 2 to M works as it contains precisely M-1 flies. Once Fudge eats meatball 2 through the meatball M there is a new analysis. If Fudge ate F >= 1 flies during phase 2 and moved M-1-F >= 0 with the maximal meatball MM being moved to then there exist MM-F-1 flies on the meatballs M+1 through MM is a new new prefix of length MM-M <= MM-F-1 flies on it and thus the theorem applies again and can be written up in to a formal strong induction proof that after 1000000 such phases the process will terminate.
+
+I ought to have cited Sperner's Theorem in my previous comment on identifying a murderer with the "convenient" [8 choose 4] = 70 sized antichain bound.
+
+	Two Lovely Puzzles
+	13th March 2024, 05:02 pm
+
+These two puzzles were given to me by Andrey Khesin.
+
+Puzzle. My friend and I are going to play the following game at a casino. Each round, each of us (my friend, the dealer, and I) secretly chooses a black or white stone and drops it in the same bag. Then, the contents of the bag are revealed. If all three stones are the same color, my friend and I win the round. If not, we lose to the dealer. One extra caveat. I have a superpower: as soon as we sit down, I can read the dealer’s mind and learn the dealer’s choices for all future rounds. Unfortunately, at that time, it’s too late for me to give this information to my friend and win all the rounds. The only thing we can do is agree on a strategy before the game.
+
+Design a strategy to win 6 out of 10 rounds.
+Design a strategy to win 7 out of 11 rounds.
+Is it possible to win 6 out of 9 rounds?
+Puzzle. In a crowd of 70 people, one person is a murderer, and another person is a witness to said murder. A detective can invite a group into his office and ask if anyone knows anything. The detective knows that everyone except the witness would say nothing. The witness is a responsible person who is more afraid of the murderer than they desire to fulfill their civic duty. If the witness is in the same group as the murderer, the witness will be silent; otherwise, the witness will point to the murderer. The detective knows this will happen and wants to find the murderer in as few office gatherings as possible. What is the minimum number of times he needs to use his office, and how exactly should the detective proceed?
+
+Lazar:
+Online Matching Pennies by Olivier Gossner, Penelope Hernandez, and Abraham Neyman in the Center For The Study Of Rationality. It is possible to win 6 out of 9 rounds. In fact, there exists a relatively simple strategy for winning 3X out of 4X+1 rounds:
+
+https://puzzling.stackexchange.com/questions/30214/strategy-to-beat-the-casino
+
+"
+1. To start, play 0 until you lose a round.
+2. Play the value played by the leader in the last round that was lost. Do this for 3 rounds, unless 3d or 3e happens.
+3a. If you only won 2 of the 3 rounds, do step 2 again.
+3b. If you won all 3 rounds, keep playing the value until you lose a round. Do step 2 again.
+3c. If you won only 1 round, go to Exception 1.
+3d. If you played the same value as the Casino, but Leader didn't, and you're at or after Round 5, go to Exception 2.
+3e. If you played the same value as the Casino, but Leader didn't, and you're before Round 5, go to Exception 3.
+
+Exception 1. Look at the bits played in the last 2 rounds you lost. Let those be A and B. Play the next 5 rounds as: A ~A A B ~B.
+Exception 2. Let the bit you played in the last round you lost be A. Play ~A until round 7, then play 1 0 in rounds 8 and 9.
+Exception 3. Play the same bit you played in the last round until round 4. Let A be the bit Leader played in the last round that the Casino played a different bit than you did. If you had already won a round when you came to this exception, play ~A A A 0 1 for the last 5 rounds. Otherwise play A A ~A 0 1.
+"
+
+8 canonically as the set of the 70 people's inclusion in asked subsets must form an antichain and [8 choose 4] = 70 conveniently for the bounds of this problem. That is, assign to each person a unique subset of size 4 from [1, 2, 3, 4, 5, 6, 7, 8] ask them on their assigned rounds. For example, if the witness is assigned [2, 5, 6, 8] and the murderer [2, 4, 6, 8] then the witness will identify the murderer on questioning round 5. If not forming an antichain then the murderer could be present during every asking session where the witness is present.
+
+For the written record, there exist simple strategies for the 6 out of 10 and 7 out of 11 cases. Our strategy involves partner playing Black any time they are not in an indicated range. We do opt to take free wins as they come under this convention, so we also play Black if the casino is playing Black. One may use the first casino White turn to indicate to our partner the majority colour of the casino in the following 3 moves. When we do not win on this turn, our partner deduces to remove a White from the 2 pebbles they see and thereby discover our indication. Then we can also take 3 out of 3 wins if that occurs from there or else use a loss case similarly to indicate to our partner the majority for the 3 following this chunk of 3. So we basically have a W prefix followed by a L[LWW] block [which can chain off in to [LWW] blocks ad infinitum or a [WWW] block which transitions back in to the starting position] or a L[WWW] block which also transitions back in to the starting position. If there are less than 3 left we may still indicate majority on such a chunk. Inspection reveals the worst case scenarios are L[LWW]WWWL[LW] tied with L[LWW][LWW][LWW] for 6 out of 10 and so on and so on. Sorry for the mediocre writing here, after that paper via Internet Archive I have doubts the optimal general strategy here would include taking wins as they come and simply indicating 3 majorities.
+
+Perhaps this puzzle is worth exploring further. There exists a very easy proof that strategy is not optimal. For example, we could produce a dominating strategy by adding in a new condition. If we add a new conditional where we intentionally lose 3 out of 3 in some indicated range of 3 and our partner can deduce our 1 signal bit... say the casino will go WBBBWWWWW...W where there are 30 opposite Whites in a row. Then we can go B on move 1 so our partner goes B and gets the signal to go B for moves 2-4. And then on moves 2-4 we actually go WWW then our partner gets the indication now for the special condition and goes W on moves 5-34 actually and we can win all of those then we get 30 wins out of 34 which is better than we would have done otherwise, and in all of the other cases we get the same outcome so... I will think more about how to actually formally extend the paper and think about the communicational information theory in the bits in this scenario.
+
+	Icosahedron's Resistance
+	20th February 2024, 08:24 pm
+
+I rarely post physics puzzles, but this one is too good to pass on.
+
+Puzzle. A wireframe icosahedron is assembled so that each of its edges has a resistance of 1. What is the total resistance between opposite vertices of the icosahedron?
+
+While we are at it, another interesting question would be the following.
+
+Puzzle. A wireframe cube is assembled so that each of its edges has a resistance of 1. What is the total resistance between opposite vertices of the cube?
+
+And this reminds me of a question I heard when I was preparing for an IMO many years ago.
+
+Puzzle. A wireframe infinite square grid is assembled so that each of its edges has a resistance of 1. What is the total resistance between two neighboring vertices?
+
+Lazar Ilic:
+Platonic Relationships Among Resistors by Bradley Allen and Tongtian Liu is a solid introduction.
+1/2
+5/6
+1/2
+
+	A Probability Puzzle from Facebook
+	22nd December 2023, 01:38 pm
+
+Puzzle. There are 100 cards with integers from 1 to 100. You have three possible scenarios: you pick 18, 19, or 20 cards at random. For each scenario, you need to estimate the probability that the sum of the cards is even. You do not need to do the exact calculation; you just need to say whether the probability is less than, equal to, or more than 1/2.
+
+Lazar Ilic:
+A simple pairing argument works. The answers respectively are less, equal, and more. Consider the 50 buckets [1,2], [3,4], …, [99,100]. Then for each subset we may find the minimum bucket which contains 1 out of 2 elements in our subset. There is a paired subset where instead of that element from the bucket we had instead selected the other one. These pair off nicely to form odd and even summed subset pairs. The only exceptional case is if there did not exist any such bucket. Then each bucket must have contained 0 or 2 elements from our subset. And in particular for 18 and 20 this would logically imply there were 9 and 10 full buckets of odd sum meaning a slightly higher probability of odd and even sums respectively. To precisify further, for example in the 18 case, the probability of an odd sum is 1/2+[[50 choose 9]/2]/[100 choose 18] = 6119601330/12239202659 ~ 0.500000000040852334415128667737505105396915219099486…
+
+	Back to Coins
+	14th December 2023, 11:51 am
+
+I loved coin puzzles, but after several research projects related to those shiny discs, I got tired of them. The fatigue was temporary, as confirmed by the following Facebook puzzle that reignited my interest.
+
+Puzzle. There are 30 coins in a circle that look the same. However, 20 of them are fake, and the rest are real. Fake coins weigh the same, and real coins weigh the same but heavier than fake ones. You need to find as many fake coins as possible using a balance scale once, given that the fake coins are positioned consecutively. What is your strategy?
+
+Lazar Ilic:
+You are forgetful. My first idea was to brute force with computer assisted search. Then I noted that the best result under the restriction that we weigh 1 coin versus 1 coin would be comparing without loss of generality the coin at position 1 with the coin at position 11. If they weigh the same then we can deduce that positions 1 through 11 are fake. If 11 is lighter then we deduce that positions 11 through 21 are fake. Thus we may ensure identifying 11 of the fake coins.
+
+15 December 2023, 9:21 am
+
+Lazar Ilic:
+I am forgetful too sometimes. And slow. There are 3 possible outcomes of the weighing and 30 potential rotation locations for the coins. Thus by the Pigeonhole Principle there is an outcome which is mapped in to by >= 10 of the possible locations. But then the maximum size of the ensured fake coins set is the intersection of the 10 different length-20 range intervals which has maximum size 11 if and only if those were all consecutive as in our previously given construction.
+
+	A Quadrilateral in a Rectangle
+	28th November 2023, 01:52 pm
+
+A new geometry problem from my friend, Alexander Karabegov.
+
+Puzzle. A convex quadrilateral is inscribed in a rectangle with exactly one quadrilateral’s vertex on each side of the rectangle. Prove that the area of the rectangle is twice the area of the quadrilateral if and only if a diagonal of the quadrilateral is parallel to two parallel sides of the rectangle.
+
+Lazar Ilic:
+If a diagonal is parallel then it follows by drawing the triangles and bh/2 area splitting each subrectangle in half. The other direction follows from a relatively simple smoothing argument. If BD is not parallel then the area function is monotone and nonconstant linear as we shift point A along its edge and in particular obtains its unique 1/2 valuation when AC is parallel. More formally this can be observed in the literal definitional derivative d/da of the area (a*(1-b)+b*(1-c)+c*(1-d)+d*(1-a))/2 in terms of their locations along their respective edges.
+
+29 November 2023, 4:54 am
+
+	Polyomino Cutting
+	3rd November 2023, 12:28 pm
+
+What's a polyomino? A polyomino is a plane geometric figure formed by joining one or more equal squares edge to edge. Here, we have a puzzle about a polyomino that is almost a rectangle.
+
+Puzzle. You are given a 5-by-7 rectangle with two corners cut out: A 1-by-1 tile is cut from the bottom left corner, and a 1-by-2 tile is cut out of the top right corner, as in the picture. The task is to cut a resulting shape into two congruent polyominoes.
+
+Lazar Ilic:
+XXXXO
+XXXXOOO
+XXOXXOO
+XXOOOOO
+ XXOOOO
+
+6 November 2023, 8:32 am
+
+	Find the Disappearing Bits
+	9th November 2023, 10:35 am
+
+Konstantin Knop posted the following puzzle on Facebook.
+
+Puzzle. An agent sends messages to the command center. The messages have to be encrypted as a stream of 512 characters that can only be zeros and ones. Unfortunately, his transmitter is malfunctioning and gobbles 16 characters of each message. The missing 16 characters are always in the same positions in any message. As a result, the command center receives a sequence of 496 bits. Neither the center nor the agent knows which 16 bits of the sequence are eaten up by the device.
+
+They cannot replace the broken transmitter. However, they can agree ahead of time to send K test messages, the content of which they both know. Find the smallest possible K needed to determine the positions of the disappearing 16 bits.
+
+Lazar Ilic:
+5 suffices with the test messages: 11...100...0..., 1111111100000000111..., 1111000011110000111..., 11001100110011001..., 10101010101010101.... I would imagine that a relatively simple proof exists. For example, consider the 16 subsets where the final bit and 15 of the first 16 bits are removed. Then by the Pigeonhole Principle >= 8 of these subsets return the same string after our first query no matter what it is... and then deducing which 1 of the first 16 bits was not disappearing... something like this might be easily repairable and made to work.
+
+9 November 2023, 11:10 am
+
+Lazar Ilic:
+This is not a Lean theorem proof, but my argument above from yesterday seems repaired by considering the 17 subsets where 16 of the first 17 bits are removed. So then by the Pigeonhole Principle >= 9 of these subsets return the same string after our first query no matter what and then deducing which of these 9 bits was the unique remaining 1 would require >= 4 more queries via the usual binary searching argumentation.
+
+10 November 2023, 7:28 am
+
+	A Balanced Cube
+	1st November 2023, 06:49 pm
+
+Here's another brainteaser from my friend, Alexander Karabegov.
+
+Puzzle. Place the numbers from 1 to 8 at the vertices of a cube so that each face is balanced. On a balanced face, the sum of the numbers at the ends of one diagonal equals the sum of the numbers at the ends of the other diagonal.
+
+Lazar Ilic:
+1 simple general solution as above is to consider instead isomorphically using the number from 0 to 7 at which point we may essentially take the coordinates of the vertices to binary valuations... so at (0,0,0) we put a 0, at (0,0,1) we put a 1, at (0,1,0) we put a 2, ..., (1,1,1) we put a 7. Then by construction it would immediately follow that any 2 sets of points with the same gravicenter and same size would have the same sum of values.
+
+10 November 2023, 5:23 pm
+
+	From Estonia Math Olympiad
+	10th November 2023, 12:46 pm
+
+Puzzle. A group of 20 students formed a line to take an oral exam with Professor Chill. They were afraid to enter the classroom, so they decided to do a drawing. They wrote the numbers from 1 to 20 on pieces of paper, placed them in a hat, and each student picked one. The student who drew the number 1 went into the classroom first. Then, the remaining 19 students repeated the process, writing down numbers from 1 to 19, and the one who drew the number 1 took the exam next. They continued this process until all 20 students had taken their exams. Remarkably, each student drew a different number each time. Olga drew number 14 in the first round. How many students took the exam before she entered the classroom?
+
+Lazar Ilic:
+Induction backwards implies 13 as each student draws j, j-1, j-2, ..., 1 in their j rounds prior to entering the classroom.
+
+10 November 2023, 1:10 pm
+
+	I Will Be Hanged
+	27th May 2022, 11:01 am
+
+Here is an old goodie.
+
+Puzzle. A criminal is sentenced to death. He is offered the last word. He is allowed to make one statement. If the statement is true, the criminal will be electrocuted. If the statement is false, he will be hanged. Can you find a good piece of advice for this man?
+
+The standard answer to this puzzle is for the criminal to say, "I will be hanged." This creates a paradox. If he is hanged, the statement is true, and he should be electrocuted. If he is electrocuted, the statement is false, and he should be hanged.
+
+Thinking about it, any paradox works. If the man says, "This statement is false," then the type of punishment he gets can't be determined.
+
+Thinking about it some more, asking a question instead of making a statement will confuse his executioners all the same.
+
+One of my students advised the criminal to stay silent. This was not my favorite solution, as staying silent requires some concentration. My favorite solution was the statement, "It will rain exactly a thousand years from now." This way, the criminal can relax, at least for a thousand years.
+
+Lazar Ilic:
+Yikes at the ominous title Dr. Tanya Khovanova. One would hope this is not an actual factual prediction but merely a puzzle post... or perhaps stemmed from a game of Mafia or Werewolf with some kiddos.
+
+27 May 2022, 12:15 pm
+
+	My Gender
+	7th June 2022, 02:00 pm
+
+Thinking about genders, we used to have only two options: male and female. Now we have more. I have a lot of young acquaintances who are non-binary. So I started to rethink my gender identity.
+
+I was a typical girl: at least, I thought I was. I hated playing with boring dolls. I preferred cars, or even better, construction sets and board games. In second grade, I wanted to be a ballerina but later fell in love with Sherlock Holmes. My dreams switched to becoming a detective or a spy. In fifth grade, I signed up for rifle-shooting training. That same year, my school forced me to compete in an orienteering event, and I won.
+
+Orienteering became my favorite sport, and I did it for many years. I was really good with maps. I would go to a competition, leisurely walk my course and win. Other kids were running around like crazy, but I always knew where to go and was overall faster than them. With time, other kids learned to read maps better, but I myself never learned to run faster. So I stopped winning, but I enjoyed the sport anyway.
+
+It goes without saying: I loved math. Solving math problems was the best entertainment ever.
+
+Later, to my surprise, I discovered that most girls liked shopping and wasted a lot of time on make-up. Not many girls were even interested in math. I actually liked that. I started having crushes on boys since second grade and enjoyed being the only girl in math clubs, having all these nerds to myself.
+
+I grew up in Soviet Russia. While growing up, I wasn't bombarded with gender stereotypes. My first eye-opening experience was when I was 17 years old. My long-time boyfriend knew that I liked mathematics, and this was okay. But when I told him that I planned to go to college to study mathematics, he didn't approve. I broke up with him on the spot.
+
+My mom used to tell me that most men do not like brainy women. My reply was that there are more men who like brainy women than brainy women. I got a new boyfriend the day after my breakup.
+
+My gender identity didn't bother me much in Russia. What bothered me was the Russian tradition for both spouses to work, but the house chores and child-rearing duties fell only on women. I read somewhere that, on average, in Russia, women worked for 4 hours a day more than men. Life was unfair to women but not to their self-esteems.
+
+As I said, I grew up thinking I was a typical girl until I came to the US. This happened 30 years ago, and I was 30 at the time. In the US, I got bombarded with gender stereotypes: they made me feel inadequate and doubt my femininity. Just for reference: by that time, I was in my third marriage breastfeeding my second child. Still, according to those stereotypes, I was not a real woman.
+
+Brain Sex
+For some time, I wondered what was wrong with me. Then, I was elated to find a book called Brain Sex: The Real Difference Between Men and Women by Anne Moir and David Jessel. (This was many years ago.) Among other things, this book talks about the differences between men and women with respect to the brain. According to the book, men are better on average at abstract thinking and spatial visions, aka math and maps. Women, on the other hand, are better at connecting with people and have higher social intelligence. Boys are less interested in games related to storytelling, aka dolls, preferring more concrete activities. And so on.
+
+The book also describes situations in which girls don't fit the paradigm. The authors attribute this variation to the mother's hormones during pregnancy. I found myself described perfectly in the section titled "girls who have been exposed to male hormones in the womb." I am pretty sure that my mom didn't take any hormone supplements while pregnant with me back in Soviet Russia. On the other hand, the description in the book was spot-on.
+
+This book classifies me as "a male brain in a female body."
+
+I was glad to find myself after a period of self-doubt. I was glad that I wasn't alone and even fit into a special category with a name.
+
+Several years later, I met Sue Katz, a writer who also has a blog Sue Katz: Consenting Adult. She made me realize how ridiculous the whole story was: I was pressured by gender stereotypes to feel bad about myself. Then I was grateful for a book based on those same stereotypes, only because it described women like me and gave me permission to exist. I liked the book because I accepted those stereotypes in the first place. If there were no stereotypes, there wouldn't be any problems at all.
+
+Why can't I just be me?
+
+Over the past few years, I have become happier than I have ever been. I do not care what society thinks about my gender. I am no longer ashamed of not feeling 100 percent female.
+
+I like that people in the modern world embrace the idea of individuals being themselves. For example, my daughter-in-law, Robin Dahan, designed a whole line, You-Be-You, for her company, Dash of Pep.
+
+You-Be-You Socks
+Am I non-binary? I do not know and do not care. I am just me, proudly wearing my You-Be-You socks.
+
+Lazar Ilic:
+Fascinating stories. I agree, there exist many men who like brainy women. My own mom recently told me that when I shaved my head I went from being a cutie pie to being ugly. Maybe I ought to have replied that there exist women who like men that shave their heads. Anyways, the womb stuff is True and real but to many females out there you are an iconic legendary inspirational radical visionary genius hero female worth emulating and talking with so there.
+
+10 June 2022, 1:04 pm
+
+	Maximum Egalitarian Cost in the Stable Marriage Problem
+	4th June 2022, 12:49 pm
+
+Assume that we have n men and n women, all of whom want to get married. They rank each other without ties. After that, we can match them into n pairs for marriage. The matching is called stable if there are no rogue couples. A rogue couple is defined as a man and a woman who prefer each other over their assigned future spouses.
+
+A famous theorem says that, whatever all the rankings are, a stable matching always exists. But how good could a stable matching be? There is a way to assign a quality score to a matching, called the egalitarian cost. The egalitarian cost of any matching is the sum of the rankings that each person gave their assigned partner. The best potential outcome is when all people are matched with their first choices. This corresponds to the minimum egalitarian cost of 2n. But what is the maximum egalitarian cost of a stable matching? I couldn't find it in the literature, so I proved that it is n(n+1).
+
+Proof. It is easy to see that the egalitarian cost of n(n+1) is achievable. For example, if all men gave an identical ranking to the women, and vice versa, the matching algorithm will end up with couples having mutual rankings (j,j) for different values of j. Another example is a Latin preference profile. Each woman ranks a man n+1−x whenever he ranks her x. In this case, every potential couple's mutual rankings sum to n+1. Thus, any matching for such rankings ends up with the egalitarian cost of n(n+1).
+
+The next step is to prove that the egalitarian cost can't be greater. Suppose the cost of a stable matching is C and is greater than n(n+1). Then, for every person, we count the number of people who are better (ranked smaller) than their assigned partner and sum these numbers over all the people. The result must be C−2n, which is the number of pairs of people of opposite genders such that the first person prefers the second one over their assigned partner. Moreover, the result is greater than n(n−1).
+
+The total number of possible couples is n2. Thus, the number of unrealized potential couples is n(n−1). We can conclude that we counted one of these unrealized couples twice. In such a couple, two people prefer each other over their assigned partners. Thus, they form a rogue couple, contradicting our assumption that the matching is stable.
+
+Lazar Ilic:
+Nice simple one! I will remember it 😀 matching firms, graduate schools, and mates.
+
+5 June 2022, 9:28 pm
+
+	Who will be Champion?
+
+I stumbled on this puzzle on Facebook the day of the World Cup finals. How timely!
+
+Puzzle. Sixteen teams play a single-elimination tournament, where the losing team is immediately out. The teams have different rankings, and a higher-ranking team always wins against a lower-ranking team. The initial seeding is random.
+In the semifinals, A won against B, and C won against D. Given that B is stronger than D, what is the probability that A will become the champion?
+
+Lazar Ilic:
+The above comment is Wrong and also much more complex than is necessary for the task at hand. In particular there are say 4! = 24 permutations of the 16 teams which map together and hold those same ordered 4-tuples together. So the task is isomorphic with a reduction immediately ab initio into the case where there are in fact merely 4 initial teams relatively ordered. At which point [A,B,C,D] can be [1,2,3,4], [1,3,2,4], [2,3,1,4] so 2/3 should be the final answer.
+
+28 December 2022, 11:09 am
