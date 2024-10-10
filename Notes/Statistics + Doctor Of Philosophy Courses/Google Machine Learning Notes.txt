@@ -1,0 +1,151 @@
+Code -
+
+Linear Regression: with Plotting, Dataset Definition, Hyperparameters (Learning Rate, Epochs, Batch Size)
+
+Linear Regression with Real Data Set: Import .csv File, Examine Dataset, Define Model Functions, Call Functions, Use Model for Predictions, Test Features, Synthetic Features, Find Correlates
+
+Validation Sets: Scale Values, Define Functions, Randomize Before Validation Split, Use Test Dataset to Evaluate Performance
+
+Binary Classification: Datasets, Normalize Values, Represent Features, Define Functions, Invoke Functions, Evaluate Model Against Test Set, Muck Around Threshold re Precision/Recall
+
+Intro to Neural Networks: Dataset, Normalize, Deep Neural Net, Define Layers, Define Training Function, Optimize Neural Network, Regularize
+
+Multi-Class Classification with MNIST: Canonical Dataset, Normalize, Create Deep Neural Net Model, Optimize Model
+
+Introduction to Fairness in ML: Numeric, Categorical Features, Prediction Task, Questions, Confusion Matrix
+
+Image Classification: Convolutional Neural Network
+
+Intro to Modeling: Pandas, Compare Various Models with Normalization and Categorical Features
+
+
+
+
+
+Label - the thing being predicted
+
+Feature - input variable
+
+Labeled Example - features and label used to train
+
+Training/Learning
+
+Inference - applying to unlabeled examples to make useful predictions
+
+Regression - continuous
+
+Classification - discrete
+
+y'=b+w1x1+w2x2+w3x3 example equation where the weights are learned
+
+Loss Function - minimized, for example squared loss is sum of (y-y')^2
+
+Gradient Descent - generalized slope, step size learning rate
+
+Mini-Batch Gradient Descent
+
+Gradient Descent into Convex Extremum
+
+Training Set and Test Set to Validate
+
+Validation Sets - mucking around numbers, overfitting, hacking not producing optimally predictive models
+
+Representation - of course for linear model to be sensible well mathematically formulated one must preprocess i.e. categorical variables can be parsed into binary vectors with a single indicator 1
+
+Data - certainly reasonable to preprocess legitimacy, statistical sensibility and e.g. incorporate an auxiliary boolean to represent inclusion
+
+Avoid Rarely Used Discrete Feature Values
+
+Scaling - convert into a range such as 0 to 1 to help computations avoid range issues
+
+Handling Extreme Outliers - one can consider applying a log transformation, "clipping" by replacing extremal values with a fixed value, binning e.g. latitude example into categorical binary representation
+
+Scrubbing - omitted values, duplicate examples, bad labels, bad feature values
+
+Feature Cross Product - include a feature variable such as x3=x1 x x2 in the equation with its own weight w3 e.g. 3 bedrooms in Sacramento example
+
+Scalability - linear learners, deep neural networks can scale well later in course
+
+Synthetic Features - so because linear models are EZPZ one can de novo ad hoc auxiliary features see how well they work like in scipy making up models as well
+
+Crossing One-Hot Vectors - can be useful
+
+Regularization - in the minimization calculus one can include a term such as sum of square of weights multiplied by a lambda term to reduce overfitting and produce a simpler model
+
+Logistic Regression - sigmoid, produce probailities e.g. which can be thresholded into binary
+
+Log Loss Function - sum of -ylog(y')-(1-y)log(1-y')
+
+Regularization in Logistic Regression - L2, Early Stopping (Training Steps or Learning Rate), L1, Other Obvious Imaginable Options
+
+Classification - email spam e.g. threshold, true/false positives/negatives, various formulae for evaluating, weighting, and deciding thresholds
+
+Accuracy - correct/total
+
+Precision - correct positive/total positive
+
+Recall - correct positive/true positive
+
+Receiver Operating Characteristic Curve (ROC) - graph showing the performance of a classification model at all thresholds e.g. tradeoff between true positive and false positive rates
+
+Prediction Bias - average of predictions and average of obsertvations being similar, calibration
+
+L1 Regularization for Sparsity - of course one doesn't want suboptimal representation for extremely sparse crosses e.g. and can utilize L1 regularization to push weights to 0
+
+Deep Neural Nets - rather than complex maths of feature crosses these promise to perform well on complex data such as image, audio, and video
+
+Non-Linearity - max of linear function and y=0 enables creation of non-linear models, stack layers
+
+Back Propagation - allows gradient descent in non convex optimization in a reasonably efficient manner
+
+Hidden Layers - nodes between input and output
+
+Activation Functions - non-linear transformation layer between e.g. hidden layers, sigmoid, ReLU
+
+Back Propagation - DP built in Tensor Flow
+
+Design Neural Nets - minimum effective depth, learning rate
+
+Dropout - regularization where randomly remove node for a single gradient step with probability P, apparently has enabled strong results
+
+Failure Cases - vanishing gradients, exploding gradients
+
+Multi-Class Classification - e.g. beagle, basset hound, bloodhound via different output nodes at the outset of the model sum Ps to 1 and threshold Softmax or candidate sampling
+
+One Versus All - sigmoid, bunch of yes/no output
+
+One Label Versus Many Labels - Softmax assumes each example is a member of exactly one class for others one must rely on multiple logistic regressions
+
+Embedding - translate high dimensional sparse vectors into a lower dimensional space somewhat preserving distances, e.g. semantically similar inputs e.g. movie suggestions task
+
+Collaborative Filtering - canonical task
+
+Categorical Data - sparse tensors for example movie recommendation
+
+Obtaining Embeddings - principal component analysis (PCA), Word2vec
+
+Production ML Systems - ecosystem, data collection, feature extraction, data verification, monitoring and data analysis
+
+Static/Dynamic Online/Offline - important
+
+Data Dependencies - changing inputs e.g. over time, data reliability, etc.
+
+Biases - in capturing data reflecting humans producing the data e.g. failing to mention banana yellow, reporting bias, selection bias, overgeneralization, outgroup homogeneity bias
+
+Strategies for Biases - mathematical ideas exist as does examining data (hoping one can spot a bias)
+
+ML Systems in the Real World - concrete cancer prediction example where name of hospital e.g. "Beth Israel Cancer Center" leaked in data, literature example where model picked up on individual writers' tendencies to predict overly well in the test data think about good splits
+
+Real World Guidelines - extremely simple first model, linear, data pipeline correctness
+
+Convolutional Neural Networks - filter matrix to extract meaningful features from the input feature map, pooling, fully connected layers, data augmentation (dog variants example), dropout regularization, prevent overfitting on small dataset
+
+Leveraging Pretrained Models - even better accuracy on dog cat task
+
+Data Preparation and Feature Engineering in ML - concrete examples with Google Translate
+
+Sampling, Imbalanced Data, Splitting Data, Randomization
+
+Transforming Data - skew, visualize data frequently to look for improbable distributions e.g.
+
+Indexing Features, Hashing, etc.

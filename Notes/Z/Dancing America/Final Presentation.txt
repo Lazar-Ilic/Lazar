@@ -1,0 +1,109 @@
+UGS303 Dancing America
+Final Presentation
+Lazar Ilic
+EID li948
+
+Hi,
+
+I have attached a draft of a hypothetical presentation. I could perhaps record myself giving an oration over these slides, or maybe even leave my apartment for the first time in months to show up in class and deliver a presentation. Please let me know what you think. Also, I have been working on editing the final paper.
+
+Sincerely,
+
+Lazar Ilic
+
+We Are Not The Robots
+Lazar Ilic
+
+Boston Dynamics
+"Boston Dynamics' mission is to imagine and create exceptional robots that enrich people's lives. Discover Spot, Stretch, and our other robots" reads the firm's website. Currently members of the public can purchase a Spot, their dog-like robot offering, and control it via user friendly software and interaction. They have funding, jobs, and ~300 employees. The longer term goals of robot firms include assisting humans during emergency crisis situations, and potentially revolutionising the service and manufacturing industry sectors of business. Robots might forever change the global economic marketplace.
+
+Robots Dancing
+Rather than humans dancing and imitating older robots, the Boston Dynamics firm has sort of flipped the script and gotten their robots to dance, sometimes imitating humans, and sometimes executing novel and agile movements. This is part of their advertising and hiring strategy. It makes for visually appealing eye candy film.
+
+[Example Film 1]
+
+https://www.youtube.com/watch?v=fn3KWM1kuAw
+
+Human Choreographer
+The firm hired the dance choreographer Monica Thomas to help them in the production of these films. She had a lot of "autonomy" and learned by viewing the robots and then danced out the dances herself with her own body, just like many dance choregraphers do. Then she did work with engineering teams on programming movements into the robots' "bodies". She said "Towards the end of working with Spot, I could sense that there is something about leg pairings and their transitions that could make a really compelling rhythm or design to guide choreography, but I don't quite know what it is that I'm imagining or how to even conceptualize it. And that is very exciting. I would absolutely do it again".
+
+Knockoffs Causing Public Fear
+Robots have been depicted for quite some time in diverse media across the canon. From early scientific work, science fiction, literary fiction like Sigfrid von Shrink in Gateway by Frederik Pohl, to cinema like C-3PO and R2-D2 in Star Wars or the eponymous WALL-E... to so many more other works. Robots can appear "good", "bad", or "neutral", simply doing as programmed. In any case, in what may perhaps have been lowkey inspired by the film for Greyhound by Swedish House Mafia or the Transformers films, and what was certainly inspired by the Boston Dynamics marketing:
+
+[Example Of Violent Robot Film]
+
+https://www.youtube.com/watch?v=y3RIHnK0_NE
+
+The Reality And The Truth
+A recent Aeon headline read "Truth Is Real". That is the current state of affairs in the world, we have to remind people that yes, relativism and moral relativism can be True too, e.g. different people want different things and have different lived experiences and understandings of documents and art. But also we must be informed, as former US president Barack Obama recently reminded us from Stanford. And the Truth is that most likely the near and mid future of robots will be a net "good" for humanity at large in an objective and measurable way.
+
+However...
+Boston Dynamics has its roots in military funding. And real controversies have taken place including a New York art school techno prankster team MSCHF letting loose a Spot with a paintball gun strapped to its back, and a Spot patrolling the streets, controlled by the New York City Police Department. As deepfake technology improves and predatory media firms are incentivised to deceive us for their profit motive, be intellectually cautious and stay wary.
+
+[Example Film 2]
+
+https://www.youtube.com/watch?v=7atZfX85nd4
+
+Bibliography
+https://en.wikipedia.org/wiki/Boston_Dynamics
+
+Ackerman, Evan. “How Boston Dynamics Taught Its Robots to Dance.” IEEE Spectrum, IEEE Spectrum, 24 June 2021, https://spectrum.ieee.org/how-boston-dynamics-taught-its-robots-to-dance. 
+
+Curtis, Genevieve. “Dances with Robots, and Other Tales from the Outer Limits.” The New York Times, The New York Times, 5 Nov. 2020, https://www.nytimes.com/2020/11/05/arts/dance/dance-and-artificial-intelligence.html.
+
+Ngowi, Rodrique. “Behind Those Dancing Robots, Scientists Had to Bust a Move.” Associated Press, 20 Apr. 2021, https://apnews.com/article/boston-dynamics-robot-dancing-d684559324a385209c0da353a76363bc.
+
+Cuan, Catie. “Dancing with Robots.” Scientific American, https://www.scientificamerican.com/article/dancing-with-robots/. Accessed 5 Apr. 2022.
+
+Wired.Com, https://www.wired.com/story/boston-dynamics-bts-spots-on-it/. Accessed 5 Apr. 2022.
+
+Rella, Emily. “‘creepy’ Video of Robots Dancing Causes Internet Frenzy -- and Even Elon Musk Is Weighing In.” Entrepreneur, 19 July 2021, https://www.entrepreneur.com/article/377766.
+
+Skybetter, Sydney. “Meet the Choreographer behind Those Dancing Robots.” Dance Magazine, 26 Mar. 2021, https://www.dancemagazine.com/boston-dynamics-dancing-robots/.
+
+https://futurism.com/boston-dynamics-mad-someone-using-terrifying-robodog-as-intended
+
+Hi Lazar,
+
+I think either of these scenarios would be fine, depending on what you’re most comfortable with. You could definitely record your voice and place those recordings into the slides (I’m not sure if google slides has that option, but I know powerpoint does). Or you could unmute and do the presentation via Zoom. Or come in if that feels manageable, but it’s definitely not required given your accomodations.
+
+For the presentation, I would recommend cutting back the text—as each person only has 2 minutes total. I would say/write less and show a bit more (like a video with the robot dancing). Your paper will have room to elaborate, so the presentation’s goals are just to give a short intro to the topic.
+
+Let us know what you decide.
+
+Hi Dr. Rossen,
+
+Thanks for the prompt reply. I most certainly would strongly prefer to simply record myself on a good day via my iPhone SE native microphone hopefully in 1 authentic single take like a real presentation would be. I may simply produce a single presentation film in the .mp4 file format. I will cut back a little on this solo project or try and embed shorter clips aim for total length ~5 minutes I suppose maybe 8.
+
+Thanks again so much for being accomodating to me, and to the class. I know for me personally you really saved me here so I am in fact on track to graduate hopefully this term. You really really did me a solid favour for hitting this undergraduate requirement and we had a lot of fun in the course too. I know with COVID ending you should be back to dancing and jamming with the mostly freshmen kiddos in the uh resolution of reality and corporeality of reality soon! Oy, have a pleasant afternoon, evening, and night here friends!
+
+Sincerely,
+
+Lazar Ilic
+
+Okay, good, Then do that! But go for just 2 minutes, because that’s what we can show in class.
+
+The score I'd use is:
+
+I focused my research on... [how robotics and dance come together] [15 seconds]
+Specifically I looked at... [say some things about this company and why or how they made a robot that danced] [45 seconds]
+Here’s a bit of video of the dancing robot... [30 seconds]
+In conclusion... [30 seconds]
+
+And so glad you'll be able to graduate!
+
+Hi again Dr. Rossen,
+
+Wow thanks again for the prompt reply. This was very helpful and clarifying, I will ensure to use nearly precisely that!
+
+Sincerely,
+
+Lazar Ilic
+
+Hi! I was searching for humans dancing like robots when I stumbled across these cute robots dancing and I decided to investigate further. The YouTube channel is of the firm Boston Dynamics. They make helpful, useful robots which can grab things, help humans, operate cameras, and other instruments. Their team consists of engineers, programmers, and designers. They produce these dance films in part as marketing, and to attract talented workers. Here we see the dog named Spot as well as the humanoid named Atlas. Perhaps after the Greek God and perhaps after the big books it took to build, well, him! In any case... in my research I learned they hired a choreographer! How fun, she previously worked with humans of course but had a blast with the new challenges and abilities of the robots and their team! This was because I was interested in the human side of things, as well as the technical. The actual value of these robots could be in saving lives, or executing manual labour with machinery or across other industries and sectors. But, with these fun films, as with the rest of this course, what also has value itself for us humans is dance!
+
+Love it. Did you want to play it in class today, or should I play it on your behalf when it’s your turn?
+
+Thanks! I would really appreciate it if you could simply play it!
+
+Got it. We will.

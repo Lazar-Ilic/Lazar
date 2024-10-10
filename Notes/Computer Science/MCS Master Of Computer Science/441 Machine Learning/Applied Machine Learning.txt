@@ -1,0 +1,1453 @@
+Contents
+
+
+
+I Classification 1
+
+
+
+1 Learning to Classify 3
+
+
+
+1.1 Classification: The Big Ideas ...................... 4
+
+
+
+1.1.1 The Error Rate and Other Summaries of Performance .... 4
+
+
+
+1.1.2 More Detailed Evaluation .................... 5
+
+
+
+1.1.3 Overfitting and Cross-Validation ................ 6
+
+
+
+1.2 Classifying with Nearest Neighbors ................... 7
+
+
+
+1.2.1 Practical Considerations for Nearest Neighbors ........ 8
+
+
+
+1.3 Naive Bayes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+
+
+1.3.1 Cross-Validation to Choose a Model . . . . . . . . . . . . . . 13
+
+
+
+1.3.2 Missing Data . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+
+
+1.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+
+
+1.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 16
+
+
+
+1.4.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 16
+
+
+
+1.4.3 Remember These Procedures . . . . . . . . . . . . . . . . . . 17
+
+
+
+1.4.4 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+
+
+2 SVMs and Random Forests 21
+
+
+
+2.1 The Support Vector Machine . . . . . . . . . . . . . . . . . . . . . . 21
+
+
+
+2.1.1 The Hinge Loss . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+
+
+
+2.1.2 Regularization . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+
+
+
+2.1.3 Finding a Classifier with Stochastic Gradient Descent . . . . 25
+
+
+
+2.1.4 Searching for λ . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+
+
+
+2.1.5 Summary: Training with Stochastic Gradient Descent . . . . 29
+
+
+
+2.1.6 Example: Adult Income with an SVM . . . . . . . . . . . . . 30
+
+
+
+2.1.7 Multiclass Classification with SVMs . . . . . . . . . . . . . . 33
+
+
+
+2.2 Classifying with Random Forests . . . . . . . . . . . . . . . . . . . . 34
+
+
+
+2.2.1 Building a Decision Tree . . . . . . . . . . . . . . . . . . . . . 35
+
+
+
+2.2.2 Choosing a Split with Information Gain . . . . . . . . . . . . 38
+
+
+
+2.2.3 Forests . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+
+
+
+2.2.4 Building and Evaluating a Decision Forest . . . . . . . . . . . 41
+
+
+
+2.2.5 Classifying Data Items with a Decision Forest . . . . . . . . . 42
+
+
+
+2.3 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+
+
+
+2.3.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 44
+
+
+
+2.3.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 44
+
+
+
+2.3.3 Use These Procedures . . . . . . . . . . . . . . . . . . . . . . 45
+
+
+
+2.3.4 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+
+
+
+xi
+
+
+
+xii
+
+
+
+3 A Little Learning Theory 49
+
+
+
+3.1 Held-Out Loss Predicts Test Loss . . . . . . . . . . . . . . . . . . . . 49
+
+
+
+3.1.1 Sample Means and Expectations . . . . . . . . . . . . . . . . 50
+
+
+
+3.1.2 Using Chebyshev’s Inequality . . . . . . . . . . . . . . . . . . 52
+
+
+
+3.1.3 A Generalization Bound . . . . . . . . . . . . . . . . . . . . . 52
+
+
+
+3.2 Test and Training Error for a Classifier from a Finite Family . . . . 53
+
+
+
+3.2.1 Hoeffding’s Inequality . . . . . . . . . . . . . . . . . . . . . . 54
+
+
+
+3.2.2 Test from Training for a Finite Family of Predictors . . . . . 55
+
+
+
+3.2.3 Number of Examples Required . . . . . . . . . . . . . . . . . 56
+
+
+
+3.3 An Infinite Collection of Predictors . . . . . . . . . . . . . . . . . . . 57
+
+
+
+3.3.1 Predictors and Binary Functions . . . . . . . . . . . . . . . . 57
+
+
+
+3.3.2 Symmetrization . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+
+
+
+3.3.3 Bounding the Generalization Error . . . . . . . . . . . . . . . 62
+
+
+
+3.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+
+
+
+3.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 64
+
+
+
+3.4.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 64
+
+
+
+3.4.3 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+
+
+
+II High Dimensional Data 67
+
+
+
+4 High Dimensional Data 69
+
+
+
+4.1 Summaries and Simple Plots . . . . . . . . . . . . . . . . . . . . . . 69
+
+
+
+4.1.1 The Mean . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+
+
+
+4.1.2 Stem Plots and Scatterplot Matrices . . . . . . . . . . . . . . 70
+
+
+
+4.1.3 Covariance . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+
+
+
+4.1.4 The Covariance Matrix . . . . . . . . . . . . . . . . . . . . . 74
+
+
+
+4.2 The Curse of Dimension . . . . . . . . . . . . . . . . . . . . . . . . . 77
+
+
+
+4.2.1 The Curse: Data Isn’t Where You Think It Is . . . . . . . . . 77
+
+
+
+4.2.2 Minor Banes of Dimension . . . . . . . . . . . . . . . . . . . . 78
+
+
+
+4.3 Using Mean and Covariance to Understand High Dimensional Data . 79
+
+
+
+4.3.1 Mean and Covariance Under Affine Transformations . . . . . 80
+
+
+
+4.3.2 Eigenvectors and Diagonalization . . . . . . . . . . . . . . . . 81
+
+
+
+4.3.3 Diagonalizing Covariance by Rotating Blobs . . . . . . . . . . 82
+
+
+
+4.4 The Multivariate Normal Distribution . . . . . . . . . . . . . . . . . 83
+
+
+
+4.4.1 Affine Transformations and Gaussians . . . . . . . . . . . . . 84
+
+
+
+4.4.2 Plotting a 2D Gaussian: Covariance Ellipses . . . . . . . . . . 85
+
+
+
+4.4.3 Descriptive Statistics and Expectations . . . . . . . . . . . . 86
+
+
+
+4.4.4 More from the Curse of Dimension . . . . . . . . . . . . . . . 87
+
+
+
+4.5 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 88
+
+
+
+4.5.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 88
+
+
+
+4.5.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 88
+
+
+
+4.5.3 Remember These Procedures . . . . . . . . . . . . . . . . . . 89
+
+
+
+5 Principal Component Analysis 93
+
+
+
+5.1 Representing Data on Principal Components . . . . . . . . . . . . . 93
+
+
+
+5.1.1 Approximating Blobs . . . . . . . . . . . . . . . . . . . . . . 93
+
+
+
+5.1.2 Example: Transforming the Height–Weight Blob . . . . . . . 94
+
+
+
+xiii
+
+
+
+5.1.3 Representing Data on Principal Components . . . . . . . . . 96
+
+
+
+5.1.4 The Error in a Low Dimensional Representation . . . . . . . 98
+
+
+
+5.1.5 Extracting a Few Principal Components with NIPALS . . . . 99
+
+
+
+5.1.6 Principal Components and Missing Values . . . . . . . . . . . 101
+
+
+
+5.1.7 PCA as Smoothing . . . . . . . . . . . . . . . . . . . . . . . . 103
+
+
+
+5.2 Example: Representing Colors with Principal Components . . . . . . 105
+
+
+
+5.3 Example: Representing Faces with Principal Components . . . . . . 109
+
+
+
+5.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111
+
+
+
+5.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 111
+
+
+
+5.4.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 111
+
+
+
+5.4.3 Remember These Procedures . . . . . . . . . . . . . . . . . . 111
+
+
+
+5.4.4 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111
+
+
+
+6 Low Rank Approximations 117
+
+
+
+6.1 The Singular Value Decomposition . . . . . . . . . . . . . . . . . . . 117
+
+
+
+6.1.1 SVD and PCA . . . . . . . . . . . . . . . . . . . . . . . . . . 119
+
+
+
+6.1.2 SVD and Low Rank Approximations . . . . . . . . . . . . . . 120
+
+
+
+6.1.3 Smoothing with the SVD . . . . . . . . . . . . . . . . . . . . 120
+
+
+
+6.2 Multidimensional Scaling . . . . . . . . . . . . . . . . . . . . . . . . 122
+
+
+
+6.2.1 Choosing Low D Points Using High D Distances . . . . . . . 122
+
+
+
+6.2.2 Using a Low Rank Approximation to Factor . . . . . . . . . . 123
+
+
+
+6.2.3 Example: Mapping with Multidimensional Scaling . . . . . . 124
+
+
+
+6.3 Example: Text Models and Latent Semantic Analysis . . . . . . . . 126
+
+
+
+6.3.1 The Cosine Distance . . . . . . . . . . . . . . . . . . . . . . . 127
+
+
+
+6.3.2 Smoothing Word Counts . . . . . . . . . . . . . . . . . . . . . 128
+
+
+
+6.3.3 Example: Mapping NIPS Documents . . . . . . . . . . . . . . 130
+
+
+
+6.3.4 Obtaining the Meaning of Words . . . . . . . . . . . . . . . . 130
+
+
+
+6.3.5 Example: Mapping NIPS Words . . . . . . . . . . . . . . . . 133
+
+
+
+6.3.6 TF-IDF . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 134
+
+
+
+6.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136
+
+
+
+6.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 136
+
+
+
+6.4.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 136
+
+
+
+6.4.3 Remember These Procedures . . . . . . . . . . . . . . . . . . 136
+
+
+
+6.4.4 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136
+
+
+
+7 Canonical Correlation Analysis 139
+
+
+
+7.1 Canonical Correlation Analysis . . . . . . . . . . . . . . . . . . . . . 139
+
+
+
+7.2 Example: CCA of Words and Pictures . . . . . . . . . . . . . . . . . 142
+
+
+
+7.3 Example: CCA of Albedo and Shading . . . . . . . . . . . . . . . . . 144
+
+
+
+7.3.1 Are Correlations Significant? . . . . . . . . . . . . . . . . . . 148
+
+
+
+7.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 150
+
+
+
+7.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 150
+
+
+
+7.4.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 150
+
+
+
+7.4.3 Remember These Procedures . . . . . . . . . . . . . . . . . . 150
+
+
+
+7.4.4 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 150
+
+
+
+xiv
+
+
+
+III Clustering 153
+
+
+
+8 Clustering 155
+
+
+
+8.1 Agglomerative and Divisive Clustering . . . . . . . . . . . . . . . . . 155
+
+
+
+8.1.1 Clustering and Distance . . . . . . . . . . . . . . . . . . . . . 157
+
+
+
+8.2 The k-Means Algorithm and Variants . . . . . . . . . . . . . . . . . 159
+
+
+
+8.2.1 How to Choose k . . . . . . . . . . . . . . . . . . . . . . . . . 163
+
+
+
+8.2.2 Soft Assignment . . . . . . . . . . . . . . . . . . . . . . . . . 164
+
+
+
+8.2.3 Efficient Clustering and Hierarchical k-Means . . . . . . . . . 166
+
+
+
+8.2.4 k-Medoids . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 167
+
+
+
+8.2.5 Example: Groceries in Portugal . . . . . . . . . . . . . . . . . 167
+
+
+
+8.2.6 General Comments on k-Means . . . . . . . . . . . . . . . . . 170
+
+
+
+8.3 Describing Repetition with Vector Quantization . . . . . . . . . . . . 171
+
+
+
+8.3.1 Vector Quantization . . . . . . . . . . . . . . . . . . . . . . . 172
+
+
+
+8.3.2 Example: Activity from Accelerometer Data . . . . . . . . . 175
+
+
+
+8.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 178
+
+
+
+8.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 178
+
+
+
+8.4.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 178
+
+
+
+8.4.3 Remember These Procedures . . . . . . . . . . . . . . . . . . 178
+
+
+
+9 Clustering Using Probability Models 183
+
+
+
+9.1 Mixture Models and Clustering . . . . . . . . . . . . . . . . . . . . . 183
+
+
+
+9.1.1 A Finite Mixture of Blobs . . . . . . . . . . . . . . . . . . . . 184
+
+
+
+9.1.2 Topics and Topic Models . . . . . . . . . . . . . . . . . . . . 185
+
+
+
+9.2 The EM Algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . 188
+
+
+
+9.2.1 Example: Mixture of Normals: The E-step . . . . . . . . . . 189
+
+
+
+9.2.2 Example: Mixture of Normals: The M-step . . . . . . . . . . 191
+
+
+
+9.2.3 Example: Topic Model: The E-step . . . . . . . . . . . . . . 192
+
+
+
+9.2.4 Example: Topic Model: The M-step . . . . . . . . . . . . . . 193
+
+
+
+9.2.5 EM in Practice . . . . . . . . . . . . . . . . . . . . . . . . . . 193
+
+
+
+9.3 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 198
+
+
+
+9.3.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 198
+
+
+
+9.3.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 198
+
+
+
+9.3.3 Remember These Procedures . . . . . . . . . . . . . . . . . . 198
+
+
+
+9.3.4 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 198
+
+
+
+IV Regression 203
+
+
+
+10 Regression 205
+
+
+
+10.1 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 205
+
+
+
+10.1.1 Regression to Spot Trends . . . . . . . . . . . . . . . . . . . . 206
+
+
+
+10.2 Linear Regression and Least Squares . . . . . . . . . . . . . . . . . . 208
+
+
+
+10.2.1 Linear Regression . . . . . . . . . . . . . . . . . . . . . . . . . 209
+
+
+
+10.2.2 Choosing β . . . . . . . . . . . . . . . . . . . . . . . . . . . . 210
+
+
+
+10.2.3 Residuals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 212
+
+
+
+10.2.4 R-squared . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 212
+
+
+
+xv
+
+
+
+10.2.5 Transforming Variables . . . . . . . . . . . . . . . . . . . . . 214
+
+
+
+10.2.6 Can You Trust Your Regression? . . . . . . . . . . . . . . . . 217
+
+
+
+10.3 Visualizing Regressions to Find Problems . . . . . . . . . . . . . . . 218
+
+
+
+10.3.1 Problem Data Points Have Significant Impact . . . . . . . . . 219
+
+
+
+10.3.2 The Hat Matrix and Leverage . . . . . . . . . . . . . . . . . . 222
+
+
+
+10.3.3 Cook’s Distance . . . . . . . . . . . . . . . . . . . . . . . . . 223
+
+
+
+10.3.4 Standardized Residuals . . . . . . . . . . . . . . . . . . . . . 224
+
+
+
+10.4 Many Explanatory Variables . . . . . . . . . . . . . . . . . . . . . . 225
+
+
+
+10.4.1 Functions of One Explanatory Variable . . . . . . . . . . . . 227
+
+
+
+10.4.2 Regularizing Linear Regressions . . . . . . . . . . . . . . . . . 227
+
+
+
+10.4.3 Example: Weight Against Body Measurements . . . . . . . . 232
+
+
+
+10.5 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 236
+
+
+
+10.5.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 236
+
+
+
+10.5.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 236
+
+
+
+10.5.3 Remember These Procedures . . . . . . . . . . . . . . . . . . 236
+
+
+
+10.5.4 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 237
+
+
+
+11 Regression: Choosing and Managing Models 245
+
+
+
+11.1 Model Selection: Which Model Is Best? . . . . . . . . . . . . . . . . 245
+
+
+
+11.1.1 Bias and Variance . . . . . . . . . . . . . . . . . . . . . . . . 246
+
+
+
+11.1.2 Choosing a Model Using Penalties: AIC and BIC . . . . . . . 248
+
+
+
+11.1.3 Choosing a Model Using Cross-Validation . . . . . . . . . . . 250
+
+
+
+11.1.4 Greedy Search with Stagewise Regression . . . . . . . . . . . 251
+
+
+
+11.1.5 What Variables Are Important? . . . . . . . . . . . . . . . . 252
+
+
+
+11.2 Robust Regression . . . . . . . . . . . . . . . . . . . . . . . . . . . . 253
+
+
+
+11.2.1 M-Estimators and Iteratively Reweighted Least Squares . . . 254
+
+
+
+11.2.2 Scale for M-Estimators . . . . . . . . . . . . . . . . . . . . . . 257
+
+
+
+11.3 Generalized Linear Models . . . . . . . . . . . . . . . . . . . . . . . . 258
+
+
+
+11.3.1 Logistic Regression . . . . . . . . . . . . . . . . . . . . . . . . 258
+
+
+
+11.3.2 Multiclass Logistic Regression . . . . . . . . . . . . . . . . . . 260
+
+
+
+11.3.3 Regressing Count Data . . . . . . . . . . . . . . . . . . . . . 261
+
+
+
+11.3.4 Deviance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 262
+
+
+
+11.4 L1 Regularization and Sparse Models . . . . . . . . . . . . . . . . . . 262
+
+
+
+11.4.1 Dropping Variables with L1 Regularization . . . . . . . . . . 263
+
+
+
+11.4.2 Wide Datasets . . . . . . . . . . . . . . . . . . . . . . . . . . 267
+
+
+
+11.4.3 Using Sparsity Penalties with Other Models . . . . . . . . . . 270
+
+
+
+11.5 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 271
+
+
+
+11.5.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 271
+
+
+
+11.5.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 271
+
+
+
+11.5.3 Remember These Procedures . . . . . . . . . . . . . . . . . . 272
+
+
+
+12 Boosting 275
+
+
+
+12.1 Greedy and Stagewise Methods for Regression . . . . . . . . . . . . . 276
+
+
+
+12.1.1 Example: Greedy Stagewise Linear Regression . . . . . . . . 276
+
+
+
+12.1.2 Regression Trees . . . . . . . . . . . . . . . . . . . . . . . . . 279
+
+
+
+12.1.3 Greedy Stagewise Regression with Trees . . . . . . . . . . . . 279
+
+
+
+xvi
+
+
+
+12.2 Boosting a Classifier . . . . . . . . . . . . . . . . . . . . . . . . . . . 284
+
+
+
+12.2.1 The Loss . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 284
+
+
+
+12.2.2 Recipe: Stagewise Reduction of Loss . . . . . . . . . . . . . 286
+
+
+
+12.2.3 Example: Boosting Decision Stumps . . . . . . . . . . . . . . 288
+
+
+
+12.2.4 Gradient Boost with Decision Stumps . . . . . . . . . . . . . 289
+
+
+
+12.2.5 Gradient Boost with Other Predictors . . . . . . . . . . . . . 290
+
+
+
+12.2.6 Example: Is a Prescriber an Opiate Prescriber? . . . . . . . 291
+
+
+
+12.2.7 Pruning the Boosted Predictor with the Lasso . . . . . . . . 293
+
+
+
+12.2.8 Gradient Boosting Software . . . . . . . . . . . . . . . . . . . 294
+
+
+
+12.3 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 299
+
+
+
+12.3.1 Remember These Definitions . . . . . . . . . . . . . . . . . . 299
+
+
+
+12.3.2 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 299
+
+
+
+12.3.3 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 299
+
+
+
+12.3.4 Remember These Procedures . . . . . . . . . . . . . . . . . . 300
+
+
+
+12.3.5 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 300
+
+
+
+V Graphical Models 303
+
+
+
+13 Hidden Markov Models 305
+
+
+
+13.1 Markov Chains . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 305
+
+
+
+13.1.1 Transition Probability Matrices . . . . . . . . . . . . . . . . . 309
+
+
+
+13.1.2 Stationary Distributions . . . . . . . . . . . . . . . . . . . . . 311
+
+
+
+13.1.3 Example: Markov Chain Models of Text . . . . . . . . . . . . 313
+
+
+
+13.2 Hidden Markov Models and Dynamic Programming . . . . . . . . . 316
+
+
+
+13.2.1 Hidden Markov Models . . . . . . . . . . . . . . . . . . . . . 316
+
+
+
+13.2.2 Picturing Inference with a Trellis . . . . . . . . . . . . . . . . 317
+
+
+
+13.2.3 Dynamic Programming for HMMs: Formalities . . . . . . . . 320
+
+
+
+13.2.4 Example: Simple Communication Errors . . . . . . . . . . . . 321
+
+
+
+13.3 Learning an HMM . . . . . . . . . . . . . . . . . . . . . . . . . . . . 323
+
+
+
+13.3.1 When the States Have Meaning . . . . . . . . . . . . . . . . . 324
+
+
+
+13.3.2 Learning an HMM with EM . . . . . . . . . . . . . . . . . . . 324
+
+
+
+13.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 329
+
+
+
+13.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 329
+
+
+
+13.4.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 330
+
+
+
+13.4.3 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 330
+
+
+
+14 Learning Sequence Models Discriminatively 333
+
+
+
+14.1 Graphical Models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 333
+
+
+
+14.1.1 Inference and Graphs . . . . . . . . . . . . . . . . . . . . . . 334
+
+
+
+14.1.2 Graphical Models . . . . . . . . . . . . . . . . . . . . . . . . . 336
+
+
+
+14.1.3 Learning in Graphical Models . . . . . . . . . . . . . . . . . . 337
+
+
+
+14.2 Conditional Random Field Models for Sequences . . . . . . . . . . . 338
+
+
+
+14.2.1 MEMMs and Label Bias . . . . . . . . . . . . . . . . . . . . . 339
+
+
+
+14.2.2 Conditional Random Field Models . . . . . . . . . . . . . . . 341
+
+
+
+14.2.3 Learning a CRF Takes Care . . . . . . . . . . . . . . . . . . . 342
+
+
+
+xvii
+
+
+
+14.3 Discriminative Learning of CRFs . . . . . . . . . . . . . . . . . . . . 343
+
+
+
+14.3.1 Representing the Model . . . . . . . . . . . . . . . . . . . . . 343
+
+
+
+14.3.2 Example: Modelling a Sequence of Digits . . . . . . . . . . . 344
+
+
+
+14.3.3 Setting Up the Learning Problem . . . . . . . . . . . . . . . . 345
+
+
+
+14.3.4 Evaluating the Gradient . . . . . . . . . . . . . . . . . . . . . 346
+
+
+
+14.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 348
+
+
+
+14.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 348
+
+
+
+14.4.2 Remember These Procedures . . . . . . . . . . . . . . . . . . 348
+
+
+
+14.4.3 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 348
+
+
+
+15 Mean Field Inference 351
+
+
+
+15.1 Useful but Intractable Models . . . . . . . . . . . . . . . . . . . . . . 351
+
+
+
+15.1.1 Denoising Binary Images with Boltzmann Machines . . . . . 352
+
+
+
+15.1.2 A Discrete Markov Random Field . . . . . . . . . . . . . . . 353
+
+
+
+15.1.3 Denoising and Segmenting with Discrete MRFs . . . . . . . . 354
+
+
+
+15.1.4 MAP Inference in Discrete MRFs Can Be Hard . . . . . . . . 357
+
+
+
+15.2 Variational Inference . . . . . . . . . . . . . . . . . . . . . . . . . . . 358
+
+
+
+15.2.1 The KL Divergence . . . . . . . . . . . . . . . . . . . . . . . 359
+
+
+
+15.2.2 The Variational Free Energy . . . . . . . . . . . . . . . . . . 360
+
+
+
+15.3 Example: Variational Inference for Boltzmann Machines . . . . . . . 361
+
+
+
+15.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 364
+
+
+
+15.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 364
+
+
+
+15.4.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 364
+
+
+
+15.4.3 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 364
+
+
+
+VI Deep Networks 365
+
+
+
+16 Simple Neural Networks 367
+
+
+
+16.1 Units and Classification . . . . . . . . . . . . . . . . . . . . . . . . . 367
+
+
+
+16.1.1 Building a Classifier out of Units: The Cost Function . . . . 368
+
+
+
+16.1.2 Building a Classifier out of Units: Strategy . . . . . . . . . . 369
+
+
+
+16.1.3 Building a Classifier out of Units: Training . . . . . . . . . . 370
+
+
+
+16.2 Example: Classifying Credit Card Accounts . . . . . . . . . . . . . . 372
+
+
+
+16.3 Layers and Networks . . . . . . . . . . . . . . . . . . . . . . . . . . . 377
+
+
+
+16.3.1 Stacking Layers . . . . . . . . . . . . . . . . . . . . . . . . . . 377
+
+
+
+16.3.2 Jacobians and the Gradient . . . . . . . . . . . . . . . . . . . 379
+
+
+
+16.3.3 Setting up Multiple Layers . . . . . . . . . . . . . . . . . . . 380
+
+
+
+16.3.4 Gradients and Backpropagation . . . . . . . . . . . . . . . . . 381
+
+
+
+16.4 Training Multilayer Networks . . . . . . . . . . . . . . . . . . . . . . 383
+
+
+
+16.4.1 Software Environments . . . . . . . . . . . . . . . . . . . . . 385
+
+
+
+16.4.2 Dropout and Redundant Units . . . . . . . . . . . . . . . . . 386
+
+
+
+16.4.3 Example: Credit Card Accounts Revisited . . . . . . . . . . . 387
+
+
+
+16.4.4 Advanced Tricks: Gradient Scaling . . . . . . . . . . . . . . . 390
+
+
+
+16.5 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 394
+
+
+
+16.5.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 394
+
+
+
+16.5.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 394
+
+
+
+16.5.3 Remember These Procedures . . . . . . . . . . . . . . . . . . 394
+
+
+
+16.5.4 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 395
+
+
+
+xviii
+
+
+
+17 Simple Image Classifiers 399
+
+
+
+17.1 Image Classification . . . . . . . . . . . . . . . . . . . . . . . . . . . 399
+
+
+
+17.1.1 Pattern Detection by Convolution . . . . . . . . . . . . . . . 401
+
+
+
+17.1.2 Convolutional Layers upon Convolutional Layers . . . . . . . 407
+
+
+
+17.2 Two Practical Image Classifiers . . . . . . . . . . . . . . . . . . . . . 408
+
+
+
+17.2.1 Example: Classifying MNIST . . . . . . . . . . . . . . . . . . 410
+
+
+
+17.2.2 Example: Classifying CIFAR-10 . . . . . . . . . . . . . . . . 412
+
+
+
+17.2.3 Quirks: Adversarial Examples . . . . . . . . . . . . . . . . . . 418
+
+
+
+17.3 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 420
+
+
+
+17.3.1 Remember These Definitions . . . . . . . . . . . . . . . . . . 420
+
+
+
+17.3.2 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 420
+
+
+
+17.3.3 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 420
+
+
+
+17.3.4 Remember These Procedures . . . . . . . . . . . . . . . . . . 420
+
+
+
+17.3.5 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 420
+
+
+
+18 Classifying Images and Detecting Objects 423
+
+
+
+18.1 Image Classification . . . . . . . . . . . . . . . . . . . . . . . . . . . 423
+
+
+
+18.1.1 Datasets for Classifying Images of Objects . . . . . . . . . . . 424
+
+
+
+18.1.2 Datasets for Classifying Images of Scenes . . . . . . . . . . . 426
+
+
+
+18.1.3 Augmentation and Ensembles . . . . . . . . . . . . . . . . . . 427
+
+
+
+18.1.4 AlexNet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 428
+
+
+
+18.1.5 VGGNet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 430
+
+
+
+18.1.6 Batch Normalization . . . . . . . . . . . . . . . . . . . . . . . 432
+
+
+
+18.1.7 Computation Graphs . . . . . . . . . . . . . . . . . . . . . . . 433
+
+
+
+18.1.8 Inception Networks . . . . . . . . . . . . . . . . . . . . . . . . 434
+
+
+
+18.1.9 Residual Networks . . . . . . . . . . . . . . . . . . . . . . . . 436
+
+
+
+18.2 Object Detection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 438
+
+
+
+18.2.1 How Object Detectors Work . . . . . . . . . . . . . . . . . . . 438
+
+
+
+18.2.2 Selective Search . . . . . . . . . . . . . . . . . . . . . . . . . . 440
+
+
+
+18.2.3 R-CNN, Fast R-CNN and Faster R-CNN . . . . . . . . . . . 441
+
+
+
+18.2.4 YOLO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 443
+
+
+
+18.2.5 Evaluating Detectors . . . . . . . . . . . . . . . . . . . . . . . 445
+
+
+
+18.3 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 447
+
+
+
+18.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 449
+
+
+
+18.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 449
+
+
+
+18.4.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 449
+
+
+
+18.4.3 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 450
+
+
+
+19 Small Codes for Big Signals 455
+
+
+
+19.1 Better Low Dimensional Maps . . . . . . . . . . . . . . . . . . . . . 455
+
+
+
+19.1.1 Sammon Mapping . . . . . . . . . . . . . . . . . . . . . . . . 456
+
+
+
+19.1.2 T-SNE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 457
+
+
+
+19.2 Maps That Make Low-D Representations . . . . . . . . . . . . . . . 460
+
+
+
+19.2.1 Encoders, Decoders, and Autoencoders . . . . . . . . . . . . . 461
+
+
+
+19.2.2 Making Data Blocks Bigger . . . . . . . . . . . . . . . . . . . 462
+
+
+
+19.2.3 The Denoising Autoencoder . . . . . . . . . . . . . . . . . . . 465
+
+
+
+xix
+
+
+
+19.3 Generating Images from Examples . . . . . . . . . . . . . . . . . . . 469
+
+
+
+19.3.1 Variational Autoencoders . . . . . . . . . . . . . . . . . . . . 470
+
+
+
+19.3.2 Adversarial Losses: Fooling a Classifier . . . . . . . . . . . . 471
+
+
+
+19.3.3 Matching Distributions with Test Functions . . . . . . . . . . 473
+
+
+
+19.3.4 Matching Distributions by Looking at Distances . . . . . . . 474
+
+
+
+19.4 You Should . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 475
+
+
+
+19.4.1 Remember These Terms . . . . . . . . . . . . . . . . . . . . . 475
+
+
+
+19.4.2 Remember These Facts . . . . . . . . . . . . . . . . . . . . . 476
+
+
+
+19.4.3 Be Able to . . . . . . . . . . . . . . . . . . . . . . . . . . . . 476
+
+
+
+Index 479
+
+
+
+Index: Useful Facts 485
+
+
+
+Index: Procedures 487
+
+
+
+Index: Worked Examples 489
+
+
+
+Index: Remember This 491

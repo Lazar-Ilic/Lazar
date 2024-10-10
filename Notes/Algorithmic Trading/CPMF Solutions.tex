@@ -1,0 +1,973 @@
+\Large
+
+\textbf{Concepts And Practice Of Mathematical Finance Solutions}
+
+Key Points, Notes, and Solutions files are all useful for chronic nightly exposure.
+
+Joshi's solutions with occasional commentary.
+
+I was kind of lightly skimming Numerical Analysis to get a sense for some key ideas and contemplate just how mission critical it is for me at this point in time to produce a Notes file on that textbook. I decided it is not. I will obtain an A in that course, and execute some clear, technical, precise writing practice along the way, really try and empathize with the reader, show all work and reveal everything. I have some literature for potential future reading there on my radar on how actually adaptive floating point handling can function, the algorithms there may be of interest and half note I mean it would seem that arbitrary precision, and even sometimes rational expression a la Wolfram is a bit of a mathematician's philia. After all, if I am in a trading situation, I do not want some dude giving me a $1000$ digit number over another $1000$ digit number, I actually want the short decimal approximation so I know what is going on immediately.
+
+1.1 \\
+$\boxed{<\frac{1}{6}}$.
+
+1.2 \\
+Individually as indicators as before $\boxed{<\frac{1}{6}}$. Depending on trust in the system something like $1-\epsilon$. And in this case then each asset would trade for $\boxed{\frac{1}{6}}$.
+
+1.3 \\
+They go down.
+
+1.4 \\
+The corporate bond will be worth less than the gilt.
+
+1.5 \\
+It would certainly make intuitive sense that its price ought to be higher for it is a strictly dominating asset with an additional option to potentially exercise.
+
+2.1 \\
+$1$ pound to $120 \cdot 1.4=168$ yen.
+
+2.2 \\
+(i) \\
+Smoothing if the stock is worth precisely $110$ so this asset just bubbles jumps in to the money then there the tradeoff is $1:110$ but the thing is the stock is currently worth $100$ which implies at this optimal tradeoff point then it would be $\boxed{\left [ 0,\frac{100}{110} \right ]}$.
+
+(ii) \\
+This is a simple shift transformation so it is $\boxed{20}$.
+
+(iii) \\
+Reminds me of one of those super simple linear options instruments mixture graphs from Option Volatility And Pricing. Lo lo lo and behold what a surprise, that is also a book about options! Anyways at this point it becomes clear that lowkey what Joshi is saying is that an immediate upper bound on a tradeoff graph would come from windmilling from vertical rightwards until striking the first point on the hull of the graph which is to say that point where a [roughly] smoothed out version of the function has a tangent which passes through the origin. So here one has $f(x)=xf'(x)$ or $f'(x)=\frac{f(x)}{x}$. In any case to precisify this want maximum of $\frac{f(x)}{x}$ on domain of interest if we had continuity of the derivative on a neighbourhood surrounding this point then it would be the case that the tangent to the curve transitions from intersecting the positive $x$-axis to intersecting the positive $y$-axis. And thus shifting the parallel through the origin one obtains something like $xf'(x-\epsilon)>f(x)>xf'(x+\epsilon)$ or $f'(x+\epsilon) < \frac{f(x)}{x} < f'(x-\epsilon)$. This could be useful in certain querying settings where the derivative is easy to ping or search for such a point. This of course is the graph of the quasi ``$80$-$20$" principle payoff function as described by Chelsea Voss at the Summer Program On Applied Rationality And Cognition. In the sense of like don't go and sink $10000$ hours into algorithms when you can learn the key ideas of other important fields first diminishing marginal returns on to the next domain for a reasonable amount! And it is also depicted on one of their cute, relatively soft, cotton t shirts in the context of a wummy bear and some wummy fishes salmons to put in their wummy wummies! Much wow! Anyways so if we had a credence point mass $1$ on the non dividend paying stock's spot price with $0$ interest rates being $120$ then of course if we had $1$ stock now it needs to convert in to being worth precisely $120$ when traded for this asset today and that means that the price must give $\boxed{\left [ 0,\frac{100}{6} \right ]}$.
+
+(iv) \\
+Arbitrarily high spot prices and in the $S=100$ case of course the lower bound of $0$ is attained so $\boxed{[0,\infty]}$.
+
+2.3 \\
+(i) \\
+Zero Coupon Bond ZCP: this is an asset like uh for example it sells for $0.7$ and in $1$ year it becomes $1$ paying no coupons along the way. And in particular maybe if you know you will not need the money in the next year, such an asset could be better for you than simply going to a bank interest or stocks dividends depending on your personal preferences with respect to such assets. In any case Investopedia claims the simple natural formula for a normal investor of:
+
+$\text{ZCP}=\frac{\text{Maturity Value}}{(1+\text{Required Interest Rate})^{\text{Years Until Maturity}}}$
+
+$\boxed{\text{C}(K_1)+\text{P}(K_1) = \text{ZCB}}$.
+
+(ii) \\
+At most $1$ of the derivatives pays off so the value of the $2$ together at expiry will be $1$ or $0$. $\boxed{\text{C}(K_1)+\text{P}(K_2) < \text{ZCB}}$.
+
+(iii) \\
+At least $1$ of the derivatives pays off so the value of the $2$ together at expiry will be $2$ or $1$. $\boxed{\text{C}(K_1)+\text{P}(K_2) > \text{ZCB}}$.
+
+2.4 \\
+The forward price is given by the formula $F_t=e^{r(T-t)} S_t$ and so will \boxed{\text{increase}} with $r$. The value of a forward contract struck at $K$ is $e^{-r(T-t)}(F_t-K) = S_t - K e^{-r (T-t)}$. Increasing $r$ decreases the second term, so the value will $\boxed{\text{increase}}$ too.
+
+2.5 \\
+So StackExchange actually hosts a forum questions and answers website called Quant as well as one called Mathematical Finance can you believe it? That is the proper avenue for discourse on these topics wow people have written tracts on these tasks in public there to clarify my fundamental misconceptions! In any case the bounds $\boxed{\text{widen}}$ and the example given was like $2$ stores near eachother now boom say huge travel cost is added then boom they can equilibriate at a wider price gap. It was a little unclear to me that this is in fact what transaction costs functionally means here.
+
+2.6 \\
+Immediately I just think to myself that otherwise something would make no sense like it would well in any case a call option is the option to buy later for a strike price so for $C_j$ struck at $K_j$ then with $K_1 < K_2$, $C_2 < C_1 < C_2 + (K_2 - K_1) Z(t,T)$. Of course this is because the option $C_1$ dominates $C_2$ like its valuation function is greater than equal to everywhere and greater than somewhere. In any case here this simplifies to the task specific, currently interest rate free toy models for exposition, $C_2 < C_1 < C_2 + (K_2 -  K_1)$. So $\frac{\delta C}{\delta K} < 0$ and $C_1 + K_1 < C_2 + K_2$ so $C+K$ is an increasing function of strike price $K$ which implies that $\frac{\delta C}{\delta K}+\frac{\delta K}{\delta K} > 0$ i.e. $\frac{\delta C}{\delta K} > -1$. Now of course similar argumentation leads to $C_1 + ZK_1 < C_2 + ZK_2$ so that $\frac{\delta C}{\delta K} > -Z > -1$, if I am correct in understanding that $Z$ represents the current price value of $1$ of these Zero Coupon Bond assets which matures to $1$ in the future.
+
+2.7 \\
+Construct a portfolio of these options which approximates taking the third derivative and then proceed as for proving call options are convex. The basic point is that the linear relation holds for the final time slice for each value of $S$ and therefore will hold at previous times as well.
+
+2.8 \\
+We know from put call parity that $C(K)-P(K)+F(K)=0$ but if $K = S_0 e^{rT}$ then $F(K)=0$ and $C(K)=P(K)$.
+
+2.9 \\
+The lower bounding portfolio must be below $0$ at infinity so must have $0$ or negative slope. That is, the number of stocks is non-positive. At $0$ the value of the stock is $0$, as is the digital-call, so the number of bonds must be non-positive too. The most valuable lower bound portfolio is therefore obtained by letting both be $0$.
+
+2.10 \\
+Simply short the asset and use the money to buy bonds. When the asset drops in value, buy it back.
+
+2.11 \\
+$\boxed{A \le \alpha Z+ \beta S_0 + \gamma B}$, where $Z$ is the price of a Zero Coupon Bond with the same expiry.
+
+2.12 \\
+$A$ will be worth at least as much as $B$.
+
+2.13 \\
+We have the same hypotheses $KZ \ge P(K) \ge KZ-S$. We also have that $P(K)$ is an increasing function of $K$, is Lipshitz continuous and convex. We do not have that $P(K,T)$ is an increasing function of $T$.
+
+2.14 \\
+The bounds will widen by $Xe^{rT}$.
+
+2.15 \\
+To get $S_{t_2}$ just buy the stock at time $0$ at cost $S_0$. To get $S_{t_1}$ at time $t_2$ we must buy $S_{t_1}e^{-r(t_2-t_1)}$ bonds at time $t_1$. We can achieve this by buying $e^{-r(t_2-t_1)}$ stocks today. The overall cost is therefore $S_{t_0}-S_{t_0} e^{-r(t_2-t_1)}$.
+
+2.16 \\
+See Joshi for further commentary and inequalities written out.
+
+In any case one supposes these sorts of computations can become more complex later on in finance but these are some simple toy examples to stress and emphasize the key ideas.
+
+$S=100,Z=1$ \\
+$S=90,Z=1$ \\
+$S=100,0.9$ \\
+$S=110,Z=1$
+
+(i) \\
+$\boxed{[0,1]}$ \\
+$\boxed{[0,0.9]}$ \\
+$\boxed{[0,0.9]}$ \\
+$\boxed{[0,1]}$
+
+(ii) \\
+$\boxed{[0,1]}$ \\
+$\boxed{[0.1,1]}$ \\
+$\boxed{[0,0.9]}$ \\
+$\boxed{[0,1]}$
+
+(iii) \\
+$\boxed{[0.25,100]}$ \\
+$\boxed{[0,90]}$ \\
+$\boxed{[1.45,100]}$ \\
+$\boxed{[0.5,110]}$
+
+(iv) \\
+$\boxed{[0,1.5 \times 100/110]}$ \\
+$\boxed{[0,1.5 \times 90/110]}$ \\
+$\boxed{[0,0.9 \times 1.5]}$ \\
+$\boxed{[0,1.5]}$
+
+2.17 \\
+
+This is the same as 2.16 except for the fact that in this case the stock is a non-dividend paying unlimited liability stock.
+
+This means any holding involving nonzero amounts of stock can go arbitrarily large, either positive and negative. We will therefore never be able to superreplicate using stock. So the problem of super-replication is simply how many bonds you need to hold. We therefore get $Z,Z,\infty ,1.5 Z$ for the $4$ contracts. For sub-replication, only $1$ of the contracts can be sub-replicated using stocks: namely the third one, as it is unbounded. For the other $3$, the pay-off will be too big somewhere. So for these other $3$, we get $0$ as the lower bound. For the third one, we can hold between $0$ and $1$ stocks and still be able to sub-replicate. This means that the answers are the same as for the limited liability case, Exercise 2.16.
+
+$S=100,Z=1$ \\
+$S=90,Z=1$ \\
+$S=100,0.9$ \\
+$S=110,Z=1$
+
+(i) \\
+$\boxed{[0,1]}$ \\
+$\boxed{[0,1]}$ \\
+$\boxed{[0,0.9]}$ \\
+$\boxed{[0,1.5]}$
+
+(ii) \\
+$\boxed{[0,1]}$ \\
+$\boxed{[0,1]}$ \\
+$\boxed{[0,0.9]}$ \\
+$\boxed{[0,1.5]}$
+
+(iii) \\
+$\boxed{[0,1]}$ \\
+$\boxed{[0,1]}$ \\
+$\boxed{[1.45,100]}$ \\
+$\boxed{[0,1.5]}$
+
+(iv) \\
+$\boxed{[0,1]}$ \\
+$\boxed{[0,1]}$ \\
+$\boxed{[0,0.9 \times 1.5]}$ \\
+$\boxed{[0,1.5]}$
+
+2.18 \\
+
+$S=0.8,Z=1$ \\
+$S=0.9,Z=1$ \\
+$S=0.6,Z=0.9$ \\
+$S=0.7,Z=1$
+
+(i) \\
+$\boxed{[0,8/9]}$ \\
+$\boxed{[0,1]}$ \\
+$\boxed{[0,6/9]}$ \\
+$\boxed{[0,7/9]}$
+
+(ii) \\
+$\boxed{[1/9,1]}$ \\
+$\boxed{[0,1]}$ \\
+$\boxed{[-6/9+0.9,0.9]}$ \\
+$\boxed{[2/9,1]}$
+
+(iii) \\
+$\boxed{[0.45,0.8]}$ \\
+$\boxed{[0.6,0.9]}$ \\
+$\boxed{[0.225,0.6]}$ \\
+$\boxed{[0.3,0.7]}$
+
+(iv) \\
+$\boxed{[0.5,1]}$ \\
+$\boxed{[1,1]}$ \\
+$\boxed{[1/4,0.9]}$ \\
+$\boxed{[1/3,1]}$
+
+2.19 \\
+We will show that $K_1 P(T,K_2) \ge K_2 P(T,K_1)$ at maturity. To see this, first note that if $S=0$, the $2$ sides are both equal to $K_1 K_2$. On the interval $[0,K_1]$ both sides describe a straight line. At $K_1$, $P(T,K_1)=0$ but $P(T,K_2) > 0$. We have $2$ straight lines which intersect at $0$ and one is bigger at $K_1$, so the right hand side dominates on $[0,K_1]$. Above $K_1$ we have $P(T,K_1)=0$, so any positive multiple multiple of $P(T,K_2)$ will dominate. The result is now clear.
+
+2.20 \\
+We can replicate a cash flow of $S_S$ at $t > s$, by buying $e^{-r(t-s)}$ units of stock today, selling them at $s$ and then putting the proceeds into riskless bonds. So the value is $\sum \lambda_j S_0 e^{-r(T-t_j)}$.
+
+2.21 \\
+Suppose a portfolio with $a$ stocks and $b$ bonds sub replicates $D$. Then $a S_T + \beta \le f(S_T)$ for all values of $S_T$. Let $S_T=S_0$. We get $a S_0 + \beta \le f(S_0)$. The setup cost of a subreplicating portfolio is therefore less than or equal to $f(S_0)$. For upper bounds, the same argument shows that the upper bound is greater than or equal to $f(S_0)$. Alternatively, consider the Black-Scholes model with very small volatility. For any reasonable $f$, the value of a derivative that pays $f$ will converge to $f(S_0)$ as $\sigma \to 0$. So model-free bounds have to straddle this value.
+
+2.22 \\
+For a non dividend paying stock, American and European call options are worth the same. The result is trivial for American options since for $T > S$, an American with expiry $T$ has all the rights of an American with expiry $S$ and more. So it also holds for European call options.
+
+2.23 \\
+By put call parity $P(K)=C(K)-K+S_0$. The first term on the right hand side increases with maturity, and the other $2$ do not depend on it. The result follows.
+
+3.1 \\
+Joshi writes: The risk neutral probability $p$ will satisfy $110p+90(1-p)=100$, so $p=0.5$ and the value is $10p=5$. I am not really sure that I follow to be quite honest I read the task as like uh we have assets and the expected value of the $A$ option is $9$ and the expected value of the $B$ option is $5$. Oh so a quick Google search tells me this is about risk neutral pricing and the no arbitrage principle so both have expected value of $5$ under this sort of I don't know I suppose credence misread on my part.
+
+3.2 \\
+This is easiest by risk-neutral evaluation. We find the $p$ such that $220p+(1-p)190=200$. This $30p=10$, i.e. $p=1/3$. We then have $C_{190}=\frac{30}{3}=10$, $C_{200}=\frac{20}{3}$, $C_{220}=0$. Note that the final option always has pay-off $0$.
+
+3.3 \\
+The first approach to this problem is to observe that $C_{100}$ pays $0,0,10$ whilst $C_{105}$ pays $0,0,5$; therefore at maturity $C_{100}=2C_{105}$, and $C_{105}=\frac{1}{2}C_{100}=1$. Alternatively, if the probability of an up-move is $p$, then by risk-neutrality the probability of a down-move will be $p$ and the probability of no move will be $1-2p$. The price of $C_{100}$ forces $p=0.2$. We then have $C_{105}=5p=1$.
+
+3.4 \\
+For the first part, the pay-off has values as follows: \\
+$85,0$ \\
+$95,0$ \\
+$105,5$ \\
+$115,15$ \\
+We can think of these values as $4$ points $(85,0),(95,0),(105,5),(115,15)$. A subreplicating portfolio can be moved upwards until it intersects one of these and still be subreplicating. It can then pivoted until it meets another $1$ of the remaining points. We therefore need to consider portfolios, through $2$ of these points, that subreplicate. A similar argument applies to superreplication. We therefore find the lines through those points which sub or superreplicate. These are the lines through the following pairs: \\
+$(85,0),(115,15)$ \\
+$(85,0),(95,0)$ \\
+$(95,0),(105,0)$ \\
+$(105,0),(115,0)$ \\
+If we write our portfolio as $aS+bB$, in case... the bounds on the price of the option are $\boxed{[2.5,7.5]}$. To show that these bounds are optimal, we can argue that the pivoting procedure will always lead to a better bound so these are the best bounds - this takes a little work to justify properly, however. Alternatively, we use the risk-neutral valuation to show that each price in between is non arbitrageable. Let the probabilities be as follows... In the second part, we were given the task statement ``If the call option struck at $100$ is worth $5$, give optimal no arbitrage bounds on a call option struck at $110$". This translates into the additional condition on the risk neutral measure $15p+5q=5$... the bounds on the price of the $110$ option, of course the less valuable one here, $\boxed{[5/6,5/3]}$.
+
+3.5 \\
+So the textbook presentation of this derivation of Black-Scholes is extremely straightforward discrete combinatorial setting where I prefer to refer to dynamic programming as recursion but in the literature it is common to write that down any time a reader may have a confusion and it can be clarifying, clear, technical, and precise. In any case this is a simple discrete extension task. The textbook then executes the taking this to the limit epsilon delta binomial to normal transformation into the continuous setting and the natural integrals and calculi follow. But in any case I understood it all quite naturally, clearly, and precisely. Directly compute the expected value as the sum of payoffs multiplied by corresponding probabilities in the payoff first notational ordering which I suppose is more naturally legible in a general sense maybe.
+
+$\boxed{\sum_{j>\frac{n}{2}} (2j-n) \binom{n}{j} 2^{-n}}$
+
+3.6 \\
+The European is worth $\boxed{13.06}$ and the American $\boxed{13.38}$.
+
+3.7 \\
+This is a straightforward computation: the probability of an up move is $p=\frac{50-40}{70-40}=\boxed{\frac{1}{3}}$.
+
+3.8 \\
+We must have $p_1 + p_2 + p_3 = 1$,$40 p_1 + 55 p_2 + 70 p_3 = 50$, with $p_j \in (0,1)$. Substituting for $p_3$ and factorizing, we obtain $6 p_1 + 3 p_2 = 4$, or $p_2 = \frac{1}{3} (4 - 6p_1)$. Since $p_2 > 0$, we have $p_1 < \frac{2}{3}$. We also have $p_3 = 1-p_1-p_2 = p_1-\frac{1}{3}$. This implies $p_1 > \frac{1}{3}$. So $p_1$ is in the range $\boxed{ \left( \frac{1}{3},\frac{2}{3} \right) }$ and $p_2=\frac{4-6 p_1}{3} , p_3 = p_1 - \frac{1}{3}$ is a line segment from $\left( \frac{1}{3},\frac{2}{3},0 \right)$ to $\left( \frac{2}{3},0,\frac{1}{3} \right)$.
+
+3.9 \\
+We hold $a$ units of $A$ and $b$ units of $B$ to replicate the option. We therefore must have $110a+120b=10$, $90a+80b$. This has the solution $a=-0.4,b=0.45$. The value is therefore $100a+100b=-40+45=\boxed{5}$.
+
+3.10 \\
+$\boxed{6.805}$. Direct formula I will transcribe here. This is not quite how the Wikipedia page notates or introduces things so as usual it is worth a skim parse there to comprehend some other presentations and ideas related.
+
+Black-Scholes: \\
+Call Option Pricing \\
+$S \left( N'(0) \sigma \sqrt{T} + O\left( \sigma^3 T^{\frac{3}{2}} \right) \right)$
+
+Black-Scholes Approximation: \\
+$\frac{S \sigma \sqrt{T}}{\sqrt{2 \pi}} \approx 0.4 S \sigma \sqrt{T}$
+
+Black-Scholes Equation: \\
+$\frac{\delta C}{\delta t}+rS\frac{\delta C}{\delta S}+\frac{1}{2} \sigma^2 S^2 \frac{\delta^2 C}{\delta S^2} = rC$
+
+3.11 \\
+We can either apply the general result that the American has at least as many rights as the European so will be worth at least as much, or we can proceed by induction. The induction hypothesis is that in the final layer the two options agree and we then proceed by backwards induction. If we assume that the American is worth at least as much as the European in layer $k$, then in layer $(k-1)$ the discounted expectation of the next layer's value must be at least as big. Taking the maximum with the exercise value will only increase this and we are done.
+
+3.12 \\
+The option pays the vanilla value unless the barrier is breached and then it pays zero. We give two solutions. \\
+1 At expiry the barrier option either has the same value as the vanilla or is zero, so the result follows by monotonicity. (This is a model-independent result.) \\
+2 We give an illuminating tree-specific proof by induction. At each node, if the barrier is not breached we have the discounted expectation of the value at the next time, or zero if the node is behind the barrier.
+
+We proceed by backwards induction. In the final layer the result is clearly true. In earlier layers, the value is either the discounted expectation of the value at the next time or is zero. This is clearly less than or equal to the discounted expectation at the next time by our induction hypothesis. So the result follows.
+
+3.13 \\
+This can be done either by a power series expansion or by direct integration. For direct integration we have $\frac{1}{\sqrt{2 \pi}}\int_{-\infty}^{\infty} e^{-\frac{x^2}{2}+\sigma x} dx$. Write $\frac{x^2}{2}-\sigma x=\left( \frac{x}{\sqrt{2}}-\frac{\sigma}{\sqrt{2}} \right)^2 - \frac{1}{2} \sigma^2$, and put $y=x-\sigma$, then the answer is clear.
+
+3.14 \\
+Half interesting exercise in computation actually one presumes this will set us up for more calculi like this one later in the textbook and in life. I have certainly never been asked to execute such a computation in my UT Austin coursework despite the practical value so this is good.
+
+$fg = 2+x+5x^2+O(x^3)$ \\
+$fh = 2x^{\frac{3}{2}}+2x^2+x^{\frac{5}{2}}+O(x^3)$ \\
+$gh = x^{\frac{3}{2}}+x^2+O(x^3)$ \\
+$\frac{f}{g} = 2+x-3x^2+O(x^3)$ \\
+$\frac{g}{f} = \frac{1}{2}-\frac{1}{4}x+\frac{7}{8}x^2+O(x^3)$ \\
+$\frac{f}{h} = x^{-\frac{3}{2}}\left( 2-2x^{\frac{1}{2}}+3x-\frac{5}{2}x^{\frac{3}{2}}+4x^2-4x^{\frac{5}{2}} \right)+O(x^{\frac{3}{2}})$ \\
+$\frac{g}{h} = x^{-\frac{3}{2}}\left( 1-x^{\frac{1}{2}}+x-x^{\frac{3}{2}}+3x^2-3x^{\frac{5}{2}} \right)+O(x^{\frac{3}{2}})$ \\
+$\frac{h}{f} = \frac{1}{2}x^{\frac{3}{2}}+\frac{1}{2}x^2-\frac{1}{4}x^{\frac{5}{2}}+O(x^3)$ \\
+$\frac{h}{g} = x^{\frac{3}{2}}+x^2+O(x^3)$
+
+4.1 \\
+We have $\Gamma = \frac{N'(d_1)}{S \sigma \sqrt{T-1}}$, $\frac{\delta C}{\delta \sigma} = S \sqrt{T-t} N'(d_1)$, i.e. $\frac{\Gamma}{\delta C/ \delta \sigma}=\frac{1}{S^2 \sigma (T-t)} \sim f(S,t,T)$ which does not depend on $K$. This means that if we have a portfolio of calls with the same maturity $T$ then the $\Gamma$ is $(f \times \text{ the Vega})$. Since $f$ is nonzero, $\Gamma$ will be $0$ if and only if the Vega is $0$. Note that this will not hold if $T$ varies since $f$ depends on $T$.
+
+4.2 \\
+The Vega will increase with time for reasonable lengths of time but for very large expiries the Vega will fall away.
+
+4.3 \\
+The sum of the $2$ contracts is a Zero Coupon Bond so we have $\text{DC}(S_t,t,K)+\text{DP}(S_t,t,K) = e^{-r(T-t)} = e^{rt} e^{-rT}$. We differentiate this relation. For Greeks with respect to a quantity $X$ which is not $t$ or $r$, we get $\frac{\delta \text{DC}}{\delta X}=-\frac{\delta \text{DP}}{\delta X}$. For $\rho$ we have $\frac{\delta \text{DC}}{\delta r}+\frac{\delta \text{DP}}{\delta r}=(t-T)e^{r(t-T)}$, and for theta, we get $\frac{\delta \text{DC}}{\delta t}+\frac{\delta \text{DP}}{\delta t}=re^{r(t-T)}$.
+
+4.4 \\
+It goes down.
+
+4.5 \\
+The change in value of the portfolio against the change in value of $S$ will look like an upside-down parabola (actually more like a hyperbola) with tip at $(0,0)$. So any move will result in a loss.
+
+4.6 \\
+We can differentiate the relation $C \sim 0.4 S \sigma \sqrt{T-t}$. This yields $\frac{\delta C}{\delta \sigma} \sim 0.4 S \sqrt{T-t}$, and $\frac{\delta C}{\delta t} \sim -0.4 S \frac{1}{2} (T-t)^{-\frac{3}{2}} = -0.2 S (T-t)^{-\frac{3}{2}}$. Note the second approximation ignores the fact that the at-the-money value will change with $t$.
+
+4.7 \\
+We have $C(K)=P(K)+F(K)$ by put-call parity. The value of $F$ is model-independent so does not depend on $\sigma$; hence on differentiating, we obtain $\frac{\delta C}{\delta \sigma}(K)=\frac{\delta P}{\delta \sigma}(K)$.
+
+4.8 \\
+We can do this by using put-call parity: $C(K)-P(K)=F(K)$, i.e. $P(K)=C(K)-F(K)$. The forward has value $S_0 - K e^{-r(T-t)}$. Its Gamma and Vega are $0$, and its Delta is $1$. Its value is $100-110 e^{-0.05 \times 1}=-4.635$. In summary:
+
+$
+\begin{matrix}
+\text{ } & \text{Forward} & \text{Put} \\
+\text{Value} & -4.64 & 6.81 \\
+\text{Vega} & 0 & 36.78 \\
+\text{Delta} & 1 & -0.657 \\
+\text{Gamma} & 0 & 0.0367
+\end{matrix}
+$
+
+4.9 \\
+We can do this by using put-call parity: $C(K)-P(K)=F(K)$, i.e. $P(K)=C(K)-F(K)$. The forward has value $S_0 - Ke^{-r(T-t)}$. Its Gamma and Vega are $0$, and its Delta is $1$. We have:
+
+$
+\begin{matrix}
+\text{ } & \text{Forward} & \text{Put} \\
+\text{Value} & 14.389 & 0.239 \\
+\text{Vega} & 0 & 11.03 \\
+\text{Delta} & 1 & -0.054 \\
+\text{Gamma} & 0 & 0.011
+\end{matrix}
+$
+
+4.10 \\
+We can do this by using put-call parity: $C(K)-P(K)=F(K)$, i.e. $C(K)=P(K)+F(K)$. The forward has value $S_0-Ke^{-r(T-t)}$. Its Gamma and Vega are $0$, and its Delta is $1$. We have: \\
+
+$
+\begin{matrix}
+\text{ } & \text{Forward} & \text{Call} \\
+\text{Value} & 9.633 & 10.41 \\
+\text{Vega} & 0 & 22.676 \\
+\text{Delta} & 1 & 0.856 \\
+\text{Gamma} & 0 & 0.0227
+\end{matrix}
+$
+
+4.11 \\
+We can do this by using $\text{CD}(K)+\text{DP}(K)=\text{ZCB}$, i.e. $\text{CD}(K)=\text{ZCB}-\text{DP}(K)$. The ZCB has value $Ke^{-rT}$. We have: \\
+
+$
+\begin{matrix}
+\text{ } & \text{ZCB} & \text{Digital Call} \\
+\text{Value} & 0.951 & 0.570 \\
+\text{Vega} & 0 & -1.294 \\
+\text{Delta} & 0 & 0.037 \\
+\text{Gamma} & 0 & -0.0013
+\end{matrix}
+$
+
+4.12 \\
+i For Delta hedging we need $0.709$ units of stock; \\
+ii For Delta and Gamma hedging we need $0.919$ units of $B$ and $0.394$ of stock; \\
+iii For Delta and Vega hedging we need $0.932$ units of $B$ and $0.389$ of stock.
+
+4.13 \\
+i Delta hedging: $-0.709$ of stock; \\
+ii Delta and Gamma hedging: $-0.919$ of $B$ and $-1.313$ of stock; \\
+iii Delta and Vega hedging: $-0.932$ of $B$ and $-1.322$ of stock.
+
+4.14 \\
+i Delta hedging: $-0.034$ of stock;
+ii Delta and Gamma hedging: $0.054$ of $B$ and $0.0015$ of stock;
+iii Delta and Vega hedging: $0.051$ of $B$ and $-0.0003$ of stock.
+
+4.15 \\
+i $-0.037$ of stock;
+ii $0.048$ of $B$ and $-0.0266$ of stock;
+iii $0.031$ of $B$ and $-0.0302$ of stock.
+
+4.16 \\
+For a person holding a long put position and Delta hedging, the value will be a convex function with minimum for the zero move. So she makes money on the spot move. She is long volatility so makes money on the vol too. So she makes money. For a person holding a long call position and not hedging, the value will be an increasing function of spot. So she loses money on the spot move. She is long volatility so makes money on the vol. So she may make or lose money (but will probably lose...). A Delta-hedged long call is essentially the same as a Delta-hedged long put so we get the same answer. A Delta-hedged short call is the negative of a Delta-hedged long call so she loses money.
+
+4.17 \\
+The Delta will rise from $-1$ to $0$. It will be flat away from the money and then rapidly increase. The speed of increase will decrease with maturity. The graph is roughly symmetric in shape about the strike.
+
+4.18 \\
+The Gamma will go from $0$ to $0$ with a spike in the middle. The spike will be much sharper for short maturities. The graph is roughly symmetric in shape about the strike.
+
+4.19 \\
+a It will be roughly convex and symmetrical with wings going up with slope $\frac{1}{2}$. It will be positive everywhere. \\
+b The option struck at $110$ will have Delta less than $0.5$ so the right tail will go up with slope greater than $0.5$, e.g. about $0.75$. The left tail will go up with slope $(1-\text{ the right slope})$. It will be positive everywhere. \\
+c This will be the negative of b.
+
+5.1 \\
+We compute using Ito's lemma: \\
+$dX_t^k= k X_t^{k-1} dX_t + \frac{1}{2} k(k-1) X_t^{k-2} dX_t^2$ \\
+$= k X_t^{k-1} \mu X_t dt + k X_t^{k-1} \sigma X_t dW_t + \frac{1}{2} k(k-1) X_t^k \sigma^2 dt$ \\
+$= X_t^k \left( \left( k \mu + \frac{1}{2}k(k-1)\sigma^2 \right)dt + k \sigma dW_t \right)$. \\
+Setting $Y_t = X_t^k$, we obtain \\
+$\frac{d Y_t}{Y_t} = \left( k \mu + \frac{k(k-1)}{2} \sigma^2 \right) dt + k \sigma dW_t$.
+
+5.2 \\
+The volatility part of $f(X_t)$ will, from Ito's lemma, be $f'(X_t) \sigma (X_t)$. So we need to solve $f'(X_t)=\sigma (X_t)^{-1} A$ for a constant $A$. We deduce $f(X)=C+A \int_0^X \sigma (s)^{-1} ds$ with $A$ and $C$ arbitrary constants.
+
+5.3 \\
+Note that $F$ is the forward price, not the price of a forward contract. We first express $F_t$ in terms of $S_t$: $F_t = e^{r(T-t)} S_t$ with $T=1$. So by Ito's lemma, \\
+$dF_t=-re^{r(T-t)} S_t dt + e^{r(T-t)} dS_t$ \\
+$=e^{r(T-t)} ((-rS_t + \mu S_t) dt + \sigma S_t dW_t)$ \\
+$=(\mu - r) F_t dt + \sigma F_t dW_t$. \\
+Note that there are no cross terms since $dt \cdot dS_t = 0$.
+
+5.4 \\
+We compute \\
+$f(S)=S^{-1}$ \\
+$f'(S)=-S^{-2}$ \\
+$f''(S)=2S^{-3}$. \\
+Hence \\
+$d(S_t^{-1})=-S^{-2}dS_t + \frac{1}{2} 2 S_t^{-3} dS_t^2$ \\
+$=-S_t^{-2} (\mu S_t dt + \sigma S_t dW_t) + S_t^{-3} \sigma^2 S_t^2 dt$ \\
+$=S_t^{-1} ((\sigma^2 - \mu) dt - \sigma dW_t)$.
+
+5.5 \\
+This is geometric Brownian motion in the volatility part but the drift part pushes $S_t$ towards $\mu$ if $a>0$. The derivation of the Black-Scholes equation does not require $\mu$ to be constant so this will have no effect on the Black-Scholes price.
+
+5.6 \\
+We compute \\
+$\frac{\delta S_t}{\delta t}=0$ \\
+$\frac{\delta S_t}{\delta S_t}=1$ \\
+$\frac{\delta^2 S_t}{\delta S_t^2}=0$ \\
+The left hand side of the Black-Scholes equation is therefore $0 + r S_t \cdot 1 + 0 = r S_t$ when $C=S_t$, which agrees with the right hand side. The reason to expect this is that $S_t$ is the price of a derivative that pays $S_T$ at time $t$.
+
+5.7 \\
+We set $C=Ae^{rt}$, so \\
+$\frac{\delta C}{\delta t}=rAe^{rt}$ \\
+$\frac{\delta C}{\delta S_t}=0$ \\
+$\frac{\delta^2 C}{\delta S_t^2}=0$. \\
+The left hand side of the Black-Scholes equation is therefore $r A e^{rt}=rC$ which agrees with the right hand side. The reason to expect this is that $Ae^{rt}$ is the price of a derivative that pays $Ae^{rT}$ at time $T$.
+
+5.8 \\
+The Black-Scholes solution is the no-arbitrage price under the Black-Scholes model. The rational bounds we developed in Chapter 2 apply in any no arbitrage model so they must apply in the Black-Scholes model as well. Therefore $0 < C(S_t,t) < S$.
+
+5.9 \\
+Let $h=g-f$; then $h \ge 0$ at time $T$. Let $A$ pay $f$, $B$ pay $g$ and $C$ pay $h$ at time $T$. We clearly have $C(S_t,t) = B(S_t,t)-A(S_t,t)$, at all times. The contract $C$ has nonnegative payoff at time $T$ so $C(S_t,t) \ge 0$, for all $t$ by monotonicity, hence $A(S_t,t) \le B(S_t,t)$ for all $t$. But $f$ and $g$ are solutions of the Black-Scholes equation, so $A(S_t,t)=f(S_t,t)$, $B(S_t,t)=g(S_t,t)$ everywhere. Therefore $f \le g$.
+
+5.10 \\
+We compute \\
+$d (X_t^{(2)} - X_t^{(1)})= \mu_2 dt + \sigma dW_t - \mu_1 dt - \sigma dW_t$ \\
+$= (\mu_2 - \mu_1) dt$.
+So \\
+$X_t^{(2)}-X_t^{(1)} = (\mu_2 - \mu_1) t > 0$.
+
+5.11 \\
+The point to note is that the only real change, if we allow $\sigma$ to be a general function of $S$, is that we must replace $\sigma S$ by $\sigma (S)$ everywhere. Then, in the particular case that $\sigma (S)=\sigma$, we get $\frac{\delta C}{\delta t} + r S_t \frac{\delta C}{\delta S_t} + \frac{1}{2} \sigma^2 \frac{\delta^2 C}{\delta S_t^2} = rC$.
+
+5.12 \\
+The important observation here is that the payoff does not affect the equation. A common mistake is to attempt to rederive the Black-Scholes equation. Instead it is the same equation. To solve the equation is tiresome and it is most easily done using risk-neutral evaluation which we discuss in Chapter 6.
+
+5.13 \\
+Using (5.40) we obtain $\frac{6-4}{10} = 0.2$ and $\frac{5-2}{20} = \frac{3}{20}$.
+
+5.14 \\
+For the general case, consider $e^{\alpha t} X_t$. A straightforward application of Ito's lemma gives \\
+$d(e^{\alpha t} X_t)=e^{\alpha t} dX_t + \alpha e^{\alpha t} X_t dt$ \\
+$=e^{\alpha t} (\alpha X_t + \alpha (\beta - X_t))dt + e^{\alpha t} \sigma dW_t$ \\
+$=e^{\alpha t} (\alpha \beta + \sigma dW_t)$. \\
+We now have a stochastic differential equation with time-dependent, but state-independent, drift and volatility. We therefore have that $e^{\alpha t} X_t$ is normal with mean $X_0 + \int_0^t e^{\alpha s} ds \alpha \beta$, and variance $\int_0^t e^{2 \alpha s} \sigma^2 ds$. These integrals can then be evaluated to give precise expressions.
+
+5.15 \\
+Positive interest rates would increase the price. We have to hold a negative amount of stocks at all times to replicate the option so our payment of the dividends would cause us to sub-replicate if we allowed the non-dividend paying strategy.
+
+6.1 \\
+We have $dS_t = (r-d) S_t dt + \sigma S_t dW_t$. We compute \\
+$dF_t(t)=d(e^{(r-d)(T-t)} S_t)$ \\
+$=-(r-d)e^{(r-d)(T-t)} S_t dt + e^{(r-d)(T-t)} dS_t$ \\
+$=e^{(r-d)(T-t)} \sigma S_t dW_t$ \\
+$=\sigma F_T (t) dW_t$.
+
+6.2 \\
+i Yes, since the value of $W_s$ is clearly known at time $s$. \\
+ii No, since we do not know the value of $W_r$. \\
+iii Yes, since $W_{s-1}$ is known at time $s$. \\
+iv No, because we do not know $W_{s+l}$ at time $s$. \\
+v Yes, since $W_s$ and $W_{s-1}$ are known. \\
+vi Yes, since all these values of $W_r$ are known. \\
+vii Yes, since all these values of $W_r$ are known.
+
+6.3 \\
+i Yes, since we can tell at time $t$ whether the level $1$ has been reached. \\
+ii Yes, since $F_t$ will contain the values of $W_t$ and $W_{i-1}$. \\
+iii No, we do not know $W_{t+1}$ at time $t$. \\
+iv This is very tricky as it depends on how we define `cross.' For some definitions, yes and for others no.
+
+6.4 \\
+$S_t$ grows at the same rate as a riskless bond so its drift must be $r S_t$. The volatility term will not change hence \\
+$dS_t = r S_t dt + \sigma dW_t$ \\
+We compute \\
+$dF_t=d(e^{r(T-t)S_t})$ \\
+$=-re^{r(T-t)}S_t dt + r S_t e^{r(T-t)} dt + \sigma e^{r(T-t)} dW_t$ \\
+$=\sigma e^{r(T-t)} dW_t$. \\
+We therefore have \\
+$F_T \sim F_0 + \bar{\sigma} \sqrt{T} N(0,1)$ where \\
+$\bar{\sigma}^2 T = \int_0^T e^{2r(T-t)} dt \sigma^2$. \\
+The risk-neutral expectation of the payoff is therefore \\
+$\text{E}((F_T - K)_{+}) = \frac{1}{\sqrt{2 \pi}} \int_x^{\infty} e^{-\frac{x^2}{2}} (F_0 + \bar{\sigma} \sqrt{T} s - K) ds$ \\
+where $x$ is such that \\
+$F_0 + \bar{\sigma} \sqrt{T} x = K$ that is, \\
+$x=\frac{K-F_0}{\bar{\sigma} \sqrt{T}}$ so \\
+$\text{E}((F_T - K)_{+}) = (F_0 - K)(1 - N)(x) + \frac{1}{\sqrt{2 \pi}} \int_x^{\infty} s e^{-\frac{s^2}{2}} \bar{\sigma} \sqrt{T} ds$ \\
+$=(F_0 - K)N(-x) + \frac{1}{\sqrt{2 \pi}} e^{-\frac{x^2}{2}} \bar{\sigma} \sqrt{T}$. \\
+We need to multiply this by $e^{-rT}$ to get the price. To get the analogue of the Black-Scholes equation we replace $\sigma S$ by $\sigma$, whenever it appears, to obtain $\frac{\delta C}{\delta t} + \frac{1}{2} \sigma^2 \frac{\delta^2 C}{\delta S^2} + r S \frac{\delta C}{\delta S} = r C$.
+
+6.5 \\
+The price will decrease. We can see this from the fact that the drift in the risk-neutral measure will be lower, so the value of the stock at expiry for any given path will be lower and hence the pay-off will be too Alternatively, a portfolio replicating the pay-off without dividends will superreplicate. This is because the stock holding will always be positive and the stocks will pay dividends.
+
+6.6 \\
+We have $F_T (t)=e^{r(T-t)} S_t$ \\
+$F_T (T)=F_T (0) e^{-\frac{1}{2} \sigma^2 T + \sigma \sqrt{T} N(0,1)}$ \\
+$F_T (T)^2=F_T (0)^2 e^{-\sigma^2 T + 2 \sigma \sqrt{T} N(0,1)}$ \\
+$=F_T (0)^2 e^{\sigma^2 T} e^{-\frac{1}{2}(2 \sigma \sqrt{T})^2 + 2 \sigma \sqrt{T} N(0,1)}$ \\
+So to price, we just use the Black formula with forward equal to $F_T (0)^2 e^{\sigma^2 T}$ and volatility equal to $2 \sigma$. The Partial Differential Equation satisfied will be the Black-Scholes equation since the payoff does not come into the derivation. It is important to realise that $S_t^2$ is not the price process of a traded asset so cannot be treated in the same way as $S_t$.
+
+6.7 \\
+The short answer is that if we use the wrong volatility, we get the wrong hedge and so we end up with variance. One can show, however, that if we sell an option for $\sigma ' > \sigma$ and at all times volatility is lower than $\sigma '$ then we will always come out ahead, but the proof of this is beyond the scope of this book.
+
+6.8 \\
+We have, in the risk-neutral measure, \\
+$S_T = S_0 e^{\left(r-\frac{1}{2 \sigma^2}  \right) T + \sigma \sqrt{T} N(0,1)}$ or \\
+$\text{ln}(S_T) = \text{ln} (S_0) + \left(r-\frac{1}{2 \sigma^2}  \right) T + \sigma \sqrt{T} N(0,1)$. \\
+The value is therefore \\
+$e^{-rT} \text{E} \left( \left(r-\frac{1}{2 \sigma^2}  \right) T + \text{ln}(S_0) + \sigma \sqrt{T} N(0,1) \right) = e^{-rT} \left( \left(r-\frac{1}{2 \sigma^2}  \right) T + \text{ln}(S_0) \right)$
+
+6.9 \\
+The payoff is $(S_T - K)I_{S_T > H} = S_T I_{S_T > H} - K I_{S_T > H}$. The value is therefore $S_0 P_S (S_T > H) - K e^{-rT} P_B (S_T > H)$, using the arguments of Section 6.13, where $P_S$ is the probability in the stock measure and $P_B$ is the probability in the bond measure. We therefore get $S_0 N(h_1) - Ke^{-rT} N(h_2)$, where $h_1 = \frac{\ln \left( \frac{S_0}{H} \right) \left( r+\frac{1}{2}\sigma^2 \right)T}{\sigma \sqrt{T}}$ and $h_2 = h_1 - \sigma \sqrt{T}$.
+
+6.10 \\
+Use 6.104 to compute the implied volatility. Note that interest rates and strike are irrelevant.
+
+$\bar{\sigma} = \sqrt{\frac{1}{T} \int_0^T \sigma^2 (s) ds}$
+
+$
+\begin{matrix}
+\text{T} & \text{Increment} & \text{Sigma} & \text{Increment} & \text{Total} & \text{Implied} \\
+\text{ } & \text{Of Time} & \text{ } & \text{Of Variance} & \text{Variance} & \text{Volatility} \\
+0.5 & 0.5 & 0.20 & 0.02 & 0.02 & 0.2000 \\
+1 & 0.5 & 0.15 & 0.01125 & 0.03125 & 0.1768 \\
+1.5 & 0.5 & 0.10 & 0.005 & 0.03625 & 0.1555 \\
+2 & 0.5 & 0.10 & 0.005 & 0.04125 & 0.1436
+\end{matrix}
+$
+
+6.11 \\
+We compute as above. Note that interest rates and strike are irrelevant.
+
+$
+\begin{matrix}
+\text{T} & \text{Increment} & \text{Sigma} & \text{Increment} & \text{Total} & \text{Implied} \\
+\text{ } & \text{Of Time} & \text{ } & \text{Of Variance} & \text{Variance} & \text{Volatility} \\
+0.5 & 0.5 & 0.10 & 0.005 & 0.005 & 0.1000 \\
+1 & 0.5 & 0.15 & 0.01125 & 0.01625 & 0.1275 \\
+1.5 & 0.5 & 0.20 & 0.02 & 0.03625 & 0.1555 \\
+2 & 0.5 & 0.20 & 0.02 & 0.05625 & 0.1677
+\end{matrix}
+$
+
+6.12 \\
+We compute as above.
+
+$
+\begin{matrix}
+\text{T} & \text{Increment} & \text{Implied} & \text{Total} & \text{Increment} & \text{Volatility} \\
+\text{ } & \text{Of Time} & \text{Volatility} & \text{Variance} & \text{Of Variance} & \text{ } \\
+0.5 & 0.5 & 0.10 & 0.005 & 0.005 & 0.1000 \\
+1 & 0.5 & 0.15 & 0.0225 & 0.0175 & 0.1871 \\
+2 & 1 & 0.20 & 0.08 & 0.0575 & 0.2398
+\end{matrix}
+$
+
+6.13 \\
+By Ito's lemma the drift of the call will be the drift of \\
+$\frac{1}{2} \frac{\delta^2 C}{\delta S^2} (S,t) dS^2 + \frac{\delta C}{\delta t}dt + \frac{\delta C}{\delta S} dS$. \\
+In the stock measure, $S$ has drift $(r+\sigma^2)S$. So we get \\
+$\frac{1}{2} \frac{\delta^2 C}{\delta S^2} (S,t) \sigma^2 S^2 + \frac{\delta C}{\delta t} + \frac{\delta C}{\delta S} (r+\sigma^2)S$. \\
+In the risk-neutral measure, $S$ has drift $rS$. So we get \\
+$\frac{1}{2} \frac{\delta^2 C}{\delta S} (S,t) \sigma^2 S^2 + \frac{\delta C}{\delta t} + \frac{\delta C}{\delta S} rS$.
+
+6.14 \\
+The price of a forward contract at time $t$ with strike $K$ and expiry $T$ is \\
+$G_t = S_t - K e^{-rT(T-t)}$ so \\
+$dG_t = dS_t - rKe^{-r(T-t)}dt = \mu S dt + \sigma S dW_t - rKe^{-r(T-t)}dt$.
+
+6.15 \\
+We have \\
+$F_t = S_t e^{r(T-t)}$ so \\
+$dF_t = dS_t e^{r(T-t)} - rS_t e^{r(T-t)} dt$.
+We can write this as \\
+$dF_t = (\mu -r)S_t e^{r(T-t)} dt+ \sigma S_t e^{r(T-t)} dW_t$ or \\
+$dF_t = F_t ((\mu - r)dt + \sigma dW_t)$.
+
+6.16 \\
+Let $\tau = 0.25$, then $F_t = e^{r \tau} S_t$, so \\
+$dF_t = e^{r \tau}dS_t = e^{r \tau} \mu S_t dt + e^{r \tau} \sigma S dW_t$.
+
+6.17 \\
+We can find an equivalent measure by setting $p=0.5$. In this measure, $Z_k$ is martingale. Any trading strategy in $Z_k$ will also be a martingale so there are no arbitrages in any equivalent measure.
+
+6.18 \\
+The value of $W_{10}$ is $Y_{10}$. Changing measure so the probability of an up move is $0.5$, we find that the expectation of $W_{10}$ is $0$. So if we can only trade at $0$ and $10$, there is no possibility of arbitrage. Now suppose $Y_1$ is $1$. If $Y_2 = 1$, then we have for $W_t$, $0,1,1$ and if $W_2 = -1$ we have $0,1,-1$. So if $W_1=1$ go short at time $1$ and then dissolve the portfolio at time $2$ to achieve an arbitrage in both cases $2$ and $3$.
+
+6.19 \\
+Changing measure so $p=0.5$, we obtain $\text{E}[X_{10}]=0$, so no arbitrages involving only $0$ and $10$ exist. Otherwise go long $X$ at time $1$ if $X_1 > 0$, since then $X_2 = 2 X_1 > X_1$ and we have an arbitrage.
+
+6.20 \\
+The forward price is given by \\
+$F_T (t) = e^{r(T-t)} S_t$ so \\
+$F_T (0)=e^{r(T)} S_0$ and \\
+$F_T (T) = S_T = F_T (0) e^{-\frac{1}{2} \sigma^2 T + \sigma \sqrt{T} N(0,1)}$. \\
+Raise to the power $\alpha$ to get \\
+$F_T (T)^{\alpha} = F_T (0)^{\alpha} e^{-\frac{1}{2} \sigma^2 \alpha T + \alpha \sigma \sqrt{T} N(0,1)}$ \\
+$=F_T (0)^{\alpha} e^{-\frac{1}{2}\sigma^2 \alpha T + \frac{\alpha^2 \sigma^2 T}{2}} e^{-\frac{\alpha^2 \sigma^2 T}{2} + \alpha \sigma \sqrt{T} N(0,1)}$. \\
+Then use the Black formula for a call option with forward price: \\
+$F_T (0)^{\alpha} e^{-\frac{1}{2} \sigma^2 \alpha T + \frac{\alpha^2 \sigma^2 T}{2}}$ and volatility $\alpha \sigma$.
+
+6.21 \\
+The forward price is given by \\
+$F_T (t) = e^{r(T-t)} S_t$ so \\
+$F_T (0)=e^{r(T)} S_0$ and \\
+$F_T T = S_T = F_T (0) e^{-\frac{1}{2} \sigma^2 T + \sigma \sqrt{T} N(0,1)}$. \\
+Raise to the power $\alpha$ to get \\
+$F_T T^{\alpha} = F_T (0)^{\alpha} e^{-\frac{1}{2} \sigma^2 \alpha T + \alpha \sigma \sqrt{T} N(0,1)}$ \\
+$=F_T (0)^{\alpha} e^{-\frac{1}{2}\sigma^2 \alpha T + \frac{\alpha^2 \sigma^2 T}{2}} e^{-\frac{\alpha^2 \sigma^2 T}{2} + \alpha \sigma \sqrt{T} N(0,1)}$. \\
+Then use the Black formula for a put option with forward price: \\
+$F_T (0)^{\alpha} e^{-\frac{1}{2} \sigma^2 \alpha T + \frac{\alpha^2 \sigma^2 T}{2}}$ and volatility $\alpha \sigma \sqrt{T}$.
+
+6.22 \\
+We write $W_t = W_s + (W_t-W_s)$ hence \\
+$W_t^2 = W_s^2 + 2 W_s (W_t - W_s) + (W_t - W_s)^2$ so \\
+$\text{E}[W_t^2 | F_s] = W_s^2 + t -s$ since $\text{E}[W_t - W_s]=0$. We have \\
+$W_t^3 = W_s^3 + 3 (W_t - W_s)^2 W_s + 3 (W_t - W_s)W_s^2 + (W_t - W-s)^3$ therefore \\
+$\text{E}[W_t^3 | F_s] = W_s^3 + 3(t-s)W_s$ since \\
+$\text{E}[W_t - W_s]=\text{E}[(W_t - W_s)^3]=0$ we have \\
+$W_t^4 = W_s^4 + 4(W_t - W_s)W_s^3 + 6 (W_t - W_s)^2 W_s^2 + 4 (W_t-W_s)^3 W_s + (W_t - W_s)^4$ \\
+Taking the expectation, the odd powers of $W_t - W_s$ give zero. The fourth moment of a normal is $3$ so we obtain \\
+$W_s^4 + 6(t-s)W_s^3 + 3(t-s)^2$.
+
+6.23 \\
+We need to compute $\text{E}[(\text{ln}(S_T))^3]$ in the risk-neutral measure. Now \\
+$\text{ln}(S_T) = \text{ln} (S_0) + (r-0.5 \sigma^2) T + \sigma \sqrt{T} N(0,1)$ \\
+in a distributional sense. So if we cube and take expectations, the odd powers of $N(0,1)$ will have zero expectation yielding \\
+$(\text{ln}(S_0) + (r - 0.5 \sigma^2 T))^3 + 3 (\text{ln}(S_0) + (r-0.5 \sigma^2) T ) \sigma^2 T$. \\
+The value is this multiplied by $e^{-rT}$.
+
+6.24 \\
+Either compute as in Exercise 6.22, or derive the drift for $W_t^3$ using Ito's lemma. Our function $f$ is given by $f(x)=x^3$, so \\
+$f'(x)=3x^2$ \\
+$f''(x)=6x$ \\
+The drift is therefore \\
+$3 W_t dt$ \\
+which is not identically zero. So we do not have a martingale.
+
+6.25 \\
+See the previous exercise: $W_t^3$. The expectation is zero by oddness.
+
+6.26 \\
+We have to find $\mu (S,t)$ such that \\
+$X = \frac{B}{S+B}$ \\
+is a martingale. Note that this will immediately imply that $\frac{S}{S + B}$ is a martingale since they add up to $1$. We therefore simply compute the drift of $X$ in terms of the drift of $S$, and then solve. We can write \\
+$X = \frac{1}{1+ \frac{S}{B}}$ \\
+The process for $S/B$ is just \\
+$d(S/B)=(\mu - r)(S/B)dt + \sigma (S/B) dW_t$ let \\
+$f(x)=\frac{1}{1+x}$ then \\
+$f'(x)=-\frac{1}{(1+x)^2}$ and \\
+$f''(x) = \frac{2}{(1+x)^3}$ therefore \\
+$d(f(S/B)) = -\frac{1}{(1+S/B)^2} dS + \frac{1}{(1+S/B)^3} dS^2$ and the drift is \\
+$-\frac{1}{(1+S/B)^2}(\mu - r)S/B + \frac{1}{(1+S/B)^3} \sigma^2 S^2/B^2$ so \\
+$(\mu - r)S/B = \frac{1}{1+S/B} \sigma^2 S^2/B^2$ hence \\
+$\mu = r + \frac{1}{1+S/B} \sigma^2 \frac{S}{B} = r + \frac{S}{S+B} \sigma^2$.
+
+7.1 \\
+
+
+7.2 \\
+
+
+7.3 \\
+
+
+7.4 \\
+
+
+7.5 \\
+
+
+7.6 \\
+
+
+7.7 \\
+
+
+7.8 \\
+
+
+7.9 \\
+
+
+7.10 \\
+
+
+7.11 \\
+
+
+7.12 \\
+
+
+7.13 \\
+
+
+7.14 \\
+
+
+7.15 \\
+
+
+7.16 \\
+
+
+8.1 \\
+
+
+8.2 \\
+
+
+8.3 \\
+
+
+8.4 \\
+
+
+8.5 \\
+
+
+8.6 \\
+
+
+8.7 \\
+
+
+8.8 \\
+
+
+8.9 \\
+
+
+8.10 \\
+
+
+8.11 \\
+
+
+8.12 \\
+
+
+9.1 \\
+
+
+9.2 \\
+
+
+9.3 \\
+
+
+9.4 \\
+
+
+9.5 \\
+
+
+9.6 \\
+
+
+9.7 \\
+
+
+9.8 \\
+
+
+9.9 \\
+
+
+9.10 \\
+
+
+9.11 \\
+
+
+9.12 \\
+
+
+9.13 \\
+
+
+9.14 \\
+
+
+9.15 \\
+
+
+10.1 \\
+
+
+10.2 \\
+
+
+10.3 \\
+
+
+10.4 \\
+
+
+10.5 \\
+
+
+11.1 \\
+
+
+11.2 \\
+
+
+11.3 \\
+
+
+11.4 \\
+
+
+11.5 \\
+
+
+11.6 \\
+
+
+11.7 \\
+
+
+11.8 \\
+
+
+11.9 \\
+
+
+11.10 \\
+
+
+12.1 \\
+
+
+12.2 \\
+
+
+12.3 \\
+
+
+12.4 \\
+
+
+12.5 \\
+
+
+12.6 \\
+
+
+12.7 \\
+
+
+12.8 \\
+
+
+12.9 \\
+
+
+13.1 \\
+
+
+13.2 \\
+
+
+13.3 \\
+
+
+13.4 \\
+
+
+13.5 \\
+
+
+13.6 \\
+
+
+13.7 \\
+
+
+13.8 \\
+
+
+14.1 \\
+
+
+14.2 \\
+
+
+14.3 \\
+
+
+14.4 \\
+
+
+14.5 \\
+
+
+14.6 \\
+
+
+14.7 \\
+
+
+14.8 \\
+
+
+15.1 \\
+
+
+15.2 \\
+
+
+15.3 \\
+
+
+15.4 \\
+
+
+15.5 \\
+
+
+15.6 \\
+
+
+15.7 \\
+
+
+15.8 \\
+
+
+15.9 \\
+
+
+15.10 \\
+
+
+15.11 \\
+
+
+16.1 \\
+
+
+16.2 \\
+
+
+16.3 \\
+
+
+16.4 \\
+
+
+17.1 \\
+
+
+17.2 \\

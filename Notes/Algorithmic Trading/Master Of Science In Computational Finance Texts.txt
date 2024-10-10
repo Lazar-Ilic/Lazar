@@ -1,0 +1,203 @@
+MSCF Probability Preparation
+MSCF Programming Preparation
+MSCF Mathematics And Markets Preparation
+MSCF Communication Preparation
+MSCF Financial Markets
+Introduction To Time Series And Forecasting
+Time Series: Applications To Finance
+Statistics And Data Analysis For Financial Engineering
+Analysis Of Financial Time Series
+Financial Computing I
+Financial Data Science I
+Fixed Income
+Fixed Income Securities
+MSCF Investments
+MSCF Business Communication I
+Financial Data Science II
+MSCF Options
+Stochastic Calculus For Finance I
+Stochastic Calculus For Finance II: Continuous-Time Models
+Machine Learning I
+MSCF Business Communication I
+Financial Computing II
+Simulation Methods For Option Pricing
+Machine Learning II
+MSCF Business Communication II
+Stochastic Calculus For Finance II
+Stochastic Calculus For Finance II: Continuous-Time Models
+Financial Computing III
+Financial Time Series Analysis
+Introduction To Time Series And Forecasting
+Time Series: Applications To Finance
+Statistics And Data Analysis For Financial Engineering
+Analysis Of Financial Time Series
+Financial Products and Markets
+Presentations For Financial Computation
+Persuasive Communication: How Audiences Decide
+MSCF Business Communication II
+
+----------
+
+QuantNet International Guide to Financial Engineering Programs
+	FREE QUANT CAREER GUIDES
+What do quant do ? A guide by Mark Joshi.
+Paul & Dominic's Guide to Quant Careers
+Paul & Dominic's Guide to Getting a Quant Job
+Career in Financial Markets 2011- a guide by efinancialcareers. Download
+Interview Preparation Guide by Michael Page: Quantitative Analysis. Download
+Interview Preparation Guide by Michael Page: Quantitative Structuring. Download
+Peter Carr's A Practitioner's Guide to Mathematical Finance
+Max Dama's Guide to Automated Trading
+	CAREER AS A QUANT
+The Complete Guide to Capital Markets for Quantitative Professionals
+Financial Engineering: The Evolution of a Profession
+My Life as a Quant: Reflections on Physics and Finance
+The Quants: How a New Breed of Math Whizzes Conquered Wall Street and Nearly Destroyed It
+How I Became a Quant: Insights from 25 of Wall Street's Elite
+The Big Short: Inside the Doomsday Machine
+Nerds on Wall Street: Math, Machines and Wired Markets
+Physicists on Wall Street and Other Essays on Science and Society
+	BOOKS FOR QUANT INTERVIEWS
+150 Most Frequently Asked Questions on Quant Interviews by Dan Stefanica, Rados Radoicic, Tai-Ho Wang
+Quant Job Interview Questions And Answers by Mark Joshi
+Frequently Asked Questions in Quantitative Finance by Wilmott
+Heard on The Street: Quantitative Questions from Wall Street Job Interviews by Timothy Crack
+Cracking the Coding Interview: 150 Programming Questions and Solutions by Gayle Laakmann McDowell
+A Practical Guide To Quantitative Finance Interviews by Xinfeng Zhou
+Basic Black-Scholes: Option Pricing and Trading by Timothy Crack
+Fifty Challenging Problems in Probability with Solutions by Frederick Mosteller
+Vault Guide to Advanced Finance & Quantitative Interviews
+Probability and Stochastic Calculus Quant Interview Questions by Ivan Matic, Dan Stefanica, Rados Radoicic
+	GOOD BOOKS TO READ BEFORE STARTING MFE PROGRAM
+A Primer For The Mathematics Of Financial Engineering, Second Edition
+Financial Options: From Theory to Practice by Stephen Figlewski
+Paul Wilmott on Quantitative Finance 3 Volume Set (2nd Edition)
+An Introduction to the Mathematics of Financial Derivatives, Second Edition by Salih Neftci
+Options, Futures, and Other Derivatives (8th Edition) by John Hull
+Principles of Financial Engineering, Second Edition by Salih Neftci
+Elementary Stochastic Calculus With Finance in View by Thomas Mikosch
+The Concepts and Practice of Mathematical Finance by Mark Joshi
+Financial Calculus : An Introduction to Derivative Pricing by Martin Baxter
+A Course in Financial Calculus by Etheridge Alison
+The Mathematics of Financial Derivatives: A Student Introduction by Paul Wilmott
+Frequently Asked Questions in Quantitative Finance by Paul Wilmott
+Derivatives Markets by Robert L. McDonald
+An Undergraduate Introduction to Financial Mathematics by Robert Buchanan
+	GENERAL READING ON WALL STREET
+Liar's Poker: Rising Through the Wreckage on Wall Street
+Monkey Business: Swinging Through the Wall Street Jungle
+Reminiscences of a Stock Operator
+Working the Street: What You Need to Know About Life on Wall Street
+Fiasco: The Inside Story of a Wall Street Trader
+Den of Thieves
+When Genius Failed: The Rise and Fall of Long-Term Capital Management
+Traders, Guns & Money: Knowns and unknowns in the dazzling world of derivatives
+The Greatest Trade Ever: The Behind-the-Scenes Story of How John Paulson Defied Wall Street and Made Financial History
+Goldman Sachs : The Culture of Success
+The House of Morgan: An American Banking Dynasty and the Rise of Modern Finance
+Wall Street: A History: From Its Beginnings to the Fall of Enron
+The Murder of Lehman Brothers: An Insider’s Look at the Global Meltdown
+On the Brink: Inside the Race to Stop the Collapse of the Global Financial System
+House of Cards: A Tale of Hubris and Wretched Excess on Wall Street
+Too Big to Fail: The Inside Story of How Wall Street and Washington Fought to Save the Financial System-and Themselves
+Liquidated: An Ethnography of Wall Street
+Fortune’s Formula: The Untold Story of the Scientific Betting System That Beat the Casinos and Wall Street
+	PROGRAMMING
+C++ (ordered by level of difficulty)
+Problem Solving with C++ (9th Edition) by Walter Savitch
+C++ How to Program (8th Edition) by Harvey Deitel
+Absolute C++ (5th Edition) by Walter Savitch
+Thinking in C++: Introduction to Standard C++, Volume One by Bruce Eckel
+Thinking in C++: Practical Programming, Volume Two by Bruce Eckel
+The C++ Programming Language: Special Edition by Bjarne Stroustrup (C++ inventor)
+Effective C++: 55 Specific Ways to Improve Your Programs and Designs by Scot Myers
+C++ Primer (4th Edition) by Stanley Lippman
+C++ Design Patterns and Derivatives Pricing (2nd edition) by Mark Joshi
+Financial Instrument Pricing Using C++ by Daniel Duffy
+C# (ordered by level of difficulty)
+C# 2010 for Programmers (4th Edition)
+Computational Finance Using C and C# by George Levy
+C# in Depth, Second Edition by Jon Skeet
+F# (ordered by level of difficulty)
+Programming F#: An introduction to functional language by Chris Smith
+F# for Scientists by Jon Harrops (Microsoft Researcher)
+Real World Functional Programming: With Examples in F# and C#
+Expert F# 2.0 by Don Syme
+Beginning F# by Robert Pickering
+Matlab (ordered by level of difficulty)
+Matlab: A Practical Introduction to Programming and Problem Solving
+Numerical Methods in Finance and Economics: A MATLAB-Based Introduction (Statistics in Practice)
+Excel
+Excel 2007 Power Programming with VBA by John Walkenbach
+Excel 2007 VBA Programmer’s Reference
+Financial Modeling by Simon Benninga
+Excel Hacks: Tips & Tools for Streamlining Your Spreadsheets
+Excel 2007 Formulas by John Walkenbach
+	VBA
+Advanced modelling in finance using Excel and VBA by Mike Staunton
+Implementing Models of Financial Derivatives: Object Oriented Applications with VBA
+Python
+Learning Python: Powerful Object-Oriented Programming
+Python Cookbook
+	FINITE DIFFERENCES
+Option Pricing: Mathematical Models and Computation, by P. Wilmott, J.N. Dewynne, S.D. Howison
+Pricing Financial Instruments: The Finite Difference Method, by Domingo Tavella, Curt Randall
+Finite Difference Methods in Financial Engineering: A Partial Differential Equation Approach by Daniel Duffy
+	MONTE CARLO
+Monte Carlo Methods in Finance, by Peter Jäcke (errata available at jaeckel.org)
+Monte Carlo Methodologies and Applications for Pricing and Risk Management , by Bruno Dupire (Editor)
+Monte Carlo Methods in Financial Engineering, by Paul Glasserman
+Monte Carlo Frameworks in C++: Building Customisable and High-performance Applications by Daniel J. Duffy and Joerg Kienitz
+Risk Management and Simulation by Aparna Gupta
+	STOCHASTIC CALCULUS
+Stochastic Calculus and Finance by Steven Shreve (errata attached)
+Stochastic Differential Equations: An Introduction with Applications by Bernt Oksendal
+	VOLATILITY
+Volatility and Correlation, by Riccardo Rebonato
+Volatility, by Robert Jarrow (Editor)
+Volatility Trading by Euan Sinclair
+	INTEREST RATE
+Interest Rate Models - Theory and Practice, by D. Brigo, F. Mercurio updates available on-line Professional Area of Damiano Brigo's web site
+Modern Pricing of Interest Rate Derivatives, by Riccardo Rebonato
+Interest-Rate Option Models, by Riccardo Rebonato
+Efficient Methods for Valuing Interest Rate Derivatives, by Antoon Pelsser
+Interest Rate Modelling, by Nick Webber, Jessica James
+	FX
+Foreign Exchange Risk, by Jurgen Hakala, Uwe Wystup
+Mathematical Methods For Foreign Exchange, by Alexander Lipton
+	STRUCTURED FINANCE
+The Analysis of Structured Securities: Precise Risk Measurement and Capital Allocation (Hardcover) by Sylvain Raynes and Ann Rutledge
+Salomon Smith Barney Guide to MBS & ABS, Lakhbir Hayre, Editor
+Securitization Markets Handbook, Structures and Dynamics of Mortgage- and Asset-backed securities by Stone & Zissu
+Securitization, by Vinod Kothari
+Modeling Structured Finance Cash Flows with Microsoft Excel: A Step-by-Step Guide (good for understanding the basics)
+Structured Finance Modeling with Object-Oriented VBA (a bit more detailed and advanced than the step by step book)
+	STRUCTURED CREDIT
+Collateralized Debt Obligations, by Arturo Cifuentes
+An Introduction to Credit Risk Modeling by Bluhm, Overbeck and Wagner (really good read, especially on how to model correlated default events & times)
+Credit Derivatives Pricing Models: Model, Pricing and Implementation by Philipp J. Schönbucher
+Credit Derivatives: A Guide to Instruments and Applications by Janet M. Tavakoli
+Structured Credit Portfolio Analysis, Baskets and CDOs by Christian Bluhm and Ludger Overbeck
+	RISK MANAGEMENT/VAR
+VAR Understanding and Applying Value at Risk, by various authors
+Value at Risk, by Philippe Jorion
+RiskMetrics Technical Document RiskMetrics Group
+Risk and Asset Allocation by Attilio Meucci
+SAS/S/S-PLUS
+The Little SAS Book: A Primer, Fourth Edition by Lora D. Delwiche and Susan J. Slaughter
+Modeling Financial Time Series with S-PLUS
+Statistical Analysis of Financial Data in S-PLUS
+Modern Applied Statistics with S
+	HANDS ON
+Implementing Derivative Models, by Les Clewlow, Chris Strickland
+The Complete Guide to Option Pricing Formulas, by Espen Gaarder Haug
+	NOT ENOUGH YET?
+Energy Derivatives: Pricing and Risk Management, by Les Clewlow, Chris Strickland
+Hull-White on Derivatives, by John Hull, Alan White 1899332456
+Exotic Options: The State of the Art, by Les Clewlow (Editor), Chris Strickland (Editor)
+Market Models, by C.O. Alexander
+Pricing, Hedging, and Trading Exotic Options, by Israel Nelken
+Modelling Fixed Income Securities and Interest Rate Options, by Robert A. Jarrow
+Black-Scholes and Beyond, by Neil A. Chriss
+Risk Management and Analysis: Measuring and Modelling Financial Risk, by Carol Alexander
+Mastering Risk: Volume 2 - Applications: Your Single-Source Guide to Becoming a Master of Risk, by Carol Alexander
