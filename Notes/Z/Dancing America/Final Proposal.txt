@@ -1,0 +1,50 @@
+Final Proposal
+Lazar Ilic
+2022-03-25
+EID li948
+
+If I am permited to go solo on this Final project I would like to discuss robots.
+
+Robots are usually man made machines, rather than say cellular automata deemed to be "dance" like in their form, which can execute a variety of functions. In the future these may soon come to include serving people food at a fast food establishment or helping older folk with taking their medicines, cutting their meat, or getting their groceries in a robust way without errors.
+
+In the past some humans have chosen "robot" like dances. Kraftwerk is considered a pioneering group in pop and electronic pop music with The Robots from their piece The Man Machine. The album artwork is iconic as is their performance movements which endure to this day. I saw them in Austin prior to listening to their discography in high resolution. In any case, Daft Punk, Deadmau5, and other disc jockeys have robotic aspects.
+
+Many dance troupes have earned notoriety such as the "ADEM Crew" which won a "Golden Buzzer" award on the Asia's Got Talent! television program. I do not know for sure, Elektro Botz, YouTube films view counts as a metric, I actually think the Jabbawockeez were more noted at the time. Appearing on the so called "Music Television" network. Any sort of "mask on" aspect, which also echoes the ancient Greek stage actors play performances, renders the dancers less humanoid or identifiably identitied in some kind of way. And so this goes back into the degree of synchrony in such group endeavours and the human tendency sometimes towards unanimity.
+
+Boston Dynamic is a lead robot group working with the likes of Hyundai et al. and their films Do You Love Me? and Boston Dynamics Robot Family Dance For New Year are rather intriguing en vogue latest and greatest updatest robots dancing like humans. The physics in their jumps are worth commenting on as are the performance in their sensors, due to say environmental noise in the ground and air fluctuations and perturbations which could be nontrivial. Automatic balancing is a real problem like one would want to design robots so that if an obnoxious 15 year old male at a fast food joint wanted to be a mala fide actor and cause harm to the robot property then this would not occur. But we also do not want the kid who wants burgers to get turned into a humanburger either if the robot was trained in that way and that form of the so called martial arts and culinary tradition. Nor do we want the robot eating the kid's brain. But I digress, they even have dog or hyena like robots too in Yellow, as well as a number of other soli on display and it really is somewhat interesting that Dr. Lex Fridman of podcast and Deep Learning research note has an interest in this domain.
+
+https://spectrum.ieee.org/how-boston-dynamics-taught-its-robots-to-dance
+
+https://www.nytimes.com/2020/11/05/arts/dance/dance-and-artificial-intelligence.html
+
+https://apnews.com/article/boston-dynamics-robot-dancing-d684559324a385209c0da353a76363bc
+
+https://www.scientificamerican.com/article/dancing-with-robots/
+
+https://www.wired.com/story/boston-dynamics-bts-spots-on-it/
+
+https://www.entrepreneur.com/article/377766
+
+https://www.dancemagazine.com/boston-dynamics-dancing-robots/
+
+https://www.nytimes.com/2009/12/06/arts/music/06kraftwerk.html
+
+https://garage.vice.com/en/article/mb8jx3/daft-punk-kraftwerk-dance-music
+
+https://www.theguardian.com/music/2019/apr/15/raves-robots-and-writhing-bodies-how-electronic-music-rewired-the-world
+
+https://www.theguardian.com/music/2020/may/25/from-germany-to-detroit-and-back-how-kraftwerk-forged-an-industrial-exchange
+
+https://www.nytimes.com/2021/06/11/arts/dance/Jabbawockeez-las-vegas.html
+
+https://www.backstage.com/magazine/article/dancing-jabbawockeez-63689/
+
+https://dancersgroup.org/2008/10/behind-the-mask-the-jabbawockeez-america/
+
+https://tidal.com/magazine/article/daft-punks-discovery-at-20/1-77583
+
+https://djmag.com/longreads/daft-punk-always-moving-always-innovating-always-brilliant
+
+https://djmag.com/longreads/real-story-how-daft-punk-became-robots#:~:text=Here%20is%20how%20Daft%20Punk,that%20can%20easily%20be%20explained.
+
+Perhaps if I could use say the telegra.ph platform rather than producing a .pdf file of a .doc I could instead opt to create 1 single minimal clean website with raw text and YouTube film minimally and simply embedded in a supported fashion without page breaks!
