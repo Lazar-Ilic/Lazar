@@ -1,0 +1,71 @@
+Convolution: n log n
+	Generating Functions.
+	Multiplicities.
+
+Convolution Modulo p: n log n
+
+Convolution And Convolution Modulo p Exponentiation Via Matrices And Vectors Rather Than 1-By-1 Fast Fourier Transformations And Number Theoretic Transformations: n * log n * log m Or n^2 * log m
+	Rather than n^2 * log n * log m consider when using the same exponent in vector convolution exponentiation using matrices a la CodeForces 861 E. Remove a factor of n if the underlying vector to be exponentiated is merely a cyclic shift.
+
+Faster Convolution Modulo p: n log n
+	For primes of form [2^a]*[b] + 1 with size n <= 2^a.
+
+Hadamard Transform: n log n
+	The Hadamard transform [also known as the Walsh-Hadamard transform, Hadamard-Rademacher-Walsh transform, Walsh transform, or Walsh-Fourier transform] is an example of a generalised class of Fourier transforms. It performs an orthogonal, symmetric, involutive, linear operation on 2m real numbers [or complex, or hypercomplex numbers, although the Hadamard matrices themselves are purely real]. The Hadamard transform can be regarded as being built out of size-2 Discrete Fourier Transforms [DFTs], and is in fact equivalent to a multidimensional Discrete Fourier Transformation of size 2 × 2 × ... × 2 × 2. It decomposes an arbitrary input vector into a superposition of Walsh functions.
+	AtCoder Tasks: ABC265Ex, ABC212H, ABC220H, ABC239Ex
+
+Fast Walsh Hadamard Transform: n log n
+
+Concave Maximum Plus Convolution: n log n
+	Divide And Conquer
+	AtCoder Task: ABC218H
+
+Determinant: n^3
+	Invertibility.
+	Determinant = Volume Of Paralleliped = n! * Volume Of Simplex.
+	Product Of Eigenvalues.
+
+Determinant Modulo p: n^3
+
+Fast Integration
+
+Fast Subset Transform: n log n
+
+Integral
+
+Integral Approximations
+	Imagine that there is a flat large body of water and that one drops a rock into the lake. Then ~1000ms later there will be some ripples and one wants to estimate the signed integral of the volume with respect to the otherwise comparatively relatively flat surface. Consider what is 1st, 2nd, 3rd order when tasked with computing leading digits precision as essentially Partial Differential Equations and Differential Equations style exponential or superexponential blowup can occur such that the actually relevant surface area portion could be O[n] on an O[n^2] sized surface. The Eureka Moment in this puzzle perhaps could be simply deducing by conservation of volume that a very tight approximation here for the signed integral of the volume can be deduced via the classical canonical Eureka Method of measuring the volume of the stone prior to dropping it in, that is via a standard displacement argumentation in a much smaller volumetric flask of Water, say. Which is of course itself not an accurate analysis of camera instrument performance and underlying particle-by-particle structures and Partial Differential Equations research literature.
+
+Linear Recurrence: n^2 * log k
+	Generates the kth term of an n-order linear recurrence.
+
+Matrix
+	Multiplication.
+	Exponentiation.
+	Inversion: n^3
+	Inversion Modulo p: n^3
+
+Polynomial
+	Differentiate: n
+	Divide Out Root: n
+
+Polynomial Interpolation: n^2
+	Compute [n-1] degree polynomial through input n points.
+
+Polynomial Roots: n^2
+	Compute real roots of a polynomial with error epsilon.
+
+Recurrence: n^2
+	Compute n-order linear recurrence from first 2n terms.
+
+Simplex
+	Solves general linear programming problem over simplex.
+
+Solve Linear Set of Equations: n^2 * m
+
+Tridiagonal: n
+	a_i = b_i * a_[i-1] + c_i * a_[i+1] + d_i for 1 <= i <= n
+
+Unimodal Extremum
+
+-------------

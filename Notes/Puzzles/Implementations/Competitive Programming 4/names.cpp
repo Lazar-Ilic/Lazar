@@ -1,0 +1,10 @@
+    in>>as;
+    m=INT_MAX;
+    for(a=0;a<sz(as);a++){
+        b=a;
+        for(c=a,d=sz(as)-1;c<d;c++,d--){
+            if(as[c]!=as[d])b++;
+        }
+        if(b<m)m=b;
+    }
+    out<<m<<nl;

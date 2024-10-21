@@ -1,0 +1,19 @@
+I ought to not violate contracts or breach terms and conditions but say once I had a task sort of roughly we'll say was like we have a set of clients at a bank and some set of assets like:
+
+Asset B Ends Up Being Worth $10
+
+And we read in a sequence of orders like:
+
+Client Account 13 Bought +5 Units Of Asset B
+
+And we want to output the value of their portfolios at the end, in the sense of a hand wavey waved simple summation of products of the held units values with the prices.
+
+Now the first very simple observation is that if the number of clients and potential assets is sufficiently small, we can simply store the relevant units numbers in a Matrix and update through with simple += addition operations there and then finally at the end execute an efficient Matrix Matrix Multiplication, in this case a Matrix Vector multiplication, utilising say @ or the performat NumPy matmul function.
+
+In any case I am chuckling now reading up much much much more deeply on compilers, interpreters, NumPy, and the open source Github for the TensorFlow Python library. Funny stuff.
+
+In other cases one might consider using hash maps, and tracking memory, so that once memory is low one can execute a simple naive processing to an offset vector to be further offset later in a live streaming session and then a clearance of the hash maps used thus far in lieu of row vectors which would be too large in memory.
+
+This leads into some other deep discussions of linear algebra, scientific computation, and certain important, critical, canonical parallel tasks. Now I am getting much more interested in tensors.
+
+Of course one can read up many many many interesting sources of technical documentation surrounding these tasks, real world praxes, as well as the massive and growing corpus body of Theoretical Commputer Science literature in Linear Algebra, Scientific Computation, and upon the computational complexity of Matrix Multiplication task.
