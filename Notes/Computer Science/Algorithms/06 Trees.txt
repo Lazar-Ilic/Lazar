@@ -1,0 +1,36 @@
+Diameter, Center[s], Isomorphism: V
+	Maximal distance from arbitrary to produce a vertex, maximal distance from that vertex to produce diameter and center[s].
+
+Tree Traversal Array: V
+	Also known as Depth First Search in order. With subtree size one can range update and range query with a segment tree for example over subtrees.
+
+Path Queries:
+	For example to evaluate the sum from root to node and one can update a value via range updating the subtree using a segment tree on the tree traversal array and query in 1.
+
+Tree Dynamic Programming:
+	There exist many tasks, especially on the AtCoder platform, where this technique has been highly useful. Recurse on subtrees or subpaths as needed rather than say a large Heavy Light Decomposition manipulation.
+
+Lowest Common Ancestor: V
+	Query: log V
+
+Lowest Common Ancestor: V log V
+	Query: 1
+
+Heavy Light Decomposition
+	Query Path: log^2 n
+	Path Update: log^2 n
+
+Link Cut Tree
+	Link u-v Edge: log n
+	Cut u-v Edge: log n
+	Query Maximum Of Commutable Monoid On u-v Path: log n
+
+-------------
+
+Consider isomorphisms in decompositions between range sums and paths and subtrees and vertices and ways to manipulate information optimally with respect to lazy segment trees.
+
+A bunch of trees decomposition tasks from the United States Of America Computing Olympiad Guide website as well as a variety of systems and platforms like the Meta Hacker Cup etc. snag cop some performant C++ implementations from there and then add in all sorts of neat little post facto useful commented out lines to uncomment whilst buzzing mid round. Of course one can always ping the United States Of America Computing Olympiad Guide website or a local clone mid-round.
+
+"One way is with a link-cut forest modified to handle subtree aggregates [full tree queries are just a special case], which can be done with virtual subtrees. This was the intended solution, and directly supports all of the operations we need. Other approaches include persistent disjoint set union, DFS, and bookkeeping of node component sizes."
+
+"Biconnected components and cut vertices can be computed in O[V + E] time using Tarjan's algorithm. For each C[i,j,i',j'] calculation, we'll do a constant number of cuts, connectivity checks, and queries on the link-cut forest, taking O[log[V]] time among them. The overall time complexity to compute the answer across all possible swaps is therefore O[E + V * log[V]]."
