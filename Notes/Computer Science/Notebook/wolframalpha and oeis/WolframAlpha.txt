@@ -1,0 +1,31 @@
+I might come back eventually and compile here a ton of useful WolframAlpha codes from my archives and others. It can be tricky in round if one is not familiar with precise syntax and methods of tweaking out improved performance re the querying engine structure. "Copyable plain text".
+
+Is 1000000007 prime?: Yes
+5^1000000000 modulo 1000000007: 142848001
+Inverse of 5 modulo 1000000007: 400000003
+Sum from 5 to m of 3*n*(n-2):
+
+"
+sum_(n=5)^m 3 n (n - 2) = m^3 - (3 m^2)/2 - (5 m)/2 - 30
+"
+
+log_{5+3*sqrt(3)} {5^1000000000*3*sqrt(3)}: 6.93122601587089331825087797230566937640342134568602837857140... × 10^8
+693122601
+
+"
+log(5 + 3 sqrt(3), 5^1000000000×3 sqrt(3))
+"
+
+Concrete Examples From CodeForces Rounds:
+
+https://www.wolframalpha.com/input?i=sum+from+n%3Da+to+b+of+%28%28n-1%29+choose+%28a-1%29%29*c%5E%28n-a%29*%28c%2B1%29%5E%28b-n%29
+
+https://mathworld.wolfram.com/HypergeometricFunction.html
+
+https://www.wolframalpha.com/input?i=sum+from+n%3Da+to+b+of+%28%28n-1%29+choose+%28a-1%29%29*%28c-1%29%5E%28n-a%29*%28c%29%5E%28b-n%29
+
+https://www.wolframalpha.com/input?i=%7B%7B2%2C1%2C0%2C0%7D%2C%7B0%2C2%2C1%2C0%7D%2C%7B0%2C0%2C2%2C1%7D%2C%7B0%2C0%2C0%2C3%7D%7D%5E4
+
+https://www.wolframalpha.com/input?i=%7B%7B1%2C1%7D%2C%7B0%2C2%7D%7D%5E10
+
+https://www.wolframalpha.com/input?i=%7B%7B17%2C1%2C0%2C0%2C0%2C0%2C0%7D%2C%7B0%2C17%2C1%2C0%2C0%2C0%2C0%7D%2C%7B0%2C0%2C17%2C1%2C0%2C0%2C0%7D%2C%7B0%2C0%2C0%2C17%2C1%2C0%2C0%7D%2C%7B0%2C0%2C0%2C0%2C17%2C1%2C0%7D%2C%7B0%2C0%2C0%2C0%2C0%2C17%2C1%7D%2C%7B0%2C0%2C0%2C0%2C0%2C0%2C18%7D%7D%5E6

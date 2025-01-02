@@ -1,0 +1,64 @@
+[Massachusetts Institute Of Technology, Carnegie Mellon University, University Of Illinois Urbana-Champaign, Princeton University, Harvard, Harvard Statistics, University Of Pennsylvania, University Of Texas At Austin] [Credence ~0.7 Rejected From All Due In Part To Awful Statement Of Purpose And Lack Of Citations And Also Potentialy Weak Letters [If Rejected On December 10th From Spring 2025 Matriculation Can Try To Find New Letter Writers And Exclude Old Ones]] [Hoping To Get Trader Sooner Rather Than Later ~2024 Else Hope For Doctor Of Philosophy Of Statistics 2029 And Professor]
+
+	Resume And Cover Letter Notes
+
+Could customise. I saw people automating thousands of applications with scripts that optimise the resume and cover letter from the job listing. The University Of Illinois Urbana-Champaign does not offer a review service to Master students. HandShake and LinkedIn are mediocre. I will automate. And solicit feedback.
+
+	Alternate Draft Version
+
+[Mathematical Statistics. With sharp thoughts.
+
+My research.
+
+Mathematical finance.
+
+Relevant conclusion outro with customised discussion of programmes and people.
+
+... Can Talk With Prospective Advisers At The University Of Texas At Austin]
+
+I enjoy thinking about Mathematical Statistics. Though I have yet to publish impressive results, I am working towards it. I would love to come to your PhD programme and study further.
+
+Towards the end of my Master Of Computer Science at the University Of Illinois Urbana-Champaign I started reading the ArXiV and Statistics Stack Exchange more seriously. I searched around on fun topics like separating hyperplane separation selection in cases of asymmetric training data, extant writing on useful notions like the empirical distribution function in higher dimensional settings, and faster approximation algorithms for posterior than Markov chain Monte Carlo. This has been exciting.
+
+After speaking with a researcher in Mathematical Finance, I realised I ought to learn more about partial differential equations. I planned on solving tasks from textbooks and reading through notes from courses.
+
+	Version For Future Matriculation
+
+I have been preparing myself for graduate school with my Master Of Computer Science degree at the University Of Illinois Urbana-Champaign, short stint as a Software Engineer at Amazon, puzzles, online competitive programming, and academic research readings. I semiregularly place top 10 in Project Leonhard Euler tasks and top 500 in AtCoder 2-3 hour rounds. Competitors are tasked with producing robust and algorithmically strong C++ codes to complete tricky tasks. This has been tonnes of fun. I take online notes on these topics and mathematics in my public GitHub repository "Lazar".
+
+Recently, I have been lightly skimming through the archives of Statistics theses from the Massachusetts Institute Of Technology, Harvard, Pennsylvania, Yale, Stanford, etc. These have been interesting. I would most likely enjoy studying financial data sets, as this is most pertinent to trading.
+
+In terms of my solo research, I have primarily been working on Mathematical Statistics. I was not on track to publish results during my Master degree, so I posted that work under "Separating Hyperplanes - Master Thesis Draft.tex" in my Paper Drafts folder on December 1st, 2024. I contemplated multiple cited papers and textbooks' chapters and returned every day with new ideas and comments for potential future directions. This was fun. I also have been working on mid-latency trading studies. And I won Top 9% in the Bridgewater Metaculus Trading Competition.
+
+Your school's faculty, research, and resources would contribute to my future goals. More education in quantitative finance will be useful. As will having a strong adviser guide me in my readings and research. The community also ought to provide stimulating conversation.
+
+	Version For Fall 2025 Matriculation
+
+I have been preparing myself for graduate school with my Master Of Computer Science degree at the University Of Illinois Urbana-Champaign, short stint as a Software Engineer at Amazon, puzzles, online competitive programming, and academic research readings. I semiregularly place top 10 in Project Leonhard Euler tasks and top 500 in AtCoder 2-3 hour rounds. Competitors are tasked with producing robust and algorithmically strong C++ codes to complete tricky tasks. This has been tonnes of fun. I take online notes on these topics and mathematics in my public GitHub repository "Lazar".
+
+I also study Kaggle machine learning notebooks and approximation algorithms competitions online, such as the AtCoder heuristic series. Most of my research readings have been in algorithms and discrete mathematics, a mixture of historical archives and modern combinatorics. I also have thought about many state of the art papers in machine learning. I am hoping to soon publish interesting results. I would like to study statistics for my thesis, as this is valuable for traders in the labour market.
+
+Recently, I have been lightly skimming through the archives of Statistics theses from the Massachusetts Institute Of Technology, Harvard, Pennsylvania, Yale, Stanford, etc. These have been interesting. I would most likely enjoy studying financial data sets, as this is most pertinent to trading.
+
+In terms of my solo research, I have primarily been working on various problems relating to Separating Hyperplane selection under various criteria, desiderata, and levels of uncertainty. I was not on track to publish results, so I posted that work under "Separating Hyperplanes - Master Thesis Draft.tex" in my Paper Drafts folder on December 1st, 2024. I contemplated multiple cited papers and textbooks' chapters and returned every day with new ideas and comments for potential future directions. This was fun. I also have been working on mid-latency trading studies. And I won Top 9% in the Bridgewater Metaculus Trading Competition.
+
+Your school's faculty, research, and resources would contribute to my future goals. More education in quantitative finance will be useful. As will having a strong adviser guide me in my readings and research. The community also ought to provide stimulating conversation.
+
+	Post Script - Email Sent To Tens Of Massachusetts Institute Of Technology And Harvard Professors:
+
+	Summer 2024 Internship?
+
+Would you like my unpaid help this summer?
+
+	Unpaid Internship At University Of Illinois Urbana-Champaign Computer Science?
+
+Hi. I am in the Master Of Computer Science program and was reviewing Dr. Erickson's Quora posts... realizing that research experience is important if I want to try and apply for a Doctor Of Philosophy following the Master Of Computer Science. Do you know if anyone would like to support me as an unpaid labourer with their laboratory? I applied through the Computer Science Job Portal as well as the Carle Illinois College Of Medicine Projects Available For Student Participation. I am somewhat interested in Hepatology.
+
+	Post Post Script
+
+	Draft To Medical School During Doctor Of Philosophy Of Statistics
+
+Hi, I am currently a Doctor Of Philosophy Of Statistics student with a 526 on the MCAT Medical College Admission Test. I was wondering if I could cross-enroll with the medical school in order to sit the USMLE United States Medical Licensing Examination and potentially pursue a career in family medicine.
+
+[After MCAT Medical College Admission Test, Directly Apply To Medical Schools Which Do Not Require Biology Courses In Written Prerequisites - Indicate An Interest In Family Medicine, Radiology, And Biological Statistics]
+[When Matching For Radiology|Family Medicine|Laboratories Can Look At Hospitals With Fragrance-Free Policy Which Itself Comes In To The Implementation Of Said Policies]
