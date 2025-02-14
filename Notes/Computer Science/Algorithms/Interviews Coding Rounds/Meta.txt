@@ -1,0 +1,460 @@
+Ensure to read GlassDoor and tens of other reviews. Be nice, friendly, pleasant, honest.
+
+----------
+
+Example coding questions asked by Meta:
+
+1. Arrays|Strings [38% Of Questions, Most Frequent]
+
+	Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+
+Depending on the limits, consider using Python or PARI|GP for larger products. Loop through 1 time to produce the product and then 1 more time storing product/nums[i] for each value in nums.
+
+	Given a non-empty string s, you may delete at most one character. Judge whether you can make it a palindrome.
+
+A simple solution is to read from left to right and right to left with 2 pointers until completion or encountering a difference between the 2 dudes. If there exists a difference, we may then try a similar form of 2 pointers verification on both possible substrings [l+1,r] and [l,r-1] using the similar 2 pointers approach.
+
+	Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+
+Find longest non increasing suffix and then consider the dude before that suffix. We need to then go back and compute the rightmost dude greater than this dude in that suffix. And swap. Then reverse the suffix. So also note the case where it was already non increasing in its entirety at which point we probably want to return a special statement for this final permutation or loop back around to the initial opposite ordering... for example [1,5,3,5,5,4,4,3,3,1] we look at the leftmost 3 and swap it with the rightmost 4 to get [1,5,4,5,5,4,3,3,3,1] and swap in to [1,5,4,1,3,3,3,4,5,5].
+
+	Given a string S and a string T, find the minimum window in S which will contain all the characters in T.
+
+https://codeforces.com/contest/1898/problem/E
+https://codeforces.com/contest/1898/submission/233444546
+
+Interesting task. It is relatively simple to compute the minimal substrings which contain all of the characters in T. That is to say, substrings such that removing either end 1 character leads to a substring which does not contain all of the characters in T. So we compute the frequency count vector for characters in T and in particular only pay attention to the characters which do appear in T. Then we may loop through S and store a vector of vectors of indices in which those characters appear. And then loop through storing the maximum index being used, in this case in our 1st such substring. And we may insert for example in to a priority_queue of pairs of <int,int> like uh the {index,character} so then the way we process through could be in a while loop we pop out the smallest minimum value in our priority queue and then we basically shift up that subsegment of what we are looking at is like the union of a bunch of separate subsegments for each character but we modify the maximum value as needed when we bump shift this value up 1 and shift over to the right and then the top() of the priority queue actually or front() or whatever indicates the new left index and maximum the right and so we can check answer comparison each time and also exit the while loop as needed if this was the last time that character did appear in the original string.
+
+	Given an array of strings strs, group the anagrams together.
+
+The usual conversion of each string in to a vector of frequencies for each character and then like a hash from vector to vector of strings works.
+
+	Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+Usual like Dyck Path style algorithm works just a vector of integers representing the surplus and basically if we went on a -- check now if negative and also include a checker at the end of course if and only if it ends at all 0s to be valid.
+
+	Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+
+See Interviews.pdf and Interviews.tex in my GitHub. One would think that a hash map from values to indices works well with a O[n^2] loop through pairs to produce every single ordered triplet of indices checking if -[a+b] exists to find indices which work for c.
+
+2. Graphs|Trees [29%]
+
+	Given the root node of a binary search tree, return the sum of values of all nodes with value between L and R [inclusive].
+
+One would think we could basically just Breadth First Search through the tree with the relevant memory pointers and pruning along as needed basically not even going to and processing through any node which was out of range else processing it as usual.
+
+	Given a Binary Tree, convert it to a Circular Doubly Linked List [In-Place].
+
+"
+Convert a Binary Tree to a Circular Doubly Link List using Recursion:
+The idea is to make a general-purpose function that concatenates two given circular doubly lists
+
+Follow the steps below to solve the problem:
+
+Recursively convert the left subtree to a circular DLL. Let the converted list be leftList.
+Recursively convert the right subtree to a circular DLL. Let the converted list be rightList. 
+Make a circular linked list of roots of the tree, and make the left and right root points to themselves. 
+Concatenate leftList with the list of the single root node. 
+Concatenate the list produced in the step above with rightList.
+Note: The above approach traverses the tree in a Postorder fashion. We can traverse in an inorder fashion also. We can first concatenate left subtree and root, then recur for the right subtree and concatenate the result with left-root concatenation.
+
+How do Concatenate two circular DLLs? 
+
+Get the last node of the left list. Retrieving the last node is an O(1) operation since the prev pointer of the head points to the last node of the list.
+Connect it with the first node of the right list
+Get the last node of the second list
+Connect it with the head of the list.
+Below are implementations of the above idea:
+
+...
+
+Convert a Binary Tree to a Circular Doubly Link List by Inorder Traversal:
+The idea is to do in-order traversal of the binary tree. While doing inorder traversal, keep track of the previously visited node in a variable, say prev. For every visited node, make it the next of the prev and set previous of this node as prev.
+
+Follow the steps below to solve the problem:
+
+First convert the binary tree into doubly linked list refer to this post Convert a given Binary Tree to Doubly Linked List.
+Now convert this Doubly Linked List to circular Doubly linked list by connecting first and last node.
+Below is the implementation of the above approach.
+"
+
+	Implement an iterator over a binary search tree [BST]. Your iterator will be initialized with the root node of a BST.
+
+Similar to previous one, one might think. Google.
+
+"
+Implementing Forward Iterator in BST
+Read
+Discuss
+Courses
+Practice
+Given a Binary search tree, the task is to implement forward iterator on it with the following functions. 
+
+curr(): returns the pointer to current element.
+next(): iterates to the next smallest element in the Binary Search Tree.
+isEnd(): returns true if there no node left to traverse else false.
+Iterator traverses the BST in sorted order(increasing). We will implement the iterator using a stack data structure.
+Initialisation: 
+
+We will create a stack named “q” to store the nodes of BST.
+Create a variable “curr” and initialise it with pointer to root.
+While “curr” is not NULL 
+Push “curr” in the stack ‘q’.
+Set curr = curr -> left
+curr() 
+
+Returns the value at the top of the stack ‘q’. 
+Note: It might throw segmentation fault if the stack is empty. 
+ 
+
+Time Complexity: O(1)
+
+next() 
+
+Declare pointer variable “curr” which points to node.
+Set curr = q.top()->right.
+Pop top most element of stack.
+While “curr” is not NULL 
+Push “curr” in the stack ‘q’.
+Set curr = curr -> left.
+Time Complexity: O(1) on average of all calls. Can be O(h) for a single call in the worst case.
+
+isEnd() 
+
+Returns true if stack “q” is empty else return false. 
+ 
+
+Time Complexity: O(1) 
+Worst Case space complexity for this implementation of iterators is O(h). It should be noticed that 
+iterator points to the top-most element of the stack.
+
+Below is the implementation of the above approach:
+"
+
+	Given a binary tree, you need to compute the length of the diameter of the tree.
+
+Canonical. Select any vertex and do a Breadth First Search. Choose any of the extremal maximum distance vertices and do a Breadth First Search from it which will reveal the answer in its maximal distance.
+
+	Serialize and deserialize a binary tree.
+
+"
+Serialize and Deserialize a Binary Tree
+Read
+Discuss(100+)
+Courses
+Practice
+Serialization is to store the tree in a file so that it can be later restored. The structure of the tree must be maintained. Deserialization is reading the tree back from a file.
+
+serialize-sdeserialize-binary-tree
+
+Recommended Problem
+Serialize and Deserialize a Binary Tree
+Tree
+Data Structures
+Paytm
+Flipkart
++9 more
+Solve Problem
+Submission count: 53.2K
+Following are some simpler versions of the problem:
+
+If given Tree is a Binary Search Tree?
+If the given Binary Tree is Binary Search Tree, we can store it by either storing preorder or postorder traversal. In case of Binary Search Trees, only preorder or postorder traversal is sufficient to store structure information. 
+
+If given Binary Tree is Complete Tree?
+A Binary Tree is complete if all levels are completely filled except possibly the last level and all nodes of last level are as left as possible (Binary Heaps are complete Binary Tree). For a complete Binary Tree, level order traversal is sufficient to store the tree. We know that the first node is root, next two nodes are nodes of next level, next four nodes are nodes of 2nd level and so on. 
+
+If given Binary Tree is Full Tree?
+A full Binary is a Binary Tree where every node has either 0 or 2 children. It is easy to serialize such trees as every internal node has 2 children. We can simply store preorder traversal and store a bit with every node to indicate whether the node is an internal node or a leaf node.
+
+How to store a general Binary Tree?
+A simple solution is to store both Inorder and Preorder traversals. 
+
+This solution requires space twice the size of the Binary Tree. We can save space by storing Preorder traversal and a marker for NULL pointers. 
+
+Store all possible child nodes for each node.
+If there is no child node then push -1 for that child.
+Put this preorder traversal in the file.
+Examples:
+"
+
+	Given a binary tree, find the maximum path sum.
+
+"
+Maximum Path Sum in a Binary Tree
+Read
+Discuss(150)
+Courses
+Practice
+Given a binary tree, find the maximum path sum. The path may start and end at any node in the tree.
+
+Example: 
+
+Input: Root of below tree
+
+       1
+      / \
+    2   3
+
+Output: 6
+
+Input: 
+
+
+Binary tree
+
+Output: 42
+Explanation: Max path sum is represented using green color nodes in the above binary tree
+
+Recommended Problem
+Maximum path sum from any node
+Tree
+Data Structures
+Flipkart
+Google
++1 more
+Solve Problem
+Submission count: 60.2K
+Approach: To solve the problem follow the below idea:
+
+For each node there can be four ways that the max path goes through the node: 
+
+Node only 
+Max path through Left Child + Node 
+Max path through Right Child + Node 
+Max path through Left Child + Node + Max path through Right Child
+The idea is to keep track of four paths and pick up the max one in the end. An important thing to note is, that the root of every subtree needs to return the maximum path sum such that at most one child of the root is involved. This is needed for the parent function call. In the below code, this sum is stored in ‘max_single’ and returned by the recursive function.
+
+Follow the given steps to solve the problem:
+
+If the root is NULL, return 0(Base Case)
+Call the recursive function to find the max sum for the left and the right subtree
+In a variable store the maximum of (root->data, maximum of (leftSum, rightSum) + root->data)
+In another variable store the maximum of previous step and root->data + leftSum + rightSum
+Return the maximum of the previous step
+Below is the implementation of the above approach:
+"
+
+	Given a sorted dictionary [array of words] of an alien language, find order of characters in the language.
+
+Process through comparing each string with the next string and deducing an ordering amongst the 2 relevant characters where the first deviation occurs in the prefix then we will produce a Directed Acyclic Graph which generates all of the possible orderings of the alphabet. Perhaps this could be sharpened up somehow... not too sure... run an occasional checker so that if we have deduced the unique possible ordering after say 1000000 entries we do not process through 1000000000 or whatever would be terribly wasteful. And we could just check every power of 2 as usual to incur a very low cost of a small logarithmic addition as well as a at most 2x multiplier or do some other exponential and so on and so on.
+
+	Check whether a given graph is Bipartite or not.
+
+Breadth First Search and always checking modulo 2 colour consistency in the backedges works fine here I would think canonically. Google.
+
+3. Dynamic Programming [18%]
+
+	Given a list of non-negative numbers and a target integer k, write a function to check if the array has a continuous subarray of size at least 2 that sums up to the multiple of k, that is, sums up to n*k where n is also an integer.
+
+Isomorphic with checking basically uh can do a hash map from int or long long to int and then store each prefix sum modulo k store the minimum leftmost index inducsing that sum in the map and then when we hit the first such dude it will happen when our current index is >= 2 away from that other dude ensured logically is tight one would think even for very large moduli k.
+
+	Say you have an array for which the ith element is the price of a given stock on day i. If you were only permitted to complete at most one transaction [i.e., buy one and sell one share of the stock], design an algorithm to find the maximum profit.
+
+Store the minimum thus far as we go through and check each time the delta between current and minimum thus far storing the maximum thus far as well in an auxiliary variable per usual.
+
+	Given an input string [s] and a pattern [p], implement regular expression matching with support for '.' and '*'.
+
+Seems trivial and Googleable.
+
+	You are given a list of non-negative integers, a1, a2, ..., an, and a target, S. Now you have 2 symbols + and -. For each integer, you should choose one from + and - as its new symbol. Find out how many ways to assign symbols to make sum of integers equal to target S.
+
+Binary Fast Fourier Transformation might work here as well as the usual ~O[n^2] Dynamic Program perhaps.
+
+https://atcoder.jp/contests/abc326/editorial/7543
+
+4. Search|Sort [9%]
+
+	We have a list of points on the plane.  Find the K closest points to the origin [0, 0].
+
+The usual priority queue of <double, pair<double, double>> should work storing the K minimum distances such that it is a maximum priority queue for comparing the largest of the K minimum distances thus far for insertion with the .second representing the actual coordinates of the point in the underlying.
+
+	Given two arrays, write a function to compute their intersection.
+
+Can go through the first creating a hash set and then the second so any time a dude in the second appeared in the first hash set insert it in to the second hash set which is the answer to output at the end.
+
+	Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...] find the minimum number of conference rooms required.
+
+I think this is canonical that if we were to simply go through and always assign the lowest numbered empty room to the next conference it would become clear that the answer is the maximum number of simultaneous meetings at which point we may simulate by sorting on start times and running with like an auxiliary minimum priority queue of relevant ending times as we loop through to relevantly trigger removal or rather -- of the current live rooms indicator variable.
+
+5. Linked lists [4%]
+
+	A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null. Return a deep copy of the list.
+
+"
+How to deep copy a linked list with a random pointer?
+Problem description
+Wangyy
+Wangyy
+
+·
+Follow
+
+3 min read
+·
+Dec 27, 2020
+50
+
+
+
+
+
+A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
+
+Return a deep copy of the list.
+
+The Linked List is represented in the input/output as a list of n nodes. Each node is represented as a pair of [val, random_index] where:
+
+val: an integer representing Node.val
+
+random_index: the index of the node (range from 0 to n-1) where random pointer points to, or null if it does not point to any node.
+
+Example:
+
+
+Input: head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
+Output: [[7,null],[13,0],[11,4],[10,2],[1,0]]
+You can solve this problem here: leetcode 138.
+
+Solution
+Different from the classic linked list, this abstract data structure has a random pointer points to a node in the list. When iterating the given linked list to create a deep copy, it’s necessary to link the random pointer as well. I’ll introduce two solutions here, one using an extra space, one using O(1) space.
+
+Deep copy the linked list using a dictionary
+
+In order to record the connection of the current node with its next and random node, we can use a dictionary to store the relationship. While iterating over the given linked list, we’ll record the {currentNode: nextNode} into the dictionary, then build the connection in our copied list.
+
+Code:
+
+class Node:
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+    def copyRandomList(self, head):
+        dic, prev, node = {}, None, head
+        while node:
+            if node not in dic:
+                dic[node] = Node(node.val, node.next, node.random)
+            if prev:
+                
+                prev.next = dic[node]
+            else:
+                head = dic[node]
+            if node.random:
+                if node.random not in dic:
+                    dic[node.random] = Node(node.random.val, node.random.next, node.random.random)
+                #connect the random node
+                dic[node].random = dic[node.random]
+            prev, node = dic[node], node.next
+        return head
+This solution will take O(n) running time because it iterates the original linked list once. Since it uses a dictionary with size n to record the relationship, it takes O(n) space.
+
+Deep copy the linked list with O(1) space
+
+What if we are given a linked list with an infinite size n? Having extra space is not ideal. How to solve it without extra space? We can first copy each node and attached it to the current node as the next, then gradually copy the random node using node.next.random = node.random.next. The following picture will explain:
+
+
+Code:
+
+class Node:
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        if not head:
+            return None
+        
+        curr = head
+       #copying the next node and link it to the current node
+        while curr:
+            new_curr = Node(curr.val)
+            next_node = curr.next
+            curr.next = new_curr
+            new_curr.next = next_node
+            curr = next_node
+        
+        curr = head
+       #copying the random node 
+        while curr:
+            if not curr.random:
+                curr.next.random = None
+            else:
+                curr.next.random = curr.random.next
+            
+            curr = curr.next.next
+        curr = head.next
+       #break the connection, only left the copy list
+        while curr.next:
+            next_node = curr.next.next
+            curr.next = next_node
+            curr = next_node
+        
+        return head.next
+This solution takes O(1) space because it modifies the original list. In terms of the running time, it loops the list 3 times which is 3n, approximately O(n).
+
+Hope you understand how it works to deep copy a list! Which solution do you prefer?
+"
+
+	Given a singly linked list L: L0?L1?…?Ln-1?Ln, reorder it to: L0?Ln?L1?Ln-1?L2?Ln-2?...
+
+"
+Find the middle by moving fast & slow iterators.
+Remember right part beginning and cut off left part from the right.
+Reverse right list, remember it new beginning.
+Iterate left part from beginning and right part merging right list nodes into left list.
+"
+
+"
+I used deque to solve this question. I have copied the complete list into deque and iterated it from the front and back succesivley.
+"
+
+"
+Rearrange a given linked list in-place.
+Read
+Discuss(100+)
+Courses
+Practice
+Given a singly linked list L0 -> L1 -> … -> Ln-1 -> Ln. Rearrange the nodes in the list so that the new formed list is : L0 -> Ln -> L1 -> Ln-1 -> L2 -> Ln-2 … You are required to do this in place without altering the nodes’ values. 
+
+Examples: 
+
+Input:  1 -> 2 -> 3 -> 4
+Output: 1 -> 4 -> 2 -> 3
+
+Input:  1 -> 2 -> 3 -> 4 -> 5
+Output: 1 -> 5 -> 2 -> 4 -> 3
+Simple Solution
+
+1) Initialize current node as head.
+2) While next of current node is not null, do following
+    a) Find the last node, remove it from the end and insert it as next
+       of the current node.
+    b) Move current to next of current
+The time complexity of the above simple solution is O(n2) where n is the number of nodes in the linked list.
+
+ 
+Better Solution: 
+
+Copy contents of the given linked list to a vector. 
+Rearrange the given vector by swapping nodes from both ends. 
+Copy the modified vector back to the linked list. 
+Implementation of this approach: https://ide.geeksforgeeks.org/1eGSEy 
+
+Efficient Solution:
+
+1) Find the middle point using tortoise and hare method.
+2) Split the linked list into two halves using found middle point in step 1.
+3) Reverse the second half.
+4) Do alternate merge of first and second halves.
+Below is the implementation of this method.
+"
+
+6. Stacks|Queues [2%]
+
+	Implement a "queue" using stacks.
+
+I think the optimal way to do so would be to minimise total time and also up front time by making the push operation always be O[1] and simply pushing on to stack1. Then, whenever we need to pop we simply pop from stack2, or if it is empty, we push all of the dudes from stack1 on to stack2 now in the proper reverse [First In First Out] order and then pop from stack2.
+
+----------
+

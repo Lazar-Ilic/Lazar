@@ -1,0 +1,19 @@
+https://www.metaculus.com/notebooks/8506/new-metaculus-tournament-scoring-system-pt-1/
+https://www.metaculus.com/help/scores-faq/#relative-score
+https://www.metaculus.com/help/scores-faq/
+
+----------
+
+So it is an interesting question with coverage out of the way basically when does one go about copying the median submission and when does one go about chiming in during the hidden period... when one feels one might have a real edge on the competition in the domain. In particular, I might be wary of betting on mainstream financial markets given that the open round might have some people who know things I do not know like even semi inside knowledge from trading firms on some of those econometrics.
+
+----------
+
+Upon further review... I think that there might be unusual submissions at both extremes leading the median to having a very nontrivial positive expected value and so basically median tracking and maybe even chiming in with fairly reasoned vague submissions during the hidden period might be wise... especially worth monitouring performance on hidden periods and considering starting out with a strategy including lots of median tracking or slightly deviating off of the median basically still want to bet true beliefs sometimes and probably also think about never placing a credence outside of [0.02,0.98] due to some really bad worst case risk scenarios moving final ranking from in the money to out of the money or whatever. Really want to be thinking about not going like say we probably usually want to be stating a credence which is in the range [m/5,1-[1-m]/5] or something ugh uh... like dunno how often it is the case the market pins something at 0.5 and we can truly have an updated credence there of like 0.9 or 0.1 or whatever just feels eh one ought to update on the market and really think if one has some strong statistical source of an edge or insight in to the nature of the comments and true underlying there like... think last year's Hollywood markets would require further analysis of history and volatility like e.g. variance to be expected from events like that one or whatever.
+
+----------
+
+Update 2025-02-02 might be sharper to programme or semi-automate a mixture here so instead of naively tracking the median I could potentially script up an algo to either consider sort of reverting towards the mean or uh uh uh actually overly compensating and majorly updating on early big shift trend analysis lag time on all sorts of other underlying median tracking or uh uh uh could just do naive median tracking but would think maybe spotting trends is OK if there is other median tracking in the mixture and so big updates on trends could be OK maybe automated but but but with a stop so never deviate outside of that [0.02,0.98] interval for the round. But could run numbers and see historically if actually median tracking with additional boosted updates performs better. Like say something like hold a slightly extremal position on the median so a little towards extreme until flattening out towards it if historical simulations show that to be an OK strategy.
+
+----------
+
+Update 2025-02-05 I will probably keep most notes and codes private until the end of the competition but I think reading all of the comments twice daily and updating is wise.
