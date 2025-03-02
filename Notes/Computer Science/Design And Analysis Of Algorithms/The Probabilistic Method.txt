@@ -1,0 +1,633 @@
+Contents
+
+
+
+Dedication v
+
+
+
+Preface vii
+
+
+
+Acknowledgments ix
+
+
+
+Part I METHODS
+
+
+
+1 The Basic Method 1
+
+
+
+1.1 The Probabilistic Method 1
+
+
+
+1.2 Graph Theory 3
+
+
+
+1.3 Combinatorics 6
+
+
+
+1.4 Combinatorial Number Theory 8
+
+
+
+1.5 Disjoint Pairs 9
+
+
+
+1.6 Exercises 10
+
+
+
+The Probabilistic Lens: The Erdos-Ko-Rado Theorem 12
+
+
+
+2 Linearity of Expectation 13
+
+
+
+2.1 Basics 13
+
+
+
+xi
+
+
+
+xii CONTENTS
+
+
+
+2.2 Splitting Graphs 14
+
+
+
+2.3 Two Quickies 16
+
+
+
+2.4 Balancing Vectors 17
+
+
+
+2.5 Unbalancing Lights 18
+
+
+
+2.6 Without Coin Flips 20
+
+
+
+2.7 Exercises 20
+
+
+
+The Probabilistic Lens: Bregman 's Theorem 22
+
+
+
+3 Alterations 25
+
+
+
+3.1 Ramsey Numbers 25
+
+
+
+3.2 Independent Sets 27
+
+
+
+3.3 Combinatorial Geometry 28
+
+
+
+3.4 Packing 29
+
+
+
+3.5 Recoloring 30
+
+
+
+3.6 Continuous Time 33
+
+
+
+3.7 Exercises 37
+
+
+
+The Probabilistic Lens: High Girth and High
+
+
+
+Chromatic Number 38
+
+
+
+4 The Second Moment 41
+
+
+
+4.1 Basics 41
+
+
+
+4.2 Number Theory 42
+
+
+
+4.3 More Basics 45
+
+
+
+4.4 Random Graphs 47
+
+
+
+4.5 Clique Number 50
+
+
+
+4.6 Distinct Sums 52
+
+
+
+4.7 The Rodl Nibble 53
+
+
+
+4.8 Exercises 58
+
+
+
+The Probabilistic Lens: Hamiltonian Paths 60
+
+
+
+5 The Local Lemma 63
+
+
+
+5.1 The Lemma 63
+
+
+
+5.2 Property B and Multicolored Sets of Real Numbers 65
+
+
+
+5.3 Lower Bounds for Ramsey Numbers 67
+
+
+
+5.4 A Geometric Result 68
+
+
+
+5.5 The Linear Arboricity of Graphs 69
+
+
+
+CONTENTS xiii
+
+
+
+5.6 Latin Transversals 73
+
+
+
+5.7 The Algorithmic Aspect 74
+
+
+
+5.8 Exercises 77
+
+
+
+The Probabilistic Lens: Directed Cycles 78
+
+
+
+6 Correlation Inequalities 81
+
+
+
+6.1 The Four Functions Theorem of Ahlswede
+
+
+
+and Daykin 82
+
+
+
+6.2 The FKG Inequality 84
+
+
+
+6.3 Monotone Properties 86
+
+
+
+6.4 Linear Extensions of Partially Ordered Sets 88
+
+
+
+6.5 Exercises 90
+
+
+
+The Probabilistic Lens: Turdn 's Theorem 91
+
+
+
+7 Martingales and Tight Concentration 93
+
+
+
+7.1 Definitions 93
+
+
+
+7.2 Large Deviations 95
+
+
+
+7.3 Chromatic Number 96
+
+
+
+7.4 Two General Settings 99
+
+
+
+7.5 Four Illustrations 103
+
+
+
+7.6 Talagrand's Inequality 105
+
+
+
+7.7 Applications of Talagrand's Inequality 108
+
+
+
+7.8 Kim-Vu Polynomial Concentration 110
+
+
+
+7.9 Exercises 112
+
+
+
+The Probabilistic Lens: Weierstrass Approximation
+
+
+
+Theorem 113
+
+
+
+8 The Poisson Paradigm 115
+
+
+
+8.1 The Janson Inequalities 115
+
+
+
+8.2 The Proofs 117
+
+
+
+8.3 Brun's Sieve 119
+
+
+
+8.4 Large Deviations 122
+
+
+
+8.5 Counting Extensions 123
+
+
+
+8.6 Counting Representations 125
+
+
+
+8.7 Further Inequalities 128
+
+
+
+8.8 Exercises 129
+
+
+
+xiv CONTENTS
+
+
+
+The Probabilistic Lens: Local Coloring 130
+
+
+
+9 Pseudorandomness 133
+
+
+
+9.1 The Quadratic Residue Tournaments 134
+
+
+
+9.2 Eigenvalues and Expanders 137
+
+
+
+9.3 Quasi Random Graphs 142
+
+
+
+9.4 Exercises 148
+
+
+
+The Probabilistic Lens: Random Walks 150
+
+
+
+Part II TOPICS
+
+
+
+10 Random Graphs 155
+
+
+
+10.1 Subgraphs 156
+
+
+
+10.2 Clique Number 158
+
+
+
+10.3 Chromatic Number 160
+
+
+
+10.4 Branching Processes 161
+
+
+
+10.5 The Giant Component 165
+
+
+
+10.6 Inside the Phase Transition 168
+
+
+
+10.7 Zero-One Laws 171
+
+
+
+10.8 Exercises 178
+
+
+
+The Probabilistic Lens: Counting Subgraphs 180
+
+
+
+11 Circuit Complexity 183
+
+
+
+11.1 Preliminaries 183
+
+
+
+11.2 Random Restrictions and Bounded-Depth Circuits 185
+
+
+
+11.3 More on Bounded-Depth Circuits 189
+
+
+
+11.4 Monotone Circuits 191
+
+
+
+11.5 Formulae 194
+
+
+
+11.6 Exercises 196
+
+
+
+The Probabilistic Lens: Maximal Antichains 197
+
+
+
+12 Discrepancy 199
+
+
+
+12.1 Basics 199
+
+
+
+12.2 Six Standard Deviations Suffice 201
+
+
+
+CONTENTS XV
+
+
+
+12.3 Linear and Hereditary Discrepancy 204
+
+
+
+12.4 Lower Bounds 207
+
+
+
+12.5 The Beck-Fiala Theorem 209
+
+
+
+12.6 Exercises 210
+
+
+
+The Probabilistic Lens: Unbalancing Lights 212
+
+
+
+13 Geometry 215
+
+
+
+13.1 The Greatest Angle among Points
+
+
+
+in Euclidean Spaces 216
+
+
+
+13.2 Empty Triangles Determined by Points in the Plane 217
+
+
+
+13.3 Geometrical Realizations of Sign Matrices 218
+
+
+
+13.4 e-Nets and VC-Dimensions of Range Spaces 220
+
+
+
+13.5 Dual Shatter Functions and Discrepancy 225
+
+
+
+13.6 Exercises 228
+
+
+
+The Probabilistic Lens: Efficient Packing 229
+
+
+
+14 Codes, Games and Entropy 231
+
+
+
+14.1 Codes 231
+
+
+
+14.2 Liar Game 233
+
+
+
+14.3 Tenure Game 236
+
+
+
+14.4 Balancing Vector Game 237
+
+
+
+14.5 Nonadaptive Algorithms 239
+
+
+
+14.6 Entropy 240
+
+
+
+14.7 Exercises 245
+
+
+
+The Probabilistic Lens: An Extremal Graph 247
+
+
+
+15 Derandomization 249
+
+
+
+15.1 The Method of Conditional Probabilities 249
+
+
+
+15.2 d-Wise Independent Random Variables in Small
+
+
+
+Sample Spaces 253
+
+
+
+15.3 Exercises 25 7
+
+
+
+The Probabilistic Lens: Crossing Numbers, Incidences, Sums
+
+
+
+and Products 259
+
+
+
+Appendix A: Bounding of Large Deviations 263
+
+
+
+XVI CONTENTS
+
+
+
+A.I Bounding of Large Deviations 263
+
+
+
+A.2 Exercises 271
+
+
+
+The Probabilistic Lens: Triangle-free Graphs Have
+
+
+
+Large Independence Numbers 272
+
+
+
+Appendix B: Paul Erdos 275
+
+
+
+B.1 Papers 275
+
+
+
+B.2 Conjectures 277
+
+
+
+B.3 On Erdos 278
+
+
+
+B.4 Uncle Paul 279
+
+
+
+References 283
+
+
+
+Subject Index 295
+
+
+
+Author Index 299
