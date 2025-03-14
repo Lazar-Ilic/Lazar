@@ -1,0 +1,657 @@
+Copy and paste and download the entirety of the Achievable course in violation of their clearly written policy. Thus one can review it later after the official 12 month viewing period expires. It has very solid performance metrics and thousands of tasks along with a half decent en pointe focused topical textbook on the relevant Economics 101 basics. Do quizzes until repeated perfection whilst reading and repeat throughout the preparation study process algorithm. Also do nightly complete review quizzes of length 500 questions reading fully through all explanations. Certainly note trends in their questions e.g. blah X with answer choices X-A, X-B, X, X+C will most likely be X+C or X if not a memorised formula application. Odd One Out. Could scrape but maybe they would detect and ban which would be unfortunate for Series 57 or whatever corequisite. On testing day, review through multiple times thinking of formal definitions and regulations and spot and use internal consistency checkpoints. Also pay close attention to technical words like "noncumulative". Review Kaplan in the days immediately prior. One can consider clearing the Series 7 and Series 57 via the cheapest shop like T3 especially if one is up > $100000 on Kalshi to demonstrate profitability there.
+
+Options Straddles
+Established with either the purchase of both a call and a put OR the sale of both a call and a put.
+
+Investment Banking Department
+The area that works directly with the issuers to arrange and structure the needed financing. Also referred to as the underwriters of securities.
+
+Research Department
+Area where analysts study both the markets and securities in order to issue recommendations. The typical recommendations include buy, sell, or hold.
+
+Sales Department
+Historically referred to as stock or bond brokers. Financial professionals who work in the sales area typically market products to both retail investors and institutions.
+
+Trading Department
+Area where professionals handle the execution of trades for both the firm's clients and the
+firm's own proprietary account. These trades may occur in either electronic or hybrid marketplaces.
+
+Operations Department
+Area where professionals ensure that all of the paperwork, funds, and securities transfers that are associated with a trade [or processing] are handled efficiently and according to specific industry standards. Perform functions such as generating customer statements, confirmations, and tax records, as well as assisting in the transfer of securities and/or funds also responsible for ensuring that all firm and client assets are organized properly and safeguarded.
+
+State [Blue-Sky] Regulation
+Regulation: Issuers are normally required to register their securities prior to sale in a given state. These rules are established under the Uniform Securities Act [USA].
+
+The Securities Act of 1933
+This Act is concerned with providing investors full and fair disclosure so that they are able to make informed investment decisions. The Act also provides specific rules for the conduct of issuers and the investment bankers that are hired to advise the issuers on the sale and marketing of their securities.
+
+Primary Market Sell Stop Order
+An order that is always placed below the current market price of the security and is used to limit a loss or protect a profit on a long stock position. Does not give a broker discretion when the order is activated. When activated, the order becomes a market order and should be executed immediately.
+
+Buy Stop Order
+An order that is always placed above the current market price of the security and is used to limit a loss or protect a profit on a short sale. Does not give a broker discretion when the order is activated. When activated, the order becomes a market order and should be executed immediately.
+
+The Securities Exchange Act of 1934
+Established the rules for secondary market activities - the New York Stock Exchange [NYSE] and Nasdaq.
+
+The Order Entry to Settlement
+1. Order Entry—The placing of a trade into the system either electronically or using a paper ticket
+2. Execution—The occurrence of the trade in the marketplace, such as the NYSE or Nasdaq
+3. Clearing—The agreement by executing firms as to the details of a trade
+4. Settlement—The exchange of securities for funds that completes the transaction between firms
+5. Custody and Safekeeping—The safeguarding of client and firm assets after settlement
+settlement date. This date represents the date on which a selling broker must deliver securities to the buying broker in return for payment.
+
+Payment Date
+This date represents the date on which a customer must pay for his portion of a trade that's executed in either a cash or margin account. Reg. T provides investors with a maximum payment extension of two business days after a regular-way settlement [S + 2]. In other words, customers must pay by no later than four business days after the trade [T + 4]
+
+Priority of Orders
+1. Market orders have first priority.
+2. Limit orders are ranked by price.
+3. Limit orders that are placed at the same price are ranked by time of entry.
+
+Day Order
+A trading order that expires at the end of the trading day during which it was made from 9:30 a.m. to 4:00 p.m. Eastern Time [ET].
+
+Extended-Hours Exposure
+This qualification notifies the firm that the client wants his order exposed to pre-market and/or after-market trading sessions Disclosure of risks to customers is required prior to any extended hours trades
+- Lower liquidity
+- Higher volatility
+- Changing prices from the market close of the normal trading session
+- Unlinked markets
+- News announcements
+- Wider spreads
+
+Pre-Market | Post-Market
+A market maker can voluntarily open its quotes to participate in these market trading sessions.
+
+At-the-Open Order
+This kind of order is an order to buy or sell at the opening price. If the order is not executed at the opening, it's cancelled.
+
+Market-on-Close [MOC] Order
+An order to buy or sell at or near the closing price.
+
+Limit-on-Close [LOC] Order
+An order to buy or sell at the close, but only if the closing price is equal to or better than the preset limit price.
+
+Not-Held [NH] Order
+Qualification gives the receiving firm discretion as to an order's time and/or price of execution. Since these orders are limited to the day on which the order is entered, it must be filled at some point before the end of the day or reentered by the client for the next day.
+
+Immediate-or-Cancel [IOC] Order
+Qualifier indicates that the client wants immediate execution on as much of the order as possible. Any portion of the order that's not immediately executed is cancelled.
+
+Do Not Reduce [DNR]
+All open orders are adjusted for stock splits and stock dividends unless the client specifically requests for the order to not be reduced. Remember, only orders that are entered below the market are adjusted for cash dividends.
+
+Flow Of Processing A Transaction
+1. Order Department [Wire Room] — This department transmits buy and sell orders by allocating them to a specific exchange or product area.
+2. Purchase and Sales Department — After an order is completed, the P&S department records the transaction and compares the trade details with the broker-dealer on the other side of the trade [the contra-broker] for the purpose of reconciling possible trade discrepancies.
+3. Margin Department — This department enforces customer account rules with regard to payment and delivery and maintains an account record for each customer and posts all trade activity.
+4. Cashiering Department — This is where funds and securities are received and disbursed.
+5. Reorganization Department — This department handles all post-settlement issues, such as cash and stock dividend payments, stock splits, and tenders.
+
+Consolidated Quotation System [CQS]
+An electronic service that provides quotations on issues listed on the NY, American and other regional stock exchanges, that are traded by FINRA member firms in the third market collects and displays quotations for other exchange-listed securities that trade over-the-counter [OTC]. Transactions in CQS securities that take place over the phone or through private connectivity providers are reported to the TRF, and are are printed on the Consolidated Tape. Reduces this problem by collecting quotes for all of the markets in which a listed stock trades and displays them on one screen.
+
+Alternative Trading System [ATS]
+SEC-approved, non-exchange trading systems. Provides an alternative method to trading on an exchange and enhances the liquidity of securities in the marketplace. Requires registration of any system that matches buyers and sellers
+
+Riskless Principal Transaction
+Transaction that never exposes the broker-dealer to market risk when effecting transactions from its proprietary account. Is executed at the same price excluding commissions, markups, and markdowns
+
+Regulation FD
+Prohibits a public company from disclosing material, non-public information to any person or group unless it simultaneously makes the information public.
+
+Regulation S-K
+Outlines how non-financial information should be presented in SEC filing.
+
+Regulation S-X
+Outlines how financial information should be presented in SEC filings.
+
+Alternative Display Facility [ADF]
+A FINRA owned facility used for quoting and the reporting of transactions in Nasdaq-listed, and other exchange-listed securities [CQS securities]. Member firms must report to the ADF as soon as practicable but no later than 10 seconds after execution, last sale reports of transactions in ADF-eligible securities executed between 9:30 a.m. and 4:00 p.m. Eastern Time. The ADF reporting facility is open from 8:00 a.m. until 6:30 p.m.
+
+The National Best Bid or Offer [the NBBO or inside market]
+The best [highest] bid and the best [lowest] offer of all market-maker quotes at a particular moment in time.
+
+Stopped Orders
+A market order on the New York Stock Exchange [NYSE] that is stopped from being executed by the specialist because a better price may become available. This is done to guarantee a price for a public order. The designated market maker does not need permission of an exchange official to do so.
+
+Pink Sheets [Also Known As The OTC Pink Market]
+Quotation and trading forum that lists market makers and their bid and asked quotations for over-the-counter stocks, which are not listed on Nasdaq or the NYSE. These securities are also known as OTC equity or non-Nasdaq securities.
+
+Stop Order
+A type of order that becomes a market order when a round-lot trades at or through a particular price. Member firms are not required to accept these orders. If the triggering event is not a transaction, the firm is not permitted to label the order a ________ order.
+
+Interdealer Transactions
+Trades with other broker-dealers. Final pricing for retail customers will differ since the trade prices to these clients are generally adjusted due to markups or markdowns or additional charges [e.g., commissions]. Many institutional investors are able to trade at these prices as well unpriced indication of interest | subject quotes
+
+non-firm orders: a BW [bid wanted] or OW [offer wanted], is not considered firm.
+A priced quote for an OTC equity security given over the phone or on the OTCBB is considered firm.
+
+Over-The-Counter [OTC] Markets
+A market where transactions don't occur on an exchange. Most of these transactions are in unlisted securities.
+
+The Inside Market
+A composite quote of the best prices currently available. Highest bid or lowest asked quotes between dealers trading for their own inventories. Distinguished from the retail market, where quotes reflect the prices that customers pay to dealers.
+
+Taking A Position
+When a dealer accumulates inventory with the belief that the stock will appreciate.
+
+Flat Position
+An inventory as close to zero as possible. A market maker might attempt to continuously buy and sell a particular stock in a way that maintains a balance between stock coming in and stock going out.
+
+Nasdaq Capital Market Standards
+Require stocks to meet minimum requirements for financial strength, public float, market value, and number of shareholders. In addition, the stock must have a bid price of at least $4 per share to qualify for listing and must have at least three market makers. After listing, the issue must continue to meet standards that are slightly lower than the initial requirements, such as a continuing bid test requirement of at least $1 per share. An issue that fails to meet maintenance standards is subject to delisting.
+
+Nasdaq Global Market Standards
+Global Market issuers may qualify for initial listing on Nasdaq by meeting one of three alternative sets of standards. Typically more stringent quantitative criteria than those that apply to Capital Market securities.
+
+Nasdaq Global Select Standards
+Represent the top tier in the ranking of Nasdaq securities and therefore have the most stringent listing and maintenance requirements. The rule includes issuer income requirements, minimum market capitalization, and thresholds for the number of outstanding shares.
+
+Level 1 Service
+Provides subscribers with the inside market for each Nasdaq security, as well as last sale and running volume information, but doesn't list the specific quote of each market maker. Is used mainly by individual investors and their registered representatives.
+
+Level 2 Service
+Best bid and offer from each MM - all displayable quotes in the system. Considered the heart of the system and provides subscribers with the names and quotes of all registered market makers in each Nasdaq security. Displays the inside market for that security and other market data for each security, including the current total volume for the day, the last sale, the high and low price for the day, and the net change [the difference between the last transaction price and the previous day's closing price].
+
+Level 3 Service
+Available only to the market makers that are registered in a particular security. Market makers can update their quotations for their stocks, as well as make trade and volume reports to Nasdaq.
+
+TotalView
+A quotation display service that's available to professional and nonprofessional traders and shows the entire Nasdaq book for a particular security. Displays the quote size and price of a specific stock that's available from every market participant including Nasdaq market makers, the NYSE, NYSE American, and the regional exchanges. Also displays the depth [aggregate number of shares] of the market at each of the best five price levels, giving traders a greater perception of market liquidity. Also displays order imbalance information for the opening cross, closing cross, halt cross, and IPO cross.
+
+Market Participant Identifier [MPID]
+A four character alpha code assigned to a Market Maker in a specific security. Identifies a firm's bids and offers. MMs can have more than one. Firms can go 'anonymous" and NOT use their MPID. Can be used for stabilizing bids but not passive making.
+
+Primary Market Makers
+Firms that provide liquidity to the market, as measured by specific performance standards.
+
+Nasdaq Market Center Execution System
+An order display which allows for quoting, execution and reporting. Automatically routes the order to a dealer that's in the inside market. also automatically reports. Uses a price-time priority. Can do Market, Limit, and Short orders. MAX size of order is 999999.
+
+Market Access [SEC Rule 15c3-5]
+This rule is to prevent orders that are erroneous, violate regulatory requirements, or are outside the credit and capital thresholds of the customer. Apples to all trading venues - including alternative trading systems. Applies to equities, options, ETFs, and debt securities. Onus is on BD to establish and enforce risk controls and supervisory procedures if it provides market access.
+Applies to a BD that trades via direct market access or sponsored access
++ w/ direct: orders pass through the BDs system
++ w/ sponsored: order don't pass through the BDs system
+Some big firms have a relationship w/ high-frequency trading firms, and they share access
+
+Sponsored Access
+The customer uses its own system and orders don't pass through the broker-dealer's system.
+
+Direct Access
+The customer uses the infrastructure of the broker-dealer and orders pass through the broker-dealer's system
+
+SEC Rule 13h-1 — Large Trader Reporting
+Rule allows SEC to identify and obtain information on large traders, certain firms must file a form. These large traders must file Form 13H, obtain a unique identification number [referred to as an LTID], and provide this number to the broker-dealers through which they trade.
+
+Large Traders As Defined By SEC Rule 13h-1
+Large traders are defined as persons who exercise investment discretion in exchange-listed equities or options and whose trading activity is:
++ During the day, either two million shares or shares with a market value of $20 million or
++ During the month, either 20 million shares or shares with a market value of $200 million SEC Form 13H
+Must be filed by Large Traders. Must provide a unique ID # and must provide that to BD.
+Some of the information on this form includes:
++ The name and the officers of the business organization
++ Tax identification number
++ The business address of the large trader
++ The businesses in which it's engages
++ Other SEC or CFTC filings of the large trader
++ A list of the broker-dealers at which the large trader or its affiliates has an account
+
+Regulation National Market System [NMS]
+Facilitate trading among competing venues to provide customers with fair and liquid markets by requiring non-discriminatory access to quotations, automated execution of orders, and limit order protection on an interexchange basis
+
+SEC Rule 610 [Order Access Rule]
+Promote fair and equal access to quotations. The rule promotes access to protected quotations. The access fee is limited to $0.003 p/ share. MMs must reasonably avoid displaying quotes that lock or cross the market. A manual quote may be locked or crossed by an automated quote.
+
+SEC RULE 611 [ORDER PROTECTION RULE]
+Rule that prevents trade-throughs of protected quotations. A protected quotation is one that's immediately accessible through automatic execution. Manual quotes are not protected [not included] quotations and are not subject to the Order Protection Rule. A trade-through occurs when an order that crosses the market is executed at an lower price regardless of better-priced quotations that may be available at other market centers. Requires customer orders to be executed at the best price in the NMS unless there's an exemption. Exemptions from trade through violations include: ISO orders, stopped orders, benchmark orders, on-open and on-close orders, non-regular-way trades, orders to complete a riskless principal trade, flickering quotes, and system problems [the "Self-Help" Rule].
+
+Trade-Through
+A stock market order that is not executed at the best possible price according to quoted prices at other exchanges. Occurs when a market center accepts and executes an order at a price that's inferior to the contemporaneous inside market.
+
+Intermarket Sweep Orders [ISO]
+An exception to the trade-through rule for limit orders. Allow broker-dealers to execute trades at inferior prices in one market, while simultaneously directing orders for execution to away markets that are displaying protected quotations. Allow market participants to capture the size available at inferior prices [before the opportunity to get filled is missed and subsequent prices become even less favorable]
+
+NASDAQ Book Processing Order [Of Priority]
+1. Displayed Quotes
+2. Non-Displayed Quotes
+3. Discretionary Portion Of A Discretionary Order
+
+Discretionary Orders
+Has a displayed order price and a "secret" tolerance limit" where they are wiling to still but | sell.
+
+NASDAQ Hours
+04:00AM To 20:00|08:00PM
+
+Directed Orders
+Immediate-or-cancel [IOC] orders that are routed to an exchange without first checking the Nasdaq book. Any unexecuted portion of the order will be returned to the sender.
+
+Intermarket Sweep Orders
+Multiple limit orders that sweep the book of a specific market center without regard to better-priced quotations at other market centers. At the same time a market participant is sweeping the book of the stock's home market, the market participant is also executing directed ISOs against protected quotations at external markets, thereby fulfilling its best execution obligation under Regulation NMS.
+
+Market Maker Peg Orders
+A type of order that assists a market maker in meeting its quoting obligations. This order type is not static - it's automatically repriced due to changes in the market price of the security. Its functionality is generally designed to work on either a tick-by-tick basis when the market maker designates an offset or it may be based on a percentage of the NBBO when no offset is chosen by the market maker. A new timestamp is created with each repricing.
+
+Types Of Customer Pegged Orders
+Not displayed in the system:
+1. Primary Peg orders are pegged to the same side of the NBBO.
+2. Market Peg orders are pegged to the opposite side of the NBBO.
+3. Mid-Point Peg orders are pegged to the mid-point of the NBBO.
+
+Primary Pegged Order [Customer]
+When entered as an order to buy, it tracks the bid, but when it is entered as an order to sell, it tracks the offer.
+
+Market Pegged Order [Customer]
+When entered as an order to buy, it tracks the offer, but when entered as an order to sell, it tracks the bid.
+
+Mid Point Pegged Order [Customer]
+Orders are pegged to the midpoint of the NBBO
+
+Market Maker Quote Rules
+MMs must enter a price that does not exceed a designated percentage away from the National Best Bid or Offer [NBBO].
+The percentages are generally:
++ 8% if the stock is included in the S&P500 Index or Russell 1000 Index
++ 28% if the stock is an NMS stock, but not included in the indexes listed above, and has a price that's equal to or greater than $1
++ 30% if the stock is an NMS stock, but not include in the indexes listed above and has a price less than $1
+
+Reserve Quotes
+This feature allows a market participant to display a portion of its quote and hold the remainder in reserve which is unseen by other market participants. Both the displayed and the non-displayed size are available for execution
+
+Types of Lots
+In the Nasdaq Market Center, market participants may enter odd-lot, mixed-lot, and round-lot orders; however, quotation and order sizes are displayed in round lots. Odd-lot and mixed-lot orders are rounded down to and displayed at the nearest round-lot amount at the specified price level.
+
+Risk Management Alert
+Alert that warns a clearing firm that one of its executing brokers is neat or above its Duper Cap or has entered a Blockbuster Trade - subject to a 15 min hold.
+
+Order Validation
++ Is the trade ticket complete or is information missing?
++ Does the client own the security that he's attempting to sell?
++ Does the client have sufficient funds to cover a purchase?
++ Is the client approved for this trading activity [e.g., margin or options]?
++ If selling short, are the shares able to be borrowed?
++ Is the client subject to special restrictions [e.g., employee accounts]?
+
+Reasonable Diligence Definition
+FINRA actually identifies five factors that should be considered when determining whether the firm has used reasonable diligence to be sure it's found the best price:
+1. The character of the market for the security
+2. The size and type of transaction
+3. The number of markets checked
+4. The accessibility of the quotation
+5. The terms and conditions of the order as communicated to the firm
+
+OTC Bulletin Board
+A computer based quotation system for OTC equity securities.
+
+Third Market
+A market that makes to the over-the-counter trading of exchange-listed securities possible. FINRA members may not execute trades in this market transactions in a security that's the subject of an IPO until the security has opened for trading on the primary exchange that will be listing the security.
+
+The Fourth Market
+This market refers to direct institution-to-institution trading without the services of a broker dealer. Trading in this market includes different portfolio managers contacting one another by phone, most trades are internal crosses that are set up by money managers handling several institutional accounts. These trades are not subject to reporting requirements.
+
+Riskless Principal Transactions
+Transactions where a BD doesn't risk stock from their own inventory to market forces/risk. In these cases BDs s buys shares for its own account from another broker-dealer and then immediately fills its customer's order.
+
+ACT Clearing Broker Scan
+Permits clearing brokers/firms can allow or inhibit a trade [as a blockbuster or sizeable transaction]. Clearing firms often place limits on the total amount of trades or the size of any one trade that may be executed by brokers for which it clears [executing brokers].
+
+Reserve Orders
+Gives a market participant the ability to display a portion of an order's size and keep the remainder in reserve where it's not displayed. When the displayed portion of the order is executed and decremented below one normal unit of trading, the order is replenished from reserve to a minimum size of one round lot. The replenished order is timestamped at the time it's replenished, while the reserve portion of the order retains its original time stamp.
+
+Non-Displayed Orders
+Limit orders that are entered, but not displayed, in the system. Although not visible to other market participants, a non-displayed order is available for execution until filled or cancelled.
+
+Minimum Quantity Orders
+Orders that specify a minimum quantity to be executed or cancelled may be entered into the Nasdaq Market Center Execution System. The orders may only be entered with a time-in-force [TIF] designation of system hours immediate or cancel, or market hours immediate or cancel. These orders that have a market hours immediate-or-cancel order time in force received prior to the opening cross or after 4 p.m. will be rejected.
+
+Price To Comply Orders
+When these orders locks or crosses the quotation of an external market at the time of entry, the order will be adjusted by the Nasdaq Market Center Execution System and entered as a non-displayed limit order. Buy orders priced above the inside offer will be repriced to the lowest offer, while sell orders that are entered below the inside bid will be repriced to the highest bid. If the market moves through the price of the order after it's been accepted, the order will be cancelled. Prevent violations of Regulation NMS.
+
+Price To Comply Post Orders
+When these orders order locks or crosses the quotation of an external market at time of entry, the order will be adjusted and posted to the Nasdaq Market Center Execution System as a non-displayed limit order. Buy orders entered above the inside offer will be repriced to the lowest offer, while sell orders entered below the inside bid will be repriced to the highest bid. These order will not get routed outside of the Nasdaq Market Center Execution System. Prevent violations of Regulation NMS.
+
+System Hours Immediate Or Cancel [SIOC]
+Limit orders that, when entered into the system, receive an immediate execution on that portion of the order that's marketable and a cancellation of that portion of the order that's non-marketable. These orders may be entered into the Nasdaq Market Center Execution System during system hours from 04:00AM to 20:00|08:00PM ET Eastern Time.
+
+System Hours Day [SDAY]
+These orders will remain displayed and open for potential execution during system hours from 04:00AM to 20:00|08:00PM ET Eastern Time. If a partial execution occurs, any remaining portion will remain open and available for an execution until it's executed, cancelled, or expires at 20:00|08:00PM ET Eastern Time. All unexecuted orders will expire at 20:00|08:00PM ET Eastern Time.
+
+System Hours Good-till-Cancelled [SGTC]
+These orders or any portion of a partially executed order designated as _____ will remain displayed and open for potential execution each trading day during system hours from 04:00AM to 20:00|08:00PM ET Eastern Time for a period of one year from entry or until executed or cancelled.
+
+Market Hours Immediate or Cancel [MIOC]
+Limit orders that, when entered into the system, receive an execution on that portion of the order that's immediately marketable. Unfilled portions of the order will be immediately cancelled and returned to the entering market participant. Orders may be entered into the Nasdaq Market Center Execution System from 04:00AM to 16:00|04:00PM ET Eastern Time and are available for execution from 09:30AM to 16:00|04:00PM ET Eastern Time. Orders that are entered between 04:00AM and 09:30AM ET Eastern Time will be held until 09:30AM ET Eastern Time. At 09:30AM, the Nasdaq Market Center Execution System will determine which orders will be executed and which will be cancelled during the opening cross.
+
+Market Hours Day [MDAY]
+Orders may be entered into the Nasdaq Market Center Execution System from 04:00AM to 16:00}|04:00PM ET Eastern Time and are open for potential execution during market hours from 09:30AM to 16:00|04:00PM ET Eastern Time. For partial executions, any remaining portion of the order will remain open and available for an execution until it's cancelled or expires at 16:00|04:00PM ET Eastern Time. All unexecuted orders expire at 16:00|04:00PM ET Eastern Time.
+
+Market Hours Good-'Til-Cancelled [MGTC]
+Orders may be entered into the Nasdaq Market Center Execution System from 04:00AM to 20:00|08:00PM Orders remain displayed and open for potential execution during market hours from 09:30AM to 16:00|04:00PM ET Eastern Time. Or until executed or cancelled. Unexecuted portions of an order will remain displayed and open for execution during market hours from 09:30AM to 16:00|04:00PM ET Eastern Time each day for a period of one year from entry unless executed or cancelled.
+
+Good-'Til-Market Close [GTMC]
+Orders may be entered into the Nasdaq automated trading system during system hours from 04:00AM to 20:00|08:00PM ET Eastern Time. Any portion of an order not executed intraday will participate in the Closing Cross, which takes place from 15:50|03:50PM to 16:00|04:00PM ET Eastern Time. All unexecuted orders are returned to the entering market participant after the Closing Cross. If an order is entered after the Closing Cross, it will be treated as an SIOC order.
+
+System Hours Expire Time [SHEX]
+An order that can be entered into the Nasdaq Market Center Execution System and be available for execution during system hours from 04:00AM to 20:00|08:00PM ET Eastern Time. Once entered, any unexecuted portions will remain open for the amount of time that's specified by the market participant that enters it. Orders remain available for execution from 04:00AM to 20:00|08:00PM ET Eastern Time unless cancelled.
+
+Attributable Orders
+Orders display the price and size of the order, as well as the market participant ID [MPID].
+
+Non-Attributable Orders
+Orders display only the price and size of the quotation. Market participants are able to keep their orders anonymous in the display by using the order designation NSDQ [formerly SIZE] in place of the MPID
+
+Regulation NMS - 4 Order Routing Options
+1. Designated Order Turnaround [DOT]
+2. Reactive Electronic Only [STGY]
+3. Electronic Only [SCAN]
+4. Aggressive Electronic Only [SPDY]
+
+Designated Order Turnaround [DOT]
+When orders are entered with this routing option, the system first searches for available shares. If a match isn't found, the system then routes the order to other market centers, as instructed by the user, and in compliance with the Order Protection Rule. Any unexecuted portion of the order is ultimately routed to either the NYSE or NYSE American at its original limit price. Only orders with time-in-force parameters - SDAY, SIOC, MDAY, MIOC, GTMC or market-on-open/close - will be eligible for this kind of routing.
+
+Reactive Electronic Only [STGY]
+When orders are entered with this order routing option, the system first searches for available shares. If a match isn't found, the system then routes the order to other market centers, as instructed by the user, and in compliance with the Order Protection Rule. If the order remains unexecuted, it's posted to the Nasdaq book. If another market center locks or crosses the order in the book, the order is routed to the locking or crossing market center for execution. Except for Minimum Quantity Orders, this routing strategy may be used with all order types, all time-in-force parameters, and all securities.
+
+Electronic Only [SCAN]
+When orders are entered with this order routing option, the system first searches for available shares. If a match isn't found, the system then routes the order to other market centers, as instructed by the user, and in compliance with the Order Protection Rule. If the order remains unexecuted, it's posted to the Nasdaq book. If another market center locks or crosses the order in the book, the order will not be routed to the locking or crossing market center for execution. Except for Minimum Quantity Orders, this routing strategy may be used with all order types, all time-in-force parameters, and all securities. ITS commitments are routed using this designation.
+
+Aggressive Electronic Only [SPDY]
+When orders are entered with this order routing option, the system first searches for available shares. If a match isn't found, the system then routes the order to other market centers, as instructed by the user, and in compliance with the Order Protection Rule. If the order remains unexecuted, it's posted to the Nasdaq book. If another market center locks or crosses the order in the book, the order is routed to the locking or crossing market center for execution. When a market order is sent with this designation, its price is adjusted to the same side of the market in which it was entered.
+
+Electronic Communication Networks [ECNs]
+Electronic trading systems that automatically match buy and sell orders at specific prices. This network trades exclusively on an agency basis by matching buyers and sellers within its system and it charges its subscribers transaction fees for its services. Don't participate directly in the Nasdaq Market Center Execution System. Not required to maintain a two-sided quote and they don't take proprietary positions.
+
+Unlisted Trading Privileges [UTP]
+In some cases, exchanges will permit their members to trade unlisted securities. These securities are not listed because the issuer has not yet applied for listing. Can participate in the Nasdaq automated execution system and must accept automatic executions.
+
+OTC Bulletin Board [OTCBB]
+An electronic quotation service for OTC equity securities. Open for premarket trading from 08:00AM to 09:30AM ET Eastern Time. Trades that are executed in the premarket/market/aftermarket session must be reported within 10 seconds of execution to the OTC Reporting Facility [ORF], also referred to as the ACT Technology Platform. Securities are generally not listed or traded on Nasdaq or a national securities exchange - but must be SEC reporting. Every quotation entry must include the telephone number of the firm's trading desk.
+
+OTCBB Minimum Quote Sizes
+$0.0001-$0.0999: 10000 Shares
+$0.10-$0.1999: 5000 Shares
+$0.20-$0.5099: 2500 Shares
+$0.51-$0.9999: 1000 Shares
+$1.00-$174.99: 100 Shares
+$175.00+: 1 Share
+If a bid and ask fall in different brackets - then different sizes are required pertaining to the brackets.
+
+SEC Rule 15c2-11 - Initiating Quotations For Unlisted, OTC Securities
+Requires BDs that intend to publish quotes for an OTC equity security to collect and review certain information about the issuer. For this rule, publish means to initiate or resume quotes in any interdealer quote medium, such as the OTCBB or the OTC Pink Marketplace. Prior to initiating or resuming quotes, a BD must have in its possession one of the following five items that related to the security in question:
+1 - Prospectus filed w/ SEC that's been in effect for less than 90 days
+2 - An offering circular as specified in Regulation A, effective within the preceding 40 days
+3 - Form 10-K and all subsequent Form 10-Qs and Form 8-Ks [and the issuer must be current in its filings].
+4 - Certain foreign securities, financial information that's been filed with the SEC during the issuer's last fiscal year under Rule 12g3-2[b]
+5 - 16 specific info abut the issuer if documents are unavailable
+
+EXEMPTIONS To SEC Rule 15c2-11 - Initiating Quotations For Unlisted, OTC Securities
+1 - It was a previously listed company that was de-listed
+2 - Quote is unsolicited customer interest
+3 - Piggyback: securities that have been the subject of regular and continuous securities quotations in a quotation medium for the past 30 days
+
+Piggyback Exception
+BDs are exempt from filing a Form 211 [Rule 15c2-11]. Applies to securities that have been the subject of regular and continuous securities quotations in a quotation medium for the past 30 days. 
+
+Labeled As "Active"
+This means that:
+[i] the quotation must have appeared on at least 12 of those 30 days, and
+[ii] there can be no more than four business days in succession during that 30-day period without a quotation.
+NOT available if the issuer is subject to SEC trading suspension, is bankrupt, or is not current with SEC fillings.
+
+Penny Stock
+A non-exchange listed stock that trades below $5 per share.
+
+Penny Stock Disclosures
+Must send a customer:
+- A risk disclosure document
+- Current Market Quote
+- BD & RR compensation
+
+EXEMPTIONS to Penny Stock Disclosures
+- Institutional accounts
+- Accredited investors
+- Unsolicited orders
+- BDs w/ less than 5% of their business in these stocks
+
+NEW ACCOUNT Procedures - Penny Stocks
+- Send disclosure Documents
+- Signed acknowledgement of disclosure document
+- Account approval specifically for Penny stocks
+- Until the customer becomes an "established" customer, must receive written approval
+- Established: Being a customer for 1 year, OR bought 3 different Penny stocks on 3 different days advantages and disadvantages of a public offering
+
+ADVANTAGES
+The large number of investors [both retail and institutional] who are permitted to participate.
+
+DISADVANTAGES
+Both the costs involved and the length of time needed to undertake this type of offering due to the requirements of the Securities Act of 1933. Advantages and disadvantages of a private placement.
+
+ADVANTAGES
+Faster and less costly than a public offering.
+
+DISADVANTAGES
+There are limits related to whom the offering may be directed and/or the number of investors that may participate.
+
+Private Investment In Public Equity [PIPE] Offering
+A private placement of securities in which a broker-dealer assists an issuer by distributing restricted [i.e., unregistered] securities to a small group of accredited investors, such as hedge funds. The issuer of the securities already has publicly traded securities that are outstanding. These restricted securities are purchased at a price that's below the current price of the common stock at the time of the announcement. Share price will often decline. This price decline is in part a reflection of the increase in the number of shares outstanding.
+
+Regulation D
+SEC rule that defines exemptions for an issuer's private placement of securities
++ the buyer is a sophisticated investor [i.e., one that's experienced enough to evaluate any risks involved].
++ The buyer has access to the same financial information that's normally included in a prospectus. This information is provided in a document that's referred to as a private placement memorandum.
++ The issuer is assured that the buyer doesn't intend to make a quick sale of the securities. This is usually accomplished by means of an investment letter [also referred to as a lock-up agreement].
++ The securities are sold to no more than 35 non-accredited investors.
+
+Accredited Investor
++ Financial institutions [e.g., banks], large tax-exempt plans, or private business development companies.
++ Directors, executive officers, or general partners of the issuer
++ Individuals who meet either one of the following criteria:
+− Have a net worth of at least $1 million or
+− Have gross income of at least $200000 [or $300000 combined with a spouse] for each of the past two years with the anticipation that this level of income will continue.
+
+Restricted Persons For IPOs
++ Member firms and all of their associated persons [i.e., employees]
++ An immediate family member of a member firm employee if any one of the following three conditions apply:
+1.] The employee gives/receives material support to/from the immediate family member. [Material support is defined as providing more than 25% of the person's income or living in the same household as the person who is associated with the member firm.]
+2.] The employee is employed by the member firm that's selling the new issue to the immediate family member.
+3.] The employee has the ability to control the allocation of the new issue.
+
+The New Issue Rule
+Also referred to as the Equity IPO Rule, a FINRA member firm is required to make a bona fide offering of new issues to the public and is prohibited from withholding shares for its own account, the accounts of any of its employees, or for the accounts of industry insiders. However, an exemption exists which allows personnel of a limited broker-dealer to purchase shares of a new issue. A limited broker-dealer is a firm that restricts its business to investment company/variable contract securities or direct participation programs.
+
+General Exemptions To The New Issue Rule
+An account that includes restricted persons, provided their combined ownership does not exceed 10% [de minimis]. Issuer-directed sales [only if the associated person or an immediate family member is an employee/director of the issuer] - i.e. spouse is an employee of issuer.
+
+Portfolio Manager Of The Fund
+All of these are verified annually through a written or electronic verification - NOT orally.
+
+Issuer-Directed Securities
+Securities that are specifically directed by the issuer to persons that are restricted under the Rule; however, the securities directed by the issuer may not be sold to or purchased by:
++ A broker-dealer
++ An account in which any restricted person has beneficial interest, unless the person, or a member of his immediate family, is an employee or director of the issuer, the issuer's parent, or a subsidiary of the issuer.
+
+Regulation M
+SEC restricts distribution participants from bidding for or making purchases in the secondary market of a stock that is being offered in a distribution; helps defer price manipulation.
+
+Reg M: Rule 101 - Activities of Distribution Participants
+Covers bids and purchases by distribution participants, including underwriters and selling group members. Prohibits any persons that are interested in distribution from manipulating secondary market trading for their benefit. Interested persons include syndicate members, selling group members, and any other broker-dealers that assist in selling the security being offered to the public. These persons are not permitted to buy or bid for the subject security within the restricted period.
+
+Reg M: Rule 101: Length of Restricted Period
+Generally begins five business days prior to pricing, or whenever the broker-dealer becomes a participant, whichever comes later. However, if the subject security has an average daily trading volume [ADTV] of at least $100000 and the issuer's public float is $25 million or more, the standard is reduced to one business day.
+
+EXEMPTIONS To Reg M: Rule 101
+Transactions involving government and municipal bonds, non-convertible investment-grade debt and preferred stock, and registered investment company securities. Actively traded securities, which are those with an ADTV of at least $1 million and where the public float of the issuer's common stock is at least $150 million.
+
+Odd-Lot Transactions
+The exercise of any option, warrant, right, or similar instrument during the restricted period, regardless of when it was acquired. Unsolicited brokerage transactions and unsolicited purchases when acting as a principal. Securities of domestic and foreign issuers that are eligible for an exemption from the Securities Act of 1933 under Rule 144A if sold to qualified institutional buyers [QIBs], and certain Regulation S transactions. Transactions in the subject security that are part of a basket strategy, if the basket isn't used for manipulation—the subject security must be no more than 5% of the basket, which must contain at least 20 securities. Unaccepted bids and purchases that don't exceed 2% of the security's ADTV as long as the broker-dealer maintains and enforces written policies and procedures that are designed to prevent violations,
+
+Reg M: Rule 102: Activities Of Issuers
+Orohibits issuers and selling security holders [mainly insiders] from supporting or raising the price of a security being distributed. These persons cannot purchase or bid for a covered security, or induce others to do so.
+
+EXEMPTIONS To Reg M: Rule 102: Activities Of Issuers
+Transactions involving government and municipal bonds, non-convertible investment-grade debt and preferred stock, and registered investment company securities. Actively traded reference securities not issued by the issuer or an affiliate of the issuer.
+
+Odd-Lot Transactions
+The exercise of any option, warrant, right, or similar instrument during the restricted period, regardless of when it was acquired. Unsolicited brokerage transactions and unsolicited purchases when acting as a principal. Securities of domestic and foreign issuers that are eligible for an exemption from the Securities Act of 1933 under Rule 144A if sold to qualified institutional buyers [QIBs], and certain Regulation S transactions. Bonus, profit-sharing, pension, retirement, thrift, savings, incentive, stock purchase, stock option, stock ownership, stock appreciation, dividend reinvestment or similar plans. Dividend or interest reinvestment plans or employee benefit plans as defined in Rule 405 under the Securities Act.
+
+Reg M: Rule 103 - Passive Market Making
+Permits distribution participants to continue making markets in a Nasdaq stock that's the subject of an offering during the restricted period of Rule 101, but only on a passive basis. But may not enter a bid at a price exceeding the highest independent bid. - if an independent MM lowers their bid, leaving PSMM as the highest - they may purchase the lesser of 2 X the minimum quote size [200 shares] OR reached its daily purchase limit.
+
+PERMITTED for NASDAQ ONLY - not OTCBB or Pink Market
+EXEMPTIONS to Reg M: Rule 103 - Passive Market Making
+If a security is very liquid, BDs [distribution participants] may engage in active market making during during the restricted period. Actively traded: a security with ADTV of at least $1M and a public float of $150M.
+EXEMPTION NOT AVAILABLE for issuer and selling shareholders
+
+Passive MMs Daily Purchase Limit
+The greater of 30% of its ADTV in the stock [as determined by FINRA] or 200 shares. Once a passive market maker's net purchases [purchases in excess of sales] for that day are more than its purchase limit, it must withdraw from the market for the rest of the day. However, a passive market maker that's close to the limit is allowed to execute any single order even if doing so will exceed its daily limit.
+
+NOTE: a MM may reflect a customer's [UNSOLICITED] order to buy in its bid under the Order Handling Rules, even if the bid will otherwise violate Rule 103 of Regulation M
+
+Reg M: Rule 104 - Stabilizing
+Permits a syndicate to purchase shares in the secondary market to prevent a price decline.
+- Only 1 syndicate member may enter a bid
+- principal market on which the stock trades must be notified
+- bid may not exceed the POP
+- once entered,bid may be maintained at that level regardless of any changed in the independent bids or trade prices
+- an unlimited number of purchases may be made at this bid
+- bids may remain in effect for an unlimited period
+
+Reg M: Rule 105 - Short Sales In Connection With An Offering
+If a short sale is effected within 5 business days prior to the pricing of a new issue, shares of the new issue may NOT be purchased by the short seller.
+
+EXEMPTIONS To Reg M: Rule 105 - Short Sales In Connection With An Offering
+Allows a person that was unaware of the offering, or changes her mind, to close out the short sale at least 1 business day prior to the day of the pricing and still purchase the offered securities. Allows a person to purchase the offered securities if decisions regarding securities transactions for each separate account are made separately and without any coordination of trading or cooperation among or between the accounts.
+
+Penalty Bid
+Offers to participate in an IPO which carry penalties for selling the purchased shares too quickly. The arrangement that permits the managing underwriter to reclaim a selling concession from a syndicate member when securities originally sold are repurchased by the syndicate in stabilizing transactions. FINRA prohibits a member firm from reclaiming any portion of the selling concession from an associated person if the shares are "flipped" by a customer unless a penalty bid is assessed on the entire syndicate.
+**flipped: the sale of an IPO within 30 days of the new offering
+
+Reference Securities
+Securities into which the subject security may be converted such as convertible bonds subject security. Security that's the subject of a distribution
+
+SEC Rule 602 - The Quote Rule
+SEC Rule
+Subject and exchange-traded securities are included in this rule. A MM has an obligation to execute an order that's presented to it at a price at least as favorable as its published quote, for an amount up to its published quote size. The obligation to fill an order begins when the order is presented, regardless of how the order is transmitted to the market maker [e.g., over the phone]. Prohibits backing away.
+
+Rule 602: Covered Security
+A reported security and any other security for which transaction reports, last sale data, or quote information is disseminated through an automated quote system as defined in the Exchange Act. This group includes exchange-traded securities and all three levels of Nasdaq securities.
+
+EXEMPTIONS To SEC Rule 602 - The Quote Rule
+1. The market maker communicated to Nasdaq a revised price or size prior to the presentation of the order.
+2. The market maker just effected or is in the process of effecting a transaction at the time the order is presented and, immediately after completing that transaction, communicates a revised quote to Nasdaq. [This is also referred to as the trade ahead exception.]
+
+Firm Quote Compliance System [FQCS]
+Monitors member complaints regarding backing away; FINRA requests members contact FQCS within 5 mins of alleged violation. Before contacting FINRA, firms must make an attempt to resolve the situation directly.
+
+Trade-Or-Fade Rule
+Requires an MM who cannot buy a larger quote size than it was seeking, to change its quote price Regulation NMS is Rule 612 - Minimum Price Increments: Sub-Penny Rule. National securities exchanges, national securities associations, alternative trading systems [ATSs], vendors, and broker-dealers are prohibited from accepting NMS bids/offer/interest/securities in increments smaller than:
++ $0.01 if priced over $1
++ $0.0001 if priced under $1
+
+Nasdaq Quote Rules
+This rule requires that: quotes must be two-sided and firm an MM who updates its quote, but doesn't specify a size for the update, the new quote is assumed to be the same size as the previous one.
+
+Order Imbalance Indicator
+An electronic display that provides information about orders involved in the opening process provides the following info:
+=The near clearing price
+=The far clearing price
+=The current reference price
+=The number of shares paired
+=The imbalance quantity
+=The imbalance side
+
+Order Imbalance Indicator: The near clearing price the price at which all quotes and orders on the Nasdaq opening book would execute against all quotes and orders on the Nasdaq continuous book.
+
+V\Order Imbalance Indicator: The far clearing price the price at which all quotes and orders on the Nasdaq opening book would execute against each other.
+
+Order Imbalance Indicator: The current reference price the price within the bid/ask spread that in the following sequence would:
+[1] maximize the number of shares that could be paired,
+[2] minimize the order imbalance, and
+[3] minimize the distance from the inside market to the bid/ask midpoint.
+
+Order Imbalance Indicator: The number of shares paired the number of shares that could be executed at the current reference price.
+
+Order Imbalance Indicator: The imbalance quantity the number of shares that would remain unexecuted if a cross occurred at the current reference price
+
+Order Imbalance Indicator: The imbalance side the side of the market on which the imbalance exists [buy or sell].
+
+Limit-on-open [LOO]
+These are limit orders that occur at the opening cross to buy or sell at a stated limit price or better and are executed only at the opening cross. May be entered, cancelled, or replaced without restriction from 04:00AM to 09:28AM. After 09:28AM, they cannot be cancelled or replaced.
+
+Opening Cross
+Occurs at 09:30AM and is designed to create a fair and orderly opening price by clearing locked and crossed markets prior to 09:30AM. Complies with Regulation NMS.
+
+MOO - Market-On-Open
+These are market orders that occur at the opening cross to buy or sell that are executed only at the price determined by the opening cross. May be entered, cancelled or replaced from 04:00AM to 09:28AM
+
+OIO - Opening Imbalance Only
+These are limit orders that are executed only during the opening cross at 09:30AM. May be entered between 04:00AM and 09:29:59AM. They may not be cancelled or replaced, except to increase their size, from 09:28AM to 09:30AM.
+An order to buy is executed at a price that's equal to or lower than the 09:30AM bid price.
+An order to sell is executed at a price that's equal to or higher than the 09:30AM offer price. Can only be executed against MOO orders, LOO orders, and Early Market Hours orders.
+
+Market Hours Orders
+Orders that occur at the opening cross that are entered into the system with the time-in-force designation — MIOC, MDAY, and MGTC.
+
+Late Market Hours Orders
+These are orders that entered into the system at 09:28AM or later and are treated as imbalance only orders for purposes of the opening cross. Ccannot be cancelled or replaced after 09:28AM until the opening cross has been completed. Requests to cancel or replace a market hours order during the 09:28AM to 09:30AM time period will be honored if the orders remain unexecuted at the end of the opening cross.
+
+Open Eligible Interest
+Refers to orders that participate in the opening cross, including orders with the time-in-force designations—SDAY, SGTC, SHEX, and GTMC.
+
+Transactions Executed between Midnight and 8 am: .T
+Trades are to be reported to the TRF on the trade date between 8 am & 8:15 am
+Transactions Executed between Midnight and 8 am: .U
+If a trade is reported after 8:15 a.m
+Transactions Executed between 8 am and 9:30 am: .T
+Trades are to be reported to the TRF within 10 seconds of execution
+Transactions Executed between 8 am and 9:30 am: .U
+Trades NOT reported to the TRF within 10 seconds of execution
+Transactions Executed between 9:30 am and 4 pm: .Z
+Trades that are not reported within 10 seconds
+Transactions Executed between 4 pm and 8 pm: .T
+Trades reported to the TRF within 10 seconds of execution
+Transactions Executed between 4 pm and 8 pm: .U
+Trades NOT reported to the TRF within 10 seconds of execution
+Transactions Executed between 8 pm and Midnight: "as/of"
+Trades are to be reported to the TRF on the next business day [T + 1] by 8:15 a.m.
+.C Trade Modifier Symbol
+Cash Trade - Trades that settle on the same day as the trade date
+.O Trade Modifier Symbol
+Price Override - Used when the inside market changes within the 30-second reporting window.
+.N Trade Modifier Symbol
+Next Day Trade - Trade will settle on T + 1[Some systems use .ND instead]
+.R Trade Modifier Symbol
+Extended Settlement or Sellers Option - Used for trades that will settle after regular-way. The NN represents the extended settlement date, from 4 to 60 days later. [Some systems use .SNN instead.]
+.U Trade Modifier Symbol
+Preopen and Aftermarket Trades Not Reported Within 10 Seconds - Used to identify preopen and aftermarket trades that are reported late [some systems use .ST instead]
+.W Trade Modifier Symbol
+Stop Orders - Used to report stop-stock transactions [a transaction that's the result of an order for which two parties have agreed that the order will be executed, and it has been, at a stop-stock price or better. W is also used as a trade modifier for weighted average trades or trades that are executed using another special pricing formula
+.P Trade Modifier Symbol
+
+Prior Reference Price - Trade that should have been executed at an earlier time, but was not actually executed until now [Some systems use .PRP instead].
+
+Regulation SHO Rule 200
+A BD must aggregate all of its positions in a security to determine its net position, except in instances where the broker-dealer qualifies for independent trading unit aggregation. A firm qualifies for this exception if:
+= The broker-dealer has a documented organization plan that identifies each aggregation unit with specified trading objectives and supports its independent identity;
+= At the time of each sale, each aggregation unit of the firm determines its net position for every security that it trades;
+= All traders in an aggregation unit follow the trading objectives or strategy of that unit and do not coordinate the strategy with another aggregation unit; and
+= Individual traders are only assigned to one aggregation unit at any time.
+
+ADF: Order Access Rule
+ADF market participants must provide direct electronic access to other market participants and all other FINRA members, and/or allow for indirect electronic access to its quote. Under the rule, market participants are either ADF registered market makers, ECNs, or Alternate Trading Systems [ATSs].
+
+Trade Reporting Facility [TRF]
+Designed for the reporting of transactions involving Nasdaq-listed securities that take place over-the-counter [OTC], as well as OTC transactions in NYSE and other exchange-listed securities [CQS securities]. The following transactions are not required to be reported to the TRF.
+= Transactions reported automatically by another system, such as the Nasdaq Market Center Execution System. Trades that occur on the Nasdaq Market Center Execution System are executed and reported automatically. Therefore, trade entry into the TRF is not required.
+= Transactions that are a part of primary or secondary distribution private placements.
+= Transactions in which the buyer and seller have agreed to a price substantially unrelated to the current market for the security [e.g., to make a gift].
+= Purchases or sales related to the exercise of an option or convertible at a preestablished price not related to market value.
+= Purchases of securities off the floor of an exchange, pursuant to a tender offer.
+
+Options Long Straddles
+Buying both a call and a put. Anticipates that there will be substantial movement in the price of the underlying security, but is uncertain as to the specific direction of that movement. The investor has the opportunity to profit from any subsequent increase or decrease in the price of the underlying security.
+
+Options Short Straddles
+Selling both a call and a put. Seller is neither bullish nor bearish; instead, the seller expects there to be little or no fluctuation in the market price of the underlying stock.

@@ -1,0 +1,460 @@
+Contents
+To Everyone . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iii
+To Educators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . v
+To Students . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vi
+Acknowledgments . . . . . . . . . . . . . . . . . . . . . . . . . . . vii
+Final Words . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ix
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . x
+1 A Dialogue on the Book 1
+2 Introduction to Operating Systems 3
+2.1 Virtualizing the CPU . . . . . . . . . . . . . . . . . . . . . . 5
+2.2 Virtualizing Memory . . . . . . . . . . . . . . . . . . . . . . 7
+2.3 Concurrency . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+2.4 Persistence . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.5 Design Goals . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+2.6 Some History . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+2.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+I Virtualization 21
+3 A Dialogue on Virtualization 23
+4 The Abstraction: The Process 25
+4.1 The Abstraction: A Process . . . . . . . . . . . . . . . . . . . 26
+4.2 Process API . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+4.3 Process Creation: A Little More Detail . . . . . . . . . . . . 28
+4.4 Process States . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+4.5 Data Structures . . . . . . . . . . . . . . . . . . . . . . . . . 30
+4.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+xi
+xii CONTENTS
+5 Interlude: Process API 35
+5.1 The fork() System Call . . . . . . . . . . . . . . . . . . . . 35
+5.2 Adding wait() System Call . . . . . . . . . . . . . . . . . . 37
+5.3 Finally, the exec() System Call . . . . . . . . . . . . . . . . 38
+5.4 Why? Motivating the API . . . . . . . . . . . . . . . . . . . 39
+5.5 Other Parts of the API . . . . . . . . . . . . . . . . . . . . . . 42
+5.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+6 Mechanism: Limited Direct Execution 45
+6.1 Basic Technique: Limited Direct Execution . . . . . . . . . . 45
+6.2 Problem #1: Restricted Operations . . . . . . . . . . . . . . . 46
+6.3 Problem #2: Switching Between Processes . . . . . . . . . . 50
+6.4 Worried About Concurrency? . . . . . . . . . . . . . . . . . 54
+6.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+Homework (Measurement) . . . . . . . . . . . . . . . . . . . . . . 58
+7 Scheduling: Introduction 59
+7.1 Workload Assumptions . . . . . . . . . . . . . . . . . . . . . 59
+7.2 Scheduling Metrics . . . . . . . . . . . . . . . . . . . . . . . 60
+7.3 First In, First Out (FIFO) . . . . . . . . . . . . . . . . . . . . 60
+7.4 Shortest Job First (SJF) . . . . . . . . . . . . . . . . . . . . . 62
+7.5 Shortest Time-to-Completion First (STCF) . . . . . . . . . . 63
+7.6 Round Robin . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+7.7 Incorporating I/O . . . . . . . . . . . . . . . . . . . . . . . . 66
+7.8 No More Oracle . . . . . . . . . . . . . . . . . . . . . . . . . 68
+7.9 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+8 Scheduling:The Multi-Level Feedback Queue 71
+8.1 MLFQ: Basic Rules . . . . . . . . . . . . . . . . . . . . . . . 72
+8.2 Attempt #1: How to Change Priority . . . . . . . . . . . . . 73
+8.3 Attempt #2: The Priority Boost . . . . . . . . . . . . . . . . . 76
+8.4 Attempt #3: Better Accounting . . . . . . . . . . . . . . . . . 77
+8.5 Tuning MLFQ And Other Issues . . . . . . . . . . . . . . . . 78
+8.6 MLFQ: Summary . . . . . . . . . . . . . . . . . . . . . . . . 79
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82
+9 Scheduling: Proportional Share 83
+9.1 Basic Concept: Tickets Represent Your Share . . . . . . . . . 83
+9.2 Ticket Mechanisms . . . . . . . . . . . . . . . . . . . . . . . 85
+9.3 Implementation . . . . . . . . . . . . . . . . . . . . . . . . . 86
+9.4 An Example . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
+9.5 How To Assign Tickets? . . . . . . . . . . . . . . . . . . . . . 88
+OPERATING
+SYSTEMS
+[VERSION 0.80] WWW.OSTEP.ORG
+CONTENTS xiii
+9.6 Why Not Deterministic? . . . . . . . . . . . . . . . . . . . . 88
+9.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 89
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92
+10 Multiprocessor Scheduling (Advanced) 93
+10.1 Background: Multiprocessor Architecture . . . . . . . . . . 94
+10.2 Don’t Forget Synchronization . . . . . . . . . . . . . . . . . 96
+10.3 One Final Issue: Cache Affinity . . . . . . . . . . . . . . . . 97
+10.4 Single-Queue Scheduling . . . . . . . . . . . . . . . . . . . . 97
+10.5 Multi-Queue Scheduling . . . . . . . . . . . . . . . . . . . . 99
+10.6 Linux Multiprocessor Schedulers . . . . . . . . . . . . . . . 102
+10.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 102
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+11 Summary Dialogue on CPU Virtualization 105
+12 A Dialogue on Memory Virtualization 107
+13 The Abstraction: Address Spaces 109
+13.1 Early Systems . . . . . . . . . . . . . . . . . . . . . . . . . . 109
+13.2 Multiprogramming and Time Sharing . . . . . . . . . . . . . 110
+13.3 The Address Space . . . . . . . . . . . . . . . . . . . . . . . 111
+13.4 Goals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 113
+13.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 115
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+14 Interlude: Memory API 119
+14.1 Types of Memory . . . . . . . . . . . . . . . . . . . . . . . . 119
+14.2 The malloc() Call . . . . . . . . . . . . . . . . . . . . . . . 120
+14.3 The free() Call . . . . . . . . . . . . . . . . . . . . . . . . 122
+14.4 Common Errors . . . . . . . . . . . . . . . . . . . . . . . . . 122
+14.5 Underlying OS Support . . . . . . . . . . . . . . . . . . . . . 125
+14.6 Other Calls . . . . . . . . . . . . . . . . . . . . . . . . . . . . 125
+14.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127
+15 Mechanism: Address Translation 129
+15.1 Assumptions . . . . . . . . . . . . . . . . . . . . . . . . . . . 130
+15.2 An Example . . . . . . . . . . . . . . . . . . . . . . . . . . . 130
+15.3 Dynamic (Hardware-based) Relocation . . . . . . . . . . . . 133
+15.4 OS Issues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136
+15.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 137
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 139
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 140
+16 Segmentation 141
+c 2014, ARPACI-DUSSEAU
+THREE
+EASY
+PIECES
+xiv CONTENTS
+16.1 Segmentation: Generalized Base/Bounds . . . . . . . . . . 141
+16.2 Which Segment Are We Referring To? . . . . . . . . . . . . . 144
+16.3 What About The Stack? . . . . . . . . . . . . . . . . . . . . . 145
+16.4 Support for Sharing . . . . . . . . . . . . . . . . . . . . . . . 146
+16.5 Fine-grained vs. Coarse-grained Segmentation . . . . . . . 147
+16.6 OS Support . . . . . . . . . . . . . . . . . . . . . . . . . . . . 147
+16.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 149
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 150
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 152
+17 Free-Space Management 153
+17.1 Assumptions . . . . . . . . . . . . . . . . . . . . . . . . . . . 154
+17.2 Low-level Mechanisms . . . . . . . . . . . . . . . . . . . . . 155
+17.3 Basic Strategies . . . . . . . . . . . . . . . . . . . . . . . . . 163
+17.4 Other Approaches . . . . . . . . . . . . . . . . . . . . . . . . 165
+17.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 167
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 168
+18 Paging: Introduction 169
+18.1 Where Are Page Tables Stored? . . . . . . . . . . . . . . . . 172
+18.2 What’s Actually In The Page Table? . . . . . . . . . . . . . . 173
+18.3 Paging: Also Too Slow . . . . . . . . . . . . . . . . . . . . . 174
+18.4 A Memory Trace . . . . . . . . . . . . . . . . . . . . . . . . . 176
+18.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 179
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 180
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 181
+19 Paging: Faster Translations (TLBs) 183
+19.1 TLB Basic Algorithm . . . . . . . . . . . . . . . . . . . . . . 183
+19.2 Example: Accessing An Array . . . . . . . . . . . . . . . . . 185
+19.3 Who Handles The TLB Miss? . . . . . . . . . . . . . . . . . . 187
+19.4 TLB Contents: What’s In There? . . . . . . . . . . . . . . . . 189
+19.5 TLB Issue: Context Switches . . . . . . . . . . . . . . . . . . 190
+19.6 Issue: Replacement Policy . . . . . . . . . . . . . . . . . . . 192
+19.7 A Real TLB Entry . . . . . . . . . . . . . . . . . . . . . . . . 193
+19.8 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 194
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 195
+Homework (Measurement) . . . . . . . . . . . . . . . . . . . . . . 197
+20 Paging: Smaller Tables 201
+20.1 Simple Solution: Bigger Pages . . . . . . . . . . . . . . . . . 201
+20.2 Hybrid Approach: Paging and Segments . . . . . . . . . . . 202
+20.3 Multi-level Page Tables . . . . . . . . . . . . . . . . . . . . . 205
+20.4 Inverted Page Tables . . . . . . . . . . . . . . . . . . . . . . 212
+20.5 Swapping the Page Tables to Disk . . . . . . . . . . . . . . . 213
+20.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 213
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 214
+OPERATING
+SYSTEMS
+[VERSION 0.80] WWW.OSTEP.ORG
+CONTENTS xv
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 215
+21 Beyond Physical Memory: Mechanisms 217
+21.1 Swap Space . . . . . . . . . . . . . . . . . . . . . . . . . . . . 218
+21.2 The Present Bit . . . . . . . . . . . . . . . . . . . . . . . . . . 219
+21.3 The Page Fault . . . . . . . . . . . . . . . . . . . . . . . . . . 220
+21.4 What If Memory Is Full? . . . . . . . . . . . . . . . . . . . . 221
+21.5 Page Fault Control Flow . . . . . . . . . . . . . . . . . . . . 222
+21.6 When Replacements Really Occur . . . . . . . . . . . . . . . 223
+21.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 224
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 225
+22 Beyond Physical Memory: Policies 227
+22.1 Cache Management . . . . . . . . . . . . . . . . . . . . . . . 227
+22.2 The Optimal Replacement Policy . . . . . . . . . . . . . . . 228
+22.3 A Simple Policy: FIFO . . . . . . . . . . . . . . . . . . . . . 230
+22.4 Another Simple Policy: Random . . . . . . . . . . . . . . . . 232
+22.5 Using History: LRU . . . . . . . . . . . . . . . . . . . . . . . 233
+22.6 Workload Examples . . . . . . . . . . . . . . . . . . . . . . . 234
+22.7 Implementing Historical Algorithms . . . . . . . . . . . . . 237
+22.8 Approximating LRU . . . . . . . . . . . . . . . . . . . . . . 238
+22.9 Considering Dirty Pages . . . . . . . . . . . . . . . . . . . . 239
+22.10Other VM Policies . . . . . . . . . . . . . . . . . . . . . . . . 240
+22.11 Thrashing . . . . . . . . . . . . . . . . . . . . . . . . . . . . 240
+22.12 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 241
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 242
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 244
+23 The VAX/VMS Virtual Memory System 245
+23.1 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . 245
+23.2 Memory Management Hardware . . . . . . . . . . . . . . . 246
+23.3 A Real Address Space . . . . . . . . . . . . . . . . . . . . . . 247
+23.4 Page Replacement . . . . . . . . . . . . . . . . . . . . . . . . 249
+23.5 Other Neat VM Tricks . . . . . . . . . . . . . . . . . . . . . . 250
+23.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 252
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 253
+24 Summary Dialogue on Memory Virtualization 255
+II Concurrency 259
+25 A Dialogue on Concurrency 261
+26 Concurrency: An Introduction 263
+26.1 An Example: Thread Creation . . . . . . . . . . . . . . . . . 264
+26.2 Why It Gets Worse: Shared Data . . . . . . . . . . . . . . . . 267
+c 2014, ARPACI-DUSSEAU
+THREE
+EASY
+PIECES
+xvi CONTENTS
+26.3 The Heart of the Problem: Uncontrolled Scheduling . . . . 269
+26.4 The Wish For Atomicity . . . . . . . . . . . . . . . . . . . . . 271
+26.5 One More Problem: Waiting For Another . . . . . . . . . . . 273
+26.6 Summary: Why in OS Class? . . . . . . . . . . . . . . . . . . 273
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 275
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 276
+27 Interlude: Thread API 279
+27.1 Thread Creation . . . . . . . . . . . . . . . . . . . . . . . . . 279
+27.2 Thread Completion . . . . . . . . . . . . . . . . . . . . . . . 280
+27.3 Locks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 283
+27.4 Condition Variables . . . . . . . . . . . . . . . . . . . . . . . 285
+27.5 Compiling and Running . . . . . . . . . . . . . . . . . . . . 287
+27.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 287
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 289
+28 Locks 291
+28.1 Locks: The Basic Idea . . . . . . . . . . . . . . . . . . . . . . 291
+28.2 Pthread Locks . . . . . . . . . . . . . . . . . . . . . . . . . . 292
+28.3 Building A Lock . . . . . . . . . . . . . . . . . . . . . . . . . 293
+28.4 Evaluating Locks . . . . . . . . . . . . . . . . . . . . . . . . 293
+28.5 Controlling Interrupts . . . . . . . . . . . . . . . . . . . . . . 294
+28.6 Test And Set (Atomic Exchange) . . . . . . . . . . . . . . . . 295
+28.7 Building A Working Spin Lock . . . . . . . . . . . . . . . . . 297
+28.8 Evaluating Spin Locks . . . . . . . . . . . . . . . . . . . . . 299
+28.9 Compare-And-Swap . . . . . . . . . . . . . . . . . . . . . . 299
+28.10 Load-Linked and Store-Conditional . . . . . . . . . . . . . . 300
+28.11 Fetch-And-Add . . . . . . . . . . . . . . . . . . . . . . . . . 302
+28.12 Summary: So Much Spinning . . . . . . . . . . . . . . . . . 303
+28.13A Simple Approach: Just Yield, Baby . . . . . . . . . . . . . 304
+28.14Using Queues: Sleeping Instead Of Spinning . . . . . . . . . 305
+28.15Different OS, Different Support . . . . . . . . . . . . . . . . 307
+28.16 Two-Phase Locks . . . . . . . . . . . . . . . . . . . . . . . . 307
+28.17 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 308
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 309
+29 Lock-based Concurrent Data Structures 311
+29.1 Concurrent Counters . . . . . . . . . . . . . . . . . . . . . . 311
+29.2 Concurrent Linked Lists . . . . . . . . . . . . . . . . . . . . 316
+29.3 Concurrent Queues . . . . . . . . . . . . . . . . . . . . . . . 319
+29.4 Concurrent Hash Table . . . . . . . . . . . . . . . . . . . . . 320
+29.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 322
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 323
+30 Condition Variables 325
+30.1 Definition and Routines . . . . . . . . . . . . . . . . . . . . . 326
+30.2 The Producer/Consumer (Bound Buffer) Problem . . . . . . 329
+OPERATING
+SYSTEMS
+[VERSION 0.80] WWW.OSTEP.ORG
+CONTENTS xvii
+30.3 Covering Conditions . . . . . . . . . . . . . . . . . . . . . . 337
+30.4 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 338
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 339
+31 Semaphores 341
+31.1 Semaphores: A Definition . . . . . . . . . . . . . . . . . . . 341
+31.2 Binary Semaphores (Locks) . . . . . . . . . . . . . . . . . . . 343
+31.3 Semaphores As Condition Variables . . . . . . . . . . . . . . 344
+31.4 The Producer/Consumer (Bounded-Buffer) Problem . . . . 346
+31.5 Reader-Writer Locks . . . . . . . . . . . . . . . . . . . . . . 350
+31.6 The Dining Philosophers . . . . . . . . . . . . . . . . . . . . 352
+31.7 How To Implement Semaphores . . . . . . . . . . . . . . . . 355
+31.8 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 356
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 357
+32 Common Concurrency Problems 359
+32.1 What Types Of Bugs Exist? . . . . . . . . . . . . . . . . . . . 359
+32.2 Non-Deadlock Bugs . . . . . . . . . . . . . . . . . . . . . . . 360
+32.3 Deadlock Bugs . . . . . . . . . . . . . . . . . . . . . . . . . . 363
+32.4 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 370
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 371
+33 Event-based Concurrency (Advanced) 373
+33.1 The Basic Idea: An Event Loop . . . . . . . . . . . . . . . . . 373
+33.2 An Important API: select() (or poll()) . . . . . . . . . 374
+33.3 Using select() . . . . . . . . . . . . . . . . . . . . . . . . 375
+33.4 Why Simpler? No Locks Needed . . . . . . . . . . . . . . . 376
+33.5 A Problem: Blocking System Calls . . . . . . . . . . . . . . . 377
+33.6 A Solution: Asynchronous I/O . . . . . . . . . . . . . . . . 377
+33.7 Another Problem: State Management . . . . . . . . . . . . . 380
+33.8 What Is Still Difficult With Events . . . . . . . . . . . . . . . 381
+33.9 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 381
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 382
+34 Summary Dialogue on Concurrency 383
+III Persistence 385
+35 A Dialogue on Persistence 387
+36 I/O Devices 389
+36.1 System Architecture . . . . . . . . . . . . . . . . . . . . . . . 389
+36.2 A Canonical Device . . . . . . . . . . . . . . . . . . . . . . . 390
+36.3 The Canonical Protocol . . . . . . . . . . . . . . . . . . . . . 391
+36.4 Lowering CPU Overhead With Interrupts . . . . . . . . . . 392
+36.5 More Efficient Data Movement With DMA . . . . . . . . . . 393
+c 2014, ARPACI-DUSSEAU
+THREE
+EASY
+PIECES
+xviii CONTENTS
+36.6 Methods Of Device Interaction . . . . . . . . . . . . . . . . . 394
+36.7 Fitting Into The OS: The Device Driver . . . . . . . . . . . . 395
+36.8 Case Study: A Simple IDE Disk Driver . . . . . . . . . . . . 396
+36.9 Historical Notes . . . . . . . . . . . . . . . . . . . . . . . . . 399
+36.10 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 399
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 400
+37 Hard Disk Drives 403
+37.1 The Interface . . . . . . . . . . . . . . . . . . . . . . . . . . . 403
+37.2 Basic Geometry . . . . . . . . . . . . . . . . . . . . . . . . . 404
+37.3 A Simple Disk Drive . . . . . . . . . . . . . . . . . . . . . . 404
+37.4 I/O Time: Doing The Math . . . . . . . . . . . . . . . . . . . 408
+37.5 Disk Scheduling . . . . . . . . . . . . . . . . . . . . . . . . . 412
+37.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 416
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 417
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 418
+38 Redundant Arrays of Inexpensive Disks (RAIDs) 421
+38.1 Interface And RAID Internals . . . . . . . . . . . . . . . . . 422
+38.2 Fault Model . . . . . . . . . . . . . . . . . . . . . . . . . . . 423
+38.3 How To Evaluate A RAID . . . . . . . . . . . . . . . . . . . 423
+38.4 RAID Level 0: Striping . . . . . . . . . . . . . . . . . . . . . 424
+38.5 RAID Level 1: Mirroring . . . . . . . . . . . . . . . . . . . . 427
+38.6 RAID Level 4: Saving Space With Parity . . . . . . . . . . . 430
+38.7 RAID Level 5: Rotating Parity . . . . . . . . . . . . . . . . . 434
+38.8 RAID Comparison: A Summary . . . . . . . . . . . . . . . . 435
+38.9 Other Interesting RAID Issues . . . . . . . . . . . . . . . . . 436
+38.10 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 436
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 437
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 439
+39 Interlude: File and Directories 441
+39.1 Files and Directories . . . . . . . . . . . . . . . . . . . . . . . 441
+39.2 The File System Interface . . . . . . . . . . . . . . . . . . . . 443
+39.3 Creating Files . . . . . . . . . . . . . . . . . . . . . . . . . . 443
+39.4 Reading and Writing Files . . . . . . . . . . . . . . . . . . . 444
+39.5 Reading And Writing, But Not Sequentially . . . . . . . . . 446
+39.6 Writing Immediately with fsync() . . . . . . . . . . . . . 447
+39.7 Renaming Files . . . . . . . . . . . . . . . . . . . . . . . . . 448
+39.8 Getting Information About Files . . . . . . . . . . . . . . . . 449
+39.9 Removing Files . . . . . . . . . . . . . . . . . . . . . . . . . 450
+39.10Making Directories . . . . . . . . . . . . . . . . . . . . . . . 450
+39.11Reading Directories . . . . . . . . . . . . . . . . . . . . . . . 451
+39.12Deleting Directories . . . . . . . . . . . . . . . . . . . . . . . 452
+39.13Hard Links . . . . . . . . . . . . . . . . . . . . . . . . . . . . 452
+39.14 Symbolic Links . . . . . . . . . . . . . . . . . . . . . . . . . 454
+39.15Making and Mounting a File System . . . . . . . . . . . . . 456
+OPERATING
+SYSTEMS
+[VERSION 0.80] WWW.OSTEP.ORG
+CONTENTS xix
+39.16 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 457
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 458
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 459
+40 File System Implementation 461
+40.1 The Way To Think . . . . . . . . . . . . . . . . . . . . . . . . 461
+40.2 Overall Organization . . . . . . . . . . . . . . . . . . . . . . 462
+40.3 File Organization: The Inode . . . . . . . . . . . . . . . . . . 464
+40.4 Directory Organization . . . . . . . . . . . . . . . . . . . . . 469
+40.5 Free Space Management . . . . . . . . . . . . . . . . . . . . 469
+40.6 Access Paths: Reading and Writing . . . . . . . . . . . . . . 470
+40.7 Caching and Buffering . . . . . . . . . . . . . . . . . . . . . 474
+40.8 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 475
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 476
+Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 477
+41 Locality and The Fast File System 479
+41.1 The Problem: Poor Performance . . . . . . . . . . . . . . . . 479
+41.2 FFS: Disk Awareness Is The Solution . . . . . . . . . . . . . 481
+41.3 Organizing Structure: The Cylinder Group . . . . . . . . . . 481
+41.4 Policies: How To Allocate Files and Directories . . . . . . . 482
+41.5 Measuring File Locality . . . . . . . . . . . . . . . . . . . . . 483
+41.6 The Large-File Exception . . . . . . . . . . . . . . . . . . . . 484
+41.7 A Few Other Things About FFS . . . . . . . . . . . . . . . . 486
+41.8 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 488
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 489
+42 Crash Consistency: FSCK and Journaling 491
+42.1 A Detailed Example . . . . . . . . . . . . . . . . . . . . . . . 492
+42.2 Solution #1: The File System Checker . . . . . . . . . . . . . 495
+42.3 Solution #2: Journaling (or Write-Ahead Logging) . . . . . . 497
+42.4 Solution #3: Other Approaches . . . . . . . . . . . . . . . . 507
+42.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 508
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 509
+43 Log-structured File Systems 511
+43.1 Writing To Disk Sequentially . . . . . . . . . . . . . . . . . . 512
+43.2 Writing Sequentially And Effectively . . . . . . . . . . . . . 513
+43.3 How Much To Buffer? . . . . . . . . . . . . . . . . . . . . . . 514
+43.4 Problem: Finding Inodes . . . . . . . . . . . . . . . . . . . . 515
+43.5 Solution Through Indirection: The Inode Map . . . . . . . . 515
+43.6 The Checkpoint Region . . . . . . . . . . . . . . . . . . . . . 516
+43.7 Reading A File From Disk: A Recap . . . . . . . . . . . . . . 517
+43.8 What About Directories? . . . . . . . . . . . . . . . . . . . . 517
+43.9 A New Problem: Garbage Collection . . . . . . . . . . . . . 518
+43.10Determining Block Liveness . . . . . . . . . . . . . . . . . . 520
+43.11A Policy Question: Which Blocks To Clean, And When? . . 521
+c 2014, ARPACI-DUSSEAU
+THREE
+EASY
+PIECES
+xx CONTENTS
+43.12 Crash Recovery And The Log . . . . . . . . . . . . . . . . . 521
+43.13 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 522
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 524
+44 Data Integrity and Protection 527
+44.1 Disk Failure Modes . . . . . . . . . . . . . . . . . . . . . . . 527
+44.2 Handling Latent Sector Errors . . . . . . . . . . . . . . . . . 529
+44.3 Detecting Corruption: The Checksum . . . . . . . . . . . . . 530
+44.4 Using Checksums . . . . . . . . . . . . . . . . . . . . . . . . 533
+44.5 A New Problem: Misdirected Writes . . . . . . . . . . . . . 534
+44.6 One Last Problem: Lost Writes . . . . . . . . . . . . . . . . . 535
+44.7 Scrubbing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 535
+44.8 Overheads Of Checksumming . . . . . . . . . . . . . . . . . 536
+44.9 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 536
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 537
+45 Summary Dialogue on Persistence 539
+46 A Dialogue on Distribution 541
+47 Distributed Systems 543
+47.1 Communication Basics . . . . . . . . . . . . . . . . . . . . . 544
+47.2 Unreliable Communication Layers . . . . . . . . . . . . . . 545
+47.3 Reliable Communication Layers . . . . . . . . . . . . . . . . 547
+47.4 Communication Abstractions . . . . . . . . . . . . . . . . . 549
+47.5 Remote Procedure Call (RPC) . . . . . . . . . . . . . . . . . 551
+47.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 556
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 557
+48 Sun’s Network File System (NFS) 559
+48.1 A Basic Distributed File System . . . . . . . . . . . . . . . . 560
+48.2 On To NFS . . . . . . . . . . . . . . . . . . . . . . . . . . . . 561
+48.3 Focus: Simple and Fast Server Crash Recovery . . . . . . . . 561
+48.4 Key To Fast Crash Recovery: Statelessness . . . . . . . . . . 562
+48.5 The NFSv2 Protocol . . . . . . . . . . . . . . . . . . . . . . . 563
+48.6 From Protocol to Distributed File System . . . . . . . . . . . 565
+48.7 Handling Server Failure with Idempotent Operations . . . . 567
+48.8 Improving Performance: Client-side Caching . . . . . . . . 569
+48.9 The Cache Consistency Problem . . . . . . . . . . . . . . . . 569
+48.10Assessing NFS Cache Consistency . . . . . . . . . . . . . . . 571
+48.11 Implications on Server-Side Write Buffering . . . . . . . . . 571
+48.12 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 573
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 574
+49 The Andrew File System (AFS) 575
+49.1 AFS Version 1 . . . . . . . . . . . . . . . . . . . . . . . . . . 575
+49.2 Problems with Version 1 . . . . . . . . . . . . . . . . . . . . 576
+OPERATING
+SYSTEMS
+[VERSION 0.80] WWW.OSTEP.ORG
+CONTENTS xxi
+49.3 Improving the Protocol . . . . . . . . . . . . . . . . . . . . . 578
+49.4 AFS Version 2 . . . . . . . . . . . . . . . . . . . . . . . . . . 578
+49.5 Cache Consistency . . . . . . . . . . . . . . . . . . . . . . . 580
+49.6 Crash Recovery . . . . . . . . . . . . . . . . . . . . . . . . . 582
+49.7 Scale And Performance Of AFSv2 . . . . . . . . . . . . . . . 582
+49.8 AFS: Other Improvements . . . . . . . . . . . . . . . . . . . 584
+49.9 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 585
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 587
+50 Summary Dialogue on Distribution 589
+General Index 591
+Asides 601
+Tips 603
+Cruces 605
+
+----------
+
