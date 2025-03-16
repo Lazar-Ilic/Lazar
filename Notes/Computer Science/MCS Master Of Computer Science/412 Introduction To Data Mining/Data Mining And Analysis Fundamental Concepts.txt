@@ -1,0 +1,969 @@
+Contents
+
+
+
+Preface 1
+
+
+
+1 Data Mining and Analysis 4
+
+
+
+1.1 Data Matrix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+
+
+1.2 Attributes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+
+
+1.3 Data: Algebraic and Geometric View . . . . . . . . . . . . . . . . . . 7
+
+
+
+1.3.1 Distance and Angle . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+
+
+1.3.2 Mean and Total Variance . . . . . . . . . . . . . . . . . . . . 13
+
+
+
+1.3.3 Orthogonal Projection . . . . . . . . . . . . . . . . . . . . . . 14
+
+
+
+1.3.4 Linear Independence and Dimensionality . . . . . . . . . . . . 15
+
+
+
+1.4 Data: Probabilistic View . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+
+
+1.4.1 Bivariate Random Variables . . . . . . . . . . . . . . . . . . . 24
+
+
+
+1.4.2 Multivariate Random Variable . . . . . . . . . . . . . . . . . 28
+
+
+
+1.4.3 Random Sample and Statistics . . . . . . . . . . . . . . . . . 29
+
+
+
+1.5 Data Mining . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+
+
+
+1.5.1 Exploratory Data Analysis . . . . . . . . . . . . . . . . . . . . 31
+
+
+
+1.5.2 Frequent Pattern Mining . . . . . . . . . . . . . . . . . . . . . 33
+
+
+
+1.5.3 Clustering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+
+
+
+1.5.4 Classification . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+
+
+
+1.6 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+
+
+
+1.7 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+
+
+
+I Data Analysis Foundations 37
+
+
+
+2 Numeric Attributes 38
+
+
+
+2.1 Univariate Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+
+
+
+2.1.1 Measures of Central Tendency . . . . . . . . . . . . . . . . . . 39
+
+
+
+2.1.2 Measures of Dispersion . . . . . . . . . . . . . . . . . . . . . . 43
+
+
+
+2.2 Bivariate Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48
+
+
+
+2.2.1 Measures of Location and Dispersion . . . . . . . . . . . . . . 49
+
+
+
+2.2.2 Measures of Association . . . . . . . . . . . . . . . . . . . . . 50
+
+
+
+CONTENTS ii
+
+
+
+2.3 Multivariate Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+
+
+
+2.4 Data Normalization . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
+
+
+
+2.5 Normal Distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+
+
+
+2.5.1 Univariate Normal Distribution . . . . . . . . . . . . . . . . . 61
+
+
+
+2.5.2 Multivariate Normal Distribution . . . . . . . . . . . . . . . . 63
+
+
+
+2.6 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+
+
+
+2.7 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+
+
+
+3 Categorical Attributes 71
+
+
+
+3.1 Univariate Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71
+
+
+
+3.1.1 Bernoulli Variable . . . . . . . . . . . . . . . . . . . . . . . . 71
+
+
+
+3.1.2 Multivariate Bernoulli Variable . . . . . . . . . . . . . . . . . 74
+
+
+
+3.2 Bivariate Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81
+
+
+
+3.2.1 Attribute Dependence: Contingency Analysis . . . . . . . . . 88
+
+
+
+3.3 Multivariate Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . 93
+
+
+
+3.3.1 Multi-way Contingency Analysis . . . . . . . . . . . . . . . . 95
+
+
+
+3.4 Distance and Angle . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98
+
+
+
+3.5 Discretization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100
+
+
+
+3.6 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 102
+
+
+
+3.7 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+
+
+
+4 Graph Data 105
+
+
+
+4.1 Graph Concepts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105
+
+
+
+4.2 Topological Attributes . . . . . . . . . . . . . . . . . . . . . . . . . . 110
+
+
+
+4.3 Centrality Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . 115
+
+
+
+4.3.1 Basic Centralities . . . . . . . . . . . . . . . . . . . . . . . . . 115
+
+
+
+4.3.2 Web Centralities . . . . . . . . . . . . . . . . . . . . . . . . . 117
+
+
+
+4.4 Graph Models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126
+
+
+
+4.4.1 Erdös-Rényi Random Graph Model . . . . . . . . . . . . . . . 129
+
+
+
+4.4.2 Watts-Strogatz Small-world Graph Model . . . . . . . . . . . 133
+
+
+
+4.4.3 Barabási-Albert Scale-free Model . . . . . . . . . . . . . . . . 139
+
+
+
+4.5 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 147
+
+
+
+4.6 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 148
+
+
+
+5 Kernel Methods 150
+
+
+
+5.1 Kernel Matrix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 155
+
+
+
+5.1.1 Reproducing Kernel Map . . . . . . . . . . . . . . . . . . . . 156
+
+
+
+5.1.2 Mercer Kernel Map . . . . . . . . . . . . . . . . . . . . . . . . 158
+
+
+
+5.2 Vector Kernels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 161
+
+
+
+5.3 Basic Kernel Operations in Feature Space . . . . . . . . . . . . . . . 166
+
+
+
+5.4 Kernels for Complex Objects . . . . . . . . . . . . . . . . . . . . . . 173
+
+
+
+5.4.1 Spectrum Kernel for Strings . . . . . . . . . . . . . . . . . . . 173
+
+
+
+5.4.2 Diffusion Kernels on Graph Nodes . . . . . . . . . . . . . . . 175
+
+
+
+CONTENTS iii
+
+
+
+5.5 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 180
+
+
+
+5.6 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 180
+
+
+
+6 High-Dimensional Data 182
+
+
+
+6.1 High-Dimensional Objects . . . . . . . . . . . . . . . . . . . . . . . . 182
+
+
+
+6.2 High-Dimensional Volumes . . . . . . . . . . . . . . . . . . . . . . . . 184
+
+
+
+6.3 Hypersphere Inscribed within Hypercube . . . . . . . . . . . . . . . . 187
+
+
+
+6.4 Volume of Thin Hypersphere Shell . . . . . . . . . . . . . . . . . . . 189
+
+
+
+6.5 Diagonals in Hyperspace . . . . . . . . . . . . . . . . . . . . . . . . . 190
+
+
+
+6.6 Density of the Multivariate Normal . . . . . . . . . . . . . . . . . . . 191
+
+
+
+6.7 Appendix: Derivation of Hypersphere Volume . . . . . . . . . . . . . 195
+
+
+
+6.8 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 200
+
+
+
+6.9 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 200
+
+
+
+7 Dimensionality Reduction 204
+
+
+
+7.1 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 204
+
+
+
+7.2 Principal Component Analysis . . . . . . . . . . . . . . . . . . . . . . 209
+
+
+
+7.2.1 Best Line Approximation . . . . . . . . . . . . . . . . . . . . 209
+
+
+
+7.2.2 Best Two-dimensional Approximation . . . . . . . . . . . . . 213
+
+
+
+7.2.3 Best r-dimensional Approximation . . . . . . . . . . . . . . . 217
+
+
+
+7.2.4 Geometry of PCA . . . . . . . . . . . . . . . . . . . . . . . . 222
+
+
+
+7.3 Kernel Principal Component Analysis (Kernel PCA) . . . . . . . . . 225
+
+
+
+7.4 Singular Value Decomposition . . . . . . . . . . . . . . . . . . . . . . 233
+
+
+
+7.4.1 Geometry of SVD . . . . . . . . . . . . . . . . . . . . . . . . 234
+
+
+
+7.4.2 Connection between SVD and PCA . . . . . . . . . . . . . . . 235
+
+
+
+7.5 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 237
+
+
+
+7.6 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 238
+
+
+
+II Frequent Pattern Mining 240
+
+
+
+8 Itemset Mining 241
+
+
+
+8.1 Frequent Itemsets and Association Rules . . . . . . . . . . . . . . . . 241
+
+
+
+8.2 Itemset Mining Algorithms . . . . . . . . . . . . . . . . . . . . . . . 245
+
+
+
+8.2.1 Level-Wise Approach: Apriori Algorithm . . . . . . . . . . . 247
+
+
+
+8.2.2 Tidset Intersection Approach: Eclat Algorithm . . . . . . . . 250
+
+
+
+8.2.3 Frequent Pattern Tree Approach: FPGrowth Algorithm . . . 256
+
+
+
+8.3 Generating Association Rules . . . . . . . . . . . . . . . . . . . . . . 260
+
+
+
+8.4 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 263
+
+
+
+8.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 263
+
+
+
+CONTENTS iv
+
+
+
+9 Summarizing Itemsets 269
+
+
+
+9.1 Maximal and Closed Frequent Itemsets . . . . . . . . . . . . . . . . . 269
+
+
+
+9.2 Mining Maximal Frequent Itemsets: GenMax Algorithm . . . . . . . 273
+
+
+
+9.3 Mining Closed Frequent Itemsets: Charm algorithm . . . . . . . . . 275
+
+
+
+9.4 Non-Derivable Itemsets . . . . . . . . . . . . . . . . . . . . . . . . . . 278
+
+
+
+9.5 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 284
+
+
+
+9.6 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 285
+
+
+
+10 Sequence Mining 289
+
+
+
+10.1 Frequent Sequences . . . . . . . . . . . . . . . . . . . . . . . . . . . . 289
+
+
+
+10.2 Mining Frequent Sequences . . . . . . . . . . . . . . . . . . . . . . . 290
+
+
+
+10.2.1 Level-Wise Mining: GSP . . . . . . . . . . . . . . . . . . . . . 292
+
+
+
+10.2.2 Vertical Sequence Mining: SPADE . . . . . . . . . . . . . . . 293
+
+
+
+10.2.3 Projection-Based Sequence Mining: PrefixSpan . . . . . . . . 296
+
+
+
+10.3 Substring Mining via Suffix Trees . . . . . . . . . . . . . . . . . . . . 298
+
+
+
+10.3.1 Suffix Tree . . . . . . . . . . . . . . . . . . . . . . . . . . . . 298
+
+
+
+10.3.2 Ukkonen’s Linear Time Algorithm . . . . . . . . . . . . . . . 301
+
+
+
+10.4 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 309
+
+
+
+10.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 309
+
+
+
+11 Graph Pattern Mining 314
+
+
+
+11.1 Isomorphism and Support . . . . . . . . . . . . . . . . . . . . . . . . 314
+
+
+
+11.2 Candidate Generation . . . . . . . . . . . . . . . . . . . . . . . . . . 318
+
+
+
+11.2.1 Canonical Code . . . . . . . . . . . . . . . . . . . . . . . . . . 320
+
+
+
+11.3 The gSpan Algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . 323
+
+
+
+11.3.1 Extension and Support Computation . . . . . . . . . . . . . . 326
+
+
+
+11.3.2 Canonicality Checking . . . . . . . . . . . . . . . . . . . . . . 330
+
+
+
+11.4 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 331
+
+
+
+11.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 333
+
+
+
+12 Pattern and Rule Assessment 337
+
+
+
+12.1 Rule and Pattern Assessment Measures . . . . . . . . . . . . . . . . 337
+
+
+
+12.1.1 Rule Assessment Measures . . . . . . . . . . . . . . . . . . . . 338
+
+
+
+12.1.2 Pattern Assessment Measures . . . . . . . . . . . . . . . . . . 346
+
+
+
+12.1.3 Comparing Multiple Rules and Patterns . . . . . . . . . . . . 349
+
+
+
+12.2 Significance Testing and Confidence Intervals . . . . . . . . . . . . . 354
+
+
+
+12.2.1 Fisher Exact Test for Productive Rules . . . . . . . . . . . . . 354
+
+
+
+12.2.2 Permutation Test for Significance . . . . . . . . . . . . . . . . 359
+
+
+
+12.2.3 Bootstrap Sampling for Confidence Interval . . . . . . . . . . 364
+
+
+
+12.3 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 367
+
+
+
+12.4 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 368
+
+
+
+CONTENTS v
+
+
+
+III Clustering 370
+
+
+
+13 Representative-based Clustering 371
+
+
+
+13.1 K-means Algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . 372
+
+
+
+13.2 Kernel K-means . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 375
+
+
+
+13.3 Expectation Maximization (EM) Clustering . . . . . . . . . . . . . . 381
+
+
+
+13.3.1 EM in One Dimension . . . . . . . . . . . . . . . . . . . . . . 383
+
+
+
+13.3.2 EM in d-Dimensions . . . . . . . . . . . . . . . . . . . . . . . 386
+
+
+
+13.3.3 Maximum Likelihood Estimation . . . . . . . . . . . . . . . . 393
+
+
+
+13.3.4 Expectation-Maximization Approach . . . . . . . . . . . . . . 397
+
+
+
+13.4 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 400
+
+
+
+13.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 401
+
+
+
+14 Hierarchical Clustering 404
+
+
+
+14.1 Preliminaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 404
+
+
+
+14.2 Agglomerative Hierarchical Clustering . . . . . . . . . . . . . . . . . 407
+
+
+
+14.2.1 Distance between Clusters . . . . . . . . . . . . . . . . . . . . 407
+
+
+
+14.2.2 Updating Distance Matrix . . . . . . . . . . . . . . . . . . . . 411
+
+
+
+14.2.3 Computational Complexity . . . . . . . . . . . . . . . . . . . 413
+
+
+
+14.3 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 413
+
+
+
+14.4 Exercises and Projects . . . . . . . . . . . . . . . . . . . . . . . . . . 414
+
+
+
+15 Density-based Clustering 417
+
+
+
+15.1 The DBSCAN Algorithm . . . . . . . . . . . . . . . . . . . . . . . . 418
+
+
+
+15.2 Kernel Density Estimation . . . . . . . . . . . . . . . . . . . . . . . . 421
+
+
+
+15.2.1 Univariate Density Estimation . . . . . . . . . . . . . . . . . 422
+
+
+
+15.2.2 Multivariate Density Estimation . . . . . . . . . . . . . . . . 424
+
+
+
+15.2.3 Nearest Neighbor Density Estimation . . . . . . . . . . . . . . 427
+
+
+
+15.3 Density-based Clustering: DENCLUE . . . . . . . . . . . . . . . . . 428
+
+
+
+15.4 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 434
+
+
+
+15.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 434
+
+
+
+16 Spectral and Graph Clustering 438
+
+
+
+16.1 Graphs and Matrices . . . . . . . . . . . . . . . . . . . . . . . . . . . 438
+
+
+
+16.2 Clustering as Graph Cuts . . . . . . . . . . . . . . . . . . . . . . . . 446
+
+
+
+16.2.1 Clustering Objective Functions: Ratio and Normalized Cut . 448
+
+
+
+16.2.2 Spectral Clustering Algorithm . . . . . . . . . . . . . . . . . . 451
+
+
+
+16.2.3 Maximization Objectives: Average Cut and Modularity . . . . 455
+
+
+
+16.3 Markov Clustering . . . . . . . . . . . . . . . . . . . . . . . . . . . . 463
+
+
+
+16.4 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 470
+
+
+
+16.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 471
+
+
+
+CONTENTS vi
+
+
+
+17 Clustering Validation 473
+
+
+
+17.1 External Measures . . . . . . . . . . . . . . . . . . . . . . . . . . . . 474
+
+
+
+17.1.1 Matching Based Measures . . . . . . . . . . . . . . . . . . . . 474
+
+
+
+17.1.2 Entropy Based Measures . . . . . . . . . . . . . . . . . . . . . 479
+
+
+
+17.1.3 Pair-wise Measures . . . . . . . . . . . . . . . . . . . . . . . . 482
+
+
+
+17.1.4 Correlation Measures . . . . . . . . . . . . . . . . . . . . . . . 486
+
+
+
+17.2 Internal Measures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 489
+
+
+
+17.3 Relative Measures . . . . . . . . . . . . . . . . . . . . . . . . . . . . 498
+
+
+
+17.3.1 Cluster Stability . . . . . . . . . . . . . . . . . . . . . . . . . 505
+
+
+
+17.3.2 Clustering Tendency . . . . . . . . . . . . . . . . . . . . . . . 508
+
+
+
+17.4 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 513
+
+
+
+17.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 514
+
+
+
+IV Classification 516
+
+
+
+18 Probabilistic Classification 517
+
+
+
+18.1 Bayes Classifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 517
+
+
+
+18.1.1 Estimating the Prior Probability . . . . . . . . . . . . . . . . 518
+
+
+
+18.1.2 Estimating the Likelihood . . . . . . . . . . . . . . . . . . . . 518
+
+
+
+18.2 Naive Bayes Classifier . . . . . . . . . . . . . . . . . . . . . . . . . . 524
+
+
+
+18.3 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 528
+
+
+
+18.4 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 528
+
+
+
+19 Decision Tree Classifier 530
+
+
+
+19.1 Decision Trees . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 532
+
+
+
+19.2 Decision Tree Algorithm . . . . . . . . . . . . . . . . . . . . . . . . . 535
+
+
+
+19.2.1 Split-point Evaluation Measures . . . . . . . . . . . . . . . . 536
+
+
+
+19.2.2 Evaluating Split-points . . . . . . . . . . . . . . . . . . . . . . 537
+
+
+
+19.2.3 Computational Complexity . . . . . . . . . . . . . . . . . . . 545
+
+
+
+19.3 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 546
+
+
+
+19.4 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 547
+
+
+
+20 Linear Discriminant Analysis 549
+
+
+
+20.1 Optimal Linear Discriminant . . . . . . . . . . . . . . . . . . . . . . 549
+
+
+
+20.2 Kernel Discriminant Analysis . . . . . . . . . . . . . . . . . . . . . . 556
+
+
+
+20.3 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 564
+
+
+
+20.4 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 564
+
+
+
+21 Support Vector Machines 566
+
+
+
+21.1 Linear Discriminants and Margins . . . . . . . . . . . . . . . . . . . 566
+
+
+
+21.2 SVM: Linear and Separable Case . . . . . . . . . . . . . . . . . . . . 572
+
+
+
+21.3 Soft Margin SVM: Linear and Non-Separable Case . . . . . . . . . . 577
+
+
+
+CONTENTS vii
+
+
+
+21.3.1 Hinge Loss . . . . . . . . . . . . . . . . . . . . . . . . . . . . 578
+
+
+
+21.3.2 Quadratic Loss . . . . . . . . . . . . . . . . . . . . . . . . . . 582
+
+
+
+21.4 Kernel SVM: Nonlinear Case . . . . . . . . . . . . . . . . . . . . . . 583
+
+
+
+21.5 SVM Training Algorithms . . . . . . . . . . . . . . . . . . . . . . . . 588
+
+
+
+21.5.1 Dual Solution: Stochastic Gradient Ascent . . . . . . . . . . . 588
+
+
+
+21.5.2 Primal Solution: Newton Optimization . . . . . . . . . . . . . 593
+
+
+
+22 Classification Assessment 602
+
+
+
+22.1 Classification Performance Measures . . . . . . . . . . . . . . . . . . 602
+
+
+
+22.1.1 Contingency Table Based Measures . . . . . . . . . . . . . . . 604
+
+
+
+22.1.2 Binary Classification: Positive and Negative Class . . . . . . 607
+
+
+
+22.1.3 ROC Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . 611
+
+
+
+22.2 Classifier Evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . 616
+
+
+
+22.2.1 K-fold Cross-Validation . . . . . . . . . . . . . . . . . . . . . 617
+
+
+
+22.2.2 Bootstrap Resampling . . . . . . . . . . . . . . . . . . . . . . 618
+
+
+
+22.2.3 Confidence Intervals . . . . . . . . . . . . . . . . . . . . . . . 620
+
+
+
+22.2.4 Comparing Classifiers: Paired t-Test . . . . . . . . . . . . . . 625
+
+
+
+22.3 Bias-Variance Decomposition . . . . . . . . . . . . . . . . . . . . . . 627
+
+
+
+22.3.1 Ensemble Classifiers . . . . . . . . . . . . . . . . . . . . . . . 632
+
+
+
+22.4 Further Reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 638
+
+
+
+22.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 639
+
+
+
+Index 641

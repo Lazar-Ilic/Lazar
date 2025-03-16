@@ -1,0 +1,493 @@
+Iain D. Craig
+
+1. Introduction 1
+
+OK
+
+1.1 Introduction 1
+
+OK
+
+1.2 Essential Properties Of Objects 3
+
+OK
+
+1.3 Objects And Messages 6
+
+OK
+
+1.4 Pure And Impure Languages 7
+
+OK
+
+1.5 Mixed-Paradigm Languages 9
+
+OK
+
+1.6 Organisation Of This Book 9
+
+OK
+
+2. Class Fundamentals 13
+
+OK
+
+2.1 Introduction 13
+
+OK
+
+2.2 Classes 16
+
+OK
+
+2.3 Instances 20
+
+OK
+
+2.4 Slots And Methods 22
+
+OK
+
+2.5 Slot Access 23
+
+OK
+
+2.6 Visibility And Accessibility 25
+
+OK
+
+2.7 Instance Creation 31
+
+OK
+
+2.8 Inheritance 34
+
+OK
+
+2.8.1 Introduction 34
+
+OK
+
+2.8.2 Definition Of Inheritance 35
+
+OK
+
+2.9 Abstract Classes 40
+
+OK
+
+2.10 Iterators 44
+
+OK
+
+2.11 Part Objects 49
+
+OK
+
+3. Prototype And Actor Languages 57
+
+OK
+
+3.1 Introduction 57
+
+OK
+
+3.2 Prototype Languages 57
+
+OK
+
+3.3 The Concept Of The Prototype. 58
+
+OK
+
+3.3.1 Slots And Methods. 64
+
+OK
+
+3.3.2 Message Passing 65
+
+OK
+
+3.3.3 Creating New Objects 65
+
+OK
+
+3.3.4 Delegation And Shared Structure 67
+
+OK
+
+3.4 Methods In Prototype Languages 72
+
+OK
+
+3.5 Actor Languages 73
+
+OK
+
+3.5.1 Introduction 73
+
+OK
+
+3.5.2 Actors 73
+
+OK
+
+3.5.3 Extensions To The Actor Concept 78
+
+OK
+
+4. Inheritance And Delegation 83
+
+OK
+
+4.1 Introduction 83
+
+OK
+
+4.2 Interpretations Of Inheritance 84
+
+OK
+
+4.3 Inheritance As Subtyping 85
+
+OK
+
+4.4 Inheritance As Code Sharing 87
+
+OK
+
+4.5 Single Inheritance 90
+
+OK
+
+4.6 Calling More Abstract Methods 91
+
+OK
+
+4.7 Multiple Inheritance 98
+
+OK
+
+4.8 Multiple Inheritance Graph Shape 100
+
+OK
+
+4.9 Approaches To Multiple Inheritance 106
+
+OK
+
+4.10 Tree Inheritance 106
+
+OK
+
+4.11 Graph Inheritance 108
+
+OK
+
+4.12 Linearised Inheritance. 110
+
+OK
+
+4.13 Implemented Multiple Inheritance Techniques 112
+
+OK
+
+4.13.1 The CLOS Search Method. 112
+
+OK
+
+4.13.2 Multiple Inheritance In C++ 114
+
+OK
+
+4.13.3 Multiple Inheritance In Eiffel 115
+
+OK
+
+4.14 Mixin Classes 117
+
+OK
+
+4.15 Alternatives To Multiple Inheritance 120
+
+OK
+
+4.15.1 Perspectives 120
+
+OK
+
+4.15.2 Interfaces In Java 121
+
+OK
+
+4.15.3 Delegation And Prototypes 122
+
+OK
+
+4.16 Aggregation 124
+
+OK
+
+5. Methods 129
+
+OK
+
+5.1 Introduction 129
+
+OK
+
+5.2 Methods And Objects 131
+
+OK
+
+5.3 Object Constructors And Methods 134
+
+OK
+
+5.4 Environments And Closures 135
+
+OK
+
+5.4.1 Introduction 135
+
+OK
+
+5.4.2 Environments: A More Formal Definition 136
+
+OK
+
+5.4.3 Blocks In Smalltalk And SELF 139
+
+OK
+
+5.4.4 Block Structure In Beta 143
+
+OK
+
+5.4.5 Higher-Order Methods 144
+
+OK
+
+5.4.6 Methods And Inheritance 146
+
+OK
+
+5.5 Static And Dynamic Binding 148
+
+OK
+
+6. Types I: Types And Objects 155
+
+OK
+
+6.1 Introduction 155
+
+OK
+
+6.2 Inheritance And Types 157
+
+OK
+
+6.2.1 Telling What The Type Is 159
+
+OK
+
+6.2.2 Polymorphism 164
+
+OK
+
+6.2.3 Signatures 164
+
+OK
+
+6.3 Generic Polymorphism 166
+
+OK
+
+6.4 Overloading And Over–riding. 169
+
+OK
+
+6.5 Languages With Root Classes 173
+
+OK
+
+6.6 Polyadicity And Default Parameters 174
+
+OK
+
+6.6.1 Variance 176
+
+OK
+
+6.7 Downcasting And Subtypes 179
+
+OK
+
+6.8 Review 181
+
+OK
+
+7. Types II: Types And Objects–Alternatives 185
+
+OK
+
+7.1 Introduction 185
+
+OK
+
+7.2 Types And Implementations. 185
+
+OK
+
+7.3 Hiding Implementation Details 190
+
+OK
+
+7.4 Classes And Type Operations 194
+
+OK
+
+7.5 Containers And Objects 197
+
+OK
+
+8. C# 201
+
+OK
+
+8.1 Introduction 201
+
+OK
+
+8.2 Classes And Instances 202
+
+OK
+
+8.2.1 Class And Instance Variables 203
+
+OK
+
+8.2.2 Access Levels 204
+
+OK
+
+8.2.3 Data And Method Access Modifiers 204
+
+OK
+
+8.2.4 Instance Creation 205
+
+OK
+
+8.2.5 Static Constructors 207
+
+OK
+
+8.2.6 Finalization And Destruction 207
+
+OK
+
+8.2.7 Dot Notation And Member Access 208
+
+OK
+
+8.2.8 Abstract Classes 208
+
+OK
+
+8.2.9 Indexers. 208
+
+OK
+
+8.2.10 Self Reference 210
+
+OK
+
+8.3 Inheritance 210
+
+OK
+
+8.3.1 Calling Base-Class Constructors 211
+
+OK
+
+8.3.2 Interfaces 213
+
+OK
+
+8.4 Methods And Operators 215
+
+OK
+
+8.4.1 Dispatch 215
+
+OK
+
+8.4.2 The Base Keyword 217
+
+OK
+
+8.4.3 Parameter Annotations 218
+
+OK
+
+8.4.4 Properties 220
+
+OK
+
+8.4.5 Delegates. 221
+
+OK
+
+8.4.6 Operator Overloading 223
+
+OK
+
+8.5 Polymorphism And Types. 225
+
+OK
+
+8.5.1 Structs 225
+
+OK
+
+8.5.2 Type Unification 227
+
+OK
+
+8.6 Base Class Library 229
+
+OK
+
+9. BeCecil 231
+
+OK
+
+9.1 Introduction 231
+
+OK
+
+9.2 Programming Standard OO Mechanisms 232
+
+OK
+
+9.3 Syntactic Sugar 237
+
+OK
+
+9.4 A Small Example 238
+
+OK
+
+9.5 Concluding Remarks 239
+
+OK
+
+Bibliography 241
+
+OK
+
+Index 249
+
+OK
