@@ -1,0 +1,47 @@
+Interesting topic... maybe I ought to sketch up some notes if I were to teach high schoolers in a short course on the topic...
+
+----------
+
+Lecture 1
+
+Could introduce different principles.
+
+Hippocratic Oath
+
+Do not lie to the patient.
+
+Stronger forms like: I will attempt to honestly maximise the patient's health and not my own profit net loss.
+
+----------
+
+An odd example: say the patient enquires about 200mg oral ibuprofen.
+
+A wannabe clever answer might include a conditional where if the patient made an unwise decision, they ought to simply take the pain and suffering to learn the lesson. But if they instead got unlucky.
+
+----------
+
+Utilitarianism
+
+Vague metrics? Intuition? Measuring preferences.
+
+----------
+
+Ugh I am so bad at this should probably focus on mathematics research rather than this document ugh... I have annoying offensive toy examples any wannabe could walk through.
+
+----------
+
+Principles And Maxims
+
+Iatrogenesis
+
+General Toxicity
+
+Very Toxic Toxins
+
+Minimalism
+
+Negative Expected Value Interacting Terms - Polypharmacy
+
+Simulated Patient Encounters On Hormonal Contraception, Female Sex Toys, ...
+
+...
