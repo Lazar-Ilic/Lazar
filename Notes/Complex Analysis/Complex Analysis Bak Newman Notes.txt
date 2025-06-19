@@ -1,0 +1,116 @@
+Preface to the Third Edition ......................................... v
+Preface to the Second Edition ........................................ vii
+1 The Complex Numbers ......................................... 1
+Introduction .................................................... 1
+1.1 The Field of Complex Numbers .............................. 1
+1.2 The Complex Plane ......................................... 4
+1.3 The Solution of the Cubic Equation ........................... 9
+1.4 Topological Aspects of the Complex Plane ..................... 12
+1.5 Stereographic Projection; The Point at Infinity .................. 16
+Exercises ...................................................... 18
+2 Functions of the Complex Variable z ............................. 21
+Introduction .................................................... 21
+2.1 Analytic Polynomials ....................................... 21
+2.2 Power Series .............................................. 25
+2.3 Differentiability and Uniqueness of Power Series ................ 28
+Exercises ...................................................... 32
+3 Analytic Functions ............................................. 35
+3.1 Analyticity and the Cauchy-Riemann Equations ................. 35
+3.2 The Functions ez, sin z, cos z ................................. 40
+Exercises ...................................................... 41
+4 Line Integrals and Entire Functions .............................. 45
+Introduction .................................................... 45
+4.1 Properties of the Line Integral ................................ 45
+4.2 The Closed Curve Theorem for Entire Functions ................ 52
+Exercises ...................................................... 56
+5 Properties of Entire Functions ................................... 59
+5.1 The Cauchy Integral Formula and Taylor Expansion
+for Entire Functions ........................................ 59
+5.2 Liouville Theorems and the Fundamental Theorem of Algebra; The
+Gauss-Lucas Theorem ...................................... 65
+5.3 Newton’s Method and Its Application to Polynomial Equations .... 68
+Exercises ...................................................... 74
+6 Properties of Analytic Functions ................................. 77
+Introduction .................................................... 77
+6.1 The Power Series Representation for Functions Analytic inaDisc . . 77
+6.2 Analytic in an Arbitrary Open Set ............................. 81
+6.3 The Uniqueness, Mean-Value, and Maximum-Modulus Theorems;
+Critical Points and Saddle Points.............................. 82
+Exercises ...................................................... 90
+7 Further Properties of Analytic Functions ......................... 93
+7.1 The Open Mapping Theorem; Schwarz’ Lemma ................. 93
+7.2 The Converse of Cauchy’s Theorem: Morera’s Theorem; The
+Schwarz Reflection Principle and Analytic Arcs ................. 98
+Exercises ...................................................... 104
+8 Simply Connected Domains ..................................... 107
+8.1 The General Cauchy Closed Curve Theorem .................... 107
+8.2 The Analytic Function log z .................................. 113
+Exercises ...................................................... 116
+9 Isolated Singularities of an Analytic Function ..................... 117
+9.1 Classification of Isolated Singularities; Riemann’s Principle and the
+Casorati-Weierstrass Theorem ................................ 117
+9.2 Laurent Expansions......................................... 120
+Exercises ...................................................... 126
+10 The Residue Theorem ............ ..... ......................... 129
+10.1 Winding Numbers and the Cauchy Residue Theorem ............. 129
+10.2 Applications of the Residue Theorem .......................... 135
+Exercises ...................................................... 141
+11 Applications of the Residue Theorem to the Evaluation of Integrals
+and Sums ..................................................... 143
+Introduction .................................................... 143
+11.1 Evaluation of Definite Integrals by Contour Integral Techniques ... 143
+11.2 Application of Contour Integral Methods to Evaluation
+and Estimation of Sums ..................................... 151
+Exercises ...................................................... 158
+Contents xi
+12 Further Contour Integral Techniques ............................ 161
+12.1 Shifting the Contour of Integration ............................ 161
+12.2 An Entire Function Bounded in Every Direction ................. 164
+Exercises ...................................................... 167
+13 Introduction to Conformal Mapping ............................. 169
+13.1 Conformal Equivalence ..................................... 169
+13.2 Special Mappings .......................................... 175
+13.3 Schwarz-Christoffel Transformations .......................... 187
+Exercises ...................................................... 192
+14 The Riemann Mapping Theorem ................................ 195
+14.1 Conformal Mapping and Hydrodynamics....................... 195
+14.2 The Riemann Mapping Theorem .............................. 200
+14.3 Mapping Properties of Analytic Functions on
+Closed Domains ... ........................................ 204
+Exercises ...................................................... 213
+15 Maximum-Modulus Theorems
+for Unbounded Domains .......... ..... ......................... 215
+15.1 A General Maximum-Modulus Theorem ....................... 215
+15.2 The Phragmén-Lindelöf Theorem ............................. 218
+Exercises ...................................................... 223
+16 Harmonic Functions............................................ 225
+16.1 Poisson Formulae and the Dirichlet Problem .................... 225
+16.2 Liouville Theorems for Re f ; Zeroes of Entire Functions
+of Finite Order ............................................. 233
+Exercises ...................................................... 238
+17 Different Forms of Analytic Functions ............................ 241
+Introduction .................................................... 241
+17.1 Infinite Products ........................................... 241
+17.2 Analytic Functions Defined by Definite Integrals ................ 249
+17.3 Analytic Functions Defined by Dirichlet Series.................. 251
+Exercises ...................................................... 255
+18 Analytic Continuation; The Gamma
+and Zeta Functions ............................................. 257
+Introduction .................................................... 257
+18.1 Power Series .............................................. 257
+18.2 Analytic Continuation of Dirichlet Series....................... 263
+18.3 The Gamma and Zeta Functions .............................. 265
+Exercises ...................................................... 271
+xii Contents
+19 Applications to Other Areas of Mathematics ...................... 273
+Introduction .................................................... 273
+19.1 A Variation Problem ........................................ 273
+19.2 The Fourier Uniqueness Theorem ............................. 275
+19.3 An Infinite System of Equations .............................. 277
+19.4 Applications to Number Theory .............................. 278
+19.5 An Analytic Proof of The Prime Number Theorem............... 285
+Exercises ...................................................... 290
+Answers ........................................................... 291
+References......................................................... 319
+Appendices ........................................................ 321
+Index ............................................................. 325
