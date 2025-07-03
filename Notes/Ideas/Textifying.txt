@@ -1,0 +1,126 @@
+	Textifying
+	Lazar Ilic
+
+Reviewing through my private copyrighted local 538 Riddler Official Solutions.txt file got me thinking that I ought to compose a customisable C program to preprocess most .txt files. Here, I will draft some potential steps. This document has since been superceded by the usual NLP Natural Language Processing notes.
+
+"One " "1 ", " one" " 1", "you know" "" [one of the most frustrating and unempathic phrases in spoken English, makes Marc Andreessen sound awful], "mental health" "brain health", "mentally ill" "brain ill", ..., "ize" "ise", "ization" "isation", "sise" "size", "citisen" "citizen", ..., " red " " Red " [or vice versa], ..., "  " " ", "JUNKTOBEREMOVED" "", "›" ">", "−" "-", "“" """, "”" """, "‘" "'", "’" "'", "favor" "favour", [nonstandard personal preference] "something" "some thing", "another" "an other", certain "istic" to "ist" strings, "ism" " ism"|"", "logical" "logicalll", "ical " "ic ", "logicalll" "logical", " good faith" ""|" robustly trusty" [joking], " insofar as I can discern" "", "oppose assent to" "dissent" [trollzy flows], " weird" "", "sex hormone" "hormone", "disorder" ""dis-order"" [to emphasise intended dis etymology rather than desordener if intended in that way as the opposite of order], " organ" "" [I ought to practise ceasing nonstandard " organ" usage in my writing], "efficacious" "effective" ..., "pronatalist" "natalist", " hygiene" "", " clean" "", " toxic" "", " misinformation" "", " disinformation" "" [add useful quantitative information if possible], [use "dumb" rather than] " anti-intellectual" "", " retarded" " psychotic", " 'retarded'" "", " 'psychotic'" "", " deluded" "", " illusioned" "", " evolution" "", " natural" "", " intuitive" "", " good intuition" "", " intuition" "", "from a renal standpoint"|"from a renal perspective" [kidneys do not have perspectives] "renally [suboptimal]", "[primatology]" "", "[theism]" "", "[antitheistic trolling]" "", "[comedy rap art poetry]" "", "[ostensible inferred rationality|psychology|psychiatry|anti-psychology|anti-psychiatry]" "", academese|medicalse|legalese in the wrong context ought to be replaced so use "enforcement of the 4th amendment" rather than "implementation" and "a 15 minute delay between ordering British Bangladeshi food delivery" rather than "latency"... no rat' style or computer science lingo unless discussing computer science, do not promote one's worldview by asserting things to be unhealthful if you want to be attempting to teach your reader or bring up future research directions and reveal some actual actionable biologic information, "	" "",
+"
+"
+
+"
+
+
+"
+,
+"
+
+
+"
+
+"
+
+"
+,
+"
+
+
+"
+
+"
+
+"
+,
+"
+
+
+"
+
+"
+
+"
+,
+"
+
+
+"
+
+"
+
+"
+,
+"
+
+
+"
+
+"
+
+"
+,
+"
+
+
+"
+
+"
+
+"
+,
+"
+
+
+"
+
+"
+
+"
+
+----------
+
+"This Is Air" Drafting Notes Are Still Private In "Clear Pill - Lazyr"
+
+Examples Of Non Sequitur, Not Even Wrong, Wrong, Illogic, Irrationality:
+
+The coder|Large Language Model declares an array like lol[3000][3000][13] when lol[13][3000][3000] would have clearly run faster.
+
+The coder|Large Language Model runs a parallel for loop on something like:
+
+parallel for ...
+for(a=0;a<maxx;a++)
+	for(b=0;b<=a;b++)
+		for(c=0;c<=b;c++)
+			...
+
+Rather than:
+
+parallel for...
+for(a=0;a<maxx;a++)
+	for(b=a;b<maxx;b++)
+		for(c=b;c<maxx;c++)
+			...
+
+The former is problematic in scheduling because we want the smallest subcases of the loop last so that the overall runtime is minimised.
+
+The discourse surrounding over the counter zinc supplements is worth bringing up in my biologic ethics notes or an introductory course on general practise. It would seem to me like some over the counter zinc supplement sellers will point to 1 health metric that was boosted say something like total motile semen count and then try to somehow conclude like la di da di da voila this must be a healthful supplement. Nu uh. Read Peter Attia's notes on why we take supplements. Need a much more thorough review of the drug in question. Hacking around that particular metric is like... what if zinc is just egregiously carcinogenic or something? Neurotoxic? Magnesium L-Threonate and Omega-3 are considered standard by some I guess because they are seen as good or like strictly dominating strategy for most coherent volitions or targets or whatever. Very low downside.
+
+I know my mum [who was a very elite standardised test sitter] will cringe at me for writing this here. But the word "evolution" really is cringey. I dunno what the fook people are talking about. When Doctor Mike says the "evolution of misinformation" I would prefer him to instead say "the recent changes in misinformation" or something.
+
+I dunno why Riya Arora was talking about Atomic Habits or whatever when James Clear is kind of a fucking moron like I would feel comfortable hitting him with a hard r in "retard" but she is right. The truth is that bad habits are really really really bad. Not brushing teeth and flossing being one of my errors. Lifting heavy is an error too. And many others. It is interesting enough if you quiz people in the productivity space a lot of this is in some mathematical metaphoric woo zone anyways but there I guess 1% was deemed significant whereas ? 0.01% is not so different people have different thresholds of identifying what is super duper topical and relevant. I feel strongly about minimising the emissions from my clothing on my chest to my face whilst trading exempli gratia. Another big issue with James Clear ironically is that he is just not clear at all.
+
+Were I conversing with a dude like Marc and he repeatedly hit me with the "you know" I would sneer and maybe chortle at him back just repeatedly hit 'im with the "I do not know, in fact" or something.
+
+One of the worst things about Andrea Love is how some of these American lames just keep on repeatedly insisting that dietary fibre intake has now become some sort of a quasi quasi health metric or something which it is not. It is used sometimes to point at other more low level critical metrics. I am still confused as to why they think moving this value from 10g to 40g is so cancer risk reductive or whatever and am perfectly content to knowingly take my own risks at 0g per day if I want to. But I am still confused intellectually, physically, and statistically.
+
+Some internet chicks seem to have the misunderstanding of how weak their writing looks. When they write "he has bad hygiene" they look like straw. The correct writing here is more like "I was personally not a huge fan of their body odour". Hygiene by definiton well in some medical texts it will reference the risk of a viral transmission, not odours emanating off of skin organ bacteria or whatever... or "health" itself which of course comes in to MRCGP Membership of the Royal College of General Practitioners style reasonings surrounding measured measurables, proxied proxiables, a whole bunch of hacking around of parameters.
+
+I rarely do straw rationalisation. One time I was asked to defend my 3rd DEXA scan and joked that I just enjoy the user experience of seeing the dude smiling and also looking at the interior of the scanner. It was not terribly informational and was in fact a huge waste of my time and energy to see 11% body fat written down yet again.
+
+But anyways this is the thing about serum total testosteron or estradiol... they are also not health metrics! Like they are but they are pretty far removed from the underlying of memory or cognition or motivation or bone densitometry or hip fracture risk even more directly. So some people seem to be having some misunderstanding of how seriously every single physical measurement referent refers to precisely that thing and one ought to state where some correlation or causation is being discussed. hCG is an effective antidepressant but body hairs removal is not.
+
+My feeling is that American rightists should take a hard look at their own beliefs surrounding healthcare. Left kinda like European style socialised healthcare is genuinely good for the people. Have more empathy and sympathy with the middle class. Even if they make retarded decisions and form bad habits.
+
+Some people would say that Marc's tendency to say "you know" every other few words at least makes him less boring. Kinda unique sounding flow in how garbage it is. I was so pissed seeing the hypersycophant Lex Fridman annoying ass podcast host were I the host I would have hit 'im with a "I do not know, nor do I want to pretend I am following" and if he apologised for doing it repeatedly I would tell 'im straight up he is rich enough he should have hired a tutor on public speaking. One of the WOATTFs.
+
+In terms of the claims about health and skin organ appearance hacking obviously if I meet some chick with makeup it immediately puts me well in to the uncanny valley and is annoying. I want to eliminate the guesswork and then do a $10000 scan of her other organs because now her skin organ appearance is so hacked I just do not know her health or whatever. Seems to me the entire domain is bull shit.
+
+In terms of me leaking information in public I think a perfectly acceptable test of "critical thinking" would be evaluating the efficacy of covering with CostCo Reynolds Wrap Heavy Duty aluminium foil as outperforming an "air purifier" for the alleged issue of a malodourous floor. Literally every single licensed MD Medical Doctor I have asked here in the United States and this is over 5 have passed this simple test of consciousness to truths.
