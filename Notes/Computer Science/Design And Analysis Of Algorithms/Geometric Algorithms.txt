@@ -1,0 +1,161 @@
+Table of Contents
+Chapter 0. Mathematical Preliminaries
+0.1 Linear Algebra and Linear Programming
+Basic Notation
+
+
+
+Hulls, Independence, Dimension
+Eigenvalues, Positive Definite Matrices
+Vector Norms, Balls
+Matrix Norms
+
+
+
+Some Inequalities
+
+
+
+Polyhedra
+Inequality Systems
+
+
+
+Linear (Diophantine) Equations and Inequalities
+Linear Programming and Duality
+0.2 Graph Theory
+Graphs . Digraphs
+
+
+
+ Walks, Paths, Circuits, Trees
+Chapter 1. Complexity, Oracles, and Numerical Computation
+1.1 Complexity Theory: Y and .N9 . Problems
+
+
+
+ Algorithms and Turing Machines
+Encoding
+
+
+
+ Time and Space Complexity
+
+
+
+Decision Problems: The Classes 9 and .N/
+1.2 Oracles
+
+
+
+ The Running Time of Oracle Algorithms
+Transformation and Reduction
+
+
+
+,4,'g-Completeness and Related Notions
+1.3 Approximation and Computation of Numbers
+Encoding Length of Numbers
+
+
+
+ Polynomial and Strongly Polynomial Computations
+Polynomial Time Approximation of Real Numbers
+The sections and chapters marked with * are technical. We recommend that the reader
+skip these on the first reading.
+X Table of Contents
+1.4 Pivoting and Related Procedures 36Gaussian Elimination
+
+
+
+36Gram-Schmidt Orthogonalization 40The Simplex Method
+
+
+
+ 41Computation of the Hermite Normal Form 43Chapter 2. Algorithmic Aspects of Convex Sets:
+Formulation of the Problems . 462.1 Basic Algorithmic Problems for Convex Sets
+
+
+
+47* 2.2 Nondeterministic Decision Problems for Convex Sets 56Chapter 3. The Ellipsoid Method . 643.1 Geometric Background and an Informal Description 66Properties of Ellipsoids
+
+
+
+ 66Description of the Basic Ellipsoid Method 73Proofs of Some Lemmas
+
+
+
+ 76Implementation Problems and Polynomiality 80Some Examples 83* 3.2 The Central-Cut Ellipsoid Method 86* 3.3 The Shallow-Cut Ellipsoid Method 94Chapter 4. Algorithms for Convex Bodies 1024.1 Summary of Results
+
+
+
+102* 4.2 Optimization from Separation 105* 4.3 Optimization from Membership . 107* 4.4 Equivalence of the Basic Problems . 114* 4.5 Some Negative Results
+
+
+
+118* 4.6 Further Algorithmic Problems for Convex Bodies . 122* 4.7 Operations on Convex Bodies 128The Sum
+
+
+
+ 128The Convex Hull of the Union 129The Intersection
+
+
+
+129Polars, Blockers, Antiblockers 131Chapter 5. Diophantine Approximation and Basis Reduction . 1335.1 Continued Fractions
+
+
+
+XX 1345.2 Simultaneous Diophantine Approximation: Formulation of the
+Problems
+
+
+
+1385.3 Basis Reduction in Lattices 139* 5.4 More on Lattice Algorithms 150
+Table of Contents XIChapter 6. Rational Polyhedra . 1576.1 Optimization over Polyhedra: A Preview 157* 6.2 Complexity of Rational Polyhedra . 162* 6.3 Weak and Strong Problems
+
+
+
+170* 6.4 Equivalence of Strong Optimization and Separation 174* 6.5 Further Problems for Polyhedra . 181* 6.6 Strongly Polynomial Algorithms
+
+
+
+188* 6.7 Integer Programming in Bounded Dimension 192Chapter 7. Combinatorial Optimization: Some Basic Examples 1977.1 Flows and Cuts 1977.2 Arborescences 2017.3 Matching . 2037.4 Edge Coloring 2087.5 Matroids . 2107.6 Subset Sums 2187.7 Concluding Remarks 221* Chapter 8. Combinatorial Optimization: A Tour d'Horizon 225* 8.1 Blocking Hypergraphs and Polyhedra 225* 8.2 Problems on Bipartite Graphs 229* 8.3 Flows, Paths, Chains, and Cuts
+
+
+
+233* 8.4 Trees, Branchings, and Rooted and Directed Cuts 242Arborescences and Rooted Cuts
+
+
+
+242Trees and Cuts in Undirected Graphs 247Dicuts and Dijoins
+
+
+
+251* 8.5 Matchings, Odd Cuts, and Generalizations 254Matching . 255b-Matching
+
+
+
+257T-Joins and T-Cuts
+
+
+
+ 259Chinese Postmen and Traveling Salesmen 262* 8.6 Multicommodity Flows 266* Chapter 9. Stable Sets in Graphs
+
+
+
+272* 9.1 Odd Circuit Constraints and t-Perfect Graphs 273* 9.2 Clique Constraints and Perfect Graphs 276Antiblockers of Hypergraphs 284* 9.3 Orthonormal Representations 285* 9.4 Coloring Perfect Graphs
+
+
+
+296* 9.5 More Algorithmic Results on Stable Sets 299
+XII Table of Contents
+* Chapter 10. Submodular Functions 304* 10.1 Submodular Functions and Polymatroids
+
+
+
+ 304* 10.2 Algorithms for Polymatroids and Submodular Functions 308Packing Bases of a Matroid . 311* 10.3 Submodular Functions on Lattice, Intersecting, and
+Crossing Families
+
+
+
+X 313* 10.4 Odd Submodular Function Minimization and Extensions 325References 331Notation Index 347Author Index 351Subject Index 355Five Basic Problems (see inner side of the back cover)
