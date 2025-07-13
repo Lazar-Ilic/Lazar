@@ -1,0 +1,78 @@
+Trie Insert And Find: n
+	B-A-N-A-L
+		  `N-A
+	    `T-E-R
+
+Hashing: n
+	Rolling polynomial hashing for substring subvector equivalence etc.
+	
+	Random values assignment to characters|values sum of direct linear monomial terms instead of polynomial rolling hash in map for sum over substring subvector multiplicity equivalence etc.
+	Can double hash to decrease P[collision]
+
+Prefix Function/String Match: n + m
+	Prefix Function for ABACABA one obtains 0010123 is the length of the longest nonidentical prefix which is also a suffix of as[0, 1, ..., i].
+
+Strings Match: m + n + p
+
+Max Prefix Matched From Index: n
+	For ABACABA one obtains 0010301.
+
+Max Palindromes: n
+	The maximal size of palindrome centered at each index.
+
+Min Rotation: n
+	Finds the lexicographically smallest rotation.
+
+Suffix And Least Common Prefix Array: n log n
+	For example, for BAABA one obtains that the suffixes sorted lexicographically including the trivial empty suffix are:
+
+	A
+	AABA
+	ABA
+	BA
+	BAABA
+	The Suffix Arrray is 541230 indices of suffixes in original string.
+	And the Least Common Prefix Array is [0]01102 representing the mutual prefix match length between consecutive suffixes.
+
+Suffix Trie: n
+
+Checking For Reverse And Cyclic Strings:
+	Can consider usefully appending as + reverse(all(as)) or as + as, as + bs + cs, etc.
+
+Longest Common Subsequence: a * b
+	Dynamic Programming.
+
+Is Longest Common Subsequence Complete Length Of b?: a
+	Direct maximal out bash recursion.
+
+Does A Length a Interval of a+a Contain Complete b Subsequence: a * b
+	Direct maximal out bash recursion each relevant subinterval. ? Better exists.
+
+-------------
+
+Type Printer: n
+	Trie and Depth First Search through being sure to end on longest string by entering those vertices last.
+
+Number Of Strings In Set With Certain Prefix: n
+	Auxiliary to trie, size of subtree of vertex.
+
+Rareville:
+	Similar, key idea is auxiliary to trie useful.
+
+Hash Of Substring After n Preprocessing: 1
+
+Substring Range Matching:
+	Hash the dictionary. Note that the [Sum Of Lengths] <= 20000 condition implies the number of distinct lengths is <= ~sqrt[20000] ~ 140 means i.e. sorting queries on length of S followed by standard interval processing for queries.
+
+Observation On Division
+	Note that floor[n/a] can take on O[sqrt[n]]=O[n^[1/2]] distinct values over all positive integers a. As in particular the hitting set might be like some dudes in [sqrt[n],n] for a in [1,sqrt[n]] and hitting set [1,sqrt[n]] for a in [sqrt[n],n] with multiplicities.
+
+Max Palindromes Around All Indices: n
+
+Min Rotation: n
+
+String Match: n
+	To find matches of "LOL" in "LOLOL" one runs Prefix Function on string "LOL#LOLOL" and obtains 001012323 i.e. 3s map to instances and indices of occurrences map to indices of final character in original string.
+
+Longest Common Substring: mn
+	Dynamic Program max[LCS[a][b-1], LCS[a-1][b]] or 1 + LCS[a-1][b-1] if as[a] == bs[b].
