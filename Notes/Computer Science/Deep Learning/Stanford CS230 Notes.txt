@@ -1,0 +1,1259 @@
+OK
+
+Of course the way these presentations went down makes one immediately wonder about the value of dictionaries in the sense of explicitly human labelling words as "noun", "verb", "adjective" etc. I mean when we do n-grams and some sort of structure is implicitly captured. Dunno dunno the slides on this were not quite clear and precise. Whatever. Look this up later in other implementations as I soon do some Natural Language Processing tasks with like Twitter and stuff.
+
+Too much bullshit generation tasks frankly boring and dumb stoopid from my perspective but whatever I dunno maybe some of these kids do go on to work for firms where such tools will soon or are already using Artificial Intelligence in order to assist with tasks of content production.
+
+Funny of course seeing all of these "In The Style Of" shticks because like those reference points, those memes, those strings, those names, of those humans may go down forever in the history books as the critical important ones who really were the first to do something or write something down... and so it is epic and gives me chills and frissons as always to think that I myself really am a seminal historic figure in pure mathematics now that I may have carved my own space computationally I mean really radical visionary genius stuff there executing that C and enumerating that random bullshit structure object there which does not appear in the OEIS. It must be novel and exciting and thrilling and I would spin it off as important and fundamental mental foundational work really.
+
+Yeah OK audio detection of a word OK.
+
+I gotta say I am starting to think more about hypothetical datasets which could exist if only we had more people willing to just do some free pro bono generation i.e. labeling and producing more examples to feed as input to Machine Learning algorithms.
+
+I uh dunno dunno if we ever will really get AGI frankly I have a lot of love for the people who rep nontrivial credences on this outcome never occurring because like we really might just never actually crack low n count learning and generalisation. The current paradigm with massive compute may actually fail to arise to the level of True Artificial General Intelligence in the usual meaningful sense. I dunno I dunno. We may crack pure maths soon and generate some sort of a program which... like proves that in fact matter and resources we have cannot really easily be tooled into whatever target outcome some people do have in mind.
+
+OK more Loss Functions
+
+Saturating Cost
+
+Hyperparameter Tuning
+Regularisation
+Optimisation
+Convolutional Neural Networks
+
+Righto the old review again of the Chelsea Voss textual examples to spam the neural network with of course one would think the most natural approach to counter that sort of a thing would be to set up a separate network to classify input as textual in nature rather than based upon imagery and then feed that into a relevant textual parsing algorithm. Perhaps at Open Artificial Intelligence they could like do this somehow and compare claimed implicit appearing strings with real corpi so as to avoid the whole "Colbadoraodo" "Colvavocado" conundrum with their Colorado poster mixed test and image files generation examples.
+
+And so some inputs can be very slightly modified by like epsilons to troll some of these algorithms in the maths and so it is like a hash like in the real world a collision fuck up is unlikely but it can happen.
+
+HMM
+
+This course comes with fun free auxiliary readings which I am sure are extremely critical, seminal, and capital I Important so I must be like a Good tryhard studious little wannabe Stanford undergraduate here and read through all of them quite clearly, technically, and precisely, and thoroughly if needed tanking quite a lot of time to ensure that I really do understand the maths involved before moving on.
+
+EXPLAINING AND HARNESSING
+ADVERSARIAL EXAMPLES
+Ian J. Goodfellow, Jonathon Shlens & Christian Szegedy
+Google Inc., Mountain View, CA
+
+OK
+
+1 INTRODUCTION
+
+2 RELATED WORK
+
+3 THE LINEAR EXPLANATION OF ADVERSARIAL EXAMPLES
+
+4 LINEAR PERTURBATION OF NON-LINEAR MODELS
+
+5 ADVERSARIAL TRAINING OF LINEAR MODELS VERSUS WEIGHT DECAY
+
+6 ADVERSARIAL TRAINING OF DEEP NETWORKS
+
+7 DIFFERENT KINDS OF MODEL CAPACITY
+
+8 WHY DO ADVERSARIAL EXAMPLES GENERALIZE?
+
+9 ALTERNATIVE HYPOTHESES
+
+10 SUMMARY AND DISCUSSION
+
+A RUBBISH CLASS EXAMPLES
+
+Generative Adversarial Nets
+Ian J. Goodfellow, Jean Pouget-Abadie∗
+, Mehdi Mirza, Bing Xu, David Warde-Farley,
+Sherjil Ozair†
+, Aaron Courville, Yoshua Bengio‡
+Departement d’informatique et de recherche op ´ erationnelle ´
+Universite de Montr ´ eal ´
+Montreal, QC H3C 3J7
+
+1 Introduction
+
+2 Related work
+
+3 Adversarial nets
+
+4 Theoretical Results
+
+4.1 Global Optimality of pg = pdata
+
+4.2 Convergence of Algorithm 1
+
+5 Experiments
+
+6 Advantages and disadvantages
+
+7 Conclusions and future work
+
+Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial
+Network
+Christian Ledig, Lucas Theis, Ferenc Huszar, Jose Caballero, Andrew Cunningham, ´
+Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, Wenzhe Shi
+Twitter
+
+Abstract
+
+1. Introduction
+
+1.1. Related work
+
+1.1.1 Image super-resolution
+
+1.1.2 Design of convolutional neural networks
+
+1.1.3 Loss functions
+
+1.2. Contribution
+
+2. Method
+
+2.1. Adversarial network architecture
+
+2.2. Perceptual loss function
+
+2.2.1 Content loss
+
+2.2.2 Adversarial loss
+
+3. Experiments
+
+3.1. Data and similarity measures
+
+3.2. Training details and parameters
+
+3.3. Mean opinion score (MOS) testing
+
+3.4. Investigation of content loss
+
+3.5. Performance of the final networks
+
+4. Discussion and future work
+
+5. Conclusion
+
+A. Supplementary Material
+
+A.1. Performance (PSNR/time) vs. network depth
+
+A.2. Evolution of Generator during SRGAN training
+
+A.3. Mean opinion score (MOS) testing
+
+A.4. Set5 - Visual Results
+
+A.5. Set14 - Visual Results
+
+A.6. BSD100 (five random samples) - Visual Results
+
+Unpaired Image-to-Image Translation
+using Cycle-Consistent Adversarial Networks
+Jun-Yan Zhu∗ Taesung Park∗ Phillip Isola Alexei A. Efros
+Berkeley AI Research (BAIR) laboratory, UC Berkeley
+
+Abstract
+1. Introduction
+I dunno what fucking fooking Claude Monet saw as he placed his easel by the bank of the Seine bro... who knows fucking what the dude was seeing or perceiving and believing bro... listen to the kids bro I think that dude slapped some paint on some canvas and some people cared and thought it is important and valuable and worth something.
+2. Related work
+3. Formulation
+3.1. Adversarial Loss
+3.2. Cycle Consistency Loss
+3.3. Full Objective
+4. Implementation
+5. Results
+5.1. Evaluation
+5.1.1 Evaluation Metrics
+5.1.2 Baselines
+5.1.3 Comparison against baselines
+5.1.4 Analysis of the loss function
+5.1.5 Image reconstruction quality
+5.1.6 Additional results on paired datasets
+5.2. Applications
+6. Limitations and Discussion
+7. Appendix
+7.1. Training details
+7.2. Network architectures
+
+OKOKOK
+
+Right review the old One Hidden Layer Neural Network. And what precise functions can be represented by them with what precise asymptotics, computationally, and memory wise. This was all expounded upon and covered at length all of these more sort of introductory axiomatics and older papers results of course in the Carnegie Mellon University Notes which the XTX Markets firms refers to as the sort of go to first line of course exposure upon these foundational topics.
+
+One always wonders just how deep "optimisation" goes in a Stanford course versus say an actual like internship with the NVIDIA firm for example. Perhaps I ought to apply to there and see how much if they could compensate me justify for a that sort of a thing.
+
+Different activation functions again and again of course one wonders if they have these functions evaluated computationally in a Good strong way or even precomputed tight approximations in local memory I mean I dunno how the querying here works with Taylor yadda of course one could like precompute prefixes in a Taylor up to some precision.
+
+Yeah these C1M modules are kind of funny.
+
+Train/Development/Test Sets OK
+
+Adaptive Momentum Optimisation Algorithm review again for the umpteenth time or more.
+
+Problem Of Plateaus right right the objective function yadda.
+
+Miniature Batch Gradient Descent
+
+Exponentially Weighted Averages
+
+Bias Correction In Exponentially Weighted Average
+
+Gradient Descent With Momentum
+
+RMSprop
+
+Learning Rate Decay
+
+The Problem Of Local Optima
+
+CS230
+The cutting edge of AI
+For Medical Image
+Interpretation
+Pranav Rajpurkar
+
+OKOKOK
+
+Hyperparameter Tuning
+
+Tuning Process
+
+Coarse To Fine
+
+Using An Appropriate Scale To Pick Hyperparameters
+
+Picking Hyperparameters At Random
+
+Hyperparameters For Exponentially Weighted Averages
+
+Hyperparameters Tuning In Practice: Pandas Versus Caviar
+
+Re-Test Hyperparameters Occasionally
+
+Babysitting One Model
+
+Training Many Models In Parallel
+
+Normalising Activations In A Network
+
+Fitting Batch Norm Into A Neural Network
+
+Adding Batch Norm To A Network
+
+Working With Miniature Batches
+
+Implementing Gradient Descent
+
+Why Does Batch Norm Work?
+
+Learning On Shifting Input Distribution
+
+Why This Is A Problem With Neural Networks?
+
+Batch Norm As Regularisation
+
+Softmax Regression
+
+Recognising Cats, Dogs, And Baby Chicks
+
+Softmax Layer
+
+Softmax Examples
+
+Deep Learning Frameworks
+
+TensorFlow
+
+Motivating Problem
+
+Code Example
+
+Why Machine Learning Strategy?
+
+Motivating Example
+
+Orthogonalisation
+
+Television Tuning Example
+
+Chain Of Assumption In Machine Learning
+
+Single Number Evaluation Metric
+
+Using A Single Number Evaluation Metric
+
+Another Example
+
+Satisficing And Optimising Metrics
+
+Another Cat Classification Example
+
+Train/Development/Test Distributions
+
+Cat Classification Development/Test Sets
+
+True Story [Details Changed]
+
+Guideline
+
+Size Of Development Set
+
+Size Of Test Set
+
+Orthogonalisation For Cat Pictures: Anti-Porn
+
+Why Human-Level Performance?
+
+Why Compare To Human-Level Performance
+
+Avoidable Bias
+
+Bias And Variance
+
+Cat Classification Example
+
+Understanding Human-Level Performance
+
+Human-Level Error As A Proxy For Bayes Error
+
+Error Analysis Example
+
+Summary Of Bias/Variance With Human-Level Performance
+
+Surpassing Human-Level Performance
+
+Surpassing Human-Level Performance
+
+Problems Where Machine Learning Significantly Surpasses Human-Level Performance
+
+Improving Your Model Performance
+
+The Two Fundamental Assumptions Of Supervised Learning
+
+Reducing [Avoidable] Bias And Variance
+
+A guide to convolution arithmetic for deep
+learning
+Vincent Dumoulin
+1
+F and Francesco Visin
+2
+F
+†
+FMILA, Université de Montréal †AIRLab, Politecnico di Milano
+January 12, 2018
+
+OKOKOK come back to this continue plough onwards more review and review and review and literature trawling tomorrow I suppose here shortly yeah yeah Good Good Good stuff Good work solid stuff putting in more work learning more and more and more and so on and so on.
+
+Contents
+1 Introduction 5
+1.1 Discrete convolutions . . . . . . . . . . . . . . . . . . . . . . . . . 6
+1.2 Pooling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+2 Convolution arithmetic 12
+2.1 No zero padding, unit strides . . . . . . . . . . . . . . . . . . . . 12
+2.2 Zero padding, unit strides . . . . . . . . . . . . . . . . . . . . . . 13
+2.2.1 Half [same] padding . . . . . . . . . . . . . . . . . . . . . 13
+2.2.2 Full padding . . . . . . . . . . . . . . . . . . . . . . . . . 13
+2.3 No zero padding, non-unit strides . . . . . . . . . . . . . . . . . . 15
+2.4 Zero padding, non-unit strides . . . . . . . . . . . . . . . . . . . . 15
+3 Pooling arithmetic 18
+4 Transposed convolution arithmetic 19
+4.1 Convolution as a matrix operation . . . . . . . . . . . . . . . . . 20
+4.2 Transposed convolution . . . . . . . . . . . . . . . . . . . . . . . 20
+4.3 No zero padding, unit strides, transposed . . . . . . . . . . . . . 21
+4.4 Zero padding, unit strides, transposed . . . . . . . . . . . . . . . 22
+4.4.1 Half [same] padding, transposed . . . . . . . . . . . . . . 22
+4.4.2 Full padding, transposed . . . . . . . . . . . . . . . . . . . 22
+4.5 No zero padding, non-unit strides, transposed . . . . . . . . . . . 24
+4.6 Zero padding, non-unit strides, transposed . . . . . . . . . . . . . 24
+5 Miscellaneous convolutions 28
+5.1 Dilated convolutions . . . . . . . . . . . . . . . . . . . . . . . . . 28
+
+Right maximum pooling.
+
+Yeah yeah yeah OK come back to this tomorrow I think and maybe do some predictions here shortly ideate freely some more about some other half interesting topics try and see if I can say anything interesting and nontrivial about them.
+
+Is the deconvolution layer the same as a convolutional layer?
+A note on Real­Time Single Image and Video Super­Resolution Using an Efficient Sub­Pixel
+Convolutional Neural Network.
+Wenzhe Shi, Jose Caballero, Lucas Theis, Ferenc Huszar, Andrew Aitken,
+Alykhan Tejani, Johannes Totz, Christian Ledig, Zehan Wang
+Twitter, Inc.
+
+Section 1: Transposed convolution and sub­pixel convolutional layers
+
+Section 2: Deconvolution layer vs Convolution in LR
+
+Section 3: What does this mean?
+
+Visualizing and Understanding
+Convolutional Networks
+Matthew D. Zeiler and Rob Fergus
+Dept. of Computer Science,
+New York University, USA
+{zeiler,fergus}@cs.nyu.edu
+
+1 Introduction
+
+1.1 Related Work
+
+2 Approach
+
+2.1 Visualization with a Deconvnet
+
+3 Training Details
+
+4 Convnet Visualization
+
+4.1 Architecture Selection
+
+4.2 Occlusion Sensitivity
+
+5 Experiments
+5.1 ImageNet 2012
+
+5.2 Feature Generalization
+
+5.3 Feature Analysis
+
+6 Discussion
+
+Deep Inside Convolutional Networks: Visualising
+Image Classification Models and Saliency Maps
+Karen Simonyan Andrea Vedaldi Andrew Zisserman
+Visual Geometry Group, University of Oxford
+{karen,vedaldi,az}@robots.ox.ac.uk
+
+1 Introduction
+
+2 Class Model Visualisation
+
+3 Image-Specific Class Saliency Visualisation
+
+3.1 Class Saliency Extraction
+
+3.2 Weakly Supervised Object Localisation
+
+4 Relation to Deconvolutional Networks
+
+5 Conclusion
+
+Understanding Neural Networks Through Deep Visualization
+Jason Yosinski YOSINSKI@CS.CORNELL.EDU
+Cornell University
+Jeff Clune JEFFCLUNE@UWYO.EDU
+Anh Nguyen ANGUYEN8@UWYO.EDU
+University of Wyoming
+Thomas Fuchs FUCHS@CALTECH.EDU
+Jet Propulsion Laboratory, California Institute of Technology
+Hod Lipson HOD.LIPSON@CORNELL.EDU
+
+Abstract
+
+1. Introduction
+
+2. Visualizing Live Convnet Activations
+
+3. Visualizing via Regularized Optimization
+
+4. Discussion and Conclusion
+
+Supplementary Information for:
+Understanding Neural Networks Through Deep Visualization
+Jason Yosinski YOSINSKI@CS.CORNELL.EDU
+Jeff Clune JEFFCLUNE@UWYO.EDU
+Anh Nguyen ANGUYEN8@UWYO.EDU
+Thomas Fuchs FUCHS@CALTECH.EDU
+Hod Lipson HOD.LIPSON@CORNELL.EDU
+
+S1. Why are gradient optimized images
+dominated by high frequencies?
+
+S2. Conv Layer Montages
+
+Learning Deep Features for Discriminative Localization
+Bolei Zhou, Aditya Khosla, Agata Lapedriza, Aude Oliva, Antonio Torralba
+Computer Science and Artificial Intelligence Laboratory, MIT
+{bzhou,khosla,agata,oliva,torralba}@csail.mit.edu
+
+Abstract
+
+1. Introduction
+
+1.1. Related Work
+
+2. Class Activation Mapping
+
+3. Weakly-supervised Object Localization
+
+3.1. Setup
+
+3.2. Results
+
+4. Deep Features for Generic Localization
+
+4.1. Fine-grained Recognition
+
+4.2. Pattern Discovery
+
+5. Visualizing Class-Specific Units
+
+6. Conclusion
+
+Convolutional	
+Neural	Networks
+Computer	vision
+
+Computer Vision Problems
+
+Deep Learning On Large Images
+
+Eh
+
+Use open source code
+• Use architectures of networks published in the literature
+• Use pretrained models and fine-tune on your dataset
+• Use open source implementations if possible
+
+OKOKOK
+
+Of course here we gotta read through all of the past Midterm solutions this is the fun fun fun edjamaschukational part.
+
+Very very very fun nice solutions sets very instructive. Good Good Good Good stuff. Sharpen up any sort of miscomprehensions one had and I can look for more such exam solutions to reinforce the key ideas prior to interviews.
+
+Workera Artificial Intelligence Assessment
+
+Failed to load for me gee Rest In Peace might go and try to find some other mock Machine Learning interviews rounds here shortly to practice and prepare see if I can snag some like real rounds soon.
+
+Interpretability of Neural
+Networks
+Kian Katanforoosh
+
+I. A. Interpreting and visualizing Neural Networks with saliency maps
+
+I. B. Interpreting and visualizing Neural Networks with occlusion sensitivity
+
+I. B. Interpreting and visualizing Neural Networks with occlusion sensitivity
+
+III. C. Interpreting NNs using class activation maps
+
+III. C. Interpreting NNs using class activation maps
+
+III. C. Interpreting NNs using class activation maps
+
+II. A. Visualizing NNs from the inside using gradient ascent (class model visualization)
+
+II. B. Visualizing NNs from the inside using dataset search
+
+II. B. Visualizing NNs from the inside using dataset search
+
+II. C. The deconvolution and its applications
+
+III. A. Interpreting NNs using deconvolutions
+
+II. C. The deconvolution and its applications
+
+III. Deep Dream: going deeper in NNs
+
+III. Deep Dream
+
+Object	Detection
+Object	
+localization
+
+What are localization and detection?
+
+Classification with localization
+
+Defining the target label y
+
+Object	Detection
+Landmark	
+detection
+
+Landmark detection
+
+Object	Detection
+Object	
+detection
+
+Car detection example
+
+Sliding windows detection
+
+Object	Detection
+Convolutional	
+implementation	of	
+sliding	windows
+
+Turning FC layer into convolutional layers
+
+Convolution implementation of sliding windows
+
+Object	Detection
+Bounding	box	
+predictions
+
+Output accurate bounding boxes
+
+YOLO algorithm
+
+Specify the bounding boxes
+
+Object	Detection
+Intersection	
+over	union
+
+Evaluating object localization
+
+Object	Detection
+Non-max	
+suppression
+
+Non-max suppression example
+
+Object	Detection
+Anchor	boxes
+
+Overlapping objects:
+
+Anchor box algorithm
+
+Anchor box example
+
+Object	Detection
+Putting	it	together:
+YOLO	algorithm
+
+Training
+
+Making predictions
+
+Outputting the non-max supressed outputs
+
+Object	Detection
+Region	proposals
+(Optional)
+
+Region proposal: R-CNN
+
+Faster algorithms
+
+Convolutional
+Neural Networks
+
+Semantic segmentation
+with U-Net
+
+Object Detection vs. Semantic Segmentation
+
+Motivation for U-Net
+
+Per-pixel class labels
+
+Deep Learning for Semantic Segmentation
+
+Transpose Convolution
+
+Deep Learning for Semantic Segmentation
+
+U-Net
+
+Face	recognition
+What	is	face	
+recognition?
+
+Face verification vs. face recognition
+
+Face	recognition
+One-shot	learning
+
+One-shot learning
+
+Learning a “similarity” function
+
+Face	recognition
+Siamese	network
+
+Goal of learning
+
+Face	recognition
+Triplet	loss
+
+Learning Objective
+
+Loss function
+
+Choosing the triplets A,P,N
+
+Training set using triplet loss
+
+Face	recognition
+Face	verification	and	
+binary	classification
+
+Learning the similarity function
+
+Face verification supervised learning
+
+Neural	Style	
+Transfer
+
+What	is	neural	style	
+transfer?
+
+Neural style transfer
+
+Neural	Style	
+Transfer
+
+What	are	deep
+ConvNets learning?
+
+Visualizing what a deep network is learning
+
+Visualizing deep layers
+
+Visualizing deep layers: Layer 1
+
+Visualizing deep layers: Layer 2
+
+Visualizing deep layers: Layer 3
+
+Visualizing deep layers: Layer 4
+
+Visualizing deep layers: Layer 5
+
+Neural	Style	
+Transfer
+
+Cost	function
+
+Neural style transfer cost function
+
+Find the generated image G
+
+Neural	Style	
+Transfer
+
+Content	cost	
+function
+
+Content cost function
+
+Neural	Style	
+Transfer
+
+Style	cost	function
+
+Meaning of the "style" of an image
+
+Intuition about style of an image
+
+Style matrix
+
+Style cost function
+
+Convolutional	
+Networks	in	1D	or	3D
+
+1D	and	3D	
+generalizations	of	
+models
+
+Convolutions in 2D and 1D
+
+3D	data
+
+3D convolution
+
+Dropout: A Simple Way to Prevent Neural Networks from
+Overfitting
+Nitish Srivastava nitish@cs.toronto.edu
+Geoffrey Hinton hinton@cs.toronto.edu
+Alex Krizhevsky kriz@cs.toronto.edu
+Ilya Sutskever ilya@cs.toronto.edu
+Ruslan Salakhutdinov rsalakhu@cs.toronto.edu
+Department of Computer Science
+University of Toronto
+10 Kings College Road, Rm 3302
+Toronto, Ontario, M5S 3G4, Canada.
+Editor: Yoshua Bengio
+
+Abstract
+
+1. Introduction
+
+2. Motivation
+
+3. Related Work
+
+4. Model Description
+
+5. Learning Dropout Nets
+
+6. Experimental Results
+
+7. Salient Features
+
+8. Dropout Restricted Boltzmann Machines
+
+9. Marginalising Dropout
+
+10. Multiplicative Gaussian Noise
+
+11. Conclusion
+
+Appendix A. A Practical Guide for Training Dropout Networks
+
+Appendix B. Detailed Description of Experiments and Data Sets
+
+Densely Connected Convolutional Networks
+
+Gao Huang∗
+Cornell University
+gh349@cornell.edu
+Zhuang Liu∗
+Tsinghua University
+liuzhuang13@mails.tsinghua.edu.cn
+Laurens van der Maaten
+Facebook AI Research
+lvdmaaten@fb.com
+Kilian Q. Weinberger
+Cornell University
+kqw4@cornell.edu
+
+Abstract
+
+1. Introduction
+
+2. Related Work
+
+3. DenseNets
+
+4. Experiments
+
+5. Discussion
+
+6. Conclusion
+
+Recurrent	Neural	
+Networks
+Why	sequence	
+models?
+
+Examples of sequence data
+
+Recurrent	Neural	
+Networks
+Notation
+
+Motivating example
+
+Representing words
+
+Recurrent	Neural	
+Networks
+Recurrent	Neural	
+Network	Model
+
+Why not a standard network?
+
+Recurrent Neural Networks
+
+Forward Propagation
+
+Simplified RNN notation
+
+Recurrent	Neural	
+Networks
+Backpropagation	
+through	time
+
+Forward propagation and backpropagation
+
+Recurrent	Neural	
+Networks
+Different	types	
+of	RNNs
+
+Examples of sequence data
+
+Examples of RNN architectures
+
+Summary of RNN types
+
+Recurrent	Neural	
+Networks
+Language	model	and	
+sequence	generation
+
+What is language modelling?
+
+Language modelling with an RNN
+
+RNN model
+
+Recurrent	Neural	
+Networks
+Sampling	novel	
+sequences
+
+Sampling a sequence from a trained RNN
+
+Character-level language model
+
+Sequence generation
+
+Recurrent	Neural	
+Networks
+Vanishing	gradients	
+with	RNNs
+
+Vanishing gradients with RNNs
+
+Recurrent	Neural	
+Networks
+Gated	Recurrent	
+Unit	(GRU)
+
+RNN unit
+
+GRU (simplified)
+
+Full GRU
+
+Recurrent	Neural	
+Networks
+LSTM	(long	short	
+term	memory)	unit
+
+GRU and LSTM
+
+LSTM units
+
+LSTM in pictures
+
+Recurrent	Neural	
+Networks
+Bidirectional	RNN
+
+Getting information from the future
+
+Bidirectional RNN (BRNN)
+
+Recurrent	Neural	
+Networks
+Deep	RNNs
+
+Deep RNN example
+
+CS230: Lecture 9
+Deep Reinforcement Learning
+Kian Katanforoosh
+
+I. Motivation
+
+II. Recycling is good: an introduction to RL
+
+III. Deep Q-Learning
+
+Recap’
+
+Today’s outline
+
+IV. Deep Q-Learning application: Breakout (Atari)
+
+Recap’ (+ preprocessing + terminal state)
+
+IV - DQN training challenges
+
+Recap’ (+ experience replay)
+
+Exploration vs. Exploitation
+
+Recap’ (+ epsilon greedy action)
+
+Overall recap’
+
+Results
+
+Other Atari games
+
+Difference between with and without human knowledge
+
+Today’s outline
+
+VI - Advanced topics
+
+Announcement
+
+LETTER
+doi:10.1038/nature14236
+Human-level control through deep reinforcement
+learning
+Volodymyr Mnih1
+*
+, Koray Kavukcuoglu1
+*
+, David Silver
+1
+*
+, Andrei A. Rusu1
+, Joel Veness
+1
+, Marc G. Bellemare1
+, Alex Graves
+1
+,
+Martin Riedmiller
+1
+, Andreas K. Fidjeland1
+, Georg Ostrovski
+1
+, Stig Petersen1
+, Charles Beattie1
+, Amir Sadik1
+, Ioannis Antonoglou1
+,
+Helen King1
+, Dharshan Kumaran1
+, Daan Wierstra1
+, Shane Legg1 & Demis Hassabis
+
+OKOKOK
+
+Mastering the game of Go without human knowledge
+David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, Lucas Baker, Matthew Lai, Adrian Bolton, Yutian Chen, Timothy Lillicrap, Fan Hui, Laurent Sifre, George van den Driessche, Thore Graepel & Demis Hassabis 
+
+OKOKOK
+
+NLP	and	Word	
+Embeddings
+Word	representation
+
+Featurised representation: word embedding
+
+Visualising word embeddings
+
+NLP	and	Word	
+Embeddings
+Using	word	
+embeddings
+
+Named entity recognition example
+
+Transfer learning and word embeddings
+
+Relation to face encoding
+
+NLP	and	Word	
+Embeddings
+Properties	of	word	
+embeddings
+
+Analogies
+
+Analogies using word vectors
+
+Cosine similarity
+
+NLP	and	Word	
+Embeddings
+Embedding	matrix
+
+NLP	and	Word	
+Embeddings
+Learning	word	
+embeddings
+
+Neural language model
+
+Other context/target pairs
+
+NLP	and	Word	
+Embeddings
+Word2Vec
+
+Skip-grams
+
+Model
+
+Problems with softmax classification
+
+NLP	and	Word	
+Embeddings
+Negative	sampling
+
+Defining a new learning problem
+
+Model
+
+Selecting negative examples
+
+NLP	and	Word	
+Embeddings
+GloVe word	vectors
+
+Model
+
+A note on the featurization view of word
+embeddings
+
+NLP	and	Word	
+Embeddings
+Sentiment	
+classification
+
+Sentiment classification problem
+
+Simple sentiment classification model
+
+RNN for sentiment classification
+
+NLP	and	Word	
+Embeddings
+Debiasing	word	
+embeddings
+
+The problem of bias in word embeddings
+
+Addressing bias in word embeddings
+
+Sequence	to	
+sequence	models
+Basic	models
+
+Image captioning
+
+Sequence	to	
+sequence	models
+Picking	the	most	
+likely	sentence
+
+Machine translation as building a conditional
+language model
+
+Finding the most likely translation
+
+Why not a greedy search?
+
+Sequence	to	
+sequence	models
+Beam	search
+
+Beam search algorithm
+
+Beam search (B = 3)
+
+Sequence	to	
+sequence	models
+Refinements	to	
+beam	search
+
+Length normalization
+
+Beam search discussion
+
+Sequence	to	
+sequence	models
+Error	analysis	on	
+beam	search
+
+Example
+
+Error analysis on beam search
+
+Error analysis process
+
+Sequence	to	
+sequence	models
+Bleu	score
+(optional)
+
+Evaluating machine translation
+
+Bleu score on bigrams
+
+Bleu score on unigrams
+
+Bleu details
+
+Sequence	to	
+sequence	models
+Attention	model	
+intuition
+
+The problem of long sequences
+
+Attention model intuition
+
+Sequence	to	
+sequence	models
+Attention	model
+
+Computing attention +",,,.$
+
+Attention examples
+
+Audio	data
+Speech	recognition
+
+Speech recognition problem
+
+Attention model for speech recognition
+
+CTC cost for speech recognition
+
+Audio	data
+Trigger	word	
+detection
+
+What is trigger word detection?
+
+Trigger word detection algorithm
+
+Conclusion
+Summary	and	
+thank	you
+
+Specialization outline
+
+Deep learning is a super power
+
+CS230: Lecture 10
+Class wrap-up
+Andrew Ng, Kian Katanforoosh
+
+How to keep up with the latest and greatest?
+
+Precision Upskilling Cycle
+
+Software as a job category is mature.
+
+Artificial Intelligence as a job category is maturing as we speak.
+
+What’s next?
+Classes at Stanford
+Natural Language Processing
+Computer Vision
+CS 131: Computer Vision: Foundations and Applications
+CS 205L: Continuous Mathematical Methods with an Emphasis on Machine Learning
+CS 228: Probabilistic Graphical Models: Principles and Techniques
+CS 231N: Convolutional Neural Networks for Visual Recognition
+CS 236: Deep Generative Models
+Others:
+CS 337: AI-Assisted Care (MED 277)
+CS 348K: Visual Computing Systems
+CS 229: Machine Learning (STATS 229)
+CS 129: Applied Machine Learning
+CS 224N: Natural Language Processing with Deep Learning (LINGUIST 284)
+CS 224U: Natural Language Understanding (LINGUIST 188, LINGUIST 288)
+CS 273B: Deep Learning in Genomics and Biomedicine (BIODS 237, BIOMEDIN 273B, GENE 236)
+CS 124: From Languages to Information (LINGUIST 180, LINGUIST 280)
+CS 276: Information Retrieval and Web Search (LINGUIST 286)
+CS 234: Reinforcement Learning
+AI for Healthcare Bootcamp
+AI for Climate Bootcamp
+CS 221: Artificial Intelligence: Principles and Techniques
+CS 217: Hardware Accelerators for Machine Learning
+CS 329S: Machine Learning Systems Design
+
+OKOKOK see what I do here now.
