@@ -1,0 +1,21 @@
+    in>>a>>b>>c>>d;
+    graph.clear();
+    graph=vector<vector<edge>>(a+1);
+    num=a+1;
+    edge aedge;
+    for(e=0;e<d;e++){
+        in>>f;
+        aedge.w=0;
+        aedge.to=f;
+        graph[0].add(aedge);
+    }
+    for(e=0;e<b;e++){
+        in>>f>>g>>h;
+        aedge.w=h;
+        aedge.to=g;
+        graph[f].add(aedge);
+        aedge.to=f;
+        graph[g].add(aedge);
+    }
+    al=MST();
+    out<<al+L(c)*(a-d)<<nl;
