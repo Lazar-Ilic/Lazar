@@ -1,0 +1,65 @@
+Set Insert, Find, Delete: log n
+
+Ordered Set Insert, Find, Delete, Find By Order, Order Of Key: log n
+
+Array Order Statistic: n
+	Compute ith smallest element in expected O[n] time using selection rank pivot. Guaranteed O[n] exists, see CLRS.
+
+Extremum On Unimodal Function: log n
+	Ternary search.
+	With information about m extrema one can search for an extremum and split recurse to identify all extrema.
+	This can also be done in general in n-dimensions.
+
+Query Interval Processing On Static Array: n^[3/2]
+	Sort queries into n^[1/2] blocks on left and inside blocks on right and two pointers through.
+
+Monotone Queue
+	Deque.
+
+2 Pointers
+	And many pointers for a variety of tasks auxiliaries.
+
+Index Compression
+	If for example inputs have some numbers in a large range but there are few of them one can form a bijective mapping into a more tenable range for processing.
+
+Prefix Sums And Various Deltas Or Derivatives Auxiliary Vectors
+	Ensure to not overflow with long longs and take modulo p at desired frequency to avoid overflow.
+
+Sorting n ~ 300000 Distinct Integers In [0,1000000]:
+	For example we may simply use a bitset here rather than call sort(all(av)). Also, in any task where we are repeatedly searching say an interval like [av[a]-b,av[a]+b] and [-b,b] is a relatively small sized interval and certain other conditions hold e.g. we may simply initiate a relevant Vector Of Vector Of Integers of size [2b+1] and process through in loop deleting and inserting as needed rather than utilising native sorts thereby reducing runtimes by a log[n] multiplicative factor. Sometimes 1 deque of size [2b+1] works by sliding the window. It is extremely seriously critical to nail all such O[n * log[n]] to O[n] factors in-round including sorting and 2-pointers rather than repeatedly sorting or searching. Low-Latency C++ Software Engineer is about Low-Latency.
+
+-------------
+
+Number Of Distinct Values: n
+	Set size. Hash set size. For e.g. ints in a small range binary appearance vector. Or robust O[n log n] with a set.
+
+Queries Number Of Distinct Values In Each Range:
+	mos interval handling with frequency map and counter.
+
+Compute Sum Of Minima Of All a x b Submatrices: nm
+	Monotone queue across rows then down columns.
+
+Sparse Table For a x b Range Submatrix Extremum Queries: m * n
+	Range Submatrix Extremum Query: 1
+
+Sparse Table: m * n * log[m] * log[n]
+	Range Submatrix Extremum Query: 1
+
+Maximum Value c Such That There Exists An a x b Submatrix With All Values >=c: n * m * log[min[m,n]]
+	Threshold binary search for c. In particular, for each c value construct a binary 1|0 m x n matrix representing whether or not an element cleared the threshold c. Then execute a simple rows prefix sums through followed by a column prefix sums to generate the simple O[1] query structure needed to query each a x b submatrix from the overall m x n matrix to check if the sum is == a * b which determines if c was a realisable potential threshold value.
+
+Discover Property Of Hidden Underlying Permutation
+	2n Queries Suggests Triangles, K3s, K5s, Sliding Storing A Pair, etc.
+	Consider various properties of small sets or the overall underlying trees and graphs structures. Monovariants. Invariants. Extrema. Directed graphs. Directed Acyclic Graphs. Overall depths of search trees. Consider if revelatory properties can emerge from merging relatively distinct disjoint queries ab initio in 2 or 3 or more phases of searching. Consider the precise upper bound limit in number of queries for worst-case runtime query count analysis. Is there an easy way in O[n] or O[n * log[n]] to discover relevant special elements like 0, 1, or n which can help in a further step or phase of the search?
+
+Repeatedly Apply f To Minimum Value Of Array n Times, Thereby Increasing It
+	If we begin with a list of values and imagine applying this operation until completion then note that at the final step some element with value a gets increased. At which point the entire process is reduced to discovering this threshold value a via binary search say once producing upper and lower bounds and then for each element we can increase its value to >= a and then again pass through for a final iteration bumping up some of those elements with evaluation precisely == a.
+
+Compute Subset With Minimal Sum Satisfying Property
+	Can sort subsets in order of sum and process through in that order, halting immediately upon satisfying the property.
+
+Repeatedly Searching Interval Or Overlapping Intervals In O[n * log [n]]
+	Can plausibly be done instead with a 1 or 2 pointers approach in O[n].
+
+Range Interval Additions Followed By Outputting: n
+	Rather than utilising a lazy segment tree one can simply use a Delta vector transformation e.g. to represent [0,2,3,3,3,1,0] we use [0,+2,+1,0,0,-2,-1] as the underlying Deltas and can update each of those range intervals in simple O[1]. And this also works on an underlying index compression scheme if needed.

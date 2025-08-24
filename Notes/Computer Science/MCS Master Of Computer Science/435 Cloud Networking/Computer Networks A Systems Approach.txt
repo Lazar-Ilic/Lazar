@@ -1,0 +1,1001 @@
+CONTENTS
+
+
+
+Foreword vii
+
+
+
+Foreword to the First Edition ix
+
+
+
+Preface xix
+
+
+
+1 Foundation
+
+
+
+Problem: Building a Network 2
+
+
+
+1.1 Applications 4
+
+
+
+1.2 Requirements 6
+
+
+
+1.2.1 Connectivity 7
+
+
+
+1.2.2 Cost-Effective Resource Sharing 10
+
+
+
+1.2.3 Support for Common Services 15
+
+
+
+1.3 Network Architecture 19
+
+
+
+1.3.1 Layering and Protocols 20
+
+
+
+1.3.2 OSI Architecture 26
+
+
+
+1.3.3 Internet Architecture 27
+
+
+
+1.4 Implementing Network Software 30
+
+
+
+1.4.1 Application Programming Interface (Sockets) 31
+
+
+
+1.4.2 Example Application 33
+
+
+
+1.4.3 Protocol Implementation Issues 36
+
+
+
+1.5 Performance 40
+
+
+
+1.5.1 Bandwidth and Latency 40
+
+
+
+1.5.2 Delay × Bandwidth Product 44
+
+
+
+1.5.3 High-Speed Networks 46
+
+
+
+1.5.4 Application Performance Needs 48
+
+
+
+1.6 Summary 50
+
+
+
+Open Issue: Ubiquitous Networking 51
+
+
+
+Further Reading 52
+
+
+
+Exercises 55
+
+
+
+xii Contents
+
+
+
+2 Direct Link Networks
+
+
+
+Problem: Physically Connecting Hosts 64
+
+
+
+2.1 Hardware Building Blocks 66
+
+
+
+2.1.1 Nodes 66
+
+
+
+2.1.2 Links 67
+
+
+
+2.2 Encoding (NRZ, NRZI, Manchester, 4B/5B) 75
+
+
+
+2.3 Framing 79
+
+
+
+2.3.1 Byte-Oriented Protocols (BISYNC, PPP, DDCMP) 80
+
+
+
+2.3.2 Bit-Oriented Protocols (HDLC) 83
+
+
+
+2.3.3 Clock-Based Framing (SONET) 84
+
+
+
+2.4 Error Detection 88
+
+
+
+2.4.1 Two-Dimensional Parity 89
+
+
+
+2.4.2 Internet Checksum Algorithm 90
+
+
+
+2.4.3 Cyclic Redundancy Check 92
+
+
+
+2.5 Reliable Transmission 97
+
+
+
+2.5.1 Stop-and-Wait 98
+
+
+
+2.5.2 Sliding Window 101
+
+
+
+2.5.3 Concurrent Logical Channels 110
+
+
+
+2.6 Ethernet (802.3) 111
+
+
+
+2.6.1 Physical Properties 112
+
+
+
+2.6.2 Access Protocol 114
+
+
+
+2.6.3 Experience with Ethernet 119
+
+
+
+2.7 Token Rings (802.5, FDDI) 120
+
+
+
+2.7.1 Physical Properties 121
+
+
+
+2.7.2 Token Ring Media Access Control 122
+
+
+
+2.7.3 Token Ring Maintenance 125
+
+
+
+2.7.4 Frame Format 126
+
+
+
+2.7.5 FDDI 127
+
+
+
+2.8 Wireless (802.11) 131
+
+
+
+2.8.1 Physical Properties 132
+
+
+
+2.8.2 Collision Avoidance 133
+
+
+
+2.8.3 Distribution System 134
+
+
+
+2.8.4 Frame Format 136
+
+
+
+2.9 Network Adaptors 137
+
+
+
+2.9.1 Components 138
+
+
+
+2.9.2 View from the Host 139
+
+
+
+2.9.3 Memory Bottleneck 144
+
+
+
+2.10 Summary 146
+
+
+
+Contents xiii
+
+
+
+Open Issue: Does It Belong in Hardware? 147
+
+
+
+Further Reading 148
+
+
+
+Exercises 150
+
+
+
+3 Packet Switching
+
+
+
+Problem: Not All Networks Are Directly Connected 164
+
+
+
+3.1 Switching and Forwarding 166
+
+
+
+3.1.1 Datagrams 168
+
+
+
+3.1.2 Virtual Circuit Switching 170
+
+
+
+3.1.3 Source Routing 177
+
+
+
+3.2 Bridges and LAN Switches 180
+
+
+
+3.2.1 Learning Bridges 181
+
+
+
+3.2.2 Spanning Tree Algorithm 185
+
+
+
+3.2.3 Broadcast and Multicast 189
+
+
+
+3.2.4 Limitations of Bridges 190
+
+
+
+3.3 Cell Switching (ATM) 192
+
+
+
+3.3.1 Cells 193
+
+
+
+3.3.2 Segmentation and Reassembly 198
+
+
+
+3.3.3 Virtual Paths 203
+
+
+
+3.3.4 Physical Layers for ATM 204
+
+
+
+3.3.5 ATM in the LAN 205
+
+
+
+3.4 Implementation and Performance 210
+
+
+
+3.4.1 Ports 212
+
+
+
+3.4.2 Fabrics 216
+
+
+
+3.5 Summary 220
+
+
+
+Open Issue: The Future of ATM 221
+
+
+
+Further Reading 221
+
+
+
+Exercises 223
+
+
+
+4 Internetworking
+
+
+
+Problem: There Is More Than One Network 234
+
+
+
+4.1 Simple Internetworking (IP) 236
+
+
+
+4.1.1 What Is an Internetwork? 236
+
+
+
+4.1.2 Service Model 238
+
+
+
+4.1.3 Global Addresses 250
+
+
+
+4.1.4 Datagram Forwarding in IP 252
+
+
+
+4.1.5 Address Translation (ARP) 258
+
+
+
+4.1.6 Host Configuration (DHCP) 263
+
+
+
+xiv Contents
+
+
+
+4.1.7 Error Reporting (ICMP) 266
+
+
+
+4.1.8 Virtual Networks and Tunnels 267
+
+
+
+4.2 Routing 271
+
+
+
+4.2.1 Network as a Graph 272
+
+
+
+4.2.2 Distance Vector (RIP) 274
+
+
+
+4.2.3 Link State (OSPF) 282
+
+
+
+4.2.4 Metrics 291
+
+
+
+4.2.5 Routing for Mobile Hosts 295
+
+
+
+4.3 Global Internet 299
+
+
+
+4.3.1 Subnetting 301
+
+
+
+4.3.2 Classless Routing (CIDR) 306
+
+
+
+4.3.3 Interdomain Routing (BGP) 308
+
+
+
+4.3.4 Routing Areas 316
+
+
+
+4.3.5 IP Version 6 (IPv6) 318
+
+
+
+4.4 Multicast 331
+
+
+
+4.4.1 Link-State Multicast 332
+
+
+
+4.4.2 Distance-Vector Multicast 332
+
+
+
+4.4.3 Protocol Independent Multicast (PIM) 336
+
+
+
+4.5 Multiprotocol Label Switching (MPLS) 340
+
+
+
+4.5.1 Destination-Based Forwarding 340
+
+
+
+4.5.2 Explicit Routing 346
+
+
+
+4.5.3 Virtual Private Networks and Tunnels 348
+
+
+
+4.6 Summary 352
+
+
+
+Open Issue: Deployment of IPV6 353
+
+
+
+Further Reading 354
+
+
+
+Exercises 355
+
+
+
+5 End-to-End Protocols
+
+
+
+Problem: Getting Processess to Communicate 374
+
+
+
+5.1 Simple Demultiplexer (UDP) 376
+
+
+
+5.2 Reliable Byte Stream (TCP) 378
+
+
+
+5.2.1 End-to-End Issues 379
+
+
+
+5.2.2 Segment Format 382
+
+
+
+5.2.3 Connection Establishment and Termination 384
+
+
+
+5.2.4 Sliding Window Revisited 389
+
+
+
+5.2.5 Triggering Transmission 395
+
+
+
+5.2.6 Adaptive Retransmission 397
+
+
+
+5.2.7 Record Boundaries 401
+
+
+
+Contents xv
+
+
+
+5.2.8 TCP Extensions 402
+
+
+
+5.2.9 Alternative Design Choices 403
+
+
+
+5.3 Remote Procedure Call 405
+
+
+
+5.3.1 Bulk Transfer (BLAST) 408
+
+
+
+5.3.2 Request/Reply (CHAN) 414
+
+
+
+5.3.3 Dispatcher (SELECT) 423
+
+
+
+5.3.4 Putting It All Together (SunRPC, DCE) 424
+
+
+
+5.4 Performance 431
+
+
+
+5.5 Summary 434
+
+
+
+Open Issue: Application-Specific Protocols 435
+
+
+
+Further Reading 436
+
+
+
+Exercises 437
+
+
+
+6 Congestion Control and Resource Allocation
+
+
+
+Problem: Allocating Resources 450
+
+
+
+6.1 Issues in Resource Allocation 452
+
+
+
+6.1.1 Network Model 452
+
+
+
+6.1.2 Taxonomy 456
+
+
+
+6.1.3 Evaluation Criteria 458
+
+
+
+6.2 Queuing Disciplines 461
+
+
+
+6.2.1 FIFO 462
+
+
+
+6.2.2 Fair Queuing 463
+
+
+
+6.3 TCP Congestion Control 468
+
+
+
+6.3.1 Additive Increase/Multiplicative Decrease 468
+
+
+
+6.3.2 Slow Start 471
+
+
+
+6.3.3 Fast Retransmit and Fast Recovery 476
+
+
+
+6.4 Congestion-Avoidance Mechanisms 478
+
+
+
+6.4.1 DECbit 478
+
+
+
+6.4.2 Random Early Detection (RED) 480
+
+
+
+6.4.3 Source-Based Congestion Avoidance 486
+
+
+
+6.5 Quality of Service 492
+
+
+
+6.5.1 Application Requirements 493
+
+
+
+6.5.2 Integrated Services (RSVP) 499
+
+
+
+6.5.3 Differentiated Services (EF, AF) 509
+
+
+
+6.5.4 ATM Quality of Service 513
+
+
+
+6.5.5 Equation-Based Congestion Control 517
+
+
+
+6.6 Summary 518
+
+
+
+xvi Contents
+
+
+
+Open Issue: Inside versus Outside the Network 519
+
+
+
+Further Reading 520
+
+
+
+Exercises 521
+
+
+
+7 End-to-End Data
+
+
+
+Problem: What Do We Do with the Data? 534
+
+
+
+7.1 Presentation Formatting 536
+
+
+
+7.1.1 Taxonomy 537
+
+
+
+7.1.2 Examples (XDR, ASN.1, NDR) 541
+
+
+
+7.1.3 Markup Languages (XML) 545
+
+
+
+7.2 Data Compression 548
+
+
+
+7.2.1 Lossless Compression Algorithms 550
+
+
+
+7.2.2 Image Compression (JPEG) 552
+
+
+
+7.2.3 Video Compression (MPEG) 557
+
+
+
+7.2.4 Transmitting MPEG over a Network 562
+
+
+
+7.2.5 Audio Compression (MP3) 566
+
+
+
+7.3 Summary 568
+
+
+
+Open Issue: Computer Networks Meet Consumer Electronics 568
+
+
+
+Further Reading 569
+
+
+
+Exercises 570
+
+
+
+8 Network Security
+
+
+
+Problem: Securing the Data 578
+
+
+
+8.1 Cryptographic Algorithms 580
+
+
+
+8.1.1 Requirements 582
+
+
+
+8.1.2 Secret Key Encryption (DES) 583
+
+
+
+8.1.3 Public Key Encryption (RSA) 588
+
+
+
+8.1.4 Message Digest Algorithms (MD5) 591
+
+
+
+8.1.5 Implementation and Performance 593
+
+
+
+8.2 Security Mechanisms 594
+
+
+
+8.2.1 Authentication Protocols 594
+
+
+
+8.2.2 Message Integrity Protocols 598
+
+
+
+8.2.3 Public Key Distribution (X.509) 601
+
+
+
+8.3 Example Systems 604
+
+
+
+8.3.1 Pretty Good Privacy (PGP) 605
+
+
+
+8.3.2 Secure Shell (SSH) 607
+
+
+
+8.3.3 Transport Layer Security (TLS, SSL, HTTPS) 610
+
+
+
+8.3.4 IP Security (IPSEC) 614
+
+
+
+Contents xvii
+
+
+
+8.4 Firewalls 617
+
+
+
+8.4.1 Filter-Based Firewalls 618
+
+
+
+8.4.2 Proxy-Based Firewalls 620
+
+
+
+8.4.3 Limitations 622
+
+
+
+8.5 Summary 622
+
+
+
+Open Issue: Denial-of-Service Attacks 623
+
+
+
+Further Reading 624
+
+
+
+Exercises 625
+
+
+
+9 Applications
+
+
+
+Problem: Applications Need Their Own Protocols 632
+
+
+
+9.1 Name Service (DNS) 634
+
+
+
+9.1.1 Domain Hierarchy 635
+
+
+
+9.1.2 Name Servers 636
+
+
+
+9.1.3 Name Resolution 640
+
+
+
+9.2 Traditional Applications 643
+
+
+
+9.2.1 Electronic Mail (SMTP, MIME, IMAP) 644
+
+
+
+9.2.2 World Wide Web (HTTP) 650
+
+
+
+9.2.3 Network Management (SNMP) 657
+
+
+
+9.3 Multimedia Applications 660
+
+
+
+9.3.1 Real-time Transport Protocol (RTP) 660
+
+
+
+9.3.2 Session Control and Call Control (SDP, SIP, H.323) 671
+
+
+
+9.4 Overlay Networks 680
+
+
+
+9.4.1 Routing Overlays 682
+
+
+
+9.4.2 Peer-to-Peer Networks 690
+
+
+
+9.4.3 Content Distribution Networks 698
+
+
+
+9.5 Summary 704
+
+
+
+Open Issue: New Network Artichitecture 704
+
+
+
+Further Reading 705
+
+
+
+Exercises 707
+
+
+
+Glossary 715
+
+
+
+Bibliography 743
+
+
+
+Solutions to Selected Exercises 763
+
+
+
+Index 777
+
+
+
+About the Authors 810

@@ -1,0 +1,5 @@
+Perhaps I ought to not leak this information if it becomes critical in later private firm algorithms but I also suggest retaining copies of the entirety of Urban Dictionary and Wiktionary perhaps from:
+
+https://kaikki.org/dictionary/rawdata.html
+
+Also, keep a live local clone of Cambridge and Oxford on top of Collins at the very least...

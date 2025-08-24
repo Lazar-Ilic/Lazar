@@ -1,0 +1,710 @@
+
+
+----------
+
+	A
+Analysis of parallel algorithms [12 P]
+	C
+Cache coherency [14 P]
+	D
+Distributed computing architecture [19 C, 94 P]
+Distributed computing conferences [11 P]
+Domain decomposition methods [15 P]
+	F
+Flynn's taxonomy [14 P]
+	G
+GPGPU [2 C, 36 P]
+	M
+Manycore processors [18 P]
+Massively parallel computers [26 P]
+	R
+Researchers in distributed computing [1 C, 62 P]
+	S
+SIMD computing [1 C, 43 P]
+Speculative execution [1 C, 3 P]
+Superscalar microprocessors [48 P]
+	V
+Vector supercomputers [38 P]
+Very long instruction word computing [39 P]
+Pages in category "Parallel computing"
+The following 200 pages are in this category, out of approximately 262 total. This list may not reflect recent changes.
+
+Parallel Computing
+	A
+ABIT BP6
+Advanced Synchronisation Facility
+Aiyara cluster
+Alewife [multiprocessor]
+Algorithmic skeleton
+All nearest smaller values
+All-to-all [parallel pattern]
+AMD Instinct
+Amorphous computing
+Apache Samza
+Apache Storm
+Asymmetric multiprocessing
+Asynchronous array of simple processors
+Automatic mutual exclusion
+Automatic parallelisation
+Automatic parallelisation tool
+	B
+Barrier [computer science]
+Beowulf cluster
+BIGSIM
+Binary Modular Dataflow Machine
+Bit-level parallelism
+Broadcast [parallel pattern]
+Bulk synchronous parallel
+	C
+C.mmp
+C++ AMP
+Cache coherence
+Cache stampede
+Cache-only memory architecture
+Calculus of broadcasting systems
+Caltech Cosmic Cube
+Cellular architecture
+Cellular multiprocessing
+Celsius [microarchitecture]
+Chaining [vector processing]
+Computer cluster
+Cluster manager
+Collective operation
+Communication-avoiding algorithm
+Compute kernel
+Concurrent Collections
+Connection Machine
+Content-addressable parallel processor
+Coscheduling
+Cost efficiency
+CUDA
+Curie [microarchitecture]
+	D
+Dask [software]
+Data parallelism
+Data-centric programming language
+Data-intensive computing
+Degree of parallelism
+Diskless shared-root cluster
+Distributed memory
+Distributed R
+DOPIPE
+	E
+Embarrassingly parallel
+Encore Computer
+Euler tour technique
+Expeed
+Explicit multi-threading
+	F
+Fahrenheit [microarchitecture]
+Fifth Generation Computer Systems
+Finite element machine
+Flow-based programming
+Template:Flynn's taxonomy
+Fork-join model
+FPS AP-120B
+FR-V [microprocessor]
+	G
+Ganglia [software]
+Gather-scatter [vector addressing]
+Google File System
+General-purpose computing on graphics processing units
+GPI-Space
+Grand Central Dispatch
+Graphics Core Next
+Grid MP
+GridMathematica
+	H
+Halide [programming language]
+HBJ model
+Heterogeneous Element Processor
+High Productivity Computing Systems
+High-performance computing
+High-performance technical computing
+High-throughput computing
+History of computer clusters
+HPCC
+HPCG benchmark
+HPX
+HTCondor
+Hypercube [communication pattern]
+	I
+IBM Blue Gene
+IBM Parallel Sysplex
+IBM Scalable POWERparallel
+ILLIAC IV
+ILNumerics
+Implicit parallelism
+Inherently serial problem
+Instruction-level parallelism
+IP Virtual Server
+IPFlex
+ISP Formal Verification Tool
+IWarp
+	J
+Jazz DSP
+JUGENE
+Julia [programming language]
+	K
+Kelvin [microarchitecture]
+	L
+LAM/MPI
+Lawbot
+Linda-like systems
+Linux Virtual Server
+Linux-HA
+List of important publications in concurrent, parallel, and distributed computing
+List ranking
+Livermore loops
+Locale [computer hardware]
+LogP machine
+Loop dependence analysis
+Loop scheduling
+Loop unrolling
+Loop-level parallelism
+	M
+MADNESS
+Many-task computing
+Manycore processor
+Map [parallel pattern]
+Maple [software]
+MapReduce
+MasPar
+Massively parallel
+Massively parallel processor array
+Master-checker
+MATLAB
+MCDRAM
+Memory coherence
+Memory-level parallelism
+Message Passing Interface
+Micro-thread [multi-core]
+Microparallelism
+Milbeaut
+MOSIX
+Multi-core processor
+Multidimensional DSP with GPU Acceleration
+Multiple instruction, multiple data
+Multiple instruction, single data
+Multiprocessing
+Multiprocessor system architecture
+Multistage interconnection networks
+Multithreading [computer architecture]
+	N
+NEC SX-Aurora TSUBASA
+Network on a chip
+Non-uniform memory access
+Nvidia DGX
+Nvidia Tesla
+	O
+Omni-Path
+Open Source Cluster Application Resources
+OpenACC
+OpenCL
+OpenHMPP
+OpenHPC
+OpenMosix
+OpenMP
+OpenSSI
+OpenVMS
+Optical Multi-Tree with Shuffle Exchange
+Oracle Grid Engine
+	P
+PALLAS
+Parallel algorithm
+Parallel algorithms for minimum spanning trees
+Parallel breadth-first search
+Parallel computation thesis
+Parallel Element Processing Ensemble
+Parallel mesh generation
+Parallel processing [DSP implementation]
+Parallel Virtual Machine
+Parallelisation contract
+Parareal
+Parsytec
+Programming with Big Data in R
+PelicanHPC
+Pencil Code
+PERCS
+Pilot job
+PlayStation 3 cluster
+Pointer jumping
+Portable Distributed Objects
+Portals network programming application programming interface
+Pthreads
+POWER9
+Power10
+ProActive
+PRODIGAL [computer system]
+Program Composition Notation
+Program dependence graph
+Parallel programming model
+Partitioned global address space
+Project Monterey
+	Q
+QCDOC
+QCDPAX
+QPACE
+QPACE2
+	R
+Rankine [microarchitecture]
+RCUDA
+RDMA over Converged Ethernet
+Red Storm [computing]
+Reduction operator
+Relaxed sequential
+Rendezvous [Plan 9]
+Rocks Cluster Distribution
+ROCm
+	S
+Scalable Cluster Environment
+SciNet Consortium
+ScREC
+Semaphore [programming]
+SequenceL
+Shaheen [supercomputer]
+Shared memory
+Shelving buffer
+SHMEM
+SiCortex
+Single instruction, multiple data
+Single instruction, multiple threads
+Single program, multiple data
+Single-chip Cloud Computer
+Slurm Workload Manager
+Speculative multithreading
+Stanford DASH
+Stone Soupercomputer
+Supercomputer
+Superscalar processor
+SUPRENUM
+SWAR
+SYCL
+Symmetric multiprocessing
+Symphony [software]
+Systolic array
+	T
+Task parallelism
+TeraScale [microarchitecture]
+Tesla [microarchitecture]
+Thinking Machines Corporation
+Thread block [CUDA programming]
+Thread pool
+Tilera
+Torus interconnect
+Transactional Synchronisation Extensions
+Transputer
+Traversed edges per second
+Tree contraction
+Tuple space
+	U
+Ultracomputer
+UniCluster
+Unified Parallel C
+Uniform memory access
+Uniprocessor system
+UPCRC Illinois
+	V
+Vector Fabrics, B.V.
+Vector processor
+Automatic vectorisation
+Very long instruction word
+	W
+WARP [systolic array]
+Wide-issue
+Work stealing
+	X
+Xeon Phi
+
+----------
+
+	Parallel Algorithm
+
+In computer science, a parallel algorithm, as opposed to a traditional serial algorithm, is an algorithm which can do multiple operations in a given time. It has been a tradition of computer science to describe serial algorithms in abstract machine models, often the one known as random-access machine. Similarly, many computer science researchers have used a so-called parallel random-access machine [PRAM] as a parallel abstract machine [shared-memory].
+
+Many parallel algorithms are executed concurrently - though in general concurrent algorithms are a distinct concept - and thus these concepts are often conflated, with which aspect of an algorithm is parallel and which is concurrent not being clearly distinguished. Further, non-parallel, non-concurrent algorithms are often referred to as "sequential algorithms", by contrast with concurrent algorithms.
+
+Contents
+1	Parallelisability
+2	Motivation
+3	Issues
+3.1	Communication
+3.2	Load balancing
+4	Distributed algorithms
+5	See also
+6	References
+7	External links
+
+Parallelisability
+See also: Analysis of parallel algorithms
+Algorithms vary significantly in how parallelisable they are, ranging from easily parallelisable to completely unparallelisable. Further, a given problem may accommodate different algorithms, which may be more or less parallelisable.
+
+Some problems are easy to divide up into pieces in this way - these are called embarrassingly parallel problems. Examples include many algorithms to solve Rubik's Cubes and find values which result in a given hash.[citation needed]
+
+Some problems cannot be split up into parallel portions, as they require the results from a preceding step to effectively carry on with the next step - these are called inherently serial problems. Examples include iterative numerical methods, such as Newton's method, iterative solutions to the three-body problem, and most of the available algorithms to compute pi [π].[citation needed] Some sequential algorithms can be converted into parallel algorithms using automatic parallelisation.[3]
+
+Motivation
+Parallel algorithms on individual devices have become more common since the early 2000s because of substantial improvements in multiprocessing systems and the rise of multi-core processors. Up until the end of 2004, single-core processor performance rapidly increased via frequency scaling, and thus it was easier to construct a computer with a single fast core than one with many slower cores with the same throughput, so multicore systems were of more limited use. Since 2004 however, frequency scaling hit a wall, and thus multicore systems have become more widespread, making parallel algorithms of more general use.
+
+Issues
+Communication
+The cost or complexity of serial algorithms is estimated in terms of the space [memory] and time [processor cycles] that they take. Parallel algorithms need to optimise one more resource, the communication between different processors. There are two ways parallel processors communicate, shared memory or message passing.
+
+Shared memory processing needs additional locking for the data, imposes the overhead of additional processor and bus cycles, and also serialises some portion of the algorithm.
+
+Message passing processing uses channels and message boxes but this communication adds transfer overhead on the bus, additional memory need for queues and message boxes and latency in the messages. Designs of parallel processors use special buses like crossbar so that the communication overhead will be small but it is the parallel algorithm that decides the volume of the traffic.
+
+If the communication overhead of additional processors outweighs the benefit of adding another processor, one encounters parallel slowdown.
+
+Load balancing
+Main article: Load balancing [computing]
+Another problem with parallel algorithms is ensuring that they are suitably load balanced, by ensuring that load [overall work] is balanced, rather than input size being balanced. For example, checking all numbers from one to a hundred thousand for primality is easy to split among processors; however, if the numbers are simply divided out evenly [1-1,000, 1,001-2,000, etc.], the amount of work will be unbalanced, as smaller numbers are easier to process by this algorithm [easier to test for primality], and thus some processors will get more work to do than the others, which will sit idle until the loaded processors complete.
+
+Distributed algorithms
+Main article: Distributed algorithm
+[icon]	
+This section needs expansion. You can help by adding to it. [February 2014]
+A subtype of parallel algorithms, distributed algorithms, are algorithms designed to work in cluster computing and distributed computing environments, where additional concerns beyond the scope of "classical" parallel algorithms need to be addressed.
+
+See also
+Multiple-agent system [MAS]
+Parallel algorithms for matrix multiplication
+Parallel algorithms for minimum spanning trees
+Parallel computing
+Parareal
+References
+Blelloch, Guy E.; Maggs, Bruce M. "Parallel Algorithms" [PDF]. USA: School of Computer Science, Carnegie Mellon University. Retrieved 2015-07-27.
+Vishkin, Uzi [2009]. "Thinking in Parallel: Some Basic Data-Parallel Algorithms and Techniques, 104 pages" [PDF]. Class notes of courses on parallel algorithms taught since 1992 at the University of Maryland, College Park, Tel Aviv University and the Technion.
+Megson G M; Chen Xian [4 January 1997]. Automatic Parallelisation For A Class Of Regular Computations. World Scientific. ISBN 978-981-4498-41-8.
+External links
+Designing and Building Parallel Programs, US Argonne National Laboratory
+vte
+Parallel computing
+General	
+Distributed computingParallel computingMassively parallelCloud computingHigh-performance computingMultiprocessingManycore processorGPGPUComputer networkSystolic array
+Levels	
+BitInstructionThreadTaskDataMemoryLoopPipeline
+Multithreading	
+TemporalSimultaneous [SMT]Speculative [SpMT]PreemptiveCooperativeClustered multi-thread [CMT]Hardware scout
+Theory	
+PRAM modelPEM modelAnalysis of parallel algorithmsAmdahl's lawGustafson's lawCost efficiencyKarp-Flatt metricSlowdownSpeedup
+Elements	
+ProcessThreadFiberInstruction windowArray
+Coordination	
+MultiprocessingMemory coherenceCache coherenceCache invalidationBarrierSynchronisationApplication checkpointing
+Programming	
+Stream processingDataflow programmingModels Implicit parallelismExplicit parallelismConcurrencyNon-blocking algorithm
+Hardware	
+Flynn's taxonomy SISDSIMD Array processing [SIMT]Pipelined processingAssociative processingMISDMIMDDataflow architecturePipelined processorSuperscalar processorVector processorMultiprocessor symmetricasymmetricMemory shareddistributeddistributed sharedUMANUMACOMAMassively parallel computerComputer cluster Beowulf clusterGrid computerHardware acceleration
+APIs	
+Ateji PXBoostChapelHPXCharm++CilkCoarray FortranCUDADryadC++ AMPGlobal ArraysGPUOpenMPIOpenMPOpenCLOpenHMPPOpenACCParallel ExtensionsPVMpthreadsRaftLibROCmUPCTBBZPL
+Problems	
+Automatic parallelisationDeadlockDeterministic algorithmEmbarrassingly parallelParallel slowdownRace conditionSoftware lockoutScalabilityStarvation
+Category: Parallel computing
+Categories: Parallel computingConcurrent algorithmsDistributed algorithms
+Navigation menu
+Not logged in
+Talk
+Contributions
+Create account
+Log in
+ArticleTalk
+ReadEditView history
+Search
+Search Wikipedia
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+Donate
+Contribute
+Help
+Learn to edit
+Community portal
+Recent changes
+Upload file
+Tools
+What links here
+Related changes
+Special pages
+Permanent link
+Page information
+Cite this page
+Wikidata item
+Print/export
+Download as PDF
+Printable version
+
+Languages
+العربية
+Deutsch
+Español
+فارسی
+日本語
+Polski
+Русский
+Tiếng Việt
+中文
+5 more
+Edit links
+This page was last edited on 27 July 2021, at 22:36 [UTC].
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organisation.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaMobile viewDevelopersStatisticsCookie statementWikimedia FoundationPowered by MediaWiki
+
+
+Analysis of parallel algorithms
+From Wikipedia, the free encyclopedia
+Jump to navigationJump to search
+In computer science, the analysis of parallel algorithms is the process of finding the computational complexity of algorithms executed in parallel - the amount of time, storage, or other resources needed to execute them. In many respects, analysis of parallel algorithms is similar to the analysis of sequential algorithms, but is generally more involved because one must reason about the behavior of multiple cooperating threads of execution. One of the primary goals of parallel analysis is to understand how a parallel algorithm's use of resources [speed, space, etc.] changes as the number of processors is changed.
+
+
+Contents
+1	Background
+2	Definitions
+3	Execution on a limited number of processors
+4	References
+Background
+A so-called work-time [WT] [sometimes called work-depth, or work-span] framework was originally introduced by Shiloach and Vishkin [1] for conceptualising and describing parallel algorithms. In the WT framework, a parallel algorithm is first described in terms of parallel rounds. For each round, the operations to be performed are characterised, but several issues can be suppressed. For example, the number of operations at each round need not be clear, processors need not be mentioned and any information that may help with the assignment of processors to jobs need not be accounted for. Second, the suppressed information is provided. The inclusion of the suppressed information is guided by the proof of a scheduling theorem due to Brent,[2] which is explained later in this article. The WT framework is useful since while it can greatly simplify the initial description of a parallel algorithm, inserting the details suppressed by that initial description is often not very difficult. For example, the WT framework was adopted as the basic presentation framework in the parallel algorithms books [for the Parallel random-access machine PRAM model] [3] and, [4] as well as in the class notes .[5] The overview below explains how the WT framework can be used for analyzing more general parallel algorithms, even when their description is not available within the WT framework.
+
+Definitions
+Suppose computations are executed on a machine that has p processors. Let Tp denote the time that expires between the start of the computation and its end. Analysis of the computation's running time focuses on the following notions:
+
+The work of a computation executed by p processors is the total number of primitive operations that the processors perform. Ignoring communication overhead from synchronising the processors, this is equal to the time used to run the computation on a single processor, denoted T1.
+The depth or span is the length of the longest series of operations that have to be performed sequentially due to data dependencies [the critical path]. The depth may also be called the critical path length of the computation. Minimising the depth/span is important in designing parallel algorithms, because the depth/span determines the shortest possible execution time. Alternatively, the span can be defined as the time T∞ spent computing using an idealised machine with an infinite number of processors.
+The cost of the computation is the quantity pTp. This expresses the total time spent, by all processors, in both computing and waiting.
+Several useful results follow from the definitions of work, span and cost:
+
+Work law. The cost is always at least the work: pTp ≥ T1. This follows from the fact that p processors can perform at most p operations in parallel.
+Span law. A finite number p of processors cannot outperform an infinite number, so that Tp ≥ T∞. Using these definitions and laws, the following measures of performance can be given:
+
+Speedup is the gain in speed made by parallel execution compared to sequential execution: Sp = T1 / Tp. When the speedup is Ω[n] for input size n [using big O notation], the speedup is linear, which is optimal in simple models of computation because the work law implies that T1 / Tp ≤ p [super-linear speedup can occur in practice due to memory hierarchy effects]. The situation T1 / Tp = p is called perfect linear speedup. An algorithm that exhibits linear speedup is said to be scalable. Efficiency is the speedup per processor, Sp / p. Parallelism is the ratio T1 / T∞. It represents the maximum possible speedup on any number of processors. By the span law, the parallelism bounds the speedup: if p > T1 / T∞, then:
+
+{\displaystyle {\frac {T_{1}}{T_{p}}}\leq {\frac {T_{1}}{T_{\infty }}}<p}
+
+The slackness is T1/[pT∞]. A slackness less than one implies [by the span law] that perfect linear speedup is impossible on p processors. Execution on a limited number of processors. Analysis of parallel algorithms is usually carried out under the assumption that an unbounded number of processors is available. This is unrealistic, but not a problem, since any computation that can run in parallel on N processors can be executed on p < N processors by letting each processor execute multiple units of work. A result called Brent's law states that one can perform such a "simulation" in time Tp, bounded by[10]
+
+{\displaystyle T_{p}\leq T_{N}+{\frac {T_{1}-T_{N}}{p}},}T_{p}\leq T_{N}+{\frac  {T_{1}-T_{N}}{p}},
+or, less precisely,[6]
+
+{\displaystyle T_{p}=O\left[T_{N}+{\frac {T_{1}}{p}}\right].}T_{p}=O\left[T_{N}+{\frac  {T_{1}}{p}}\right].
+An alternative statement of the law bounds Tp above and below by
+
+{\displaystyle {\frac {T_{1}}{p}}\leq T_{p}\leq {\frac {T_{1}}{p}}+T_{\infty }}{\displaystyle {\frac {T_{1}}{p}}\leq T_{p}\leq {\frac {T_{1}}{p}}+T_{\infty }}.
+showing that the span [depth] T∞ and the work T1 together provide reasonable bounds on the computation time.[2]
+
+References
+Shiloach, Yossi; Vishkin, Uzi [1982]. "An O[n2 log n] parallel max-flow algorithm". Journal of Algorithms. 3 [2]: 128-146. doi:10.1016/0196-6774[82]90013-X.
+Brent, Richard P. [1974-04-01]. "The Parallel Evaluation of General Arithmetic Expressions". Journal of the ACM. 21 [2]: 201-206. CiteSeerX 10.1.1.100.9361. doi:10.1145/321812.321815. ISSN 0004-5411. S2CID 16416106.
+JaJa, Joseph [1992]. An Introduction to Parallel Algorithms. Addison-Wesley. ISBN 978-0-201-54856-3.
+Keller, Jorg; Kessler, Cristoph W.; Traeff, Jesper L. [2001]. Practical PRAM Programming. Wiley-Interscience. ISBN 978-0-471-35351-5.
+Vishkin, Uzi [2009]. Thinking in Parallel: Some Basic Data-Parallel Algorithms and Techniques, 104 pages [PDF]. Class notes of courses on parallel algorithms taught since 1992 at the University of Maryland, College Park, Tel Aviv University and the Technion.
+Casanova, Henri; Legrand, Arnaud; Robert, Yves [2008]. Parallel Algorithms. CRC Press. p. 10. CiteSeerX 10.1.1.466.8142.
+Blelloch, Guy [1996]. "Programming Parallel Algorithms" [PDF]. Communications of the ACM. 39 [3]: 85-97. CiteSeerX 10.1.1.141.5884. doi:10.1145/227234.227246. S2CID 12118850.
+Michael McCool; James Reinders; Arch Robison [2013]. Structured Parallel Programming: Patterns for Efficient Computation. Elsevier. pp. 4-5.
+Cormen, Thomas H.; Leiserson, Charles E.; Rivest, Ronald L.; Stein, Clifford [2009] [1990]. Introduction to Algorithms [3rd ed.]. MIT Press and McGraw-Hill. pp. 779-784. ISBN 0-262-03384-4.
+Gustafson, John L. [2011]. "Brent's Theorem". Encyclopedia of Parallel Computing. pp. 182-185. doi:10.1007/978-0-387-09766-4_80. ISBN 978-0-387-09765-7.
+vte
+Parallel computing
+General	
+Distributed computingParallel computingMassively parallelCloud computingHigh-performance computingMultiprocessingManycore processorGPGPUComputer networkSystolic array
+Levels	
+BitInstructionThreadTaskDataMemoryLoopPipeline
+Multithreading	
+TemporalSimultaneous [SMT]Speculative [SpMT]PreemptiveCooperativeClustered multi-thread [CMT]Hardware scout
+Theory	
+PRAM modelPEM modelAnalysis of parallel algorithmsAmdahl's lawGustafson's lawCost efficiencyKarp-Flatt metricSlowdownSpeedup
+Elements	
+ProcessThreadFiberInstruction windowArray
+Coordination	
+MultiprocessingMemory coherenceCache coherenceCache invalidationBarrierSynchronisationApplication checkpointing
+Programming	
+Stream processingDataflow programmingModels Implicit parallelismExplicit parallelismConcurrencyNon-blocking algorithm
+Hardware	
+Flynn's taxonomy SISDSIMD Array processing [SIMT]Pipelined processingAssociative processingMISDMIMDDataflow architecturePipelined processorSuperscalar processorVector processorMultiprocessor symmetricasymmetricMemory shareddistributeddistributed sharedUMANUMACOMAMassively parallel computerComputer cluster Beowulf clusterGrid computerHardware acceleration
+APIs	
+Ateji PXBoostChapelHPXCharm++CilkCoarray FortranCUDADryadC++ AMPGlobal ArraysGPUOpenMPIOpenMPOpenCLOpenHMPPOpenACCParallel ExtensionsPVMpthreadsRaftLibROCmUPCTBBZPL
+Problems	
+Automatic parallelisationDeadlockDeterministic algorithmEmbarrassingly parallelParallel slowdownRace conditionSoftware lockoutScalabilityStarvation
+Category: Parallel computing
+Categories: Analysis of parallel algorithms
+Navigation menu
+Not logged in
+Talk
+Contributions
+Create account
+Log in
+ArticleTalk
+ReadEditView history
+Search
+Search Wikipedia
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+Donate
+Contribute
+Help
+Learn to edit
+Community portal
+Recent changes
+Upload file
+Tools
+What links here
+Related changes
+Special pages
+Permanent link
+Page information
+Cite this page
+Wikidata item
+Print/export
+Download as PDF
+Printable version
+
+Languages
+Українська
+Edit links
+This page was last edited on 7 February 2022, at 05:11 [UTC].
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organisation.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaMobile viewDevelopersStatisticsCookie statementWikimedia FoundationPowered by MediaWiki
+
+
+Help
+Category:Distributed algorithms
+From Wikipedia, the free encyclopedia
+Jump to navigationJump to search
+
+Wikimedia Commons has media related to Distributed algorithms.
+The main article for this category is Distributed algorithm.
+See also
+Category:Distributed computing problems
+Subcategories
+This category has the following 5 subcategories, out of 5 total.
+
+A
+Agreement algorithms [2 P]
+C
+Concurrency control algorithms [19 P]
+F
+File sharing networks [11 C, 47 P]
+L
+Logical clock algorithms [6 P]
+T
+Termination algorithms [2 P]
+Pages in category "Distributed algorithms"
+The following 41 pages are in this category, out of 41 total. This list may not reflect recent changes.
+
+
+Distributed algorithm
+*
+Shared snapshot objects
+A
+Ace Stream
+Avalanche [blockchain platform]
+B
+Berkeley algorithm
+Bully algorithm
+C
+Cannon's algorithm
+Chandra-Toueg consensus algorithm
+Chandy-Lamport algorithm
+Chang and Roberts algorithm
+Cole-Vishkin algorithm
+Commitment ordering
+Comparison of streaming media software
+Conflict-free replicated data type
+Content delivery network
+Cristian's algorithm
+D
+Distributed minimum spanning tree
+F
+Federated learning
+G
+Gbcast
+H
+Hirschberg-Sinclair algorithm
+L
+Local algorithm
+Logical clock
+M
+Mega-Merger
+O
+Operational transformation
+P
+P2PTV
+Parallel algorithm
+Paxos [computer science]
+PULSE [P2PTV]
+R
+Raft [algorithm]
+Reliable multicast
+Ricart-Agrawala algorithm
+Rocha-Thatte cycle detection algorithm
+S
+Samplesort
+Snapshot algorithm
+Suzuki-Kasami algorithm
+SWIM Protocol
+Synchroniser [algorithm]
+T
+Two-tree broadcast
+V
+Verification-based message-passing algorithms in compressed sensing
+W
+Weak coloring
+Y
+Yo-yo [algorithm]
+Categories: AlgorithmsConcurrent algorithmsDistributed computing
+Hidden categories: Commons category link from Wikidata
+Navigation menu
+Not logged in
+Talk
+Contributions
+Create account
+Log in
+CategoryTalk
+ReadEditView history
+Search
+Search Wikipedia
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+Donate
+Contribute
+Help
+Learn to edit
+Community portal
+Recent changes
+Upload file
+Tools
+What links here
+Related changes
+Special pages
+Permanent link
+Page information
+Wikidata item
+Print/export
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+
+Languages
+Español
+Français
+한국어
+日本語
+Русский
+Tiếng Việt
+中文
+4 more
+Edit links
+This page was last edited on 15 August 2018, at 11:06 [UTC].
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organisation.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaMobile viewDevelopersStatisticsCookie statementWikimedia FoundationPowered by MediaWiki
