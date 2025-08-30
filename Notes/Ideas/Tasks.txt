@@ -1,14 +1,10 @@
 [Keep some private to vie for 阿里巴巴 Global Mathematics Competition $10000]
 
-	Kane
-
-Sherry, Jack, and Lazar walked in to the Qua dance club where sharks were in the water. They heard that Kane was in The Building, but could not see a man named Kane. How could this be?
-
 ----------
 
+	2025-08 Task Titled: Factorise The Input 1000ms Time Limit
 
-
-----------
+I was thinking about the ECM Elliptic Curve Factorisation Method and a different task... say one is trying to factorise a number like 8856480460906759504036060944892171332717165162660899 very fast in a competitive programming setting... or way bigger up to 500 bits say.
 
 	Competitive Programming Round Interlude Meta Hacker Cup Style 4 Hours
 
