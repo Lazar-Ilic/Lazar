@@ -1,0 +1,19 @@
+Lazar Ilic
+
+lazar_ilic@yahoo.com     GitHub.com/Lazar-Ilic/Lazar     17:30 5K Run
+LaTeX     C|C++     Python     Java     TypeScript     AWS     SQL     SIE     GRE 338 + 5.5
+
+Focusing on trading, games, markets, risk management, developing good intuition.
+
+2025 High Frequency Trading Quantitative Research Intern
+	Generated profitable insights for mid-frequency algorithms by studying time series, examining predictors, and backtesting. Considered implementation shortfall due to market impact as well as funding rates and taker fees.
+2025 University Of Illinois Urbana-Champaign Further Computer Science Coursework
+2025 MCS Computer Science 3.63|4.00 University Of Illinois Urbana-Champaign
+2023 Software Engineer Amazon
+2022 BS Mathematics 3.77|4.00 University Of Texas At Austin
+
+Project Euler 9th + 43 Leaderboards In A Row + 3 Gold Medals     CodeForces 2124
+阿里巴巴 Trip To 杭州 + 3×Top 800     Putnam 87th     USAMO 43rd     USAPhO
+CSES ~1st     Meta Hacker Cup 319th     HRT MathDash 2nd     Bridgewater Top 2%
+
+In the money on Bridgewater's forecasting competition: cleaned data, used statistics, pandas, knowledge, and intuition. Computed parameters to automatically track the mixture of a relatively noninformative prior with market information including movement. Generated distributions during hidden periods as an exercise in data curation.

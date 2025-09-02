@@ -1,0 +1,947 @@
+\Large
+\twocolumn
+
+\textbf{Concepts And Practice Of Mathematical Finance Notes}
+
+Key Points, Notes, and Solutions files are all useful for chronic nightly exposure.
+
+A priori we'll put it this way as an observer of reality there is of course a fundamental gap between the real world and this maths. The derivatives on stocks which enable people to exercise power at a shareholders' meeting are one thing. And this maths is another thing. And so it is here as a centaur trader or quantitative algorithmic trader that one must bridge the gap somehow. Either by being very computationally clever, or making some quasi fundamental insights, or some other thing. It's really not all the obvious going in what maths it is that Joshi will write about here in this book. I brain stormed and could not think of much so was content to read and comprehend. Just so it's totally crystal clear to the reader of these notes, it should strike a young student as rather odd to think that on a macro scale a stock would be related to the maths of a Brownian Motion e.g. I mean events and jump diffusion processes and the trillions of pages, hours of labour and toil over these maths.
+
+Righto the old concepts and practice love me some practice and Joshi's interview book I call "Heard On The Street Volume $37$" was a not quite a masterpiece but something like that so his voice as an author really a pleasant read upcoming. And uh we'll really get in to some of the derivations of the Formulae finally and learn another thing or $2$. It's in a book, a reading rainbow. Let's go!!!!!
+
+I think that executing every single task from this text book would be a solid educational learning experience from which I would emerge more learned on the key ideas and basic maths of finance and I ought to do that very soon upon processing through fully for a few days contemplating and re contemplating.
+
+I think Joshi is a fantastic author and a lot of his expositions are quite natural for a mathematics student, however all of this stuff at the very beginning about the so called ``optimal bounds" could have been a little bit more flagrantly clear, technical, and precise but a lot of the other expositions have relatively nice motivation and sequence of deductions.
+
+I will try and veritably verifiably demonstrate some comprehension of what is going on here in this notes file by yes copying and pasting but sometimes also expanding with further readings and also sometimes just explicating crystal crystal crystal clearly what is going on here and expanding upon a $2$ liner from Joshi into a $10$ liner from Lazar Ilic so it's all super duper crystal clear out there no ambiguity to the potential reader at a firm that I in fact am a man who is doing the ol' comprehension of the ol' financial mathematiques.
+
+Preface xiv
+
+Let's see this is in fact all $1$ dimensional in the sense of price but not really so $1$ dimensional in the sense of the underlying metric spaces or Dimensional Fund Advisors or Principal Component Analysis or whatever.
+
+This sounds like a good book I need to brush up on all of this really have the key ideas emphasized I know that dude at the SIG firm said "risk" a trillion times for some real reason he must have meant something real literal, concrete, precise, and technical.
+
+Trees, PDEs, and martingales.
+
+Oh boy there is a sequel and nowadays I am finna need to know more than just a little bit of the old simple stochastic calculus in order to obtain a job the desirable employment about which I write.
+
+1 Risk 1
+
+So in this government bond example of course it should be stressed that this comes into a prior on sort of a default strategy including currency like this when I don't know it will come in to what precisely we are comparing. Some people think a good life strategy for a normal American would involve like holding a decent chunk of assets in stocks which pay back dividends or like SP 500 on fundamentals or perhaps even crypto.
+
+1.1 What Is Risk? 1
+
+It is somewhat on the value and the credence of the observer agent or whatever we get it some statistics measurements stochastics perhaps come in to play.
+
+1.2 Market Efficiency 2
+
+Yeah this is some stupid shit funny economist seeing the trillion dollar bill in the gutter. It is of course the case that you can have an edge on the world by being more intelligent or whatever hyper literally by choosing to place a machine near an execution engine and tautologically when that machine executes whatever making the money appear it's the market efficiency of being one of the many agents in the reality.
+
+Right so maybe we know some things about other things and the other agents or maybe we are smarty about market instruments which are affected by the same information in such a way as to cancel out randomness. This process is called hedging.
+
+1.3 The Most Important Assets 4
+
+Bonds, Stocks And Shares, The Corporate Bond, Positivity, The Risk Paradigm Outside The Markets.
+
+1.4 Risk Diversification And Hedging 8
+
+This is a fun little simple toy example I like this dude he provides nice ones. So the risk premium disappears. Really cutting to the core of the key ideas here for me. Love love love me some simple examples to give as puzzles to the kiddos get them hooked to the sort of work the big boys do. One day maybe I will in fact be the executive who allocates some funding towards maths contests.
+
+And yes the more diversification the more we mix it up the more the Central Limit Theorem yadda yadda lower variance lower risk.
+
+1.5 The Use Of Options 9
+
+Righto recalls some of Options Volatility And Pricing that we can mix up derivatives and also that there exist people and firms in the market who really benefit from the existence of options in their financial calculus.
+
+Call option to buy. Put option to sell. I personally think the proposed technique for remembering this is lame I think it is easier to just remember it or think of putting as in literally putting a stock in to someone else's assets. Exercise the strike price now struck etc. European specific future date, American any day before a specified future expiry date, underlying, derivatives, yadda yadda.
+
+Again a nice little concrete example of a wine bar noting a weather trend which incentivizes them to purchase an option mitigating risk and reducing volatility due to the stochastic weather.
+
+1.6 Classifying Market Participants 12
+
+A bunch of stuff about a large market of firms gaining from options and then the topic of this book being about complex mathematics which enables firms to spot market mispricings and functions as arbitrageurs.
+
+2 Pricing Methodologies And Arbitrage 16
+
+
+
+2.1 Some Possible Methodologies 16
+
+
+
+2.2 Delta Hedging 18
+
+
+
+2.3 What Is Arbitrage? 19
+
+
+
+2.4 The Assumptions Of Mathematical Finance 20
+
+
+
+2.5 An Example Of Arbitrage-Free Pricing 22
+
+
+
+2.6 The Time Value Of Money 24
+
+
+
+2.7 Mathematically Defining Arbitrage 27
+
+
+
+2.8 Using Arbitrage To Bound Option Prices 29
+
+
+
+2.9 Conclusion 39
+
+
+
+3 Trees And Option Pricing 44
+
+
+
+3.1 A Two-World Universe 44
+
+
+
+3.2 A Three-State Model 49
+
+
+
+3.3 Multiple Time Steps 50
+
+
+
+3.4 Many Time Steps 53
+
+
+
+3.5 A Normal Model 55
+
+
+
+3.6 Putting Interest Rates In 58
+
+
+
+3.7 A Log-Normal Model 60
+
+We have deduced an arbitrage-free price for a call option via risk-neutral valuation. We will study in detail a different approach using a hedging argument in Chapter 5. We know that for trees, hedging and replication arguments both yield the same price as risk-neutral evaluation so we can expect the same thing to happen in the limit. What hedge will we need to hold? One method of finding the hedge is to compute it for a given value of At and then let At go to zero. However, it is easier if we just think about what the hedge is supposed to achieve. When we use a hedging argument, we replicate the riskless bond by holding a mixture of stock and option. We therefore wish our portfolio value to be immune to small changes in the stock value in the limit. If we are short one call option and long A stocks then our portfolio is worth... Thus we should always hedge by holding A stocks. This process is called Delta hedging. As A depends on S and t, this certainly means that the hedge will need to change continuously.
+
+3.8 Consequences 68
+
+Whilst we have used the tree methodology to deduce the Black-Scholes formula, we should note that other pricing methods are a natural consequence of our arguments. We sketch these briefly here as a foretaste of later chapters. The first is simply that rather than trying to pass to the limit in our trees, we can simply pick a sufficiently fine tree and then apply the argument above to compute the option's value. Whilst there is little point for a vanilla European call in doing this, this argument will work for any pay-off function including ones for which we cannot solve the integral analytically - though we could always compute it numerically. More generally, there are various sorts of exotic options which can be tackled by tree methods. Recall that an American option is an option that can be exercised at any point up to its time of maturity, i.e. it can be exercised early. Since it carries all the same rights as a European option, it must clearly be worth as much. In general, not surprisingly it is worth more, though not if it is a call on a non-dividend-paying stock. To value such an option using a tree, we can work backwards as before, the only difference being that at each node we have two different methods of valuation. The first is the arbitrage-free method outlined above, which corresponds tb not  exercising the option. The other is the intrinsic value obtained by exercising at that time - that is, just the difference between the strike and share price. As we can assume that our investor will maximize his assets, we take the maximum of the two. Working backwards, we can compute the price all the way back to the start as before. Note that the arbitrage-free price computed at each node takes into account not just the intrinsic value of exercising at that time but also the possible intrinsic value obtainable by exercising at any future time.
+
+3.9 Summary 70
+
+
+
+4 Practicalities 73
+
+
+
+4.1 Introduction 73
+
+Vanilla dynamic replication yadda yadda.
+
+4.2 Trading Volatility 73
+
+Volatility.
+
+A consequence of this is that if you call a trader and ask for a price on an option, he will not quote you a sum of money, instead he will quote a volatility, or vol, as traders typically say. Actually he will quote two vols, the price to buy and the price to sell. The vol used to price is often called the implied volatility as it is the volatility implied by the price. A market maker is expected to quote two prices or two vols, which are close together so the purchaser can be sure that he is not being cheated. An element of psychology comes in at this point, as the market maker tries to guess whether the purchaser wishes to buy or sell and slants his prices accordingly. Note that the difference between the two quoted prices is where the bank makes its profits. 
+
+4.3 Smiles 74
+
+Thus the smile expresses the market's view of the imperfections of the Black Scholes model. There are two obvious criticisms of the model; the first is that the model requires a certain hedging strategy to be carried out which is not practical, and the second is that stock and foreign exchange prices are simply not lognormally distributed.
+
+4.4 The Greeks 77
+
+The Vega, on the other hand, is the derivative of options price with respect to the volatility which is a parameter of the model. As we observed above, the volatility is an uncertain parameter and the trading of vanilla options is largely about correctly estimating it. The Vega expresses the position the trader is taking on volatility: a positive Vega expresses the opinion that volatilities will go up, and a negative Vega the opinion that they will go down. The Vega of a call option is given by \\
+
+$\frac{\delta C}{\delta \sigma} = S \sqrt{T-t} N'(d_1)$
+
+Recall here from further reading on Wikipedia that a digital option is also known as a binary option and that is because it is an asset constructed to either be worth $0$ or $a$ at valuation can norm it like $0$ or $1$ and thus a digital buy call option evaluates to $1$ if and only if the underlying asset clears the strike threshold and the digital sell put option would be the inverse $1$ if and only if the asset is under the threshold. If we consider a digital call option or digital put option instead of a vanilla call or put, then the Vega need no longer be positive. A digital call pays one if spot is above the strike, and zero otherwise; similarly for a digital put. Indeed, if we consider the portfolio consisting of a digital call and a digital put with the same strike, then the portfolio replicates a zero-coupon bond which has a value independent of volatility. This means that the Vega of a digital put is the negative of the Vega of a digital call, and so we can expect one of them to be negative for any parameter values (unless both are zero). When a digital option is in-the-money, volatility is bad as it increases the (risk neutral) probability that the option will finish out-of-the-money without any benefits, so we roughly obtain negative Vega in-the-money and positive Vega out-of-the-money.
+
+To Delta hedge, we simply take the amount of stock that gives a Delta of zero.
+
+To Gamma hedge, we use $B$ to cancel the Gammas and then use the stock to cancel the residual Delta.
+
+Since $A$ and $B$ have the same expiry, the ratio of their Vegas is the same as the ratio of their Gammas, so a portfolio will be Gamma-hedged if and only if it is Vega-hedged. Note a trader would not hedge a digital put in this manner but the general technique is useful.
+
+4.5 Alternative Models 85
+
+We have seen that the impossibility of perfect hedging takes us away from the Black-Scholes world of perfect arbitrage-free pricing; however there are other criticisms of the Black-Scholes world. The most important of these is simply that stock prices and foreign exchange prices are not log-normally distributed. This failure is manifested in a number of fashions. As we mentioned above, volatility is not even deterministic, let alone constant. Stock and FX prices often do not move continuously: rather they jump. For example, a market crash or a sudden devaluation will move the price quickly with no opportunities for a rehedge. A more subtle criticism is that the logs of asset price changes have fat tails.
+
+A very real flaw in the Black-Scholes model is its assumption that the asset price is a continuous function. This is particularly the case with options on equities. The stock market periodically undergoes corrections which involve a rapid downward movement in stock prices. The most famous of these corrections are the crashes of 1929 and 1987. During such crashes, market conditions are anything but normal and continuously rehedging a portfolio as it slides is simply not practical. Indeed it has been suggested that the 1987 crash was exacerbated by derivatives traders trying desperately to sell their hedges in order to remain Delta-hedged as the market tumbled. Conversely, one use of options is the purchase of put options by fund managers to insure against crashes by guaranteeing a price they can sell at. In 1987, there was also a large number of fund managers who had decided that they did not need to buy options, because they could replicate the options themselves - the necessary trading became impossible when the market crashed... jump diffusion models.
+
+4.6 Transaction Costs 90
+
+
+
+5 The Ito Calculus 97
+
+
+
+5.1 Introduction 97
+
+"We have so far avoided doing any hard mathematics." - Joshi. I will be sure to write this down all the time from hereon out. I mean what a flexer may he rest in peace man old Joshi from the past out here teaching kids some of the ol' mathematiques.
+
+5.2 Brownian Motion 97
+
+So yeah these visualisations are somewhat lacking in the underlying linear drift line component whereas mine in Gambler's Victory is not. However, the rendering is quite nice really and on my monitour invert the white on black looks slick as fuck.
+
+Be crystal clear like there exists this Brownian Motion thing which satisfies all of these properties is clear. It's not even quite the deduction sort of argumentation one might suppose like those maths tasks where you have a function which satisfies something and then you deduce the function by taking a derivative or something this is really just almost a tautology sort of implicit definition of the Brownian Motion itself which of course is not a function rather it is the quintessential stochastic process.
+
+5.3 Quadratic Variation 100
+
+
+
+5.4 Stochastic Processes 102
+
+So the writing would almost make one think to closely examine the plot of the logarithm of the price or use the log, ratio metrics to examine price movements.
+
+Definition 5.2 Let $W_t$ be a Brownian motion. We shall say that the family $X$ of random variables $X_t$ satisfies the stochastic differential equation, \\
+$dX_t = \mu (t,X_t) dt + \sigma (t,X_t) dW_t$, \\
+if for any $t$, we have that \\
+$X_{t+h}-X_t-h \mu(t,X_t) - \sigma (t,X_t) (W_{t+h}-W_t)$ \\
+is a random variable with mean and variance which are $o(h)$.
+
+We shall call such a family of random variables an Ito process or sometimes just a stochastic process. Note that if $\sigma$ is identically $0$, we have that \\
+$X_{t+h}-X_t-h \mu (t,X_t)$ \\
+is of mean and variance $o(h)$. We have thus essentially recovered the differential equation \\
+$\frac{dX_t}{dt}=\mu (t,X_t)$
+
+The essential aspect of this definition is that if we know $X_0$ and that $X_t$ satisfies the stochastic differential equation, (5.8), then $X_t$ is fully determined. In other terms, the stochastic differential equation has a unique solution. An important corollary of this is that $\mu$ and $\sigma$ together with $X_0$ are the only quantities we need to know in order to define a stochastic process. Equally important is the issue of existence - it is not immediately obvious that a family $X_t$ satisfying a given stochastic differential equation exists. Fortunately, under reasonable assumptions on $\mu$ and $\sigma$, solutions do exist and are unique. Unfortunately, developing the necessary mathematics is beyond the scope of this book.
+
+5.5 Ito's Lemma 106
+
+This is still all kind of casual maths writing I mean best parabolic approximation should be precisified.
+
+So what happens here is multiple pages of serious non trivial argumentation which much be parsed very clearly, precisely, and carefully! And what results is voila that $f(X_t)$ satisfies the stochastic differential equation:
+
+$d(f(X_t)) = \left( f'(X_t) \mu (X_t,t) + \frac{f''(X_t)}{2} \sigma (X_t,t)^2 \right) dt + \sigma (X_t,t) f'(X_t) dW_t$
+
+This is the chain rule for stochastic calculus and is almost the same as the chain rule for ordinary calculus, except that the additional term involving the second derivative appears in the $dt$ term. This rule is known as Ito's lemma and the extra term is sometimes called the Ito term. If we allow f to be a function of time as well as x a simple extension of the argument above yields:
+
+$d(f(X_t,t)) = \left( \frac{\delta f}{\delta t}(X_t,t) + \frac{\delta f}{\delta x} (X_t,t) \mu (X_t,t) + \frac{1}{2} \frac{\delta^2 f}{\delta x^2} \sigma (X_t,t)^2 \right) dt + \sigma (X_t,t) \frac{\delta f}{\delta x}(X_t,t) dW_t$
+
+Ito's lemma is the fundamental tool in stochastic calculus and in its applications to finance. It is probably most easily remembered as follows.
+
+Theorem 5.1 \\
+Ito's Lemma \\
+Let $X_t$ be an Ito process satisfying \\
+$dX_t = \mu (X_t,t) dt + \sigma (X_t,t) dW_t$ \\
+and let $f(x,t)$ be a twice differentiable function; then we have that $f(X_t,t)$ is an Ito process, and that \\
+$d(f(X_t,t)) = \frac{\delta f}{\delta t}(X_t,t) dX_t + f'(X_t,t) dX + \frac{1}{2} f'' (X_t,t) dX_t^2$ \\
+where $dX_t^2$ is defined by \\
+$dt^2 = 0$ \\
+$dt dW_t = 0$ \\
+$dW_t^2 = dt$ \\
+Note that the final multiplication rule is the crucial one which gives the extra term. A similar argument gives us a rule when we have several Ito processes based on the same Brownian motion.
+
+Theorem 5.2 \\
+Ito's Lemma \\
+Let $X_t^{(j)}$ be an Ito process for each $j$ satisfying \\
+$dX_t^{(j)} = \mu_j (t,X_t) dt + \sigma_j (t,X_t) dW_t$ \\
+and let $f(t,x_1,\dots , x_n)$ be a twice differentiable function; then we have that $f(t,X_t^{(1)},X_t^{(2)},\dots ,X_t^{(n)})$ is an Ito process, and that \\
+$d(f(t,X_t^{(1)},X_t^{(2)})) = \frac{\delta f}{\delta t}dt + \sum_{j=1}^n \frac{\delta f}{\delta x_j} dX_t^{(j)} + \frac{1}{2} \sum_{j,k=1}^n \frac{\delta^2 f}{\delta x_j x_k} dX_t^{(j)} dX_t^{(k)}$ \\
+where $dX_t^{(j)} dX_t^{(k)}$ is defined by \\
+$dt^2 = 0$ \\
+$dt dW_t = 0$ \\
+$dW_t^2 = dt$ \\
+Note that all our Ito processes here are defined by the same Brownian motion. Later on we will want to consider stocks driven by different Brownian motions. One important consequence of Ito's lemma is a product rule for Ito processes; if we let $f(x,y)=xy$, then we have:
+
+Proposition 5.1 If $X_t$ and $Y_t$ are Ito processes then \\
+$d(X_t Y_t) = X_t dY_t + Y_t dX_t + dX_t dY_t$ \\
+Note that this generalises the Leibniz rule from ordinary calculus by involving a third term.
+
+The idea would be that in an objective way this upper stock path in figure 5.2 would look like it is moving more because it comes to have a higher raw value and so the relative underlying movements are that way.
+
+5.6 Applying Ito's Lemma 111
+
+A standard model for the evolution of stock prices is geometric Brownian motion, that is \\
+$dS_t = \mu S_t dt + \sigma S_t dW_t$ \\
+with $\mu$ and $\sigma$ both constant. This is often written as \\
+$\frac{d S_t}{S_t} = \mu dt + \sigma dW_t$
+
+The idea here is that movements in a stock's value ought to be proportional to its current value, as its percentage movements that matter not absolute ones. The term $\mu$ is called the drift of the stock since it expresses the trend of the stock's movements, and $\sigma$ is called the volatility of the stock as it expresses how much the price wobbles up and down, or equivalently how risky it is. Since investors generally expect greater yields in return for greater uncertainty, we expect that the drift will be higher for stocks with high volatility. If our risk free money market account follows the process \\
+$dB_t = r B_t dt$ \\
+which is equivalent to $B_t = B_0 e^{rt}$, then the difference $\mu - r$ expresses the size of the risk premium. It is the amount of extra growth investors demand to compensate for extra risk introduced by the Brownian motion. Since we expect the premium to increase with volatility the ratio \\
+$\lambda = \frac{\mu - r}{\sigma}$ \\
+is often useful, and is called the market price of risk. We stress that $\lambda$ is only the market price of this specific piece of risk and other unrelated pieces of risk may well have different market prices. One might, however, use the market price of risk as a guide to which stocks are good value in the sense of giving good returns at low risk. [Note that this ignores the difference between diversifiable risk and systemic risk discussed in Chapter 1.]
+
+We have thus solved the stochastic differential equation (5.38). Unfortunately, this is one of the very few stochastic differential equations that have explicit solutions. In general, one can only write down facts about the solution. Fortunately, we shall not need the solutions of other SDEs, and in fact most of our work shall consist of manipulating stochastic differential equations in such a way as to eliminate randomness; that is, we turn stochastic differential equations into partial differential equations by mixing quantities judiciously in such a way as to eliminate the $d W_t$ term that is the source of the randomness. If we wish to interpret these ideas in terms of the market, we can regard $d W_t$ as modelling the arrival of information which may be good or bad and therefore drives the stock price up or down. An option on a stock will be driven by the same information and therefore its stochastic differential equation will be driven by the same $d W_t$, so if we combine the option and the stock judiciously we ought to be able to eliminate the randomness. This observation is at the heart of the Black-Scholes approach to pricing options.
+
+5.7 An Informal Derivation Of The Black-Scholes Equation 114
+
+Suppose our stock movements were not strictly proportional to level but instead obeyed a power law:
+
+$dS_t = S_t^{\alpha} \mu dt + S_t^{\beta} \sigma dW_t$
+
+with $\beta \neq 0,1$. Such a process is called a constant elasticity of variance process or a CEV process. In order to solve the SDE we would like to make the process constant coefficient. If we take $d(f(s))$ for some smooth function $f$ then the volatility term of the new process will be, from Ito's lemma, \\
+$f'(S) S^{\beta} \sigma$.
+
+I don't know it's kind of mala fide to transcribe this book here in public given that it is copyrighted but the dude is dead and like man I wanna convince people at a firm I understand this stuff mull over it stew and brew and chronic exposure so I could do as he wrote down and really ace a bona fide test on this material.
+
+5.8 Justifying The Derivation 116
+
+
+
+5.9 Solving The Black-Scholes Equation 119
+
+We thus have a partial differential equation that the price of an option satisfies, and, of course, we want to solve it. The surprising thing about the Black-Scholes equation is that it is fairly easy to write down the solution. Indeed the Black-Scholes equation is really just the one-dimensional heat equation in disguise. To see this, we can rewrite it as \\
+$\frac{\delta C}{\delta t} = \left( r-\frac{1}{2} \sigma^2 \right) S \frac{\delta C}{\delta S} + \frac{1}{2} \sigma^2 \left( S \frac{\delta}{\delta S} \right)^2 C = rC$ \\
+Recalling that the stochastic differential equation for the stock $S$ was much simpler when expressed in terms of $\ln (S)$, we can try the same approach here. Let $S=e^Z$, that is $Z = \ln(S)$. The equation then becomes \\
+$\frac{\delta C}{\delta t} + \left( r-\frac{1}{2} \sigma^2 \right) \frac{\delta C}{\delta Z} + \frac{1}{2} \sigma^2 +\frac{\delta^2 C}{\delta Z^2} = rC$ \\
+which is constant coefficient.
+
+To simplify the equation further, consider that it is not really the current time that will affect the price of an option but rather the amount of time to go. Putting $\tau = T-t$, we obtain \\
+$\frac{\delta C}{\delta \tau} - \left( r-\frac{1}{2} \sigma^2 \right) \frac{\delta C}{\delta Z} - \frac{1}{2} \sigma^2 \frac{\delta^2 C}{\delta Z^2} = -rC$
+
+As we are trying to price the value of a possible cash flow in the future, we can write $C = e^{-r \tau} D$, expressing the notion that we are discounting the possible future cash flow $D$ to the current time. We then obtain \\
+$\frac{\delta D}{\delta \tau} - \left( r-\frac{1}{2} \sigma^2  \right) \frac{\delta D}{\delta Z} - \frac{1}{2} \sigma^2 \frac{\delta^2 D}{\delta Z^2} = 0$ \\
+Next, we eliminate the first-order term. Now the mean value of $Z$ at time $t$ is $Z(0)+\left( r-\frac{1}{2} \sigma^2 \right) t$. It is therefore reasonable to shift coordinates to take this into account. We therefore let \\
+$y = Z + \left( r-\frac{1}{2} \sigma^2 \right) \tau$ \\
+and our equation becomes \\
+$\frac{\delta D}{\delta \tau} = \frac{1}{2} \sigma^2 \frac{\delta^2 D}{\delta y^2}$
+
+The solution for a call option:
+
+$C(S,t) = SN (d_1) - K e^{-r(T-t)} N(d_2)$ \\
+with $N(x)$ denoting the cumulative normal distribution, $\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^x e^{-\frac{s^2}{2}} ds$, and \\
+$d_1 = \frac{\ln (S/K) + \left( r+\frac{1}{2}\sigma^2 \right)(T-t)}{\sigma \sqrt{T - t}}$ \\
+$d_2 = \frac{\ln (S/K) + \left( r-\frac{1}{2}\sigma^2 \right)(T-t)}{\sigma \sqrt{T - t}}$
+
+5.10 Dividend-Paying Assets 121
+
+I really like this Figure 5.3 visualisation it emphasises how as time expiry goes to $0$, the graphs become progressively more like the final payoff but moreover it actually makes it very clear that if the underlying is very high close to expiry than the expected value of the option is quite near the expected value of the asset which is to say the asset itself because the probability of suddenly swooping below the now far away threshold for $0$ valuation is very low however these options if the asset is slightly below this $100$ strike threshold or whatever still have quite a decent amount of expected value value.
+
+6 Risk Neutrality And Martingale Measures 127
+
+
+
+6.1 Plan 127
+
+We review pricing on trees from a slightly different viewpoint.
+
+We show that under very slight assumptions vanilla option prices for a single time horizon are given by an expectation under an appropriate probability density.
+
+We show how to compute this density and observe that it implies that the stock grows at rate r.
+
+In the Black-Scholes model, this density is that implied by giving a stock a drift equal to r instead of µ.
+
+We return to multiple time horizons and view stochastic processes as the slow revelation of a single path drawn in advance.
+
+The concept of information is examined in this context, and defined using filtrations.
+
+In the discrete setting, we define expectations conditioned on information.
+
+A martingale is defined to be a process such that its value is always equal to its expected value.
+
+It is shown that martingale pricing implies absence of arbitrage in the discrete setting.
+
+The basic properties of conditioning on information are surveyed in the continuous setting.
+
+Continuous martingales are identified to be processes with zero drift (up to technical conditions.)
+
+Pricing with martingales in the continuous setting is introduced.
+
+The Black-Scholes equation is derived using martingale techniques.
+
+We study how to hedge using martingale techniques.
+
+The Black-Scholes model with time-dependent parameters is studied.
+
+The concept of completeness, the perfect replication of all options, is introduced and its connections with uniqueness of martingale measures are explored.
+
+Numeraires are introduced and it is shown that the derivation of the Black-Scholes formula can be greatly simplified by using the change of numeraire technique.
+
+We extend the martingale pricing theory to cover dividend-paying stocks.
+
+We look at the implications of regarding the forward price as the underlying instead of the stock.
+
+6.2 Introduction 128
+
+
+
+6.3 The Existence Of Risk-Neutral Measures 129
+
+One of the surprising facts of mathematical finance is that option prices actually define probability measures. These measures, however, do not make statements about the probability distribution of the asset's future price movements, but instead always imply a ``risk-neutral" evolution where the asset's rate of growth is the riskfree interest rate. Here we show how one can construct this risk-neutral distribution for a single maturity from option prices and examine how it relates to the option prices.
+
+So this Figure 6.1 is pretty interesting it may have appeared in Option Volatility And Pricing but the approximation of a double digital option which is roughly $1$ in $[a,b]$ and $0$ elsewhere is done via a portfolio of call options:
+
+$L_d = \frac{1}{d} (C_{a-d} - C_a - C_b + C_{b+d})$
+
+So on the interval $[a-d,a]$ the value of the portfolio climbs as the first option is in the money whereas all the others are out of the money and we are profitting upon that one however this halts stops when the one we sold is worth precisely $1$ less than that one we own where this thresholding comes into play and the vice versa on the out.
+
+Definition 6.1 We shall say that a market admits free lunches with vanishing risk if there exists a sequence of portfolios $\phi_n$ such that \\
+i the expected value of $\phi_n$ is bounded below by $x>0$ independent of $n$, for $n$ large, \\
+ii the setup cost of $\phi_n$ is $\le 0$ for $n$ large, \\
+iii the variance of $\phi_n$ tends to $0$ as $n \to \infty$ \\
+If a market does not admit free lunches with vanishing risk, we shall say that it satisfies the no free lunch with vanishing risk [NFLWVR] condition...
+
+We can make similar arguments for the pricing of options, and an option with payoff $f$ will have price equal to:
+
+$C(0) = Z(0) \int_0^{\infty} p(S) f(S) dS$.
+
+If our option is $C$, then using the fact that $Z(T)=1$, we can write this as:
+
+$\frac{C(0)}{Z(0)} = \text{E} \left[ \frac{C(T)}{Z(T)} \right]$
+
+as $C(T)$ will be equal to $f(S)$. This simple formula is the most important equation in matheatical finance so study it carefully! (Yes, even more important than the Black-Scholes equation.) We will use it and variants of it time and time again. We can also deduce an expression for $p$ in terms of the derivatives of $K$, similar to (6.26),
+
+$p(K) = Z(0) \frac{\delta^2 C_K}{\delta K^2}$,
+
+where $C(K)$ is, as before, the price of a call option struck at $K$.
+
+6.4 The Concept Of Information 140
+
+We can think of the goddess of probability living in eternity outside the ephemeral world of an options trader. She draws an entire stock price path from a jar containing all possible stock price paths. The god of time stops us from looking into the future and slowly reveals the stock price path to us, second by second. The moral is that although the stock price is determined in one go, we have to trade as if it were not; we can only trade on the information available at the time of trading. Our objective in this section is to make this idea mathematical.
+
+A closely related concept is that of a stopping time. We can define a random time to be a function from the space of paths to the positive numbers. However, we wish to distinguish those random times which are practical in the sense that the information available at a given time determines whether the time has been reached. A stopping time is a random variable which gives a random time with the critical property that the information available at a time determines whether or not the stopping time has been passed. Thus the first time $t$ such that a stock price reaches $100$ is a stopping time, but the first time $t$ such that the stock price is above $100$ at time $t+1$ is not a stopping time as it involves knowing information about a time that has not yet been reached.
+
+In one special case, we have seen that the martingale property leads to the impossibility of arbitrage. However, this special case is not particularly useful because there certainly will be interest rates. We therefore need to work with discounted prices instead of real prices. If we are working with a constant interest rate, $r$, which continuously compounds, then we can consider all asset prices to be multiplied by $e^{-rt}$ to discount the future prices to today. If we write $B_t$ to be the value of $1$ invested in a riskless bond which is continuously compounding, then we are requiring $\frac{X_t}{B_t}$ to be a martingale. The argument we gave above still works; if a portfolio is of zero value and can be positive with positive probability tomorrow then to get the expectation to be zero, there must be a positive probability of negative value tomorrow. Hence, as before arbitrage is impossible.
+
+6.5 Discrete Martingale Pricing 145
+
+
+
+6.6 Continuous Martingales And Filtrations 154
+
+
+
+6.7 Identifying Continuous Martingales 156
+
+
+
+6.8 Continuous Martingale Pricing 157
+
+
+
+6.9 Equivalence To The PDE Method 161
+
+
+
+6.10 Hedging 162
+
+
+
+6.11 Time-Dependent Parameters 164
+
+
+
+6.12 Completeness And Uniqueness 166
+
+
+
+6.13 Changing Numeraire 167
+
+
+
+6.14 Dividend-Paying Assets 171
+
+
+
+6.15 Working With The Forward 172
+
+
+
+7 The Practical Pricing Of A European Option 181
+
+
+
+7.1 Introduction 181
+
+
+
+7.2 Analytic Formulae 182
+
+
+
+7.3 Trees 183
+
+
+
+7.4 Numerical Integration 187
+
+
+
+7.5 Monte Carlo 191
+
+
+
+7.6 PDE Methods 195
+
+
+
+7.7 Replication 196
+
+
+
+8 Continuous Barrier Options 202
+
+
+
+8.1 Introduction 202
+
+
+
+8.2 The PDE Pricing Of Continuous Barrier Options 205
+
+
+
+8.3 Expectation Pricing Of Continuous Barrier Options 207
+
+
+
+8.4 The Reflection Principle 208
+
+
+
+8.5 Girsanov's Theorem Revisited 210
+
+
+
+8.6 Joint Distribution 213
+
+
+
+8.7 Pricing Continuous Barriers By Expectation 216
+
+
+
+8.8 American Digital Options 219
+
+
+
+9 Multi-Look Exotic Options 222
+
+
+
+9.1 Introduction 222
+
+
+
+9.2 Risk-Neutral Pricing For Path-Dependent Options 223
+
+
+
+9.3 Weak Path Dependence 225
+
+
+
+9.4 Path Generation And Dimensionality Reduction 226
+
+
+
+9.5 Moment Matching 231
+
+
+
+9.6 Trees, PDEs And Asian Options 233
+
+
+
+9.7 Practical Issues In Pricing Multi-Look Options 234
+
+
+
+9.8 Greeks Of Multi-Look Options 236
+
+
+
+10 Static Replication 243
+
+
+
+10.1 Introduction 243
+
+
+
+10.2 Continuous Barrier Options 244
+
+
+
+10.3 Discrete Barriers 247
+
+
+
+10.4 Path-Dependent Exotic Options 249
+
+
+
+10.5 The Up-And-In Put With Barrier At Strike 251
+
+
+
+10.6 Put-Call Symmetry 252
+
+
+
+10.7 Conclusion And Further Reading 256
+
+
+
+11 Multiple Sources Of Risk 260
+
+
+
+11.1 Introduction 260
+
+
+
+11.2 Higher-Dimensional Brownian Motions 261
+
+
+
+11.3 The Higher-Dimensional Ito Calculus 263
+
+
+
+11.4 The Higher-Dimensional Girsanov Theorem 267
+
+
+
+11.5 Practical Pricing 272
+
+
+
+11.6 The Margrabe Option 273
+
+
+
+11.7 Quanto Options 275
+
+
+
+11.8 Higher-Dimensional Trees 277
+
+
+
+12 Options With Early Exercise Features 284
+
+
+
+12.1 Introduction 284
+
+
+
+12.2 The Tree Approach 287
+
+
+
+12.3 The PDE Approach To American Options 289
+
+
+
+12.4 American Options By Replication 291
+
+
+
+12.5 American Options By Monte Carlo 293
+
+
+
+12.6 Upper Bounds By Monte Carlo 295
+
+
+
+13 Interest Rate Derivatives 300
+
+
+
+13.1 Introduction 300
+
+
+
+13.2 The Simplest Instruments 302
+
+
+
+13.3 Caplets And Swaptions 309
+
+
+
+13.4 Curves And More Curves 314
+
+
+
+14 The Pricing Of Exotic Interest Rate Derivatives 319
+
+
+
+14.1 Introduction 319
+
+
+
+14.2 Decomposing An Instrument Into Forward Rates 323
+
+
+
+14.3 Computing The Drift Of A Forward Rate 330
+
+
+
+14.4 The Instantaneous Volatility Curves 333
+
+
+
+14.5 The Instantaneous Correlations Between Forward Rates 335
+
+
+
+14.6 Doing The Simulation 337
+
+
+
+14.7 Rapid Pricing Of Swaptions In A BGM Model 340
+
+
+
+14.8 Automatic Calibration To Co-Terminal Swaptions 342
+
+
+
+14.9 Lower Bounds For Bermudan Swaptions 345
+
+
+
+14.10 Upper Bounds For Bermudan Swaptions 349
+
+
+
+14.11 Factor Reduction And Bermudan Swaptions 352
+
+
+
+14.12 Interest-Rate Smiles 355
+
+
+
+15 Incomplete Markets And Jump-Diffusion Processes 361
+
+
+
+15.1 Introduction 361
+
+
+
+15.2 Modelling Jumps With A Tree 362
+
+
+
+15.3 Modelling Jumps In A Continuous Framework 364
+
+
+
+15.4 Market Incompleteness 367
+
+
+
+15.5 Super- And Sub-Replication 369
+
+
+
+15.6 Choosing The Measure And Hedging Exotic Options 375
+
+
+
+15.7 Matching The Market 377
+
+
+
+15.8 Pricing Exotic Options Using Jump-Diffusion Models 379
+
+
+
+15.9 Does The Model Matter? 381
+
+
+
+15.10 Log-Type Models 382
+
+
+
+16 Stochastic Volatility 389
+
+
+
+16.1 Introduction 389
+
+
+
+16.2 Risk-Neutral Pricing With Stochastic-Volatility Models 390
+
+
+
+16.3 Monte Carlo And Stochastic Volatility 391
+
+
+
+16.4 Hedging Issues 393
+
+
+
+16.5 PDE Pricing And Transform Methods 395
+
+
+
+16.6 Stochastic Volatility Smiles 398
+
+
+
+16.7 Pricing Exotic Options 398
+
+
+
+17 Variance Gamma Models 401
+
+
+
+17.1 The Variance Gamma Process 401
+
+
+
+17.2 Pricing Options With Variance Gamma Models 404
+
+
+
+17.3 Pricing Exotic Options With Variance Gamma Models 407
+
+
+
+17.4 Deriving The Properties 408
+
+
+
+18 Smile Dynamics And The Pricing Of Exotic Options 412
+
+
+
+18.1 Introduction 412
+
+
+
+18.2 Smile Dynamics In The Market 413
+
+
+
+18.3 Dynamics Implied By Models 415
+
+
+
+18.4 Matching The Smile To The Model 421
+
+
+
+18.5 Hedging 424
+
+
+
+18.6 Matching The Model To The Product 425
+
+
+
+Appendix B Computer Projects 434
+
+
+
+B. I Introduction 434
+
+
+
+B.2 Two Important Functions 435
+
+This right here is fucking hilarious it was today's task in Probability Models in fact and there it was simple handwaved O(1) explicit inverse computation but one supposes that the Moro algorithm is worth knowing of.
+
+B.3 Project 1: Vanilla Options In A Black-Scholes World 437
+
+Ah hah the notion of the slower validation via Monte Carlo simulation this is good stuff.
+
+B.4 Project 2: Vanilla Greeks 440
+
+Well one supposes that a trading firm already has fairly performant implementations of the things they think are really important but one could always gaze upon their codebase and see for oneself just how performant it was really and what really one ought to be computing.
+
+B.5 Project 3: Hedging 441
+
+A variety of strategies gees seems kind of lame and boring to just do to just do.
+
+B.6 Project 4: Recombining Trees 443
+
+Seem trivial.
+
+B.7 Project 5: Exotic Options By Monte Carlo 444
+
+Well OK some of these projects seem aight maybe but I gotta finna do the Exercises tasks first litty lit lit lit lit lit.
+
+B.8 Project 6: Using Low-Discrepancy Numbers 445
+
+
+
+B.9 Project 7: Replication Models For Continuous Barrier Options 447
+
+
+
+B.10 Project 8: Multi-Asset Options 448
+
+
+
+B.11 Project 9: Simple Interest-Rate Derivative Pricing 448
+
+
+
+B.12 Project 10: LIBOR-In-Arrears 449
+
+
+
+B.13 Project 11: BGM 450
+
+
+
+B.14 Project 12: Jump-Diffusion Models 454
+
+
+
+B.15 Project 13: Stochastic Volatility 455
+
+
+
+B.16 Project 14: Variance Gamma 456
+
+
+
+Appendix C Elements Of Probability Theory 458
+
+
+
+C.1 Definitions 458
+
+
+
+C.2 Expectations And Moments 462
+
+
+
+C.3 Joint Density And Distribution Functions 464
+
+
+
+C.4 Covariances And Correlations 466
+
+
+
+Appendix D Order Notation 469
+
+
+
+D.1 Big 0 469
+
+
+
+D.2 Small O 471
+

@@ -1,0 +1,111 @@
+  \documentclass{mynotes}
+
+%\geometry{showframe}% for debugging purposes -- displays the margins
+
+\newcommand{\E}{\mbox{E}}
+\newcommand{\MSE}{\mbox{MSE}}
+\newcommand{\var}{\mbox{var}}
+\newcommand{\bx}{\mathbf{x}}
+
+\usepackage{amsmath}
+%\usepackage[garamond]{mathdesign}
+\usepackage{url}
+
+% Set up the images/graphics package
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+
+\title[Exercises 4 $\cdot$ SSC 383D]{Exercises 5: Hierarchical Linear Models}
+%\author[ ]{ }
+\date{}  % if the \date{} command is left out, the current date will be used
+
+% The following package makes prettier tables.  We're all about the bling!
+\usepackage{booktabs}
+
+% The units package provides nice, non-stacked fractions and better spacing
+% for units.
+\usepackage{units}
+
+% The fancyvrb package lets us customize the formatting of verbatim
+% environments.  We use a slightly smaller font.
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+
+% Small sections of multiple columns
+\usepackage{multicol}
+
+% Provides paragraphs of dummy text
+\usepackage{lipsum}
+
+% These commands are used to pretty-print LaTeX commands
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+
+\newcommand{\N}{\mbox{N}}
+\newcommand{\thetahat}{\hat{\theta}}
+\newcommand{\sigmahat}{\hat{\sigma}}
+\newcommand{\betahat}{\hat{\beta}}
+
+
+\begin{document}
+
+\maketitle% this prints the handout title, author, and date
+
+
+\section{Price elasticity of demand}
+
+The data in ``cheese.csv'' are about sales volume, price, and advertisting display activity for packages of Borden sliced ``cheese.'' The data are taken from Rossi, Allenby, and McCulloch's textbook on \textit{Bayesian Statistics and Marketing.} For each of 88 stores (store) in different US cities, we have repeated observations of the weekly sales volume (vol, in terms of packages sold), unit price (price), and whether the product was advertised with an in-store display during that week (disp = 1 for display).
+
+Your goal is to estimate, on a store-by-store basis, the effect of display ads on the demand curve for cheese.  A standard form of a demand curve in economics is of the form $Q = \alpha P^\beta$, where $Q$ is quantity demanded (i.e.~sales volume), $P$ is price, and $\alpha$ and $\beta$ are parameters to be estimated.  You'll notice that this is linear on a log-log scale,
+$$
+\log Q = \log \alpha + \beta \log P \,
+$$
+which you should feel free to assume here.  Economists would refer to $\beta$ as the price elasticity of demand (PED).  Notice that on a log-log scale, the errors enter multiplicatively.
+
+There are several things for you to consider in analyzing this data set.
+\begin{compactenum}
+\item The demand curve might shift (different $\alpha$) and also change shape (different $\beta$) depending on whether there is a display ad or not in the store.
+\item Different stores will have very different typical volumes, and your model should account for this.
+\item Do different stores have different PEDs?  If so, do you really want to estimate a separate, unrelated $\beta$ for each store?
+\item If there is an effect on the demand curve due to showing a display ad, does this effect differ store by store, or does it look relatively stable across stores?
+\item Once you build the best model you can using the log-log specification, do see you any evidence of major model mis-fit?
+\end{compactenum}
+Propose an appropriate hierarchical model that allows you to address these issues, and use Gibbs sampling to fit your model.
+
+
+
+\section{A hierarchical probit model}
+
+Read the following paper (or read some distillation of the paper in a book/blog post/slides/etc).  
+\begin{quotation}
+``Bayesian Analysis of Binary and Polychotomous Response Data.''  James H. Albert and Siddhartha Chib.  \textit{Journal of the American Statistical Association}, Vol.~88, No.~422 (Jun.,~1993), pp.~669-679
+\end{quotation}
+
+The paper describes a Bayesian treatment of probit regression (similar to logistic regression) using the trick of \textit{data augmentation}---that is, introducing ``latent variables'' that turn a hard problem into a much easier one.  Briefly summarize your understanding of the key trick proposed by this paper.  Then see you if you can apply the trick in the following context, which is more complex than ordinary probit regression.
+
+In ``polls.csv'' you will find the results of several political polls from the 1988 U.S.~presidential election.  The outcome of interest is whether someone plans to vote for George Bush (senior, not junior).  There are several potentially relevant demographic predictors here, including the respondent's state of residence.  The goal is to understand how these relate to the probability that someone will support Bush in the election.  You can imagine this information would help a great deal in poll re-weighting and aggregation (ala Nate Silver).
+
+Use Gibbs sampling, together with the Albert and Chib trick, to fit a hierarchical probit model of the following form:
+\begin{eqnarray*}
+\mbox{Pr}(y_{ij} = 1) &=& \Phi(z_{ij})  \\
+z_{ij} &=& \mu_i + x_{ij}^T \beta_i \, .
+\end{eqnarray*}
+Here $y_{ij}$ is the response (Bush=1, other=0) for respondent $j$ in state $i$; $\Phi(\cdot)$ is the probit link function, i.e.~the CDF of the standard normal distribution; $\mu_i$ is a state-level intercept term; $x_{ij}$ is a vector of respondent-level demographic predictors; and $\beta_i$ is a vector of regression coefficients for state $i$.
+
+Notes:
+\begin{enumerate}
+\item There are severe imbalances among the states in terms of numbers of survey respondents. Following the last problem, the key is to impose a hierarchical prior on the state-level parameters.
+\item The data-augmentation trick from the Albert and Chib paper above is explained in many standard references on Bayesian analysis.  If you want to get a quick introduction to the idea, you can consult one of these.  A good presentation is in Section 8.1.1 of ``Bayesian analysis for the social sciences'' by Simon Jackman, available as an ebook through lib.utexas.edu.
+\item You are welcome to use the logit model instead of the probit model.  If you do this, you'll need to read the following paper, rather than Albert and Chib: Polson, N.G., Scott, J.G. and Windle, J. (2013). Bayesian inference for logistic models using Polya-Gamma latent variables. J. Amer. Statist. Assoc. 108 1339--1349.    You can find a routine for simulation Polya-Gamma random variables in the BayesLogit R package and the pypolyagamma python library.  
+\end{enumerate}
+
+
+\end{document}
+
