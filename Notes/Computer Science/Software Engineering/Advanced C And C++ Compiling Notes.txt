@@ -1,0 +1,65 @@
+Seems like an OK book worth paying attention to and re reading multiple times so as to perform more highly in a Software Engineering role.
+
+Introduction xxi
+
+
+
+Chapter 1: Multitasking OS Basics 1
+
+
+
+Chapter 2: Simple Program Lifetime Stages 9
+
+
+
+Chapter 3: Program Execution Stages 43
+
+
+
+Chapter 4: The Impact of Reusing Concept 53
+
+
+
+Chapter 5: Working with Static Libraries 75
+
+
+
+Chapter 6: Designing Dynamic Libraries: Basics 81
+
+
+
+Chapter 7: Locating the Libraries 115
+
+
+
+Chapter 8: Designing Dynamic Libraries: Advanced Topics 137
+
+
+
+Chapter 9: Handling Duplicate Symbols When Linking In Dynamic Libraries 155
+
+
+
+Chapter 10: Dynamic Libraries Versioning 187
+
+
+
+Chapter 11: Dynamic Libraries: Miscellaneous Topics 233
+
+
+
+Chapter 12: Linux Toolbox 243
+
+
+
+Chapter 13: Linux How To's 277
+
+
+
+Chapter 14: Windows Toolbox 291
+
+
+
+
+Index 309
+

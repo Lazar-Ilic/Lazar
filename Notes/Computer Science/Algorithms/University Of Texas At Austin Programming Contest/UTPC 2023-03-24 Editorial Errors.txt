@@ -1,0 +1,13 @@
+My penultimate University Of Texas At Austin Programming Contest round and I rank 2nd. So, most likely no 1sts for me in that competition.
+
+I am fairly confident that the Editorial for G - Path To Pluto is Wrong. See my file on the topic. My understanding is that the actual decrease in cost for v's subtree is [dist[v]-C] and also that this is still Wrong as there are dudes upstream from v not in v's subtree which are then incentivised to path down to v and through v rather than up now and so the onus is still upon the participant to produce a robust algorithm for shwooping out dudes near v essentially.
+
+"
+DylanSmith - Today At 9:56 AM
+Yes this is true. The issue is that the edges we originally directed toward the root [ensuring that you can't travel down], but in an attempt to simplify the problem I changed it so that the edges were bidirectional. It didn't come to me that this completely changed the problem, so I'm really sorry if this caused a lot of wasted time. The reason it was still solved is that the samples follow the version of the problem with unidirectional edges [and fail on the bidirectional version], so a couple people were able to recognize that. I have changed the statement and all the test cases and validator since the contest ended so that they match the correction to the problem statement. Again, I'm really sorry about this.
+I am interested in how the bidirectional version might be solved though, so if you got that far lmk
+"
+
+OKOKOK perhaps I shall crack this variant task later today. No, I did not really waste a ton of time in-round perhaps 10 minutes or 600s or so.
+
+Actually this 1 was the Ultimate Ultimate awesome narcissist arsonist round for me as uh I can not afford to take a 5 + hours hit in the middle of a tight 48 hour Alibaba round solo... when I feel very directly financially incentivised to produce a beautiful elucidating .tex submission and vie for Top 100 over there on Qualifications maybe Top 50 even and list it.

@@ -1,0 +1,440 @@
+[Keep some private to vie for 阿里巴巴 Global Mathematics Competition $10000]
+
+----------
+
+	Meta Hacker Cup 2025 Round 2 Task D Version
+
+Solve it for millions of queries. Same allowed runtime. Solution is over in my Algorithms files.
+
+	2025-11 Version
+
+Some other special cases are doable with some sophisticated techniques like maybe GPT can do 2^400-5^50 with some tricks dunno Aurifeuillean refinements and LTE.
+
+	2025-08 Task Titled: Factorise The Input 1000ms Time Limit
+
+I was thinking about the ECM Elliptic Curve Factorisation Method and a different task... say one is trying to factorise a number like 8856480460906759504036060944892171332717165162660899 very fast in a competitive programming setting... or way bigger up to 500 bits say.
+
+	Competitive Programming Round Interlude Meta Hacker Cup Style 4 Hours
+
+A
+
+
+B
+Contrived MathForces task where using long long passes the validation set but long double is needed for the test set. Maybe instead do one where competitors need to have or dig up an arbitrary precision C++ library class or something. Would be cooler here to ensure some off the dome Scientific Computation style computation to estimate where which precision is needed uh to hit which precision upstream could demand 10 figures of precision in some combinatorial setting where the precise precision needs to be micro managed in order to not TLE Exceed Time Limit. Another way to modify that IBM Research Ponder This 2024-11 task may be to contrive a large polynomial with degree say 20 and a solution long long of size around 10^10 or something and then somehow manipulate long doubles to get an approximation for the solution followed up with a relatively simple uh somehow try and do something with Chinese Remainder Theorem.
+
+C
+Thinking further about that classic technique where one goes from the source and target to the midway point to generate the number of paths by summing the product. Maybe there is a nice combinatorics setting to hit a MathForces where instead of the halfway point the competitors need to actually select something in some kind of cleverish way uh.
+
+D
+Maybe steal from AtCoder.
+
+E
+Harder data structure.
+
+F
+Harder data structure. Maybe steal from AtCoder.
+
+----------
+
+	Meta Hacker Cup 2024 Round 2 Task C
+
+	Common n-Grams
+
+Updated from the Master Of Computer Science task I posted in Algorithms.txt files. Given some sentences, compute common 2-grams, 3-grams, ... perhaps bounded by 5-grams.
+
+	Naive Question
+
+Say we draw some values from a distribution and approximate it by sorting the drawn values and then just having the pdf function on each interval be inverse the length of the interval. What desiderata does this approximation satisfy? How to best smooth that approximation in to a continuous unimodal distribution if we know the underlying is continuous and unimodal e.g. or want to approximate it as such for some good reason computationally?
+
+	Average Of Distributions
+
+Plot common or plausible hyperprior combinations in R2 and R3.
+
+	Another Search
+
+A task where 2^30 Exceeds Time Limit but binary searching for threshold via [30 choose 15] + [30 choose 7] + [30 choose 11] + ... does not.
+
+	Optimised Searching
+
+Task where some statistical properties lead to a special search function being optimal like testing m = [3l + r] / 4 in loop rather than the simple binary search function here m = [l + r] / 2. Note that in some streaming settings on an uncertain underlying distribution with comparison queries one might simply store the Ordered Set of values thus far, or the Ordered Set of the previous X values which appeared in the stream and functions as an acceptable approximation, and essentially execute a binary search for the rough value on the underlying approximation for the distribution thusly. It would sort of depend on the streaming setting but in another setting one might take a fast Ordered Set up to ~100000 or ~10000 values even and then store those values in order in an array for faster lookups if one expects a similar distribution over the next 10^9 values or so. Andrew Critch style exponential logarithmic posterior might work here.
+
+	Optiver Task: read in 300000 horses, the market betting odds, our credence function upon their Winning probabilities, and compute the betting strategy portfolio maximising the expected value of logarithm of bankroll.
+
+	Sum Of Distinct Powers
+
+Compute the 10000000th positive integer which can be represented as a sum of distinct powers of 11, 13, 17, and 19 e.g.
+
+	Queries
+
+Say there exist n different normal distributions. Compose a program with m online queries to estimate the underlying mean of the means.
+
+	Cracks Maze Puzzle
+
+A blind bull shitter encounters Christopher The Pharmacist and walks into a dark stone labyrinth of spiritual meaningness next to a chapel with COVID-19 chimes and traces with his Left hand along the wall of the path, mapping out the entire territory with occasional jumps as needed. But he wants to cheat on the return route now that he is enlightened into the internal structure of the maze and use at most C shortcut cheats through cracking the walls of the maze. Compute the shortest minimal return path.
+
+	Printing Out Sorted Factors Of 2^99 * 3^99 * 5^99
+
+Consider if one is tasked with printing out the numbers or the underlying power representation. Essentially Dijkstra's on the underlying logarithm sum of relevant logs in a 3-Dimensional cubic space works in faster than 1000000 * log [1000000] time I think but it would depend and native or performant sorting algorithms on the complete string representations can also work fast in C++ or Python.
+
+	Searching For Threshold
+
+Task with a relatively large number of test cases and for each test case there is a hidden A in [0,1]. Querying a value B costs ~B^2 and completes the test case if and only if A <= B. Optimal querying structure? Transformation means A^2 in [0,1] isomorphism with A^2 <= B^2 at which point a strategy of simply checking power-of-2 costs upwards until clearing the A^2 threshold will cost ~4A^2 in the worst case and ~2A^2 in the best case. Still depends a lot on the a priori distribution for A. What if each query costs ~B^2+C? Could be interesting to somehow task candidates with an interesting structure a la the Google Code Jam which forces them to get within 95% and 99.9% of an optimal constant factor. In this simple linear to exponential blowup structure the minimum of [1/[1-x]+1/[x*[1-x]]]*[1/2] occurs for x=sqrt[2]-1 at 3/2+sqrt[2]~2.91421356 times the minimum cost necessary if we had oracular access to the hidden variable A. However that is not the relevant function to be minimising here I think. Literature on minimising expected cost in certain live streaming settings. Modifying live constructed cost functions over time. [Joking technical addendum: this is like the eggs dropping floor deduction task except now one is earning $1000|hour and thus the cost of the eggs is negligible compared to the counterfactual value of one's own time and labour energy units walking up and down the stairs if needed to verify the eggy outcome... perhaps one ought to hire a reliable trusty undergraduate or graduate student to schedule up such trivial tasks. The eggs would need to shatter at lower floors and not higher and we would also care about precision on approximations for shattering floors or whatever but I digress sometimes. In that particular variant one can consider walking up and dropping a variable numbers of eggs from variable heights and coming back down the stairs to count the precise number of eggs states.]
+
+In any case this digression naturally leads to the formal discrete integral and telescoping sum hmm...
+
+https://www.wolframalpha.com/input?i=minimise+a%2Bb%2Bc%2Bd%2Be%2Bf%2Bg%2Bh-%28a*b%2Bb*c%2Bc*d%2Bd*e%2Be*f%2Bf*g%2Bg*h%2Bh*i%29+subject+to+0%3Ca%2C+a%3Cb%2C+b%3Cc%2C+c%3Cd%2C+d%3Ce%2C+e%3Cf%2C+f%3Cg%2C+g%3Ch%2C+h%3Ci%2C+i%3C1
+
+https://www.wolframalpha.com/input?i=minimise+a%2Bb%2Bc-%28a*b%2Bb*c%2Bc*d%29+subject+to+0%3Ca%2C+a%3Cb%2C+b%3Cc%2C+c%3Cd%2C+d%3C1
+
+Partitioned Into By:
+0 ... x1 x2 x3 ... 1
+x1*(x1)+(x2-x1)(x2+x1)+(x3-x2)(x3+x2+x1)... +(1-xn)(1+...+x1) =
+x1+x2(1-x1)+x3(1-x2)+...+1(1-xn)=
+x1+x2+x3+...+xn+1-(x1x2+x2x3+...+xn-1xn+xn)
+
+Minimise
+
+x1+x2+x3+...+x[n-1]-(x1x2+x2x3+...+x[n-1]xn)
+
+And voila of course it turns out that minimising this integral if it was like uniform on [0,1] could cost 1 on average for either the [0,1] case or the [0,a,1] partition case means roughly 2x as much as the A captured in the long run is clearly superior in the 1-Dimensional finite bounded case here so we need to construct more interesting such tasks.
+
+	Does Nonrandom Walk Hit Target Point?
+
+Task where somehow it is not a random walk... I want competitors to realise that it is advantageous to check partway through and exit a test case early but in a reasonable fashion, not every single iteration. For example, for a 1-Dimensional Random Walk of length 1000000 one can easily check a threshold around iteration 999202 and potentially easily cut down runtime by handwaved ~0.001 is non trivial.
+
+	CodeMajmunce
+
+At some point we need a CodeMajmunce catching the Yellow Gold bananas and Saving The World.
+
+	2-Dimensional Snake
+
+There exists a big beautiful hairsy tigress cow at [c,d] in a grid from [0,0] to [a,b]. Count the number of Hamiltonian paths terminating at the tigress cow [c,d] which cover the entire grid e.g. ways a massive Python could snake from the tigress cow and cover each grid space.
+
+	String
+
+Some task about querying perhaps some pseudorandom queries up front to discover some information and deduce some property of an underlying mystery string and the task has to do with producing an algorithm with very low or near optimal linear expected runtime to halt with sufficiently low error.
+
+	"Little Monkey Man" "Autoboto" Counting Grains Of White Rice
+
+Perhaps task is related to estimating the number of grains in a huge batch of White rice where somehow we discover or comment on size and weight distribution or discover evidence and also perhaps have an auxiliary mechanism for bucketing grains of White rice by size.
+
+	Prove That P ≠ NP
+
+This will demonstrate production of the 200 IQ poo poo poo poo. "Does anybody make real shit any more?" 'bout to go smart, go ape shit. Numb on God's thumb with Zer0 to $10 millie on Mark Zuckerberg's Gold Medal like a SuperUberHero.
+
+	Integral Approximation
+
+Approximate x = integral blah. Answers in [x/10,10x] will be Accepted.
+
+	Accumulation Summation
+
+Bessie is pooing again. She has decided to walk in a rows of poo poo and each row has b poos. The weight of the poos in each row are given by the formula for the cth poo in the row being (d+c)^e*(f)^[c+g]. Compute the sum of the weights of the poo poo in each row.
+
+	Holy Crap
+
+Bessie the cow wombat hybrid has taken a poo poo. It is a subset of an n x n x n cubes such that beneath every poo cube is another poo cube or the ground. Also, every poo column height is at most m different from each of its neighbour columns' heights. And the edges must have height <=m. How many such poo poos can Bessie take? Variant: what if each poo cube must have a trenbolone acetate metabolites level between 1 and n and this must be decreasing up each column?
+
+	Loopy
+
+I wanted to compose a task where contestants had to choose a good conditional prior to executing some other code so that only efficient implementations would be accepted, and others would be given the time limit exceeded verdict. But I do not know if this is possible without also forcing accepted programs to be heavily optimised, -O3 tuning, etc. Another idea would be to present a task where for inputs under some threshold value, one algorithm is faster, and for inputs over that threshold value another algorithm is faster. It would humour me to compose an ICPC task which returns a ton of time limit exceeded verdicts and trolls the competitors participants.
+
+	Determine The Determinants
+
+Given a matrix A and a vector B your task is to compute the determinants of the matrices which result from replacing each column of A with B.
+
+	Apples And Buckets
+
+There are n buckets of indistinguishable apples. Your task is to count the number of ways you can select some number of apples in a range.
+
+Input
+
+The first input line has the integer n,a,b: the number of buckets, the minimum allowed, and maximum allowed number of apples.
+
+The next line contains n integers c1,c2,...,cn: the number of apples in each bucket.
+
+Output
+
+Print one integer: modulo 1000000007, the number of ways to select between a and b apples inclusive e.g. the number of n-tuples of nonnegative integers (d1,d2,...,dn) such that 0<=di<=ci and a<=sum di<=b.
+
+Constraints
+
+0<=n<=100000
+0<=a,b<=100000
+1<=ci<=100000
+1<=sum ci<=500000
+
+Example
+
+Input:
+4 3 5
+2 3 4 5
+
+Output:
+90
+
+----------
+
+	Factorise The Input
+
+So I need to think of the right hint for the target task but... one can generate say some very large values a where something like for example a+1, 2*a+7, 3*a+5, ... are all prime. Then multiply them to generate very very large semisemiprimes. OK well this comes in to actual runtimes. So say we set the task to have a runtime limit of 1000ms. Maybe we should do it where there are multiple test cases so we make the hardest set very hard to pass. And to pass that one they need to realise there is something sus' going on but also be even faster than say they can not even binary search for the answer but also need to be even faster by e.g. at least starting off their best guess for the solution here if the actual value was 400 or 500 bits or something to pass they even would need to start out with the right bound on the binary search being like well in this case (Input/6)^(1/3) but even that part would need to be computed quite rapidly to have a substantive edge over 0 on the left bound with a better guess or modulo forcing otherwise. Force very fast multiplication? Also need to think very hard about a hint which could lead to a solution this is a troll question but a hint which makes it soluble but does not obviously give it away I mean that it should occur to the contestants that it so happens we generated the input using a product of nomials with small magnitude coefficients.
+
+	Meta 2024 Round 2 C
+
+It would seem as though the Meta firm Hacker Cup division ought to have made stronger test cases. Perhaps forced parallel as well as a strategy splitting on the number of burrows. So for a small number one can directly loop through in O[count choose 2] and the way memory handling on the vector of vector of pairs works it should be pretty fast. Then for medium counts one can go in and do the 2-dimensional BIT Binary Indexed Tree approach. And also force it so that to pass the test cases somehow also mention something about large count cases in the mixture where contestants are forced in to using the O[R*C] approach. So I think that might be the optimal kind of code for this task. I have since updated my Meta 2024 Round 2 C 3.cpp file with further commentary. And yet the code could still be sharpened further to be sure. I reread Meta Hacker Cup's proposed solution and went ahead and implemented the line sweep approach with a 1-dimensional BIT Binary Indexed Tree. And intend to upsolve Task D as well as all future tasks.
+
+	Common n-Grams
+
+One would think my original solution is quite bad. There I essentially looped through with a vector of strings repeatedly adding up strings and then ++ing their multiplicities in a map [could be unordered] from strings to multiplicities. One improvement would be to use a deque there maybe. But another improvement could be to use hashing here and hash each word. Then processing through a vector of long long hashes to produce the n-gram hash is faster. The trick is to also make a map from hash to n-gram the first time we see a hash appear so we have also a map from hashes to multiplicities and later processing through that one we can recover the underlying n-gram string corresponding with a frequently-appearing hash. We also need precomputed powers of relevant prime moduli for computing the hashes of the merged strings relatively rapidly and also go in a sort of quasi deque fashion there for speedup on compute in C++. And in particular in the unordered map from hashes to strings we want the actual left and right end memory pointers rather than the whole substring for much faster processing and OK processing time later upon retrieval. This can also be accomplished by storing the locations of the " "s and hashing the entire sentence followed up by the usual string sentence substring subhashing O[1] call but this would depend on desired memory details as well as in streaming settings maybe with some assurance that the distribution is sort of OKish at which point we might be able to mix in some forgetting function with other details to only store the Top 1% most common recentish n-grams or whatever 2-grams and 3-grams in some unordered maps.
+
+	IBM Ponder This 2023-10 Post Facto Analysis Inspired Task Draft
+
+"
+A la infinite enumeration proofs in mathematics demonstrating the cardinality of the rational numbers is the cardinality of the integers, one may more simply test pairs in an outwards spiral, thus ensuring to not introduce such an additional logarithmic or rather polylogarithmic factor. Other tasks might get improved performance from such styles of searches, depending on underlying memory performance issues in a row-by-row sequential C setting. Perhaps a relatively simple task could be composed where statistical properties lead to acceptance if and only if the competitor searches the subrectangle [x*9/20,x*11/20]x[y*9/20,y*11/20] row-by-row before searching other squares, potentially outwards in a spiral.
+"
+
+	Optiver Task: read in 300000 horses, the market betting odds, our credence function upon their Winning probabilities, and compute the betting strategy portfolio maximising the expected value of logarithm of bankroll.
+
+Lagrange Multipliers. Canonical. Smoothing. Smoczynski and Tomkins. Whitrow. Grant et al. Buchen and Grant. Et al. Performant C implementation.
+
+	Integral Approximation
+
+Saw recent examples. Would love to have a non trivial insight about the structure of the integral or some half clever O[log[n]] querying needed.
+
+	Accumulation Summation
+
+O[log [min[b+c,e]] canonically but can demand certain precisions or integer fractional representations from Python in Input bounds cases.
+
+	Holy Crap
+
+See about Dynamic Programming, matrices, and transition functions computations on multiplicities state based approaches and the OEIS.
+
+	Favourite Numbers
+
+2 1 0 10 9999999999 Science Googol Minus One Psych' Ali G Sacha Baron Cohen Harverd 2004 Commencement Speech Redder Than Red Red On Red 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 Primes Powers [Of Primes And 10]
+
+	Determine The Determinants
+
+There is a matrix A and a vector B and you must print out the determinant of each matrix which results from replacing a column of A with B.
+
+Input
+
+
+Output
+
+
+Constraints
+
+
+Example
+
+
+Input:
+
+
+Output:
+
+
+Tutorial:
+Compute |A| * A^{-1} * B
+
+
+
+Variant: make a tricky sub task for each bucket.
+
+Variant: somehow incorporate some tricky polynomials insights
+
+	Apples And Buckets
+
+There are n buckets of indistinguishable apples. Your task is to count the number of ways you can select some number of apples in a range.
+
+Input
+
+The first input line has the integer n,a,b: the number of buckets, the minimum allowed, and maximum allowed number of apples.
+
+The next line contains n integers c1,c2,...,cn: the number of apples in each bucket.
+
+Output
+
+Print one integer: modulo 1000000007, the number of ways to select between a and b apples inclusive e.g. the number of n-tuples of nonnegative integers (d1,d2,...,dn) such that 0<=di<=ci and a<=sum di<=b.
+
+Constraints
+
+0<=n<=100000
+0<=a,b<=100000
+1<=ci<=100000
+1<=sum ci<=500000
+
+Example
+
+Input:
+4 3 5
+2 3 4 5
+
+Output:
+90
+
+Tutorial:
+See file but target is amortized analysis O(n * (log n)^2), optimal processing order taking the 2 smallest, number theoretic convolution Fast Fourier Transform of the generating function i.e. the vector [1,1,1,1....,1]
+
+"
+
+
+WikipediaThe Free Encyclopedia
+
+Donate
+Create account
+Log in
+
+
+The Show Goes On (song)
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+From Wikipedia, the free encyclopedia
+This article is about the Lupe Fiasco song. For the Bruce Hornsby and the Range song, see Scenes from the Southside.
+"The Show Goes On"
+
+Single by Lupe Fiasco
+from the album Lasers
+Released	October 26, 2010
+Recorded	2010
+Genre	
+Pop rap
+Length	3:56
+Label	
+1st & 15thAtlantic
+Songwriter(s)	
+Wasalu JacoDaniel JohnsonDustin BrowerJonethon Keith BrownIsaac BrockDann GallucciEric Judy
+Producer(s)	Kane Beatz
+Lupe Fiasco singles chronology
+"I'm Beamin'"
+(2010)	"The Show Goes On"
+(2010)	"Words I Never Said"
+(2011)
+ 
+Music video
+"Show Goes On" on YouTube
+"The Show Goes On" is a song by American recording artist Lupe Fiasco, released by Atlantic Records on October 26, 2010, as the lead single from his third studio album Lasers.[1] The song was produced by Kane Beatz and features an uncredited guest appearance from JR Get Money, who performs the hook – which is melodically interpolative of the 2004 song "Float On" by indie rock band Modest Mouse; as a result, band members Isaac Brock, Eric Judy and Benjamin Weikel are credited as co-writers, alongside Dustin Brower, as well as Lupe Fiasco, Kane Beatz and JR Get Money themselves.
+
+"The Show Goes On" debuted at number 57 on the Billboard Hot 100, and peaked at number nine - it remains Fiasco's highest-charting song. It was released on iTunes on November 9, 2010, and in the UK on February 20, 2011. The song was a major point of contention for the artist and a reason for the lengthy delay of the album, making the title fitting; as Lupe was told unequivocally by record producers: "If you don't do 'The Show Goes On', your album's not coming out."[2] However, XXL named it 14th Best Song of 2011.[3] The song was nominated for Best Rap Performance and Best Rap Song at the 54th Grammy Awards.
+
+Background
+Lupe Fiasco announced the name of the single at the Fiasco Friday protest on October 15, 2010. On that day, Lyor Cohen came down to play the single for the protest turned celebrating fan base situated outside Atlantic Records. In a NovaFM interview, he gave an analysis of the first verse. He went on to say, "For them it was 'why is he talking about the record label, but it's still a great song. For me, I was like 'No, that's my therapy... To give you this song... Now you have to make it a worldwide smash. You have to play it on the radio... So every time you hear it, you're going to hear me talking about your ass."[4]
+
+On February 28, 2011, what the Complex magazine published an interview with Lupe that detailed the background behind the single.[5]
+
+There's nothing really to tell about that record, to be honest. I didn't have nothing to do with that record. That was the label's record. That wasn't like I knew the producer or knew the writer or anything like that. That was one of those records the record company gave me, [they even gave me] stuff they wanted me to rap about. It wasn't like, 'Hey I did this and I went to a mountain and found inspiration and it was this'. [...] I had to do "The Show Goes On", that was like the big chip on the table. I had to do it and it had to be the first single if the record was going to come out.
+
+In an interview with The Adelaide Tribune, Lupe expanded further on his feelings toward the record.[6]
+
+I was literally told for "The Show Goes On" that I shouldn't rap too deep. I shouldn't be too lyrical. It just needs to be something easy on the eyes. Like a record company telling Picasso that we don't need these abstract interpretations of life, where people have to sit down and look at it and break it down. It was better to paint the Upper West Side lady and her poodle so everyone could look at it right away and understand what was going on. I felt like I was painting poodles. It's why in the first line of "The Show Goes On" I paraphrase Johnny Rotten at the Sex Pistols' final show: "Have you ever had the feeling that you were being cheated".
+
+Writing credits are given to Lupe Fiasco, Isaac Brock, Dustin Brower, Jonathon Brown, Dann Gallucci, Eric Judy and to producer Kane Beatz.[7]
+
+The song was released on Lupe Fiasco's website on October 26 for download. This marked the first officially planned released single from Lasers ("Shining Down" and "I'm Beamin" were leaks re-released as street singles). "The Show Goes On" appeared on the iTunes Music Store on November 9.
+
+Music video
+The music video for "The Show Goes On" was released on December 25, 2010. It was directed by Hiro Murai and shows Lupe backstage preparing for a performance.[8] Contrary to popular belief [who?], the skull and crossbones glove is actually associated with Mastermind Japan the and not Lupe Fiasco's post-punk band, Japanese Cartoon. It was MTV's last Jam Of The Week of 2010. The video itself was nominated for MTV's Video Music Award for Best Hip Hop Video in 2011.
+
+Chart performance
+"The Show Goes On" peaked at No. 9 on the Billboard Hot 100, making this song Lupe's second top ten hit and biggest hit to date.[9] "The Show Goes On" is Lupe Fiasco's best-selling and highest-charting song to date. As of June 2011, the single has sold more than 3,000,000 digital units in the US.[10]
+
+Charts
+Charts
+Chart (2011)	Peak
+position
+Australia (ARIA)[11]	5
+Belgium (Ultratip Bubbling Under Flanders)[12]	50
+Canada (Canadian Hot 100)[13]	19
+Canada CHR/Top 40 (Billboard)[14]	12
+Canada Hot AC (Billboard)[15]	46
+Ireland (IRMA)[16]	19
+New Zealand (Recorded Music NZ)[17]	18
+UK Singles (OCC)[18]	49
+US Billboard Hot 100[19]	9
+US Hot R&B/Hip-Hop Songs (Billboard)[20]	45
+US Hot Rap Songs (Billboard)[21]	4
+US Pop Airplay (Billboard)[22]	6
+US Rhythmic (Billboard)[23]	1
+Year-end charts
+Chart (2011)	Position
+Australia (ARIA)[24]	51
+Canada (Canadian Hot 100)[25]	87
+US Billboard Hot 100[26]	28
+US Mainstream Top 40 (Billboard)[27]	39
+US Rhythmic (Billboard)[28]	7
+
+Certifications
+Region	Certification	Certified units/sales
+Australia (ARIA)[29]	2× Platinum	140,000^
+New Zealand (RMNZ)[30]	2× Platinum	60,000‡
+United States (RIAA)[31]	7× Platinum	7,000,000‡
+^ Shipments figures based on certification alone.
+‡ Sales+streaming figures based on certification alone.
+
+References
+ "Lupe Fiasco in-depth interview by Pete Lewis, 'Blues & Soul' March 2011". Bluesandsoul.com. October 15, 2010. Retrieved June 6, 2012.
+ Batey, Angus (March 3, 2011). "Lupe Fiasco: 'I have the right to speak out'". The Guardian. London.
+ XXL Staff (January 2, 2012). "Top 100 Songs of 2011". XXL. Retrieved January 23, 2021.
+ "Lupe Fiasco Takes a Stab at the Music Business in The Show Goes On". NovaFM.com.au. February 8, 2011. Archived from the original on February 11, 2011. Retrieved February 8, 2011.
+ "Interview: Lupe Fiasco Hates His Own Album". Complex.com. Retrieved March 2, 2011.
+ "Turn It Up: Lupe Fiasco yking the making of 'L.A.S.E.R.S.":'It was destroying me'". Leisureblogs.ChicagoTribune.com. March 1, 2011. Retrieved March 2, 2011.
+ "The Show Goes On on ACE Repertory". ASCAP. Retrieved November 11, 2021.
+ "Beyond The Video: "The Show Goes On"". Youtube.com. January 10, 2011. Archived from the original on December 21, 2021. Retrieved February 8, 2011.
+ "Top 100 Music Hits, Top 100 Music Charts, Top 100 Songs & The Hot 100" (in French). Billboard.com. June 2, 2012. Retrieved June 6, 2012.
+ Grein, Paul (December 14, 2011). "Chart Watch Extra: The Year's Top 30 Hits | Chart Watch (NEW) - Yahoo! Music". Music.yahoo.com. Retrieved June 6, 2012.
+ "Lupe Fiasco – The Show Goes On". ARIA Top 50 Singles. Retrieved January 26, 2022.
+ "Lupe Fiasco – The Show Goes On" (in Dutch). Ultratip. Retrieved 2011-03-11.
+ "Lupe Fiasco Chart History (Canadian Hot 100)". Billboard.
+ "Lupe Fiasco Chart History (Canada CHR/Top 40)". Billboard. Retrieved January 26, 2022.
+ "Lupe Fiasco Chart History (Canada Hot AC)". Billboard. Retrieved January 26, 2022.
+ "The Irish Charts – Search Results – The Show Goes On". Irish Singles Chart. Retrieved January 27, 2020.
+ "Lupe Fiasco – The Show Goes On". Top 40 Singles. Retrieved January 26, 2022.
+ "Official Singles Chart Top 100". Official Charts Company.
+ "Lupe Fiasco Chart History (Hot 100)". Billboard.
+ "Lupe Fiasco Chart History (Hot R&B/Hip-Hop Songs)". Billboard.
+ "Lupe Fiasco Chart History (Hot Rap Songs)". Billboard.
+ "Lupe Fiasco Chart History (Pop Songs)". Billboard.
+ "Lupe Fiasco Chart History (Rhythmic)". Billboard.
+ "ARIA Top 100 Singles 2011". Australian Recording Industry Association. Archived from the original on January 27, 2012. Retrieved January 18, 2015.
+ "Canadian Hot 100 – Year-End 2011". Billboard. Retrieved August 13, 2019.
+ "Best of 2011: Hot 100 Songs". Billboard. 2011. Retrieved December 9, 2011.
+ "Pop Songs – Year-End 2011". Billboard. Retrieved September 4, 2019.
+ "Rhythmic Songs – Year-End 2011". Billboard. Retrieved September 4, 2019.
+ "ARIA Charts – Accreditations – 2011 Singles" (PDF). Australian Recording Industry Association. Retrieved October 6, 2021.
+ "New Zealand single certifications – Lupe Fiasco – The Show Goes On". Radioscope. Retrieved February 6, 2025. Type The Show Goes On in the "Search:" field.
+ "American single certifications – Lupe Fiasco – The Show Goes On". Recording Industry Association of America. Retrieved February 27, 2025.
+External links
+"The Show Goes On" Music video on YouTube
+vte
+Lupe Fiasco singles
+Discography
+Food & Liquor	
+"Kick, Push""I Gotcha""Daydreamin'"
+The Cool	
+"Superstar""Paris, Tokyo""Hip Hop Saved My Life"
+Lasers	
+"The Show Goes On""Words I Never Said""Out of My Head""I Don't Wanna Care Right Now"
+Food & Liquor II: The Great
+American Rap Album Pt. 1	
+"Around My Way (Freedom Ain't Free)""Bitch Bad""Lamborghini Angels""Battle Scars"
+Featured singles	
+"Touch the Sky""Everyone Nose (All the Girls Standing in the Line for the Bathroom)" (Remix)"This City""I'm On""Poor Decisions"
+Other songs	
+"Hurt Me Soul""Us Placers""I'm Beamin'""Shining Down""Old School Love""Mural"
+Authority control databases Edit this at Wikidata	
+MusicBrainz release group
+Categories: 2010 singlesLupe Fiasco songsSongs written by Lupe FiascoSong recordings produced by Kane BeatzSongs written by Kane BeatzSongs written by Isaac Brock (musician)Songs written by Eric JudySongs written by Dann Gallucci2010 songs
+This page was last edited on 27 February 2025, at 15:15 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+"
+
+Nevertheless it is a very beautiful subpiece on one of the most beautiful pieces of music of all time thus far and is almost more beautiful given how coercive the situation was. Because 'Lu was mid-key coerced in to OBEYing and did and the executives still pumped out GOOD music with him. Like whatever bro' tonne of whining basically in this undidactic story if a rich Jew pays you to paint poodles and you want to feed your fam', go paint some poodles.

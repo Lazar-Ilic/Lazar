@@ -1,0 +1,1016 @@
+lazar_ilic@yahoo.com for .zip of .pdf|.txt
+
+Clear Pill - Lazyr [Japanese Jugoslavijan Psychopathic Autosist]
+101 Problems In Algebra
+102 Combinatorial Problems
+104 Number Theory Problems
+110 Geometry Problems
+A Guide To Algorithmic Lower Bounds
+A Path To Combinatorics For Undergraduates
+A Problem Seminar
+A Tour Of C++
+A=B
+Abstract Algebra
+Abstract Algebra Corpus
+Advanced C And C++ Compiling
+Advanced Econometric Methods
+Advances In Econometrics A
+Advances In Econometrics B
+Advances In Financial Machine Learning
+American Invitational Mathematics Examination Solutions
+Algebra Artin
+Algebra Chapter 0
+Algebraic Topology
+Algorithmic And Analysis Techniques In Property Testing
+Algorithmic Puzzles
+Algorithms A Protracted 10000 Text Books Chortle Corpus
+Algorithms CLRS
+Algorithms Erickson
+Algorithms Knuth
+Algorithms Vazirani
+Algorithms For Modern Hardware - Sergey Slotin
+Alibaba Global Mathematics Competition Solutions
+Amazon.Science Corpus
+Amy Anmei Chou
+	STATS 116
+	STATS 217
+	STATS 200
+	STATS 191
+	STATS 260
+	STATS 242
+	STATS 352
+	STATS 298
+	STATS 299
+	STATS 319
+	STATS 390
+	Mathematics 104
+	Mathematics 113
+	Mathematics 115
+	Mathematics 171
+	CME 302
+	CME 364A
+	CS 106A
+	CS 106B
+	CS 107
+	CME108|Mathematics 114
+AWS Amazon Web Services Corpus
+Architecture Potpourri
+Area Mazes
+Area Mazes 2
+Ariana Goh Collection
+	Algebra
+		Kenneth Hoffman, Ray Kunze - Linear Algebra
+		Nathan Jacobson - Basic Algebra 1
+		Nathan Jacobson - Basic Algebra 2
+		Serge Lang - Algebra
+		Claudio Procesi - Lie Groups
+		Atiyah, MacDonald - Introduction to Commutative Algebra
+		Matsumura, Reid - Commutative ring theory
+		Hartshorne - Algebraic Geometry
+	Analysis
+		Munkres - Topology [At Least Until Chapter 4, Chapters 5&6 Are Cool Too]
+		Walter Rudin - Principles of Mathematical Analysis [Until Chapter 7]
+		Walter Rudin - Real and Complex Analysis
+		Walter Rudin - Functional analysis
+		Klenke - Probability Theory: A Comprehensive Course
+		Miranda - Algebraic curves and Riemann surfaces
+	Topology
+		Lee - Introduction to Smooth Manifolds
+		Joseph J. Rotman - An Introduction to Algebraic Topology
+		Bredon - Topology and geometry
+		Tammo tom Dieck - Algebraic Topology
+		Martelli - An Introduction to Geometric Topology
+	Number Theory
+		Neukirch - Algebraic Number Theory
+		Silverman - Arithematic of Elliptic Curves
+		Koblitz - Introduction to Elliptic Curves and Modular Forms
+		Diamond, Shurman - A First Course in Modular Forms
+	Physics
+		Goldstein - Classical mechanics
+		Landau, Lifshitz - The Classical Theory of Fields
+		John David Jackson - Classical electrodynamics
+		Charles W. Misner, John Archibald Wheeler, Kip Thorne - Gravitation
+		R. Shankar - Principles Of quantum mechanics
+		Steven Weinberg - Quantum theory of fields. Foundations Volume 1
+Art And Craft Of Problem Solving
+Art And Craft Or Problem Solving Solutions
+Art Of Problem Solving
+Art Of Problem Solving Solutions
+AtCoder Solutions
+Audio Engineering
+	Practising Different Instruments
+	Providing Feedback To Musicians e.g. Drummers...
+	Musicology And Music Criticism To Assist In Providing Feedback Even When One Is Bad At Said Instrument
+	How To Position Oneself Like Dakarai Gwitira Did With Respect To Gerald Earl Gillum
+	Small Signal Audio Design
+	Modern Recording Techniques
+	Handbook For Sound Engineers
+	Fundamentals Of Acoustics
+	Hi-Fi, The History Of High-End Audio Design
+	Understanding Audio
+	The Audio Expert
+	Mastering Audio: The Art Of Science
+	Electronic And Experimental Music
+	Music By The Numbers
+Austin Community College Computer Science Courses Corpus
+	Operating System Concepts
+	Computer Organisation And Design
+	Data Abstraction And Problem Solving With C++
+	C How To Program
+	C++ How To Program
+	Concepts Of Programming Languags
+	Hands On Machine Learning
+Bayesian Choice
+Bayesian Data Analysis
+Bayesian Statistics The Fun Way
+Beginning Logic
+Benjamin Qi
+	6.02 Introduction To EECS Electrical Engineering And Computer Science Via Communication Networks
+	6.08 Intro To EECS Electrical Engineering And Computer Science Via Interconnected Embedded Systems
+	6.004 Computation Structures
+	6.031 Elements Of Software Construction
+	6.033 Computer Systems Engineering
+	6.036 Intro To Machine Learning
+	6.840 Theory Of Computation
+	6.851 Advanced Data Structures
+	6.854 Advanced Algorithms
+	6.856 Randomised Algorithms
+	6.875 Cryptography And Cryptanalysis
+	6.890 Algorithms For Graphs And Matrices
+	18.435 Quantum Computation
+	18.453 Combinatorial Optimisation
+Bennett Calculus Solutions
+Bennett Differential Equations Solutions
+Bennett Linear Algebra Solutions
+Biological Chemistry Corpus
+	Fundamentals Of Biological Chemistry
+	Medical Biological Chemistry
+	Basic Medical Biological Chemistry
+	Clinical Biological Chemistry
+	Biological Chemistry: An Integrative
+	Netter's Essential Biological Chemistry
+	Integrative Human Biological Chemistry
+	Essential Biological Chemistry
+	Principles Of Biological Chemistry
+Biology Olympiads Solutions
+Brand Risk: Adding Risk Literacy To Brand Management
+Building Houses And Construction Loans
+Calculus Apostol 1
+Calculus Apostol 2
+Calculus Of Computation
+Calculus Solutions Harvard MIT MassTech Maths Tournament
+Calculus Solutions Rice
+Calculus Solutions Stanford Maths Tournament
+Case Studies On "Retarded" "Consciousness Researchers"
+Causality
+Change Is The Only Constant
+Chemistry Olympiads Solutions
+China Mathematics Olympiads Corpus
+Cloud Networking Corpus
+Code Submission Evaluation System Solutions
+Codeforces Global Solutions
+Codeless Code
+Combinatorial Problems And Exercises
+Combinatorial Optimisation Algorithms And Complexity
+Combinatorics A Protracted 10000 Text Books Chortle Corpus
+Combinatorics 3
+Combinatorics A Walk Through Combinatorics
+Combinatorics Algebraic Combinatorics
+Combinatorics Bijective Combinatorics
+Combinatorics Combinatorics A Guided Tour
+Combinatorics Combinatorics The Art Of Counting
+Combinatorics Combinatorics Through Guided Discovery
+Combinatorics Cosmin Pohoata
+Combinatorics Darij Grinberg's Entire List From "Undergraduate-Level Combinatorics Texts Easier Than Stanley's Enumerative Combinatorics"
+Combinatorics De Brujin's Combinatorics
+Combinatorics Discrete Mathematics
+Combinatorics Dospinescu
+Combinatorics Foundations Of Combinatorics With Applications
+Combinatorics Generating Functionology
+Combinatorics Graph Theory And Additive Combinatorics
+Combinatorics Introduction To Combinatorics And Graph Theory
+Combinatorics Lecture Notes For "Enumerative Combinatorics"
+Combinatorics Lecture Notes On Algebraic Combinatorics
+Combinatorics Mathematics Of Choice Or How To Count Without Counting
+Combinatorics Problem Solving Methods In Combinatorics
+Combinatorics Olympiad Corpus
+Competitive Programming Corpus
+Competitive Programmers' Archives: Mihir Singhal, Brian Liu, Kevin Sun, Andrew He, Scott Wu, Neal Wu, Ray Li, Gennady Korotkevich, et al.
+Competitive Programmer's Handbook
+Competitive Programming 3
+Complex Analysis
+Compression Algorithms
+Computational Complexity
+Computational Linguistics Olympiads Solutions
+Computer Systems A Programmer's Perspective
+Concepts And Practise Of Mathematical Finance
+Contemporary Abstract Algebra
+Contemporary Abstract Algebra Solutions
+Convex Optimisation 100 Textbooks Corpus
+Convex Optimisation Algorithms And Complexity
+Cookie Utility Monsters Corpus
+Coursera GitHubs Corpus Clones Codes + MassTech OpenCourseWares .PDF Merges
+Course Recommendations For Friendliness Researchers
+	Cognitive Science
+	Heuristics And Biases
+	Functional Programming
+	Discrete Math
+	Linear Algebra
+	Set Theory
+	Mathematical Logic
+	Efficient Algorithms And Intractable Problems
+	Numerical Analysis
+	Computability And Complexity
+	Quantum Computing
+	Parallel Computing
+	Automated Program Verification
+	Combinatorics And Discrete Probability
+	Bayesian Modeling And Inference
+	Probability Theory
+	Machine Learning
+	Artificial Intelligence
+	Incompleteness And Undecidability
+	Metamathematics
+	Model Theory
+	Category Theory
+Cryptography
+	Understanding Cryptography
+	Serious Cryptography
+	Applied Cryptography
+	Handbook Of Applied Cryptography
+	The Code Book
+	Introduction Modern Cryptography
+	Cryptography Engineering
+	Practical Cryptography
+	Real-World Cryptography
+	Cracking Codes With Python
+	An Introduction To Mathematical Cryptography
+	Cryptography
+	Cryptography And Network Security
+	Break The Code
+	A Course In Number Theory
+	The Codebreakers
+	Foundations Of Cryptography
+Cut The Knot
+Cyber Security Corpus
+	The Art Of Invisibility
+	Hacking: The Art Of Exploitation
+	Cult Of The Dead Cow
+	Ghost In The Wires
+	The Code Book
+	Practical Malware Analysis
+	Threat Modeling
+	Hacking Exposed 7
+	The Cyber Effect
+	Social Engineering
+	The CERT Guide To Insider Threat
+	The Code Book
+	The Cuckoo's Egg
+	Metasploit: The Penetration Tester's
+	Halte Aux Hackers
+	Countdown To Zero Day
+	Cybersecurity Essentials
+	Cybersecurity For Beginners
+	Applied Cryptography
+C++
+	Massive Corpus Of Financial Technologies Related C|C++ Files
+	A Complete Guide To Programming In C++
+	C Programming
+	C++ Template Metaprogramming
+	Effective And More Effective C++
+	Effective STL
+	Expert C Programming
+	Head First C
+	Let Us C
+	The C Programming Language
+	The C++ Programming Language
+Darij Grinberg
+Data Science A Gentle Introduction
+David Tong Notes Corpus
+David Zuckerman CS388C: Combinatorics and Graph Theory [Spring 2023]
+	Extremal Combinatorics, With Applications In Computer Science
+	The Probabilistic Method
+	Linear Algebra Methods In Combinatorics, With Applications To Geometry And Computer Science
+	Polynomial Methods In Combinatorics
+	Pseudorandomness Survey|Monograph
+	A Course In Combinatorics
+	Graph Theory And Additive Combinatorics
+	A Natural Introduction To Probability Theory
+Decision Procedures An Algorithmic Point Of View
+Deep Learning
+Deep Learning Natural Language Processing
+Deep Learning With Python
+Deep Learning Advanced Deep Learning With Keras
+Deep Learning Hands On Deep Learning Algorithms
+Deep Learning Hands On Machine Learning
+Deep Learning Neural Networks And Deep Learning
+Deep Learning Neural Networks For Pattern Recognition
+Deep Learning Neural Smithing Supervised Learning
+Designing Data Intensive Applications
+Differential Equations And Their Applications
+Document Fingerprinting: Winnowing, Local Algorithms et al. And Counterstrategies For Simple Codes Manipulation Prior To Submissions
+Doing Bayesian Data Analysis
+Douglas B. West
+Econometrics
+	Introductory Econometrics
+	Basic Econometrics
+	A Guide To Econometrics
+	Using Econometrics
+	Introduction To Econometrics
+	Econometric Analysis
+	Econometrics
+	Causal Inference
+	Time Series Analysis
+	Principles Of Econometrics
+	Data Mining For Business Analytics
+Econometrics And Economics Extended 100000 Textbooks Corpus
+Electrical Engineering Corpus
+Elementary Linear Algebra
+Elements Of Statistical Learning
+Empirical Market Microstructure
+English Writing Essay Style Guides From Before 2010
+English Writing Style Guides
+	The Sense Of Style [Perhaps Steven Pinker's Best Book]
+	Dreyer's English
+	The Elements Of Style
+	Plain Style
+	Mastering The Craft Of Writing
+	Oxford Essential Guide To Writing
+	Guides To Writing "Perfect" Medical College Admission Test Essays
+	The New York Times Manual of Style and Usage
+	Wikipedia:Manual of Style/Spelling
+Entire History Of Humanity
+Entire History Of The Nonpernicious Ism Of Perfection
+Enumerative Combinatorics 1
+Enumerative Combinatorics 2
+Eric Zhang Notes Corpus
+Essentials Of Economics
+Evan Chen's "Against Perfect Scores" Was Ignorant Of AIME 15|15 Traders
+Financial Mathematics For Actuaries
+Fluid Dynamics
+	Computational Methods For Fluid Dynamics
+	Introduction To Fluid Dynamics
+	Computational Fluid Dynamics
+	Fluid Mechanics At Interfaces
+	Fluid Mechanics
+	Principles Of Ideal-Fluid
+	Course Of Theoretical Physics Of Fluid Dynamics
+	Viscous Fluid Flow
+	...
+Foundations Of Machine Learning
+Founders Fund Corpora
+Fourier Analysis
+	Fourier Analysis: An Introduction
+	Fourier Analysis On Groups
+	Introduction To Fourier Analysis
+	Fourier Analysis
+	Quaternion And Clifford Fourier Transforms And Wavelets
+	Elementary Fourier Analysis
+	The Intuitive Guide To Fourier Analysis
+	Fourier Series, Fourier Transforms
+	An Introduction To Laplace Transfors And Fourier Series
+	Discrete Fourier And Wavelet Transforms
+	Fourier Series, Fourier Transform
+	Hermitian Analysis
+	Discrete Harmonic Analysis
+	Fourier Analysis And Its Applications
+	Brief Notes In Advanced DSP
+Franklyn Wang Harvard Intermediate Microeconomic Theory
+Franklyn Wang Harvard Machine Learning
+Franklyn Wang Harvard Math 55A
+Franklyn Wang Harvard Math 55B
+Franklyn Wang Harvard Probability I
+Franklyn Wang Harvard Probability II
+French Language Including Louis Segond Bible And Vulgate
+Front End And Web Development Corpus
+Game Theory Corpus
+Game Theory Open Problems Corpus
+Gelman
+	Bayesian Data Analysis
+	Teach Statistics
+	Applied Bayesian Modeling And Causal Inference From Incomplete Data Perspectives
+	Data Analysis Using Regression and Multilevel|Hierarchical Models
+	Red State, Blue State, Rich State, Poor State
+	A Quantitative Tour Of The Social Sciences
+	Handbook Of Markov Chain Monte Carlo
+	Regression And Other Stories
+	Applied Regression And Multilevel Models
+	Also See Like: Error And Inference... Experimental Reasoning, Reliability, And The Objectivity And Rationality Of Science
+Google Code Jam Solutions
+Google Distributed Code Jam Solutions
+Guide To Competitive Programming
+Guide To NumPy
+H01 Heard On The Street
+H02 Frequently Asked Questions In Quantitative Finance
+H03 Interview Primer For Quantitative Finance
+H04 Quant Job Interview Questions
+H05 Quant Job Interview Q&A
+H06 500 Data Science Interview Questions
+H07 120 Data Science Interview Questions
+H08 Data Science And Machine Learning Interview Questions
+H09 Starting Your Career As A Quant
+H10 A Practical Guide To Quantitative Finance Interviews
+H11 Vault Guide To Quant Interviews
+H12 Fifty Challenging Problems In Probability
+H13 Quant Aaron Cao
+H14 A Primer For The Mathematics Of Financial Engineering
+H15 A Primer For The Mathematics Of Financial Engineering Solutions
+H16 High Frequency Trading
+H17 Advances In Financial Machine Learning
+H18 Empirical Market Microstructure
+H19 Probability And Random Processes
+H19 Probability And Random Processes Solutions
+H20 Probability With Martingales
+H21 Introduction To Stochastic Integration
+H22 Concepts And Principles Of Mathematical Finance
+H23 Stochastic Calculus For Finance I
+H24 Stochastic Calculus For Finance II
+H25 Dynamic Hedging
+H26 Python For Data Analysis
+H27 Advanced Portfolio Management
+Hands On Machine Learning With SciKit Learn And TensorFlow
+Hanzhi Zheng LinkedIn Stanford Motivation Inspiration Corpus
+	Applied Multivariate Analysis
+	Compilers
+	Convex Optimisation I
+	Convolutional Neural Networks For Visual Recognition
+	Design And Analysis Of Algorithms
+	Introduction To Automata And Complexity Theory
+	Introduction To Stochastic Differential Equations
+	Introduction To Time Series Analysis
+	Machine Learning
+	Machine Learning With Graphs
+	Mathematical Finance
+	Mining Massive Data Sets
+	Natural Language Understanding
+	Principles Of Computer Systems
+	Probabilistic Graphical Models: Principles And Techniques
+	Random Processes On Graphs And Lattices
+	Randomised Algorithms And Probabilistic Analysis
+	Real Analysis
+	Statistical Methods In Finance
+Hardware Hacking
+Harvard Business School Corpus
+Harvard Mathematics Courses Corpus
+Harvard Statistics Courses Corpus
+Harvard Computational Learning Theory
+Harvard Data Structures And Algorithms
+Harvard Micro Economiques
+Harvard Deep Learning For Natural Language Processing
+High School Textbooks Mixture
+How To Make 11 Figures Rapping After Retiring Young With 8 Figures
+HTML And CSS
+	HTML And CSS: Design And Build Websites
+	Head First HTML And CSS: A Learner's Guide To Creating Standards-Based Web Pages
+	A Smarter Way To Learn HTML And CSS: Learn It Faster, Remember It Longer
+	Get Coding!: Learn HTML, CSS, And JavaScript, And Build A Website, App, And Game
+	Learning Web Design: A Beginner's Guide To HTML, CSS, JavaScript, And Web Graphics
+	HTML, CSS, And JavaScript All In One: Covering HTML5, CSS3, And ES6, Sams Teach Yourself
+	HTML And CSS: Visual QuickStart Guide
+	HTML And CSS QuickStart Guide: The Simplified Beginners Guide To Developing A Strong Coding Foundation, Building Responsive Websites, And Mastering... Of Modern Web Design
+	Responsive Web Design With HTML5 And CSS: Develop Future-Proof Responsive Websites Using The Latest HTML5 And CSS Techniques
+	CSS Pocket Reference: Visual Presentation For The Web
+	HTML5 And CSS3 All-In-One For Dummies
+Interactive|Automatic Theorem Proving Corpus
+Intermediate Microeconomics Harvard Notes
+International Business Machines Research Ponder This
+International Collegiate Programming Contest Solutions
+International Olympiad Informatics Solutions
+International Mathematics Competition Solutions
+International Mathematics Olympiad Compendium
+International Mathematics Olympiad Solutions
+Introduction To Computational Learning Theory
+Introduction To Game Theory
+Introduction To Game Theory Solutions
+Introduction To Generalised Linear Models
+Introduction To Generalised Linear Models Solutions
+Introduction To Linear Algebra Gilbert Strang
+Introduction To Mathematical Statistics
+Introduction To Partial Differential Equations
+Introduction To Property Testing
+Introduction To Smooth Manifolds
+Introduction To Statistical Learning
+Introduction To Statistical Learning Solutions
+Introduction To Statistical Learning Solutions R
+Introduction To Stochastic Integration
+Introduction To Stochastic Processes
+Iowa Solutions
+International Mathematical Olympiad Short List Solutions
+Jane Street Puzzles
+Jargon Files
+Kevin Zhou Stanford And Physics Corpora
+Kubernetes In Action
+Konhauser Problemfest Archives
+Language Lover's Puzzle Book
+Laws Of Trading
+Law School Admission Test And Bar Examination Preparation Corpus
+Leon Ong Chua
+Linear Algebra Done Right
+Linear Algebra Done Wrong
+Linear Algebra Foundations To Frontiers
+Linear Algebra Problem Book
+Linear Algebra University Of California Davis Notes
+Linux Bible
+Linux Pocket Guide
+Living Proof
+Logic Corpus
+Looking For A Challenge
+Looking For A Challenge 2
+Loss Data Analytics
+Low Latency C|C++ Corpus And C++ In Depth Series
+	Developing High-Frequency Trading Systems
+	Optimised C++
+	C++ High Performance
+	Algorithmic Trading With Interactive Brokers
+	Parallel-High Performance Computing
+	Learning Modern C++ For Finance
+	C++ Software Design
+	Exceptional C++
+	Low-Level Programming
+	Software Engineering In The Unix|C
+	Secure Coding In C And C++
+	A Tour Of C++
+	Discovering Modern C++
+	C++ Template Metaprogramming
+	C++ Coding Standards
+	Exceptional C++ Standards
+	Modern C++ Design
+	Accelerated C++
+	Exceptional C++
+	Exceptional C++ Series
+Law School Admission Test Corpus
+Machine Learning 100 Pages
+Machine Learning For Finance
+Machine Learning For Hackers
+Machine Learning Harvard Notes
+Machine Learning In Finance
+Machine Learning Infrastructure Corpus
+	Effective Data Science Infrastructure
+	Accelerated DevOps With Artificial Intelligence
+	Machine Learning Operations Engineering At Scale
+	Deep Learning For Internet
+	The Artificial Intelligence Infrastructure Workshop
+	Hands-On Machine Learning With SciKit-Learn, Keras, And TensorFlow
+	Dive Into Deep Learning
+	Deep Learning For Coders With Fast Artificial Intelligence And PythonTorch
+	Full Stack Deep Learning
+	Designing Data-Intensive Applications
+	Building Machine Learning Pipelines
+	Building Machine Learning Powered Applications
+	Introducing MachineLearning Operations
+	Awesome MachineLearning Operations
+	Kubeflow For Machine Learning
+	Machine Learning Engineering
+	What Is MachineLearning Operations
+	Practical MachineLearning Operations
+	Beginning MachineLearning Operations With MachineLearning Flow
+	Building Machine Learning Powered Applications
+	Managing Data Science
+	Designing Machine Learning Systems
+	Machine Learning Design Patterns
+MassTech DSpace Archive
+Materials Science Corpus
+Maths 55B Harvard Notes
+MathCounts 1990-2013
+Mathematica
+	Official Documentation And Cited Papers
+	Books From Library Genesis
+Mathematical Mind Benders
+Mathematical Olympiad Treasures
+Mathematical Olympiads Solutions
+Mathematical Puzzles A Connoisseur's Collection
+Mathematical Puzzles
+Mathematics Of Chip-Firing
+Medical College Admission Test Corpus
+	Biology Book
+	Chemistry Book
+	Essentials
+	Inorganic Chemistry
+	Organic Chemistry
+	Physics I
+	Physics II
+	Writing
+	...
+McCombs School Of Business Corpus
+Measure And Integral
+Measure, Integration, And Real Analysis
+Microeconomics
+Miklos Schweitzer Solutions
+Mind Your Decisions 1-3
+MIT MassTech Mystery Hunt
+MIT MassTech 6.5440 Fall 2023 Algorithmic Lower Bounds: Fun With Hard Hardness Proofs Erik Demaine MIT 32-082 Wednesdays 15:00
+	Computational Intractability: A Guide to Algorithmic Lower Bounds: free 2024 book by Erik D. Demaine, William Gasarch, and Mohammad Hajiaghayi
+	Games, Puzzles, & Computation: 2009 book by Robert A. Hearn and Erik D. Demaine — available at MIT from CRCnetBASE
+	Computational Complexity of Puzzles and Related Topics: 2022 survey paper by Ryuhei Uehara
+	Computers and Intractability A Guide to the Theory of NP-Completeness: classic 1979 book by Michael R. Garey and David S. Johnson
+	Johnson's followup NP-completeness Columns
+	The Design of Approximation Algorithms by David Williamson and David Shmoys: chapter 16 is about inapproximability — ebook avalible from the MIT Library,     draft available for free download
+	Limits to Parallel Computation: P-Completeness Theory by Raymond Greenlaw, H. James Hoover, and Walter L. Ruzzo — available for free download
+	Complexity Zoo
+	A compendium of NP optimization problems
+	Erik's 6.046 notes proving some basic NP-hardness [3-Dimensional Matching, Subset Sum, 4-Partition]
+Male Vocal Performance Books And Courses
+	Christopher Liepe
+	Coursera
+	Eric Arceneaux
+	...
+Mixing And Mastering
+	Mixing Secrets For The Small Studio
+	Mixing And Mastering In The Box
+	Mixing And Mastering
+	The Art Of Digital Audio Recording
+	The Mixing Engineer's Handbook
+	The Mastering Engineer's Handbook
+	The Art Of Mixing
+	The Recording, Mixing, And Mastering Reference Handbook
+	Mastering Audio: The Art And The Science
+	Zen And The Art Of Mixing
+Modeling Equities Returns: The Linear Case
+	Hudson River Trading Web Log HeaRT Beat
+	Advanced Portfolio Management
+	Factor Models Of Asset Returns
+	Portfolio Risk Analysis
+	Statistical Foundations Of Data Science
+	Spectral Analysis Of Large Dimensional Random Matrices
+Musicology And Audiophilia Books And Journals Corpus
+Music Theory
+	Music Theory Advanced Placement Corpus
+	Music The Oxford Handbook
+	Music By The Numbers
+	The Complete Musician
+	A Geometry Of Music
+	Music Theory From Beginner To Expert
+	The Musician's Guide To Theory And Analysis
+	Alfred's Essentials Of Music Theory
+	Music Theory For Computer Musician
+	Berklee Music Theory
+	Music Theory
+	Music Theory Michael Miller
+	The Everything Music Theory Book
+	Music Theory Remixed
+	...
+Myth Busters Analyses
+Napkin
+Natural Language Processing
+Number Fields
+Numerical Analysis
+Olympiad Combinatorics
+OMOUS Open Mathematical Olympiad For University Students
+OpenMP
+	Programming Your GPU with OpenMP – by Tom Deakin and Tim Mattson (2023)
+	High Performance Parallel Runtimes – by Michael Klemm and Jim Cownie (2021)
+	OpenMP Common Core: Making OpenMP Simple Again – by Tim Mattson, Helen He, Alice Koniges (2019)
+	Using OpenMP – The Next Step – by Ruud van der Pas, Eric Stotzer and Christian Terboven (2017)
+	Using OpenMP – Portable Shared Memory Parallel Programming – by Chapman, Jost, and Van Der Pas (2007)
+	Parallel Programming in OpenMP – by Rohit Chandra et al.
+	Parallel Programming in C with MPI and OpenMP – by Michael J. Quinn.
+	Parallel Programming Patterns: Working with Concurrency in OpenMP, MPI, Java, and OpenCL – by Timothy G. Mattson, Berna Massingill and Beverly Sanders
+	An Introduction to Parallel Programming with OpenMP, PThreads and MPI – by Robert Cook
+	The International Journal of Parallel Programming – Issues and articles devoted to OpenMP.
+Open Problems Corpus
+Open Problems In Economic Theory Corpus
+Open Problems In Mathematics Nash
+Open Problems In Mathematics And Computational Science
+Operating Systems Three Easy Pieces
+Optimise Everything: Maximising Long-Run Mathematical Intellectual Productivity
+Practising Putting Numbers Upon It
+Option Volatility And Pricing
+Options Hull
+Options Hull Solutions
+Parallel Corpus
+	Parallel Advances On P2P, Parallel, Grid, Cloud, And Internet Computing
+	Parallel Computing For Real-Time Signal Processing And Control
+	Parallel Introduction To Parallel Processing Algorithms And Architectures
+	Parallel Learn CUDA Programming
+	Parallel Principles Of Parallel Programming
+	Parallel Sourcebook Of Parallel Computing
+	Parallel Structured Parallel Programming Patterns For Efficient Computation
+	Parallel Programming Using C++
+	Parallel Scientific Computing In C++
+	Parallel C++ Concurrency In Action
+	Parallel An Introduction To Parallel Programming Pacheco
+	Parallel Data Parallel
+	Parallel Introduction To Parallel Computing
+	Parallel Modern Parallel Programming With C++
+	Parallel Parallel And Distributed Logic Programming
+	Parallel Parallel Computing For Data Science
+	Parallel Parallel Scientific Computing In C++
+	Parallel The Sourcebook Of Parallel Computing
+Parametrised Algorithms
+Partial Differential Equations
+	姜萍 Textbooks
+	Lawrence Craig Evans
+	Computing Corpus
+Penn And Teller Analyses
+Peter Attia Adjacent Corpus
+Physics Corpus
+Physics Advanced Higher Upper Corpus
+Physics Olympiads Solutions
+Princeton Companion To Mathematics
+Princeton Mathematics Generals Oral Examinations Transcripts
+Principles Of Algorithmic Problem Solving
+Principles Of Mathematical Analysis
+Probability 1 Harvard Notes
+Probability 2 Harvard Notes
+Probability And Computing
+Probability And Random Processes
+Probability And Random Processes Solutions
+Probability With Martingales
+Problems From The Book
+Problems In Real Analysis
+Programming Challenges
+Programming Interviews
+	P Cracking The Coding Interview
+	P Elements Of Programming Interviews The Insiders' Guide
+	P Grokking The System Design Interview
+	P Programming Interviews Exposed
+	P Programming Pearls
+	P System Design Interview An Insider's Guide
+	P The Algorithm Design Manual
+Project Euler Forum Archive
+Property Testing And Combinatorial Approximation
+Put A Number Upon It Corpus
+Putnam And Beyond
+Putnam Carnegie Mellon University
+Putnam Cornell
+Putnam Massachusetts Institute Of Technology
+Putnam Solutions 1938-1964
+Putnam Solutions 1965-1984
+Putnam Solutions 1985-2000
+Putnam Solutions 2001-2016
+Putnam University Of Texas At Austin
+Python For Data Analysis
+Python Building Skills In Obect Oriented Design
+Python Learning Python
+Python 3 Object Oriented Programming
+Quantum Computing Since Democritus
+Randomised Algorithms University Of Texas At Austin Notes
+Real Analysis, Measure Theory, Integration, And Hilbert Spaces
+Reinforcement Learning Algorithms For Reinforcement Learning
+Reinforcement Learning An Introduction
+Reinforcement Learning Markov Decision Processes
+Riddler
+Robotics Corpus
+Rocket Science
+	Advanced Control Of Aircraft, Spacecraft, And Rockets
+	Modern Engineering For Design Of Liquid-Propellant Rocket Engines
+	Rocket Propulsion Elements
+	Elements Of Propulsion, Gas Turbines, And Rockets
+	Rocket Spacecraft Propulsion
+	Fundamentals Of Compresible Flow With Aircraft And Rocket Propulsion
+$aving Money
+	Leo Babauta
+	et al.
+	House Construction And Retirement Timing
+	Do Not Cry Over "Retarded" $10000 Lease Early Termination But Avoid By Observing Houses And Then Maybe Reletting
+	Do Not Cry Over "Retarded" ~$10000 Loss Due To Unforced Errors During Move: 15000 Parents Debt, 5000 Personal Debt, 7000 Unreturned Bedding [Temporary], 2000 Poker, 1500 Steak Houses, 2000 Nebulous Waste, 300 InstaCart, etc.
+Scholastic Aptitude Test, Graduate Record Examination, Law School Admission Test, English Grammar Corpus
+SciPy And NumPy
+Seduction Artistry [Romance Novels|Cinema|Television] [English] [Shanghainese American|American Shanghainese|Shanghainese Women At 清华大学 Tsinghua|北京大学 Peking|复旦大学 Fudan|上海交通大学 Shanghai Jiao Tong|Project 985|HIMMR How I Met Monsieur Right] After Securing IO House In ~New Jersey|Cambridgeshire
+Series 57
+Set Theory Corpus
+Short Term Actuarial Mathematics Solutions
+Simon Marais Mathematics Competition Solutions
+Simon Prince
+Siye Zhu LinkedIn Harverd Motivation Inspiration Corpus
+	CS 228 Computational Learning Theory
+	CS 124 Data Structures And Algorithms
+	CS 287 Deep Learning For Natural Language Processing
+	CS 136 Economics And Computation
+	Stat 171 Introduction To Stochastic Processes
+	Stat 244 Linear And Generalised Linear Models
+	CS 183 Foundations Of Machine Learning
+	Harverd Financial Analysts Club
+	Math 55a Algebra And Group Theory
+	Math 55b Analysis And Topology
+	Stat 220 Bayesian Data Analysis
+	CS 124 Data Structures And Algorithms
+	Math 136 Differential Geometry
+	CS 136 Economics And Computation
+	Stat 211 Graduate Inference I
+	Stat 210 Graduate Probability I
+	Econ 1011a Intermediate Microeconomics: Advanced
+	Psy 1|SLS 20 Introduction To Psychology
+	Stat 244 Linear Models And Generalised Linear Models
+	CS 121 Theoretical Computer Science
+	Physics 125 Widely Applied Physics [Physics For Future Presidential Advisors]
+Software Engineering And Systems Design Corpus
+Stochastic Calculus For Finance I
+Stochastic Calculus For Finance II
+Sublinear Algorithms Corpus
+Sublinear Algorithms For Big Data Applications
+Sublinear Algorithms University Of Texas At Austin Notes
+System Design Corpus
+SystemVerilog Corpus
+	SystemVerilog For Verification
+	Logic Design And Verification
+	Designing Digital Systems With SystemVerilog
+	SystemVerilog For Design
+	Writing Testbenches
+	SystemVerilog Assertions And Functions
+	RTL Modeling With SystemVerilog
+	Introduction To SystemVerilog
+	Verilog And SystemVerilog Gotcha
+Minimalist - Leo Babauta
+My "Chemical Free" House Web Log
+	And Other Claims About Low-VolatileOrganicCompound Micro Biological Chemistry, Wall Paints, Castles Of Glass, ...
+Theory Of Probability
+Time Series
+	Giuseppe Paleologo LinkedIn
+		Advanced Portfolio Management
+		All Of Statistics
+		Applied Probability Models
+		Convex Optimisation
+		Numerical Linear Algebra
+		Linear Algebra And Learning From Data
+	Giuseppe Paleologo Website
+		Optimisation By Vector Space Methods - Luenberger
+		Convex Optimisation - Boyd and Vandenberghe
+		Linear Analysis - Bollobas
+		A Course In Approximation Theory - Cheney and Light
+		Numerical Linear Algebra - Trefethen and Bau
+		Matrix Computation - Golub and Van Loan
+		Finite Dimensional Vector Spaces - Halmos
+		Matrix Analysis - Bhatia
+		Probability - Durrett
+		Probability With Martingales - Williams
+		High-Dimensional Probability - Vershynin
+		The Fundamentals Of Heavy Tails - Nair, Wierman, and Zwart
+		Elements Of Information Theory - Cover and Thomas
+		Probabilistic Machine Learning - Murphy
+		All Of Nonparametric Statistics - Wasserman
+		Regression Modeling Strategies - Harrell
+		Asset Pricing - Cochrane
+		Trading And Exchanges - Harris
+		Theory Of Financial Risk And Derivative Pricing - Bouchaud and Potters
+		Quantitative Portfolio Management - Isichenko
+		The Illusion Of Control - Danielsson
+		Portfolio Risk Analysis - Connor, Goldberg, and Korajczyk
+Gorila + 母老虎 Mathematics Home School Parenting
+To Mock A Mockingbird
+Topology
+Juicy Risks [Python + Biorxiv: Death ~2070 Credence ~0.4 Cancer ~0.4 Heart Attack ~0.17 Other]
+Understanding Machine Learning
+United States Of America Mathematical Olympiad Solutions
+United State Of America Mathematical Talent Search Solutions
+University Of Illinois At Urbana-Champaign Master In Computer Science Texts
+University Of Texas At Austin Elements Of Computing Certificate Texts
+	Introduction To Programming Using Python
+	Python 3 And Data Structures
+	Introduction To Scientific Computing
+	Processing: A Programming Handbook For Visual Designers
+	Learning SQL
+	NoSQL For Mere Mortals
+	R For Everyone: Advanced Analytics And Graphics
+	Web Programming
+	Introduction To Data Mining
+	Android For Programmers: An App-Driven Approach
+	Extreme Programming Installed
+	Database Design With UML And SQL
+Japanese National Medical Licensing Examination Corpus
+NAPLEX MPJE CPJE North American Pharmacist Licensure Examination Multistate Pharmacy Jurisprudence Examination Californian Pharmacy Jurisprudence Exam Corpus
+United States Of America Medical Licensing Examination Corpus
+	First Aid
+	First Aid Clinical Algorithms
+	Step Up To
+	White Coat Companion
+	Thieme Review A Win For Step 2 And 3 CK Clinical Knowledge
+	OME OnlineMedEd
+	AMBOSS
+	UWorld
+	Kaplan USMLE, Vol.1
+	Kaplan USMLE Step 1 Lecture Notes: Anatomy and Physiology
+	Kaplan USMLE, Vol. 2
+	Kaplan USMLE Step 1 Lecture Notes: Biochemistry, Microbiology and Immunology
+	Kaplan USMLE Step 1 Lecture Notes: Pathology, Pharmacology, and Behavioral Science
+	Kaplan USMLE Step 2: Cardiology
+	Kaplan USMLE Step 2: Endocrinology
+	Kaplan USMLE Step 2: Gastroenterology
+	Kaplan USMLE Step 2: General Surgery
+	Kaplan USMLE Step 2: Hematology
+	Kaplan USMLE Step 2: Infectious Diseases
+	Kaplan USMLE Step 2: Nephrology
+	Kaplan USMLE Step 2: Obstetrics and Gynecology
+	Kaplan USMLE Step 2: Orthopedic Surgery	Kaplan
+	Kaplan USMLE Step 2: Pediatrics
+	Kaplan USMLE Step 2: Preventive Medicine
+	Kaplan USMLE Step 2: Psychiatry
+	Kaplan USMLE Step 2: Pulmonology
+	Kaplan USMLE Step 2: Radiology
+	Kaplan USMLE Step 2: Rheumatology
+	Kaplan USMLE Step 2: Trauma
+AMC Australian Medical Council Clinical Examination
+MCCQE Medical Council Of Canada Qualifying Examination
+MLA Medical Licensing Assessment
+Vector Calculus
+Verilog
+	Verilog HDL A Guide To Digital Design
+	A Verilog HDL Primer
+	SystemVerilog For Design
+	The Complete Verilog Book
+	Advanced Digital Design With The Verilog
+	Digital Design And Verilog HDL Fundamentals
+	The Verilog Hardware Description Language
+	Verilog HDL Synthesis
+	Digital Design: With A Introduction
+Very-High Speed Integrated Circuits Program Hardware Description Language Corpus [VHDL Coding]
+	VHDL: Programming By Example
+	The Designer's Guide To VHDL
+	A Tutorial Introduction To VHDL Programming
+	VHDL Coding Styles And Methodologies
+	RTL Hardware Design Using VHDL
+	Circuit Design With VHDL
+	Effective Coding With VHDL
+	VHDL
+	FPGA Prototyping By VHDL Examples
+Vojtech Jarnik International Mathematical Competition Solutions
+Virginia Tech Regional Maths Contest Solutions
+Wanlin Li MIT MassTech Notes And Courses' Textbooks
+	18.701 [Algebra I]: Notes
+	6.006 [Introduction To Algorithms]: Notes
+	Data Structures, Graph Exploration, Dynamic Programming
+	14.02 [Principles Of Macroeconomics]
+	21H.240 [The World Of Charlemagne]
+	18.702 [Algebra II]: Notes
+	18.212 [Algebraic Combinatorics]: Notes
+	6.046 [Design And Analysis Of Algorithms]: Notes
+	Standard Algorithmic Techniques, Network Flows, Linear Programming, Gradient Descent, Hashing, Dynamic Programming
+	6.009 [Fundamentals Of Programming]:
+	Implementation Of Standard Graph Algorithms In Python, Object Oriented Programming, Miscellaneous Uses Of Python
+	6.08 [Introduction To EECS Via Interconnected Embedded Systems]:
+	Details About The Final Project In This Class Here
+	21M.301 [Harmony And Counterpoint I]
+	18.100Q [Real Analysis]: Notes
+	18.112 [Functions Of A Complex Variable]: Notes
+	18.404 [Theory Of Computation]: Notes
+	Models Of Computation, Turing Machines, Computability Theory, Complexity Theory
+	6.854 [Advanced Algorithms]: Notes
+	More Complex Data Structures, Network Flows, Linear Programming, Approximation Algorithms, Computational Geometry, Online Algorithms
+	6.036 [Introduction To Machine Learning]: Notes
+	Training Algorithms, Gradient Descent, Neural Nets, Reinforcement Learning, Decision Trees
+	24.900 [Introduction To Linguistics]
+	18.721 [Introduction To Algebraic Geometry]: Notes
+	6.031 [Elements Of Software Construction]:
+	Software Design And Test-First Programming With A Focus On Writing Code That Is Easy To Understand; Java
+	6.004 [Computation Structures]: Notes
+	Introduction To Computer Architecture And Software-Hardware Interaction; RISC-V Assembly And Minispec
+	6.850 [Geometric Computing]: Notes
+	Various Geometric Algorithms, Mostly In The Plane; Line Sweep Algorithms, Point Location, Triangulation, Voronoi Diagrams, Pattern Matching
+	6.UAT [Oral Communication]:
+	Communication-Intensive Requirement For Course 6
+	21M.302 [Harmony And Counterpoint II]: Composition
+	Harmonies And Modulation In The Classical Style, Culminating In A Theme And Variations Final Composition [Audio Above]
+	6.172 [Performance Engineering Of Software Systems]: Notes
+	Code Go Zoom
+	6.875 [Cryptography And Cryptanalysis]: Notes
+	Fundamentals Of Modern Cryptography, Including One-Way Functions, Pseudorandom Generators, And Traditional Private|Public Key Encryption Schemes, As Well As Post-Quantum Methods And Applications To Cryptosystem Design
+	6.809 [Interactive Music Systems]:
+	Details About The Final Project In This Class Here
+	6.849 [Geometric Folding Algorithms]
+	18.704 [Seminar In Algebra]: Notes
+	21W.762 [Poetry Workshop]
+	6.035 [Computer Language Engineering]: Notes
+	End-To-End Compiler Construction For The DeCaf Language, With An Emphasis On Compile-Time Program Analysis And Optimisation
+	6.033 [Computer Systems Engineering]: Notes
+	General Topics In Software And Hardware Systems, Including Operating Systems, Networking, Distributed Systems, And Security
+	6.808 [Mobile And Sensor Computing]:
+	Readings And Discussion Of Recent Topics And Achievements In IoT Technologies
+	18.102 [Introduction To Functional Analysis]: Notes
+	6.856 [Randomised Algorithms]: Notes
+	Taken On Listener Status
+	18.225 [Graph Theory And Additive Combinatorics]: Notes
+	6.S081 [Operating System Engineering]:
+	Design And Implementation Of Standard Operating System Features
+What Is Our Problem?: A Self-Help Book For Societies
+Zarathustra Elazar Brady Corpus
+Zarzuelazen Core Knowledge Domains Corpus
+Yufei Zhao
+	18.226 Probabilistic Methods in Combinatorics [Graduate], Fall 2022 Notes
+	18.A34 Mathematical Problem Solving [Putnam Seminar], Fall 2022
+	Putnam Competition 2021 results MIT MassTech News 2019 results MIT MassTech News
+	18.225 Graph Theory and Additive Combinatorics [Graduate], Fall 2021 Book project MIT MassTech OCW YouTube
+	18.211 Combinatorial Analysis, Fall 2018
+	Polynomial Method in Combinatorics [Graduate], Trinity Term 2016, Oxford
+	Math Olympiad training handouts
+當代中文課程 1-6
+げんき
+日本語
+中文听说读写 [Free Audio Visual Files]
+JLPT Japanese-Language Proficiency Test
+	植芝 盛平
+	桜会
+	大川 周明
+TOCFL Test Of Chinese As A Foreign Language
+全国硕士研究生招生考试
+	Mathematics
+	Foreign Language English I
+	Politics
+
+Annals Of Statistics
+Annals Of Combinatorics
+Neural Information Processing Systems
+ArXiV
+Rose-Hulman Undergraduate Mathematics Journal
+American Mathematical Monthly
+Electronic Journal Of Combinatorics
+Annals Of Mathematics
