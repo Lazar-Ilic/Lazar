@@ -1,0 +1,1242 @@
+I also read fully through all of the provided codes examples.
+
+___________
+
+
+
+Contents
+
+
+
+Introduction xv
+
+
+
+Chapter 1. Production Models: Maximizing Profits 1
+
+
+
+1.1 A two-variable linear program 2
+
+
+
+1.2 The two-variable linear program in AMPL 5
+
+
+
+1.3 A linear programming model 6
+
+
+
+1.4 The linear programming model in AMPL 7
+
+
+
+The basic model 8
+
+
+
+An improved model 10
+
+
+
+Catching errors 12
+
+
+
+1.5 Adding lower bounds to the model 13
+
+
+
+1.6 Adding resource constraints to the model 15
+
+
+
+1.7 AMPL interfaces 18
+
+These image files in the textbook look so bad but it is OK thus far. Recall that reading through some simple solutions files and example codes is fairly useful in learning about canonical invocations of Linear Programming and Duality reasoning.
+
+Chapter 2. Diet and Other Input Models: Minimizing Costs 27
+
+
+
+2.1 A linear program for the diet problem 27
+
+Well it is an interesting case study I guess noting that Ruocheng Wei casually cosigned the notion that the United States Of America Department Of Agriculture guideleines was good or statistically validated in any way uh ugh... not sure not sure not sure who to trust really for sharp 156lb male humans...
+
+2.2 An AMPL model for the diet problem 30
+
+
+
+2.3 Using the AMPL diet model 32
+
+
+
+2.4 Generalizations to blending, economics and scheduling 37
+
+
+
+Chapter 3. Transportation and Assignment Models 43
+
+
+
+3.1 A linear program for the transportation problem 44
+
+
+
+3.2 An AMPL model for the transportation problem 45
+
+
+
+3.3 Other interpretations of the transportation model 49
+
+
+
+Chapter 4. Building Larger Models 55
+
+
+
+4.1 A multicommodity transportation model 56
+
+
+
+4.2 A multiperiod production model 59
+
+
+
+4.3 A model of production and transportation 63
+
+
+
+Chapter 5. Simple Sets and Indexing 73
+
+
+
+5.1 Unordered sets 73
+
+
+
+vii
+
+
+
+viii AMPL: A MODELING LANGUAGE FOR MATHEMATICAL PROGRAMMING
+
+
+
+5.2 Sets of numbers 75
+
+
+
+5.3 Set operations 76
+
+
+
+5.4 Set membership operations and functions 78
+
+
+
+5.5 Indexing expressions 79
+
+
+
+5.6 Ordered sets 82
+
+
+
+Predefined sets and interval expressions 86
+
+
+
+Chapter 6. Compound Sets and Indexing 91
+
+
+
+6.1 Sets of ordered pairs 91
+
+
+
+6.2 Subsets and slices of ordered pairs 93
+
+
+
+6.3 Sets of longer tuples 96
+
+
+
+6.4 Operations on sets of tuples 98
+
+
+
+6.5 Indexed collections of sets 100
+
+OK
+
+Chapter 7. Parameters and Expressions 109
+
+
+
+7.1 Parameter declarations 110
+
+
+
+7.2 Arithmetic expressions 111
+
+
+
+7.3 Logical and conditional expressions 114
+
+
+
+7.4 Restrictions on parameters 116
+
+
+
+7.5 Computed parameters 118
+
+
+
+7.6 Randomly generated parameters 121
+
+OKOKOK
+
+7.7 Logical parameters 122
+
+OK
+
+7.8 Symbolic parameters 123
+
+
+
+Chapter 8. Linear Programs: Variables, Objectives and Constraints 129
+
+
+
+8.1 Variables 129
+
+
+
+8.2 Linear expressions 132
+
+
+
+8.3 Objectives 134
+
+
+
+8.4 Constraints 137
+
+
+
+Chapter 9. Specifying Data 143
+
+
+
+9.1 Formatted data: the data command 143
+
+
+
+9.2 Data in lists 145
+
+
+
+Lists of one-dimensional sets and parameters 145
+
+
+
+Lists of two-dimensional sets and parameters 146
+
+
+
+Lists of higher-dimensional sets and parameters 148
+
+
+
+Combined lists of sets and parameters 151
+
+
+
+9.3 Data in tables 154
+
+OK
+
+Two-dimensional tables 154
+
+
+
+Two-dimensional slices of higher-dimensional data 156
+
+
+
+Higher-dimensional tables 157
+
+
+
+Choice of format 159
+
+
+
+9.4 Other features of data statements 160
+
+
+
+Default values 160
+
+
+
+Indexed collections of sets 161
+
+
+
+Initial values for variables 162
+
+
+
+AMPL: A MODELING LANGUAGE FOR MATHEMATICAL PROGRAMMING ix
+
+
+
+9.5 Reading unformatted data: the read command 163
+
+
+
+Chapter 10. Database Access 169
+
+
+
+10.1 General principles of data correspondence 169
+
+
+
+10.2 Examples of table-handling statements 174
+
+
+
+10.3 Reading data from relational tables 180
+
+
+
+Reading parameters only 180
+
+
+
+Reading a set and parameters 182
+
+
+
+Establishing correspondences 184
+
+
+
+Reading other values 185
+
+
+
+10.4 Writing data to relational tables 186
+
+
+
+Writing rows inferred from the data specifications 186
+
+OK
+
+Writing rows inferred from a key specification 189
+
+
+
+10.5 Reading and writing the same table 191
+
+
+
+Reading and writing using two table declarations 192
+
+
+
+Reading and writing using the same table declaration 193
+
+
+
+10.6 Indexed collections of tables and columns 193
+
+
+
+Indexed collections of tables 193
+
+
+
+Indexed collections of data columns 196
+
+
+
+10.7 Standard and built-in table handlers 197
+
+
+
+Using the standard ODBC table handler 198
+
+
+
+Using the standard ODBC table handler with Access and Excel 200
+
+
+
+Built-in table handlers for text and binary files 201
+
+
+
+Chapter 11. Modeling Commands 203
+
+
+
+11.1 General principles of commands and options 203
+
+
+
+Commands 204
+
+
+
+Options 204
+
+
+
+11.2 Setting up and solving models and data 206
+
+
+
+Entering models and data 206
+
+
+
+Solving a model 207
+
+
+
+11.3 Modifying data 209
+
+
+
+Resetting 209
+
+
+
+Resampling 209
+
+
+
+The let command 210
+
+
+
+11.4 Modifying models 212
+
+
+
+Removing or redefining model components 213
+
+
+
+Changing the model: fix, unfix; drop, restore 214
+
+
+
+Relaxing integrality 215
+
+OKOKOK
+
+Chapter 12. Display Commands 219
+
+
+
+12.1 Browsing through results: the display command 219
+
+
+
+Displaying sets 220
+
+
+
+Displaying parameters and variables 220
+
+OK
+
+Displaying indexed expressions 224
+
+
+
+12.2 Formatting options for display 227
+
+
+
+x AMPL: A MODELING LANGUAGE FOR MATHEMATICAL PROGRAMMING
+
+
+
+Arrangement of lists and tables 227
+
+
+
+Control of line width 229
+
+
+
+Suppression of zeros 231
+
+
+
+12.3 Numeric options for display 232
+
+
+
+Appearance of numeric values 233
+
+
+
+Rounding of solution values 236
+
+
+
+12.4 Other output commands: print and printf 238
+
+
+
+The print command 238
+
+
+
+The printf command 239
+
+
+
+12.5 Related solution values 240
+
+
+
+Objective functions 240
+
+
+
+Bounds and slacks 241
+
+
+
+Dual values and reduced costs 243
+
+
+
+12.6 Other display features for models and instances 245
+
+
+
+Displaying model components: the show command: 246
+
+
+
+Displaying model dependencies: the xref command 247
+
+
+
+Displaying model instances: the expand command 247
+
+
+
+Generic synonyms for variables, constraints and objectives 249
+
+
+
+Resource listings 250
+
+
+
+12.7 General facilities for manipulating output 251
+
+
+
+Redirection of output 251
+
+
+
+Output logs 251
+
+
+
+Limits on messages 252
+
+
+
+Chapter 13. Command Scripts 255
+
+
+
+13.1 Running scripts: include and commands 255
+
+
+
+13.2 Iterating over a set: the for statement 258
+
+
+
+13.3 Iterating subject to a condition: the repeat statement 262
+
+
+
+13.4 Testing a condition: the if-then-else statement 264
+
+
+
+13.5 Terminating a loop: break and continue 266
+
+
+
+13.6 Stepping through a script 268
+
+OK
+
+13.7 Manipulating character strings 270
+
+
+
+String functions and operators 270
+
+
+
+String expressions in AMPL commands 273
+
+
+
+Chapter 14. Interactions with Solvers 275
+
+
+
+14.1 Presolve 275
+
+
+
+Activities of the presolve phase 276
+
+
+
+Controlling the effects of presolve 278
+
+
+
+Detecting infeasibility in presolve 279
+
+
+
+14.2 Retrieving results from solvers 282
+
+
+
+Solve results 282
+
+
+
+Solver statuses of objectives and problems 286
+
+
+
+Solver statuses of variables 287
+
+
+
+Solver statuses of constraints 291
+
+
+
+AMPL statuses 293
+
+
+
+AMPL: A MODELING LANGUAGE FOR MATHEMATICAL PROGRAMMING xi
+
+
+
+14.3 Exchanging information with solvers via suffixes 295
+
+
+
+User-defined suffixes: integer programming directives 296
+
+
+
+Solver-defined suffixes: sensitivity analysis 298
+
+
+
+Solver-defined suffixes: infeasibility diagnosis 299
+
+
+
+Solver-defined suffixes: direction of unboundedness 300
+
+
+
+Defining and using suffixes 302
+
+
+
+14.4 Alternating between models 304
+
+
+
+14.5 Named problems 309
+
+
+
+Defining named problems 311
+
+
+
+Using named problems 314
+
+
+
+Displaying named problems 315
+
+
+
+Defining and using named environments 316
+
+
+
+Chapter 15. Network Linear Programs 319
+
+OKOKOKOKOKOKOKOKOK
+
+15.1 Minimum-cost transshipment models 319
+
+
+
+A general transshipment model 320
+
+
+
+Specialized transshipment models 323
+
+
+
+Variations on transshipment models 326
+
+
+
+15.2 Other network models 328
+
+OK
+
+Maximum flow models 328
+
+
+
+Shortest path models 329
+
+
+
+Transportation and assignment models 330
+
+
+
+15.3 Declaring network models by node and arc 333
+
+
+
+A general transshipment model 334
+
+
+
+A specialized transshipment model 335
+
+
+
+Variations on transshipment models 336
+
+
+
+Maximum flow models 337
+
+
+
+15.4 Rules for node and arc declarations 340
+
+
+
+node declarations 340
+
+
+
+arc declarations 340
+
+
+
+Interaction with objective declarations 341
+
+
+
+Interaction with constraint declarations 342
+
+
+
+Interaction with variable declarations 342
+
+
+
+15.5 Solving network linear programs 343
+
+
+
+Chapter 16. Columnwise Formulations 353
+
+
+
+16.1 An input-output model 354
+
+
+
+Formulation by constraints 354
+
+
+
+A columnwise formulation 355
+
+
+
+Refinements of the columnwise formulation 357
+
+
+
+16.2 A scheduling model 359
+
+OKOKOK
+
+16.3 Rules for columnwise formulations 362
+
+
+
+Chapter 17. Piecewise-Linear Programs 365
+
+
+
+17.1 Cost terms 366
+
+
+
+Fixed numbers of pieces 366
+
+
+
+xii AMPL: A MODELING LANGUAGE FOR MATHEMATICAL PROGRAMMING
+
+
+
+Varying numbers of pieces 368
+
+
+
+17.2 Common two-piece and three-piece terms 369
+
+
+
+Penalty terms for ‘‘soft’’ constraints 369
+
+
+
+Dealing with infeasibility 373
+
+
+
+Reversible activities 377
+
+
+
+17.3 Other piecewise-linear functions 379
+
+
+
+17.4 Guidelines for piecewise-linear optimization 382
+
+
+
+Forms for piecewise-linear expressions 382
+
+
+
+Suggestions for piecewise-linear models 383
+
+
+
+Chapter 18. Nonlinear Programs 391
+
+
+
+18.1 Sources of nonlinearity 392
+
+OKOKOK
+
+Dropping a linearity assumption 393
+
+
+
+Achieving a nonlinear effect 396
+
+
+
+Modeling an inherently nonlinear process 397
+
+
+
+18.2 Nonlinear variables 397
+
+
+
+Initial values of variables 398
+
+
+
+Automatic substitution of variables 399
+
+
+
+18.3 Nonlinear expressions 400
+
+
+
+18.4 Pitfalls of nonlinear programming 403
+
+
+
+Function range violations 403
+
+
+
+Multiple local optima 407
+
+
+
+Other pitfalls 410
+
+
+
+Chapter 19. Complementarity Problems 419
+
+
+
+19.1 Sources of complementarity 419
+
+
+
+A complementarity model of production economics 420
+
+
+
+Complementarity for bounded variables 423
+
+
+
+Complementarity for price-dependent demands 425
+
+
+
+Other complementarity models and applications 426
+
+
+
+19.2 Forms of complementarity constraints 427
+
+
+
+19.3 Working with complementarity constraints 428
+
+
+
+Related solution values 428
+
+
+
+Presolve 429
+
+
+
+Generic synonyms 431
+
+
+
+Chapter 20. Integer Linear Programs 437
+
+
+
+20.1 Integer variables 438
+
+
+
+20.2 Zero-one variables and logical conditions 439
+
+
+
+Fixed costs 440
+
+
+
+Zero-or-minimum restrictions 444
+
+
+
+Cardinality restrictions 445
+
+
+
+20.3 Practical considerations in integer programming 448
+
+
+
+AMPL: A MODELING LANGUAGE FOR MATHEMATICAL PROGRAMMING xiii
+
+
+
+Appendix A. AMPL Reference Manual 453
+
+
+
+A.1 Lexical rules 453
+
+
+
+A.2 Set members 454
+
+
+
+A.3 Indexing expressions and subscripts 455
+
+
+
+A.4 Expressions 455
+
+
+
+A.4.1 Built-in functions 458
+
+
+
+A.4.2 Strings and regular expressions 459
+
+
+
+A.4.3 Piecewise-linear terms 460
+
+
+
+A.5 Declarations of model entities 461
+
+
+
+A.6 Set declarations 461
+
+
+
+A.6.1 Cardinality and arity functions 462
+
+
+
+A.6.2 Ordered sets 463
+
+
+
+A.6.3 Intervals and other infinite sets 463
+
+
+
+A.7 Parameter declarations 465
+
+
+
+A.7.1 Check statements 465
+
+
+
+A.7.2 Infinity 466
+
+
+
+A.8 Variable declarations 466
+
+
+
+A.8.1 Defined variables 467
+
+
+
+A.9 Constraint declarations 468
+
+
+
+A.9.1 Complementarity constraints 469
+
+
+
+A.10 Objective declarations 470
+
+
+
+A.11 Suffix notation for auxiliary values 470
+
+
+
+A.11.1 Suffix declarations 471
+
+
+
+A.11.2 Statuses 473
+
+
+
+A.12 Standard data format 473
+
+
+
+A.12.1 Set data 473
+
+
+
+A.12.2 Parameter data 475
+
+
+
+A.13 Database access and tables 477
+
+
+
+A.14 Command language overview 479
+
+
+
+A.14.1 Options and environment variables 481
+
+
+
+A.15 Redirection of input and output 481
+
+
+
+A.16 Printing and display commands 482
+
+
+
+A.17 Reading data 484
+
+
+
+A.18 Modeling commands 485
+
+
+
+A.18.1 The solve command 485
+
+
+
+A.18.2 The solution command 487
+
+
+
+A.18.3 The write command 487
+
+
+
+A.18.4 Auxiliary files 487
+
+
+
+A.18.5 Changing a model: delete, purge, redeclare 488
+
+
+
+A.18.6 The drop, restore and objective commands 489
+
+
+
+A.18.7 The fix and unfix commands 489
+
+
+
+A.18.8 Named problems and environments 489
+
+
+
+A.18.9 Modifying data: reset, update, let 490
+
+
+
+A.19 Examining models 491
+
+
+
+A.19.1 The show command 491
+
+
+
+xiv AMPL: A MODELING LANGUAGE FOR MATHEMATICAL PROGRAMMING
+
+
+
+A.19.2 The xref command 492
+
+
+
+A.19.3 The expand command 492
+
+
+
+A.19.4 Generic names 492
+
+
+
+A.19.5 The check command 492
+
+
+
+A.20 Scripts and control flow statements 492
+
+
+
+A.20.1 The for, repeat and if-then-else statements 493
+
+
+
+A.20.2 Stepping through commands 495
+
+
+
+A.21 Computational environment 495
+
+
+
+A.21.1 The shell command 495
+
+
+
+A.21.2 The cd command 495
+
+
+
+A.21.3 The quit, exit and end commands 496
+
+
+
+A.21.4 Built-in timing parameters 496
+
+
+
+A.21.5 Logging 496
+
+
+
+A.22 Imported functions 497
+
+
+
+A.23 AMPL invocation 499
+
+
+
+Index 501
+
+
+

@@ -1,0 +1,1129 @@
+OKOKOK deeply interesting book now I am getting around to reading it during the course.
+
+----------
+
+Contents
+
+
+
+I Fundamental Algorithms for NLP 1
+
+
+
+1 Introduction 3
+
+
+
+2 Regular Expressions, Text Normalization, Edit Distance 4
+
+
+
+2.1 Regular Expressions . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+
+
+2.2 Words . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+
+
+2.3 Corpora . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+
+
+2.4 Text Normalization . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+
+
+2.5 Minimum Edit Distance . . . . . . . . . . . . . . . . . . . . . . . 24
+
+
+
+2.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 29
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+
+
+3 N-gram Language Models 31
+
+
+
+3.1 N-Grams . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+
+
+
+3.2 Evaluating Language Models . . . . . . . . . . . . . . . . . . . . 37
+
+
+
+3.3 Sampling sentences from a language model . . . . . . . . . . . . . 40
+
+
+
+3.4 Generalization and Zeros . . . . . . . . . . . . . . . . . . . . . . 40
+
+
+
+3.5 Smoothing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+
+
+
+3.6 Huge Language Models and Stupid Backoff . . . . . . . . . . . . 48
+
+
+
+3.7 Advanced: Kneser-Ney Smoothing . . . . . . . . . . . . . . . . . 49
+
+
+
+3.8 Advanced: Perplexity’s Relation to Entropy . . . . . . . . . . . . 52
+
+
+
+3.9 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 55
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+
+
+
+4 Naive Bayes, Text Classification, and Sentiment 58
+
+
+
+4.1 Naive Bayes Classifiers . . . . . . . . . . . . . . . . . . . . . . . 59
+
+
+
+4.2 Training the Naive Bayes Classifier . . . . . . . . . . . . . . . . . 62
+
+
+
+4.3 Worked example . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+
+
+
+4.4 Optimizing for Sentiment Analysis . . . . . . . . . . . . . . . . . 64
+
+
+
+4.5 Naive Bayes for other text classification tasks . . . . . . . . . . . 66
+
+
+
+4.6 Naive Bayes as a Language Model . . . . . . . . . . . . . . . . . 67
+
+
+
+4.7 Evaluation: Precision, Recall, F-measure . . . . . . . . . . . . . . 68
+
+
+
+4.8 Test sets and Cross-validation . . . . . . . . . . . . . . . . . . . . 70
+
+
+
+4.9 Statistical Significance Testing . . . . . . . . . . . . . . . . . . . 71
+
+
+
+4.10 Avoiding Harms in Classification . . . . . . . . . . . . . . . . . . 75
+
+
+
+4.11 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 76
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+
+
+
+5 Logistic Regression 79
+
+
+
+5.1 The sigmoid function . . . . . . . . . . . . . . . . . . . . . . . . 80
+
+
+
+5.2 Classification with Logistic Regression . . . . . . . . . . . . . . . 82
+
+
+
+5.3 Multinomial logistic regression . . . . . . . . . . . . . . . . . . . 86
+
+
+
+5.4 Learning in Logistic Regression . . . . . . . . . . . . . . . . . . . 89
+
+
+
+5.5 The cross-entropy loss function . . . . . . . . . . . . . . . . . . . 90
+
+
+
+5.6 Gradient Descent . . . . . . . . . . . . . . . . . . . . . . . . . . 91
+
+
+
+3
+
+
+
+4 CONTENTS
+
+
+
+5.7 Regularization . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
+
+
+
+5.8 Learning in Multinomial Logistic Regression . . . . . . . . . . . . 98
+
+
+
+5.9 Interpreting models . . . . . . . . . . . . . . . . . . . . . . . . . 99
+
+
+
+5.10 Advanced: Deriving the Gradient Equation . . . . . . . . . . . . . 100
+
+
+
+5.11 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 101
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 102
+
+
+
+6 Vector Semantics and Embeddings 103
+
+
+
+6.1 Lexical Semantics . . . . . . . . . . . . . . . . . . . . . . . . . . 104
+
+
+
+6.2 Vector Semantics . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+
+
+
+6.3 Words and Vectors . . . . . . . . . . . . . . . . . . . . . . . . . . 108
+
+
+
+6.4 Cosine for measuring similarity . . . . . . . . . . . . . . . . . . . 112
+
+
+
+6.5 TF-IDF: Weighing terms in the vector . . . . . . . . . . . . . . . 113
+
+
+
+6.6 Pointwise Mutual Information (PMI) . . . . . . . . . . . . . . . . 116
+
+
+
+6.7 Applications of the tf-idf or PPMI vector models . . . . . . . . . . 118
+
+
+
+6.8 Word2vec . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 119
+
+
+
+6.9 Visualizing Embeddings . . . . . . . . . . . . . . . . . . . . . . . 125
+
+
+
+6.10 Semantic properties of embeddings . . . . . . . . . . . . . . . . . 126
+
+
+
+6.11 Bias and Embeddings . . . . . . . . . . . . . . . . . . . . . . . . 128
+
+
+
+6.12 Evaluating Vector Models . . . . . . . . . . . . . . . . . . . . . . 129
+
+
+
+6.13 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 130
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 131
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133
+
+
+
+7 Neural Networks and Neural Language Models 134
+
+
+
+7.1 Units . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 135
+
+
+
+7.2 The XOR problem . . . . . . . . . . . . . . . . . . . . . . . . . . 137
+
+
+
+7.3 Feedforward Neural Networks . . . . . . . . . . . . . . . . . . . . 140
+
+
+
+7.4 Feedforward networks for NLP: Classification . . . . . . . . . . . 144
+
+
+
+7.5 Feedforward Neural Language Modeling . . . . . . . . . . . . . . 147
+
+
+
+7.6 Training Neural Nets . . . . . . . . . . . . . . . . . . . . . . . . 150
+
+
+
+7.7 Training the neural language model . . . . . . . . . . . . . . . . . 156
+
+
+
+7.8 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 158
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 158
+
+
+
+8 Sequence Labeling for Parts of Speech and Named Entities 160
+
+
+
+8.1 (Mostly) English Word Classes . . . . . . . . . . . . . . . . . . . 161
+
+
+
+8.2 Part-of-Speech Tagging . . . . . . . . . . . . . . . . . . . . . . . 163
+
+
+
+8.3 Named Entities and Named Entity Tagging . . . . . . . . . . . . . 165
+
+
+
+8.4 HMM Part-of-Speech Tagging . . . . . . . . . . . . . . . . . . . 167
+
+
+
+8.5 Conditional Random Fields (CRFs) . . . . . . . . . . . . . . . . . 174
+
+
+
+8.6 Evaluation of Named Entity Recognition . . . . . . . . . . . . . . 179
+
+
+
+8.7 Further Details . . . . . . . . . . . . . . . . . . . . . . . . . . . 179
+
+
+
+8.8 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 181
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 182
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+
+
+
+9 RNNs and LSTMs 185
+
+
+
+9.1 Recurrent Neural Networks . . . . . . . . . . . . . . . . . . . . . 185
+
+
+
+9.2 RNNs as Language Models . . . . . . . . . . . . . . . . . . . . . 189
+
+
+
+9.3 RNNs for other NLP tasks . . . . . . . . . . . . . . . . . . . . . . 192
+
+
+
+CONTENTS 5
+
+
+
+9.4 Stacked and Bidirectional RNN architectures . . . . . . . . . . . . 195
+
+
+
+9.5 The LSTM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 198
+
+
+
+9.6 Summary: Common RNN NLP Architectures . . . . . . . . . . . 201
+
+
+
+9.7 The Encoder-Decoder Model with RNNs . . . . . . . . . . . . . . 201
+
+
+
+9.8 Attention . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 205
+
+
+
+9.9 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 208
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 209
+
+
+
+10 Transformers and Pretrained Language Models 211
+
+
+
+10.1 Self-Attention Networks: Transformers . . . . . . . . . . . . . . . 212
+
+
+
+10.2 Transformers as Language Models . . . . . . . . . . . . . . . . . 220
+
+
+
+10.3 Sampling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 221
+
+
+
+10.4 Beam Search . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 221
+
+
+
+10.5 Pretraining Large Language Models . . . . . . . . . . . . . . . . 225
+
+
+
+10.6 Language Models for Zero-shot Learning . . . . . . . . . . . . . . 225
+
+
+
+10.7 Potential Harms from Language Models . . . . . . . . . . . . . . 226
+
+
+
+10.8 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 226
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 227
+
+
+
+11 Fine-Tuning and Masked Language Models 228
+
+
+
+11.1 Bidirectional Transformer Encoders . . . . . . . . . . . . . . . . . 228
+
+
+
+11.2 Training Bidirectional Encoders . . . . . . . . . . . . . . . . . . . 232
+
+
+
+11.3 Transfer Learning through Fine-Tuning . . . . . . . . . . . . . . . 237
+
+
+
+11.4 Training Corpora . . . . . . . . . . . . . . . . . . . . . . . . . . . 242
+
+
+
+11.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 243
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 243
+
+
+
+12 Prompting, In-Context Learning, and Instruct Tuning 244
+
+
+
+II NLP Applications 245
+
+
+
+13 Machine Translation 247
+
+
+
+13.1 Language Divergences and Typology . . . . . . . . . . . . . . . . 248
+
+
+
+13.2 Machine Translation using Encoder-Decoder . . . . . . . . . . . . 252
+
+
+
+13.3 Details of the Encoder-Decoder Model . . . . . . . . . . . . . . . 256
+
+
+
+13.4 Translating in low-resource situations . . . . . . . . . . . . . . . . 258
+
+
+
+13.5 MT Evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 260
+
+
+
+13.6 Bias and Ethical Issues . . . . . . . . . . . . . . . . . . . . . . . 263
+
+
+
+13.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 265
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 265
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 268
+
+
+
+14 Question Answering and Information Retrieval 269
+
+
+
+14.1 Information Retrieval . . . . . . . . . . . . . . . . . . . . . . . . 270
+
+
+
+14.2 IR-based Factoid Question Answering . . . . . . . . . . . . . . . 278
+
+
+
+14.3 Entity Linking . . . . . . . . . . . . . . . . . . . . . . . . . . . . 282
+
+
+
+14.4 Knowledge-based Question Answering . . . . . . . . . . . . . . . 286
+
+
+
+14.5 Using Language Models to do QA . . . . . . . . . . . . . . . . . 289
+
+
+
+14.6 Classic QA Models . . . . . . . . . . . . . . . . . . . . . . . . . 290
+
+
+
+14.7 Evaluation of Factoid Answers . . . . . . . . . . . . . . . . . . . 293
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 294
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 295
+
+
+
+6 CONTENTS
+
+
+
+15 Chatbots & Dialogue Systems 296
+
+
+
+15.1 Properties of Human Conversation . . . . . . . . . . . . . . . . . 297
+
+
+
+15.2 Chatbots . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 300
+
+
+
+15.3 GUS: Simple Frame-based Dialogue Systems . . . . . . . . . . . 308
+
+
+
+15.4 The Dialogue-State Architecture . . . . . . . . . . . . . . . . . . 312
+
+
+
+15.5 Evaluating Dialogue Systems . . . . . . . . . . . . . . . . . . . . 321
+
+
+
+15.6 Dialogue System Design . . . . . . . . . . . . . . . . . . . . . . . 324
+
+
+
+15.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 326
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 326
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 328
+
+
+
+16 Automatic Speech Recognition and Text-to-Speech 329
+
+
+
+16.1 The Automatic Speech Recognition Task . . . . . . . . . . . . . . 330
+
+
+
+16.2 Feature Extraction for ASR: Log Mel Spectrum . . . . . . . . . . 332
+
+
+
+16.3 Speech Recognition Architecture . . . . . . . . . . . . . . . . . . 336
+
+
+
+16.4 CTC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 338
+
+
+
+16.5 ASR Evaluation: Word Error Rate . . . . . . . . . . . . . . . . . 343
+
+
+
+16.6 TTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 345
+
+
+
+16.7 Other Speech Tasks . . . . . . . . . . . . . . . . . . . . . . . . . 350
+
+
+
+16.8 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 351
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 351
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 354
+
+
+
+III Annotating Linguistic Structure 355
+
+
+
+17 Context-Free Grammars and Constituency Parsing 357
+
+
+
+17.1 Constituency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 358
+
+
+
+17.2 Context-Free Grammars . . . . . . . . . . . . . . . . . . . . . . . 358
+
+
+
+17.3 Treebanks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 362
+
+
+
+17.4 Grammar Equivalence and Normal Form . . . . . . . . . . . . . . 364
+
+
+
+17.5 Ambiguity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 365
+
+
+
+17.6 CKY Parsing: A Dynamic Programming Approach . . . . . . . . 367
+
+
+
+17.7 Span-Based Neural Constituency Parsing . . . . . . . . . . . . . . 373
+
+
+
+17.8 Evaluating Parsers . . . . . . . . . . . . . . . . . . . . . . . . . . 375
+
+
+
+17.9 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 377
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 378
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 379
+
+
+
+18 Dependency Parsing 381
+
+
+
+18.1 Dependency Relations . . . . . . . . . . . . . . . . . . . . . . . . 382
+
+
+
+18.2 Transition-Based Dependency Parsing . . . . . . . . . . . . . . . 386
+
+
+
+18.3 Graph-Based Dependency Parsing . . . . . . . . . . . . . . . . . 395
+
+
+
+18.4 Evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 401
+
+
+
+18.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 402
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 402
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 404
+
+
+
+19 Logical Representations of Sentence Meaning 405
+
+
+
+19.1 Computational Desiderata for Representations . . . . . . . . . . . 406
+
+
+
+19.2 Model-Theoretic Semantics . . . . . . . . . . . . . . . . . . . . . 408
+
+
+
+19.3 First-Order Logic . . . . . . . . . . . . . . . . . . . . . . . . . . 411
+
+
+
+19.4 Event and State Representations . . . . . . . . . . . . . . . . . . . 418
+
+
+
+CONTENTS 7
+
+
+
+19.5 Description Logics . . . . . . . . . . . . . . . . . . . . . . . . . . 419
+
+
+
+19.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 425
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 425
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 426
+
+
+
+20 Computational Semantics and Semantic Parsing 428
+
+
+
+21 Relation and Event Extraction 429
+
+
+
+21.1 Relation Extraction . . . . . . . . . . . . . . . . . . . . . . . . . 430
+
+
+
+21.2 Relation Extraction Algorithms . . . . . . . . . . . . . . . . . . . 432
+
+
+
+21.3 Extracting Events . . . . . . . . . . . . . . . . . . . . . . . . . . 441
+
+
+
+21.4 Template Filling . . . . . . . . . . . . . . . . . . . . . . . . . . . 442
+
+
+
+21.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 444
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 444
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 445
+
+
+
+22 Time and Temporal Reasoning 446
+
+
+
+22.1 Representing Time . . . . . . . . . . . . . . . . . . . . . . . . . . 446
+
+
+
+22.2 Representing Aspect . . . . . . . . . . . . . . . . . . . . . . . . . 449
+
+
+
+22.3 Temporally Annotated Datasets: TimeBank . . . . . . . . . . . . . 451
+
+
+
+22.4 Automatic Temporal Analysis . . . . . . . . . . . . . . . . . . . . 452
+
+
+
+22.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 456
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 456
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 456
+
+
+
+23 Word Senses and WordNet 457
+
+
+
+23.1 Word Senses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 458
+
+
+
+23.2 Relations Between Senses . . . . . . . . . . . . . . . . . . . . . . 460
+
+
+
+23.3 WordNet: A Database of Lexical Relations . . . . . . . . . . . . . 462
+
+
+
+23.4 Word Sense Disambiguation . . . . . . . . . . . . . . . . . . . . . 465
+
+
+
+23.5 Alternate WSD algorithms and Tasks . . . . . . . . . . . . . . . . 468
+
+
+
+23.6 Using Thesauruses to Improve Embeddings . . . . . . . . . . . . 471
+
+
+
+23.7 Word Sense Induction . . . . . . . . . . . . . . . . . . . . . . . . 471
+
+
+
+23.8 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 472
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 473
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 474
+
+
+
+24 Semantic Role Labeling 476
+
+
+
+24.1 Semantic Roles . . . . . . . . . . . . . . . . . . . . . . . . . . . 477
+
+
+
+24.2 Diathesis Alternations . . . . . . . . . . . . . . . . . . . . . . . . 478
+
+
+
+24.3 Semantic Roles: Problems with Thematic Roles . . . . . . . . . . 479
+
+
+
+24.4 The Proposition Bank . . . . . . . . . . . . . . . . . . . . . . . . 480
+
+
+
+24.5 FrameNet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 481
+
+
+
+24.6 Semantic Role Labeling . . . . . . . . . . . . . . . . . . . . . . . 483
+
+
+
+24.7 Selectional Restrictions . . . . . . . . . . . . . . . . . . . . . . . 487
+
+
+
+24.8 Primitive Decomposition of Predicates . . . . . . . . . . . . . . . 491
+
+
+
+24.9 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 493
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 493
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 495
+
+
+
+25 Lexicons for Sentiment, Affect, and Connotation 496
+
+
+
+25.1 Defining Emotion . . . . . . . . . . . . . . . . . . . . . . . . . . 497
+
+
+
+8 CONTENTS
+
+
+
+25.2 Available Sentiment and Affect Lexicons . . . . . . . . . . . . . . 499
+
+
+
+25.3 Creating Affect Lexicons by Human Labeling . . . . . . . . . . . 500
+
+
+
+25.4 Semi-supervised Induction of Affect Lexicons . . . . . . . . . . . 502
+
+
+
+25.5 Supervised Learning of Word Sentiment . . . . . . . . . . . . . . 505
+
+
+
+25.6 Using Lexicons for Sentiment Recognition . . . . . . . . . . . . . 510
+
+
+
+25.7 Using Lexicons for Affect Recognition . . . . . . . . . . . . . . . 511
+
+
+
+25.8 Lexicon-based methods for Entity-Centric Affect . . . . . . . . . . 512
+
+
+
+25.9 Connotation Frames . . . . . . . . . . . . . . . . . . . . . . . . . 512
+
+
+
+25.10 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 514
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 515
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 515
+
+
+
+26 Coreference Resolution 516
+
+
+
+26.1 Coreference Phenomena: Linguistic Background . . . . . . . . . . 519
+
+
+
+26.2 Coreference Tasks and Datasets . . . . . . . . . . . . . . . . . . . 524
+
+
+
+26.3 Mention Detection . . . . . . . . . . . . . . . . . . . . . . . . . . 525
+
+
+
+26.4 Architectures for Coreference Algorithms . . . . . . . . . . . . . 528
+
+
+
+26.5 Classifiers using hand-built features . . . . . . . . . . . . . . . . . 530
+
+
+
+26.6 A neural mention-ranking algorithm . . . . . . . . . . . . . . . . 532
+
+
+
+26.7 Evaluation of Coreference Resolution . . . . . . . . . . . . . . . . 535
+
+
+
+26.8 Winograd Schema problems . . . . . . . . . . . . . . . . . . . . . 536
+
+
+
+26.9 Gender Bias in Coreference . . . . . . . . . . . . . . . . . . . . . 537
+
+
+
+26.10 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 539
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 539
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 542
+
+
+
+27 Discourse Coherence 543
+
+
+
+27.1 Coherence Relations . . . . . . . . . . . . . . . . . . . . . . . . . 545
+
+
+
+27.2 Discourse Structure Parsing . . . . . . . . . . . . . . . . . . . . . 548
+
+
+
+27.3 Centering and Entity-Based Coherence . . . . . . . . . . . . . . . 552
+
+
+
+27.4 Representation learning models for local coherence . . . . . . . . 556
+
+
+
+27.5 Global Coherence . . . . . . . . . . . . . . . . . . . . . . . . . . 558
+
+
+
+27.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 561
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 562
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 564
+
+
+
+28 Phonetics 565
+
+
+
+28.1 Speech Sounds and Phonetic Transcription . . . . . . . . . . . . . 565
+
+
+
+28.2 Articulatory Phonetics . . . . . . . . . . . . . . . . . . . . . . . . 566
+
+
+
+28.3 Prosody . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 571
+
+
+
+28.4 Acoustic Phonetics and Signals . . . . . . . . . . . . . . . . . . . 573
+
+
+
+28.5 Phonetic Resources . . . . . . . . . . . . . . . . . . . . . . . . . 584
+
+
+
+28.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 585
+
+
+
+Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . 585
+
+
+
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 586
+
+
+
+Bibliography 587
+
+
+
+Subject Index 621

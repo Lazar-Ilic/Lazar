@@ -1,0 +1,393 @@
+Contents
+
+
+
+Preface to Second Edition xi
+
+
+
+1 Introduction 1
+
+
+
+1.1 How Visualization Works . . . . . . . . . . . . . . . . . . . . . . 3
+
+
+
+1.2 Positioning in the Field . . . . . . . . . . . . . . . . . . . . . . . 12
+
+
+
+1.3 Book Structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+
+
+1.4 Notation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+
+
+1.5 Online Material . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+
+
+2 From Graphics to Visualization 21
+
+
+
+2.1 A Simple Example . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+
+
+
+2.2 Graphics-Rendering Basics . . . . . . . . . . . . . . . . . . . . . . 28
+
+
+
+2.3 Rendering the Height Plot . . . . . . . . . . . . . . . . . . . . . . 30
+
+
+
+2.4 Texture Mapping . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+
+
+
+2.5 Transparency and Blending . . . . . . . . . . . . . . . . . . . . . 39
+
+
+
+2.6 Viewing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+
+
+
+2.7 Putting It All Together . . . . . . . . . . . . . . . . . . . . . . . 47
+
+
+
+2.8 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+
+
+
+3 Data Representation 53
+
+
+
+3.1 Continuous Data . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+
+
+
+3.2 Sampled Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+
+
+
+3.3 Discrete Datasets . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
+
+
+
+3.4 Cell Types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+
+
+
+3.5 Grid Types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+
+
+
+vii
+
+
+
+viii Contents
+
+
+
+3.6 Attributes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81
+
+
+
+3.7 Computing Derivatives of Sampled Data . . . . . . . . . . . . . . 96
+
+
+
+3.8 Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100
+
+
+
+3.9 Advanced Data Representation . . . . . . . . . . . . . . . . . . . 111
+
+
+
+3.10 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+
+
+
+4 The Visualization Pipeline 123
+
+
+
+4.1 Conceptual Perspective . . . . . . . . . . . . . . . . . . . . . . . 123
+
+
+
+4.2 Implementation Perspective . . . . . . . . . . . . . . . . . . . . . 136
+
+
+
+4.3 Algorithm Classification . . . . . . . . . . . . . . . . . . . . . . . 144
+
+
+
+4.4 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 145
+
+
+
+5 Scalar Visualization 147
+
+
+
+5.1 Color Mapping . . . . . . . . . . . . . . . . . . . . . . . . . . . . 147
+
+
+
+5.2 Designing Effective Colormaps . . . . . . . . . . . . . . . . . . . 149
+
+
+
+5.3 Contouring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 163
+
+
+
+5.4 Height Plots . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 176
+
+
+
+5.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 181
+
+
+
+6 Vector Visualization 183
+
+
+
+6.1 Divergence and Vorticity . . . . . . . . . . . . . . . . . . . . . . . 184
+
+
+
+6.2 Vector Glyphs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 188
+
+
+
+6.3 Vector Color Coding . . . . . . . . . . . . . . . . . . . . . . . . . 196
+
+
+
+6.4 Displacement Plots . . . . . . . . . . . . . . . . . . . . . . . . . . 200
+
+
+
+6.5 Stream Objects . . . . . . . . . . . . . . . . . . . . . . . . . . . . 203
+
+
+
+6.6 Texture-Based Vector Visualization . . . . . . . . . . . . . . . . . 223
+
+
+
+6.7 Simplified Representation of Vector Fields . . . . . . . . . . . . . 234
+
+
+
+6.8 Illustrative Vector Field Rendering . . . . . . . . . . . . . . . . . 250
+
+
+
+6.9 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 252
+
+
+
+7 Tensor Visualization 253
+
+
+
+7.1 Principal Component Analysis . . . . . . . . . . . . . . . . . . . 254
+
+
+
+7.2 Visualizing Components . . . . . . . . . . . . . . . . . . . . . . . 259
+
+
+
+7.3 Visualizing Scalar PCA Information . . . . . . . . . . . . . . . . 259
+
+
+
+7.4 Visualizing Vector PCA Information . . . . . . . . . . . . . . . . 263
+
+
+
+7.5 Tensor Glyphs . . . . . . . . . . . . . . . . . . . . . . . . . . . . 266
+
+
+
+7.6 Fiber Tracking . . . . . . . . . . . . . . . . . . . . . . . . . . . . 269
+
+
+
+7.7 Illustrative Fiber Rendering . . . . . . . . . . . . . . . . . . . . . 274
+
+
+
+Contents ix
+
+
+
+7.8 Hyperstreamlines . . . . . . . . . . . . . . . . . . . . . . . . . . . 280
+
+
+
+7.9 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 283
+
+
+
+8 Domain-Modeling Techniques 285
+
+
+
+8.1 Cutting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 285
+
+
+
+8.2 Selection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 290
+
+
+
+8.3 Grid Construction from Scattered Points . . . . . . . . . . . . . . 292
+
+
+
+8.4 Grid-Processing Techniques . . . . . . . . . . . . . . . . . . . . . 312
+
+
+
+8.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 324
+
+
+
+9 Image Visualization 327
+
+
+
+9.1 Image Data Representation . . . . . . . . . . . . . . . . . . . . . 327
+
+
+
+9.2 Image Processing and Visualization . . . . . . . . . . . . . . . . . 329
+
+
+
+9.3 Basic Imaging Algorithms . . . . . . . . . . . . . . . . . . . . . . 330
+
+
+
+9.4 Shape Representation and Analysis . . . . . . . . . . . . . . . . . 345
+
+
+
+9.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 402
+
+
+
+10 Volume Visualization 405
+
+
+
+10.1 Motivation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 406
+
+
+
+10.2 Volume Visualization Basics . . . . . . . . . . . . . . . . . . . . . 409
+
+
+
+10.3 Image Order Techniques . . . . . . . . . . . . . . . . . . . . . . . 422
+
+
+
+10.4 Object Order Techniques . . . . . . . . . . . . . . . . . . . . . . 428
+
+
+
+10.5 Volume Rendering vs. Geometric Rendering . . . . . . . . . . . . 430
+
+
+
+10.6 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 432
+
+
+
+11 Information Visualization 435
+
+
+
+11.1 What Is Infovis? . . . . . . . . . . . . . . . . . . . . . . . . . . . 436
+
+
+
+11.2 Infovis vs. Scivis: A Technical Comparison . . . . . . . . . . . . . 438
+
+
+
+11.3 Table Visualization . . . . . . . . . . . . . . . . . . . . . . . . . . 446
+
+
+
+11.4 Visualization of Relations . . . . . . . . . . . . . . . . . . . . . . 452
+
+
+
+11.5 Multivariate Data Visualization . . . . . . . . . . . . . . . . . . . 505
+
+
+
+11.6 Text Visualization . . . . . . . . . . . . . . . . . . . . . . . . . . 532
+
+
+
+11.7 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 547
+
+
+
+12 Conclusion 549
+
+
+
+Visualization Software 555
+
+
+
+A.1 Taxonomies of Visualization Systems . . . . . . . . . . . . . . . . 555
+
+
+
+A.2 Scientific Visualization Software . . . . . . . . . . . . . . . . . . . 557
+
+
+
+A.3 Imaging Software . . . . . . . . . . . . . . . . . . . . . . . . . . . 561
+
+
+
+x Contents
+
+
+
+A.4 Grid Processing Software . . . . . . . . . . . . . . . . . . . . . . 566
+
+
+
+A.5 Information Visualization Software . . . . . . . . . . . . . . . . . 569
+
+
+
+Bibliography 575
+
+
+
+Index 599

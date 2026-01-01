@@ -1,0 +1,174 @@
+1
+a
+False. [0,5], [1,2], [3,4]
+b
+False. [0,5], [1,2], [3,4]
+c
+True. Strictly dominating smoothing.
+d
+False. [0,4], [3,6], [5,9]
+e
+False. [0,3], [0,3], [2,5], [4,7], [6,9], [8,11], [10,13], [12,15], [12,15]
+In this example the central dudes as well as the outer dudes all conflict with 2 other courses and so we might suboptimally tie break per the task statement and select [6,9] at which point we are left with:
+[0,3], [0,3], [2,5], [10,13], [12,15], [12,15]
+And only get away with selecting 2 more, for a grand total of 3.
+However, a grand total of 4 is possible, for example with [0,3], [4,7], [8,11], and [12,15].
+f
+False. [0,4], [3,6], [5,9]
+g
+False. For example in [0,3], [2,5], [2,5], [4,7], [6,9], [6,9], [8,11] one can obtain a grand total of 3 with [0,3], [4,7], [8,11] but this presented algorithm tosses [4,7] at the get go and forces an outcome of only merely 2.
+h
+True. Trivially will lead to the same allocation as in the proposed presented algorithm from the textbook, that is to say that this will select the course which ends first and throws out all conflicts and then continues. Indeed the first condition is clearly strictly dominating, as is the second wherein we smoothe into an earlier end time or ignore.
+i
+True. This is just like a reflection and equivalence with the previous algorithm presented in h clearly as any containing e.g. strictly inferior course gets processed earlier in processing order and will thus invoke the second rule in h and be discarded otherwise it is just an iteration of the third rule until the invocation of the selection in the first rule.
+
+2
+a
+Well obviously a contradiction I mean just have the selected courses be worth -infty and the unselected courses be worth infty.
+b
+Trivial. Again.
+c
+I think a sorted Dynamic Programming approach works fine and is canonical. One can simply compute the maximum fully contained in each relevant discrete prefix interval that is to say and the update transition rule of course is like max of what has already been computed there and the previous prefix where as we process through we can map forward and update these max values.
+
+Think the general problem task would be known as computing the maximum weight independent vertex set in a graph where the vertices are the courses and there exists an edge between vertices if and only if the courses conflict that is to say they intersect.
+
+3
+One of course can note that the leftmost point must be contained in the covering set which is to say logically infer that 1 of the dudes intervals containing the leftmost point must be contained in the covering subset of intervals. And thus the most natural algorithm is to simply sort upon start times then end times, select the dude from those that hit the leftmost earliest point with the latest endpoint and then one can like this is in CSES by the way but you process through tracking the rightmost point of the previously selected interval and the proposed rightmost point of the next selected interval and once we pass by e.g. the leftmost point is now past the previous rightmost point we then have to update with the relevant ++ and change that rightmost point to the proposed max thus far amongst all the rightmost points.
+
+4
+Well obviously by the pigeonhole principle I mean this is like the dual, the minimum covering set here obviously one cannot select 2 intervals which share a stabbing point in the course selection task and the vice versa so maximum course selection is isomorphic and we may simply adopt the proposed algorithm from the textbook for that and select say each selected right endpoint as a so called stabbing covering set.
+
+5
+The immediate observation of course is that in this underlying graph isomorphism as before one desires to compute the chromatic number. But in any case an easy lower bound comes from observing the maximum of the number of live intervals at a particular stabbing point which can be very simply computed in sorted order from left to right storing the relevant number of live intervals. Then indeed of course one can I think a super duper simple greedy algorithm which works here is merely to like store a 2 pointers approach, left and right pointers like sort upon leftpoint then rightpoint and set the first interval to colour 1 and set to 1,1 and then process through and when OK actually that does not work um errm oh yeah just simply have like a queue or stack works here frankly of colours not being used right now and well OK OK OK we can hit the asymptotic think about number of colours here for set or hash set actually but in any case we should just process through from left to right and when we leave some dude at that colour back in and this is ensured to work by a simple contradiction argument otherwise based upon the simple number of live intervals and live used colours.
+
+6
+a
+Well one supposes that trivially it would be [1,1,1,2,3,5,8,13,21,34,55,89,144,...,F_{n-offset}]
+b
+Um I think that this is just like a simple invert of the previous part in particular if not then a contradiction arises as upon a relevant Golden Ratio or otherwise exponentiation from an asymptotic larger than O[log n] transforms into a frequency which was itself appearing superpolynomially often.
+
+7
+I am not sure that I am interpreting this task quite correctly but it is like asking for the largest real number a such that the final merge must include the symbol 1... seems like he meant to write down "smallest" here rather than "largest" and so really one needs to ensure that a larger slice cannot be formed prior to the final merge but indeed 1-1/phi = [3-sqrt[5]]/2 ~ 0.381966 should work I think that one can simply mimic the previous task and inductively like note that in fact a contradiction can emerge for any lower number simply start with like a, a+epsilon, 1-2a-epsilon at the 2nd to final merge step and recurse until the contradictory starting setting works. And the other direction is simply trivial.
+
+8
+It is a very simple trivial extension of the initial proposed presented Huffman tree algorithm where for an optimal n-ary prefix-free code for a given array of frequencies one simply merges at each step the n minimal frequencies in the current live set of characters.
+
+9
+This is canonical and trivial. In fact it was the first exercise problem set in my University Of Texas At Austin EE360 Algorithms course out of Kleinberg and Tardos. So for example copying and pasting copypasta pseudocode from Wikipedia:
+
+algorithm stable_matching is
+    Initialize all m ∈ M and w ∈ W to free
+    while ∃ free man m who still has a woman w to propose to do
+        w := first woman on m's list to whom m has not yet proposed
+        if w is free then
+            (m, w) become engaged
+        else some pair (m', w) already exists
+            if w prefers m to m' then
+                m' becomes free
+                (m, w) become engaged 
+            else
+                (m', w) remain engaged
+            end if
+        end if
+    repeat
+
+Where e.g. w prefers m to m' can be discerned via storing each w's preference ordering ranking or rating in the appropriate say hash map or array data structure as needed.
+
+10
+a
+See b.
+b
+One supposes that the most natural obvious trivial sort of an input here would be something like all men have the same preferences w1 > w2 > ... > wn and all women have the same preferences of men mn > ... > m2 > m1 so that the number of proposals made is precisely n[n+1]/2.
+
+11
+One can see for example "Different stable matchings" and "Lattice of stable matchings" on Wikipedia. From Contributions To Theoretical Economics 2006 The Uniqueness Of Stable Matchings - Simon Clark: the No Crossing Condition [NCC] is sufficient for uniqueness. The paper also shows that a weaker condition, alpha-reducibility, is both necessary and sufficient for a population and any of its subpopulations to have a unique stable matching.
+
+If n is a power of 2 then there exist ranking of men by women and the vice versa such that there are at least 2^[n-1] stable matchings.
+
+Really fascinating this was still a topic under discussion in 2000 and 2006... back then it was super duper wooper easy to be an academician... nowadays the market is so competitive I swear you need to live a rigorous lifestyle, have a massive genetic G IQ component, and work 24 hours per day... anyways.
+
+Eeckhout gives the Sequential Preference Condition. OK.
+
+12
+One would immediately assume that there exists a very trivial invocation isomorphism modification here where unranked hospital and doctors are instead ranked arbitrarily below the actual cutoff threshold of rankability or whatever even being under consideration is. Then I think the actual resultant emergent True match is processed simply by checking through the match and confirming it as a real realised valid one if and only if it is Truly valid above both relevant thresholds.
+
+13
+OK so the idea I guess one supposes is that it simply the key idea is to match drivers with locations and in particular have the drivers preference ordering be given quite simply by the order in which they visit the locations e.g. the earlier the better and the locations' preferences orderings are given by the opposite e.g. the later the better so that an explosion at X corresponds with maps with a driver matching to a later location Y e.g. a less preferred one and the location X matched with an earlier dude e.g. a less preferred one too. So there you have it, simple as the hint would have you thinking, et voila.
+
+14
+a
+Uh this is like a super duper wooper canonical task I swear it appears in literally every single 69/69 books on Algorithms I have read thus far I mean Jees Louse unoriginal stuff. Anyways I dunno simple example is [4,3,1] for 6 leads to the suboptimal 4,1,1 rather than the simpler more minimal 3,3 allocation partition splitting.
+b
+This follows trivially by like definition, smoothing, and the usual unique base representation style argumentations. Perhaps I guess uh one could suppose that like a Dynamic Programming bottoms up solution deriving the minimal coins allocation will clearly result in monotonicity which like from the particular instance of this Dynamic Program recursion transition function will again map into monotonicity and optimality in perpetuity because e.g. then always maxing out is optimal in the strong induction recursed to subcases.
+c
+The usual Dynamic Programming solution works here of course loop through bottoms up for each coin valuation produce the minimum number of coins needed to hit that valuation by taking DP[a] = 1 + min[DP[a-c1], DP[a-c2], ...]
+
+15
+So the most naive greedy algorithm I think is to simply find the earliest positive entry and then compute the maximum rightpoint for that interval and like we can do this in O[n log n] with a prefix sum array and a segment tree.
+
+16
+Umm obviously super dooper wooper onsighted canonical classical maths contest task in reverse of course this process is simply doubling e.g. appending a 0 to the right end of the binary string representation or doing a ++ and adding a 1 to the binary string but in any case the greedy minimal algorithm is to simply toss in each 1 as needed and double e.g. shift as much as possible I think like optimality is super duper obvious smoothing or monotonicity or whatever in reverse it clearly shrinks optimally as rapidly as possible. So the actual algorithm for the number of steps can be just count [the number of digits + the number of 1s - 2] in the binary representation of the target number or e.g. Just Do It in reverse.
+
+17
+Well one suppose that obviously sorta the optimal configuration will result from the minimum total difference and that furthermore this will result from actually just sorting both sets of the skiers and skis and matching them up by rank is O[n log n] one may simply check that some inequality holds to verify that this outperforms any other matching.
+
+18
+I dunno frankly feel like just tossing in every single person and then removing all with < 5 friends and then removing all with < 5 nonfriends and repeating these 2 steps procedures until halting at the desired output target maximal configuration should work well. It is quite clear that in every step iteration it can in fact be logically deduced that those people can in fact not end up in our viable end graph inductively. Implementation details on degrees and degree modifications left to the readership.
+
+19
+I think that we can simply sort and permute to unsort and unpermute later so without loss of generality both R and C are sorted and then simply force the final row and column to be like leading 0s into 1s and recurse as relevant into the shifted subcase. In particular think we can flip flop any instance of a shape like:
+
+01
+10
+
+Into a shape like:
+
+10
+01
+
+As needed such that this sort of a formation will occur and then of course our algorithm can halt and output False, -1, or None if and only if there is no viable solution for the given input R and C.
+
+20
+a
+This is as simple as going as far as we can each step e.g. up to the rightmost point prior to <= 100 and then to the first rightmost point prior to <= F+100 etc. until halting at the destination with the desired count.
+b
+Obvious trivial like earlier if it was to get to 110 and we had a cheaper station at 10 rather than at 100 then boom.
+c
+Well I mean a super duper simple isomorphism here would be to simply consider it to be like a DAG actually a Directed Acyclic Graph connected by an edge if and only if leading into and <= 100 distance apart with the actual cost from the leftmost point on the edge associated and then simply running the usual bottoms up Dynamic Program from Left to Right to compute the minimum cost needed to get to e.g. each potential destination point in O[n] rather but in general of course recall all of the usual minimum paths finding algorithms.
+
+21
+a
+Again the obvious thing here is that the Leftmost book must be captured so e.g. the simple smoothing greedy algorithm of starting from the leftmost point and extending the coverage interval rightwards as far as possible and then iterating repeating this greedy selection step procedure is optimal.
+b
+Um like if width is 2 and the books have widths [1,1,1,1] and heights [1,3,3,1] then it is more optimal to have 1 shelf of height 1, followed by 1 of height 3, and then a final 1 of 1 for a grand total height of 1 + 3 + 1 = 5 rather than of 3 + 3 = 6 resultant from the earlier supposed greedy algorithm.
+c
+Gee I mean feeling dumbo right now this should be trivial maybe like sorting, Dynamic Programming, CSES/Codeforces/Google Code Jam type of a task. There exists like the naive O[n^2] Dynamic Programming bottoms up solution of capturing the minimum height needed to capture each prefix of course but one supposes that perhaps some CSES style O[n log n] exists might even go back double check triple check confirm if this is not hyper literally in CSES.
+
+22
+a
+Just process through ensuring prefix sum is >= 0 at all time on Dyck Paths +-1 valuations and end value is == 0.
+b
+Think we can like simply compute this one in terms of local minima in order in index order in stack or something when contradicted and output the maximum at the end in like O[n] as desired.
+
+23
+a
+I think it is quite clear via smoothing that one can simply choose select an arbitrary vertex from the bottom deepest Breadth First Search level, and remove it and its relevant parents up the chain and then recurse iterate this. So always go as deep as possible greedy.
+b
+Trivial I mean as before.
+c
+This is actually kind of nontrivial I think there may exist simple high over powered mediocre runtime Maximum Flow Minimum Cost e.g. instantiate with negative costs and threshold per usual to prevent but one can associate with each dude like its reward for the whole chain up from that dude as a bottom dude in its chain. At which point it like isomorphs into some sort of a maximum dot product binary masked vector subject to a logical constraint condition but like I think that maybe the better algorithm here is a Dynamic Programming based approach where in fact we identify to each vertex the maximum value which can be captured entirely in its subtree free of a path passing through it and now the recursion transition function is super simple in terms of the already computed bottoms up from that point however its runtime is rather slow. And the analysis of that particular algorithm's runtime is left to the reader for now.
+
+24
+Monty Python And The Holy Grail reference of course.
+
+So this is just like the opening tasks on course scheduling except now there is a wrap around circular array timeline type of element to it, to this structure. And one could perhaps generalise upwards to other structures as desired in mostly obvious ways one supposes. In any case it is also dual to the following task as again the maximum independent set of intervals should correspond nicely with a natural minimal hitting stabbing set.
+
+25
+a
+Well in this case of course, as in all simply ignoring if any balloon circle were to actually surround the Origin those are all trivially struck by the first zap, the task is isomorphic with the earlier stabbing set task over the relevant intervals in without loss of generality [0, 2pi] where no balloon is zapped by a ray emitting with angle 0.
+b
+I think like we can recurse into the previous case e.g. either start with an arbitrary first zap or execute a simple algorithm like compute the maximal zap and start there and then zap boom pop and recurse into the previous case at which point off-by-1-optimality is probably very obviously ensured as like for example just throw the optimum on top of our end configuration or rather throw the optimum on top of our, well arbitrary works, first zap then boom that works and so the optimality in the a section ensures that the produced result will in fact be either m or m + 1 as desired.
+c
+OK lame boo boring this can be done easily.
+d
+Think we want to sort and use an exchange argument to be clever about choosing our initial angle for the first shot but I cannot be sure. Uh simply modifying the earlier ones for the interval R1 case might not work to extend to the circle and there is no obvious way to map this backwards into a Good relevant instance of the R1 case from earlier. One might think that selecting a maximal hitting initial angle would be wise. OK tanked a night into this one oops but it is trivial in fact to clone one of the earlier algorithms. In particular cloning algorithm i from task 1 here actually works trivially.

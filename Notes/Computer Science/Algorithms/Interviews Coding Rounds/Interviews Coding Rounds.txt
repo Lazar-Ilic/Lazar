@@ -1,0 +1,118 @@
+Might be wise to review LessWrong pre-2012 prior to rounds and ensure to stick to non-poetic particle-by-particle levels of analyses of reality and tangible material assets in round and always basically.
+
+"
+Trillness in machine instrument measurements. If it was not measured, then it was not trill. Facts and facts and facts and facts keep it real.
+"
+
+----------
+
+I would love to work with you all. I am radically passionate about statistics, research, mathematics, software engineering, computer science, tricky puzzles, and working hard! I would like to be transferred into the hiring process for the United States Of America if possible, or discuss moving back as soon as possible and receiving American compensation while there.
+
+----------
+
+Optiver Prove It Episode 1
+Lazar Ilic
+
+I decided to come back to this file after realising that I ought to mention explicit accurate computation.
+
+Stirling's Approximation \\
+$\left(\frac{1}{2}\right)^{2n}\dbinom{2n}{n}=$ \\
+$\left(\frac{1}{2}\right)^{2n}\frac{(2n)!}{(n!)^2}\approx$ \\
+$\frac{1}{\sqrt{n\pi}}$ \\
+Goes to $0$ as $n$ goes to $\infty$ \\
+It is tight to $1$st order and is larger than $\frac{1}{n}$. \\
+Cauchy-Schwarz proof is also natural and works in general for any discrete distribution in fact the probability that $2$ independent draws will be the same is $\ge \frac{1}{n+1}$ as \\
+$(p_1^2+p_2^2+\cdot+p_{n+1}^2)*(n+1)=(p_1^2+p_2^2+\cdot+p_{n+1}^2)(1+1+\cdot+1)\ge(p_1+p_2+\cdot+p_{n+1})^2=1$ so \\
+$\sum p_i^2 \ge \frac{1}{n+1}$
+
+\begin{verbatim}
+Further reading from Wikipedia for better approximation:
+Luke, Yudell L. (1969). The Special Functions and their Approximations, Vol. 1.
+New York, NY, USA: Academic Press, Inc. p. 35.
+\end{verbatim}
+
+So in particular the 2 dudes walking towards the diagonal are independent and due to the underlying symmetry, they have those same probabilities. Here is a Python code to recursively generate Pascal's triangle without wasting too much memory and then compute precise values.
+
+\begin{verbatim}
+maximus = 500
+avv = [[1 for a in range(maximus - b)] for b in range(maximus)]
+for b in range(1, maximus - 1):
+    for a in range(1, maximus - b):
+        avv[b][a] = avv[b - 1][a] + avv[b][a - 1]
+#print(avv) # Checker
+av = [0 for a in range(maximus)]
+bv = [0 for a in range(maximus)]
+for a in range(maximus):
+    sumOfSquares = 0
+    for b in range(a + 1):
+        sumOfSquares += avv[b][a - b] * avv[b][a - b]
+    av[a] = sumOfSquares
+    bv[a] = sumOfSquares / (1 << (2 * a))
+#print(av) # Checker
+print(bv)
+\end{verbatim}
+
+Or, much more easily in Python:
+
+\begin{verbatim}
+a = 2
+aa = 1 / 2
+c = 1 << 2
+for b in range(1, 1000):
+    #print(a) # Checker
+    print(b, a / c, aa) # Perhaps Use Custom High-Precision Python Library Here
+    c <<= 2
+    a *= 4 * b + 2
+    a //= b + 1
+    aa *= (2 * b + 1) / (2 * b + 2) # Interesting enough to ask interviewee to estimate this error term here.
+\end{verbatim}
+
+I have run in to double or long double precision issues in Python before in situations like this before if attempting to do code like this but without a c variable instead opting to divide powers of 2 in to the expression for a. This can be precisified further but vaguely some of those multiplicands will be erroneously high and some will be low so in the midterm we might expect quite a lot of convenient canceling and acceptable approximation depending on the precise setting and just how precise we want to be... also in C++ maybe 48 bits of long double precision is enough here for Optiver's desires.
+
+----------
+
+Optiver Prove It Episode 2
+Lazar Ilic
+
+Prove It Episode 2 \\
+Lazar Ilic
+
+Thanks for the puzzle. I have updated my notes on the previous round in my public GitHub.
+
+My intuition based around previous work in this domain was that the answer should be $O\left[n^2\right]$. I think I remembered that in a more open setting the expected deviation from the starting point is $O\left[\sqrt{\text{Number Of Steps}}\right]$ and in particular well-approximated by $\sqrt{n}$ precisely. Which is a starting point maybe for an asymptotic expectation at the very least. So I might have guessed something like ~$12$ in an interview setting, reasoning incorrectly that some of the undesired left movement might cancel conveniently somehow. But I would have included $16$ and plausibly even $20$ in my centred $90\%$ confidence interval for the true value.
+
+We observe that $16, 15, 12, 7, 0$ is the unique solution to the underlying system of equations and in general $n^2, n^2-1^2, n^2-2^2, n^2-3^2, \dots, 2n-1, 0$ works as well since $a^2+1=\frac{(a+1)^2+(a-1)^2}{2}$ for the domain of $a=1,2, \dots, n-1$ and in general.
+
+Now with the probability $p=\frac{1}{3}$ of moving right one obtains the relevant general formulae via the analytic techniques represented in the description of the OEIS Online Encyclopaedia Of Integer Sequences A095264 for example $E06=234, E16=233, E26=228, E36=215, E46=186, E56=125, E66=0$ from the delta differences being $2^{n+2}-3n-4$. And the techniques there work in slightly more general settings as well as potentially the usual potentially more costly Markov Chain techniques with matrix inversion etc.
+
+----------
+
+I might actually take the time to go through say 300 tasks from the public written records on top trading firms and try and implement them in nearly flawless C++ style.
+
+Maybe just kind of casually and openly discuss some potpourri tasks from the GlassDoor corpus here too not really sure I want to leak out tasks I have been given in currently live rounds for proprietary trading firms but we can maybe do some post facto analyses.
+
+	Optiver Task: read in 300000 horses, the market betting odds, our credence function upon their Winning probabilities, and compute the betting strategy portfolio maximising the expected value of logarithm of bankroll.
+
+Lagrange Multipliers. Canonical. Smoothing. Smoczynski and Tomkins. Whitrow. Grant et al. Buchen and Grant. Et al. Performant C implementation.
+
+	Minimum Number Of Knight Moves
+
+From [a,b] to [c,d] in an n x n chess board should be an O[1] computation for n up to 1000000000 say. Not a simple Breadth First Search on a vector of vector of booleans processed. This task in optimised C may be part of a litmus test for high frequency trading software engineer.
+
+https://cs.stackexchange.com/questions/97903/chess-knight-minimum-moves-to-destination-on-an-infinite-board
+
+	Maximum Square Frame Of 0s In An n x n Grid
+
+Onsight flawless C in O[n^2].
+
+	Construct Binary Search Tree In Order And Least Common Ancestor
+
+Can use an auxiliary set e.g. to execute the insert operation in O[log n] worst case rather than O[n]. Vector/array based approach works as does a standard canonical usual struct node pointer based technique.
+
+	Compute Sum Of First n Integers Hit By Vector Of Size m << n
+
+One way which uses minimal auxiliary memory is to call the relatively fast C++ Standard Template Library sort function on the hitting vector and then binary search for a threshold index value at which point we could call resize and accumulate and subtract off e.g. from long(a)*(a+1)/2. Technical O[m log m]. However, depending upon the input test cases limits one may also opt to use auxiliary memory with a vector<bool> followed by relevant += calls and compares in loop. O[n].
+
+	Count Number Of Increasing Subsequences Of Length 3
+
+Certainly there exists a very simple O[n log n] solution where we process through from the Left and Right directions with a set for example computing the number of dudes Left and less as well as Right and greater and then passing through again summing these products as a casework on the index of the middle dude in the increasing subsequence of length 3. Does not easily generalise to the general case of increasing subsequences of length m insofar as I can discern.

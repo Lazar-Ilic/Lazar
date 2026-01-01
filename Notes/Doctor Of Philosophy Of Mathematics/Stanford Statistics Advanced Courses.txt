@@ -1,0 +1,24 @@
+Perhaps eventually I will work through all of these slowly and actually try to compile solutions.
+
+----------
+
+Advanced Courses (Depth Requirement)
+Students are required to complete a depth requirement consisting of a minimum of three courses (nine units) of advanced topics courses offered by the department. Courses for the depth and breadth (see below) requirements must equal a combined minimum of 24 units. Recommended advanced topics courses include the following:
+
+Introduction to Time Series Analysis (Stats 307)
+Information Theory and Statistics (Stats 311)
+Advanced Statistical Methods (Stats 314A)
+Modern Applied Statistics: Learning (Stats 315A)
+Modern Applied Statistics: Learning II (Stats 315B)
+Stochastic Processes (Stats 317)
+Modern Markov Chains (Stats 318)
+Machine Learning Methods for Neural Data Analysis (Stats 320)
+Function Estimation in White Noise (Stats 322)
+Multivariate Analysis (Stats 325)
+Causal Inference (Stats 361)
+Monte Carlo (Stats 362)
+Design of Experiments (Stats 363)
+Bayesian Statistics (Stats 370)
+Convex Optimization I (EE 364A)
+Convex Optimization II (EE 364B)
+In any given year only some of these courses will be offered. These courses are normally taken after the first year and may help students to find dissertation topics.

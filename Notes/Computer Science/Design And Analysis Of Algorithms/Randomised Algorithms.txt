@@ -1,0 +1,529 @@
+It is always wise to snag extant solutions files if they exist... as they might later be removed from the aethernetwork.
+
+
+
+
+
+
+
+----------
+
+
+
+
+
+
+
+Contents
+
+
+
+Preface IX
+
+
+
+I Tools and Techniques 1
+
+
+
+1 Introduction 3
+
+
+
+1.1 A Min-Cut Algorithm 7
+
+
+
+1.2 Las Vegas and Monte Carlo 9
+
+
+
+1.3 Binary Planar Partitions 10
+
+
+
+1.4 A Probabilistic Recurrence 15
+
+
+
+1.5 Computation Model and Complexity Classes 16
+
+
+
+Notes 23
+
+
+
+Problems 25
+
+
+
+2 Game-Theoretic Techniques 28
+
+
+
+2.1 Game Tree Evaluation 28
+
+
+
+2.2 The Minimax Principle 31
+
+
+
+2.3 Randomness and Non-uniformity 38
+
+
+
+Notes 40
+
+
+
+Problems 41
+
+
+
+3 Moments and Deviations 43
+
+
+
+3.1 Occupancy Problems 43
+
+
+
+3.2 The Markov and Chebyshev Inequalities 45
+
+
+
+3.3 Randomized Selection 47
+
+
+
+3.4 Two-Point Sampling 51
+
+
+
+3.5 The Stable Marriage Problem 53
+
+
+
+3.6 The Coupon Collector's Problem 57
+
+
+
+Notes 63
+
+
+
+Problems 64
+
+
+
+4 Tail Inequalities 67
+
+
+
+4.1 The Chernoff Bound 67
+
+
+
+4.2 Routing in a Parallel Computer 74
+
+
+
+4.3 A Wiring Problem 79
+
+
+
+4.4 Martingales 83
+
+
+
+Notes 96
+
+
+
+Problems 97
+
+
+
+5 The Probabilistic Method 101
+
+
+
+5.1 Overview of the Method 101
+
+
+
+5.2 Maximum Satisfiability 104
+
+
+
+5.3 Expanding Graphs 108
+
+
+
+5.4 Oblivious Routing Revisited 112
+
+
+
+5.5 The Lovasz Local Lemma 115
+
+
+
+5.6 The Method of Conditional Probabilities 120
+
+
+
+Notes 122
+
+
+
+Problems 124
+
+
+
+6 Markov Chains and Random Walks 127
+
+
+
+6.1 A 2-SAT Example 128
+
+
+
+6.2 Markov Chains 129
+
+
+
+6.3 Random Walks on Graphs 132
+
+
+
+6.4 Electrical Networks 135
+
+
+
+6.5 Cover Times 137
+
+
+
+6.6 Graph Connectivity 139
+
+
+
+6.7 Expanders and Rapidly Mixing Random Walks 143
+
+
+
+6.8 Probability Amplification by Random Walks on Expanders 151
+
+
+
+Notes 155
+
+
+
+Problems 156
+
+
+
+7 Algebraic Techniques 161
+
+
+
+7.1 Fingerprinting and Freivalds' Technique 162
+
+
+
+7.2 Verifying Polynomial Identities 163
+
+
+
+7.3 Perfect Matchings in Graphs 167
+
+
+
+7.4 Verifying Equality of Strings 168
+
+
+
+7.5 A Comparison of Fingerprinting Techniques 169
+
+
+
+7.6 Pattern Matching 170
+
+
+
+7.7 Interactive Proof Systems 172
+
+
+
+7.8 PCP and Efficient Proof Verification 180
+
+
+
+Notes 186
+
+
+
+Problems 188
+
+
+
+II Applications 195
+
+
+
+8 I>ata Structures 197
+
+
+
+8.1 The Fundamental Data-structuring Problem 197
+
+
+
+8.2 Random Treaps
+
+
+
+8.3 Skip Lists
+
+
+
+8.4 Hash Tables
+
+
+
+8.5 Hashing with O( 1) Search Time
+
+
+
+Notes
+
+
+
+Problems
+
+
+
+9 Geometric Algorithms and Linear Programming
+
+
+
+9.1 Randomized Incremental Construction
+
+
+
+9.2 Convex Hulls in the Plane
+
+
+
+9.3 Duality
+
+
+
+9.4 Half-space Intersections
+
+
+
+9.5 Delaunay Triangulations
+
+
+
+9.6 Trapezoidal Decompositions
+
+
+
+9.7 Binary Space Partitions
+
+
+
+9.8 The Diameter of a Point Set
+
+
+
+9.9 Random Sampling
+
+
+
+9.10 Linear Programming
+
+
+
+Notes
+
+
+
+Problems
+
+
+
+10 Graph Algorithms
+
+
+
+10.1 All-pairs Shortest Paths
+
+
+
+10.2 The Min-Cut Problem
+
+
+
+10.3 Minimum Spanning Trees
+
+
+
+Notes
+
+
+
+Problems
+
+
+
+11 Approximate Counting
+
+
+
+11.1 Randomized Approximation Schemes
+
+
+
+11.2 The DNF Counting Problem
+
+
+
+11.3 Approximating the Permanent
+
+
+
+11.4 Volume Estimation
+
+
+
+Notes
+
+
+
+Problems
+
+
+
+12 Parallel and Distributed Algorithms
+
+
+
+12.1 The PRAM Model
+
+
+
+12.2 Sorting on a PRAM
+
+
+
+12.3 Maximal Independent Sets
+
+
+
+12.4 Perfect Matchings
+
+
+
+12.5 The Choice Coordination Problem
+
+
+
+12.6 Byzantine Agreement
+
+
+
+13 Online Algorithms
+
+
+
+13.1 The Online Paging Problem
+
+
+
+13.2 Adversary Models
+
+
+
+13.3 Paging against an Oblivious Adversary
+
+
+
+13.4 Relating the Adversaries
+
+
+
+13.5 The Adaptive Online Adversary
+
+
+
+13.6 The k-Server Problem
+
+
+
+Notes
+
+
+
+Problems
+
+
+
+14 Number Theory and Algebra
+
+
+
+14.1 Preliminaries
+
+
+
+14.2 Groups and Fields
+
+
+
+14.3 Quadratic Residues
+
+
+
+14.4 The RSA Cryptosystem
+
+
+
+14.5 Polynomial Roots and Factors
+
+
+
+14.6 Primality Testing
+
+
+
+Notes
+
+
+
+Problems
+
+
+
+Appendix A Notational Index
+
+
+
+Appendix B Mathematical Background
+
+
+
+Appendix C Basic Probability Theory
+
+
+
+References
+
+
+
+Index

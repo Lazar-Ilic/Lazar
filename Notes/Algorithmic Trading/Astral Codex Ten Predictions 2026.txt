@@ -1,0 +1,104 @@
+8 comments
+recent
+exmateriae
+·
+4 days ago
+Oh that's early. Will this therefore count for the 2025-2026 leaderboard instead of 2026?
+
+
+1
+
+Reply
+
+
+hide 7 replies
+skmmcj
+·
+3 days ago
+@exmateriae Yep
+
+
+1
+
+Reply
+
+
+hide 6 replies
+Lazar
+·
+3 days ago
+@skmmcj I am deeply annoyed that apparently my predictions in the 2025 contest were automatically withdrawn 6 months after I placed them. This design decision was wack - it should have defaulted to never withdrawing in the account settings page, methinketh. Edit later: the withdrawal policy is not wack because regulars will note it and casuals will not as well as the reasons provided by Metaculus administrators.
+
+
+3
+
+Reply
+
+
+hide 5 replies
+skmmcj
+·
+3 days ago
+@Lazar Yeah, I understand. Though note that:
+
+The predictions being withdrawn didn't affect your ACX 2025 performance in any way.
+Auto-withdrawal was implemented to prevent stale predictions from inactive users and especially new ones who forecasted a couple of times and then forgot about the site. Having them not withdraw by default would not help at all in these cases.
+
+2
+
+Reply
+
+
+hide 4 replies
+Lazar
+·
+3 days ago
+@skmmcj Oh OKOK interesting OK that makes sense, my bad. Moreover, the blurb "You have not participated in this tournament yet." confused me.
+
+
+1
+
+Reply
+
+
+hide 3 replies
+skmmcj
+·
+2 days ago
+@Lazar
+
+the blurb "You have not participated in this tournament yet." confused me.
+Could you give me a few more details so we know how to address this? Did you see it in ACX 2025 after your predictions were withdrawn or somewhere else?
+
+
+1
+
+Reply
+
+christian
+·
+2 days ago
+@Lazar this banner? Agreed this is confusing if the banner reappears after forecasts are auto-withdrawn. I'll get with the team to check / address. 
+
+
+
+
+
+3
+
+Reply
+
+
+hide 1 replies
+Lazar
+·
+14 hours ago
+@christian Yes in ACX 2025 after my predictions were withdrawn. Bugs are understandable, as is addressing them. You all are running a great website. Neither in the questions nor the introductory post does it state the community prediction is revealed after the snapshot - were I the writer, I would have it in both. This comes from downloading the question metadata.
+
+
+1
+
+Reply
+
+----------
+

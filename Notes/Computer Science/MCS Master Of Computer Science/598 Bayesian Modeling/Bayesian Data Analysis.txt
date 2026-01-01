@@ -1,0 +1,1258 @@
+Bayesian Data Analysis
+
+Contents
+
+
+
+List of models
+
+
+
+List of examples
+
+Fascinating list of examples. I would not know how simple or complex my own .BAM file information from the Invitae firm will be. Think maybe some boring lames there and chicks like Claudia Feng or whatever do lame lowbrow statistics on genetics they would contend was midbrow and relevant, topical, errrm, or whatever ugh. Anyways I think it is interesting I spiked double carrier for Congenital Adrenal Hyperplasia... unclear what took place during my life history and ages from 11 to 16 so who can be too sure really with only image files and no good clear sensitive serum assays or whatever... fascinating stuff you know cortisol and adrenalin perceptions.
+
+A lot of interesting topics here actually. One of the most commonly cited statistics I see in common public news is the one about how training for the SAT does not really boost scores all too much... interesting stuff the Dr. Scott Alexander Siskind writing on these Ashkenazi Jewish et al. notions of general intelligence etc. etc. and hopefully my own upcoming GRE Graduate Record Examination General 340+6.0 I hope...
+
+Fascinating list of topics frankly inspires me again to review now I have more critical reading in general scientific corpora I feel this is a solid introductory book. I should look for more textbooks to add to this folder to read through too. And more GitHubs.
+
+Preface
+
+
+
+Part 1: Fundamentals of Bayesian Inference
+
+
+
+1 Background
+
+
+
+1.1 Overview
+
+
+
+1.2 General notation for statistical inference
+
+
+
+1.3 Bayesian inference
+
+
+
+1.4 Example: inference about a genetic probability
+
+
+
+1.5 Probability as a measure of uncertainty
+
+
+
+1.6 Example of probability assignment: football point spreads
+
+
+
+1.7 Example of probability assignment: estimating the accuracy
+
+
+
+of record linkage
+
+
+
+1.8 Some useful results from probability theory
+
+
+
+1.9 Summarizing inferences by simulation
+
+
+
+1.10 Computation and software
+
+
+
+1.11 Bibliographic note
+
+
+
+1.12 Exercises
+
+
+
+2 Single-parameter models
+
+
+
+2.1 Estimating a probability from binomial data
+
+
+
+2.2 Posterior distribution as compromise between data and prior
+
+
+
+information
+
+
+
+2.3 Summarizing posterior inference
+
+
+
+2.4 Informative prior distributions
+
+
+
+2.5 Example: estimating the probability of a female birth given
+
+
+
+placenta previa
+
+
+
+2.6 Estimating the mean of a normal distribution with known
+
+
+
+XV
+
+
+
+xvii
+
+
+
+xix
+
+
+
+1
+
+
+
+3
+
+
+
+3
+
+
+
+4
+
+
+
+6
+
+
+
+9
+
+
+
+11
+
+
+
+14
+
+
+
+17
+
+
+
+22
+
+
+
+25
+
+
+
+27
+
+
+
+27
+
+
+
+29
+
+
+
+33
+
+
+
+33
+
+
+
+36
+
+
+
+37
+
+
+
+39
+
+
+
+43
+
+
+
+variance 46
+
+
+
+2. 7 Other standard single-parameter models 49
+
+
+
+2.8 Example: informative prior distribution and multilevel structure for estimating cancer rates 55
+
+
+
+vii 
+
+
+
+viii CONTENTS
+
+
+
+2.9 Noninformative prior distributions 61
+
+
+
+2.10 Bibliographic note 65
+
+
+
+2.11 Exercises 67
+
+
+
+3 Introduction to multiparameter models 73
+
+
+
+3.1 Averaging over 'nuisance parameters' 73
+
+
+
+3.2 Normal data with a noninformative prior distribution 74
+
+
+
+3.3 Normal data with a conjugate prior distribution 78
+
+
+
+3.4 Normal data with a semi-conjugate prior distribution 80
+
+
+
+3.5 The multinomial model 83
+
+
+
+3.6 The multivariate normal model 85
+
+
+
+3. 7 Example: analysis of a bioassay experiment 88
+
+
+
+3.8 Summary of elementary modeling and computation 93
+
+
+
+3.9 Bibliographic note 94
+
+
+
+3.10 Exercises 95
+
+
+
+4 Large-sample inference and frequency properties of Bayesian
+
+
+
+inference 101
+
+
+
+4.1 Normal approximations to the posterior distribution 101
+
+
+
+4.2 Large-sample theory 106
+
+
+
+4.3 Counterexamples to the theorems 108
+
+
+
+4.4 Frequency evaluations of Bayesian inferences 111
+
+
+
+4.5 Bibliographic note 113
+
+
+
+4.6 Exercises 113
+
+
+
+Part II: Fundamentals of Bayesian Data Analysis 115
+
+
+
+5 Hierarchical models 117
+
+
+
+5.1 Constructing a parameterized prior distribution 118
+
+
+
+5.2 Exchangeability and setting up hierarchical models 121
+
+
+
+5.3 Computation with hierarchical models 125
+
+
+
+5.4 Estimating an exchangeable set of parameters from a normal
+
+
+
+model 131
+
+
+
+5.5 Example: combining information from educational testing
+
+
+
+experiments in eight schools 138
+
+
+
+5.6 Hierarchical modeling applied to a meta-analysis 145
+
+
+
+5. 7 Bibliographic note 150
+
+
+
+5.8 Exercises 152
+
+
+
+6 Model checking and improvement 157
+
+
+
+6.1 The place of model checking in applied Bayesian statistics 157
+
+
+
+6.2 Do the inferences from the model make sense? 158
+
+
+
+6.3 Is the model consistent with data? Posterior predictive
+
+
+
+checking 159
+
+
+
+6.4 Graphical posterior predictive checks 165 
+
+
+
+CONTENTS
+
+
+
+6.5
+
+
+
+6.6
+
+
+
+6.7
+
+
+
+6.8
+
+
+
+6.9
+
+
+
+6.10
+
+
+
+Numerical posterior predictive checks
+
+
+
+Model expansion
+
+
+
+Model comparison
+
+
+
+Model checking for the educational testing example
+
+
+
+Bibliographic note
+
+
+
+Exercises
+
+
+
+ix
+
+
+
+172
+
+
+
+177
+
+
+
+179
+
+
+
+186
+
+
+
+190
+
+
+
+192
+
+
+
+7 Modeling accounting for data collection 197
+
+
+
+7.1 Introduction 197
+
+
+
+7.2 Formal models for data collection 200
+
+
+
+7.3 lgnorability 203
+
+
+
+7.4 Sample surveys 207
+
+
+
+7.5 Designed experiments 218
+
+
+
+7.6 Sensitivity and the role of randomization 223
+
+
+
+7. 7 Observational studies 226
+
+
+
+7.8 Censoring and truncation 231
+
+
+
+7. 9 Discussion 236
+
+
+
+7.10 Bibliographic note 237
+
+
+
+7.11 Exercises 239
+
+
+
+8 Connections and challenges 24 7
+
+
+
+8.1 Bayesian interpretations of other statistical methods 24 7
+
+
+
+8.2 Challenges in Bayesian data analysis 252
+
+
+
+8.3 Bibliographic note 255
+
+
+
+8.4 Exercises 255
+
+
+
+9 General advice 259
+
+
+
+9.1 Setting up probability models 259
+
+
+
+9.2 Posterior inference 264
+
+
+
+9.3 Model evaluation 265
+
+
+
+9.4 Summary 271
+
+
+
+9.5 Bibliographic note 271
+
+
+
+Part III: Advanced Computation 273
+
+
+
+10 Overview of computation 275
+
+
+
+10.1 Crude estimation by ignoring some information 276
+
+
+
+10.2 Use of posterior simulations in Bayesian data analysis 276
+
+
+
+10.3 Practical issues 278
+
+
+
+10.4 Exercises 282
+
+
+
+11 Posterior simulation 283
+
+
+
+11.1 Direct simulation 283
+
+
+
+11.2 Markov chain simulation 285
+
+
+
+11.3 The Gibbs sampler 287 
+
+
+
+X CONTENTS
+
+
+
+11.4 The Metropolis and Metropolis-Hastings algorithms 289
+
+
+
+11.5 Building Markov chain algorithms using the Gibbs sampler
+
+
+
+and Metropolis algorithm 292
+
+
+
+11.6 Inference and assessing convergence 294
+
+
+
+11.7 Example: the hierarchical normal model 299
+
+
+
+11.8 Efficient Gibbs samplers 302
+
+
+
+11.9 Efficient Metropolis jumping rules 305
+
+
+
+11.10 Recommended strategy for posterior simulation 307
+
+
+
+11.11 Bibliographic note 308
+
+
+
+11.12 Exercises 310
+
+
+
+12 Approximations based on posterior modes 311
+
+
+
+12.1 Finding posterior modes 312
+
+
+
+12.2 The normal and related mixture approximations 314
+
+
+
+12.3 Finding marginal posterior modes using EM and related
+
+
+
+algorithms 317
+
+
+
+12.4 Approximating conditional and marginal posterior densities 324
+
+
+
+12.5 Example: the hierarchical normal model (continued) 325
+
+
+
+12.6 Bibliographic note 331
+
+
+
+12.7 Exercises 332
+
+
+
+13 Special topics in computation 335
+
+
+
+13.1 Advanced techniques for Markov chain simulation 335
+
+
+
+13.2 Numerical integration 340
+
+
+
+13.3 Importance sampling 342
+
+
+
+13.4 Computing normalizing factors 345
+
+
+
+13.5 Bibliographic note 348
+
+
+
+13.6 Exercises 349
+
+
+
+Part IV: Regression Models 351
+
+
+
+14 Introduction to regression models 353
+
+
+
+14.1 Introduction and notation 353
+
+
+
+14.2 Bayesian analysis of the classical regression mode] 355
+
+
+
+14.3 Example: estimating the advantage of incumbency in U.S.
+
+
+
+Congressional elections 359
+
+
+
+14.4 Goals of regression analysis 367
+
+
+
+14.5 Assembling the matrix of explanatory variables 369
+
+
+
+14.6 Unequal variances and correlations 372
+
+
+
+14.7 Models for unequal variances 375
+
+
+
+14.8 Including prior information 382
+
+
+
+14.9 Bibliographic note 385
+
+
+
+14.10 Exercises 385 
+
+
+
+CONTENTS
+
+
+
+15 Hierarchical linear models
+
+
+
+15.1 Regression coefficients exchangeable in batches
+
+
+
+15.2 Example: forecasting U.S. Presidential elections
+
+
+
+15.3 General notation for hierarchical linear models
+
+
+
+xi
+
+
+
+389
+
+
+
+390
+
+
+
+392
+
+
+
+399
+
+
+
+15.4 Computation 400
+
+
+
+15.5 Hierarchical modeling as an alternative to 8electing predictors 405
+
+
+
+15.6 Analysis of variance 406
+
+
+
+15.7 Bibliographic note 411
+
+
+
+15.8 Exercises 412
+
+
+
+16 Generalized linear models 415
+
+
+
+16.1 Introduction 415
+
+
+
+16.2 Standard generalized linear model likelihoods 416
+
+
+
+16.3 Setting up and interpreting generalized linear models 418
+
+
+
+16.4 Computation 421
+
+
+
+16.5 Example: hierarchical Poisson regression for police stops 425
+
+
+
+16.6 Example: hierarchical logistic regression for political opinions 428
+
+
+
+16.7 Models for multinomial responses 430
+
+
+
+16.8 Loglinear models for multivariate discrete data 433
+
+
+
+16.9 Bibliographic note 439
+
+
+
+16.10 Exercises 440
+
+
+
+17 Models for robust inference 443
+
+
+
+17.1 Introduction 443
+
+
+
+17.2 Overdispersed versions of standard probability models 445
+
+
+
+17.3 Posterior inference and computation 448
+
+
+
+17.4 Robust inference and sensitivity analysis for the educational
+
+
+
+testing example 451
+
+
+
+17.5 Robust regression using Student-terrors 455
+
+
+
+17.6 Bibliographic note 457
+
+
+
+17.7 Exercises 458
+
+
+
+Part V: Specific Models and Problems 461
+
+
+
+18 Mixture models 463
+
+
+
+18.1 Introduction 463
+
+
+
+18.2 Setting up mixture models 463
+
+
+
+18.3 Computation 467
+
+
+
+18.4 Example: reaction times and schizophrenia 468
+
+
+
+18.5 Bibliographic note 4 79
+
+
+
+19 Multivariate models 481
+
+
+
+19.1 Linear regression with multiple outcomes 481
+
+
+
+19.2 Prior distributions for covariance matrices 483
+
+
+
+19.3 Hierarchical multivariate models 486 
+
+
+
+xii
+
+
+
+19.4 Multivariate models for nonnormal data
+
+
+
+19.5 Time series and spatial models
+
+
+
+19.6 Bibliographic note
+
+
+
+19.7 Exercises
+
+
+
+CONTENTS
+
+
+
+488
+
+
+
+491
+
+
+
+493
+
+
+
+494-
+
+
+
+20 Nonlinear models
+
+
+
+20.1 Introduction
+
+
+
+497
+
+
+
+497
+
+
+
+498
+
+
+
+504
+
+
+
+514
+
+
+
+515
+
+
+
+20.2 Example: serial dilution assay
+
+
+
+20.3 Example: population toxicokinetics
+
+
+
+20.4 Bibliographic note
+
+
+
+20.5 Exercises
+
+
+
+21 Models for missing data
+
+
+
+21.1 Notation
+
+
+
+21.2 Multiple imputation
+
+
+
+21.3 Missing data in the multivariate normal and t models
+
+
+
+21.4 Example: multiple imputation for a series of polls
+
+
+
+21.5 Missing values with counted data
+
+
+
+21.6 Example: an opinion poll in Slovenia
+
+
+
+21.7 Bibliographic note
+
+
+
+21.8 Exercises
+
+
+
+517
+
+
+
+517
+
+
+
+519
+
+
+
+523
+
+
+
+526
+
+
+
+533
+
+
+
+534
+
+
+
+539
+
+
+
+540
+
+
+
+22 Decision analysis 541
+
+
+
+22.1 Bayesian decision theory in different contexts 542
+
+
+
+22.2 Using regression predictions: incentives for telephone surveys 544
+
+
+
+22.3 Multistage decision making: medical screening 552
+
+
+
+22.4 Decision analysis using a hierarchical model: home radon
+
+
+
+measurement and remediation 555
+
+
+
+22.5 Personal vs. institutional decision analysis 567
+
+
+
+22.6 Bibliographic note 568
+
+
+
+22.7 Exercises 569
+
+
+
+Appendixes 571
+
+
+
+A Standard probability distributions 573
+
+
+
+A.1 Introduction 5 73
+
+
+
+A.2 Continuous distributions 573
+
+
+
+A.3 Discrete distributions ·582
+
+
+
+A.4 Bibliographic note 584
+
+
+
+B Outline of proofs of asymptotic theorems 585
+
+
+
+B.1 Bibliographic note 589
+
+
+
+C Example of computation in R and Bugs 591
+
+
+
+C.1 Getting started with R and Bugs 591 
+
+
+
+CONTENTS
+
+
+
+C.2 Fitting a hierarchical model in Bugs
+
+
+
+C.3 Options in the Bugs implementation
+
+
+
+C.4 Fitting a hierarchical model in R
+
+
+
+C.5 Further comments on computation
+
+
+
+C.6 Bibliographic note
+
+
+
+References
+
+
+
+Author index
+
+
+
+Subject index
+
+
+
+xiii
+
+
+
+592
+
+
+
+596
+
+
+
+600
+
+
+
+607
+
+
+
+608
+
+
+
+611
+
+
+
+647
+
+
+
+655 
+
+
+
+
+
+
+

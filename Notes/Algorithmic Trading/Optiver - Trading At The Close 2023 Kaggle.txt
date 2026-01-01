@@ -1,0 +1,7 @@
+My first idea was to read through everyone else's submissions as well as the introductions and guides from the nice Optiver team. One wonders if there is a simple linear or quadratic adjustment based around offset and volume going in to the auction period. Perhaps it is worth examining the time sequence immediately leading in to the auction or decaying time stamps somehow to generate a new metric of relevance.
+
+Try hundreds of lines and suggest auxiliary data sets which could maybe help. Observe LGBMs and go in for something different. Try to outperform generic submissions to snag Top 10% for Resume would look cool and fresh maybe discover something funny PRNG even. Consider correlations between assets ugh. Speculating on strategies which might perform well in contest but not be actionable or practisable in real life trading settings due to transaction fees, information flow times, etc. My final submission and notes can be found here:
+
+https://www.kaggle.com/lazarilic0
+
+2019|4436 is just OK for a kind of spammy submission off of a couple of hours of light analysis.

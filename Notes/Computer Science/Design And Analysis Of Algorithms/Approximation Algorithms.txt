@@ -1,0 +1,989 @@
+Table of Contents
+
+
+
+1 Introduction .............................................. 1
+
+
+
+1.1 Lower bounding OPT ................................... 2
+
+
+
+1.1.1 An approximation algorithm for cardinality vertex cover 3
+
+
+
+1.1.2 Can the approximation guarantee be improved? ...... 3
+
+
+
+1.2 Well-characterized problems and min–max relations......... 5
+
+
+
+1.3 Exercises .............................................. 7
+
+
+
+1.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+
+
+Part I. Combinatorial Algorithms
+
+
+
+2 Set Cover ................................................. 15
+
+
+
+2.1 The greedy algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+
+
+2.2 Layering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+
+
+2.3 Application to shortest superstring . . . . . . . . . . . . . . . . . . . . . . . 19
+
+
+
+2.4 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+
+
+
+2.5 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+
+
+
+3 Steiner Tree and TSP .................................... 27
+
+
+
+3.1 Metric Steiner tree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+
+
+
+3.1.1 MST-based algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+
+
+
+3.2 Metric TSP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+
+
+3.2.1 A simple factor 2 algorithm . . . . . . . . . . . . . . . . . . . . . . . . 31
+
+
+
+3.2.2 Improving the factor to 3/2 . . . . . . . . . . . . . . . . . . . . . . . . 32
+
+
+
+3.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+
+
+
+3.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+
+
+
+4 MultiwayCut and k-Cut ................................. 38
+
+
+
+4.1 The multiway cut problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+
+
+
+4.2 The minimum k-cut problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+
+
+
+4.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+
+
+
+4.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+
+
+
+XIV Table of Contents
+
+
+
+5 k-Center .................................................. 47
+
+
+
+5.1 Parametric pruning applied to metric k- center. . . . . . . . . . . . . . 47
+
+
+
+5.2 The weighted version . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+
+
+
+5.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+
+
+
+5.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+
+
+
+6 Feedback Vertex Set ...................................... 54
+
+
+
+6.1 Cyclomatic weighted graphs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+
+
+
+6.2 Layering applied to feedback vertex set . . . . . . . . . . . . . . . . . . . . 57
+
+
+
+6.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+
+
+
+6.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+
+
+
+7 Shortest Superstring ...................................... 61
+
+
+
+7.1 A factor 4 algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+
+
+
+7.2 Improving to factor 3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+
+
+
+7.2.1 Achieving half the optimal compression . . . . . . . . . . . . . 66
+
+
+
+7.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
+
+
+
+7.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+
+
+
+8 Knapsack ................................................. 68
+
+
+
+8.1 A pseudo-polynomial time algorithm for knapsack . . . . . . . . . . 69
+
+
+
+8.2 An FPTAS for knapsack . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69
+
+
+
+8.3 Strong NP-hardness and the existence of FPTAS’s . . . . . . . . . 71
+
+
+
+8.3.1 Is an FPTAS the most desirable approximation
+
+
+
+algorithm?. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72
+
+
+
+8.4 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72
+
+
+
+8.5 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+
+
+
+9 Bin Packing .............................................. 74
+
+
+
+9.1 An asymptotic PTAS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+
+
+
+9.2 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+
+
+
+9.3 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+
+
+
+10 Minimum Makespan Scheduling .......................... 79
+
+
+
+10.1 Factor 2 algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79
+
+
+
+10.2 A PTAS for minimum makespan . . . . . . . . . . . . . . . . . . . . . . . . . 80
+
+
+
+10.2.1 Bin packing with fixed number of object sizes . . . . . . . . 81
+
+
+
+10.2.2 Reducing makespan to restricted bin packing . . . . . . . . 81
+
+
+
+10.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+
+
+
+10.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+
+
+
+11 Euclidean TSP ........................................... 84
+
+
+
+11.1 The algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84
+
+
+
+11.2 Proof of correctness. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
+
+
+
+11.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 89
+
+
+
+11.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 89
+
+
+
+Table of Contents XV
+
+
+
+Part II. LP-Based Algorithms
+
+
+
+12 Introduction to LP-Duality ............................... 93
+
+
+
+12.1 The LP-duality theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93
+
+
+
+12.2 Min–max relations and LP-duality . . . . . . . . . . . . . . . . . . . . . . . . 97
+
+
+
+12.3 Two fundamental algorithm design techniques. . . . . . . . . . . . . . 100
+
+
+
+12.3.1 A comparison of the techniques and the notion of
+
+
+
+integrality gap . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101
+
+
+
+12.4 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+
+
+
+12.5 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+
+
+
+13 Set Cover via Dual Fitting ................................ 108
+
+
+
+13.1 Dual-fitting-based analysis for the greedy set cover algorithm 108
+
+
+
+13.1.1 Can the approximation guarantee be improved? . . . . . . 111
+
+
+
+13.2 Generalizations of set cover . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 112
+
+
+
+13.2.1 Dual fitting applied to constrained set multicover. . . . . 112
+
+
+
+13.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+
+
+
+13.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 118
+
+
+
+14 Rounding Applied to Set Cover ........................... 119
+
+
+
+14.1 A simple rounding algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 119
+
+
+
+14.2 Randomized rounding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+
+
+
+14.3 Half-integrality of vertex cover . . . . . . . . . . . . . . . . . . . . . . . . . . . 122
+
+
+
+14.4 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 123
+
+
+
+14.5 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 124
+
+
+
+15 Set Cover via the Primal–Dual Schema ................... 125
+
+
+
+15.1 Overview of the schema . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 125
+
+
+
+15.2 Primal–dual schema applied to set cover. . . . . . . . . . . . . . . . . . . 127
+
+
+
+15.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 129
+
+
+
+15.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 129
+
+
+
+16 Maximum Satisfiability ................................... 131
+
+
+
+16.1 Dealing with large clauses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 132
+
+
+
+16.2 Derandomizing via the method of conditional expectation . . . 132
+
+
+
+16.3 Dealing with small clauses via LP-rounding . . . . . . . . . . . . . . . . 134
+
+
+
+16.4 A 3/4 factor algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136
+
+
+
+16.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 137
+
+
+
+16.6 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 139
+
+
+
+17 Scheduling on Unrelated Parallel Machines ............... 140
+
+
+
+17.1 Parametric pruning in an LP setting . . . . . . . . . . . . . . . . . . . . . . 140
+
+
+
+17.2 Properties of extreme point solutions. . . . . . . . . . . . . . . . . . . . . . 141
+
+
+
+17.3 The algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 142
+
+
+
+XVI Table of Contents
+
+
+
+17.4 Additional properties of extreme point solutions . . . . . . . . . . . . 143
+
+
+
+17.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 144
+
+
+
+17.6 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 145
+
+
+
+18 Multicut and Integer MulticommodityFlow in Trees ..... 146
+
+
+
+18.1 The problems and their LP-relaxations . . . . . . . . . . . . . . . . . . . . 146
+
+
+
+18.2 Primal–dual schema based algorithm . . . . . . . . . . . . . . . . . . . . . . 149
+
+
+
+18.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 152
+
+
+
+18.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 154
+
+
+
+19 MultiwayCut ............................................ 155
+
+
+
+19.1 An interesting LP-relaxation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 155
+
+
+
+19.2 Randomized rounding algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . 157
+
+
+
+19.3 Half-integrality of node multiway cut . . . . . . . . . . . . . . . . . . . . . 160
+
+
+
+19.4 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 163
+
+
+
+19.5 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 167
+
+
+
+20 Multicut in General Graphs .............................. 168
+
+
+
+20.1 Sum multicommodity flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 168
+
+
+
+20.2 LP-rounding-based algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . 170
+
+
+
+20.2.1 Growing a region: the continuous process . . . . . . . . . . . . 171
+
+
+
+20.2.2 The discrete process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 172
+
+
+
+20.2.3 Finding successive regions . . . . . . . . . . . . . . . . . . . . . . . . . 173
+
+
+
+20.3 A tight example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 175
+
+
+
+20.4 Some applications of multicut . . . . . . . . . . . . . . . . . . . . . . . . . . . . 176
+
+
+
+20.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 177
+
+
+
+20.6 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 179
+
+
+
+21 Sparsest Cut .............................................. 180
+
+
+
+21.1 Demands multicommodity flow . . . . . . . . . . . . . . . . . . . . . . . . . . . 180
+
+
+
+21.2 Linear programming formulation . . . . . . . . . . . . . . . . . . . . . . . . . 181
+
+
+
+21.3 Metrics, cut packings, and 1-embeddability. . . . . . . . . . . . . . . . 183
+
+
+
+21.3.1 Cut packings for metrics . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+
+
+
+21.3.2 1-embeddability of metrics . . . . . . . . . . . . . . . . . . . . . . . . 185
+
+
+
+21.4 Low distortion 1-embeddings for metrics . . . . . . . . . . . . . . . . . . 186
+
+
+
+21.4.1 Ensuring that a single edge is not overshrunk . . . . . . . . 187
+
+
+
+21.4.2 Ensuring that no edge is overshrunk . . . . . . . . . . . . . . . . 190
+
+
+
+21.5 LP-rounding-based algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . 191
+
+
+
+21.6 Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 192
+
+
+
+21.6.1 Edge expansion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 192
+
+
+
+21.6.2 Conductance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 192
+
+
+
+21.6.3 Balanced cut . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 193
+
+
+
+21.6.4 Minimum cut linear arrangement . . . . . . . . . . . . . . . . . . . 194
+
+
+
+21.7 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 195
+
+
+
+21.8 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 197
+
+
+
+Table of Contents XVII
+
+
+
+22 Steiner Forest ............................................ 198
+
+
+
+22.1 LP-relaxation and dual . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 198
+
+
+
+22.2 Primal–dual schema with synchronization . . . . . . . . . . . . . . . . . 199
+
+
+
+22.3 Analysis. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 204
+
+
+
+22.4 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 207
+
+
+
+22.5 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 212
+
+
+
+23 Steiner Network .......................................... 213
+
+
+
+23.1 The LP-relaxation and half-integrality . . . . . . . . . . . . . . . . . . . . 213
+
+
+
+23.2 The technique of iterated rounding . . . . . . . . . . . . . . . . . . . . . . . 217
+
+
+
+23.3 Characterizing extreme point solutions . . . . . . . . . . . . . . . . . . . . 219
+
+
+
+23.4 A counting argument . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 221
+
+
+
+23.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 224
+
+
+
+23.6 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 231
+
+
+
+24 FacilityLocation .......................................... 232
+
+
+
+24.1 An intuitive understanding of the dual . . . . . . . . . . . . . . . . . . . . 233
+
+
+
+24.2 Relaxing primal complementary slackness conditions . . . . . . . . 234
+
+
+
+24.3 Primal–dual schema based algorithm . . . . . . . . . . . . . . . . . . . . . . 235
+
+
+
+24.4 Analysis. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 236
+
+
+
+24.4.1 Running time . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 238
+
+
+
+24.4.2 Tight example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 238
+
+
+
+24.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 239
+
+
+
+24.6 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 242
+
+
+
+25 k-Median ................................................. 243
+
+
+
+25.1 LP-relaxation and dual . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 243
+
+
+
+25.2 The high-level idea . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 244
+
+
+
+25.3 Randomized rounding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 247
+
+
+
+25.3.1 Derandomization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 248
+
+
+
+25.3.2 Running time . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 249
+
+
+
+25.3.3 Tight example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 249
+
+
+
+25.3.4 Integrality gap . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 250
+
+
+
+25.4 A Lagrangian relaxation technique
+
+
+
+for approximation algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . . 250
+
+
+
+25.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 251
+
+
+
+25.6 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 254
+
+
+
+26 Semidefinite Programming ................................ 255
+
+
+
+26.1 Strict quadratic programs and vector programs. . . . . . . . . . . . . 255
+
+
+
+26.2 Properties of positive semidefinite matrices . . . . . . . . . . . . . . . . 257
+
+
+
+26.3 The semidefinite programming problem . . . . . . . . . . . . . . . . . . . 258
+
+
+
+26.4 Randomized rounding algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . 260
+
+
+
+26.5 Improving the guarantee for MAX-2SAT . . . . . . . . . . . . . . . . . . 263
+
+
+
+26.6 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 265
+
+
+
+26.7 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 268
+
+
+
+XVIII Table of Contents
+
+
+
+Part III. Other Topics
+
+
+
+27 Shortest Vector ........................................... 273
+
+
+
+27.1 Bases, determinants, and orthogonality defect . . . . . . . . . . . . . . 274
+
+
+
+27.2 The algorithms of Euclid and Gauss . . . . . . . . . . . . . . . . . . . . . . 276
+
+
+
+27.3 Lower bounding OPT using Gram–Schmidt orthogonalization 278
+
+
+
+27.4 Extension to n dimensions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 280
+
+
+
+27.5 The dual lattice and its algorithmic use . . . . . . . . . . . . . . . . . . . 284
+
+
+
+27.6 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 288
+
+
+
+27.7 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 292
+
+
+
+28 Counting Problems ....................................... 294
+
+
+
+28.1 Counting DNF solutions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 295
+
+
+
+28.2 Network reliability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 297
+
+
+
+28.2.1 Upperbounding the number of near-minimum cuts. . . . 298
+
+
+
+28.2.2 Analysis. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 300
+
+
+
+28.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 302
+
+
+
+28.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 305
+
+
+
+29 Hardness of Approximation ............................... 306
+
+
+
+29.1 Reductions, gaps, and hardness factors . . . . . . . . . . . . . . . . . . . . 306
+
+
+
+29.2 The PCP theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 309
+
+
+
+29.3 Hardness of MAX-3SAT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 311
+
+
+
+29.4 Hardness of MAX-3SAT with bounded occurrence
+
+
+
+of variables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 313
+
+
+
+29.5 Hardness of vertex cover and Steiner tree . . . . . . . . . . . . . . . . . . 316
+
+
+
+29.6 Hardness of clique . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 318
+
+
+
+29.7 Hardness of set cover . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 322
+
+
+
+29.7.1 The two-prover one-round characterization of NP . . . . 322
+
+
+
+29.7.2 The gadget . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 324
+
+
+
+29.7.3 Reducing error probability by parallel repetition. . . . . . 325
+
+
+
+29.7.4 The reduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 326
+
+
+
+29.8 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 329
+
+
+
+29.9 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 332
+
+
+
+30 Open Problems ........................................... 334
+
+
+
+30.1 Problems having constant factor algorithms . . . . . . . . . . . . . . . . 334
+
+
+
+30.2 Other optimization problems. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 336
+
+
+
+30.3 Counting problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 338
+
+
+
+Table of Contents XIX
+
+
+
+Appendix
+
+
+
+A An Overview of ComplexityTheory
+
+
+
+for the Algorithm Designer ............................... 343
+
+
+
+A.1 Certificates and the class NP . . . . . . . . . . . . . . . . . . . . . . . . . . . . 343
+
+
+
+A.2 Reductions and NP-completeness . . . . . . . . . . . . . . . . . . . . . . . . 344
+
+
+
+A.3 NP-optimization problems and approximation algorithms . . . 345
+
+
+
+A.3.1 Approximation factor preserving reductions . . . . . . . . . . 347
+
+
+
+A.4 Randomized complexity classes. . . . . . . . . . . . . . . . . . . . . . . . . . . 347
+
+
+
+A.5 Self-reducibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 348
+
+
+
+A.6 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 351
+
+
+
+B Basic Facts from ProbabilityTheory ...................... 352
+
+
+
+B.1 Expectation and moments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 352
+
+
+
+B.2 Deviations from the mean . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 353
+
+
+
+B.3 Basic distributions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 354
+
+
+
+B.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 354
+
+
+
+References .................................................... 355
+
+
+
+Problem Index ............................................... 371
+
+
+
+Subject Index ................................................ 375

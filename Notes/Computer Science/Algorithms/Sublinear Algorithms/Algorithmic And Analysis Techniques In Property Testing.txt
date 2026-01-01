@@ -1,0 +1,194 @@
+Algorithmic And Analysis Techniques In Property Testing
+
+By Dana Ron
+
+1 Introduction 75
+
+
+
+1.1 Settings In Which Property Testing Is Beneficial 76
+
+
+
+1.2 A Brief Overview 78
+
+
+
+1.3 Property Testing And "Classical" Approximation 80
+
+
+
+1.4 Property Testing And Learning 81
+
+
+
+1.5 Organization Of This Survey 82
+
+
+
+1.6 Related Surveys 83
+
+
+
+2 Preliminaries 84
+
+
+
+2.1 Basic Definitions And Notations 84
+
+
+
+2.2 Testing Graph Properties 86
+
+
+
+3 The Self-Correcting Approach 89
+
+
+
+3.1 Linearity 90
+
+
+
+3.2 Low-Degree Polynomials 96
+
+
+
+3.3 Implications Of Self-Correction 99
+
+
+
+4 The Enforce-And-Test Approach 109
+
+
+
+4.1 Testing Whether A Graph Is A Biclique 109
+
+
+
+4.2 Testing Bipartiteness In The Dense-Graphs Model 111
+
+
+
+4.3 Other Applications Of The Enforce-And-Test Approach 119
+
+
+
+5 Testing By Implicit Learning 121
+
+
+
+5.1 A Building Block: Testing Juntas 122
+
+
+
+5.2 The Algorithm For Testing By Implicit Learning 129
+
+
+
+6 The Regularity Lemma 135
+
+
+
+6.1 Background 135
+
+
+
+6.2 Statement Of The Lemma 136
+
+
+
+6.3 Testing Triangle-Freeness 137
+
+
+
+7 Local-Search Algorithms 141
+
+
+
+7.1 Connectivity 142
+
+
+
+7.2 k-Edge Connectivity 146
+
+
+
+7.3 k-Vertex Connectivity 150
+
+
+
+7.4 Minor-Closed Properties 150
+
+
+
+7.5 Other Local-Search Algorithms 152
+
+
+
+8 Random Walks Algorithms 154
+
+
+
+8.1 Testing Bipartiteness In Bounded-Degree Graphs 154
+
+
+
+8.2 Testing Expansion 159
+
+
+
+9 Lower Bounds 161
+
+
+
+9.1 A Lower Bound For Testing Triangle-Freeness 161
+
+
+
+9.2 A Lower Bound For Testing Bipartiteness Of Constant Degree Graphs 166
+
+
+
+10 Other Results 170
+
+
+
+10.1 Testing Monotonicity 170
+
+
+
+10.2 Testing In The General-Graphs Model 178
+
+
+
+10.3 Testing Membership In Regular Languages And Other Languages 180
+
+
+
+11 Extensions, Generalisations, And Related Problems 183
+
+
+
+11.1 Distribution-Free Testing 183
+
+
+
+11.2 Testing In The Orientation Model 184
+
+
+
+11.3 Tolerant Testing And Distance Approximation 186
+
+
+
+11.4 Testing And Estimating Properties Of Distributions 187
+
+
+
+Acknowledgments 196
+
+
+
+References 197
+

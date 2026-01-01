@@ -1,0 +1,322 @@
+  CS 598CM FALL 2023  
+Home
+News
+Overview
+Schedule
+Project Details
+Resources
+Machine Learning for Compilers and Architecture
+Fall 2023
+Compilers are the workhorse that bridge the gap between human-readable and machine executable code that executes on a given hardware platform. They gradually lower code written using high-level programming languages to hardware assembly instructions while performing a wide array of optimizations including loop transformations, parallelization and vectorization etc. In doing so, compilers usually face mutually-exclusive optimization choices with differing profitability characteristics. Traditionally, compilers use heuristic algorithms based on simple profitability metrics to make such decisions. However, as of late, computing platforms and workloads have increasingly become more complex and diverse making optimization decision making inside compilers increasingly challenging. On the other hand, designing the next generation computing architectures targeting newer workloads such as deep neural networks has also become a challenging task.
+
+In this course, we will explore how machine learning is helping both compiler engineers and computer architects design newer and more scalable design techniques to better adapt to newer workloads and computing needs. In particular, we will discuss new trends in compiler auto-tunning, domain specific optimizations and in constructing data-driven cost models. We will also discuss how computer architects are using machine learning to design state-of-the-art hardware platforms. In particular, we will cover topics such as domain specific architecture designs, scalable design space exploration techniques and data-driven simulations. After completing the course you should be able to appreciate the new trends of using data-driven techniques in both compiler and architecture design and should be prepared to do your own research in these areas.
+
+All lectures and discussions will be in person unless otherwise noted. 
+
+ Lectures:
+ Tuesday/Thursday
+ 9.30am-10:45pm
+ 1043 Sidney Lu Mech Engr Bldg
+
+ Instructor:
+ Charith Mendis
+ Assistant Professor
+ Computer Science, UIUC
+ 4118 Siebel Center  charithm@illinois.edu
+
+ TA:
+ Stefanos Baziotis
+ PhD Student
+ Computer Science, UIUC
+ 4111 Siebel Center  sb54@illinois.edu
+
+ Office Hours:
+ By appointment, both with
+ Charith and Stefanos
+ Location:
+    Charith: 4118 Siebel Center
+    Stefanos: Agreed via email
+ 
+
+News
+08/17: Paper review website is up!
+08/17: You can find useful resources including tutorials in the resources section.
+08/17:  You will receive a Campuswire invitation. We will be using Campuswire for paper discussions, logistics and any questions related to the course. You should
+08/17: Class Website is up!
+ 
+
+Overview
+The class is conducted in a seminar format. The first set of classes will mainly be lectures aimed at introducing core concepts and techniques that will be useful in understanding state-of-the-art research in this area. After that the class will transition into reading papers, paper presentations, online discussions and a final class project. For Fall 2023, we are planning on meeting in person. Submission links and other infrastructure will be announced in subsequent lectures and will be posted here in advance.
+
+Following is a tentative grading rubric we are going to use.
+
+Activity	Grade	Details
+Paper Reviews and Discussion	20%	
+A short summary and review of the paper (250-750 words). Use the HotCRP website to submit your reviews.
+Submission deadlines are on midnight on Sundays (for Tuesday papers) and Tuesdays (for Thursday papers).
+Participate in paper discussions in the class.
+Discuss the paper in the Campuswire online forum.
+You will only be graded for the top 10 paper reviews you submit. The least scoring 10 paper grades will be dropped. This essentially means that you can skip 10 paper reviews without any penalty.
+Presentation and Discussion Lead	50%	
+Schedule a meeting with the instructor a week before your presentation slot.
+Submit the final version of the slides using this form. Slides are due when paper reviews are due for that paper. The presentation should be 20min long.
+You are required to lead in-class discussions for the paper for the first 20min after the presentation mainly answering questions from the class.
+Project	30%	
+We will be using the TpuGraphs dataset to learn a cost model for tiling. The project document can be found here.
+75% of the grade is based on the final cost model performance.
+25% of the grade is based on the final project presentations that will be held on 12/05.
+Please submit project deliverables as well as the final presentation using this form. The form is editable multiple times.
+The deadline for the project deliverables is on 11/30 at 11.59pm. 
+The deadline for the project presentations is on 12/04 at 11.59pm.
+ 
+
+Tentative Schedule  
+We will first discuss the core concepts behind compiler construction and computer organization. We will go into details about optimization and design decisions compiler engineers and computer architects face. Next, we will discuss core Machine Learning concepts that are needed to understand research done in this area. We will cover black-box optimizations, neural network and basics of sequential decision making. We will use this knowledge to read latest research papers that are published in this area covering compiler auto-tuning, cost models, domain specific optimizations, design space exploration for domain specific architectures and data-driven simulation etc. 
+Date	Topic	Presenter	Notes
+8/22	
+Introduction
+Introduction to compilers, architecture and logistics
+
+Charith
+Slides	Todo: Class Statistics Survey
+8/24	
+Compilers
+Quick overview of Compiler Construction + Optimizations
+
+Charith
+Slides	
+8/29	
+Compiler Optimizations
+Anatomy of a Compiler Optimization Pass, DSLs, Domain Specific Optimizations
+
+Charith
+Slides	
+8/31	
+DSLs + ML in Architecture
+Continuation of discussion on DSLs and examples of ML in architecture
+
+Charith
+Slides	
+Background Reading: A Survey of Machine Learning for Computer Architecture and Systems
+
+Todo: Paper Selection Form (Due: Aug. 31st)
+
+9/05	
+Machine Learning Techniques
+Quick overview of ML techniques: Neural Networks
+
+Charith
+Slides	
+9/07	
+Machine Learning Techniques (Contd.) and Auto-tuning
+Quick Overview of ML techniques: Genetic Algorithms, Simulated Annealing, Sequential Decision Making; Introduction to Auto-tuning
+
+Charith
+Slides	
+Background Reading: 
+A Survey on Compiler Autotuning using Machine Learning (ACM CSUR 2018)
+A taxonomy of ML for Systems Problems(IEEE Micro Sept/Oct 2020)
+
+9/12	
+Autotuning: Empirical Autotuning
+Main Reading: Automatically Tuned Linear Algebra Software (SC 1998)
+
+Devansh	
+Related Reading: 
+ A Fast Fourier Transform Compiler (PLDI 1999)s
+Fast Automatic Generation of DSP Algorithms (ICCS 2001)
+The Design and Implementation of FFTW3 (IEEE 2005)
+
+9/14	
+Autotuning: Languages for exposing choices
+Main Reading: Petabricks: A Language and Compiler for Algorithmic Choice (PLDI 2009)
+
+Muyan	
+Related Reading: 
+A framework for adaptive algorithm selection in STAPL (PPoPP 2005)
+Halide: A language and compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines (PLDI 2013) A Flexible Approach to Autotuning Multi-Pass Machine Learning Compilers (PACT 2021)
+
+9/19	
+Autotuning: Techniques
+Main Reading: Bliss: Auto-tuning Complex Applications using a Pool of Diverse Lightweight Learning Models (PLDI 2021)
+
+Chamika	
+Related Reading: 
+Learning to Generate Fast Signal Processing Implementations (ICML 2001)
+Towards Better Understanding of Black-box Auto-tuning: A Comparative Analysis for Storage Systems (ATC 2018) - A systems paper with a good overview of techniques
+
+9/21	
+Autotuning: Frameworks
+Main Reading: CompilerGym: Robust, Performant Compiler Optimization Environments for AI Research (CGO 2022)
+
+Jai	
+Related Reading: 
+AutoTVM: Learning to Optimize Tensor Programs (NeurIPS 2018) OpenTuner: An extensible framework for Program Autotuning (PACT 2014)
+
+9/26	
+Autotuning: Scaling Up
+Main Reading: GPTuneBand: Multi-task and Multi-fidelity Autotuning for Large-scale High Performance Computing Applications (SIAM 2022)
+
+Ben	Related Reading: 
+Portable Performance on Heterogeneous Architectures (ASPLOS 2013)
+9/28	
+Autotuning: Diverging Workloads
+Main Reading: WACO: Learning Workload-Aware Co-optimization of the Format and Schedule of a Sparse Tensor Program (ASPLOS 2023)
+
+Devansh	Related Reading: 
+Autotuning Algorithmic Choice for Input Sensitivity (PLDI 2015)
+
+WISE: Predicting the Performance of Sparse Matrix Vector Multiplication with Machine Learning (PPoPP 2023)
+
+10/03	
+Autotuning: Increasing Efficiency
+Main Reading: AdaTune: Adaptive Tensor Program Compilation Made Efficient (NeurIPS 2020)
+
+Yuhao	Related Reading: 
+SRTuner: effective compiler optimization customization by exposing synergistic relations (CGO 2022)
+10/05	
+No Class (Funding Review)
+10/10	
+Data-driven Cost Models: Part 1
+Main Reading: TLP: A Deep Learning-Based Cost Model for Tensor Program Tuning (ASPLOS 2023)
+
+Jun, Wyatt	Related Reading: 
+Learning execution through neural code fusion (ICLR 2020)
+10/12	
+Data-driven Cost Models: Part 2
+Main Reading: A Learned Performance Model for Tensor Processing Units (MLSys 2021)
+
+Noelle	Related Reading: 
+A Deep Learning based cost model for automatic code optimization (MLSys 2021)
+10/17	
+Program Embeddings: Part 1
+Main Reading: CodeBERT: A Pre-Trained Model for Programming and Natural Languages (EMNLP 2020)
+
+Muyan	
+Related Reading: 
+Blended, precise semantic program embeddings (PLDI 2020)
+
+Learning and Evaluating Contextual Embedding of Source Code (ICML 2020)
+
+10/19	
+Program Embeddings: Part 2
+Main Reading: ProGraML: A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations (ICML 2021)
+
+Jun	Related Reading: 
+IR2Vec: LLVM IR Based Scalable Program Embeddings (TACO 2020)
+10/24	
+Learned Optimizations: Traditional Compiler Optimizations 1
+Main Reading: Compiler Auto-Vectorization with Imitation Learning (NeurIPS 2019)
+
+Vir	
+Related Reading: 
+NeuroVectorizer: End-to-end Vectorization with Deep Reinforcement Learning (CGO 2020)
+Meta Optimization: improving compiler heuristics (PLDI 2003)
+
+10/26	
+Learned Optimizations: Traditional Compiler Optimizations 2
+Main Reading: End-to-end Deep Learning of Optimization Heuristics (PACT 2017)
+
+Wyatt, Sanjana	Related Reading: 
+AutoPhase: Juggling HLS Phase Orderings in Random Forests with Deep Reinforcement Learning (MLSys 2020)
+10/31	
+Learned Optimizations: DSLs Part 1
+Main Reading: Learning to Optimize Halide with Tree Search and Random Programs (SIGGRAPH 2019)
+
+Vir	Related Reading: 
+Value Learning for Throughput Optimization of Deep Neural Networks (MLSys 2021)
+11/02	
+Learned Optimizations: DSLs Part 2
+Main Reading: Ansor: Generating High-Performance Tensor Programs for Deep Learning (OSDI 2020)
+
+Chamika	Related Reading: 
+The case for learned index structures (SIGMOD 2018) - databases
+11/07	
+Learned Optimizations: Tensor Programs
+Main Reading: Device Placement Optimization with reinforcement learning (ICML 2017)
+
+Sanjana, Jai	Related Reading: 
+Transferable Graph Optimizers for ML Compilers (NeurIPS 2020)
+11/09	
+No Class
+11/14	
+Architecture Design Space Exploration: Part 1
+Main Reading: HyperMapper: a Practical Design Space Exploration Framework (MASCOTS 2019)
+
+Chase, Yuhao	Related Reading: 
+A Full-stack Accelerator Search Technique for Vision Applications Mind Mappings: Enabling Efficient Algorithm-Accelerator Mapping Space Search (ASPLOS 2021)
+11/16	
+Architecture Design Space Exploration: Part 2
+Main Reading: A graph placement methodology for fast chip design (Nature 2021)
+
+Ben	
+Related Reading: 
+Pythia: A Customizable Hardware Prefetching Framework Using Online Reinforcement Learning (MICRO 2021)
+
+Cohmeleon: Learning-Based Orchestration of Accelerator Coherence in Heterogeneous SoCs (MICRO 2021)
+
+11/21	
+Break
+11/23	
+Break
+11/28	
+Learned Architecture Simulation
+Main Reading: DiffTune: Optimizing CPU Simulator Parameters with Learned Differentiable Surrogates (MICRO 2020)
+
+Noelle	Related Reading: 
+SimNet: Computer Architecture Simulation using Machine Learning
+11/30	
+Learned Systems: Caches
+Main Reading: Applying Deep Learning to the Cache Replacement Problem (MICRO 2019)
+
+Chase	
+Related Reading: 
+Learning Memory Access Patterns (ICML 2018)
+Applying Deep Learning to the Cache Replacement Problem (MICRO 2019)
+
+12/05	
+Student Presentations
+ 
+
+Project Details
+We will be using the TpuGraphs dataset released recently to learn a cost model for tiling. Your task is to come up with a neural network model topology that can perform well compared to the included baselines. The project document can be found here.
+
+An associated Kaggle competition can be found here. We will be using the scoring method used by the Kaggle competition. Note that the competition requires you to submit your results for both tiling size selection and layout tasks. Therefore, the scores will be lower since we are only performing tile size selection task as part of this project. We encourage you to try out layout task as well and enter the competition officially to win the cool prizes listed there. 
+
+Details on grading and project submissions can be found in the overview section.
+
+Resources
+Academic Conferences and Workshops
+MLArchSys Workshop (co-located with ISCA and NeurIPS)
+MLSys Conference
+MAPS 2022 (co-located with PLDI)
+Tutorials
+Compiler infrastructure
+LLVM Kaleidoscope tutorial
+Adrian Sampson's blog post (bit old; the flow is the same, but programming constructs have changed)
+Life of an LLVM instruction
+Neural network infrastructure
+Neural Networks and Deep Learning free online book by Michael Nielson
+Tensorflow tutorial with keras API
+Pytorch tutorials
+Tools
+Compiler infrastructures / frameworks
+LLVM
+MLIR
+Tensorflow / XLA
+Pytorch
+Halide
+TVM
+Auto-tuners and cost models
+OpenTuner
+Ithemal
+Graph Neural Network libraries
+Graph Nets
+DGL
+PyG
+Reinforcement Learning
+OpenAI Gym
+RLlib
+Text Books
+Alfred Aho, Monica Lam, Ravi Sethi and Jeffrey Ullman, "Compilers: Principles, Techniques, and Tools (2nd edition)"
+Ian Goodfellow, Yoshua Bengio and Aaron Courville, "Deep Learning", MIT Press (website)

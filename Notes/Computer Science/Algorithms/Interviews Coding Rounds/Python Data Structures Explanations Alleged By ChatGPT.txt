@@ -1,0 +1,351 @@
+Python provides several built-in data structures, each implemented efficiently using underlying C constructs. Here's a look at how the most common data structures are implemented under the hood:
+
+---
+
+### **1. Lists (`list`)**
+- **Implementation:** Python lists are implemented as **dynamic arrays** (similar to C arrays but dynamically resizable).
+- **Memory Allocation:** Lists allocate extra memory (over-allocation) to accommodate future growth and minimize costly reallocations.
+- **Time Complexity:**
+  - Indexing: \( O(1) \) (direct pointer access)
+  - Append: \( O(1) \) amortized (due to occasional resizing)
+  - Insert/Delete: \( O(n) \) (shifting elements)
+  - Iteration: \( O(n) \)
+
+---
+
+### **2. Tuples (`tuple`)**
+- **Implementation:** Tuples are immutable sequences stored as contiguous arrays.
+- **Memory Efficiency:** Since tuples are immutable, Python optimizes their storage by avoiding over-allocation.
+- **Time Complexity:**
+  - Indexing: \( O(1) \)
+  - Iteration: \( O(n) \)
+
+---
+
+### **3. Sets (`set`)**
+- **Implementation:** Python sets are implemented using **hash tables** (similar to dictionaries but with only keys).
+- **Collision Resolution:** Uses **open addressing with probing**.
+- **Time Complexity:**
+  - Add/Remove/Check Membership: \( O(1) \) average, \( O(n) \) worst-case (due to hash collisions)
+  - Iteration: \( O(n) \)
+
+---
+
+### **4. Dictionaries (`dict`)**
+- **Implementation:** Implemented as a **hash table** with **open addressing** and **perturbation probing** for collision resolution.
+- **Efficiency:** Python dictionaries maintain insertion order (since Python 3.7+).
+- **Time Complexity:**
+  - Lookup/Insert/Delete: \( O(1) \) average, \( O(n) \) worst-case
+  - Iteration: \( O(n) \)
+
+---
+
+### **5. Strings (`str`)**
+- **Implementation:** Implemented as **immutable arrays** of Unicode characters.
+- **Optimizations:**
+  - Uses **interning** for short strings (saves memory by storing only one copy).
+  - Supports **copy-on-write** for substring operations.
+- **Time Complexity:**
+  - Indexing: \( O(1) \)
+  - Concatenation: \( O(n) \) (due to new allocation)
+  - Slicing: \( O(k) \) where \( k \) is the slice size
+
+---
+
+### **6. Linked Lists (`collections.deque`)**
+- **Implementation:** Uses a **doubly linked list** internally.
+- **Benefits:** Efficient \( O(1) \) insertions/removals from both ends.
+- **Time Complexity:**
+  - Append/Pop (both ends): \( O(1) \)
+  - Random Access: \( O(n) \)
+
+---
+
+Would you like me to dive deeper into any of these implementations? 🚀
+
+----------
+
+### **Python Dictionary (`dict`) - A Deep Dive**
+A **dictionary** in Python is a **hash table** that provides fast key-value lookups. Under the hood, it’s implemented using a **hash table with open addressing** and **perturbation probing** for efficient collision resolution. Let's break it all down.
+
+---
+
+## **1. How is a Dictionary Stored?**
+A Python dictionary is essentially a **resizable array of key-value pairs**. Each entry (or "bucket") in the array can store:  
+- A **key** (must be hashable)
+- A **value** (can be anything)
+- A **hash value** (precomputed to speed up lookups)
+
+✅ Python dictionaries **preserve insertion order** (since Python 3.7).
+
+---
+
+## **2. How Does a Dictionary Lookup Work?**
+When you do something like:
+```python
+my_dict = {"apple": 5, "banana": 8, "cherry": 12}
+print(my_dict["banana"])  # Output: 8
+```
+This happens under the hood:
+
+1. **Compute the hash** of `"banana"` using Python’s built-in `hash()` function.
+   ```python
+   hash("banana")  # Generates an integer hash
+   ```
+2. **Find the bucket** where `"banana"` should be stored in the dictionary’s internal array.
+   - The hash value is **modulo-ed** (`hash % array_size`) to determine the index.
+3. **Check if the key exists** at that index.
+   - If the bucket contains `"banana"`, return its value `8`.
+   - If there's a different key in that bucket (a **collision**), Python probes other positions using **perturbation probing** (a special mix of linear and quadratic probing).
+   
+🚀 **Time Complexity: \( O(1) \) on average** for lookups.
+
+---
+
+## **3. Collision Handling (Open Addressing)**
+Because dictionaries rely on **hashing**, two keys may have the **same hash index** (collision). Python resolves this using **open addressing**, meaning:
+- Instead of storing a **linked list** in the bucket (like Java's `HashMap`), Python **searches for the next free slot** using a special probing technique.
+
+**Example:**
+```python
+my_dict = {}
+my_dict["abc"] = 1
+my_dict["xyz"] = 2  # This could collide with "abc"
+```
+If `"xyz"` maps to the same index as `"abc"`, Python looks for the **next available slot**.
+
+✅ **Advantage**: No need for linked lists, making dictionary lookups and insertions faster.
+
+---
+
+## **4. Dictionary Resizing**
+Python dictionaries start small but **grow dynamically** when they get too full.
+
+### **How Resizing Works**
+- If the dictionary is **at least 2/3 full**, Python resizes it.
+- The size increases to **the next power of 2** (approximately **double** the current size).
+- **All keys are rehashed and redistributed** into the new larger table.
+
+🔴 **Downside**: Resizing can be slow since all existing keys must be rehashed.
+
+---
+
+## **5. Iterating Over a Dictionary**
+```python
+my_dict = {"apple": 5, "banana": 8, "cherry": 12}
+
+for key, value in my_dict.items():
+    print(key, value)
+```
+- Python **iterates over the internal storage order** (insertion order since Python 3.7).
+- Time Complexity: **\( O(n) \)**
+
+---
+
+## **6. Deleting Elements**
+When you delete a key:
+```python
+del my_dict["banana"]
+```
+- Python **marks the slot as deleted** instead of shifting elements.
+- Later, these deleted slots get reused.
+
+---
+
+## **7. Dictionary Performance Summary**
+| Operation    | Average Time Complexity | Worst-case Time Complexity |
+|-------------|----------------------|----------------------|
+| Lookup (`dict[key]`)  | \( O(1) \)  | \( O(n) \) (rare collisions) |
+| Insertion (`dict[key] = value`) | \( O(1) \) | \( O(n) \) (rare rehashing) |
+| Deletion (`del dict[key]`) | \( O(1) \) | \( O(n) \) |
+| Iteration (`for key in dict`) | \( O(n) \) | \( O(n) \) |
+
+🔹 **Why is the worst case \( O(n) \)?**
+- If all keys collide into the same bucket (due to a bad hash function), Python has to scan the whole dictionary to find the key.
+- This is extremely rare because Python’s hash function is well-designed.
+
+---
+
+## **8. Optimizations in Python 3.6+**
+- **Compact Dictionaries**: Instead of a large array with lots of empty space, Python 3.6+ **stores dictionary elements in a smaller secondary array**.
+- **Insertion Order Preservation**: Since Python 3.7, dictionaries **remember the order keys were inserted**.
+
+---
+
+## **9. Example of How a Dictionary Works Under the Hood**
+```python
+class SimpleDict:
+    def __init__(self, size=8):
+        self.size = size
+        self.keys = [None] * size
+        self.values = [None] * size
+    
+    def _hash(self, key):
+        return hash(key) % self.size  # Simple modulo-based hash
+
+    def insert(self, key, value):
+        index = self._hash(key)
+        while self.keys[index] is not None:
+            if self.keys[index] == key:
+                self.values[index] = value  # Update existing key
+                return
+            index = (index + 1) % self.size  # Linear probing
+        self.keys[index] = key
+        self.values[index] = value
+
+    def get(self, key):
+        index = self._hash(key)
+        while self.keys[index] is not None:
+            if self.keys[index] == key:
+                return self.values[index]
+            index = (index + 1) % self.size  # Linear probing
+        raise KeyError("Key not found")
+
+# Example Usage
+d = SimpleDict()
+d.insert("apple", 5)
+d.insert("banana", 8)
+print(d.get("apple"))  # Output: 5
+```
+This simple implementation follows **open addressing with linear probing**, just like Python’s dictionary.
+
+---
+
+## **Conclusion**
+- **Python’s dictionary is a highly optimized hash table** that offers fast insertions, lookups, and deletions.
+- It uses **open addressing with perturbation probing** for collision resolution.
+- **Resizes dynamically** when it gets too full.
+- Since **Python 3.7, insertion order is preserved**.
+
+Would you like any specific part explained in more depth? 🚀
+
+----------
+
+So now the dictionary resizing section sort of reveals the truth about this amortisation.
+
+----------
+
+Can you explain the runtime of various pandas and scipy popular functions?
+
+----------
+
+Sure! Let's break down the runtime complexity of various popular functions in **Pandas** and **SciPy** based on how they operate internally.
+
+---
+
+## **🔹 Pandas: Common Function Runtimes**
+Pandas is built on **NumPy**, so its performance largely depends on vectorized operations over arrays. Below is a breakdown of common operations:
+
+### **1️⃣ DataFrame Creation**
+| Operation | Complexity | Explanation |
+|-----------|------------|-------------|
+| `pd.DataFrame(data)` | \( O(n) \) | Creates a DataFrame from lists, dictionaries, or NumPy arrays. |
+| `df.copy()` | \( O(n) \) | Copies all elements. |
+
+---
+
+### **2️⃣ Accessing & Selecting Data**
+| Operation | Complexity | Explanation |
+|-----------|------------|-------------|
+| `df[col]` | \( O(1) \) | Accessing a column (which is a reference, not a copy). |
+| `df.loc[row_label]` | \( O(1) \) | Direct lookup by index. |
+| `df.iloc[row_index]` | \( O(1) \) | Direct lookup by integer position. |
+| `df[df[col] > value]` | \( O(n) \) | Boolean indexing over all rows. |
+
+---
+
+### **3️⃣ Sorting & Ordering**
+| Operation | Complexity | Explanation |
+|-----------|------------|-------------|
+| `df.sort_values(by=col)` | \( O(n \log n) \) | Uses **Timsort** (hybrid of merge sort and insertion sort). |
+| `df.sort_index()` | \( O(n \log n) \) | Sorts index in a similar manner. |
+
+---
+
+### **4️⃣ Aggregations & Grouping**
+| Operation | Complexity | Explanation |
+|-----------|------------|-------------|
+| `df.mean(), df.sum(), df.min(), df.max()` | \( O(n) \) | Single-pass aggregation. |
+| `df.groupby(col).sum()` | \( O(n) \) | Hash-based grouping with summation. |
+| `df.value_counts()` | \( O(n) \) | Uses a hash table to count occurrences. |
+
+---
+
+### **5️⃣ Merging & Joins**
+| Operation | Complexity | Explanation |
+|-----------|------------|-------------|
+| `df1.merge(df2, on='col')` | \( O(n + m) \) | Hash join for **inner merge** (linear in size of both DataFrames). |
+| `df1.join(df2, on='col')` | \( O(n + m) \) | Similar to merge but optimized for index joins. |
+| `df1.append(df2)` | \( O(n + m) \) | Concatenates two DataFrames. |
+
+---
+
+### **6️⃣ Applying Functions**
+| Operation | Complexity | Explanation |
+|-----------|------------|-------------|
+| `df.apply(func, axis=0/1)` | \( O(n) \) | Applies function row-wise or column-wise. |
+| `df[col].map(func)` | \( O(n) \) | Element-wise operation on a column. |
+| `df[col].applymap(func)` | \( O(n) \) | Element-wise operation on a DataFrame. |
+
+---
+
+## **🔹 SciPy: Common Function Runtimes**
+SciPy builds on **NumPy** and focuses on scientific computing. Here are some common operations:
+
+### **1️⃣ Linear Algebra (scipy.linalg)**
+| Operation | Complexity | Explanation |
+|-----------|------------|-------------|
+| `scipy.linalg.inv(A)` | \( O(n^3) \) | Matrix inversion via LU decomposition. |
+| `scipy.linalg.det(A)` | \( O(n^3) \) | Determinant via row reduction. |
+| `scipy.linalg.solve(A, b)` | \( O(n^3) \) | Solves a system of equations using LU decomposition. |
+| `scipy.linalg.eig(A)` | \( O(n^3) \) | Eigenvalues computation via QR iteration. |
+
+---
+
+### **2️⃣ Optimization (scipy.optimize)**
+| Operation | Complexity | Explanation |
+|-----------|------------|-------------|
+| `scipy.optimize.minimize(f, x0)` | \( O(n) \) per iteration | Depends on the optimization method (e.g., Newton, Gradient Descent). |
+| `scipy.optimize.curve_fit(f, x, y)` | \( O(n^2) \) | Nonlinear least squares fitting. |
+
+---
+
+### **3️⃣ Sparse Matrices (scipy.sparse)**
+| Operation | Complexity | Explanation |
+|-----------|------------|-------------|
+| `scipy.sparse.csr_matrix(A)` | \( O(n) \) | Creates a compressed sparse row matrix. |
+| `A @ x` (Sparse Matrix-Vector Multiplication) | \( O(n) \) | Fast multiplication using stored nonzero elements. |
+
+---
+
+### **4️⃣ Statistics (scipy.stats)**
+| Operation | Complexity | Explanation |
+|-----------|------------|-------------|
+| `scipy.stats.norm.pdf(x)` | \( O(1) \) | Computes probability density function (PDF). |
+| `scipy.stats.norm.cdf(x)` | \( O(1) \) | Computes cumulative distribution function (CDF). |
+| `scipy.stats.ttest_ind(a, b)` | \( O(n) \) | Computes t-test statistic. |
+
+---
+
+## **🛠 Summary Table**
+| Library | Function | Complexity |
+|----------|-------------|-------------|
+| Pandas | `df[col]` (column access) | \( O(1) \) |
+| Pandas | `df.sort_values()` | \( O(n \log n) \) |
+| Pandas | `df.groupby(col).sum()` | \( O(n) \) |
+| Pandas | `df.merge(df2, on='col')` | \( O(n + m) \) |
+| SciPy | `scipy.linalg.inv(A)` | \( O(n^3) \) |
+| SciPy | `scipy.optimize.minimize()` | \( O(n) \) per iteration |
+| SciPy | `scipy.sparse.csr_matrix(A)` | \( O(n) \) |
+
+---
+
+### 🚀 **Key Takeaways**
+- **Pandas operations** are mostly linear \( O(n) \), except for **sorting and merging** which take \( O(n \log n) \).
+- **SciPy functions** often involve **matrix operations** (can be costly at \( O(n^3) \)).
+- **Sparse matrices** in SciPy help reduce complexity from \( O(n^2) \) to \( O(n) \) for some operations.
+
+Would you like a deeper dive into any specific operation? 🚀
+
+----------
+

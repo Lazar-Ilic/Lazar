@@ -1,0 +1,69 @@
+SDS323 Statistical Learning And Inference
+Final Project
+Nitrogen Dioxide: Air Pollution And Road Traffic At Alnabru In Oslo, Norway
+Lazar Ilic
+EID li948
+
+This project was produced entirely by Lazar Ilic. In a 1 session 600 minute round setting on 2022-05-08.
+
+Introduction
+
+The data are a subsample of 500 observations from a data set that originate in a study where air pollution at a road is related to traffic volume and meteorological variables, collected by the Norwegian Public Roads Administration. The response variable [column 1] consist of hourly values of the logarithm of the concentration of NO2 [particles], measured at Alnabru in Oslo, Norway, between October 2001 and August 2003. The predictor variables [columns 2 to 8] are the logarithm of the number of cars per hour, temperature 2 meter above ground [degree C], wind speed [meters/second], the temperature difference between 25 and 2 meters above ground [degree C], wind direction [degrees between 0 and 360], hour of day and day number from Monday October 1. 2001. Submitted by Magne Aldrin [magne.aldrin@nr.no]. [28/Jul/04] [19kbytes]
+
+I suppose that I might try to simply predict NO2 from the measurements of the other variables. Or perhaps try to predict the number of cars per hour from the other variables. It is not totally clear to me how costly each of those 2 measurements are or what the sort of latency involved in such measurements is. How useful these metrics are for other downstream ones. In any case a simple prediction task, running validation to measure model performance, and try to produce a good simple model. Perhaps run a subset selection algorithm or call the nls and glm functions in .R too maybe to demonstrate just how much estimated performance can improve in a variety of settings and discuss the computational aspects of these optimisations and the perhaps gradient descents involved in finding the optimal coefficients to minimise error.
+
+Methods
+
+The 1st natural subtask is to simply ideate a little bit. I had previously done a sort of task kind of like this one. With only 500 observations we aim to produce a relatively simple model, maybe 5 or 6 derivative predictor variables, all with strong validity and t-scores. Here, we consider exponentiating certain variables and re transforming them in other more useful ways. As in last time, I considered the day of the week. This is because I expect a different distribution of car types for weekends and weekdays and the number of cars per hour is a very very low resolution metric. Also one might think that there are non trivial sources of air pollution from roads in certain directions, or other potential sources and so bucketing and modifying based upon wind direction may be useful. A natural physics interpretation of air movement and rate of air transfer and throughput off of the road level has to do with the measured temperature values and the Delta which can signify a difference in air pressure or simply reflect facets of the measurement location which I cannot discern simply from afar in this dataset.
+
+A 2nd subtask may be to consult some of the extant literature on this and similar related topics. Here of course we have been engaged in studying the most fundamental basics of statistics from the book An Introduction to Statistical Learning: With Applications in R. But there are papers on Air Pollution and one can query Google, ArXiV, Google Scholar, etc. with "NO2 prediction", "NO2 statistics", "air pollution prediction", etc.
+
+Artificial Intelligence Accuracy Assessment In NO2 Concentration Forecasting Of Metropolises Air
+NO2 Prediction Using Machine Learning Analyses In Google EE
+Prediction Of The NO2 Concentration Data In An Urban Area Using Multiple Regression And Neuronal Networks
+Estimating Lockdown-Induced European NO2 Changes: Using Satellite And Surface Observations And Air Quality Models
+A Novel Method For Regional NO2 Concentration Prediction Using Discrete Wavelet Transform And An Long Short Term Memory Network
+Spatialisation And Prediction Of Seasonal NO2 Pollution Due To Climate Change In The Korean Capital Area Through Land Use Regression Modeling
+Error Prediction Of Air Quality At Monitouring Stations Using Random Forest In A Total Error Framework
+Nitrogen Dioxide Levels Estimated From Land Use Regression Models Several Years Apart And Association With Mortality In A Large Cohort Study
+
+A 3rd subtask is to execute a semi comprehensive Exploratory Data Analysis. This comes at the beginning of pretty much every single strong Kaggle Notebook, Project, and Competition submission. So one can produce plots and think about models say with simple subsets of the predictors first like 1 predictor, 2 predictors, plausible interaction terms and study these in isolation and view plots of residuals as in our earlier weeks to examine potential functions for relations. These are reasonable methods.
+
+The 4th subtask is to actually muck around, get our hands dirty, and produce some models for predicting NO2 from the other predictors. Run Cross Validation and Root Mean Squared Error metric as in class to test out our various models and pick one which seems best from our perspective. Perhaps not quite the most performant will be our centaur bet on the actually most useful, valid, and human legible model. We might be prone to overly hacking a little bit and if we try out too many models, the most complex one which produces a strong performance may not really be the best, it may be due to a sort of statistical overfitting or just getting lucky on some pseudorandom complex bullpoopoo. The code will reveal these techniques but it suffices to say that some of the tricks we pulled in class as well as perhaps nls, glm, and other tricks from web logs on these topics come in handy.
+
+The 5th subtask if I get around to it is to predict the number of cars per hour from the other variables. But otherwise it is rather similar to the 4th subtask.
+
+Conclusion And Future Work
+
+Summary Of Results
+
+We produced a simple linear regression model with an R^2 of for the provided logarithm of NO2 concentration variable. This corresponds with a Mean Squared Error of  on an average variable of 0.5323 on 5 inputs. So that seems fairly good.
+
+Call:
+lm(formula = logNO2 ~ logcars + temp + winds + hour + daysplit, 
+    data = z)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.09434 -0.30500 -0.00121  0.36370  1.85733 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.368052   0.172938   7.911 1.69e-14 ***
+logcars      0.444086   0.027539  16.126  < 2e-16 ***
+temp        -0.026068   0.003776  -6.903 1.57e-11 ***
+winds       -0.147835   0.013605 -10.866  < 2e-16 ***
+hour        -0.013929   0.004305  -3.236  0.00129 ** 
+daysplit    -0.292934   0.048788  -6.004 3.73e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5323 on 494 degrees of freedom
+Multiple R-squared:  0.5022,	Adjusted R-squared:  0.4971 
+F-statistic: 99.66 on 5 and 494 DF,  p-value: < 2.2e-16
+
+Along the way, a number of interesting sub results and observations were made.
+
+Potential Future Work
+
+More data. More information about measurements, instruments, and their errors. More precise geographic data. Ideas about how to modify models given say upcoming future construction information and projects in the region. When someone pings a city for a permit, how far in advance can we use this to predict something useful? How complex are useful models for mapping out future growth of cities trajectories and downstream air pollution dynamics? Will the city respond with a strong tax to disincentivise and thereby lower air pollution? Will the people respond by trying harder to move to suburbs or higher floor apartments? Study the histories of big cities and maybe learn something, London, Los Angeles, Tokyo, New York City, Beijing, Hong Kong, etc. When the pandemic hit how fast were trading firms to predict a variety of trajectories of a variety of different things and how those downstream effects would impact a variety of sectors especially with respect to mid and low frequency trading? Did Nassim Nicholas Taleb make a ton of money shorting a ton back before the pandemic really erupted but he called and predicted that it would in fact blow up to massive epic proportion?

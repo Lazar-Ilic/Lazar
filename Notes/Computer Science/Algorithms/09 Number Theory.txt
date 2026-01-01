@@ -1,0 +1,428 @@
+Prime Factorisation: n^[1/4]
+
+Is Prime?: log^3 n
+
+Is Fibonacci?: 1
+	An alternate general way to make stuff like this one in particular uh quasi O[1] is to generate the set of values up to the threshold value and then use a hash set.
+
+Is Power Of 2?: 1
+	[a ba [a-1]] == 0
+
+Square Root Ensure To Check Rounding
+
+Is Square?: 1
+
+Is Sum Of 2 Squares?: n^[1/4]
+	If and only if its prime factorisation contains no factor p^k with p = 3 [mod 4] and k = 1 [mod 2]
+
+Is Sum Of 3 Squares?: log[n] Not n^[1/4]
+	If and only if not of the form 4^a * [8*b + 7]. So we can just simply repeatedly check for 0 modulo 4 and divide out until being left with a value we then check for 7 modulo 8.
+
+Is Sum Of 4 Squares?: 1
+	Always Yes True. Lagrange's Four Square Theorem.
+
+Greatest Common Divisor, Least Common Multiple: log[nm] = log[n] + log[m]
+
+Sieve Generating Primes And Minimum Prime Factor Array From 1 To n: n * log[log[n]] [Or Slow n Or n / log[log[n]]]
+
+Phi Totient Coprime < Function From 1 To n: n * log[log[n]]
+
+Inverse Phi Totient Coprime < Function And Minimal Inverse: n^[1/4]
+	Factor and IBM Research Ponder This 2020-06
+
+Modular Power: log b
+
+Generate All Inverses Modulo p: p
+
+Inverse Modulo p On The Spot: log p
+	Binary exponentiation a^[p-2] is a^[-1] by Euler's Totient Phi Theorem.
+
+Greatest Common Divisor As Linear Combination: log n
+	To solve ax + by = c in general.
+
+Chinese Remainder: log n
+
+Continued Fractions/Rational Approximation: log z
+	Compute closest rational p/q with p,q <= z.
+
+Phi Function Array: n
+	Number of positive integers <= a coprime with a.
+
+Sum Of Modded Arithmetic Progressions: log p
+
+Modular Square Root: log^2 p
+
+Modular Logarithm: p^[1/2]
+	Smallest b such that a^b = c [mod p].
+
+Fractional Binary Search: log n
+	Finds the smallest a/b with a,b <= n such that f[a/b] is True.
+
+Lucas's Theorem
+	[m choose n] = product_[i=0]^k [m_i choose n_i] [mod p]
+	Base-p expansions of m and n.
+
+Kummer's Theorem
+	v_p [n choose [m1, m2, ..., mk]] = [[Sum of S_p[m_i]] - S_p[n]] / [p-1] where S_p refers to the sum of the base-p digits of the integer. So e.g. this multinomial coefficient is coprime with p and v_p = 0 if and only if the sum of the base-p digits adds up to precisely the sum of the base-p digits which by addition and a simple carrying-never-works will only occur if the base-p representations are strictly dominated subsets essentially which strictly dominatingly sum up to the base-p representation for n.
+
+Factoring Fast With Factorisation, SFFT Simon's Favourite Factoring Trick, Etc.
+	If one has a breakdown such as [7a-3][8a+2] with a <= 1000000000 one can sieve, then factor individually per usual, then merge and do a complete factorisation.
+
+Sprague-Grundy Theorem
+	In combinatorial game theory, the Sprague-Grundy theorem states that every impartial game under the normal play convention is equivalent to a 1-heap game of Nim, or to an infinite generalization of Nim. It can therefore be represented as a natural number, the size of the heap in its equivalent game of Nim, as an ordinal number in the infinite generalisation, or alternatively as a Nimber, the value of that one-heap game in an algebraic system whose addition operation combines multiple heaps to form a single equivalent heap in Nim.
+
+	The Grundy Value or Nim-Value of any impartial game is the unique Nimber that the game is equivalent to. In the case of a game whose positions are indexed by the natural numbers [like Nim itself, which is indexed by its heap sizes], the sequence of Nimbers for successive positions of the game is called the Nim-sequence of the game.
+
+	The Sprague-Grundy theorem and its proof encapsulate the main results of a theory discovered independently by R. P. Sprague (1936)[1] and P. M. Grundy (1939).[2]
+
+LLL Algorithm — Yet Another Paper-Reading Problem
+	Miss Burger has three positive integers 𝑛, 𝑎, and 𝑏. She wants to find a positive integer solution 𝑥 (1≤𝑥≤𝑛−1) that satisfies the following two conditions:
+
+	𝑥2≡𝑎 (mod 𝑛)
+	⌊3√𝑥2⌋=𝑏
+	Additionally, it is guaranteed that 𝑛 is an odd number and gcd⁡(𝑎,𝑛)=1. Here gcd⁡(𝑥,𝑦) denotes the greatest common divisor of 𝑥 and 𝑦. We also guarantee that there exists a unique solution.
+
+	First we read this wonderful lecture note from U. of Michigan by Prof. Chris Peikert to Lecture 3. This note tells us how to do a simple version of Coppersmith's method (while Lecture 4 tells us how to do a full version, which is highly interesting but not needed in this problem)...
+
+Linear Prime Sieve
+	https://cp-algorithms.com/algebra/prime-sieve-linear.html
+	Review through that entire website every single review session.
+
+----------
+
+Given n Generate A Pair Such That a^n=1 [mod b] But No Lower Power Is 1:
+	From AtCoder. Note that in Z/pZ x under multiplication for a prime p, the primitive elements have order p-1 and the number of such elements is phi[p-1]. Now the totient function has a lower limit ~ n/[log[log[n]]] so the density is quite high on ~1/log[log[n]] which means that the expected number of random trials to find a primitive element would be ~log[log[n]]. OK. So it suffices to find a k such that kn+1 is prime which is easy enough using random generation, the UI128 data type, and the isprime function. Then one can simply try to randomly find a primitive element and do this by checking if the element to the kth power actually satisfies the desideratum. The other solution uses the binomial theorem and is cute but this one is instructive too. Know how to prove prime density theorem and similar related results.
+
+Convolution And Convolution Modulo p Exponentiation Via Matrices And Vectors Rather Than 1-By-1 Fast Fourier Transformations And Number Theoretic Transformations: n * log n * log m Or n^2 * log m
+	Rather than n^2 * log n * log m consider when using the same exponent in vector convolution exponentiation using matrices a la CodeForces 861 E. Remove a factor of n if the underlying vector to be exponentiated is merely a cyclic shift.
+
+Is Carmichael?: n^[1/4]
+	A simple way to determine if a given number is a Carmichael number is by using Korselt's criterion: n is Carmichael if it is square-free and for every prime divisor p of n, p-1 divides n-1. This allows us to easily determine if a number is Carmichael [and primary Carmichael] given its factorisation.
+
+	In number theory, a Carmichael number is a composite number n, which in modular arithmetic satisfies the congruence relation:
+
+	b^n = b [mod n]
+
+	for all integers b. The relation may also be expressed in the form:
+
+	b^[n-1] = 1 [mod n]
+
+	for all integers b which are relatively prime to n.
+
+Cornacchia's Algorithm
+	In computational number theory, Cornacchia's algorithm is an algorithm for solving the Diophantine equation x^2+dy^2=m, where 1 <= d < m and d and m are coprime.
+
+Pohlig-Hellman Algorithm
+	In group theory, the Pohlig-Hellman algorithm, sometimes credited as the Silver-Pohlig-Hellman algorithm, is a special-purpose algorithm for computing discrete logarithms in a finite abelian group whose order is a smooth integer.
+
+	As an important special case, which is used as a subroutine in the general algorithm [see below], the Pohlig-Hellman algorithm applies to groups whose order is a prime power. The basic idea of this algorithm is to iteratively compute the p-adic digits of the logarithm by repeatedly "shifting out" all but one unknown digit in the exponent, and computing that digit by elementary methods.
+
+Möbius Function
+	For any positive integer n, define μ[n] as the sum of the primitive nth roots of unity. It has values in [-1, 0, 1] depending on the factorisation of n into prime factors:
+	
+	μ[n] = +1 if n is a square-free positive integer with an even number of prime factors.
+	μ[n] = -1 if n is a square-free positive integer with an odd number of prime factors.
+	μ[n] = 0 if n has a squared prime factor.
+
+	The Möbius function can alternatively be represented as δ_[ω[n] * Ω[n]] * λ[n] where δ is the Kronecker delta, λ[n] is the Liouville function, ω[n] is the number of distinct prime divisors of n, and Ω[n] is the number of prime factors of n, counted with multiplicity.
+
+Arithmetic Function
+	An arithmetic function a is:
+
+	Completely Additive if a[mn] = a[m] + a[n] for all natural numbers m and n
+	Completely Multiplicative if a[mn] = a[m]a[n] for all natural numbers m and n
+
+	Two whole numbers m and n are called coprime if their greatest common divisor is 1, that is, if there is no prime number that divides both of them.
+
+	Then an arithmetic function a is:
+
+	Additive if a[mn] = a[m] + a[n] for all coprime natural numbers m and n;
+	Multiplicative if a[mn] = a[m]a[n] for all coprime natural numbers m and n.
+
+Möbius Inversion Formula
+	The classic version states that if g and f are arithmetic functions satisfying:
+
+	{\displaystyle g(n)=\sum _{d\mid n}f(d)\quad {\text{for every integer }}n\geq 1}{\displaystyle g(n)=\sum _{d\mid n}f(d)\quad {\text{for every integer }}n\geq 1}
+	then
+
+	{\displaystyle f(n)=\sum _{d\mid n}\mu (d)g\left({\frac {n}{d}}\right)\quad {\text{for every integer }}n\geq 1}{\displaystyle f(n)=\sum _{d\mid n}\mu (d)g\left({\frac {n}{d}}\right)\quad {\text{for every integer }}n\geq 1}
+	where μ is the Möbius function and the sums extend over all positive divisors d of n (indicated by {\displaystyle d\mid n}{\displaystyle d\mid n} in the above formulae). In effect, the original f(n) can be determined given g(n) by using the inversion formula. The two sequences are said to be Möbius transforms of each other.
+
+	The formula is also correct if f and g are functions from the positive integers into some abelian group (viewed as a Z-module).
+
+	In the language of Dirichlet convolutions, the first formula may be written as
+
+	{\displaystyle g={\mathit {1}}*f}{\displaystyle g={\mathit {1}}*f}
+	where ∗ denotes the Dirichlet convolution, and 1 is the constant function 1(n) = 1. The second formula is then written as
+
+	{\displaystyle f=\mu *g.}f=\mu * g.
+	Many specific examples are given in the article on multiplicative functions.
+
+	The theorem follows because ∗ is (commutative and) associative, and 1 ∗ μ = ε, where ε is the identity function for the Dirichlet convolution, taking values ε(1) = 1, ε(n) = 0 for all n > 1. Thus
+
+	{\displaystyle \mu *g=\mu *({\mathit {1}}*f)=(\mu *{\mathit {1}})*f=\varepsilon *f=f}{\displaystyle \mu *g=\mu *({\mathit {1}}*f)=(\mu *{\mathit {1}})*f=\varepsilon *f=f}.
+	There is a product version of the summation-based Möbius inversion formula stated above:
+
+	{\displaystyle g(n)=\prod _{d|n}f(d)\iff f(n)=\prod _{d|n}g\left({\frac {n}{d}}\right)^{\mu (d)},\forall n\geq 1.}{\displaystyle g(n)=\prod _{d|n}f(d)\iff f(n)=\prod _{d|n}g\left({\frac {n}{d}}\right)^{\mu (d)},\forall n\geq 1.}
+
+Stern-Brocot Tree
+	A tree of continued fractions
+	Every positive rational number {\displaystyle q}q may be expressed as a continued fraction of the form
+
+	{\displaystyle q=a_{0}+{\cfrac {1}{a_{1}+{\cfrac {1}{a_{2}+{\cfrac {1}{a_{3}+{\cfrac {1}{\ddots +{\cfrac {1}{a_{k}}}}}}}}}}}=[a_{0};a_{1},a_{2},\ldots ,a_{k}]}{\displaystyle q=a_{0}+{\cfrac {1}{a_{1}+{\cfrac {1}{a_{2}+{\cfrac {1}{a_{3}+{\cfrac {1}{\ddots +{\cfrac {1}{a_{k}}}}}}}}}}}=[a_{0};a_{1},a_{2},\ldots ,a_{k}]}
+	where {\displaystyle k}k and {\displaystyle a_{0}}a_{0} are non-negative integers, and each subsequent coefficient {\displaystyle a_{i}}a_{i} is a positive integer. This representation is not unique because
+	{\displaystyle [a_{0};a_{1},a_{2},\ldots ,a_{k-1},1]=[a_{0};a_{1},a_{2},\ldots ,a_{k-1}+1],}{\displaystyle [a_{0};a_{1},a_{2},\ldots ,a_{k-1},1]=[a_{0};a_{1},a_{2},\ldots ,a_{k-1}+1],}
+	but using this equivalence to replace every continued fraction ending with a one by a shorter continued fraction shows that every rational number has a unique representation in which the last coefficient is greater than one. Then, unless {\displaystyle q=1}q=1, the number {\displaystyle q}q has a parent in the Stern-Brocot tree given by the continued fraction expression
+	{\displaystyle [a_{0};a_{1},a_{2},\ldots ,a_{k}-1].}{\displaystyle [a_{0};a_{1},a_{2},\ldots ,a_{k}-1].}
+	Equivalently this parent is formed by decreasing the denominator in the innermost term of the continued fraction by 1, and contracting with the previous term if the fraction becomes {\displaystyle {\tfrac {1}{1}}}{\tfrac {1}{1}}. For instance, the rational number 23⁄16 has the continued fraction representation
+	{\displaystyle {\frac {23}{16}}=1+{\cfrac {1}{2+{\cfrac {1}{3+{\frac {1}{2}}}}}}=[1;2,3,2],}{\displaystyle {\frac {23}{16}}=1+{\cfrac {1}{2+{\cfrac {1}{3+{\frac {1}{2}}}}}}=[1;2,3,2],}
+	so its parent in the Stern-Brocot tree is the number
+	{\displaystyle [1;2,3,1]=[1;2,4]=1+{\cfrac {1}{2+{\frac {1}{4}}}}={\frac {13}{9}}.}{\displaystyle [1;2,3,1]=[1;2,4]=1+{\cfrac {1}{2+{\frac {1}{4}}}}={\frac {13}{9}}.}
+	Conversely each number {\displaystyle q}q in the Stern-Brocot tree has exactly two children: if
+
+	{\displaystyle q=[a_{0};a_{1},a_{2},\ldots ,a_{k}]=[a_{0};a_{1},a_{2},\ldots ,a_{k}-1,1]}{\displaystyle q=[a_{0};a_{1},a_{2},\ldots ,a_{k}]=[a_{0};a_{1},a_{2},\ldots ,a_{k}-1,1]}
+	then one child is the number represented by the continued fraction
+	{\displaystyle \displaystyle [a_{0};a_{1},a_{2},\ldots ,a_{k}+1]}{\displaystyle \displaystyle [a_{0};a_{1},a_{2},\ldots ,a_{k}+1]}
+	while the other child is represented by the continued fraction
+	{\displaystyle [a_{0};a_{1},a_{2},\ldots ,a_{k}-1,2].}{\displaystyle [a_{0};a_{1},a_{2},\ldots ,a_{k}-1,2].}
+	One of these children is less than {\displaystyle q}q and this is the left child; the other is greater than {\displaystyle q}q and it is the right child (in fact the former expression gives the left child if {\displaystyle k}k is odd, and the right child if {\displaystyle k}k is even). For instance, the continued fraction representation of 13⁄9 is [1;2,4] and its two children are [1;2,5] = 16⁄11 (the right child) and [1;2,3,2] = 23⁄16 (the left child).
+	It is clear that for each finite continued fraction expression one can repeatedly move to its parent, and reach the root [1;]=1⁄1 of the tree in finitely many steps (in a0 + ... + ak - 1 steps to be precise). Therefore, every positive rational number appears exactly once in this tree. Moreover all descendants of the left child of any number q are less than q, and all descendants of the right child of q are greater than q. The numbers at depth d in the tree are the numbers for which the sum of the continued fraction coefficients is d + 1.
+
+	Mediants and binary search
+	The Stern-Brocot tree forms an infinite binary search tree with respect to the usual ordering of the rational numbers. The set of rational numbers descending from a node q is defined by the open interval (Lq,Hq) where Lq is the ancestor of q that is smaller than q and closest to it in the tree (or Lq = 0 if q has no smaller ancestor) while Hq is the ancestor of q that is larger than q and closest to it in the tree (or Hq = +∞ if q has no larger ancestor).
+
+	The path from the root 1 to a number q in the Stern-Brocot tree may be found by a binary search algorithm, which may be expressed in a simple way using mediants. Augment the non-negative rational numbers to including a value 1/0 (representing +∞) that is by definition greater than all other rationals. The binary search algorithm proceeds as follows:
+
+	Initialize two values L and H to 0/1 and 1/0, respectively.
+	Until q is found, repeat the following steps:
+	Let L = a/b and H = c/d; compute the mediant M = (a + c)/(b + d).
+	If M is less than q, then q is in the open interval (M,H); replace L by M and continue.
+	If M is greater than q, then q is in the open interval (L,M); replace H by M and continue.
+	In the remaining case, q = M; terminate the search algorithm.
+	The sequence of values M computed by this search is exactly the sequence of values on the path from the root to q in the Stern-Brocot tree. Each open interval (L,H) occurring at some step in the search is the interval (LM,HM) representing the descendants of the mediant M. The parent of q in the Stern-Brocot tree is the last mediant found that is not equal to q.
+
+	This binary search procedure can be used to convert floating-point numbers into rational numbers. By stopping once the desired precision is reached, floating-point numbers can be approximated to arbitrary precision. If a real number x is approximated by any rational number a/b that is not in the sequence of mediants found by the algorithm above, then the sequence of mediants contains a closer approximation to x that has a denominator at most equal to b; in that sense, these mediants form the best rational approximations to x.
+
+	The Stern-Brocot tree may itself be defined directly in terms of mediants: the left child of any number q is the mediant of q with its closest smaller ancestor, and the right child of q is the mediant of q with its closest larger ancestor. In this formula, q and its ancestor must both be taken in lowest terms, and if there is no smaller or larger ancestor then 0/1 or 1/0 should be used respectively. Again, using 7/5 as an example, its closest smaller ancestor is 4/3, so its left child is (4 + 7)/(3 + 5) = 11/8, and its closest larger ancestor is 3/2, so its right child is (7 + 3)/(5 + 2) = 10/7.
+
+	Relation to Farey sequences
+	The Farey sequence of order n is the sorted sequence of fractions in the closed interval [0,1] that have denominator less than or equal to n. As in the binary search technique for generating the Stern-Brocot tree, the Farey sequences can be constructed using mediants: the Farey sequence of order n + 1 is formed from the Farey sequence of order n by computing the mediant of each two consecutive values in the Farey sequence of order n, keeping the subset of mediants that have denominator exactly equal to n + 1, and placing these mediants between the two values from which they were computed.
+
+	A similar process of mediant insertion, starting with a different pair of interval endpoints [0/1,1/0], may also be seen to describe the construction of the vertices at each level of the Stern-Brocot tree. The Stern-Brocot sequence of order 0 is the sequence [0/1,1/0], and the Stern-Brocot sequence of order i is the sequence formed by inserting a mediant between each consecutive pair of values in the Stern-Brocot sequence of order i - 1. The Stern-Brocot sequence of order i consists of all values at the first i levels of the Stern-Brocot tree, together with the boundary values 0/1 and 1/0, in numerical order.
+
+	Thus the Stern-Brocot sequences differ from the Farey sequences in two ways: they eventually include all positive rationals, not just the rationals within the interval [0,1], and at the nth step all mediants are included, not only the ones with denominator equal to n. The Farey sequence of order n may be found by an inorder traversal of the left subtree of the Stern-Brocot tree, backtracking whenever a number with denominator greater than n is reached.
+
+	Additional properties
+	If {\displaystyle {{\frac {p_{1}}{q_{1}}},{\frac {p_{2}}{q_{2}}},\dots ,{\frac {p_{n}}{q_{n}}}}}{{\frac {p_{1}}{q_{1}}},{\frac {p_{2}}{q_{2}}},\dots ,{\frac {p_{n}}{q_{n}}}} are all the rationals at the same depth in the Stern-Brocot tree, then
+
+	{\displaystyle \sum _{k=1}^{n}{\frac {1}{p_{k}q_{k}}}=1} \sum_{k=1}^n \frac{1}{p_kq_k} = 1.
+	Moreover, if {\displaystyle {{\frac {p}{q}}<{\frac {p'}{q'}}}}{\displaystyle {{\frac {p}{q}}<{\frac {p'}{q'}}}} are two consecutive fractions at or above a certain level in the tree (in the sense that any fraction between them, must be in a lower level of the tree), then
+
+	p'q-pq'=1
+	Along with the definitions in terms of continued fractions and mediants described above, the Stern-Brocot tree may also be defined as a Cartesian tree for the rational numbers, prioritised by their denominators. In other words, it is the unique binary search tree of the rational numbers in which the parent of any vertex q has a smaller denominator than q [or if q and its parent are both integers, in which the parent is smaller than q]. It follows from the theory of Cartesian trees that the lowest common ancestor of any two numbers q and r in the Stern-Brocot tree is the rational number in the closed interval [q,r] that has the smallest denominator among all numbers in this interval.
+
+	Permuting the vertices on each level of the Stern-Brocot tree by a bit-reversal permutation produces a different tree, the Calkin-Wilf tree, in which the children of each number a/b are the two numbers a/(a + b) and (a + b)/b. Like the Stern-Brocot tree, the Calkin-Wilf tree contains each positive rational number exactly once, but it is not a binary search tree.
+
+Frobenius Endomorphism
+	Let R be a commutative ring with prime characteristic p [an integral domain of positive characteristic always has prime characteristic, for example]. The Frobenius endomorphism F is defined by
+
+	F(r)=r^p
+
+	for all r in R. It respects the multiplication of R:
+
+	F(rs)=(rs)^p=r^p * s^p=F(r)F(s)
+
+	and F(1) is 1 as well. Moreover, it also respects the addition of R. The expression (r + s)p can be expanded using the binomial theorem. Because p is prime, it divides p! but not any q! for q < p; it therefore will divide the numerator, but not the denominator, of the explicit formula of the binomial coefficients
+
+	p!/[k!(p-k)!]
+	
+	if 1 ≤ k ≤ p - 1. Therefore, the coefficients of all the terms except rp and sp are divisible by p, and hence they vanish. Thus
+
+	F(r+s)=(r+s)^p=r^p+s^p=F(r)+F(s)
+
+	This shows that F is a ring homomorphism.
+
+	If φ : R → S is a homomorphism of rings of characteristic p, then
+
+	phi (x^p)=phi (x)^p
+
+	If FR and FS are the Frobenius endomorphisms of R and S, then this can be rewritten as:
+
+	\phi \circ F_{R}=F_{S}\circ \phi
+
+	This means that the Frobenius endomorphism is a natural transformation from the identity functor on the category of characteristic p rings to itself.
+
+	If the ring R is a ring with no nilpotent elements, then the Frobenius endomorphism is injective: F(r) = 0 means rp = 0, which by definition means that r is nilpotent of order at most p. In fact, this is necessary and sufficient, because if r is any nilpotent, then one of its powers will be nilpotent of order at most p. In particular, if R is a field then the Frobenius endomorphism is injective.
+
+	The Frobenius morphism is not necessarily surjective, even when R is a field. For example, let K = Fp(t) be the finite field of p elements together with a single transcendental element; equivalently, K is the field of rational functions with coefficients in Fp. Then the image of F does not contain t. If it did, then there would be a rational function q(t)/r(t) whose p-th power q(t)p/r(t)p would equal t. But the degree of this p-th power is p deg(q) - p deg(r), which is a multiple of p. In particular, it can't be 1, which is the degree of t. This is a contradiction; so t is not in the image of F.
+
+	A field K is called perfect if either it is of characteristic zero or it is of positive characteristic and its Frobenius endomorphism is an automorphism. For example, all finite fields are perfect.
+
+-------------
+
+Check if a set of integers is pairwise coprime.
+	For example generate the primes up to sqrt[10^9] and then pass through that vector for each dude, inserting found primes into a set as needed until halting with either a prime having already appeared meaning NO or the end meaning YES.
+
+----------
+
+{{Short description|Algorithm in computational number theory}}
+{{Use dmy dates|date=July 2022}}
+The '''Lenstra–Lenstra–Lovász''' ('''LLL''') '''lattice basis reduction algorithm''' is a [[polynomial time]] [[lattice reduction]] [[algorithm]] invented by [[Arjen Lenstra]], [[Hendrik Lenstra]] and [[László Lovász]] in 1982.<ref>{{Cite journal|last1=Lenstra|first1=A. K.|author1-link=A. K. Lenstra|last2=Lenstra|first2=H. W. Jr.|author2-link=H. W. Lenstra, Jr.|last3=Lovász|first3=L.|author3-link=László Lovász|title=Factoring polynomials with rational coefficients|journal=[[Mathematische Annalen]]|volume=261| year=1982| issue=4|pages=515–534|hdl=1887/3810|doi=10.1007/BF01457454|mr=0682664|citeseerx=10.1.1.310.318|s2cid=5701340}}</ref> Given a [[basis (linear algebra)|basis]] <math>\mathbf{B} = \{ \mathbf{b}_1,\mathbf{b}_2, \dots, \mathbf{b}_d \}</math> with ''n''-dimensional integer coordinates, for a [[lattice (group)|lattice]] L (a discrete subgroup of  '''R'''<sup>''n''</sup>) with <math> d \leq n </math>, the LLL algorithm calculates an ''LLL-reduced'' (short, nearly [[orthogonal]]) lattice basis in time <math display="block">\mathcal O(d^5n\log^3 B)</math> where <math>B</math> is the largest length of <math>\mathbf{b}_i</math> under the [[Norm_(mathematics)#Euclidean_norm |Euclidean norm]], that is, <math>B = \max\left(\|\mathbf{b}_1\|_2, \|\mathbf{b}_2\|_2, \dots, \|\mathbf{b}_d\|_2\right)</math>.<ref>{{Cite book|last1=Galbraith|first1=Steven|title=Mathematics of Public Key Cryptography| year=2012|chapter=chapter 17|chapter-url=https://www.math.auckland.ac.nz/~sgal018/crypto-book/crypto-book.html}}</ref><ref>{{cite journal |last1=Nguyen |first1=Phong Q. |last2=Stehlè |first2=Damien |title=An LLL Algorithm with Quadratic Complexity |journal=SIAM J. Comput. |date=September 2009 |volume=39 |issue=3 |pages=874–903 |doi=10.1137/070705702 |url=https://dl.acm.org/citation.cfm?id=1655318 |access-date=3 June 2019}}</ref>
+
+The original applications were to give polynomial-time algorithms for [[Polynomial factorization#Factoring univariate polynomials over the integers|factorizing polynomials with rational coefficients]], for finding [[Dirichlet's approximation theorem#Simultaneous Version|simultaneous rational approximations to real numbers]], and for solving the [[linear programming|integer linear programming problem]] in fixed dimensions.
+
+==LLL reduction==
+The precise definition of LLL-reduced is as follows: Given a [[Basis (linear algebra)|basis]]
+<math display="block">\mathbf{B}=\{ \mathbf{b}_1,\mathbf{b}_2, \dots, \mathbf{b}_n \},</math>
+define its [[Gram–Schmidt process]] orthogonal basis
+<math display="block">\mathbf{B}^*=\{ \mathbf{b}^*_1, \mathbf{b}^*_2, \dots, \mathbf{b}^*_n \},</math>
+and the Gram-Schmidt coefficients
+<math display="block">\mu_{i,j}=\frac{\langle\mathbf{b}_i,\mathbf{b}^*_j\rangle}{\langle\mathbf{b}^*_j,\mathbf{b}^*_j\rangle},</math> for any <math>1 \le j < i \le n</math>.
+
+Then the basis <math>B</math> is LLL-reduced if there exists a parameter <math>\delta</math> in {{open-closed|0.25, 1}} such that the following holds:
+
+# (size-reduced) For <math>1 \leq j < i \leq n\colon \left|\mu_{i,j}\right|\leq 0.5</math>. By definition, this property guarantees the length reduction of the ordered basis.
+#  (Lovász condition) For k = 2,3,..,n <math>  \colon \delta \Vert \mathbf{b}^*_{k-1}\Vert^2  \leq \Vert \mathbf{b}^*_k\Vert^2+ \mu_{k,k-1}^2\Vert 
+ \mathbf{b}^*_{k-1}\Vert^2</math>.
+
+Here, estimating the value of the <math>\delta</math> parameter, we can conclude how well the basis is reduced. Greater values of <math>\delta</math> lead to stronger reductions of the basis. Initially, A. Lenstra, H. Lenstra and L. Lovász demonstrated the LLL-reduction algorithm for <math>\delta = \frac{3}{4}</math>. Note that although LLL-reduction is well-defined for <math>\delta = 1</math>, the polynomial-time complexity is guaranteed only for <math>\delta</math> in <math>(0.25,1)</math>.
+
+The LLL algorithm computes LLL-reduced bases. There is no known efficient algorithm to compute a basis in which the basis vectors are as short as possible for lattices of dimensions greater than 4.<ref>{{Cite journal|last1=Nguyen|first1=Phong Q.|last2=Stehlé|first2=Damien|date=1 October 2009|title=Low-dimensional lattice basis reduction revisited |journal=ACM Transactions on Algorithms |language=en|volume=5|issue=4|pages=1–48|doi=10.1145/1597036.1597050|s2cid=10583820}}</ref> However, an LLL-reduced basis is nearly as short as possible, in the sense that there are absolute bounds <math>c_i > 1</math> such that the first basis vector is no more than <math>c_1</math> times as long as a shortest vector in the lattice,
+the second basis vector is likewise within <math>c_2</math> of the second successive minimum, and so on.
+
+==Applications==
+An early successful application of the LLL algorithm was its use by [[Andrew Odlyzko]] and [[Herman te Riele]] in disproving [[Mertens conjecture]].<ref>{{cite journal |last1=Odlyzko |first1=Andrew |last2=te Reile |first2=Herman J. J. |title=Disproving Mertens Conjecture |journal=[[Journal für die reine und angewandte Mathematik]] |volume=357 |pages=138–160 |doi=10.1515/crll.1985.357.138 |s2cid=13016831 |url=http://www.dtc.umn.edu/~odlyzko/doc/arch/mertens.disproof.pdf |access-date=27 January 2020}}</ref>
+
+The LLL algorithm has found numerous other applications in [[MIMO]] detection algorithms<ref>D. Wübben et al., "Lattice reduction," IEEE Signal Processing Magazine, Vol. 28, No. 3, pp. 70-91, Apr. 2011.</ref> and cryptanalysis of [[public-key encryption]] schemes: [[Naccache-Stern knapsack cryptosystem|knapsack cryptosystems]], [[RSA (algorithm)|RSA]] with particular settings, [[NTRUEncrypt]], and so forth. The algorithm can be used to find integer solutions to many problems.<ref>{{Cite journal| author=D. Simon |title=Selected applications of LLL in number theory |journal=LLL+25 Conference |year=2007 |place=Caen, France | url=https://simond.users.lmno.cnrs.fr/maths/lll25_Simon.pdf}}</ref>
+
+In particular, the LLL algorithm forms a core of one of the [[integer relation algorithm]]s. For example, if it is believed that ''r''=1.618034 is a (slightly rounded) [[Root of a function|root]] to an unknown [[quadratic equation]] with integer coefficients, one may apply LLL reduction to the lattice in <math>\mathbf{Z}^4</math> spanned by <math>[1,0,0,10000r^2], [0,1,0,10000r],</math> and <math>[0,0,1,10000]</math>. The first vector in the reduced basis will be an integer [[linear combination]] of these three, thus necessarily of the form <math>[a,b,c,10000(ar^2+br+c)]</math>; but such a vector is "short" only if ''a'', ''b'', ''c'' are small and <math>ar^2+br+c</math> is even smaller. Thus the first three entries of this short vector are likely to be the coefficients of the integral quadratic [[polynomial]] which has ''r'' as a root. In this example the LLL algorithm finds the shortest vector to be [1, -1, -1, 0.00025] and indeed <math>x^2-x-1</math> has a root equal to the [[golden ratio]], 1.6180339887....
+
+==Properties of LLL-reduced basis==
+Let <math>\mathbf{B}=\{ \mathbf{b}_1,\mathbf{b}_2, \dots, \mathbf{b}_n \}</math> be a <math>\delta</math>-LLL-reduced basis of a [[Lattice (group)|lattice]] <math>\mathcal L</math>. From the definition of LLL-reduced basis, we can derive several other useful properties about <math>\mathbf{B}</math>.
+
+# The first vector in the basis cannot be much larger than the [[Lattice problem#Shortest vector problem (SVP)|shortest non-zero vector]]: <math>\Vert\mathbf{b}_1 \Vert \le (2 / (\sqrt{4\delta - 1}))^{n-1} \cdot \lambda_1(\mathcal L)</math>. In particular, for <math>\delta = 3/4</math>, this gives <math>\Vert\mathbf{b}_1 \Vert \le 2^{(n-1)/2} \cdot \lambda_1(\mathcal L)</math>.<ref name="regev_lll">{{cite web |last1=Regev |first1=Oded |title=Lattices in Computer Science: LLL Algorithm |url=https://cims.nyu.edu/~regev/teaching/lattices_fall_2004/ln/lll.pdf#page=3 |publisher=New York University |access-date=1 February 2019}}</ref>
+# The first vector in the basis is also bounded by the determinant of the lattice: <math>\Vert\mathbf{b}_1 \Vert \le (2 / (\sqrt{4\delta - 1}))^{(n-1)/2} \cdot (\det(\mathcal L))^{1/n}</math>. In particular, for <math>\delta = 3/4</math>, this gives <math>\Vert\mathbf{b}_1 \Vert \le 2^{(n-1)/4} \cdot  (\det(\mathcal L))^{1/n}</math>.
+# The product of the norms of the vectors in the basis cannot be much larger than the determinant of the lattice: let <math>\delta = 3/4</math>, then  <math display="inline">\prod_{i=1}^n \Vert\mathbf{b}_i \Vert \le 2^{n(n-1)/4} \cdot  \det(\mathcal L)</math>.
+
+==LLL algorithm pseudocode==
+The following description is based on {{harv|Hoffstein|Pipher|Silverman|2008|loc=Theorem 6.68}}, with the corrections from the errata.<ref>{{cite web| last1=Silverman| first1=Joseph| title=Introduction to Mathematical Cryptography Errata|url=http://www.math.brown.edu/~jhs/MathCrypto/MathCryptoErrata.pdf|website=Brown University Mathematics Dept.| access-date=5 May 2015}}</ref>
+
+ '''INPUT'''
+     a lattice basis '''b'''<sub>1</sub>, '''b'''<sub>2</sub>, ..., '''b'''<sub>''n''</sub> in '''Z'''<sup>''m''</sup>
+     a parameter ''δ'' with 1/4 < ''δ'' < 1, most commonly ''δ'' = 3/4
+ '''PROCEDURE'''
+     '''B<sup>*</sup>''' <- GramSchmidt({'''b'''<sub>1</sub>, ..., '''b'''<sub>''n''</sub>}) = {'''b'''<sub>1</sub><sup>*</sup>, ..., '''b'''<sub>''n''</sub><sup>*</sup>};  ''and do not normalize''
+     ''μ''<sub>''i'',''j''</sub> <- InnerProduct('''b'''<sub>''i''</sub>, '''b'''<sub>''j''</sub><sup>*</sup>)/InnerProduct('''b'''<sub>j</sub><sup>*</sup>, '''b'''<sub>''j''</sub><sup>*</sup>);   ''using the most current values of'' '''b'''<sub>''i''</sub> and '''b'''<sub>''j''</sub><sup>*</sup>
+     ''k'' <- 2;
+     '''while''' ''k'' <= ''n'' '''do'''
+         '''for''' ''j'' '''from''' ''k''−1 '''to''' 1 '''do'''
+             '''if''' |''μ''<sub>''k'',''j''</sub>| > 1/2 '''then'''
+                 '''b'''<sub>''k''</sub> <- '''b'''<sub>''k''</sub> − ⌊''μ''<sub>''k'',''j''</sub>⌉'''b'''<sub>''j''</sub>;
+                ''Update'' '''B<sup>*</sup>''' ''and the related'' ''μ''<sub>''i'',''j''</sub>''<nowiki/>'s as needed.''
+                ''(The naive method is to recompute'' '''B<sup>*</sup>''' ''whenever'' '''b<sub>''i''</sub>''' ''changes:''
+                 '''B<sup>*</sup>''' <- GramSchmidt({'''b'''<sub>1</sub>, ..., '''b'''<sub>''n''</sub>}) = {'''b'''<sub>1</sub><sup>*</sup>, ..., '''b'''<sub>''n''</sub><sup>*</sup>})
+             '''end if'''
+         '''end for'''
+         '''if''' InnerProduct('''b'''<sub>''k''</sub><sup>*</sup>, '''b'''<sub>''k''</sub><sup>*</sup>) > (''δ − μ<sup>2</sup>''<sub>''k'',''k''−1</sub>) InnerProduct('''b'''<sub>''k''−1</sub><sup>*</sup>, '''b'''<sub>''k''−1</sub><sup>*</sup>) '''then'''
+             ''k'' <- ''k'' + 1;
+         '''else'''
+             Swap '''b'''<sub>''k''</sub> and  '''b'''<sub>''k''−1</sub>;
+             ''Update'' '''B<sup>*</sup>''' ''and the related'' ''μ''<sub>''i'',''j''</sub>''<nowiki/>'s as needed.''
+             ''k'' <- max(''k''−1, 2);
+         '''end if'''
+     '''end while'''
+     '''return''' '''B''' the LLL reduced basis of {b<sub>1</sub>, ..., b<sub>''n''</sub>}
+ '''OUTPUT'''
+     the reduced basis '''b'''<sub>1</sub>, '''b'''<sub>2</sub>, ..., '''b'''<sub>''n''</sub> in '''Z'''<sup>''m''</sup>
+
+==Examples==
+=== Example from Z<sup>3</sup> ===
+
+Let a lattice basis <math> \mathbf{b}_1,\mathbf{b}_2, \mathbf{b}_3 \in \mathbf{Z}^{3}</math>, be given by the columns of
+<math display="block">\begin{bmatrix}
+  1 & -1& 3\\
+  1 & 0 & 5\\
+  1 & 2 & 6
+\end{bmatrix}</math>
+then the reduced basis is 
+<math display="block">\begin{bmatrix}
+  0 & 1& -1\\
+  1 & 0 & 0\\
+  0 & 1 & 2
+\end{bmatrix},</math>
+which is size-reduced, satisfies the Lovász condition, and is hence LLL-reduced, as described above. See W. Bosma.<ref>{{Cite web| url=http://www.math.ru.nl/~bosma/onderwijs/voorjaar07/compalg7.pdf|title=4. LLL |last=Bosma|first=Wieb|work=Lecture notes|access-date=28 February 2010}}</ref> for details of the reduction process.
+
+=== Example from Z[''i'']<sup>4</sup> ===
+Likewise, for the basis over the complex integers given by the columns of the matrix below,
+<math display="block">\begin{bmatrix}
+ -2+2i &  7+3i &  7+3i & -5+4i\\
+  3+3i & -2+4i &  6+2i & -1+4i\\
+  2+2i & -8+0i & -9+1i & -7+5i\\
+  8+2i & -9+0i &  6+3i & -4+4i
+\end{bmatrix},</math>
+then the columns of the matrix below give an LLL-reduced basis. 
+<math display="block">\begin{bmatrix}
+ -6+3i & -2+2i &  2-2i & -3+6i \\
+  6-1i &  3+3i &  5-5i &  2+1i \\
+  2-2i &  2+2i & -3-1i & -5+3i \\
+ -2+1i &  8+2i &  7+1i & -2-4i \\
+\end{bmatrix}.</math>
+
+==Implementations==
+LLL is implemented in
+*[http://www.arageli.org/ Arageli] as the function <code>lll_reduction_int</code>
+*[https://github.com/fplll/fplll fpLLL] as a stand-alone implementation
+*[[Fast Library for Number Theory|FLINT]] as the function <code>fmpz_lll</code>
+*[[GAP computer algebra system|GAP]] as the function <code>LLLReducedBasis</code>
+*[[Macaulay2]] as the function <code>LLL</code> in the package <code>LLLBases</code>
+*[[Magma computer algebra system|Magma]] as the functions <code>LLL</code> and <code>LLLGram</code> (taking a gram matrix)
+*[[Maple computer algebra system|Maple]] as the function <code>IntegerRelations[LLL]</code>
+*[[Mathematica]] as the function <code>LatticeReduce</code>
+*[https://github.com/libntl/ntl Number Theory Library (NTL)] as the function <code>LLL</code>
+*[[PARI/GP]] as the function <code>qflll</code>
+*[http://pymatgen.org/ Pymatgen] as the function <code>analysis.get_lll_reduced_lattice</code>
+*[[SageMath]] as the method <code>LLL</code> driven by fpLLL and NTL
+*[[Isabelle/HOL]] in the 'archive of formal proofs' entry <code>LLL_Basis_Reduction</code>. This code exports to efficiently executable Haskell.<ref>{{Cite journal|title=A Formalization of the LLL Basis Reduction Algorithm |last=Divasón|first=Jose|journal=Conference Paper|series=Lecture Notes in Computer Science |year=2018 |volume=10895 |pages=160–177 |doi=10.1007/978-3-319-94821-8_10 |isbn=978-3-319-94820-1 |doi-access=free }}</ref>
+
+==See also==
+*[[Coppersmith method]]
+
+==Notes==
+{{Reflist}}
+
+==References==
+* {{cite journal|first1=Huguette |last1=Napias
+|title=A generalization of the LLL algorithm over euclidean rings or orders
+|journal=Journal de Théorie des Nombres de Bordeaux
+|volume=8
+|number=2
+|year=1996
+|pages=387–396
+|url=http://www.numdam.org/item?id=JTNB_1996__8_2_387_0
+|doi=10.5802/jtnb.176
+|doi-access=free
+}}
+* {{Cite book|last=Cohen|first=Henri|title=A course in computational algebraic number theory|publisher=Springer|year=2000|series=GTM|volume=138|isbn=3-540-55640-0}}
+* {{Cite book| last=Borwein | first=Peter | author-link=Peter Borwein | title=Computational Excursions in Analysis and Number Theory | isbn=0-387-95444-9 | year=2002}}
+* {{cite journal|first1=Franklin T. |last1=Luk| first2=Sanzheng |last2=Qiao|title=A pivoted LLL algorithm|journal= Linear Algebra and Its Applications|year=2011
+|volume=434
+|issue=11|doi=10.1016/j.laa.2010.04.003
+|pages=2296–2307
+|doi-access=free}}
+* {{cite book
+|last1=Hoffstein |first1=Jeffrey
+|last2=Pipher    |first2=Jill
+|last3=Silverman |first3=J.H.
+|title=An Introduction to Mathematical Cryptography
+|year=2008
+|publisher=Springer
+|isbn=978-0-387-77993-5
+}}
+{{Number-theoretic algorithms}}
+
+{{DEFAULTSORT:Lenstra-Lenstra-Lovasz Lattice Basis Reduction Algorithm}}
+[[Category:Theory of cryptography]]
+[[Category:Computational number theory]]
+[[Category:Lattice points]]
+
+----------

@@ -1,0 +1,556 @@
+Book Overview
+
+OK this cannot replace x<y with x-y<0 due to overflow example is of note. Wow I will learn something about reading machine code. A bunch of stuff about processors and then optimizing sounds interesting and I apparently will be surprised. Control flow sounds like some real useless stuff for a lot of people but I am curious and love to learn and say I like computer science text books. In any case perhaps I am ignorant and the reality is all too to the contrary. Virtual memory, system level I/O, and concurrent programming all seem very important.
+
+1 A Tour Of Computer Systems
+
+1.1 Information Is Bits + Context
+
+OK hello bits and bytes and storage in binary files. These represent everything and different things, wow.
+
+1.2 Programs Are Translated By Other Programs Into Different Forms
+
+C is translated in to machine-language instructions packaged in an executable object program and stored as a binary disk file. Compiler driver. Preprocessor, compiler, assembler, linker.
+
+1.3 It Pays To Understand How Compilation Systems Work
+
+Ah hah finally we do care about while versus for and pointer references and array indices. Simple transformations to C that help the compiler do its job better. Lo lo lo and behold apparently there is something scary about linker related errors. Security holes.
+
+1.4 Processors Read And Interpret Instructions Stored In Memory
+
+Command the execution via a shell. Buses carrying 64 bit words electric signals between components. I/O devices. Main memory. CPU processor register of word size repeatedly executes instruction and updates.
+
+1.5 Caches Matter
+
+OK so there exist many forms of memories and later I will learn how to exploit them for orders of magnitude performance improvements e.g. an increase in my compensation for a firm due to my knowledge.
+
+1.6 Storage Devices Form A Hierarchy
+
+Wow really levels of caches.
+
+1.7 The Operating System Manages The Hardware
+
+Mmm something about context switches and kernels though I can't be quite sure if this kernel thing has much to do with maths kernels or not if it's some like metaphor about trees and seeds. Threads fantastic I don't know sounds obvious one can do case work on multiple different machines locally for a speed up I don't know. Some more stuff we learn more about later I mean seems like C memory handling is tricky.
+
+1.8 Systems Communicate With Other Systems Using Networks
+
+Sherlock here I mean.
+
+1.9 Important Themes
+
+Amdahl's Law OK so think about different speed ups across different components and where we gonna get the speed up what matters first order. I mean it still basically says we will just cleverly do a bunch of stuff at the same time. Off the dome of course one can imagine scenarios where one wants to compute some minimum and rather than fully working out some cases decides to work out one step in each case or rather do the order over all the cases cleverly so as to expect to terminate earlier. Or perhaps some shared memory generation in some process will be nice I don't know I would have liked something more concrete than just telling me a trillion times we will do some stuff at the same time.
+
+1.10 Summary
+
+OK some stuff about computer machines.
+
+2 Representing And Manipulating Information
+
+2.1 Information Storage
+
+Bits, signed, unsigned, two's-complement, floating-point, overflow, integer computer arithmetic, floating-point arithmetic. It's convenient for me that this is C and I use C++. Hexadecimal is base 16. Word size 64 bits. Type sizes bytes allocated. Declaring pointers. Big end little end ordering relevant on networks communicating between machines. ASCII encoding. Something about Boolean algebra yet to really dive in to the EE side of things. Boolean, logical, shift operations.
+
+2.2 Integer Representations
+
+Signed and unsigned. Ranges of integral values. Look these things up in documentation as needed. Monitor overflow potential closely. Two's complement. Subtle features of unsigned arithmetic, implicit conversion of signed to unsigned, can lead to errors or vulnerabilities.
+
+2.3 Integer Arithmetic
+
+Interesting so a concrete example of overflow detection e.g. x+y<=15 if and only if x<=15-y is valid. And similar detections in two's complement addition and negation. Multiplication is mod. Concrete Sun XDR case study and malloc calloc reliability discussion. Multiplication is slow on reference machines, execute bit shifts for multiplications by powers of 2. Floor of division by power of 2 bit shift example and ceiling (x+(1<<k)-1)>>k for example.
+
+2.4 Floating Point
+
+As one expects there exists storage to represent large swathes of 0s in either direction as well as fractional components in base 2 past a decimal point. Case study on floating point imprecision disastrous effects. Tracking precision is important. Sign bit, k-bit exponent field, n-bit fraction field significand. Normalized, denormalized, infinity, NaN not a number. Rounding and rounding modes. Round-to-even, round-toward-zero, round-down, round-up. The latter 3 provide implicit mathematical inequalities bounds which can be useful in some settings. One can also execute computations through tracking upper and lower bounds or note sometimes use simple statistics to produce error bounds with less computation. Double has greater range maximum finite value around 1.8E308
+
+2.5 Summary
+
+Computers encode informations as bytes of bits. Different encodings are used for representing integers, real numbers, and character strings. Due to the finite lengths of the encodings, computer arithmetic has properties quite different from conventional integer and real arithmetic. The finite length can cause numbers to overflow. Floating-point values can also underflow, when they are so close to 0.0 that they are changed to 0. Wow Ariane 5 rocket $500M explosion over overflow OK be sure to deploy performant code for trading firm don't destroy the firm.
+
+The solutions were quite interesting, parsing through them took me a while as in competitive programming one does not often write down things like (x & ˜0xFF) | (y & 0xFF) so that is good.
+
+3 Machine-Level Representation Of Programs
+
+3.1 A Historical Perspective
+
+OK assembly, machine, yadda don't think it will really get in to the EE of all of this but I will learn something. There were processors and a time period where their growth was roughly exponential.
+
+3.2 Program Encodings
+
+unix> gcc -O1 -o p p1.c p2.c
+
+Command gcc indicates the GCC compiler. -O1 indicates level 1 optimizations tunings the higher the longer the compile time, generally improved performance, and more difficult to understand generated machine code. Compiler and linker.
+
+unix> gcc -O1 -S code.c
+
+This generates assembly file code.s and goes no further.
+
+unix> gcc -O1 -S -masm=intel code.c
+
+OK so there is some assembly, it looks kinda dreck I don't know if I will ever be composing in this but we'll see what it is I need to know about this with respect to viewing ATT assembly and contemplating my C code.
+
+3.3 Data Formats
+
+Again OK there are different data formats and most assembly code instructions generated by GCC have a 1 character suffix denoting the size of the operand.
+
+3.4 Accessing Information
+
+Immediate, register, memory. Some stuff about some small local machine operations. Data movement instructions. A bunch of stuff about assembly and the movement of data in registers and stacks.
+
+3.5 Arithmetic And Logical Operations
+
+Discussion of how the assembly looks in correspondence with a variety of simple arithmetic and logical operations and has some illustrated examples as well as tasks. So one can comprehend a little more clearly and precisely how a simple C function executes on a machine.
+
+3.6 Control
+
+Mechanisms for implementing conditional behavior. Control flow or data flow based on the results of tests. Sequentially executed statements. Jump instruction. CF, ZF, SF, OF flags. do-while, while, and for loops implemented as combinations of conditional tests and jumps. Most compilers generate loop code based on the do-while form of a loop. switch statement. extended C. Seems really awful and technical and kind of pointless at the moment but perhaps a firm and UT Austin admissions cares about this stuff and I ought to do the labs.
+
+3.7 Procedures
+
+Passing data and control. Allocate space for local variables of procedure and deallocate them on exit. Manipulating the program stack. Stack frame. Pointers. GCC allocates space that never gets used. Multiples of 16 bytes motivation alignment for accessing data. I think this is quite important and has appeared in finance interviews and rounds. Setup, body, finish. OK some concrete examples of C functions and IA32 code implementing these bodies. The stack and linkage conventions described in the previous section allow procedures to call themselves recursively.
+
+3.8 Array Allocation And Access
+
+C uses a simple implementation of arrays, and hence the translation into machine code is simple. Generate pointers to elements, address computations, optimizing compilers array indexing makes the machine code somewhat difficult to decipher. Allocates region of bytes. Pointer arithmetic.
+
+#define N 16
+typedef int fix_matrix[N][N];
+
+The book claims that this is good coding practice so note that. And it discusses more matters of memory allocation. So maybe this does get in to general habits and practices which produce further optimizations than are needed to hit competitive programming asymptotics and clear a 1000ms threshold in a contest.
+
+3.9 Heterogeneous Data Structures
+
+Structures and unions in C++. Components of structure referenced by names. Contiguous region of memory, address of its first byte, compiler information about structure type byte offset. The union can be for multiple different things and this example is worth noting.
+
+typedef enum{ N_LEAF,N_INTERNAL}nodetype_t;
+struct NODE_T{
+	nodetype_t type;
+	union{
+		struct{
+			struct NODE_T *left;
+			struct NODE_T *right;
+		}internal;
+		double data;
+	}info;
+};
+
+So this structure requires a total of 12 bytes: 4 for type, and either 4 each for info.internal.left and info.internal.right or 8 for info.data so this is fantastic stuff to save memory! Something about byte ordering and the alignment restrictions relating perhaps to hardware and EE.
+
+3.10 Putting It Together: Understanding Pointers
+
+Central critical feature. Every pointer has an associated type. Something about casting and implicit casting and pointers being created with the & operator and dereferenced with the * operator as in competitive programming with sets and iterators for example.
+
+3.11 Life In The Real World: Using The GDB Debugger
+
+I don't know it exists and again just kinda says when you are a cool kid and use like -O3 tuning what happens is you can't eyeball the machine code so easily so it's not totally clear if the cool move is to just use -O3 and not.
+
+3.12 Out-Of-Bounds Memory References And Buffer Overflow
+
+As I know C does not perform bounds checking for array references so these sorts of things cause serious errors. I don't know something about pernicious buffer overflow and feeding input strings of code to programs exploit something or other. Something about ASLR and non deterministic memory stack address usage to mitigate against vulnerability risk.
+
+3.13 x86-64: Extending IA32 To 64 Bits
+
+Kinda historical notes not too important by 2021. And then a bunch of minutiae about stack frames and some exercises which may be instructive and more to the point really.
+
+3.14 Machine-Level Representations Of Floating-Point Programs
+
+Just a couple short asides.
+
+3.15 Summary
+
+We will see that knowing the characteristics of a compiler can help when trying to write programs that have efficient mappings onto the machine. More complete picture of how the program stores data in different memory regions. Need to know whether a program variable is on the run-time stack. Parts of the program state, such as registers, and the run-time stack, are directly visible to the programmer.
+
+Well the exercises and homework tasks solutions were OK kinda instructive kinda just good to know basics and know a thing or two about where I might find further information if needed in this particular domain. If I do get around to doing all of the CMU labs I suppose I will write down a couple thousand lines on these sorts of things but that will be in C so maybe even read through their tests solutions too which I saw freely available online.
+
+4 Processor Architecture
+
+4.1 The Y86-64 Instruction Set Architecture
+
+Programmer visible state. Y86 instructions. A long writing on different instructions sets and things. There exist a number of things including status codes.
+
+4.2 Logic Design And The Hardware Control Language HCL
+
+Ah finally some EE something about circuits signal wires and voltages. So bits, memory, clock signals but it still does not tell me if like certain computations would be faster due to voltages were we to invert them with respect to bits like is it better to have more 0 bits of more 1 bits e.g. Some of the old logic gates Claude Shannon type information theory stuff from the old days of Caltech information theory. Circuits. Real life memory design. OK this is some real serious stuff I think some of these are key ideas in theoretical computer science research papers still nowadays.
+
+4.3 Sequential Y86 Implementations
+
+Complete design for a Y86 processor. Organizing the key steps required to execute each of the different instructions into a uniform flow, we can implement the entire processor with a small number of different hardware units and with a single clock to control the sequencing of computations.
+
+4.4 General Principles Of Pipelining
+
+Pipelined, throughut, latency, instructions, ops, more circuits. Diminishing returns of deep pipelining.
+
+4.5 Pipelined Y86 Implementations
+
+Rearrange the order of the five stages so PC update stage comes at the beginning of the clock cycle. Some more stuff with some very large diagrams I do not comprehend. Something about predictions, stacks, avoiding data hazards by stalling. Exception handling. Gee just a bunch of bunch of diagrams it must be the case that someone like my mother comprehends something and there is some half serious study and theorems in EE one could comprehend.
+
+4.6 Summary
+
+ISA, processor, encodings, implementation, sequential view of program execution. Pipelining improves the throughput performance of a system by letting the different stages operate concurrently.
+
+5 Optimizing Program Performance
+
+5.1 Capabilities And Limitations Of Optimizing Compilers
+
+The simplest control is to specify the optimization level. Compilers must be careful to apply only safe optimizations to a program. 
+
+void twiddle1(int *xp,int *yp){
+	*xp+=*yp;
+	*xp+=*yp;
+}
+void twiddle2(int *xp,int *yp){
+	*xp+=2* *yp;
+}
+
+This example did not strike me to have identical behaviour at all at first glance but OK some concrete praxis we can investigate.
+
+5.2 Expressing Program Performance
+
+Cycles per element CPE metric to express program performance in a way that can guide us in improving the code. Help us understand the loop performance of an iterative program at a detailed level. One supposes we could record some clock measurements at various parts of a program to get measurements rather simply.
+
+5.3 Program Example
+
+Machines, reference machines, the "black art" of writing fast code, where are the minimal performance gains and where are the dramatic effects. In their experience, the best approach involves a combination of experimentation and analysis: repeatedly attempting different approaches, performing measurements, and examining the assembly code representations to identify underlying performance bottlenecks. And they produce some measurements for some tasks. Recall that one does not know until one knows and e.g. in competitive programming making a variable constant can change a verdict from time limit exceeded to accepted so there you have it might be wise to really closely inspect and examine everything while one is learning about performant C code.
+
+5.4 Eliminating Loop Inefficiencies
+
+void combine2(vec_ptr v,data_t *dest){
+	long int i;
+	long int length=vec_length(v);
+	*dest=IDENT;
+	for(i=0;i<length;i++){
+		data_t val;
+		get_vec_element(v,i,&val);
+		*dest=*dest OP val;
+	}
+}
+
+So pulling the length out so as to not recompute it is an optimization known as code motion. Optimizing compilers attempt to perform code motion. Unfortunately, they are typically very cautious about making transformations that change where or how many times a procedure is called. They cannot reliably detect whether or not a function will have side effects, and so they assume it might. OK so this with respect to string length is a massive performance improvement and they have a nice shocking visual to go along with it and really emphasize the point I mean for that Putnam task from Rusin it would be good to show a low cubic curve next to a sharp linear curve for a course.
+
+5.5 Reducing Procedure Calls
+
+Emphasive some other stuff, an inefficiency can become a bottleneck as we attempt further optimizations.
+
+5.6 Eliminating Unneeded Memory References
+
+Something about holding an accumulated value in a local variable. And some more stuff here with assembly.
+
+5.7 Understanding Modern Processors
+
+As we seek to push the performance further, we must consider optimizations that exploit the microarchitecture of the processor, that is, the underlying system design by which a processor executes instructions. Some stuff about clock cycles, registers, and the latency and issue associated with addition, multiplication, and division. Some more stuff maybe the exercise tasks will be illuminating as to why this stuff might matter to me.
+
+5.8 Loop Unrolling
+
+I don't know record this section but I was of the impression this is a very critical component of what compilers do when one applies optimizations.
+
+5.9 Enhancing Parallelism
+
+A bunch more stuff about accumulation and processor design and a bunch of complex diagrams.
+
+5.10 Summary Of Results For Optimizing Combining Code
+
+So there are a variety of metrics related to these computations actually executing on machines.
+
+5.11 Some Limiting Factors
+
+Chain of data dependencies and lower bounds on number of clock cycles needed to execute computations. Just how parallel certain things can be. Branch prediction and misprediction penalties.
+
+5.12 Understanding Memory Performance
+
+Cache now performance of programs that involve load and store operations.
+
+5.13 Life In The Real World: Performance Improvement Techniques
+
+1. High-level design. Choose appropriate algorithms and data structures for the problem at hand. Be especially vigilant to avoid algorithms or coding techniques that yield asymptotically poor performance.
+2. Basic coding principles. Avoid optimization blockers so that a compiler can generate efficient code. Eliminate excessive function calls. Move computations out of loops when possible. Consider selective compromises of program modularity to gain greater efficiency. Eliminate unnecessary memory references. Introduce temporary variables to hold intermediate results. Store a result in an array or global variable only when the final value has been computed.
+3. Low-level optimizations. Unroll loops to reduce overhead and to enable further optimizations. Find ways to increase instruction-level parallelism by techniques such as multiple accumulators and reassociation. Rewrite conditional operations in a functional style to enable compilation via conditional data transfers.
+
+5.14 Identifying And Eliminating Performance Bottlenecks
+
+Ah hah here we get in to program profiling which involves running a version of a program in which instrumentation code has been incorporated to determine how much time the different parts of the program require. Unix systems provide the profiling program GPROF. It determines how much CPU time was spent for each of the functions in the program. It computes a count of how many times each function gets called.
+
+unix> gcc -O1 -pg prog.c -o prog
+unix> ./prog file.txt
+unix> gprof prog
+
+OK great stuff and again Amdahl's Law about the efficacy of improving the performance of one part of a system.
+
+5.15 Summary
+
+OK this chapter seems non trivial it seems like it begins to touch on some serious topics but is not long enough to really get in to the nitty gritty of performance optimization quite like a serious book or blog on this topic alone would which might really be something I one day am after.
+
+6 The Memory Hierarchy
+
+6.1 Storage Technologies
+
+In practice a memory system is a hierarchy of storage devices with different capacities, costs, and access times. As a programmer you need to understand the memory hierarchy because it has a big impact on the performance of your applications. Locality. SRAM, DRAM. SSD. A ton of numbers but no concrete praxis tips or advice to the programmer quite yet. Yeah yeah we get it I mean a fundamental idea is compute, algorithms, code, and actual machines so one expects over time if the memory gets quite a lot better then the task performances get better too.
+
+6.2 Locality
+
+Locality of references to program data. OK a concrete example summing along rows is faster than along columns due to the memory locality in C executions so this sort of thing is good to note if one can flip flop swap in certain e.g. dunno matrix computations.
+
+6.3 The Memory Hierarchy
+
+Cache hits. Cache misses. Replacement policy. Cold cache. Compulsory misses. Placement policy. Conflict miss. OK this all seems like the real deal good stuff to know. Temporal and spatial locality.
+
+6.4 Cache Memories
+
+Really a huge amount here on caches this seems very critical so these exercises and examples should be important.
+
+6.5 Writing Cache-Friendly Code
+
+Lower miss rates, cache friendly, better locality. Focus on the inner loops of the core functions. Minimize the number of cache misses in each inner loop.
+
+6.6 Putting It Together: The Impact Of Caches On Program Performance
+
+L1 L2 L3 bunch of stuff about stride and spatial locality and ridges. Concrete examples of loop ordering mattering quite a lot.
+
+6.7 Summary
+
+Write good code to exploit the faster memory key idea.
+
+7 Linking
+
+7.1 Compiler Drivers
+
+I don't know how useful this stuff is.
+
+7.2 Static Linking
+
+
+
+7.3 Object Files
+
+
+
+7.4 Relocatable Object Files
+
+
+
+7.5 Symbols And Symbol Tables
+
+
+
+7.6 Symbol Resolution
+
+
+
+7.7 Relocation
+
+
+
+7.8 Executable Object Files
+
+
+
+7.9 Loading Executable Object Files
+
+
+
+7.10 Dynamic Linking With Shared Libraries
+
+
+
+7.11 Loading And Linking Shared Libraries From Applications
+
+
+
+7.12 Position-Independent Code (PIC)
+
+
+
+7.13 Tools For Manipulating Object Files
+
+
+
+7.14 Summary
+
+
+
+8 Exceptional Control Flow
+
+8.1 Exceptions
+
+
+
+8.2 Processes
+
+
+
+8.3 System Call Error Handling
+
+
+
+8.4 Process Control
+
+
+
+8.5 Signals
+
+
+
+8.6 Nonlocal Jumps
+
+
+
+8.7 Tools For Manipulating Processes
+
+
+
+8.8 Summary
+
+
+
+9 Virtual Memory
+
+9.1 Physical And Virtual Addressing
+
+
+
+9.2 Address Spaces
+
+
+
+9.3 VM As A Tool For Caching
+
+
+
+9.4 VM As A Tool For Memory Management
+
+
+
+9.5 VM As A Tool For Memory Protection
+
+
+
+9.6 Address Translation
+
+
+
+9.7 Case Study: The Intel Core i7/Linux Memory System
+
+
+
+9.8 Memory Mapping
+
+
+
+9.9 Dynamic Memory Allocation
+
+
+
+9.10 Garbage Collection
+
+
+
+9.11 Common Memory-Related Bugs In C Programs
+
+
+
+9.12 Summary
+
+
+
+10 System-Level I/O
+
+10.1 Unix I/O
+
+
+
+10.2 Opening And Closing Files
+
+
+
+10.3 Reading And Writing Files
+
+
+
+10.4 Robust Reading And Writing With The Rio Package
+
+
+
+10.5 Reading File Metadata
+
+
+
+10.6 Sharing Files
+
+
+
+10.7 I/O Redirection
+
+
+
+10.8 Standard I/O
+
+
+
+10.9 Putting It Together: Which I/O Functions Should I Use?
+
+
+
+10.10 Summary
+
+
+
+11 Network Programming
+
+11.1 The Client-Server Programming Model
+
+
+
+11.2 Networks
+
+
+
+11.3 The Global IP Internet
+
+
+
+11.4 The Sockets Interface
+
+
+
+11.5 Web Servers
+
+
+
+11.6 Putting It Together: The Tiny Web Server
+
+
+
+11.7 Summary
+
+
+
+12 Concurrent Programming
+
+12.1 Concurrent Programming With Processes
+
+
+
+12.2 Concurrent Programming With I/O Multiplexing
+
+
+
+12.3 Concurrent Programming With Threads
+
+
+
+12.4 Shared Variables In Threaded Programs
+
+
+
+12.5 Synchronizing Threads With Semaphores
+
+
+
+12.6 Using Threads For Parallelism
+
+
+
+12.7 Other Concurrency Issues
+
+
+
+12.8 Summary
+

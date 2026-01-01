@@ -1,0 +1,219 @@
+https://arxiv.org/abs/2109.12455
+
+Shuffle Squares And Reverse Shuffle Squares
+Xiaoyu He, Emily Huang, Ihyun Nam, Rishubh Thaper
+
+After reading this paper and its cited-by papers as well as Dr. Xiaoyu He's more recent work on Approximating Binary Longest Common Subsequence In Near-Linear Time with Ray Li... I reviewed history with Jeff Erickson. I thought this was worth pursuing still as a side project. There potentially exists a 1 or 5 page proof in the affirmative via constructions or other arguments outlined below. Also worth doing a broader review of Dyck Path literature.
+
+Immediately a number of potential objects and structures of interest stood out to me. For all binary strings. Firstly there exists the longest subsequence[s] which appears twice separately and could potentially be extended later in to a complete pair. In 01 this has null length 0 trivially and in 0001 there exists the unique 0 which could be extended in to 001 with an addition of the 2 bit string 01 to the right end. This naturally leads in to a discussion of how to represent this quantity optimally. We could refer to both of these as being in a -1 case, representing being 1 off from the maximal length. For a string like 00110011 we would refer to both of 0101 and 0011 as being in a -0 position. In terms of future extensibility and potential recursive transition functions or nonsharp inequalities for generating asymptotics and constructions. This example also leads to another quantity which could be relevant, the lexicographically minimal maximal substring so here in this case 00110011 uniquely maps in to 0011.
+
+These observations lead in to trying tricks with matrices. Probabilistic Method. E.g. even attempts at simple Principle Of Inclusion Exclusion will fail but considering random subsequences of length 990 from a random string of length 1000. And what we might expect statistically. So, for example, it would be adequate to prove certain lower bounds for statistics relating to the number of binary strings of length 2n in each position like -0, -2, -4, ... Perhaps many of them have a position which is better than O[log[n]] or O[sqrt[n]] and this can be proved rather easily. In terms of simple Markov Chain style argumentation here of course handwaving note properties such as... 00 can be extended via both 00 and 11 to maintain the -0 position. So this is 2/4 of the potential next 2 bits. Which is certainly a rightwards shifting distributional action there. And in random cases we might expect that as we fall more and more "in debt" as it were there could be even sharper tendencies to move back rightwards due to combinatorial reasons. Perhaps I should have thought more about polynomials, matrices, algebra, and explicitly enumerating certain properties for say up to the n = 20 case to try and make some observations there rather than trying to onsight something here without more experimental observation.
+
+Matrices. Transition functions. Inequalities. Bounds. Guarantees of distributions in movement with respect to that underlying function via the next 2 bits appended to the suffix of the current string. Longer term statistical properties as we bring n ~ 20 to n ~ 1000 to general higher n.
+
+Construction. Splitting in to minimal substrings which themselves can be fully partitioned in to 2. Dyck Path style argumentation.
+
+Underlying graph. Of infinitely many prefix strings in a layered structure based around position and something about transition function. E.g. the string 0010 at -1 can be extended via both 01 and 10 in to 001001 and 001010 which split via 001 and 010 respectively for -0. It is trivially the case that 00 and 11 both will always at least worst preserve the position and there will exist for example if we are at -1 or worse a +1 extension amongst the 4 2 bit string additions. Consider matrices and recursions in terms of multiplicities and potentially some kind of exponential logarithmic thing. Naïve recursion as well as construction for asymptotics in number of strings which are in a nonzero position the entire time up until the very end e.g. none of the prefix strings are partitionable.
+
+Upon further review, the density of tangrams which are binary shuffle squares might be very nontrivial... some have speculated upon 1. I am not sure what the state of the art in the literature is on fairly useful algorithms for determining in the affirmative if a string is a binary shuffle square. Maybe I could cook one up and prove it will classify ~1 of them as valid in the limit as n approaches infinity. In any case, the average lag could be log or log log or whatever.
+
+Another interesting idea here would be to consider all [2n choose n] patterns of break down in to a shuffle. Then for each one note that there are 2^n strings which fit the pattern. And then do a combinatorial Principle Of Inclusion Exclusion on sets of these patterns counting up how many strings map in to those sets actually with the chains of == implications forcing some very low count like exponential decay here so something like... [[2n choose n] choose 1] * 2^n - [[2n choose n] choose 2] * 2^[n/2 + log[n] or something whatever] + [[2n choose n] choose 3] * 2^[n/3 + log[n] or something whatever] ~ [[2n choose n] choose 1] * 2^n. This would be a very simple proof if feasible to compress in this route. Would need to get in to the underlying random permutation analysis and the transfer of == sign logical implication chains there to produce the answer. Oh OK but the trick here of course is that in this literal combinatorial formulaic approach we could look up intermediaries on the Online Encyclopaedia Of Integer Sequences... it is just that in the [[2n choose n] choose 2] pairs actually very similar ones also incur near 2^n terms so there is a lot of cancellation. I might need to read more literature here. In that 2 case one can sum over 1 dude without loss of generality the simplest (1,2) (3,4) ... dude I think to compute the number of each number dude and double sum isomorphically. But in the 3 case it becomes more complex and I should think more or run some numbers and Google around there. It would seem to me at first glance as though perhaps there are some canonical results related to permutations and partitions here needed to rewrite these dudes and even searching partial terms in terms of number of cycles of == implications in the breakdowns would be enough.
+
+	for(a=0;a<6;a++){
+		for(b=a+1;b<6;b++){
+			for(c=b+1;c<6;c++){
+				av={a,b,c};
+				for(d=0;d<6;d++)if(d!=a and d!=b and d!=c)av.add(d); // av[0] paired with av[3] etc.
+				avv.add(av);
+			}
+		}
+	}
+	av=V(21);
+	bv={1,2,4,8};
+	for(a=1;a<(1<<20);a++){
+		avvb=VVB(6,VB(6));
+		for(b=0;b<20;b++)if(a ba (1<<b)){
+			avvb[avv[b][0]][avv[b][3]]=1;avvb[avv[b][3]][avv[b][0]]=1;
+			avvb[avv[b][1]][avv[b][4]]=1;avvb[avv[b][4]][avv[b][1]]=1;
+			avvb[avv[b][2]][avv[b][5]]=1;avvb[avv[b][5]][avv[b][2]]=1;
+		}
+		z=0;
+		avb=VB(6);
+		for(b=0;b<6;b++)if(avb[b]==0){
+			z++;
+			aq.push(b);
+			while(!aq.empty()){
+				c=aq.front();
+				aq.pop();
+				avb[c]=1;
+				for(d=0;d<6;d++)if(avb[d]==0 and avvb[c][d])aq.push(d);
+			}
+		}
+		av[subsetsize(a)]+=bv[z];
+	}
+	outv(av);
+	al=0;
+	for(a=1;a<=20;a++){
+		if(a%2==1)al+=av[a];
+		else al-=av[a];
+	}
+	out<<al<<nl;
+	// 0 160 800 3376 11876 34312 81276 158224 253922 336800 369776 335968 251944 155040 77520 31008 9690 2280 380 40 2 
+	// 22
+
+OK now that we are here at this step in this decomposition it would suffice to combinatorially compute the number of ways to induce x disjoint sets from y of the underlying dudes.
+
+
+	for(a=0;a<8;a++){
+		for(b=a+1;b<8;b++){
+			for(c=b+1;c<8;c++){
+				for(d=c+1;d<8;d++){
+					av={a,b,c,d};
+					for(e=0;e<8;e++)if(e!=a and e!=b and e!=c and e!=d)av.add(e); // av[0] paired with av[3] etc.
+					avv.add(av);
+				}
+			}
+		}
+	}
+	av=V(71);
+	bv={1,2,4,8,16};
+	bvv=VV(71,V(5));
+	for(a=0;a<70;a++){
+		for(b=a+1;b<70;b++){
+			for(c=b+1;c<70;c++){
+				for(d=c+1;d<70;d++){
+					for(e=d+1;e<70;e++){
+						avvb=VVB(8,VB(8));
+						g=a;
+						avvb[avv[g][0]][avv[g][4]]=1;avvb[avv[g][4]][avv[g][0]]=1;
+						avvb[avv[g][1]][avv[g][5]]=1;avvb[avv[g][5]][avv[g][1]]=1;
+						avvb[avv[g][2]][avv[g][6]]=1;avvb[avv[g][6]][avv[g][2]]=1;
+						avvb[avv[g][3]][avv[g][7]]=1;avvb[avv[g][7]][avv[g][3]]=1;
+						g=b;
+						avvb[avv[g][0]][avv[g][4]]=1;avvb[avv[g][4]][avv[g][0]]=1;
+						avvb[avv[g][1]][avv[g][5]]=1;avvb[avv[g][5]][avv[g][1]]=1;
+						avvb[avv[g][2]][avv[g][6]]=1;avvb[avv[g][6]][avv[g][2]]=1;
+						avvb[avv[g][3]][avv[g][7]]=1;avvb[avv[g][7]][avv[g][3]]=1;
+						g=c;
+						avvb[avv[g][0]][avv[g][4]]=1;avvb[avv[g][4]][avv[g][0]]=1;
+						avvb[avv[g][1]][avv[g][5]]=1;avvb[avv[g][5]][avv[g][1]]=1;
+						avvb[avv[g][2]][avv[g][6]]=1;avvb[avv[g][6]][avv[g][2]]=1;
+						avvb[avv[g][3]][avv[g][7]]=1;avvb[avv[g][7]][avv[g][3]]=1;
+						g=d;
+						avvb[avv[g][0]][avv[g][4]]=1;avvb[avv[g][4]][avv[g][0]]=1;
+						avvb[avv[g][1]][avv[g][5]]=1;avvb[avv[g][5]][avv[g][1]]=1;
+						avvb[avv[g][2]][avv[g][6]]=1;avvb[avv[g][6]][avv[g][2]]=1;
+						avvb[avv[g][3]][avv[g][7]]=1;avvb[avv[g][7]][avv[g][3]]=1;
+						g=e;
+						avvb[avv[g][0]][avv[g][4]]=1;avvb[avv[g][4]][avv[g][0]]=1;
+						avvb[avv[g][1]][avv[g][5]]=1;avvb[avv[g][5]][avv[g][1]]=1;
+						avvb[avv[g][2]][avv[g][6]]=1;avvb[avv[g][6]][avv[g][2]]=1;
+						avvb[avv[g][3]][avv[g][7]]=1;avvb[avv[g][7]][avv[g][3]]=1;
+						z=0;
+						avb=VB(8);
+						for(h=0;h<8;h++)if(avb[h]==0){
+							z++;
+							aq.push(h);
+							while(!aq.empty()){
+								i=aq.front();
+								aq.pop();
+								avb[i]=1;
+								for(j=0;j<8;j++)if(avb[j]==0 and avvb[i][j])aq.push(j);
+							}
+						}
+						bvv[5][z]++;
+						if(z==4){
+							outv(avv[a]);outv(avv[b]);outv(avv[c]);outv(avv[d]);outv(avv[e]);out<<nl;
+						}
+					}
+				}
+			}
+		}
+	}
+	outv(bvv[5]); // 0 10492090 1487590 118798 4536 And OEISed On 5246045 = 10492090/2
+
+	Generating functions?
+
+		for(a=0;a<1;a++){
+		for(b=a+1;b<8;b++){
+			for(c=b+1;c<8;c++){
+				for(d=c+1;d<8;d++){
+					av={a,b,c,d};
+					for(e=0;e<8;e++)if(e!=a and e!=b and e!=c and e!=d)av.add(e); // av[0] paired with av[3] etc.
+					avv.add(av);
+				}
+			}
+		}
+	}
+	av=V(36);
+	bv={1,2,4,8,16};
+	bvv=VV(71,V(5));
+	for(a=0;a<35;a++){
+		for(b=a+1;b<35;b++){
+			for(c=b+1;c<35;c++){
+				for(d=c+1;d<35;d++){
+					for(e=d+1;e<35;e++){
+						avvb=VVB(8,VB(8));
+						g=a;
+						avvb[avv[g][0]][avv[g][4]]=1;avvb[avv[g][4]][avv[g][0]]=1;
+						avvb[avv[g][1]][avv[g][5]]=1;avvb[avv[g][5]][avv[g][1]]=1;
+						avvb[avv[g][2]][avv[g][6]]=1;avvb[avv[g][6]][avv[g][2]]=1;
+						avvb[avv[g][3]][avv[g][7]]=1;avvb[avv[g][7]][avv[g][3]]=1;
+						g=b;
+						avvb[avv[g][0]][avv[g][4]]=1;avvb[avv[g][4]][avv[g][0]]=1;
+						avvb[avv[g][1]][avv[g][5]]=1;avvb[avv[g][5]][avv[g][1]]=1;
+						avvb[avv[g][2]][avv[g][6]]=1;avvb[avv[g][6]][avv[g][2]]=1;
+						avvb[avv[g][3]][avv[g][7]]=1;avvb[avv[g][7]][avv[g][3]]=1;
+						g=c;
+						avvb[avv[g][0]][avv[g][4]]=1;avvb[avv[g][4]][avv[g][0]]=1;
+						avvb[avv[g][1]][avv[g][5]]=1;avvb[avv[g][5]][avv[g][1]]=1;
+						avvb[avv[g][2]][avv[g][6]]=1;avvb[avv[g][6]][avv[g][2]]=1;
+						avvb[avv[g][3]][avv[g][7]]=1;avvb[avv[g][7]][avv[g][3]]=1;
+						g=d;
+						avvb[avv[g][0]][avv[g][4]]=1;avvb[avv[g][4]][avv[g][0]]=1;
+						avvb[avv[g][1]][avv[g][5]]=1;avvb[avv[g][5]][avv[g][1]]=1;
+						avvb[avv[g][2]][avv[g][6]]=1;avvb[avv[g][6]][avv[g][2]]=1;
+						avvb[avv[g][3]][avv[g][7]]=1;avvb[avv[g][7]][avv[g][3]]=1;
+						g=e;
+						avvb[avv[g][0]][avv[g][4]]=1;avvb[avv[g][4]][avv[g][0]]=1;
+						avvb[avv[g][1]][avv[g][5]]=1;avvb[avv[g][5]][avv[g][1]]=1;
+						avvb[avv[g][2]][avv[g][6]]=1;avvb[avv[g][6]][avv[g][2]]=1;
+						avvb[avv[g][3]][avv[g][7]]=1;avvb[avv[g][7]][avv[g][3]]=1;
+						z=0;
+						avb=VB(8);
+						for(h=0;h<8;h++)if(avb[h]==0){
+							z++;
+							aq.push(h);
+							while(!aq.empty()){
+								i=aq.front();
+								aq.pop();
+								avb[i]=1;
+								for(j=0;j<8;j++)if(avb[j]==0 and avvb[i][j])aq.push(j);
+							}
+						}
+						bvv[5][z]++;
+						if(z==4){
+							outv(avv[a]);outv(avv[b]);outv(avv[c]);outv(avv[d]);outv(avv[e]);out<<nl;
+						}
+					}
+				}
+			}
+		}
+	}
+	outv(bvv[5]); // 0 286699 35633 2244 56
+
+Well OK then maybe we can consider as in A002865 the number of partitions of 2n in to dudes each >=2 and then try to see if for each dude we can uh compute anything interesting about those dude's roles in the above summation with the relevant power of 2 multipliers in mind. I do not think that they are all ensured to contribute positive roles but perhaps there is yet another way to reframe this summation in to something actually doable here.
+
+There might be a simpler way to discuss constructions and distributions on the minimal extensions needed to complete a string and even some way to use polynomials and inequalities and go from the 2^n case to the 2^[n+1] case quite simply even to hit the desired ~1 density. Map some of those string cases in to the same set somehow and discuss their probabilities.
+
+Generating functions? Other tricks? More background reading? Ask a combinatorics friend?
+
+OKOKOK so maybe someone else has already proven that the vast majority of binary strings with an even number of 0s are log or sub log or log log behind the full out but... maybe we can prove the desired theorem by proving something "weaker" about the final distribution. Namely maybe we can think of an expected value computation uh expected value transition function in a quasi Markov Chain here and uh think about those weighted rightward shift values applied there uh... where we then use this style of reasoning about the [2n choose n] break downs to produce a bound on the probability that some dude moves uh back or forward uh and there again think about Principle Of Inclusion Exclusion types of arguments.
+
+OKOKOK another idea would be to think about that drawing I did of the coin flipping graph long run... if we take some function such that in the limit ~1 of the paths remain within f(x) and -f(x) and then can prove that ~1 of those will be fully decomposable then that is strong enough.
+
+But returning to that earlier approach would suggest of course in the 1-weighted version we get an overall summation of +-1 or 0 or whatever and fundamentally need to prove some bound on the up front 2^n power loading by exmaining more closely and also most of them should be relatively left shifted.
+
+----------
+
+"I deserve a Fields" - Lazyr

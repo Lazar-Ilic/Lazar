@@ -1,0 +1,86 @@
+\Large
+\twocolumn
+
+\textbf{Differential Equations}
+
+$y'+p(t)y=g(t)$ \\
+$u(t)y'+u(t)p(t)y=u(t)g(t)$ \\
+Integrating Factor $u(t)$ Satisfies \\
+$u(t)p(t)=u'(t)$ \\
+$\frac{u'(t)}{u(t)}=p(t)$ \\
+$(\ln(u(t)))'=p(t)$ \\
+$\ln(u(t))=\int p(t) dt + c$ \\
+$u(t)=e^{\int p(t) dt + c}=e^{c}e^{\int p(t) dt}=ce^{\int p(t) dt}$ \\
+$u(t)y'+u'(t)y=(u(t)y(t))'=u(t)g(t)$ \\
+$u(t)y(t)+c=\int u(t)g(t) dt$ \\
+$y(t)=\frac{\int u(t)g(t) dt + c}{u(t)}$
+
+$N(y)\frac{dy}{dx}=M(x)$ \\
+$\int N(y)dy=\int M(x) dx$
+
+$M(x,y)+N(x,y)\frac{dy}{dx}=0$ \\
+If $F_x+F_y \frac{dy}{dx}=0$ \\
+$\frac{d}{dx}(F(x,y(x)))=0$ \\
+$F(x,y)=c$ \\
+Check $F_{xy}=F_{yx},M_y=N_x$ \\
+Perhaps Solve
+
+Bernoulli Equations \\
+$y'+p(x)y=q(x)y^n$ \\
+$y^{-n}y'+p(x)y^{1-n}=q(x)$ \\
+$v=y^{1-n}$ \\
+$v'=(1-n)y^{-n}y'$ \\
+$\frac{1}{1-n}v'+p(x)v=q(x)$ \\
+$v'+(1-n)p(x)v=(1-n)q(x)$ \\
+Solve Linear Equation And Solve For $y$
+
+Substitutions
+
+$y'=f\left(\frac{y}{x} \right)$ \\
+Homogeneous Equations \\
+$v(x)=\frac{y}{x}$ \\
+$y=xv$ \\
+$y'=v+xv'$ \\
+$v+xv'=f(v)$ \\
+$xv'=f(v)-v$ \\
+$\frac{1}{f(v)-v} dv=\frac{1}{x}dx$ \\
+$x=ce^{\int \frac{1}{f(v)-v} dv}$
+
+$y'=g(ax+by)$ \\
+$v=ax+by$ \\
+$v'=a+by'$ \\
+$\frac{1}{b}(v'-a)=g(v)$ \\
+$v'=a+bg(v)$ \\
+$\frac{1}{a+bg(v)}dv=dx$ \\
+$x=\int \frac{1}{a+bg(v)} dv +c$
+
+Logistic Growth \\
+$P'=(\text{Growth Rate})\left(1-\frac{P}{\text{Saturation Level}} \right)P$ \\
+$P(t)=0,P(t)=\text{Saturation Level}$ Unstable/Stable Equilibria
+
+Euler, Runge-Kutta Methods, Assert Maximum Error Bound Obtained, Error $\Theta(h)$ Of Step Size
+
+$ay''+by'+cy=0$ \\
+$ar^2+br+c=0$ \\
+Distinct Real \\
+$y(t)=c_1 e^{r_1 t}+c_2 e^{r_2 t}$ \\
+Complex (Roots $a \pm ib$) (Same As Real) \\
+$y(t)=c_1 e^{at} \cos(bt) + c_2 e^{at} \sin(bt)$ \\
+Repeated Roots \\
+$y(t)=c_1 e^{rt} + c_2 t e^{rt}$
+
+Reduction Of Order \\
+Given $y_1(t)$ Solution Solve $y_2(t)=v(t)y_1(t)$
+
+For particular solutions ad hoc inspect functions related to the right hand side functions. For computing mutual antiderivative inspect terms which would produce such a term, and note degrees of terms which can match e.g.
+
+Undetermined Coefficients \\
+Variation Of Parameters \\
+Solve $y(t)=u_1(t)y_1(t)+u_2(t)y_2(t)$ From Homogeneous Solutions
+
+$a_n \frac{d^n y}{d x^n}+\dots+a_2 \frac{d^2 y}{d x^2}+a_1 \frac{dy}{dx} + a_0 = f(x)$ \\
+Characteristic Equation: \\
+$a_n \lambda^n + a_{n-1} \lambda^{n-1} + \dots + a_0 = 0$ \\
+General Solution To Homogeneous Differential Equation: \\
+$y(x)=P_1 (x)e^{\lambda_1 x}+P_2 (x) e^{\lambda_2 x} + \dots + P_r (x) e^{\lambda_r x}$ \\
+$P_i (x)$ is a polynomial of degree $1$ less than the multiplicity of $\lambda_i$

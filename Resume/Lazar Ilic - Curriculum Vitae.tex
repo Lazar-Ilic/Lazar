@@ -1,0 +1,113 @@
+%-------------------------
+% Rover Resume - Base Template
+% Link: https://github.com/subidit/rover-resume
+%
+% Shows code for various formatting options for different resume sections.
+% Education and Projects have single-line headers; while Experience uses double-line.
+% Some formatting codes are kept inline; consider \newcommand{cmd}{def}.
+% Excludes hyperref and icons for readability; MVP version.
+% Explore other templates for more options.
+% Mix and match as desired. Be consistent with headers and sub-headers.
+%------------------------
+
+\documentclass[11pt]{article} % fontsize 10pt/11pt/12pt
+
+\usepackage[margin=1in, a4paper]{geometry}
+\setcounter{secnumdepth}{0} % remove section numbering
+\usepackage{titlesec}
+
+% FORMATTING SECTIONS
+% \bfseries adds bold back to Section Headers
+\titleformat{\section}{\large\bfseries\uppercase}{}{}{}[\titlerule]
+
+% \bfseries adds bold back to Subsections (Company/University)
+\titleformat{\subsection}{\large\bfseries}{}{0pt}{}
+
+% \bfseries adds bold back to Subsubsections (Job Titles)
+\titleformat*{\subsubsection}{\large\bfseries}
+
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+\usepackage{enumitem}
+% label={} keeps bullets removed, but indentation preserved
+\setlist[itemize]{label={}, noitemsep,left=0pt .. \parindent}
+
+% Restore bold labels for the Skills section (Technical/Athletics)
+\setlist[description]{font=\bfseries, itemsep=0pt}
+
+\pagestyle{empty} % remove page number
+\pdfgentounicode=1
+
+\begin{document}
+
+\begin{center}
+	\begin{minipage}{0.5\textwidth}
+		{\Huge\bfseries
+			Lazar Ilic % Bold Name
+		} \\ \medskip
+		%Resume Template % Title [optional]
+	\end{minipage} \hfill
+	\begin{minipage}{0.4\textwidth}
+		\raggedleft
+		LazarI2@Illinois.Edu \\
+		GitHub.com/Lazar-Ilic
+	\end{minipage}
+\end{center}
+
+\section{Experience}
+%=================%
+% Note: \normalfont is used after \hfill to un-bold the location/date
+\subsection{High Frequency Trading Firm \hfill \normalfont Europe}
+\subsubsection{Quantitative Research Intern \hfill \normalfont July 2025 - August 2025}
+\begin{itemize}
+	\item Generated profitable insights for mid-frequency algorithms by studying time series, examining predictors, and backtesting. Considered implementation shortfall due to market impact as well as funding rates and taker fees.
+\end{itemize}
+
+\subsection{Amazon \hfill \normalfont Boston, Massachusetts}
+\subsubsection{Software Engineer \hfill \normalfont July 2023 - December 2023}
+\bigskip
+
+\section{Education}
+%=================%
+% Bold University, Normal Degree, Normal Date
+\subsection{University of Illinois Urbana-Champaign $|$ {\normalfont Master of Computer Science} \hfill \normalfont 2024}
+\begin{itemize}
+  \item 3.63$|$4.00 Parallel Programming, Advanced Bayesian Modeling, Database Systems, Programming Languages And Compilers, Data Mining, Data Curation
+\end{itemize}
+
+\subsection{University of Texas at Austin $|$ {\normalfont Bachelor of Science of Mathematics} \hfill \normalfont 2022}
+\begin{itemize}
+  \item 3.77$|$4.00 Algorithms, Differential Equations, Microeconomics, Logic, Linear Algebra, Generalised Linear Models, Scientific Computation, Game Theory, Statistical Learning
+\end{itemize}
+
+\section{Research}
+%=================
+\subsection{Optimised Event-Driven Selling \hfill \normalfont 2025}
+\begin{itemize}
+  \item Discussed Kelly optimal strategies for planning to sell a financial instrument under various levels of information. Performed literature review and wrote example codes in Python and Jupyter Notebooks. Tied in real-world issues and mentioned various details and complexities which emerge in such settings.
+\end{itemize}
+
+\section{Awards}
+%===============================%
+\begin{enumerate}[label=\null, left=0pt..0pt, itemsep=0pt]
+	\item Project Euler $\sim$50 Leaderboards In A Row + 3 Gold Medals - Outperformed AI \hfill 2021-2025
+	\item Alibaba Global Mathematics Competition Top 800 - \$600,000 Prize Pool \hfill 2022-2024
+	\item CSES 1st, CodeForces 2124, Meta Hacker Cup 319th, Putnam 87th, USAMO 43rd, USAPhO
+\end{enumerate}
+
+\section{Projects}
+%=================
+\subsection{Bridgewater Metaculus Contest $|$ {\normalfont Metaculus.com/accounts/profile/125313/} \hfill \normalfont 2025}
+\begin{itemize}
+  \item Won \$112 in Bridgewater's forecasting competition: cleaned data, used statistics, pandas, knowledge, and intuition. Computed parameters to automatically track the mixture of a relatively noninformative prior with market information including movement. Generated distributions during hidden periods as an exercise in data curation.
+\end{itemize}
+
+\section{Skills}
+%===========================%
+\begin{description}
+	\item[Technical] LaTeX, C, C++, Python + Libraries, SQL, GRE 338 + 5.5
+	\item[Athletics] 17:30 5K Run, 143 kg Touch And Go Bench Press
+\end{description}
+
+\end{document}

@@ -1,0 +1,17 @@
+Seems like this ought to be an alright course with alright tasks and some rather straightforward computations on exams.
+
+2016 Midterm 1 Task 2 contains typos after "and player 1 must say yes or no." It ought to read "If player 1 says N" and "If player 1 says Y".
+
+2016 Midterm 1 Solutions reads "For example, T is not strictly dominate" it ought to read "dominated". Perhaps "for the row player" is more standard English here. There are some other non standard phrasings but I think the writing was OK and understood it to mean that basically you all will not expect hyper excessively rigourous writeups.
+
+2016 Midterm 2 I wasn't actually quite sure if "private" just meant that each player has 0 information about the other players' valuations or if it was in fact known or common knowledge that all of the subjective valuations came from the Uniform[0,1] distribution. But the writeup clarified to me that it meant fixed irrespective of non trivial information. In any case one can call the "\left" and "\right" commands in LaTeX in the writeup to Task 1 Part C so that these brackets actually render correctly. And in the writeup to Task 1 Part C as well those commands will make these parentheses render correctly. And throughout. I strongly prefer "symmetric Bayesian Nash Equilibrium" over "symm BNE". I also thought that the "Note:" in the task statement was kind of egregious, I would expect students to comprehend elementary probability to that degree prior to enrolling in this course. There is some bad writing practice to be quite honest you can call the "replace all" function and replace all instances of "NE" with "Nash Equilibrium" in the raw .tex file and this would all be much more human legible.
+
+2017 Midterm 1 Task 2 I think it might be more natural to write "If fraction $x$ of the individuals... and fraction $1-x$ use". The task "Explain why the value might differ" is kind of poorly formulated I would want to instantly reply back "because they have different definitions, it is a not a theorem that they are equal, and they often differ". If you want a student to just write down "equilibria are not always Pareto optimal" then I don't know this task is pointless.
+
+2017 Midterm 2 
+
+2017 Final Task 3 Part A statement ought to read "Suppose that firm $2$'s marginal cost is". Part B "firm $2$'s". Throughout should replace "FOC" with "First Order Condition".
+
+2020 Midterm 
+
+2020 Final 

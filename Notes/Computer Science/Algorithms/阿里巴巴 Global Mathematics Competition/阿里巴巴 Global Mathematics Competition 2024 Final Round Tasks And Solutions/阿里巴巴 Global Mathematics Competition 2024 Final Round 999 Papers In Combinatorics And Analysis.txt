@@ -1,0 +1,152 @@
+阿里巴巴 Global Mathematics Competition 2024 Final Round 999 Papers In Combinatorics And Analysis
+
+	Shengtong Zhang
+https://projecteuclid.org/journals/annals-of-mathematics/volume-194/issue-3/Equiangular-lines-with-a-fixed-angle/10.4007/annals.2021.194.3.3.short
+https://arxiv.org/abs/1907.12466
+https://arxiv.org/abs/2006.06633
+https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.12647
+https://arxiv.org/abs/2109.13131
+https://escholarship.org/uc/item/23b1m1rf
+https://arxiv.org/abs/2107.13123
+https://www.combinatorics.org/ojs/index.php/eljc/article/view/v29i3p46
+https://arxiv.org/abs/2109.10520
+https://arxiv.org/abs/2111.00641
+https://arxiv.org/abs/2304.02206
+https://arxiv.org/abs/2305.17822
+https://www.sciencedirect.com/science/article/abs/pii/S0022314X21001414?via%3Dihub
+https://arxiv.org/abs/2008.09677
+https://link.springer.com/article/10.1007/s40993-021-00244-2
+https://arxiv.org/abs/2008.10069
+https://arxiv.org/abs/2101.09846
+https://arxiv.org/abs/2108.01027
+https://www.cambridge.org/core/journals/bulletin-of-the-australian-mathematical-society/article/eulerkronecker-constants-for-cyclotomic-fields/FB4AFE76E576EF6B3E136AFB9A38B3FD
+https://arxiv.org/abs/2203.03589
+https://link.springer.com/article/10.1007/s40993-022-00370-5
+https://arxiv.org/abs/2203.12008
+https://eprint.iacr.org/2022/1139.pdf
+	Karl Mahlburhg
+https://www.jstor.org/stable/2589346
+https://www.math.lsu.edu/~mahlburg/preprints/2.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/3.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/4.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/5.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/6.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/7.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/8.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/9.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/10.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/11.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/12.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/13.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/14.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/15.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/16.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/17.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/18.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/19.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/20.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/21.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/22.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/23.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/24.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/25.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/26.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/27.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/28.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/29.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/30.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/31.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/32.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/33.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/34.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/35.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/36.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/37.pdf
+https://www.math.lsu.edu/~mahlburg/preprints/38.pdf
+	Yufei Zhao
+https://arxiv.org/abs/1906.10722
+https://arxiv.org/abs/1910.03036
+https://arxiv.org/abs/1910.10790
+https://arxiv.org/pdf/2209.04894
+https://arxiv.org/pdf/2305.14132
+https://arxiv.org/pdf/2204.10642
+https://arxiv.org/pdf/2307.06914
+https://arxiv.org/pdf/2109.13131
+https://arxiv.org/pdf/2012.00262
+https://arxiv.org/pdf/1911.08605
+https://arxiv.org/pdf/2207.05527
+https://arxiv.org/pdf/2006.06633
+https://arxiv.org/pdf/2205.12363
+https://arxiv.org/pdf/2107.09233
+https://arxiv.org/pdf/2008.01610
+https://arxiv.org/pdf/2006.08836
+https://arxiv.org/pdf/1907.12466
+https://arxiv.org/pdf/2104.11626
+https://arxiv.org/pdf/2003.05272
+https://arxiv.org/pdf/2110.04376
+https://arxiv.org/pdf/2004.10180
+https://arxiv.org/pdf/2004.07722
+https://arxiv.org/pdf/2106.03261
+https://arxiv.org/pdf/2103.12671
+https://arxiv.org/pdf/2101.11207
+https://arxiv.org/pdf/1910.06436
+https://arxiv.org/pdf/2005.04502
+https://arxiv.org/pdf/1910.02916
+https://arxiv.org/pdf/1809.06342
+https://arxiv.org/pdf/1911.06793
+https://arxiv.org/pdf/1906.10482
+https://arxiv.org/pdf/1809.09462
+https://arxiv.org/pdf/2005.04135
+https://arxiv.org/pdf/2004.13690
+https://arxiv.org/pdf/1904.11462
+https://arxiv.org/pdf/1911.03427
+https://arxiv.org/pdf/1903.04863
+https://arxiv.org/pdf/1801.04675
+https://arxiv.org/pdf/1805.04021
+https://arxiv.org/pdf/1808.07222
+https://arxiv.org/pdf/1403.2957
+https://arxiv.org/pdf/1605.02994
+https://arxiv.org/pdf/1604.00733
+https://arxiv.org/pdf/1801.05037
+https://arxiv.org/pdf/1507.04074
+https://arxiv.org/pdf/1705.04675
+https://arxiv.org/pdf/1610.09210
+https://arxiv.org/pdf/1603.03025
+https://arxiv.org/pdf/1505.07448
+https://arxiv.org/pdf/1210.7013
+https://arxiv.org/pdf/1402.6011
+https://arxiv.org/pdf/1502.00867
+https://arxiv.org/pdf/1401.2906
+https://arxiv.org/pdf/1305.5440
+https://arxiv.org/pdf/1208.3276
+https://arxiv.org/pdf/1212.1913
+https://arxiv.org/pdf/1408.0744
+https://arxiv.org/pdf/1307.4679
+https://arxiv.org/pdf/1302.1634
+https://arxiv.org/pdf/1212.5966
+https://arxiv.org/pdf/1307.4959
+https://arxiv.org/pdf/1204.6645
+https://arxiv.org/pdf/1305.5565
+https://arxiv.org/pdf/1104.3704
+https://arxiv.org/pdf/0911.2288
+https://arxiv.org/pdf/0911.2292
+https://arxiv.org/pdf/1007.4803
+https://arxiv.org/pdf/0910.2075
+https://arxiv.org/pdf/0909.3354
+https://arxiv.org/pdf/0908.4442
+	Ashwin Sah
+	Mehtaab Sawhney
+	Xiaoyu He
+	James Tao
+	Evan Chen
+	Hanzhi Zheng
+	Ruth Luo
+	Peter Winkler
+	Aoxiang Cui
+	Po-Shen Loh
+	Jian Shen
+	Kevin Ren
+	Nitya Mani
+...
+	Geombinatorics
+...

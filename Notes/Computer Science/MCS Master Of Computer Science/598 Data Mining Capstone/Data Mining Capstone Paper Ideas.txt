@@ -1,0 +1,27 @@
+Most Cited Articles of Data mining
+Title	Journal	Year	Citations
+The WEKA data mining software	SIGKDD Explorations: Newsletter of the Special Interest Group (SIG) on Knowledge Discovery & Data Mining	2009	11.3K
+Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists	Nucleic Acids Research	2009	10.1K
+A Survey on Transfer Learning	IEEE Transactions on Knowledge and Data Engineering	2010	9K
+Object detection with discriminatively trained part-based models	IEEE Transactions on Pattern Analysis and Machine Intelligence	2010	5.8K
+An Introduction to Support Vector Machines and Other Kernel-based Learning Methods		2000	5.3K
+Tensor Decompositions and Applications	SIAM Review	2009	4.9K
+GEPIA: a web server for cancer and normal gene expression profiling and interactive analyses	Nucleic Acids Research	2017	4.2K
+Commentary: The Materials Project: A materials genome approach to accelerating materials innovation	APL Materials	2013	4.1K
+Statistical pattern recognition: a review	IEEE Transactions on Pattern Analysis and Machine Intelligence	2000	3.6K
+A direct approach to false discovery rates	Journal of the Royal Statistical Society Series B: Statistical Methodology	2002	3.6K
+A review of feature selection techniques in bioinformatics	Bioinformatics	2007	3.2K
+Top 10 algorithms in data mining	Knowledge and Information Systems	2008	2.9K
+A practical tutorial on the use of nonparametric statistical tests as a methodology for comparing evolutionary and swarm intelligence algorithms	Swarm and Evolutionary Computation	2011	2.9K
+High-throughput functional annotation and data mining with the Blast2GO suite	Nucleic Acids Research	2008	2.7K
+Kernel Methods for Pattern Analysis		2004	2.7K
+Metabolomics – the link between genotypes and phenotypes	Plant Molecular Biology	2002	2.6K
+Sentiment Analysis and Opinion Mining	Synthesis Lectures on Human Language Technologies	2012	2.2K
+Further Evidence on the Great Crash, the Oil-Price Shock, and the Unit-Root Hypothesis	Journal of Business and Economic Statistics	1992	2.1K
+Data-intensive applications, challenges, techniques and technologies: A survey on Big Data	Information Sciences	2014	1.5K
+TM4 microarray software suite	Methods in Enzymology	2006	1.5K
+A survey on concept drift adaptation	ACM Computing Surveys	2014	1.5K
+Microarray data normalization and transformation	Nature Genetics	2002	1.5K
+A survey of transfer learning	Journal of Big Data	2016	1.4K
+On Clustering Validation Techniques	Journal of Intelligent Information Systems	2001	1.4K
+Clustering of the self-organizing map	IEEE Transactions on Neural Networks	2000	1.4K

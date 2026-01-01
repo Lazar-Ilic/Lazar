@@ -1,0 +1,31 @@
+Introduction To High-Performance And Parallel Computing
+Effective Programming In Scala
+Parallel Programming [Scala 2 Version]
+Parallel Programming
+Graphics Processing Unit Programming
+Computers, Waves, Simulations: A Practical Introduction To Numerical Methods Using Python
+Advanced Data Science With IBM
+Introduction To Big Data With Spark And Hadoop
+Fundamentals Of Scalable Data Science
+Simulation And Modeling Of Natural Processes
+Applied Artificial Intelligence With Deep Learning
+Introduction To Concurrent Programming With Grapihics Processing Units
+Machine Learning Operations Fundamentals
+Cloud Data Engineering
+CUDA At Scale For The Enterprise
+Data Manipulation At Scale: Systems And Algorithms
+Graph Analytics For Big Data
+Google Data Analytics
+IBM Data Science
+IBM Data Analyst
+Introduction To Data Science
+Data Science Fundamentals With Python And SQL
+IBM Data Analytics With Excel And R
+Data Science
+Data Science: Foundations Using R
+Applied Data Science With R
+Tools For Data Science
+Methods And Statistics In Social Sciences
+Google Data Analytics
+Data Analysis With R Programming
+Bayesian Statistics

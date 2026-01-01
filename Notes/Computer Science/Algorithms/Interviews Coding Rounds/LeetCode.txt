@@ -1,0 +1,3 @@
+I might try and compile throw up some very solid performant C++ implementations here for the so called Elite Code "Hard" tasks which are still much easier than strictly dominating strong generalisations that would normally appear in the literature, on other serious competitive programming platforms, and perhaps in Interviews Coding Rounds.
+
+Frankly then it might be more fun to actually tank some time say do 1 per day of attempting to implement like half high brow Codeforces tasks in very performant C++ consistent style from scratch and then compare with the minimum runtime Accepted programs from the system platform.

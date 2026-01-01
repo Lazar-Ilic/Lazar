@@ -1,0 +1,43 @@
+\Large
+Rochester Institute Of Technology Mathematics Competition 2022 \\
+Lazar Ilic
+
+1 \\
+One immediately can decompose that for example $p(x) = (x^{18}-1)(x^2-1)(x^3-1) \dots (x^{16}-1) = (x-1)(1+x+x^2+\dots+x^{17})(x^2-1)(x^3-1) \dots (x^{16}-1)$ so we may immediately modulo out that component ab initio as in polynomial long division upon say a first parentheses expansion $(x-1)(x+x^2+\dots+x^{17})(x^2-1)(x^3-1) \dots (x^{16}-1)$ is clearly divisble by $(1+x+x^2+\dots+x^{16})$. At which point we see that it suffices to compute the remainder for $\frac{p'(x)}{s(x)}$ where $p'(x) = (x-1)(x^2-1)\dots(x^{16}-1) = (x-1)^{16}(1)(1+x)\dots (1+x+\dots+x^{15})$. But this is simply $\boxed{17}$ as can be verified either with a strong induction argumentation based upon coefficients in the polynomial division or with a pure algebraic computer software verification.
+
+2 \\
+It may be seen for example by similar triangles and dropping the altitude from the right vertex down say now we have the original hypotenuse was of length $c$ and the height here $h$ one can immediately see that as we smoothly transition the rectangle up from having base $c$ with height $0$ to base $0$ with height $h$ what will occur is when the base has total length, by partitioning each length ratio along the $2$ sub triangles cut by the height $h$ and those similar triangles having the same ratios, $cr$ the height will have length $h(1-r)$. So then it suffices to note that the maximum area rectangle will merely simply occur at the maximum of $chr(1-r)$ which is when $r = \frac{1}{2}$ by the Arithmetic Mean - Geometric Mean Inequality. In any case this corresponds with each sub height being dropped from the midpoints/centroids of the initial legs which means that certainly the hypotenuses of the $2$ smaller triangles are in fact congruent, equivalent with the legs of the bigger one. Now this implies the desired by the Pythagorean Theorem in conjunction with the fact that the ratio between inradius and hypotenuse is a constant for all $4$ of the involved triangles, meaning critically these $3$ induced sub triangles that this task is about.
+
+3 \\
+Tricky tricky tricky I was thinking like a hand waved probabilistic density style argumentation to show something if I cannot come up with a number theory or polynomial based approach.
+
+4 \\
+The idea of an invariant comes to mind rather than a monovariant. Say either some simple sort of weighting scheme for Black and White vertices perhaps based upon degree or degree modulo $2$ or some such thing. I dunno normally I would have the energy to actually do and crack this task. Another very serious plausible viable approach if failing to onsight the relevant monovariant here is to actually test out graphs for say up to $n = 10$ vertices via a computer simulation of the process and then eyeball a variety of possible parameters for the monovariant until producing some set of plausible ones and then examining them closely to see why they work. It ought to be noted that perhaps the only other possible ending state is a Black adjacent to a White which repeatedly inverts into itself i.e. is another recurrent absorption state in the underlying infinite Markov Chain process here mapping graphs to graphs with $P = 1$.
+
+5 \\
+The given equation rearranges to the simple $3xy = 17y + 19x$ which further becomes $y = \frac{19 x}{3 x - 17}$. Now at this point it is clear say by the Euclidean Algorithm applied to $(x , 3x - 17)$ that the $\text{GCD} (x , 3 x - 17) = 1 , 17$ under the usual positivity or assumptions in conjunction with the prime factorisation. Now this means that $(3 x - 17) | 17 \cdot 19 = 323$. So casework on $3 x - 17 = -323, -19, -17, -1, 0, 1, 17, 19, 323$ reveals the solutions $\boxed{(-102 , 6), (6, 114), (12, 12)}$.
+
+6 \\
+$\boxed{\text{Yes}}$. For example as motivation one may consider the Cauchy Condensation Test applied validly on this monotone decreasing sequence by trivial inequalities wherein this series converges if and only if the condensed series $\sum_{n = 0}^{\infty} 2^n f (2^n)$ converges. But then this is for example as easy as like sat ignoring the $n=1$ case mapped into the $n=0$ case corresponding with like $a_1 = 0$ or whatever doesn't matter what happens is we get like $\sum_{n = 1}^{\infty} 2^n \cdot \frac{1}{2^n} \cdot \frac{1}{(2^n)^{a_{2^n}}} = \sum_{n = 1}^{\infty} \frac{1}{2^{n a_{2^n}}}$. Now this can be made to converge quite easily for example by simply setting $a_{2^n} = \frac{1}{\sqrt{n}}$ which will indeed go to $0$ in the limit and everything in between can simply take on the value of the previous power of $2$ indexed variable for example. Or more simply in the unmapped version we can take like $\forall n \ge 2, a_n = \frac{1}{\sqrt{\ln(n)}}$ which again will go in the limit to $0$ and converge by the Cauchy Condensation test similarly.
+
+7 \\
+This is a half interesting task in Ordinary Differential Equations and Inequalities in lowkey disguise. The immediate idea is of course to simply resolve that $\frac{(y')^2}{y^4} = \frac{1}{4}$ resolves to the simple solution of $f(x) = -\frac{2}{x-12}$ so that $f(6) = \boxed{\frac{1}{3}}$ and of course the integral is very simply a constant integrand of $\frac{1}{4}$ on the domain of integration such that the desired resolves correctly. There exist a variety of ways to go about proving uniqueness. I uh first considered some clever manipulations of the native functional integrand but then simply realised that un passing from the continuous case in to a sufficiently high resolution low $\epsilon$ approximation such that errors go to $0$ in the limit as $\epsilon \to 0$ one obtains a very simple discretisation smoothing setting of line segments at which point this will transform in to like a pretty standard invocation of Cauchy-Schwarz or Holder type reasoning in the smoothing.
+
+8 \\
+$\boxed{\text{Yes, No}}$. For example for a $6 \times 5$ board one may simply do:
+
+$1660AA$ \\
+$15509B$ \\
+$24889B$ \\
+$247CCD$ \\
+$337EED$
+
+Which may be seen to work for example by inspection, manually checking verifying that each interior row and column does indeed contain the midline of at least $1$ domino in this construction.
+
+That it is impossible for the $6 \times 6$ is extremely well known and canonical. Indeed the usual argumentation goes that there will exist $18$ dominos and $10$ different interior lines must be hit by midlines. But then by the Pigeonhole Principle there must exist at least $1$ line which is only hit by precisely $1$ domino midline. And this leads to an immediate contradiction as then this would permit upon slicing via that line we would observe that somehow we had decomposed an $a \times 6$ sub rectangle via dominos and with an additional precisely $1$ piece of size $1 \times 1$ from that singular $1$ sliced in half domino in the original tiling. But this is a contradiction on parity as then the area must be odd and even at the sime time simultaneously as the area $6a$ is even. So the contradiction modulo $2$ has been obtained.
+
+9 \\
+One obtains that the $\lim_{x \to 1^{-}} \sqrt{\ln \left( \frac{1}{x} \right)} (1 + \theta_3 (0,x)) = \boxed{\frac{\sqrt{\pi}}{2}}$.
+
+10 \\
+Could probably write up a super simple script based upon Collins Scrabble Words to parse through with all real prefixes and words stored in a hash map in a like simple depth first search pruning through all possible key texts to produce both the key and initial text which generate, add up to, this particular string.

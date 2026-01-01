@@ -1,0 +1,877 @@
+Foreword
+
+This is the 13th edition of Collins English Dictionary. The first edition was published in 1979 as a new venture: the firm of William Collins Sons & Co had been producing dictionaries since 1819, but this book was larger than any dictionary that it had hitherto produced. It attempted to provide comprehensive coverage of English in a single volume, while also being the first major British dictionary to include entries for people and places. Ever since the success of that first edition, the editors have been striving to keep the book up to date in a constantly changing world, while maintaining its values of clarity, comprehensiveness, and relevance.
+
+As we approach the 40th anniversary of the first edition, this new edition remains an essential reference tool, giving the recognized meanings and spellings of words in general use as well as thousands of technical words and also older or obscure words that may only be encountered in literature or in crosswords and word games. It also contains around one thousand new words and meanings that reflect the way the English language has evolved in the years since the previous edition.
+
+To help chart this evolution, lexicographers consult a corpus, which is an enormous database of language. The lexicographers at Collins are fortunate to have access to the Collins Corpus, which holds over 4.5 billion words of current English and is constantly updated. The Collins Corpus allows a comparative analysis of language at different points in time and paints a clear picture of what has changed, and which words have emerged, since the last revision of the dictionary.
+
+Many of the new words entering any new edition of the dictionary are driven by recent world events. Terms such as Brexiteer, hard border, fake news, and kompromat reflect political issues that have been in the headlines in the latter part of the 2010s, while ongoing concern about our planet's ability to cope with large quantities of waste, particularly plastic, has brought terms such as microbead, PETE, and fatberg within the remit of the dictionary.
+
+However, this new edition also includes words that are entering our language at a more quotidian level. As English-speaking countries have continued to embrace new dishes from all over the world, the names of many dishes and ingredients have ceased to be regarded as foreign words but have become assimilated into English. So words such as freekeh, matcha, sriracha, and rendang are all included for the first time in the current edition.
+
+Every new edition of the dictionary, especially since the 1990s, has had to address the central role that digital technology plays in the modern world. The current edition reflects the latest innovations in this field with terms such as dashcam and blockchain, while the inclusion of dark Web and GDPR point to a new level of concern about the possible ways in which this technology may be abused. As social media usage becomes commonplace across generations and cultures, new conventions and forms of behaviour are being established, all of which bring new terminology into the lexicon, so that we now have to find space for terms such as private message, upvote, and digital detox. Online gaming too has provided new words such as cutscene and open-world, both of which are included for the first time in this edition.
+
+Indeed, there are few areas of life where language stands completely still. New words continue to emerge in commerce (Black Friday, challenger bank, gig economy), sport (vanishing spray, VAR, GOAT), and science (where the chemical elements of moscovium, nihonium, oganesson, and tennessine are now officially accepted). One particularly noteworthy area of language change concerns gender and sexuality, where new terms, such as gender-fluid, transperson, and heteronormative, have emerged to reflect a broader view of gender and sexual identity.
+
+It has always been a concern of Collins English Dictionary to reflect English's status as a global language. The current edition continues to note the variations found in Canada, Australia, New Zealand, South Africa, the Caribbean, and India, with words such as CanCon, seachanger, Pasifika, zama zama, CSME, and Aadhaar demonstrating how the language is developing in different parts of the globe.
+
+Not all new words are created as a result of the need to find names for the new phenomena that emerge in our world. Speakers of English are constantly looking for new and expressive ways of communicating, and coming up with slang and informal expressions for existing words. In the age of social media, these can be circulated quickly and soon become widely used. The editors are able to examine the Collins Corpus to assess when a new slang word has become sufficiently well-established to merit inclusion in the dictionary, and coinages to make the grade include swole, woke, bae, blud, and hench along with idiomatic phrases such as park the bus, smash it, and suck it up.
+
+Conversely, not every new phenomenon requires a completely new entry in the dictionary. One of the characteristic ways in which language develops is that existing words are brought into service as metaphors to describe new phenomena and so acquire new meanings. Social media sites have been notoriously adept at adapting words such as like, trend, profile, and friend to describe the activities performed on them. Yet the idea of finding new meanings for an existing word is not confined to social media. In the previous edition of the dictionary, the word snowflake could mean either a small arrangement of ice crystals falling as snow or else a delicate European plant. Contemporary usage has introduced a third definition, as the snowflake's fragility has led to it to be used as a rather derogatory metaphor for a young person who lacks resilience and is especially prone to taking offence. Other words that have acquired new senses that reflect the different ways that they are used in modern speech include dab, grunt, ink, and traction.
+
+As with every edition of the dictionary, the entries for people and places have been reviewed and updated. New entries have been added for important contemporary figures, and there are even more entries for places and peoples, so that users will now be able to look up the likes of Trump, Macron, Raqqah, and Rohingya.
+
+One significant trend in the modern world is for names that were given by colonizing powers to be replaced by names that reflect the language and culture of the local population. Thus the country formerly known as Swaziland has recently become eSwatini, while several cities in former Soviet states have changed their official names from those declared during the Soviet era: in Ukraine, for example, the city once known as Dnepropetrovsk is now Dnipro. In Australia and New Zealand, the names used by indigenous peoples have been incorporated into official names such as Aoraki–Mount Cook, and Kati Thanda–Lake Eyre. The dictionary has been updated to provide the current official names of each place, while still noting former names so that users looking up those forms will be directed to the official name.
+
+As a result of all of this, the current edition represents a significant advance on its predecessor. We hope that it provides a clear and accurate reflection of the English language as it is used in the second decade of the twenty-first century, just as the acclaimed first edition so successfully described English in the late 1970s.
+
+Contribute to Collins Dictionary – the home of living English
+
+The way in which we collect words has undergone great change. Before computerized language databases emerged later in the 20th century, dictionary compilers were largely reliant on their own instincts, augmented by reading programmes and the contributions of specialist consultants, when it came to identifying new words, meanings, and usages.
+
+The internet has brought about another revolution in dictionary-making. When we launched Collins Dictionary online in 2012, we invited word lovers across the globe to contribute new words and help us make our word collection process truly democratic. By 2018, we had received over 20,000 suggestions, opening up whole new worlds of words and areas of language for the editors to consider.
+
+Everyone is welcome to join us in the home of living English by contributing new words and meanings at www.collinsdictionary.com, where we celebrate the extraordinary breadth and changing nature of English worldwide.
+
+Guide to the Use of the Dictionary
+
+The Guide that follows sets out the main principles on which the dictionary is arranged and enables you to make full use of the dictionary by showing the range of information that it contains.
+
+Headword
+
+All main entries, including place names, abbreviations, prefixes, and suffixes, are shown in large bold type and are listed in strict alphabetical order. This applies even if the headword consists of more than one word.
+
+Some main entries contain subentries, in alphabetical order within the main entry. These subentry headwords are closely related to the main entry headword, usually in that they are compounds (eg bandstand at band) or derivatives (eg abhorrent at abhor) of that word. However, where the editors have judged that such a word would be too difficult to find as a subentry, the word will be found as a separate, main entry.
+
+Order of entries
+
+Words with superscript numbers after the headwords are homographs – they have the same spelling but are derived from different sources.
+
+saw1 (sɔː) n 1 any of various hand tools ...
+
+saw2 (sɔː) vb the past tense of see1
+
+saw3 (sɔː) n a wise saying, maxim, or proverb ...
+
+A word with a capital initial letter, if entered separately, follows the lowercase form. For example, Arras follows arras.
+
+Place names
+
+If a place has more than one name, its main entry is given at the name most often used in modern English, with a cross-reference at other names. Thus, the main entry for the capital of Bavaria is at Munich, with a cross-reference at München. If a place name has no current anglicized form, its main entry is at the form of the name used in the official language of the area. Thus, the main entry is at Brno, with a cross-reference at Brünn. Historical names of importance are also given, with dates where these can be ascertained.
+
+Paris1 (ˈpærɪs; French pari) n ... Ancient name: Lutetia
+
+Volgograd (Russian vəlɡaˈɡrat; English vɒlɡəʊɡræd) n ... Former names: (until 1925) Tsaritsyn, (1925–61) Stalingrad
+
+Statistical information about places has been obtained from the most up-to-date and reliable sources available. Population figures are derived from a recent census, the date of which is always given.
+
+Abbreviations, acronyms, and symbols
+
+Abbreviations, acronyms, and symbols are entered as headwords in the main alphabetical list. In line with modern practice, full stops are generally not used but it can be assumed that nearly all abbreviations are equally acceptable with or without stops.
+
+Alphanumeric representations of words – GR8 (great), B4 (before), etc – are ordered such that the numeral is not regarded as representing a letter or a word. Instead, such entries are ordered like other alphanumeric abbreviations, for example K2 (the mountain).
+
+gr
+
+GR
+
+Gr.
+
+GR8
+
+Graafian follicle
+
+This rule, however, does not apply to the small number of alphanumeric representations of words that start with a numeral. In such cases the numeral is spelled out as the letter or series of letters that it represents.
+
+Forester 4EVA
+
+forex
+
+Prefixes, suffixes, and combining forms
+
+Prefixes (eg in-, pre-, sub-), suffixes (eg -able, -ation, -ity), and combining forms (eg psycho-, -iatry) have been entered as headwords if they are still used freely to produce new words in English.
+
+Plural headwords
+
+Words that have a standard use or uses in the plural may have headwords for both singular and plural forms, with the plural form most often given as a subentry of the singular form.
+
+affair (əˈfεə) n 1 a thing to be done or attended to ... affairs (əˈfεəz) pl n 1 personal or business interests ...
+
+Variant spellings
+
+Common acceptable variant spellings of English words are given as alternative forms of the headword.
+
+capitalize or capitalise (ˈkæpɪtəˌlaɪz) vb ...
+
+US spellings
+
+Where different, US spellings are also recorded in the headword.
+
+centre or US center (ˈsεntə) n ...
+
+Pronunciations
+
+Pronunciations of words in this dictionary represent those that are common in Standard English. They are transcribed in the International Phonetic Alphabet (IPA). A Pronunciation Key is given at the end of this Guide. The pronunciation is normally given in brackets immediately after the headword.
+
+abase (əˈbeɪs) vb (tr) 1 to humble ...
+
+The stress pattern is marked by the symbols ˈ for primary stress and ˌ for secondary stress. The stress mark precedes the syllable to which it applies.
+
+Variant pronunciations
+
+When a headword has an acceptable variant pronunciation or stress pattern, the variant is given by repeating only the syllable or syllables that change.
+
+economic (ˌiːkəˈnɒmɪk, ˌεkə-) adj 1 of or relating to ...
+
+Pronunciations with different parts of speech
+
+When two or more parts of speech of a word have different pronunciations, the pronunciations are shown in brackets before the relevant group of senses.
+
+record n (ˈrεkɔːd) 1 an account in permanent form ... ▷ vb (rɪˈkɔːd) (mainly tr) 19 to set down in some permanent form ...
+
+Pronunciation of individual senses
+
+If one sense of a headword is pronounced differently from the other senses, the pronunciation is given in brackets after the sense number.
+
+conjure (ˈkʌndӡə) vb 1 (intr) to practise conjuring or be a conjuror 2 (intr) to call upon supposed supernatural forces by spells and incantations 3 (kənˈdӡʊə) (tr) to appeal earnestly or strongly to: I conjure you to help me
+
+Foreign words and phrases
+
+Foreign words or phrases are in bold italic type and are given foreign-language pronunciations only, unless they are regarded as having become accepted into English.
+
+Weltschmerz German (ˈvεltʃmεrts) n ...
+
+Inflected forms
+
+Where inflections are not shown, it may be assumed that they are formed as follows:
+
+nouns regular plurals are formed by the addition of -s (eg pencils, monkeys) or, in the case of nouns ending in -s, -x, -z, -ch, or -sh, by the addition of -es (eg losses).
+
+verbs in regular inflected verbs: the third person singular of the present tense is formed by the addition of -s to the infinitive (eg plays) or, for verbs ending in -s, -x, -z, -ch, or -sh, by the addition of -es (eg passes, reaches); the past tense and past participle are formed by the addition of -ed to the infinitive (eg played); the present participle is formed by the addition of -ing to the infinitive (eg playing). Verbs that end in a consonant plus -e (eg locate, snare) regularly lose the final -e before the addition of -ed and -ing.
+
+adjectives regular comparatives and superlatives of adjectives are formed by adding -er and -est to the base (eg short, shorter, shortest). Adjectives that end in a consonant plus -e regularly lose the -e before -er and -est (eg fine, finer, finest).
+
+Parts of speech
+
+A part-of-speech label in italics precedes the sense or senses relating to that part of speech.
+
+Standard parts of speech
+
+The standard parts of speech, with the abbreviations used, are as follows: adjective (adj), adverb (adv), conjunction (conj), interjection (interj), noun (n), preposition (prep), pronoun (pron), verb (vb).
+
+Less traditional parts of speech
+
+Some less traditional parts of speech have been used in this dictionary:
+
+determiner this denotes such words as the, a, some, any, that, this, as well as the numerals, and possessives such as my and your. Many determiners can have a pronoun function without a change of meaning:
+
+some (sʌm; unstressed səm) determiner ... 2 a an unknown or unspecified quantity or amount of: there's some rice on the table; he owns some horses b (as pronoun; functioning as sing or plural): we'll buy some
+
+sentence connector this description replaces the traditional classification of certain words, such as therefore and however, as adverbs or conjunctions. These words link sentences together rather in the manner of conjunctions; however, they are not confined to the first position in a clause as conjunctions are.
+
+sentence substitute these are words such as yes, no, perhaps, definitely, and maybe. They can stand alone as meaningful utterances.
+
+Words used as more than one part of speech
+
+If a word can be used as more than one part of speech, the senses of one part of speech are separated from the others by an empty arrow (▷).
+
+lure (lʊə) vb (tr) ... 2 falconry to entice (a hawk or falcon) from the air to the falconer by a lure ▷ n 3 a person or thing that lures ...
+
+Grammatical information
+
+Grammatical information is provided in brackets and typically in italics to distinguish it from other types of information.
+
+Adjectives and determiners
+
+Some adjectives and determiners are restricted by usage to a particular position relative to the nouns they qualify. This is indicated by the following labels:
+
+postpositive (used predicatively or after the noun, but not before it):
+
+ablaze (əˈbleɪz) adj, adv (postpositive) 1 on fire; burning ...
+
+immediately postpositive (always used immediately following the noun qualified and never used predicatively):
+
+galore (ɡəˈlɔː) determiner (immediately postpositive) in great numbers or quantity: there were daffodils galore in the park ...
+
+prenominal (used before the noun, and never used predicatively):
+
+chief (tʃiːf) ... adj 5 (prenominal) a most important; principal ...
+
+Intensifiers
+
+Adjectives and adverbs that perform an exclusively intensifying function, with no addition of meaning, are described as (intensifier) without further explanation.
+
+blooming (ˈbluːmɪŋ) adv, adj Brit informal (intensifier): a blooming genius; blooming painful
+
+Conjunctions
+
+Conjunctions are divided into two classes, marked by the following labels:
+
+coordinating coordinating conjunctions connect words, phrases, or clauses that perform an identical function and are not dependent on each other. They include and, but, and or.
+
+subordinating subordinating conjunctions introduce clauses that are dependent on a main clause in a complex sentence. They include where, until, and if.
+
+Some conjunctions, such as while and whereas, can function as either coordinating or subordinating conjunctions.
+
+Singular and plural labelling of nouns
+
+Headwords and senses that are apparently plural in form but that take a singular verb, etc, are marked (functioning as singular):
+
+physics (ˈfɪzɪks) n (functioning as singular) 1 the branch of science ...
+
+Headwords and senses that appear to be singular, such as collective nouns, but that take a plural verb, etc, are marked (functioning as plural):
+
+cattle (ˈkætəl) n (functioning as plural) 1 bovid mammals of the tribe Bovini ...
+
+Headwords and senses that may take either a singular or a plural verb, etc, are marked (functioning as singular or plural):
+
+bellows (ˈbεləʊz) n (functioning as singular or plural) 1 Also called: pair of bellows an instrument consisting of an air chamber ...
+
+Modifiers
+
+A noun that is commonly used as if it were an adjective is labelled modifier. If the sense of the modifier can be understood from the sense of the noun, the modifier is shown without further explanation, with an example to illustrate its use. Otherwise its meaning and/or usage is explained separately.
+
+horror (ˈhɒrə) n ... 4 (modifier) having a frightening subject, esp a supernatural one: a horror film
+
+Verbs
+
+The principal parts given are: 3rd person singular of the present tense; present participle; past tense; past participle (if different from the past tense).
+
+Intransitive and transitive verbs
+
+When a sense of a verb (vb) is restricted to transitive use, it is labelled (tr); if it is intransitive only, it is labelled (intr). If all the senses of a verb are transitive or all are intransitive, the appropriate label appears before the first numbered sense and is not repeated.
+
+Absence of a label indicates that the sense may be used both transitively and intransitively.
+
+If nearly all the senses of a verb are transitive, the label (mainly tr) appears immediately before the first numbered sense. This indicates that, unless otherwise labelled, any given sense of the verb is transitive. Similarly, all the senses of a verb may be labelled (mainly intr).
+
+Copulas
+
+A verb that takes a complement is labelled (copula).
+
+seem (siːm) vb (may take an infinitive) 1 (copula) to appear to the mind or eye; look: this seems nice; the car seems to be running well ...
+
+Phrasal verbs
+
+Verbal constructions consisting of a verb and a prepositional or an adverbial particle are given headword status if the meaning of the phrasal verb cannot be deduced from the separate meanings of the verb and the particle.
+
+Phrasal verbs are labelled to show four possible distinctions:
+
+a transitive verb with an adverbial particle (tr, adverb); a transitive verb with a prepositional particle (tr, preposition); an intransitive verb with an adverbial particle (intr, adverb); an intransitive verb with a prepositional particle (intr, preposition):
+
+turn on ... 4 (tr, adverb) informal to produce (charm, tears, etc) suddenly or automatically
+
+take for vb (tr, preposition) informal to consider or suppose to be, esp mistakenly: the fake coins were taken for genuine; who do you take me for?
+
+break off ... 3 (intr, adverb) to stop abruptly; halt: he broke off in the middle of his speech
+
+turn on ... 2 (intr, preposition) to depend or hinge on: the success of the party turns on you
+
+If there is no label (tr) or (intr), the verb may be used either transitively or intransitively. If there is no label (adverb) or (preposition), the particle may be either adverbial or prepositional.
+
+Restrictive labels
+
+An italic label immediately before a definition indicates that a particular sense is restricted as to appropriateness, connotation, subject field, etc:
+
+hang on vb (intr) ... 5 (adverb) informal to wait or remain: hang on for a few minutes
+
+If a label applies to all senses of one part of speech, it is placed immediately after the part-of-speech label.
+
+buffalo (ˈbʌfəˌləʊ) n ... ▷ vb (tr) US and Canadian informal 4 (often passive) to confuse 5 to intimidate
+
+If a label applies to all senses of a headword, it is placed immediately after the pronunciation (or inflections).
+
+con1 (kɒn) informal n 1 a short for confidence trick b (as modifier): con man ▷ vb cons, conning, conned 2 (tr) to swindle or defraud
+
+Usage labels
+
+slang refers to words or senses that are informal and restricted in context, for example, to members of a particular social or cultural group. Slang words are inappropriate in formal speech or writing.
+
+informal applies to words or senses that may be widely used, especially in conversation, emails, etc, but that are not common in formal writing. Such words are subject to fewer contextual restrictions than slang words.
+
+vulgar indicates words that refer to parts of the body and bodily functions in a coarse way and are not acceptable in polite use.
+
+taboo indicates words that are not acceptable in almost all contexts.
+
+offensive indicates that a word might be regarded as offensive by the person described or referred to, even if the speaker uses the word without any malicious intention. Such words often make reference to people based on race, religion, gender, sexuality, or disability.
+
+derogatory implies that the connotations of a word are unpleasant with intent on the part of the speaker or writer.
+
+not standard indicates words or senses that are frequently encountered but widely regarded as incorrect.
+
+archaic denotes a word or sense that is no longer in common use but that may be found in literary works or used to impart a historical colour to contemporary writing.
+
+obsolete denotes a word or sense that is no longer in use. In specialist or technical fields the label often implies that the term has been superseded.
+
+The word 'formerly' is placed in brackets before a sense when the practice, concept, etc, being described, rather than the word itself, is obsolete or out of date.
+
+A number of other usage labels, such as ironic, facetious, old-fashioned, and euphemistic, are used where appropriate. Further help on usage is provided in usage notes after certain entries.
+
+Subject-field labels
+
+A number of italic labels, such as genetics, economics, and sport, are used to indicate that a word or sense is used in a particular specialist or technical field.
+
+National and regional labels
+
+Words or senses restricted to or associated with a particular country or region are labelled accordingly. The following labels are the ones most frequently used: Austral (Australian), Brit (British), Canadian, Caribbean, Irish, NZ (New Zealand), Scot (Scottish), South African, US (United States).
+
+The label Brit is used mainly to distinguish a particular word or sense from its North American equivalent or to identify a term or concept that does not exist in North American English. The North American equivalent may be given in bold type after the appropriate numbered sense.
+
+Regional dialects (Scot and Northern English dialect, Midland dialect, etc) have been specified as precisely as possible, even at the risk of overrestriction, in order to give the reader an indication of the appropriate regional flavour.
+
+Meaning
+
+The meaning of each headword in this dictionary is explained in one or more definitions, together with information about context and typical use.
+
+Order of senses
+
+As a general rule, where a headword has more than one sense, the first sense given is the one most common in current usage.
+
+complexion (kəmˈplεkʃən) n 1 the colour and general appearance of a person's skin, esp of the face 2 aspect, character, or nature: the general complexion of a nation's finances 3 obsolete a the temperament of a person ...
+
+Where the lexicographers consider that a current sense is the 'core meaning', in that it illuminates the meaning of other senses, the core meaning may be placed first.
+
+competition (ˌkɒmpɪˈtɪʃən) n 1 the act of competing; rivalry 2 a contest in which a winner is selected from among two or more entrants 3 a series of games, sports events, etc 4 the opposition offered by a competitor or competitors
+
+Subsequent senses are arranged so as to give a coherent account of the meaning of a headword. If a word is used as more than one part of speech, all the senses of each part of speech are grouped together in a single block. Within a part-of-speech block, closely related senses are grouped together; technical senses usually follow general senses; idioms and fixed phrases are generally placed last.
+
+Scientific and technical definitions
+
+Units, physical quantities, formulas, etc In accordance with the recommendations of the International Standards Organization, all scientific measurements are expressed in SI units (Système International d'Unités). Measurements and quantities in more traditional units are often given as well as SI units. The entries for chemical compounds often give the systematic names as well as the more familiar popular names.
+
+Plants and animals When the scientific (Latin) names of phyla, divisions, classes, orders, families, genera, and species are used in definitions, they are in italic type and all except the specific name have an initial capital letter.
+
+moss (mɒs) n 1 ... any bryophyte of the phylum Bryophyta, typically growing in dense mats on trees ...
+
+Cross-references
+
+The main entry is always given at the most common spelling or form of the word. Cross-reference entries refer to this main entry. Thus the entry for deoxyribonucleic acid cross-refers to DNA, where the full explanantion is given.
+
+Comparisons
+
+Cross-references introduced by the words 'See also' or 'Compare' refer the reader to additional information elsewhere in the Dictionary. If the cross-reference is preceded by a solid arrow ▶, it applies to all senses of the main entry or subentry headword that have gone before it, unless otherwise stated. If there is no arrow, the cross-reference applies only to the sense immediately preceding it.
+
+Variant spellings
+
+Variant spellings (eg foetus ... a variant spelling of fetus) are generally entered as cross-references if their place in the alphabetical lists is considerably distant from the main entry.
+
+Alternative names
+
+Alternative names or terms are in bold type and introduced by the words 'Also' or 'Also called'. If the alternative name or term is preceded by a solid arrow (▶), it applies to all senses of the main entry or subentry headword that have gone before it.
+
+Related adjectives
+
+Certain nouns, especially of Germanic origin, have related adjectives that are derived from Latin or French. For example, mural (from Latin) is an adjective related in meaning to wall. Such adjectives are shown in a number of cases after the sense (or part-of-speech block) to which they are related.
+
+wall (wɔːl) n 1 a a vertical construction made of stone, brick, wood, etc ... Related adjective: mural
+
+Idioms
+
+Fixed noun phrases, such as dark horse, and certain other idioms are listed as main entry or subentry headwords. Other idioms are placed under the key word of the idiom, as a separate sense, generally at the end of the appropriate part-of-speech block.
+
+ground1 (ɡraʊnd) n ... 21 break new ground to do something that has not been done before ...
+
+Etymologies
+
+Etymologies may appear at the end of a main entry or subentry, inside square brackets.
+
+The purpose of the etymologies is to trace briefly the history of the word back from the present day, through its first recorded appearance in English, to its origin, often in some source language other than English. The etymologies show the history of the word both in English (wherever there has been significant change in form or sense) and in its pre-English source languages. Words given in SMALL CAPITALS refer to other headwords where relevant or additional information, either in the definition or in the etymology, may be found.
+
+Dating
+
+The etymology often records the first known occurrence (a written citation) of a word in English. Words first appearing in the language during the Middle English period or later are dated by century, abbreviated C.
+
+mantis (ˈmæntɪs) n, pl -tises or -tes ... [C17: New Latin, from Greek: prophet, alluding to its praying posture]
+
+This indicates that there is a written citation for mantis in the seventeenth century. The absence of a New Latin or Greek form in the etymology means that the form of the word was the same in those languages as in English.
+
+Old English
+
+Native words from Old English are not dated, written records of Old English being scarce, but are simply identified as being of Old English origin.
+
+Subentries
+
+Derived words
+
+Words derived from a base word by the addition of suffixes such as -ly, -ness, etc, may be entered in bold type immediately after the etymology or after the last definition if there is no etymology.
+
+They are preceded by the symbol >. The meanings of such words may be deduced from the meanings of the suffix and the headword.
+
+If a derived word has definitions of its own, it has subentry status in the entry for the base word, and is preceded by the symbol ■.
+
+call (kɔːl) vb 1 (often foll by out) to speak or utter ...
+
+caller (ˈkɔːlə) n 1 a person or thing that calls, esp a person who makes a brief visit
+
+Compounds
+
+Subentries may also be compounds, words formed from two or more words or combining forms, the first of which will be the main entry headword or another of its subentries.
+
+compulsory (kəmˈpʌlsərɪ) adj 1 required by regulations or laws ...
+
+compulsory purchase n purchase of a house or other property ...
+
+Phrasal verbs
+
+Phrasal verbs (phrases consisting of a verb plus a particle) are usually given as subentries at the main entry for the constituent verb.
+
+count1 (kaʊnt) vb 1 to add up or check ...
+
+count on vb (intr, preposition) to rely or depend on
+
+Usage notes
+
+A brief note introduced by the label USAGE has been added after some entries in order to comment on matters of usage.
+
+Pronunciation Key
+
+The symbols used in the pronunciation transcriptions are those of the International Phonetic Alphabet. The following consonant symbols have their usual English values: b, d, f, h, k, l, m, n, p, r, s, t, v, w, z. The remaining symbols and their interpretations are listed below.
+
+Length
+
+The symbol ː denotes length and is shown together with certain vowel symbols when the vowels are typically long.
+
+Stress
+
+Three grades of stress are shown in the transcriptions by the presence or absence of marks placed immediately before the affected syllable. Primary or strong stress is shown by ', while secondary or weak stress is shown by ˌ. In photographic (ˌfəʊtə'ɡræfɪk), for example, the first syllable carries secondary stress and the third primary stress.
+
+Notes
+
+(i) Though words like castle, path, and fast are shown as pronounced with an /ɑ:/ sound, many speakers use an /æ/. Such variations are acceptable and are to be assumed by the reader.
+
+(ii) The letter 'r' in some positions is not sounded in the speech of Southern England and elsewhere. However, many speakers in other areas do sound the 'r' in such positions with varying degrees of distinctness. Again such variations are to be assumed, and in such words as fern, fear, and arm the reader will sound or not sound the 'r' according to his or her speech habits.
+
+(iii) Though the widely received pronunciation of words like which and why is with a simple /w/ sound and is so shown in the dictionary, many speakers in Scotland and elsewhere preserve an aspirated sound: /hw/. Once again this variation is to be assumed.
+
+English Sounds
+
+ɑː as in father ('fɑːðə), alms (ɑːmz), clerk (klɑːk), heart (hɑːt), sergeant ('sɑːdӡənt)
+
+æ as in act (ækt), Caedmon ('kædmən), plait (plæt)
+
+aɪ as in dive (daɪv), aisle (aɪl), guy (ɡaɪ), might (maɪt), rye (raɪ)
+
+aɪə as in fire ('faɪə), buyer ('baɪə), liar ('laɪə), tyre ('taɪə)
+
+aʊ as in out (aʊt), bough (baʊ), crowd (kraʊd), slouch (slaʊtʃ)
+
+aʊə as in flour ('flaʊə), cower ('kaʊə), flower ('flaʊə), sour ('saʊə)
+
+ε as in bet (bεt), bury ('bεrɪ), heifer ('hεfə), said (sεd), says (sεz)
+
+eɪ as in paid (peɪd), day (deɪ), deign (deɪn), gauge (ɡeɪdӡ), grey (ɡreɪ), neigh (neɪ)
+
+εə as in bear (bεə), dare (dεə), prayer (prεə), stairs (stεəz), where (wεə)
+
+ɡ as in get (ɡεt), give (ɡɪv), ghoul (ɡuːl), guard (ɡɑːd), examine (ɪɡ'zæmɪn)
+
+ɪ as in pretty ('prɪtɪ), build (bɪld), busy ('bɪzɪ), nymph (nɪmf), pocket ('pɒkɪt), sieve (sɪv), women ('wɪmɪn)
+
+iː as in see (siː), aesthete ('iːsθiːt), evil ('iːvəl), magazine (ˌmæɡə'ziːn), receive (rɪ'siːv), siege (siːdӡ)
+
+ɪə as in fear (fɪə), beer (bɪə), mere (mɪə), tier (tɪə)
+
+j as in yes (jεs), onion ('ʌnjən), vignette (vɪ'njεt)
+
+ɒ as in pot (pɒt), botch (bɒtʃ), sorry ('sɒrɪ)
+
+əʊ as in note (nəʊt), beau (bəʊ), dough (dəʊ), hoe (həʊ), slow (sləʊ), yeoman ('jəʊmən)
+
+ɔː as in thaw (θɔː), broad (brɔːd), drawer ('drɔːə), fault (fɔːlt), halt (hɔːlt), organ ('ɔːɡən)
+
+ɔɪ as in void (vɔɪd), boy (bɔɪ), destroy (dɪ'strɔɪ)
+
+ʊ as in pull (pʊl), good (ɡʊd), should (ʃʊd), woman ('wʊmən)
+
+uː as in zoo (zuː), do (duː), queue (kjuː), shoe (ʃuː), spew (spjuː), true (truː), you (juː)
+
+ʊə as in poor (pʊə), skewer (skjʊə), sure (ʃʊə)
+
+ə as in potter ('pɒtə), alone (ə'ləʊn), furious ('fjʊərɪəs), nation ('neɪʃən), the (ðə)
+
+ɜː as in fern (fɜːn), burn (bɜːn), fir (fɜː), learn (lɜːn), term (tɜːm)
+
+ʌ as in cut (kʌt), flood (flʌd), rough (rʌf), son (sʌn)
+
+ʃ as in ship (ʃɪp), election (ɪ'lεkʃən), machine (mə'ʃiːn), mission ('mɪʃən), pressure ('prεʃə), schedule ('ʃεdjuːl), sugar ('ʃʊɡə)
+
+ӡ as in treasure ('trεӡə), azure ('æӡə), closure ('kləʊӡə), evasion (ɪ'veɪӡən)
+
+tʃ as in chew (tʃuː), nature ('neɪtʃə)
+
+dӡ as in jaw (dӡɔː), adjective ('ædӡɪktɪv), lodge (lɒdӡ), soldier ('səʊldӡə), usage ('juːsɪdӡ)
+
+θ as in thin (θɪn), strength (strεŋθ), three (θriː)
+
+ð as in these (ðiːz), bathe (beɪð), lather ('lɑːðə)
+
+ŋ as in sing (sɪŋ), finger ('fɪŋɡə), sling (slɪŋ)
+
+ə indicates that the following consonant (l or n) is syllabic, as in bundle ('bʌndəl), button ('bʌtən)
+
+x as in Scottish loch (lɒx)
+
+əɪ as in Scottish aye (əɪ), bile (bəɪl), byke (bəɪk)
+
+Foreign Sounds
+
+The symbols above are also used to represent foreign sounds where these are similar to English sounds. However, certain common foreign sounds require symbols with markedly different values, as follows:
+
+a a in French ami, German Mann, Italian pasta: a sound between English (æ) and (ɑ:), similar to the vowel in Northern English cat or London cut
+
+ɑ a in French bas: a sound made with a tongue position similar to that of English (ɑ:), but shorter
+
+e é in French été, eh in German sehr, e in Italian che: a sound similar to the first part of the English diphthong (eɪ) in day or to the Scottish vowel in day
+
+i i in French il, German Idee, Spanish filo, Italian signore: a sound made with a tongue position similar to that of English (i:), but shorter
+
+ɔ o in Italian no, French bonne, German Sonne: a vowel resembling English (ɒ), but with a higher tongue position and more rounding of the lips
+
+o o in French rose, German so, Italian voce: a sound between English (ɔ:) and (u:) with closely rounded lips, similar to the Scottish vowel in so
+
+u ou in French genou, u in German kulant, Spanish puna: a sound made with a tongue position similar to that of English (u:), but shorter
+
+y u in French tu, ü in German über or fünf: a sound made with a tongue position similar to that of English (i:), but with closely rounded lips
+
+ø eu in French deux, ö in German schön: a sound made with the tongue position of (e), but with closely rounded lips
+
+œ œu in French œuf, ö in German zwölf: a sound made with a tongue position similar to that of English (ε), but with open rounded lips
+
+~ above a vowel indicates nasalization, as in French un (), bon (), vin (), blanc (blã)
+
+x ch in Scottish loch, German Buch, j in Spanish Juan
+
+ç ch in German ich: a (j) sound as in yes, said without voice; similar to the first sound in huge
+
+β b in Spanish Habana: a voiced fricative sound similar to (v), but made by the two lips
+
+ʎ ll in Spanish llamar, gl in Italian consiglio: similar to the (lj) sequence in million, but with the tongue tip lowered and the sounds said simultaneously
+
+ɥ u in French lui: a short (y)
+
+ɲ gn in French vigne, Italian gnocchi, ñ in Spanish España: similar to the (nj) sequence in onion, but with the tongue tip lowered and the two sounds said simultaneously
+
+ɣ g in Spanish luego: a weak (ɡ) made with voiced friction
+
+Abbreviations
+
+adj adjective
+
+adv adverb(ial)
+
+anthropol anthropology
+
+archaeol archaeology
+
+architect architecture
+
+Austral Australian
+
+bacteriol bacteriology
+
+biochem biochemistry
+
+Brit Britain; British
+
+C century (eg C14 = 14th century)
+
+°C degrees Celsius
+
+chem chemistry
+
+conj conjunction
+
+crystallog crystallography
+
+E east(ern)
+
+eg for example
+
+embryol embryology
+
+entomol entomology
+
+esp especially
+
+est estimate
+
+fem feminine
+
+foll followed
+
+ft foot or feet
+
+ichthyol ichthyology
+
+ie that is
+
+immunol immunology
+
+in inch(es)
+
+interj interjection
+
+intr intransitive
+
+km kilometre(s)
+
+m metre(s)
+
+maths mathematics
+
+med medicine
+
+meteorol meteorology
+
+myth mythology
+
+n noun
+
+N north(ern)
+
+NE northeast(ern)
+
+no number
+
+NW northwest(ern)
+
+NZ New Zealand
+
+ophthalmol ophthalmology
+
+ornithol ornithology
+
+palaeontol palaeontology
+
+pathol pathology
+
+pharmacol pharmacology
+
+photog photography
+
+physiol physiology
+
+pl plural
+
+pop population
+
+prep preposition(al)
+
+pron pronoun
+
+psychol psychology
+
+pt point
+
+RC Roman Catholic
+
+S south(ern)
+
+Scot Scottish; Scots
+
+SE southeast(ern)
+
+sing singular
+
+sociol sociology
+
+sq square
+
+SW southwest(ern)
+
+telecomm telecommunications
+
+theol theology
+
+tr transitive
+
+US United States
+
+vb verb
+
+vet veterinary
+
+W west(ern)
+
+wt weight
+
+William Collins' Dream
+
+William Collins' dream of knowledge for all began with the publication of his first book in 1819. A self-educated mill worker, he not only enriched millions of lives, but also founded a flourishing publishing house.William Collins' dream of knowledge for all began with the publication of his first book in 1819. A self-educated mill worker, he not only enriched millions of lives, but also founded a flourishing publishing house.
+
+Collins dictionary publishing began in 1824, with the publication of a Greek Lexicon. The first Collins English dictionary, Collins Senior (Etymological) Dictionary, was edited throughout the 1860s and published in 1874, with various versions following in later years. This was a large-format book with engravings, and while excellent, it was relatively expensive for people to buy. William Collins' first pioneering contribution to dictionary publishing came in 1902, with the publication of the first edition of the Collins Gem Dictionary. This was the world's first small-format dictionary, and also the world's cheapest: William Collins' idea was to publish a dictionary that everyone could afford. Collins Gem Dictionary soon became one of the company's bestknown – and bestselling – books, familiar to generations of dictionary users, handed down from parent (and grandparent) to child, and as popular today as it has ever been.
+
+Collins remain pioneering dictionary publishers today: our dictionaries are easy to use and up to date, benefiting from extensive language research using the Collins Corpus. Constantly updated, and with over 4.5 billion words, this living language resource helps Collins track and monitor language change, allowing us to identify the new words, phrases, and meanings that spring up every day.
+
+The new, 13th edition of Collins English Dictionary reflects this unique breadth and depth, including 1000 newly added words and meanings – and listing 723,000 words, meanings, and phrases in total – making this the largest English dictionary available for Kindle. All of which means that when you use a Collins Dictionary, you are one of the best-informed language users in the world.
+
+Find us at www.collinsdictionary.com.
+
+Aa
+
+3.5G n same as high-speed downlink packet access
+
+a or A (eI) n, pl a's, A's or As 1 the first letter and first vowel of the modern English alphabet 2 any of several speech sounds represented by this letter, in English as in take, bag, calm, shortage, or cobra 3 Also called: alpha the first in a series, esp the highest grade or mark, as in an examination 4 from A to Z from start to finish, thoroughly and in detail
+
+a1 (ə, stressed or emphatic eI) determiner (indefinite article; used before an initial consonant) 1 used preceding a singular countable noun, if the noun is not previously specified or known: a dog; a terrible disappointment 2 used preceding a proper noun to indicate that a person or thing has some of the qualities of the one named: a Romeo 3 used preceding a noun or determiner of quantity: a cupful; a dozen eggs; a great many; to read a lot 4 used preceding a noun indicating a concrete or abstract thing capable of being divided: half a loaf; a quarter of a minute 5 (preceded by once, twice, several times, etc) each or every; per: once a day; two pounds fifty a pound 6 a certain; one: to change policy at a stroke; a Mr Khan called 7 (preceded by not) any at all: not a hope ▶ Compare an1. See the1
+
+a2 (ə) vb an informal or dialect word for have: they'd a said if they'd known
+
+a3 (ə) prep (usually linked to the preceding noun) an informal form of of: sorta sad; a kinda waste
+
+a4 symbol for 1 acceleration 2 are(s) (metric measure of land) 3 atto- 4 chess See algebraic notation
+
+A symbol for 1 music a a note having a frequency of 440 hertz (A above middle C) or this value multiplied or divided by any power of 2; the sixth note of the scale of C major b a key, string, or pipe producing this note c the major or minor key having this note as its tonic 2 a human blood type of the ABO group, containing the A antigen 3 (in Britain) a major arterial road: the A3 runs from London to Portsmouth 4 (formerly, in Britain) a a film certified for viewing by anyone, but which contains material that some parents may not wish their children to see b (as modifier): an A film 5 mass number 6 the number 10 in hexadecimal notation 7 cards ace 8 chem argon (now superseded by Ar) 9 ampere(s) 10 Also: at ampere-turn 11 absolute (temperature) 12 (in circuit diagrams) ammeter 13 area 14 (in combination) atomic: an A-bomb; an A-plant 15 chem affinity 16 biochem adenine 17 logic a universal affirmative categorical proposition, such as all men are mortal: often symbolized as SaP. Compare E, I2, O1 18 a a person whose job is in top management, or who holds a senior administrative or professional position b (as modifier): an A worker. See also occupation groupings ▷ abbreviation for 19 Austria (international car registration) [from Latin a(ffirmo) I affirm]
+
+A game n chiefly US and Canadian informal one's best possible performance (esp in the phrase bring or take one's A game)
+
+A-sample n the primary urine or blood sample used in doping tests in professional sports; if the A-sample tests positive, the B-sample is tested to confirm or invalidate the results. See also B-sample
+
+A-side n the side of a gramophone record regarded as the more important one
+
+Å symbol for angstrom unit
+
+A. abbreviation for 1 acre(s) or acreage 2 America(n) 3 answer
+
+a', aa or aw (ɔː) determiner Scot variants of all
+
+a-1 or before a vowel an- prefix not; without; opposite to: atonal; asocial [from Greek a-, an- not, without]
+
+a-2 prefix 1 on; in; towards: afoot; abed; aground; aback 2 literary or archaic (used before a present participle) in the act or process of: come a-running; go a-hunting 3 in the condition or state of: afloat; alive; asleep
+
+A1, A-1 or A-one (ˈeIˈwʌn) adj 1 in good health; physically fit 2 informal first-class; excellent 3 (of a vessel) with hull and equipment in first-class condition
+
+A2 level n (in British education) a the second part of an A-level course, taken after the AS level examination b the examination at the end of this
+
+A31 n a a standard paper size, 297 × 420 mm b (as adjective): an A3 book. See also A sizes
+
+A32 abbreviation for text messaging anytime, anywhere, anyplace
+
+A4 n a a standard paper size, 210 × 297 mm b (as adjective): an A4 book. See also A sizes
+
+A5 n a a standard paper size (half A4), 148 × 210 mm b (as adjective): A5 notepaper. See also A sizes
+
+aa1 (ˈɑːɑː) n a volcanic rock consisting of angular blocks of lava with a very rough surface [Hawaiian]
+
+aa2 abbreviation for ana1
+
+AA abbreviation for 1 Alcoholics Anonymous 2 anti-aircraft 3 Architectural Association 4 (in Britain) Automobile Association 5 (in Britain) Advertising Association ▷ symbol for 6 (in Britain, formerly) a film that may not be shown publicly to a child under fourteen
+
+AAA abbreviation for 1 (in Britain) Amateur Athletic Association 2 anti-aircraft artillery. See also triple A 3 Automobile Association of America 4 Automobile Association of Australia
+
+Aachen (ˈɑːkən; German ˈaːxən) n a city and spa in W Germany, in North Rhine-Westphalia: the northern capital of Charlemagne's empire. Pop: 256 605 (2003 est). French name: Aix-la-Chapelle
+
+Aadhar or Aadhaar (ɑːˈdɑː) n a unique 12-digit number linked to personal data, issued to residents of India [C21: from Hindi, literally: foundation]
+
+aah (ɑː) vb (intr) informal to exclaim in pleasure or surprise
+
+aal (ɑːl) n another name for Indian mulberry [Hindi]
+
+Aalborg or Ålborg (Danish ˈɔlbɔr) n a city and port in Denmark, in N Jutland. Pop: 121 549 (2004 est)
+
+Aalesund (Norwegian ˈoːləsun) n a variant spelling of Ålesund
+
+aalii (ɑːˈliːiː) n a bushy sapindaceous shrub, Dodonaea viscosa, of Australia, Hawaii, Africa, and tropical America, having small greenish flowers and sticky foliage [Hawaiian]
+
+Aalst (Flemish aːlst) n a town in central Belgium, in East Flanders province. Pop: 76 852 (2004 est). French name: Alost
+
+Aalto (Finnish ˈɑːltɔ) n Alvar (ˈalvar). 1898–1976, Finnish architect and furniture designer, noted particularly for his public and industrial buildings. He invented bent plywood furniture (1932)
+
+AAM abbreviation for 1 air-to-air missile 2 text messaging as a matter of fact
+
+A & E abbreviation for Accident and Emergency (department in hospitals)
+
+A & M abbreviation for 1 Agricultural and Mechanical 2 Ancient and Modern (hymn book)
+
+A & P abbreviation for (in New Zealand) Agricultural and Pastoral (Association, Show, etc)
+
+A & R abbreviation for artists and repertoire
+
+AAP abbreviation for 1 Australian Associated Press 2 (in the US) affirmative action program
+
+Aarau (German ˈaːrau) n a town in N Switzerland, capital of Aargau canton: capital of the Helvetic Republic from 1798 to 1803. Pop: 15 470 (2000)
+
+aardvark (ˈɑːdˌvɑːk) n a nocturnal mammal, Orycteropus afer, the sole member of its family (Orycteropodidae) and order (Tubulidentata). It inhabits the grasslands of Africa, has a long snout, and feeds on termites. Also called: ant bear [C19: from obsolete Afrikaans, from aarde earth + varken pig]
+
+aardwolf (ˈɑːdˌwʊlf) n, pl -wolves a nocturnal mammal, Proteles cristatus, that inhabits the plains of southern Africa and feeds on termites and insect larvae: family Hyaenidae (hyenas), order Carnivora (carnivores) [C19: from Afrikaans, from aarde earth + wolf wolf]
+
+Aargau (German ˈaːrɡau) n a canton in N Switzerland. Capital: Aarau. Pop: 556 200 (2002 est). Area: 1404 sq km (542 sq miles). French name: Argovie
+
+aargh (ɑː) interj informal a cry of pain
+
+Aarhus or Århus (Danish ˈʌhuːs) n a city and port in Denmark, in E Jutland. Pop: 228 547 (2004 est)
+
+AARNet abbreviation for Australian Academic Research Network
+
+Aaron (ˈɛərən) n Old Testament the first high priest of the Israelites, brother of Moses (Exodus 4:14)
+
+Aaronic (ɛəˈrɒnIk) adj 1 of or relating to Aaron, his family, or the priestly dynasty initiated by him 2 of or relating to the Israelite high priesthood 3 of or relating to the priesthood in general 4 Mormon Church denoting or relating to the second order of the Mormon priesthood
+
+Aaron's beard n another name for rose of Sharon (sense 1)
+
+Aaron's rod n 1 the rod used by Aaron in performing a variety of miracles in Egypt. It later blossomed and produced almonds (Numbers 17) 2 a widespread Eurasian scrophulariaceous plant, Verbascum thapsus, having woolly leaves and tall erect spikes of yellow flowers
+
+aarti (ˈɑːtI) n a Hindu ceremony in which lights with wicks soaked in ghee are lit and offered up to one or more deities [C21: Hindi]
+
+A'asia abbreviation for Australasia
+
+aasvogel (ˈɑːsˌfəʊɡəl) n archaic a South African vulture
+
+AAVE abbreviation for African-American Vernacular English
+
+Ab (æb) n a variant of Av
+
+AB abbreviation for 1 Also: a.b. able-bodied seaman 2 (in the US) Bachelor of Arts 3 (esp in postal addresses) Alberta (Canada) ▷ symbol for 4 a human blood type of the ABO group, containing both the A antigen and the B antigen
+
+ab-1 prefix away from; off; outside of; opposite to: abnormal; abaxial; aboral [from Latin ab away from]
+
+ab-2 prefix denoting a cgs unit of measurement in the electromagnetic system: abvolt [abstracted from ABSOLUTE]
+
+aba (ˈæbə) n 1 a type of cloth from Syria, made of goat hair or camel hair 2 a sleeveless outer garment of such cloth [from Arabic]
+
+ABA abbreviation for 1 (in Britain) Amateur Boxing Association 2 American Booksellers Association
+
+abac (ˈeIbæk) n another name for nomogram [C20: from French, from Latin ABACUS]
+
+abaca or abaka (ˈæbəkə) n 1 a Philippine plant, Musa textilis, related to the banana: family Musaceae. Its leafstalks are the source of Manila hemp 2 another name for Manila hemp [via Spanish from Tagalog abaká]
+
+aback (əˈbæk) adv 1 taken aback a startled or disconcerted b nautical (of a vessel or sail) having the wind against the forward side so as to prevent forward motion 2 rare towards the back; backwards [Old English on bæc to the back]
+
+abacterial (eIbækˈtIərIəl) adj not caused by or characterized by the presence of bacteria
+
+abactinal (æbˈæktInəl) adj zoology (of organisms showing radial symmetry) situated away from or opposite to the mouth; aboral > abˈactinally adv
+
+abactor (æbˈæktə) n law a cattle thief
+
+abacus (ˈæbəkəs) n, pl -ci (-ˌsaI) or -cuses 1 a counting device that consists of a frame holding rods on which a specific number of beads are free to move. Each rod designates a given denomination, such as units, tens, hundreds, etc, in the decimal system, and each bead represents a digit or a specific number of digits 2 architect the flat upper part of the capital of a column [C16: from Latin, from Greek abax board covered with sand for tracing calculations, from Hebrew ābhāq dust]
+
+Abadan (ˌæbəˈdɑːn) n a port in SW Iran, on an island in the Shatt al Arab delta. Pop: 307 000 (2005 est)
+
+Abaddon (əˈbædən) n 1 the Devil (Revelation 9:11) 2 (in rabbinical literature) a part of Gehenna; Hell [Hebrew, literally: destruction]
+
+abaft (əˈbɑːft) nautical adv, adj (postpositive) 1 closer to the stern than to another place on a vessel: with the wind abaft ▷ prep 2 behind; aft of: abaft the mast [C13: on baft; baft from Old English beæftan, from be by + æftan behind]
+
+Abakan (Russian abaˈkan) n a city in S central Russia, capital of the Khakass Republic, at the confluence of the Yenisey and Abakan Rivers. Pop: 167 000 (2005 est)
+
+abalone (ˌæbəˈləʊnI) n any of various edible marine gastropod molluscs of the genus Haliotis, having an ear-shaped shell that is perforated with a row of respiratory holes. The shells are used for ornament or decoration. Also called: ear shell, haliotis. See also ormer [C19: from American Spanish abulón; origin unknown]
+
+abampere (æbˈæmpɛə) n the cgs unit of current in the electromagnetic system; the constant current that, when flowing through two parallel straight infinitely long conductors 1 centimetre apart, will produce a force between them of 2 dynes per centimetre: equivalent to 10 amperes. Abbreviation: abamp
+
+aband (əˈbænd) vb (tr) another word for abandon
+
+abandon (əˈbændən) vb (tr) 1 to forsake completely; desert; leave behind: to abandon a baby; drivers had to abandon their cars 2 abandon ship the order given to the crew of a ship that is about to sink to take to the lifeboats 3 to give up completely: to abandon a habit; to abandon hope 4 to yield control of or concern in; relinquish: to abandon office 5 to give up (something begun) before completion: to abandon a job; the game was abandoned 6 to surrender (oneself) to emotion without restraint 7 to give (insured property that has suffered partial loss or damage) to the insurers in order that a claim for a total loss may be made ▷ n 8 freedom from inhibitions, restraint, concern, or worry: she danced with abandon [C14: abandounen (vb), from Old French, from a bandon under one's control, in one's power, from a at, to + bandon control, power] > aˈbandonment n
+
+abandoned (əˈbændənd) adj 1 deserted: an abandoned windmill 2 forsaken: an abandoned child 3 unrestrained; uninhibited: wild, abandoned dancing 4 depraved; profligate
+
+abandonedly (əˈbændəndlI) adv in an unrestrained manner
+
+abandonee (əˌbændəˈniː) n law a person to whom something is formally relinquished, esp an insurer having the right to salvage a wreck
+
+abandoner (əˈbændənə) n a person or thing that abandons
+
+abandonware (əˈbændənˌwɛə) n computer software which is no longer sold or supported by its publisher [C20: from ABANDON + (SOFT)WARE]
+
+abapical (æbˈeIpIkəl) adj biology away from or opposite the apex
+
+à bas French (a bɑ) interj down with!

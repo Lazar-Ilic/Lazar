@@ -1,0 +1,1460 @@
+I like puzzles and mathematics contests. See Library. I retain all Solutions archives in .txt and .tex .pdf for review.
+
+Peter Winkler
+Using Your Head Is Permitted
+The Puzzle Toad
+Maths Puzzles Collected By Haidong Wang
+MathOverflow
+Matrix67
+[wu:riddles]
+Mind Your Decisions
+GlassDoor
+Miguel Barbosa Periera [https://miguelbper.github.io/] [https://github.com/miguelbper]
+et al. Solid Expository Puzzle Writer Mathematicians
+
+----------
+
+	[Donate Directly To The Poor "Exploited"] Tanya Khovanova's Mathematics Web Log Comments:
+
+	AMC, AIME, USAMO Contradiction
+	25th March 2009, 05:53 am
+To get to the national swimming championship, you need to win the state running championships.
+...
+
+Lazar Ilic:
+Fascinating old post to revive. I am hopeful that the MAA Mathematical Association Of America will continue to support the USAMTS United States Of America Mathematical Talent Search route with an AIME American Invitational Mathematics Examination score of 11.
+
+https://artofproblemsolving.com/community/u48336h3265944p30032043
+
+Lazar Ilic:
+Update. Apparently now there are student accommodations for a time extension. This is sad news even if it is required by law for funding purposes. Mathematical competitions ought to be a lesson in timing and performance under pressure.
+
+31 October 2024, 3:21 pm
+
+Sigma:
+USAMTS might be heavily nerfed after this year ):
+
+I am a USAJMO HM who qualified through USAMTS and I hate speed math so much
+
+8 April 2025, 8:00 pm
+
+One option is for the [MAA and] trading firms to fund speed math on MathDash. Upon further review of Art Of Problem Solving threads, I propose: instead of the AMC, hold 2 AIMEs about a week apart and sum the scores. Take the top 1000 or so instead of 500 at a score of ~23|30, and fund extra grading for the USAMO. Synchronise timing and also find a way to make proctoring that number of students for that long [100000 for 6 hours] to be a nonissue.
+
+----------
+
+Quitting Tanya Khovanova Mathematics Web Log Puzzles
+
+I am annoyed by typos and misreads so... I will probably quit 2024-07 and ensure to focus upon research.
+
+Should quit Reddit and Art Of Problem Solving 2025-01 and focus upon research.
+
+	Russian-American Race
+
+2 Comments
+Lazar Ilic:
+An American tells a Russian that the United States is so free he can stand in front of the White House and yell, “To hell with Ronald Reagan.” The Russian replies: “That's nothing. I can stand in front of the Kremlin and yell, ‘To hell with Ronald Reagan,' too.”
+
+8 April 2025, 2:36 am
+Lazar Ilic:
+An American and a Russian were arguing about their two countries. The American said, ‘I can walk into the Oval office, I can pound the president's desk, and I can say, Mr. President, I don't like the way you're running our country.'
+
+The Soviet citizen said, ‘I can do that.' The American said, ‘You can?' He says, ‘Yes. I can go into the Kremlin to the general secretary's office, I can pound his desk and say, Mr. General Secretary, I don't like the way President Reagan is running his country.”
+
+8 April 2025, 2:38 am
+
+	The Battle I Am Losing
+
+"
+I want the world to be a better place. My contribution is teaching people to think. People who think make better decisions, whether they want to buy a house or vote for a president.
+"
+
+Interesting premise. I am working on my house design for years prior to trying to build it.
+
+	Make 60 by Using the Same Number Thrice
+	5th November 2024, 12:36 pm
+
+In a relatively popular variant of 24 played with Patrick Guo at Texas ARML American Regions Mathematics League, exponentiation and factorials are allowed, and the target number can change. Here, (3!)!/(3!+3!) and 6!/(6+6) work. As in your student's 59 solution, one obtains 61-61/61.
+
+	Help the Fisherman
+	27th September 2024, 02:59 pm
+
+Lazar:
+He should convince the authorities to construct a bridge useful for everyone.
+
+	Another Symmetry Puzzle
+	11th July 2024, 04:57 pm
+
+Lazar:
+One could compose a programme fairly easily. I immediately observed a solution where one moves the smaller triangle over so that there is a spiral similarity formed at the 30 degree vertices taking the smaller hypotenuse on to the larger long leg. At this point it became quite clear that partitioning the larger triangle in to 3 copies of the smaller triangle naturally leads to the other solution. Both of the 2 internal lines in that partitioning can be used as lines of symmetry. So in particular the other solution looks like 2 30 30 120 triangles stuck together to also form 2/3rds of an equilateral triangle from the centre via the other thirds splitting.
+
+	Is It Possible?
+	5th July 2024, 07:57 pm
+
+Lazar:
+After contemplating, I Googled the puzzle text to https://math.stackexchange.com/questions/4787094/union-of-two-disjoint-congruent-polygons-is-centrally-symmetric-must-the-polygo and found interesting claims by Edward H. Perhaps he can be contacted or one can try running a script executing a pruned casework on the coordinate of the 90 degree rotation with respect to the 180 degree rotation. Perhaps it is straightforward to prove that a contradiction arises from those 3 conditions all holding.
+
+	An Alternator Coin Puzzle
+	23rd June 2024, 07:49 pm
+
+I run a program at MIT called PRIMES STEP, where we conduct mathematical research with children in grades 6 through 9. Our first research project was about a funny coin called an alternator. This coin exists only in a mathematician's mind as it can change weight according to its own will. When you put the alternator on the scale, it can either weigh the same as a real coin or a fake coin (the fake coins are lighter than real ones). The coin strictly alternates how much it weighs each time it is put on the scale. My colleague, Konstantin Knop, recently sent me a fresh alternator puzzle.
+
+Puzzle. There are four identical-looking coins: two real, one fake, and one alternator. How do you find the alternator using a balance scale at most three times?
+
+Lazar Ilic:
+First note that there are 24 possible starting positions and only 3 queries to differentiate between at most ~ 3^3 = 27 [~ due to potential convenient merging over alternating coin state switching criterion] so we will need to be somewhat careful. Let the coins be numbered #0, #1, #2, and #3 and weigh either 0 or 1 where a state of 2 represents an alternating coin with a weight of 0 if it is now placed on a scale and a state of 3 represents an alternating coin with a weight of 1 if it is now placed on a scale. Then we have the following algorithm for resolving the final state [often in its entirety rather than merely identifying the alternating coin] generated by manually manipulating an automatable Python code:
+
+Weigh #0 with #1 against #2 with #3:
+	If #0 with #1 > #2 with #3:
+		Weigh #2 against #3:
+			If #2 > #3:
+				Weigh #0 against #1:
+					If #0 > #1:
+						Solved [[1, 3, 1, 0]]
+					Elif #0 == #1:
+						Solved [[1, 1, 2, 0]]
+					Else:
+						Solved [[3, 1, 1, 0]]
+			Elif #2 == #3:
+				Weigh #0 against #2:
+					If #0 > #2:
+						Solved [[1, 1, 0, 3]]
+					Else:
+						Solved [[1, 1, 2, 0]]
+			Else:
+				Weigh #0 against #1:
+					If #0 > #1:
+						Solved [[1, 3, 0, 1]]
+					Elif #0 == #1:
+						Solved [[1, 1, 0, 2]]
+					Else:
+						Solved [[3, 1, 0, 1]]
+	Elif #0 with #1 == #2 with #3:
+		Weigh #0 with #1 against #2 with #3:
+			If #0 with #1 > #2 with #3:
+				Weigh #0 against #1:
+					If #0 > #1:
+						Solved [[1, 3, 0, 1], [1, 3, 1, 0]]
+					Else:
+						Solved [[3, 1, 0, 1], [3, 1, 1, 0]]
+			Else:
+				Weigh #2 against #3:
+					If #2 > #3:
+						Solved [[0, 1, 1, 3], [1, 0, 1, 3]]
+					Else:
+						Solved [[0, 1, 3, 1], [1, 0, 3, 1]]
+	Else:
+		Weigh #0 against #1:
+			If #0 > #1:
+				Weigh #0 against #2:
+					If #0 > #2:
+						Solved [[1, 0, 3, 1]]
+					Elif #0 == #2:
+						Solved [[1, 0, 1, 2]]
+					Else:
+						Solved [[3, 0, 1, 1]]
+			Elif #0 == #1:
+				Weigh #0 against #1:
+					If #0 > #1:
+						Solved [[2, 0, 1, 1]]
+					Else:
+						Solved [[0, 2, 1, 1]]
+			Else:
+				Weigh #1 against #2:
+					If #1 > #2:
+						Solved [[0, 1, 3, 1]]
+					Elif #1 == #2:
+						Solved [[0, 1, 1, 2]]
+					Else:
+						Solved [[0, 3, 1, 1]]
+
+----------
+
+import copy
+avv=[]
+for a in range(0,4):
+    for b in range(0,4):
+        for c in range(2,4):
+            if a!=b:
+                av=[1 for d in range(4)]
+                av[a]=0
+                av[b]=c
+                avv.append(av)
+avv=[[0, 2, 1, 1], [0, 1, 2, 1], [0, 1, 1, 2]]
+for a in range(0,4):
+    for b in range(a+1,4):
+        bvv=[] # >
+        cvv=[] # =
+        dvv=[] # <
+        # Weigh a and b against c and d
+        for dude in avv:
+            if 2*(dude[a]%2+dude[b]%2)>dude[0]%2+dude[1]%2+dude[2]%2+dude[3]%2:
+                dudec=copy.deepcopy(dude)
+                for d in range(4):
+                    if dudec[d]>=2:
+                        dudec[d]=5-dudec[d]
+                bvv.append(dudec)
+            elif 2*(dude[a]%2+dude[b]%2)==dude[0]%2+dude[1]%2+dude[2]%2+dude[3]%2:
+                dudec=copy.deepcopy(dude)
+                for d in range(4):
+                    if dudec[d]>=2:
+                        dudec[d]=5-dudec[d]
+                cvv.append(dudec)
+            else:
+                dudec=copy.deepcopy(dude)
+                for d in range(4):
+                    if dudec[d]>=2:
+                        dudec[d]=5-dudec[d]
+                dvv.append(dudec)
+        print(len(bvv),len(cvv),len(dvv))
+        if 1:
+            print(bvv) # [[2, 1, 0, 1], [1, 2, 0, 1], [1, 1, 0, 3], [1, 1, 0, 2], [2, 1, 1, 0], [1, 2, 1, 0], [1, 1, 3, 0], [1, 1, 2, 0]]
+            print(cvv) # [[0, 1, 3, 1], [0, 1, 1, 3], [1, 0, 3, 1], [1, 0, 1, 3], [3, 1, 0, 1], [1, 3, 0, 1], [3, 1, 1, 0], [1, 3, 1, 0]]
+            print(dvv) # [[0, 3, 1, 1], [0, 2, 1, 1], [0, 1, 2, 1], [0, 1, 1, 2], [3, 0, 1, 1], [2, 0, 1, 1], [1, 0, 2, 1], [1, 0, 1, 2]]
+for a in range(0,4):
+    for b in range(a+1,4):
+        bvv=[] # >
+        cvv=[] # =
+        dvv=[] # <
+        # Weigh a against b
+        for dude in avv:
+            if dude[a]%2>dude[b]%2:
+                dudec=copy.deepcopy(dude)
+                if dudec[a]>=2:
+                    dudec[a]=5-dudec[a]
+                elif dudec[b]>=2:
+                    dudec[b]=5-dudec[b]
+                bvv.append(dudec)
+            elif dude[a]%2==dude[b]%2:
+                dudec=copy.deepcopy(dude)
+                if dudec[a]>=2:
+                    dudec[a]=5-dudec[a]
+                elif dudec[b]>=2:
+                    dudec[b]=5-dudec[b]
+                cvv.append(dudec)
+            else:
+                dudec=copy.deepcopy(dude)
+                if dudec[a]>=2:
+                    dudec[a]=5-dudec[a]
+                elif dudec[b]>=2:
+                    dudec[b]=5-dudec[b]
+                dvv.append(dudec)
+        #print(len(bvv),len(cvv),len(dvv))
+        print(a,b)
+        print(bvv) # 
+        print(cvv) # 
+        print(dvv) # 
+        if len(bvv)<=3 and len(cvv)<=3 and len(dvv)<=3:
+            print(a,b)
+            print(bvv) # [[2, 1, 1, 0], [1, 2, 1, 0], [1, 1, 2, 0]]
+            print(cvv) # [[1, 1, 0, 3], [1, 1, 3, 0]]
+            print(dvv) # [[2, 1, 0, 1], [1, 2, 0, 1], [1, 1, 0, 2]]
+
+(Comment awaits moderation) 25 June 2024, 7:42 pm
+
+	Three L-Tetrominoes
+	8th June 2024, 04:57 pm
+
+Lazar Ilic:
+Lazy Loves Fish
+
+ZZZ-
+X-ZY
+X--Y
+XXYY
+
+ZZZ--
+Z-YYY
+XXY--
+-X---
+-X---
+
+	Hundred Colors of Math
+	14th May 2024, 06:42 pm
+
+Lazar Ilic:
+2 onsight symmetry smooth continuous physical transformation .gif in my head now I am studying topology again:
+
+-XXXOOO
+XXXOOO
+XXXOOO
+XXXOOO
+XXXOOO
+XXXOOO
+
+Lazar Ilic:
+Oops. Yet again, I misread!
+
+-XXXXXX
+OXOXOX
+OXOXOX
+OXOXOX
+OXOXOX
+OOOOOO
+
+XXXXXX
+OXOXOX
+OXOXOX
+OXOXOX
+OXOXOX
+OOOOOO
+
+For example by reflecting the Xs across the vertical line of the 4th column. I have yet to see a relatively strong solver in code.
+
+	Fermat's Room
+	23rd February 2011, 10:45 am
+
+Lazar Ilic:
+Scott Duke Kominers referenced this film in one of his Conundrums puzzles. It is odd. I was recently viewing 賭博覇王伝 零 Zero: The Bravest Money Game. Funny. Kiddos envision research and trading to get money.
+
+	Fudge Likes Meatballs
+	15th March 2024, 03:26 pm
+Here is an interesting puzzle by Ivan Mitrofanov.
+
+Puzzle. In front of my dog, Fudge, lies an infinite number of meatballs with a fly sitting on each of them. At each move, Fudge makes two consecutive operations described below.
+
+Eats a meatball and all the flies sitting on it at that time.
+Transfers one fly from one meatball to another (there can be as many flies as you want on a meatball).
+Fudge wants to eat no more than a million flies. Assuming that flies sit still, prove that Fudge doesn't have a strategy where each meatball is eaten at some point.
+
+Lazar Ilic:
+Perhaps my noodle noddle noodling noodles are up to no good... proof by contradiction. Suppose there existed such a strategy and the meatballs are numbered 1, 2, ... without loss of generality we may permute the labels so that Fudge eats them in order. Then the following theorem becomes clear: if some prefix of length L of the remaining meatballs has >= L flies in total on the meatballs prefix then Fudge will eat >= 1 fly during their consumption of that prefix. Indeed, Fudge has L eat operations with only L-1 move operations between them on the prefix. OK. Intuition here is that a stronger strategy in the finite case would be to eat 1 then move from 2 to rear then eat 2 then move from 3 to rear then ... then lose on the last move of eating from rear. Proof in the infinite case follows. Each phase we will ensure Fudge eats >= 1 more fly by tracking the maximal index we have shifted a fly to thus far. Phase 1 ends when we eat the fly on meatball 1. Now if Fudge moves the fly from meatball 2 to meatball M the new "prefix" from 2 to M works as it contains precisely M-1 flies. Once Fudge eats meatball 2 through the meatball M there is a new analysis. If Fudge ate F >= 1 flies during phase 2 and moved M-1-F >= 0 with the maximal meatball MM being moved to then there exist MM-F-1 flies on the meatballs M+1 through MM is a new new prefix of length MM-M <= MM-F-1 flies on it and thus the theorem applies again and can be written up in to a formal strong induction proof that after 1000000 such phases the process will terminate.
+
+I ought to have cited Sperner's Theorem in my previous comment on identifying a murderer with the "convenient" [8 choose 4] = 70 sized antichain bound.
+
+	Two Lovely Puzzles
+	13th March 2024, 05:02 pm
+
+These two puzzles were given to me by Andrey Khesin.
+
+Puzzle. My friend and I are going to play the following game at a casino. Each round, each of us (my friend, the dealer, and I) secretly chooses a black or white stone and drops it in the same bag. Then, the contents of the bag are revealed. If all three stones are the same colour, my friend and I win the round. If not, we lose to the dealer. One extra caveat. I have a superpower: as soon as we sit down, I can read the dealer's mind and learn the dealer's choices for all future rounds. Unfortunately, at that time, it's too late for me to give this information to my friend and win all the rounds. The only thing we can do is agree on a strategy before the game.
+
+Design a strategy to win 6 out of 10 rounds.
+Design a strategy to win 7 out of 11 rounds.
+Is it possible to win 6 out of 9 rounds?
+Puzzle. In a crowd of 70 people, one person is a murderer, and another person is a witness to said murder. A detective can invite a group into his office and ask if anyone knows anything. The detective knows that everyone except the witness would say nothing. The witness is a responsible person who is more afraid of the murderer than they desire to fulfill their civic duty. If the witness is in the same group as the murderer, the witness will be silent; otherwise, the witness will point to the murderer. The detective knows this will happen and wants to find the murderer in as few office gatherings as possible. What is the minimum number of times he needs to use his office, and how exactly should the detective proceed?
+
+Lazar:
+Online Matching Pennies by Olivier Gossner, Penelope Hernandez, and Abraham Neyman in the Center For The Study Of Rationality. It is possible to win 6 out of 9 rounds. In fact, there exists a relatively simple strategy for winning 3X out of 4X+1 rounds:
+
+https://puzzling.stackexchange.com/questions/30214/strategy-to-beat-the-casino
+
+"
+1. To start, play 0 until you lose a round.
+2. Play the value played by the leader in the last round that was lost. Do this for 3 rounds, unless 3d or 3e happens.
+3a. If you only won 2 of the 3 rounds, do step 2 again.
+3b. If you won all 3 rounds, keep playing the value until you lose a round. Do step 2 again.
+3c. If you won only 1 round, go to Exception 1.
+3d. If you played the same value as the Casino, but Leader didn't, and you're at or after Round 5, go to Exception 2.
+3e. If you played the same value as the Casino, but Leader didn't, and you're before Round 5, go to Exception 3.
+
+Exception 1. Look at the bits played in the last 2 rounds you lost. Let those be A and B. Play the next 5 rounds as: A ~A A B ~B.
+Exception 2. Let the bit you played in the last round you lost be A. Play ~A until round 7, then play 1 0 in rounds 8 and 9.
+Exception 3. Play the same bit you played in the last round until round 4. Let A be the bit Leader played in the last round that the Casino played a different bit than you did. If you had already won a round when you came to this exception, play ~A A A 0 1 for the last 5 rounds. Otherwise play A A ~A 0 1.
+"
+
+8 canonically as the set of the 70 people's inclusion in asked subsets must form an antichain and [8 choose 4] = 70 conveniently for the bounds of this problem. That is, assign to each person a unique subset of size 4 from [1, 2, 3, 4, 5, 6, 7, 8] ask them on their assigned rounds. For example, if the witness is assigned [2, 5, 6, 8] and the murderer [2, 4, 6, 8] then the witness will identify the murderer on questioning round 5. If not forming an antichain then the murderer could be present during every asking session where the witness is present.
+
+For the written record, there exist simple strategies for the 6 out of 10 and 7 out of 11 cases. Our strategy involves partner playing Black any time they are not in an indicated range. We do opt to take free wins as they come under this convention, so we also play Black if the casino is playing Black. One may use the first casino White turn to indicate to our partner the majority colour of the casino in the following 3 moves. When we do not win on this turn, our partner deduces to remove a White from the 2 pebbles they see and thereby discover our indication. Then we can also take 3 out of 3 wins if that occurs from there or else use a loss case similarly to indicate to our partner the majority for the 3 following this chunk of 3. So we basically have a W prefix followed by a L[LWW] block [which can chain off in to [LWW] blocks ad infinitum or a [WWW] block which transitions back in to the starting position] or a L[WWW] block which also transitions back in to the starting position. If there are less than 3 left we may still indicate majority on such a chunk. Inspection reveals the worst case scenarios are L[LWW]WWWL[LW] tied with L[LWW][LWW][LWW] for 6 out of 10 and so on and so on. Sorry for the mediocre writing here, after that paper via Internet Archive I have doubts the optimal general strategy here would include taking wins as they come and simply indicating 3 majorities.
+
+Perhaps this puzzle is worth exploring further. There exists a very easy proof that strategy is not optimal. For example, we could produce a dominating strategy by adding in a new condition. If we add a new conditional where we intentionally lose 3 out of 3 in some indicated range of 3 and our partner can deduce our 1 signal bit... say the casino will go WBBBWWWWW...W where there are 30 opposite Whites in a row. Then we can go B on move 1 so our partner goes B and gets the signal to go B for moves 2-4. And then on moves 2-4 we actually go WWW then our partner gets the indication now for the special condition and goes W on moves 5-34 actually and we can win all of those then we get 30 wins out of 34 which is better than we would have done otherwise, and in all of the other cases we get the same outcome so... I will think more about how to actually formally extend the paper and think about the communicational information theory in the bits in this scenario.
+
+	Icosahedron's Resistance
+	20th February 2024, 08:24 pm
+
+I rarely post physics puzzles, but this one is too good to pass on.
+
+Puzzle. A wireframe icosahedron is assembled so that each of its edges has a resistance of 1. What is the total resistance between opposite vertices of the icosahedron?
+
+While we are at it, another interesting question would be the following.
+
+Puzzle. A wireframe cube is assembled so that each of its edges has a resistance of 1. What is the total resistance between opposite vertices of the cube?
+
+And this reminds me of a question I heard when I was preparing for an IMO many years ago.
+
+Puzzle. A wireframe infinite square grid is assembled so that each of its edges has a resistance of 1. What is the total resistance between two neighboring vertices?
+
+Lazar Ilic:
+Platonic Relationships Among Resistors by Bradley Allen and Tongtian Liu is a solid introduction.
+1/2
+5/6
+1/2
+
+	A Probability Puzzle from Facebook
+	22nd December 2023, 01:38 pm
+
+Puzzle. There are 100 cards with integers from 1 to 100. You have three possible scenarios: you pick 18, 19, or 20 cards at random. For each scenario, you need to estimate the probability that the sum of the cards is even. You do not need to do the exact calculation; you just need to say whether the probability is less than, equal to, or more than 1/2.
+
+Lazar Ilic:
+A simple pairing argument works. The answers respectively are less, equal, and more. Consider the 50 buckets [1,2], [3,4], …, [99,100]. Then for each subset we may find the minimum bucket which contains 1 out of 2 elements in our subset. There is a paired subset where instead of that element from the bucket we had instead selected the other one. These pair off nicely to form odd and even summed subset pairs. The only exceptional case is if there did not exist any such bucket. Then each bucket must have contained 0 or 2 elements from our subset. And in particular for 18 and 20 this would logically imply there were 9 and 10 full buckets of odd sum meaning a slightly higher probability of odd and even sums respectively. To precisify further, for example in the 18 case, the probability of an odd sum is 1/2+[[50 choose 9]/2]/[100 choose 18] = 6119601330/12239202659 ~ 0.500000000040852334415128667737505105396915219099486…
+
+	Back to Coins
+	14th December 2023, 11:51 am
+
+I loved coin puzzles, but after several research projects related to those shiny discs, I got tired of them. The fatigue was temporary, as confirmed by the following Facebook puzzle that reignited my interest.
+
+Puzzle. There are 30 coins in a circle that look the same. However, 20 of them are fake, and the rest are real. Fake coins weigh the same, and real coins weigh the same but heavier than fake ones. You need to find as many fake coins as possible using a balance scale once, given that the fake coins are positioned consecutively. What is your strategy?
+
+Lazar Ilic:
+You are forgetful. My first idea was to brute force with computer assisted search. Then I noted that the best result under the restriction that we weigh 1 coin versus 1 coin would be comparing without loss of generality the coin at position 1 with the coin at position 11. If they weigh the same then we can deduce that positions 1 through 11 are fake. If 11 is lighter then we deduce that positions 11 through 21 are fake. Thus we may ensure identifying 11 of the fake coins.
+
+15 December 2023, 9:21 am
+
+Lazar Ilic:
+I am forgetful too sometimes. And slow. There are 3 possible outcomes of the weighing and 30 potential rotation locations for the coins. Thus by the Pigeonhole Principle there is an outcome which is mapped in to by >= 10 of the possible locations. But then the maximum size of the ensured fake coins set is the intersection of the 10 different length-20 range intervals which has maximum size 11 if and only if those were all consecutive as in our previously given construction.
+
+	A Quadrilateral in a Rectangle
+	28th November 2023, 01:52 pm
+
+A new geometry problem from my friend, Alexander Karabegov.
+
+Puzzle. A convex quadrilateral is inscribed in a rectangle with exactly one quadrilateral's vertex on each side of the rectangle. Prove that the area of the rectangle is twice the area of the quadrilateral if and only if a diagonal of the quadrilateral is parallel to two parallel sides of the rectangle.
+
+Lazar Ilic:
+If a diagonal is parallel then it follows by drawing the triangles and bh/2 area splitting each subrectangle in half. The other direction follows from a relatively simple smoothing argument. If BD is not parallel then the area function is monotone and nonconstant linear as we shift point A along its edge and in particular obtains its unique 1/2 valuation when AC is parallel. More formally this can be observed in the literal definitional derivative d/da of the area (a*(1-b)+b*(1-c)+c*(1-d)+d*(1-a))/2 in terms of their locations along their respective edges.
+
+29 November 2023, 4:54 am
+
+	Polyomino Cutting
+	3rd November 2023, 12:28 pm
+
+What's a polyomino? A polyomino is a plane geometric figure formed by joining one or more equal squares edge to edge. Here, we have a puzzle about a polyomino that is almost a rectangle.
+
+Puzzle. You are given a 5-by-7 rectangle with two corners cut out: A 1-by-1 tile is cut from the bottom left corner, and a 1-by-2 tile is cut out of the top right corner, as in the picture. The task is to cut a resulting shape into two congruent polyominoes.
+
+Lazar Ilic:
+XXXXO
+XXXXOOO
+XXOXXOO
+XXOOOOO
+ XXOOOO
+
+6 November 2023, 8:32 am
+
+	Find the Disappearing Bits
+	9th November 2023, 10:35 am
+
+Konstantin Knop posted the following puzzle on Facebook.
+
+Puzzle. An agent sends messages to the command center. The messages have to be encrypted as a stream of 512 characters that can only be zeros and ones. Unfortunately, his transmitter is malfunctioning and gobbles 16 characters of each message. The missing 16 characters are always in the same positions in any message. As a result, the command center receives a sequence of 496 bits. Neither the center nor the agent knows which 16 bits of the sequence are eaten up by the device.
+
+They cannot replace the broken transmitter. However, they can agree ahead of time to send K test messages, the content of which they both know. Find the smallest possible K needed to determine the positions of the disappearing 16 bits.
+
+Lazar Ilic:
+5 suffices with the test messages: 11...100...0..., 1111111100000000111..., 1111000011110000111..., 11001100110011001..., 10101010101010101.... I would imagine that a relatively simple proof exists. For example, consider the 16 subsets where the final bit and 15 of the first 16 bits are removed. Then by the Pigeonhole Principle >= 8 of these subsets return the same string after our first query no matter what it is... and then deducing which 1 of the first 16 bits was not disappearing... something like this might be easily repairable and made to work.
+
+9 November 2023, 11:10 am
+
+Lazar Ilic:
+This is not a Lean theorem proof, but my argument above from yesterday seems repaired by considering the 17 subsets where 16 of the first 17 bits are removed. So then by the Pigeonhole Principle >= 9 of these subsets return the same string after our first query no matter what and then deducing which of these 9 bits was the unique remaining 1 would require >= 4 more queries via the usual binary searching argumentation.
+
+10 November 2023, 7:28 am
+
+	A Balanced Cube
+	1st November 2023, 06:49 pm
+
+Here's another brainteaser from my friend, Alexander Karabegov.
+
+Puzzle. Place the numbers from 1 to 8 at the vertices of a cube so that each face is balanced. On a balanced face, the sum of the numbers at the ends of one diagonal equals the sum of the numbers at the ends of the other diagonal.
+
+Lazar Ilic:
+1 simple general solution as above is to consider instead isomorphically using the number from 0 to 7 at which point we may essentially take the coordinates of the vertices to binary valuations... so at (0,0,0) we put a 0, at (0,0,1) we put a 1, at (0,1,0) we put a 2, ..., (1,1,1) we put a 7. Then by construction it would immediately follow that any 2 sets of points with the same gravicenter and same size would have the same sum of values.
+
+10 November 2023, 5:23 pm
+
+	From Estonia Math Olympiad
+	10th November 2023, 12:46 pm
+
+Puzzle. A group of 20 students formed a line to take an oral exam with Professor Chill. They were afraid to enter the classroom, so they decided to do a drawing. They wrote the numbers from 1 to 20 on pieces of paper, placed them in a hat, and each student picked one. The student who drew the number 1 went into the classroom first. Then, the remaining 19 students repeated the process, writing down numbers from 1 to 19, and the one who drew the number 1 took the exam next. They continued this process until all 20 students had taken their exams. Remarkably, each student drew a different number each time. Olga drew number 14 in the first round. How many students took the exam before she entered the classroom?
+
+Lazar Ilic:
+Induction backwards implies 13 as each student draws j, j-1, j-2, ..., 1 in their j rounds prior to entering the classroom.
+
+10 November 2023, 1:10 pm
+
+	I Will Be Hanged
+	27th May 2022, 11:01 am
+
+Here is an old goodie.
+
+Puzzle. A criminal is sentenced to death. He is offered the last word. He is allowed to make one statement. If the statement is true, the criminal will be electrocuted. If the statement is false, he will be hanged. Can you find a good piece of advice for this man?
+
+The standard answer to this puzzle is for the criminal to say, "I will be hanged." This creates a paradox. If he is hanged, the statement is true, and he should be electrocuted. If he is electrocuted, the statement is false, and he should be hanged.
+
+Thinking about it, any paradox works. If the man says, "This statement is false," then the type of punishment he gets can't be determined.
+
+Thinking about it some more, asking a question instead of making a statement will confuse his executioners all the same.
+
+One of my students advised the criminal to stay silent. This was not my favorite solution, as staying silent requires some concentration. My favorite solution was the statement, "It will rain exactly a thousand years from now." This way, the criminal can relax, at least for a thousand years.
+
+Lazar Ilic:
+Yikes at the ominous title Dr. Tanya Khovanova. One would hope this is not an actual factual prediction but merely a puzzle post... or perhaps stemmed from a game of Mafia or Werewolf with some kiddos.
+
+27 May 2022, 12:15 pm
+
+	My Gender
+	7th June 2022, 02:00 pm
+
+Thinking about genders, we used to have only two options: male and female. Now we have more. I have a lot of young acquaintances who are non-binary. So I started to rethink my gender identity.
+
+I was a typical girl: at least, I thought I was. I hated playing with boring dolls. I preferred cars, or even better, construction sets and board games. In second grade, I wanted to be a ballerina but later fell in love with Sherlock Holmes. My dreams switched to becoming a detective or a spy. In fifth grade, I signed up for rifle-shooting training. That same year, my school forced me to compete in an orienteering event, and I won.
+
+Orienteering became my favorite sport, and I did it for many years. I was really good with maps. I would go to a competition, leisurely walk my course and win. Other kids were running around like crazy, but I always knew where to go and was overall faster than them. With time, other kids learned to read maps better, but I myself never learned to run faster. So I stopped winning, but I enjoyed the sport anyway.
+
+It goes without saying: I loved math. Solving math problems was the best entertainment ever.
+
+Later, to my surprise, I discovered that most girls liked shopping and wasted a lot of time on make-up. Not many girls were even interested in math. I actually liked that. I started having crushes on boys since second grade and enjoyed being the only girl in math clubs, having all these nerds to myself.
+
+I grew up in Soviet Russia. While growing up, I wasn't bombarded with gender stereotypes. My first eye-opening experience was when I was 17 years old. My long-time boyfriend knew that I liked mathematics, and this was okay. But when I told him that I planned to go to college to study mathematics, he didn't approve. I broke up with him on the spot.
+
+My mom used to tell me that most men do not like brainy women. My reply was that there are more men who like brainy women than brainy women. I got a new boyfriend the day after my breakup.
+
+My gender identity didn't bother me much in Russia. What bothered me was the Russian tradition for both spouses to work, but the house chores and child-rearing duties fell only on women. I read somewhere that, on average, in Russia, women worked for 4 hours a day more than men. Life was unfair to women but not to their self-esteems.
+
+As I said, I grew up thinking I was a typical girl until I came to the US. This happened 30 years ago, and I was 30 at the time. In the US, I got bombarded with gender stereotypes: they made me feel inadequate and doubt my femininity. Just for reference: by that time, I was in my third marriage breastfeeding my second child. Still, according to those stereotypes, I was not a real woman.
+
+Brain Sex
+For some time, I wondered what was wrong with me. Then, I was elated to find a book called Brain Sex: The Real Difference Between Men and Women by Anne Moir and David Jessel. (This was many years ago.) Among other things, this book talks about the differences between men and women with respect to the brain. According to the book, men are better on average at abstract thinking and spatial visions, aka math and maps. Women, on the other hand, are better at connecting with people and have higher social intelligence. Boys are less interested in games related to storytelling, aka dolls, preferring more concrete activities. And so on.
+
+The book also describes situations in which girls don't fit the paradigm. The authors attribute this variation to the mother's hormones during pregnancy. I found myself described perfectly in the section titled "girls who have been exposed to male hormones in the womb." I am pretty sure that my mom didn't take any hormone supplements while pregnant with me back in Soviet Russia. On the other hand, the description in the book was spot-on.
+
+This book classifies me as "a male brain in a female body."
+
+I was glad to find myself after a period of self-doubt. I was glad that I wasn't alone and even fit into a special category with a name.
+
+Several years later, I met Sue Katz, a writer who also has a blog Sue Katz: Consenting Adult. She made me realize how ridiculous the whole story was: I was pressured by gender stereotypes to feel bad about myself. Then I was grateful for a book based on those same stereotypes, only because it described women like me and gave me permission to exist. I liked the book because I accepted those stereotypes in the first place. If there were no stereotypes, there wouldn't be any problems at all.
+
+Why can't I just be me?
+
+Over the past few years, I have become happier than I have ever been. I do not care what society thinks about my gender. I am no longer ashamed of not feeling 100 percent female.
+
+I like that people in the modern world embrace the idea of individuals being themselves. For example, my daughter-in-law, Robin Dahan, designed a whole line, You-Be-You, for her company, Dash of Pep.
+
+You-Be-You Socks
+Am I non-binary? I do not know and do not care. I am just me, proudly wearing my You-Be-You socks.
+
+Lazar Ilic:
+Fascinating stories. I agree, there exist many men who like brainy women. My own mom recently told me that when I shaved my head I went from being a cutie pie to being ugly. Maybe I ought to have replied that there exist women who like men that shave their heads. Anyways, the womb stuff is True and real but to many females out there you are an iconic legendary inspirational radical visionary genius hero female worth emulating and talking with so there.
+
+10 June 2022, 1:04 pm
+
+	Maximum Egalitarian Cost in the Stable Marriage Problem
+	4th June 2022, 12:49 pm
+
+Assume that we have n men and n women, all of whom want to get married. They rank each other without ties. After that, we can match them into n pairs for marriage. The matching is called stable if there are no rogue couples. A rogue couple is defined as a man and a woman who prefer each other over their assigned future spouses.
+
+A famous theorem says that, whatever all the rankings are, a stable matching always exists. But how good could a stable matching be? There is a way to assign a quality score to a matching, called the egalitarian cost. The egalitarian cost of any matching is the sum of the rankings that each person gave their assigned partner. The best potential outcome is when all people are matched with their first choices. This corresponds to the minimum egalitarian cost of 2n. But what is the maximum egalitarian cost of a stable matching? I couldn't find it in the literature, so I proved that it is n(n+1).
+
+Proof. It is easy to see that the egalitarian cost of n(n+1) is achievable. For example, if all men gave an identical ranking to the women, and vice versa, the matching algorithm will end up with couples having mutual rankings (j,j) for different values of j. Another example is a Latin preference profile. Each woman ranks a man n+1−x whenever he ranks her x. In this case, every potential couple's mutual rankings sum to n+1. Thus, any matching for such rankings ends up with the egalitarian cost of n(n+1).
+
+The next step is to prove that the egalitarian cost can't be greater. Suppose the cost of a stable matching is C and is greater than n(n+1). Then, for every person, we count the number of people who are better (ranked smaller) than their assigned partner and sum these numbers over all the people. The result must be C−2n, which is the number of pairs of people of opposite genders such that the first person prefers the second one over their assigned partner. Moreover, the result is greater than n(n−1).
+
+The total number of possible couples is n2. Thus, the number of unrealized potential couples is n(n−1). We can conclude that we counted one of these unrealized couples twice. In such a couple, two people prefer each other over their assigned partners. Thus, they form a rogue couple, contradicting our assumption that the matching is stable.
+
+Lazar Ilic:
+Nice simple one! I will remember it 😀 matching firms, graduate schools, and mates.
+
+5 June 2022, 9:28 pm
+
+	Who will be Champion?
+
+I stumbled on this puzzle on Facebook the day of the World Cup finals. How timely!
+
+Puzzle. Sixteen teams play a single-elimination tournament, where the losing team is immediately out. The teams have different rankings, and a higher-ranking team always wins against a lower-ranking team. The initial seeding is random.
+In the semifinals, A won against B, and C won against D. Given that B is stronger than D, what is the probability that A will become the champion?
+
+Lazar Ilic:
+The above comment is Wrong and also much more complex than is necessary for the task at hand. In particular there are say 4! = 24 permutations of the 16 teams which map together and hold those same ordered 4-tuples together. So the task is isomorphic with a reduction immediately ab initio into the case where there are in fact merely 4 initial teams relatively ordered. At which point [A,B,C,D] can be [1,2,3,4], [1,3,2,4], [2,3,1,4] so 2/3 should be the final answer.
+
+28 December 2022, 11:09 am
+
+----------
+
+	Slate Star Codex
+	Astral Codex Ten
+	Scott Alexander Siskind
+
+	Classifieds
+
+I want to home school or Stanford Online High School our Summer-born children until they go to the University Of Cambridge whilst living with us. I am 25 and prefer dating 18-30 [and mating with 22-30] year old females with a strong background in mathematics competitions [William Lowell Putnam Competition Top 100, United States Of America Mathematical Olympiad Top 24, CodeForces >= 2100, United States Of America Mathematical Talent Search > 70, Career Pre-Tax Aggregate Income > $3000000, Graduate Record Examination General 340 + 6.0, or "Scholastic Aptitude Test" 1600]. Must be monogamous, eventually agree to head shaving, kiss my neck often, and use 0: hormonal contraception [or history of usage], alcohol, cocaine, opioids, psychedelics, amphetamine, marijuana, fragrances, body products. Email me at lazar_ilic@yahoo.com to schedule a date.
+
+https://github.com/Lazar-Ilic/Lazar/blob/main/Notes/Ideas/Imperfect.png
+
+https://github.com/Lazar-Ilic/Lazar/blob/main/Resume/Lazar%20Ilic%20-%20Resume.pdf
+
+https://github.com/Lazar-Ilic/Lazar/blob/main/Notes/Ideas/Parenting.txt
+
+For clarity, I grew up in the United States Of America in a radically educated and wealthy community with a mixture of Asian and European kiddos... quite a few of whom were wannabe Japanese technologist culture warriors deep into internet culture. I would not know how modern girls analyse environments or multimicronutrition. As I indicated in Productivity.txt, I wear Bambooz socks and [Yeezy Off White Adidas inspired] slides. The precise content of orations by pedagogues like Mark Misage, Jocelyn Bixler, Denise Demartino, et al. at Westlake High School was most certainly sharp for public schools here and many of them also casually promoted instant coffee addiction. Denise casually promoted capturing biological metrics irrespective of perceived utility. It could also be noted that my Jugoslavijan parents grew up on British content and raised me on that sort of intellectual feed. They mid key taught me that British English is right and American English is wrong [often non sequitur or not even wrong]. "Biology 101" immediately comes in to the opinions of parents. My multimillionaire software engineer mother promoted instant coffee addiction as well as waxing and would know that some girls like perhaps my first girlfriend H prefer a warm fully waxed man. Recent events on YouTube involving Mikhail Varshavski [used "memeology" rather than "memetics" but relaxedly takes on skin cancer risk from sun light knowingly], Peter Attia [whom I think quite highly of], Andrew Huberman, Lex Fridman, Bryan Johnson [suspicious promotion of oral over-the-counter supplements], et al. show that human biological hacking is controversial. I am just 1 of many aethernetwork wannabes. Some are 24-bit depth 192.0kHz sampling rate comedy rap connoisseurs. I personally perceive most Americans to be beneath the "sanity threshold", including "MOPpers", only half kidding. To impress trading firms, top 5% on Bridgewater Metaculus would be strong here, as well as generating $10000 in profit net loss trading for myself.
+
+I do not mind. Perhaps we have different notions of health, biology 101, and biological hacking. I have sensory processing issues and also find head hair to be fundamentally disgusting and repulsive. As for hormonal contraception, it is extremely controversial. You can Google around on precise biometrics or permanent long term changes in hormonal profiles. Perhaps I ought to enlighten some in the readership, but explaining biology 101 framings comes directly in to vagarious Jenglish woo zones. A general practitioner in Japan and whiners in France might make the claim that waxed armpits skin organ sweat is extraordinarily beneficial and healthful [citation needed or perhaps one can chime in and cosign this claim... I would also need strong evidence for the claim that it is unhealthful as some modern Harvard Medical fraudsters seem to be contending in malefactory public writing]. It seems as though quite a few readers here are ignorant of various disputes in practise.
+
+Not yet. Perhaps once I have $1000000 and my dream house. I never expected anyone to be my "obedient little doll". Seemed positive expected value to post up here this year around. Perhaps there is some technical misunderstanding of how simple relationships may or may not be... some people love to just cuddle and snuggle at their home.
+
+I am fairly "generally intelligent" and also have nearly aced mock United States Medical Licensing Examination Step 2 Clinical Knowledge examinations so I am in some position to know a thing or two about practise. I charge $100|hour for my tutoring service. As indicated, I own Luteinising Hormone tracking strips with > 99% claimed accuracy to avoid unwanted pregnancies. I am fairly confident that a very large portion of girls in my mating pool have never used hormonal contraception. In any case, I understand some might have, reasoning that it would lead to a stable and safe lifestyle. But I still reject them instantly on physiological grounds as we are incompatible.
+
+I have met multiple such girls... whom I would marry. I am fairly confident there exist tens or hundreds in the world right now, and perhaps some are reading this.
+
+Interesting. I know some sharp software engineers, traders, and researchers who do read it. I met multiple girls in Cambridge, Massachusetts but might sign an offer soon trading in London or New York City. My understanding is that Dr. Scott also has some background in Japan and the United Kingdom so... ongoing culture warring over notions of American, Canadian, Australian, and British Idiots.
+
+Ah. Well I currently have 0 friends aside from producers and comedy rappers so... I suppose that I ought to keep brash lyricism private.
+
+I am not clueless nor am I unaware of social norms. I effectively stated my extremely strong preferences.
+
+I am a musician with thousands of readers of my web log.
+
+There exist hot nubile 30 year olds... that word still commonly simply means marriageable.
+
+Perhaps. If I owned my dream house in Cambridgeshire, I would certainly consider housing an undergraduate would-be wife until reproducing around 24 or so. Papi Champagne sometimes ignores the haters as does Big Daddy Jogurt... evidently that competitive puzzler Danica Xiong went to high school near Aubrey Drake Graham.
+
+https://www.vice.com/en/article/bjaz83/drake-dating-teenager-officially-enters-creepy-old-man-phase
+
+16 is not underage in Cambridge, Cambridge, Cambridgeshire, Japan, or China.
+
+For the written record, I ought to note that I have never played Dungeons And Dragons. I read some Psychology, Evolutionary Psychology, Game Theory, and LessWrong in high school. In elementary school, I enjoyed Twilight and ought to have also enjoyed Mormon literature at the time. I am working on making money and feel as though the requirements are not that extreme in terms of youth. I think it is quite likely that I will find a wife and produce fairly sharp offspring.
+
+Edit: No. Most of her writing is quite sharp. Maybe I cringed a little bit at 1 or 2 of her sentences. My error. I sometimes remind myself of the Scott post Extreme Rationality: It Is Not That Great:
+
+https://www.lesswrong.com/posts/LgavAYtzFQZKg95WC/extreme-rationality-it-s-not-that-great
+
+Precise details of rent markets can hit people in a major key way for example if an obnoxious noise hits during a final examination or some such thing... I expect that if I get my house and have kiddos, there is still a very solid chance they will end up like boring old me rather than famous mathematicians.
+
+I really appreciate you being friendly to me in this thread. I might try to find some friends soon, perhaps in medical research or with a trading club at the University Of Illinois Urbana-Champaign. I keep my comedy rap freestyle drafts private in my diary and have been working on a piece called Lazy Loves The World for some time now. Some in this thread made fun of me after reading my Productivity.txt file so... it is nice you are kind. My older sister, who is prone to displaying body hairs and "whiskers", is one of my dating advisers and she strongly dislikes the American comedy rap microgenre due to its profanity and misogyny. Mathangi earlier was a reference to Arulpragasam MBE [Member of the Order of the British Empire] who is widely considered by scholars to be one of the greatest non sequitur poets of all time thus far on e.g. Marigold. My mother is a fan but rants at me about impressing trading firms and securing a 4.00 Grade Point Average. Oops.
+
+	Open Thread 322
+
+Lazar Ilic
+Mar 25
+edited Apr 25
+Radically obnoxious behaviour. A private email would have been much sharper. https://imgur.com/a/WYkvmfC
+
+Scott Alexander
+Mar 25
+Author
+Sorry, I've deleted all specific predictions from the spreadsheet [it still includes your rank, because I can't think of a better way to convey that information and lots of people want it].
+
+Eremolalos
+Inkbowl
+Mar 25
+Scott's being a psychiatrist seems irrelevant to your complaint, unless he's your psychiatrist, and even then if he's disclosing info about your performance in a different context, where he's in a different role, seems ethical to me. [I'm a psychologist, by the way.]
+
+Lazar Ilic
+Mar 28
+edited Mar 28
+Au contraire. I, and many fellow community members, expected anonymity except for winners. See Schools Proliferating Without Evidence by Eliezer Yudkowsky ["their insight about people"] and anti-psychology literature like House Of Cards: Psychology Built On Myth by Robyn Dawes.
+
+	Links For May 2024
+
+Lazar Ilic
+May 29
+Funny story about rocks. The other day I was at the Paul S. Russell, MD Museum of Medical History and Innovation and was inspired to read up more on the history of Magnesia and magnesite MgCO3. As well as Трстеник and Mivela.
+
+----------
+
+	Overcoming Bias
+	Robin Hanson
+
+	Status Is Your God
+
+Yes, the referenced film They Live is a classic. I used to think Colson Baker was a pre eminent radical visionary genius. Now I do not. I would love to have 100 citations in pure mathematics.
+
+There are plenty of good, well-meaning psychiatrists. One can read about drugs like xanomeline and trospium chloride where perhaps practitioners and patients feel as though their incentives are aligned. Patients are free to read and pursue psychiatry as desired, seeking out SAINT Stanford Accelerated Intelligent Neuromodulation Therapy [though many modern clinicians would probably want evidence of depression being of the so-called "treatment resistant" variety]. Many times, a psychiatrist can function sort of like a strong general practitioner and dole out somewhat standard scientifically informed evidence-backed advice on a variety of useful topics. I am confident plenty of prospective patients get utility from psychiatry even when they go in knowing and stating that medication is off the table e.g. "S" from Laura Baur MD's testimonials section. Psychiatrists deal with anti-psychiatry all the time and can still make money talking with clients about modern cotton+cotton pillow markets e.g. informed by biological archives as well as coworkers in sleep neurology etc.
+
+	Response to Scott Alexander on Medical Effectiveness
+
+General practise, psychology, sleep neurology, and psychiatry can all be quite beneficial for patients. Recently on my web log, I have been harsh against psychiatrists. People can consult on various lifestyle decisions, habits, multimicronutrients, etc. I learned many useful things from one particular practitioner and also felt somewhat cared about by a friendly psychologist at Caltech when I was an undergraduate.
+
+	Response to Scott Alexander on Medical Effectiveness
+
+I ought to stop joking around about Little Wayne of Uproar and Mark Cuban of Cost Plus Drugs Tweets https://twitter.com/mcuban/status/1526281168928350210... Bambooz could upend the KiNobody Clothing firm... one day maybe even Gymnasium Shark, Under Armour, Adidas, and Nike if we get ahead of ourselves.
+
+	Philosophical Angst As Culture Skepticism
+
+I would love to chat with you and Geoffrey during the Natalism conference. Edit 2025-03-28: in the future I will not post up such comments in public because the conference organisers want paying attendees. Perhaps we will meet up some other time. In the interim, I saw a kind of funny light post on the ArXiV economics section on how AIs play a game called Musical Chairs. And you reference mental illness on Twitter in a way I struggle to understand.
+
+	Pre-Sputnik Earth-Orbit Glints
+
+Surely some physicist or astronomer will provide another explanation in this comment section? As an aside, the notion of a transient not only appears in some digital signal processing texts. But audiophiles and engineers often claim the Sony C800G handles certain events more sharply than a Warm Audio 8000. I knew a lad at CalTech who might quiz people on atoms, molecules, and wavefronts.
+
+----------
+
+Don't Worry About the Vase
+Zvi Mowshowitz
+
+	Childhood and Education #9: School is Hell
+
+I intend to homeschool my kiddo[s] and hope they might become mathematicians or general practitioners. I think it is good to have a solid grasp of most Advanced Placement curricula. I went to a very elite public high school in the United States Of America: Westlake High School in Austin, Texas. At the time period I whined at my parents and asked for them to homeschool me, but they ignored these whines. Anyways, it was OK. Many solid teachers, solid performance in STEM Science Technology Engineering Mathematics tests. The conversations were fun enough. And it was nice being exposed to viewpoint diversity, though of course this can sort of be obtained by simply reading a variety of text files. I would imagine that much of the Top 10% at my high school and others across our nation state know a lot about Advanced Placement tests. Stimulating kiddos to care about esoteric mathematics research is itself a funny issue in pedagogy. My undergraduate adviser and probably some of my high school teachers might put it a little bluntly like: if you want to be a mathematician, Just Do It. Go ahead and post up your mathematics research in public on the ArXiV once those brilliant visions emerge or whatever. I mentioned this in a comment on Astral Codex Ten but Mark Misage, Jocelyn Bixler, and Denise Demartino all encouraged critical thinking as well as performance on alleged tests of critical thinking. I now view medical doctors talking on YouTube sometimes and find that content to be engaging. Some of their unhumble rants are funny retrospectively and also were funny even at the time. I am hoping to take my kiddo[s] to talks at the University Of Texas At Austin while they are in high school maybe just to have some exposure to how researchers across different domains talk about their ideas. Digressive ramble from me but basically I do not really agree that school is hell. For some, the sensory constraints are a primary complaint.
+
+----------
+
+Reddit
+
+r/AskReddit
+•
+15 hr. ago
+Skitscuddlydoo
+
+What's a smell that most people consider to be good but you find repulsive?
+
+LazyrLilac
+•
+1h ago
+•
+Edited 1m ago
+Food and synthetic inorganic chemicals, fragrances, volatile organic compounds. I enjoy sweat, armpits, inguina, saliva, blood, urine, faeces, and sometimes "nature".
+
+r/slatestarcodex
+• Seeking books recommendations on how to think better, clearly and more rational
+LazyrLilac commented 1 day ago 
+Perhaps introductory textbooks followed by 石井 仁司's bibliography etc.
+
+r/slatestarcodex
+• From what domains or aspects of life do you find a steady source of meaning?
+LazyrLilac commented 1 day ago 
+Mathematics. Intelligence. In Pursuit Of Perfection. I hope "Artificial Intelligence" never outperforms or even begins to assist humans too strongly.
+
+r/slatestarcodex
+• Ethics of sperm donation
+LazyrLilac commented 1 mo. ago 
+I am a free public sperm donor. It seems obviously ethical to me; free marginal consumer surplus generated by grey market dynamics. If I were a woman, I would cringe at your inability to write the words "legislation" or "thought" and deduce that you have radically low "quality" sperm. Some would contend that compensating donors, and the for-profit industry in general, is unethical. Frozen semen is biologically questionable and charging women for it would strike some as odd. The notion of "quality" here is extremely dubious. I produce ~100000000 motile per ejaculate with very low DNA fragmentation e.g. I am not worried about offspring bothering me nor am I too concerned that women will think lowly of me.
+
+r/slatestarcodex
+• Seeking sources of useful information about women's hormones
+Endocrinology, psychoneuroendocrinology, etc. are complex topics. If you are interested in pursuing advice or hormone replacement therapy, I suggest scheduling a meeting with a gynaecologist and maybe obstetrician. You could try and read British textbooks from ~2010 but domain experts... people deeply engaged with medical schools will most likely understand much more. Hypopituitarism and "oestrogen dominance" can be tricky. Some menopause practitioners might discuss and try lifestyle modifications before prescribing a medium dosage of testosterone, knowing that exogenous drugs have risks and plausibly harmful downstream effects. If I were a British general practitioner, I would talk with you and then refer you to a gynaecologist with strong ideas.
+
+r/cscareerquestions
+• Resume Advice Thread - July 16, 2024
+I am considering adding a 1 paragraph blurb about trading research:
+
+r/slatestarcodex
+• What is so bad about nursing homes?
+I would imagine that many house owners would prefer a user experience with a "friendly" humanoid robot assisting with fully automated lifestyle factors and somehow ensuring medication ingestion, etc. to practitioners remotely or some such thing, perhaps mixed in with weekly human visits.
+
+LazyrLilac
+u/LazyrLilac
+•
+1m ago
+Pedantic linguistic nitpick: "agenticism" might flow better here.
+
+LazyrLilac
+•
+1m ago
+Thanks, "agency" is almost certainly the most standard word here.
+
+r/Serbia
+Ko je Lazar Ilic?
+Mexel21
+Zabava (Entertainment)
+Zdravo u navedenom klipu devojka navodi da resava neke preteske slagalice ali da je uvek druga i da je stalno pobedjuje neki Lazar Ilic. Devojka jos navodi kako mu je slala mail da je najteza zagotka u zivotu zagonetka ljubavi tako da apelujem ako eminentni lazar ilic cita ovo javi se Danici (vec ima donekle srpsko ime tako da si na konju brate)
+
+CerebralMessiah
+4mo ago
+emoji:novisad: Novi Sad
+Znači neki programerski wunderkind?
+
+Mexel21
+4mo ago
+Hvala pitacu sestru programera sta si mi tacno poslao da li si mi poslao nekog randomca ili realno nekog
+
+A za jubillee iskreno imaju bezbroj preglupih video msm delom zbog hiperprodukcije, ali omakne im se da naprave i jako edukativn i zanimljiv sadrzaj(ne mislim da ovaj klip ovaj klip je preglup)
+
+u/janavu
+2h ago
+Zdravo, moze li update? Da li si ga pronasao? :)
+
+u/LazyrLilac
+1m ago
+I am Lazar. Знам врло мало српски. I used to waste time studying 96.0kHz sampling rate .flac files of Sharon den Adel but am now attempting to prove interesting results in Statistics to impress Citadel Securities as well as girlies like Missus Mademoiselle Danica Xiong.
+
+u/cedric_chin
+2d ago
+You're talking about Jason Cohen. https://longform.asmartbear.com/problem/
+
+oceanicursula
+OP
+2d ago
+Yes, that's right! Thank you so much. I will bookmark the site so that I don't lose it in the future.
+
+LazyrLilac
+1m ago
+I normally suggest saving websites in legible .txt to one's personal drive over bookmarking or even WaybackMachine InternetArchiving.
+
+r/PurplePillDebate
+21 hr. ago
+snappy033
+
+Is going soft momentarily that big of a deal?
+
+u/LazyrLilac
+1m ago
+Yes. It reveals extreme cardiovascular weakness.
+
+r/slatestarcodex
+dwaxe
+Your Book Review: The Pale King
+r/slatestarcodex - Your Book Review: The Pale King
+astralcodexten.com
+
+LazyrLilac
+1m ago
+Interesting. I already knew about David's life history. But the "Writing The Pale King" section struck me on this fine morning. Psychostimulant addicts face problems evaluating their own brain mood stability and cognitive metrics. I am scared of quitting instant coffee, though quitting might increase my intelligence. Tricky stuff.
+
+r/UTAustin
+Leather_Trifle2486
+Why is UT Austin ranked so high in Computer Science when UT Austin doesn't perform well in programming competitions?
+
+LazyrLilac
+If you want to understand university ranking methodology, read more. Those universities are not unknown - they are perfectly legitimate institutions of higher learning and research. That website is for our competitive programming course. Many benefit from relatively casual engagement with the course without taking contests too seriously. Also, ICPC is not the only competition; some think more highly of open internet "centaur" style competitions like the Meta Hacker Cup and Project Euler. There are plenty of Masters and Grandmasters from UT Austin.
+
+r/UTAustin
+Showering Roommate
+I am shocked sometimes by undergraduates' lack of knowledge. Showering is not a terribly evidence-backed practise but sometimes helps. She might have trimethylaminuria or instead ate fish indoors and the odour particulates propagated on to her clothing. If you ask a sharp general practitioner or outpatient psychiatrist, they might suggest brushing teeth, considering trying waxing, and laundering clothing with a fragrance-free liquid detergent. Many of the suggestions here are almost certainly unhealthful.
+
+r/quant
+throwawaylucky777
+Why does JS make these? (Meet the Machine Learning Team at Jane Street)
+LazyrLilac
+"Stalked" does not apply here in the legalese sense.
+
+r/Austin
+13 days ago
+hollow_hippie
+Police union says APD should 'stop responding to mental health calls' after officer's sentence
+LazyrLilac
+Many citizens expect the police to respond to such calls and deal with these situations. Some commenters here seem to be misunderstanding funding. I am not an expert, but my understanding is that... it is possible increasing salaries would not lead to many new hires nor would it improve average efficacy of officers and thus might not be a useful intervention. Furthermore, significantly decreasing salaries might lead to a significant drop in quality. So, the problem of solving for optimal capital allocation is on the the council and budget writers. Or at least I think this style of reasoning would be presented in a high school government course. In any case, I know many cops are friendly and trying their best to do a good job and save lives. Upon further review 2025-01-13 I do not think that the supply side is controlled by simple manipulations of the starting compensation. Rather, the budget writers and departments think about salary and the number of openings. As for why experienced officers who are performing well get raises, that ought to be obvious enough.
+
+
+r/hiphopheads
+•
+21 hr. ago
+TydenDurler
+
+Madlib says he has lost decades of music and equipment including his home to the LA fires
+Perhaps others can learn and prepare. Convert and digitise esoteric old master vinyl recordings via performant modern vinyl to digital conversion processes. Some producers might have tens or hundreds of terabytes of 24-bit depth 96.0kHz sampling rate .waveform content. They could consider cloud storage, though a safe of optical discs might be better than solid state drives on longevity. I read recently that some researchers are attempting to generate an optical disc which can store 200 terabytes.
+
+
+r/slatestarcodex
+•
+2 days ago
+michaelmf
+
+A touching obituary for Max Chiswick, a longtime SSC reader and member of our community
+It is interesting. Rude to comment negatively on the writing of a recently deceased person but... his post Automate The Food is... I also eat a relatively simple monotone diet. Might add more eggs and personally opt to use a metal fork in a metal pan rather than silicone with ceramic nonstick which is also aight.
+
+r/pics
+•
+22 hr. ago
+JK-Rofling
+Silk Road founder Ross Ulbricht leaving prison after being pardoned. Spent over 11 years in prison.
+
+Fellow Chap "laughing to the bank like ha ha ha"... I would love to casually run in to him somewhere in Westlake, Austin, Texas let him know he is a living legend. Edit: 10 years in jail is a long long time, so maybe he was not laughing, and also maybe he does not have an actionable hidden stash of crypto. Such a stash might not be useful due to government scrutiny.
+
+
+r/hiphopheads
+All of the Hip-Hop albums that made Rolling Stones' "250 Greatest Albums of the 21 Century" list
+Daytona, If You're Reading This It's Too Late, and Kanye West's discography are the only records here which ought to appear in such a list, and I write this as a HipHopHead.
+
+
+r/UTAustin
+•
+5 hr. ago
+BeneficialBear7910
+
+As an incoming CS major, wondering if any current CS majors have laptop recommendations?
+
+If you can find a new 15in M4 MacBook Air for around $1000 [on Amazon in a month or so e.g.] with the minimum specifications [consider buying additional memory in the form of a Google Drive or micro SDXC], that is probably optimal. Even $1200 from Apple would be OK.
+
+r/SlateStarCodex
+UVC Recommendations
+
+u/ScottAlexander
+•
+1d ago
+I talked to someone in the field last week. They said it's important to do it right because some of the worse ones don't take enough care to eliminate side effects like retinal burns. I think the one they recommended was https://www.beaconlight.co/ but not 100% sure. A friend is working on a startup to make them more consumer-facing and I'll probably announce it when it leaves stealth.
+
+u/LazyrLilac
+•
+1m ago
+Interesting. Sorry for spamming previously. My father had installed some in our air flow due to his beliefs about mould, if I recall correctly. And he suggested I read more on the issue of whether or not my remote controlled Tool Klean with the option to purchase backup bulbs was itself producing unusual byproduct emissions at the alleged 254nm wavelength. I am currently doing a lot more literature review trawling on UV A or B bulbs in the context of dark bedrooms with medium humidity in the central Texas region and will ensure to post up on my own web log if I find something interesting.
+
+u/evouga
+•
+3d ago
+I mean, it makes sense. If it's chemically reactive and we haven't evolved a defense against it over millions of years, it's not going to do good things to our own molecules.
+
+I have been casually promoting chemophobia and mid-key paranoia on my general practise web log for some time now. It is interesting enough, reading up on objective severe toxins like trichloroethylene versus others which exert less toxicity. Wannabe students of chemistry might benefit from skimming or reading Gregory van Buskirk's patents actually somewhat topical in home residential environment chemical design. His liquids outperform some minimal products.
+
+r/slatestarcodex
+•
+6 days ago
+sapph_star
+
+Delicious Boy Slop - Thanks Scott for the Effortless Weight Loss
+Most sharp dietitians would promote a bit more variety. You are pinning gear. Your advice does not apply to natural humans who might worry about their pituitary axes. This annoying trend of internet juicers promoting monotonicity is tantamount to medical disinformation coming from unlicensed wannabes.
+
+r/iamveryVERYsmart
+•7 yr. ago [deleted]
+Comment on Netflix's deal for annihilation..
+LazyrLilac•43m ago
+Funny idea for a subReddit. I also saw Annihilation at ArcLight Pasadena on that Saturday release date.
+
+
+r/Testosterone
+•
+2 days ago
+GWOTdope6-9
+
+Something I wish everyone on here knew.
+
+LazyrLilac
+•
+1d ago
+•
+Edited 1m ago
+I might never return to Reddit. In 2011, it was a funny website. Now it is at the centre of ongoing American and global anti-intellectualism. You ought to not sneer so casually at general practitioners. Have you passed the MRCGP or USMLE Step 3? Scored a 280 on the latter? Been doing board certification exams and ongoing education? Do you even know how to pass a reading test like the GRE? Most general practitioners could probably annihilate you at physics and urologists certainly know quite a lot about andrology. My urologist is one of my favourite people in the world and basically saved my life in writing down my 'scrip' for hCG monotherapy. And he is a fairly eminent researcher almost certainly making solid compensation who would be considered by many to be a very high status member of our society. Plenty of urologists do have the time to keep up with research. You are a moron.
+-2
+
+
+r/bugs
+•
+2 days ago
+
+ios Sorting Top By Last Week Month Year Failed On Mobile Web
+It failed a few times and may have been fixed in the interim. You all should check it out and any previous posts upon this topic.
+iOS
+
+164 views
+
+
+r/ParisTravelGuide
+• Where is this in Paris?? What is the exact location??
+LazyrLilac  replied to D1m1t40v 2 hr. ago 
+It was indeed according to this interview with the photographer [https://www.vice.com/en/article/how-does-it-feel-to-have-your-photography-sold-at-ikea/] Jean-Marc Charles. I stumped a modern LLM model by asking it this location question.
+
+
+r/AskReddit
+• What's a hobby people act superior for having that isn't that deep?
+
+LazyrLilac  replied to mattrs1101 1 day ago 
+Many people in this thread have fundamental misconceptions. Most audiophiles are seeking a pure experience, not curious for different sound signatures. Neutrality is often praised as well as measurements of low total harmonic distortion and noise terms. They write reasonable reviews of high resolution ~$500 DACs and headphones. Music criticism and production are deeply entertaining. I know audiophiles who are down a couple bands and proud of their supreme superior decisions as consumers in the market.
+
+----------
+
+Erica Attonito
+Hudson River Trading
+4yr •  4 years ago • Visible to anyone on or off LinkedIn
+
+HRT is proud to sponsor Wall Street Rides FAR, supporting The Autism Science Foundation. An amazing day with lots of amazing people! hashtag#WallStreetRidesFar
+
+Prashant Lal
+   • 2nd
+Partner at Hudson River Trading
+4y
+
+I am extremely proud to oppose this organisation. The ism of aut is not real. It can not be measured or diagnosed physically. This organisation has caused quite a lot of harm and failed to live up to their stated goal. Irritability is not real. It would be much better to fund the education of biologically conservative paediatricians.
+
+----------
+
+Art Of Problem Solving
+Profile
+
+Used to include a link to Productivity.txt I since took down because it is NSFW Not Safe For Work.
+
+----------
+
+MathDash
+
+Lazar
+3/25/2025, 15:03
+The phrase "chrome to the dome" is odd because razors I and most people use for shaving their head are made of stainless steel.
+
+Lazar
+Akshaj has written what might be the worst website of all time thus far: MathDash.
+
+...
+
+Yet another brutally mediocre competition run by MathDash. Not only was the answer key again wrong but the time penalty function apparently penalises submissions with a score of 0.
+
+Task 2 was 350 but it goes to show the frank lack of detail-orientation from Akshaj and Daniel I mean really seriously bad website designers who just repeatedly show no discretion.
+
+I could have sworn the rules set clearly wrote that only submissions with positive points count towards the time penalty.
+
+I have saved copies of MathDash grading and can confirm MathDash proof grading is just rigged. The grading on Task 8 in incredibly internally inconsistent. Some terrible submissions are being given 7|7 whilst mine was given a 0|7. Awful.
+
+MathDash Grading Is Rigged
+
+Lazar Ilic <lazarilic322@gmail.com>
+2:16 PM (0 minutes ago)
+to MathDash, Daniel, akshaj@mathdash.com
+
+You all have rigged the grading. I have saved copies of the scoring. You all have failed to write down the rules set on time penalties quite clearly enough. I will contact Citadel unless you all repair your mediocre dysfunctional website.
+
+[Conversation Continues In A Friendly Email Chat Thread With Akshaj Where I Apologise For 'Roid Raging A Bit And We Chit Chat]
+
+Lazar
+5/13/2025, 13:54
+I was mildly shocked nobody replied in this thread and I ought to have replied the moment I saw the information but my understanding is that it should come by the end of this Friday 2025-05-16.
+
+[MathDash Is Great By The Way Actually Daniel Is A Great Guy Running A Solid Firm Which Adds Value]
+
+Anand
+"
+For any path, the area under it is the sum of the heights of the columns under it. Thus each path with even area below it has a bijection with the number of non-decreasing (since we can move up, but not down) sequences length 6 with integers from 0 to 6, with total sum being even. Then we can have
+
+0 odds, 6 evens,
+2 odds, 4 evens,
+4 odds, 2 evens,
+6 odds, 0 evens
+
+in our sequence. If we pick x evens, and 6-x odds there is a unique way to order them to be non-decreasing, so we just find the number of ways to select that many evens/odds. There are 3 odds (1, 3, 5) and 4 evens (0, 2, 4, 6), so view the number of ways to pick m odds as x+y+z=m, where x is the number of 1s we pick, y is the number of 3s, etc. By stars and bars,
+
+0 odds, 6 evens = 2C2 * 9C3 = 84
+2 odds, 4 evens = 4C2 * 7C3 = 210
+4 odds, 2 evens = 6C2 * 5C3 = 150
+6 odds, 0 evens = 8C2 * 3C3 = 28
+
+Then 84+210+150+26 = 472.
+"
+
+Fun solution, too. Thanks for sharing!
+
+GustavFazbear
+"
+Didn't find this in contest, but here is the pro solution:
+
+If you hit (odd, odd), then it obviously splits half and half. The only paths that don't hit (odd, odd) are the ones that kind just traverse a 3-by-3 grid (times 2). The answer is the then (12C6+6C3)/2
+"
+
+Reviewing here morning of the final round and it is unwise to write "obviously" to the grader. Here, the bijection more explicitly is like each path which hits an (odd, odd) point has an earliest such (odd, odd) point it hits and then one can observe that the previous 2 must have been UR or RU but then the paths pair up by swapping those final 2 steps and one will induce an odd sum thus far one will be even. Strong induction and dynamic programming also would demonstrate the claim. Upon even further review I want to note something pedagogic about the art of proof writing. Here we have an opportunity to preemptively disambiguate and also ensure the grader knows we know what is up. So we can give an OK example like maybe even two and state quite clearly in our bijection the path RRUURRRUUURU is paired with RRUURRURUURU because (5,3) is the first (odd, odd) point in those paths.
+
+2*t+3*(10-t)=3*t+2*(11-t) so t=4 for 52
+
+The sum in question must be 65 and considering the diagonals as well as middle row and column we see S+18+4(65-18)=65*5 for S=119
+
+I skipped this one initially as I was reading all of the other tasks up front but realised it is pretty easy casework so a 0 works giving 900-729=171 solutions. Then 1 1 X works for 25 more as well as the final solution stemming from 1 2 2. That no other solution can work should be clear enough algebraically.
+
+Considering each row representing an undirected edge between column a and column b we may observe that either the graph between columns breaks down in to 2 relatively trivial 2 cycles or a 4 cycle. In the former case there are 3 different sets of rows and 4 choose 2 = 6 ways for each set of rows to be placed in to the 4 by 4. In the other case there are 3 different sets of rows and 4! = 24 ways for each set of rows to be placed giving 3 * 6 + 3 * 24 = 90
+
+Standard Markov Chain with states A and B giving A=1+A*3/4+B*1/4, B=1+A/5, so A=25/4, B=9/4
+
+This is from HMMT and also appeared on an earlier MathDash round via Akshaj but the solution is actually quote simple. So the 1 and 2 must be in positions 4 to 9 on the 3rd row and thus by symmetry there is a 2/3 chance neither occupies the ? square. At which point by symmetry again the probability the 3 in particular is assigned to that one is 2/3*1/7 = 2/21. I misspoke and asserted that the answer might be of the form a/[7a+2b] which is not as en pointe of an approach for attempting a guess here very late in the round we want more often to be guessing fractions which are strictly < 1/7 and also have a multiple of 7 in the denominator actually as there is no great evidence the probability left for the 1/7 multiplication would have had a 7 multiple in the numerator.
+
+The task statement could have been preemptively disambiguated by adding in something like: So if 1 and 2 appear in the same row in the first square and the same column in the second square, this counts as a valid pair. In any case the number of unordered pairs formed is say 49*12/2 and each one has a probability of 12/48 of appearing in the next square at which point we get the answer by linearity of expectation.
+
+The standard canonical solution here uses generating functions so a pair of regular dice is represented by 1 2 3 4 5 6 or the sum being given by the polynomial (x+x^2+x^3+x^4+x^5+x^6)^2 or rather that over 36. But then we can factorise this using (x-1) and then difference and sum of cubes and note that in another split we will need to have the leading term be x^1 or higher degree and also plugging in x=1 will need to give us 6 for each die because they are 6 sided and also the coefficients must be nonnegative at which point the only case worth examining becomes the (x+2x^2+2x^3+x^4)(x+x^3+x^4+x^5+x^6+x^8) case where the die with sides 1 3 4 5 6 8 has sum 27.
+
+One of the simpler ways to verify the angles do indeed line up is by applying the first operation 4 times to get to (-4,0) and then the second operation 4 times to get to (28,-96)
+
+----------
+
+(EC)⁵: College Essay Consulting
+Posted on 1 April, 2024 by Evan Chen (陳誼廷)
+
+Lazar Ilic
+18 April, 202514:06 Reply
+I think highly of Evan's research in pure mathematics. This post is radically low quality. Evan seems to miss the point. Not only is he a painfully weak writer, he is also a weak reader. There exist people like Kevin Martin of Texas Admissions who have serious edges in composing undergraduate admissions essays. As well as professors who have edges in writing graduate admissions statements. And editors for novels or history books. Some of the kiddos and parents in Evan's readership are almost certainly incapable of discerning various qualities of elite writers some undergraduate admissions officers can and do in fact.
+
+----------
+
+Hacker News
+
+----------
+
+YouTube
+
+
+EGOI First Place and IOI Silver Medalist talks USACO Preparation - Keta Tsimakuridze
+
+@LazarIlic0
+7 days ago
+🐯
+1
+Reply
+
+
+Claire, an EGOI Gold Medalist, Reveals How She Prepared for USACO
+
+@LazarIlic0
+2 weeks ago
+Inspirational and motivational <3
+1
+Reply
+
+
+Estelle Chen - LOVE I NEED (Official Music Video)
+
+@LazarIlic0
+3 days ago (edited)
+Cute on Apple Music!
+3
+Reply
+
+
+mgk: outlaw overture/vampire diaries | The Tonight Show Starring Jimmy Fallon
+
+@LazarIlic0
+13 hours ago
+Colson, you are one of the best man you really changed my life and cured my woes!
+16
+Reply
+
+
+Etienne Vouga - The Future of ICPC Problems
+
+@LazarIlic0
+7 hours ago
+Fun talk from Etienne! I was always thankful to have stuff like Project Euler and research so this topic was not something I thought about. I am confused about the point of ICPC, who funds it and why, as well as why one would suppose having a clearly written fixed small curriculum would be good. Anyways, I still enjoy the occasional task which is focused on very very fast code.
+
+1
+Reply
+
+
+Interview with Isabelle Yixuan Ning 🇳🇿 | Round 1 | Game 1 | FIDE Women's World Cup 2025
+
+@LazarIlic0
+6 hours ago (edited)
+Beautiful and well-spoken. Hope she performs highly in maths as well as chess.
+
+1
+Reply
+
+----------
+
+Art Of Problem Solving
+
+You can not even begin to understand music or psychology. When Daniel Perez, son of Pero, composed Endless Fashion, he was sculpting sound in to high art. Fast As You Can from Eternal Atake is probably his undisputed masterpiece. A song so catchy, most people miss the meaning of the lyrics. It is more than a mere didactic parable about the Automobili Lamborghini firm producing fast cars. We learn of the deep depths to which Luziver is a "slimy guy" whom "these women love".
+by awesomemathlete, Jul 4, 2024, 7:18 AM
+
+holden admits orz
+by ihatemath123, Jul 17, 2024, 11:11 AM
+
+Update: I was surprised to read that Eternal Atake 2 is coming out before Love Is Rage 3. Hoping that Daniel [sic] Peres will produce more beats. Perhaps Symere will reveal he has moved from fettuccine to linguine, tortellini, fussilloni, and has the power of Mussolini. Better yet, I am hopeful Ooze will discuss fully automatic matters.
+by awesomemathlete, Oct 26, 2024, 9:23 PM
+
+Another update. Eternal Atake 2 is a 0|10. Georgia Versus Young Thug was interesting. Perhaps rap poetry ought to not be about drugs, violence, gangs, and comedy. More love and less rage. Fast As I Can. Drop it slow, shake it fast, hit a handstand. Bugz Ronin Run It Up.
+by awesomemathlete, Nov 1, 2024, 11:32 PM
+
+I ought to not spam this thread with musical commentary but... Not An Option was OK and the Paars In The Mars sample of Together As One - James Paget was aight. Lyrics hit an all time low. Flash back to Magnus August Høiberg in the waveform fraternity.
+by awesomemathlete, Nov 2, 2024, 7:00 PM
+
+dijkstra
+by solasky, Dec 28, 2024, 12:08 PM
+
+Dictionaries contain notes on pronunciation. Wiktionary and Google are OK. One can consult a British YouTube channel on the topic. It is sad Wiktionary does not host name meanings, but Google responds with something like: "person who lived by a dyke". Dykstra is a Frisian surname describes a person who lived by a dyke. The suffix "-stra" is derived from old Germanic -sater, meaning sitter or dweller. The name originates in the northern Netherlands province of Friesland. The name was originally spelled "Dijkstra".
+by awesomemathlete, Jan 12, 2025, 5:43 AM
+
+----------
+
+	https://www.linkedin.com/in/lazarilic0/
+
+[Probably Quit Posting Here]
+
+[One Ought To Quit LinkedIn Because It Is A Useless Waste Of Time]
+
+Quick note on technical writing: use https://www.janestreet.com/puzzles/number-cross-5-index/ rather than https://www.janestreet.com/puzzles/current-puzzle/. So future readers know what you were referencing. Also, I was a fan of your web log post on the 2 coins puzzle. If you are looking to break in to quantitative trading, a theoretical or applied statistics paper would be cool.
+
+Lazar Ilic posted this •
+Pinpoint #210 | 1 guess 1️⃣ | 100% match 📌 lnkd.in/pinpoint.
+Pinpoint #210 | 1 guess
+1️⃣ | 100% match 📌
+lnkd.in/pinpoint.
+
+Lazar Ilic posted this •
+Pinpoint #208 | 1 guess 1️⃣ | 100% match 📌 lnkd.in/pinpoint.
+Pinpoint #208 | 1 guess
+1️⃣ | 100% match 📌
+lnkd.in/pinpoint.
+
+Lazar Ilic posted this •
+Pinpoint #200 | 1 guess 1️⃣ | 100% match 📌 lnkd.in/pinpoint.
+Pinpoint #200 | 1 guess
+1️⃣ | 100% match 📌
+lnkd.in/pinpoint.
+
+Lazar Ilic posted this •
+Pinpoint #195 | 1 guess 1️⃣ | 100% match 📌 lnkd.in/pinpoint.
+Pinpoint #195 | 1 guess
+1️⃣ | 100% match 📌
+lnkd.in/pinpoint.
+ 
+• You
+Software Engineer at Amazon Alexa Security
+1d
+Hope you all are doing very well, Dr. Gerko :)
+
+• You
+Software Engineer at Amazon Alexa Security
+2d
+(edited)
+[On A Writeup Worth 0|10 For Being So Awful]
+Your writeup is too long. The code is mediocre, as one may compute [2n choose n] more directly and simply and also use a bit shift operator << to represent relevant powers of 2 on underlying high precision int data types. This approximation is also really bad according to extremely canonical literature. 
+
+a = 2
+aa = 1 / 2
+c = 1 << 2
+for b in range(1, 1000):
+    #print(a) # Checker
+    print(b, a / c, aa) # Perhaps Use Custom High-Precision Python Library Here
+    c <<= 2
+    a *= 4 * b + 2
+    a //= b + 1
+    aa *= (2 * b + 1) / (2 * b + 2) # Interesting enough to ask interviewee to estimate this error term here.
+
+Further reading from Wikipedia for better approximation:
+Luke, Yudell L. (1969). The Special Functions and their Approximations, Vol. 1.
+New York, NY, USA: Academic Press, Inc. p. 35.
+
+I have run in to double or long double precision issues in Python before in situations like this before if attempting to do code like this but without a c variable instead opting to divide powers of 2 in to the expression for a. This can be precisified further but vaguely some of those multiplicands will be erroneously high and some will be low so in the midterm we might expect quite a lot of convenient canceling and acceptable approximation depending on the precise setting and just how precise we want to be... also in C++ maybe 48 bits of long double precision is enough here for Optiver's desires.
+
+https://github.com/Lazar-Ilic/Lazar/blob/main/Notes/Computer%20Science/Algorithms/Interviews%20Coding%20Rounds/Interviews%20Coding%20Rounds.txt
+
+[I Haved Ceased Pushing These Solutions Thither]
+
+----------
+
+Optiver Prove It Episode 2
+Lazar Ilic
+
+Prove It Episode 2 \\
+Lazar Ilic
+
+Thanks for the puzzle. I have updated my notes on the previous round in my public GitHub.
+
+My intuition based around previous work in this domain was that the answer should be $O\left[n^2\right]$. I think I remembered that in a more open setting the expected deviation from the starting point is $O\left[\sqrt{\text{Number Of Steps}}\right]$ and in particular well-approximated by $\sqrt{n}$ precisely. Which is a starting point maybe for an asymptotic expectation at the very least. So I might have guessed something like ~$12$ in an interview setting, reasoning incorrectly that some of the undesired left movement might cancel conveniently somehow. But I would have included $16$ and plausibly even $20$ in my centred $90\%$ confidence interval for the true value.
+
+We observe that $16, 15, 12, 7, 0$ is the unique solution to the underlying system of equations and in general $n^2, n^2-1^2, n^2-2^2, n^2-3^2, \dots, 2n-1, 0$ works as well since $a^2+1=\frac{(a+1)^2+(a-1)^2}{2}$ for the domain of $a=1,2, \dots, n-1$ and in general.
+
+Now with the probability $p=\frac{1}{3}$ of moving right one obtains the relevant general formulae via the analytic techniques represented in the description of the OEIS Online Encyclopaedia Of Integer Sequences A095264 for example $E06=234, E16=233, E26=228, E36=215, E46=186, E56=125, E66=0$ from the delta differences being $2^{n+2}-3n-4$. And the techniques there work in slightly more general settings as well as potentially the usual potentially more costly Markov Chain techniques with matrix inversion etc.
+
+----------
+
+Optiver Prove It Episode 3 \\
+Lazar Ilic
+
+$\boxed{\text{Second}}$. This follows immediately from a naive simulation. It also follows intuitively because the second player wins quite frequently on the 2nd turn. And though the 1st player winning on the 3rd turn has a slightly higher average score on those wins it is still a much lower probability event.
+
+One approach would be to consider summing up the power series $((x+x^2+x^3+x^4+x^5+x^6)/6)^0+((x+x^2+x^3+x^4+x^5+x^6)/6)^2+((x+x^2+x^3+x^4+x^5+x^6)/6)^4$ and $((x+x^2+x^3+x^4+x^5+x^6)/6)^1+((x+x^2+x^3+x^4+x^5+x^6)/6)^3+((x+x^2+x^3+x^4+x^5+x^6)/6)^5$ and then truncating to only include terms with exponents $<6$ followed up with multiplying by $((x+x^2+x^3+x^4+x^5+x^6)/6)$ again to then truncate and only include terms with exponents $\ge 6$ to get the underlying probabilities to get:
+
+$((x+x^2+x^3+x^4+x^5+x^6)/6)(148 x^5 + 109 x^4 + 72 x^3 + 36 x^2 + 1296)/1296$ \\
+$((x+x^2+x^3+x^4+x^5+x^6)/6)((1513 x^5)/7776 + (13 x^4)/72 + (37 x^3)/216 + x^2/6 + x/6)$
+
+For:
+
+$(37 x^{11})/1944 + (257 x^{10})/7776 + (329 x^9)/7776 + (365 x^8)/7776 + (365 x^7)/7776 + (1661 x^6)/7776$ \\
+$(1513 x^{11})/46656 + (2917 x^{10})/46656 + (4249 x^9)/46656 + (5545 x^8)/46656 + (6841 x^7)/46656 + (6841 x^6)/46656$
+
+Where these probabilities do in fact sum to $1$ as a sanity check. Then this leads to expected values of:
+
+$2825/972<72449/15552$ respectively for the first and second player. It is a somewhat interesting approach versus discrete dynamic programming, depending on the implementation of Fast Fourier Integer Transformations in relevant computer algebra libraries with binary exponentiation or whatever is native to Wolfram Mathematica on certain calls here. For more general cases.
+
+----------
+
+Optiver Prove It Episode 4 \\
+Lazar Ilic
+
+It is pretty easy to prove that $rm$ and $rm-1$ are the optimal values in general. Indeed, the probabilities are the same as $\binom{rm}{r}\left(\frac{1}{m}\right)^{r}\left(\frac{m-1}{m}\right)^{rm-r}=\binom{rm-1}{r}\left(\frac{1}{m}\right)^{r}\left(\frac{m-1}{m}\right)^{rm-1-r}$. As multiplying the right hand side by $\frac{m}{m-1}=\frac{rm}{rm-r}$ and $\frac{m-1}{m}$ respectively in the terms gives the left hand side by usual terse expression for binomial coefficient. Now it suffices to prove that function is unimodal and takes on a maximum between those $2$ values. 1 day later update: we can take the discrete derivative here by merely examining that this ratio between consecutive terms decreases until it hits 1 precisely here and then continues decreasing beyond that which implies the desired. Alternate finish: it then suffices to prove the derivative is monotone and has a $0$. Using WolframAlpha for example as a computer algebra software:
+
+\begin{verbatim}
+d/dx ((x choose r)*(1/m)^r*((m-1)/m)^(x-r))=0
+(1/m)^r binomial(x,r) ((m-1)/m)^(x-r) (log((m-1)/m) - polygamma(0,-r+x+1) + polygamma(0,x+1)) = 0
+(log((m - 1)/m) - polygamma(0, -r + x + 1) + polygamma(0, x + 1)) = 0
+H_x + log(m - 1) = H_(x - r) + log(m)
+\end{verbatim}
+
+Which can be rearranged in to $H_x-H_{x-r}=\log{m}-\log{m-1}=\log{\frac{m}{m-1}}$ and seen to be monotone quite easily as shifting along replaces a bigger term with a smaller term and the limit of the left hand side goes to $0$ as $x$ goes to infinity whereas the right hand side is a positive constant clearly so it will be passed in finite time.
+
+----------
+
+Optiver Prove It Episode 5 \\
+Lazar Ilic
+
+Maybe I can generate a new and interesting simple proof today for this canonical result of infinite expectation. Eh.
+
+OK. So for the new task we want to prove that the sum without the term for the length of the path, that is to say just the sum presented as a sum of probabilities approaches 1 in the infinite limit. Plugging this in to the computer algebra software Wolfram Alpha: "sum from k=1 to infinity of 2/(4^k*k)*((2k-2) choose (k-1))" gives a Result of 1 as expected. In particular, it returns "sum_(k=1)^n (2 binomial(2 k - 2, k - 1))/(4^k k) = 2^(-2 n) (2^(2 n) - binomial(2 (n + 1) - 2, n))" as the partial sum formula. This could likely be proved inductively.
+
+https://math.stackexchange.com/questions/536/proving-that-1-and-2d-simple-symmetric-random-walks-return-to-the-origin-wi
+
+Leads to a very simple formula which reminds me of the Meta Hacker Cup 2024 Round 1 Task C Substantial Losses. Some discussions of generating functions which is also interesting. But the claim is that if P is the probability of eventually hitting 0 from 1 then P=1/2+1/2*P^2 because there is a 1/2 probability of immediately hitting 0 and otherwise we go to state 2 at which point the transition from state 2 to state 1 and the transition then after that from state 1 to state 0 are both P by definition. And this rearranges to (P-1)^2=0 for the claim.
+
+https://math.stackexchange.com/a/26406
+
+----------
+
+Optiver Prove It Episode 6 \\
+Lazar Ilic
+
+Transcribed from ChatGPT:
+
+What is the probability 3 random numbers are coprime?
+
+The probability that three randomly chosen integers are coprime (i.e., their greatest common divisor is 1) is given by:
+
+\[
+P = \frac{1}{\zeta(3)}
+\]
+
+where \(\zeta(s)\) is the Riemann zeta function.
+
+For \( s = 3 \):
+
+\[
+\zeta(3) = \sum_{n=1}^{\infty} \frac{1}{n^3} \approx 1.20206
+\]
+
+Thus, the probability that three random integers are coprime is:
+
+\[
+P = \frac{1}{1.20206} \approx 0.831
+\]
+
+So, roughly **83.1%** of the time, three randomly chosen integers will be coprime.
+
+Why?
+
+The probability that three randomly chosen integers are coprime comes from number theory and the properties of the **Riemann zeta function**. Here's a detailed explanation of why the probability is \( \frac{1}{\zeta(3)} \).
+
+### **Step 1: Understanding Coprimality**
+Three integers \( a, b, c \) are coprime if their greatest common divisor is 1:
+\[
+\gcd(a, b, c) = 1
+\]
+This means that no prime number \( p \) divides all three numbers simultaneously.
+
+### **Step 2: The Probability of Being Divisible by a Prime**
+Consider a prime number \( p \). The probability that a randomly chosen integer is divisible by \( p \) is \( \frac{1}{p} \), since every \( p \)th number is a multiple of \( p \).
+
+For three randomly chosen numbers \( a, b, c \), the probability that **all three** are divisible by \( p \) is:
+\[
+\left(\frac{1}{p}\right)^3 = \frac{1}{p^3}
+\]
+
+### **Step 3: Applying the Inclusion-Exclusion Principle**
+To find the probability that **no prime** divides all three numbers, we use an inclusion-exclusion argument over all prime numbers. Since divisibility by different primes is (approximately) independent for large numbers, the probability that **no** prime divides all three numbers is:
+
+\[
+\prod_{p \text{ prime}} \left(1 - \frac{1}{p^3}\right)
+\]
+
+This product is a well-known number-theoretic result:
+
+\[
+\prod_{p} \left(1 - \frac{1}{p^3}\right) = \frac{1}{\zeta(3)}
+\]
+
+where \( \zeta(3) \) is the **Riemann zeta function** evaluated at \( s = 3 \):
+
+\[
+\zeta(3) = \sum_{n=1}^{\infty} \frac{1}{n^3} \approx 1.20206
+\]
+
+### **Step 4: Final Probability**
+Since the probability that no prime divides all three numbers is \( \frac{1}{\zeta(3)} \), we conclude:
+
+\[
+P(\gcd(a, b, c) = 1) = \frac{1}{\zeta(3)} \approx 0.831
+\]
+
+### **Intuition**
+This result comes from the fundamental principle that the likelihood of numbers sharing common factors decreases as the number of chosen numbers increases. The zeta function appears because it counts the density of numbers with prime factorizations.
+
+Let me know if you'd like a deeper breakdown of any part!
+
+Can you give me 1 minus that quantity to 10 digits of precision?
+
+The value of \( 1 - \frac{1}{\zeta(3)} \) to 10 decimal places is **0.1680926274**.
+
+----------
+
+Optiver Prove It Episode 7
+Lazar Ilic
+
+0.1406160631 according to Google Gemini. In particular I prompted it as follows: What is the partial density function for a Irwin Hall distribution on n=10 except instead of drawing from [0,1] we are drawing from [-2,2] uniformly?
+
+Then I prompted it with: Can you plot that function and also show me how to evaluate integrals with it in Python?
+
+At which point one can simply change to:
+
+if s >= 5:
+    return constant_factor * sum_val * (s - 5)
+return 0
+
+A quick simulation in Python produced evidence in favour of all this being correct on top of me eyeballing the logic.
+
+"
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.special import comb, factorial
+from scipy.integrate import quad
+
+# Define the PDF function
+def irwin_hall_transformed_pdf(s):
+    """
+    PDF of the sum of 10 independent U(-2, 2) random variables.
+    """
+    n = 10
+    a = -2
+    b = 2
+    # Range of the sum is n*a to n*b
+    if s < n * a or s > n * b:
+        return 0
+
+    # Formula requires the sum up to floor((s - n*a) / (b-a))
+    # Here n*a = -20, b-a = 4
+    upper_k_limit = int(np.floor((s - n * a) / (b - a))) # floor((s - (-20)) / 4) = floor((s + 20) / 4)
+
+    sum_val = 0
+    for k in range(upper_k_limit + 1):
+        # Terms should be positive part (s - (na + k(b-a)))
+        # na + k(b-a) = -20 + k*4
+        term = (s - (n * a + k * (b - a)))
+        
+        # Only include terms where (s - (na + k*(b-a))) is non-negative.
+        # The floor limit for k should handle this correctly in the standard formula,
+        # but ensuring the term is non-negative explicitly is safer for implementation.
+        # term_val = max(0, term)**(n - 1) # This is how the standard formula is often derived
+        
+        # Based on the derived formula directly: (s + 20 - 4k)^9
+        term_val = (s + 20 - 4 * k)**(n - 1)
+        
+        sum_val += ((-1)**k * comb(n, k) * term_val)
+
+    # The constant factor is 1 / ((b-a)**n * factorial(n-1))
+    # Here (b-a)**n = 4**10, factorial(n-1) = factorial(9)
+    constant_factor = 1 / (((b - a)**n) * factorial(n - 1))
+
+    return constant_factor * sum_val
+
+# --- Plotting the PDF ---
+
+# Generate s values for plotting
+s_values = np.linspace(-20, 20, 500) # Use enough points to see the shape
+
+# Calculate PDF values for each s
+pdf_values = [irwin_hall_transformed_pdf(s) for s in s_values]
+
+# Plot the PDF
+plt.figure(figsize=(10, 6))
+plt.plot(s_values, pdf_values)
+plt.title('PDF of the sum of 10 independent U(-2, 2) variables')
+plt.xlabel('s')
+plt.ylabel('f(s)')
+plt.grid(True)
+plt.show()
+
+# --- Evaluating Integrals ---
+
+# 1. Integrate over the entire support [-20, 20]
+# This should be approximately 1 for a valid PDF
+integral_full_range, error_full_range = quad(irwin_hall_transformed_pdf, -20, 20)
+
+print(f"Integral over [-20, 20]: {integral_full_range}")
+print(f"Estimated error: {error_full_range}")
+
+# 2. Integrate over a sub-interval, e.g., [-5, 5]
+# This gives the probability P(-5 <= S_10 <= 5)
+integral_sub_range, error_sub_range = quad(irwin_hall_transformed_pdf, -5, 5)
+
+print(f"Integral over [-5, 5] (P(-5 <= S_10 <= 5)): {integral_sub_range}")
+print(f"Estimated error: {error_sub_range}")
+"
+
+----------
+
