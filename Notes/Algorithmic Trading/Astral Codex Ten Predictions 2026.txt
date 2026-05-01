@@ -1,0 +1,993 @@
+8 comments
+recent
+exmateriae
+·
+4 days ago
+Oh that's early. Will this therefore count for the 2025-2026 leaderboard instead of 2026?
+
+1
+
+Reply
+
+
+hide 7 replies
+skmmcj
+·
+3 days ago
+@exmateriae Yep
+
+1
+
+Reply
+
+hide 6 replies
+Lazar
+·
+3 days ago
+@skmmcj I am deeply annoyed that apparently my predictions in the 2025 contest were automatically withdrawn 6 months after I placed them. This design decision was wack - it should have defaulted to never withdrawing in the account settings page, methinketh. Edit later: the withdrawal policy is not wack because regulars will note it and casuals will not as well as the reasons provided by Metaculus administrators.
+
+3
+
+Reply
+
+hide 5 replies
+skmmcj
+·
+3 days ago
+@Lazar Yeah, I understand. Though note that:
+
+The predictions being withdrawn didn't affect your ACX 2025 performance in any way.
+Auto-withdrawal was implemented to prevent stale predictions from inactive users and especially new ones who forecasted a couple of times and then forgot about the site. Having them not withdraw by default would not help at all in these cases.
+
+2
+
+Reply
+
+hide 4 replies
+Lazar
+·
+3 days ago
+@skmmcj Oh OKOK interesting OK that makes sense, my bad. Moreover, the blurb "You have not participated in this tournament yet." confused me.
+
+1
+
+Reply
+
+hide 3 replies
+skmmcj
+·
+2 days ago
+@Lazar
+
+the blurb "You have not participated in this tournament yet." confused me.
+Could you give me a few more details so we know how to address this? Did you see it in ACX 2025 after your predictions were withdrawn or somewhere else?
+
+1
+
+Reply
+
+christian
+·
+2 days ago
+@Lazar this banner? Agreed this is confusing if the banner reappears after forecasts are auto-withdrawn. I'll get with the team to check / address. 
+
+3
+
+Reply
+
+hide 1 replies
+Lazar
+·
+14 hours ago
+@christian Yes in ACX 2025 after my predictions were withdrawn. Bugs are understandable, as is addressing them. You all are running a great website. Neither in the questions nor the introductory post does it state the community prediction is revealed after the snapshot - were I the writer, I would have it in both. This comes from downloading the question metadata.
+
+1
+
+Reply
+
+christian
+·
+3 weeks ago
+@Lazar good point -- now added a line on the Community Predictions here and on the tournament page. 
+
+1
+
+Reply
+
+Lazar
+·
+yesterday
+@christian @admins Did the 2025 scoreboard resolve? I had thought my score would simply be the sum over questions but it is not currently.
+
+skmmcj
+·
+yesterday
+@Lazar We still need to resolve a couple of questions and there are some minor issues with the scoring because questions are included in multiple leaderboards, but they will be fixed once everything is resolved.
+
+1	
+
+skmmcj
+·
+37 minutes ago
+@Lazar All issues should have been fixed now.
+
+1
+
+Lazar
+·
+8 minutes ago
+@skmmcj Uh large models tell me this summation is 282.852 which is not the number I see in my score. My idea is that on top of posting up when you finalise, do not have that filled dot in the graphic up top appear until then.
+
+----------
+
+A wee bit of chit chatting about the predictions and how things went down at the reveal of community predictions:
+
+ACX 2026 Prediction Contest
+
+Follow
+Started
+Closes
+
+Dec 19 2025
+Jan 01 2027
+Jan 18 2026: Last day for prize participation
+
+$10,000
+Prize Pool
+Prediction Flow
+View Questions
+(34)
+My Participation
+
+5 questions not predicted
+1 forecast with significant movement
+Review all
+An Annual Forecasting Tradition
+
+What began as Scott Alexander publishing annual predictions on Slate Star Codex and later Astral Codex Ten has grown into a vibrant, community-wide forecasting tradition.
+
+This year’s contest draws directly from that community, with all questions suggested by ACX readers. Both experienced forecasters and newcomers are invited to participate, making predictions across U.S. politics, AI, international affairs, and culture.
+
+To participate, submit your predictions by January 17th at 11:59 PM PT. At that time, we will take a snapshot of all standing forecasts, which will determine the contest rankings and the allocation of the $10,000 prize pool. We will also reveal Community Predictions at that time. While you are encouraged to continue updating your predictions throughout the year, forecasts made after January 17th will only affect site leaderboards, not contest rankings.
+
+Contest Details
+
+Forecasting Bots
+By participating in this competition you agree to be bound and abide by the Rules for Competitions on Metaculus.
+
+My Score
+Questions
++ Question
+search questions...
+
+Hot
+Movers
+New
+
+More
+Filter
+Will an AI-created song chart in the top 20 of the Billboard Hot 100 before 2027?
+40%
+chance
+5 points
+me: 22%
+
+	I figured there was a very solid chance here they would not ban AI songs per se per the resolution criteria and that furthermore in fact none would go ahead and chart that highly. I do still think the market went too high here and would feel fully comfortable throwing in some money if this were a money market.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+40%
+
+4
+
+(3 unread) 29 total
+850 forecasters
+Key Factors
+
+Half of "Viral 50 – Sweden" on Spotify is AI generated
+AI songs reaching mid Hot 100 in 2025
+djrobblog.com:
+Billboard just blocked the first-ever AI song from the Hot 100.
+How many of these 15 top US executive branch officials will be out before 2027?
+4 Officials
+(2 - 6)
+me: 0
+(0 - 2)
+
+	Uh well this is not showing my full distribution but it was totally just vague poopy kinda guesswork here on my end.
+
+Reaffirm
+0
+5
+11
+0%
+33.8%
+
+
+(3 unread) 12 total
+672 forecasters
+Will there be a bilateral ceasefire in the Russo-Ukrainian conflict before 2027?
+34%
+chance
+6 points
+me: 60%
+
+	Oy I dunno.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+34%
+
+12
+
+(2 unread) 18 total
+855 forecasters
+Key Factors
+
+Newsweek:
+Russia Rejects Ukraine Peace Proposals, Condemns ‘Axis of War’
+Lower intensity increases settlement chances
+Will the US, UK or EU approve a gene editing therapy for a new condition during 2026?
+30%
+chance
+me: 21%
+
+	I dunno.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+30%
+
+1
+
+(3 unread) 14 total
+713 forecasters
+Key Factors
+
+penntoday.upenn.edu:
+World’s first patient treated with personalized CRISPR gene editing therapy through CHOP and Penn Med collaboration | Penn Today
+fda.gov:
+FDA Approves First Gene Therapies to Treat Patients with Sickle Cell Disease
+Will the composition of the US Supreme Court change in 2026?
+30%
+chance
+me: 16%
+
+	Seemed really unlikely. I dunno why the market here went so high. Again if I was loaded might throw in some money see how it goes.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+30%
+
+3
+
+(2 unread) 16 total
+727 forecasters
+What percent of the top 5 human average score will the best bot score in ACX 2026?
+86%
+(73.2 - 95.6)
+2.8 % this week
+me: 73.6
+(68.3 - 78.4)
+
+	Here I am plausibly very probably wrong. Again just a new gut feeling upon monitouring the market.
+
+Reaffirm
+20
+70
+120
+
+1
+
+(3 unread) 12 total
+675 forecasters
+Key Factors
+
+ACX 2025 strongest bot reached 97.35% of top 5 humans
+The ACX 2026 Prediction Contest Is Live, $10,000 Prize Pool
+Scott Alexander's annual prediction contest is back for 2026, and this year, the questions come directly from ACX readers. From over 500 community submissions, this year's contest features a curated question set spanning geopolitics, technology, culture, and more.  Start forecasting  The deadline  Lock ...
+
+17
+
+26 comments
+What will be the highest score achieved on ARC-AGI-2 before 2027?
+80.1
+(70.8 - 88)
+1.1 this week
+me: 71
+(65.8 - 75.9)
+
+	I dunno if I had misread the resolution criteria. Again like last year some of these have kinda garbage formalisations.
+
+Reaffirm
+54
+77
+100
+
+3
+
+(3 unread) 11 total
+682 forecasters
+Will the EU require mandatory age verification on social media or AI before 2027?
+25%
+chance
+7 points
+me: 73%
+
+	Uh I dunno.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+25%
+
+1
+
+(2 unread) 10 total
+749 forecasters
+How many of the negotiating chapters required to join the EU will Montenegro have closed at the end of 2026?
+22 chapters
+(18 - 25)
+<12
+22
+33
+0%
+4.8%
+
+3
+
+(5 unread) 6 total
+636 forecasters
+Will TikTok US be banned or sold during 2026?
+Sold
+75.2%
+Neither
+19.8%
+Banned
+5%
+
+	Eh OK OK interesting enough I had 80 on sold. Dunno why it did not copy and paste over to here.
+
+Reaffirm All
+0%
+50%
+100%
+Dec 20
+Dec 30
+Jan 09
+
+2
+
+(2 unread) 8 total
+739 forecasters
+Will China attack or blockade Taiwan during 2026?
+14%
+chance
+6 points
+me: 32%
+
+	Interesting. We shall see. We shall see. Maybe I can phone this one in to Xi ask him to do me a favour to win the market kek unfunny.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+14%
+
+3
+
+(2 unread) 11 total
+778 forecasters
+Will NASA's Artemis II complete its mission successfully before 2027?
+80%
+chance
+17 points
+me: 62%
+
+	I dunno where I got this from huh maybe Google Gemini Pro 3.0.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+80%
+
+3
+
+1 comment
+Closes Dec 31, 2026
+694 forecasters
+How will the Supreme Court rule on Trump's tariffs in 2026?
+Mixed ruling
+41.7%
+Tariffs unlawful
+32.7%
+Tariffs lawful
+16.3%
+2 others
+0%
+50%
+100%
+Dec 20
+Dec 30
+Jan 09
+
+3
+
+(1 unread) 8 total
+753 forecasters
+Will Keir Starmer cease to be Prime Minister of the UK during 2026?
+35%
+chance
+5 points
+me: 42%
+
+	Yeah seems interesting enough to me.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+35%
+
+8
+
+(1 unread) 5 total
+729 forecasters
+Will an AI model reach a 3 hour time horizon with 80% reliability during 2026?
+45%
+chance
+10 points
+me: 15%
+
+	Eh. Again, perhaps it is I who missed the spirit in the sense that I misread the resolution criteria.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+45%
+
+6
+
+(2 unread) 9 total
+764 forecasters
+Key Factors
+
+Models improve exponentially over time
+Will there be a ceasefire in the Sudanese Civil War during 2026?
+31%
+chance
+6 points
+me: 64%
+
+	Eh. I thought ceasefire questions historically pass maybe over market anyways need to double check that claim.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+31%
+
+4
+
+(1 unread) 6 total
+693 forecasters
+How many days will the US government be shutdown in 2026?
+7 days
+(1 - 19)
+3 days this week
+me: 0
+(0 - 10)
+
+	Eh. I made sure to go pretty wide in the sense of kinda flat across much of the back of the range.
+
+Reaffirm
+0
+25
+>50
+0%
+33.1%
+66.3%
+
+4
+
+(1 unread) 10 total
+710 forecasters
+Will GTA VI be released during 2026?
+65%
+chance
+5 points
+me: 50%
+
+	Eh.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+65%
+
+2
+
+9 comments
+Closes Dec 30, 2026
+727 forecasters
+Key Factors
+
+ign.com:
+Take-Two CEO Says 'Delays Pain Me — How Could They Not?' but Insists GTA 6's New 2026 Release Date Was About Making Sure Rockstar Achieves Its Creative Vision 'With No Limitations' - IGN
+Rockstar titles often face significant delays
+gamespot.com:
+GTA 6 Delay Explained, And Rockstar's History Of Delaying Almost Every Game It Makes
+Will OpenAI file for an IPO during 2026?
+36%
+chance
+9 points
+me: 33%
+
+	Eh.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+36%
+
+
+(2 unread) 2 total
+725 forecasters
+Will the WHO declare a Public Health Emergency of International Concern in 2026?
+33%
+chance
+me: 49.9%
+
+	Eh.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+33%
+
+2
+
+(2 unread) 4 total
+714 forecasters
+Will Benjamin Netanyahu cease to be Prime Minister of Israel during 2026?
+36%
+chance
+6 points
+me: 14%
+
+	Eh think here the market goofed.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+36%
+
+6
+
+(1 unread) 7 total
+765 forecasters
+Will the U.S. enact an AI safety federal statute or executive order in 2026?
+23%
+chance
+me: 30%
+
+	Eh.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+23%
+
+1
+
+(2 unread) 6 total
+751 forecasters
+Will Nvidia's stock price close below $100 on any day in 2026?
+18%
+chance
+me: 18%
+
+	Eh.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+18%
+
+
+(1 unread) 2 total
+727 forecasters
+Will the S&P 500 close above 7,500 at the end of 2026?
+55%
+chance
+me: 36.4%
+
+	Eh. I thought I used standard stuff here eh.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+55%
+
+
+(2 unread) 4 total
+727 forecasters
+Will the FDA approve a psilocybin treatment during 2026?
+18%
+chance
+me: 14%
+
+	Eh. Dunno what to say here.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+18%
+
+3
+
+(1 unread) 4 total
+707 forecasters
+What will be the price of Bitcoin at the end of 2026?
+102k $
+(80.6k - 125k)
+me: 104k
+(85.4k - 127k)
+
+	Eh.
+
+Reaffirm
+0
+100k
+200k
+
+3
+
+(1 unread) 2 total
+680 forecasters
+What will be Donald Trump's net approval on December 31, 2026?
+-16%
+(-20.4 - -11.7)
+me: -18.7
+(-21.7 - -15.7)
+
+	Eh. I do not like the Donald.
+
+Reaffirm
+-35
+-17.5
+0
+
+1
+
+(1 unread) 4 total
+709 forecasters
+Will Donald Trump cease to exercise presidential powers for 48 hours during 2026?
+9%
+chance
+5 points
+me: 24%
+
+	Eh. Interesting yeah maybe I am wrong here. Seemed to me like his health is really bad. Truly awful and they are hiding it or trying.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+9%
+
+
+3 comments
+Closes Dec 31, 2026
+774 forecasters
+Key Factors
+
+6 in 100
+U.S. men 79-80 y/o death rate
+Voluntary transfer of powers has never lasted more than 24 hours
+Serious illness could incapacitate Trump
+Will the winner of the 2026 FIFA World Cup be a country that has never won before?
+20%
+chance
+5 points
+me: 23%
+
+	Eh.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+20%
+
+4
+
+(1 unread) 8 total
+733 forecasters
+Will the United States experience negative GDP growth during Q1, Q2, or Q3 2026?
+25%
+chance
+me: 39%
+
+	Eh think I am right again.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+25%
+
+4
+
+(1 unread) 3 total
+760 forecasters
+Will SpaceX successfully refuel a Starship in orbit during 2026?
+42%
+chance
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+42%
+
+7
+
+1 comment
+Closes Dec 30, 2026
+716 forecasters
+Will Saudi Arabia and Israel agree to normalise diplomatic relations during 2026?
+19%
+chance
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+19%
+
+1
+
+1 comment
+Closes Dec 30, 2026
+688 forecasters
+What will the average global surface air temperature be in 2026 relative to the pre-industrial baseline?
+1.47 °C
+(1.41 - 1.52)
+←→0 °C this week
+<1.2
+1.75
+0%
+2.9%
+5.9%
+
+
+(1 unread) 2 total
+654 forecasters
+Will restrictions on the use of the Traditional Latin Mass in the Catholic Church be loosened during 2026?
+25%
+chance
+me: 60%
+
+	Eh interesting maybe I misread the resolution criteria and the information on Leo Robert.
+
+Reaffirm
+0%
+50%
+100%
+0%
+50%
+100%
+Dec 20
+Dec 26
+Jan 01
+Jan 07
+Jan 13
+25%
+
+(1 unread) 1 total
+665 forecasters
+
+----------
+
+To add eventually: wrap up commentary.
+

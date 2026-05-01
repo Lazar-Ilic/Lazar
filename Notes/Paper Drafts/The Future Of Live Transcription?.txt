@@ -1,0 +1,59 @@
+Maybe I will draft up some image files of my proposed application design like user interface and experience and then see if I can hack it around and also observe the competition. I want to go from live audio at mediocre microphones in to .txt not like steno' shorthand and also basically if I were to design it have it be like uh... what looks kinda like a big text editor with at least the previous say it is like the user has to scroll but the text appears as it is spoken and then uh one can type in like one could in any text file but the key is so basically if you select a text chunk you can type in what you want to there anyways but also maybe it would be faster to uh so that is an OK simple design just have users type in errors but you could also try to have it automatically propose the next few best interpretations in the flow so say this is a deposition and they say:
+
+chicken buttocks
+
+But it transcribes over as:
+
+chick in but tucks
+
+Then when the user selects that whole block it proposes maybe it should appear a list of proposals in a rectangle over the selected text block and also cap this selection proposal trick at a maximum length.
+
+"
+Are there AI assisted live transcription tools where a human can edit the produced transcript live?
+"
+
+"
+Yes — there *are* transcription / captioning tools that do something close to “AI-assisted live transcription *and* allow human edits (corrections) while the transcript is still being produced.” What counts as “live” and how early you can edit varies, though. I can outline some options and trade-offs, if you want, to help you pick the right one.
+
+Here are tools / services that support live transcription + editing:
+
+---
+
+## ✅ Tools that allow live transcription + human edits (or near-live correction)
+
+| Tool                | What it can do in “live” or real-time mode                                                                                                  | Level of editing during the session / after                                                                                                                                                   |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Notta**           | Can transcribe in real-time meetings (Zoom, Google Meet, etc.). ([Notta][1])                                                                | After or during the meeting, you can review & edit the transcript. ([Notta][1])                                                                                                               |
+| **Descript**        | Has “live transcription” for recorders & sometimes for live capture; plus the strong transcript-based editing feature. ([Descript][2])      | You can edit while the recording/transcription is happening, especially for recordings under your control. (Less clear for meetings or webinars you don’t control.)                           |
+| **SyncWords**       | Provides tools to edit transcripts in a synchronized interface; timed transcript in sync with media. ([syncwords.com][3])                   | The interface is for post-capture media, though. Might not be strictly “live during speech” but fairly close.                                                                                 |
+| **Skribe RealTime** | For legal / deposition settings, they provide a live stream transcript that you can follow and search while it is ongoing. ([skribe.ai][4]) | While it is streamed, some features like flagging, note taking etc. are possible. But editing corrections “on the fly” (to already spoken text) may be limited until after segments complete. |
+| **Transcript.com**  | Offers “live transcription” (AI-powered) plus a built-in editor so once text is showing you can edit. ([Transcribe][5])                     | But editing tends to happen after chunks are processed, not literally rewinding and correcting every word as it is being spoken.                                                              |
+
+---
+
+## ⚠️ What “live editing” usually means in practice / limitations
+
+When people ask to “edit live,” they often expect:
+
+* to correct mis-hearings immediately (e.g. wrong speaker name, jargon)
+* to edit *earlier* parts of the transcript even while newer speech is coming in
+* minimal delay (low lag)
+
+In practice:
+
+* Most AI ASR (automatic speech recognition) systems buffer a little (a few seconds) so by the time you see text it's already a short way behind the speaker. Editing *very back* in the stream may be delayed or clunky.
+* Interface constraints: scrolling transcripts, delays, and handling speaker changes or punctuation lag mean some corrections may be applied later.
+* For “hybrid” systems (AI + human proofreader), the final polished transcript is often only achieved *after* the event or at least after pauses.
+
+---
+
+If you like, I can pull up a shortlist of tools that more closely match your exact needs (for instance: “can edit previous parts while still transcribing”, “works in Zoom/live calls”, “works for technical jargon”, etc.). Would you want that?
+
+[1]: https://www.notta.ai/en/real-time-transcription?utm_source=chatgpt.com "Real-time Transcription Software | Notta"
+[2]: https://www.descript.com/use-cases/edit-recordings-in-real-time-with-live-transcription?utm_source=chatgpt.com "Production - Descript"
+[3]: https://www.syncwords.com/tools/transcript-editor?utm_source=chatgpt.com "Transcript Editor | SyncWords"
+[4]: https://skribe.ai/post/realtime?utm_source=chatgpt.com "Introducing Skribe RealTime Transcriptrealtime"
+[5]: https://transcribe.com/services/live-transcription?utm_source=chatgpt.com "Live Transcription Service | Transcribe App & Web Editor"
+"
+
+Hmm. I will work upon it. Also, we need an option for exluding filler words like "uh", "um", "elem", "nega".

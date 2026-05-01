@@ -1,0 +1,284 @@
+Contents
+
+
+
+1. Shortest paths and trees 5
+
+
+
+1.1. Shortest paths with nonnegative lengths 5
+
+
+
+1.2. Speeding up Dijkstra's algorithm with heaps 9
+
+OK review of canon here.
+
+1.3. Shortest paths with arbitrary lengths 12
+
+
+
+1.4. Minimum spanning trees 19
+
+
+
+2. Polytopes, polyhedra, Farkas' lemma, and linear programming 23
+
+
+
+2.1. Convex sets 23
+
+
+
+2.2. Polytopes and polyhedra 25
+
+
+
+2.3. Farkas' lemma 30
+
+
+
+2.4. Linear programming 33
+
+
+
+3. Mathings and overs in bipartite graphs 39
+
+
+
+3.1. Mathings, overs, and Gallai's theorem 39
+
+
+
+3.3. K}onig's theorems 41
+
+
+
+3.4. Cardinality bipartite mathing algorithm 45
+
+
+
+3.5. Weighted bipartite mathing 47
+
+
+
+3.6. The mathing polytope 50
+
+
+
+4. Menger's theorem, ows, and irulations 54
+
+
+
+4.1. Menger's theorem 54
+
+
+
+4.2. Path paking algorithmially 58
+
+
+
+4.3. Flows in networks 61
+
+
+
+4.4. Finding a maximum ow 63
+
+
+
+4.5. Speeding up the maximum ow algorithm 68
+
+
+
+4.6. Cirulations 71
+
+
+
+4.7. Minimum-ost ows 73
+
+
+
+5. Nonbipartite mathing 80
+
+
+
+5.1. Tutte's 1-fator theorem and the Tutte-Berge formula 80
+
+
+
+5.2. Cardinality mathing algorithm 83
+
+
+
+5.3. Weighted mathing algorithm 87
+
+
+
+5.4. The mathing polytope 93
+
+
+
+5.5. The Cunningham-Marsh formula 96
+
+
+
+6. Problems, algorithms, and running time 99
+
+
+
+6.1. Introdution 99
+
+
+
+6.2. Words 100
+
+
+
+6.3. Problems 102
+
+
+
+6.4. Algorithms and running time 102
+
+
+
+6.5. The lass NP 103
+
+
+
+6.7. NP-ompleteness 105
+
+
+
+6.8. NP-ompleteness of the satisfiability problem 105
+
+
+
+6.9. NP-ompleteness of some other problems 108
+
+
+
+6.10. Turing mahines 110
+
+
+
+7. Cliques, stable sets, and olourings 113
+
+
+
+7.1. Introdution 113
+
+
+
+7.2. Edge-olourings of bipartite graphs 117
+
+
+
+7.3. Partially ordered sets 123
+
+
+
+7.4. Perfet graphs 126
+
+
+
+7.5. Chordal graphs 130
+
+
+
+8. Integer linear programming and totally unimodular matries 134
+
+
+
+8.1. Integer linear programming 134
+
+
+
+8.2. Totally unimodular matries 136
+
+
+
+8.3. Totally unimodular matries from bipartite graphs 141
+
+
+
+8.4. Totally unimodular matries from direted graphs 145
+
+
+
+9. Multiommodity ows and disjoint paths 150
+
+
+
+9.1. Introdution 150
+
+
+
+9.2. Two ommodities 155
+
+
+
+9.3. Disjoint paths in ayli direted graphs 159
+
+
+
+9.4. Vertex-disjoint paths in planar graphs 161
+
+
+
+9.5. Edge-disjoint paths in planar graphs 167
+
+
+
+9.6. A olumn generation tehnique for multiommodity ows 170
+
+
+
+10. Matroids 175
+
+
+
+10.1. Matroids and the greedy algorithm 175
+
+
+
+10.2. Equivalent axioms for matroids 178
+
+
+
+10.3. Examples of matroids 182
+
+
+
+10.4. Two tehnial lemmas 185
+
+
+
+10.5. Matroid intersetion 186
+
+
+
+10.6. Weighted matroid intersetion 192
+
+
+
+10.7. Matroids and polyhedra 196
+
+
+
+Referenes 201
+
+
+
+Name index 212
+
+
+
+Sub jet index 214
+
+
+
+
+
+
+
