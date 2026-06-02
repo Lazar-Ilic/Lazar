@@ -1,0 +1,733 @@
+This book is not terribly neutral nor is it seen as super duper canonical or anything. It is one dude's opinions.
+
+In terms of whether or not this book really is a one simple trick to mix ideation and insights with in order to get rich now that is the question.
+
+Thoughts upon partial reflection:
+
+I don't know there is something odd like a priori going in I know Jane Street Capital employees rant a lot about causality and Pearl and I would think there is a good reason. And like also one would have thought that using ML to generate some credences under a reasonable credence calibration penalty function which are then easily computed in to a bet sizing function... I don't know the bet sizing ML seems computationally odd to a maths major perhaps. Only half joking about this serious maths.
+
+https://acritch.com/credence/
+
+https://acritch.com/credence-game/
+
+2 Financial Data Structures 23
+
+2.1 Motivation 23
+
+2.2 Essential Types of Financial Data 23
+
+2.2.1 Fundamental Data 23
+
+2.2.2 Market Data 24
+
+2.2.3 Analytics 25
+
+Yeah we definitely need to buy the killer analysis from the Bloomberg Terminal product service like I hear this dude this Harvard economist named Scott Duke Kominers dishes out sage wisdom on NFT non fungible tokens as well as crypto currencies in the form a puzzle column there.
+
+2.2.4 Alternative Data 25
+
+This is a very interesting bit of writing I mean perhaps later in this book we will dive in to more depth about the potential huge edges held by large proprietary trading firms over a dude with a machine.
+
+2.3 Bars 25
+
+2.3.1 Standard Bars 26
+
+2.3.1.1 Time Bars
+
+This dude sneers a ton at the extant literature and I am under the impression he is eminent so it must be the case that the extant literature really is somewhat lacking and that perhaps some firms have very weak fundamentals.
+
+2.3.1.2 Tick Bars
+
+2.3.1.3 Volume Bars
+
+2.3.1.4 Dollar Bars
+
+Well OK I mean as he brings up this does still have quite a lot to do with the fundamental underlying currency here being the US Dollar and its volatility irrespective.
+
+2.3.2 Information-Driven Bars 29
+
+OK I don't really know precisely what "market microstructural sense" means nor do I actually have the big edges that serious proprietary firms have but this book makes it clear I know nearly 0 on this topic and will be exposed to some insights and key ideas in this domain.
+
+2.3.2.1 Tick Imbalance Bars
+
+2.3.2.2 Volume/Dollar Imbalance Bars
+
+2.3.2.3 Tick Runs Bars
+
+2.3.2.4 Volume/Dollar Runs Bars
+
+2.4 Dealing with Multi-Product Series 32
+
+OK it would seem to be that just as in computer programming where every single minor logical minutiae and detail orientation is critical, one must be very careful here in data sets with financial technologies.
+
+2.4.1 The ETF Trick 33
+
+Readily computable and he asserts that it incorporates some logic about the computation itself. I mean we have yet to come into how we factor in the now made public information when we make decisions.
+
+2.4.2 PCA Weights 35
+
+Well I might one day become a really more than half interested in reader and follow up with the comprehensive complete de Prado bibliography we'll have to see I mean I am under the impression that this dude is somewhat eminent.
+
+2.4.3 Single Future Roll 36
+
+2.5 Sampling Features 38
+
+2.5.1 Sampling for Reduction 38
+
+Yeah this recalls some key ideas from Elements.
+
+2.5.2 Event-Based Sampling 38
+
+2.5.2.1 The CUSUM Filter
+
+3 Labeling 43
+
+3.1 Motivation 43
+
+So this is interesting because already I have had multiple moments recently where writers have revealed ideas to me and it becomes clear I will need to continue to study and learn before I can really creatively ideate. But, reflecting, at the very least the Jane Street Kaggle task composers discuss a discrete task of whether or not to execute a potential trade which presents itself. And this dude brought up a couple of other sorts of discretizations in to ML decision tasks at thresholds or to bring our attention to an automated system which may need a discretionary trader hopping in the mix to maximize expectation.
+
+3.2 The Fixed-Time Horizon Method 43
+
+3.3 Computing Dynamic Thresholds 44
+
+3.4 The Triple-Barrier Method 45
+
+One wonders if there is a natural mathematical structure here which is also easily readily computable and in fact would lead to superior performance sometimes. The graphic really makes the point salient and visual for the reader if they couldn't quite comprehend the written text version though I was able to parse it as such.
+
+3.5 Learning Side and Size 48
+
+Well OK now we are really getting in to the matters at hand here.
+
+3.6 Meta-Labeling 50
+
+3.7 How to Use Meta-Labeling 51
+
+OK these last few sections actually make it clear that Jane Street firm Kaggle task was probably well formulated in the context of contemporary financial machine learning practice.
+
+3.8 The Quantamental Way 53
+
+Yeah we really get the image of a firm hiring Lazar Ilic for trader and discovering that lo lo lo and behold when his heart rate is 150 he in fact manages to make the wrong decision a whopping 70% of the time so they simply invert all his decisions and make a hefty profit on his gift for not merely producing noise.
+
+3.9 Dropping Unnecessary Labels 54
+
+Reminds me of the highly asymmetric Y Kaggle prediction tasks I observed wherein the strategies could involve uniformly randomly selecting a subset of the other classes to create a 1:1 ratio balanced X set upon which to execute ML and then do a proper test out of training on a more complete cross validation set in terms of actual underlying ratio.
+
+4 Sample Weights 59
+
+4.1 Motivation 59
+
+OK observations OK IID assumptions in ML theory do not appy to financial settings.
+
+4.2 Overlapping Outcomes 59
+
+Interesting blood spillage metaphor for the lack of IID desideratum.
+
+4.3 Number of Concurrent Labels 60
+
+4.4 Average Uniqueness of a Label 61
+
+Yeah one would think this is very interesting and the more unique something is the more it is worth paying attention to and that perhaps even computationally one ought to simply draw a binary uniqueness threshold though this comes in to a sort of best subset on the Y if I understand label to mean Y quite clearly and precisely.
+
+4.5 Bagging Classifiers and Uniqueness 62
+
+Well he has a concrete suggestion to enforce that the in-bag observations are not sampled at a frequency much higher than their uniqueness. And this is all some interesting discussion of the actual mathematics underlying these statistics and performances and algorithms.
+
+4.5.1 Sequential Bootstrap 63
+
+Seems good.
+
+4.5.2 Implementation of Sequential Bootstrap 64
+
+4.5.3 A Numerical Example 65
+
+4.5.4 Monte Carlo Experiments 66
+
+Oh good I sure am glad that parallelization really does matter.
+
+4.6 Return Attribution 68
+
+Ah I see so weight according to a good function of uniqueness and absolute return so what matters most is where the money is now this makes a lot of intuitive sense. Of course as always if we are ignoring something like I don't know epistemic failure to capture black swan yadda very low P underlying distributions outcomes etc. etc. not a huge problem one would think in a sort of real world working for an HFT firm type of setting.
+
+4.7 Time Decay 70
+
+Yes one would think that older information would be less relevant and here this dude is prone to writing down some maths one supposes is OK for these tasks.
+
+4.8 Class Weights 71
+
+Flash crash event or outlier etc. etc. implementational comments this is a solid book I like this book quite a lot so far really it contains real ideas!
+
+5 Fractionally Differentiated Features 75
+
+5.1 Motivation 75
+
+Yes one would expect that financial series exhibit low signal-to-noise ratios OK we will apply the statistics and attempt to transform data whilst maintaining relevant memory properties sounds good!
+
+5.2 The Stationarity vs. Memory Dilemma 75
+
+OK so this totally throws back to that one Kaggle notebook on stationarity and the random walk nature of the Bitcoin and Ethereum instruments. Recall from Wikipedia that a stationary process is a stochastic process whose unconditional joint probability distribution does not change when shifted in time. And differencing e.g. analyzing the discrete first derivative like of deltas can help to produce relevant stationary series as inputs to an ML algorithm.
+
+5.3 Literature Review 76
+
+Well he insists repeatedly that everything he writes is gold and novel so OK dude.
+
+5.4 The Method 77
+
+OK so the dude knows the binomial theorem wow.
+
+5.4.1 Long Memory 77
+
+5.4.2 Iterative Estimation 78
+
+5.4.3 Convergence 80
+
+5.5 Implementation 80
+
+OK interesting little code segments.
+
+5.5.1 Expanding Window 80
+
+5.5.2 Fixed-Width Window Fracdiff 82
+
+5.6 Stationarity with Maximum Memory Preservation 84
+
+5.7 Conclusion 88
+
+6 Ensemble Methods 93
+
+6.1 Motivation 93
+
+This ought to be good review see some things presented again from yet another angle and framing and literal sequence of words. We sure do want to be effective, that's for sure.
+
+6.2 The Three Sources of Errors 93
+
+6.3 Bootstrap Aggregation 94
+
+OK this was a nice little recalling summary of bootstrap aggregation.
+
+6.3.1 Variance Reduction 94
+
+6.3.2 Improved Accuracy 96
+
+6.3.3 Observation Redundancy 97
+
+6.4 Random Forest 98
+
+Yes ensemble forecasts with lower variance and a second level of randomness. Feature importance evaluation.
+
+6.5 Boosting 99
+
+6.6 Bagging vs. Boosting in Finance 100
+
+It is good that he makes a call here and simply says for most use cases that bagging is better rather than just listing like pros and cons and leaving it up to us to decide too much. In particular bagging protects us from the likely overfitting in financial data sets or so he claims.
+
+6.7 Bagging for Scalability 101
+
+OK SVM timeout and parallelization again seems good.
+
+7 Cross-Validation in Finance 103
+
+7.1 Motivation 103
+
+Gee this dude is real emphatic that a standard course on stats and ML will lead to being a mediocre quant and financial ML engineer so here he says that cross validation done conventionally will lead to overfiting via hyper-parameter tuning.
+
+7.2 The Goal of Cross-Validation 103
+
+So again recall k-fold scheme random split in to k equally size subsets and then execute k of training on all but one and testing on that particular one.
+
+7.3 Why K-Fold CV Fails in Finance 104
+
+Leakage yadda overfitting yadda not IID assumption.
+
+7.4 A Solution: Purged K-Fold CV 105
+
+7.4.1 Purging the Training Set 105
+
+OK so he has a nice graphic to show us a temporal gap between test and training data in this purging mechanism here.
+
+7.4.2 Embargo 107
+
+7.4.3 The Purged K-Fold Class 108
+
+Ah hah so we just do k-fold cross validation but with these purging mechanisms to improve performance.
+
+7.5 Bugs in Sklearn's Cross-Validation 109
+
+8 Feature Importance 113
+
+8.1 Motivation 113
+
+OK uh yeah duh this is a form of overfitting if you run an algo through 20 datasets until you get a significant result duh duh OK cognitive bias psychology yadda lock things in feature importance.
+
+8.2 The Importance of Feature Importance 113
+
+Please de Prado tell me explicitly for the zillionth time how damn striking and shocking the portfolio managers who are seasoned are I mean gee dude OK the title is apt for this section moving on. Dunno he understands that a reader might come in with a prior that in fact seasoned portfolio managers might be OK at managing their own incentives or whatever I mean the claim is that they aren't and that they are irrational and mathematically incompetent.
+
+8.3 Feature Importance with Substitution Effects 114
+
+8.3.1 Mean Decrease Impurity 114
+
+8.3.2 Mean Decrease Accuracy 116
+
+8.4 Feature Importance without Substitution Effects 117
+
+Ah I see if we simply run a statistical sort of test on importance and throw out some input vectors then as humans upon analysis we may fail to properly understand the causal reality and thereby fail to make insights in how to further improve or simplify a model. E.g. 2 highly correlated inputs but I don't see the connection between yadda random correlate of income with yadda but yadda income obviously causal.
+
+8.4.1 Single Feature Importance 117
+
+Interesting yeah exactly joint effects are lost.
+
+8.4.2 Orthogonal Features 118
+
+Something about stressing the risk of overfitting and utilizing PCA so if PCA identifies informative features one might suppose a feature importance ranking is backed up or probabilistically verified to some degree.
+
+8.5 Parallelized vs. Stacked Feature Importance 121
+
+8.6 Experiments with Synthetic Data 122
+
+He again has a nice graphic which really visually informs the reader about a synthetic set to demonstrate model performance. And MDI feature performance metric does quite well with a smattering spread of the informative and redundant linear combination features clearing the naive linearity of expectation significance threshold. MDA also did a good job. SFI does a decent job. Useful complements because these analyses are affected by different kinds of problems.
+
+9 Hyper-Parameter Tuning with Cross-Validation 129
+
+9.1 Motivation 129
+
+Well it's good he lists the so called academic finance research studies that propose alternative methods for specific problems.
+
+9.2 Grid Search Cross-Validation 129
+
+9.3 Randomized Search Cross-Validation 131
+
+9.3.1 Log-Uniform Distribution 132
+
+9.4 Scoring and Hyper-parameter Tuning 134
+
+OK to be sure negative log loss function.
+
+10 Bet Sizing 141
+
+10.1 Motivation 141
+
+Right fascinating stuff my dude I mean you might think firms would care that I am in fact performant at online poker no less but alas we have yet to get in there for a fulltime offer.
+
+10.2 Strategy-Independent Bet Sizing Approaches 141
+
+10.3 Bet Sizing from Predicted Probabilities 142
+
+10.4 Averaging Active Bets 144
+
+OK
+
+10.5 Size Discretization 144
+
+In all this there is still this weird sense that you'd expect literally all of this to have been very well investigated and formalized computationally as nearly optimal under some reasonable assumptions. I know he criticizes the extant academic literature but leave himself open to precisely the same criticism as being all to hand waved and wholly inadequate merely partial examination and suggestions for the practice.
+
+10.6 Dynamic Bet Sizes and Limit Prices 145
+
+Ah so there is a derivation and in fact some exercises and it may be the case that actually executing these exercises would be highly instructive and also perhaps lead to a Kaggle Python notebook which would check out to someone as notable and interesting so I may go ahead and do that if there does not already exist one.
+
+11 The Dangers of Backtesting 151
+
+11.1 Motivation 151
+
+11.2 Mission Impossible: The Flawless Backtest 151
+
+11.3 Even If Your Backtest Is Flawless It Is Probably Wrong 152
+
+OK it's nice sometimes when he is emphatic.
+
+11.4 Backtesting Is Not a Research Tool 153
+
+11.5 A Few General Recommendations 153
+
+11.6 Strategy Selection 155
+
+Well OK again some concrete prescriptions from the man de Prado himself now the exercises sins are obvious I mean adjusted input was adjusted post facto, I am not sure I parse this quite right but the use value of closing price executions in a forward moving strategy is unclear, I would think we should not invest in arcade companies without discerning a real causal model and then running a real strong backtest, well for one thing if the market detected a useful pattern it would be something however in this task statement very clearly and precisely it is an average and these all capture the 9/11 event which was a sort of black swan so this statistic in particular is very suspicious without viewing the complete distribution of September stock returns, the sin in the final task has to do with like black swans, firms going bankrupt, etc. etc.
+
+12 Backtesting through Cross-Validation 161
+
+12.1 Motivation 161
+
+Interesting yeah I had only really thought about this notion in the context of the former e.g. historical simulation rather than some scenario simulation statistics.
+
+12.2 The Walk-Forward Method 161
+
+12.2.1 Pitfalls of the Walk-Forward Method 162
+
+12.3 The Cross-Validation Method 162
+
+12.4 The Combinatorial Purged Cross-Validation Method 163
+
+Well this method says combinatorial in the title so it must be the case that this is the real good.
+
+12.4.1 Combinatorial Splits 164
+
+12.4.2 The Combinatorial Purged Cross-Validation Backtesting Algorithm 165
+
+12.4.3 A Few Examples 165
+
+Yeah man all these ML books love to point out any time it wasn't already quite clear and precise to the reader that something structure under discussion is itself a generalization of some previous entity in the literature and I can't help but think these are good immediate litmus tests to the reader if there was any degree of paying attention or understanding or comprehension whatsoever.
+
+12.5 How Combinatorial Purged Cross-Validation Addresses Backtest Overfitting 166
+
+Well yeah this is good as his Twitter suggests he is into the theoretical side of these things but this is a good subsection on the chapter.
+
+13 Backtesting on Synthetic Data 169
+
+13.1 Motivation 169
+
+OK this is quite motivated but the reader questions how exactly these things might be produced in order to create this sort of a disconnect.
+
+13.2 Trading Rules 169
+
+13.3 The Problem 170
+
+13.4 Our Framework 172
+
+Ah now theorems and proofs and so called optimal trading rules now this is much more like it for those of us with a potential interest in entering the academic finance world and composing up papers of our own and snagging the fine funding of the Cornell with which to put the filet mignon on our dinner tables!
+
+13.5 Numerical Determination of Optimal Trading Rules 173
+
+13.5.1 The Algorithm 173
+
+Ah heavy handed so I suppose he wants me to call this the de Prado algorithm now an algorithm I'm told is a sequence of instructions, a process which will produce a target output now this is fascinating stuff here...
+
+13.5.2 Implementation 174
+
+13.6 Experimental Results 176
+
+13.6.1 Cases with Zero Long-Run Equilibrium 177
+
+13.6.2 Cases with Positive Long-Run Equilibrium 180
+
+13.6.3 Cases with Negative Long-Run Equilibrium 182
+
+13.7 Conclusion 192
+
+Mediocre graphics. OK so this is interesting there is an actual conjecture worth following up on if it's still open of course we simply prove this and instantly secure the imminent eminence and pre eminence which awaits us then both in academia, CS, and the finance world. And the exercises can also be commented upon.
+
+14 Backtest Statistics 195
+
+14.1 Motivation 195
+
+OK seems a little suspicious at first like what if these metrics are poo but maybe they are the best reasonable thing one has and estimated Sharpe is what the pros do choose to use.
+
+14.2 Types of Backtest Statistics 195
+
+14.3 General Characteristics 196
+
+14.4 Performance 198
+
+14.4.1 Time-Weighted Rate of Return 198
+
+14.5 Runs 199
+
+14.5.1 Returns Concentration 199
+
+14.5.2 Drawdown and Time under Water 201
+
+14.5.3 Runs Statistics for Performance Evaluation 201
+
+14.6 Implementation Shortfall 202
+
+Yes one might think that strong firms would have good estimates for these sorts of operational costs circa the time period with which to run accurate back tests.
+
+14.7 Efficiency 203
+
+14.7.1 The Sharpe Ratio 203
+
+14.7.2 The Probabilistic Sharpe Ratio 203
+
+14.7.3 The Deflated Sharpe Ratio 204
+
+Ah hah OK so these are good looking statistics and again one methinks this is all very sharp and the de Prado dude is OK I mean I checked out his website AMS yadda yadda some legitimate looking collaborators some of whom run legitimate looking trading firms and operations etc. etc. e.g. is some evidence. A little pompous to record your own Third Law Of but I myself am very prone to academician grandiosity of the first order.
+
+14.7.4 Efficiency Statistics 205
+
+14.8 Classification Scores 206
+
+14.9 Attribution 207
+
+OK
+
+15 Understanding Strategy Risk 211
+
+15.1 Motivation 211
+
+15.2 Symmetric Payouts 211
+
+OK so here we might come in to credences, distributions, and optimal bet sizing theory and ML praxis again.
+
+15.3 Asymmetric Payouts 213
+
+15.4 The Probability of Strategy Failure 216
+
+15.4.1 Algorithm 217
+
+15.4.2 Implementation 217
+
+Yeah frankly all of these implementations could easily be merged in to a single .py file with comments and separations or a folder of .py files or a Kaggle notebook perhaps of literal copypastas.
+
+16 Machine Learning Asset Allocation 221
+
+16.1 Motivation 221
+
+16.2 The Problem with Convex Portfolio Optimization 221
+
+Yeah I mean this all makes me start to think of bounded rationality with respect to firms getting something right on the first order and producing algorithms which produce results e.g. risk adjusted returns. In any case the Markowitz literature is worth a read.
+
+16.3 Markowitz's Curse 222
+
+Boy oh boy I sure do love me some of the old modern mathematics.
+
+16.4 From Geometric to Hierarchical Relationships 223
+
+16.4.1 Tree Clustering 224
+
+16.4.2 Quasi-Diagonalization 229
+
+16.4.3 Recursive Bisection 229
+
+16.5 A Numerical Example 231
+
+16.6 Out-of-Sample Monte Carlo Simulations 234
+
+16.7 Further Research 236
+
+16.8 Conclusion 238
+
+OK so maybe more fruitful territory for me for contemporary CS research would be to read up more of the literature on Quadratic Programming and Optimization right now immediately following this text book. Of course I already comprehended Linear Programming and the simplex method e.g. from competitive programming and algorithms text books however these sorts of matters rarely appear in such contests and thus perhaps the Optimization text book for the UT Austin MS in CS program would be appropriate.
+
+16.A.1 Correlation-based Metric 239
+
+16.A.2 Inverse Variance Allocation 239
+
+16.A.3 Reproducing the Numerical Example 240
+
+16.A.4 Reproducing the Monte Carlo Experiment 242
+
+Ah the so called useful financial features this is finally where I will begin to comprehend the matters of the so called microstructural now the Jump Trading firm expects candidates to have some degree of exposure to those and I assume they really mean in the context of intern or prior work experience however this will have to do for now.
+
+17 Structural Breaks 249
+
+17.1 Motivation 249
+
+17.2 Types of Structural Break Tests 249
+
+Hmm OK not really seen either of these before on Kaggle because I am so ignorant but these seem like absolutely fantastic ideas once one has a strategy running.
+
+17.3 CUSUM Tests 250
+
+17.3.1 Brown-Durbin-Evans CUSUM Test on Recursive Residuals 250
+
+17.3.2 Chu-Stinchcombe-White CUSUM Test on Levels 251
+
+17.4 Explosiveness Tests 251
+
+17.4.1 Chow-Type Dickey-Fuller Test 251
+
+17.4.2 Supremum Augmented Dickey-Fuller 252
+
+17.4.3 Sub- and Super-Martingale Tests 259
+
+I think I do comprehend this chapter in the sense that he provides very literal formulae and code to address these matters quite aptly I mean I think I will take the time to copypasta this entire book's code in to a public Kaggle notebook today just for the fuck of it.
+
+18 Entropy Features 263
+
+18.1 Motivation 263
+
+You know I had a really really hard time parsing this it struck me like a lot of writing on this topic does as casual really not very well formulated and people frequently use "market" super casually. Obviously the idea of information asymmetry is critical here but like OK what we have what is real is the reality and the data set and the price series.
+
+18.2 Shannon's Entropy 263
+
+18.3 The Plug-in (or Maximum Likelihood) Estimator 264
+
+18.4 Lempel-Ziv Estimators 265
+
+18.5 Encoding Schemes 269
+
+18.5.1 Binary Encoding 270
+
+18.5.2 Quantile Encoding 270
+
+18.5.3 Sigma Encoding 270
+
+18.6 Entropy of a Gaussian Process 271
+
+18.7 Entropy and the Generalized Mean 271
+
+18.8 A Few Financial Applications of Entropy 275
+
+18.8.1 Market Efficiency 275
+
+Riiiiight right right right OK maybe this is supposed to be content in a good economics 101 course but it's good to see this written out clearly, precisely, technically, and explicitly here!
+
+18.8.2 Maximum Entropy Generation 275
+
+18.8.3 Portfolio Concentration 275
+
+18.8.4 Market Microstructure 276
+
+19 Microstructural Features 281
+
+19.1 Motivation 281
+
+19.2 Review of the Literature 281
+
+Yeah I mean for sure one does wonder just how easy it is for people to move around firms inside the biz and just how canonical and the same everything everyone in the biz does is really. In any case perhaps a follow on skim of O'Hara and Hasbrouck as well as Easley et al. is a good idea so I will put them in my Library right now.
+
+19.3 First Generation: Price Sequences 282
+
+19.3.1 The Tick Rule 282
+
+19.3.2 The Roll Model 282
+
+19.3.3 High-Low Volatility Estimator 283
+
+19.3.4 Corwin and Schultz 284
+
+19.4 Second Generation: Strategic Trade Models 286
+
+19.4.1 Kyle's Lambda 286
+
+19.4.2 Amihud's Lambda 288
+
+19.4.3 Hasbrouck's Lambda 289
+
+19.5 Third Generation: Sequential Trade Models 290
+
+Kind of a vague intro to this topic which sounds interesting.
+
+19.5.1 Probability of Information-based Trading 290
+
+19.5.2 Volume-Synchronized Probability of Informed Trading 292
+
+19.6 Additional Features from Microstructural Datasets 293
+
+19.6.1 Distibution of Order Sizes 293
+
+I dunno somehow this strikes me as a really simple convoluted little toy example observation which everyone would know about like one literally just eyeballed some very basic information about the markets.
+
+19.6.2 Cancellation Rates Limit Orders Market Orders 293
+
+This here is very interesting.
+
+19.6.3 Time-Weighted Average Price Execution Algorithms 294
+
+19.6.4 Options Markets 295
+
+19.6.5 Serial Correlation of Signed Order Flow 295
+
+19.7 What Is Microstructural Information? 295
+
+I think I might look up a Github repository of solutions to all of these exercise tasks and compile them in a text file with my own commentary separately here in a document or just at the end of this text file.
+
+20 Multiprocessing and Vectorization 303
+
+20.1 Motivation 303
+
+20.2 Vectorization Example 303
+
+OK this is quite nice in the case that the reader has yet to be exposed to these key ideas or just to recall them and their implementations in the Python programming language.
+
+20.3 Single-Thread vs. Multithreading vs. Multiprocessing 304
+
+OK
+
+20.4 Atoms and Molecules 306
+
+20.4.1 Linear Partitions 306
+
+20.4.2 Two-Nested Loops Partitions 307
+
+20.5 Multiprocessing Engines 309
+
+20.5.1 Preparing the Jobs 309
+
+20.5.2 Asynchronous Calls 311
+
+20.5.3 Unwrapping the Callback 312
+
+20.5.4 Pickle/Unpickle Objects 313
+
+20.5.5 Output Reduction 313
+
+OK
+
+20.6 Multiprocessing Example 315
+
+OK
+
+21 Brute Force and Quantum Computers 319
+
+Questionably relevant at the current point in time but OK.
+
+21.1 Motivation 319
+
+21.2 Combinatorial Optimization 319
+
+21.3 The Objective Function 320
+
+21.4 The Problem 321
+
+Now this is the crux of the matter I recently did a task related to something quite similar to this.
+
+21.5 An Integer Optimization Approach 321
+
+21.5.1 Pigeonhole Partitions 321
+
+21.5.2 Feasible Static Solutions 323
+
+21.5.3 Evaluating Trajectories 323
+
+Yes this is all extremely intuitive stuff.
+
+21.6 A Numerical Example 325
+
+21.6.1 Random Matrices 325
+
+21.6.2 Static Solution 326
+
+21.6.3 Dynamic Solution 327
+
+22 High-Performance Computational Intelligence and Forecasting Technologies 329
+
+22.1 Motivation 329
+
+22.2 Regulatory Response to the Flash Crash of 2010 329
+
+22.3 Background 330
+
+22.4 HPC Hardware 331
+
+22.5 HPC Software 335
+
+OK
+
+22.5.1 Message Passing Interface 335
+
+22.5.2 Hierarchical Data Format 5 336
+
+22.5.3 In Situ Processing 336
+
+Ah yes the processing that is in the original place.
+
+22.5.4 Convergence 337
+
+22.6 Use Cases 337
+
+22.6.1 Supernova Hunting 337
+
+22.6.2 Blobs in Fusion Plasma 338
+
+22.6.3 Intraday Peak Electricity Usage 340
+
+22.6.4 The Flash Crash of 2010 341
+
+22.6.5 Volume-synchronized Probability of Informed Trading Calibration 346
+
+OK so yet again he is discussing improving performance in computation and one of the sources of a massive edge which real proprietary trading firms have with their infra over say the dude on the YouTube or Twitch streamer who makes the free choice to run the Robinhood application and engage with such fantastic providors of liquidity as it were.
+
+22.6.6 Revealing High Frequency Events with Non-Uniform Fast Fourier Transform 347
+
+22.7 Summary and Call for Participation 349
+
+Riiiiight not sure I really took away too much from this final Chapter 22 but alas. Frankly see about those exercises now. Or read up on Optimization or High Frequency Trading or Microstructure.

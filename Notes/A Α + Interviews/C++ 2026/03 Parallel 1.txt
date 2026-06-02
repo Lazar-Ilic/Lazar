@@ -1,0 +1,745 @@
+As I wrote, I do not want to copy and paste from CodingJesus.
+
+Maybe we could go in order of what is important but could start with a copypasta from the index of Concurrency In Action:
+
+--
+
+std::accumulate 31
+std::adopt_lock parameter 52, 59
+std::async function templates 488
+std::async( ) function 82, 171, 254, 276–277
+std::atomic 134–137
+class templates 439–449
+conversion assignment operators 443
+conversion constructors 443
+default constructors 442
+template specializations 450
+std::atomic_ is_lock_free( ) function 142
+std::atomic specializations 450
+std::atomic::compare_exchange_strong member
+function 447
+std::atomic::compare_exchange_weak member
+function 448
+std::atomic::exchange member function 446
+std::atomic::is_always_lock_free static data
+member 443
+std::atomic::is_lock_free member function 443
+std::atomic::load member function 444
+std::atomic::operator basetype conversion
+operator 444
+INDEX 561
+std::atomic::store member function 445
+std::atomic<> primary class template 138–140
+std::atomic_compare_exchange_strong
+nonmember function 447
+std::atomic_compare_exchange_strong_explicit
+nonmember function 448
+std::atomic_compare_exchange_weak
+nonmember function 449
+std::atomic_compare_exchange_weak_explicit
+nonmember function 449
+std::atomic_exchange nonmember function 446
+std::atomic_exchange_explicit nonmember
+function 446
+std::atomic_fetch_add nonmember function 455,
+464
+std::atomic_fetch_add_explicit nonmember
+function 455, 464
+std::atomic_fetch_and nonmember function 457
+std::atomic_fetch_and_explicit nonmember
+function 457
+std::atomic_fetch_or nonmember function 458
+std::atomic_fetch_or_explicit nonmember
+function 458
+std::atomic_fetch_sub nonmember function 456,
+465
+std::atomic_fetch_sub_explicit nonmember
+function 456, 465
+std::atomic_fetch_xor nonmember function 459
+std::atomic_fetch_xor_explicit nonmember
+function 459
+std::atomic_flag
+classes 436–439
+default constructors 437
+initialization with atomic_flag_init 437
+operations on 132–134
+overview of 129, 206
+std::atomic_flag::clear member function 438
+std::atomic_flag::test_and_set member
+function 437
+std::atomic_flag_clear nonmember
+function 439
+std::atomic_flag_clear_explicit nonmember
+function 439
+std::atomic_flag_test_and_set nonmember
+function 438
+std::atomic_flag_test_and_set_explicit
+nonmember function 438
+std::atomic_init nonmember function 442
+std::atomic<integral-type> specializations 466
+std::atomic<integral-type>::fetch_add member
+function 454
+std::atomic<integral-type>::fetch_and member
+function 456
+std::atomic<integral-type>::fetch_or member
+function 457
+std::atomic<integral-type>::fetch_sub member
+function 455
+std::atomic<integral-type>::fetch_xor member
+function 458
+std::atomic<integral-type>::operator--
+postdecrement operators 460
+predecrement operators 460
+std::atomic<integral-type>::operator&=
+compound assignment operator 460
+std::atomic<integral-type>::operator++
+postincrement operators 459
+preincrement operators 459
+std::atomic<integral-type>::operator+= compound
+assignment operator 460
+std::atomic<integral-type>::operator-= compound
+assignment operator 460
+std::atomic<integral-type>::operator= compound
+assignment operator 461
+std::atomic<integral-type>::operator|= compound
+assignment operator 461
+std::atomic_is_lock_free nonmember
+function 443
+std::atomic_load nonmember function 444
+std::atomic_load_explicit nonmember
+function 444
+std::atomic_signal_fence function 436
+std::atomic_store nonmember function 445
+std::atomic_store_explicit nonmember
+function 445
+std::atomic<T*> 137–138
+std::atomic<t*> partial specialization 461–463
+std::atomic<t*>::fetch_add member function 463
+std::atomic<t*>::fetch_sub member function 464
+std::atomic<t*>::operator--
+postdecrement operators 466
+predecrement operators 466
+std::atomic<t*>::operator++
+postincrement operators 465
+preincrement operators 465
+std::atomic<t*>::operator+= compound assignment operator 466
+std::atomic<t*>::operator-= compound assignment
+operator 466
+std::atomic_thread_fence function 435
+std::atomic_xxx typedefs 433
+std::bad_alloc exception 46, 329
+std::bind( ) function 26, 309
+std::call_once function template 534–535
+std::chrono::duration
+class templates 401–410
+converting constructors
+from count value 404
+from std::chrono::duration value 404
+default constructors 403
+equality comparison operators 408
+562 INDEX
+std::chrono::duration (continued)
+greater-than comparison operators 409
+greater-than-or-equals comparison
+operators 410
+inequality comparison operators 408
+less-than comparison operator 408
+less-than-or-equals comparison operator 409
+values 404
+std::chrono::duration::count member
+function 404
+std::chrono::duration::max static member
+function 408
+std::chrono::duration::min static member
+function 407
+std::chrono::duration::operator--
+post-decrement operators 406
+pre-decrement operators 405
+std::chrono::duration::operator- unary minus
+operator 405
+std::chrono::duration::operator*= compound
+assignment operator 406
+std::chrono::duration::operator/= compound
+assignment operators 406
+std::chrono::duration::operator%= compound
+assignment operator 407
+std::chrono::duration::operator+ unary plus
+operator 405
+std::chrono::duration::operator++
+post-increment operators 405
+pre-increment operators 388, 405
+std::chrono::duration::operator+= compound
+assignment operator 406
+std::chrono::duration::operator-= compound
+assignment operator 406
+std::chrono::duration::period typedef 403
+std::chrono::duration::rep typedef 403
+std::chrono::duration::zero static member
+function 407
+std::chrono::duration_cast nonmember
+function 410
+std::chrono::high_resolution_clock typedef 416
+std::chrono::steady_clock class 94, 401, 414–416
+std::chrono::steady_clock::duration typedef 415
+std::chrono::steady_clock::now static member
+function 415
+std::chrono::steady_clock::period typedef 415
+std::chrono::steady_clock::rep typedef 415
+std::chrono::steady_clock::time_point
+typedef 415
+std::chrono::system_clock class 94, 413–414
+std::chrono::system_clock::duration typedef 413
+std::chrono::system_clock::from_time_t static
+member function 414
+std::chrono::system_clock::now static member
+function 414
+std::chrono::system_clock::period typedef 413
+std::chrono::system_clock::rep typedef 413
+std::chrono::system_clock::time_point
+typedef 414
+std::chrono::system_clock::to_time_t static
+member function 414
+std::chrono::time_point
+class templates 410–412
+conversion constructors 411
+default constructors 411
+duration constructors 411
+std::chrono::time_point::max static member
+function 412
+std::chrono::time_point::min static member
+function 412
+std::chrono::time_point::operator+= compound
+assignment operator 412
+std::chrono::time_point::operator-= compound
+assignment operator 412
+std::chrono::time_point::time_since_epoch
+member function 412
+std::chrono_literals namespace 95
+std::condition_variable
+classes 417–424
+default constructors 417
+destructors 418
+overview of 74, 93, 172, 369
+std::condition_variable::notify_all member
+function 418
+std::condition_variable::notify_one member
+function 418
+std::condition_variable::wait member
+function 419
+std::condition_variable::wait_for member
+function 420–421
+std::condition_variable::wait_until member
+function 422–423
+std::condition_variable_any
+classes 424–431
+default constructors 425
+destructors 425
+interrupting wait on 321–323
+overview of 74, 172
+std::condition_variable_any::notify_all member
+function 426
+std::condition_variable_any::notify_one member
+function 426
+std::condition_variable_any::wait member
+function 426–427
+std::condition_variable_any::wait_for member
+function 428–429
+std::condition_variable_any::wait_until member
+function 430
+std::defer_lock argument 59
+std::execution::par 327–328
+INDEX 563
+std::execution::parallel_policy 328, 330–331
+std::execution::parallel_unsequenced_policy 328,
+331
+std::execution::par_unseq 328, 334
+std::execution::seq 328
+std::execution::sequenced_policy 328–330
+std::experimental::atomic_shared_ptr 142, 172,
+227–228
+std::experimental::barrier 120–121, 172, 295
+std::experimental::flex_barrier 120–123, 172
+std::experimental::future 108, 113, 171
+std::experimental::latch 118–119, 171
+std::experimental::shared_future 113, 171
+std::experimental::when_all 114
+std::experimental::when_any 116
+std::find 284–289
+std::future
+class templates 467–472
+default constructors 468
+destructors 469
+move assignment operators 469
+move constructors 468
+overview of 170
+std::future::get member function 471
+std::future::share member function 469
+std::future::valid member function 470
+std::future::wait member function 470
+std::future::wait_for member function 470
+std::future::wait_until member function 471
+std::hardware_constructive_interference_size 265
+std::hardware_destructive_interference_size 265,
+269
+std::hash 196
+std::ifstream 27
+std::is_nothrow_copy_constructible 47
+std::is_nothrow_move_ constructible 47
+std::kill_dependency( ) function 163
+std::launch::async function 84, 103
+std::launch::deferred function 103
+std::lock function template 51, 54, 533
+std::lock_guard class 41, 59, 380
+class templates 512–513
+destructors 513
+lock-adapting constructors 512
+locking constructors 512
+std::map<> interface 195
+std::memory_order enumeration 132, 435
+std::memory_order_acq_rel 435
+std::memory_order_acquire 233, 435
+std::memory_order_consume 163, 435
+std::memory_order_relaxed 435
+std::memory_order_release 435
+std::memory_order_seq_cst 232, 248
+std::move( ) function 26, 309, 360
+std::mutex 170
+classes 490–492
+default constructors 490
+destructors 491
+std::mutex::lock member function 491
+std::mutex::try_lock member function 491
+std::mutex::unlock member function 492
+std::notify_all_at_thread_exit nonmember
+function 424
+std::once_flag
+classes 534
+default constructors 534
+overview of 66
+std::packaged_task
+class templates 477–482
+construction from callable objects 478
+construction from callable objects with
+allocators 478
+default constructors 478
+destructors 480
+move constructors 479
+move-assignment operators 479
+overview of 171, 273, 285
+std::packaged_task::get_future member
+function 480
+std::packaged_task::make_ready_at_thread_exit
+member function 482
+std::packaged_task::operator( ) function call
+operator 481
+std::packaged_task::reset member function 481
+std::packaged_task::swap member function 480
+std::packaged_task::valid member function 481
+std::partial_sum 290–299
+std::partition( ) function 101
+std::promise 87–89
+allocator constructors 483
+class templates 483–488
+default constructors 483
+destructors 485
+move constructors 484
+move-assignment operators 484
+std::promise::get_future member function 485
+std::promise::set_exception member
+function 487
+std::promise::set_exception_at_thread_exit
+member function 487
+std::promise::set_value member function 486
+std::promise::set_value_at_thread_exit member
+function 486
+std::promise::swap member function 485
+std::ratio class template 401, 536
+std::ratio_add template alias 537
+std::ratio_divide template alias 538
+std::ratio_equal class template 539
+std::ratio_greater class template 540
+std::ratio_greater_equal class template 540
+564 INDEX
+std::ratio_less class template 539
+std::ratio_less_equal class template 540
+std::ratio_multiply template alias 538
+std::ratio_not_equal class template 539
+std::ratio_subtract template alias 537
+std::recursive_mutex
+classes 492–494
+default constructors 493
+destructors 493
+overview of 52, 170
+std::recursive_mutex::lock member function 493
+std::recursive_mutex::try_lock member
+function 493
+std::recursive_mutex::unlock member
+function 494
+std::recursive_timed_mutex
+classes 498–501
+default constructors 499
+destructors 499
+overview of 98, 170
+std::recursive_timed_mutex::lock member
+function 499
+std::recursive_timed_mutex::try_lock member
+function 499
+std::recursive_timed_mutex::try_lock_for member
+function 500
+std::recursive_timed_mutex::try_lock_until member function 501
+std::recursive_timed_mutex::unlock member
+function 501
+std::reduce 31
+std::scoped_lock
+class templates 513–514
+destructors 514
+lock-adopting constructors 514
+locking constructors 513
+overview of 52, 60, 380
+std::shared_future
+class templates 472–477
+copy constructors 474
+default constructors 473
+destructors 474
+move constructors 473
+move-from-std::future constructor 474
+overview of 90, 170
+std::shared_future::get member function 476
+std::shared_future::valid member function 475
+std::shared_future::wait member function 475
+std::shared_future::wait_for member
+function 475
+std::shared_future::wait_until member
+function 476
+std::shared_lock
+class templates 523–532
+default constructors 525
+deferred-lock constructors 525
+destructors 528
+lock-adopting constructors 525
+locking constructors 525
+move constructors 527
+move-assignment operators 528
+swap nonmember functions for 529
+try-to-lock constructors
+with duration timeout 526
+with time_point timeout 527
+std::shared_lock::lock member function 529
+std::shared_lock::mutex member function 532
+std::shared_lock::operator bool member
+function 531
+std::shared_lock::owns_lock member
+function 532
+std::shared_lock::release member function 532
+std::shared_lock::swap member function 528
+std::shared_lock::try_lock member function 529
+std::shared_lock::try_lock_for member
+function 530
+std::shared_lock::try_lock_until member
+function 531
+std::shared_lock::unlock member function 530
+std::shared_mutex
+classes 502–505
+default constructors 502
+destructors 503
+overview of 68, 170, 176, 196
+std::shared_mutex::lock member function 503
+std::shared_mutex::lock_shared member
+function 504
+std::shared_mutex::try_lock member
+function 503
+std::shared_mutex::try_lock_shared member
+function 504
+std::shared_mutex::unlock member function 504
+std::shared_mutex::unlock_shared member
+function 505
+std::shared_ptr 48
+std::shared_timed_mutex
+classes 505–512
+default constructors 506
+destructors 507
+overview of 68
+std::shared_timed_mutex::lock member
+function 507
+std::shared_timed_mutex::lock_shared member
+function 509
+std::shared_timed_mutex::try_lock member
+function 507
+std::shared_timed_mutex::try_lock_for member
+function 508
+std::shared_timed_mutex::try_lock_shared
+member function 510
+INDEX 565
+std::shared_timed_mutex::try_lock_shared_for
+member function 510
+std::shared_timed_mutex::try_lock_until member
+function 508, 511
+std::shared_timed_mutex::unlock member
+function 509
+std::shared_timed_mutex::unlock_shared member function 511
+std::sort( ) function 101
+std::stack container adapter 44
+std::string object 25
+std::terminate( ) function 22, 27, 272, 379
+std::this_thread::get_id nonmember function 549
+std::this_thread::sleep_for nonmember
+function 550
+std::this_thread::sleep_until nonmember
+function 550
+std::this_thread::yield nonmember function 549
+std::thread
+classes 541–549
+constructors 545
+default constructors 545
+destructors 546
+move constructors 546
+move-assignment operators 546
+swap nonmember functions for 547
+std::thread::detach member function 548
+std::thread::get_id member function 549
+std::thread::hardware_ concurrency( )
+function 31–32, 257, 261, 282, 301, 549
+std::thread::id
+classes 542
+default constructors 542
+equality comparison operators 543
+greater-than comparison operators 544
+greater-than or equal comparison
+operators 544
+inequality comparison operators 543
+less-than comparison operators 543
+less-than-or-equals comparison operator 544
+stream insertion operators 544
+std::thread::join member function 548
+std::thread::joinable member function 547
+std::thread::native_handle member
+functions 545
+std::thread::native_handle_type typedef 545
+std::thread::swap member function 547
+std::timed_mutex
+classes 494–498
+default constructors 495
+destructors 495
+std::timed_mutex::lock member function 495
+std::timed_mutex::try_lock member function 496
+std::timed_mutex::try_lock_for member
+function 496
+std::timed_mutex::try_lock_until member
+function 497
+std::timed_mutex::unlock member function 497
+std::try_lock function template 533
+std::unique_lock
+class templates 514–523
+default constructors 516
+deferred-lock constructors 517
+destructors 519
+flexible locking with 59–60
+lock-adopting constructors 516
+locking constructors 516
+move constructors 518
+move-assignment operators 519
+swap nonmember functions for 520
+try-to-lock constructors 517
+with duration timeout 517
+with time_point timeout 518
+std::unique_lock::mutex member function 523
+std::unique_lock::operator bool member
+function 522
+std::unique_lock::owns_lock member
+function 523
+std::unique_lock::release member function 523
+std::unique_lock::swap member function 519
+std::unique_lock::try_lock member
+function 520
+std::unique_lock::try_lock_until member
+function 522
+std::unique_lock::unlock member function 521
+std::unique_ptr 26–27
+std::vector 31
+std::vector<int> parameter 355
+
+--
+
+So it might be wise to know what all of those things do. And more. I guess one could review the entire index and make flash cards out of it if they wanted to be prepared for a more comprehensive oral examination upon the topic.
+
+So the first thing I guess we could cover mutex, but cover lock, lock_guard, unique_lock.
+
+As explained by Gemini:
+
+std::list<int> some_list;
+std::mutex some_mutex;
+void add_to_list(int new_value) {
+    some_mutex.lock(); // 1. Grab the key
+    some_list.push_back(new_value);
+    some_mutex.unlock(); // 2. Give the key back
+}
+bool list_contains(int value_to_find) {
+    some_mutex.lock(); // 1. Grab the key
+    // We have to store the result in a temporary variable now!
+    bool found = std::find(some_list.begin(), some_list.end(), value_to_find) != some_list.end();
+    some_mutex.unlock(); // 2. Give the key back
+    return found; // 3. Now we can safely return
+}
+
+So this is an acceptable variant on Listing 3.1 from the textbook maybe.
+
+But the textbook example is also OKish. And they repeatedly say lock_guard does this but better for errors and throws and exceptions and stuff.
+
+"
+No, you cannot call .unlock() on a std::lock_guard.
+
+That is actually a very logical question, but std::lock_guard physically does not have an .unlock() (or .lock()) method built into it.
+
+It is deliberately designed to be as simple and lightweight as possible. It has exactly two jobs: lock the mutex the moment it is created, and unlock the mutex the exact moment it is destroyed (when it goes out of scope). It does not allow you to manually intervene.
+"
+
+"
+If you need the automatic safety of RAII (so the lock cleans itself up if the program crashes) but you also want the ability to manually lock and unlock it whenever you want, you must use std::unique_lock.
+
+std::unique_lock is the "smarter" (but slightly heavier) sibling of lock_guard.
+"
+
+std::mutex some_mutex;
+
+void flexible_function() {
+    // 1. Locks the mutex immediately upon creation (just like lock_guard)
+    std::unique_lock<std::mutex> u_lock(some_mutex);
+    std::cout << "Working safely with shared data...\n";
+    u_lock.unlock(); 
+    std::cout << "Doing some slow, non-shared work (other threads can run)...\n";
+    u_lock.lock();
+    std::cout << "Working safely with shared data again...\n";
+    // 4. When the function ends, u_lock checks if it is currently locked. 
+    // Since it is, it automatically unlocks it for us. No deadlocks!
+}
+
+OK on to the issue with the simultaneous lock on 2 bank accounts to avoid deadlock.
+
+"
+This is a classic concurrency problem, and it perfectly illustrates why multithreading can be so tricky. When managing shared resources like bank accounts across multiple threads, getting the locking order wrong is a guaranteed recipe for a deadlock.
+
+Here is a clear breakdown of the problem and the modern C++ solution to avoid it.
+
+### The Setup: The Bank Account Struct
+First, let's define our basic `BankAccount` struct. It holds a balance and a standard mutex to protect that balance from simultaneous edits.
+
+```cpp
+#include <mutex>
+
+struct BankAccount {
+    int balance;
+    std::mutex m;
+
+    explicit BankAccount(int initial_balance) : balance(initial_balance) {}
+};
+```
+
+### The Problem: Naive Locking (Deadlock Guaranteed)
+If we want to transfer money from Account A to Account B, the most intuitive approach is to lock the `from` account, then lock the `to` account, and finally move the money. 
+
+Here is what the **flawed** code looks like:
+
+```cpp
+// ❌ DANGER: This will cause a deadlock!
+void naive_transfer(BankAccount& from, BankAccount& to, int amount) {
+    std::lock_guard<std::mutex> lock1(from.m);
+    std::lock_guard<std::mutex> lock2(to.m);
+    
+    from.balance -= amount;
+    to.balance += amount;
+}
+```
+
+**Why does this deadlock?**
+Imagine Thread 1 and Thread 2 run at the exact same time:
+* **Thread 1** calls `naive_transfer(A, B, 100)`. It successfully locks **A**.
+* **Thread 2** calls `naive_transfer(B, A, 50)`. It successfully locks **B**.
+* Now, Thread 1 tries to lock **B**, but it's held by Thread 2. It waits.
+* Thread 2 tries to lock **A**, but it's held by Thread 1. It waits.
+
+Both threads are now stuck waiting for each other forever. This is the deadlock.
+
+---
+
+### The Solution: `std::scoped_lock` (C++17)
+To fix this, we need a way to lock both mutexes at the exact same time without worrying about the order in which the threads requested them. 
+
+C++17 introduced `std::scoped_lock`, which handles this automatically by using a deadlock-avoidance algorithm under the hood.
+
+Here is the **correct** way to write the transfer function:
+
+```cpp
+// ✅ SAFE: Deadlock-free transfer
+void safe_transfer(BankAccount& from, BankAccount& to, int amount) {
+    // 1. Prevent self-transfer deadlock
+    if (&from == &to) return; 
+
+    // 2. Lock both mutexes safely
+    std::scoped_lock lock(from.m, to.m);
+    
+    // 3. Perform the transfer (both accounts are now exclusively locked)
+    if (from.balance >= amount) {
+        from.balance -= amount;
+        to.balance += amount;
+    }
+}
+```
+
+### Why this works:
+1.  **The Self-Transfer Check:** Before locking, we check `if (&from == &to)`. Trying to lock the exact same `std::mutex` twice in the same thread causes undefined behavior (usually a crash or immediate deadlock). This check prevents that.
+2.  **The Deadlock Avoidance:** When you pass multiple mutexes to `std::scoped_lock`, C++ ensures they are locked in a globally consistent order using an algorithm (often by comparing the memory addresses of the mutexes). 
+    * Even if Thread 1 asks for `(A, B)` and Thread 2 asks for `(B, A)`, `std::scoped_lock` will secretly sort them by their memory addresses and always lock them in the exact same sequence (e.g., lowest address first). 
+    * Because both threads are forced to lock the mutexes in the same order, the circular wait that causes deadlocks is impossible.
+
+Would you like to see how to implement this using older C++11 standards (using `std::lock`), or would you prefer to explore how to test this with a pool of threads?
+"
+
+"
+You have a great memory! You are thinking of the C++11 approach. 
+
+Before C++17 introduced the all-in-one `std::scoped_lock`, you had to use a combination of a standalone function called `std::lock` along with `std::lock_guard` to achieve the exact same deadlock-free result.
+
+Here is how that older, slightly more verbose method works:
+
+### The C++11 Solution: `std::lock` + `std::adopt_lock`
+
+To safely lock two (or more) mutexes in C++11, you divide the work into two steps:
+1.  **Locking:** Use the `std::lock()` function to lock the mutexes. This function contains the smart algorithm that prevents deadlocks.
+2.  **Managing (RAII):** Pass the newly locked mutexes to `std::lock_guard` objects so they are guaranteed to unlock when the function finishes, even if an exception is thrown.
+
+Here is what the code looks like:
+
+```cpp
+void safe_transfer_cpp11(BankAccount& from, BankAccount& to, int amount) {
+    // 1. Prevent self-transfer deadlock
+    if (&from == &to) return; 
+
+    // 2. Lock both mutexes safely using the deadlock-avoidance algorithm
+    std::lock(from.m, to.m);
+    
+    // 3. Wrap them in lock_guards for automatic unlocking. 
+    // The std::adopt_lock tells the lock_guard: "The mutex is already locked, 
+    // just take ownership of it and unlock it when you are destroyed."
+    std::lock_guard<std::mutex> lock1(from.m, std::adopt_lock);
+    std::lock_guard<std::mutex> lock2(to.m, std::adopt_lock);
+    
+    // 4. Perform the transfer
+    if (from.balance >= amount) {
+        from.balance -= amount;
+        to.balance += amount;
+    }
+} // lock1 and lock2 go out of scope here and automatically unlock from.m and to.m
+```
+
+### Why the extra steps?
+If you only used `std::lock(from.m, to.m)`, the mutexes would be safely locked without deadlocking, but **they would never unlock** when the function ended. You would have to manually call `.unlock()` on both, which is dangerous if your code throws an error or has multiple `return` statements.
+
+By immediately passing the locked mutexes to `std::lock_guard` with the special `std::adopt_lock` tag, you get the best of both worlds:
+* `std::lock` handles the complex math of avoiding deadlocks.
+* `std::lock_guard` handles the cleanup (automatically unlocking at the end of the scope).
+
+When C++17 came out, the standards committee realized this two-step dance was clunky, so they created `std::scoped_lock`, which basically does this exact same process for you behind the scenes in a single line of code!
+"
+
+Well OK reviewing the textbook I guess this was the point of example 3.6 it is still just kinda looks excessive for us to have 3 lines there the lock before the 2 lock_guard calls.
+

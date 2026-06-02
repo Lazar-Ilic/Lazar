@@ -1,0 +1,884 @@
+\twocolumn
+
+Preface xv
+
+I sure hope to learn something useful.
+
+1 Introduction 1
+
+
+
+1.1 Background 1
+
+
+
+1.2 Scope 1
+
+Seems like quite the solid scope for a mere $393$ page text book so we'll see if generalized means basis expansion or what.
+
+1.3 Notation 6
+
+
+
+1.4 Distributions Related To The Normal Distribution 8
+
+
+
+1.4.1 Normal Distributions 8
+
+I don't know that I will be transcribing this text frankly it feels like I will be using this from now on as my go to reference text for the matters of these formulae as my .pdf file is fairly well rendered and looks good and this book contains many formulae upon a skim. I have been seeing many of these ideas repeatedly ad nauseum recently in my contemplations of Heard On The Street Volumes 1-100 as you might expect.
+
+1.4.2 Chi-Squared Distribution 9
+
+
+
+1.4.3 T-Distribution 10
+
+
+
+1.4.4 F-Distribution 10
+
+
+
+1.4.5 Some Relationships Between Distributions 11
+
+
+
+1.5 Quadratic Forms 11
+
+
+
+1.6 Estimation 13
+
+
+
+1.6.1 Maximum Likelihood Estimation 13
+
+
+
+1.6.2 Example: Poisson Distribution 15
+
+
+
+1.6.3 Least Squares Estimation 15
+
+
+
+1.6.4 Comments On Estimation 16
+
+
+
+1.6.5 Example: Tropical Cyclones 17
+
+
+
+1.7 Exercises 17
+
+1.1 \\
+Well certainly there is a linear mapping so for a $(W_1,W_2)$ corresponds directly with $(Y_1,Y_2)=\left(\frac{W_1+2W_2}{9},\frac{4W_1-W_2}{9}\right)$ and so you just plug in and multiply the pdfs.
+
+1.2 \\
+a The central $\chi^2(1)$ distribution with $1$ degree of freedom \\
+b $y^Ty=(Y_1)^2+\left(\frac{Y_2-3}{2} \right)^2$. Well of course the second value distribution is isomorphic with shifting to $N(0,4)$ prior to re norming via a dilation homothety constant factor multiple of $\frac{1}{2}$ which transfers in to the variance quadratically by definiton and so this is itself another standard Normal distribution $N(0,1)$ at which point it is a central $\chi^2(2)$ distribution with $2$ degrees of freedom \\
+c For $y=\begin{bmatrix} Y_1 \\ Y_2 \end{bmatrix}$ one obtains $y \sim \text{MVN} \left(\begin{bmatrix} 0 \\ 3 \end{bmatrix},\begin{bmatrix} 1 & 0 \\ 0 & 4 \end{bmatrix} \right)$ and of course $y^T V^{-1} y$ has the non-central $\chi^2$ distribution $\chi^2(n,\lambda)$ or instead just plug in literally of course the inverse of a diagonal matrix merely being the diagonal matrix where each entry is the inverse of the corresponding eigenvalue and so on and so on I just obtained a solutions .pdf file which it makes it clear on the previous task I was supposed to resolve this in terms of literal distributions through the results of the chapter and I don't know that I will find it in myself to LaTeX my own thoughts on tasks further.
+
+2 Model Fitting 21
+
+
+
+2.1 Introduction 21
+
+
+
+2.2 Examples 21
+
+
+
+2.2.1 Chronic Medical Conditions 21
+
+
+
+2.2.2 Example: Birthweight And Gestational Age 25
+
+I can not kid you this is very worth seriously parsing through as this stuff is foundational critical material. This was a very solid example simple simple simple stuff really but so important to understand and recall so here there are $2$ sets and the hypothesis is that they have the same slope or rather we are going to jump in to the frequentist paradigm here. What we do is produce the least squares parameter for the model where we just do a simple linear regression on each set and produce intercept and slope values and another one basically where we do fitting to $3$ rather than $4$ variables here supposing that they do come from the same underlying random process so the whole paradigm is producing probabilities supposing a model of a line with some noise that is independent of $x$ value. Now they check residuals plots and so on and note very similar aggregate sums of residuals for the models but most critically here is that if $\beta_1 \neq \beta_2$ i.e. $H_1$ then $\frac{\hat{S_0}}{\sigma^2}$ will have a non-central $\chi^2$ distribution with $JK-(J+1)$ degrees of freedom. On the other hand the null hypothesis $H_0$ will have a central $\chi^2$ distribution with $JK-2J$ degrees of freedom. However as $\sigma^2$ is unknown the key to comparison results from a ratio $F$-statistic test basically and if some statistic here is sufficiently large then that is what provides strong evidence to reject the null hypothesis $H_0$ in the frequentist paradigm.
+
+2.3 Some Principles Of Statistical Modelling 35
+
+Ah the "good" statistical practice my favourite kind I mean maybe the sequel book will focus on precisely how to weaponize the bad kind when one is need of a shekel or $2$.
+
+2.3.1 Exploratory Data Analysis 35
+
+Here we almost get in to some massive algorithm which requires hours of conscious human labour prior to any statistics.
+
+Any analysis of data should begin with a consideration of each variable separately, both to check on data quality (for example, are the values plausible?) and to help with model formulation.
+
+What is the scale of measurement? Is it continuous or categorical? If it is categorical, how many categories does it have and are they nominal or ordinal?
+
+What is the shape of the distribution? This can be examined using frequency tables, dot plots, histograms and other graphical methods.
+
+How is it associated with other variables? Cross tabulations for categorical variables, scatter plots for continuous variables, side-by-side box plots for continuous scale measurements grouped according to the factor levels of a categorical variable, and other such summaries can help to identify patterns of association. For example, do the points on a scatter plot suggest linear or non-linear associations? Do the group means increase or decrease consistently with an ordinal variable defining the groups? For example bucketed decade of life and like body weight or whatever.
+
+2.3.2 Model Formulation 36
+
+The models described in this book involve a single response variable $Y$ (that is, they are univariate) and usually several explanatory variables. Knowledge of the context in which the data were obtained, including the substantive questions of interest, theoretical relationships among the variables, the study design, and results of the exploratory data analysis can all be used to help formulate a model. The model has two components:
+
+Probability distribution of $Y$, for example, $Y \sim \text{N}(\mu,\sigma^2)$.
+
+Equation linking the expected value of $Y$ with a linear combination of the explanatory variables, for example, $\text{E}(Y)=\alpha+\beta x$ or $\text{ln}[\text{E}[Y]]=\beta_0 + \beta_1 \sin (\alpha x)$.
+
+For generalized linear models the probability distributions all belong to the exponential family of distributions, which includes the Normal, Binomial, Poisson and many other distributions.
+
+2.3.3 Parameter Estimation 36
+
+The most commonly used estimation methods for classical or frequentist statistical inference are maximum likelihood and least squares. These are described in Section 1.6.1. The alternative approach using Bayesian analysis is introduced in Chapter 12.
+
+2.3.4 Residuals And Model Checking 36
+
+Residual $y_i-\hat{y}_i$
+
+Approximate Standardized Residuals $\frac{y_i-\hat{y}_i}{\hat{\sigma}}$
+
+Not exactly Normally distributed but should be approximately.
+
+The Sum Of Squared Residuals $\sum (y_i-\hat{y}_i)^2$ provides an overall statistic for assessing the adequacy of the model and is the component of the least squares itself or log-likelihood function which is optimized in the estimation process.
+
+This is where supposedly one needs a visualization of a direct plot of residuals and the assumption of constant variance is called homoscedasticity so for example an increase or decrease in the spread of the residuals toward the end of the range of the $x$-values of the fitted values would indicate a departure.
+
+Ah but not here also a sequence plot of the residuals should be made in the order in which the values $y_i$ were measured, could be time order, spatial order, or any other sequential effect that might cause lack of independence among the observations. Ah ha so maybe there are humans involved or geographics involved in the production of this data set.
+
+2.3.5 Inference And Interpretation 39
+
+Measurements composed of the signal distorted by the noise.
+
+Some casual hand wave about simplicity not formalized not Bayesian. But of course there can be a number of reasons to prefer simplicity including computability.
+
+While hypothesis testing is useful for identifying a good model, it is much less useful for interpreting it. Wherever possible, the parameters in a model should have some natural interpretation; for example, the rate of growth of babies, the relative risk of acquiring a disease or the mean difference in profit from two marketing strategies. The estimated magnitude of the parameter and the reliability of the estimate as indicated by its standard error or a confidence interval are far more informative than significance levels or $p$-values. They make it possible to answer questions such as: Is the effect estimated with sufficient precision to be useful, or is the effect large enough to be of practical, social or biological significance? In many scientific fields, there is increasing emphasis on reporting point estimates and confidence intervals instead of $p$-values.
+
+Concretely perhaps a medical researcher doesn't care so much that salmon intake had an effect size of $1$ IQ point per $20$ lbs ingested during pregnancy when Iodine had a $10$ times higher effect size or whatever but if they report this in their full data set analyses auxiliary to the publication of their publically NSF funded paper then the curious woman member of the public readership may in fact care and be sure to implement both in her pregnancy strategy over the comparatively suspicious so called neonatal so called over the counter vitamins.
+
+2.3.6 Further Reading 40
+
+
+
+2.4 Notation And Coding For Explanatory Variables 40
+
+Yes so a $\beta x$ term represents that in this linear model the response will change by $\beta$ when there is a change of $1$ in $x$.
+
+Dummy variables refer in general to a vector of parameters representing the inclusion and exclusion of levels of a factor.
+
+Indicator variables refer to binary dummy variables. For example maybe $\begin{bmatrix} 1 \\ 0 \end{bmatrix}$ represents that the house was located in the South neighbourhood of the city but the walls were not made of brick or whatever.
+
+2.4.1 Example: Means For Two Groups 41
+
+
+
+2.4.2 Example: Simple Linear Regression For Two Groups 42
+
+
+
+2.4.3 Example: Alternative Formulations For Comparing The Means Of Two Groups 42
+
+
+
+2.4.4 Example: Ordinal Explanatory Variables 43
+
+
+
+2.5 Exercises 44
+
+2.1
+
+So to compare group means they run an unpaired $t$-test for $\mu_1=\mu_2$ against $\mu_1 \neq \mu_2$ get a $p$-value of $.613 < .95$ thus don't reject the null hypothesis and then execute similarly the full on $F$-statistic calculus commenting on distributions that would be $\sim \chi^2$ under each hypothesis and $t^2=F$ then they comment on residuals.
+
+2.2
+
+So they execute an unpaired $t$-test on group means and find a $p$-value of $.524$ with a $95$ confidence interval for the difference of means $\mu_2-\mu_1$ to be you know actually I won't even transcribe light commentary on the solutions file you should read it if you want to comprehend it.
+
+3 Exponential Family And Generalized Linear Models 49
+
+
+
+3.1 Introduction 49
+
+
+
+3.2 Exponential Family Of Distributions 50
+
+$f(y;\theta)=s(y)t(\theta)e^{a(y)b(\theta)}=e^{a(y)b(\theta)+c(\theta)+d(y)}$
+
+3.2.1 Poisson Distribution 51
+
+
+
+3.2.2 Normal Distribution 52
+
+
+
+3.2.3 Binomial Distribution 52
+
+
+
+3.3 Properties Of Distributions In The Exponential Family 53
+
+
+
+3.4 Generalized Linear Models 56
+
+Response variables $Y_1,\dots,Y_N$, which are assumed to share the same distribution from the exponential family.
+
+A set of parameters $\beta$ and explanatory variables:
+
+$X = \begin{bmatrix} x_1^T \\ \dots \\ x_N^T \end{bmatrix} = \begin{bmatrix} x_{11} & \dots & x_{1p} \\ \dots & \text{ } & \dots \\ x_{N1} & \dots & x_{Np} \end{bmatrix}$
+
+A monotone link function $g$ such that $g(\mu_i)=x_i^T \beta$ where $\mu_i = \text{E}(Y_i)$
+
+3.5 Examples 58
+
+
+
+3.5.1 Normal Linear Model 58
+
+
+
+3.5.2 Historical Linguistics 58
+
+
+
+3.5.3 Mortality Rates 59
+
+
+
+3.6 Exercises 61
+
+
+
+4 Estimation 65
+
+
+
+4.1 Introduction 65
+
+
+
+4.2 Example: Failure Times For Pressure Vessels 65
+
+
+
+4.3 Maximum Likelihood Estimation 70
+
+
+
+4.4 Poisson Regression Example 73
+
+
+
+4.5 Exercises 76
+
+
+
+5 Inference 79
+
+
+
+5.1 Introduction 79
+
+
+
+5.2 Sampling Distribution For Score Statistics 81
+
+
+
+5.2.1 Example: Score Statistic For The Normal Distribution 82
+
+
+
+5.2.2 Example: Score Statistic For The Binomial Distribution 82
+
+
+
+5.3 Taylor Series Approximations 83
+
+
+
+5.4 Sampling Distribution For Maximum Likelihood Estimators 84
+
+
+
+5.4.1 Example: Maximum Likelihood Estimators For The Normal Linear Model 85
+
+
+
+5.5 Log-Likelihood Ratio Statistic 86
+
+
+
+5.6 Sampling Distribution For The Deviance 87
+
+
+
+5.6.1 Example: Deviance For A Binomial Model 88
+
+
+
+5.6.2 Example: Deviance For A Normal Linear Model 89
+
+
+
+5.6.3 Example: Deviance For A Poisson Model 91
+
+
+
+5.7 Hypothesis Testing 92
+
+
+
+5.7.1 Example: Hypothesis Testing For A Normal Linear Model 94
+
+
+
+5.8 Exercises 95
+
+
+
+6 Normal Linear Models 97
+
+
+
+6.1 Introduction 97
+
+
+
+6.2 Basic Results 98
+
+
+
+6.2.1 Maximum Likelihood Estimation 98
+
+
+
+6.2.2 Least Squares Estimation 98
+
+
+
+6.2.3 Deviance 99
+
+
+
+6.2.4 Hypothesis Testing 99
+
+
+
+6.2.5 Orthogonality 100
+
+
+
+6.2.6 Residuals 101
+
+
+
+6.2.7 Other Diagnostics 102
+
+
+
+6.3 Multiple Linear Regression 104
+
+
+
+6.3.1 Example: Carbohydrate Diet 104
+
+
+
+6.3.2 Coefficient Of Determination, $R^2$ 108
+
+
+
+6.3.3 Model Selection 111
+
+
+
+6.3.4 Collinearity 118
+
+
+
+6.4 Analysis Of Variance 119
+
+
+
+6.4.1 One-Factor Analysis Of Variance 119
+
+
+
+6.4.2 Two-Factor Analysis Of Variance 126
+
+
+
+6.5 Analysis Of Covariance 132
+
+
+
+6.6 General Linear Models 135
+
+
+
+6.7 Non-Linear Associations 137
+
+
+
+6.7.1 PLOS Medicine Journal Data 138
+
+
+
+6.8 Fractional Polynomials 141
+
+
+
+6.9 Exercises 143
+
+
+
+7 Binary Variables And Logistic Regression 149
+
+
+
+7.1 Probability Distributions 149
+
+
+
+7.2 Generalized Linear Models 150
+
+
+
+7.3 Dose Response Models 151
+
+
+
+7.3.1 Example: Beetle Mortality 154
+
+
+
+7.4 General Logistic Regression Model 158
+
+
+
+7.4.1 Example: Embryogenic Anthers 159
+
+
+
+7.5 Goodness Of Fit Statistics 162
+
+
+
+7.6 Residuals 166
+
+
+
+7.7 Other Diagnostics 167
+
+
+
+7.8 Example: Senility And WAIS 168
+
+
+
+7.9 Odds Ratios And Prevalence Ratios 171
+
+
+
+7.10 Exercises 174
+
+
+
+8 Nominal And Ordinal Logistic Regression 179
+
+
+
+8.1 Introduction 179
+
+
+
+8.2 Multinomial Distribution 180
+
+
+
+8.3 Nominal Logistic Regression 181
+
+
+
+8.3.1 Example: Car Preferences 183
+
+
+
+8.4 Ordinal Logistic Regression 188
+
+
+
+8.4.1 Cumulative Logit Model 189
+
+
+
+8.4.2 Proportional Odds Model 189
+
+
+
+8.4.3 Adjacent Categories Logit Model 190
+
+
+
+8.4.4 Continuation Ratio Logit Model 191
+
+
+
+8.4.5 Comments 192
+
+
+
+8.4.6 Example: Car Preferences 192
+
+
+
+8.5 General Comments 193
+
+
+
+8.6 Exercises 194
+
+
+
+9 Poisson Regression And Log-Linear Models 197
+
+
+
+9.1 Introduction 197
+
+
+
+9.2 Poisson Regression 198
+
+
+
+9.2.1 Example Of Poisson Regression: British Doctors' Smoking And Coronary Death 201
+
+
+
+9.3 Examples Of Contingency Tables 204
+
+
+
+9.3.1 Example: Cross-Sectional Study Of Malignant Melanoma 205
+
+
+
+9.3.2 Example: Randomized Controlled Trial Of Influenza Vaccine 206
+
+
+
+9.3.3 Example: Case-Control Study Of Gastric And Duodenal Ulcers And Aspirin Use 207
+
+
+
+9.4 Probability Models For Contingency Tables 209
+
+
+
+9.4.1 Poisson Model 209
+
+
+
+9.4.2 Multinomial Model 209
+
+
+
+9.4.3 Product Multinomial Models 210
+
+
+
+9.5 Log-Linear Models 210
+
+
+
+9.6 Inference For Log-Linear Models 212
+
+
+
+9.7 Numerical Examples 212
+
+
+
+9.7.1 Cross-Sectional Study Of Malignant Melanoma 212
+
+
+
+9.7.2 Case-Control Study Of Gastric And Duodenal Ulcer And Aspirin Use 215
+
+
+
+9.8 Remarks 216
+
+
+
+9.9 Exercises 217
+
+
+
+10 Survival Analysis 223
+
+
+
+10.1 Introduction 223
+
+
+
+10.2 Survivor Functions And Hazard Functions 225
+
+
+
+10.2.1 Exponential Distribution 226
+
+
+
+10.2.2 Proportional Hazards Models 227
+
+
+
+10.2.3 Weibull Distribution 228
+
+
+
+10.3 Empirical Survivor Function 230
+
+
+
+10.3.1 Example: Remission Times 231
+
+
+
+10.4 Estimation 233
+
+
+
+10.4.1 Example: Exponential Model 234
+
+
+
+10.4.2 Example: Weibull Model 235
+
+
+
+10.5 Inference 236
+
+
+
+10.6 Model Checking 236
+
+
+
+10.7 Example: Remission Times 238
+
+
+
+10.8 Exercises 240
+
+
+
+11 Clustered And Longitudinal Data 245
+
+
+
+11.1 Introduction 245
+
+
+
+11.2 Example: Recovery From Stroke 247
+
+
+
+11.3 Repeated Measures Models For Normal Data 253
+
+
+
+11.4 Repeated Measures Models For Non-Normal Data 257
+
+
+
+11.5 Multilevel Models 259
+
+
+
+11.6 Stroke Example Continued 262
+
+
+
+11.7 Comments 265
+
+
+
+11.8 Exercises 266
+
+
+
+12 Bayesian Analysis 271
+
+
+
+12.1 Frequentist And Bayesian Paradigms 271
+
+
+
+12.1.1 Alternative Definitions Of P-values And Confidence Intervals 271
+
+
+
+12.1.2 Bayes' Equation 272
+
+
+
+12.1.3 Parameter Space 273
+
+
+
+12.1.4 Example: Schistosoma Japonicum 273
+
+
+
+12.2 Priors 275
+
+
+
+12.2.1 Informative Priors 276
+
+
+
+12.2.2 Example: Sceptical Prior 276
+
+
+
+12.2.3 Example: Overdoses Amongst Released Prisoners 279
+
+
+
+12.3 Distributions And Hierarchies In Bayesian Analysis 281
+
+
+
+12.4 WinBUGS Software For Bayesian Analysis 281
+
+
+
+12.5 Exercises 284
+
+
+
+13 Markov Chain Monte Carlo Methods 287
+
+
+
+13.1 Why Standard Inference Fails 287
+
+
+
+13.2 Monte Carlo Integration 287
+
+
+
+13.3 Markov Chains 289
+
+
+
+13.3.1 The Metropolis-Hastings Sampler 291
+
+
+
+13.3.2 The Gibbs Sampler 293
+
+
+
+13.3.3 Comparing A Markov Chain To Classical Maximum Likelihood Estimation 295
+
+
+
+13.3.4 Importance Of Parameterization 299
+
+
+
+13.4 Bayesian Inference 300
+
+
+
+13.5 Diagnostics Of Chain Convergence 302
+
+
+
+13.5.1 Chain History 302
+
+
+
+13.5.2 Chain Autocorrelation 304
+
+
+
+13.5.3 Multiple Chains 305
+
+
+
+13.6 Bayesian Model Fit: The Deviance Information Criterion 306
+
+
+
+13.7 Exercises 308
+
+
+
+14 Example Bayesian Analyses 315
+
+
+
+14.1 Introduction 315
+
+
+
+14.2 Binary Variables And Logistic Regression 316
+
+
+
+14.2.1 Prevalence Ratios For Logistic Regression 319
+
+
+
+14.3 Nominal Logistic Regression 322
+
+
+
+14.4 Latent Variable Model 324
+
+
+
+14.5 Survival Analysis 326
+
+
+
+14.6 Random Effects 328
+
+
+
+14.7 Longitudinal Data Analysis 331
+
+
+
+14.8 Bayesian Model Averaging 338
+
+
+
+14.8.1 Example: Stroke Recovery 340
+
+
+
+14.8.2 Example: PLOS Medicine Journal Data 340
+
+
+
+14.9 Some Practical Tips For WinBUGS 342
+
+
+
+14.10 Exercises 344
+

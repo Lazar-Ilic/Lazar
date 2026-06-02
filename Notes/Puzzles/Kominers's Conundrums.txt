@@ -1,0 +1,348 @@
+﻿2021-12-19 1st Solver #16
+SOMEONE TOOK TREES FOR THNEEDS; ONCELER
+
+2021-12-12 1st Solver #15
+CHEESE; FO
+C	3	1	9	Circle
+H	8	4	7	Rectangle
+E	5	3	11	Triangle 3-Gon
+E	5	4	11	Square 4-Gon
+S	19	5	7	Pentagon 5-Gon
+E	5	6	11	Hexagon 6-Gon
+Apollo Mare Imbrium AS17-M-2444
+Extra 4 Craters and 1 Black Circle
+Craters Form F and Black Circle Forms O; FO
+Fe, Fi, Fo, Fum, and Phooey
+
+2021-11-28
+AEIOY missing O; USE BINARY
+01110011
+01110111
+01101111
+01110010
+01100100
+01100110
+01101001
+01110011
+01101000
+swordfish
+the hyperlink
+keys answer: MarvinRules
+
+2021-11-21
+D	SODA	VIRTUOSO DART
+I	GARLIC	AGAR LICENSE
+S	PASTA	KAPPA STABLE
+H	HONEY	MARATHON EYE
+E	TURKEY	IMPRIMATUR KEYSTONE
+S	SUSHI	JUJUTSU SHIBA
+
+2021-11-07
+.gif to .png
+weather, ROYGBIV rainbow cipher, order ripples waves wavelengths light oscillate back and forth frequency
+W R W
+W O E
+W Y A
+W G V
+W B E
+W I E
+W V V
+G R E
+G O R
+G Y Y
+G G T
+G B H
+G I R
+G V E
+B R E
+B O L
+B Y E
+B G T
+B B T
+B I E
+B V R
+EEWHRAYTVIREVRLDTEEET
+WAVELET
+
+2021-10-31
+STOCK UP ON CANDY - TICKER TREAT
+V SIX
+A LETTERS
+N MEANING
+I WATCH
+S OR
+H NEWS
+E HEADLINE
+D FEED
+
+2021-10-24 1st Solver #14
+A True
+B False
+C True
+D False
+E False
+F True
+G True
+H True
+I True
+J False
+K True
+L True
+M True
+N True
+O True
+1 SUNS/SPURS
+2 MARS
+3 SATURN
+4 MERCURY
+5 REINDEER
+6 VENUS
+7 PSYCHO
+8 DAREDEVIL/IRON FIST
+12345678
+BEAMMEUP
+
+2021-10-17
+PATENT			CONTRADICTION IN TERM? for 100
+RHODES			EURO-PUNNING for 200
+NOTRE DAME		WORLD HERITAGE SITES for 600
+ENIAC			TECH G"IA"NTS for 300
+ANDREW			SAME NAME for 200
+SPACE JAM		BASKETBALL PLAYERS' SIDE GIGS for 600
+OBERON			SHAKESPEARE for 300
+MACARONI		ITALIAN/AMERICAN for 600
+PIKACHU			MODERN MASCOTS for 100
+HAMILTON		HISTORIC THEATER for 200
+ESPERANTO		SPEAK "E"ASY for 500
+EAST OF EDEN	CLASSIC LITERATURE for 800
+YALE			THE IVY LEAGUE for 100
+PHD IN JEOPARDY
+
+2021-10-03 1st Solver #13
+1200 then 642 and modulo 10 to I LUV FISH and ends A BIG NAME
+R 327
+O 295
+B 401
+I 642
+H 1200
+E 331
+D 173
+S 231
+
+2021-09-26 1st Solver #12
+Wolfram Alpha units QUITE A FEET
+Q	1	QUART		1.137 LITERS = 1 ___ [5]
+U	3	POUND		1.36 KILOGRAMS = 3 ___s [5]
+I	2	PINT 		0.032 BUSHELS = 2 ___s [4]
+T	5	SMOOT		335 INCHES [at MIT] = 5 ___s [5]
+E	6	HOGSHEAD	378 GALLONS [of wine] = 6 ___s [8]
+A	2	HAND		0.444 CUBITS [of horses] = 2 ___s [4]
+F	1	FIRKIN		0.5 KILDERKINS = 1 ___ [6]
+E	5	PARSEC		16.308 LIGHT-YEARS = 5 ___s [6]
+E	7	SCRUPLE		2.333 DRAMS [to an apothecary] = 7 ___s [7]
+T	5	CARAT		1000 MILLIGRAMS [of precious stones] = 5 ___s [5]
+
+2021-09-19
+THE DIFFERENCE BETWEEN ORDINARY AND EXTRAORDINARY IS THAT LITTLE EXTRA
+
+2021-09-12
+Spamming with numbers is banned thus first order is the expected bimodal distribution and guesstimating underlying spread on entries. Second order is trying to pick a value others do not to maximize win probability thus 6969 if I win they might publish it eternally in the public written record. Should have submitted 6969.4205318008 to have BOOBIES in Bloomberg next to Lazar Ilic eternally in the public written record would have been very attractive and classy...
+
+2021-08-29
+18559574162
+1*2*3*4*5 trace 7354 "under the stars" FIRST AND MAIN
+
+2021-08-15
+RECONGRATS, FIRED UP
+
+2021-08-08
+AT SEA
+
+2021-07-25
+AGE OLD [GOLD]
+BRONZER [BRONZE]
+
+2021-07-18
+STAY HYDRATED
+SPEED BOOSTER
+
+        CHESS
+      SONICTHEHEDGEHOG
+      MEGAMAN
+    MONOPOLY
+          CHUTESANDLADDERS
+        LABYRINTH
+           DIPLOMACY
+       SUPERMETROID
+          BATTLESHIP
+         TETRIS
+        CLUE
+SUPERMARIOODYSSEY
+1 3 2 2 12 / 1 6 5 5 4 4 5
+
+2021-06-27
+"common", "reducing", "leap or two" years precisely, "number of days", "figure", "count"
+Unique common character extraction then counting days from January 1st modulo 26 via Time and Date and Wolfram Alpha i.e.
+D	04	030	01-30-93 M PUMPKIN	HOOVER DAM
+E	05	083	03-24-94 I RHINO	I FALLS
+N	14	222	08-10-95 S STUMP	DISNEY WORLD
+Y	25	025	01-25-96 F FOOT		FANEUIL HALL
+E	05	343	12-09-97 I PIG		STATUE OF LIBERTY
+V	22	126	05-06-98 L SLUG		ALAMO
+E	05	343	12-09-99 E EMU		GATEWAY ARCH
+R	18	330	11-25-00 D DUFFEL	DEVILS TOWER
+Y	25	155	06-04-01 U BUS		DAUGHTER
+T	20	202	07-21-01 N KNIGHT	NEEDLE
+H	08	112	04-22-02 D DONUT	GRAND CANYON
+I	09	113	04-22-16 E EGG		CENTRAL PARK
+N	14	248	09-05-18 R PRETZEL	GRAND CANYON
+G	07	033	02-02-21 X FOX		USS TEXAS
+
+2021-06-20 1st Solver #11
+SEND DAD JOKES
+
+2021-06-13
+Classic Garland son colors vanilla ice cream: Somewhere Over the RAINBOW Sprinkles, ROYGBIV
+
+2021-06-06
+THAT'LL BE THE DAY
+
+2021-05-30
+BUTTERFLY BREAKFAST
+
+2021-05-23
+BANANA barium plus twice sodium in balanced breakfast
+
+2021-05-21
+IT'S YOU OF COURSE
+
+2021-05-20
+Yes, if 0 store name and 1 else increment/decrement on match or not.
+
+2021-05-19
+Factors are 1,2,4,5,10,20,25,50,100. Concatenate 20, 2, and 1. Thought base strings and in reverse conversions only got 511_{20}. There exist 4 simplest operations + - / * enumerate for 15 nontrivial subsets perhaps. Certainly 4 for 20*[100+1]+1.
+
+2021-05-18
+Yes pigeonhole no 0 and 1833. Yes lower bound 2 upper bound 1832.
+
+2021-05-17
+WELCOME TO ISEF! SEND US A FAVORITE SCHOLAR OR INNOVATOR AS THE "ANSWER" TO THIS PUZZLE; BONUS IF NO ADJACENT VOWELS IN NAME!
+
+2021-05-16
+Linear algebra, cross extraction, A TON OF DOUGH, SETTLE CATAN
+
+2021-05-09
+Follow instructions ALWAYS RIGHT, ULATIPRNCAS
+
+2021-05-02
+Follow instructions EXHAUST ACCESS SHAFT ALPHA
+
+2021-04-25
+Trawl, eyeball, BEST PUZZLE FILM
+
+2021-04-18
+SEW, YETI is out of the ordinary, MANNED is double N not O, UMBERTO is not a Pokemon, MUMMY'S WISDOM
+
+2021-04-11
+Merge to first key is click link, underlined to second key is saying opinion, first letters third key is letter P, click link saying opinion letter P to MADAGASCAR
+
+2021-03-28
+Numbers to characters, numbers in clues, trawl, hex, solve/trawl, pairs/trawl, Morse, witch aisle dew yew flye two naught thin king, which isle do you fly to not thinking? CONCLUSIONS
+
+2021-03-14 1st Solver #10
+20, 8, 5, 16, 9, 5, 19, 1 should be 18, 5, 19, 17, 21, 1, 18, 5 THE PIES ARE SQUARE; double trouble right all along figure characters taste 2, 6, 1, 5, 3, 2, 4, 1 from character names and tastes AND ALSO WAY TAU HOT
+
+2021-02-28 1st Solver #9
+locate the art in starry night using rad ec coords, Google radec coords, stars, ORION constellation, bonus Norse roads horses and toads orse oads Morse Code, long and short, capital and lowercase becomes VINCEN CRYPTOGH
+
+2021-02-21
+Google Translate, first letter, THAT WAS FAR OUT, bonus Esperanto ends PLEASE SUBMIT RED TESLA
+
+2021-02-14
+Theoretically, see VEntriLOquism SQUIRM TIN with LOVE, anagram the rest, sort in row order, ALL YOU NEED IS LOVE
+
+2021-02-07
+Trawl, eyeball, BRIGHTEN THEM UP
+
+2021-01-24
+Trawl, eyeball, MITTENS, Google, BERNIESMITTENS
+
+2021-01-10 1st Solver #8
+"resolve the differences" meyer meter Y T trawl THEY LIKE COUNTING DOWNS
+
+2021-01-03
+Floor, factorial, and square root are enough to get one 3  in various settings, for example one call of the floor function and only calling factorial on integers so floor of iterated square root of iterated factorial is reasonably distributed in [rt[2022],2022] when square root is iterated appropriately and generally we probably get density in R
+
+2020-12-27
+JIGSAW, MAHJONG, RICKROLL, GLITTER, ROOMBA, CARTON, NEONOIR, ZUCCHINI, PALPATINE, SOURDOUGH, PELOTON, DONKEY; OCEAN, MEOWTH, ADLER, LUPIN, TOKYO, FAGIN, GRINCH; ROOMBA GLITTER, SOURDOUGH, NEONOIR RICKROLL, PELOTON, PALPATINE, DONKEY, JIGSAW, CARTON, ZUCCHINI, MAHJONG; KIERANC, KIERAN CULKIN
+
+2020-12-06
+Path reverse image search, Carthage, Alhambra, Ryman Auditorium, Monument Valley, Enchanted Rock, NASA, Stone Arch Bridge, CARMENS, Carmen Sandiego, map
+
+2020-11-29
+Boston cream, meringue lemon, coops chicken, orchard apple, bing cherry, key lime
+key, bing, coops, Boston, orchard, meringue
+
+2020-11-22
+Path trawl flavor text separate by Dolly Parton or not MODERNA MARVEL
+
+2020-11-15
+The Land of Oz, Wizards, odds, Merlin, Wizard, Oddish; The Wizard of Odds
+
+2020-11-08 1st Solver #7
+Path Google wheel of fortune solver inspect output FIVE ORANGE, TO SHERLOCK, HEBREW GRAIN MEASURE, BLACKJACK DEALS; PIPS, OMER, CARDS; SPOCK
+
+2020-11-01
+Topical, VOTE THEM OFF THE ISLAND
+
+2020-10-25
+Eye/I, Heart/Love, Red and white near lapel, white under hand.
+
+2020-10-18 1st Solver #6
+Admiral Ackbar, Never Gonna Give You Up, Rick Astley, SIRI, iPhone, 100 movies, Nicholas Cage, one does not simply, Gandalf, I don't always, MIMITW, gloomy, Eeyore, derelicte, Mugatu, taking your own company private, Elon Musk, is a trap. cycle A RING MEME
+
+2020-10-11 1st Solver #5
+
+2020-10-04
+Flavor text Disney characters path Google ABU, DORI, KUZCO, SIMBA, BALOO, ARIEL, GASTON, GEPPETTO, SNOWWHITE, JOSECARIOCA, CHESHIRECAT, DARKWINGDUCK, JIMINYCRICKET, BUZZLIGHTYEAR, LAUNCHPADMCQUACK then insert forced A MICKEY MOUSE JOB
+
+2020-09-27
+[8+8]*3/2
+6/[1-3/4]
+4!*[10-9]^3
+4!*[10/10]^4
+2*2*log_2[64]
+24*1^[2*5]
+
+2020-09-20
+Path Google keywords + "Nobel Prize" extract list try sort chronologically on prize
+
+2020-09-12
+Yes
+
+2020-09-05 1st Solver #4
+Path OEIS to elements song, image search to lyrics, Walter Winchell, Jimmy Dean, cheesecake, Oxygen
+
+2020-08-22 1st Solver #3
+Path OEIS to names to Lateralus
+
+2020-08-15 1st Solver #2
+Path prefixes and suffixes, Honors Bagged Popcorn Physics
+
+2020-08-08
+"shouldn't be the biggest" 2nd from list flavor text to IMO sites
+
+2020-08-01 1st Solver #1
+Path image search alliterative name initials Google "who faces Apollo" see Rocky, Sylvester Stallone
+
+2020-07-25
+Total time constant so delay added to others is delay from cutting, 2 hours
+
+2020-07-18
+1 Palindromicity, COD
+2 Google, "super" Mario, NAYRU
+3 "divide" path atomic number 0 mod 5, URANIUM
+4 "sound" syllables, ODOR
+5 Double consonant, not vowel NESTEGGS
+6 Path Google to animal groups, VOYAGE
+meta [missed, ok fakesolve] "downright" to downleft and downright CONUNDRUMS to VOYAGE

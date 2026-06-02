@@ -1,0 +1,1146 @@
+% Perhaps Typing In Some Formulae Here Will Look OK From The Outside Like I Care, Which I Do
+
+
+Contents
+
+
+
+Preface ....................................................... V
+
+
+
+General notations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . XV
+
+
+
+1 Derivatives and arbitrage pricing ......................... 1
+
+
+
+1.1 Options . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+
+
+
+1.1.1 Main purposes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+
+
+
+1.1.2 Main problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+
+
+1.1.3 Rules of compounding ............................ 4
+
+
+
+1.1.4 Arbitrage opportunities and Put-Call parity formula . . 5
+
+OKOKOK. I dunno if this textbook is useful for thinking about what might appear in the Citadel Securities codebase.
+
+Replicating Condition
+
+Arbitrage Price
+
+1.2 Risk-neutral price and arbitrage pricing . . . . . . . . . . . . . . . . . . . 7
+
+
+
+1.2.1 Risk-neutral price . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+
+
+1.2.2 Risk-neutral probability ........................... 8
+
+
+
+1.2.3 Arbitrage price . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+
+
+1.2.4 A generalization of the Put-Call parity . . . . . . . . . . . . . . 10
+
+
+
+1.2.5 Incomplete markets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+
+
+2 Discrete market models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+Interesting enough citations.
+
+Self-Financing
+
+2.1 Discrete markets and arbitrage strategies . . . . . . . . . . . . . . . . . . 15
+
+
+
+2.1.1 Self-financing and predictable strategies . . . . . . . . . . . . . 16
+
+
+
+2.1.2 Normalized market . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+
+
+2.1.3 Arbitrage opportunities and admissible strategies . . . . . 20
+
+
+
+2.1.4 Equivalent martingale measure . . . . . . . . . . . . . . . . . . . . . 21
+
+
+
+2.1.5 Change of numeraire . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+
+
+
+2.2 European derivatives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+
+
+
+2.2.1 Pricing in an arbitrage-free market . . . . . . . . . . . . . . . . . 27
+
+
+
+2.2.2 Completeness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+
+
+2.2.3 Fundamental theorems of asset pricing . . . . . . . . . . . . . . 31
+
+
+
+2.2.4 Markov property . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+
+
+
+2.3 Binomial model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+
+
+
+2.3.1 Martingale measure and arbitrage price . . . . . . . . . . . . . 38
+
+
+
+2.3.2 Hedging strategies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+
+
+
+VIII Contents
+
+
+
+2.3.3 Binomial algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+
+This part is pretty canonical in These Things Also Were Heard On The Street.
+
+2.3.4 Calibration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+
+
+
+2.3.5 Binomial model and Black-Scholes formula . . . . . . . . . . 53
+
+OK
+
+2.3.6 Black-Scholes differential equation . . . . . . . . . . . . . . . . . . 60
+
+
+
+2.4 Trinomial model. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+
+OK.
+
+2.4.1 Pricing and hedging in an incomplete market . . . . . . . . 66
+
+OK
+
+2.5 American derivatives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72
+
+
+
+2.5.1 Arbitrage price . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+
+OK
+
+2.5.2 Optimal exercise strategies . . . . . . . . . . . . . . . . . . . . . . . . 80
+
+OK
+
+2.5.3 Pricing and hedging algorithms . . . . . . . . . . . . . . . . . . . . 83
+
+
+
+2.5.4 Relations with European options . . . . . . . . . . . . . . . . . . . 88
+
+OK
+
+2.5.5 Free-boundary problem for American options . . . . . . . . 90
+
+OK
+
+2.5.6 American and European options in the binomial model 93
+
+
+
+3 Continuous-time stochastic processes . . . . . . . . . . . . . . . . . . . . . 97
+
+OK
+
+3.1 Stochastic processes and real Brownian motion . . . . . . . . . . . . . 97
+
+
+
+3.1.1 Markov property . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100
+
+OK
+
+3.1.2 Brownian motion and the heat equation . . . . . . . . . . . . . 102
+
+OK think maybe memorising this book for interviews is alright.
+
+3.2 Uniqueness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+
+
+
+3.2.1 Law of a continuous process . . . . . . . . . . . . . . . . . . . . . . . 103
+
+OK
+
+3.2.2 Equivalence of processes . . . . . . . . . . . . . . . . . . . . . . . . . . . 105
+
+
+
+3.2.3 Modifications and indistinguishable processes . . . . . . . . 107
+
+OK
+
+3.2.4 Adapted and progressively measurable processes. . . . . . 110
+
+
+
+3.3 Martingales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111
+
+OK
+
+3.3.1 Doob's inequality . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 113
+
+
+
+3.3.2 Martingale spaces: M2 and M2
+
+OK
+
+c . . . . . . . . . . . . . . . . . . . . 114
+
+
+
+3.3.3 The usual hypotheses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 117
+
+OK
+
+3.3.4 Stopping times and martingales . . . . . . . . . . . . . . . . . . . . 120
+
+OK
+
+3.4 Riemann-Stieltjes integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 125
+
+OK
+
+3.4.1 Bounded-variation functions . . . . . . . . . . . . . . . . . . . . . . . 127
+
+OK
+
+3.4.2 Riemann-Stieltjes integral and It'o formula . . . . . . . . . . . 131
+
+OK
+
+3.4.3 Regularity of the paths of a Brownian motion . . . . . . . . 134
+
+
+
+4 Brownian integration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 139
+
+OK
+
+4.1 Stochastic integral of deterministic functions . . . . . . . . . . . . . . . 140
+
+
+
+4.2 Stochastic integral of simple processes . . . . . . . . . . . . . . . . . . . . . 141
+
+OK
+
+4.3 Integral of L2-processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 145
+
+OK
+
+4.3.1 Ito and Riemann-Stieltjes integral . . . . . . . . . . . . . . . . . . 149
+
+OK
+
+4.3.2 Ito integral and stopping times . . . . . . . . . . . . . . . . . . . . . 151
+
+OK
+
+4.3.3 Quadratic variation process . . . . . . . . . . . . . . . . . . . . . . . . 153
+
+OK
+
+4.3.4 Martingales with bounded variation . . . . . . . . . . . . . . . . 156
+
+
+
+4.3.5 Co-variation process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 157
+
+OK
+
+4.4 Integral of L2
+
+OK
+
+loc-processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 159
+
+
+
+4.4.1 Local martingales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 161
+
+
+
+4.4.2 Localization and quadratic variation . . . . . . . . . . . . . . . . 163
+
+OK
+
+Contents IX
+
+
+
+5 Ito calculus . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 167
+
+
+
+5.1 Ito processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 168
+
+
+
+5.1.1 Ito formula for Brownian motion . . . . . . . . . . . . . . . . . . . 169
+
+
+
+5.1.2 General formulation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 174
+
+
+
+5.1.3 Martingales+and parabolic equations . . . . . . . . . . . . . . . 176
+
+
+
+5.1.4 Geometric Brownian motion . . . . . . . . . . . . . . . . . . . . . . . 176
+
+
+
+5.2 Multi-dimensional Ito processes . . . . . . . . . . . . . . . . . . . . . . . . . . 179
+
+
+
+5.2.1 Multi-dimensional Ito formula. . . . . . . . . . . . . . . . . . . . . . 183
+
+
+
+5.2.2 Correlated Brownian motion+and martingales . . . . . . . 188
+
+
+
+5.3 Generalized Ito formulas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 191
+
+
+
+5.3.1 Ito formula and+weak derivatives . . . . . . . . . . . . . . . . . . 191
+
+
+
+5.3.2 Tanaka formula+and local times . . . . . . . . . . . . . . . . . . . 194
+
+
+
+5.3.3 Tanaka+formula for Ito processes . . . . . . . . . . . . . . . . . . 197
+
+OK
+
+5.3.4 Local+time and Black-Scholes formula . . . . . . . . . . . . . . 198
+
+
+
+6 Parabolic PDEs with variable coefficients: uniqueness . . . . . 203
+
+
+
+6.1 Maximum principle and Cauchy-Dirichlet problem . . . . . . . . . . 206
+
+OK
+
+6.2 Maximum principle and Cauchy problem . . . . . . . . . . . . . . . . . . 208
+
+OK
+
+6.3 Non-negative solutions of the Cauchy problem . . . . . . . . . . . . . 213
+
+
+
+7 Black-Scholes model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 219
+
+OK
+
+7.1 Self-financing strategies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 220
+
+OK
+
+7.2 Markovian strategies and Black-Scholes equation . . . . . . . . . . . 222
+
+OK
+
+7.3 Pricing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 225
+
+
+
+7.3.1 Dividends and time-dependent parameters . . . . . . . . . . . 228
+
+OK
+
+7.3.2 Admissibility and absence of arbitrage . . . . . . . . . . . . . . 229
+
+OK
+
+7.3.3 Black-Scholes analysis: heuristic approaches . . . . . . . . . . 231
+
+
+
+7.3.4 Market price of risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 233
+
+
+
+7.4 Hedging . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 236
+
+OK
+
+7.4.1 The Greeks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 236
+
+
+
+7.4.2 Robustness of the model . . . . . . . . . . . . . . . . . . . . . . . . . . 245
+
+OK
+
+7.4.3 Gamma and Vega-hedging . . . . . . . . . . . . . . . . . . . . . . . . . 246
+
+OK
+
+7.5 Implied volatility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 248
+
+
+
+7.6 Asian options . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 252
+
+
+
+7.6.1 Arithmetic average . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 253
+
+
+
+7.6.2 Geometric average . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 255
+
+OK
+
+8 Parabolic PDEs with variable coefficients: existence . . . . . . 257
+
+
+
+8.1 Cauchy problem and fundamental solution . . . . . . . . . . . . . . . . . 258
+
+OK
+
+8.1.1 Levi's parametrix method . . . . . . . . . . . . . . . . . . . . . . . . . 260
+
+OK
+
+8.1.2 Gaussian estimates and adjoint operator . . . . . . . . . . . . 261
+
+
+
+8.2 Obstacle problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 263
+
+
+
+8.2.1 Strong solutions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 265
+
+
+
+8.2.2 Penalization method . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 268
+
+OK
+
+X Contents
+
+
+
+9 Stochastic differential equations . . . . . . . . . . . . . . . . . . . . . . . . . . 275
+
+
+
+9.1 Strong solutions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 276
+
+OK
+
+9.1.1 Uniqueness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 278
+
+
+
+9.1.2 Existence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 280
+
+
+
+9.1.3 Properties of solutions . . . . . . . . . . . . . . . . . . . . . . . . . . . . 283
+
+
+
+9.2 Weak solutions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 286
+
+
+
+9.2.1 Tanaka's example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 286
+
+OK
+
+9.2.2 Existence: the martingale problem . . . . . . . . . . . . . . . . . . 287
+
+
+
+9.2.3 Uniqueness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 290
+
+OK
+
+9.3 Maximal estimates. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 292
+
+
+
+9.3.1 Maximal estimates for martingales . . . . . . . . . . . . . . . . . . 293
+
+OK
+
+9.3.2 Maximal estimates for diffusions. . . . . . . . . . . . . . . . . . . . 296
+
+
+
+9.4 Feynman-Kac representation formulas . . . . . . . . . . . . . . . . . . . . . 298
+
+
+
+9.4.1 Exit time from a bounded domain . . . . . . . . . . . . . . . . . . 300
+
+OK
+
+9.4.2 Elliptic-parabolic equations and Dirichlet problem . . . . 302
+
+
+
+9.4.3 Evolution equations and Cauchy-Dirichlet problem . . . 307
+
+OK
+
+9.4.4 Fundamental solution and transition density . . . . . . . . . 308
+
+
+
+9.4.5 Obstacle problem and optimal stopping . . . . . . . . . . . . . 310
+
+OK
+
+9.5 Linear equations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 314
+
+OK
+
+9.5.1 Kalman condition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 318
+
+
+
+9.5.2 Kolmogorov equations and Hormander condition . . . . . 323
+
+OK
+
+9.5.3 Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 326
+
+
+
+10 Continuous market models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 329
+
+OK
+
+10.1 Change of measure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 329
+
+
+
+10.1.1 Exponential martingales . . . . . . . . . . . . . . . . . . . . . . . . . . . 329
+
+OK
+
+10.1.2 Girsanov's theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 332
+
+OK
+
+10.1.3 Representation of Brownian martingales . . . . . . . . . . . . . 334
+
+
+
+10.1.4 Change of drift . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 339
+
+
+
+10.2 Arbitrage theory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 340
+
+OK
+
+10.2.1 Change of drift with correlation . . . . . . . . . . . . . . . . . . . . 343
+
+OK
+
+10.2.2 Martingale measures and market prices of risk . . . . . . . 345
+
+
+
+10.2.3 Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 348
+
+
+
+10.2.4 Admissible strategies and arbitrage opportunities . . . . . 352
+
+
+
+10.2.5 Arbitrage pricing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 355
+
+OK
+
+10.2.6 Complete markets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 357
+
+
+
+10.2.7 Parity formulas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 358
+
+OK
+
+10.3 Markovian models: the PDE approach . . . . . . . . . . . . . . . . . . . . 359
+
+OK
+
+10.3.1 Martingale models for the short rate . . . . . . . . . . . . . . . . 361
+
+OK
+
+10.3.2 Pricing and hedging in a complete model . . . . . . . . . . . . 364
+
+
+
+10.4 Change of numeraire . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 366
+
+OK
+
+10.4.1 LIBOR market model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 370
+
+
+
+10.4.2 Change of numeraire for Ito processes . . . . . . . . . . . . . . . 372
+
+OK
+
+10.4.3 Pricing with stochastic interest rate. . . . . . . . . . . . . . . . . 374
+
+OK
+
+10.5 Diffusion-based volatility models . . . . . . . . . . . . . . . . . . . . . . . . . 376
+
+OK
+
+Contents XI
+
+
+
+10.5.1 Local and path-dependent volatility . . . . . . . . . . . . . . . . 377
+
+OK
+
+10.5.2 CEV model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 379
+
+OK
+
+10.5.3 Stochastic volatility and the SABR model . . . . . . . . . . . 386
+
+
+
+11 American options . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 389
+
+OK
+
+11.1 Pricing and hedging in the Black-Scholes model . . . . . . . . . . . . 389
+
+
+
+11.2 American Call and Put options in the Black-Scholes model . . 395
+
+OK
+
+11.3 Pricing and hedging in a complete market . . . . . . . . . . . . . . . . . 398
+
+
+
+12 Numerical methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 403
+
+OK
+
+12.1 Euler method for ordinary equations . . . . . . . . . . . . . . . . . . . . . . 403
+
+OK
+
+12.1.1 Higher order schemes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 407
+
+OK
+
+12.2 Euler method for stochastic differential equations . . . . . . . . . . . 408
+
+
+
+12.2.1 Milstein scheme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 411
+
+
+
+12.3 Finite-difference methods for parabolic equations . . . . . . . . . . . 412
+
+OK
+
+12.3.1 Localization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 413
+
+
+
+12.3.2 θ-schemes for the Cauchy-Dirichlet problem . . . . . . . . . . 414
+
+OK
+
+12.3.3 Free-boundary problem . . . . . . . . . . . . . . . . . . . . . . . . . . . 419
+
+OK
+
+12.4 Monte Carlo methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 420
+
+
+
+12.4.1 Simulation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 423
+
+
+
+12.4.2 Computation of the Greeks . . . . . . . . . . . . . . . . . . . . . . . . 425
+
+OKOKOK
+
+12.4.3 Error analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 427
+
+
+
+13 Introduction to Levy processes . . . . . . . . . . . . . . . . . . . . . . . . . . . 429
+
+OK
+
+13.1 Beyond Brownian motion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 429
+
+
+
+13.2 Poisson process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 432
+
+OK
+
+13.3 Levy processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 437
+
+
+
+13.3.1 Infinite divisibility and characteristic function . . . . . . . . 439
+
+OK
+
+13.3.2 Jump measures of compound Poisson processes. . . . . . . 444
+
+OK
+
+13.3.3 Levy-Ito decomposition . . . . . . . . . . . . . . . . . . . . . . . . . . . 450
+
+OK
+
+13.3.4 Levy-Khintchine representation . . . . . . . . . . . . . . . . . . . . 457
+
+OK
+
+13.3.5 Cumulants and Levy martingales . . . . . . . . . . . . . . . . . . . 460
+
+OK
+
+13.4 Examples of Levy processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 463
+
+OK
+
+13.4.1 Jump-diffusion processes . . . . . . . . . . . . . . . . . . . . . . . . . . 464
+
+OKOKOK need to pay attention to this part too.
+
+13.4.2 Stable processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 466
+
+OK
+
+13.4.3 Tempered stable processes . . . . . . . . . . . . . . . . . . . . . . . . . 469
+
+OK
+
+13.4.4 Subordination. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 471
+
+OK
+
+13.4.5 Hyperbolic processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 478
+
+OK
+
+13.5 Option pricing under exponential Levy processes . . . . . . . . . . . 480
+
+OK
+
+13.5.1 Martingale modeling in Levy markets . . . . . . . . . . . . . . . 480
+
+OK
+
+13.5.2 Incompleteness and choice of an EMM . . . . . . . . . . . . . . 485
+
+OK
+
+13.5.3 Esscher transform . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 486
+
+OK
+
+13.5.4 Exotic option pricing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 491
+
+OK
+
+13.5.5 Beyond Levy processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . 494
+
+OK
+
+XII Contents
+
+
+
+14 Stochastic calculus for jump processes . . . . . . . . . . . . . . . . . . . . 497
+
+OK
+
+14.1 Stochastic integrals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 497
+
+OK
+
+14.1.1 Predictable processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 500
+
+OKOKOK
+
+14.1.2 Semimartingales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 504
+
+OK
+
+14.1.3 Integrals with respect to jump measures . . . . . . . . . . . . . 507
+
+OK
+
+14.1.4 Levy-type stochastic integrals . . . . . . . . . . . . . . . . . . . . . . 511
+
+OK
+
+14.2 Stochastic differentials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 514
+
+OKOKOK
+
+14.2.1 Ito formula for discontinuous functions . . . . . . . . . . . . . . 514
+
+OKOK
+
+14.2.2 Quadratic variation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 515
+
+OK
+
+14.2.3 Ito formula for semimartingales . . . . . . . . . . . . . . . . . . . . 518
+
+OKOK
+
+14.2.4 Ito formula for Levy processes . . . . . . . . . . . . . . . . . . . . . 520
+
+
+
+14.2.5 SDEs with jumps and Ito formula . . . . . . . . . . . . . . . . . . 525
+
+OK
+
+14.2.6 PIDEs and Feynman-Kac representation . . . . . . . . . . . . 529
+
+
+
+14.2.7 Linear SDEs with jumps . . . . . . . . . . . . . . . . . . . . . . . . . . 532
+
+OKOKOK this is probably very important too all of this to memorise.
+
+14.3 Levy models with stochastic volatility . . . . . . . . . . . . . . . . . . . . . 534
+
+OK
+
+14.3.1 Levy-driven models and pricing PIDEs . . . . . . . . . . . . . . 534
+
+
+
+14.3.2 Bates model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 537
+
+OK
+
+14.3.3 Barndorff-Nielsen and Shephard model . . . . . . . . . . . . . . 539
+
+OK
+
+15 Fourier methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 541
+
+
+
+15.1 Characteristic functions and branch cut . . . . . . . . . . . . . . . . . . . 542
+
+
+
+15.2 Integral pricing formulas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 545
+
+OK
+
+15.2.1 Damping method . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 546
+
+OKOKOK
+
+15.2.2 Pricing formulas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 547
+
+
+
+15.2.3 Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 551
+
+
+
+15.2.4 Choice of the damping parameter . . . . . . . . . . . . . . . . . . 553
+
+OK
+
+15.3 Fourier-cosine series expansions . . . . . . . . . . . . . . . . . . . . . . . . . . 562
+
+OKOKOK
+
+15.3.1 Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 567
+
+
+
+16 Elements of Malliavin calculus . . . . . . . . . . . . . . . . . . . . . . . . . . . . 577
+
+OKOKOK
+
+16.1 Stochastic derivative . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 578
+
+OKOK
+
+16.1.1 Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 580
+
+
+
+16.1.2 Chain rule . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 582
+
+
+
+16.2 Duality . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 586
+
+
+
+16.2.1 Clark-Ocone formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 588
+
+OKOK
+
+16.2.2 Integration by parts and computation of the Greeks . . 590
+
+
+
+16.2.3 Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 594
+
+OKOK
+
+Appendix: a primer in probability and parabolic PDEs . . . . . . . 599
+
+
+
+A.1 Probability spaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 599
+
+
+
+A.1.1 Dynkin's theorems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 601
+
+OKOK
+
+A.1.2 Distributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 605
+
+
+
+A.1.3 Random variables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 608
+
+OKOK
+
+A.1.4 Integration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 610
+
+OKOK
+
+A.1.5 Mean and variance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 612
+
+
+
+Contents XIII
+
+
+
+A.1.6 σ-algebras and information . . . . . . . . . . . . . . . . . . . . . . . . 618
+
+OKOK
+
+A.1.7 Independence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 619
+
+
+
+A.1.8 Product measure and joint distribution. . . . . . . . . . . . . . 622
+
+OKOK
+
+A.1.9 Markov inequality . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 625
+
+
+
+A.2 Fourier transform. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 626
+
+
+
+A.3 Parabolic equations with constant coefficients . . . . . . . . . . . . . . 630
+
+
+
+A.3.1 A special case . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 631
+
+OKOK
+
+A.3.2 General case . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 636
+
+
+
+A.3.3 Locally integrable initial datum . . . . . . . . . . . . . . . . . . . . 637
+
+
+
+A.3.4 Non-homogeneous Cauchy problem . . . . . . . . . . . . . . . . . 638
+
+
+
+A.3.5 Adjoint operator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 639
+
+OKOKOK
+
+A.4 Characteristic function and normal distribution . . . . . . . . . . . . 641
+
+
+
+A.4.1 Multi-normal distribution . . . . . . . . . . . . . . . . . . . . . . . . . 643
+
+
+
+A.5 Conditional expectation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 646
+
+
+
+A.5.1 Radon-Nikodym theorem . . . . . . . . . . . . . . . . . . . . . . . . . . 646
+
+OKOK
+
+A.5.2 Conditional expectation . . . . . . . . . . . . . . . . . . . . . . . . . . . 648
+
+OKOK
+
+A.5.3 Conditional expectation and discrete random variables 650
+
+
+
+A.5.4 Properties of the conditional expectation . . . . . . . . . . . . 652
+
+
+
+A.5.5 Conditional expectation in L2 . . . . . . . . . . . . . . . . . . . . . . 655
+
+OKOKOK
+
+A.5.6 Change of measure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 656
+
+
+
+A.6 Stochastic processes in discrete time . . . . . . . . . . . . . . . . . . . . . . 657
+
+Looks sharp.
+
+A.6.1 Doob's decomposition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 659
+
+
+
+A.6.2 Stopping times . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 661
+
+
+
+A.6.3 Doob's maximal inequality . . . . . . . . . . . . . . . . . . . . . . . . 665
+
+
+
+A.7 Convergence of random variables . . . . . . . . . . . . . . . . . . . . . . . . . 669
+
+
+
+A.7.1 Characteristic function and convergence of variables . . 670
+
+
+
+A.7.2 Uniform integrability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 674
+
+
+
+A.8 Topologies and σ-algebras . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 676
+
+
+
+A.9 Generalized derivatives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 678
+
+
+
+A.9.1 Weak derivatives in R . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 678
+
+
+
+A.9.2 Sobolev spaces and embedding theorems . . . . . . . . . . . . 681
+
+
+
+A.9.3 Distributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 682
+
+
+
+A.9.4 Mollifiers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 687
+
+
+
+A.10 Separation of convex sets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 690
+
+
+
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 691
+
+Perhaps I ought to read through more of these even.
+
+Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 713

@@ -1,0 +1,331 @@
+﻿Still in my reviews rotation of course but I no longer do these.
+
+2022-02-25
+E Interpolating [0,1], [1,2], [1.9,5], [2,4], [2.1,3], [3,8], [4,16] one obtains ~ -0.242715*x^6-0.315815*x^5+18.9763*x^4-83.9515*x^3+131.782*x^2-65.2479*x+1
+C For points [A,B] and [C,D], with axis of symmetry X=E there exists 1 satisfactory vertex. Solving, the parabola is f(E)=y=[[x-E]^2-[A-E]^2]*[D-B]*1/[[C-E]^2-[A-E]^2]+B which has vertex [E,f(E)] is a function of E which can be plotted for given A, B, C, D values.
+
+2022-02-18
+E 9/20=0.45
+C ~0.721, Peter Winkler limit does not exist.
+
+2022-02-11
+E 15; prime factorisations.
+C Deduced. If we have 2 pairs which sum to a and 2 pairs which sum to b this generates 4 faces, and we need to ensure that the deltas off of the means balance out to form the other 2 faces. Leads to disjoint a1+-b1, a1+-b2, a2+-b3, a2+-b4 where there exists a +-1 linear combination setting for 0 from the bi. So for example [[3,13],[31,53],[5,11],[61,23]].
+
+2022-02-04
+E 7/10=1-3/10
+C 11; smooth maximise f(x)=(0.99*cos(pi/(2*x)))^x for x>=1 at x~11.1348 and f(11)>f(12) unimodality at 11 takes on ~0.800042
+
+2022-01-28
+E 89; manual, see Implementations.
+C Code, 0.3839952305608769
+[12-[sum],,,,,,,,,...,[11/12]^1,[11/12]^0]
+[285311670611/61917364224,,,,,,...,14641/20736,1331/1728,121/144,11/12,1]
+0.3839952305608768328869791049241590317645796993457411076676432567...
+285311670611/743008370688
+
+2022-01-21
+E There exists a way to obtain 25 and 1+2[n][n+1] in general pie cutting.
+C Above horizontal y one obtains that 1=[x]^2+[y+2*sqrt(3)*x]^2 and resolves that x=1/26,1/[26*[90+sqrt[8113]]],[16213/338-90*sqrt[8113]/169]/[90+12*sqrt[8113]+sqrt[1387141-180*sqrt[8113]]] with y=15*sqrt[3]/26,[15*sqrt[3]+2*sqrt[24339]]/338, [sqrt[3]*[15+2*sqrt[8113]+2*sqrt[1387141-180*sqrt[8113]]]]/4394 reminded me of some inversion circles tasks from my old American Maths Competitions days.
+
+2022-01-14
+E Blue; "Fibonacci Pinwheels: A Strange Source Of Symmetry" surrounded by grey squares.
+C Just do it.
+
+2022-01-07
+E P+[1-P]*P*[1/2]=1/2; [3-rt5]/2
+C Reflect; rt2/2
+
+2021-12-24
+E 68332+61547829=61616161, 84661+80723419=80808080
+C 8/11=40/55 from 10: 7,1 then 9,3 then 6,2 then 8,4 then 10,5 and this is tight as the best we can do is pairing off n+1 through 2n in conjunction with observation of primes in that range.
+
+2021-12-17
+E Arccos[13/14]; centroid mass points 3:1 ratio.
+C 196 induction possible 2,3,4,...,99,99,98,97,...,4,3,2
+
+2021-12-10
+E 17/6; [4N+1]/6
+C Code; 0.25,0.5,0.75; ~0.9317336077; the intuition is that say we were behind 5-15 then 20-30 then we have a high probability with 0.75 of winning 25 points before they win 15 and so in this setting having the strongest be the anchor is optimal gets one thinking about the obviously not isomorphic setting of swim relays where one might think leading strongest is best due to water perturbations slow downs and drag but perhaps off the block Phelps anchor sports psychology type argumentation goes another way and in terms of viewer engagement and drama narrative it is unclear to me.
+
+2021-12-03
+E 26
+C ~5.96176 for x+y+z~0.42536 smoothing [6-3*x^2/2+[x/sqrt[2]]^2*sqrt[3]]/[1-x^3/6] local minima is wrong edge case is lower.
+
+2021-11-26
+E .6
+C ~1.4303
+
+2021-11-19
+E 3/4
+C Code produced 72 exhaustive F3 strategies for example:
+0: [1]+[3]
+1: 2[0]+[2]
+2: 2[1]+[3]
+3: 2[0]+2[2]
+
+2021-11-12
+E Code dynamic program 1/4,2717/230400
+C
+
+2021-11-05
+E 101/2 independent subgraph induced by not Marcia.
+C 378,49600
+
+2021-10-29
+E 3;n
+C Without loss of generality guess bottom isomorphism to 16-[expected capped number on top]=16-[[sum from 0 to 16 of n*[18 choose n]]+[sum from 17 to 18 of 16*[18 choose n]]]/2^18=458757/65536
+
+2021-10-22
+E W; JW or WD are traitors.
+C Integral mass points equation.
+
+2021-10-15
+E 4[2/16]+5[8/32]+6[20/64]+7[40/128]=93/16
+C Code 116/128=29/32 for example 0000111
+
+2021-10-08
+E Max 10000000*x/[x+10]-x; 9990
+C
+
+2021-10-01
+E [60*100+20*60]/[2*20]=180, [60*60+20*100]/[2*20]=140
+C 12, the common swap number is even hence 4[2a]/2=4a number of weeks and 3b from pair condition; 12/34, 23/14, 13/24, 34/12, 24/13, 23/14, 34/12, 14/23, 24/13, 12/34, 13/24, 14/23, 12/34, ...
+
+2021-09-24
+E Sum of squares pi asymptotic.
+C 48; 168 168 238 246 177 247 345 355
+
+2021-09-17
+E x=[x+3/x]/2; rt[3]
+C
+
+2021-09-10
+E Smooth to perpendicular equiliateral and isosceles triangles cases rt[3]/12
+C OEIS A157933 and 2^n
+
+2021-09-03
+C
+
+2021-08-27
+E 100-50-0 100-25-0 75-50-0 normed to Catan 125-150-125
+C
+
+2021-08-20
+E [0,2] or 2-epsilon
+C Minimize 2[a^2-1/11]^2+2[2*a*b-1/11]^2+2[2*a*c+b^2-1/11]^2+2[2*a*c+2*b*c-1/11]^2+2[2*a*b+2*b*c+c^2-1/11]^2+[2a^2+2b^2+2c^2-1/11]^2 subject to a+b+c=1/2 say via Lagrange Multipliers and symmetry.
+
+2021-08-13
+E Integral from 0 to 0.1 of 10[1-x]^9=0.6513215599
+C Just do it.
+
+2021-07-30
+E Riddler Nation 11/21
+C ~Golden spiral.
+
+2021-07-23
+E UL UL DLL R U UUR URR UR L
+C Simulation.
+
+2021-07-16
+E 2/3
+C
+
+2021-07-09
+E 153
+C ~5.598 collinearity equation.
+
+2021-07-02
+E 40W and [10+9*39]L, 40/401
+C
+
+2021-06-25
+E 6abc/[100*99*98]=1/5; 21,35,44
+C Code 15.45310245
+
+2021-06-18
+E [[8 choose 3]*30+[8 choose 2]*2*40+[8 choose 1]*60]/[10 choose 3]=110/3
+C 1/3
+
+2021-06-11
+E Circular symmetry dense.
+C
+
+2021-06-04
+E 625/16, [100/37]^37 smoothing e
+C
+
+2021-05-28
+E 30*162*[1-p]^27=1, ~0.2698
+C 1/16
+
+2021-05-21
+E 4 centrally symmetric 3-4-5
+C 6 inspection.
+
+2021-05-14
+E 0, 1/2, 2/pi
+C B
+
+2021-05-07
+E 7th roots of unity.
+C 11/12 and 1 bits monotone prefix match and communicate halt communicate.
+
+2021-04-30
+E .8548
+C
+ANNAS HAD GOAL 
+GIANT ERR AMMAN
+ALINE LIEINWAIT
+RELEASE SOD TDS
+   XMINUSTHREE 
+MTA IMAGE IOU  
+LYSINE HRS ARF 
+BRINGON STELIOS
+ EAT NUB ENDSUP
+  NRA CLAPS MRI
+ TWOXPLUSONE   
+DEO ISE INALICE
+CARGOHOLD RILED
+ISLAM NEE ETUDE
+ EDYS SIS SEVEN
+
+2021-04-23
+E 6rt2-3rt3 by 2,1,1,1 symmetric kites.
+C One sided P delta is greater so integral from 0 to inf of 2*e^[-x^2/2]*[[[1-erf[2*x/sqrt[2]]]/2]/sqrt[2*pi]=1/2-arctan[2]/pi
+
+2021-04-16
+E [10 choose 3]*2=240
+C Theta 1-cos[x] so 3/rt5
+
+2021-04-09
+E 2/3
+C
+
+2021-04-02
+E 0,3 and 0,1,3 mod 4
+C 2+2a-2b=2-2a=1+a+b, 8/5
+
+2021-03-26
+E p+p^2+[1-p^2][.15]<1, p<[rt 389-10]/17
+C Inspection inequalities swapping 2
+
+2021-03-19
+E 9/2
+C OEIS A023110; 1444, 3249, 18496
+E Uniform prior 3/4
+
+2021-03-12
+E Uniform prior 1/2
+C Optimization 1/6
+
+2021-03-05
+E Casework 11/32
+C 2b^2-b<=500a<=2b^2+b has no solution 239
+
+2021-02-26
+E 3699 8821 8876 5155
+C OEIS A005118 768
+
+2021-02-19
+E 785 387 963 985 354 488 927
+C
+
+2021-02-12
+E 765 982 392 593 141 717
+C Incidences [n choose 2]-n>=3n/2 then inspection n even >=8
+
+2021-02-05
+E 395 591 818 578 572
+C Code, ~71, Markov.
+
+2021-01-22
+E Sampling bias, less.
+C 1/2+[1/2][1/2]=3/4
+
+2021-01-15
+E 50, max p[1-p]
+C Left column forces 9x2, 8x2, 7x3, 5 then deductions: 776 983 953 727 827 743 577 851
+
+2021-01-08
+E Add odd>1 so 2,3,5
+C e, Taylor series is sum of probabilities of scoring each point.
+
+2020-12-18
+E Rim, axis of intersection points, gravicenter, 1/4
+C Floor[N*phi]
+
+2020-12-11
+E Symmetry pairing, 2^4+[2^8-2^4]/2=136
+C
+
+2020-12-04
+E [5c2*2!+4!]/5!=11/30
+C
+
+2020-11-20
+E 9
+C All 19, referential.
+
+2020-11-13
+E 6[200+400+600+800+1000]+[800+[6*[200]+1.5*400]+[6*[200+400]+1.5*600]+[6*[200+400+600]+1.5*800]+[6*[200+400+600+800]+1.5*1000]]/5, 23800
+C Code, 0.002117155741949852
+
+2020-11-06
+E Second; 3, ~2.9876
+C Roots of a1*p^3+a2*p^2[1-p]+a3*p[1-p]^2+a4*[1-p]^3 for a1, a2, a3, a4 in [0,1], [0,3], [0,3], [0,1] respectively.
+
+2020-10-30
+E Half circles r 100 and 50, 6250pi
+C 61a+18=60b+31=59c, 136232
+
+2020-10-23
+E 111: 1, 110: 1/2, 101: 0, 011:1, 100: 0, 010: 0, 5/12
+C 1/2+x/2+x=1 so x=1/3=p[2/3]+[1-p]/6, 1/3
+
+2020-10-16
+E [n-1] dimensional hyperplane chunk so 1-n*[1/2]^[n-1]
+C 1/3, third picks maximal of three intervals, second gets half of a big interval or a >1/3 interval otherwise.
+
+2020-10-09
+E 2 free spots in first 5 not consecutive 5c2-4c1=6, 2/5
+C
+
+2020-10-02
+E Number of pairs of same parity positive integers which multiply so in 0 mod 4 case divide out by 4 to odd case just do it, 6
+C 1/2 for positives by recursing to this case or running out equiprobable in the next step.
+
+2020-09-25
+E 400*3*12*[1-x]^4=4.25/2, .889783
+C Path cut through diameter to decrease set diameter consider extremal points and circles.
+
+2020-09-18
+E Referential 1,2,5,6,8,9,12 complex sum 0
+C Code, 17.041956892784714
+
+2020-09-11
+E Without loss of generality a+b=c to 3[n-1][n]/2 of n^3
+C Just do it.
+
+2020-09-04
+C
+
+2020-08-28
+E Delta in 4pir^2
+C Code random number generation P[no wars] and power of 2
+
+2020-08-21
+E No.
+C Smooth to regular polygon case and use formula.
+
+2020-08-14
+E
+C Case and for each half it's EV is 1/[1+number of cuts in half]
+
+2020-08-07
+E Just do it.
+C Code, 4.40625
+
+2020-07-31
+E 1
+C Odd reflect, even set of errors is complete residue class sum mod n contradiction.

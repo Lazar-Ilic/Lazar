@@ -1,0 +1,123 @@
+Preface
+
+Again this is a book of the opinions of some dude.
+
+Right so from the getgo we gonna get some value judgements lingo blingo yadda it's deviating from merely being a description of the reality on to some other things however let's make it quite clear and precise for the kiddos I guess one of the ideas here is that like an HFT algorithm system which can detect that some dude is trying to sell a bunch of Amazon stock right now and there is not much other action on this stock will very rapido shift the price down and fill these orders on this dude prior to other firms noticing or whatever and then the price rapido shift back in place and so this dude got kind of "robbed" or whatever for being a dude trying to rapido liquidate his assets or whatever and this is why the dude should have consulted with a serious firm or financial professional to discuss his selling strategy perhaps liquidate with the HRT firm or whatever.
+
+And OK some of this microstructure refers to the rules and design of the trading platform maybe there some common knowledge tricks in the biz and it can be about the executions and well understood things about this set up which matter.
+
+Yeah yeah yeah we question social optimality all day dude economists with their utility social welfare metrics and yadda but perhaps it's in the physics of reality that these systems are in fact rather decently set up and the structure is fine and it is fine that as a consequence some dudes go and seriously study these things and execute the HFT algorithms.
+
+Just so it's totally crystal clear and precise to readers of these notes recall the notion of front running goes back a while but it can have to do with a bank and say a client wants to sell off a bajillion shares and then the bank sells a little first prior to executing the bajillion shares sells which push the price down a little and then they buy back for profit capture on the client. Now the idea is that regulation prevents these sorts of things and information transfers from taking place nowadays inside of a firm however there is much public speculation that perhaps Citadel fraudulently and criminally engages in such behaviours and actions and to discern such a thing or a statistical patterns it would require in any case who can know for sure for sure there are good upright morally upstanding free citizens at that Citadel firm yadda yadda. I mean if I get employed by and go and work for that firm then I will know more surely with my own insider information private eye observations of what precisely it is that ongoes in that particular codebase I mean I would love to work there and Kenneth Griffin is a National Treasure.
+
+1 The Volume Clock: Insights into the High-Frequency Paradigm 1
+
+Really half interesting story here I mean the history of speed an the emphasis that this is not mere speed.
+
+Right I mean recall fundamentally this sort of does have to do with information and say some dude for whatever side reasons private investment opportunities whatevers wants to liquidate a large amount of some stock and then what precisely gonna happen here with these precise machines in reality is the thing.
+
+OK yeah yeah some more history I was not paying attention to the news headlines at this point in time so much to know what it was that was going on but these authors gonna come out mostly in favour of current setup for HFT in markets.
+
+OK FIX taxes and one wonders why exactly the key ideas of game theory are considered so important they bring them up in interviews all the time. Time cycles ticks events volume chronological yadda.
+
+Strategic sequential trading logic on the event time scale so for whatever reason even moving from a SIG Optiver discretionary type firm setting seems like some people do think highly of the poker game as a metaphor. Think after this rather than note taking through the MS Computer Science text books I will instead go note take through the Introductory Game Theory text book if all of the extant syllabi match on that front.
+
+2 Execution Strategies In Equity Markets 21
+
+Right so if you are a big bank selling off and you sell very fast then it's lower risk in a sense you pay up front for the fast liquidity but you take longer time then maybe lower expectation and the price can shift beneath you. Following this VWAP discussion is a nice image file really sums it up graphically for the reader.
+
+OK so this indicator zoology section is kinda funny again one wonders how real this stuff is like OK maybe there some obvious low hanging fruits here and execution matter a lot in this game and space.
+
+Right slippage client cost formulae and so on and so on I hope that this stuff is all the content of like the first 4 weeks of an internship at such a firm.
+
+Right OK there was some maths here now spread capturing must refer to buying low and selling high in the sense of frequently making .01 in a low risk way somehow.
+
+3 Execution Strategies In Fixed Income Markets 43
+
+Fixed income refers to any type of investment under which the borrower or issuer is obliged to make payments of a fixed amount on a fixed schedule. For example, the borrower may have to pay interest at a fixed rate once a year and repay the principal amount on maturity.
+
+Just so it's clear some sort of casual shmasual statements about the market and all the information the market knows being aggregated would strike me now as super woo not even wrong not even a statement when the reality is there exist some agents some machines some electric signals in a room and that is the reality of the reality I don't know market is not so real coherent single entity this is some babble.
+
+Well they choose to concentrate on information events, cointegration, and pro rata matching. So strategy for trading through middle of the day information release events is a key idea as is monitoring some subset of a universe of products due to cointegration and some stuff about matching algorithm and microstructure.
+
+4 High-Frequency Trading In FX Markets 65
+
+Ah finally the high frequency trading of the shekel this is where the money is to be had.
+
+So one of the key ideas is that firms can buy information and they can tax this potentially but EBS provides two data feeds at different time window thresholds.
+
+Algorithmic trading at various speed points think Alameda Research website both high and mid frequency strategies are supposedly quite profitable in a portfolio of strategies.
+
+The key idea is to minimise the impact on price movement when executing a large order by basically slicing up the order and executing various transaction times to minimise risk adjusted costs or whatever. Time Weighted Average Price TWAP.
+
+Common trading strategies exist which "are believed" to contribute to market liquidity. Incentivised with rebate schemes or reduced transactions fees.
+
+Statistical arbitrage strategies are a class of strategies that take advantage of deviations from statistically significant market relationships. These relationships can, for example, be market patterns that have been observed to occur with some reasonable likelihood.
+
+There exist arbitrage strategies to take advantage of price differences across platforms or take advantage of information ahead of delays. Traders embark, for example, on triangular arbitrage (e.g., if buying x units of EUR/USD and selling x units of EUR/GBP, and selling the appropriate units of GBP/USD leads to an instantaneous and risk-free profit). Mechanisms to prevent spamming the execution engine, cancel notion in the rules etc.
+
+Right well this is the crux of the matter here de Prado and Cvitanic are free to execute analyses of the data sets they have in the public record or whatever but they don't actually have their eyeballs gazing upon the codebase of the Jump Trading firm so I am not totally sure what it is that they know about mathematical finance but they are free to write their tracts and compose some ideas about optimality and structures and the mathematics of all of this.
+
+He enumerates academic studies on HFT and in particular the question for observers whether or not HFT contributes to liquidity, price discovery, and lower spreads, and further examines special events moments in the markets. Whether or not they increase volatility.
+
+One idea in regulation was to force firms that use HFT to provide two-sided liquidity on a continuous basis regardless of the prevailing market conditions and one supposes this is what it means to have these licenses to deal with these financial assets and be by definition a market maker. And order numbers can be capped etc. etc. So the Tobin Tax on all transactions had a significant impact in terms of reduction in transaction volumes and intraday volatility.
+
+Ah ha so here it comes precisely in to some precise matters of proposals for order book mechanisms, theirs to combine price ranking with spread ranking in some way to queue limit orders and increase overall market quality.
+
+Well well well see this is the matter they can propose a mechanism and then run whatever simulation they want but that is merely their simulation and one would really need to name some metrics measurements and implement their mechanism in reality and then make observations to know more things.
+
+The conclusion is price shocks, stable, robus, optimal yadda yadda to be sure more funding for academic finance professors.
+
+5 Machine Learning For Market Microstructure And High-Frequency Trading 91
+
+Capital Asset Pricing Model CAPM. Optimised trade execution via reinforcement learning. Predicting price movement from order book state. Optimised execution in dark pools via censored exploration.
+
+Stochastic control literature. To execute a certain number of shares over some fixed period as cheaply as possible. Some models and assumptions and explicit optimal strategy computations under those assumptions exist.
+
+Dark pool theoretical literature and algorithms and extensions the author boasts of JP Morgan utilizing their algorithm.
+
+Something about the ontology of HFT having to do with microstructure order book data.
+
+It would be like say we had some NLP ML running on CEO Twitters to try and sort of predict mid time range stuff about trajectories of CEOs as if CEOs played a large causal role in firms and the thing is the underlying data set is rather small and predicting humans on a mid range off of NLP might be tricky I mean recall the study on predicting breakups in relationships with NLP like if we could do that for firms.
+
+So they kinda discuss the key ideas of why it is the case that RL is the appropriate field of ML study for optimised trade execution and one senses that RL is important for wannabe fintechers.
+
+They choose to identify the primary elements of an RL application as follows: identification of a state space, a set of available actions from each state, model of the impact or influence our actions have, reward/cost function indicating the expected payout for an action from a state, algorithms for learning optimal policy, validation of learned policy on test data by estimating out of sample performance.
+
+Plausible features: bid-ask spread, bid-ask volume imbalance, signed transaction volume, immediate market order cost. Later bid-ask spread, price, smart price, trade sign, bid-ask volume imbalance, signed transaction volume.
+
+Right they rant a bit about the so called momentum and reversion and conclude that machine learning does not offer easy paths to profitability. Yeah no shit Sherlock duh who knew and markets are competitive after all and finding sources of true profitability is the so called extremely difficult to the authors' perceptions.
+
+Well they certainly do state their opinions and some technical details including really big name stocks. Now this dude does actually know people in the industry and I know a couple so maybe the reality is quite a lot simpler than you might think a priori and what goes on at these firms in their codebases is actually not quite so complex really and it may in fact have quite a lot to do with C and implementation details.
+
+6 A "Big Data" Study Of Microstructural Volatility In Futures Markets 125
+
+Scientists deal with data of rates multiple orders of magnitude higher than financial markets e.g. open source software specialised data structures and analysis algorithms say in Large Hadron Collider. The claim is that they will use some compute here finally and discover something I don't know those firms have had some compute for some time so...
+
+Volume-Synchronised Probability Of Informed Trading. VPIN measures the average order flow imbalance in a market. It takes into account the imbalance of buyer-initiated and seller-initiated orders and, more generally, the imbalance between buying and selling pressure. This difference is important, because not all buying pressure is the result of an excess of buy-initiated orders. Based on a probabilistic model of information imbalance, have developed a set of elegant formulas for computing VPIN. Here we briefly outline the key computation steps.
+
+7 Liquidity And Toxicity Contagion 143
+
+Yeah a priori honestly one supposes that things are not so clear whenever the rules of the game change that is that when new legislation hits firms are in some position to try and really make some money there and the more reactive and smart you are the more you can capture. So things are not always as stable as someone might make them out to be.
+
+As a result, we expect to find order flow from informed traders as well as order flow from liquidity providers, influenced by informed order flow, moving across markets. This order flow is called toxic order flow; it is persistently imbalanced, as it arises from traders who are better informed about future price movements than are the liquidity providers in the market. If traders behave as we conjecture, then we should find evidence that toxic order flow is propagated using the same channels that sophisticated brokers use to place their clients' orders. That is, we should observe contagion in toxic order flow across markets.
+
+An Order Flow Toxicity Contagion Model: We define order flow toxicity as the persistent arrival of imbalanced order flow. Contagion occurs when the increase of toxicity in one instrument presages an increase of toxicity in another instrument. One source of contagion is market makers hedging their risk of adverse selection in one instrument by taking liquidity in another, with the hope that over time they will be able to unwind their positions in both instruments at a profit. In this section we study this source of the contagion dynamics of order flow.
+
+In terms of over fitting and making a clear model prior to back testing and the simple bias that any time someone kind of casually handwaves statistics and decides some arbitrary bucketing threshold say rather than declaring another variable to be determined later it just kind of one would think there exist a number of suboptimalities due to bad precomputed habits in conjunction with laziness e.g. the status quo bias in a codebase.
+
+But anyways I hope that eyeballing this text and many Kaggle notebooks will further my own skills in general financial ideation.
+
+Well they say a bunch of stuff about order flow imbalance, contagion, markets, market makers, the globality of the markets, etc. etc. and I would kind of need to be embedded at a firm I would think to better comprehend this stuff aside from kinda vague getting in to some minor key ideas territories. Feedback between the so called related markets.
+
+8 Do Algorithmic Executions Leak Information? 159
+
+The predators who are free under the law to execute their algorithms as desired on their machines I mean I happen to find this all to be very epistemically suspicious. This particular chapter is weak in insights you would need to read the code and see the data and think whether or not you care at all about their code and their results and output and frankly I do not.
+
+9 Implementation Shortfall With Transitory Price Effects 185
+
+There is some alright actual maths here with their assumptions and it is fine for analysing.
+
+10 The Regulatory Challenge Of High-Frequency Markets 207
+
+Yadda yadda know the rules, manage the rules, consider how the rules may change in the future, etc. etc. and make sure not to lose trillions due to an error in non robust C.

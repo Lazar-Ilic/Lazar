@@ -1,0 +1,240 @@
+Finding a copy of this textbook is actually somewhat nontrivial even after Library Genesis failed... a number of websites provided me with botched copies.
+
+----------
+
+Return To Index
+Operations Research Models And Methods
+
+Contents
+Front Page
+
+Models
+
+Methods
+
+Computation
+
+Problems
+
+Instruction
+
+Text Contents
+
+Supplements
+
+OM|IE Contents
+
+Models And Methods
+Contents
+
+Text Contents
+Unit
+1 Problem Solving with Operations Research
+1.1 The Problem Solving Process
+1.2 Problems, Models and Methods
+1.3 About the Book
+1.4 Exercises
+Bibliography
+
+Unit
+2 Linear Programming Models
+2.1 A Manufacturing Example
+2.2 Computational Considerations
+OK
+2.3 Terminology
+2.4 Solution Characteristics
+2.5 Solutions and Sensitivity Analysis
+OK
+2.6 Problem Classes
+2.7 Exercises
+Bibliography
+
+Unit
+3 Linear Programming Methods
+
+3.1 Standard Form of Model
+3.2 Preparing the Model
+3.3 Geometric Properties of a Linear Program
+3.4 Simplex Tableau
+OK
+3.5 Information from the Simplex Form
+3.6 Simplex Method Using Tableaus
+3.7 Special Situations
+3.8 The Initial Basic Feasible Solution
+3.9 Dual Simplex Algorithm
+OK
+3.10 Simplex Method Using Matrix Notation
+3.11 Revised Simplex Method
+3.12 Exercises
+Bibliography
+
+Unit
+4 Sensitivity Analysis, Duality, and Interior Point Methods
+4.1 Sensitivity Analysis
+4.2 The Dual Linear Program
+4.3 Interior Point Methods
+4.4 Exercises
+Bibliography
+
+Unit
+5 Network Flow Programming Models
+5.1 Classical Models
+5.2 Extensions of the Basic Models
+5.3 Linear Programming Model
+5.4 Minimum Cost Flow Problem
+5.6 Exercises
+Bibliography
+
+Unit
+6. Network Flow Programming Methods
+6.1 Transportation Problem
+6.2 Shortest Path Problem
+6.3 Maximum Flow Problem
+6.4 Pure Minimum Cost Flow Problem
+6.5 Exercises
+Bibliography
+
+Unit
+7 Integer Programming Models
+
+7.1 Site Selection Example
+7.2 General Considerations
+7.3 System Design with Fixed Charges
+7.4 Facility Location Problem
+7.5 Covering and Partitioning Problems
+7.6 Distance Problems
+7.7 Examples
+7.8 Nonlinear Objective Function
+7.9 Exercises
+Bibliography
+
+Unit
+8 Integer Programming Methods
+8.1 Greedy Algorithms
+8.2 Solution by Enumeration
+8.3 Branch and Bound
+8.4 Cutting Plane Methods
+8.5 Additional Cuts
+8.6 Exercises
+Bibliography
+
+Unit
+9 Nonlinear Programming Models
+9.1 Manufacturing Example
+9.2 General Considerations
+9.3 Determining Convexity
+9.4 Applications
+9.5 Problem Classes
+9.6 Exercises
+Bibliography
+
+Unit
+10 Nonlinear Programming Methods
+10.1 Classical Optimization
+10.2 Equality Constraints
+10.3 Inequality Constraints
+10.4 Separable Programming
+10.5 Quadratic Programming
+10.6 One-Dimensional Search Methods
+10.7 Multidimensional Search Methods
+10.8 Exercises
+Bibliography
+
+Unit
+11 Models for Stochastic Processes
+11.1 Continuous-Time Markov Chains
+11.2 Realization of the Process
+11.3 Discrete-Time Markov Chains
+11.4 Examples of Stochastic Processes
+11.5 Assessment of Stochastic Models
+11.6 Exercises
+Bibliography
+
+Unit
+12 Discrete-Time Markov Chains
+12.1 Transition Matrix
+12.2 Multi-Step Transitions
+12.3 Steady-State Solutions
+12.4 Economic Analysis
+12.5 Applications
+12.6 Exercises
+Bibliography
+
+Unit
+13 Mathematics of Discrete-Time Markov Chains
+13.1 State-Transition Probabilities
+13.2 Classification of States
+13.3 Multi-Step Transition Matrix
+13.4 Transient Probability Vector
+13.5 Steady-State Probabilities
+13.6 Economic Analysis
+13.7 First Passage Times
+13.8 Absorbing State Probabilities
+13.9 Exercises
+Bibliography
+
+Unit
+14 Continuous-Time Markov Chains
+14.1 Markovian Property
+14.2 Model Components
+14.3 Transient Solutions
+14.4 Steady-State Solutions
+14.5 Design Alternatives for ATM
+14.6 Birth and Death Processes
+14.7 Probabilistic Transitions
+14.8 Exercises
+Bibliography
+
+Unit
+15 Mathematics of Continuous-Time Markov Chains
+
+15.1 Embedded Discrete-Time Markov Chain
+15.2 Steady-State Probabilities
+15.3 Economic Analysis
+15.4 First Passage Times
+15.5 Birth-Death Processes
+15.6 Exercises
+Bibliography
+
+Unit
+16 Queueing Models
+16.1 System Characteristics
+16.2 Markov Queueing Systems
+16.3 Non-Markov Systems
+16.4 Exercises
+Bibliography
+
+Unit
+17 Queueing Networks and Decision Models
+17.1 Jackson Networks
+17.2 Network Examples
+17.3 Expected Flow Time through Network
+17.4 Non-Poisson Networks
+17.5 Optimal Design of Queues
+17.6 Systems with Travel Times
+17.7 Exercises
+Bibliography
+
+Unit
+18 Simulation
+
+18.1 Nature and Motivation for Simulation
+18.2 Model Components
+18.3 Inverse Transformation Method for Generating Random Variates
+18.4 Simulating Complex Random Variables
+18.5 Discrete Event Dynamic Simulation
+18.6 Simulation of Inventory System
+18.7 Steps in a Simulation Study
+18.8 Implementation Issues
+18.9 Analysis of Simulation Output
+18.10 Assessment of Methodology
+18.11 Exercises
+Bibliography
+
+Return To Top
+
+Tree Roots	
+Operations Research Models And Methods
+Internet
+By Paul A. Jensen
+Copyright 2004 - All Rights Reserved

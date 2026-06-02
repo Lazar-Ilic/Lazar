@@ -1,0 +1,137 @@
+1
+OK uh this is all pretty trivial and obvious and canonical like in any introductory handout for maths contests on graph theory.
+
+2
+OK either it has n = 2 vertices hence 1 edge trivial case hence done or else we may root it at a vertex with a nontrivial number of children and simply follow down to 2 forced extant leaves. Just kidding. Think he intended for the reader to produce the usual double counting argument assuming each vertex has degree >= 2 and then double summation I mean summing in 2 ways one produces that there were >= n edges which is a contradiction on acyclicity of course in any relevant non-tree subgraph with too many edges as adding in the edges from the subtree there produced a cycle.
+
+3
+a
+One can simply consider parity on the Breadth First Search level that is parity of distance from root vertex.
+b
+Again a classic canonical one I mean a super duper easy trivial contradiction emerges on parity and like Pigeonhole Principle otherwise if there exists an odd length cycle. If not then we can again simply execute like a parity based Breadth First Search modulo 2 algorithm. Which works by construction, definition.
+c
+See b just execute a Breadth First Search parity colouring until halting in the True case or halting earlier upon a forced odd edge in the False case.
+
+4
+Instinctively... hmm interesting.
+a
+What just any complete directed graph contains a Hamiltonian Path? Trivial like via induction simply consider when we add in the ith dude just like breaks the remainder elements in to 2 sets, those who peck the ith dude and those who the ith dude pecks and then in each of those 2 subsets by the strong induction hypothesis there exists a relevant chain and then we connect the chains to form the chain.
+b
+That is a pretty Good algorithm but one can read up on further literature for other settings on the Hamiltonian path problem.
+c
+Very trivial of course if it is unique then it is a DAG Directed Acyclic Graph e.g. a full ordering is induced otherwise one may simply take a cycle and consider the remainder set which induces a chain now if any of the dudes in the cycle point into the top of the chain we are done else then otherwise the top dude points into all of them and if any of the dudes in the cycle point into the 2nd dude in the chain then we are again done voila as we may chain from the 1st dude through the entire cycle out of that particular dude in the cycle into the 2nd dude in the chain etc. all the way inductively down the chain slide the ring down the rod but capiche boom done. So once we have a cycle then it is as easy as take a diameter I mean any edge cut across the cycle and then whichever direction it is that means 1 of the 2 sub cycles it just cut forms a valid one in fact and then just iterate this cut in half roughly so that in O[log c] cuts of cycles we produce the desired target 3-cycle for later output.
+
+5
+a
+Trivial by definition and double counting in edges and out edges in the degrees of the vertices in the Euler Tour Cycle.
+b
+Trivial by definition induction can just do it see c.
+c
+There exists something known as Fleury's algorithm, and of course this is super duper canonical, Competitive Programming Algorithms has a fairly solid writeup, and of course the KACTL Competitive Programming library has some Good solid performant implementations.
+
+6
+a
+Well this is like a half interesting task think maybe the bit strings version appears in CSES maybe not I mean the point is that well if you think of the simple sequence of offset Delta vectors then the task maps into each prefix sum being unique and each Delta vector being a one hot that is a binary vector with precisely 1 1 but then we can just do like the induction where instead of executing the final bitflip in the next step we transition up and then do the same sequence in reverse prior to undoing that final bit flip. E.g. it is like walk around to the adjacent dude then walk over and walk around to the adjacent dude there and then walk back simple induction.
+b
+By 5 of course this is if and only if the degrees are all even e.g. d is even d congruent to 0 modulo 2.
+
+7
+This is equivalent to determining whether the graph is connected and bridgeless [where a "bridge" is an edge such that, if you removed it, some vertices would become disconnected]. I trust you'll have no difficulty figuring out whether the graph is connected. For determining whether it's bridgeless, you can use Tarjan's bridge-finding algorithm, which will find a bridge if and only if one exists.
+
+8
+Um for example when executing the Breadth First Search from v note that again as usual each node will have a parent except for the root and possibly some children but the primary point was that there can only exist other edges between nodes vertices on the same Breadth First Search level. However, if such an edge did appear then this would immediately yield a contradiction in the Depth First Search tree structure there during the Depth First Search which would lead to T not being a True Depth First Search spanning tree of G rooted at v.
+
+9
+a
+Trivial by definition I mean that earlier exercise on tree structure that this will indeed uniquely root outwards branch into a tree along those selected edges unique to each vertex when it is included induced into the tree.
+b
+Trivial by definition again this will process through the entire Breadth First Search Level 1 prior to then processing through the entire Breadth First Search level 2 etc. based upon the queue structure.
+c
+Not quite sure I understand this task statement quite clearly I mean it uh obviously could theoretically depend upon the precise data structure and the put into the bag insertion operation implementation e.g. if we had a random bag extraction operation we could obviously randomly happen to go in that precise Depth First Search order so uh... think the intended analysis is over the usual canonical set of plausible data structures and that for example uh like the put operation gets executed earlier for the other dudes on Breadth First Search Level 1 and then somehow needs to get executed extracted after all the dudes from the 1st vertex on that level but then like e.g. oh no no no careless mistake misread think that errm like here immediately there was a contradiction again say there are dudes on Breadth First Search level 1 which are connected then boom contradiction as this algorithm will always identify those to have the root as the parent whereas in a bona fide Depth First Search it would actually be the case that one of them would have a parent identified with a vertex on that level done contradiction boom.
+
+10
+a
+Trivial by definition.
+b
+Trivial. And by hint.
+c
+Trivial. By definition.
+d
+Obviously we will process w1 prior to processing v for the 3rd time for example.
+e
+Trivial by definition. Contradiction.
+f
+Trivial by definition. Contradiction.
+
+11
+Well of course one very natural way to do this is to see I mean in different cases an expected runtime... could be that directly moving from the bottom right in reverse in a Breadth First Search is OK however the problem of course is the transition functions e.g. the actual underlying graph where edges connect directedly the squares which can jump to and from eahother. So a very natural solution is to simply process through the entire grid in O[n^2] and form that graph and then Breadth First Search from the upper left corner starting square until deducing ascertaining the minimum path length from there to the bottom right square.
+
+12
+Think again you can do a simple processed and Breadth First Search e.g. a queue of all positions reachable in minimum 1 move which then processes through and appends all new positions reachable in minimum 2 etc. until hitting the target point. In the task statement it was not quite clear how we read in the chutes and ladders positions in input.
+
+13
+Simple naive state based Breadth First Search works OK.
+
+14
+A super simple algorithm is to just Breadth First Search with like O[3*V] iterations should work but one might be able to execute a superior decomposition into say Strongly Connected Components or observe something about hitting a vertex at distinct remainders modulo 3 in a mid stream cycle or some such thing.
+
+15
+Again one can simply execute a modified Breadth First Search storing the colour and length of current streak int.
+
+16
+Modified Breadth First Search works again ensuring to not duplicate processed positions on states on colour of ingoing edge.
+
+17
+a
+The usual canonical way here is to simply Breadth First Search again ensuring to not duplicate processed positions on states modulo 5 and fit the second condition via a downstream direct clone of the upstream graph copy.
+b
+
+
+18
+Again just like a simple Breadth First Search should work OK. Of course given that it does not matter which token lies where one may reduce multiplicity and assume Without Loss Of Generality that all are the same.
+
+19
+a
+Think simple Breadth First Search works OK but actually a simpler path cycle decomposition style algorithm probably is superior of course if and only if the graph is bipartite e.g. bi coloured alternating parity and opposite colour parity a contradiction of impossibility emerges.
+b
+Typo error in the book should be all 3 I guess similar probably works um kinda like a little unclear if we minimum path on the 3 pairwise and then move to median whilst toggling around the other on like an odd cycle if needed or whatever... unclear unclear think some bridges decomposition might help.
+c
+Um something similar perhaps oh gee here just to check is as easy as check if the graph is bipartite I think and the dudes are not all on the same parity.
+
+20
+Again a simple Breadth First Search tracking ingoing edge works.
+
+21
+Think the standard approach here might be to sort the relevant x and y values into basically isomorphic to [1...n] [1...n] case and then do a generic O[n^2] flood fill Breadth First Search works OK. And can prune directionally perhaps a la Interviews Coding Rounds.txt.
+
+22
+a
+Seems like a canonical Peter Winkler puzzle Two Monks On A Mountain. Label the X-axis by positions along the first monk's path and the Y-axis by positions along the second monk's path. Plot all points where the 2 positions happen to be at the same altitude. All the vertices are incident to either 0, 2, or 4 edges. Once we begin a walk there is no place to get stuck or be forced to retrace so we will reach the peak.
+b
+Again simply Breadth First Search upon that underlying graph works.
+c
+Think it is OK.
+
+23
+Uh I dunno simple Breadth First Search here again might work OK.
+
+24
+Of course Without Loss Of Generality we simply alternate expands and contracts to 1x1s at which point the task isomorphs with navigating the minimum length path of length 2*steps Breadth First Search with valid 1x1s.
+
+25
+Oh I dunno mang yet another simple modified Breadth First Search.
+
+26
+a
+Uh I dunno just like some simple O[6n^2] direct Breadth First Search modified or something probably works.
+b
+
+
+27
+a
+Seems OK of course just simultaneous position bash from the front and back.
+b
+Ah I dunno just do that and Breadth First Search it statewise should terminate in like O[E] I think.
+
+28
+Probably super simple.

@@ -1,0 +1,1317 @@
+Contents
+
+
+
+Preface xvii
+
+
+
+Acknowledgments xix
+
+
+
+CHAPTER 1
+
+
+
+introduction to Parallel Computing = 1
+
+
+
+1.1 Motivating Parallelism yu
+
+
+
+1.1.1 |The Computational Power Argument — from Transistors to FLOPS
+
+
+
+1.1.2 | The Memory/Disk Speed Argument =)
+
+
+
+1.1.3 The Data Communication Argument 4
+
+
+
+1.2 Scope of Parallel Computing 4
+
+
+
+2.2.1 Applications in Engineering and Design 4
+
+
+
+1.2.2. Scientific Applications 5
+
+
+
+1.2.3 Commercial Applications 5
+
+
+
+1.2.4. Applications in Computer Systems 6
+
+
+
+1.3. Organization and Contents of the Text 6
+
+
+
+1.4 Bibliographic Remarks 8
+
+
+
+Problems y
+
+
+
+CHAPTER 2
+
+
+
+Parallel Programming Platforms 11
+
+
+
+2.1 Implicit Parallelism: Trends in Microprocessor Architectures 12
+
+
+
+2.1.1 Pipelining and Superscalar Execution a2
+
+
+
+2.1.2 Very Long Instruction Word Processors #33)
+
+
+
+2.2 Limitations of Memory System Performance* 16
+
+
+
+2.2.1 Improving Effective Memory Latency Using Caches Jee
+
+
+
+2.2.2 Impact of Memory Bandwidth 18
+
+
+
+2.2.3 Alternate Approaches for Hiding Memory Latency |
+
+
+
+Vii 
+
+
+
+viii Contents
+
+
+
+2.2.4 Tradeoffs of Multithreading and Prefetching eS
+
+
+
+2.3. Dichotomy of Parallel Computing Platforms 24
+
+
+
+2.3.1 Control Structure of Parallel Platforms ae
+
+
+
+2.3.2. Communication Model of Parallel Platforms a
+
+
+
+2.4 Physical Organization of Parallel Platforms 31
+
+
+
+2.4.1 Architecture of an Ideal Parallel Computer Jt
+
+
+
+2.4.2. Interconnection Networks for Parallel Computers 32
+
+
+
+2.4.3. Network Topologies BE]
+
+
+
+2.4.4 Evaluating Static Interconnection Networks 43
+
+
+
+2.4.5 Evaluating Dynamic Interconnection Networks ae
+
+
+
+2.4.6 Cache Coherence in Multiprocessor Systems 45
+
+
+
+2.5 Communication Costs in Parallel Machines 53
+
+
+
+2.5.1 Message Passing Costs in Parallel Computers 53
+
+
+
+2.5.2. Communication Costs in Shared-Address-Space Machines 61
+
+
+
+2.6 Routing Mechanisms for Interconnection Networks 63
+
+
+
+2.7 Impact of Process-Processor Mapping and Mapping Techniques 65
+
+
+
+2.7.1 Mapping Techniques for Graphs 66
+
+
+
+2.7.2 Cost-Performance Tradeoffs 73
+
+
+
+2.8 Bibliographic Remarks 74
+
+
+
+Problems 76
+
+
+
+CHAPTER 3
+
+
+
+Principles of Parallel Algorithm Design 85
+
+
+
+3.1 Preliminaries 86
+
+
+
+3.1.1 Decomposition, Tasks, and Dependency Graphs 86
+
+
+
+3.1.2 | Granularity, Concurrency, and Task-Interaction 8&9
+
+
+
+3.1.3 Processes and Mapping 93
+
+
+
+3.1.4 Processes versus Processors 94
+
+
+
+3.2 Decomposition Techniques 95
+
+
+
+3.2.1 Recursive Decomposition 95
+
+
+
+3.2.2 Data Decomposition 97
+
+
+
+3.2.3 Exploratory Decomposition 105
+
+
+
+3.2.4 Speculative Decomposition 107
+
+
+
+3.2.5 Hybrid Decompositions 109
+
+
+
+3.3. Characteristics of Tasks and Interactions 110
+
+
+
+3.3.1 Characteristics of Tasks 110
+
+
+
+3.3.2 Characteristics of Inter-Task Interactions Liz.
+
+
+
+3.4 Mapping Techniques for Load Balancing 115
+
+
+
+3.4.1 Schemes for Static Mapping 117
+
+
+
+3.4.2 Schemes for Dynamic Mapping 130 
+
+
+
+Contents
+
+
+
+3.5 Methods for Containing Interaction Overheads 132
+
+
+
+3.5.1 Maximizing Data Locality 132
+
+
+
+3.5.2 | Minimizing Contention and Hot Spots 134
+
+
+
+3.5.3 Overlapping Computations with Interactions 162)
+
+
+
+3.5.4 Replicating Data or Computations 136
+
+
+
+3.5.5 Using Optimized Collective Interaction Operations 137
+
+
+
+3.5.6 Overlapping Interactions with Other Interaciions 138
+
+
+
+3.6 Parallel Algorithm Models 139
+
+
+
+3.6.1 The Data-Parallel Model 139
+
+
+
+3.6.2 The Task Graph Model 140
+
+
+
+3.6.3 The Work Pool Model 140
+
+
+
+3.6.4 The Master-Slave Model 141
+
+
+
+3.6.5 The Pipeline or Producer-Consumer Model 141
+
+
+
+3.6.6 Hybrid Models 142
+
+
+
+3.7 Bibliographic Remarks 142
+
+
+
+Problems 143
+
+
+
+CHAPTER 4
+
+
+
+Basic Communication Operations 147
+
+
+
+4.1. One-to-All Broadcast and All-to-One Reduction 149
+
+
+
+4.1.1 Ring or Linear Array 149
+
+
+
+4.1.2 Mesh I52
+
+
+
+4.1.3 Hypercube 153
+
+
+
+4.1.4 Balanced Binary Tree I hes)
+
+
+
+4.1.5 Detailed Algorithms 154
+
+
+
+4.1.6 Cost Analysis 156
+
+
+
+4.2 All-to-All Broadcast and Reduction 157,
+
+
+
+4.2.1 Linear Array and Ring 158
+
+
+
+4.2.2 Mesh 160
+
+
+
+4.2.3 Hypercube 161
+
+
+
+4.2.4 Cost Analysis 164
+
+
+
+4.3. All-Reduce and Prefix-Sum Operations 166
+
+
+
+4.4 Scatter and Gather 167
+
+
+
+4.5 All-to-All Personalized Communication 170
+
+
+
+4.5.1 Ring 173
+
+
+
+4.5.2 Mesh 174
+
+
+
+4.5.3 Hypercube S75
+
+
+
+4.6 Circular Shift 179
+
+
+
+4.6.1 Mesh 179
+
+
+
+4.6.2 Hypercube 181
+
+
+
+ix 
+
+
+
+xX Contents
+
+
+
+4.7 Improving the Speed of Some Communication Operations 184
+
+
+
+4.7.1 Splitting and Routing Messages in Parts 154
+
+
+
+4.7.2 All-Port Communication 186
+
+
+
+4.8 Summary 187
+
+
+
+4.9 Bibliographic Remarks 188
+
+
+
+Problems 190
+
+
+
+CHAPTER 5
+
+
+
+Analytical Modeling of Parallel Programs 195
+
+
+
+5.1 Sources of Overhead in Parallel Programs 195
+
+
+
+5.2 Performance Metrics for Parallel Systems 197
+
+
+
+5.2.1 Execution Time 197
+
+
+
+5.2.2 Total Parallel Overhead 197
+
+
+
+5.2.3 Speedup 198
+
+
+
+5.2.4 Efficiency 202
+
+
+
+a2) Cost = — 205
+
+
+
+5.3 The Effect of Granularity on Performance 205
+
+
+
+5.4 Scalability of Parallel Systems 208
+
+
+
+5.4.1 Scaling Characteristics of Parallel Programs 209
+
+
+
+5.4.2 The Isoefficiency Metric of Scalability 212
+
+
+
+5.4.3 Cost-Optimality and the Isoefficiency Function 217
+
+
+
+5.4.4. A Lower Bound on the Isoefficiency Function 217
+
+
+
+5.4.5. The Degree of Concurrency and the Isoefficiency Function 218
+
+
+
+5.5. Minimum Execution Time and Minimum Cost-Optimal Execution Time 218
+
+
+
+5.6 Asymptotic Analysis of Parallel Programs 221
+
+
+
+5.7 Other Scalability Metrics Doe
+
+
+
+5.8 Bibliographic Remarks 226
+
+
+
+Problems 228
+
+
+
+CHAPTER 6
+
+
+
+Programming Using the Message-Passing
+
+
+
+Paradigm 233
+
+
+
+6.1 Principles of Message-Passing Programming 233
+
+
+
+6.2 The Building Blocks: Send and Receive Operations 239
+
+
+
+6.2.1 Blocking Message Passing Operations 236
+
+
+
+6.2.2 Non-Blocking Message Passing Operations 239
+
+
+
+6.3 MPI: the Message Passing Interface 240 
+
+
+
+Contents
+
+
+
+6.3.1 Starting and Terminating the MPI Library 242
+
+
+
+6.3.2. Communicators 242
+
+
+
+6.3.3 Getting Information 243
+
+
+
+6.3.4 Sending and Receiving Messages 244
+
+
+
+6.3.5 Example: Odd-Even Sort 248
+
+
+
+6.4 Topologies and Embedding 250 ‘
+
+
+
+6.4.1 Creating and Using Cartesian Topologies Zod
+
+
+
+6.4.2. Example: Cannon's Matrix-Matrix Multiplication Zoe,
+
+
+
+6.5 Overlapping Communication with Computation 205
+
+
+
+6.5.1 Non-Blocking Communication Operations 255,
+
+
+
+6.6 Collective Communication and Computation Operations 260
+
+
+
+6.6.1 Barrier 260
+
+
+
+6.6.2 Broadcast 260
+
+
+
+6.6.3 Reduction 261
+
+
+
+6.6.4 Prefix 263
+
+
+
+6.6.5 Gather 263
+
+
+
+6.6.6 Scatter 264
+
+
+
+6.6.7 All-to-All 265
+
+
+
+6.6.8 Example: One-Dimensional Matrix-Vector Multiplication 266
+
+
+
+6.6.9 Example: Single-Source Shortest-Path 268
+
+
+
+6.6.10 Example: Sample Sort 270
+
+
+
+6.7 Groups and Communicators 212
+
+
+
+6.7.1 Example: Two-Dimensional Matrix-Vector Multiplication 274
+
+
+
+6.8 Bibliographic Remarks 276
+
+
+
+Problems 279
+
+
+
+CHAPTER 7
+
+
+
+Programming Shared Address Space
+
+
+
+Platforms 279
+
+
+
+7.1 Thread Basics 280
+
+
+
+7.2. Why Threads? 281
+
+
+
+7.3. The POSIX Thread API 282
+
+
+
+7.4 Thread Basics: Creation and Termination 282
+
+
+
+7.5. Synchronization Primitives in Pthreads 287
+
+
+
+7.5.1 Mutual Exclusion for Shared Variables 287
+
+
+
+7.5.2 Condition Variables for Synchronization 294
+
+
+
+7.6 Controlling Thread and Synchronization Attributes 298
+
+
+
+7.6.1 Attributes Objects for Threads 299
+
+
+
+7.6.2 Attributes Objects for Mutexes 300
+
+
+
+xi 
+
+
+
+xii Contents
+
+
+
+7.7 Thread Cancellation 301
+
+
+
+7.8 Composite Synchronization Constructs 302
+
+
+
+7.8.1 Read-Write Locks 302
+
+
+
+7.8.2 Barriers 307
+
+
+
+7.9 Tips for Designing Asynchronous Programs 310
+
+
+
+7.10 OpenMP: a Standard for Directive Based Parallel Programming 31]
+
+
+
+7.10.1 The OpenMP Programming Model = 1195
+
+
+
+7.10.2 Specifying Concurrent Tasks in OpenMP 315
+
+
+
+7.10.3 Synchronization Constructs in OpenMP 322
+
+
+
+7.10.4 Data Handling in OpenMP gat
+
+
+
+7.10.5 OpenMP Library Functions 328
+
+
+
+7.10.6 Environment Variables in OpenMP 330
+
+
+
+7.10.7 Explicit Threads versus OpenMP Based Programming 331
+
+
+
+7.11 Bibliographic Remarks 332
+
+
+
+Problems 332
+
+
+
+CHAPTER 8
+
+
+
+Dense Matrix Algorithms 337
+
+
+
+8.1 Matrix-Vector Multiplication 337
+
+
+
+8.1.1 Rowwise 1-D Partitioning 338
+
+
+
+8.1.2 2-D Partitioning 34]
+
+
+
+8.2 Matrix-Matrix Multiplication 345
+
+
+
+8.2.1 A Simple Parallel Algorithm 346
+
+
+
+8.2.2. Cannon’s Algorithm 347
+
+
+
+8.2.3 The DNS Algorithm 349
+
+
+
+8.3. Solving a System of Linear Equations B52
+
+
+
+8.3.1 A Simple Gaussian Elimination Algorithm 353
+
+
+
+8.3.2. Gaussian Elimination with Partial Pivoting 366
+
+
+
+8.3.3 Solving a Triangular System: Back-Substitution 369
+
+
+
+8.3.4 Numerical Considerations in Solving Systems of Linear Equations 370
+
+
+
+8.4 Bibliographic Remarks 371
+
+
+
+Problems ait
+
+
+
+CHAPTER 9
+
+
+
+Sorting 379
+
+
+
+9.1 Issues in Sorting on Parallel Computers 380
+
+
+
+9.1.1 Where the Input and Output Sequences are Stored 380
+
+
+
+9.1.2 How Comparisons are Performed 380 
+
+
+
+0.2
+
+
+
+5.3
+
+
+
+9.4
+
+
+
+2S
+
+
+
+9.6
+
+
+
+a
+
+
+
+Contents
+
+
+
+Sorting Networks 382
+
+
+
+9.2.1 Bitonic Sort 384
+
+
+
+9.2.2 Mapping Bitonic Sort to a Hypercube and a Mesh 387
+
+
+
+Bubble Sort and its Variants 394
+
+
+
+9.3.1 Odd-Even Transposition 395
+
+
+
+9.3.2. Shellsort 398 i
+
+
+
+Quicksort 399
+
+
+
+9.4.1 Parallelizing Quicksort 401
+
+
+
+9.4.2 Parallel Formulation fora CRCW PRAM 402
+
+
+
+9.4.3 Parallel Formulation for Practical Architectures 404
+
+
+
+9.4.4 Pivot Selection 411
+
+
+
+Bucket and Sample Sort 412
+
+
+
+Other Sorting Algorithms 414
+
+
+
+9.6.1 Enumeration Sort 414
+
+
+
+9.6.2 RadixSort 415
+
+
+
+Bibliographic Remarks 416
+
+
+
+Problems 419
+
+
+
+CHAPTER 10
+
+
+
+Graph Algorithms 429
+
+
+
+10.1
+
+
+
+10.2
+
+
+
+10.3
+
+
+
+10.4
+
+
+
+10.5
+
+
+
+10.6
+
+
+
+10.7
+
+
+
+10.8
+
+
+
+Definitions and Representation 429
+
+
+
+Minimum Spanning Tree: Prim’s Algorithm 432
+
+
+
+Single-Source Shortest Paths: Dijkstra’s Algorithm 436
+
+
+
+All-Pairs Shortest Paths 437
+
+
+
+10.4.1 Dijkstra’s Algorithm 438
+
+
+
+10.4.2 Floyd’s Algorithm 440
+
+
+
+10.4.3 Performance Comparisons —_ 445
+
+
+
+Transitive Closure 445
+
+
+
+Connected Components 446
+
+
+
+10.6.1 A Depth-First Search Based Algorithm 446
+
+
+
+Algorithms for Sparse Graphs 450
+
+
+
+10.7.1 Finding a Maximal Independent Set = 451
+
+
+
+10.7.2 Single-Source Shortest Paths = 455
+
+
+
+Bibliographic Remarks 462
+
+
+
+Problems 465
+
+
+
+xiii 
+
+
+
+xiv Contents
+
+
+
+CHAPTER 11
+
+
+
+Search Algorithms for Discrete Optimization
+
+
+
+Problems 469
+
+
+
+11.1 Definitions and Examples 469
+
+
+
+11.2 Sequential Search Algorithms 474
+
+
+
+11.2.1 Depth-First Search Algorithms 474
+
+
+
+11.2.2 Best-First Search Algorithms 478
+
+
+
+11.3 Search Overhead Factor 478
+
+
+
+11.4 Parallel Depth-First Search 480
+
+
+
+11.4.1 Important Parameters of Parallel DFS 482
+
+
+
+11.4.2. A General Framework for Analysis of Parallel DFS 485
+
+
+
+11.4.3 Analysis of Load-Balancing Schemes 488
+
+
+
+11.4.4 Termination Detection 490
+
+
+
+11.4.5 Experimental Results 492
+
+
+
+11.4.6 Parallel Formulations of Depth-First Branch-and-Bound Search
+
+
+
+11.4.7 Parallel Formulations of IDA* 496
+
+
+
+11.5 Parallel Best-First Search 496
+
+
+
+11.6 Speedup Anomalies in Parallel Search Algorithms 501
+
+
+
+11.6.1 Analysis of Average Speedup in Parallel DFS 502
+
+
+
+11.7 Bibliographic Remarks 505
+
+
+
+Problems 510
+
+
+
+CHAPTER 12
+
+
+
+Dynamic Programming 515
+
+
+
+12.1 Overview of Dynamic Programming 515
+
+
+
+12.2 Serial Monadic DP Formulations 518
+
+
+
+12.2.1 The Shortest-Path Problem 518
+
+
+
+12.2.2. The O/I Knapsack Problem 520
+
+
+
+12.3. Nonserial Monadic DP Formulations PS)
+
+
+
+12.3.1 The Longest-Common-Subsequence Problem 523
+
+
+
+12.4 Serial Polyadic DP Formulations 526
+
+
+
+12.4.1 Floyd’s All-Pairs Shortest-Paths Algorithm 526
+
+
+
+12.5 Nonserial Polyadic DP Formulations a a
+
+
+
+12.5.1 The Optimal Matrix-Parenthesization Problem sey
+
+
+
+12.6 Summary and Discussion 530
+
+
+
+12.7 Bibliographic Remarks aol
+
+
+
+Problems ee,
+
+
+
+495 
+
+
+
+Contents
+
+
+
+CHAPTER 13
+
+
+
+XV
+
+
+
+Fast Fourier Transform 537
+
+
+
+13.1 The Serial Algorithm 538
+
+
+
+13.2 The Binary-Exchange Algorithm 541
+
+
+
+13.2.1 A Full Bandwidth Network 541
+
+
+
+13.2.2 Limited Bandwidth Network 548
+
+
+
+13.2.3 Extra Computations in Parallel FFT = 551
+
+
+
+13.3 The Transpose Algorithm 553
+
+
+
+13.3.1 Two-Dimensional Transpose Algorithm Sas
+
+
+
+13.3.2 The Generalized Transpose Algorithm 556
+
+
+
+13.4 Bibliographic Remarks 560
+
+
+
+Problems 562
+
+
+
+APPENDIX A
+
+
+
+Complexity of Functions and Order Analysis
+
+
+
+A.1 Complexity of Functions _ 565
+
+
+
+A.2 Order Analysis of Functions 566
+
+
+
+Bibliography 569
+
+
+
+Author Index 611
+
+
+
+Subject Index 621 

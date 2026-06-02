@@ -1,0 +1,325 @@
+https://www.metaculus.com/notebooks/8506/new-metaculus-tournament-scoring-system-pt-1/
+https://www.metaculus.com/help/scores-faq/#relative-score
+https://www.metaculus.com/help/scores-faq/
+
+----------
+
+I do not think posting up comments here constitutes a violation of the Metaculus terms of service because these were all a matter of the public written records at the time of copy and pasting.
+
+----------
+
+My overall summary on the round is interesting. I might have benefitted from mixing in even more of the relatively noninformative prior. For example, in the CNY market I could have ensured to go quite a lot wider and basically ensured to have say a solid 2-5x mass over extreme regions on the domain uh just go slightly lower in high probability regions to spread out probability mass.
+
+----------
+
+So it is an interesting question with coverage out of the way basically when does one go about copying the median submission and when does one go about chiming in during the hidden period... when one feels one might have a real edge on the competition in the domain. In particular, I might be wary of betting on mainstream financial markets given that the open round might have some people who know things I do not know like even semi inside knowledge from trading firms on some of those econometrics.
+
+----------
+
+Upon further review... I think that there might be unusual submissions at both extremes leading the median to having a very nontrivial positive expected value and so basically median tracking and maybe even chiming in with fairly reasoned vague submissions during the hidden period might be wise... especially worth monitouring performance on hidden periods and considering starting out with a strategy including lots of median tracking or slightly deviating off of the median basically still want to bet true beliefs sometimes and probably also think about never placing a credence outside of [0.02,0.98] due to some really bad worst case risk scenarios moving final ranking from in the money to out of the money or whatever. Really want to be thinking about not going like say we probably usually want to be stating a credence which is in the range [m/5,1-[1-m]/5] or something ugh uh... like dunno how often it is the case the market pins something at 0.5 and we can truly have an updated credence there of like 0.9 or 0.1 or whatever just feels eh one ought to update on the market and really think if one has some strong statistical source of an edge or insight in to the nature of the comments and true underlying there like... think last year's Hollywood markets would require further analysis of history and volatility like e.g. variance to be expected from events like that one or whatever.
+
+----------
+
+Update 2025-02-02 might be sharper to programme or semi-automate a mixture here so instead of naively tracking the median I could potentially script up an algo to either consider sort of reverting towards the mean or uh uh uh actually overly compensating and majorly updating on early big shift trend analysis lag time on all sorts of other underlying median tracking or uh uh uh could just do naive median tracking but would think maybe spotting trends is OK if there is other median tracking in the mixture and so big updates on trends could be OK maybe automated but but but with a stop so never deviate outside of that [0.02,0.98] interval for the round. But could run numbers and see historically if actually median tracking with additional boosted updates performs better. Like say something like hold a slightly extremal position on the median so a little towards extreme until flattening out towards it if historical simulations show that to be an OK strategy.
+
+----------
+
+Update 2025-02-05 I will probably keep most notes and codes private until the end of the competition but I think reading all of the comments twice daily and updating is wise.
+
+----------
+
+Final comment draft on top thread:
+
+Thanks to Bridgewater and Metaculus for organising the competition. I would love to work with firms like Bridgewater and proprietary trading shops. My strategy involved generating credence functions from baseline statistics, general reading, comments, ... I planned to update twice daily manually and also thought of implementing an automated modified median tracker with parameter tuning based around previous rounds to e.g. mix the market median with a vague low-information prior sometimes and never assign very extreme credences due to risk analysis. This year I felt I had a few moments of perceived edge due to informational asymmetry and|or superior statistical analysis.
+
+----------
+
+I did not want to leak information in public comments during the round. But I want to try and impress firms now with a bit of analysis backable up with screenshots of my prediction history. On the Donald Trump Positive Approval 538 market, the market went too low too fast. Around March 1st, around the time of the Canada tariffs, it seemed to me quite plausible that the markets might still just make a kind of upturn and he would end up in the positive there say 21 days out from resolution. I thought the 14 Day Atlanta Allergy Index market was oddly under. Historical analysis from other websites led me to a much higher value than many in the market. Too many other participants used an overly naive model based around the current listing on the site when true allergens might peak right around that time period of the year. I made a mistake in the California Acres Burned market and ought to have more tightly tracked to a mixture of the market median with a vague naiveish prior. I also ought to have tracked some of my markets during the hidden period daily or twice daily, rather than every couple of days. This alone caused nontrivial expected loss on my positions as I did not fully automate this with scripts. I enjoyed generating a credence function for the 2025 Tokyo Marathon task during the hidden period.
+
+----------
+
+Question
+Will Donald Trump have a positive approval rating on March 23, 2025?
+
+I thought I would keep my notes private until a final comment at the end of the competition so as to not share information. But here I wanted to chime in and opine that the market median dropped too low too fast. On March 6th I understand there was news about Canada but I do not feel as though 2% was warranted. In particular, it seemed quite plausible to me there could exist some pseudorandom kind of a positive market movements in the days leading in to resolution which could lead to Donald ending up in the positive. 10% there seems much more en pointe to me uh and I am not really too sure these simple statistical models of those approval and disapproval ratings as lines or whatever hold weight. It would be tricky to convince me to update my posterior at that point in time down to 2%.
+
+----------
+
+Question
+For the 14-day period ending March 30, 2025, what will be the average allergy index for Atlanta, Georgia?
+
+Lazar
+·
+1 minute ago
+Lazar's Prediction
+9.31 (8.21 - 10.2)
+Mar 16, 2025
+I was almost certainly too wide earlier on the market. But the entire time I had pinned it higher than the median due to reading more on text files allegedly explaining climate phenomena in Atlanta, Georgia. I think 9 here seemed very plausible with 7.5 and 10 also being quite possible.
+
+----------
+
+Will the following Trump Cabinet nominees withdraw or be voted down in the Senate before March 31, 2025?
+Any of Trump’s Other Nominees (See Fine Print)
+
+Lazar
+·
+17 hours ago
+I wish I could publicly reveal that my position on this market was: never bet upon the "Any of Trump’s Other Nominees (See Fine Print)" submarket. Maybe I can attach a screenshot. I perceived 0 substantive informational or statistical edge. Case study on others who might have benefited from reasoning more clearly about lower bounds and rigour in moving downwards from 0.01 to 0.001 e.g. on the others I mixed Kalshi in.
+
+[Screenshot]
+
+exmateriae
+·
+10 hours ago
+@Lazar in a tournament like this one, not forecasting a question is very detrimental because resolutions like this one are very unlikely and you lose a lot by not being in at all. There is an argument to be made for the quarterly cup, maybe even ACX but not bridgewater imo.
+
+Lazar
+·
+now
+@exmateriae I am in Rank 60 Top 2% right now with 1600 points and bets on most markets. If I were working at the Bridgewater firm I would almost certainly cringe at people who went below 1% on this precise market without any rigourous reasoning.
+
+exmateriae
+·
+17 hours ago·(edited 17 hours ago)
+@Lazar I don't see how this is related to what I said? What I'm saying is that with a tournament with so many people, even making average forecasts will grant you positive points on most of the questions. On a high enough number of questions, that will counter any mistake you may have made. Here's an example:
+
+I was very much against the community on the Starship question and yet I only lost 18 points from it despite a first very aggressive 90% prediction and being significantly above community for most of the forecast. But even taking such an opposite stance resulted in almost no point losses. However, being right brings a huge upside, I would have likely brought back more than 100 points on this one.
+
+If correctly calibrated, with enough questions you will earn much more points than you lose on such questions for tournaments with so many people. I wish I had known that sooner, we're used to tournaments with a much higher floor here so every question is actually an opportunity to lose the competition. Gaining 30 points on any question is already a very positive result when here it's almost a negative result.
+
+Something important is that in a tournament ranking, your score does not matter that much. It's your opponents' scores that matter the most. To bounce back on your comment, if I finish the competition with 3000 points (that seems very unlikely considering two of my best forecasts are likely going to be annulled) that does not matter as much as how many points the others have. If my competitors have won more points than me in the meantime and 34 of them have gone beyond 3000 points, well I would have dropped from 7 to 35. 
+
+On the contrary, if I finish with only 2400 points but for whatever reason the other competitors have scored worse than me, I could actually finish top 5 despite having scored badly in the remaining questions.
+
+Going back to my first point, that means that on a tournament with many participants, not forecasting on a question is not only a loss for you but a benefit for your competitors who have a very high likelihood to score points even with their bad forecasts. It is a very different dynamic from our usual tournaments where in some cases it could become a negative for you to forecast on some questions.
+
+There's a small difference between us though because I'm a "regular" user and my forecasts are not only for the bridgewater tournament, any points I earn here are "dual use" : they help in a tournament ranking but also on the global ranking so I'm even more encouraged to forecast on every one of them.
+
+Lazar
+·
+now
+@exmateriae I do see how it is relevant to our discussion. Very topical. I did indeed bet on the vast majority of the markets. If those users had reasoned more clearly and found it within themselves to bet as they did with 1 exception, say, and simply not bet upon this precise particular market, then they would have ended up with 300 more points. I ought to word this maximally strongly to prospective candidates out there: if I were the interviewer at a trading firm and a prospective discretionary bettor could not explain their logic on 0.1% here I might instantly reject them for just kind of lacking strong intuitive basic quantitative skills.
+
+----------
+
+For the 14-day period ending March 30, 2025, what will be the average allergy index for Atlanta, Georgia?
+
+Lazar
+·
+last week
+Lazar's Prediction
+9.31 (8.21 - 10.2)
+Mar 16, 2025
+I was almost certainly too wide earlier on the market. But the entire time I had pinned it higher than the median due to reading more on text files allegedly explaining climate phenomena in Atlanta, Georgia. I think 9 here seemed very plausible with 7.5 and 10 also being quite possible.
+
+----------
+
+Will Donald Trump have a positive approval rating on March 23, 2025?
+
+acas38291
+·
+last week·(edited last week)
+@Lazar Presidents usually have a 'honeymoon' period when they start their term in office, and their popularity drops off from that point (https://news.gallup.com/poll/203198/presidential-approval-ratings-donald-trump.aspx). Given the range of approval/disapproval numbers when President Trump entered office, it wasn't altogether surprising that the median forecast dropped in March after the flurry of executive actions, some of which were popular, and others less so. Also, it's extremely hard to have a positive approval rating for any public figure, even harder in politics. 
+
+To inquire more about your thinking, you believed that 2% was too low at that time in March. Why did you settle on 10%?  
+
+Lazar
+·
+last week
+@acas38291 Fair question. OK so perhaps the model I previously alluded towards is a bit of a "straw" example. Simply modeling this like a linear regression is not quite right. So say we have some strong beliefs surrounding the previous say 10 or 6 presidencies and wanted to examine the delta between their net scores from day ~70 to day ~90 of the presidency. So we could maybe consider taking simply 10 or 6 or whatever samples of that value. And then use a normal or something sort of like a normal distribution there to estimate the probability that shift would be greater than 0.3% or whatever the valuation was at this point in time. To be sure, I was more suggesting that my own personal human intuition without mathematics would put it higher.
+
+----------
+
+Will a fourth person solve a Rubik's cube in less than 3.44 seconds before March 31, 2025?
+
+Lazar
+·
+now
+The market has presented yet another opportunity to opine unhumbly and try to impress firms. The vast majority of Rubik's cubing events take place on weekends and so it would seem irrational and internally inconsistent under most reasonable pricing models to have it at 8% earlier and now 0.1%. This 0.08 to 0.001 drop can not be defended rigourously. My own history on the market is more consistent with a Poisson style analysis as well as time stamping of discrete attempt events which are measured and tracked.
+
+exmateriae
+·
+1 hour ago
+@Lazar I'm not following? It almost never was at 8 and it's logical to drop your probability with time? I have been a bit lower than the community for most of it and I'm now a bit higher (0.5) but the CP has always seemed mostly reasonable on this
+
+Lazar
+·
+2 minutes ago
+@(exmateriae) Sorry for the weak writing. For the entirety of February which was the first half of the market the median was over 8%. What I am trying to say is it is just OK not great to model this like a Poisson and have it decrease over time but time is not really as relevant here as actual attempts. And the vast majority of those occur during these weekend competitions. So in this case the bet was more similar to there being 8 weeks and every Monday I would shift my odds down. It is naive to move it down from 0.06 to 0.002 that is to say 6% down to 0.2% on the idea that it was a 60 days market with 2 days left to resolution. Because here it is more accurate to assert it was an 8 weekends market with 1 weekend left or something like that so a 1:8 factor would seem more reasonable to me. Would imagine some folks at Bridgewater might agree. My own odds kind of align around that like I was around 6% very early on in the market and around 1% right now.
+
+exmateriae
+·
+2 hours ago
+@Lazar I agree but I think there's a bit more to it because not all weekends are equal : if there are no competitions close to the main players, it is less likely that one of them goes and therefore reduces the likelihood of beating the threshold. I gave my own views on that in this comment.
+
+Lazar
+·
+39 minutes ago
+@exmateriae Oh very cool very cool very nice. My bad. Solid sophisticated comment from you there. I have since updated.
+
+----------
+
+Group
+
+On March 28, 2025, what will be the exchange rate of the US dollar to the Canadian dollar, the Mexican peso, and the Chinese yuan?
+
+38
+
+Pending resolution
+no unread
+1135 forecasters
+
+Lazar
+·
+now
+I stand to potentially benefit from the CNY component being annulled, but nevertheless want to stand up for what I feel is bona fide right. There is no "spirit" of the law. The resolution criteria is a string of letters. And the proper interpretation here most likely is to run it as Yahoo wrote it. Thanks @RyanBeck for the explanation of annulment above.
+
+----------
+
+Question
+
+For the 14-day period ending March 30, 2025, what will be the average allergy index for Atlanta, Georgia?
+Resolved:
+Annulled
+
+6
+
+Resolved Mar 16, 2025
+no unread
+
+Lazar
+·
+1 hour ago
+@Henryb I stand to benefit from this market resolving and nevertheless my bona fide interpretation of the letters of the resolution criteria are that this one ought to be annulled.
+
+----------
+
+My Score
+Question	Score	Question Weight
+What will the total market cap of the Magnificent Seven be on March 28, 2025?
+129.352	1.0
+What will the ratio of the price of 1 bitcoin to 1 troy ounce of gold be on March 30, 2025?
+107.377	1.0
+What will India's Consumer Food Price Index provisional year-over-year inflation rate be for February 2025?
+107.172	1.0
+What will the impact probability (in percent) of the asteroid 2024 YR4 be on March 27, 2025?
+91.128	1.0
+What will bitcoin's dominance in the cryptocurrency market be on March 30, 2025?
+82.376	1.0
+How much will "Captain America: Brave New World," "The Monkey," and "The Alto Knights" earn in domestic gross earnings (in US dollars) during their opening weekend? (The Alto Knights)
+81.032	0.3
+What will the 2-year U.S. Treasury note yield be on March 19, 2025?
+80.006	1.0
+How many acres will be reported as burned in California during 2025 on March 4, 2025?
+79.166	1.0
+What will be Nigeria's year-on-year inflation for February 2025?
+72.637	1.0
+Will the debt ceiling be raised or suspended in the US before March 17, 2025?
+70.662	1.0
+Will OpenAI publicly release the full o3 model before March 28, 2025?
+70.338	1.0
+How many total confirmed human cases of H5 bird flu will CDC report in the United States as of March 31, 2025?
+69.067	1.0
+What will be the electric vehicle sales share of light duty vehicles in the United States in February 2025?
+69.008	1.0
+How many subscribers will the MrBeast YouTube channel have on March 30, 2025?
+68.267	1.0
+What percent of the European Union's gas storage capacity will be full on February 12, 2025?
+66.054	1.0
+What will be the total number of aircraft violating Taiwan's air defense identification zone (ADIZ) between February 15 and March 15, 2025?
+64.085	1.0
+What cumulative percentage of the geographic area of Texas will be classified as under moderate drought or worse (D1-D4) as of March 18, 2025?
+63.023	1.0
+What will be the lowest seed team to make it to the Elite Eight of the NCAA's 2025 March Madness women's basketball tournament?
+57.245	1.0
+What ranking will RedNote have in the Apple app store in the Social Networking category on February 17, 2025?
+55.380	1.0
+Will more than 15 million farmed birds be affected (depopulated or killed) in the United States due to bird flu from February 15, 2025 to March 15, 2025? (No) → What will the national average price of eggs (in USD per dozen) be in the United States on March 26, 2025?
+54.914	1.0
+What will be the maximum daily average CO₂ reported by the Mauna Loa Observatory for March 1-25, 2025?
+53.535	1.0
+How many players will Monster Hunter Wilds have simultaneously online on March 21, 2025?
+52.132	1.0
+How many southwest land border encounters will be reported by US Customs and Border Protection for February 2025?
+51.258	1.0
+Will a fourth person solve a Rubik's cube in less than 3.44 seconds before March 31, 2025?
+48.185	1.0
+Will more than 15 million farmed birds be affected (depopulated or killed) in the United States due to bird flu from February 15, 2025 to March 15, 2025?
+46.930	1.0
+Will the eighth Starship integrated flight test reach an altitude of 160 kilometers before March 10, 2025?
+38.080	1.0
+Will François Bayrou step down or be removed from his position as Prime Minister of France before March 31, 2025?
+33.001	1.0
+How many artists in the top 10 of the Billboard Artist 100 in the last week of March will be new to the top 10 that week?
+32.644	1.0
+Which country will the winner of the 2025 Tokyo Marathon be from?
+31.749	1.0
+What will US airline passenger volume be for these weeks in February and March 2025, according to the TSA? (Mar 10, 2025 to Mar 16, 2025)
+28.300	0.3
+Will the combined weekly percentage of emergency department visits in the United States due to COVID-19, RSV, and influenza fall below 2.7% on any date before March 16, 2025?
+27.129	1.0
+Will the winner of the rugby Men’s 2025 Six Nations Championship have at least 5 more total competition points than the second place?
+26.695	1.0
+Will Brazil's unemployment rate be below 6.2% in February 2025?
+25.652	1.0
+What will the number of active US drilling rigs be on March 28, 2025?
+25.560	1.0
+What will US airline passenger volume be for these weeks in February and March 2025, according to the TSA? (Feb 24, 2025 to Mar 2, 2025)
+24.704	0.3
+What will US airline passenger volume be for these weeks in February and March 2025, according to the TSA? (Mar 3, 2025 to Mar 9, 2025)
+24.255	0.3
+Will Argentina's month-over-month inflation rate in February 2025 be below 3.0%?
+22.481	1.0
+How many parties will be in the next German parliament?
+22.035	1.0
+Will OpenAI publicly release the full o3 model before March 28, 2025? (No) → What will the closing value of NVIDIA's stock price be on March 28, 2025?
+16.358	1.0
+What will be the annual rate of new US building permits issued in February 2025 for privately-owned housing units?
+16.013	1.0
+What will be the highest percentage change in stock price among Hermes, Dior, and LVMH during the 2025 Paris Fashion Week Womenswear Fall/Winter?
+15.720	1.0
+Who will win the Liberal Party of Canada's leadership election to replace Justin Trudeau as Prime Minister of Canada?
+15.611	1.0
+What will Nvidia's earnings per share be for Q4 FY2025 (the quarter ending January 26, 2025)?
+15.042	1.0
+By what distance, measured in horse lengths, will the first place finisher win the 2025 Cheltenham Gold Cup?
+13.635	1.0
+Will the following Trump Cabinet nominees withdraw or be voted down in the Senate before March 31, 2025? (Tulsi Gabbard (Director of National Intelligence))
+8.124	0.3
+Will the following Trump Cabinet nominees withdraw or be voted down in the Senate before March 31, 2025? (Robert F. Kennedy Jr. (Secretary of Health and Human Services))
+7.110	0.3
+How much will "Captain America: Brave New World," "The Monkey," and "The Alto Knights" earn in domestic gross earnings (in US dollars) during their opening weekend? (The Monkey)
+6.636	0.3
+What will the flash consumer confidence in the Euro Area be for March 2025?
+5.252	1.0
+How much will "Captain America: Brave New World," "The Monkey," and "The Alto Knights" earn in domestic gross earnings (in US dollars) during their opening weekend? (Captain America: Brave New World)
+2.913	0.3
+<Question annulled and replaced — see note below> On March 28, 2025, what will be the exchange rate of the US dollar to the Canadian dollar, the Mexican peso, and the Chinese yuan? (USD/CAD)
+-	0.3
+<Question annulled and replaced — see note below> On March 28, 2025, what will be the exchange rate of the US dollar to the Canadian dollar, the Mexican peso, and the Chinese yuan? (USD/MXN)
+-	0.3
+<Question annulled and replaced — see note below> On March 28, 2025, what will be the exchange rate of the US dollar to the Canadian dollar, the Mexican peso, and the Chinese yuan? (USD/CNY)
+-	0.3
+Will the following Trump Cabinet nominees withdraw or be voted down in the Senate before March 31, 2025? (Any of Trump’s Other Nominees (See Fine Print))
+-	0.3
+For the 14-day period ending March 30, 2025, what will be the average allergy index for Atlanta, Georgia?
+-	1.0
+What will Japan's preliminary net tourist inflow be for February 2025?
+-	1.0
+On March 28, 2025, what will be the exchange rate of the US dollar to the Canadian dollar, the Mexican peso, and the Chinese yuan? (USD/CAD)
+-	0.3
+On March 28, 2025, what will be the exchange rate of the US dollar to the Canadian dollar, the Mexican peso, and the Chinese yuan? (USD/MXN)
+-	0.3
+On March 28, 2025, what will be the exchange rate of the US dollar to the Canadian dollar, the Mexican peso, and the Chinese yuan? (USD/CNY)
+-	0.3
+What will be the two-party-preferred vote for Labor in the 2025 Western Australian state election?
+-	1.0
+Will President Trump issue a new presidential action delaying or revoking the tariffs on Canada before March 4, 2025?
+-	1.0
+Will more than 15 million farmed birds be affected (depopulated or killed) in the United States due to bird flu from February 15, 2025 to March 15, 2025? (Yes) → What will the national average price of eggs (in USD per dozen) be in the United States on March 26, 2025?
+-	1.0
+Will OpenAI publicly release the full o3 model before March 28, 2025? (Yes) → What will the closing value of NVIDIA's stock price be on March 28, 2025?
+-	1.0
+Will Donald Trump have a positive approval rating on March 23, 2025?
+-	1.0
+Total Take	4632699.087

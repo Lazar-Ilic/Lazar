@@ -1,0 +1,90 @@
+At some point I might enumerate Options texts here to reason more carefully about Partial Differential Equations and standard option volatility modeling praxis.
+
+Option Volatility And Pricing
+An Introduction to Machine Learning in Quantitative Finance - Hao Ni, Xin Dong, Jinsong Zheng, Guangxi Yu
+Citadel Securities Recommended Reading List From Traders:
+	"Statistics" by David Freedman, Robert Pisani, and Roger Purves. ...
+	"Thinking Strategically: The Competitive Edge in Business, Politics, and Everyday Life" by Avinash K. ...
+	"Python for Finance: Mastering Data-Driven Finance" by Yves Hilpisch. ...
+	"Options, Futures, and Other Derivatives" by John Hull.
+Lawrence McMillan
+Espen Gaarder Haug
+O. Henry
+Neil Chriss
+...
+Variance And Volatility Swaps In The Heston Model - Frido Rolloos
+Partial Differential Equations And Martingale Methods In Option Pricing - Andrea Pascucci
+Solving Partial Differential Equations In C++
+
+Portfolio Management Theory And Practice
+Modern Portfolio Theory Foundation, Analysis, And New Developments
+Modern Portfolio Management Moving Beyond Modern Portfolio Theory
+Modern Portfolio Theory And Investment Analysis
+Professional Investment Portfolio Management
+Moving Beyond Modern Portfolio Theory Investing That Matters
+Pioneering Portfolio Management
+Hudson River Trading et al. Web Logs
+
+I see wack looking comments like this on Reddit all the time:
+
+"
+Najarian brothers books. They wrote 2, if on budget get at least the newest one. Easy to understand and while they dumb it down for cnbc crowd on tv, the books themselves cover important territory.
+
+Andrew Keenes book is good too for newbs. Whatever happen to that guy anayways. I liked his energy in chicago pits
+
+You can also do all courses on OIC, CBOE, and OCC. Google search it, i watched all the videos and passed all the exams/quizzes yrs ago. Pretty sure it was all free.
+
+Do the very good courses free at TASTY trade learning center. Do both beginners & advanced. I highly recommend this.
+
+Overby - option playbook. 90% visuals and payoff diags but damn he crushed this book. I feel like this is a must own. Get hardcover
+
+Option alpha - free videos and courses
+
+IBKR campus - go to traders academy courses - free videos and quizzes
+
+Bloomberg market concepts - its a low cost course/ it has a decent section on options. If i ran a capital markets 101 class, I would make all freshmen do this before day 1. Just FYI
+
+Sang lucci - he was more active back in the day and his old you tube videos from 2013-15 on order flow sweeps and ATM weeklies on fangs are fun as heck to watch. I like his focus on tape and bc he was trained as a prop trader, he has good fun read on mkt microstructure.
+
+Think or swim/TDAM - free videos, covers need to knows @ learning center
+
+CME institute - free "all about options" course @ their learn center
+
+MID LEVEL ---->
+
+Spina/Sosnoff - tom a goat and chicago legend; concise book and zero fluff
+
+Mcmillan - get 5th edition of strategic investments. Consensus bible and weighs more than a cinderblock
+
+Natenberg - perennial favorite
+
+Hull - goat but dense
+
+ADVANCED/OTHER ANGLES ---->
+
+Mcmillan on options
+
+The option edge - very academic, but has its moments where it really loops in everyday stuff, like market makers and why Berkshire sells OTM puts. Content good - problem is they printed only paperback size 5 font so its basically unreadable without a magnifying glass.
+
+Podcasts - ally options playbook is the best (apple, spotify)
+
+Colin bennett - trading volatility / cool stuff in here that is not found elsewhere
+
+Jeff augen - he wrote 3 gems, all on amazon
+
+Trading option greeks - dan parsanelli. Well-scoped book
+
+How to Calculate option prices and their greeks - Ursone
+
+Intrinsic - mike yuen. Entire book about leaps on tech names during a bull cycle. For practical purposes, ch 5-10 are good and in plain language cover his actual trades; those looking for an actual trader perspective might enjoy this.
+
+Intelligent option investor - takes a value investor approach, covers lot of ground/key concepts
+
+Taleb - dynamic hedging - hard to find book / deep practical philosophical. This dude is smart!!
+
+Sinclair - he has 3 books i have yet to read
+"
+
+----------
+
+I was thinking the other day of trying to identify a strategy based around uh modeling the movement of some uh stocks say price as a polynomial locally or something and then uh considering their derivatives too in the mixture and trying to find sparse sets of predictors inside certain relations uh just naively kind of searching and seeing if any statistically significant exploitable thing comes up. Kind of like some dudes in the SIG competition I think were running. Eh. Mediocre idea most likely. I dunno what the edge over at Renaissance is or how they model what things. I thought they have less compute than some. XTX Markets must be solid too I would imagine.

@@ -1,0 +1,1005 @@
+Decisions... Gotta pick 'em wisely... Gotta choose 'em carefully... $9$ times $9$ is $81$.
+
+1 Introduction 1
+
+
+
+1.1 Reinforcement Learning 1
+
+Exploration and exploitation. Dilemna. Knowledge. Belief. Representations. Algorithms. Multi armed bandit type tasks.
+
+1.2 Examples 4
+
+A master chess player makes a move. An adaptive controller adjusts parameters of a petroleum refinery's operation in real time. A gazelle calf struggles to its feet minutes after being born. A mobile robot decides whether it should enter a new room in search of more trash to collect or start trying to find its way back to its battery recharging station. Phil prepares his breakfast.
+
+1.3 Elements Of Reinforcement Learning 6
+
+Beyond the agent and the environment, one can identify four main subelements of a reinforcement learning system: a policy, a reward signal, a value function, and, optionally, a model of the environment.
+
+1.4 Limitations And Scope 7
+
+
+
+1.5 An Extended Example: Tic-Tac-Toe 8
+
+
+
+1.6 Summary 13
+
+
+
+1.7 Early History Of Reinforcement Learning 13
+
+This was kind of interesting historically and for references I mean the kind of point here is that we hope this book will be a well written, edited, terse, and to the point guide on the basics and key ideas so that I do not have to trawl through all of those at the current moment if I do not want to.
+
+I Tabular Solution Methods 23
+
+
+
+2 Multi-Armed Bandits 25
+
+
+
+2.1 A k-Armed Bandit Problem 25
+
+
+
+2.2 Action-Value Methods 27
+
+
+
+2.3 The 10-Armed Testbed 28
+
+Yeah this is funny I should not violate like Non Disclosure Agreements but there exist trading and proprietary trading firms which will actually toss candidates an online psychometrics round which will include a task like these and if one has good strategy precomputed to try and discover the true arm with the maximal linear expected value then this can be helpful but it can also be tricky and subtle with like Poisson distributions.
+
+2.4 Incremental Implementation 30
+
+Let $R_i$ now denote the reward received after the $i$th selection of this action, and let $Q_n$ denote the estimate of its action value after it has been selected $n-1$, which we can now write simply as $Q_n = \frac{R_1 + R_2 + \dots + R_{n-1}}{n-1}$.
+
+$\text{NewEstimate } \leftarrow \text{ OldEstimate} + \text{Step Size }[\text{Target }-\text{ Old Estimate}]$.
+
+A simple bandit algorithm. Dunno I want to take Notes notes on this book or just kind of verify half comprehension here day by day and actually skim this book itself repeatedly for a while or in the mix. Think I might task myself with basically $1$ chapter per day for now is a good rate in the mix with other reviewing and preparations for rounds.
+
+2.5 Tracking A Nonstationary Problem 32
+
+
+
+2.6 Optimistic Initial Values 34
+
+
+
+2.7 Upper-Confidence-Bound Action Selection 35
+
+
+
+2.8 Gradient Bandit Algorithms 37
+
+The Bandit Gradient Algorithm As Stochastic Gradient Ascent
+
+2.9 Associative Search [Contextual Bandits] 41
+
+OK this is super interesting and the tasks are stimulating.
+
+2.10 Summary 42
+
+
+
+3 Finite Markov Decision Processes 47
+
+Litty lit lit lit lit lit.
+
+3.1 The Agent lambda- Environment Interface 47
+
+
+
+3.2 Goals And Rewards 53
+
+OK good good.
+
+3.3 Returns And Episodes 54
+
+Simple return function sum of rewards.
+
+Discounting. Sum of the discounted rewards it receives over the future is maximised. Discount rate.
+
+3.4 Unified Notation For Episodic And Continuing Tasks 57
+
+
+
+3.5 Policies And Value Functions 58
+
+Value functions. Righto some actual maths being executed on a machine finally! Functions of states or of state action pairs that estimate how good it is for the agent to be in a given state [or how good it is to perform a given action in a given state].
+
+3.6 Optimal Policies And Optimal Value Functions 62
+
+Value function define a partial ordering over policies. Review some basics on partially ordered sets, graphs, and their structures. Policy is better if its expected return is greater than or equal for all states. They share the same state value function, called the optimal state value function. Optimal policies also share the same optimal action value function, denoted, and defined as.
+
+3.7 Optimality And Approximation 67
+
+
+
+3.8 Summary 68
+
+This was a really fun and fascinating little chapter here today.
+
+Example 3.1: Bioreactor
+Example 3.2: Pick And Place Robot
+Example 3.3: Recycling Robot
+Example 3.4: Pole Balancing
+Example 3.5: Gridworld
+Example 3.6: Golf
+Example 3.7: Optimal Value Functions For Golf
+Example 3.8: Solving The Gridworld
+Example 3.9: Bellman Optimality Equations For The Recycling Robot
+
+4 Dynamic Programming 73
+
+
+
+4.1 Policy Evaluation [Prediction] 74
+
+Prediction problem. Iterative policy evaluation. Several different kinds of expected updates.
+
+4.2 Policy Improvement 76
+
+Policy Improvement Theorem. Policy Improvement. Policy improvement theorem.
+
+4.3 Policy Iteration 80
+
+Policy iteration.
+
+Example 4.2: Jack's Car Rental
+
+4.4 Value Iteration 82
+
+Value iteration.
+
+Example 4.3: Gambler's Problem
+
+4.5 Asynchronous Dynamic Programming 85
+
+Asynchronous Dynamic Programming algorithms. Generalised Policy Iteration.
+
+4.6 Generalized Policy Iteration 86
+
+Generalised Policy Iteration.
+
+4.7 Efficiency Of Dynamic Programming 87
+
+Dynamic Programming may not be practical for very large problems, but compared with other methods for solving Markov Decision Process, Dynamic Programming methods are actually quite efficient. If we ignore a few technical details, then the [worst case] time Dynamic Programming methods take to find an optimal policy is polynomial in the number of states and actions. If n and k denote the number of states and actions, this means that a Dynamic Programming method takes a number of computational operations that is less than some polynomial function of n and k. A Dynamic Programming method is guaranteed to find an optimal policy in polynomial time even though the total number of [deterministic] policies is kn. In this sense, Dynamic Programming is exponentially faster than any direct search in policy space could be, because direct search would have to exhaustively examine each policy to provide the same guarantee. Linear programming methods can also be used to solve Markov Decision Processes, and in some cases their worst-case convergence guarantees are better than those of Dynamic Programming methods. But linear programming methods become impractical at a much smaller number of states than do Dynamic Programming methods [by a factor of about 100]. For the largest problems, only Dynamic Programming methods are feasible.
+
+4.8 Summary 88
+
+Policy Evaluation. Policy Improvement. Policy Iteration. Value iteration.
+
+5 Monte Carlo Methods 91
+
+Monte Carlo methods are ways of solving the reinforcement learning problem based on averaging sample returns.
+
+5.1 Monte Carlo Prediction 92
+
+Example 5.1: Blackjack
+Example 5.2: Soap Bubble
+
+5.2 Monte Carlo Estimation of Action Values 96
+
+Maintaining exploration. For policy evaluation to work for action values, we must assure continual exploration. Exploring starts.
+
+5.3 Monte Carlo Control 97
+
+Example 5.3: Solving Blackjack
+
+5.4 Monte Carlo Control Without Exploring Starts 100
+
+On Policy Methods. Off Policy Methods. On Policy First Visit Monte Carlo Control.
+
+5.5 Off-Policy Prediction Via Importance Sampling 103
+
+Target Policy. Behaviour Policy. Off Policy Learning. Prediction Problem. Utilise Importance Sampling. Importance Sampling Ratio.
+
+I am definitely going to need to do these exercises for sure too on top of the Parallel ones.
+
+5.6 Incremental Implementation 109
+
+
+
+5.7 Off-Policy Monte Carlo Control 110
+
+Behaviour policy. Target policy. Off policy MC control for estimating.
+
+5.8 *Discounting-Aware Importance Sampling 112
+
+This is really fascinating here in this book on page 113 the header reads 5.9 despite the fact that section 5.9 actually begins on page 114. Fascinating. Who knows which program was used to render this document.
+
+5.9 *Per-Decision Importance Sampling 114
+
+
+
+5.10 Summary 115
+
+Sample models. Focus. Small subset of the states. Generalised Policy Iteration. Sufficient Exploration. Off Policy Prediction. Target Policy. Behaviour Policy. Importance Sampling. Ordinary Importance Sampling. Weighted Importance Sampling.
+
+6 Temporal-Difference Learning 119
+
+Temporal Difference. Policy Evaluation. Prediction Problem. Control Problem.
+
+6.1 Temporal Difference Prediction 119
+
+Sample Updates.
+
+Example 6.1: Driving Home
+
+6.2 Advantages Of Temporal Difference Prediction Methods 124
+
+Temporal Difference methods update their estimates based in part on other estimates. They learn a guess from a guess lambda- they bootstrap. Is this a good thing to do? What advantages do Temporal Difference methods have over Monte Carlo and DP methods? Developing and answering such questions will take the rest of this book and more. In this section we briefly anticipate some of the answers.
+
+Example 6.2: Random Walk
+
+Markov Reward Process
+
+6.3 Optimality Of Temporal Difference(0) 126
+
+Batch Updating, Batch of Batch Training.
+
+Example 6.3: Random Walk Under Batch Updating
+Example 6.4: You Are The Predictor
+
+Maximum Likelihood Estimate
+Certainty Equivalence Estimate
+
+6.4 State Action Reward State Action: On-Policy Temporal Difference Control 129
+
+Generalised Policy Iteration.
+
+Example 6.5: Windy Gridworld
+
+6.5 Q-Learning: Off-Policy Temporal Difference Control 131
+
+Example 6.6: Cliff Walking
+
+6.6 Expected State Action Reward State Action 133
+
+
+
+6.7 Maximization Bias And Double Learning 134
+
+Maximisation Bias.
+
+Example 6.7: Maximisation Bias Example
+
+6.8 Games, Afterstates, and Other Special Cases 136
+
+Afterstate Value Functions
+
+6.9 Summary 138
+
+
+
+7 n-step Bootstrapping 141
+
+n-step Temporal Difference Methods. Eligibility traces.
+
+7.1 n-step Temporal Difference Prediction 142
+
+Two Step Return. n Step Return. Two Step Return. n Step Return. n Step Temporal Difference. Error reduction property of n step returns.
+
+Example 7.1: n-Step Temporal Difference Methods On The Random Walk
+
+7.2 n-Step State Action Reward State Action 145
+
+How can n-step methods be used not just for prediction, but for control? In this section we show how n-step methods can be combined with State Action Reward State Action in a straightforward way to produce an on-policy Temporal Difference control method. The n-step version of State Action Reward State Action we call n-step State Action Reward State Action, and the original version presented in the previous chapter we henceforth call one-step State Action Reward State Action, or State Action Reward State Action[0].
+
+7.3 n-Step Off-Policy Learning 148
+
+Importance Sampling Ratio.
+
+7.4 *Per-Decision Methods With Control Variates 150
+
+
+
+7.5 Off-Policy Learning Without Importance Sampling: The n-Step Tree Backup Algorithm 152
+
+Tree Backup Algorithm. Tree Backup. Leaf Nodes.
+
+Tree Backup Algorithm.
+
+7.6 *A Unifying Algorithm: n-Step Q(lambda) 154
+
+
+
+7.7 Summary 157
+
+
+
+8 Planning And Learning With Tabular Methods 159
+
+Model Based Reinforcement Learning
+Model Free Reinforcement Learning
+
+Model-based methods rely on planning as their primary component, while model-free methods primarily rely on learning. Although there are real differences between these two kinds of methods, there are also great similarities. In particular, the heart of both kinds of methods is the computation of value functions. Moreover, all the methods are based on looking ahead to future events, computing a backed-up value, and then using it as an update target for an approximate value function. Earlier in this book we presented Monte Carlo and temporal-difference methods as distinct alternatives, then showed how they can be unified by n-step methods. Our goal in this chapter is a similar integration of model-based and model-free methods. Having established these as distinct in earlier chapters, we now explore the extent to which they can be intermixed.
+
+8.1 Models And Planning 159
+
+Distribution Models
+Sample Models
+Simulated Experience
+Planning
+State Space Planning
+Plan Space Planning
+Random Sample One Step Tabular Q Planning
+
+8.2 Dyna: Integrated Planning, Acting, And Learning 161
+
+Model Learning
+Direct Reinforcement Learning
+Indirect Reinforcement Learning
+Search Control
+
+Example 8.1: Dyna Maze
+
+8.3 When The Model Is Wrong 166
+
+Example 8.2: Blocking Maze
+Example 8.3: Shortcut Maze
+Example 8.4: Prioritised Sweeping On Mazes
+Example 8.5: Prioritised Sweeping For Rod Maneuvering
+
+8.4 Prioritised Sweeping 168
+
+In the Dyna agents presented in the preceding sections, simulated transitions are started in state-action pairs selected uniformly at random from all previously experienced pairs. But a uniform selection is usually not the best; planning can be much more ecient if simulated transitions and updates are focused on particular state-action pairs. For example, consider what happens during the second episode of the first maze task [Figure 8.3]. At the beginning of the second episode, only the state-action pair leading directly into the goal has a positive value; the values of all other pairs are still zero. This means that it is pointless to perform updates along almost all transitions, because they take the agent from one zero-valued state to another, and thus the updates would have no effect. Only an update along a transition into the state just prior to the goal, or from it, will change any values. If simulated transitions are generated uniformly, then many wasteful updates will be made before stumbling onto one of these useful ones. As planning progresses, the region of useful updates grows, but planning is still far less ecient than it would be if focused where it would do the most good. In the much larger problems that are our real objective, the number of states is so large that an unfocused search would be extremely inefficient.
+
+It is natural to prioritize the updates according to a measure of their urgency, and perform them in order of priority. This is the idea behind prioritized sweeping. A queue is maintained of every state-action pair whose estimated value would change nontrivially if updated, prioritized by the size of the change. When the top pair in the queue is updated, the effect on each of its predecessor pairs is computed. If the effect is greater than some small threshold, then the pair is inserted in the queue with the new priority (if there is a previous entry of the pair in the queue, then insertion results in only the higher priority entry remaining in the queue). In this way the effects of changes are efficiently propagated backward until quiescence. The full algorithm for the case of deterministic environments is given in the box on the next page.
+
+8.5 Expected Versus Sample Updates 172
+
+Expected Updates
+Sample Updates
+7/8 Useful Specific Algorithms Example
+Branching Factor
+
+8.6 Trajectory Sampling 174
+
+Trajectory Sampling
+
+In the uniform case, we cycled through all state-action pairs, updating each in place, and in the on-policy case we simulated episodes, all starting in the same state, updating each state-action pair that occurred under the current "-greedy policy ("= 0.1). The tasks were undiscounted episodic tasks, generated randomly as follows. From each of the |S| states, two actions were possible, each of which resulted in one of b next states, all equally likely, with a different random selection of b states for each state-action pair. The branching factor, b, was the same for all state-action pairs. In addition, on all transitions there was a 0.1 probability of transition to the terminal state, ending the episode. The expected reward on each transition was selected from a Gaussian distribution with mean 0 and variance 1.
+
+8.7 Real-Time Dynamic Programming 177
+
+Real Time Dynamic Programming
+Asynchronous Dynamic Programming Algorithms
+Optimal Partial Policy
+Learning Real Time
+Stochastic Optimal Path Problems
+
+Example 8.6: Real Time Dynamic Programming
+
+8.8 Planning At Decision Time 180
+
+Well before an action is selected for any current state St, planning has played a part in improving the table entries, or the mathematical expression, needed to select the action for many states, including St. Used this way, planning is not focussed on the current state. We call planning used in this way background planning.
+
+More generally, planning used in this way can look much deeper than one-step-ahead and evaluate action choices leading to many different predicted state and reward trajectories. Unlike the first use of planning, here planning focuses on a particular state. We call this decision-time planning.
+
+8.9 Heuristic Search 181
+
+Heuristic Search. Rollout policy. Asynchronous Value Iteration.
+
+8.10 Rollout Algorithms 183
+
+Rollout Policy
+Learning Algorithms
+Asynchronous Value Iteration
+
+8.11 Monte Carlo Tree Search 185
+
+Monte Carlo Tree Search
+Selection
+Expansion
+Simulation
+Backup
+
+8.12 Summary Of The Chapter 188
+
+Distribution Model.
+Expected Updates.
+Distribution Model.
+Expected Updates.
+Sample Model.
+Sample Updates.
+
+8.13 Summary Of Part I: Dimensions 189
+
+Definition Of Return: Is the task episodic or continuing, discounted or undiscounted?
+Action Values Versus State Values Versus Afterstate Values: What kind of values should be estimated? If only state values are estimated, then either a model or a separate policy [as in actor-critic methods] is required for action selection.
+Action Selection/Exploration: How are actions selected to ensure a suitable trade-off between exploration and exploitation? We have considered only the simplest ways to do this: "-greedy, optimistic initialization of values, soft-max, and upper confidence bound.
+Synchronous Versus Asynchronous: Are the updates for all states performed simultaneously or one by one in some order?
+Real Versus Simulated: Should one update based on real experience or simulated experience? If both, how much of each?
+Location Of Updates: What states or state-action pairs should be updated? Model free methods can choose only among the states and state-action pairs actually encountered, but model-based methods can choose arbitrarily. There are many possibilities here.
+Timing Of Updates: Should updates be done as part of selecting actions, or only afterward?
+Memory For Updates: How long should updated values be retained? Should they be retained permanently, or only while computing an action selection, as in heuristic search?
+
+II Approximate Solution Methods 195
+
+Generalisation
+Function Approximation
+Supervised Learning
+Elibility Traces
+Policy Gradient Methods
+
+9 On-Policy Prediction With Approximation 197
+
+Generalisation
+
+9.1 Value-Function Approximation 198
+
+Update Target.
+Supervised Learning Methods.
+Function Approximation.
+
+9.2 The Prediction Objective (VE) 199
+
+Mean Squared Value Error.
+On Policy Distribution.
+Global optimum.
+Local optimum.
+
+9.3 Stochastic-Gradient And Semi-Gradient Methods 200
+
+Stochastic Gradient Descent.
+
+Gradient Monte Carlo Algorithm For Estimating v=vpi
+
+Semi Gradient Methods
+
+Example 9.1: State Aggregation On The 1000 State Random Walk
+
+9.4 Linear Methods 204
+
+Linear In The Weights
+Basis Functions
+Proof Of Convergence Of Linear
+
+Example 9.2: Bootstrapping On The 1000 State Random Walk
+
+n-Step Semi Gradient Temporal Difference For Estimating v=vpi
+
+9.5 Feature Construction for Linear Methods 210
+
+
+
+9.5.1 Polynomials 210
+
+
+
+9.5.2 Fourier Basis 211
+
+
+
+9.5.3 Coarse Coding 215
+
+Circles
+Present
+Binary Feature
+Categorical Features
+Coarse Coding
+Example 9.3: Coarseness Of Coarse Coding
+
+9.5.4 Tile Coding 217
+
+
+
+9.5.5 Radial Basis Functions 221
+
+
+
+9.6 Selecting Step-Size Parameters Manually 222
+
+
+
+9.7 Nonlinear Function Approximation: Artificial Neural Networks 223
+
+Activation function.
+Universal Approximation.
+Righto just see Bengio about a trillion times.
+Batch normalisation.
+Deep residual learning.
+Deep convolutional network.
+
+9.8 Least-Squares Temporal Difference 228
+
+Least Squares Temporal Difference LSTD
+
+9.9 Memory-based Function Approximation 230
+
+Parametric Approach To Approximating Value Functions
+Query State
+Memory Based Function Approximation
+Lazy Learning
+Nonparametric Methods
+Local Learning Methods
+Nearest Neighbour
+Weighted Average
+Locally Weighted Regression
+Memory Based Local Approximation Methods
+k-d Tree k-Dimensional Tree
+
+9.10 Kernel-based Function Approximation 232
+
+Kernel Function
+Kernel function numerically express how relevant knowledge about any state is to any other state.
+Kernel regression is the memory based method that computes a kernel weighted average of the targets of all examples stored in memory, assigning the result to the query state.
+A common kernel is the Gaussian Radial Basis Function used in Radial Basis Function approximation as described in Section 9.5.5.
+
+9.11 Looking Deeper at On-policy Learning: Interest and Emphasis 234
+
+The algorithms we have considered so far in this chapter have treated all the states encountered equally, as if they were all equally important. In some cases, however, we are more interested in some states than others. In discounted episodic problems, for example, we may be more interested in accurately valuing early states in the episode than in later states where discounting may have made the rewards much less important to the value of the start state. Or, if an action-value function is being learned, it may be less important to accurately value poor actions whose value is much less than the greedy action. Function approximation resources are always limited, and if they were used in a more targeted way, then performance could be improved.
+
+Example 9.4: Interest And Emphasis
+
+9.12 Summary 236
+
+Generalisation
+Supervised Learning Function Approximation
+Parametrised Function Approximation
+Mean Squared Value Error
+On Policy Distribution
+Stochastic Gradient Descent
+On Policy
+Fixed Policy
+n-Step Semi Gradient
+Semi Gradient Methods
+
+Nevertheless, good results can be obtained for semi gradient methods in the special case of linear function approximation, in which the value estimates are sums of features times corresponding weights. The linear case is the most well understood theoretically and works well in practice when provided with appropriate features. Choosing the features is one of the most important ways of adding prior domain knowledge to reinforcement learning systems. They can be chosen as polynomials, but this case generalizes poorly in the online learning setting typically considered in reinforcement learning. Better is to choose features according the Fourier Basis, or according to some form of coarse coding with sparse overlapping receptive fields. Tile coding is a form of coarse coding that is particularly computationally ecient and flexible. Radial basis functions are useful for 1 or 2-dimensional tasks in which a smoothly varying response is important. Least Squares Temporal Difference is the most data-efficient linear Temporal Difference prediction method, but requires computation proportional to the square of the number of weights, whereas all the other methods are of complexity linear in the number of weights. Nonlinear methods include artificial neural networks trained by backpropagation and variations of Stochastic Gradient Descent; these methods have become very popular in recent years under the name deep reinforcement learning.
+
+10 On-policy Control with Approximation 243
+
+On Policy Case
+
+10.1 Episodic Semi-gradient Control 243
+
+Episodic Semi Gradient One Step State Action Reward State Action. For a constant policy, this method converges Temporal Difference does, with the same kind of error bound.
+
+Episodic Semi Gradient State Action Reward State Action For Estimating q=q
+
+Example 10.1: Mountain Car Task
+
+10.2 Semi-gradient n-step State Action Reward State Action 247
+
+Episodic Semi Gradient n-Step State Action Reward State Action For Estimating q=q or q
+
+10.3 Average Reward: A New Problem Setting for Continuing Tasks 249
+
+We now introduce a third classical setting—alongside the episodic and discounted settings-for formulating the goal in Markov Decision Problems MDPs. Like the discounted setting, the average reward setting applies to continuing problems, problems for which the interaction between agent and environment goes on and on forever without termination or start states. Unlike that setting, however, there is no discounting—the agent cares just as much about delayed rewards as it does about immediate reward. The average-reward setting is one of the major settings commonly considered in the classical theory of dynamic programming and less-commonly in reinforcement learning. As we discuss in the next section, the discounted setting is problematic with function approximation, and thus the average-reward setting is needed to replace it.
+
+Differential Semi Gradient State Action Reward State Action For Estimating q=q
+
+Example 10.2: An Access Control Queuing Task
+
+10.4 Deprecating the Discounted Setting 253
+
+This example and the more general argument in the box show that if we optimized discounted value over the on-policy distribution, then the effect would be identical to optimizing undiscounted average reward; the actual value of would have no effect. This strongly suggests that discounting has no role to play in the definition of the control problem with function approximation. One can nevertheless go ahead and use discounting in solution methods. The discounting parameter changes from a problem parameter to a solution method parameter! However, in this case we unfortunately would not be guaranteed to optimize average reward (or the equivalent discounted value over the on-policy distribution).
+
+The Futility Of Discounting In Continuing Problems
+
+10.5 Differential Semi-gradient n-step State Action Reward State Action 255
+
+n-Step Bootstrapping
+
+Differential Semi-Gradient n-Step State Action Reward State Action For Estimating q=q or q
+
+10.6 Summary 256
+
+In this chapter we have extended the ideas of parameterized function approximation and semi-gradient descent, introduced in the previous chapter, to control. The extension is immediate for the episodic case, but for the continuing case we have to introduce a whole new problem formulation based on maximizing the average reward setting per time step. Surprisingly, the discounted formulation cannot be carried over to control in the presence of approximations. In the approximate case most policies cannot be represented by a value function. The arbitrary policies that remain need to be ranked, and the scalar average reward r(lambda) provides an effective way to do this. The average reward formulation involves new differential versions of value functions, Bellman equations, and Temporal Difference errors, but all of these parallel the old ones, and the conceptual changes are small. There is also a new parallel set of differential algorithms for the average-reward case.
+
+11 *Off-Policy Methods With Approximation 257
+
+This book has treated on-policy and off-policy learning methods since Chapter 5 primarily as two alternative ways of handling the conflict between exploitation and exploration inherent in learning forms of generalized policy iteration. The two chapters preceding this have treated the on-policy case with function approximation, and in this chapter we treat the off-policy case with function approximation. The extension to function approximation turns out to be significantly different and harder for off-policy learning than it is for on-policy learning. The tabular off-policy methods developed in Chapters 6 and 7 readily extend to semi-gradient algorithms, but these algorithms do not converge as robustly as they do under on-policy training. In this chapter we explore the convergence problems, take a closer look at the theory of linear function approximation, introduce a notion of learnability, and then discuss new algorithms with stronger convergence guarantees for the off-policy case. In the end we will have improved methods, but the theoretical results will not be as strong, nor the empirical results as satisfying, as they are for on-policy learning. Along the way, we will gain a deeper understanding of approximation in reinforcement learning for on-policy learning as well as off-policy learning.
+
+11.1 Semi-Gradient Methods 258
+
+We begin by describing how the methods developed in earlier chapters for the off-policy case extend readily to function approximation as semi-gradient methods. These methods address the first part of the challenge of off-policy learning (changing the update targets) but not the second part (changing the update distribution). Accordingly, these methods may diverge in some cases, and in that sense are not sound, but still they are often successfully used. Remember that these methods are guaranteed stable and asymptotically unbiased for the tabular case, which corresponds to a special case of function approximation. So it may still be possible to combine them with feature selection methods in such a way that the combined system could be assured stable. In any event, these methods are simple and thus a good place to start.
+
+11.2 Examples Of Off-Policy Divergence 260
+
+Example 11.1: Tsitsiklis And Van Roy's Counterexample
+
+Another way to try to prevent instability is to use special methods for function approximation. In particular, stability is guaranteed for function approximation methods that do not extrapolate from the observed targets. These methods, called averagers, include nearest neighbor methods and locally weighted regression, but not popular methods such as tile coding and Artificial Neural Networks [ANNs].
+
+11.3 The Deadly Triad 264
+
+Function approximation: A powerful, scalable way of generalizing from a state space much larger than the memory and computational resources [e.g., linear function approximation or ANNs].
+Bootstrapping: Update targets that include existing estimates [as in dynamic programming or Temporal Difference methods] rather than relying exclusively on actual rewards and complete returns [as in Monte Carlo methods].
+Off-policy training: Training on a distribution of transitions other than that produced by the target policy. Sweeping through the state space and updating all states uniformly, as in dynamic programming, does not respect the target policy and is an example of off-policy training.
+
+Of the three, function approximation most clearly cannot be given up. We need methods that scale to large problems and to great expressive power. We need at least linear function approximation with many features and parameters. State aggregation or nonparametric methods whose complexity grows with data are too weak or too expensive. Least-squares methods such as Least Squares Temporal Difference are of quadratic complexity and are therefore too expensive for large problems.
+
+11.4 Linear Value-Function Geometry 266
+
+The Projection Matrix
+
+Bellman Error
+Bellman Error Vector
+Mean Squared Bellman Error
+Bellman Operator
+Mean Square Projected Bellman Error
+
+Example 11.2: A-Split Example, Showing The Naivete Of The Naive Residual-Gradient Algorithm
+
+Not going to lie I see TDE and cannot help but think Top Dawg Entertainment rather than Temporal Difference Error.
+
+Residual Gradient Algorithm
+
+Example 11.3: A-Presplit Example, A Counterexample For The Bellman Error
+
+11.5 Gradient Descent In The Bellman Error 269
+
+
+
+11.6 The Bellman Error Is Not Learnable 274
+
+Efficiently Learnable
+
+It will turn out that the Bellman Error Objective introducted in the last 2 sections is not learnable in this sense.
+
+OK some simple little visualised Markov Reward Processes.
+
+VE = Mean Squared Value Error
+
+RE = Mean Squared Return Error
+
+Simple little construction problem man nowadays that is the thing on my Reddit r/math maths skim last night like I find the toy example about irrational^irrational=rational to be like kinda dumby frankly trivial and not surprising like a priori take a log or whatever and it becomes log_irrational[rational]=irrational which intuitively now in a usual R and Q measure theoretic sense feels intuitively obvious to have solutions yadda most irrational^irrational will be hitting irrational of course yadda anyways.
+
+Now let us return to the Bellman Error. The Bellman Error is like the Value Error in that it can be computed from knowledge of the Markov Decision Process but is not learnable from data. But it is not like the Value Error in that its minimum solution is not learnable. The box on the next page presents a counterexample-two Markov Return Processes that generate the same data distribution but whose minimizing parameter vector is different, proving that the optimal parameter vector is not a function of the data and thus cannot be learned from it. The other bootstrapping objectives that we have considered.
+
+Example 11.4: Counterexample To The Learnability Of The Bellman Error
+
+Markov Reward Processes
+
+Thus, the Bellman Error is not learnable; it cannot be estimated from feature vectors and other observable data. This limits the Bellman Error to model based settings. There can be no algorithm that minimises the Bellman Error without access to the underlying Markov Decision Process states beyond the feature vectors. The residual gradient algorithm is only able to minimise Bellman Error because it is allowed to double sample from the same state lambda- not a state that has the same feature vector, but one that is guaranteed to be the same underlying state. We can see now that there is no way around this. Minimising the Bellman Error requires some such access to the nominal, underling Markov Decision Process. This is an important limitation of the Bellman Error beyond that identified in the A-presplit example on page 273. All this directs more attention toward the Projected Bellman Error.
+
+11.7 Gradient-Temporal Difference Methods 278
+
+We now consider Stochastic Gradient Descent methods for minimising the Projected Bellman Error. As true Stochastic Gradient Descent methods, these Gradient Temporal Difference methods have robust convergence properties even under off policy training and nonlinear function approximation. Remember that in the linear case there is always an exact solution.
+
+11.8 Emphatic-Temporal Difference Methods 281
+
+This way of thinking about discounting is an example of a more general notion of pseudo termination-termination that does not affect the sequence of state transitions, but does affect the learning process and the quantities being learned. This kind of pseudo termination is important to off-policy learning because the restarting is optional-remember we can start any way we want to-and the termination relieves the need to keep including encountered states within the on-policy distribution. That is, if we don't consider the new states as restarts, then discounting quickly gives us a limited on-policy distribution.
+
+11.9 Reducing Variance 283
+
+
+
+11.10 Summary 284
+
+Off-policy learning is a tempting challenge, testing our ingenuity in designing stable and efficient learning algorithms. Tabular Q-learning makes off-policy learning seem easy, and it has natural generalizations to Expected State Action Reward State Action and to the Tree Backup algorithm. But as we have seen in this chapter, the extension of these ideas to significant function approximation, even linear function approximation, involves new challenges and forces us to deepen our understanding of reinforcement learning algorithms. Why go to such lengths? One reason to seek off-policy algorithms is to give flexibility in dealing with the tradeoff between exploration and exploitation. Another is to free behavior from learning, and avoid the tyranny of the target policy. Temporal Difference learning appears to hold out the possibility of learning about multiple things in parallel, of using one stream of experience to solve many tasks simultaneously. We can certainly do this in special cases, just not in every case that we would like to or as eciently as we would like to.
+
+12 Eligibility Traces 287
+
+Eligibility traces are one of the basic mechanisms of reinforcement learning. For example, in the popular Temporal Difference (lambda) algorithm, the lambda refers to the use of an eligibility trace. Almost any temporal-difference (TD) method, such as Q-learning or State Action Reward State Action, can be combined with eligibility traces to obtain a more general method that may learn more eciently. Eligibility traces unify and generalise Temporal Difference and Monte Carlo methods. When Temporal Difference methods are augmented with eligibility traces, they produce a family of methods spanning a spectrum that has Monte Carlo methods at one end (= 1) and one-step Temporal Difference methods at the other ( = 0). In between are intermediate methods that are often better than either extreme method. Eligibility traces also provide a way of implementing Monte Carlo methods online and on continuing problems without episodes.
+
+12.1 The lambda-Return 288
+
+
+
+12.2 Temporal Difference(lambda) 292
+
+Temporal Difference(lambda) is one of the oldest and most widely used algorithms in reinforcement learning. It was the first algorithm for which a formal relationship was shown between a more theoretical forward view and a more computationally-congenial backward view using eligibility traces. Here we will show empirically that it approximates the offline lambda-return algorithm presented in the previous section.
+
+Semi-Gradient Temporal Difference(lambda) For Estimating v=vpi
+
+12.3 n-Step Truncated lambda-Return Methods 295
+
+
+
+12.4 Redoing Updates: Online lambda-Return Algorithm 297
+
+
+
+12.5 True Online Temporal Difference(lambda) 299
+
+True Online Temporal Difference(lambda) For Estimating w^T x=vpi
+
+12.6 *Dutch Traces In Monte Carlo Learning 301
+
+
+
+12.7 State Action Reward State Action(lambda) 303
+
+Example 12.1: Traces In A Gridworld
+
+State Action Reward State Action(lambda) With Binary Features And Linear Function Approximation For Estimating w^T x=qpi or q*
+
+Example 12.2: State Action Reward State Action(lambda) On Mountain Car
+
+True Online State Action Reward State Action(lambda) For Estimating w^T x=qpi or q*
+
+12.8 Variable lambda And gamma 307
+
+Introducing the function, the termination function, is particularly significant because it changes the return, the fundamental random variable whose expectation we seek to estimate.
+
+12.9 *Off-Policy Traces With Control Variates 309
+
+
+
+12.10 Watkins's Q(lambda) To Tree-Backup(lambda) 312
+
+
+
+12.11 Stable Off-Policy Methods With Traces 314
+
+
+
+12.12 Implementation Issues 316
+
+It might at first appear that tabular methods using eligibility traces are much more complex than 1-step methods. A naive implementation would require every state [or state-action pair] to update both its value estimate and its eligibility trace on every time step. This would not be a problem for implementations on single-instruction, multipledata, parallel computers or in plausible Artificial Neural Network [ANN] implementations, but it is a problem for implementations on conventional serial computers. Fortunately, for typical values of and the eligibility traces of almost all states are almost always nearly 0; only those states that have recently been visited will have traces significantly greater than 0 and only these few states need to be updated to closely approximate these algorithms.
+
+12.13 Conclusions 317
+
+
+
+13 Policy Gradient Methods 321
+
+
+
+13.1 Policy Approximation And Its Advantages 322
+
+A second advantage of parameterizing policies according to the soft-max in action preferences is that it enables the selection of actions with arbitrary probabilities. In problems with significant function approximation, the best approximate policy may be stochastic. For example, in card games with imperfect information the optimal play is often to do two different things with specific probabilities, such as when bluffing in Poker. Action-value methods have no natural way of finding stochastic optimal policies, whereas policy approximating methods can, as shown in Example 13.1.
+
+Example 13.1: Short Corridor With Switched Actions
+
+13.2 The Policy Gradient Theorem 324
+
+Proof Of The Policy Gradient Theorem [Episodic Case]
+
+13.3 REINFORCE: Monte Carlo Policy Gradient 326
+
+Reinforce: Monte-Carlo Policy-Gradient Control [Episodic] For pi
+
+13.4 REINFORCE With Baseline 329
+
+Reinforce With Baseline [Episodic], For Estimating pi = pi*
+
+13.5 Actor lambda-Critic Methods 331
+
+One-Step Actor-Critic [Episodic], For Estimating pi=pi*
+
+Actor-Critic With Eligibility Traces [Episodic], For Estimating pi=pi*
+
+13.6 Policy Gradient For Continuing Problems 333
+
+Actor-Critic With Eligibility Traces [Continuing], For Estimating pi=pi*
+
+Proof Of The Policy Gradient Theorem [Continuing Case]
+
+13.7 Policy Parameterisation For Continuous Actions 335
+
+
+
+13.8 Summary 337
+
+Prior to this chapter, this book focused on action-value methods-meaning methods that learn action values and then use them to determine action selections. In this chapter, on the other hand, we considered methods that learn a parameterized policy that enables actions to be taken without consulting action-value estimates. In particular, we have considered policy-gradient methods-meaning methods that update the policy parameter on each step in the direction of an estimate of the gradient of performance with respect to the policy parameter.
+
+III Looking Deeper 339
+
+
+
+14 Psychology 341
+
+Oh good big whoop de whoop my favourite the so called the psychology this is an interesting domain. I thought we learn by iterated repetition and then stewing and brewing. In any case the critical factors must be critical here we must engage in learning. Maybe if I throw some formulae down into my machine I can later simply execute them in a .tex file and submit them and convince someone I know something...
+
+14.1 Prediction And Control 342
+
+The algorithms we describe in this book fall into two broad categories: algorithms for prediction and algorithms for control. These categories arise naturally in solution methods for the reinforcement learning problem presented in Chapter 3. In many ways these categories respectively correspond to categories of learning extensively studied by psychologists: classical, or Pavlovian, conditioning and instrumental, or operant, conditioning. These correspondences are not completely accidental because of psychology's influence on reinforcement learning, but they are nevertheless striking because they connect ideas arising from different objectives.
+
+14.2 Classical Conditioning 343
+
+Well the stimuli are triggering like they trigger a response.
+
+The arrangement of stimuli in two common types of classical conditioning experiments is shown to the right. In delay conditioning, the Conditioned Stimulus extends throughout the interstimulus interval, or ISI, which is the time interval between the Conditioned Stimulus onset and the Unconditioned Stimulus onset (with the Conditioned Stimulus ending when the Unconditioned Stimulus ends in a common version shown here). In trace conditioning, the Unconditioned Stimulus begins after the Conditioned Stimulus ends, and the time interval between Conditioned Stimulus offset and Unconditioned Stimulus onset is called the trace interval.
+
+14.2.1 Blocking And Higher-Order Conditioning 345
+
+Blocking And Higher Order Conditioning
+Rescorla-Wagner Model
+Temporal Difference Model Of Classical Conditioning
+Higher Order Or Conditioned Reinforcer
+Conditioned Reinforcement
+
+14.2.2 The Rescorla lambda-Wagner Model 346
+
+Ah some more formalisation of the Information Theoretic surprise function notions. So we are looking for surprises, on the hunt for the big insights and updates to our world view and models.
+
+Here is how Rescorla and Wagner described their model. The model adjusts the "associative strength" of each component stimulus of a compound Conditioned Stimulus, which is a number representing how strongly or reliably that component is predictive of a Unconditioned Stimulus. When a compound Conditioned Stimulus consisting of several component stimuli is presented in a classical conditioning trial, the associative strength of each component stimulus changes in a way that depends on an associative strength associated with the entire stimulus compound, called the "aggregate associative strength," and not just on the associative strength of each component itself.
+
+14.2.3 The Temporal Difference Model 349
+
+The Temporal Difference model is a real-time model, as opposed to a trial-level model like the Rescorla-Wagner model. A single step t in the Rescorla-Wagner model represents an entire conditioning trial. The model does not apply to details about what happens during the time a trial is taking place, or what might happen between trials. Within each trial an animal might experience various stimuli whose onsets occur at particular times and that have particular durations. These timing relationships strongly influence learning. The Rescorla-Wagner model also does not include a mechanism for higher-order conditioning, whereas for the Temporal Difference model, higher-order conditioning is a natural consequence of the bootstrapping idea that is at the base of Temporal Difference algorithms.
+
+14.2.4 Temporal Difference Model Simulations 350
+
+Real-time conditioning models like the Temporal Difference model are interesting primarily because they make predictions for a wide range of situations that cannot be represented by trial-level models. These situations involve the timing and durations of conditionable stimuli, the timing of these stimuli in relation to the timing of the Unconditioned Stimulus, and the timing and shapes of Conditioned Responses. For example, the Unconditioned Stimulus generally must begin after the onset of a neutral stimulus for conditioning to occur, with the rate and effectiveness of learning depending on the inter-stimulus interval, or Inter Stimulus Interval, the interval between the onsets of the Conditioned Stimulus and the Unconditioned Stimulus. When Conditioned Responses appear, they generally begin before the appearance of the Unconditioned Stimulus and their temporal profiles change during learning. In conditioning with compound Conditioned Stimuli, the component stimuli of the compound Conditioned Stimuli may not all begin and end at the same time, sometimes forming what is called a serial compound in which the component stimuli occur in a sequence over time. Timing considerations like these make it important to consider how stimuli are represented, how these representations unfold over time during and between trials, and how they interact with discounting and eligibility traces.
+
+Figure 14.1 shows 3 of the stimulus representations that have been used in exploring the behavior of the Temporal Difference model: the Complete Serial Compound [CSC], the Micro Stimulus [MS], and the presence representations [Ludvig, Sutton, and Kehoe, 2012]. These representations differ in the degree to which they force generalization among nearby time points during which a stimulus is present.
+
+One of the theoretical issues arising with serial-compound conditioning, that is, conditioning with a compound Conditioned Stimulus whose components occur in a sequence, concerns the facilitation of remote associations. It has been found that if the empty trace interval between a first Conditioned Stimulus [Conditioned Stimulus A] and the Unconditioned Stimulus is filled with a second Conditioned Stimulus [Conditioned Stimulus B] to form a serial-compound stimulus, then conditioning to Conditioned Stimulus A is facilitated. Shown to the right is the behavior of the Temporal Difference model with the presence representation in a simulation of such an experiment whose timing details are shown above. Consistent with the experimental results [Kehoe, 1982], the model shows facilitation of both the rate of conditioning and the asymptotic level of conditioning of the first Conditioned Stimulus due to the presence of the second Conditioned Stimulus.
+
+Just so this is crystal crystal crystal clear that I am sort of at least half following along and giving a shit and paying attention this is something like say we have a class and on Test days the teacher plays an annoying song like Here Comes The Test but then follows it up with 30 minutes of normal lecture prior to the Test it will be a weaker association between Here Comes The Test and Testing itself than if there is then a 30 minutes of kind of novel ish pre test lecturing or whatever. Which would itself be an interesting a sort of environment in which to test because of course at the standard generic high school level such sort of explicit immediate prior priming and short term memory usage can be tricky to obtain non trivial performance boosting whereas in college or in most testing settings this sort of thing can be executed. But when it comes in to the day by day of executing 14 hours of Computer Science ideation and code generation labour then again there is no real performance to be hacked per se, the aggregate performance overall is that object thing which is to be the Object Of Desire if you will. The hand wavey kind of intuitive explanation or description of this human phenomenon rationalisation might be that like following it up with a normal lecture confuses the signal in our memory whereas we may actually learn the pattern like Here Comes The Test followed by the pre test lecture followed by the Testing itself.
+
+Now in the second example it is claiming that like in this toy metaphor the strength of association of the pre test lecturing with Testing is itself much lower if Here Comes The Test is playing the entire time. And here the strength of association with Conditioned Stimulus B is not even monotone it actually declines after a certain number of trials i.e. we are learning learning learning from our prior and then over time we maybe asymptote somehow balancing when Conditioned Stimulus A is present the strengths here. Maybe an intuition would be like our certainty of the inter correlation between these 2 actually is kind of weaker at some mid tier but as that strengthens later then we update correctly to a more accurate representation of our knowledge of these stimuli and how they correspond or something sorta kinda hand wavey waved like that. In any case that is the dynamiques of the underlying equations right here.
+
+Now then if we have learned of the Conditioned Stimulus B and then introduced Conditioned Stimulus A there is a natural dropoff in the strength of association with Conditioned Stimulus B. And so if it was not quite clear in the initial textbook text here predictively this sort of means that now after some training if we just see Conditioned Stimulus B there is much more uncertainty as to whether or not the Unconditioned Stimulus will follow for now we have that all bound and tied up also with Conditioned Stimulus A and also of course if we were just to observe Conditioned Stimulus A then that would be another matter for our a posteriori reasoning and updating about these matters without any other causal explanations for these phenomena merely some computational observations. And vis a vis capital and assets markets these precise precisifications tasks or generating of algorithms which will execute profitably come in to play, causality, and simply producing useful profitable signals via Deep Learning and a lot of compute like perhaps the XTX Markets firm is prone to doing with a mixture of mid to high brow mathematiques as well as perhaps some human centaur guided observations related to the markets and their own internal datasets.
+
+Now the actual mathematics here are made more clear about:
+
+With the Temporal Difference model, an earlier predictive stimulus takes precedence over a later predictive stimulus because, like all the prediction methods described in this book, the Temporal Difference model is based on the backing-up or bootstrapping idea: updates to associative strengths shift the strengths at a particular state toward the strength at later states. Another consequence of bootstrapping is that the Temporal Difference model provides an account of higher order conditioning, a feature of classical conditioning that is beyond the scope of the Rescoral-Wagner and similar models. As we described above, higher-order conditioning is the phenomenon in which a previously-conditioned Conditioned Stimulus can act as a Unconditioned Stimulus in conditioning another initially neutral stimulus. Figure 14.3 shows the behavior of the Temporal Difference model (again with the presence representation) in a higher-order conditioning experiment—in this case it is second-order conditioning. In the first phase (not shown in the figure), Conditioned Stimulus B is trained to predict a Unconditioned Stimulus so that its associative strength increases, here to 1.65. In the second phase, Conditioned Stimulus A is paired with Conditioned Stimulus B in the absence of the Unconditioned Stimulus, in the sequential arrangement shown at the top of the figure. Conditioned Stimulus A acquires associative strength even though it is never paired with the Unconditioned Stimulus.
+
+OK so this example here where the connection transfers over later to Conditioned Stimulus B getting preceded by Conditioned Stimulus A after removing the Unconditioned Stimulus and here we learn over from B to A despite no response Unconditioned Stimulus so OK connections in the connectome connect directedly over and all yadda backwards up in time too that direction good good good and e.g. if we have a new teacher and they just do a couple days of 2 teachers talking rather than giving us a Daily Quiz we might soon get hit with the old predict a Daily Quiz upon simply observing the new teacher task in which case... well this framing is a clowny clown tier one I suppose.
+
+Right some maths models about Response.
+
+Perhaps the most notable feature of the Temporal Difference model is that it is based on a theory - the theory we have described in this book - that suggests an account of what an animal's nervous system is trying to do while undergoing conditioning: it is trying to form accurate long-term predictions, consistent with the limitations imposed by the way stimuli are represented and how the nervous system works. In other words, it suggests a normative account of classical conditioning in which long-term, instead of immediate, prediction is a key feature.
+
+Reinforcement learning algorithms allow wide latitude for how much guidance an agent can employ in selecting actions. The forms of exploration we have used in the algorithms presented in this book, such as "-greedy and upper-confidence-bound action selection, are merely among the simplest. More sophisticated methods are possible, with the only stipulation being that there has to be some form of exploration for the algorithms to work effectively.
+
+14.3 Instrumental Conditioning 357
+
+We turn now to the subject of learning when reinforcing stimuli occur well after the events they reinforce. The mechanisms used by reinforcement learning algorithms to enable learning with delayed reinforcement-eligibility traces and Temporal Difference learning-closely correspond to psychologists' hypotheses about how animals can learn under these conditions.
+
+So this subchapter is extremely relevant and interesting in the context of how we view other animals' behaviour which is the thing. So in the analysis of maximising reward over time of course is like we have some model for some environment and the options it may present us with in the future yadda. OK OK and state based yadda robust yadda hunger drive reward tasty yadda.
+
+14.4 Delayed Reinforcement 361
+
+Wow this is some ancient stuff ancient maths.
+
+14.5 Cognitive Maps 363
+
+Latent learning is most closely associated with the psychologist Edward Tolman, who interpreted this result, and others like it, as showing that animals could learn a "cognitive map of the environment" in the absence of rewards or penalties, and that they could use the map later when they were motivated to reach a goal (Tolman, 1948). A cognitive map could also allow a rat to plan a route to the goal that was different from the route the rat had used in its initial exploration. Explanations of results like these led to the enduring controversy lying at the heart of the behaviorist/cognitive dichotomy in psychology. In modern terms, cognitive maps are not restricted to models of spatial layouts but are more generally environment models, or models of an animal's "task space" (e.g., Wilson, Takahashi, Schoenbaum, and Niv, 2014). The cognitive map explanation of latent learning experiments is analogous to the claim that animals use model-based algorithms, and that environment models can be learned even without explicit rewards or penalties. Models are then used for planning when the animal is motivated by the appearance of rewards or penalties.
+
+14.6 Habitual And Goal-Directed Behavior 364
+
+The distinction between model-free and model-based reinforcement learning algorithms corresponds to the distinction psychologists make between habitual and goal-directed control of learned behavioral patterns. Habits are behavior patterns triggered by appropriate stimuli and then performed more-or-less automatically. Goal-directed behavior, according to how psychologists use the phrase, is purposeful in the sense that it is controlled by knowledge of the value of goals and the relationship between actions and their consequences. Habits are sometimes said to be controlled by antecedent stimuli, whereas goal-directed behavior is said to be controlled by its consequences (Dickinson, 1980, 1985). Goal-directed control has the advantage that it can rapidly change an animal's behavior when the environment changes its way of reacting to the animal's actions. While habitual behavior responds quickly to input from an accustomed environment, it is unable to quickly adjust to changes in the environment. The development of goal-directed behavioral control was likely a major advance in the evolution of animal intelligence.
+
+14.7 Summary 368
+
+OK solidly written summary indeed.
+
+Barto, Russell, Rangel, Camerer, Montague oy Caltech gangers. They wrote the damn paper/book/bill!
+
+15 Neuroscience 377
+
+The most remarkable point of contact between reinforcement learning and neuroscience involves dopamine, a chemical deeply involved in reward processing in the brains of mammals. Dopamine appears to convey Temporal Difference errors to brain structures where learning and decision making take place. This parallel is expressed by the reward prediction error hypothesis of dopamine neuron activity, a hypothesis that resulted from the convergence of computational reinforcement learning and results of neuroscience experiments. In this chapter we discuss this hypothesis, the neuroscience findings that led to it, and why it is a significant contribution to understanding brain reward systems. We also discuss parallels between reinforcement learning and neuroscience that are less striking than this dopamine/Temporal Difference error parallel but that provide useful conceptual tools for thinking about reward-based learning in animals. Other elements of reinforcement learning have the potential to impact the study of nervous systems, but their connections to neuroscience are still relatively undeveloped. We discuss several of these evolving connections that we think will grow in importance over time.
+
+15.1 Neuroscience Basics 378
+
+Yadda.
+
+15.2 Reward Signals, Reinforcement Signals, Values, And Prediction Errors 380
+
+Yadda. Prediction. Predictive processing.
+
+15.3 The Reward Prediction Error Hypothesis 381
+
+Yadda.
+
+15.4 Dopamine 383
+
+Young ninja move that dope ay move that dope ay move that dope. King Push YUCK. Tyrosine, L-Tyrosine, Acetyl L-Tyrosine. No more of that L-DOPA shit.
+
+15.5 Experimental Support For The Reward Prediction Error Hypothesis 387
+
+OK good for the monkey monkeys.
+
+15.6 Temporal Difference Error/Dopamine Correspondence 390
+
+
+
+15.7 Neural Actor lambda-Critic 395
+
+
+
+15.8 Actor And Critic Learning Rules 398
+
+
+
+15.9 Hedonistic Neurons 402
+
+
+
+15.10 Collective Reinforcement Learning 404
+
+Yeah yeah this is precisely where some things can maybe get really really interesting. Want to know True things about human groups, ideology, Twitter, etc. and how these so called social networks and social media function.
+
+15.11 Model-Based Methods In The Brain 407
+
+
+
+15.12 Addiction 409
+
+Right so we get back to Stephen Grant and the matters of getting the kiddos to swap over to the instant coffee life at best better than the fucking cigarettes or vapes or even nicotine gums bro but nicotine gums and patches ain't so bad after all. Drugs, drug specifics, routes of administration, and dosage is everything. Stimulants ain't stimulants bro the devil is in the details and the right move Game Theoretically Optimal strategy for the young kiddos wanna work 14 hours per day on maths is to start up the instant coffee habit eat 1 per day bro.
+
+15.13 Summary 410
+
+Ah good good more Camerer and Rangel good good those dudes were putting in good work and also teaching the kiddos some of the old basic Economiques 101 to boot. Great men there at Caltech really doing the "God's work" as they would say i.e. their work. Varies person to person how grating and agitating Judeo Christian isms and anti theisms are.
+
+16 Applications And Case Studies 421
+
+
+
+16.1 Temporal Difference-Gammon 421
+
+Temporal Difference-Gammon had a significant impact on the way the best human players play the game. For example, it learned to play certain opening positions differently than was the convention among the best human players. Based on Temporal Difference-Gammon's success and further analysis, the best human players now play these positions as Temporal Difference-Gammon does [Tesauro, 1995]. The impact on human play was greatly accelerated when several other self-teaching Artificial Neural Networks backgammon programs inspired by Temporal Difference-Gammon, such as Jellyfish, Snowie, and GNUBackgammon, became widely available. These programs enabled wide dissemination of new knowledge generated by the Artificial Neural Networks, resulting in great improvements in the overall caliber of human tournament play [Tesauro, 2002].
+
+16.2 Samuel's Checkers Player 426
+
+
+
+16.3 Watson's Daily-Double Wagering 429
+
+Why was the Temporal Difference-Gammon method of self-play not used to learn the critical value function v? Learning from self-play in Jeopardy! would not have worked very well because Watson was so different from any human contestant. Self-play would have led to exploration of state space regions that are not typical for play against human opponents, particularly human champions. In addition, unlike backgammon, Jeopardy! is a game of imperfect information because contestants do not have access to all the information influencing their opponents' play. In particular, Jeopardy! contestants do not know how much confidence their opponents have for responding to clues in the various categories. Self-play would have been something like playing poker with someone who is holding the same cards that you hold.
+
+Critical and fascinating in the context of James Holzhauer.
+
+16.4 Optimizing Memory Control 432
+
+
+
+16.5 Human-level Video Game Play 436
+
+
+
+16.6 Mastering The Game Of Go 441
+
+
+
+16.6.1 AlphaGo 444
+
+
+
+16.6.2 AlphaGo Zero 447
+
+
+
+16.7 Personalized Web Services 450
+
+Important.
+
+A method long used in marketing called A/B testing is a simple type of reinforcement learning used to decide which of two versions, A or B, of a website users prefer. Because it is non-associative, like a two-armed bandit problem, this approach does not personalize content delivery. Adding context consisting of features describing individual users and the content to be delivered allows personalizing service. This has been formalized as a contextual bandit problem (or an associative reinforcement learning problem, Section 2.9) with the objective of maximizing the total number of user clicks. Li, Chu, Langford, and Schapire (2010) applied a contextual bandit algorithm to the problem of personalizing the Yahoo! Front Page Today webpage (one of the most visited pages on the internet at the time of their research) by selecting the news story to feature. Their objective was to maximize the click-through rate (CTR), which is the ratio of the total number of clicks all users make on a webpage to the total number of visits to the page. Their contextual bandit algorithm improved over a standard non-associative bandit algorithm by 12.5%.
+
+16.8 Thermal Soaring 453
+
+
+
+17 Frontiers 459
+
+In this final chapter we touch on some topics that are beyond the scope of this book but that we see as particularly important for the future of reinforcement learning. Many of these topics bring us beyond what is reliably known, and some bring us beyond the Markov Decision Process framework.
+
+17.1 General Value Functions And Auxiliary Tasks 459
+
+
+
+17.2 Temporal Abstraction Via Options 461
+
+Critical.
+
+17.3 Observations And State 464
+
+Critical.
+
+17.4 Designing Reward Signals 469
+
+This is some of the most critical stuff. Right here this ideation is so critical in the direction towards the stuff in that LessWrong post which I applied to the position for Reinforcement Learning research and the general pursuit of general intelligence agenda underlying some of the Francois Chollet agenda.
+
+17.5 Remaining Issues 472
+
+The fifth issue that we would like to highlight for future research is that of the interaction between behavior and learning via some computational analog of curiosity. In this chapter we have been imagining a setting in which many tasks are being learned simultaneously, using off-policy methods, from the same stream of experience. The actions taken will of course influence this stream of experience, which in turn will determine how much learning occurs and which tasks are learned. When reward is not available, or not strongly influenced by behavior, the agent is free to choose actions that maximize in some sense the learning on the tasks, that is, to use some measure of learning progress as an internal or “intrinsic” reward, implementing a computational form of curiosity. In addition to measuring learning progress, intrinsic reward can, among other possibilities, signal the receipt of unexpected, novel, or otherwise interesting input, or can assess the agent's ability to cause changes in its environment. Intrinsic reward signals generated in these ways can be used by an agent to pose tasks for itself by defining auxiliary tasks, General Value Functions, or options, as discussed above, so that skills learned in this way can contribute to the agent's ability to master future tasks. The result is a computational analog of something like play. Many preliminary studies of such uses of intrinsic reward signals have been conducted, and exciting topics for future research remain in this general area.
+
+A final issue that demands attention in future research is that of developing methods to make it acceptably safe to embed reinforcement learning agents into physical environments. This is one of the most pressing areas for future research, and we discuss it further in the following section.
+
+17.6 The Future Of Artificial Intelligence 475
+
+But an abundance of successful real-world applications does not mean that true artificial intelligence has arrived. Despite great progress in many areas, the gulf between artificial intelligence and the intelligence of humans, and even of other animals, remains great. Superhuman performance can be achieved in some domains, even formidable domains like Go, but it remains a significant challenge to develop systems that are like us in being complete, interactive agents having general adaptability and problem-solving skills, emotional sophistication, creativity, and the ability to learn quickly from experience. With its focus on learning by interacting with dynamic environments, reinforcement learning, as it develops over the future, will be a critical component of agents with these abilities.
+
+The Sorcerer's Apprentice by Goethe... The Tiger's Apprentice interesting stuff.
+
+In closing, we return to Simon's call for us to recognize that we are designers of our future and not simply spectators. By decisions we make as individuals, and by the influence we can exert on how our societies are governed, we can work toward ensuring that the benefits made possible by a new technology outweigh the harm it can cause. There is ample opportunity to do this in the case of reinforcement learning, which can help improve the quality, fairness, and sustainability of life on our planet, but which can also release new perils. A threat already here is the displacement of jobs caused by applications of artificial intelligence. Still there are good reasons to believe that the benefits of artificial intelligence can outweigh the disruption it causes. As to safety, hazards possible with reinforcement learning are not completely di↵erent from those that have been managed successfully for related applications of optimization and control methods. As reinforcement learning moves out into the real world in future applications, developers have an obligation to follow best practices that have evolved for similar technologies, while at the same time extending them to make sure that Prometheus keeps the upper hand.
+
+OK maybe back to Notes taking through let us see maybe we spin Goodfellow, Bengio, Courville after The Linux Bible which I am sure is a much more important Bible for now than re spinning the King James Bible in English.

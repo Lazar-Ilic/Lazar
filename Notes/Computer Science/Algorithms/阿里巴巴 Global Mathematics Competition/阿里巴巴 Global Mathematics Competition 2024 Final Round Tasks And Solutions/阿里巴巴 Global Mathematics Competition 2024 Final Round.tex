@@ -1,0 +1,111 @@
+% Awful awful awful performance. One of the worst lowest moments of my life thus far. I think Task 3 is potentially quite easy with the usual inequality techniques. Not sure. Task 1 is probably easy. Task 4 is quite plausibly easy with respect to the canon square case I mentioned and sorting. My error on probability of intersection being maybe trivially lower bounded by the maximum of 2 areas. Task 5 is also probably easy enough with respect to the canon. I am hoping for 80|120 points on the Final Round if there is a next year. Maybe 100|120.
+
+1 \\
+Yet again like on the qualification round we have a tridiagonal matrix, here with 0 on the main diagonal. With X_0=0 one has that still the probability of transition from 0 to 1 must be 1 by definition at which point under the cyclicity basically this holds modulo m on the indices such that any move forward up a batch modulo m can not be moved backwards in the chain. Then taking modulo m as in (2) one obtains that this sum for A is actually the probability of moving forward in an arbitrary step from the stationary distribution. If A>1/2 means that there is some probability... Linearity Of Expectation with a strong induction.
+
+\newpage
+2 \\
+It certainly ought to be noted that the Right Hand Side simply counts the number of edges in the graph by the simple counting argument. Each edge formally is counted in the summation precisely once during the step associated with its origin vertex. The Left Hand Side counts the number of 2 paths in the graph. Under the assumption. As each 2 path is ensured to be a minimal path. And it is simple so there is no 2-cycle in the graph. But this can be counted another way indeed as the sum of indegree * outdegree = indegree^2 over each vertex. Indeed, each in-edge can be paired with each out-edge to form those unique 2-paths associated with that middle-vertex. Now the Right Hand Side can be counted as sum of indegree over each vertex. And it becomes clear that 0s are irrelevant canceling in each side of those summations. But any positive integer value for indegree will immediately render indegree^2 >= indegree and thus the Left Hand Side summation is >= the Right Hand Side summation. Simple. Slick. Beautiful enough for a quick easy puzzle.
+
+% Post Facto Analysis: This should have been typed up in more formal .tex and implemented better in the round live in about 5 minutes flat. Something more like...: The Right Hand Side counts the number of edges in the graph. Indeed, each edge contributes 1 to that summation in the relevant summand term corresponding with its originating vertex whence it emanates. The Left Hand Side counts the number of minimal paths of length 2. Indeed, this representation of the summation also holds under the term whence such a path emerges in the distance function. The simple condition in conjunction with the u -> v, v -> w implies not u -> w condition then implies logically that every path of length 2 is a minimal path. Now it is canonical that this can be counted in another way, via taking a summation of indegree * outdegree over all of the vertices. Because each minimal path of length 2 will have a unique middle vertex and this represents casework on the middle vertex. Now it follows as sum of indegree * outdegree = sum of indegree^2 and this is >= sum of indegree due to the Trivial Inequality.
+
+\newpage
+3 \\
+So if there exists a finite sequence leading to the precise value of the fractional rational representation in particular we are forced to go up to that value under a greedy strategy and then have a +1 followed by an infinite string of -1s according to the task problem conditions. The values g(-1) and g(1) might be useful and their Delta incorporated in to our C value. It would seem as though this task on a high level has to do with a tradeoff between very flat and very steep slope sections on the function g and how those will impact this expected value as a sum over the entire interval. In particular maybe this value of error is quite high but when it is quite high it would seem that implies it is quite high over a very finite bounded quite small portion of the interval. And the squared term is relevant inside the expected value brackets. So perhaps there is even a simplish continuous theorem or discrete setting to take this to to prove it almost inductively based around Holder's Inequality.
+
+% I think we can simply factor out a [g[1]-g[-1]]^2 term here and reduce the task statement to one on a simpler unit interval somehow with corners at [0,0] and [1,1] if needed. And then the approximation is ensured to be within some relevant power of 2 of the underlying in the domain x-range. At which point we may upper bound the summation with an integral which can then itself be upper bounded by rounding down left hand terms and rounding up right hand terms... so we end up with something more like e.g. maybe a sum like it suffices to bound a sum of terms like [1/8+1/8+...][g[2/8]-g[0/8]]^2+[g[3/8]-g[1/8]]^2+... or something like this which can then be grasped perhaps with the usual inequality tricks or rather perhaps more like the easy [1/8+1/8+...][g[2/8]-g[0/8]]^2+[g[3/8]-g[1/8]]^2+... at which point we might immediately break down the sum in the middle to 2 sums and further extend one of them to still sharply bound those portions as decreasing with increasing n to obtain a better exponent term of 1/2 or 1/sqrt[2] here which are both sharper than 0.9 maybe maybe maybe. Not sure not a confirmed proof writeup but one might think that would be too easy for a Task 3 especially given their hinting.
+
+\newpage
+4 \\
+The locations are irrelevant. Under translation all that matters is the set of k values. One is reminded of a canonical proof of a similar theorem for squares. In particular, I think in that proof a simple greedy algorithm of sorting from largest to smallest and then inserting in forced bottom left to right and then up order worked. To be sure it is also worth noting here that there could exist some set of homotheties from the actual convex hull that is to say that in some shapes and polygons one can consider an algorithm which places shapes in order around a ring around the interior of the shape and then perhaps deduces an inductive step now to the interior of the shape where some sub-shape of the similar shape exists to then strong inductively place the rest in sequences so in particular if there is an n-gon maybe we place the first n biggest dudes if possible around the homotheties from the vertices and then induct from there but this approach seems less good than the first. Even another argument might be related to the probabilistic method. That is to say that if we ensure to throw down the dudes randomly or according to some well-chosen random distribution then certain properties will hold such that the probability any 2 dudes intersect is very low. From the usual Cauchy-Schwarz Inequality for that proof idea one obtains immediately that sum of k^2 values is <= 1/8 and thus the sum of k-values is <= [n/8]^[1/2]. This is interesting because it has to do with some kind of bound from the [sum of k]^2 producing some kind of sum of k_i * k_j terms where the actual probability related to the probability that shape i and shape j intersect is bounded linearly with respect to that term by the usual locus of interior possible center points. So if the distribution is uniform under the condition that the interior property is satisfied for example the each shape can slide around according to its own k-value but still maybe the intersection bound here is forced to relate to the areas themselves so maybe we deduce that the sum of 2 k_i^2 * k_j^2 terms for example is <= 1/64 and so the sum of k_i^2 * k_j^2 values is <= 1/128 and maybe then from that alone we can assert that the probability any 2 dudes intersects is <= the sum of probabilities over all of the pairs of dudes and as long as the probability k_i and k_j intersects is <= 128 * k_i^2 * k_j^2 then we are done as the expected value of the number of pairs of shapes intersecting would be < 1 Union Bound. This seems immensely plausible and might fall from easy Euclidean geometry argumentation over the convexity condition.
+
+% Think that the sorting and greedy approach is not so bad here. Review the canonical square case and reflect more deeply upon further optimisations maybe as a bonus upsolving task.
+
+% 2024-10-24 Update: it almost certainly ought to be noted here that there is a canonical potentially relevant result. So the actual numerics here do not seem too tight. And the minimum bounding rectangle for any convex hull in R2 has area at most 2* the area of the underlying polygon. Interesting enough because it would then suffice to show we could insert such similar rectangle shapes around the original dudes in to the figure with density at least 1/4 would suffice. Maybe take an affine transformation so that we stretch the plane and these minimum inscribing rectangles are squares.
+
+% https://en.wikipedia.org/wiki/Minimum_bounding_rectangle
+% https://www.geometrictools.com/Documentation/MinimumAreaRectangle.pdf
+% https://en.wikipedia.org/wiki/Rotating_calipers
+% https://math.stackexchange.com/questions/340798/largest-rectangle-in-a-convex-polygon
+
+% OKOKOK so indeed the result falls immediately from my observations mixed in with Marek Lassak's Approximation Of Convex Bodies By Rectangles which is of course very topical and related to this year's earlier qualification round task on the John-Löwner Ellipsoids.
+
+% Could practise doing the full writeup here. Or during preparation for next year's final round practise more writing. It would seem like upon further reflection one ought to provide the graders with an actual reference or name for any citation or claim of something being super canonical. Otherwise a competitor might write half a page leading in to a statement like: it suffices to show X. But of course we all know that X is an extremely canonical famous result once shown somewhere in the literature.
+
+% So here we can start with stating the theorem by Marek Lassak. Then wrap each inscribed shape in its rectangle dude and also construct the inscribed rectangle in to the big shape. Now the areas to be drawn inside the inner rectangle have at most half its area. But then under the affine transformation this is exactly the setting known formally as Moon and Moser's Theorem.
+
+\newpage
+5 \\
+A combinatorial approach using generating functions might work. In particular we may note that each case maps to an instance where the earliest and latest signal time are defined. So we may take a summation over each pair of possible earliest and latest signal time. Then it would suffice to enumerate the number of binary strings satisfying the left, middle, and right portion. The left and right portions are symmetric and that sequence is radically plausibly canonical in the literature. As for the middle portion, I would imagine that one is too. And then we could take some values from the Online Encyclopaedia Of Integer Sequences and plug them in here to maybe derive the desired Theta asymptotic. In this breakdown I think the middle portion is only constrained by the 2 bounds given by its ends and otherwise is free to move between those 2 values as desired on the interval. And this whole thing will be 1 big double summation where the lengths of the first 2 portions uniquely determine the length of the final portion as n-a-b. I am ~60\% sure that such functions exist right now in the Online Encyclopaedia Of Integer Sequences and that in particular they might even be written down in such an easy asymptotic notation with a citation such that this proof is trivialised via that route during a qualification round style of a setting.
+
+% So it is more clear, the enumeration task for the middle portion has been done before and is canonical. It is also canonical in my own competitive programming corpus where binary exponentiation of a transition state matrix Markov Chain works OK in some settings. The asymptotic Theta here should be well understood enough to take a ~ ~ Theta Theta Theta that will actually work to generate a proper Theta for the overall double summation. As for the round, it ought to have been stated in round that for the condition to hold e.g. in the left hand portion we will need the term a-1 to appear immediately prior to that instance of a. But for a-1 to not be an even more leftmost index of the desired condition occurring it follows that a-1 must have also come again at an earlier point. And in fact we can note something like this for each value along the way deducing that each value of 0, 1, 2, ..., a-1 must occur twice or more so >= 2 times in the chain leading in to the a valuation. Now this is also almost certainly canonical and I have yet to formally upsolve but I would think a sharp young aspiring combinatorialist researcher here might know the True True... someone like Brian Liu e.g. would have this part totally precomputed and ready to go and it is thus the case that he is probably the meritorious victor in this bout of a duel of isms of intellectuals on the aethernetwork. Friendly Enemies shit. I woke up on a ABCDEFGEx flex oops forgot the rest. But maybe the direct value is also just canonical via some other routes here.
+
+% Kind of bad task writing yet again from the Alibaba firm and company. Should have clarified strictness at the bounds here. For this upsolve I will consider the strict case I suppose. So it needs to hit every level beneath and above the bounds >=2 times.
+
+% 1,2,3,8,10,27,38,94,143,336,540,1225,2040,4536,7724,16975
+
+\begin{verbatim}
+	for(a=4;a<20;a++){
+		z=0;
+		for(c=0;c<(1<<a);c++){
+			MII lolol;
+			b=0;
+			I maxx=0;
+			for(d=0;d<a;d++){
+				if(c ba (1<<d))b++;
+				else b--;
+				lolol[b]++;
+				maxx=max(maxx,b);
+			}
+			y=1;
+			for(auto dude:lolol)if(dude.first<=0 or (dude.second<2 and dude.first!=maxx) or (dude.second<2 and dude.first==maxx and b==maxx))y=0;
+			if(y)z++;
+		}
+		out<<z<<nl;
+	}
+
+	for(a=4;a<20;a++){
+		z=0;
+		for(c=0;c<(1<<a);c++){
+			b=0;
+			for(d=0;d<a;d++){
+				if(c ba (1<<d))b++;
+				else b--;
+				if(b<=0){
+					b=0;
+					d=a;
+				}
+			}
+			if(b)z++;
+		}
+		out<<z<<nl;
+	}
+
+3
+6
+10
+20
+35
+70
+126
+252
+462
+924
+1716
+3432
+6435
+12870
+24310
+48620
+
+\end{verbatim}
+
+% So I might need to re think this one later in terms of Markov Chains or something Linear Algebra or something probably might work here.
+
+% A couple days later it hits me that this is probably a kind of weak approach anyways. Think due to the usual random walking stochastic processes ideas here the vast majority of sequences stay within O[sqrt[n]] of their starting point or whatever. So maybe we can instead case on the explicit case just on the index of the first such value. So we can reason about the length of a path to the left and right where the path on the right just needs to stay above the value and the path on the left is supposed to hit every single value twice or whatever. Well OK for the paths to the left we can note that it will be at least the number of paths to the left under the found for n-O[sqrt[n]] as each can simply be extended in O[sqrt[n]] to satisfy the desired property. And it is at most the number of such paths for n. So the asymptotic is interesting to discover. But maybe this is sort of like the Catalan Numbers. Maybe not quite. I should certainly know this off the top of mmy head. So it is the central binomial coefficients yet again which grow kind of like asymptotically in 4^n/sqrt[n] or something. integral from 0 to m of [sqrt[x]*sqrt[m-x]] says this sum of products would be like O[m^2*4^m] is still under O[4.1^m] or whatever giving the desired result I think quite easily really and this would need to be written up more formally with bounds and probabilities and numbers and so on. Time to crack 1 eventually. This looks trivial.
+
+% OKOKOK so the more precise numerics here would be something like uh... integral from 0 to m of 4^(x/2*0.999)/sqrt(x/2*0.999)*4^((m-x)/2)/sqrt((m-x)/2) dx is under the true value and integral from 0 to m of 4^(x/2)/sqrt(x/2)*4^((m-x)/2)/sqrt((m-x)/2) dx is over the true value uh off by a factor of pi of course from the usual approximation but nevertheless it would appear that a vast majority of binary strings will work here e.g. like the proportion of binary strings which work goes to 0 or something. But this still seems off somehow like the true value should be uh more like uh maybe uh uh uh 1/2 or something. Mmm umm oh this is also wrong uh uh uh maybe like the true value here is some dude <2 in the exponent actually uh worth examining more closely and thinking about these numerics and how to ace something like this in round next year.
+
+\newpage
+6 \\
+I feel as though I may have seen this lemma floating by my monitour recently on the ArXiV Combinatorics section. Perhaps the argumentation has to do with the usual style of Markov, Chernoff, Lovasz invocations on the rightly selected objects and structures here. Probabilities with some canonical theorem.
