@@ -1,0 +1,212 @@
+I never thought I would teach English writing. After scoring a 5.5|6.0 on my first shot at the writing portion of the GRE Graduate Record Examinations, I decided to study technical writing more closely. Here, I mostly focus on criticising weak writing. This might change later to include more praise. I am a far worse writer than the authors of the style guides I have in my library [Library.txt]. I first enumerate examples and then critique. Also, my editor G tells me I am a bad writer.
+
+----------
+
+	01
+
+"
+I would like to announce that I am no longer employed at xAI. This seperation comes as a result of things I posted on this account relating to my stance on AI philosophy.  Much could be said about this decision and my DMs are open for anyone who wants to hear my side of the story but I am not here to litigate this publicly.  Instead I am focusing my sights onward and upward.
+
+On that note, I am currently open to opportinities anywhere in the USA. I've linked my resume below.  Please feel free to DM me with any opportunities you have that you think might be a good fit or send my resume to anyone you know who's looking for candidates.
+
+In addition to the information on my resume I also have over a decade of experience in bodybuilding and strength training. Over these years I have accumulated extensive knowledge of training, nutrition and supplementation. This might not be relevant to many opportunities but it's obviously a big part of my life so I thought I'd mention it. 
+
+*Final Note: From July 22-27 I will be camping on a mountainside to celebrate my 32nd birthday with some old friends and cell service will be spotty so I might not be the most responsive.  I will try to get back to anyone who reached out by the 28th.
+"
+- Michael Druggan
+
+	02
+
+Stephenson is a proper noun which means son of Stephen.
+
+	03
+
+"Autistic Girl From Oregon Kicked Off Airplane"
+
+	04
+
+"20's" - S
+
+	05
+
+"Work shall set you free" - Max Dama of Headlands Technologies referencing Nazis
+
+	06
+
+~"I hope your son does not have a gun and never becomes a cocaine dealer." - Professor Wasalu Jaco
+
+	07
+
+"Premier math competition for undergraduate students in the United States and Canada." - J on The Putnam
+
+"3.97|4.0" - D describing Stanford GPA
+
+"Metaculus.com/Accounts/Profile/125313/" - Lazar Ilic
+
+	08
+
+I listed my current medications at the end of a message to my practitioner.
+
+	09
+
+"
+The problem is that especially in the MHC format, it seems close to impossible to reject FFT (especially on a setup that e.g. uses AWS to run all test cases in parallel) but accept the bitset solution without multithreading. In this case, it looks like it was possible to push the FFT solution through with basic multithreading (this was surprising to me given the constraints--maybe the test data is weak?). This was disappointing to me since it rewards e.g. making assumptions about the strength of the test data, having a stronger PC, spending time on setup optimization, etc.
+
+...
+
+Saw C had a solve and spent 45m thinking about it, came up with the bitset solution after the first 30m or so but convinced myself it was unintended/would TLE
+
+Switched to E and worked on it for the remainder of the contest; I got fairly close, but ended up making too many mistakes along the way to finish in time. (In retrospect, I was more reluctant than I should have been to use the brute force as a subroutine, even though I had already written it to confirm that a solution always exists.)
+
+Not realizing that my solution to C was fast enough was fairly sad, though it's not obvious that implementing C and then solving A in the last 90m of the round would have been much easier than solving E in the last 75m.
+"
+- Jay Leeds
+
+	10
+
+"Kalshi adjudicated" - Lazar Ilic
+
+	11
+
+We stay away from obscura. - Joe Smith of Hudson River Trading
+
+Looked clean. - Internet Commenters
+
+	12
+
+Therefore, this stuff is nontoxic. - Internet Commenters
+
+Directly training grip strength increases expected longevity and healthspan.
+
+	13
+
+Internet Commenter: Mentions fallacies and cognitive biases.
+
+	14
+
+"A piece of garbage like Kasparov might be called a chess genius, but he's like an idiot savant. Outside of chess he knows nothing." - Bobby Fischer
+
+	15
+
+Charles Christopher White Junior, also known as MoistCr1TiKaL|penguinz0, on the Jason Nichols news story.
+
+Chinese parents with white baby news story.
+
+"Androgenetic alopecia" - some Astral Codex Ten commenter to me.
+
+	16
+
+Causes ADHD. - Astral Codex Ten commenter.
+
+----------
+
+	01 Typos
+	02 Overly Literal Reading
+	03 Bad Word Choice
+	04 More Annoying Typos
+	05 Do Not Quote Nazis
+	06 Avoid "Comedy"
+	07 Do Not Lie On Resume Or Curriculum Vitae Documents
+	08 Clearer Than Clear
+	09 Weak Thesis
+	10 Proscriptive Language
+	11 Do Not Lie
+	12 Statistics
+	13 Stop Mentioning Fallacies And Cognitive Biases
+	14 Sneering
+	15 Calling Bullshit
+	16 No Hedging
+
+----------
+
+Eventually I will fill this section in with more thoughts.
+
+	01 Typos
+
+Typos and grammar errors instantly look bad. "seperation" is in Wiktionary as a misspelling of "separation".
+
+Furthermore, Michael accuses people of being "retarded" for the most minor pedantic ackshually reasons. Here he rambles about publicly litigating. If he wants to sue Elon Musk and post documentation in public, he is free to do so. I can not think of a single good Twitter|X.
+
+	02 Overly Literal Reading
+
+If one had to present a short definiton that had physical meaning, it would be better to say it means: descendent of Stephen. But even this probably does not come with a credence of 0.9999 that the proper noun points to a predecessor named Stephen - so for example Bezos is Spanish-sounding but Jeffrey is part Danish and his mum had remarried. See also -es -ez -ic suffices. If a Lars Johansson had a father named Johan, one can stress this separately.
+
+	03 Bad Word Choice
+
+The problem here is that many people are seriously confused as to what the word "autistic" is supposed to mean functionally. Some might genuinely think it means something like "ismos of autos". Others might think it means "selfish retard" except in a medico-legally certified sense.
+
+Maybe the writer thinks this is defensible, but it is not. Plenty of readers will parse this as "obnoxious person kicked off aeroplane" at which point they will not care. Moreover, writing on the ontology of psychiatric disorders often looks like confused garbage.
+
+This extends to circular illogic regarding the behaviours of Kanye Omari West. People will diagnose him based on his actions and words and then say his diagnosis morally exculpates him.
+
+	04 More Annoying Typos
+
+Just because Wiktionary suggests this usage is OK does not mean it is.
+
+	05 Do Not Quote Nazis
+
+Maybe Max thought this was funny or clever. Otherwise, the document is a strong introduction to algorithmic high frequency trading. But this would strike many in his readership as unfunny and not useful.
+
+	06 Avoid "Comedy"
+
+	07 Do Not Lie On Resume Or Curriculum Vitae Documents
+
+J sounds pretentious. D is lying and committing fraud; Stanford is graded on a ~4.3 scale. Lazar here provided a link which did not work.
+
+	08 Clearer Than Clear
+
+If one wants nursing staff to update their list of current medications, one ought to write a title on a separate message like "Please Update List Of Current Medications" with that information in the body.
+
+Moreover, describing stuff and being almost overly detail-oriented is good. Bret Easton Ellis is a strong writer.
+
+	09 Weak Thesis
+
+Here, Jay looks like a moron [my mother told me to never sneer like this in writing]. He is one of the worst competitive programmers ever in terms of his WA Wrong Answer rate. Again and again, he does not seem to understand modern processors or L1 cache performance. He is garbage at engineering software. And here he just shows it to the whole world.
+
+His writing contains many other errors. Some would think a weak thesis is the worst kind of error.
+
+	10 Proscriptive Language
+
+Kalshi uses language like "resolve" and "settle". It is worth imitating directly here because "adjudicate" usually has to do with a judge in a dispute.
+
+"An Apology to Jewel 'Reflecting on the power of words in real life and in tournament Scrabble'" by Matt Canik on Medium is solid.
+
+I am a big fan of reading dictionaries. If a writer uses "homosocial" without knowing its history of homophobic and misogynistic connotations, that is their error.
+
+I used to use "bull shit" to describe things I did not like. Nowadays I prefer "trash" or "garbage". I mentally associate quite a few chemicals with modern trash cans I encounter on Fridays around the Lost Creek neighbourhood but most do not share that perception so I would draw attention to that if I wanted to.
+
+	11 Do Not Lie
+
+Hudson River Trading is notorious for asking candidates about C++ "obscura". This is fine. Lying about it is counterproductive.
+
+Were I grading the Putnam, this would be grounds for an instant 0|10 score. It is much better to write "did not look unclean".
+
+	12 Statistics
+
+Say a study provides evidence some stuff is not highly toxic. I will not defend chemophobia in this document but note that the true effect size could be negative and small: consider what p = 0.05 and n ~ 50 mean statistically. Verifying nontoxicity in a strong sense of the word is hard.
+
+The second writing sample exemplifies a classic reasoning error.
+
+	13 Stop Mentioning Fallacies And Cognitive Biases
+
+It is annoying and usually unhelpful.
+
+	14 Sneering
+
+Is best kept private. I do not understand why Andrew Critch supports obviously psychotic rationalists such as Oliver Habryka.
+
+	15 Calling Bullshit
+
+My father told me to read Calling Bullshit: The Art of Scepticism in a Data-Driven World - Jevin D. West, Carl Bergstrom
+
+The aforementioned Michael Druggan feels a strong impulsion to opine so that he is not casually complicit in ongoing malefaction. I feel similarly.
+
+Charles's film was interesting - he suspects it was all set up to generate views.
+
+Quite a few commenters seem overly credulous in the genetics story which made no intuitive sense.
+
+Anyone suggesting "androgenetic alopecia" is a real medical condition is "mentally retarded". It is not, despite being in textbooks. Perhaps I am "strawmanning" a tiny bit here and re psychiatry.
+
+	16 No Hedging
+
+This one comes from Siskind's post "Half A Month Of Consolation Writing Advice". In particular, it would be more incisive and reveal potential disagreement to state the thing caused unintelligence. One can go further, and assert that unintelligence is ugly and not a diversity of neurons worth celebrating.

@@ -1,0 +1,629 @@
+\Large
+\twocolumn
+
+\textbf{Concepts And Practice Of Mathematical Finance Key Points}
+
+Key Points, Notes, and Solutions files are all useful for chronic nightly exposure.
+
+1.7 Key Points 13
+
+Risk is key to investment decisions as the only way to make money is by taking risky positions.
+
+Market efficiency means that all information is already encoded in the price of an asset so we cannot foretell stock prices.
+
+The risk premium is the amount of money we receive for taking on a risk.
+
+Hedging is the process of taking positions in different assets which reduce the total risk.
+
+Diversifiable risk does not receive a risk premium as it can be hedged away.
+
+A bond is an asset that pays a regular coupon and returns the principal at its maturity.
+
+A stock or share is a fraction of the ownership of a company. It is of limited liability and so carries rights without obligations.
+
+A forward contract is the right and obligation to buy an asset at an agreed day in the future at a price agreed today.
+
+A call option is the right but not the obligation to buy an asset at an agreed day in the future at a price agreed today.
+
+A put option is the right but not the obligation to sell an asset at an agreed day in the future at a price agreed today.
+
+2.10 Key Points 39
+
+An arbitrage is an opportunity to make money for nothing. An arbitrage portfolio is a portfolio of $0$ value which may be of positive value in the future, and will never be of negative value.
+
+A hedging strategy is a method of reducing the uncertainty in the value of the pay-off of an option by trading in the underlying.
+
+Rational bounds on the price of an option are arbitrage bounds which can be proven without making assumptions on the future behaviour of the asset.
+
+The short rate is the interest rate we obtain if we continuously reinvest cash. This is sometimes called the cash bond or the money-market account.
+
+A portfolio replicates an option if whatever happens, it has the same value as the pay-off of the option at the expiry of the option. If a portfolio replicates the option then the option's value is the price of setting up the portfolio.
+
+3.10 Key Points 70
+
+For a one-step tree with two branches, every option has a unique price.
+
+The probability of an up-move does not affect the price of an option in a one-step tree.
+
+A one-step three-branch tree does not lead to a unique price for an option.
+
+A no-arbitrage price for an option can be found by hedging, replication and risk-neutral evaluation.
+
+Replication and hedging arguments show that certain prices are not arbitrage free, but do not guarantee that the remaining prices are arbitrage-free.
+
+Risk-neutral valuation arguments show that certain prices are arbitrage-free but do not show that no other prices are arbitrage-free.
+
+Any tree in which each node has two daughter nodes leads to a unique price for an option.
+
+The price of an option in a multi-step tree can be found by stringing the probabilities forward to find the probability of attaining each node in the final layer.
+
+The price of an option in a multi-step tree can also be found by backwards iteration, i.e. by computing the option price at each node in each layer by starting with the last layer and iterating backwards.
+
+By fixing the mean and variance over a time interval, and letting the step-size go to $0$, we can deduce a model in which the final distribution of the stock is log-normal.
+
+When pricing options with the limiting process obtained from trees, the real world drift of the stock plays no role.
+
+The Black-Scholes price of a call option can be obtained by taking the discounted expected pay-off in a risk-neutral world.
+
+4.7 Key Points 90
+
+The buying and selling of vanilla options is really about the trading of volatility.
+
+The imperfection of models leads to the smile - the practice of using different volatilities to price options at different strikes.
+
+The derivatives of the price of a portfolio with respect to various parameters are known as the Greeks, and are denoted by Greek letters.
+
+The derivative with respect to the spot is the Delta.
+
+The second derivative with respect to the spot is the Gamma.
+
+The derivative with respect to the volatility is the Vega.
+
+The derivative with respect to time is the Theta.
+
+The derivative with respect to interest rates is the Rho.
+
+The Gamma expresses the amount of money we expect to make or lose from dynamic hedging.
+
+A possible source of smiles is jumps.
+
+Another possible source of smiles is stochastic volatility.
+
+In an incomplete market unique prices are no longer guaranteed.
+
+5.11 Key Points 123
+
+In this chapter we have covered a lot of ground. We introduced the concept of an Ito process and developed a calculus for manipulating them. We used that calculus to deduce a necessary price for a call option and extended the model to cope with dividend-paying assets.
+
+A Brownian motion is a process $W_t$ such that for any $t>s$, $W_t-W_s$ is normally distributed with variance $t-s$ and mean $0$ and is independent of $W_s$.
+
+Stochastic calculus generalizes ordinary calculus by letting the derivative have a random component coming from a Brownian motion.
+
+Stochastic calculus deals with Ito processes, in which the random variable's derivative has both a deterministic linear part and a random part which is normally distributed.
+
+The fundamental tool of stochastic calculus is Ito's lemma which says that if \\
+$dX_t = \mu (X_t,t) dt + \sigma (X_t,t) d W_t$ then \\
+$df(X_t ,t) = \frac{\delta f}{\delta t} (X_t,t) dt+\frac{\delta f}{\delta x}(X_t,t) dX_t + \frac{1}{2} \frac{\delta^2 f}{\delta x^2} (X_t,t) dX_t^2$ \\
+with the multiplication rules \\
+$dt^2=0$ \\
+$dtdW_t =0$ \\
+$dW_t dW_t = (dW_t)^2 =dt$
+
+A standard model for stock evolution is geometric Brownian motion: \\
+$dS_t = S_t \mu dt + S_t \sigma dW_t$
+
+The SDE for geometric Brownian motion is solved by: \\
+$S(t) = S(0) e^{\left( \mu-\frac{1}{2}\sigma^2 \right)t+\sigma \sqrt{t} N(0,1)}$
+
+For a stock following geometric Brownian motion the quantity: \\
+$\lambda = \frac{\mu - r}{\sigma}$ is called the market price of risk.
+
+Risk can be eliminated by holding a portfolio in which the random parts of two different assets cancel each other.
+
+No-arbitrage implies that a portfolio from which risk has been eliminated must grow at the riskless rate.
+
+A self-financing portfolio is a portfolio in which assets are bought and sold but no money is taken in or out.
+
+A European option's payoff can replicated by a self-financing portfolio consisting of dynamic trading in stock and riskless bond.
+
+No-arbitrage guarantees that the price of a European option must satisfy the Black-Scholes equation.
+
+6.16 Key Points 175
+
+We have covered a lot of ground in this chapter; in particular we have introduced the concept of an equivalent martingale measure and shown that it can be used for pricing.
+
+The set of call option prices at a single time horizon define a synthetic probability measure such that their prices are equal to their discounted expectations under this measure.
+
+The synthetic probability measure has the property that the mean growth rate for the stock is equal to that of the riskless bond.
+
+The synthetic probability measure in the Black-Scholes world is given by taking the growth rate of the'stock to be $r$.
+
+A martingale is a random process such that its expectation is equal to its current value at all times.
+
+Two measures on a probability space are equivalent if they have the same sets of $0$ probability.
+
+An arbitrage exists under one probability measure if and only if it exists under an equivalent probability measure.
+
+There can be no arbitrage if every asset is a martingale.
+
+We can price in an arbitrage-free fashion if we set every derivative equal to its discounted future value at every time and world state.
+
+An equivalent martingale measure is found in the Black-Scholes world by setting the growth rate of the stock to be $r$.
+
+Absence of arbitrage is effectively equivalent to the existence of an equivalent martingale measure.
+
+A market is complete if every contingent claim can be replicated.
+
+A market is complete if and only if the equivalent martingale measure is unique.
+
+7.8 Key Points 198
+
+In this chapter, we have looked at a number of different approaches to pricing an option with payoff depending on the value of the underlying at a single time horizon with a view to applying the techniques to exotic options.
+
+There are many approaches to evaluating the price of European option including: \\
+(i) analytic formulas; \\
+(ii) PDE solving; \\
+(iii) numeric integration; \\
+(iv) Monte Carlo; \\
+(v) replication.
+
+Replication is the safest method of pricing as it automatically takes smile effects into account.
+
+Using the implied volatility to price options other than vanillas can lead to pricing errors.
+
+Monte Carlo pricing relies on the fact that the price of an option is its discounted expected payoff in the risk-neutral measure.
+
+The law of large numbers underlies Monte Carlo pricing techniques.
+
+Formulas for Greeks can be deduced from the integral for the price via differentiation under the integral sign and integration by parts.
+
+8.9 Key Points 220
+
+In this chapter, we have examined the pricing of a continuous barrier options using both PDE methods and risk-neutral valuation.
+
+An out option only pays off if a given barrier level is not breached.
+
+An in option only pays off if a given barrier level is breached.
+
+An in option plus an out option is equivalent to a vanilla so in option prices can always be deduced from the vanilla and out option prices.
+
+A knock-out option can have negative Vega.
+
+Knock-out options satisfy the Black-Scholes equation with an additional boundary condition at the barrier.
+
+A key component of all approaches to pricing barrier options is to use reflection in the barrier.
+
+To price a down-and-out option by risk-neutral evaluation, we need the joint law of the minimum and terminal value for a Brownian motion with drift.
+
+We can use Girsanov's theorem to compute probabilities of events for Brownian motions with drift.
+
+To change measure, we multiply expectations by a random process which is a positive martingale called the Radon-Nikodym derivative.
+
+The measure change for changing the drift of a Brownian motion uses geometric Brownian motion as Radon-Nikodym derivative.
+
+The formula for a down-and-out call is most easily deduced by dividing the payoff into two pieces and using a different numeraire for each piece.
+
+An American digital option is really just a barrier option.
+
+9.9 Key Points 239
+
+We have looked at two path-dependent exotic options in detail as they exemplify most of the issues involved in general.
+
+A path-dependent or multi-look exotic option depends on the value of spot at many times.
+
+A discrete barrier option pays off according to whether a certain barrier is breached on a finite set of dates.
+
+An arithmetic Asian option pays off according to the value of the average of spot across a number of days.
+
+Path-dependent exotic options can be easily priced by Monte Carlo.
+
+Stock price paths can be generated by many different techniques.
+
+It is much easier to price a barrier option than a general exotic option by backwards methods as it can only be in two possible states.
+
+Asian options can be priced by backwards method by solving for all possible values of an auxiliary variable.
+
+A rapid method for pricing Asian options is to approximate the distribution of the average via moment matching.
+
+When pricing exotic options it is not enough to use a constant volatility and interest rate as the vanilla options used for hedging will not be priced correctly.
+
+The vanilla option prices gives us the market's best guess of the volatility over their lives.
+
+10.8 Key Points 258
+
+In this chapter, we have studied the application of replication techniques to the pricing and hedging of exotic options.
+
+Replication is a powerful technique for taking account of our views on the evolution of vanilla option prices when pricing exotic options.
+
+Strong static replication allows us to price options purely by using the prices of vanilla options observable today without any modelling assumptions.
+
+Weak static replication allows us to price exotic options providing the future smiles of the vanilla options are known.
+
+The auxiliary variable technique for pricing exotic options using PDEs in a Black-Scholes world can be adapted to work with replication techniques in any model that implies a deterministic future smile.
+
+Replication can be made much simpler when it is assumed that the stock price process is continuous.
+
+Options which can be replicated include barrier options and Asian options.
+
+Very few options can be strong-statically-replicated which means that assumptions on the behaviour of future smiles strongly affect the price of exotic options.
+
+Weak static replication is generally not applicable in stochastic volatility models.
+
+11.9 Key Points 280
+
+In this chapter, we have extended the Black-Scholes theory from a single uncertain to several correlated assets. We have seen that whilst the details are more complex, the fundamental theory is essentially the same.
+
+Many derivatives have a pay-off which is dependent on the evolution of several stocks.
+
+A Margrabe option is an option to exchange one stock for another.
+
+A quanto option is an option that whose pay-off is transformed into another currency at pre-determined rate.
+
+A multi-dimensional Brownian motion is a vector of processes which have jointly normal increments and is a Brownian motion in each dimension.
+
+Correlated Brownian motions can be constructed by adding together multiples of one-dimensional Brownian motions.
+
+The Ito calculus goes over to higher dimensions with the additional rule $dW_j dW_k = \rho_{jk} dt$ where $\rho_{jk}$ is the correlation between $W_j$ and $W_k$.
+
+When adding correlation Brownian motions we can find the volatility of the new process by treating the original processes as vectors.
+
+We can change the drift of a multi-dimensional Brownian motion by using Girsanov's theorem.
+
+No arbitrage will occur if and only if the discounted price processes can be made driftless by a change of measure.
+
+We can price by risk-neutral expectation.
+
+Monte Carlo has the advantage in high dimensions that the rate of convergence is independent of dimension.
+
+An analytic formula can be developed for the Margrabe option which does not involve interest rates.
+
+Quanto options can be priced analytically using a modified Black-Scholes formula.
+
+Trees can be adapted to higher dimensions by placing the nodes on a triangle or tetrahedron.
+
+12.7 Key Points 297
+
+An American option can be exercised at any time before expiry.
+
+A Bermudan option can be exercised on any one of a finite number of dates.
+
+An American option is always worth at least as much the underlying European option.
+
+Exercise strategies are interpreted mathematically as stopping times since they must depend on the information available at the time.
+
+Trees and PDEs are natural methods for pricing American options as they are backwards methods.
+
+Backwards methods are better for pricing American options because they naturally incorporate the unexercised value of the option.
+
+The PDE problem for the American option is a free boundary problem where the boundary is not determined but instead the value of the function and its derivative are determined at the boundary.
+
+We can get lower estimates for American option prices by picking an exercise strategy and then pricing by Monte Carlo.
+
+We can get upper bounds for American options by allowing exercise with maximal foresight on portfolios consisting of the American option minus a European option.
+
+13.5 Key Points 316
+
+Interest rate derivatives are used to manage risks arising from exposure to interest rates.
+
+A forward-rate agreement, or FRA, is the right and obligation to borrow or deposit a sum of money for a fixed rate for a fixed period time in the future.
+
+Forward rates are quoted in annualized terms over discrete periods.
+
+Forward contracts can be perfectly replicated by zero-coupon bonds and forward rates are therefore uniquely determined.
+
+Swaps are contracts to swap a fixed stream of interest rate payments for a floating stream.
+
+Swaps do not involve exchange of principals.
+
+The swap rate is determined by no-arbitrage considerations.
+
+A caplet is call on a forward rate.
+
+A floorlet is a put on a forward rate.
+
+If forward rates are log-normal then caplets and floorlets can be valued by the Black formula.
+
+Swaptions are options on swaps and can be valued by using the Black formula provided swap rates are taken to be log-normal.
+
+There are many different discount curves depending upon the riskiness of instruments involved.
+
+14.13 Key Points 358
+
+The pricing of exotic interest-rate derivatives depends on the evolution of a $1$ dimensional object: the yield curve.
+
+The modem approach to pricing exotic interest rate derivatives is to evolve market observable rates.
+
+The BGM (or BGM/J) model is based on the evolution of log-normal forward rates.
+
+Forward rates only have $0$ drifts in the martingale measure when the numeraire is a bond with the same payoff time as the forward rate.
+
+In general, the drift of a forward rate is both state- and time-dependente.
+
+The BGM model can used to price any instrument that is dependent on a finite number of rates at a finite number of times.
+
+A crucial part of the calibration of the BGM model is choosing the instantaneous volatility functions for the rates.
+
+Decorrelation between rates can occur both through instantaneous decorrelation and through terminal decorrelation arising from the differing shapes of volatility curves.
+
+The state-dependence of drifts means that Monte Carlo is the natural method of pricing in the BGM model.
+
+Forward rates can be evolved over long time intervals by using a predictor corrector technique.
+
+15.11 Key Points 385
+
+We have covered a lot of ground in this chapter. The main thing to take away is that whilst the incompleteness of the market means that option prices are not unique, many other aspects of the theory can be extended to jump-diffusion models.
+
+Jump-diffusion models encapsulate the idea that the stock price can jump with no possibility of rehedging during the move.
+
+A closed-form formula as an infinite sum can be developed for the price of a call or put option in a jump-diffusion model.
+
+The market consisting of a stock evolving to a jump-diffusion model and a riskless bond is incomplete.
+
+In an incomplete market an option does not have a unique price.
+
+When changing measure in a jump-diffusion world, we can change the drift, the intensity of the jumps and the jump distribution but we cannot change the volatility of the underlying.
+
+Increasing jump-intensity always increases the price of a European option, which has a convex final payoff.
+
+For a digital option increasing jump-intensity can either increase or decrease the price of an option.
+
+In an incomplete market it is the market which chooses the measure.
+
+It is possible to hedge in a jump-diffusion model using options provided we assume that the market does not change its choice of measure. That is provided the market is not fickle.
+
+Even if two models give identical prices to vanilla options, they can give quite different prices to exotic options.
+
+Jump-diffusion models give rise to deterministic future smiles so weak static replication can be used to price exotic options.
+
+Exotic options can be priced by Monte Carlo in jump-diffusion models by stepping between the look-at dates of the option.
+
+Jump-diffusion smiles are very sharp for small maturities and shallow for long maturities.
+
+16.8 Key Points 399
+
+Stochastic-volatility models are currently quite popular. They provide a simple mechanism for allowing implied volatilities of options in the market to vary from day to day. A rapid pricing formula can be developed. They have the appealing property that it is possible to hedge using $1$ option. They can also be used to produce convincing market smiles with appropriate parameters. On the other hand, it is difficult to price exotic options, and the hedging is really too good to be true.
+
+Stochastic-volatility models introduces smiles by letting volatility be a stochastic quantity.
+
+Real-world volatility is mean-reverting.
+
+Any drift can be chosen for the volatility in the risk-neutral measure but in practice a mean-reverting volatility is used.
+
+In a stochastic-volatility model, the instantaneous volatility and the implied volatility are quite different things.
+
+Prices can be developed by Monte Carlo, transform methods and PDE solutions.
+
+If volatility and spot are uncorrelated then the spot can be long-stepped and the price of a vanilla option can be written as an integral over Black-Scholes prices.
+
+Stochastic-volatility smiles tend to be shallow relative to jump-diffusion smiles for short maturities and relatively steep for long maturities.
+
+17.5 Key Points 410
+
+The Variance Gamma process has some nice properties. It is possible to develop Monte Carlo and numeric integral prices for vanilla options which allow rapid calibration to the market. The paths seems to mimic market prices well. The process leads to an incomplete market with a great deal of choice for risk-neutral parameters - perhaps too much. It is not however clear how to hedge since all movements are jumps. For pricing exotic options, the Variance Gamma model is well-adapted to both Monte Carlo and replication techniques.
+
+The Variance Gamma is a model based on the notion of random time.
+
+Random time increments have the properties of being proportional in mean and variance to the length of calendar time, and of being independent of previously elapsed time.
+
+Variance Gamma paths consist of many small jumps.
+
+Variance Gamma paths are of finite first variation whereas Brownian motion paths are of infinite first variation.
+
+In passing to an equivalent measure, there are no constraints on the changes in parameter values unlike in the diffusion setting.
+
+Variance Gamma smiles are a fixed function of time-to-expiry and moneyness.
+
+Variance Gamma smiles become flatter as time-to-expiry increases.
+
+Vanilla options can be priced using Variance Gamma models as an integral over Black-Scholes prices or by Monte Carlo.
+
+Exotic options can be priced using Variance Gamma models by Monte Carlo or replication.
+
+18.7 Key Points 427
+
+A smile can either float or be sticky according to whether it behaves as a function of strike or of strike divided by spot.
+
+FX smiles tend to float.
+
+Equity smiles tend to be downward-sloping and display a mix of floating and sticky behaviour.
+
+Interest-rate smiles are partially sticky.
+
+Different markets display differing term structures for smiles. Equity smiles display a decrease in skew with time. FX and interest-rate smiles are more time constant.
+
+One method of evaluating a model is whether or not it predicts the future will be different from the present.
+
+An important criterion for selecting a model is its performance at hedging. Jump-diffusion, stochastic-volatility and Variance Gamma models predict floating smiles.
+
+Displaced-diffusion predicts a stickier smile.
+
+When pricing an exotic option we should be careful to examine what features of the model it is particularly sensitive to.
+
+Appendix A Financial And Mathematical Jargon 429
+
+Finance is full of arbitrary terms that appear to make little sense. In this appendix, we provide definitions of the more commonly used terms in finance and mathematical finance for general reference.
+
+Accreting Notional: An instrument has an accreting notional if the notional increases during its life. Typically used in interest-rate derivatives such as swaps and Bermudan swaptions.
+
+American Option: An American option is an option that can be exercised at any time before expiry. See also European option and Bermudan option. 
+
+Amortising Notional: An instrument has an amortising notional if the notional decreases during its life. Typically used in interest-rate derivatives such as swaps and Bermudan swaptions.
+
+Arbitrage: An arbitrage is a trading strategy which results in a risk-free profit. In other words, an opportunity to make money for nothing.
+
+Asian Option: An Asian option pays off according to the average value of an
+asset over a number of dates.
+
+Auto Cap: A cap which is limited so that only the first k caplets which are in the money pay off for some prespecified $k$.
+
+Barrier Option: A barrier option is an option that only pays off if the underlying has either passed or not passed some prespecified barrier level. See knock-out and knock-in.
+
+Basis Point: $0.0001$.
+
+Basket Option: An option that allows the holder to buy or sell a basket of securities.
+
+Binary Option: Another name for a digital option.
+
+Bermudan Option: A Bermudan option is an option that can be exercised on any one of a finite number of times before expiry. See also American option and European option.
+
+BGM or BGM/J: BGM stands for Brace, Gatarek And Musiela; and J stands for Jamishidian. The BGM model is a model based on letting forward rates have their own log-normal processes. It is also known as the LIBOR market model. The Jamishidian model is based on letting swap rates have their own log-normal processes. Such models are examples of market models.
+
+Black-Scholes Model: A model consisting of an asset following geometric Brownian and a riskless bond allowing frictionless trading.
+
+Bond: A unit of debt issued by a company or country that involves periodic payment of an interest payment called the coupon and return of its face value at the time of maturity.
+
+Brownian Motion: A random process in which the distribution of increments between time $t$ and time $s$ is independent of behaviour up to time $s$, and is distributed as a normal with mean $0$ and variance $t-s$.
+
+Call Option: A contract that carries the right but not the obligation to buy an asset for a predetermined price. See also put option.
+
+Cap: A series of caplets.
+
+Caplet: The right but not the obligation to enter into a forward-rate agreement at a pre-agreed strike. So called because it caps the cost of borrowing. See also cap and floorlet.
+
+Caption: An option on a cap.
+
+Cash Bond: Another name for the continuously compounding money-market account.
+
+Cliquet: An option that pays off according to the ratio of the underlying's value across two different dates.
+
+Complete Market: A market in which every contingent claim can be replicated by trading in the underlying asset or assets.
+
+Consol: A bond that pays a regular coupon but has no maturity date and therefore goes on forever.
+
+Contingent Claim: A contract whose payoff depends on the price behaviour of another asset.
+
+Continuously Compounding Money-Market Account: The riskless money market market account in which interest is continuously accumulated.
+
+Convertible Bond: A bond that can be exchanged for a stock if the holder so desires.
+
+Coupon: A regular payment made to the holder of a bond.
+
+Credit Rating: A rating assigned to debt that assesses the probability that the obligor will pay back the debt.
+
+Delta: The derivative of the price of an option with respect to spot.
+
+Derivative: An instrument that pays off according to the price of another asset.
+
+Digital Option: An instrument that pays either a fixed amount or $0$ according to the value of some reference rate.
+
+Discount Curve: The theoretical prices of zero-coupon bonds of all maturities.
+
+Diversifiable Risk: Risk that can hedged away by judicious holdings of other assets.
+
+Dividend: A sum paid to the owner of a stock by a company out of its profits at the discretion of the board.
+
+European Option: A European option is an option that can only be exercised at $1$ fixed time. See also American option and Bermudan option.
+
+Expectation: The expected value of a random variable. Mathematically defined as the integral of its density function, $f$, against $x$:
+
+$\text{E} [X] = \int x f(x) dx$.
+
+Fat Tails: A distribution has fat tails if its kurtosis is higher than that of a normal distribution.
+
+Fixed Rate: A rate for lending or deposit that is fixed across the lifetime of a contract.
+
+Floating Rate: A rate that changes during a contract according to market conditions.
+
+Floor: A series of floorlets.
+
+Floorlet: The right but not the obligation to enter into a forward-rate agreement at a pre-agreed strike. So called because it puts a floor on the interest received for putting money on deposit. See also caplet and floor.
+
+Floortion: An option on a floor.
+
+Forward Contract: A contract that carries the obligation to buy an asset at a pre-determined price on a fixed date.
+
+Forward-Rate Agreement FRA: A contract to put some money on deposit for a fixed period in the future at a pre-agreed interest rate. The interest is paid at the end of the contract. The interest rate is called the strike of the contract. Also known as a FRA.
+
+FRA: Short for Forward-rate agreement.
+
+Gamma: The second derivative of the price of an instrument with respect to spot.
+
+Girsanov's Theorem: States that changing to an equivalent measure changes the drift of a Brownian motion but nothing else.
+
+Greek: The derivative of the price of an instrument with respect to any parameter or variable.
+
+Hedging: Holding an asset in order to reduce the risk exposure due to some other asset.
+
+Incomplete Market: A market in which is not complete.
+
+Knock-In Option: A derivative that pays off only if some reference level is passed.
+
+Knock-Out Option: A derivative that pays off only if some reference level is not passed.
+
+Kurtosis: The fourth moment of a random variable minus its mean divided by the variance squared:
+
+$\frac{\text{E}[(X-\text{E}[X])^4]}{\text{Var}(X)^2}$.
+
+LIBID London Interbank Bid Rate: The rate at which the bank can deposit shortterm money in the interbank market. See also LIBOR.
+
+LIBOR London Interbank Offer Rate: The rate at which the bank can borrow short-term money in the interbank market. See also LIBID.
+
+Long: A long position is a positive holding of an asset. Opposite to a short position.
+
+Market Model: A model for interest rates in which the movement of some market-observable rates are modelled directly. See also BGM, BGMlf.
+
+Martingale: A random variable whose value is always equal to its expected future value.
+
+Moment: The $k$th moment of a random variable is the expectation of its kth power.
+
+Parisian Option: A barrier option which requires the barrier to be breached for some prespecified period of time.
+
+Payer's Swap: A swap in which the holder pays the fixed rate and receives the floating rate.
+
+Payer's Swaption: An option on a payer's swap.
+
+Put Option: A contract that carries the right but not the obligation to sell an asset for a predetermined price. See also call option.
+
+Receiver's Swap: A swap in which the holder receives the fixed rate and pays the floating rate.
+
+Receiver's Swaption: An option on a receiver's swap.
+
+Rho: The derivative of the price of an instrument with respect to $r$, the continuously compounding interest rate.
+
+Risk-Neutral Measure: A probability measure is risk-neutral if all assets grow at the same rate as a riskless bond.
+
+Risk Premium: The additional return expected on an asset in order to compensate for the riskiness in its future value.
+
+Share: A fraction of the ownership of a public limited company which carries the right to receive dividends and voting rights. It does not carry any obligations. Stock is an equivalent term.
+
+Short: To go short is to sell something you do not own. Thus one effectively has a negative holding in the asset. See also long.
+
+Short Rate: The theoretical interest rate available for depositing money for very short periods of time.
+
+Skew: A normalization of the third moment of a random variable:
+
+$\frac{\text{E}[(X-\text{E}[X])^3]}{\text{Var}(X)^{\frac{3}{2}}}$.
+
+Stochastic: A fancy word for random.
+
+Stock: See share.
+
+Strike: The price that an options allows an asset to be ought or sold for.
+
+Swap: A contract to swap a fixed stream of interest rate payments for a floating stream of interest rate payments. The fixed rate is called the strike of the swap.
+
+Swap Rate: The rate such that a swap with that strike has $0$ value.
+
+Swaption: The option but not the obligation to enter into a swap.
+
+Theta: The derivative of the price of an instrument with respect to time.
+
+Trigger Option: An option that requires the holder to buy or sell an asset at a fixed price according to the level of some reference rate.
+
+Value At Risk VAR: The amount that a portfolio can lose over some period of time with a given probability. For example, the amount the bank can lose in $1$ day with $0.05$ probability.
+
+VAR: Short for value at risk.
+
+Variance: Variance is defined as:
+
+$\text{Var}(X) = \text{E}[(X-\text{E}[X])^2]$.
+
+Vanna: The derivative of the Vega with respect to the underlying.
+
+Vega: The derivative of the price of an instrument with respect to volatility.
+
+Yield: The effective interest rate receivable by purchasing a bond. (There are lots of different sorts of yields.)
+
+Yield Curve: Another name for a discount curve.
+
+Zero-Coupon Bond: A bond which pays no coupons.

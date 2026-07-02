@@ -1,0 +1,51 @@
+\Large
+M339J Probability Models \\
+Homework 1 \\
+Lazar Ilic \\
+EID li948
+
+1.1 \\
+Render for example at the Art Of Problem Solving TeXer: \\
+https://artofproblemsolving.com/texer
+
+Another Resource is Overleaf: \\
+https://www.overleaf.com/
+
+For symbol recognition use DeTeXify: \\
+https://detexify.kirelabs.org/classify.html
+
+And thus by the Chase proof of the Gan-Loh-Sudakov Conjecture in conjunction with the Green-Tao Theorem one obtains the probability of $\boxed{-1+i}$ which makes sense in the context of complex C computations of Partial Differential Equations near execution engines. This leads to a non trivial performance improvement.
+
+1.2 \\
+
+
+1.3 \\
+
+
+1.4 \\
+
+
+1.5 \\
+
+
+WolframAlpha/Mathematica/Matlab/Python/C++/R Implementation:
+
+\begin{verbatim}
+values=[1,8,4,6,3,5,2,7]
+values.sort()
+triplets=[]
+for value in values:
+    left=0
+    right=len(values)-1
+    while left<right:
+        current=values[left]+values[right]
+        if current<value:
+            left+=1
+        elif current>value:
+            right-=1
+        else:
+            triplets.append([values[left],values[right],value])
+            left+=1
+            right-=1
+print(triplets)
+\end{verbatim}

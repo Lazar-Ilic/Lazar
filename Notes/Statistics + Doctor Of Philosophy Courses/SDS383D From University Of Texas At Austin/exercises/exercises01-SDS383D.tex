@@ -1,0 +1,221 @@
+  \documentclass{mynotes}
+
+%\geometry{showframe}% for debugging purposes -- displays the margins
+
+\newcommand{\E}{\mbox{E}}
+
+\usepackage{amsmath}
+%\usepackage[garamond]{mathdesign}
+\usepackage{url}
+
+% Set up the images/graphics package
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+
+\title[Lesson 1 $\cdot$ SDS 383D]{Exercises 1: Preliminaries}
+%\author[ ]{ }
+\date{}  % if the \date{} command is left out, the current date will be used
+
+% The following package makes prettier tables.  We're all about the bling!
+\usepackage{booktabs}
+
+% The units package provides nice, non-stacked fractions and better spacing
+% for units.
+\usepackage{units}
+
+% The fancyvrb package lets us customize the formatting of verbatim
+% environments.  We use a slightly smaller font.
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+
+% Small sections of multiple columns
+\usepackage{multicol}
+
+% Provides paragraphs of dummy text
+\usepackage{lipsum}
+
+% These commands are used to pretty-print LaTeX commands
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+
+\newcommand{\N}{\mbox{N}}
+\newcommand{\thetahat}{\hat{\theta}}
+\newcommand{\sigmahat}{\hat{\sigma}}
+\newcommand{\betahat}{\hat{\beta}}
+
+
+\begin{document}
+
+\maketitle% this prints the handout title, author, and date
+
+\section{Bayesian inference in simple conjugate families}
+
+We start with a few of the simplest building blocks for complex multivariate statistical models: the beta/binomial, normal, and inverse-gamma conjugate families.
+
+\begin{enumerate}[(A)]
+
+\item Suppose that we take independent observations $x_1, \ldots, x_N$ from a Bernoulli sampling model with unknown probability $w$.  That is, the $x_i$ are the results of flipping a coin with unknown bias.  Suppose that $w$ is given a Beta(a,b) prior distribution:
+$$
+p(w) = \frac{\Gamma(a+b)}{\Gamma(a) \cdot \Gamma(b)} \ w^{a-1} (1-w)^{b-1} \, ,
+$$
+where $\Gamma(\cdot)$ denotes the Gamma function.  Derive the posterior distribution $p(w \mid x_1, \ldots, x_N)$.\footnote{I offer two tips here that are quite general.  (1) Your final expression will be cleaner if you reduce the data to a sufficient statistic.  (2) Start off by ignoring normalization constants (that is, factors in the density function that do not depend upon the unknown parameter, and are only there to make the density integrate to 1.)  At the end, re-instate these normalization constants based on the functional form of the density.}
+
+\item The probability density function (PDF) of a gamma random variable, $x \sim \mbox{Ga}(a,b)$, is
+$$
+p(x) = \frac{b^a}{\Gamma(a)} x^{a-1} \exp(-bx) \, .
+$$
+Suppose that $x_1 \sim \mbox{Ga}(a_1,1)$ and that $x_2 \sim \mbox{Ga}(a_2,1)$.  Define two new random variables $y_1 = x_1/(x_1 + x_2)$ and $y_2 = x_1 + x_2$.  Find the joint density for $(y_1, y_2)$ using a direct PDF transformation (and its Jacobian).\footnote{Take care that you apply the important change-of-variable formula from basic probability.  See, e.g., Section 1.2 of \url{http://www.stat.umn.edu/geyer/old/5102/n.pdf}.}  Use this to characterize the  marginals $p(y_1)$ and $p(y_2)$, and propose a method that exploits this result to simulate beta random variables, assuming you have a source of gamma random variables.
+
+\item Suppose that we take independent observations $x_1, \ldots, x_N$ from a normal sampling model with unknown mean $\theta$ and \textit{known} variance $\sigma^2$: $x_i \sim \mbox{N}(\theta, \sigma^2)$.  Suppose that $\theta$ is given a normal prior distribution with mean $m$ and variance $v$.  Derive the posterior distribution $p(\theta \mid x_1, \ldots, x_N)$.
+
+\item Suppose that we take independent observations $x_1, \ldots, x_N$ from a normal sampling model with \textit{known} mean $\theta$ but \textit{unknown} variance $\sigma^2$.  (This seems even more artificial than the last, but is conceptually important.)  To make this easier, we will re-express things in terms of the precision, or inverse variance $\omega = 1/\sigma^2$:
+$$
+p(x_i \mid \theta, \omega) = \left( \frac{\omega}{2 \pi} \right)^{1/2} \exp \left\{ -\frac{\omega}{2} (x_i - \theta)^2 \right\} \, .
+$$
+Suppose that $\omega$ has a gamma prior with parameters $a$ and $b$, implying that $\sigma^2$ has what is called an inverse-gamma prior.\footnote{Written $\sigma^2 \sim \mbox{IG}(a,b)$.}  Derive the posterior distribution $p(\omega \mid x_1, \ldots, x_N)$.  Re-express this as a posterior for $\sigma^2$, the variance.
+
+\item Suppose that, as above, we take independent observations $x_1, \ldots, x_N$ from a normal sampling model with unknown, common mean $\theta$.  This time, however, each observation has its own idiosyncratic (but known) variance: $x_i \sim \mbox{N}(\theta, \sigma_i^2)$.  Suppose that $\theta$ is given a normal prior distribution with mean $m$ and variance $v$.  Derive the posterior distribution $p(\theta \mid x_1, \ldots, x_N)$.  Express the posterior mean in a form that is clearly interpretable as a weighted average of the observations and the prior mean.
+
+\item Suppose that $(x \mid \omega) \sim \N(m, \omega^{-1})$, and that $\omega$ has a Gamma$(a/2, b/2)$ prior, with PDF defined as above.  Show that the marginal distribution of $x$ is Student's $t$ with $d$ degrees of freedom, center $m$, and scale parameter $(b/a)^{1/2}$.  This is why the $t$ distribution is often referred to as a \textit{scale mixture of normals}.
+
+\end{enumerate}
+
+
+
+\section{The multivariate normal distribution}
+
+\subsection{Basics}
+
+We all know the univariate normal distribution, whose long history began with de Moivre's 18th-century work on approximating the (analytically inconvenient) binomial distribution.  This led to the probability density function
+$$
+p(x) = \frac{1}{\sqrt{2 \pi v}} \exp \left\{ - \frac{(x-m)^2}{2 v} \right\} \, 
+$$
+for the normal random variable with mean $m$ and variance $v$, written $x \sim \N(m, v)$.
+
+Here's an alternative characterization of the univariate normal distribution in terms of moment-generating functions:\footnote{Laplace transforms to everybody but statisticians.} a random variable $x$ has a normal distribution if and only if $E \left\{ \exp(tx) \right\} = \exp(mt + v t^2 /2)$ for some real $m$ and positive real $v$.  Remember that $E(\cdot)$ denotes the expected value of its argument under the given probability distribution.  We will generalize this definition to the multivariate normal.
+
+\begin{enumerate}[(A)]
+
+\item First, some simple moment identities.  The covariance matrix $\mbox{cov}(x)$ of a vector-valued random variable $x$ is defined as the matrix whose $(i,j)$ entry is the covariance between $x_i$ and $x_j$.  In matrix notation, $\mbox{cov}(x) = E\{ (x - \mu) (x - \mu)^T \}$, where $\mu$ is the mean vector whose $i$th component is $E(x_i)$.  Prove the following: (1) $\mbox{cov}(x) = E(xx^T) - \mu \mu^T$; and (2) $\mbox{cov}(Ax + b) = A \mbox{cov}(x) A^T$ for matrix $A$ and vector $b$.
+
+\item Consider the random vector $z = (z_1, \ldots, z_p)^T$, with each entry having an independent standard normal distribution (that is, mean 0 and variance 1).  Derive the probability density function (PDF) and moment-generating function (MGF) of $z$, expressed in vector notation.\footnote{Remember that the MGF of a vector-valued random variable $x$ is the expected value of the quantity $\exp(t^T x)$, as a function of the vector argument $t$.}   We say that $z$ has a standard multivariate normal distribution.
+
+\item A vector-valued random variable $x = (x_1, \ldots, x_p)^T$ has a \textit{multivariate normal distribution} if and only if every linear combination of its components is univariate normal.  That is, for all vectors $a$ not identically zero, the scalar quantity $z = a^T x$ is normally distributed.  From this definition, prove that $x$ is multivariate normal, written $x \sim \N(\mu, \Sigma)$, if and only if its moment-generating function is of the form $E(\exp \{t^T x\}) = \exp(t^T \mu + t^T \Sigma t / 2)$.  Hint: what are the mean, variance, and moment-generating function of $z$, expressed in terms of moments of $x$?
+
+\item Another basic theorem is that a random vector is multivariate normal if and only if it is an affine transformation of independent univariate normals.  You will first prove the ``if'' statement.  Let $z$ have a standard multivariate normal distribution, and define the random vector $x = L z + \mu$ for some $p \times p$ matrix $L$ of full column rank.\footnote{The full rank restriction turns out to be unnecessary; relaxing it leads to what is called the \textit{singular normal distribution.}}   Prove that $x$ is multivariate normal.  In addition, use the moment identities you proved above to compute the expected value and covariance matrix of $x$.  
+
+\item Now for the ``only if.''  Suppose that $x$ has a multivariate normal distribution.  Prove that $x$ can be written as an affine transformation of standard normal random variables.  (Note: a good way to prove that something can be done is to do it!  Think about a matrix $A$ such that $A A^T = \Sigma$.)  Use this insight to propose an algorithm for simulating multivariate normal random variables with a specified mean and covariance matrix.
+
+\item Use this last result, together with the PDF of a standard multivariate normal, to show that the PDF of a multivariate normal $x \sim \N(\mu, \Sigma)$ takes the form $p(x) = C \exp\{-Q(x-\mu)/2\}$ for some constant $C$ and quadratic form $Q(x-\mu)$.\footnote{A useful fact is that the Jacobian matrix of the linear map $x \rightarrow Ax$ is simply $A$.}
+
+%\item Let $x$ be as above and suppose that $y = A x$, where $A$ is an $n \times p$ matrix of full column rank (i.e.~its columns are linearly independent).  Compute the MGF of $y$.  If $n < p$, what the PDF of $y$?  If $n>p$, why can we not write down the PDF of $y$?\footnote{This doesn't make it an invalid distribution!  It is perfectly valid, and is usually referred to as the singular normal distribution---singular in the sense of a square matrix that lacks an inverse.}
+
+\item Let $x_1 \sim N(\mu_1, \Sigma_1)$ and $x_2 \sim N(\mu_2, \Sigma_2)$, where $x_1$ and $x_2$ are independent of each other.  Let $y = A x_1 + B x_2$ for matrices $A,B$ of full column rank and appropriate dimension.  Note that $x_1$ and $x_2$ need not have the same dimension, as long as $A x_1$ and $B x_2$ do.  Use your previous results to characterize the distribution of $y$.
+
+\end{enumerate}
+
+\subsection{Conditionals and marginals}
+
+Suppose that $x \sim \N(\mu, \Sigma)$ has a multivariate normal distribution.  Let $x_1$ and $x_2$ denote an arbitrary partition of $x$ into two sets of components.  Because we can relabel the components of $x$ without changing their distribution, we can safely assume that $x_1$ comprises the first $k$ elements of $x$, and $x_2$ the last $p-k$.  We will also assume that $\mu$ and $\Sigma$ have been partitioned conformably with $x$:
+$$
+\mu = (\mu_1, \mu_2)^T \quad \mbox{and} \quad \Sigma =
+\left(
+\begin{array}{cc}
+\Sigma_{11} & \Sigma_{12} \\
+\Sigma_{21} & \Sigma_{22} 
+\end{array}
+\right) \, .
+$$
+Clearly $\Sigma_{21} = \Sigma_{12}^T$, as $\Sigma$ is a symmetric matrix.
+
+
+\begin{enumerate}[(A)]
+
+\item Derive the marginal distribution of $x_1$. (Remember your result about affine transformations.)
+
+\item Let $\Omega = \Sigma^{-1}$ be the inverse covariance matrix, or precision matrix, of $x$, and partition $\Omega$ just as you did $\Sigma$:
+$$
+\Omega =
+\left(
+\begin{array}{cc}
+\Omega_{11} & \Omega_{12} \\
+\Omega_{12}^T & \Omega_{22} 
+\end{array}
+\right) \, .
+$$
+Using (or deriving!) identities for the inverse of a partitioned matrix, express each block of $\Omega$ in terms of blocks of $\Sigma$.
+
+\item Derive the conditional distribution for $x_1$, given $x_2$, in terms of the partitioned elements of $x$, $\mu$, and $\Sigma$.  There are several keys to inner peace: work with densities on a log scale, ignore constants that don't affect $x_1$, and remember the cute trick of completing the square from basic algebra.\footnote{In scalar form:
+\begin{eqnarray*}
+x^2 - 2bx + c &=& x^2 - 2bx + b^2 - b^2 + c \\
+&=& (x-b)^2 - b^2 + c \, .
+\end{eqnarray*}
+}
+Explain briefly how one may interpret this conditional distribution as a linear regression on $x_2$, where the regression matrix can be read off the precision matrix.
+
+\end{enumerate}
+
+
+\section{Multiple regression: three classical principles for inference}
+
+Suppose we observe data that we believe to follow a linear model, where $y_i = x_i^T \beta + \epsilon_i$ for $i = 1, \ldots, n$.
+To fix notation: $y_i$ is a scalar response; $x_i$ is a $p$-vector of predictors or features; and the $\epsilon_i$ are errors.  By convention we write vectors as column vectors.  Thus $x_i^T \beta$ will be our typical way of writing the inner product between the vectors $x_i$ and $\beta$.\marginnote[-4pc]{Notice we have no explicit intercept.  For now you can imagine that all the variables have had their sample means subtracted, making an intercept superfluous.  Or you can just assume that the leading entry in every $x_i$ is equal to 1, in which case $\beta_1$ will be an intercept term.}
+
+Consider three classic inferential principles that are widely used to estimate $\beta$, the vector of regression coefficients.  In this context we will let $\hat{\beta}$ denote an estimate of $\beta$, $y = (y_1, \ldots, y_n)^T$ the vector of outcomes, $X$ the matrix of predictors whose ith row is $x_i^T$, and $\epsilon$ the vector of residuals $(\epsilon_1, \ldots, \epsilon_n)^T$.  
+ 
+\begin{description}
+\item[Least squares:] make the sum of squared errors as small as possible.  We can express this in terms of the squared Euclidean norm of the residual vector $\epsilon = y - X \beta$:  
+$$
+\hat{\beta} = \arg \min_{\beta \in \mathcal{R}^p} \Vert y - X\beta \Vert_2^2 =  \arg \min_{\beta \in \mathcal{R}^p} (y - X\beta)^T (y-X \beta)
+$$
+\item[Maximum likelihood under Gaussianity:] assume that the errors are independent, mean-zero normal random variables with common variance $\sigma^2$.  Choose $\hat{\beta}$ to maximize the likelihood:
+$$
+\hat{\beta} = \arg \max_{\beta \in \mathcal{R}^p} \left\{ \prod_{i=1}^n p(y_i \mid \beta, \sigma^2) \right\} \, .
+$$
+Here $p_i(y_i \mid \sigma^2)$ is the conditional probability density function of $y_i$, given the model parameters $\beta$ and $\sigma^2$.  Note that an equivalent way to write the likelihood is to say that the response vector $y$ is multivariate normal with mean $X \beta$ and covariance matrix $\sigma^2 I$, where $I$ is the $n$-dimensional identity matrix.  
+
+\item[Method of moments:] Choose $\hat{\beta}$ so that the sample covariance between the errors and each of the $p$ predictors is exactly zero.  (That is, the sample covariance of $\epsilon$ and each column of $X$ is zero.)  This gives you a system of $p$ equations and $p$ unknowns.
+\end{description}
+
+\begin{enumerate}[(A)]
+
+\item Show that all three of these principles lead to the same estimator.  What is the variance of this estimator under the assumption that each $\epsilon_i$ is independent and identically distribution with variance $\sigma^2$?  
+
+\item As mentioned above, the estimator in the previous part corresponds to the assumption that $y \sim N(X \beta, \sigma^2 I)$.  What happens if we instead postulate that $y \sim N(X \beta, \Sigma)$, where $\Sigma$ is an arbitrary known covariance matrix, not necessarily proportional to the identity?  What is the maximum likelihood estimate for $\beta$ now, and what is the variance of this estimator?   
+
+\item Show that in the special case where $\Sigma$ is a diagonal matrix, i.e. $\Sigma = \mbox{diag}(\sigma_1^2, \sigma_2^2, \ldots, \sigma_n^2)$, that the MLE is the familiar \emph{weighted least squares} estimator.  That is, show that $\hat \beta$ is the solution to the following linear system of $P$ equations in $P$ unknowns:
+$$
+(X^T W X) \hat \beta = X^T W y \, ,
+$$
+where $W$ is a diagonal matrix of weights that you should relate to the $\sigma_i^2$'s.  
+
+\end{enumerate}
+
+\section{Some practical details}
+
+\begin{enumerate}[(A)]
+
+\item Let's continue with the weighted least-squares estimator you just characterized, i.e.~the solution to the linear system
+$$
+(X^T W X) \hat \beta = X^T W y \, ,
+$$
+One way to calculate $\hat{\beta}$ is to: (1) recognize that, trivially, the solution to the above linear system must satisfy $\hat \beta = (X^T W X)^{-1} X^T W y$; and (2) to calculate this directly, i.e.~by inverting $X^T W X$.  Let's call this the ``inversion method'' for calculating the WLS solution.
+
+Numerically speaking, is the inversion method the fastest and most stable way to actually solve the above linear system?  Do some independent sleuthing on this question.\footnote{\url{https://www.google.com/search?q=Why+Shouldn\%27t+I+Invert+That+Matrix}}.   Summarize what you find, and provide pseudo-code for at least one alternate method based on matrix factorizations---call it ``your method'' for short.\footnote{Our linear system is not a special flower; whatever you discover about general linear systems should apply here.}
+
+\item Code up functions that implement both the inversion method and your method for an arbitrary $X$, $y$, and set of weights $W$.  Obviously you shouldn't write your own linear algebra routines for doing things like multiplying or decomposing matrices.  But don't use a direct model-fitting function like R's ``lm'' either.   Your actual code should look a lot like the pseudo-code you wrote for the previous part.\footnote{Be attentive to how you multiply a matrix by a diagonal matrix, or you'll waste a lot of time multiplying stuff by zero.}
+
+Now simulate some silly data from the linear model for a range of values of $N$ and $P$.  (Feel free to assume that the weights $w_i$ are all 1.)  It doesn't matter how you do this---e.g.~everything can be Gaussian if you want.  (We're not concerned with statistical principles in this problem, just with algorithms, and using least squares is a pretty terrible idea for enormous linear models, anyway.)  Just make sure that you explore values of $P$ up into the thousands, and that $N > P$.  Benchmark the performance of the inversion solver and your solver across a range of scenarios.\footnote{In R, a simple library for this purpose is microbenchmark.}
+
+\end{enumerate}
+
+
+\end{document}
+

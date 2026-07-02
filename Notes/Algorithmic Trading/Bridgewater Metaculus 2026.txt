@@ -1,0 +1,230 @@
+Warm Up
+Re Read Rules Set
+
+----------
+
+[Short fuse] Who will win the 2025 NBA Cup?
+
+5 comments
+recent
+Lazar
+·
+last week
+Is there no longer a way to share my prediction in a comment? Since last year's competition, I have worked on writing as well as prediction markets. In this task, I thought the high volume over at Kalshi and other books suggested 56% on New York Knicks and 44% on San Antonio Spurs was an OK edge on the market over here. Sometimes one might even think Metaculus or markets with play-money can have an edge due to an extensive literature now extant on issues with money market structures and incentives, but not here with such high volume and low time to expiry on money markets.
+
+Reply
+
+∆
+Changed my mind (0)
+Changed my mind (0)Mind (0)(0)
+
+
+hide 2 replies
+skmmcj
+·
+last week
+@Lazar
+
+Is there no longer a way to share my prediction in a comment?
+There never was a way to automatically do that in multiple choice questions. We haven't figured out an elegant way yet.
+
+Sometimes one might even think Metaculus or markets with play-money can have an edge due to an extensive literature now extant on issues with money market structures and incentives, but not here with such high volume and low time to expiry on money markets.
+Yeah, I doubt we could beat markets in sports. High-volume markets on topics where markets have a long tradition will probably outperform Metaculus, especially when we're talking about questions that are not associated with any prize.
+
+
+1
+
+Reply
+
+∆
+Changed my mind (0)
+Changed my mind (0)Mind (0)(0)
+
+
+hide 1 replies
+Lazar
+·
+5 days ago·(edited 4 days ago)
+@skmmcj I have seen Market Prices Are Not Probabilities by Quantian's Newsletter, Don't Interpret Prediction Market Prices as Probabilities by bob, and Don't Trust the Political Prediction Markets by Time Magazine, as well as quite a few others.
+
+
+
+Reply
+
+∆
+Changed my mind (0)
+Changed my mind (0)Mind (0)(0)
+
+exmateriae
+·
+last week
+@admins Resolves as New York 
+
+
+3
+
+Reply
+
+∆
+Changed my mind (0)
+Changed my mind (0)Mind (0)(0)
+
+
+hide 1 replies
+johnnycaffeine
+·
+last week
+@exmateriae Thanks for the ping, resolved for the New York Knicks.
+
+----------
+
+Platform feature suggestions
+Lazar
+·
+2 hours ago
+Perhaps someone already mentioned these but: it would be nice on desktop to be able to see higher resolution than just my 25 50 75 percentiles on previous predictions. I understand if someone is scripting and has placed over 10 this can run in to memory issues maybe but that can be worked out. A funny feature that might be more appropriate for an (un)official Chrome browser extension would be to show me the community and my score if an outcome resolves to some value I enter then. During this year's Bridgewater round I was curious what would happen in each possible outcome scenario before the final resolution.
+
+
+
+
+How much will Wuthering Heights and Hoppers gross domestically during their opening weekend?
+Lazar
+·
+2 weeks ago
+@EE-12 Solid summary. The reviews embargo was odd given how positive some of them are. I had updated a bit against this film because the trailer looked very mediocre.
+
+
+
+
+Which party will win the most seats in the 2026 Colombian Chamber of Representatives election?
+Lazar
+·
+2 weeks ago
+Earlier I wrote that I had flagrantly erred. It was on this market. When starting out, I did not realise there was a directly corresponding Polymarket. I would not say that has high volume, however. I am fairly confident if someone thought manipulating public opinion of the popularity of some party would be strategic, they could do so with a few thousand dollars just crush the asks in the order book and I am not even sure anyone would reply back with more capital. Sometimes also market participants might assume some hedger is an actually informed counterparty and update their idea of the fair price.
+
+
+1
+
+
+What will be the MoM change to UK retail sales volume during January 2026?
+Lazar
+·
+3 weeks ago
+@johnnycaffeine Solid question. I did very badly on this one and in fact for me it might be the difference between being in the money and out. There is one other where I flagrantly erred and will comment on later. So it is worth reflecting that even if one intends to go with the community, one must do a good job with manual entry and being half as high on tails does not suffice.
+
+
+2
+
+
+How much will Wuthering Heights and Hoppers gross domestically during their opening weekend?
+Lazar
+·
+3 weeks ago·(edited 3 weeks ago)
+@johnnycaffeine Oh sure. I went under the "market" the entire duration on both. I will state a theorem that is not directly applicable here but useful to know and consider in general on Metaculus: say one believes the data generating process is a normal distribution and furthermore we have a good idea about the variance but are not sure of the mean. If our distribution on the mean was normal recall variances add and we end up with the normal at our mean estimator and could be solidly higher variance. During this tournament I am starting to use the community variance as an estimator for variance. Not quite applicable here we might suppose the logarithm of gross is normal ish or something maybe if backtesting showed it this was just a handwave I thought of because I had a solid few where my initial variance was too low.
+
+
+
+
+1
+
+
+How much will Wuthering Heights and Hoppers gross domestically during their opening weekend?
+Lazar
+·
+3 weeks ago·(edited 3 weeks ago)
+@johnnycaffeine @Ascanio_Bridgewater I do not want to spam the threads but I will note earlier I claimed to have edges. On this question I outperformed the "market" but would think I just made bad decisions and got lucky, no true edge. My reasoning process was not great. I am sorta trying to understand how we might use social media activity to predict these markets and especially consider the last couple of years in my model. Right now my distribution for Hoppers has more credence on lower values than the shown Community. Maybe I do not need to tag Ascanio every time because he will just read the threads anyways but I am inspired because maybe recently and especially Wuthering had more social media commentary than one might expect given the actual outcome in cinemas.
+
+
+1
+
+
+Announcing: Forecasting the Upstart Macro Index - $10,000 Prize Pool
+Lazar
+·
+last month
+Awesome stuff! The prizes for commenters especially.
+
+
+3
+
+
+How much will Wuthering Heights and Hoppers gross domestically during their opening weekend?
+Lazar
+·
+last month
+@AlexisTocqueville @exmateriae Thanks for the updates. This thread was both interesting and illuminating for me. I had totally failed to understand some of the issues with this type of question and enjoyed reading along thoroughly, knowing it was possibly one of my worst performances in the competition.
+
+
+2
+
+
+What percentage of US households will watch Super Bowl LX?
+Lazar
+·
+last month
+@Ascanio_Bridgewater I was confused initially reading posts like this one from Nielsen because I did not understand if they would impact the measurement. In any case, I performed OK on this market by supposing that Metaculus would overestimate expected viewership.
+
+
+
+
+Will André Ventura win Portugal's 2026 presidential election?
+Lazar
+·
+on Feb 9
+@johnnycaffeine @exmateriae @Ascanio_Bridgewater I wanted to stress here the importance of consulting with high volume betting markets.
+
+
+
+
+
+
+Which country will lead the medal table at the 2026 Winter Olympics?
+Lazar
+·
+on Feb 8·(edited on Feb 8)
+@exmateriae @Ascanio_Bridgewater This is an example of a question where there was not merely a closely related Polymarket, but a direct copy as a source of information. If Ascanio were asking this in an interview, I would immediately say my intuition is that I do not largely expect these factors to wash out. Well I am trying to note something of quality here and know I previously alluded towards Polymarket's existence a couple of times in comments without more direct citation.
+
+As a follow-on question here maybe Ascanio could wonder when the numerics are large enough, or rather, say we are merely comparing the USA with Norway, or well there are different levels of simplicity we could talk about here but I know some firms might ask candidates to even estimate deltas or rather shifts in overall win probabilities could be a game with weighted coin flips or like multiple Bernoulli events and then say you just learn that the first 5 flips were all not wins for team Norway or something like how much does the posterior shift in the updates? Off the dome one might think that in any such setting where we are even discussing it because USA and Norway both have non trivial probabilities like even 5 or so events is important unless there are well over 1000 Gold medals total at play. If we were discussing a categorical distribution for each event where its contribution is either (0,0), (1,0), or (0,1) in contributing... well a quick approximation and upper bound would be what is the probability that the gap in medals was less than 5 in the other events and one can compute variance and ~ standard deviation get some bound.
+
+
+-1
+
+
+Will the retail price of rice in Japan fall below ¥4200/5kg before March 9, 2026?
+Lazar
+·
+on Jan 31·(edited on Feb 3)
+@exmateriae Monsieur, were we not beefing a little last year over how people had put in credences under 1% without rigour? https://www.metaculus.com/accounts/profile/125313/comments/#comment-307080 My point being that we have an edge due to supreme abilities in general reasoning as well as reading sources and statistics. I write this comment knowing it is not quite like the "Pros who have a history of making clear and insightful comments, and who are willing to disagree with their peers, but in a polite and respectful manner." I still just did not understand how so many people seem to have agreed last year that the probability of a complex joint event was so vanishingly low.
+
+
+-4
+
+
+Will the retail price of rice in Japan fall below ¥4200/5kg before March 9, 2026?
+Lazar
+·
+on Jan 30·(edited on Feb 1)
+Lazar's Prediction
+70%
+Jan 24, 2026
+Knowing that I am revealing my predictions retroactively with the selection effect of having performed OK I will say I do truly think I had an edge here and the "market" went too low.
+
+
+
+
+Bridgewater x Metaculus Contest 2026 Welcome + Q&A
+Lazar
+·
+on Jan 21
+@exmateriae @Ascanio_Bridgewater Yes, I am hoping to impress you all and people at other firms for hiring purposes! Thus far though I have just been using a mixture of my observations with other comments and Kalshi|Polymarket.
+
+
+-3
+
+
+Final Comment
+
+Thanks for another tournament. The sad news is that I was out of the money and kinda near the bubble. The happy news is that I learned a lot. I should try harder during hidden periods. This year, I had far too low variance on some of my predictions during those periods. Also, I should recall that "the market" is weighted by recent updates and in particular trolls can impact them a solid bit. So, there is the ongoing lesson in how to consider one's private information and edge with the market. My analysis is that for a big money tournament like this one it pays to go with higher|wider tails than the market usually in the logarithmic Brier scoring mechanism. But to get Top 10 one imagines going with the market too much will not work and one must find some real advantages over the other competitors.
+
+--
+

@@ -1,0 +1,1872 @@
+Contents
+
+
+
+Preface ................................................................................................... xvii
+
+
+
+Acknowledgments ....................................................................................... xix
+
+
+
+Notation .................................................................................................. xxi
+
+
+
+CHAPTER 1 Introduction ...................................................................... 1
+
+OK
+
+1.1 What Machine Learning is About.................................................. 1
+
+OK
+
+1.1.1 Classification ............................................................... 2
+
+
+
+1.1.2 Regression.................................................................. 3
+
+
+
+1.2 Structure and a Road Map of the Book ............................................ 5
+
+OK
+
+References ................................................................................ 8
+
+
+
+CHAPTER 2 Probability and Stochastic Processes .................................... 9
+
+
+
+2.1 Introduction ......................................................................... 10
+
+OK
+
+2.2 Probability and Random Variables ................................................. 10
+
+
+
+2.2.1 Probability.................................................................. 11
+
+
+
+2.2.2 Discrete Random Variables................................................ 12
+
+
+
+2.2.3 Continuous Random Variables ............................................ 14
+
+
+
+2.2.4 Mean and Variance ........................................................ 15
+
+
+
+2.2.5 Transformation of Random Variables..................................... 17
+
+
+
+2.3 Examples of Distributions .......................................................... 18
+
+OK
+
+2.3.1 Discrete Variables.......................................................... 18
+
+
+
+2.3.2 Continuous Variables ...................................................... 20
+
+
+
+2.4 Stochastic Processes ................................................................ 29
+
+
+
+2.4.1 First and Second Order Statistics ......................................... 30
+
+
+
+2.4.2 Stationarity and Ergodicity ................................................ 30
+
+
+
+2.4.3 Power Spectral Density .................................................... 33
+
+OK
+
+2.4.4 Autoregressive Models .................................................... 38
+
+OK I saw this for sure repeated tonnes back when I was studying Kaggle a little bit for Trading interviews in 2022 I think.
+
+2.5 Information Theory ................................................................. 41
+
+OK
+
+2.5.1 Discrete Random Variables................................................ 42
+
+
+
+2.5.2 Continuous Random Variables ............................................ 45
+
+
+
+2.6 Stochastic Convergence ............................................................ 48
+
+OK
+
+Problems.................................................................................. 49
+
+
+
+References ................................................................................ 51
+
+
+
+CHAPTER 3 Learning in Parametric Modeling: Basic Concepts and Directions 53
+
+
+
+3.1 Introduction ......................................................................... 53
+
+OK
+
+3.2 Parameter Estimation: The Deterministic Point of View ......................... 54
+
+
+
+v
+
+
+
+vi Contents
+
+
+
+3.3 Linear Regression................................................................... 57
+
+
+
+3.4 Classification ........................................................................ 60
+
+
+
+3.5 Biased Versus Unbiased Estimation ............................................... 64
+
+OK
+
+3.5.1 Biased or Unbiased Estimation? .......................................... 65
+
+
+
+3.6 The Cramér-Rao Lower Bound .................................................... 67
+
+
+
+3.7 Sufficient Statistic................................................................... 70
+
+
+
+3.8 Regularization....................................................................... 72
+
+OK
+
+3.9 The Bias-Variance Dilemma ....................................................... 77
+
+
+
+3.9.1 Mean-Square Error Estimation............................................ 77
+
+
+
+3.9.2 Bias-Variance Tradeoff .................................................... 78
+
+
+
+3.10 Maximum Likelihood Method ..................................................... 82
+
+
+
+3.10.1 Linear Regression: The Nonwhite Gaussian Noise Case ................ 84
+
+OK
+
+3.11 Bayesian Inference.................................................................. 84
+
+
+
+3.11.1 The Maximum a Posteriori Probability Estimation Method ............. 88
+
+
+
+3.12 Curse of Dimensionality............................................................ 89
+
+
+
+3.13 Validation ........................................................................... 91
+
+
+
+3.14 Expected and Empirical Loss Functions........................................... 93
+
+
+
+3.15 Nonparametric Modeling and Estimation ......................................... 95
+
+
+
+Problems ................................................................................... 97
+
+
+
+References.................................................................................. 102
+
+
+
+CHAPTER 4 Mean-Square Error Linear Estimation .................................... 105
+
+
+
+4.1 Introduction ......................................................................... 105
+
+
+
+4.2 Mean-Square Error Linear Estimation: The Normal Equations .................. 106
+
+
+
+4.2.1 The Cost Function Surface ................................................ 107
+
+
+
+4.3 A Geometric Viewpoint: Orthogonality Condition................................ 109
+
+
+
+4.4 Extension to Complex-Valued Variables .......................................... 111
+
+
+
+4.4.1 Widely Linear Complex-Valued Estimation .............................. 113
+
+
+
+4.4.2 Optimizing with Respect to Complex-Valued Variables:
+
+Uh OK.
+
+Wirtinger Calculus ......................................................... 116
+
+OKOKOK
+
+4.5 Linear Filtering ..................................................................... 118
+
+
+
+4.6 MSE Linear Filtering: A Frequency Domain Point of View...................... 120
+
+
+
+4.7 Some Typical Applications ......................................................... 124
+
+
+
+4.7.1 Interference Cancellation .................................................. 124
+
+
+
+4.7.2 System Identification ...................................................... 125
+
+
+
+4.7.3 Deconvolution: Channel Equalization .................................... 126
+
+
+
+4.8 Algorithmic Aspects: The Levinson and the Lattice-Ladder Algorithms ........ 132
+
+
+
+4.8.1 The Lattice-Ladder Scheme ............................................... 137
+
+
+
+4.9 Mean-Square Error Estimation of Linear Models ................................. 140
+
+
+
+4.9.1 The Gauss-Markov Theorem .............................................. 143
+
+OK
+
+4.9.2 Constrained Linear Estimation: The Beamforming Case ................ 145
+
+OK
+
+Contents vii
+
+
+
+4.10 Time-Varying Statistics: Kalman Filtering ........................................ 148
+
+
+
+Problems ................................................................................... 154
+
+
+
+References.................................................................................. 158
+
+
+
+CHAPTER 5 Stochastic Gradient Descent: The LMS Algorithm
+
+
+
+and its Family .................................................................... 161
+
+
+
+5.1 Introduction ......................................................................... 162
+
+
+
+5.2 The Steepest Descent Method...................................................... 163
+
+OK
+
+5.3 Application to the Mean-Square Error Cost Function ............................ 167
+
+
+
+5.3.1 The Complex-Valued Case ................................................ 175
+
+OK
+
+5.4 Stochastic Approximation .......................................................... 177
+
+
+
+5.5 The Least-Mean-Squares Adaptive Algorithm .................................... 179
+
+
+
+5.5.1 Convergence and Steady-State Performance of the LMS
+
+
+
+in Stationary Environments ............................................... 181
+
+
+
+5.5.2 Cumulative Loss Bounds .................................................. 186
+
+
+
+5.6 The Affine Projection Algorithm................................................... 188
+
+OK
+
+5.6.1 The Normalized LMS ..................................................... 193
+
+
+
+5.7 The Complex-Valued Case ......................................................... 194
+
+
+
+5.8 Relatives of the LMS ............................................................... 196
+
+
+
+5.9 Simulation Examples ............................................................... 199
+
+
+
+5.10 Adaptive Decision Feedback Equalization ........................................ 202
+
+
+
+5.11 The Linearly Constrained LMS .................................................... 204
+
+
+
+5.12 Tracking Performance of the LMS in Nonstationary
+
+
+
+Environments ....................................................................... 206
+
+
+
+5.13 Distributed Learning: The Distributed LMS ...................................... 208
+
+
+
+5.13.1 Cooperation Strategies..................................................... 209
+
+
+
+5.13.2 The Diffusion LMS ........................................................ 211
+
+
+
+5.13.3 Convergence and Steady-State Performance:
+
+
+
+Some Highlights ........................................................... 218
+
+
+
+5.13.4 Consensus-Based Distributed Schemes................................... 220
+
+
+
+5.14 A Case Study: Target Localization ................................................ 222
+
+
+
+5.15 Some Concluding Remarks: Consensus Matrix ................................... 223
+
+
+
+Problems ................................................................................... 224
+
+
+
+References.................................................................................. 227
+
+
+
+CHAPTER 6 The Least-Squares Family .................................................... 233
+
+
+
+6.1 Introduction ......................................................................... 234
+
+
+
+6.2 Least-Squares Linear Regression: A Geometric Perspective ..................... 234
+
+
+
+6.3 Statistical Properties of the LS Estimator.......................................... 236
+
+
+
+6.4 Orthogonalizing the Column Space of X: The SVD Method..................... 239
+
+
+
+6.5 Ridge Regression ................................................................... 243
+
+
+
+6.6 The Recursive Least-Squares Algorithm .......................................... 245
+
+
+
+viii Contents
+
+
+
+6.7 Newton’s Iterative Minimization Method ......................................... 248
+
+
+
+6.7.1 RLS and Newton’s Method................................................ 251
+
+
+
+6.8 Steady-State Performance of the RLS ............................................. 252
+
+
+
+6.9 Complex-Valued Data: The Widely Linear RLS .................................. 254
+
+
+
+6.10 Computational Aspects of the LS Solution ........................................ 255
+
+
+
+6.11 The Coordinate and Cyclic Coordinate Descent Methods ........................ 258
+
+
+
+6.12 Simulation Examples ............................................................... 259
+
+
+
+6.13 Total-Least-Squares................................................................. 261
+
+
+
+Problems ................................................................................... 268
+
+
+
+References.................................................................................. 272
+
+
+
+CHAPTER 7 Classification: A Tour of the Classics ..................................... 275
+
+
+
+7.1 Introduction ......................................................................... 275
+
+
+
+7.2 Bayesian Classification ............................................................. 276
+
+
+
+7.2.1 Average Risk ............................................................... 278
+
+
+
+7.3 Decision (Hyper)Surfaces .......................................................... 280
+
+
+
+7.3.1 The Gaussian Distribution Case........................................... 282
+
+
+
+7.4 The Naive Bayes Classifier ......................................................... 287
+
+OK
+
+7.5 The Nearest Neighbor Rule ........................................................ 288
+
+
+
+7.6 Logistic Regression ................................................................. 290
+
+
+
+7.7 Fisher’s Linear Discriminant ....................................................... 294
+
+
+
+7.8 Classification Trees ................................................................. 300
+
+
+
+7.9 Combining Classifiers .............................................................. 304
+
+
+
+7.10 The Boosting Approach ............................................................ 307
+
+
+
+7.11 Boosting Trees ...................................................................... 313
+
+
+
+7.12 A Case Study: Protein Folding Prediction ......................................... 314
+
+
+
+Problems ................................................................................... 318
+
+
+
+References.................................................................................. 323
+
+
+
+CHAPTER 8 Parameter Learning: A Convex Analytic Path........................... 327
+
+
+
+8.1 Introduction ......................................................................... 328
+
+
+
+8.2 Convex Sets and Functions ......................................................... 329
+
+
+
+8.2.1 Convex Sets ................................................................ 329
+
+
+
+8.2.2 Convex Functions .......................................................... 330
+
+
+
+8.3 Projections onto Convex Sets ...................................................... 333
+
+
+
+8.3.1 Properties of Projections .................................................. 337
+
+
+
+8.4 Fundamental Theorem of Projections onto Convex Sets ......................... 341
+
+
+
+8.5 A Parallel Version of POCS ........................................................ 344
+
+
+
+8.6 From Convex Sets to Parameter Estimation and Machine Learning ............. 345
+
+
+
+8.6.1 Regression.................................................................. 345
+
+
+
+8.6.2 Classification ............................................................... 347
+
+
+
+Contents ix
+
+
+
+8.7 Infinite Many Closed Convex Sets: The Online Learning Case .................. 349
+
+
+
+8.7.1 Convergence of APSM .................................................... 351
+
+
+
+8.8 Constrained Learning ............................................................... 356
+
+
+
+8.9 The Distributed APSM ............................................................. 357
+
+
+
+8.10 Optimizing Nonsmooth Convex Cost Functions .................................. 358
+
+
+
+8.10.1 Subgradients and Subdifferentials ........................................ 359
+
+
+
+8.10.2 Minimizing Nonsmooth Continuous Convex Loss Functions:
+
+
+
+The Batch Learning Case.................................................. 362
+
+
+
+8.10.3 Online Learning for Convex Optimization ............................... 367
+
+
+
+8.11 Regret Analysis ..................................................................... 370
+
+
+
+8.12 Online Learning and Big Data Applications: A Discussion ...................... 374
+
+
+
+8.13 Proximal Operators ................................................................. 379
+
+
+
+8.13.1 Properties of the Proximal Operator ...................................... 382
+
+
+
+8.13.2 Proximal Minimization .................................................... 383
+
+
+
+8.14 Proximal Splitting Methods for Optimization ..................................... 385
+
+
+
+Problems ................................................................................... 389
+
+Maybe I should do the tasks here or dig up someone else's solutions. OK I did the latter and read through them in their entirety. Might put that in rotation.
+
+8.15 Appendix to Chapter 8.............................................................. 393
+
+
+
+References.................................................................................. 398
+
+
+
+CHAPTER 9 Sparsity-Aware Learning: Concepts And Theoretical Foundations ................................................ 403
+
+OK
+
+9.1 Introduction ......................................................................... 403
+
+
+
+9.2 Searching for a Norm ............................................................... 404
+
+OK
+
+9.3 The Least Absolute Shrinkage and Selection Operator (LASSO)................ 407
+
+
+
+9.4 Sparse Signal Representation ...................................................... 411
+
+OK
+
+9.5 In Search of the Sparsest Solution ................................................. 415
+
+
+
+9.6 Uniqueness of the 0 Minimizer ................................................... 422
+
+
+
+9.6.1 Mutual Coherence ......................................................... 424
+
+OK
+
+9.7 Equivalence of 0 and 1 Minimizers: Sufficiency Conditions ................... 426
+
+OK
+
+9.7.1 Condition Implied by the Mutual Coherence Number ................... 426
+
+
+
+9.7.2 The Restricted Isometry Property (RIP) .................................. 427
+
+OK
+
+9.8 Robust Sparse Signal Recovery from Noisy Measurements ...................... 429
+
+OK
+
+9.9 Compressed Sensing: The Glory of Randomness ................................. 430
+
+
+
+9.9.1 Dimensionality Reduction and Stable Embeddings ...................... 433
+
+
+
+9.9.2 Sub-Nyquist Sampling: Analog-to-Information Conversion ............ 434
+
+OK
+
+9.10 A Case Study: Image De-Noising.................................................. 438
+
+OK
+
+Problems ................................................................................... 440
+
+
+
+References.................................................................................. 444
+
+
+
+CHAPTER 10 Sparsity-Aware Learning: Algorithms and Applications ............. 449
+
+OK
+
+10.1 Introduction ......................................................................... 450
+
+
+
+10.2 Sparsity-Promoting Algorithms .................................................... 450
+
+
+
+x Contents
+
+
+
+10.2.1 Greedy Algorithms ........................................................ 451
+
+
+
+10.2.2 Iterative Shrinkage/Thresholding (IST) Algorithms ..................... 456
+
+
+
+10.2.3 Which Algorithm?: Some Practical Hints ................................ 462
+
+
+
+10.3 Variations on the Sparsity-Aware Theme .......................................... 467
+
+
+
+10.4 Online Sparsity-Promoting Algorithms............................................ 475
+
+
+
+10.4.1 LASSO: Asymptotic Performance ........................................ 475
+
+
+
+10.4.2 The Adaptive Norm-Weighted LASSO ................................... 477
+
+
+
+10.4.3 Adaptive CoSaMP (AdCoSaMP) Algorithm ............................. 479
+
+
+
+10.4.4 Sparse Adaptive Projection Subgradient Method (SpAPSM) ........... 480
+
+
+
+10.5 Learning Sparse Analysis Models ................................................. 485
+
+
+
+10.5.1 Compressed Sensing for Sparse Signal Representation
+
+
+
+in Coherent Dictionaries................................................... 487
+
+
+
+10.5.2 Cosparsity .................................................................. 488
+
+
+
+10.6 A Case Study: Time-Frequency Analysis ......................................... 490
+
+
+
+10.7 Appendix to Chapter 10: Some Hints from the Theory of Frames ............... 497
+
+
+
+Problems ................................................................................... 500
+
+
+
+References.................................................................................. 502
+
+
+
+CHAPTER 11 Learning in Reproducing Kernel Hilbert Spaces....................... 509
+
+
+
+11.1 Introduction ......................................................................... 510
+
+
+
+11.2 Generalized Linear Models......................................................... 510
+
+
+
+11.3 Volterra, Wiener, and Hammerstein Models....................................... 511
+
+
+
+11.4 Cover’s Theorem: Capacity of a Space in Linear Dichotomies .................. 514
+
+
+
+11.5 Reproducing Kernel Hilbert Spaces ............................................... 517
+
+
+
+11.5.1 Some Properties and Theoretical Highlights ............................. 519
+
+
+
+11.5.2 Examples of Kernel Functions ............................................ 520
+
+
+
+11.6 Representer Theorem ............................................................... 525
+
+
+
+11.6.1 Semiparametric Representer Theorem.................................... 527
+
+
+
+11.6.2 Nonparametric Modeling: A Discussion ................................. 528
+
+
+
+11.7 Kernel Ridge Regression ........................................................... 528
+
+
+
+11.8 Support Vector Regression ......................................................... 530
+
+
+
+11.8.1 The Linear -Insensitive Optimal Regression ............................ 531
+
+
+
+11.9 Kernel Ridge Regression Revisited ................................................ 537
+
+
+
+11.10 Optimal Margin Classification: Support Vector Machines........................ 538
+
+
+
+11.10.1 Linearly Separable Classes: Maximum
+
+
+
+Margin Classifiers ......................................................... 540
+
+
+
+11.10.2 Nonseparable Classes...................................................... 545
+
+
+
+11.10.3 Performance of SVMs and Applications ................................. 550
+
+
+
+11.10.4 Choice of Hyperparameters ............................................... 550
+
+
+
+11.11 Computational Considerations ..................................................... 551
+
+
+
+11.11.1 Multiclass Generalizations ................................................ 552
+
+
+
+Contents xi
+
+
+
+11.12 Online Learning in RKHS.......................................................... 553
+
+
+
+11.12.1 The Kernel LMS (KLMS) ................................................. 553
+
+
+
+11.12.2 The Naive Online Rreg Minimization Algorithm (NORMA) ............ 556
+
+
+
+11.12.3 The Kernel APSM Algorithm ............................................. 560
+
+
+
+11.13 Multiple Kernel Learning .......................................................... 567
+
+
+
+11.14 Nonparametric Sparsity-Aware Learning: Additive Models ...................... 568
+
+
+
+11.15 A Case Study: Authorship Identification .......................................... 570
+
+
+
+Problems .................................................................................... 574
+
+
+
+References................................................................................... 578
+
+
+
+CHAPTER 12 Bayesian Learning: Inference and the EM Algorithm................. 585
+
+
+
+12.1 Introduction ......................................................................... 586
+
+
+
+12.2 Regression: A Bayesian Perspective ............................................... 586
+
+
+
+12.2.1 The Maximum Likelihood Estimator ..................................... 587
+
+
+
+12.2.2 The MAP Estimator ....................................................... 588
+
+
+
+12.2.3 The Bayesian Approach ................................................... 589
+
+
+
+12.3 The Evidence Function and Occam’s Razor Rule ................................. 593
+
+
+
+12.4 Exponential Family of Probability Distributions .................................. 600
+
+
+
+12.4.1 The Exponential Family and the Maximum Entropy Method ........... 605
+
+
+
+12.5 Latent Variables and the EM Algorithm ........................................... 606
+
+
+
+12.5.1 The Expectation-Maximization Algorithm ............................... 606
+
+
+
+12.5.2 The EM Algorithm: A Lower Bound Maximization View .............. 608
+
+
+
+12.6 Linear Regression and the EM Algorithm ......................................... 610
+
+
+
+12.7 Gaussian Mixture Models .......................................................... 613
+
+OK
+
+12.7.1 Gaussian Mixture Modeling and Clustering.............................. 617
+
+
+
+12.8 Combining Learning Models: A Probabilistic Point of View..................... 621
+
+
+
+12.8.1 Mixing Linear Regression Models ........................................ 622
+
+
+
+12.8.2 Mixing Logistic Regression Models ...................................... 625
+
+
+
+Problems ................................................................................... 628
+
+
+
+12.9 Appendix to Chapter 12 ............................................................ 631
+
+
+
+12.9.1 PDFs with Exponent of Quadratic Form ................................. 631
+
+
+
+12.9.2 The Conditional from the Joint Gaussian Pdf ............................ 632
+
+
+
+12.9.3 The Marginal from the Joint Gaussian Pdf ............................... 633
+
+
+
+12.9.4 The Posterior from Gaussian Prior and Conditional Pdfs................ 634
+
+
+
+References.................................................................................. 637
+
+
+
+CHAPTER 13 Bayesian Learning: Approximate Inference and Nonparametric
+
+
+
+Models ............................................................................. 639
+
+
+
+13.1 Introduction ......................................................................... 640
+
+
+
+13.2 Variational Approximation in Bayesian Learning................................. 640
+
+
+
+13.2.1 The Case of the Exponential Family of Probability Distributions ....... 644
+
+
+
+xii Contents
+
+
+
+13.3 A Variational Bayesian Approach to Linear Regression .......................... 645
+
+
+
+13.4 A Variational Bayesian Approach to Gaussian Mixture Modeling ............... 651
+
+
+
+13.5 When Bayesian Inference Meets Sparsity ......................................... 655
+
+
+
+13.6 Sparse Bayesian Learning (SBL) .................................................. 657
+
+
+
+13.6.1 The Spike and Slab Method ............................................... 660
+
+
+
+13.7 The Relevance Vector Machine Framework ....................................... 661
+
+
+
+13.7.1 Adopting the Logistic Regression Model for
+
+
+
+Classification ............................................................... 662
+
+
+
+13.8 Convex Duality and Variational Bounds ........................................... 666
+
+
+
+13.9 Sparsity-Aware Regression: A Variational Bound Bayesian Path ................ 671
+
+
+
+13.10 Sparsity-Aware Learning: Some Concluding Remarks ........................... 675
+
+
+
+13.11 Expectation Propagation............................................................ 679
+
+
+
+13.12 Nonparametric Bayesian Modeling ................................................ 683
+
+
+
+13.12.1 The Chinese Restaurant Process .......................................... 684
+
+
+
+13.12.2 Inference ................................................................... 684
+
+
+
+13.12.3 Dirichlet Processes......................................................... 684
+
+
+
+13.12.4 The Stick-Breaking Construction of a DP ................................ 685
+
+
+
+13.13 Gaussian Processes ................................................................. 687
+
+
+
+13.13.1 Covariance Functions and Kernels ........................................ 688
+
+
+
+13.13.2 Regression.................................................................. 690
+
+
+
+13.13.3 Classification ............................................................... 692
+
+
+
+13.14 A Case Study: Hyperspectral Image Unmixing ................................... 693
+
+
+
+13.14.1 Hierarchical Bayesian Modeling .......................................... 695
+
+
+
+13.14.2 Experimental Results ...................................................... 696
+
+
+
+Problems .................................................................................... 699
+
+
+
+References................................................................................... 702
+
+
+
+CHAPTER 14 Monte Carlo Methods.......................................................... 707
+
+
+
+14.1 Introduction ......................................................................... 707
+
+
+
+14.2 Monte Carlo Methods: The Main Concept ........................................ 708
+
+
+
+14.2.1 Random number generation ............................................... 709
+
+
+
+14.3 Random Sampling Based on Function Transformation ........................... 711
+
+
+
+14.4 Rejection Sampling ................................................................. 715
+
+
+
+14.5 Importance Sampling ............................................................... 718
+
+
+
+14.6 Monte Carlo Methods and the EM Algorithm..................................... 720
+
+
+
+14.7 Markov Chain Monte Carlo Methods.............................................. 721
+
+
+
+14.7.1 Ergodic Markov Chains ................................................... 723
+
+
+
+14.8 The Metropolis Method ............................................................ 728
+
+
+
+14.8.1 Convergence Issues ........................................................ 731
+
+
+
+14.9 Gibbs Sampling ..................................................................... 733
+
+
+
+14.10 In Search of More Efficient Methods: A Discussion .............................. 735
+
+
+
+Contents xiii
+
+
+
+14.11 A Case Study: Change-Point Detection ........................................... 737
+
+
+
+Problems .................................................................................... 740
+
+
+
+References................................................................................... 742
+
+
+
+CHAPTER 15 Probabilistic Graphical Models: Part I ................................... 745
+
+
+
+15.1 Introduction ......................................................................... 745
+
+
+
+15.2 The Need for Graphical Models ................................................... 746
+
+
+
+15.3 Bayesian Networks and the Markov Condition ................................... 748
+
+
+
+15.3.1 Graphs: Basic Definitions ................................................. 749
+
+
+
+15.3.2 Some Hints on Causality .................................................. 753
+
+
+
+15.3.3 D-Separation ............................................................... 755
+
+
+
+15.3.4 Sigmoidal Bayesian Networks ............................................ 758
+
+
+
+15.3.5 Linear Gaussian Models ................................................... 759
+
+
+
+15.3.6 Multiple-Cause Networks ................................................. 760
+
+
+
+15.3.7 I-Maps, Soundness, Faithfulness, and Completeness .................... 761
+
+
+
+15.4 Undirected Graphical Models ...................................................... 762
+
+
+
+15.4.1 Independencies and I-Maps in Markov
+
+
+
+Random Fields ............................................................. 763
+
+
+
+15.4.2 The Ising Model and Its Variants ......................................... 765
+
+OK
+
+15.4.3 Conditional Random Fields (CRFs) ...................................... 767
+
+
+
+15.5 Factor Graphs ....................................................................... 768
+
+
+
+15.5.1 Graphical Models for Error-Correcting Codes ........................... 770
+
+
+
+15.6 Moralization of Directed Graphs................................................... 772
+
+
+
+15.7 Exact Inference Methods: Message-Passing Algorithms ......................... 773
+
+
+
+15.7.1 Exact Inference in Chains ................................................. 773
+
+
+
+15.7.2 Exact Inference in Trees ................................................... 777
+
+
+
+15.7.3 The Sum-Product Algorithm .............................................. 778
+
+
+
+15.7.4 The Max-Product and Max-Sum Algorithms ............................ 782
+
+
+
+Problems ................................................................................... 789
+
+
+
+References.................................................................................. 791
+
+
+
+CHAPTER 16 Probabilistic Graphical Models: Part II .................................. 795
+
+OK very solid book.
+
+16.1 Introduction ......................................................................... 795
+
+
+
+16.2 Triangulated Graphs and Junction Trees........................................... 796
+
+
+
+16.2.1 Constructing a Join Tree................................................... 799
+
+
+
+16.2.2 Message-Passing in Junction Trees ....................................... 801
+
+
+
+16.3 Approximate Inference Methods................................................... 804
+
+
+
+16.3.1 Variational Methods: Local Approximation .............................. 804
+
+
+
+16.3.2 Block Methods for Variational Approximation .......................... 809
+
+
+
+16.3.3 Loopy Belief Propagation ................................................. 813
+
+
+
+16.4 Dynamic Graphical Models ........................................................ 816
+
+
+
+xiv Contents
+
+
+
+16.5 Hidden Markov Models ............................................................ 818
+
+
+
+16.5.1 Inference ................................................................... 821
+
+
+
+16.5.2 Learning the Parameters in an HMM ..................................... 825
+
+
+
+16.5.3 Discriminative Learning ................................................... 828
+
+
+
+16.6 Beyond HMMs: A Discussion ..................................................... 829
+
+
+
+16.6.1 Factorial Hidden Markov Models ......................................... 829
+
+
+
+16.6.2 Time-Varying Dynamic Bayesian Networks ............................. 832
+
+
+
+16.7 Learning Graphical Models ........................................................ 833
+
+
+
+16.7.1 Parameter Estimation ...................................................... 833
+
+
+
+16.7.2 Learning the Structure ..................................................... 837
+
+OK
+
+Problems ................................................................................... 838
+
+
+
+References.................................................................................. 840
+
+
+
+CHAPTER 17 Particle Filtering ................................................................ 845
+
+
+
+17.1 Introduction ......................................................................... 845
+
+
+
+17.2 Sequential Importance Sampling................................................... 845
+
+
+
+17.2.1 Importance Sampling Revisited ........................................... 846
+
+
+
+17.2.2 Resampling................................................................. 847
+
+
+
+17.2.3 Sequential Sampling ....................................................... 849
+
+
+
+17.3 Kalman and Particle Filtering ...................................................... 851
+
+
+
+17.3.1 Kalman Filtering: A Bayesian Point of View............................. 852
+
+
+
+17.4 Particle Filtering .................................................................... 854
+
+
+
+17.4.1 Degeneracy................................................................. 858
+
+
+
+17.4.2 Generic Particle Filtering .................................................. 860
+
+
+
+17.4.3 Auxiliary Particle Filtering ................................................ 862
+
+
+
+Problems ................................................................................... 868
+
+OK
+
+References.................................................................................. 872
+
+
+
+CHAPTER 18 Neural Networks and Deep Learning...................................... 875
+
+
+
+18.1 Introduction ......................................................................... 876
+
+
+
+18.2 The Perceptron ...................................................................... 877
+
+
+
+18.2.1 The Kernel Perceptron Algorithm ........................................ 881
+
+
+
+18.3 Feed-Forward Multilayer Neural Networks ....................................... 882
+
+
+
+18.4 The Backpropagation Algorithm................................................... 886
+
+OK
+
+18.4.1 The Gradient Descent Scheme ............................................ 887
+
+
+
+18.4.2 Beyond the Gradient Descent Rationale .................................. 895
+
+
+
+18.4.3 Selecting a Cost Function ................................................. 896
+
+
+
+18.5 Pruning the Network................................................................ 897
+
+
+
+18.6 Universal Approximation Property of Feed-Forward
+
+
+
+Neural Networks .................................................................... 899
+
+
+
+18.7 Neural Networks: A Bayesian Flavor .............................................. 902
+
+
+
+Contents xv
+
+
+
+18.8 Learning Deep Networks ........................................................... 903
+
+
+
+18.8.1 The Need for Deep Architectures ......................................... 904
+
+
+
+18.8.2 Training Deep Networks .................................................. 905
+
+
+
+18.8.3 Training Restricted Boltzmann Machines ................................ 908
+
+
+
+18.8.4 Training Deep Feed-Forward Networks .................................. 914
+
+OK
+
+18.9 Deep Belief Networks .............................................................. 916
+
+
+
+18.10 Variations on the Deep Learning Theme .......................................... 918
+
+
+
+18.10.1 Gaussian Units ............................................................. 918
+
+
+
+18.10.2 Stacked Autoencoders ..................................................... 919
+
+
+
+18.10.3 The Conditional RBM ..................................................... 920
+
+
+
+18.11 Case Study: A Deep Network for Optical Character
+
+
+
+Recognition ......................................................................... 923
+
+OK
+
+18.12 Case Study: A Deep Autoencoder ................................................. 925
+
+
+
+18.13 Example: Generating Data via a DBN ............................................. 928
+
+
+
+Problems .................................................................................... 929
+
+
+
+References................................................................................... 932
+
+
+
+CHAPTER 19 Dimensionality Reduction .................................................... 937
+
+
+
+19.1 Introduction ......................................................................... 938
+
+
+
+19.2 Intrinsic Dimensionality ............................................................ 939
+
+
+
+19.3 Principle Component Analysis ..................................................... 939
+
+
+
+19.4 Canonical Correlation Analysis .................................................... 950
+
+
+
+19.4.1 Relatives of CCA .......................................................... 953
+
+
+
+19.5 Independent Component Analysis ................................................. 955
+
+OK
+
+19.5.1 ICA and Gaussianity....................................................... 956
+
+
+
+19.5.2 ICA and Higher Order Cumulants ........................................ 957
+
+
+
+19.5.3 Non-Gaussianity and Independent
+
+
+
+Components................................................................ 958
+
+
+
+19.5.4 ICA Based on Mutual Information........................................ 959
+
+
+
+19.5.5 Alternative Paths to ICA................................................... 962
+
+
+
+19.6 Dictionary Learning: The k-SVD Algorithm ...................................... 966
+
+
+
+19.7 Nonnegative Matrix Factorization ................................................. 971
+
+OK
+
+19.8 Learning Low-Dimensional Models: A Probabilistic
+
+
+
+Perspective .......................................................................... 972
+
+
+
+19.8.1 Factor Analysis ............................................................ 972
+
+
+
+19.8.2 Probabilistic PCA .......................................................... 974
+
+
+
+19.8.3 Mixture of Factors Analyzers: A Bayesian View
+
+
+
+to Compressed Sensing .................................................... 977
+
+
+
+19.9 Nonlinear Dimensionality Reduction .............................................. 980
+
+
+
+19.9.1 Kernel PCA ................................................................ 980
+
+OK
+
+19.9.2 Graph-Based Methods ..................................................... 982
+
+
+
+xvi Contents
+
+
+
+19.10 Low-Rank Matrix Factorization: A Sparse Modeling Path ....................... 991
+
+
+
+19.10.1 Matrix Completion......................................................... 991
+
+
+
+19.10.2 Robust PCA ................................................................ 995
+
+
+
+19.10.3 Applications of Matrix Completion and ROBUST PCA ................ 996
+
+
+
+19.11 A Case Study: fMRI Data Analysis................................................ 998
+
+OK
+
+Problems .................................................................................... 1002
+
+
+
+References................................................................................... 1003
+
+
+
+APPENDIX A Linear Algebra ................................................................... 1013
+
+
+
+A.1 Properties of Matrices .............................................................. 1013
+
+
+
+A.2 Positive Definite and Symmetric Matrices ........................................ 1015
+
+
+
+A.3 Wirtinger Calculus .................................................................. 1016
+
+
+
+References ................................................................................ 1017
+
+
+
+APPENDIX B Probability Theory and Statistics .......................................... 1019
+
+
+
+B.1 Cramér-Rao Bound ................................................................. 1019
+
+
+
+B.2 Characteristic Functions ............................................................ 1020
+
+
+
+B.3 Moments and Cumulants ........................................................... 1020
+
+
+
+B.4 Edgeworth Expansion of a Pdf ..................................................... 1021
+
+
+
+Reference ................................................................................. 1022
+
+
+
+APPENDIX C Hints on Constrained Optimization ........................................ 1023
+
+
+
+C.1 Equality Constraints ................................................................ 1023
+
+
+
+C.2 Inequality Constraints .............................................................. 1025
+
+
+
+References ................................................................................ 1029
+
+
+
+Index ..................................................................................................... 1031
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

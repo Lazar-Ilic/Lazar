@@ -1,0 +1,233 @@
+OKOKOK
+
+Good solid idea to review various things presented in different formats and proabably consider writing up composing ~50 upsolves on topics I have not hit in a while such as Trees in order to hit 1-Dan GrandMaster BlackBelt soon.
+
+Interesting writeup I lowkey forgot about the analysis of the super simple randomised algorithm here where we randomly select which of the 2 gets merged in to the other 1 but I still prefer tracking the actual tree height I think here is how my KACTL edit natively supports that.
+
+	UnionFind
+
+Simple enough. Direct implementation and practice calling the relevant identifier function.
+
+	Principles Of Algorithmic Problem Solving
+
+OK chapter. Think this is related to the KACTL underlying vectors implementation. Need to consider the rollback uh Disjoint Set Union with deletions maybe review 1 of those old implementations and add it up in to my documentation a uh time sequenced discrete time sequenced Disjoint Set Union with deletions.
+
+	Competitive Programmers' Handbook|Guide To Competitive Programming
+
+OK implementation with positive legible size[] function call here.
+
+	Road Construction
+
+Seems easy enough to utilise the generic implementations and store the maximum size thus far as well as the number of components separately and simply update those 2 auxiliary global variables each iteration to uh output based around what went down in the previous iteration if we merged 2 distinct ones e.g. and reduce the number of separated components by a -- e.g. and if we broke to a new maximum if and only if in that uh case as well.
+
+	Closing The Farm
+
+So we read in the Input and uh store the relevant edges in the graph and then read the Input in and save and then process in reverse works to uh dunno that there is no simply way to reverse all input for a task like this very fast memory handling and so on and so on with respect to finite .txt files inputs but I digress so process backwards and merge as is relevant for each edge until we produce the uh threshold time at which point it is fully connected uh prior to that point in time and uh disconnected afterwards after it and then reply to the queries in like O[1] after producing that strict monotonous threshold value time.
+
+	MooTube
+
+One can read the official tutorial. In any case, I digress the point here is that the condition reads "at least K" so it is like all of the edges between A and B must be >=K for them to be connected is like we do this in uh reverse consider like each query sorted in decreasing order of K and then basically can just process the uh relevant edges in O[V + E + E * log[E]] or whatever in reverse decreasing order of K so that 2 dudes are merged by now if and only if all of the edges between them have been processed through thus far yadda yadda yadda and of course ensure to not be off-by-1 here read closely in the test example Output whether or not they want us to consider A tautologically always connected to A etc. yadda yadda ensure to always run on degenerate low-n Input test cases in one's head and perhaps also manually in the test cases is not uh too tricky might want to always opt to compose up those test cases and also Engineer's Induction and also run them in one's own head etc.
+
+In terms of me I mean reflecting upon my recent date with a Kineski girl in Cambridge like how I be feeling... I told her my favourite YouTuber is the CodeMonkey TechnologyLead and in particular I love the Japan series like I need to not divorce my own wifey if I ever get one and like home school my kiddos but IO Neo-Kyoto and maybe 120 months in Japan is like... see how I manage my assets with respect to various tax laws... the Japan series on esthetics... https://www.youtube.com/watch?v=SQ-C_arwd3E&ab_channel=TechLeadShow ... is like lonely egoistic egotistic narcissistic awesomest ultimate super hero shit is basically like this lunatic and me and We Are One ole ola like this right here is another jacked shredded 10|10 multi millionaire rich as fuck... https://youtu.be/SQ-C_arwd3E?t=71 ... this right here is me. Me. Me. Me. Nice peaceful quiet Japanophilia and Computer Science Phlilosophy sessions in nature Neo-Kyoto. My Class. My Category. And in the future they will in fact look back on TechnologyLead and LASER REZA and say wow Jeez Louise what an eminently litty lit lit litter than lit legitimate egoistic douche brother... "That is me, OK, not you!" - TechnologyLead, Lazar Ilic.
+
+In terms of me I mean studying Competitive Programming is like I think once my firm gives me the 16.2in Apple Macintosh Book Professional machine my underlying might really be 1900 2300 AtCoder CodeForces frankly due to speedups in latency and Productivity all around keyboard mouse monitour type of stuff from the projects 'hood kind of a janky $200 Asus Google ChromeBook machine wasting 15 minutes per round on slow executions in debugging etc. yadda to very very very superior instantaneous rendering and compiling compile time on the uh Apple Macintosh Book Professional perhaps running Linux Operating System or directly out of the Macintosh Operating System terminal etc.
+
+	WormHole Sort
+
+Uh OK so I guess that uh like binary search works here now I do wish that they had opted to write down the asymptotic explicitly here because initially one might think up a uh kind of like a uh O[n * sqrt[n] * log[n]] algorithm here uh depending really rather than uh O[n * log^2[n]] depending yadda yadda yadda upon implementation and then uh Breadth First Searching through to uh discover each uh like vector of what was uh hit yadda in round yadda checked yadda processed in a Vector Of Booleans yadda yadda because I can think up immediately a uh bona fide O[n * log[n]] implementation.
+
+	MooCast
+
+Immediately one thinks of a like underlying O[n^2 * log[n]] approach which might uh work such as direct Minimum Spanning Tree algorithms. Oops I uh misread the task I think uh OK so it is that asymptotic I think loops through edges in terms of cost and add in as needed until connected at which point that final needed edge insertion is the overall minimum threshold value to clear to cost to connect the entire graph.
+
+	Tractor
+
+Seems canonical like the same tasks as before again we can simply store the maximum size of a connected component thus far and uh process through edges based upon size sorted and if that edge connects 2 previously disconnected components etc. yadda in O[n^2 * log[n]] time here should be ACcepted I think. Interesting enough that uh like it might make sense here upon reading the uh Official Solution it is an interesting half task to consider O[N^2 * log[D]] depending upon that uh binary search uh the actual execution runtime depending really because uh N^2 versus D would really depend upon the task specifics and it might be aight in some Real Life settings to run a checker prior to uh whatever to compute what was maximum value of D here in an O[n] check prior to selecting which of the 2 we expect to execute to be uh Faster here.
+
+	Mountain Time
+
+Of course the uh relevant dudes here are those who are in a local plateau peak and then all of those will end up having the uh same value and others 0 and all maximum are set ab initio too and so on and so on. Think here we just pay close special attention to some indicators and auxiliaries while doing the usual sort for processing and then processing.
+
+O[nm] is allegedly viable dunno about uh oh index compression I guess index compression followed by a Vector Of Vector approach here in place sorting again so this is a very useful thing to remember to drop out these log factors when possible and perhaps that uh sorting technique too can function on uh some of these uh earlier tasks really depending on some other factors here for sorting in a 10^6 range rather than like 10^9 I think.
+
+	New Roads Queries
+
+One can use a Link Cut Tree or Splay Tree variants perhaps depending. But on runtime one may view "dreamoon" or "SlavicG" et al.'s submissions.
+
+	Ski Course Rating
+
+"
+Analysis: Ski Course Rating by Nathan Pinsker
+
+The structure of this problem suggests, at first, the straightforward approach of performing flood fills at each of the MN points in the grid to find our desired value of D at each point. For each point P, we can binary search on the minimum value of D such that starting from P allows a cow to reach at least T points. [This works because increasing the maximum elevation we can change by between two points only helps us.] However, this method can take as long as O[[MN]^2] times a logarithmic factor for the binary search, which is too slow given our bounds.
+
+A bit more thinking reveals the following simple insight: the difficulties of nearby points are often correlated! For example, if we know the difficulty of a point P is D, then every point that we reach from P in our previous flood fill will also have difficulty at most D. [We know we can get from any of these T other points to any other one.] It is possible that these other points actually have a lower difficulty, so this insight doesn't end up helping our runtime much. However, this does at least motivate another approach! If we could somehow find the points with lowest difficulty first, then we could use that information to efficiently find the points with higher difficulty.
+
+We can do this by thinking of the MN points as points in a graph. The possible edges in this graph are between adjacent pair of points, and their edge weights are equal to the difference between those points' elevations. We add edges in increasing order of weight to our graph, and keep track of each connected component. [This means if we have added edges up to weight D, then each component will just represent a set of points that we can get between using elevation differences of at most D.] Thus, we can assign a difficulty to all points in a component precisely when its component's size is at least T.
+
+The only graph operations we need to support are adding an edge, checking if two vertices are connected, and querying the size of a component. All of these are super quick using Disjoint Se Union Find!
+"
+
+	War
+
+"
+There are n individuals who enter two different countries, and they negotiate, and now let you judge each other by the conversation between them as friends and foes.
+
+There are 4 operations: SetFriends[x,y], SetEnemies[x,y], AreFriends[x,y], AreEnemies[x,y], labeled with 1 to 4 digits.
+
+If it is set: operation, if it conflicts with the previous judgment, then output -1, otherwise not output. If the IS is operation: If you determine the correct output 1 otherwise output 0.
+
+Ideas:
+Very classic and check set plus vector offset, the first time to do this kind of problem is POJ on the food chain, I remember I just learned and check set when encountered this problem, because at that time the recursive understanding of the bad, this problem simply put me disgusting bad. I did not expect to be able to meet it again on the UVA. Vector offset is the process of the path compression of the set and the transition between the child node and the parent node, and the maintenance of the relationship transformation enables the given node relationship to be classified by the relationship between the parent nodes. Now set offset offset[] to record the current node's offset from the parent node [because each node in the set has only one parent node]. In this case, just set two relationships, friends and enemies. When you set an offset of offset[x]=0, the relationship between X and the parent node is a friend, and Offset[x]=1 indicates that the relationship between the X and the parent node is an enemy.
+
+Then, as shown in the original relationship, can be converted to the following relationship [2-side hostile so that the value between two nodes is 1, otherwise 0, arrow direction indicates the parent node direction]
+
+After conversion:
+
+Enemy enemies become friends, so 1 and 3 are a bunch.
+
+Then in the find () process, which is the process of finding the root node, the relationship between the current node and the parent node is judged by path compression.
+
+The offset between the offset[x] = (Offset[x]+offset[father[x]])%2 x node and the new parent node equals the offset between the parent node and the parent node, and modulo 2 is designed for only two states, that is, friends and enemies, if not the modulo operation, you have to use if judgment, more trouble.
+
+In the process of merging, that is, the process of setting up a relationship between two nodes. The parent node of X, y of two nodes is first found fx,fy. If the FX and FY are equal, indicating that x and Y have been connected before and already have a relationship, then determine whether the relationship that is currently being set conflicts with the previous relationship. The way to judge collisions is to determine if X and Y have the same offset for their root nodes, and if X and Y both think the root node is an enemy or a friend, then X and y must be accomplices, otherwise they are enemies, using formulas (offset[x]-offset[y]+2)%2!=d d is x and Y to set the relationship, only 0 and 1, 0 is a friend, 1 is the enemy. The formula result is true, indicating a conflict with the previous.
+
+If the parent node of the two nodes x and y that you want to set is not the same, the relationship between x and Y is not established, that is, you do not know whether it is a friend or an enemy. Then, the relationship between X and Y is established by the given relationship d.
+
+First, the parent node fy of y is connected to FX above, representing X and Y, and all data connected to the X, y vector. Then, calculate the offset value of the new connected node to the parent node [before FX as the parent of the FY, then calculate the offset of the FY and FX]. How to calculate the offset value. There is an offset value between X and FX, an offset between Y and FY, and an offset between x and Y [that is, to set the relationship value D between x and Y], and now requires the value between FX and FY., using the knowledge of vectors.
+
+To change the arrow point, just subtract the value of offset by the number of categories, 2 [Enemies And Friends] [if FY is equal to Y, then offset[y]=0]
+
+Finally, the above calculation can be used to obtain a variety of results, the number of species can also be extended to 3.
+"
+
+	Park
+
+"
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <array>
+using namespace std;
+typedef long long int L;
+L T,P;
+L xm, ym;
+L tx[5050];
+L ty[5050];
+L tr[5050];
+L par[5050];
+L find(L x){
+	if(par[par[x]]!=par[x])par[x]=find(par[x]);
+	return par[x];
+}
+
+void merge(L a,L b){
+	a=find(a);
+	b=find(b);
+	par[a]=b;
+}
+
+// Trees T, T + 1, T + 2, T + 3 are the bottom, right, top and left borders.
+bool overlap(L time,L tree1,L tree2){
+	if(tree1>=T){
+		if(tree2>=T)return false;
+		else{
+			if(tree1==T)return ty[tree2]-tr[tree2]-time<time;
+			if(tree1==T+1)return tx[tree2]+tr[tree2]+time>xm-time;
+			if(tree1==T+2)return ty[tree2]+tr[tree2]+time>ym-time;
+			if(tree1==T+3)return tx[tree2]-tr[tree2]-time<time;
+			throw 5;
+			return false;
+		}
+	}
+	else{
+		if(tree2>=T)return overlap(time,tree2,tree1);
+		else{
+			L dx=tx[tree1]-tx[tree2];
+			L dy=ty[tree1]-ty[tree2];
+			L dist2=dx*dx+dy*dy;
+			L maxdist2=tr[tree1]+tr[tree2]+2*time;
+			maxdist2*=maxdist2;
+			return dist2<maxdist2;
+		}
+	}
+}
+
+int main(){
+	for(L i=0;i<5050;++i)par[i]=i;
+	cin.sync_with_stdio(false);
+	cin.tie(nullptr);
+	cin>>T>>P;
+	cin>>xm>>ym;
+	for(L t=0;t<T;++t)cin>>tx[t]>>ty[t]>>tr[t];
+	// [[radius,corner],order]
+	vector<pair<pair<L,L>,L>> Q(P);
+	for(L p=0;p<P;++p){
+		cin>>Q[p].first.first>>Q[p].first.second;
+		--Q[p].first.second;
+		Q[p].second=p;
+	}
+	sort(Q.begin(),Q.end());
+	// [time,[tree1,tree2]]
+	vector<pair<L,pair<L,L>>> events;
+	for(L i=0;i<T+4;++i){
+		for(L j=i+1;j<T+4;++j){
+			L A=0;
+			L B=xm+ym+5;
+			while(A!=B){
+				L M=(A+B)/2;
+				if(overlap(M,i,j))B=M;
+				else A=M+1;
+			}
+			events.emplace_back(A,make_pair(i,j));
+		}
+	}
+	sort(events.begin(),events.end());
+	vector<array<bool,4>> res(P);
+	L evi=0;
+	for(auto q:Q){
+		while(evi!=(L)events.size() && events[evi].first<=q.first.first){
+			merge(events[evi].second.first,events[evi].second.second);
+			++evi;
+		}
+		L c=q.first.second;
+		array<bool,4>& r=res[q.second];
+		auto conn=[c](L a,L b){return find(T+(c+a)%4)==find(T+(c+b)%4);};
+		r[c]=true;
+		if(!conn(0,1) && !conn(0,2) && !conn(0,3))r[(c+1)%4]=true;
+		if(!conn(0,2) && !conn(0,3) && !conn(1,2) && !conn(1,3))r[(c+2)%4]=true;
+		if(!conn(3,0) && !conn(3,1) && !conn(3,2))r[(c+3)%4]=true;
+	}
+	for(array<bool,4> r:res){
+		for(L i=0;i<4;++i){
+			if(r[i])cout<<i+1;
+		}
+		cout<<'\n';
+	}
+	return 0;
+}
+"
+
+	Favourite Colours
+
+So LASER admires the moo cow named Claire and Claire admires Claire and also LASER admires Lilac and Red and Black and White and Yellow Gold and Brown allegedly reportedly ostensibly and Blood Red and Rising Sun Red and Steak Red and Atlantic Salmon Yellow Gold and so on and so on but LASER needs to stop admiring LASER so much is the moral of the shtory here or else LASER's better half wifey will divorce LASER.
+
+"
+[Analysis by Benjamin Qi]
+If both cows b and c admire cow a then both b and c must have the same color. From now on, we can treat both b and c as the same cow; change all occurrences of c to b and merge the adjacency list of c into that of b. Repeat this process while at least two distinct cows admire the same cow.
+
+Once we reach a configuration in which a cow is admired by at most one cow this process terminates; we can just assign every cow a distinct color. If we always merge the smaller adjacency list of the two cows into the larger one then our solution runs in O[[N+M] * log[N]] time. We ensured that a few slow solutions did not pass but it is likely that many [not necessarily provable] heuristics passed anyways.
+"
+
+	Valleys
+
+"
+[Analysis by Dhruv Rohatgi]
+Ignore the "no holes" condition for a moment. Each valley is defined by its highest elevation cell, and consists of the connected component of that cell with lower elevation cells.
+
+So to iterate through the regions, we can maintain connected components using union find, and insert cells one by one, in order of increasing elevation. The issue is simply how to check whether a component contains any holes.
+
+There are several ways to do this, some of which are essentially equivalent. My approach was to track the "curvature" of each component [or rather, a discrete analogue]. Every corner of a component can be assigned a curvature [either 1 or −1], and [by the Gauss-Bonnet theorem, and also by examining small examples] the total curvature of a component is 4-4h, where h is the number of holes. So if we can maintain the curvature of each component throughout the process of inserting cells and union-find, then we can determine for each component whether it has any holes.
+
+This can be done. When a cell is inserted, it merges some components. The curvature is almost additive, since it's a sum over all corners in the component. All that needs to be taken care of are the four corners adjacent to the inserted cell; their curvatures changed. For each of these corners, the change in curvature is a purely local computation, so it can be done in constant time. Thus, maintaining curvatures of the components only adds linear overhead to the time complexity of the algorithm.
+"

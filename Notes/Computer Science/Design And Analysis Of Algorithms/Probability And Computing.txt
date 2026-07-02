@@ -1,0 +1,700 @@
+Contents
+
+
+
+Preface
+
+
+
+Events and Probability
+
+
+
+1.1 Application: Verifying Polynomial Identities
+
+
+
+1.2 Axioms of Probability
+
+
+
+1.3 Application: Verifying Matrix Multiplication
+
+
+
+1.4 Application: A Randomized Min-Cut Algorithm
+
+
+
+1.5 Exercises
+
+
+
+2 Discrete Random Variables and Expectation
+
+
+
+2.1 Random Variables and Expectation
+
+
+
+2.1.1 Linearity of Expectations
+
+
+
+2.1.2 Jensen's InequaJi ty
+
+
+
+2.2 The Bernoulli and Binomial Random Variables
+
+
+
+2.3 Conditional Expectation
+
+
+
+2.4 The Geometric Distribution
+
+
+
+2.4.1 Example: Coupon Collector's Problem
+
+
+
+2.5 Application: The Expected Run-Time of Quicksort
+
+
+
+2.6 Exercises
+
+
+
+3 Moments and Deviations
+
+
+
+3.1 Markov's Inequality
+
+
+
+3.2 Variance and Moments of a Random Variable
+
+
+
+3.2.1 Example: Variance of a Binomial Random Variable
+
+
+
+3.3 Chebyshev's Inequality
+
+
+
+3.3.1 Example: Coupon Collector's Problem
+
+
+
+3.4 Application: A Randomized Algorithm for Computing the Median
+
+
+
+3.4.1 The Algorithm
+
+
+
+3.4.2 Analysis of the Algorithm
+
+
+
+3.5 Exercises
+
+
+
+4 Chernoff Bounds
+
+
+
+4.1 Moment Generating Functions
+
+
+
+4.2 Deriving and Applying Chernoff Bounds
+
+
+
+4.2.1 Chernoff Bounds for the Sum of Poisson Trials
+
+
+
+4.2.2 Example: Coin Flips
+
+
+
+4.2.3 Application: Estimating a Parameter
+
+
+
+4.3 Better Bounds for Some Special Cases
+
+
+
+4.4 Application: Set Balancing
+
+
+
+4.5* Application: Packet Routing in Sparse Networks
+
+
+
+4.5.1 Permutation Routing on the Hypercube
+
+
+
+4.5.2 Permutation Routing on the Butterfly
+
+
+
+4.6 Exercises
+
+
+
+5 Balls, Bins, and Random Graphs
+
+
+
+5.1 Example: The Birthday Paradox
+
+
+
+5.2 Balls into Bins
+
+
+
+5.2.1 The Balls-and-Bins Model
+
+
+
+5.2.2 Application: Bucket Sort
+
+
+
+5.3 The Poisson Distribution
+
+
+
+5.3.1 Limit of the Binomial Distribution
+
+
+
+5.4 The Poisson Approximation
+
+
+
+5.4.1 * Example: Coupon Collector's Problem, Revisited
+
+
+
+5.5 Application: Hashing
+
+
+
+5.5.1 Chain Hashing
+
+
+
+5.5.2 Hashing: Bit Strings
+
+
+
+5.5.3 Bloom Filters
+
+
+
+5.5.4 Breaking Symmetry
+
+
+
+5.6 Random Graphs
+
+
+
+5.6.1 Random Graph Models
+
+
+
+5.6.2 Application: Hamiltonian Cycles in Random Graphs
+
+
+
+5.7 Exercises
+
+
+
+5.8 An Exploratory Assignment
+
+
+
+6 The Probabilistic Method
+
+
+
+6.1 The Basic Counting Argument
+
+
+
+6.2 The Expectation Argument
+
+
+
+6.2.1 Application: Finding a Large Cut
+
+
+
+6.2.2 Application: Maximum Satisfiability
+
+
+
+6.3 Derandomization Using Conditional Expectations
+
+
+
+6.4 Sample and Modify
+
+
+
+6.4.1 Application: Independent Sets
+
+
+
+6.4.2 Application: Graphs with Large Girth
+
+
+
+6.5 The Second Moment Method
+
+
+
+6.5.1 Application: Threshold Behavior in Random Graphs
+
+
+
+6.6 The Conditional Expectation Inequality
+
+
+
+6.7 The Lovasz Local Lemma
+
+
+
+6.7.1 Application: Edge-Disjoint Paths
+
+
+
+6.7.2 Application: Satistiability
+
+
+
+6.8* Explicit Constructions Using the Local Lemma
+
+
+
+6.8.1 Application: A Satisfiability Algorithm
+
+
+
+6.9 Lovasz Local Lemma: The General Case
+
+
+
+6.10 Exercises
+
+
+
+7 Markov Chains and Random Walks
+
+
+
+Markov Chains: Definitions and Representations
+
+
+
+7.1.1 Application: A Randomized Algorithm for 2-Satisfiability
+
+
+
+7.1.2 Application: A Randomized Algorithm for 3-Satisfiability
+
+
+
+Classification of States
+
+
+
+7.2.1 Example: The Gambler's Ruin
+
+
+
+7.3 Stationary Distributions
+
+
+
+7.3.1 Example: A Simple Queue
+
+
+
+7.4 Random Walks on Undirected Graphs
+
+
+
+7.4.1 Application: An s-t Connectivity Algorithm
+
+
+
+7.5 Parrondo's Paradox
+
+
+
+7.6 Exercises
+
+
+
+X Continuous Distributions and the Poisson Process
+
+
+
+Continuous Random Variables
+
+
+
+8.1.1 Probability Distributions in lR
+
+
+
+8.1.2 Joint Distributions and Conditional Probability
+
+
+
+The Uniform Distribution
+
+
+
+8.2.1 Additional Properties of the Uniform Distribution
+
+
+
+The Exponential Distribution
+
+
+
+8.3.1 Additional Properties of the Exponential Distribution
+
+
+
+8.3.2* Example: Balls and Bins with Feedback
+
+
+
+The Poisson Process
+
+
+
+8.4.1 Interarrival Distribution
+
+
+
+8.4.2 Combining and Splitting Poisson Processes
+
+
+
+8.4.3 Conditional Arrival Time Distribution
+
+
+
+8.5 Continuous Time Markov Processes
+
+
+
+8.6 Example: Markovian Queues
+
+
+
+8.6.1 Mj Mj I Queue in Equilibrium
+
+
+
+8.6.2 MjMjljK Queue in Equilibrium
+
+
+
+8.6.3 The N umber of Customers in an M j M j x Queue
+
+
+
+8.7 Exercises
+
+
+
+'I Entropy, Randomness, and Information
+
+
+
+9.1 The Entropy Function
+
+
+
+9.2 Entropy and Binomial Coefficients
+
+
+
+9.3 Entropy: A Measure of Randomness
+
+
+
+9.4 Compression
+
+
+
+9.5* Coding: Shannon's Theorem
+
+
+
+9.6 Exercises
+
+
+
+10 The Monte Carlo Method
+
+
+
+10.1 The Monte Carlo Method 252
+
+
+
+10.2 Application: The DNF Counting Problem 255
+
+
+
+10.2.1 The Na"ive Approach 255
+
+
+
+10.2.2 A Fully Polynomial Randomized Scheme for ONF Counting 257
+
+
+
+10.3 From Approximate Sampling to Approximate Counting 259
+
+
+
+10.4 The Markov Chain Monte Carlo Method 263
+
+
+
+10.4.1 The Metropolis Algorithm 265
+
+
+
+10.5 Exercises 267
+
+
+
+10.6 An Exploratory Assignment on Minimum Spanning Trees 270
+
+
+
+11 * Coupling of Markov Chains
+
+
+
+11.1 Variation Distance and Mixing Time
+
+
+
+11.2 Coupling
+
+
+
+11.2.1 Example: Shuffling Cards
+
+
+
+11.2.2 Example: Random Walks on the Hypercube
+
+
+
+11.2.3 Example: Independent Sets of Fixed Size
+
+
+
+11.3 Application: Variation Distance Is Nonincreasing
+
+
+
+11.4 Geometric Convergence
+
+
+
+11.5 Application: Approximately Sampling Proper Colorings
+
+
+
+11.6 Path Coupling
+
+
+
+11.7 Exercises
+
+
+
+12 Martingales
+
+
+
+12.1 Martingales
+
+
+
+12.2 Stopping Times
+
+
+
+12.2.1 Example: A Ballot Theorem
+
+
+
+12.3 Wald's Equation
+
+
+
+12.4 Tail Inequalities for Martingales
+
+
+
+12.5 Applications of the Azuma-Hoeffding Inequality
+
+
+
+12.5.1 General Formalization
+
+
+
+12.5.2 Application: Pattern Matching
+
+
+
+12.5.3 Application: Balls and Bins
+
+
+
+12.5.4 Application: Chromatic Number
+
+
+
+12.6 Exercises
+
+
+
+13 Pairwise Independence and Universal Hash Functions
+
+
+
+13.1 Pairwise Independence 314
+
+
+
+13.1.1 Example: A Construction of Pairwise Independent Bits 315
+
+
+
+13.1.2 Application: Oerandomizing an Algorithm for Large Cuts 316
+
+
+
+13.1.3 Example: Constructing Pairwise Independent Values Modulo
+
+
+
+a Prime
+
+
+
+13.2 Chebyshev's Inequality for Pairwise Independent Variables
+
+
+
+13.2.1 Application: Sampling Using Fewer Random Bits
+
+
+
+13.3 Families of Universal Hash Functions
+
+
+
+13.3.1 Example: A 2-Universal Family of Hash Functions 323
+
+
+
+13.3.2 Example: A Strongly 2-Universal Family of Hash Functions 324
+
+
+
+13.3.3 Application: Perfect Hashing
+
+
+
+13.4 Application: Finding Heavy Hitters in Data Streams
+
+
+
+13.5 Exercises
+
+
+
+14 * Balanced Allocations
+
+
+
+14.1 The Power of Two Choices
+
+
+
+14.1.1 The Upper Bound
+
+
+
+14.2 Two Choices: The Lower Bound
+
+
+
+14.3 Applications of the Power of Two Choices
+
+
+
+14.3.1 Hashing
+
+
+
+14.3.2 Dynamic Resource Allocation
+
+
+
+14.4 Exercises
+
+
+
+Further Reading
+
+
+
+Index
+
+
+
+\"ote: Asterisks indicate advanced material.
+
+
+
+
+
+
+

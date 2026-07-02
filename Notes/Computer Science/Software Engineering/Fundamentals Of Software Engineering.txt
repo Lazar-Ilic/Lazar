@@ -1,0 +1,45 @@
+Carlo Ghezzi
+Mehdi Jazayeri
+Dino Mandrioli
+
+Thought of many answers to the simple exercises in my head while reading.
+
+Chapter 1 Software Engineering: A Preview
+
+OK
+
+Chapter 2 Software: Its Nature And Qualities
+
+OK
+
+Chapter 3 Software Engineering Principles
+
+OK
+
+Chapter 4 Design And Software Architecture
+
+OK
+
+Chapter 5 Specification
+
+OK
+
+Chapter 6 Verification
+
+OK
+
+Chapter 7 The Software Production Process
+
+OK
+
+Chapter 8 Management Of Software Engineering
+
+OK
+
+Chapter 9 Software Engineering Tools And Environments
+
+OK
+
+Chapter 10 Epilogue
+
+OK

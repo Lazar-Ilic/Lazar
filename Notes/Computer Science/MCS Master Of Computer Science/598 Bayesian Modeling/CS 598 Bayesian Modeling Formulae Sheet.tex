@@ -1,0 +1,401 @@
+% Eventually I will come back to this file after scraping out and saving all of the office hours films and write in basically a tonne of useful formulae including every line from the textbook which did eventually appear on the examinations maybe. In real life I might take an A- in the course due to the Alibaba Global Mathematics Competition and very weak formulae sheet handwriting on my part. This file could potentially be rendered via a "handwriting" typeface in to a printed sheet for usage in a ProctorU setting to appear handwritten. We were allowed 4 pages for each examination so this document ought to target 8 pages total in tiny handwriting. Some of these are obvious to me but more comprehensive for other users.
+
+\tiny
+\twocolumn
+
+Test $1$ \\
+Examples From Course Notes \\
+Examples From Homeworks And Quizzes \\
+$99\%$ with disease test posititve - true positive rate, sensitivity \\
+$95\%$ without disease test negative - true negative rate, specificity \\
+Sampling Distribution \\
+Prior Distribution \\
+Posterior Distribution \\
+Odds Ratio Of Probabilities \\
+Discrete Distribution \\
+Continuous Distribution \\
+Binomial Distribution \\
+$p(u)=\dbinom{n}{u}p^u(1-p)^{n-u}$ \\
+$E(u)=np, \text{var}(u)=np(1-p)$ \\
+Beta Distribution \\
+$\text{Beta}(A+1,B+1)=\beta(\alpha,\beta)$ \\
+PDF: $\frac{x^{\alpha-1}(1-x)^{\beta-1}}{\beta(\alpha,\beta)}, \beta(\alpha,\beta)=\frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}$ \\
+$E[X]=\frac{\alpha}{\alpha+\beta}$ \\
+Median: $\frac{\alpha-\frac{1}{3}}{\alpha+\beta-\frac{2}{3}}$ \\
+Median Is $0,5$ Quantile, Lazyr Is $0.999999999$ \\
+Mode: $\frac{\alpha-1}{\alpha+\beta-2}$ \\
+Variance: $\text{Var}[X]=\frac{\alpha \beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$ \\
+New Observations Simply Update Through $\alpha,\beta$ [Until They Look Weird And Do Not] \\
+Normal Distribution \\
+$p(u)=\frac{1}{\sqrt{2\pi \sigma^2}}e^{-\frac{1}{2\sigma^2}(u-\mu)^2}$ \\
+$N(\mu,\sigma^2), E(u)=\mu, \text{var}(u)=\sigma^2$ \\
+Expected Value: $\int up(u)du$ \\
+$E(u)=E(E(u|v))$ \\
+Variance: $\int (u-E(u))^2p(u)du$ \\
+Standard Deviation $\sqrt{\text{Var}(U)}$ \\
+Quantiles \\
+Joint Distribution \\
+Covariance $E((U-E(U))(V-E(V)))$ \\
+Correlation $\frac{\text{Cov}(U,V)}{\sqrt{\text{Var}(U)\text{Var}(V)}}$ \\
+Conditional Distribution \\
+Conditional Variance $\text{Var}(U|V=v)=E((U-E(U|V=v))^2|V=v)$ \\
+Marginal Distribution \\
+Beta Distribution \\
+Independent Events $P(A \cap B)=P(A)P(B)$ \\
+$p(u|v)=p(u)$ \\
+Conditional Independence \\
+Transformation Of Variables \\
+$p_V(v)=p_U(f^{-1}(v))\cdot \left|\frac{d}{dv}f^{-1}(v) \right|$ \\
+$p(v)=p(u)\left|\frac{du}{dv} \right|$ \\
+$p_{F^{-1}(U)}(v)=p_U(F(v))\cdot \left|\frac{d}{dv}F(v) \right|=p_V(v)$ \\
+To Simulate $V \approx \text{Exponential}(\lambda)$ \\
+$F(v)=1-e^{-\lambda v}, F^{-1}(u)=-\frac{\log{1-u}}{\lambda}$ \\
+$-\frac{\log{1-U}}{\lambda} \approx \text{Exponential}(\lambda)$ \\
+Bayes' Rule $p(\theta|y)=\frac{p(\theta)p(y|\theta)}{p(y)}$ \\
+Normalising Factor $p(y)=\int p(\theta)p(y|\theta)d\theta$ \\
+Tools For Estimation And Testing \\
+Posterior Spread \\
+Posterior Standard Deviation $\sqrt{\text{Var}(\theta|y)}$ \\
+Posterior Predictive Distribution \\
+Normal Sampling Joint Density $p(y|\mu,\theta^2)=\prod_{i=1}^n p(y_i|\mu,\sigma^2) \propto \frac{1}{(\sigma^2)^{\frac{n}{2}}}\text{exp}\left(-\frac{1}{2\sigma^2}\sum_{i=1}^n (y_i-\mu)^2 \right)$ \\
+Sample Mean $\bar{y}=\frac{1}{n}\sum_{i=1}^n y_i$ \\
+Sample Variance $s^2=\frac{1}{n-1}\sum_{i=1}^n (y_i-\bar{y})^2$ \\
+Notice $\sum_{i=1}^n (y_i-\mu)^2=(n-1)s^2+n(\mu-\bar{y})^2$ \\
+Likelihood $\propto \frac{1}{(\sigma^2)^{\frac{n}{2}}}\text{exp}\left(-\frac{(n-1)s^2}{2\sigma^2} \right)\text{exp}\left(-\frac{n}{2\sigma^2}(\mu-\bar{y})^2 \right)$ \\
+Mean-Only Model Assuming $\sigma^2$ Is A Known Constant \\
+$p(y|\mu)\propto \text{exp}\left(-\frac{n}{2\sigma^2}(\mu-\bar{y})^2 \right)$ \\
+Precision Is The Reciprocal Of A Variance \\
+$\frac{1}{\tau_0^2}, \frac{1}{\tau_n^2}, \frac{n}{\sigma^2}$ \\
+Improper Prior Integral Of $p(u)$ Is Infinite \\
+For Example $p(u)\propto 1$ On $-\infty<\mu<\infty$ \\
+This Is The Flat Prior Noninformative \\
+Reasonable If Bayes' Rule Produces Proper Posterior \\
+Exchangeability \\
+Parameter Vector And Hyperparameter With A Hyperprior \\
+Hierarchical Model Representations \\
+Examples From Course \\
+Graphical Models \\
+Variables Are Nodes And Connections Are Edges \\
+Nodes Are Deterministic [Defined As An Exact Function Of Their Parents] Or Stochastic [Defined In Terms Of A Density] \\
+JAGS Model Representation \\
+Binomial Hierarchical Model In R|JAGS \\
+Posterior Predictive Simulation \\
+Posterior Prediction And Reproducibility \\
+Model For Means \\
+Hierarchical Models \\
+List Of Conjugate Priors \\
+Recall Beta Distribution Was Conjugate For Binomial Data \\
+Normal Prior Is Conjuage For The Normal Mean-Only Model \\
+$\mu_n=\frac{\frac{1}{\tau_0^2}\mu_0+\frac{n}{\sigma^2}\bar{y}}{\frac{1}{\tau_0^2}+\frac{n}{\sigma^2}}, \frac{1}{\tau_n^2}=\frac{1}{\tau_0^2}+\frac{n}{\sigma^2}$ \\
+$\mu|y \sim N(\mu_n,\tau_n^2)$ \\
+Prior Distribution For $\sigma^2$ Is Scaled-Inverse Chi-Square \\
+It Is Also Called Inverse Gamma \\
+Some Natural Conjuage Families \\
+Binomial With Beta \\
+Normal $\mu$ With Normal \\
+Normal $\sigma^2$ Inverse Gamma Distribution [Scaled Inverse Chi-Square] \\
+Poisson With Gamma Distribution \\
+Posterior Expectations \\
+Posterior Marginals \\
+Approximating The Integrals \\
+Deterministic Numerical Integration \\
+Numerical Integration By Simulation \\
+Monte Carlo Integration \\
+Suppose Random Variates $\theta^1, \theta^2, \cdots, \theta^s$ \\
+$E(h(\theta)|y)=\int h(\theta)p(\theta|y)d\theta \approx \frac{1}{S}\sum_{s=1}^S h(\theta^s)$ \\
+Seek Methods Of Simulation That: \\
+Make Most Bayesian Tools Easy To Approximately Compute \\
+Extend To High Dimensions \\
+Do Not Need The Normalising Factor $p(y)$ \\
+List Of Partial Semiconjugate Priors \\
+Prior Simulation \\
+Evaluating Monte Carlo Error \\
+Monte Carlo Error \\
+Monte Carlo Standard Error \\
+Independent Simulation \\
+Are The Hyperpriors Diffuse Enough? \\
+Grid Sampling \\
+Approximate Posterior Sample Obtained By Discretely Sampling The Grid Points With Probabilities Proportional To $q(\theta^1), q(\theta^2), \cdots, q(\theta^g)$ \\
+Conditional Sampling \\
+Rejection Sampling \\
+Rejection Sampling Algorithm \\
+Importance Sampling \\
+Importance Sampling Algorithm \\
+? List Of Not Conjugate Priors \\
+List Of R Commands And Functions \\
+lengths, hist, print, mean, var, curve, dnorm, rjags, update, coda.samples, runif, rbinom, rnorm, rexp \\
+Example DAGs Directed Acyclic Graphs From Course And Homework Tasks For Hyperparameters \\
+Forward Simulation Sampling \\
+Textbook \\
+$p(y)=\int p(y,\theta)d\theta=\int $ \\
+$p(\hat{y}|y)=\int p(\hat{y}|\theta)p(\theta|y)d\theta$ \\
+Example Of Probability Assignment \\
+Assigning Probabilities Based On Observed Frequencies \\
+Assigning Probabilities Using The Parametric \\
+Estimating Match Probabilities Empirically \\
+External Validation Of The Probabilities Using Test Data \\
+$E(u)=\int \int up(u,v)dudv=\int \int up(u|v)du p(v)dv=\int E(u|v)p(v)dv$ \\
+$p_v(v)=p_u(f^{-1}(v))$ \\
+$\text{logit}(u)=\log \left(\frac{y}{1-y} \right)$ \\
+$\text{logit}^{-1}(v)=\frac{e^v}{1+e^v}$ \\
+$P(\hat{y}=1|y)=\int_0^1 P(\hat{y}=1|\theta,y)p(\theta|y)d\theta=\int_0^1 \theta p(\theta|y)d\theta=E(\theta|y)=\frac{y+1}{n+2}$ \\
+$E(\theta)=E(E(\theta|y))$ \\
+$\text{Var}(\theta)=E(\text{Var}(\theta|y))+\text{Var}(E(\theta|y))$ \\
+$p(\hat{y}|y)\propto \int \text{exp}\left(-\frac{1}{2\sigma^2}(\hat{y}-\theta)^2 \right)\text{exp}\left(-\frac{1}{2\tau_1^2}(\theta-\mu_1)^2 \right)$ \\
+Sufficient Statistic \\
+For Instance, The Poisson Model For A Single Observation $y$ Has Prior Predictive Distribution... Which Is Known As the Negative Binomial Density \\
+Given $\sigma^2$ We Have Normal Data With A Normal Prior Distribution, So The Posterior Distribution Is Normal \\
+$\mu|\sigma^2,y\sim N(\mu_n,\tau_n^2)$ \\
+Where $\mu_n=\frac{\frac{1}{\tau_0^2}\mu_0+\frac{n}{\sigma^2}\hat{y}}{\frac{1}{\tau_0^2}+\frac{n}{\sigma^2}}$ And $\tau_n^2=\frac{1}{\frac{1}{\tau_0^2}+\frac{n}{\sigma^2}}$ \\
+Hierarchical Models \\
+Joint Probability Model Should Reflect The Dependence Among Them \\
+Empirical Bayes \\
+de Finetti's Theorem \\
+Any Suitably Well-Behaved Exchangeable Distribution \\
+$p(\alpha,\beta)\propto (\alpha+\beta)^{-\frac{5}{2}}$ \\
+$\Chi^2$ Discrepancy: $T(y,\theta)=\sum_i \frac{(y_i-E(y_i|\theta))^2}{\text{Var}(y_i|\theta)}$ \\
+Sensitivity Analysis \\
+Comparing Posterior Inferences To Substantive Knowledge \\
+Finite-Population And Superpopulation Inference \\
+Randomisation Given Covariates \\
+Wikipedia \\
+Bayesian Inference \\
+Causality Judea Pearl \\
+Statistical Models \\
+Bernstein-von Mises Theorem \\
+Fisher Information Matrix \\
+Recall Dutch Book Theorems \\
+Cox's Theorem \\
+Aristotelian Logic \\
+Kolmogorov Axioms \\
+Borel Algebra \\
+Quasiprobability \\
+Credal Network \\
+An Essay Towards Solving A Problem In The Doctrine Of Chances \\
+
+\newpage
+Test $2$ \\
+Dependent Versus Independent Sampling \\
+Markov Property $\theta^s$ Conditionally Independent Of All Other Variates Given The Adjacent Variates [$\theta^{s-1}$ And $\theta^{s+1}$] \\
+Markov Chain \\
+Markov Chain Monte Carlo \\
+Value Is State Of Markov Chain \\
+Transition Distribution \\
+Transition Kernel \\
+If Transition Distribution The Markov Chain Time-Invariant Time-Homogeneous \\
+Stationary Distributions \\
+Convergence Limiting Distribution \\
+Gibbs Sampling \\
+Gibbs Sampler \\
+Conditional Posterior \\
+Gibbs Sampler Is Easiest To Implement When The Prior Is Chosen To Make All Components Of $\theta$ Partially Conjugate \\
+For Variance \\
+The Prior Density $p(\sigma^2)\propto (\sigma^2)^{-(v_0/2+1)}\text{exp}\left(-\frac{v_0\sigma_0^2}{2\sigma^2} \right)$ \\
+$p(\sigma^2|\mu,y)\propto p(\sigma^2)p(y|\mu,\sigma^2)$ \\
+$p(\sigma^2|\mu,y)\propto \text{Inv}-\Chi^2\left(v_n,\sigma_n^2(\mu) \right)$ \\
+For Implementation, Note $\text{Inv}\left(v_n,\sigma_n^2(\mu) \right)=\text{Inv}-\Gamma(v_n/2mv_n\sigma_n^2(\mu)/2)$ \\
+Gibbs Sampler Example \\
+Gibbs Sampler Can Have Serious Problems When The Posterior Has More Than $1$ Mode \\
+Metropolis And Metropolis-Hastings \\
+The Random Walk \\
+Jumping Distribution \\
+Proposal Density Of The Proposal Distribution \\
+Multivariate Normal Proposal \\
+Sampling Efficiency Is Sometimes Improved With A Proposal Density That Is Not Symmetric \\
+Metropolis-Hastings Algorithm \\
+Choose Starting Value $\theta^0$, Sample Proposal $\theta *$ From $J_t(|\theta^{t-1})$, Compute $r$, Set $\theta^t=\thetha *$ With Probability min$(r,1)$ $\theta^{t-1}$ Otherwise \\
+Tuning, Acceptance Rate \\
+Acceptance Rate Is Usually Not Easy To Determine Analytically \\
+Adaptation, Adaptive Algorithm \\
+Metropolis Within Gibbs \\
+Simple Bayesian Model For A Normal Sample \\
+Proposal Choice Use Bivariate Normal Proposal \\
+Slice Sampler Is Another MCMC Technique \\
+Using MCMC In Practise \\
+Overview Of Practical MCMC \\
+Multiple Chains Usually Use 3 To 5 Chains Or 8 Or 16 Or Whatever \\
+Starting Points Initialised Overdispersed \\
+Adaptation \\
+Assessing Convergence \\
+Trace Plot \\
+Gelman-Rubin \\
+Gelman-Rubin Statistic \\
+Autocorrelation And Mixing \\
+Autocorrelation At Lag \\
+Autocorrelation Functions \\
+Mixing, Mixing Is Slow If The Dependence Is High Even At Long Lags, Mixing Is Fast If The Dependence Goes Away Quickly \\
+Monte Carlo Error $\sqrt{\text{Var}(\Phi)}$ And Sample Size \\
+Effective Sample Size \\
+Traces And Density Plots \\
+Comment On Strategies \\
+Thinning \\
+Reproducibility \\
+Model Checking \\
+Sensitivity Analysis \\
+Questioning Model Fit \\
+Posterior Predictive Checking \\
+Find Posterior Predictive Distribution \\
+Posterior Predictive Checking In General \\
+Replicate Data \\
+Examples From Course \\
+Test Quantities \\
+Discrepancy Measure \\
+Test Statistic \\
+Classical $p$-Values \\
+Posterior Predictive $p$-Values \\
+Hyperparameters Sometimes Have Flat Prior \\
+Further Topics In Model Checking \\
+External Validation \\
+Marginal Predictive Checks \\
+Linear Regression \\
+Regression Concepts \\
+Linear Regression Coefficients And Intercept \\
+Simple Linear Regression Examples \\
+Matrix Formulation And Normality \\
+Conditional Mean Vector \\
+Covariance Matrix \\
+Normal-Theory Model \\
+Centering And Standardisation \\
+Categorical Variables \\
+Indicator Variable \\
+Implicit Intercepts \\
+Bayesian Linear Regression \\
+Noninformative Prior Analysis \\
+Ordinary Normal-Theory Regression \\
+Noninformative Prior \\
+Ordinary Least Squares Estimates \\
+Prediction \\
+Posterior Inference \\
+Posterior Simulation \\
+Posterior Predictive Checks \\
+Generalisations And Extensions \\
+General Covariance Structure \\
+Conjugate Priors \\
+Semi-Conjugate Prior \\
+$\beta|X \sim N(\beta_0,\Sigma_{\beta})$ \\
+$\sigma^2|X \sim \text{Inv-}\Chi^2(v_0,\sigma_0^2)$ \\
+Initial Classical Analysis \\
+Model Evaluation And Comparision: Information Criteria \\
+Predictive Accuracy \\
+Measuring Accuracy \\
+Expected Logarithmic Predictive Density \\
+Expected Logarithmic Pointwise Predictive Density \\
+No Pooling Madel \\
+Bayesian Cross-Validation \\
+Cross-Validation \\
+Leave-One-Out Cross-Validation \\
+Bayesian Evaluation \\
+Bayes Factors \\
+Two Models \\
+Bayes Factor In Favour Of $H_2$ Versus $H_1$ \\
+Application Bayes Factor \\
+Textbook \\
+Bivariate Normal Distribution \\
+$\dbinom{\theta_1}{\theta_2}|y\sim N\left(\dbinom{y_1}{y_2},\pmatrix{1 & \rho \\ \rho & 1} \right)$ \\
+Efficient Metropolis Jumping Rules \\
+Conditional Maximisation \\
+Prior Distributions For Covariance Matrices \\
+Newton's Method \\
+Newton-Raphson \\
+Normal And Related Mixture Approximations \\
+Derivation Of The EM And Generalised EM Algorithms \\
+Slice Sampling Using The Uniform Distribution \\
+Numerical Integration \\
+Quadrature From Scientific Computation \\
+Recall Python Scientific Python Can Throw Wrong Error Bounds \\
+Mixed-Effects Models \\
+Pseudodata And Pseudovariances \\
+The Binomial-Logistic Model \\
+Beta-Binomial Alternative To Binomial \\
+Population Toxicokinetics \\
+Suboptimal Wall Paint Must Be Killing Us Softly \\
+Review This Textbook And These Later Chapters Prior To Trader Interviews \\
+Mixture Models \\
+Continuous Mixtures \\
+$E(h(\theta)|y)=\int h(\theta)p(\theta|y)d\theta$ \\
+Laplace's Method Using Unnormalised Densities \\
+$E(h(\theta)|y)=\frac{\int h(\theta)q(\theta|y)d\theta}{\int q(\theta|y)d\theta}$ \\
+Importance Sampling \\
+Assembling The Matrix Of Explanatory Variables \\
+List Of Mechanisms Wikipedia And Links Contained Therein \\
+BIC Bayesian Information Criterion \\
+BIC$=k\ln{n}-2\ln{\bar{L}}$ \\
+$\bar{L}=$Maximised Value Of Likelihood Function \\
+$n=$Number Of Data Points In $x$ \\
+$k=$Number Of Parameters Estimated By The Model \\
+Gaussian Special Case \\
+AIC Akaike Information Criterion \\
+AIC$=2k-2\ln{\hat{L}}$ \\
+Modification For Small Sample Size \\
+AICc$=$AIC$+\frac{2k^2+2k}{n-k-1}$ \\
+WAIC Watanabe-Akaike Information Criterion \\
+DIC Deviance Information Criterion \\
+DIC$=p_D+\bar{D(\theta)}=D(\bar{\theta})+2p_D$ \\
+HQC Hannan-Quinn Information Criterion \\
+HQC$=-2L_{\text{max}}+2k\ln{\ln{n}}$ \\
+FIC Focused Information Criterion \\
+Fisher Information \\
+Informal Derivation Of The Cramer-Rao Bound \\
+Matrix Norm \\
+Multivariate Normal Distribution \\
+F-Divergence \\
+Model Selection \\
+Kullback-Leibler Divergence \\
+Jeffreys Divergence \\
+Radon-Nikodym Derivative \\
+Lebesgue Measure \\
+Gaussian Measure \\
+Neyman-Paerson Lemma \\
+Breman Divergence \\
+Kraft-McMillan Theorem \\
+Gibbs' Inequality \\
+Shannon Entropy \\
+Donsker And Varadhan's Variational Formula \\
+Einstein Summation Convention \\
+Conditional Entropy \\
+Discrimination Information \\
+MDI Minimum Discrimination Information \\
+Quantum Information Theory \\
+Pinsker's Inequality \\
+Hellinger Distance \\
+Kolmogorov-Smirnov Distance \\
+Augmented Dickey-Fuller Test \\
+Kwiatkowski-Phillips-Schmidt-Shin [KPSS] Test \\
+Mallows's $C_p$ \\
+Exploratory Factor Analysis \\
+Kaiser Criterion \\
+Scree Plot \\
+Model Comparison Techniques \\
+Velicer's Minimum Average Partial Test [MAP] \\
+Parallel Analysis \\
+Granger Causality \\
+Time-Varying Granger Causality \\
+Bradford Hill Criteria \\
+Transfer Entropy \\
+Koch Postulate \\
+Structural Equation Modeling \\
+Causal Model \\
+Graphical Model \\
+Multivariate Statistics \\
+Partial Least Squares Path Modeling \\
+Partial Least Squares Regression \\
+Simultaneous Equations Model \\
+Causal Map \\
+Bayesian Network \\
+Categorical Dependent Variables \\
+Categorical Intervening Variables \\
+Copulas \\
+Exploratory Structural Equation Modeling \\
+Fusion Validity Models \\
+Item Response Theory Models \\
+Latent Class Models \\
+Latent Growth Modeling \\
+Link Functions \\
+Longitudinal Models \\
+Measurement Invariance Models \\
+Mixture Model, Latent Class Models \\
+Multilevel Models, Hierarchical Models \\
+Multiple Group Modeling With Or Without Constraints Between Groups \\
+Multi-Method Multi-Trait Models \\
+Random Intercepts Models \\
+Structural Equation Model Trees \\

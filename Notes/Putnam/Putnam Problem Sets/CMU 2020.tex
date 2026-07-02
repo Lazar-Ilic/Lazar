@@ -1,0 +1,379 @@
+\Large
+
+\textbf{Introduction}
+
+1 \\
+$\boxed{6}$ bits as we must be able to identify each of $64$ squares. To achieve this lower bound for example number the squares $0$ to $63$ and store the number of red squares with a $1$ in index $5,4,3,2,1,0$ modulo $2$ then after the flip the sets where the parities flipped tell us the precise locations of the $1$s in the relevant bit string corresponding with the location index of the flipped square.
+
+2 \\
+If there was a negative say $a=-\frac{c}{d}$ then $b=a^2=\frac{c^2}{d^2}>0$ would also be included. Then additive closure gives a contradiction as $cd\left(-\frac{c}{d} \right)+d^2\left(\frac{c^2}{d^2} \right)=0 \in X$
+
+3 \\
+Putnam. Plug in, equations, clear denominators, deduce contradiction modulo $2$.
+
+4 \\
+An affine plane transformation sends the ellipse to a circle, in which case smoothing yields that the area maximizing triangle must be equilateral, which conveniently returns a coordinate parametrization of these inscribed triangles.
+
+5 \\
+There exist uncountably infinitely many such decompositions for $D - O$, the disk excluding its center. However, perhaps some parity pairing symmetry argumentation here gives the desired contradiction for the center must map to some other point which can only be induced by some translation which necessarily will violate the boundary condition extremally.
+
+6 \\
+Erdos et al. otherwise there exists a triangle with maximal distance $d$, hyperbolic intersections with the Triangle Inequality and at most $4(d+1)^2$ other points with integral areas can be added to the point set.
+
+7 \\
+IMO 6 somehow... consider extending the line segments to a circle which encloses all the relevant intersection points then on parity and edge first step it is clear that the set of starting points must consist of every other intersection which gives the desired in both directions.
+
+8 \\
+What Is Deep Mathematics? Baire Category Theorem
+
+\newpage
+
+\textbf{Polynomials}
+
+1 \\
+Take $n+1$ evaluations of the polynomial, linearly independent in the $x^i$ terms, and produce precisely this expression non trivially which means there must exist $2$ evaluations with opposite sign and hence by the Mean Value Theorem, a real root.
+
+2 \\
+Follows by span argumentation that e.g. $[1],[1,0,-1],[1,0,-2,0,1],[1,0,-3,0,3,0,-1],\dots$ has the same span as $[1],[1,0,-1],[1,0,0,0,1],[1,0,0,0,0,0,-1]$ where these refer to centered polynomial coefficients by subtracting off prior terms as we go along.
+
+3 \\
+Symmetric expression bash to $\boxed{x^3+(a^3-3ab+3c)x^2+(b^3-3abc+3c^2)x+(c^3)=0}$
+
+4 \\
+
+
+5 \\
+Manipulate this directly via an $\mathbb{R}^2$ geometric interpretation where the magnitude of the evaluation is the product of the distances from the point to the roots. Note a contradiction otherwise in the multiplicity $2$ case and distinct such evaluations otherwise in the $2$ roots with multiplicity $1$ case.
+
+6 \\
+Quora. Assume not. Say $n=\text{deg}(P(x)) \ge \text{deg}(Q(x))$ and $P(x)$ has $A$ distinct roots: $A_1$ distinct single roots and $A_2$ distinct multiple roots. Then $P'(x)$ has $n-A$ roots in common with $P(x)$ counting multiplicity. Similarly $P(x)-1$ has $n-B$ roots in common with $P'(x)-1=P'(x)$. But these are distinct thus $P'(x)$ has at least $2n-A-B$ roots and degree $n-1$ whence $A+B \ge n+1$. But then as these $A$ roots of $P(x)$ and $B$ roots of $P(x)-1$ are also roots of $Q(x)$ and $Q(x)-1$ we obtain that they are $A+B$ distinct roots of $P(x)-Q(x)$ which is a polynomial of degree at most $n$, and thus is the $0$ polynomial contradiction.
+
+7 \\
+Putnam. The same disk center works in fact directly a contradiction otherwise utilizing $\frac{p'(x)}{p(x)}=\sum \frac{1}{x-x_i}$
+
+\newpage
+
+\textbf{Number Theory}
+
+1 \\
+There exists a fundamental theorem which leads to a one liner of this assertion. However, one can note that $a^2=(b\sqrt{2}+c\sqrt{3})^2=2b^2+3c^2+2bc\sqrt{6}$ which re arranges to $a^2-2b^2-3c^2 = 2bc\sqrt{6}$ and if both $b=c=0$ we deduce $a=0$, if one of them is $0$ then we deduce a contradiction on irrationality a la canon, or neither are $0$ whence $\frac{a^2-2b^2-3c^2}{2bc} = \sqrt{6}$ and again a contradiction on irrationality.
+
+2 \\
+$274=x+y,6000=xy$ so just the trivial $\{ 24,250 \}$
+
+3 \\
+
+
+4 \\
+Clear out $2$s and $5$s and note that then one can take a number of the form $100\dots 0100\dots 01$ with gaps at least $10$ multiples of $\phi(n)$ and then multiply by $1234567890$
+
+5 \\
+$r^2$ and $r$ have the same parity and thus take $m^2-n^2=(m+n)(m-n)=r^2\cdot r=\left(\frac{r^2+r}{2}+\frac{r^2-r}{2} \right) \left(\frac{r^2+r}{2}-\frac{r^2-r}{2} \right)$
+
+6 \\
+$n(n+1)(n+2)(n+3)=(n^2+3n)(n^2+3n+2)=(n^2+3n+1)^2-1$ and for example it follows by Catalan-Mihailescu. Or note that one of these $4$ must be coprime to $2$ and $3$ and thus any prime dividing it divides only it and thus it must be a cube leaving the product of the other $3$ terms to also be a cube. But then $n^3 < n(n+1)(n+2) < (n+1)^3, (n+1)^3 < n(n+1)(n+3) < (n+2)^3, (n+1)^3 < n(n+1)(n+3) < (n+2)^3$ except for the $n=1$ case which does not result in a cube.
+
+7 \\
+Algebraically $\frac{1}{2}=\frac{a-2}{a} \cdot \frac{b-2}{b} \cdot \frac{c-2}{c}$ if all $3$ are larger than some threshold value there is a contradiction so $a$ is bounded but then similarly for each of these discrete $a$ cases the maximal $b$ value is also bounded and thus it reduces to a finite case check of lattice points underneath or on this curve.
+
+8 \\
+Beatty.
+
+9 \\
+Egyptian fractions. Greedy and then monovariant numerator decreasing argumentation.
+
+10 \\
+Tightness contradiction argument. Perhaps $1,3,8$
+
+\newpage
+
+\textbf{Calculus}
+
+1 \\
+Probably direct algebraic manipulations related to real polynomials.
+
+2 \\
+$\int_0^{\pi} \sqrt{(1-\cos(x))^2+(\sin(x))^2} \cdot \frac{\sin(x)}{2} dx=\boxed{\frac{4}{3}}$
+
+3 \\
+It is obtained for $2x^2-1$ and follows from some algebraic manipulations.
+
+4 \\
+Riemann sum error probably from the bound.
+
+5 \\
+Some like Chebyshev intermediate smoothing type argumentation works if not a direct functional manipulation.
+
+6 \\
+Approximation yields linear algebra argumentation.
+
+7 \\
+Probably some passing the limit and clear arctan manipulation.
+
+8 \\
+Some other comments on blowup.
+
+\newpage
+
+\textbf{Functional Equations}
+
+1 \\
+$f(0)+f(0)=4f(0) \to f(0)=0$ so $f(y)+f(-y)=2f(y) \to f(y)=f(-y)$ i.e. $f$ is even. Then $f(2x)+f(0)=4f(x)$ suggests $f(x)=cx^2$ which work. Rather one can imitate the proof of Cauchy and deduce for rationals and then extend to $\mathbb{R}$ by continuity.
+
+2 \\
+$\boxed{f(x)=c\ln(x)}$
+
+3 \\
+$\boxed{f(x)=x^c}$
+
+4 \\
+
+
+5 \\
+Putnam.
+
+6 \\
+Methinks with continuity one could obtain a contradiction otherwise but I can't be quite sure.
+
+7 \\
+Perhaps there is a forced chain from a first deviation.
+
+8 \\
+
+
+\newpage
+
+\textbf{Inequalities}
+
+1 \\
+Median points between $P_{\left \lfloor \frac{n}{2} \right \rfloor}$ and $P_{\left \lceil \frac{n}{2} \right \rceil}$
+
+2 \\
+Smooth or direct Cauchy-Schwarz.
+
+3 \\
+$\sqrt{n}^{\sqrt{n+1}} > \sqrt{n+1}^{\sqrt{n}}$ by the usual $b\ln (a)>a\ln (b)$ as $\frac{b}{\ln(b)} > \frac{a}{\ln(a)}$ by say derivative of the function $\frac{x}{\ln(x)}$
+
+4 \\
+Trivial.
+
+5 \\
+$2x^2-1$, some algebraic manipulations.
+
+6 \\
+Contradiction integral inequality.
+
+7 \\
+Equilateral triangle. StackExchange. Helly.
+
+8 \\
+One can probably execute an integral via the arc length formula and approximate to adequate order with a series a la Putnam task.
+
+9 \\
+Probably Egyptian or continued fraction theory.
+
+\newpage
+
+\textbf{Convergence}
+
+1 \\
+AM-GM
+
+2 \\
+Intuitively if not one obtains a contradiction because we have a positive limit which represents a positive fraction of the harmonic series which diverges.
+
+3 \\
+A comparison test.
+
+4 \\
+The delta of the partial sums is telescoping to $ia_{i+1}$ but if the limit of this is nonzero then one obtains a contradiction again in comparison with the harmonic series which diverges.
+
+5 \\
+Either Taylor series or error term bounding of some sort should work like no wild oscillations passing the limit unique solution to $L=\cos(L)$ at $L \approx 0.739085$
+
+6 \\
+It suffices to show the magnitudes converge and then one can compare smooth with say an equilateral triangle plane tiling excluding the undefined origin point and have linear density on circles should lead to the convergence of $\sum \frac{1}{n^2}$
+
+7 \\
+
+
+8 \\
+
+
+\newpage
+
+\textbf{Recursions}
+
+1 \\
+I think there exists a magnitude error bound argument passing the limit $L=\frac{1}{2-L} \to L=1$
+
+2 \\
+Either Taylor series or error term bounding of some sort should work like no wild oscillations passing the limit unique solution to $L=\cos(L)$ at $L \approx 0.739085$
+
+3 \\
+Passing the limit one obtains $L^2=1+L \to L=\boxed{\frac{1+\sqrt{5}}{2}}$ and because $(t_{n+1}+1)(t_{n+1}-1)=t_n$
+
+4 \\
+Upper and lower bounding then passing the limit one obtains $L=\sqrt{7-\sqrt{7+L}} \to L=\boxed{2}$
+
+5 \\
+Sequence A000058 in the OEIS.
+
+6 \\
+Probably some like induction error bounding type argumentation works.
+
+7 \\
+See Convergence 7 above.
+
+\newpage
+
+\textbf{Linear Algebra}
+
+$\boxed{0}$ as row $1$ plus row $3$ is row $2$
+
+1 \\
+Putnam. Induction.
+
+2 \\
+Algebraic manipulations.
+
+3 \\
+The trace of the adjacency matrix is $0$ and thus $\sum \lambda_i =0$ thus $\lambda_n<0$. This leads in to $d$-regular and Perron-Frobenius and eigenvector replaced with magnitude and triangle inequality and maximum valency argumentation.
+
+4 \\
+For the odd $n$ case one obtains $\text{det}(A)=\text{det}(A^T)=\text{det}(-A)=(-1)^n\text{det}(A)=-\text{det}(A)$ thus $\text{det}(A)=0$. In the $n=4$ case one can bash. However in general in the even $n$ case one obtains that all eigenvalues are imaginary and come in $\pm \lambda$ pairs whence the determinant as product of eigenvalues is a product of non negative terms.
+
+5 \\
+Putnam.
+
+6 \\
+
+
+7 \\
+VTRMC.
+
+8 \\
+Putnam. Induction.
+
+9 \\
+Putnam. $\boxed{\text{No}}$ as $\sin^2 (A)+\cos^2 (A)=1$
+
+10 \\
+Putnam.
+
+11 \\
+Putnam. Modulo $8$, Law Of Cosines, dot products works.
+
+\newpage
+
+\textbf{Combinatorics}
+
+1 \\
+Erdos $[1,2,4,\dots],[3,6,12,\dots],[5,10,20,\dots],\dots$
+
+2 \\
+$4$ squares and bound obtained at $4$ corners and center.
+
+3 \\
+Each subset and its inverse are disjoint and if neither is in $F$ a contradiction emerges. Indeed then there would exist $b,c \in F$ with $b$ not intersecting $a$ and $c$ not intersecting $a^{-1}$ but $b$ and $c$ intersect eachother and their intersection must lie in one of the two, contradiction.
+
+4 \\
+The $n$ and $n+2$ give it away. Append a $2$ to the left of such a representation for $n$ and compress all $1$s leftward in to their nearest $2$ and the reverse algorithm gives a bijection.
+
+5 \\
+A reflection pairing argument says $\binom{n}{m}$ is odd if and only if the number of centrally symmetric such subsets is odd which means the number of such for even $n$ is precisely the number of such for $\frac{n}{2}$ and for odd $n$ is twice the number of such for $\frac{n-1}{2}$.
+
+6 \\
+Induction. Form a chain through an arbitrary vertex via a chain in its ingoing and a chain in its outgoing vertices.
+
+7 \\
+Linearity of expectation on the probabilities that $n,n-1,\dots$ are big gives $\boxed{1+\frac{1}{2}+\dots+\frac{1}{n}=H_n}$
+
+8 \\
+(a) and (b) are true but e.g. (c) fails for a $2-1,2-1,2-1,0-3$ case.
+
+9 \\
+By the sum of the first $n$ squares formula one obtains equality precisely at the DAG directed acyclic graph strict ranking case and a monovariant argument shows that DAGgification increases the left hand side.
+
+10 \\
+Induced digraph from block to block transition on $n-1$ block $2$ cycles contradiction number of edges.
+
+\newpage
+
+\textbf{Integer Polynomials}
+
+1 \\
+The product of $4$ distinct integers is $4$ magnitude must be $-2,-1,1,2$ is desired.
+
+2 \\
+Indeed $b$ is congruent modulo $c$ to one of them and then they are congruent modulo $c$ under the polynomial, contradiction.
+
+3 \\
+Probably a contradiction otherwise.
+
+4 \\
+Vieta $(0,0,0),(1,-2,0),(1,-1,-1)$
+
+5 \\
+Putnam. $\boxed{1}$
+
+6 \\
+Like Putnam if and only if periodic binary representation.
+
+7 \\
+Casework and bound $(n^2-3)^2,(n^2-4)^2$
+
+\newpage
+
+\textbf{Probability}
+
+$1-0.31^2=0.9039$ wow from a D for diploma to an A
+
+1 \\
+$\boxed{\frac{2}{5}}$
+
+2 \\
+$1000$ marbles with $P=\frac{501}{1001}$
+
+3 \\
+$x^2(1-x)^{98}$ is maximized at $x=\frac{1}{50}$ thus $\boxed{50}$
+
+4 \\
+$\frac{4}{5}$
+
+5 \\
+Markov chain state based recursion $6-4=\boxed{2}$
+
+6 \\
+Statistics. $\boxed{n}$
+
+7 \\
+A natural step is to write down the centered distributions e.g. $[1],[.4,0,.6],[.16,0,.6,0,.24],[.064,0,.336,0,.504,0,.096]$ but there is a sense in which the limiting case stable state equilibrium which maps in to itself is given by the exponential function $\frac{1}{3} \cdot \left(\frac{2}{3} \right)^{x}$ which would give a probability of $\approx 0.9122$ or $\approx 0.0878$
+
+\newpage
+
+\textbf{Geometry}
+
+1 \\
+Putnam. Centers.
+
+2 \\
+Follows by examining midpoints of sides and corners for example otherwise if a midpoint is without loss of generality coloured red then the $2$ opposite corners must be black thus the $2$ adjacent corners must be red but then a $\frac{\sqrt{5}}{2}$ distance must occur with the adjacent midpoints.
+
+3 \\
+Maybe some isometry metric invariant argumentation relating to curvature perhaps but a Putnam style line of reasoning would examine an equilateral triangle with its centroid and its supposed isomorphism in the cap where the distance ratios is violated under the great circle distance metric.
+
+4 \\
+Algebraic manipulations give the minimum when $P$ is the centroid/gravicenter and otherwise the locus should be a circle around the centroid.
+
+5 \\
+Putnam. Diameter argumentation.
+
+6 \\
+Riddler Are You Hip Enough To Be Square. In fact a stronger statement is true, namely that at most $8$ other squares can intersect with a target square, even if they are allowed to intersect interiors with the target square.
+
+7 \\
+Maybe map $f(x)=x$ if $x$ is irrational otherwise map $f(x)=x+\pi$ or something like in the plane continuity like circles mapped means a contradiction otherwise.
+
+8 \\
+Putnam. $\boxed{\frac{1}{8}}$

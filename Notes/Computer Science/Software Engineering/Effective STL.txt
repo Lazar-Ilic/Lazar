@@ -1,0 +1,330 @@
+Contents
+
+OK
+
+Chapter 1: Containers
+
+
+
+Item 1: Choose your containers with care.
+
+
+
+Item 2: Beware the illusion of container-independent code.
+
+
+
+Item 3: Make copying cheap and correct for objects in containers.
+
+
+
+Item 4: Call empty instead of checking sizeO against zero.
+
+
+
+Item 5: Prefer range member functions to their single-element counterparts.
+
+
+
+Item 6: Be alert for C++'s most vexing parse.
+
+
+
+Item 7: When using containers of newed pointers, remember to delete the pointers before the container is destroyed.
+
+
+
+Item 8: Never create containers of auto_ptrs.
+
+
+
+Item 9: Choose carefully among erasing options.
+
+
+
+Item 10: Be aware of allocator conventions and restrictions.
+
+
+
+Item 11: Understand the legitimate uses of custom allocators.
+
+
+
+Item 12: Have realistic expectations about the thread safety of STL containers.
+
+
+
+Chapter 2: vector and string 63
+
+
+
+Item 13: Prefer vector and string to dynamically allocated arrays. 63
+
+
+
+Item 14: Use reserve to avoid unnecessary reallocations. 66
+
+
+
+Item 15: Be aware of variations in string implementations. 68
+
+
+
+viii Contents Effective STL
+
+
+
+Item 16: Know how to pass vector and string data to legacy APIs. 74
+
+
+
+Item 17: Use "the swap trick" to trim excess capacity. 77
+
+
+
+Item 18: Avoid using vector<bool>. 79
+
+
+
+Chapter 3: Associative Containers 83
+
+
+
+Item 19: Understand the difference between equality and
+
+
+
+equivalence. 83
+
+
+
+Item 20: SpecifY comparison types for associative containers
+
+
+
+of pointers. 88
+
+
+
+Item 21: Always have comparison functions return false for
+
+
+
+equal values. 92
+
+
+
+Item 22: Avoid in-place key modification in set and multiset. 95
+
+
+
+Item 23: Consider replacing associative containers with
+
+
+
+sorted vectors. 100
+
+
+
+Item 24: Choose carefully between map::operator[] and
+
+
+
+map::insert when efficiency is important. 106
+
+
+
+Item 25: Familiarize yourself with the nonstandard hashed
+
+
+
+containers. III
+
+
+
+Chapter 4: Iterators 116
+
+
+
+Item 26: Prefer iterator to consCiterator, reverse_iterator, and
+
+
+
+const_reverse_iterator. 116
+
+
+
+Item 27: Use distance and advance to convert a container's
+
+
+
+const_iterators to iterators. 120
+
+
+
+Item 28: Understand how to use a reverse_iterator's base iterator. 123
+
+
+
+Item 29: Consider istreambuUterators for character-by-character
+
+
+
+input. 126
+
+
+
+Chapter 5: Algorithms 128
+
+
+
+Item 30: Make sure destination ranges are big enough. 129
+
+
+
+Item 31: Know your sorting options. 133
+
+
+
+Item 32: Follow remove-like algorithms by erase if you really
+
+
+
+want to remove something. 139
+
+
+
+Item 33: Be wary of remove-like algorithms on containers of
+
+
+
+pointers. 143
+
+
+
+Item 34: Note which algorithms expect sorted ranges. 146
+
+
+
+Item 35: Implement simple case-insensitive string
+
+
+
+comparisons via mismatch or lexicographical_compare. 150
+
+
+
+Item 36: Understand the proper implementation of copy_if. 154
+
+
+
+Effective STL Contents ix
+
+
+
+Item 37: Use accumulate or for_each to summarize ranges. 156
+
+
+
+Chapter 6: Functors, Functor Classes,
+
+
+
+Functions, etc. 162
+
+
+
+Item 38: Design functor classes for pass-by-value. 162
+
+
+
+Item 39: Make predicates pure functions. 166
+
+
+
+Item 40: Make functor classes adaptable. 169
+
+
+
+Item 41: Understand the reasons for ptr_fun, mem_fun, and
+
+
+
+mem_fun_ref. 173
+
+
+
+Item 42: Make sure less<T> means operator<. 177
+
+
+
+Chapter 7: Programming with the STL 181
+
+
+
+Item 43: Prefer algorithm calls to hand-written loops. 181
+
+
+
+Item 44: Prefer member functions to algorithms with the
+
+
+
+same names. 190
+
+
+
+Item 45: DistingUish among count, find, binary_search,
+
+
+
+lower_bound, upper_bound, and equal_range. 192
+
+
+
+Item 46: Consider function objects instead of functions as
+
+
+
+algorithm parameters. 201
+
+
+
+Item 47: Avoid producing write-only code. 206
+
+
+
+Item 48: Always #include the proper headers. 209
+
+
+
+Item 49: Learn to decipher STL-related compiler diagnostics. 210
+
+
+
+Item 50: Familiarize yourself with STL-related web sites. 217
+
+
+
+Bibliography 225
+
+
+
+Appendix A: Locales and Case-Insensitive
+
+
+
+String Comparisons 229
+
+
+
+Appendix B: Remarks on Microsoft's
+
+
+
+STL Platforms 239
+
+
+
+Index 245
+

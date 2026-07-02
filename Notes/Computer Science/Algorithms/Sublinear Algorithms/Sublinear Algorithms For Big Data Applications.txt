@@ -1,0 +1,306 @@
+1 Introduction 1
+
+
+
+1.1 Big Data: The New Frontier 1
+
+
+
+1.2 Sublinear Algorithms 4
+
+
+
+1.3 Book Organisation 6
+
+
+
+References 7
+
+
+
+2 Basics For Sublinear Algorithms 9
+
+
+
+2.1 Introduction 9
+
+
+
+2.2 Foundations 10
+
+
+
+2.2.1 Approximation And Randomisation 10
+
+
+
+2.2.2 Inequalities And Bounds 11
+
+
+
+2.2.3 Classification Of Sublinear Algorithms 12
+
+
+
+2.3 Examples 13
+
+
+
+2.3.1 Estimating The User Percentage: The Very First Example 13
+
+
+
+2.3.2 Finding Distinct Elements 14
+
+
+
+2.3.3 Two-Cat Problem 18
+
+
+
+2.4 Summary And Discussions 20
+
+
+
+References 21
+
+
+
+3 Application On Wireless Sensor Networks 23
+
+
+
+3.1 Introduction 23
+
+
+
+3.1.1 Background And Related Work 24
+
+
+
+3.1.2 Chapter Outline 26
+
+
+
+3.2 System Architecture 26
+
+
+
+3.2.1 Preliminaries 26
+
+
+
+3.2.2 Network Construction 26
+
+
+
+3.2.3 Specifying The Structure Of The Layers 28
+
+
+
+3.2.4 Data Collection And Aggregation 28
+
+
+
+3.3 Evaluation Of The Accuracy And The Number Of Sensors Queried 29
+
+
+
+3.3.1 MAX And MIN Queries 29
+
+
+
+3.3.2 QUANTILE Queries 30
+
+
+
+3.3.3 AVERAGE And SUM Queries 31
+
+
+
+3.3.4 Effect Of The Promotion Probability 37
+
+
+
+3.4 Energy Consumption 37
+
+
+
+3.4.1 Overall Lifetime Of The System 38
+
+
+
+3.5 Evaluation Results 38
+
+
+
+3.5.1 System Settings 39
+
+
+
+3.5.2 Layers Versus Accuracy 39
+
+
+
+3.6 Practical Variations Of The Architecture 42
+
+
+
+3.7 Summary And Discussions 45
+
+
+
+References 45
+
+
+
+4 Application On Big Data Processing 47
+
+
+
+4.1 Introduction 47
+
+
+
+4.1.1 Big Data Processing 47
+
+
+
+4.1.2 Overview Of MapReduce 48
+
+
+
+4.1.3 The Data Skew Problem 48
+
+
+
+4.1.4 Chapter Outline 49
+
+
+
+4.2 Server Load Balancing: Analysis And Problem Formulation 50
+
+
+
+4.2.1 Background And Motivation 50
+
+
+
+4.2.2 Problem Formulation 53
+
+
+
+4.2.3 Input Models 53
+
+
+
+4.3 A 2-Competitive Fully Online Algorithm 54
+
+
+
+4.4 A Sampling-Based Semi-Online Algorithm 55
+
+
+
+4.4.1 Sample Size 56
+
+
+
+4.4.2 Heavy Keys 57
+
+
+
+4.4.3 A Sample-Based Algorithm 57
+
+
+
+4.5 Performance Evaluation 59
+
+
+
+4.5.1 Simulation Setup 59
+
+
+
+4.5.2 Results On Synthetic Data 59
+
+
+
+4.5.3 Results On Real Data 62
+
+
+
+4.6 Summary And Discussions 65
+
+
+
+References 66
+
+
+
+5 Application On A Smart Grid 69
+
+
+
+5.1 Introduction 69
+
+
+
+5.1.1 Background And Related Work 71
+
+
+
+5.1.2 Chapter Outline 72
+
+
+
+5.2 Smart Meter Data Analysis 73
+
+
+
+5.2.1 Incomplete Data Problem 73
+
+
+
+5.2.2 User Usage Behaviour 74
+
+
+
+5.3 Load Profile Classification 75
+
+
+
+5.3.1 Sublinear Algorithm On Testing Two Distributions 75
+
+
+
+5.3.2 Sublinear Algorithm For Classifying Users 77
+
+
+
+5.4 Differentiated Services 78
+
+
+
+5.5 Performance Evaluation 79
+
+
+
+5.6 Summary And Discussions 80
+
+
+
+References 81
+
+
+
+6 Concluding Remarks 83
+
+
+
+6.1 Summary Of The Book 83
+
+
+
+6.2 Opportunities And Challenges 84
+

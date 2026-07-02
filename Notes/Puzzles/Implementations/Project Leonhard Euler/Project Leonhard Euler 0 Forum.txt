@@ -1,0 +1,7 @@
+[code=C++]
+
+[/code]
+
+With [url=https://github.com/Lazar-Ilic/Lazar/blob/main/Notes/Computer%20Science/Notebook/a.cpp]Template[/url]
+
+I store all files with titles such as Project Leonhard Euler 833.txt, Project Leonhard Euler 833.py, Project Leonhard Euler 833 Post.txt, etc.

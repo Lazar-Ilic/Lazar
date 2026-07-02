@@ -1,0 +1,229 @@
+Separating Hyperplanes \\
+Lazar Ilic \\
+Master Thesis Draft
+
+	Introduction
+
+Hyperplane separation is a classic topic in geometry and machine learning. The hyperplane separation theorem of Hermann Minkowski and Hahn-Banach separation theorem are both important. As is the perceptron learning algorithm. In courses, support vector machines are often introduced. The notion arises that the optimal separating hyperplane is the one which maximises the margin of the training data. Support vector classifiers are also interesting and canonical. But here we enumerate a number of auxiliary observations. We study cases relevant to academic and industry research. These cases have been studied before [15], but here useful observations are hopefully noted. For example, in cases where the instances observed thus far are not random, there is asymmetry in the training set, and stronger observations can be made. These algorithms perform differently under different expectations of the portion of the whole set being sampled in the training set.
+
+	Modifying The Margin For Asymmetric Training Sets
+
+Separating hyperplane for unbalanced classes is well understood and appears in SciKit Learn documentation. But there are other variations worth thinking about. If 2 sets appear to be normally distributed around their means and we have information to believe the sets have roughly equal size, but in the training set we have many more examples from one set than the other then the hyperplane produced via the usual routes will end up being too close to the set with fewer training points and too far from the set with more training points. Indeed, we may instead model each set as drawing from normal distributions and select the line which minimises the probability of a new point breaking the hyperplane condition. This is itself a fairly trivial task computationally, in simple cases. For further reading, see the section "SVM With Soft Constraints" in [1] at the foot notes below. If we use a [multi level] Bayesian model or compute the maximum likelihood estimator we could compute the probability a random point drawn from a multi dimensional normal distribution lies in some half space with respect to the underlying coordinisation at which point it transforms in to just computing that probability for that 1 dimension of the random vector. And similarly for the other distribution. And then this task is a 2 variable minimisation task which should be standard. This is supreme and stronger than doing nothing in the light of novel information. The more general support vector classifiers can also be manipulated post facto with hyperparameter tuning similarly.
+
+Later, it becomes clear these notes are still potentially useful but it is worth mentioning that in cases with say n~1000 points if we can define a clear algorithm for identifying separable components of the classes and identify that the ones near and defining the boundary leave normal residuals, then this commentary here is useful. Otherwise, strong enough as to be useful claims might not be made. But this is still a relevant enough case for some statisticians and practitioners to consider dealing with.
+
+Think uh going beyond Taylor Series might not be very useful here. Uh say we had an algorithm which could identify a good approximation using a tonne of other let us say "easily integrable" functions like say we are discussing some function really well approximated by cosine and then we do a formal integration to sin and use some technique like CORDIC or Chebyshev uh... think to get a speedup we need very fast input output on the underlying symbolic integration or whatever and in C maybe Taylor outperforms in a vast majority of cases not sure how fast we are talking here if just looking at a few points with the right penalty function we might think approximating a Gaussian within 6 standard deviations of the mean is more than adequate for some use cases.
+
+\begin{verbatim}
+# Google Colaboratory Automatic Completion Assisted Coding
+import random
+import math
+import scipy.stats as st
+from sklearn.svm import LinearSVC
+from sklearn.datasets import make_classification
+train1=400
+train2=100
+test1=500
+test2=500
+numiterations=10000
+separable=0
+correctnaive=0
+correctshift=0
+# Check For Plausible Normality Prior To Using The Following Approximation correctnormal
+correctnormal=0
+for a in range(numiterations):
+	X_train=[[0,0] for b in range(train1+train2)]
+	y_train=[int(b>=train1) for b in range(train1+train2)]
+	for b in range(train1+train2):
+		X_train[b][0]=random.gauss(mu=0.0,sigma=1.0)+6*(int(b>=400))
+		X_train[b][1]=random.gauss(mu=0.0,sigma=1.0)
+	model=LinearSVC(loss='hinge',dual=True) # Here We Casually Assume model.coef_[0][1] Is Not 0 Unchecked
+	model.fit(X_train,y_train)
+	X_test=[[0,0] for b in range(test1+test2)]
+	y_test=[int(b>=test1) for b in range(test1+test2)]
+	for b in range(test1+test2):
+		X_test[b][0]=random.gauss(mu=0.0,sigma=1.0)+6*(int(b>=500))
+		X_test[b][1]=random.gauss(mu=0.0,sigma=1.0)
+	if(model.score(X_test,y_test)==1.0):
+		correctnaive+=1
+	model.fit(X_test,y_test)
+	if(model.score(X_test,y_test)==1.0):
+		separable+=1
+	model.fit(X_train,y_train)
+	train1sum=0
+	train2sum=0
+	for b in range(train1):
+		train1sum+=X_train[b][1]+model.coef_[0][0]/model.coef_[0][1]*X_train[b][0]
+	for b in range(train1,train1+train2):
+		train2sum+=X_train[b][1]+model.coef_[0][0]/model.coef_[0][1]*X_train[b][0]
+	train1average=train1sum/train1
+	train2average=train2sum/train2
+	train1sumofsquareddeltas=0
+	train2sumofsquareddeltas=0
+	for b in range(train1):
+		train1sumofsquareddeltas+=(X_train[b][1]+model.coef_[0][0]/model.coef_[0][1]*X_train[b][0]-train1average)**2
+	for b in range(train1,train1+train2):
+		train2sumofsquareddeltas+=(X_train[b][1]+model.coef_[0][0]/model.coef_[0][1]*X_train[b][0]-train2average)**2
+	train1stddev=math.sqrt(train1sumofsquareddeltas/(train1-1))
+	train2stddev=math.sqrt(train2sumofsquareddeltas/(train2-1))
+	left=train1average
+	right=train2average
+	while abs(right-left)>0.000000001:
+		mid1=(left+left+right)/3
+		mid2=(left+right+right)/3
+		# Can Modify This Here For Uncertain Credence Over Ratio Of Relevent Incoming Stream Not Being 1:1
+		if st.norm.cdf(abs(mid1-train1average)/train1stddev)*st.norm.cdf(abs(mid1-train2average)/train2stddev)<st.norm.cdf(abs(mid2-train1average)/train1stddev)*st.norm.cdf(abs(mid2-train2average)/train2stddev):
+			left=mid1
+		else:
+			right=mid2
+	model.intercept_[0]=-left*model.coef_[0][1]
+	if model.score(X_test,y_test)==1.0:
+		correctshift+=1
+print(separable,correctnaive,correctshift) # 2711 1603 2131
+# Solve Analytically For Optimal Hyperplane For 2 Multivariable Normal Distributions
+# Try To Get Something Computationally Sharper Than Merely Maximising Via SciPy Multivariable Integrals
+# If Nothing Better Than Citation [6] In Foot Notes Below Then Write Up Auxiliary Python Function For This Integral Approximation Or Cython
+# That Is An OK Solution Which Could Work Better If We Have Strong Information Or Prior Suggesting Normality And Often Our Prior Might Be Somewhat Strong
+# Citation [9] In Foot Notes Should Work In General But One Must Renorm The Hyperplane With Respect To The Coordinasation Of The Ellipsoid
+# But A More General Multivariable Integral Would Be Solid Perhaps Referring To Wolfram Mathematica Documentation Or Some Such Thing As Desired
+\end{verbatim}
+
+So as we expected, the algorithm of simply shifting the hyperplane in to the probabilistic "middle" of the 2 point sets with respect to their normally modeled errors strongly outperforms the naive margin maximising hyperplane. With extra information about the expected distribution of incoming points to be classified in a streaming setting being different from the training set or observed points thus far, we can do much better. Something between this type of approach mixed with support vector classifiers but not quite the usual technique of trying to introduce the right penalty function to account for the expected asymmetry in early incoming points. It ought to be noted that in that paper by Parker and Parker which contained valid mathematics - one ought to visually examine the data and also these deltas. So for example if we had say 3 blobs and 2 of them look kind of similar and are close together of different sets and the other 1 is far away and is of the matching point set on that side of the separating hyperplane. Then this algorithm is bad. So here we try to think of something better for other general cases beyond settings which are sort of approximable to common unimodal distributions.
+
+Maybe something can be stated here about 
+
+Now some code to compute the relevant integrals and another function to optimise the hyperplane given input distributions. Our understanding is that there exist Python packages which utilise Monte Carlo techniques and potentially have errors around 0.01 percent but more precision could potentially be obtained with Wolfram Mathematica or sharper Python packages based around analytic techniques. These can be actionable and relevant. The primary concern here is that oftentimes one might expect the underlying distribution to be better modeled by some classic distribution rather than merely by the point set. Also depending on precise numerics potentially involving point sets of size ~50 in 2 dimensions and human centaur intuition.
+
+	Computing Probabilities For Monotone Distributions
+
+In many general cases, one might consider Importance Sampling or Markov Chain Monte Carlo Metropolis-Hastings algorithm. However, if one can obtain more accuracy, sometimes it is valuable to have an error closer to 0 rather than 0.000001.
+
+	Orthogonal Major Axes Ellipsoid Multivariable Normal Distributions
+
+Say we are observing some points and it seems as though we have 2 ellipsoid shapes emerging, essentially general multi variable normal distributions. But one looks kind of orthogonal to the other one. Then perhaps the naive approach of maximising the margin again fails to minimise the probability of a future failure on the whole test set. Indeed, this would put the hyperplane too close to the set which is "pointing at" the other set. Due to the fact that that set exhibits higher variance in that dimension versus the other one.
+
+	Asymmetric Penalty Functions
+
+Discuss cases where we are concerned about misclassification asymmetrically as well. Much more worried about 1 direction than the other and potentially even down to take initial errors. Note that here there are already canonical settings in SciPy documentation.
+
+	Experimental Examples
+
+Run some numbers experimentally. Consider for example say we have 1/2 of the data set in the training set and even try sort of normalish psuedorandom cases or whatever. One way could be to generate 2 ellipsoids which are already sort of kind of parallelish and then move them closer together to then run on halfish or something see along different fractions the performance and all of that. Another way could involve 1 normal distribution ellipsoid around a uh line or whatever and again try it.
+
+	Faster Algorithms
+
+Considering simple, computationally fast algorithms for certain settings. Perhaps thinking about how those with O[1] updates perform e.g. perhaps a very simple one where one stores the sum of the inputs thus far, the sum of the squares of the inputs thus far, and the sum of the pairwise products and can update those in O[1] to deduce relevant information rather than redoing a bunch of O[n] computations if we want faster updating in the mixture.
+
+	Theorem On Mathematical Statistical Bounds
+
+Theorem on clear mathematical bounds in some settings. Like for example say the distributions are ensured to satisfy some stuff. Perhaps I ought to write down something like: if the sizes of point sets involved are blah and the distributions satisfy blah [which the common ones used do] then it follows that using the maximum likelihood estimator for selecting 1 set of distributions and then optimising the separating hyperplane is something with respect to the alternate where we optimise the hyperplane under a multi level Bayesian model with a prior on the distributions' parameters. Another idea has to do with the following observation: if we assume certain conditions on distributions then twiddling around certain inputs points a little bit should produce a distribution with sort of similar probability of being output. And so again one thinks of support vector classifiers and other notes here which ought to be made. Extensions in to "The Case When the Data Are Linearly Inseparable" etc. [13] the complexity of the kernel is relevant and of course throughout this paper or real world applications it can be useful to eyeball distributions. In the following image files for example our algorithm might suggest shifting that separating hyperplane to the left when a sharper move would be to totally ignore the rightmost component and then actually shift it to the right. Sometimes one might observe that 2 rays and a line segment will work e.g. but activity far away from the decision boundary should not alter the decision boundary selection too much circumstances depending. Maybe prove some theorem here or make some claim these techniques are useful when the errors deltas are approximately normally distributed and also try and suggest that simply inserting the right penalty functions in to a support vector classifiers call will not perform as well as some related strategies. Another extension worth mentioning here would be the curvature or set of line segments maximising the minimum distance. Consider as in my notes on the Bridgewater Metaculus Trading Contest a different naiveish technique if we have very weak priors. How to approximate a distribution. What if 1 of the points at the decision boundary seems really wacky or out of place unlikely? Perhaps there is a Bayesian approach at some point where we consider if some hyperplane will work then what was the probability that distributions fitting that hyperplane would have produced the training data distribution. Maybe instead of introducing a metric to render the points closest to the separating hyperplane the most important, we could instant look for a region on the deltas which is well approximated by a normal distribution and ignore the other points as being mostly irrelevant to a first order degree.
+
+One not great way to model some distribtion but maybe something mathematically interesting can be said about such distributions like some kind of theorems or something like oh if we had such a model for a distribution A and for a different one B then something would be true in the model for A union B or A+B or whatever. Think a Voronoi Diagram where maybe the edge regions to infinity decay off exponentially and other than that the sort of volume in each region is a constant so much higher probability to land inside the smaller regions in the Voronoi cut. And then from there could even smooth that distribution to a continuous perhaps infinitely differentiable polynomial approximation from there. This is almost certainly itself a canonical task in statistics perhaps low-dimensional small dataset statistics but one would think another simple yet mediocre way to generate a smooth approximation would be to have the density function roughly relate to the summation of 1/distance for all the distances from the points in the training set. With rounding for points very close to those in the training set perhaps e.g.
+
+	Distributions For n~10 Points
+
+In certain cases with vague low-information priors say we observe around 10 points from some distribution. Then we want to produce a posterior credence on the next point from the distribution being in some region. It is interesting enough to think about how to even formulate certain priors here like... if we were 0.1 on the distribution being normal then we could do the usual multi level Bayesian model there for that subcase and that would quickly produce a lower bound for the credence function everywhere and in particular in some interval. We could also pen a meta algorithm which involves eyeballing or casework analysis on various conditionals which could occur to a human actor. One approach for someone might be however to think about selecting a function g(x) such that we do take the posterior f(x) to be sum of g(|x-ai|) over the training set of points ai and that is a distance function, probably the standard one in that metric space. Then one interesting choice here might be to ensure OKish performance is to consider some distribution which has density around 1/d^3 but could consider even like 1/d^2.001 or 1/d^4 and think about this instead of the usual exponential decay associated with a normal. It would kind of depend on risk metrics associated with egregious undervaluations on extreme regions in various schemes of expectations surrounding cases and utility functions on tail outcomes.
+
+This problem has of course also been studied to some degree. [29] is an interesting start to some other citations on formally stating claims about modifications to multi dimensional EDFs Empirical Distribution Functions. It is somewhat interesting like in 2-dimensions I might opt to not use a summation of normal distributions around each training point rather consider summing functions of the form 1/distance^3 or 1/distance^2.001 or something depending on penalty and utility functions hyperparameter optimisation.
+
+	Interesting Observations
+
+Perhaps it would be interesting to think about metrics for scoring performance here. Metaculus log score is ln(pdf(outcome)). Can optimise towards that. Think about modifying penalty function in terms of the magnitude of the outcome if this is in some trading application or whatever.
+
+Say we know some distribution is a sum of weighted normals, that is to say there are some underlying normal distributions and each draw comes from pseudorandomly picking one under a weighting and then drawing from that distribution. Now if we have some points from the distribution I am kind of interested again rather than say running a Monte Carlo Markov Chain like meta model with a uniform prior on the location of the centres or something... how well do different approximations work here by directly summing some dudes in terms of the points drawn from the distribution? Maybe I will run some numbers here for faster approximation algorithm.
+
+	Approximating Underlying Mixture Of Normals Distribution From Small Sample
+
+Time to read more upon this topic and what has already been stated in the literature.
+
+	Fast Algorithms For Approximating Posterior After Observing ~5 Points
+
+If I was to break this section off in to its own note... hmm. Introduce with a clip from that Jacob Steinhardt web log post on human irrationality and internal inconsistency due to being computationally bounded satisficing or whatever... think this was part of a larger defense of frequentism going on at the time period. Anyways lead in to say like we have a very strong prior that the causal process producing some distribution is like 3 points are drawn from a normal around [0,0] and then the final distribution is the mixed distribution of 3 normals with variance 1 around each of those centres. So a fairly standard MCMC Markov Chain Monte Carlo approach should work OK here. But I want instead to ask basically if there is a relatively simple off the dome kind of way you could even estimate posterior distribution function on the fly like now instead of simply summing I mean taking the mixed distribution of some optimised function dude around each point we could instead like maybe uh in a case like this also mix in a term which is some dude around the [0,0] point with some weight so if we had 5 points throw in a 6th term in to our final approximated posterior here and think about the Metaculus scoring function.
+
+An aside could be that it is not impossible to actually dedicate quite a lot of compute here to precomputing some useful values for various potential inputs in a live trading setting so one could compress a pdf partial distribution function for various inputs and then have them ready as an approximation for nearby inputs before fully executing some computation on the spot as desired.
+
+Would seem like here I ought to read more again. More textbooks as well as papers. Memorise more of the canon. Should be doing a tonne of daily readings possibly.
+
+See if any interesting cases can be solved here using linear algebra or uh something relatively sharply uh ungh ugh I ought to think about this and try prove a half interesting theorem or something here. Solve Kevin Tian's tasks on continuous algorithms. It is like interesting here to think about what may or may have been written about interpolation algorithms e.g. if we were in 3-dimensions looking at a model with 5 parameters or 4 or something and had adequate precomputed thoughts maybe a solid approximation would emerge from a interpolation. Think in my Scientific Visualisation course there was a somewhat interesting thing we walked through which is like uh in certain settings an OK 1st order like approximation if you had valuations on Z2 would come from. Some might think bilinear is natural. But I suppose bicubic, triangle, nearest neighbour, Lanczos also exist. I should read through more of those documents Kevin Tian was so nice to enumerate there on his academic website.
+
+Think this task might be a little more interesting to some people rather than stating that specific case uh instead looking at something like say we knew there were 5 uh another aside is that an interpolation strategy uh can immediately blow up memory if say we were still talking low n-count samples but 20-dimensions would be not viable or something uh. But anyways say back to 2-dimensions do not think some kind of standard polynomial techniques here work well not sure but could read up more on that side idea. Uh so anyways maybe even if the prior is uniform across the entirety of R2 uh the posterior here works out to be finite bounded integral to 1 or whatever uh think in my Bayesian Modeling course this was referred to as an improper prior which can be OK. That case is kind of interesting like because in the other case we would think if we want a low memory algorithm for fast response to include still more hyperparameters maybe. So this interpolation is interesting has to do with just how much memory we want to include maybe uh interesting idea but the mathematics of the former idea still could be interesting and uh I would think now reflecting further on the Jane Street Puzzles 2024-11 round honestly there is possibly some OK representation in Mathematica Wolfram I should learn and buy or something. Dunno that Sage is nearly as useful think Mathematica is sharper. Would also think that in many setting the way to solve this problem might be to like cast an adequately wide initial grid and actually try to optimise the hyperparameters via local descent basically in to a nearby 0 or whatever of the gradient function and this could also potentially be easily coded up in Mathematica. Could be aight to show something like this to the firms and try find a useful example in the wild.
+
+Maybe there is another approach here which is also like canonical for settings like this which is to approximate uh take the error up front like approximate the distributions with a very simple polynomial such that taking the relevant integrals to produce an approximated posterior is quite easy. I should read read read more. Seems like a fair and square Heuristic task as well as interview brainstorming session. Would think if some integrals are tricky or the integrability itself... maybe this lazy approximating the prior trick is already very well known in Stack at the very least. I should read more.
+
+Mang maybe some of those dudes out at trading firms reading this will think it is a trivial canonical thing I would know if I had memorised enough Stack Statistics or whatever ugh hungh I should read more. Or at graduate school admissions committees.
+
+This leads in to a discussion naturally enough of [45] and [46] below from David Rusin actually. For example if we had a function and say it was very close to sqrt[x+1] then guessing that as a decent approximation for the function works well and significantly outperforms a kind of naive Taylor Series approach uh depending how we are implementing long double high precision in computing say 20 terms or more of a Taylor Series and comes in to Wolfram Mathematica and like eyeballing guessing the low-complexity function or something.
+
+OKOKOK so that is an interesting enough side note and digression. Worth reading up on Hermite Polynomials too and other well known details here. One could sometimes uh consider just mashing together say we have some function which is not continuous or whatever too maybe it is composed of 3 chunks we could maybe write down the 3 chunks separately with tight polynomial approximations and then the ease of integrability itself comes in to disputes over Python or Mathematica and the evaluation of any sort of symbolic integrand produced therein... e.g. at the querying.
+
+So in any case reading more Overflow and Mathematics one supposes that the topic of what is or is not easily integrable itself would have to do with different programmes and adjudications on that topic but in an interview setting like one might expect the candidate to know about canonical easily integrable approximations for the Gaussian for some settings uh and would think that actually approximating the posterior pdf to an error of around 0.1 percent might be quite easily doable with a very fast algorithm uh very fast computation on whatever the analytic solution might be there. Not sure 0.001 percent is easy.
+
+	New Digression On Adaptive Quadrature
+
+I was thinking about a uh basically Kullback-Leibler divergence rather than Metaculus Scoring Function after thinking a bit more. Actually was thinking a bit more about the nature of these errors like in particular say we care about Kullback-Leibler divergence so in particular the errors matter more in zones of high probability like basically uh if we cared about that summation without the P(x) term so we care about the summation of the log of like the uh unweighted surprise function then maybe one thing here imagine instead of like basically uh do adaptive quadrature where we round uh take the log of the function and round it so we have very finite compute time and this transforms in to a more generic kind of sum. Then in Kullback-Leibler setting we need to think more about the regions where the P is high so basically uh think about like if we are taking some integral to obtain an approximation for the pdf then we focus in on uh higher P regions and can consider umm the optimal quantity to consider would be like something I should think of here. Maybe I could write up a note discussing the precise tradeoffs between those 2 strategies especially for uh like uh... concave function. Say for a uh concave function maybe I can think of some statement here like we get a slight loss of the metric for very improved runtime or something uh... thinking about just a standard kind of modification to adaptive quadrature for the underlying metric.
+
+Kind of interesting like what one would do with say 10^7 or 10^8 points from an MCMC instance if one wanted to pin down an approximation for the pdf at a specific value or set of value or whatever uh. The earlier mentioned idea surrounding sums of functions of the distance might actually be quite wacky think for example if we had like some subregion was looking kind of sort of like ellipsoidal or something uh uh uh then this would actually present some points on the thinner axis off from the main body are more likely than the points off the thicker axis which is actually all au contraire one would suppose on the underlying distance function so uh uh uh uh eyeballing and fitting stuff might work better but I should read more and think more about this general problem see if something can be stated with linear algebra or something. The key idea here when talking about divergence functions midkey is like uh uh uh it is kind of interesting depending on the use case how we care about perceptions of performance in extreme zones like in some settings we really do only care about the high probability regions which ought to be near the 10^8 points we have already sampled etc. so usually we might only sort of care strongly about the approximation in those zones but we want the algorithm to produce good results on Gaussians. But there are other settings where just optimising performance on that set of points is good enough maybe. So one does not even necessarily need to move from that set of points to a pdf function. See [48] was a fun and interesting post.
+
+To expand this point even further for those reading this for interview preparations basically it is worth mentioning that like say we have 10^8 points generated from an optimised parallel MCMC instance or whatever and we are thinking about probabilities and effect sizes. Basically say we are placing bets based around our understanding of some money and some probabilities and that the probability some actual point we encounter will have been far out from the convex hull of those sampled points. Well this happens with very low probability and unless we are in some log log log transformed setting will basically have effect size roughly similar to bets placed on points inside the region where we maybe say have a much tighter better understanding of local shifts in probabilities or something. Well then OK so these points matter but they do not matter much more than other points and so going ahead and optimising our trading algorithm based upon a read on these points is OK unless we were in some log log log transformed setting and are discussing really weird dynamics of unpredictable tail distribution behaviours.
+
+Hmm running a 14 days student trial of Stephen Wolfram Mathematica is a great opportunity to try and learn more about PDEs and systems of PDEs and actual precise numerics involved in scientific computational settings with matrices and linear algebra and stuff.
+
+	Summary
+
+In this document, we discussed a number of interesting variants on the margin-maximising hyperplane and support vector classifier selection algorithms. Even further research in these directions could be very useful. Risk management is a notorious problem in quantitative finance and elsewhere. And expected value computations in certain medical domains can also be rather tricky with respect to precise numerics on extreme downside risks paired with small upside benefits.
+
+	Citations And References
+
+[1] https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote09.html
+[2] https://bioinformatics-training.github.io/intro-machine-learning-2017/svm.html
+[3] https://personal.utdallas.edu/~pkc022000/classification_course/slides_day_5.pdf
+[4] https://web.stanford.edu/class/stats202/notes/Support-vector-machines/Maximal-margin-classifier.html
+[5] https://scikit-learn.org/stable/auto_examples/svm/plot_separating_hyperplane_unbalanced.html#sphx-glr-auto-examples-svm-plot-separating-hyperplane-unbalanced-py
+[6] https://stackoverflow.com/questions/30560176/multivariate-normal-cdf-in-python-using-scipy
+[7] https://www.researchgate.net/publication/48414915_Decision_Trees_with_Improved_Efficiency_for_Fast_Speaker_Verification
+[8] https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.multivariate_normal.html
+[9] https://stats.stackexchange.com/questions/575075/conditioning-of-join-gaussian-over-a-line
+[10] https://stackoverflow.com/questions/14071704/integrating-a-multidimensional-integral-in-scipy
+[11] https://stackoverflow.com/questions/59599447/how-to-integrate-kernel-density-estimation?rq=3
+[12] https://math.stackexchange.com/questions/3444/intuition-for-the-definition-of-the-gamma-function
+[13] Data Mining Concepts And Techniques - Jiawei Han and Micheline Kamber
+[14] https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm
+[15] https://arxiv.org/abs/1702.02555
+[16] https://arxiv.org/abs/1107.1358
+[17] https://search.proquest.com/openview/ea2778fbf3ec1b0d0d2b62c489c278ed/1?pq-origsite=gscholar&cbl=18750&diss=y
+[18] https://arxiv.org/abs/2409.12928
+[19] https://arxiv.org/abs/2105.01198
+[20] https://arxiv.org/abs/2305.03900
+[21] https://arxiv.org/html/2407.11878v1
+[22] https://arxiv.org/abs/2202.10550
+[23] https://arxiv.org/pdf/1505.01658
+[24] https://en.wikipedia.org/wiki/Empirical_distribution_function
+[25] https://allendowney.blogspot.com/2013/08/are-my-data-normal.html
+[26] https://www.mathworks.com/help/stats/nonparametric-and-empirical-probability-distributions.html
+[27] https://stats.stackexchange.com/questions/52243/empirical-distribution-alternative
+[28] https://hong.economics.cornell.edu/papers/Testing%20for%20pairwise%20serial%20independence%20via%20the%20empirical%20distribution%20function.pdf
+[29] https://stats.stackexchange.com/questions/226935/algorithms-for-computing-multivariate-empirical-distribution-function-ecdf
+[30] https://www2.stat.duke.edu/~mw/MWextrapubs/West1993b.pdf
+[31] https://ieeexplore.ieee.org/document/1100034
+[32] https://purl.stanford.edu/ck231kf8763
+[33] https://www.sciencedirect.com/science/article/abs/pii/B9780125893206500186
+[34] https://kjtian.github.io/cs395t.html
+[35] https://ieeexplore.ieee.org/document/8186933
+[36] https://stats.stackexchange.com/questions/271844/variational-inference-versus-mcmc-when-to-choose-one-over-the-other
+[37] https://arxiv.org/abs/1711.10604
+[38] https://discourse.mc-stan.org/t/sampling-from-the-posterior-predictive-or-computing-it-for-making-predictions/27987
+[39] https://www.researchgate.net/publication/323867573_Variational_Inference_as_an_alternative_to_MCMC_for_parameter_estimation_and_model_selection
+[40] Variational Bayesian Learning - Shinichi Nakajima, Kazuho Watanabe, Masashi Sugiyama
+[41] IEEE Signal Processing Magazine November 2008
+[42] Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models - David M. Blei
+[43] Graphical Models, Exponential Families, and Variational Inference - Martin Wainwright, Michael I. Jordan
+[44] https://rohan-kekatpure.github.io/journal/gaussian-approximation-part-1.html
+[45] https://mathoverflow.net/questions/72/whats-an-example-of-a-function-whose-taylor-series-converges-to-the-wrong-thing
+[46] https://web.archive.org/web/20141230224759/http://www.math.niu.edu/%7Erusin/known-math/99/nowhere_analy
+[47] http://www.batisengul.co.uk/post/2021-07-02-intro-to-hmc/
+[48] https://arxiv.org/abs/2501.13187
+[49] Toby Dylan Hocking
+[50] https://en.wikipedia.org/wiki/Kernel_density_estimation
+[51] https://en.wikipedia.org/wiki/Mean_integrated_squared_error
+[52] https://www.mathworks.com/matlabcentral/fileexchange/17204-kernel-density-estimation
+[53] 

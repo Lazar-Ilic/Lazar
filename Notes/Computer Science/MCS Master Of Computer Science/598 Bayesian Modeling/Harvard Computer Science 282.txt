@@ -1,0 +1,1236 @@
+
+Harvard CS 282r
+CS 282r
+Topics in Machine Learning: Advancements in Probabilistic Machine Learning, ML Applications in Science, and Causality. 
+In this course we will give students broad exposure to a diverse set of active research topics in machine learning.  We will discuss recent papers across a range of advanced subjects (Probabilistic Machine Learning, ML Applications in Science, and Causality) which are the current research interests of the instructors.  Then students can select one of these subjects to explore in-depth in the form of a course project. After the first lecture, each week two students will lead the discussion of the papers chosen for that week.  Ideally the presentations will motivate the area, put the work in context and describe the innovations from the papers. Then we will discuss the work as a group. One instructor will help facilitate the discussion and provide guidance about the content of the presentations.
+
+Course Instructors
+Steve Yadlowsky, Ben Adlam, Zelda Mariet, Zi Wang, Alexander D'Amour, David Belanger, Jasper Snoek, Alex Wiltschko.  
+
+Course correspondence will be through edstem.
+
+Location & Time
+SEC 2.118, Fridays 12:45 - 3:30
+
+Grading
+Class participation - 30%
+Class presentations - 20%
+Project proposal - 10% - 3/15
+Project presentation - 10% - 4/19
+Project report and code - 30% - 5/3
+
+In-class discussions
+Each class meeting will be three hours of in-depth discussion on a specific topic. Two students will present papers each week, and each student is expected to facilitate a discussion 1-2 times per semester. The presenters for each week are expected to coordinate with each other and with the course instructors in advance to divide up the assigned papers and any additional background material that will need to be discussed. 
+
+Discussions will center around:
+
+Understanding the strengths and weaknesses of these methods.
+
+Understanding the relationships between these methods, and with previous approaches.
+
+Extensions or applications of these methods.
+
+Experiments that might better illuminate their properties.
+
+The ultimate goal is that these discussions will reveal gaps in current research, generate new ideas, and ideally generate novel research directions.
+
+Final Project
+Students can work on projects individually or in pairs. The goal of the projects is to allow students to dive more deeply into one of the topics of the course.  The project can be an extension of existing work, a novel application using existing methods, exploration of a new research idea or non-trivial implementation and experimentation using existing methods.  The grade will depend on the ideas, how well you present them in the report, how clearly you position your work relative to existing literature, how illuminating your experiments are, and how well-supported your conclusions are.
+
+Each group of students will write a short (around 2 pages) research project proposal, which ideally will be structured similarly to a standard paper. It should include a description of a minimum viable project, some nice-to-haves if time allows, and a short review of related work. You don't have to do what your project proposal says - the point of the proposal is mainly to have a plan and to make it easy for me to give you feedback.
+
+Towards the end of the course, everyone will present their project in a short presentation.
+
+At the end of the class you'll hand in a project report (around 4 to 8 pages), prepared in the format of a machine learning conference paper such as NeurIPS or ICML.  Note, we do not expect the report to be a completed research paper of that caliber but hopefully some projects will be a first step in that direction.
+
+Statement of Interest and Qualifications
+Unfortunately, we expect this course will be oversubscribed and we must prioritize who can attend. As such, we will prioritize graduate students whose research interests will benefit from the material, but are open to other qualified and interested candidates. As an advanced course where we will discuss recent literature at a technical level, we do expect significant math, statistics and machine learning background. Note that the deadline to enroll in limited enrollment courses is Jan 18 and that we will notify you by end of Jan 19.  
+
+Please fill submit your statement using this form.
+
+Collaboration policy
+For course presentations, the presentations can be completed independently but we encourage students to collaborate to ensure there is less redundancy and overlap (e.g. by having similar introductions to a topic).   However, we expect both students to each contribute substantially to the week's presentations.  For the project, if students choose to work together, we will ask for a statement detailing the individual contributions of each student. 
+
+COVID Isolation policy
+In the case of a student in isolation because of Covid, sessions will be recorded and the recording made available on Canvas. In the case of an instructor who needs to isolate, we anticipate changing the schedule so that we can maintain continuity in the classroom. In the extreme case, we may need to shift to remote learning.
+
+Schedule
+Sign-up spreadsheet here. Sign up by 12:45 pm on Friday Feb 4, 2022.
+
+Topic 1: Probabilistic ML
+Jan 28: Intro
+
+Preview of Bayesian Models (Lecture Slides: See below)
+
+Feb 4: Bayesian Models
+
+Paper 1: How Good is the Bayes Posterior in Deep Neural Networks Really?, Wenzel et al., ICML 2020
+
+Paper 2: Training independent subnetworks for robust prediction. Havasi et al., ICLR 2021
+
+Preview of Gaussian Processes, Bayesian Optimization and Active Learning
+
+Feb 11: Gaussian Processes, Bayesian Optimization and Active Learning
+
+Paper 1: Scalable Bayesian Optimization Using Deep Neural Networks
+
+Paper 2: Robots that can adapt like animals
+
+Paper 3: Active Learning Literature Survey (page 1-21)
+
+Preview of Probabilistic Models of Diversity
+
+Feb 18: Probabilistic Models of Diversity
+
+Paper 1: Learning under Model Misspecification: Applications to Variational and Ensemble methods
+
+Paper 2: Diversity is All You Need: Learning Skills without a Reward Function
+
+Preview of Robustness to "Spurious Correlations"
+
+Topic 2: Causality
+Feb 25: Causality & Robustness to "Spurious Correlations"
+
+Paper 1: Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization
+
+Paper 2: On Calibration and Out-of-domain Generalization
+
+Paper 3: Counterfactual Invariance to Spurious Correlations: Why and How to Pass Stress Tests
+
+Preview of Causal Effect Identification and Estimation
+
+Mar 4: Causal Inference I: Fundamentals (Final project proposal soft deadline)
+
+Paper 1: Quasi-Oracle Estimation of Heterogeneous Treatment Effects
+
+Paper 2: The Balancing Act in Causal Inference
+
+Paper 3 (optional, no presentation): Adapting Neural Networks for the Estimation of Treatment Effects
+
+Review of ML for Causality and Evaluation Metrics
+
+Mar 11: Causal Inference II: Connections and Applications (Final project informal proposal due)
+
+Paper 1: Off-Policy Evaluation via the Regularized Lagrangian
+
+Paper 2: Combining Experimental and Observational Data to Estimate Treatment Effects on Long Term Outcomes
+
+Paper 3 (optional, no presentation): RieszNet and ForestRiesz: Automatic Debiased Machine Learning with Neural Nets and Random Forests
+
+Preview of Deep Learning Theory
+
+Topic 3: Deep Learning Theory
+Mar 25: Deep Learning Theory
+
+Paper 1: Deep Neural Networks as Gaussian Processes
+
+Paper 2: Overparameterization Improves Robustness to Covariate Shift in High Dimensions
+
+Topic 4: Applied ML
+Apr 1: ML for Proteins
+
+Paper 1: Highly accurate protein structure prediction with AlphaFold
+
+Paper 2: Deep Extrapolation for Attribute-Enhanced Generation
+
+Apr 8: ML for Chemistry
+
+Paper 1: Neural Message Passing for Quantum Chemistry
+
+Paper 2: A Deep Learning Approach to Antibiotic Discovery
+
+Paper 3: Pursuing a Prospective Perspective
+
+
+
+Final Projects
+Apr 15: Panel Discussion & Project Updates (attendance expected)
+
+Apr 18: Final project posters due (so that they can be printed by the 22nd)
+
+Apr 22: Final project poster session (attendance expected)
+
+Lecture Slides
+
+Week 1: Intro + Instructor Bios
+
+
+Week 1: Bayesian models / Probabilistic ML
+
+
+Week 2: Gaussian processes, Bayesian optimization and active learning
+
+
+Week 3: Probabilistic models of diversity in machine learning
+
+Final Project Guidelines
+
+
+A project can contribute in any of these areas (or a combination of them):
+
+Methods: systematic assessment of the strengths and weaknesses of a collection of novel or existing methods when applied to real or synthetic data.
+
+Applications: use of machine learning to help solve a real-world problem.
+
+Theory: formal statements concerning guarantees about machine learning problems or methods.
+
+Exposition: presentation of a unified framework covering a set of existing theory or methods. The goal is to help provide accessible educational content to others as well as identify opportunities for development of novel methods and theory.
+
+Software: development of machine learning tools that are fast, general-purpose, and well-tested.
+
+
+
+When evaluating your projects, we will be focusing on the following criteria:
+
+Are your technical statements precise and correct?
+
+Did you properly cite related work and explain the background concepts?
+
+Given your specific machine learning background, did the work stretch you outside of your comfort zone?
+
+Is your write-up well-written and was your presentation engaging? If your project is software-based, was your code high-quality and reusable?
+
+If working as part of a team, did you collaborate effectively?
+
+
+
+Note that projects do not necessarily need to focus specifically on the subjects discussed in the class, though should be relevant to recent advances in machine learning.
+
+
+
+Some example projects
+
+Implement a few MCMC methods and compare their performance on a variety of low-dimensional inference problems as well as for Bayesian deep nets. Here, it may be best to use synthetic data, so that properties of the problem can be tuned.
+
+Apply Thompson sampling or GP-based Bayesian optimization to a black-box optimization problem in biology. In the interest of time/money, it could be run on a software-defined fitness function, rather than by doing actual experiments. 
+
+Derive regret bounds for various bandit algorithms.
+
+Write a tutorial covering the breadth of recent advancements in variational inference.
+
+Implement your own autodiff library from scratch, or contribute new features or example applications to jax . For example, you could develop a user-friendly library for MCMC in jax.  This blog post is an excellent example of such a project. 
+
+----------
+
+Skip to main content
+MAIN MENU
+UTILITY MENU
+University Logo
+Finale Doshi-Velez
+Gordon McKay Professor of Computer Science
+SEC 150 Western Ave Room 2.336
+finale@seas.harvard.edu
+
+HOME / CLASSES /
+Computer Science 282r: Decision-Making Under Uncertainty
+Semester: 
+Spring
+Offered: 
+2015
+The focus of the Spring 2015 course will be reinforcement learning, a framework for solving problems involving a sequence of decisions with uncertain outcomes. This course will cover the fundamental theory through readings of classic papers and build practical intuition through coding assignments. Topics will include Markov decision process and partially observable Markov decision processes, planning under uncertainty, model-free and model-based reinforcement learning, function approximation in reinforcement learning, and batch reinforcement learning.
+
+Prerequisites: Students should be familiar with basic linear algebra, probability, and algorithms; courses such as Stat 110, AM 21b, and CS 124 may be helpful. Students will be expected to implement algorithms in programming languages such as Matlab, Python, and Java (e.g., CS 51).
+
+Link: 
+Computer Science 282r: Decision-Making Under Uncertainty
+Projects
+Admin Login
+Copyright © 2023 The President and Fellows of Harvard College | Accessibility | Digital Accessibility | Report Copyright Infringement
+
+----------
+
+Skip to main content
+SEARCH
+SEARCH
+MENU
+COMPUTER SCIENCE
+COURSE LISTING
+For a snapshot of courses being offered by Harvard School of Engineering over the next four years, visit our Multi Year Course Planning tool.
+
+Discrete Mathematics for Computer Science
+COMPSCI 20
+2024 Spring
+
+Rebecca Nesson, Michael Mitzenmacher
+Monday, Wednesday, Friday
+9:45am to 11:00am
+
+Widely applicable mathematical tools for computer science, including topics from logic, set theory, combinatorics, number theory, probability theory, and graph theory. Practice in reasoning formally and proving theorems.
+
+COURSE WEBSITE
+Computational Thinking and Problem Solving
+COMPSCI 32
+2024 Spring
+
+Michael Smith
+Monday, Wednesday
+12:45pm to 2:00pm
+
+An introduction to computational thinking, useful concepts in the field of computer science, and the art of computer programming using Python. Significant emphasis is placed on class meetings and learning to use computers to solve complex, real-world problems. Concepts and techniques are introduced as they are needed to help solve the problems confronting us. Students will learn how to go from an ambiguous problem description to a running solution and will leave the class knowing how to instruct computers to do what they want them to do. Prior experience in computer science or computer programming is not necessary.
+
+COURSE WEBSITE
+Incentives in the Wild: from Tanking in Sports to Mining Cryptocurrencies
+COMPSCI 37
+2023 Fall
+
+Yannai Gonczarowski
+Monday, Wednesday
+1:30pm to 2:45pm
+
+How could it be that paving a new road might increase congestion for all drivers? Why would a professional sports team ever try not to score in a game that it wants to win? Why would any student rank high schools not in their order of preference when applying? And what are some incentive pitfalls that the designer of a cryptocurrency system should be aware of? In this course, we will examine seemingly strange social phenomena, use mathematical tools to model them and to analyze how and why distorted incentives give rise to them, and explore potential mechanisms to eliminate such phenomena.
+
+COURSE WEBSITE
+Introduction to Computer Science
+COMPSCI 50
+2023 Fall
+
+David J. Malan
+Monday
+1:30pm to 4:15pm
+
+This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience. (Two thirds of CS50 students have never taken CS before.) This course teaches you how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics include computational thinking, abstraction, algorithms, data structures, and computer science more generally. Problem sets inspired by the arts, humanities, social sciences, and sciences. More than teach you how to program in one language, this course teaches you how to program fundamentally and how to teach yourself new languages ultimately. The course starts with a traditional but omnipresent language called C that underlies today's newer languages, via which you'll learn not only about functions, variables, conditionals, loops, and more, but also about how computers themselves work underneath the hood, memory and all. The course then transitions to Python, a higher-level language that you'll understand all the more because of C. Toward term's end, the course introduces SQL, via which you can store data in databases, along with HTML, CSS, and JavaScript, via which you can create web and mobile apps alike. Course culminates in a final project. See cs50.harvard.edu/college for advice, FAQs, syllabus, and what's new. Email the course's heads at heads@cs50.harvard.edu with questions.
+
+COURSE WEBSITE
+Introduction to Computer Science
+COMPSCI 50
+2024 Spring
+
+David J. Malan, Carter Zenke
+Tuesday
+3:45pm to 6:30pm
+
+This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience. (Two thirds of CS50 students have never taken CS before.) This course teaches you how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics include computational thinking, abstraction, algorithms, data structures, and computer science more generally. Problem sets inspired by the arts, humanities, social sciences, and sciences. More than teach you how to program in one language, this course teaches you how to program fundamentally and how to teach yourself new languages ultimately. The course starts with a traditional but omnipresent language called C that underlies today's newer languages, via which you'll learn not only about functions, variables, conditionals, loops, and more, but also about how computers themselves work underneath the hood, memory and all. The course then transitions to Python, a higher-level language that you'll understand all the more because of C. Toward term's end, the course introduces SQL, via which you can store data in databases, along with HTML, CSS, and JavaScript, via which you can create web and mobile apps alike. Course culminates in a final project. See https://cs50.harvard.edu/spring for advice, FAQs, syllabus, and what's new. Email the course's heads at heads@cs50.harvard.edu with questions.
+
+COURSE WEBSITE
+Introduction to Computer Science
+COMPSCI 50
+2024 Spring
+
+David J. Malan, Carter Zenke
+Tuesday
+9:00am to 11:45am
+
+This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience. (Two thirds of CS50 students have never taken CS before.) This course teaches you how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics include computational thinking, abstraction, algorithms, data structures, and computer science more generally. Problem sets inspired by the arts, humanities, social sciences, and sciences. More than teach you how to program in one language, this course teaches you how to program fundamentally and how to teach yourself new languages ultimately. The course starts with a traditional but omnipresent language called C that underlies today's newer languages, via which you'll learn not only about functions, variables, conditionals, loops, and more, but also about how computers themselves work underneath the hood, memory and all. The course then transitions to Python, a higher-level language that you'll understand all the more because of C. Toward term's end, the course introduces SQL, via which you can store data in databases, along with HTML, CSS, and JavaScript, via which you can create web and mobile apps alike. Course culminates in a final project. See https://cs50.harvard.edu/spring for advice, FAQs, syllabus, and what's new. Email the course's heads at heads@cs50.harvard.edu with questions.
+
+COURSE WEBSITE
+Introduction to Computer Science
+COMPSCI 50
+2024 Spring
+
+David J. Malan, Carter Zenke
+Wednesday
+9:00am to 11:45am
+
+This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience. (Two thirds of CS50 students have never taken CS before.) This course teaches you how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics include computational thinking, abstraction, algorithms, data structures, and computer science more generally. Problem sets inspired by the arts, humanities, social sciences, and sciences. More than teach you how to program in one language, this course teaches you how to program fundamentally and how to teach yourself new languages ultimately. The course starts with a traditional but omnipresent language called C that underlies today's newer languages, via which you'll learn not only about functions, variables, conditionals, loops, and more, but also about how computers themselves work underneath the hood, memory and all. The course then transitions to Python, a higher-level language that you'll understand all the more because of C. Toward term's end, the course introduces SQL, via which you can store data in databases, along with HTML, CSS, and JavaScript, via which you can create web and mobile apps alike. Course culminates in a final project. See https://cs50.harvard.edu/spring for advice, FAQs, syllabus, and what's new. Email the course's heads at heads@cs50.harvard.edu with questions.
+
+COURSE WEBSITE
+Introduction to Computer Science
+COMPSCI 50
+2024 Spring
+
+David J. Malan, Carter Zenke
+Wednesday
+6:00pm to 8:45pm
+
+This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience. (Two thirds of CS50 students have never taken CS before.) This course teaches you how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics include computational thinking, abstraction, algorithms, data structures, and computer science more generally. Problem sets inspired by the arts, humanities, social sciences, and sciences. More than teach you how to program in one language, this course teaches you how to program fundamentally and how to teach yourself new languages ultimately. The course starts with a traditional but omnipresent language called C that underlies today's newer languages, via which you'll learn not only about functions, variables, conditionals, loops, and more, but also about how computers themselves work underneath the hood, memory and all. The course then transitions to Python, a higher-level language that you'll understand all the more because of C. Toward term's end, the course introduces SQL, via which you can store data in databases, along with HTML, CSS, and JavaScript, via which you can create web and mobile apps alike. Course culminates in a final project. See https://cs50.harvard.edu/spring for advice, FAQs, syllabus, and what's new. Email the course's heads at heads@cs50.harvard.edu with questions.
+
+COURSE WEBSITE
+Abstraction and Design in Computation
+COMPSCI 51
+2024 Spring
+
+Stuart Shieber
+Tuesday, Thursday
+12:45pm to 2:00pm
+
+Fundamental concepts in the design of computer programs, emphasizing the crucial role of abstraction. The goal of the course is to give students insight into the difference between programming and programming well. To emphasize the differing approaches to expressing programming solutions, you will learn to program in a variety of paradigms -- including functional, imperative, and object-oriented. Important ideas from software engineering and models of computation will inform these different views of programming.
+
+COURSE WEBSITE
+Abstraction and Design in Computation
+COMPSCI 51
+2024 Spring
+
+Stuart Shieber
+Tuesday, Thursday
+3:45pm to 5:00pm
+
+Fundamental concepts in the design of computer programs, emphasizing the crucial role of abstraction. The goal of the course is to give students insight into the difference between programming and programming well. To emphasize the differing approaches to expressing programming solutions, you will learn to program in a variety of paradigms -- including functional, imperative, and object-oriented. Important ideas from software engineering and models of computation will inform these different views of programming.
+
+COURSE WEBSITE
+Systems Programming and Machine Organization
+COMPSCI 61
+2023 Fall
+
+James Mickens
+Monday, Wednesday
+2:15pm to 3:30pm
+
+Fundamentals of computer systems programming, machine organization, and performance tuning. This course provides a solid background in systems programming and a deep understanding of low-level machine organization and design. Topics include C and assembly language programming, program optimization, memory hierarchy and caching, virtual memory and dynamic memory management, concurrency, threads, and synchronization.
+
+COURSE WEBSITE
+Code, Data, and Art
+COMPSCI 73
+2023 Fall
+
+Martin Wattenberg
+Tuesday, Thursday
+12:45pm to 2:00pm
+
+A studio course where software is used as an artistic medium. The course is designed to expose students to current perspectives on the intersection of computer science and art, and to build skills that will allow them to express themselves creatively via software. An additional focus will be the role of data in modern artistic practice.
+
+COURSE WEBSITE
+Design of Useful and Usable Interactive Systems
+COMPSCI 79
+2023 Fall
+
+Krzysztof Gajos
+Monday, Wednesday
+9:45am to 11:00am
+
+Formerly CS 179, the course covers skills and techniques necessary to design innovative interactive products that are useful, usable and that address important needs of people other than yourself. You will learn how to uncover needs that your customers cannot even articulate. You will also learn a range of design principles, effective creativity-related practices, and techniques for rapidly creating and evaluating product prototypes. You will also have several opportunities to formally communicate your design ideas to a variety of audiences. You will complete two large team-based design projects.
+
+COURSE WEBSITE
+Case Studies in Public and Private Policy Challenges of Artificial Intelligence
+COMPSCI 90NDR
+2024 Spring
+
+Jonathan Zittrain
+Monday, Tuesday
+3:45pm to 5:15pm
+
+The use of machine learning has skyrocketed in recent years, becoming embedded retail and wholesale across society without substantial reflection on its implications. Through engagement with those building some of the most provocative models and tools – many of which have become part of the public imagination – we will see what gives their builders pause; reflect on possible solutions or mitigations; and develop suggestions about what they might be missing in their own canvassing of the ethical and policy terrain.
+
+COURSE WEBSITE
+Supervised Reading and Research
+COMPSCI 91R
+2023 Fall
+
+Boaz Barak, Stephen Chong, Adam Hesterberg
+
+Supervised individual study of advanced topics in computer science. A student wishing to enroll in Computer Science 91r must be accepted by a faculty member who will supervise the course work. Additional information and a form are available via https://harvardcs.info/forms/#cs-91r-form. The form must be filled out and signed by the student and faculty supervisor. Students writing theses may enroll in this course while conducting thesis research and writing.
+
+COURSE WEBSITE
+Supervised Reading and Research
+COMPSCI 91R
+2024 Spring
+
+Stephen Chong, Adam Hesterberg
+
+Supervised individual study of advanced topics in computer science. A student wishing to enroll in Computer Science 91r must be accepted by a faculty member who will supervise the course work. Additional information and a form are available via https://harvardcs.info/forms/#cs-91r-form. The form must be filled out and signed by the student and faculty supervisor. Students writing theses may enroll in this course while conducting thesis research and writing.
+
+COURSE WEBSITE
+Privacy and Technology
+COMPSCI 105
+2023 Fall
+
+James Waldo
+Tuesday, Thursday
+12:45pm to 2:00pm
+
+What is privacy, and how is it affected by recent developments in technology? This course critically examines popular concepts of privacy and uses a rigorous analysis of technologies to understand the policy and ethical issues at play. Case studies: database anonymity, research ethics, wiretapping, surveillance, and others. Course relies on some technical material, but is open and accessible to all students, especially those with interest in economics, engineering, political science, computer science, sociology, biology, law, government, philosophy.
+
+COURSE WEBSITE
+Systems Development for Computational Science
+COMPSCI 107
+2023 Fall
+
+Ignacio Becker Troncoso
+Tuesday, Thursday
+2:15pm to 3:30pm
+
+This is a project-based course emphasizing designing, building, testing, maintaining and modifying software for scientific computing and data sciences. The class is focusing on a thorough introduction of the Python programming language with discussion of core concepts in object oriented programming as well as essential data structures useful in most programming tasks. Students will work in groups on a semester long project that combines the subjects discussed in class and applies them to the topic of automatic differentiation. Students will further learn how to work with SQL databases and how to integrate them in Python using SQLite3 and Pandas. After completion of this course, students will be able to adapt basic tools and techniques to design complex software systems aimed at solving computational and data processing problems in academic and industrial environments.
+
+COURSE WEBSITE
+Data Science 1: Introduction to Data Science
+COMPSCI 109A
+2023 Fall
+
+Pavlos Protopapas, Kevin A. Rader
+Monday, Wednesday, Friday
+9:45am to 11:00am
+
+Data Science 1 is the first half of a one-year introduction to data science. The course will focus on the analysis of messy, real life data to perform predictions using statistical and machine learning methods. Material covered will integrate the five key facets of an investigation using data: (1) data collection - data wrangling, cleaning, and sampling to get a suitable data set;  (2) data management - accessing data quickly and reliably; (3) exploratory data analysis – generating hypotheses and building intuition; (4) prediction or statistical learning; and (5) communication – summarizing results through visualization, stories, and interpretable summaries. Part one of a two part series. The curriculum for this course builds throughout the academic year. Students are strongly encouraged to enroll in both the fall and spring course within the same academic year.
+
+COURSE WEBSITE
+Data Science 2: Advanced Topics in Data Science
+COMPSCI 109B
+2024 Spring
+
+Pavlos Protopapas, Alex Young
+Monday, Wednesday, Friday
+9:45am to 11:00am
+
+Data Science 2 is the second half of a one-year introduction to data science. Building upon the material in Data Science 1, the course introduces advanced methods for statistical modeling, representation, and prediction. Topics include multiple deep learning architectures such as CNNs, RNNs, transformers, language models, autoencoders, and generative models as well as basic Bayesian methods, and unsupervised learning. Students are strongly encouraged to enroll in both the fall and spring course within the same academic year. Part two of a two-part series.
+
+COURSE WEBSITE
+Introduction to Algorithms and their Limitations
+COMPSCI 120
+2023 Fall
+
+Adam Hesterberg, Anurag Anshu
+Tuesday, Thursday
+9:45am to 11:00am
+
+An introductory course in theoretical computer science, aimed at giving students the power of using mathematical abstraction and rigorous proof to understand computation. Thus equipped, students will be able to design and use algorithms that apply to a wide variety of computational problems, with confidence about their correctness and efficiency, as well as recognize when a problem may have no algorithmic solution. At the same time, they will gain an appreciation for the beautiful mathematical theory of computation that is independent of (indeed, predates) the technology on which it is implemented.
+
+COURSE WEBSITE
+Introduction to Theoretical Computer Science
+COMPSCI 121
+2023 Fall
+
+Boaz Barak
+Tuesday, Thursday
+11:15am to 12:30pm
+
+Computation occurs over a variety of substrates including silicon, neurons, DNA, the stock market, bee colonies and many others. In this course we will study the fundamental capabilities and limitations of computation, including the phenomenon of universality and the duality of code and data. Some of the questions we will touch upon include: Are there functions that cannot be computed? Are there true mathematical statements that can't be proven? Are there encryption schemes that can't be broken? Is randomness ever useful for computing? Can we use the quirks of quantum mechanics to speed up computation?
+
+COURSE WEBSITE
+Data Structures and Algorithms
+COMPSCI 124
+2024 Spring
+
+Madhu Sudan, Sitan Chen
+Monday, Wednesday
+2:15pm to 3:30pm
+
+Design and analysis of efficient algorithms and data structures. Algorithm design methods, graph algorithms, approximation algorithms, and randomized algorithms are covered.
+
+COURSE WEBSITE
+Fairness and Privacy: Perspectives from Law and Probability
+COMPSCI 126
+2023 Fall
+
+Cynthia Dwork
+Monday
+9:00am to 10:15am
+
+Students will learn the mathematical foundations of key aspects of Responsible AI, with a focus on the analysis and mitigation of privacy loss and unfairness in machine learning and in data analysis more broadly. Principal techniques will come from differential privacy, cryptography, and the emerging theory of algorithmic fairness. Through joint readings and weekly class meetings with the HLS course of the same name, students will develop disciplinary “bilingualism.”
+
+COURSE WEBSITE
+Convex Optimization and Applications in Machine Learning
+COMPSCI 128
+2024 Spring
+
+Yiling Chen
+Monday, Wednesday
+9:45am to 11:00am
+
+This course focuses on recognizing, formulating, and solving convex optimization problems. We will introduce basic convex analysis, discuss convex optimization theory, introduce algorithms for solving convex optimization problems, and touch on some advanced topics. We will explore all these in the context of machine learning applications as almost every machine learning problem can be formulated as an optimization problem. The objective is to give students the theoretical training to recognize and formulate convex optimization problems and provide students with the tools and methods to solve the problems of interest.
+
+COURSE WEBSITE
+Economics and Computation
+COMPSCI 136
+2023 Fall
+
+David Parkes
+Monday, Wednesday
+9:00am to 10:15am
+
+The interplay between economic thinking and computational thinking as it relates to the design of the digital economy, and emphasizing fundamental concepts, modeling, and mathematical analysis. Topics covered include: game theory, auction design, incentive alignment, information elicitation, matching, reputation systems, cryptoeconomics, and privacy and ethics. Illustrative applications include to advertising, pricing, crowdsourcing, personalization, social networks, market platforms, DeFi, prediction markets, and AI mediation. Students will complete theoretical and computational exercises and work on a final project.
+
+ 
+
+COURSE WEBSITE
+Computing Hardware
+COMPSCI 141
+2024 Spring
+
+Vijay Janapa Reddi
+Monday, Wednesday
+11:15am to 12:30pm
+
+This course introduces fundamentals in designing and building modern information devices and systems that interface with the real world. It focuses on digital devices and systems, and it complements ENG-SCI 152, which focuses on devices and systems that use analog electronics. Topics include: combinational and sequential logic; computer architecture; machine code; and altogether the infrastructure and computational framework composing a MIPS processor. Consideration is given in design to interactions between hardware and software systems. Students will design application specific hardware for an embedded system.
+
+COURSE WEBSITE
+Networking at Scale
+COMPSCI 145
+2024 Spring
+
+Minlan Yu
+Tuesday, Thursday
+9:45am to 11:00am
+
+This course studies computer network topics including Layer 2/Layer 3 topology, routing, transport protocols, traffic engineering, network functions, programmable switches, and software-defined networking. Modern networks have grown to large scale (connecting millions of servers) and high speed (terabits per second) to meet the needs of cloud applications in business and society. Thus, in addition to learning the conventional concepts in networking, we will also discuss how to adapt these concepts to large-scale networks. These discussions will hopefully help deepen our understanding of networking technologies. This course includes lectures and system programming projects. More information can be found at https://github.com/minlanyu/cs145-site.
+
+COURSE WEBSITE
+Computer Architecture
+COMPSCI 146
+2024 Spring
+
+David Brooks
+Friday
+9:00am to 11:45am
+
+Review of the fundamental structures in modern processor design. Topics include computer organization, memory system design, pipelining, and other techniques to exploit parallelism. Discussion of modern topics including GPU architectures, datacenter architecture, mobile/embedded SoC architectures, and machine learning acceleration as time permits. Emphasis on a quantitative evaluation of design alternatives and an understanding of performance and energy consumption issues.
+
+COURSE WEBSITE
+Design of VLSI Circuits and Systems
+COMPSCI 148
+2024 Spring
+
+Gage Hills
+Monday, Wednesday
+2:15pm to 3:30pm
+
+Presentation of concepts and techniques for the design and fabrication of VLSI systems and digital MOS integrated circuits. Topics include: basic semiconductor theory; MOS transistors and digital MOS circuits design; synchronous machines, clocking, and timing issues; high-level description and modeling of VLSI systems; synthesis and place and route design flows; and testing of VLSI circuits and systems. Various CAD tools for design, simulation, and verification are extensively used.
+
+COURSE WEBSITE
+Programming Languages
+COMPSCI 152
+2024 Spring
+
+Nada Amin
+Tuesday, Thursday
+11:15am to 12:30pm
+
+Comprehensive introduction to the principal features and overall design of both traditional and modern programming languages, including syntax, formal semantics, abstraction mechanisms, modularity, type systems, naming, polymorphism, closures, continuations, and concurrency. Provides the intellectual tools needed to design, evaluate, choose, and use programming languages.
+
+COURSE WEBSITE
+Compilers
+COMPSCI 153
+2023 Fall
+
+Stephen Chong
+Monday, Wednesday
+2:15pm to 3:30pm
+
+Implementation of efficient interpreters and compilers for programming languages. Associated algorithms and pragmatic issues. Emphasizes practical applications including those outside of programming languages proper. Also shows relationships to programming-language theory and design. Participants build a working compiler including lexical analysis, parsing, type checking, code generation, and register allocation. Exposure to run-time issues and optimization.
+
+COURSE WEBSITE
+Operating Systems
+COMPSCI 161
+2024 Spring
+
+Eddie Kohler
+Monday, Wednesday
+2:15pm to 3:30pm
+
+This course focuses on the design and implementation of modern operating systems. The course discusses threads, processes, virtual memory, schedulers, and the other fundamental primitives that an OS uses to represent active computations. An exploration of the system call interface explains how applications interact with hardware and other programs which are concurrently executing. Case studies of popular file systems reveal how an OS makes IO efficient and robust in the midst of crashes and unexpected reboots. Students also learn how virtualization allows a physical machine to partition its resources across multiple virtual machines. Class topics are reinforced through a series of intensive programming assignments which use a real operating system.
+
+COURSE WEBSITE
+Data Systems
+COMPSCI 165
+2023 Fall
+
+Stratos Idreos
+Tuesday, Thursday
+9:45am to 11:00am
+
+We are in the big data era and data systems sit in the critical path of everything we do. We are going through major transformations in businesses, sciences, as well as everyday life - collecting and analyzing data changes everything and data systems provide the means to store and analyze a massive amount of data. This course is a comprehensive introduction to modern data systems. The primary focus of the course is on the modern trends that are shaping the data management industry right now: column-store and hybrid systems, shared nothing architectures, cache conscious algorithms, hardware/software co-design, main-memory systems, adaptive indexing, stream processing, scientific data management, and key-value stores. We also study the history of data systems, traditional and seminal concepts and ideas such as the relational model, row-store database systems, optimization, indexing, concurrency control, recovery and SQL. In this way, we discuss both how and why data systems evolved over the years, as well as how these concepts apply today and how data systems might evolve in the future. We focus on understanding concepts and trends rather than specific techniques that will soon be outdated - as such the class relies largely on recent research material and on a semi-flipped class model with a lot of hands-on interaction in each class.
+
+COURSE WEBSITE
+Visualization
+COMPSCI 171
+2023 Fall
+
+Hanspeter Pfister, Johanna Beyer
+Monday, Wednesday
+2:15pm to 3:30pm
+
+An introduction to key design principles and techniques for visualizing data. Covers design practices, data and image models, visual perception, interaction principles, visualization tools, and applications. Introduces programming of web-based interactive visualizations.
+
+COURSE WEBSITE
+Computer Graphics
+COMPSCI 175
+2024 Spring
+
+Steven Gortler
+Tuesday, Thursday
+12:45pm to 2:00pm
+
+This course covers the fundamentals of 3D computer graphics using a modern shader-based version of OpenGL. Main topics include: geometric coordinate systems and transformations, keyframe animation and interpolation, camera simulation, triangle rasterization, material simulation, texture mapping, image sampling and color theory. The course also touches on ray tracing, geometric modeling and simulation-based animation.
+
+COURSE WEBSITE
+Engineering Usable Interactive Systems
+COMPSCI 178
+2024 Spring
+
+Elena Glassman
+Monday, Wednesday
+3:45pm to 5:00pm
+
+In this course, students learn critical techniques, concepts, and technologies for building usable interactive systems, alone and in pairs. Assignments provide hands-on experiences with different modern frameworks, platforms, and libraries while conceptual commonalities and distinctions are annotated and explained. Lectures cover relevant basic and advanced topics, such as human cognitive capabilities, iterative prototyping, and human-AI interaction. The final project will require both front-end and back-end development, iterative prototyping with humans, and a final evaluation with target users. Designed for advanced undergraduates.
+
+COURSE WEBSITE
+Machine Learning
+COMPSCI 181
+2024 Spring
+
+Finale Doshi-Velez, David Alvarez Melis
+Tuesday, Thursday
+9:45am to 11:00am
+
+Introduction to machine learning, providing a probabilistic view on artificial intelligence and reasoning under uncertainty. Topics include: supervised learning, ensemble methods and boosting, neural networks, support vector machines, kernel methods, clustering and unsupervised learning, maximum likelihood, graphical models, hidden Markov models, inference methods, and computational learning theory. Students should feel comfortable with multivariate calculus, linear algebra, probability theory, and complexity theory. Students will be required to produce non-trivial programs in Python.
+
+COURSE WEBSITE
+Artificial Intelligence
+COMPSCI 182
+2023 Fall
+
+Stephanie Gil, Milind Tambe
+Monday, Wednesday
+12:45pm to 2:00pm
+
+Artificial Intelligence (AI) is already making a powerful impact on modern technology, and is expected to be even more transformative in the near future. The course introduces the ideas and techniques underlying this exciting field, with the goal of teaching students to identify effective representations and approaches for a wide variety of computational tasks. Topics covered in this course are broadly divided into search and planning, optimization and games, and uncertainty and learning. Special attention is given to ethical considerations in AI and to applications that benefit society. For more information please see the course website.
+
+COURSE WEBSITE
+Introduction to Reinforcement Learning
+COMPSCI 184
+2023 Fall
+
+Sham Kakade, Lucas Janson
+Monday, Wednesday
+11:15am to 12:30pm
+
+Modern AI systems often need the ability to make sequential decisions in an unknown, uncertain, possibly hostile environment, by actively interacting with the environment to collect relevant data. Reinforcement Learning (RL) is a general framework that can capture the interactive learning setting and has been used to design intelligent agents that achieve high-level performance in challenging applications such as Go, computer games, robotic manipulation, health care, and education.
+
+This course provides an introduction to reinforcement learning covering a range of problem formulations, algorithms, and theory. The four main themes of the course are (1) Markov decision processes (Bellman equations/optimality, planning, UCB, unknown environments, linear quadratic control, exploration, imitation learning), (2) bandits (epsilon-greedy, UCB, Thompson sampling, contextual bandits, linear bandits, exploration in MDPs), and (3) methods for large-scale systems (policy gradient methods, deep RL, Monte Carlo tree search, Q-learning). There will also be an Embedded Ethics lecture on ethical issues arising in reinforcement learning. The assignments will focus on a mix of algorithmic and statistical principles, along with their programming implementations.
+
+COURSE WEBSITE
+Introduction to Computational Linguistics and Natural-language Processing
+COMPSCI 187
+2023 Fall
+
+Stuart Shieber
+Monday, Wednesday, Friday
+11:15am to 12:30pm
+
+Natural-language-processing applications are ubiquitous: Alexa can set a reminder, or play a particular song, or provide your local weather if you ask; Google Translate can make documents readable across languages; ChatGPT can be prompted to generate convincingly fluent text, which is often even correct. How do such systems work? This course provides an introduction to the field of computational linguistics, the study of human language using the tools and techniques of computer science, with applications to a variety of natural-language-processing problems such as these. You will work with ideas from linguistics, statistical modeling, machine learning, and neural networks, with emphasis on their application, limitations, and implications. The course is lab- and project-based, primarily in small teams, and culminates in the building and testing of a question-answering system.
+
+COURSE WEBSITE
+Classics of Computer Science
+COMPSCI 191
+2024 Spring
+
+Harry Lewis
+Tuesday, Thursday
+2:15pm to 3:30pm
+
+Papers every computer scientist should have read, from all areas of the field and dating from its origins to the present.
+
+COURSE WEBSITE
+Designing K–12 Computer Science Learning Experiences
+COMPSCI 196
+2024 Spring
+
+Karen Brennan
+Wednesday
+9:00am to 11:45am
+
+From computational thinking to workforce arguments, there is considerable interest in and excitement about including computer science education for all K–12 students. Yet, unlike other disciplines with a much longer history in formal schooling, the interest in computer science education is not yet supported by commensurate attention to research and teacher practice. In this course, we will examine the state of K–12 computing education: questioning its value, examining its history, and imagining and contributing to its potential. The course will be organized as both a reading group and a lab, building a community of people who are committed to K–12 CS education. Each week you will read classic and current research, and write accompanying memos to document your evolving understandings of the field. Throughout the course, either individually or with partners, you will develop an independent project that explores the design of K–12 computer science learning experiences. Some examples of possible projects include: designing CS-standalone or cross-curricular learning activities and curriculum, building a programming language for novices, developing an annotated bibliography, critically analyzing policy documents such as curriculum frameworks and standards from around the world, or contributing to current K–12 CS education research initiatives.
+
+COURSE WEBSITE
+High Performance Computing for Science and Engineering
+COMPSCI 205
+2024 Spring
+
+Ignacio Becker Troncoso
+Tuesday, Thursday
+2:15pm to 3:30pm
+
+With manufacturing processes reaching the limits in terms of transistor density on today’s computing architectures, efficient modern code must exploit parallel execution to maintain scaling of available hardware resources. The use of computers in academia, industry and society is a fundamental tool for solving (scientific) problems while the "think parallel" mindset of code developers is still lagging behind. The aim of this course is to introduce the student to the fundamentals of parallel programming and its relationship on computer architectures. Various forms of parallelism are discussed and exploited through different programming models with focus on shared and distributed memory programming. The learned techniques are tried out by means of homework, lab sessions and a term project.
+
+COURSE WEBSITE
+Algorithms for Data Science
+COMPSCI 224
+2023 Fall
+
+Sitan Chen
+Monday, Wednesday
+2:15pm to 3:30pm
+
+This is a graduate topics class on algorithmic challenges in modern machine learning and data science. We will touch upon a number of domains (generative modeling, deep learning theory, adversarial robustness, inverse problems, Bayesian inference) and frameworks for algorithm design (spectral/tensor methods, moment methods, message passing, SDP hierarchies), focusing on provable guarantees. The theory draws upon a range of techniques from stochastic calculus, harmonic analysis, statistical physics, algebra, and beyond. We will also explore the myriad modeling challenges in building this theory and prominent paradigms (semi-random models, smoothed complexity, oracles) for going beyond traditional worst-case analysis.
+
+COURSE WEBSITE
+Topics in Theory for Society: The Theory of Algorithmic Fairness
+COMPSCI 226R
+2024 Spring
+
+Cynthia Dwork
+Monday, Wednesday
+12:45pm to 2:00pm
+
+As algorithms reach ever more deeply and broadly into our lives there is increasing interest that they be fair, despite a lack of consensus on the meaning of the term. The theory of algorithmic fairness is a still-new discipline exploring notions of fairness and their consequences: which fairness goals can be simultaneously achieved? How do various notions compose – are systems made up of parts that are fair in isolation also fair in toto? How can we move beyond fairness-as-correctness in the current, flawed, world, to fairness in a better world? The course will start with basics and move to highlights from a recent explosion of research showing broad applicability to problems in machine learning even when fairness is not a concern, as well as deep connections to notions in pseudorandomness.
+
+COURSE WEBSITE
+Topics in Theoretical Computer Science: Essential Coding Theory
+COMPSCI 229R
+2023 Fall
+
+Madhu Sudan
+Monday, Wednesday
+11:15am to 12:30pm
+
+Introduces essential elements the theory of error-correcting codes. Focuses on the basic results in the area, taught from first principles. Special focus will be given on results of asymptotic or algorithmic significance. Principal topics include: 1. Construction and existence results for error-correcting codes 2. Limitations on the combinatorial performance of error-correcting codes 3. Decoding algorithms 4. Applications to other areas of mathematics and computer science. Lecture notes for this course from previous offerings give further details on the material covered. These may be found at http://madhu.seas.harvard.edu/courses/Spring2020
+
+COURSE WEBSITE
+Topics at the Interface between Computer Science and Economics
+COMPSCI 236R
+2023 Fall
+
+Yiling Chen
+Tuesday, Thursday
+9:45am to 11:00am
+
+Interplay between computation and economics. Rotating topics in mechanism design, strategy-aware machine learning, information elicitation and forecasting, computational social choice and other emerging areas. Readings in AI, theoretical CS, multi-agent systems, economic theory, and operations research.
+
+COURSE WEBSITE
+Optimized Democracy
+COMPSCI 238
+2024 Spring
+
+Ariel Procaccia
+Monday, Wednesday
+11:15am to 12:30pm
+
+The course examines the mathematical and algorithmic foundations of democracy, running the gamut from theory to applications. The goal is to provide students with a rigorous perspective on, and a technical toolbox for, the design of better democratic systems. Topics include computational social choice (identifying optimal voting rules), fair division with applications to political redistricting (avoiding gerrymandering) and apportionment (allocating seats on a representative body), sortition (randomly selecting citizens' assemblies), liquid democracy (transitively delegating votes), and weighted voting games (analyzing legislative power through cooperative game theory).
+
+COURSE WEBSITE
+Computing at Scale
+COMPSCI 242
+2023 Fall
+
+H. Kung
+Monday, Wednesday
+3:45pm to 5:00pm
+
+Specialized AI accelerators enable efficient AI computations for a variety of tasks at various scales using a wide range of parallel, distributed, and embedded computing platforms. For example, for large generative AI applications such as ChatGPT and Stable Diffusion, these accelerators allow (1) distributed model training and low-latency, high-throughput inference serving in the cloud, and (2) efficient private training and inference using local knowledge on resource-constrained edge devices. In this course, students will learn systematic methods for mapping typical deep learning computations, such as convolutional neural networks and transformers, onto numerous computing cores or nodes. They will also learn techniques for co-designing machine learning models, computational algorithms, software, and hardware. Upon successful completion of this course, students will be equipped to tackle the challenging tasks of designing and utilizing energy-efficient, high-performance AI accelerators.
+
+COURSE WEBSITE
+Advanced Computer Networks
+COMPSCI 243
+2023 Fall
+
+Minlan Yu
+Tuesday, Thursday
+11:15am to 12:30pm
+
+This is a graduate-level course on computer networks. This course offers an in-depth exploration of a subset of advanced topics in networked systems. We will discuss the latest developments in the entire networking stack, the interactions between networks and high-level applications, and their connections with other system components such as compute and storage.
+
+In this year's edition, we will use machine learning as a prime example to understand its unique requirements and challenges in the context of networking. As machine learning applications increasingly rely on larger models and faster accelerators, the demand for enhanced networking capabilities becomes imperative. Throughout this course, we will study cutting edge networking solutions and principles for  co-designing networks with compute and storage, to meet the evolving needs of machine learning applications. The course will include lectures, in-class presentations, paper discussions, and a research project.
+
+More information of this course is at https://github.com/minlanyu/cs243-site.
+
+COURSE WEBSITE
+Advanced Computer Architecture
+COMPSCI 246
+2024 Spring
+
+David Brooks
+Friday
+9:00am to 11:45am
+
+Review of the fundamental structures in modern processor design. Topics include computer organization, memory system design, pipelining, and other techniques to exploit parallelism. Discussion of modern topics including GPU architectures, datacenter architecture, mobile/embedded SoC architectures, and machine learning acceleration as time permits. Emphasis on a quantitative evaluation of design alternatives and an understanding of performance and energy consumption issues.
+
+COURSE WEBSITE
+Advanced Topics in Computer Architecture
+COMPSCI 247R
+2023 Fall
+
+David Brooks
+Friday
+9:00am to 11:45am
+
+Seminar course exploring recent research in computer architecture. Topics vary from year to year and will include subjects such as multi-core architectures, energy-efficient computing, reliable computing, and the interactions of these issues with system software. Students read and present research papers, undertake a research project.
+
+COURSE WEBSITE
+Advanced Design of VLSI Circuits and Systems
+COMPSCI 248
+2024 Spring
+
+Gage Hills
+Monday, Wednesday
+2:15pm to 3:30pm
+
+Presentation of concepts and techniques for the design and fabrication of VLSI systems and digital MOS integrated circuits. Topics include: basic semiconductor theory; MOS transistors and digital MOS circuits design; synchronous machines, clocking, and timing issues; high-level description and modeling of VLSI systems; synthesis and place and route design flows; and testing of VLSI circuits and systems. Various CAD tools for design, simulation, and verification are extensively used.
+
+The contents and course requirements are similar to those of Computer Science 148, with the exception that students enrolled in Computer Science 248 are expected to do a substantial design project and paper discussions on advanced topics.
+
+COURSE WEBSITE
+Tiny Machine Learning
+COMPSCI 249R
+2023 Fall
+
+Vijay Janapa Reddi
+Monday
+12:45pm to 3:30pm
+
+Tiny machine learning (TinyML) is defined as a fast-growing field of machine learning technologies and applications including hardware (dedicated integrated circuits), algorithms and software capable of performing on-device sensor (vision, audio, IMU, biomedical, etc.) data analytics at extremely low power, typically in the mW range and below, and hence enabling a variety of always-on use-cases and targeting battery-operated devices. The pervasiveness of ultra-low-power embedded devices, coupled with the introduction of embedded machine learning frameworks like TensorFlow Lite for Microcontrollers, will enable the mass proliferation of AI-powered IoT devices. The explosive growth in machine learning and the ease of use of platforms like TensorFlow (TF) make it an indispensable topic of study for modern computer science and electrical engineering students.
+
+COURSE WEBSITE
+Advanced Topics in Programming Languages
+COMPSCI 252R
+2023 Fall
+
+Nada Amin
+Tuesday, Thursday
+11:15am to 12:30pm
+
+Seminar course exploring recent research in programming languages. Topics vary from year to year. Students typically read and present research papers, undertake a research project.
+
+COURSE WEBSITE
+Formal Methods for Computer Security
+COMPSCI 254
+2024 Spring
+
+Stephen Chong
+Tuesday, Thursday
+11:15am to 12:30pm
+
+This course explores formal methods for computer security, including formal security models, relationships between security properties/policies and enforcement mechanisms, principled techniques and tools to specify, analyze, and construct secure computer systems. Specific topics include properties, hyperproperties, side channels, reasoning about cryptographic protocols, information flow, authorization logics, and verification techniques. Assessment will include homeworks and/or small projects during the semester as well as a final, larger project that is open-ended and driven by student interests.
+
+COURSE WEBSITE
+Systems Security
+COMPSCI 263
+2024 Spring
+
+James Mickens
+Tuesday, Thursday
+12:45pm to 2:00pm
+
+This course explores practical attacks on modern computer systems, explaining how those attacks can be mitigated using careful system design and the judicious application of cryptography. The course discusses topics like buffer overflows, web security, information flow control, and anonymous communication mechanisms such as Tor. The course includes several small projects which give students hands-on experience with various offensive and defensive techniques; the final, larger project is open-ended and driven by student interests.
+
+COURSE WEBSITE
+Big Data Systems
+COMPSCI 265
+2024 Spring
+
+Stratos Idreos
+Tuesday, Thursday
+9:45am to 11:00am
+
+Big data is everywhere. A fundamental goal across numerous modern businesses and sciences is to be able to utilize as many machines as possible, to consume as much information as possible and as fast as possible. The big challenge is how to turn data into useful knowledge. This is a moving target as both the underlying hardware and our ability to collect data evolve. In this class, we discuss how to design data systems, data structures, and algorithms for key data-driven areas, including relational systems, distributed systems, graph systems, noSQL, newSQL, machine learning, and neural networks. We see how they all rely on the same set of very basic concepts and we learn how to synthesize efficient solutions for any problem across these areas using those basic concepts.
+
+COURSE WEBSITE
+Topics in Data Visualization
+COMPSCI 271
+2024 Spring
+
+Johanna Beyer
+Monday, Wednesday
+9:45am to 11:00am
+
+This course covers advanced topics in data visualization. Over the course of the semester, we will examine seminal works and recent state-of-the-art research in information visualization, scientific visualization and visual analytics. Students will work on a semester-long visualization project that will allow them to visualize their own data sets and write a short paper about their project. We will employ peer-feedback and formal design critiques to analyze each other's work.
+
+COURSE WEBSITE
+Design, Technology, and Social Impact
+COMPSCI 276
+2024 Spring
+
+Krzysztof Gajos
+Tuesday, Thursday
+9:45am to 11:00am
+
+The course explores major areas of research and practice at the intersection of design, technology, and social impact. Specifically, we will explore the current state of research and interesting real-world examples related to the design, evaluation, and implementation of interventions comprising of technical, social, and organizational elements. We will also explore leading theories and methods for anticipating broader, indirect societal impacts of such intervention. Course activities will involve discussion of primary literature, some guided instruction, assignments, and a major research project.
+
+COURSE WEBSITE
+Research Topics in Human-Computer Interaction
+COMPSCI 279R
+2023 Fall
+
+Elena Glassman
+Monday, Wednesday
+1:30pm to 2:45pm
+
+Students will read and discuss papers from HCI and related fields that inform our fast-moving current understanding of how AI systems can work with---or clash against---the strengths and weaknesses of human cognition. Required activities will include pre-class comments and conversations anchored on assigned readings in Perusall, selected relevant application and AI programming toolkit tutorials, in-class student and instructor-led discussions, lectures on relevant methodologies, guest lectures, and a semester-long project, in which students will work together in groups to design, build, and evaluate novel interfaces for human-AI communication and collaboration.
+
+COURSE WEBSITE
+Topics in Machine Learning: Inverse Problems in Reinforcement Learning-with healthcare applications
+COMPSCI 282R
+2023 Fall
+
+Finale Doshi-Velez
+Monday, Wednesday
+9:45am to 11:00am
+
+In the standard reinforcement learning setting, an agent learns how to optimize its rewards via interactions with the world. In this course, we will consider the flip of this question: suppose that we observe an agent acting in the world, and we know that agent is acting reasonably (that is, somehow near optimal). What does that tell us about the agent's goal, that is, their reward function? About the dynamics of the world? We will first review the fundamentals through lectures, readings, and coding assignments. Students will also engage in a semester-long project applying and extending these ideas to problems related to a real healthcare scenario: decision-making in the ICU. Decisions in the ICU are made by multiple different people, each of whom may have a different focus. What can we learn by observing their behavior? (Other project options also possible.)
+
+ 
+
+COURSE WEBSITE
+Advanced Computer Vision
+COMPSCI 283
+2023 Fall
+
+Todd Zickler
+Tuesday, Thursday
+12:45pm to 2:00pm
+
+Vision as an ill-posed inverse problem: image formation, two-dimensional signal processing; feature analysis; image segmentation; color, texture, and shading; multiple-view geometry; object and scene recognition; and applications.
+
+COURSE WEBSITE
+AI for Social Impact
+COMPSCI 288
+2024 Spring
+
+Milind Tambe
+Monday, Wednesday
+3:45pm to 5:00pm
+
+Recent years have seen AI successfully applied to societal challenge problems. Indeed, recognizing the potential of AI for tremendous social impact in the future, "AI for social impact" is growing as a subdiscipline within AI. In this course, we will discuss successful case studies of  use of AI for public health, environmental sustainability, public safety and public welfare. Simultaneously, we will discuss key foundations of the area of AI for social impact. To that end, among other topics, we will focus on challenges in AI for Social Impact, what makes projects successful, how to investigate project impact in the field and ethical considerations for such projects. A key part of this course will be AI4SI projects with non-profits.
+
+COURSE WEBSITE
+Seminar on Effective Research Practices and Academic Culture
+COMPSCI 290A
+2023 Fall
+
+Madhu Sudan, John Girash
+Friday
+9:45am to 11:45am
+
+This is a reading and discussion-based seminar designed for entering Computer Science Ph.D. students. This course prepares students to manage the difficult and often undiscussed challenges of Ph.D. programs through sessions on research skill building (e.g. paper reading, communication), soft skill building (e.g. managing advising relationships, supporting your peers), and academic culture (e.g. mental health in academia, power dynamics in scientific communities), as well as research and professional-oriented discussions. 
+
+This is a full-year, 4-unit course, meeting once a week in each of the fall and the spring. Students must complete both terms of this course (parts A and B) within the same academic year to receive credit.
+
+COURSE WEBSITE
+Seminar on Effective Research Practices and Academic Culture
+COMPSCI 290B
+2024 Spring
+
+Martin Wattenberg, John Girash
+Friday
+9:45am to 11:45am
+
+This is a reading and discussion-based seminar designed for entering Computer Science Ph.D. students. This course prepares students to manage the difficult and often undiscussed challenges of Ph.D. programs through sessions on research skill building (e.g. paper reading, communication), soft skill building (e.g. managing advising relationships, supporting your peers), and academic culture (e.g. mental health in academia, power dynamics in scientific communities), as well as research and professional-oriented discussions. 
+
+This is a full-year, 4-unit course, meeting once a week in each of the fall and the spring. Students must complete both terms of this course (parts A and B) within the same academic year to receive credit.
+
+ 
+
+COURSE WEBSITE
+Special Topics in Computer Science
+COMPSCI 299R
+2023 Fall
+
+Krzysztof Gajos
+
+Supervision of experimental or theoretical research on acceptable problems in computer science and supervision of reading on topics not covered by regular courses of instruction.
+
+COURSE WEBSITE
+Special Topics in Computer Science
+COMPSCI 299R
+2024 Spring
+
+Krzysztof Gajos
+
+Supervision of experimental or theoretical research on acceptable problems in computer science and supervision of reading on topics not covered by regular courses of instruction.
+
+COURSE WEBSITE
+Main navigation
+Information For
+Undergraduate Program
+Toggle menu
+Graduate Program
+Toggle menu
+Faculty & Research
+Toggle menu
+People
+Courses
+Lecture Series
+Clubs & Organizations
+Centers & Initiatives
+Alumni Stories
+Harvard John A. Paulson School of Engineering and Applied Sciences
+150 Western Ave, Allston, MA 02134
+29 Oxford Street, Cambridge, MA 02138
+
+Footer - Social Media Links
+Facebook
+Twitter
+Instagram
+YouTube
+LinkedIn
+© 2023 President and Fellows of Harvard College
+Footer
+Diversity Mission
+ Trademark Notice
+ Accessibility Policy
+ Privacy Policy
+Back to top
+
+----------
+
+Skip to content
+Sign in
+kojino
+/
+Harvard-Robust-Machine-Learning
+Public
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Security
+Insights
+kojino/Harvard-Robust-Machine-Learning
+Latest commit
+@kojino
+kojino Merge pull request #2 from chaogu77/GAN-WGAN-WGAN_gp
+…
+on Mar 29, 2018
+Git stats
+ 56
+Files
+Type
+Name
+Latest commit message
+Commit time
+images
+remove unnecessary files
+5 years ago
+.gitignore
+remove unnecessary files
+5 years ago
+10_Adversarial_Examples.ipynb
+create solution for 3
+5 years ago
+1_Setup.ipynb
+update setup to add update instructions
+5 years ago
+2_Introduction.ipynb
+create solution for 3
+5 years ago
+3_Graphs_Sessions.ipynb
+add contribution instructions
+5 years ago
+4_Basic_Operations.ipynb
+add contribution instructions
+5 years ago
+5_Variables_Gradients_Placeholders.ipynb
+add contribution instructions
+5 years ago
+6_Classification_Regression.ipynb
+add contribution instructions
+5 years ago
+7_Visualization.ipynb
+add contribution instructions
+5 years ago
+8_Multi_Layer_Perceptron.ipynb
+add contribution instructions
+5 years ago
+9_GAN.ipynb
+Merge branch 'master' into solution
+5 years ago
+9_GAN_Harder.ipynb
+add two versions of GAN
+5 years ago
+Articles.md
+add contribution instructions
+5 years ago
+Papers.md
+add contribution instructions
+5 years ago
+README.md
+update readme
+5 years ago
+Turn a GAN into a WGAN and then WGAN GP.ipynb
+add notebook for class demo - how to change GAN into WGAN and WGAN_GP
+5 years ago
+environment.yml
+add two versions of GAN
+5 years ago
+utils.py
+fix utils
+5 years ago
+README.md
+CS282R: Robust Machine Learning Workshop
+Coding tutorial for robust machine learning algorithms for CS282R "Robust Machine Learning" taught at Harvard University in Spring 2018.
+
+Overview
+This workshop covers the fundamentals of TensorFlow. By the end of this workshop, you will be well equipped to start building your own neural network models in TensorFlow. The workshop will start by introducing concepts unique to TensorFlow, e.g. sessions, variables, optimizers. Later, we'll put these concepts together to build logistic regression, 3-layer NN, and finally, GAN.
+
+The side theme of this workshop is writing clean, structured and well-documented code. ML code tends to get messy. This is especially the case in academic settings where we don't have a manager to review your code. We are also free from the pressure that our code will be used by millions of people. BUT, this never means that you can write sloppy code. The code should be nicely written so that you, three months from now, should be able to come back to the code and tell exactly what each function is doing.
+
+That said, my code is not the best thing in the world. If you find any improvements, or errors in the code, please let me know. Pull requests are always welcome.
+
+Prerequisite
+Comfortability with Python
+Understanding of basic deep learning concepts.
+Fully charged laptop (so tat we don't run out of outlets).
+Install TensorFlow and other packages by following section 1. Run code in section 3 and make sure things run smoothly before class.
+Index
+Setup
+Introduction
+Graphs, Sessions
+Basic Operations
+Variables, Gradients, Placeholders
+Classification, Regression
+Visualization
+Multi-layer Perceptron
+GAN
+Adversarial Examples
+Appendix: Articles, Papers on robust machine learning
+
+Workshop Format
+When learning a new framework, it is better to move hands than to listen. So, we prepared quite a bit of programming exercises. You will work with your project partner on these exercises. Pair programming is extremely effective for being a better coder whether it be software or ML!
+
+Introduction to TensorFlow (section 1~6, 30 min)
+Pair Programming Exercises on Basics (section 1~6, 45 min)
+Break (10 min)
+Introduction to Deep Learning with TensorFlow (section 7~9, 30 min)
+Pair Programming Exercises on Deep Learning (section 7~9, 45 min)
+Things we will not cover
+Here are the list of things we will not cover but you might want to self-learn:
+
+Other Deep Learning models (e.g. RNN, CNN, VAE)
+Using GPUs
+Saving variables and graphs
+Testing your code
+Reference
+Official Tutorial on handwritten digits (MNIST) classification
+Stanford CS20, TensorFlow for Deep Learning Research
+Stanford CS224d, Deep Learning for NLP
+Most popular TF code samples on GitHub
+How to contribute
+We want this repository to be a source of information related to robust machine learning. To do so, we need your help. In particular, you can send a pull request to this repository. For details, see this. Some types of contribution can be:
+
+Adding more models from our assigned papers to the tutorial.
+Adding papers/articles you found interesting to Papers.md, Articles.md.
+Fixing typos (always a good start if you're new to OSS).
+Finally, don't forget to add your name below to give yourself a credit for the work you put in :)
+
+Material created by: Kojin Oshiba, Jerry Anunrojwong.
+Course taught by Professor Yaron Singer.
+
+About
+Repository for CS282R: Robust Machine Learning at Harvard University.
+
+Resources
+ Readme
+ Activity
+Stars
+ 65 stars
+Watchers
+ 6 watching
+Forks
+ 61 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Contributors
+2
+@kojino
+kojino Kojin
+@chaogu77
+chaogu77 Gu,Chao
+Languages
+Jupyter Notebook
+100.0%
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+----------
+

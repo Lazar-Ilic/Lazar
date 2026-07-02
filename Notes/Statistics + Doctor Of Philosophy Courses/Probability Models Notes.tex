@@ -1,0 +1,155 @@
+\Large
+\twocolumn
+
+\textbf{Probability Models Notes}
+
+Probability
+
+Casework
+
+Technical
+
+$P[A \cap B]=P[A]P[B|A]=P[B]P[A|B]$
+
+Independent: $P[A \cap B]=P[A]P[B]$
+
+Pairwise Independent: $P[A_i \cap A_j]=P[A_i]P[A_j]$
+
+Stronger Mutually Independent: every event is independent of any intersection of the other events. $0$ information updating upon observation.
+
+Complementary Counting: $P[!A]=1-P[A]$
+
+Mutually Exclusive: $P[A \cap B]=0$
+
+Principle Of Inclusion Exclusion: calculable symmetric expressions. Bonferroni Inequalities that the partial sums alternate between being $\ge$ and $\le$ the final true value.
+
+$\text{Sd}(X)=\sqrt{\text{Var}(X)}$
+
+$e_X (d) = \frac{\text{E}[X] - \text{E}[X \wedge d]}{S_X (d)}$
+
+$\text{E}[X]=e_X (d) S_X (d) + \text{E}[X \wedge d]$
+
+Law Of Large Numbers When Finite Exists
+
+Multiplying Independent Through Odds Ratios Likelihood Functions
+
+Generating Functions
+
+The variance of a mixture is given simply by the formula $\text{Var}(X)=\text{E}[\text{Var}(X | \Theta)]+\text{Var}[\text{E}(X | \Theta)]$. We compute Variance and Means in terms of the STAM tables provided $\text{E}[X^k]$ formulae and $\text{Var}(X)=\text{E}[X^2]-(\text{E}[X])^2$.
+
+By definition the CV, the coefficient of variation is the variation divided by the mean i.e. $\frac{\sigma}{\mu}$.
+
+So the Loss Elimination Ratio is given by $\text{LER} = \frac{E(X)-E(Y^L)}{E(X)} = \frac{E(X \wedge d)}{E(X)}$. Where $X$ is the underlying loss and $Y^L$ is the amount paid by the insurer i.e. $0$ or $X-d$ when $X \ge d$.
+
+The only distribution with the memoryless Markov property is the exponential/geometric.
+
+The minimum of independent exponential variables is exponential. For example consider the Survival Function i.e. the fact that $P[\text{min}(A,B) \ge c]=P[A \ge c] \cdot P[B \ge c]=e^{-\frac{c}{\tau_1}} \cdot e^{-\frac{c}{\tau_2}}=e^{-\frac{c}{\frac{\tau_1 \tau_2}{\tau_1+\tau_2}}}$ and thus in particular this variable is isomorphic with an exponential of $\tau_3=\frac{\tau_1 \tau_2}{\tau_1+\tau_2}$.
+
+The sum of independent Poisson variables is Poisson. If $S_1$ and $S_2$ are independent Poisson distributions with parameters $\lambda_1$ and $\lambda_2$ then $S=S_1+S_2$ is a Poisson distribution with the parameter $\lambda=l=\lambda_1+\lambda_2$. This can be seen for example by directly multiplying the generating functions.
+
+If $S_N = X_1 + \dots + X_N$ are iid independent of $N$ with $\mu,\sigma$: \\
+$\text{Var}(S_N) = E_N [\text{Var}(S_N | N)] + \text{Var} [E(S_N | N)]$ \\
+$= E_N [\sigma^2 N] + \text{Var}_N [\mu N]$ \\
+$= \sigma^2 E[N] + \mu^2 \text{Var} [N]$
+
+Special Case: Poisson Distributed Frequency \\
+If $N \sim \text{Poi}(\lambda)$: \\
+$E(N) = \text{Var} (N) = \lambda$ \\
+$E(S_N) = \lambda E(X)$ \\
+$\text{Var} (S_N) = \lambda (\sigma^2 + \mu^2) = \lambda E(X^2)$
+
+$E[(S-d)_+]$ is the notation used to describe the expected value of the amount of the aggregate loss in excess of the deductible i.e. the net stop loss premium.
+
+$(X \wedge x)$ is used to denote $X$ thresholded upper bounded at $x$ i.e. this variable takes on the value of $x$ when $X > x$. And one can construct these thresholded deductible variables similarly. Or use $\vee$ notation.
+
+$\text{VaR}_q[X] = \text{inf} \{ x:F_X(x)\ge q \}$: Value At Risk measure of $X$ with confidence level $q \in (0,1)$. This is simply the quantile. For example let $X$ be the annual loss random variable of an insurance product, $\text{VaR}_{0.95}[X] = 100000000$ means that there is no more than a $0.05$ probability that the loss will exceed $100000000$ over a given year.
+
+$\text{TVaR}_q[X] = E[X | X > \text{VaR}_q [X]]$: Tail Value At Risk. Expected value of $X$ given that $X$ exceeds the Value At Risk and this expectation exists.
+
+The Per Loss Random Variable
+
+The Limited Loss Random Variable
+
+Percentiles
+
+Generating Functions
+
+Raising To A Power
+
+k-Point Mixtures
+
+Continuous Mixing
+
+Splicing
+
+Ordinary Deductibles
+
+Franchise Deductibles
+
+The Loss Elimination Ratio
+
+Upper Policy Limits
+
+Coinsurance
+
+The Poisson Distribution
+
+The Poisson Thinning
+
+The Negative Binomial Distribution
+
+The $(a,b,0)$ Class: \\
+If an $\mathbb{N}_0$-Valued Distribution has a Partial Mass Function which satisfies the following recursion: \\
+$p_k = p_{k-1} \left( a + \frac{b}{k} \right)$ for $k=1,2,\dots$ \\
+Thus, we say that it is an $(a,b,0)$ distribution. The Poisson, the Negative Binomial, and the Binomial are the only representations.
+
+The Impact Of Deductibles On Claim Frequency: \\
+On Compounding: \\
+In general, for an $\mathbb{N}_0$-Valued Random Variable $\mathbb{N}$ with the Partial Generating Function $P_{\mathbb{N}}$ and a sequence of independent, identically distributed random variables $[M_1,M_2,\dots]$ with a common Partial Generating Function $P_M$, we set $S = M_1 + M_2 + \dots + M_N = \sum_{i=1}^N M_i$ [if $N=0$, then $S=0$]. What is the distribution of $S$? If $N$ is independent from $[M_1, M_2, \dots]$, then, $P_S (z) = P_N ( P_M(z) )$.
+
+Approximation $S \sim N(\text{mean} = \mu_s,\text{variance} = \sigma_s^2)$ \\
+$\mu_s = E[S] = E[N] \cdot E[X]$ Wald's Identity \\
+$\sigma_s^2 = \text{Var}[S] = E[N] \cdot \text{Var}[X] + \text{Var}[N] (E[X])^2$
+
+Recall:
+
+The Excess Loss Random Variable $Y^P = X-d | X>d$ \\
+The Per Payment Random Variable
+
+The Left Censored And Shifted Random Variable, usually denoted by $Y^L$, is defined by $Y^L = X-d$ if $X>d$ else $0$ also known as the Per Loss Random Variable and can be denoted $Y^L = (X-d)_{+}$.
+
+The Poisson Gamma Mixture
+
+The Binomial Distribution
+
+Poisson Thinning With Conditioning
+
+The $(a,b,0)$ Class
+
+Aggregate Loss Models: Expectation And Variance
+
+Aggregate Loss Models With A Normal Approximation
+
+Aggregate Loss Models: The Partial Mass Function Of Aggregate Losses
+
+Aggregate Loss Models: The Cumulative Distribution Function Of Aggregate Losses
+
+Stop Loss Insurance
+
+Interpolation Theorem
+
+Compound Poisson With Stop Loss Insurance
+
+Compound Poisson With A Probability Calculation
+
+Aggregate Losses With An Ordinary Deductible Per Loss
+
+Maximum Likelihood Estimation: First Principles
+
+Maximum Likelihood Estimation: Individual Unmodified Data
+
+Maximum Likelihood Estimation: Grouped Data
+
+Maximum Likelihood Estimation: Truncation And Censoring
+
+Maximum Likelihood Estimation: Discrete Distributions
