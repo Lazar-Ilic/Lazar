@@ -1,0 +1,131 @@
+Maybe I can redo some old LeetCode and other stuff that came up in Interviews.pdf except in C++ a bit sharper. Well I know the CodeForces user "Adamant" sometimes does kinda educational writeups on some topics related to writing faster C++. For data structures and stuff he goes to benchmark very fast say like a lazy segment tree but sometimes it sorta has to do with hacking around performance based around knowing the testing set. Which comes in to the fact that many cases in the real world this can be done because we are not just dealing with noise or random bits as inputs.
+
+Perhaps I ought to not share this task since it actually came up on a recent interview:
+
+	Write a function bool before(unsigned int year_a, unsigned int month_a, unsigned int day_a, unsigned int year_b, unsigned int month_b, unsigned int day_b) which returns true if a happened before b.
+
+I actually faced this task in a coding round and immediately said the obvious idea which works well for expected test data is:
+
+if (year_a < year_b) return true;
+if (year_a > year_b) return false;
+if (month_a < month_b) return true;
+if (month_a > month_b) return false;
+if (day_a < day_b) return true;
+return false;
+
+Well OK so there is a branch prediction miss issue. I then mentioned that on LeetCode maybe there are tasks which are a bit trickier and require converting a date to days since 0 more formally days since 0000-01-01 but in this case something would work like:
+
+return ((366 * year_a + 31 * month_a + day_a) < (366 * year_b + 31 * month_b + day_b));
+
+OK so then I mentioned that 31 here is kinda notable in a book like Hacker's Delight one would note that is not a multiply but rather a bit shift and a minus with (x << 5) - x so then we note we can replace these coefficients with 512 and 32 for something more like and this preserves everything being in bounds in a 32-bit setting on the ensured test data:
+
+return (((year_a << 9) | (month_a << 5) | (day_a)) < ((year_b << 9) | (month_b << 5) | (day_b)));
+
+Well anyways I know some people would still think this is like introductory competitive programming kind of content, would depend on the reader and their own familiarity with stuff like this.
+
+	Again we have a vector of ints from 1 to n with 1 missing and want to find the missing one.
+
+So here this time firstly note that the XOR of 1 to n is actually given by n, 1, n + 1, 0 depending on the case modulo 4.
+
+"
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        int n = nums.size() + 1; 
+        int res = 0;
+        switch (n & 3) {
+            case 0: res = n;     break;
+            case 1: res = 1;     break;
+            case 2: res = n + 1; break;
+            case 3: res = 0;     break;
+        }
+        for (int num : nums) {
+            res ^= num;
+        }
+        return res;
+    }
+};
+"
+
+For the slightly different LeetCode task 268 I put:
+
+"
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        int n = nums.size(); 
+        switch (n & 3) {
+            case 0: break;
+            case 1: n = 1; break;
+            case 2: n++; break;
+            case 3: n = 0; break;
+        }
+        for (int num : nums) {
+            n ^= num;
+        }
+        return n;
+    }
+};
+"
+
+Dunno why it has bad memory performance. I am not too fazed.
+
+Will come back to this one later.
+
+I think LeetCode might judge based on average not worst-case maximum runtime and in any case this is certainly a problem with evaluating submissions on their rounds actually I see garbage sometimes be judged as fastest due to over fitting to test cases or something.
+
+Update: another new task to discuss. So say we want to write a function and it takes in a vector of ints say each int is between 1 and 10^9 and we want to find modulo p = 1000000007 the product of the sums of the exponents in the powers of 2 for each number inducing the same odd once divided out by all powers of 2 or something. So basically one might think this is an OK approach:
+
+"
+#include <vector>
+#include <algorithm>
+#include <utility> // For std::pair
+
+int computeSumProduct(const std::vector<int>& vec) {
+    if (vec.empty()) return 0;
+
+    const long long MOD = 1000000007;
+    size_t n = vec.size();
+
+    // 1. Extract 'b' (first) and 'a' (second) into pairs
+    std::vector<std::pair<int, int>> factors(n);
+    for (size_t i = 0; i < n; ++i) {
+        int x = vec[i];
+        
+        // __builtin_ctz is completely safe here since x >= 1
+        int a = __builtin_ctz(x);
+        int b = x >> a; 
+        
+        // Store as {b, a} so std::sort groups by 'b' first
+        factors[i] = {b, a};
+    }
+
+    // 2. Sort lexicographically (groups by 'b', resolves ties by 'a')
+    std::sort(factors.begin(), factors.end());
+
+    // 3. Accumulate 'a's and compute the product modulo p
+    long long product = 1;
+    long long current_sum = 0;
+    int current_b = factors[0].first;
+
+    for (size_t i = 0; i < n; ++i) {
+        if (factors[i].first == current_b) {
+            current_sum += factors[i].second;
+        } else {
+            // Multiply the accumulated sum of the previous 'b' into the product
+            product = (product * current_sum) % MOD;
+            
+            // Reset for the new 'b'
+            current_b = factors[i].first;
+            current_sum = factors[i].second;
+        }
+    }
+    
+    // Process the final group
+    product = (product * current_sum) % MOD;
+
+    return static_cast<int>(product);
+}
+"
+
+But one can comment that actually doing a radix sort just on the odd components is faster.

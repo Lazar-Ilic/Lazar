@@ -1,0 +1,1053 @@
+Perhaps soon I will even consider providing potentially interesting follow on readings in the literature for books and papers related to these tasks, for now a little reading on powerful triplets task. I might tank more time and try and drum up something beautiful here secure the bag as a Quantitative Researcher rather than a Software Engineer see and navigate optionalities.
+
+----------
+
+https://www.erdosproblems.com/all/open
+
+----------
+
+https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf
+
+I suggest other elite mathematicians and non elite as well post up lists sorta like this of ~100 problems.
+
+----------
+
+Millennium Prize Problems
+From Wikipedia, the free encyclopedia
+
+This article is about the math prizes. For the technology prize, see Millennium Technology Prize.
+
+Millennium Prize Problems
+Birch and Swinnerton-Dyer conjecture
+Hodge conjecture
+Navier–Stokes existence and smoothness
+P versus NP problem
+Poincaré conjecture (solved)
+Riemann hypothesis
+Yang–Mills existence and mass gap
+
+The Millennium Prize Problems are seven well-known complex mathematical problems selected by the Clay Mathematics Institute in 2000. The Clay Institute has pledged a US$1 million prize for the first correct solution to each problem.
+
+The Clay Mathematics Institute officially designated the title Millennium Problem for the seven unsolved mathematical problems, the Birch and Swinnerton-Dyer conjecture, Hodge conjecture, Navier–Stokes existence and smoothness, P versus NP problem, Riemann hypothesis, Yang–Mills existence and mass gap, and the Poincaré conjecture at the Millennium Meeting held on May 24, 2000. Thus, on the official website of the Clay Mathematics Institute, these seven problems are officially called the Millennium Problems.
+
+To date, the only Millennium Prize problem to have been solved is the Poincaré conjecture. The Clay Institute awarded the monetary prize to Russian mathematician Grigori Perelman in 2010. However, he declined the award as it was not also offered to Richard S. Hamilton, upon whose work Perelman built.
+
+Overview
+The Clay Institute was inspired by a set of twenty-three problems organized by the mathematician David Hilbert in 1900 which were highly influential in driving the progress of mathematics in the twentieth century.[1] The seven selected problems span a number of mathematical fields, namely algebraic geometry, arithmetic geometry, geometric topology, mathematical physics, number theory, partial differential equations, and theoretical computer science. Unlike Hilbert's problems, the problems selected by the Clay Institute were already renowned among professional mathematicians, with many actively working towards their resolution.[2]
+
+The seven problems were officially announced by John Tate and Michael Atiyah during a ceremony held on May 24, 2000 (at the amphithéâtre Marguerite de Navarre) in the Collège de France in Paris.[3]
+
+Grigori Perelman, who had begun work on the Poincaré conjecture in the 1990s, released his proof in 2002 and 2003. His refusal of the Clay Institute's monetary prize in 2010 was widely covered in the media. The other six Millennium Prize Problems remain unsolved, despite a large number of unsatisfactory proofs by both amateur and professional mathematicians.
+
+Andrew Wiles, as part of the Clay Institute's scientific advisory board, hoped that the choice of US$1 million prize money would popularize, among general audiences, both the selected problems as well as the "excitement of mathematical endeavor".[4] Another board member, Fields medalist Alain Connes, hoped that the publicity around the unsolved problems would help to combat the "wrong idea" among the public that mathematics would be "overtaken by computers".[5]
+
+Some mathematicians have been more critical. Anatoly Vershik characterized their monetary prize as "show business" representing the "worst manifestations of present-day mass culture", and thought that there are more meaningful ways to invest in public appreciation of mathematics.[6] He viewed the superficial media treatments of Perelman and his work, with disproportionate attention being placed on the prize value itself, as unsurprising. By contrast, Vershik praised the Clay Institute's direct funding of research conferences and young researchers. Vershik's comments were later echoed by Fields medalist Shing-Tung Yau, who was additionally critical of the idea of a foundation taking actions to "appropriate" fundamental mathematical questions and "attach its name to them".[7]
+
+Solved problem
+Poincaré conjecture
+Main article: Poincaré conjecture
+In the field of geometric topology, a two-dimensional sphere is characterized by the fact that it is the only closed and simply-connected two-dimensional surface. In 1904, Henri Poincaré posed the question of whether an analogous statement holds true for three-dimensional shapes. This came to be known as the Poincaré conjecture, the precise formulation of which states:
+Any three-dimensional topological manifold which is closed and simply-connected must be homeomorphic to the 3-sphere.
+
+Although the conjecture is usually stated in this form, it is equivalent (as was discovered in the 1950s) to pose it in the context of smooth manifolds and diffeomorphisms.
+
+A proof of this conjecture, together with the more powerful geometrization conjecture, was given by Grigori Perelman in 2002 and 2003. Perelman's solution completed Richard Hamilton's program for the solution of the geometrization conjecture, which he had developed over the course of the preceding twenty years. Hamilton and Perelman's work revolved around Hamilton's Ricci flow, which is a complicated system of partial differential equations defined in the field of Riemannian geometry.
+
+For his contributions to the theory of Ricci flow, Perelman was awarded the Fields Medal in 2006. However, he declined to accept the prize.[8] For his proof of the Poincaré conjecture, Perelman was awarded the Millennium Prize on March 18, 2010.[9] However, he declined the award and the associated prize money, stating that Hamilton's contribution was no less than his own.[10]
+
+Unsolved problems
+Birch and Swinnerton-Dyer conjecture
+Main article: Birch and Swinnerton-Dyer conjecture
+The Birch and Swinnerton-Dyer conjecture deals with certain types of equations: those defining elliptic curves over the rational numbers. The conjecture is that there is a simple way to tell whether such equations have a finite or infinite number of rational solutions. Hilbert's tenth problem dealt with a more general type of equation, and in that case it was proven that there is no way to decide whether a given equation even has any solutions.
+
+The official statement of the problem was given by Andrew Wiles.[11]
+
+Hodge conjecture
+Main article: Hodge conjecture
+The Hodge conjecture is that for projective algebraic varieties, Hodge cycles are rational linear combinations of algebraic cycles.
+
+Hdg
+𝑘
+⁡
+(
+𝑋
+)
+=
+𝐻
+2
+𝑘
+(
+𝑋
+,
+𝑄
+)
+∩
+𝐻
+𝑘
+,
+𝑘
+(
+𝑋
+)
+.
+{\displaystyle \operatorname {Hdg} ^{k}(X)=H^{2k}(X,\mathbb {Q} )\cap H^{k,k}(X).}
+We call this the group of Hodge classes of degree 2k on X.
+
+The modern statement of the Hodge conjecture is:
+
+Let X be a non-singular complex projective variety. Then every Hodge class on X is a linear combination with rational coefficients of the cohomology classes of complex subvarieties of X.
+The official statement of the problem was given by Pierre Deligne.[12]
+
+Navier–Stokes existence and smoothness
+Main article: Navier–Stokes existence and smoothness
+∂
+𝑢
+∂
+𝑡
+⏟
+Variation
++
+(
+𝑢
+⋅
+∇
+)
+𝑢
+⏟
+Convection
+⏞
+Inertia (per volume)
+−
+𝜈
+∇
+2
+𝑢
+⏟
+Diffusion
+=
+−
+∇
+𝑤
+⏟
+Internal
+source
+⏞
+Divergence of stress
++
+𝑔
+⏟
+External
+source
+.
+{\displaystyle \overbrace {\underbrace {\frac {\partial \mathbf {u} }{\partial t}} _{\begin{smallmatrix}{\text{Variation}}\end{smallmatrix}}+\underbrace {(\mathbf {u} \cdot \nabla )\mathbf {u} } _{\begin{smallmatrix}{\text{Convection}}\end{smallmatrix}}} ^{\text{Inertia (per volume)}}\overbrace {-\underbrace {\nu \,\nabla ^{2}\mathbf {u} } _{\text{Diffusion}}=\underbrace {-\nabla w} _{\begin{smallmatrix}{\text{Internal}}\\{\text{source}}\end{smallmatrix}}} ^{\text{Divergence of stress}}+\underbrace {\mathbf {g} } _{\begin{smallmatrix}{\text{External}}\\{\text{source}}\end{smallmatrix}}.}
+The Navier–Stokes equations describe the motion of fluids, and are one of the pillars of fluid mechanics. However, theoretical understanding of their solutions is incomplete, despite its importance in science and engineering. For the three-dimensional system of equations, and given some initial conditions, mathematicians have not yet proven that smooth solutions always exist. This is called the Navier–Stokes existence and smoothness problem.
+
+The problem, restricted to the case of an incompressible fluid, is to prove either that smooth, globally defined solutions exist that meet certain conditions, or that they do not always exist and the equations break down. The official statement of the problem was given by Charles Fefferman.[13]
+
+P versus NP
+
+Euler diagram for P, NP, NP-complete, and NP-hard set of problems (excluding the empty language and its complement, which belong to P but are not NP-complete)
+Main article: P versus NP problem
+The question is whether or not, for all problems for which an algorithm can verify a given solution quickly (that is, in polynomial time), an algorithm can also find that solution quickly. Since the former describes the class of problems termed NP, while the latter describes P, the question is equivalent to asking whether all problems in NP are also in P. This is generally considered one of the most important open questions in mathematics and theoretical computer science as it has far-reaching consequences to other problems in mathematics, to biology,[14] philosophy[15] and to cryptography (see P versus NP problem proof consequences). A common example of an NP problem not known to be in P is the Boolean satisfiability problem.
+
+Most mathematicians and computer scientists expect that P ≠ NP; however, it remains unproven.[16]
+
+The official statement of the problem was given by Stephen Cook.[17]
+
+Riemann hypothesis
+
+The real part (red) and imaginary part (blue) of the Riemann zeta function along the critical line Re(s) = 1/2. The first nontrivial zeros can be seen at Im(s) = ±14.135, ±21.022 and ±25.011.
+Main article: Riemann hypothesis
+𝜁
+(
+𝑠
+)
+=
+∑
+𝑛
+=
+1
+∞
+𝑛
+−
+𝑠
+=
+1
+1
+𝑠
++
+1
+2
+𝑠
++
+1
+3
+𝑠
++
+⋯{\displaystyle \zeta (s)=\sum _{n=1}^{\infty }n^{-s}={\frac {1}{1^{s}}}+{\frac {1}{2^{s}}}+{\frac {1}{3^{s}}}+\cdots }
+The Riemann zeta function ζ(s) is a function whose arguments may be any complex number other than 1, and whose values are also complex. Its analytical continuation has zeros at the negative even integers; that is, ζ(s) = 0 when s is one of −2, −4, −6, .... These are called its trivial zeros. However, the negative even integers are not the only values for which the zeta function is zero. The other ones are called nontrivial zeros. The Riemann hypothesis is concerned with the locations of these nontrivial zeros, and states that:
+
+The real part of every nontrivial zero of the Riemann zeta function is 1/2.
+The Riemann hypothesis is that all nontrivial zeros of the analytical continuation of the Riemann zeta function have a real part of ½. A proof or disproof of this would have far-reaching implications in number theory, especially for the distribution of prime numbers. This was Hilbert's eighth problem, and is still considered an important open problem a century later.
+
+The problem has been well-known ever since it was originally posed by Bernhard Riemann in 1860. The Clay Institute's exposition of the problem was given by Enrico Bombieri.[18]
+
+Yang–Mills existence and mass gap
+Main article: Yang–Mills existence and mass gap
+In quantum field theory, the mass gap is the difference in energy between the vacuum and the next lowest energy state. The energy of the vacuum is zero by definition, and assuming that all energy states can be thought of as particles in plane-waves, the mass gap is the mass of the lightest particle.
+
+For a given real field 
+𝜙
+(
+𝑥
+)
+{\displaystyle \phi (x)}, we can say that the theory has a mass gap if the two-point function has the property
+
+⟨
+𝜙
+(
+0
+,
+𝑡
+)
+𝜙
+(
+0
+,
+0
+)
+⟩
+∼
+∑
+𝑛
+𝐴
+𝑛
+exp
+⁡
+(
+−
+Δ
+𝑛
+𝑡
+)
+{\displaystyle \langle \phi (0,t)\phi (0,0)\rangle \sim \sum _{n}A_{n}\exp \left(-\Delta _{n}t\right)}
+with 
+Δ
+0
+>
+0
+{\displaystyle \Delta _{0}>0} being the lowest energy value in the spectrum of the Hamiltonian and thus the mass gap. This quantity, easy to generalize to other fields, is what is generally measured in lattice computations.
+
+Quantum Yang–Mills theory is the current grounding for the majority of theoretical applications of thought to the reality and potential realities of elementary particle physics.[19] The theory is a generalization of the Maxwell theory of electromagnetism where the chromo-electromagnetic field itself carries charge. As a classical field theory it has solutions which travel at the speed of light so that its quantum version should describe massless particles (gluons). However, the postulated phenomenon of color confinement permits only bound states of gluons, forming massive particles. This is the mass gap. Another aspect of confinement is asymptotic freedom which makes it conceivable that quantum Yang-Mills theory exists without restriction to low energy scales. The problem is to establish rigorously the existence of the quantum Yang–Mills theory and a mass gap.
+
+Prove that for any compact simple gauge group G, a non-trivial quantum Yang–Mills theory exists on 
+𝑅
+4
+{\displaystyle \mathbb {R} ^{4}} and has a mass gap Δ > 0. Existence includes establishing axiomatic properties at least as strong as those cited in Streater & Wightman (1964),[20] Osterwalder & Schrader (1973),[21] and Osterwalder & Schrader (1975).[22]
+The official statement of the problem was given by Arthur Jaffe and Edward Witten.[23]
+
+See also
+icon	Mathematics portal
+Beal conjecture
+Hilbert's problems
+List of mathematics awards
+List of unsolved problems in mathematics
+Smale's problems
+Paul Wolfskehl (offered a cash prize for the solution to Fermat's Last Theorem)
+abc conjecture
+References
+ Jaffe, Arthur M. (June–July 2006). "The Millennium Grand Challenge in Mathematics" (PDF). Notices of the American Mathematical Society. 53 (6): 652–660.
+ Carlson, Jaffe & Wiles (2006)
+ "The Millennium Prize Problems".
+ Jackson, Allyn (September 2000). "Million-dollar mathematics prizes announced". Notices of the American Mathematical Society. 47 (8): 877–879.
+ Dickson, David (2000). "Mathematicians chase the seven million-dollar proofs". Nature. 405 (383): 383. doi:10.1038/35013216. PMID 10839504. S2CID 31169641.
+ Vershik, Anatoly (January 2007). "What is good for mathematics? Thoughts on the Clay Millennium prizes". Notices of the American Mathematical Society. 54 (1): 45–47.
+ Yau, Shing-Tung; Nadis, Steve (2019). The shape of a life. One mathematician's search for the universe's hidden geometry. New Haven, CT: Yale University Press. Bibcode:2019shli.book.....Y.
+ "Maths genius declines top prize". BBC News. 22 August 2006. Retrieved 16 June 2011.
+ "Prize for Resolution of the Poincaré Conjecture Awarded to Dr. Grigoriy Perelman" (PDF) (Press release). Clay Mathematics Institute. March 18, 2010. Archived from the original (PDF) on March 31, 2010. Retrieved March 18, 2010. The Clay Mathematics Institute (CMI) announces today that Dr. Grigoriy Perelman of St. Petersburg, Russia, is the recipient of the Millennium Prize for resolution of the Poincaré conjecture.
+ "Последнее "нет" доктора Перельмана". Interfax. July 1, 2010. Retrieved 25 January 2024.
+ Wiles, Andrew (2006). "The Birch and Swinnerton-Dyer conjecture" (PDF). In Carlson, James; Jaffe, Arthur; Wiles, Andrew (eds.). The millennium prize problems. Providence, RI: American Mathematical Society and Clay Mathematics Institute. pp. 31–44. ISBN 978-0-8218-3679-8.
+ Deligne, Pierre (2006). "The Hodge conjecture" (PDF). In Carlson, James; Jaffe, Arthur; Wiles, Andrew (eds.). The millennium prize problems. Providence, RI: American Mathematical Society and Clay Mathematics Institute. pp. 45–53. ISBN 978-0-8218-3679-8.
+ Fefferman, Charles L. (2006). "Existence and smoothness of the Navier–Stokes equation" (PDF). In Carlson, James; Jaffe, Arthur; Wiles, Andrew (eds.). The millennium prize problems. Providence, RI: American Mathematical Society and Clay Mathematics Institute. pp. 57–67. ISBN 978-0-8218-3679-8.
+ Rajput, Uday Singh (2016). "P Versus NP: More than just a prize problem" (PDF). Ganita. 66. Lucknow, India: 90. ISSN 0046-5402. Archived (PDF) from the original on 17 June 2022. Retrieved 17 June 2022.
+ Scott Aaronson (14 August 2011). "Why Philosophers Should Care About Computational Complexity". Technical report.
+ William Gasarch (June 2002). "The P=?NP poll" (PDF). SIGACT News. 33 (2): 34–47. doi:10.1145/1052796.1052804. S2CID 18759797.
+ Cook, Stephen (2006). "The P versus NP problem" (PDF). In Carlson, James; Jaffe, Arthur; Wiles, Andrew (eds.). The millennium prize problems. Providence, RI: American Mathematical Society and Clay Mathematics Institute. pp. 87–104. ISBN 978-0-8218-3679-8.
+ Bombieri, Enrico (2006). "The Riemann hypothesis" (PDF). In Carlson, James; Jaffe, Arthur; Wiles, Andrew (eds.). The millennium prize problems. Providence, RI: American Mathematical Society and Clay Mathematics Institute. pp. 107–124. ISBN 978-0-8218-3679-8.
+ "Yang–Mills and Mass Gap". www.claymath.org (Claymath). Archived from the original on 22 November 2015. Retrieved 29 June 2021.
+ Streater, R.; Wightman, A. (1964). PCT, Spin and Statistics and all That. W. A. Benjamin.
+ Osterwalder, K.; Schrader, R. (1973). "Axioms for Euclidean Green's functions". Communications in Mathematical Physics. 31 (2): 83–112. Bibcode:1973CMaPh..31...83O. doi:10.1007/BF01645738. S2CID 189829853.
+ Osterwalder, K.; Schrader, R. (1975). "Axioms for Euclidean Green's functions II". Communications in Mathematical Physics. 42 (3): 281–305. Bibcode:1975CMaPh..42..281O. doi:10.1007/BF01608978. S2CID 119389461.
+ Jaffe, Arthur; Witten, Edward (2006). "Quantum Yang–Mills theory" (PDF). In Carlson, James; Jaffe, Arthur; Wiles, Andrew (eds.). The millennium prize problems. Providence, RI: American Mathematical Society and Clay Mathematics Institute. pp. 129–152. ISBN 978-0-8218-3679-8.
+This article incorporates material from Millennium Problems on PlanetMath, which is licensed under the Creative Commons Attribution/Share-Alike License.
+Further reading
+Carlson, James; Jaffe, Arthur; Wiles, Andrew, eds. (2006). The Millennium Prize Problems. Providence, RI: American Mathematical Society and Clay Mathematics Institute. ISBN 978-0-8218-3679-8.
+Devlin, Keith J. (2003) [2002]. The Millennium Problems: The Seven Greatest Unsolved Mathematical Puzzles of Our Time. New York: Basic Books. ISBN 0-465-01729-0.
+External links
+
+Wikiquote has quotations related to Millennium Prize Problems.
+The Millennium Prize Problems
+vte
+Active inducement prize contests
+Science and engineering awardsChallenge awardsInvention awards
+Biology and medicine	
+M-prizePrize4Life
+See also: Competitions and prizes in biotechnology
+Engineering	
+Space	
+Centennial ChallengesN-Prize
+Robotics	
+MAGICMicromouse ContestRoboCupIARCUAV Outback ChallengeIGVC challengesDARPA Grand Challenge
+See also: Robot competition
+Other	
+Gigaton Scale Carbon Removal X PrizeFeynman Grand Prize
+Mathematics	
+Millennium PrizeErdős problemsHutter Prize
+List of challenge awards
+Categories: Challenge awardsMillennium Prize ProblemsUnsolved problems in mathematics
+This page was last edited on 6 May 2024, at 05:17 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 4.0; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile viewWikimedia FoundationPowered by MediaWiki
+
+----------
+
+
+Main menu
+
+WikipediaThe Free Encyclopedia
+Search
+LazarIlic0
+
+Appearance
+Alerts (0)
+Notices (0)
+Watchlist
+
+Personal tools
+
+Toggle the table of contents
+List of unsolved problems in statistics
+
+Article
+Talk
+Read
+Edit source
+View history
+Watch
+
+Tools
+From Wikipedia, the free encyclopedia
+This is a dynamic list and may never be able to satisfy particular standards for completeness. You can help by adding missing items with reliable sources.
+There are many longstanding unsolved problems in mathematics for which a solution has still not yet been found. The notable unsolved problems in statistics are generally of a different flavor; according to John Tukey,[1] "difficulties in identifying problems have delayed statistics far more than difficulties in solving problems." A list of "one or two open problems" (in fact 22 of them) was given by David Cox.[2]
+
+Inference and testing
+How to detect and correct for systematic errors, especially in sciences where random errors are large (a situation Tukey termed uncomfortable science).
+The Graybill–Deal estimator is often used to estimate the common mean of two normal populations with unknown and possibly unequal variances. Though this estimator is generally unbiased, its admissibility remains to be shown.[3]
+Meta-analysis: Though independent p-values can be combined using Fisher's method, techniques are still being developed to handle the case of dependent p-values.
+Behrens–Fisher problem: Yuri Linnik showed in 1966 that there is no uniformly most powerful test for the difference of two means when the variances are unknown and possibly unequal. That is, there is no exact test (meaning that, if the means are in fact equal, one that rejects the null hypothesis with probability exactly α) that is also the most powerful for all values of the variances (which are thus nuisance parameters). Though there are many approximate solutions (such as Welch's t-test), the problem continues to attract attention[4] as one of the classic problems in statistics.
+Multiple comparisons: There are various ways to adjust p-values to compensate for the simultaneous or sequential testing of hypotheses. Of particular interest is how to simultaneously control the overall error rate, preserve statistical power, and incorporate the dependence between tests into the adjustment. These issues are especially relevant when the number of simultaneous tests can be very large, as is increasingly the case in the analysis of data from DNA microarrays.[citation needed]
+Bayesian statistics: A list of open problems in Bayesian statistics has been proposed.[5]
+Experimental design
+As the theory of Latin squares is a cornerstone in the design of experiments, solving the problems in Latin squares could have immediate applicability to experimental design.[citation needed]
+Problems of a more philosophical nature
+Sampling of species problem: How is a probability updated when there is unanticipated new data?[6]
+Doomsday argument: How valid is the probabilistic argument that claims to predict the future lifetime of the human race given only an estimate of the total number of humans born so far?
+Notes
+ Tukey, John W. (1954). "Unsolved Problems of Experimental Statistics". Journal of the American Statistical Association. 49 (268): 706–731. doi:10.2307/2281535. JSTOR 2281535.
+ Cox, D. R. (1984). "Present Position and Potential Developments: Some Personal Views: Design of Experiments and Regression". Journal of the Royal Statistical Society. Series A (General). 147 (2): 306–315. doi:10.2307/2981685. JSTOR 2981685.
+ Pal, Nabendu; Lim, Wooi K. (1997). "A note on second-order admissibility of the Graybill-Deal estimator of a common mean of several normal populations". Journal of Statistical Planning and Inference. 63: 71–78. doi:10.1016/S0378-3758(96)00202-9.
+ Fraser, D.A.S.; Rousseau, J. (2008). "Studentization and deriving accurate p-values" (PDF). Biometrika. 95: 1–16. doi:10.1093/biomet/asm093.
+ Jordan, M. I. (2011). "What are the open problems in Bayesian statistics?" (PDF). The ISBA Bulletin. 18 (1): 1–5.
+ Zabell, S. L. (1992). "Predicting the unpredictable". Synthese. 90 (2): 205. doi:10.1007/bf00485351. S2CID 9416747.
+References
+Linnik, Jurii (1968). Statistical Problems with Nuisance Parameters. American Mathematical Society. ISBN 0-8218-1570-9.
+Sawilowsky, Shlomo S. (2002). "Fermat, Schubert, Einstein, and Behrens–Fisher: The Probable Difference Between Two Means When σ1 ≠ σ2". Journal of Modern Applied Statistical Methods. 1 (2). doi:10.22237/jmasm/1036109940.
+vte
+Well-known unsolved problems by discipline
+AstronomyBiologyChemistryComputer scienceEconomicsFair divisionGeoscienceInformation theoryMathematicsMedicineNeurosciencePhysicsStatistics
+Categories: Lists of unsolved problemsStatistics-related listsUnsolved problems in mathematics
+This page was last edited on 26 June 2024, at 23:48.
+Text is available under the Creative Commons Attribution-ShareAlike License 4.0; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile viewWikimedia FoundationPowered by MediaWiki
+
+----------
+
+
+Main menu
+
+WikipediaThe Free Encyclopedia
+Search
+Donate
+
+Appearance
+Create account
+Log in
+
+Personal tools
+
+Toggle the table of contents
+List of unsolved problems in physics
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+From Wikipedia, the free encyclopedia
+This is a dynamic list and may never be able to satisfy particular standards for completeness. You can help by adding missing items with reliable sources.
+The following is a list of notable unsolved problems grouped into broad areas of physics.[1]
+
+Some of the major unsolved problems in physics are theoretical, meaning that existing theories seem incapable of explaining a certain observed phenomenon or experimental result. The others are experimental, meaning that there is a difficulty in creating an experiment to test a proposed theory or investigate a phenomenon in greater detail.
+
+There are still some questions beyond the Standard Model of physics, such as the strong CP problem, neutrino mass, matter–antimatter asymmetry, and the nature of dark matter and dark energy.[2][3] Another problem lies within the mathematical framework of the Standard Model itself—the Standard Model is inconsistent with that of general relativity, to the point that one or both theories break down under certain conditions (for example within known spacetime singularities like the Big Bang and the centres of black holes beyond the event horizon).[4]
+
+General physics
+Theory of everything: Is there a singular, all-encompassing, coherent theoretical framework of physics that fully explains and links together all physical aspects of the universe?
+Dimensionless physical constants: At the present time, the values of various dimensionless physical constants cannot be calculated; they can be determined only by physical measurement.[5][6] What is the minimum number of dimensionless physical constants from which all other dimensionless physical constants can be derived? Are dimensional physical constants necessary at all?
+Quantum gravity
+Quantum gravity: Can quantum mechanics and general relativity be realized as a fully consistent theory (perhaps as a quantum field theory)?[7] Is spacetime fundamentally continuous or discrete? Would a consistent theory involve a force mediated by a hypothetical graviton, or be a product of a discrete structure of spacetime itself (as in loop quantum gravity)? Are there deviations from the predictions of general relativity at very small or very large scales or in other extreme circumstances that flow from a quantum gravity mechanism?
+Black holes, black hole information paradox, and black hole radiation: Do black holes produce thermal radiation, as expected on theoretical grounds?[8] Does this radiation contain information about their inner structure, as suggested by gauge–gravity duality, or not, as implied by Hawking's original calculation? If not, and black holes can evaporate away, what happens to the information stored in them (since quantum mechanics does not provide for the destruction of information)? Or does the radiation stop at some point, leaving black hole remnants? Is there another way to probe their internal structure somehow, if such a structure even exists?
+The cosmic censorship hypothesis and the chronology protection conjecture: Can singularities not hidden behind an event horizon, known as "naked singularities", arise from realistic initial conditions, or is it possible to prove some version of the "cosmic censorship hypothesis" of Roger Penrose which proposes that this is impossible?[9] Similarly, will the closed timelike curves which arise in some solutions to the equations of general relativity (and which imply the possibility of backwards time travel) be ruled out by a theory of quantum gravity which unites general relativity with quantum mechanics, as suggested by the "chronology protection conjecture" of Stephen Hawking?
+Holographic principle: Is it true that quantum gravity admits a lower-dimensional description that does not contain gravity? A well-understood example of holography is the AdS/CFT correspondence in string theory. Similarly, can quantum gravity in a de Sitter space be understood using dS/CFT correspondence? Can the AdS/CFT correspondence be vastly generalized to the gauge–gravity duality for arbitrary asymptotic spacetime backgrounds? Are there other theories of quantum gravity other than string theory that admit a holographic description?
+Quantum spacetime or the emergence of spacetime: Is the nature of spacetime at the Planck scale very different from the continuous classical dynamical spacetime that exists in General relativity? In loop quantum gravity, the spacetime is postulated to be discrete from the beginning. In string theory, although originally spacetime was considered just like in General relativity (with the only difference being supersymmetry), recent research building upon the Ryu–Takayanagi conjecture has taught that spacetime in string theory is emergent by using quantum information theoretic concepts such as entanglement entropy in the AdS/CFT correspondence.[10] However, how exactly the familiar classical spacetime emerges within string theory or the AdS/CFT correspondence is still not well understood.
+Problem of time: In quantum mechanics, time is a classical background parameter, and the flow of time is universal and absolute. In general relativity, time is one component of four-dimensional spacetime, and the flow of time changes depending on the curvature of spacetime and the spacetime trajectory of the observer. How can these two concepts of time be reconciled?[11]
+Quantum physics
+Yang–Mills theory: Given an arbitrary compact gauge group, does a non-trivial quantum Yang–Mills theory with a finite mass gap exist? (This problem is also listed as one of the Millennium Prize Problems in mathematics.)[12]
+Quantum field theory (this is a generalization of the previous problem): Is it possible to construct, in a mathematically rigorous way, a quantum field theory in 4-dimensional spacetime that includes interactions and does not resort to perturbative methods?
+Cosmology and general relativity
+Axis of evil: Some large features of the microwave sky at distances of over 13 billion light years appear to be aligned with both the motion and orientation of the solar system. Is this due to systematic errors in processing, contamination of results by local effects, an unexplained violation of the Copernican principle and thus the concordance model, or are these features simply statistically insignificant?
+Fine-tuned universe: The values of the fundamental physical constants are in a narrow range necessary to support carbon-based life.[13][14][15] Is this because there are an infinite number of other universes with different constants, or are our universe's constants the result of chance, intelligent design (by a personal being such as the theist's "God"), or some other factor or process? (See also the anthropic principle.)
+Cosmic inflation: Is the theory of cosmic inflation in the very early universe correct, and, if so, what are the details of this epoch? What is the hypothetical inflaton scalar field that gave rise to this cosmic inflation? If inflation happened at one point, is it self-sustaining through inflation of quantum-mechanical fluctuations, and thus ongoing in some extremely distant place?[16]
+Horizon problem: Why is the distant universe so homogeneous when the Big Bang theory seems to predict larger measurable anisotropies of the night sky than those observed? Cosmological inflation is generally accepted as the solution, but are other possible explanations such as a variable speed of light more appropriate?[17]
+Origin and future of the universe: How did the conditions for anything to exist arise? Is the universe heading towards a Big Freeze, a Big Rip, a Big Crunch, or a Big Bounce?
+Size of universe: The diameter of the observable universe is about 93 billion light-years, but what is the size of the whole universe? Is the universe infinite?
+Baryon asymmetry: Why is there far more matter than antimatter in the observable universe? (This may be solved due to the apparent asymmetry in neutrino-antineutrino oscillations.)[18]
+Cosmological principle: Is the universe homogeneous and isotropic at large enough scales, as claimed by the cosmological principle and assumed by all models that use the Friedmann–Lemaître–Robertson–Walker metric, including the current version of the ΛCDM model, or is the universe inhomogeneous or anisotropic?[19] Is the CMB dipole purely kinematic, or does it signal anisotropy of the universe, resulting in the breakdown of the FLRW metric and the cosmological principle?[19] Is the Hubble tension evidence that the cosmological principle is false?[19] Even if the cosmological principle is correct, is the Friedmann–Lemaître–Robertson–Walker metric the right metric to use for our universe?[20][19] Are the observations usually interpreted as the accelerating expansion of the universe rightly interpreted, or are they instead evidence that the cosmological principle is false?[21][22]
+Copernican principle: Are cosmological observations made from Earth representative of observations from the average position in the universe?
+Cosmological constant problem: Why does the zero-point energy of the vacuum not cause a large cosmological constant? What cancels it out?[23][24][a]
+
+Estimated distribution of dark matter and dark energy in the universe
+Dark matter: What is the identity of dark matter?[17] Is it a particle? If so, is it a WIMP, axion, the lightest superpartner (LSP), or some other particle? Or, do the phenomena attributed to dark matter point not to some form of matter but actually to an extension of gravity?
+Dark energy: What is the cause of the observed accelerating expansion of the universe (the de Sitter phase)? Are the observations rightly interpreted as the accelerating expansion of the universe, or are they evidence that the cosmological principle is false?[21][22] Why is the energy density of the dark energy component of the same magnitude as the density of matter at present when the two evolve quite differently over time; could it be simply that we are observing at exactly the right time? Is dark energy a pure cosmological constant or are models of quintessence such as phantom energy applicable?
+Dark flow: Is a non-spherically symmetric gravitational pull from outside the observable universe responsible for some of the observed motion of large objects such as galactic clusters in the universe?
+Shape of the universe: What is the 3-manifold of comoving space, i.e., of a comoving spatial section of the universe, informally called the "shape" of the universe? Neither the curvature nor the topology is presently known, though the curvature is known to be "close" to zero on observable scales. The cosmic inflation hypothesis suggests that the shape of the universe may be unmeasurable, but, since 2003, Jean-Pierre Luminet, et al., and other groups have suggested that the shape of the universe may be the Poincaré dodecahedral space. Is the shape unmeasurable; the Poincaré space; or another 3-manifold?
+Extra dimensions: Does nature have more than four spacetime dimensions? If so, what is their size? Are dimensions a fundamental property of the universe or an emergent result of other physical laws? Can we experimentally observe evidence of higher spatial dimensions?
+High-energy/particle physics
+See also: Beyond the Standard Model
+Hierarchy problem: Why is gravity such a weak force? It becomes strong for particles only at the Planck scale, around 1019 GeV, much above the electroweak scale (100 GeV, the energy scale dominating physics at low energies); why are these scales so different from each other? What prevents quantities at the electroweak scale, such as the Higgs boson mass, from getting quantum corrections on the order of the Planck scale? Is the solution supersymmetry, extra dimensions, or just anthropic fine-tuning?
+Magnetic monopoles: Did particles that carry "magnetic charge" exist in some past, higher-energy epoch? If so, do any remain today? (Paul Dirac showed the existence of some types of magnetic monopoles would explain charge quantization.)[25]
+Neutron lifetime puzzle: While the neutron lifetime has been studied for decades, there currently exists a lack of consilience on its exact value, due to different results from two experimental methods ("bottle" versus "beam").[26][b]
+Proton decay and spin crisis: Is the proton fundamentally stable? Or does it decay with a finite lifetime as predicted by some extensions to the standard model?[27] How do the quarks and gluons carry the spin of protons?[28]
+Grand Unification: Are the electromagnetic and nuclear forces different aspects of a Grand Unified Theory? If so, what symmetry governs this force and its behaviours?[29]
+Supersymmetry: Is spacetime supersymmetry realized at TeV scale? If so, what is the mechanism of supersymmetry breaking? Does supersymmetry stabilize the electroweak scale, preventing high quantum corrections? Does the lightest supersymmetric particle (LSP) comprise dark matter?
+Color confinement: The quantum chromodynamics (QCD) color confinement conjecture is that color-charged particles (such as quarks and gluons) cannot be separated from their parent hadron without producing new hadrons.[30] Is it possible to provide an analytic proof of color confinement in any non-abelian gauge theory?
+
+Colour Confinement is the observed phenomenon that colored particles (quarks and gluons) cannot be isolated and are always bound to color neutral groups (at low energies). Such bound states are generally called hadrons.
+The QCD vacuum: Many of the equations in non-perturbative QCD are currently unsolved. These energies are the energies sufficient for the formation and description of atomic nuclei. How thus does low energy /non-pertubative QCD give rise to the formation of complex nuclei and nuclear constituents?[citation needed]
+Generations of matter: Why are there three generations of quarks and leptons? Is there a theory that can explain the masses of particular quarks and leptons in particular generations from first principles (a theory of Yukawa couplings)?[31]
+Neutrino mass: What is the mass of neutrinos, whether they follow Dirac or Majorana statistics? Is the mass hierarchy normal or inverted? Is the CP violating phase equal to 0?[32][33]
+Reactor antineutrino anomaly: There is an anomaly in the existing body of data regarding the antineutrino flux from nuclear reactors around the world. Measured values of this flux appears to be only 94% of the value expected from theory.[34] It is unknown whether this is due to unknown physics (such as sterile neutrinos), experimental error in the measurements, or errors in the theoretical flux calculations.[35]
+Strong CP problem and axions: Why is the strong nuclear interaction invariant to parity and charge conjugation? Is Peccei–Quinn theory the solution to this problem? Could axions be the main component of dark matter?
+Anomalous magnetic dipole moment: Why is the experimentally measured value of the muon's anomalous magnetic dipole moment ("muon g − 2") significantly different from the theoretically predicted value of that physical constant?[36]
+Proton radius puzzle: What is the electric charge radius of the proton? How does it differ from a gluonic charge?
+Pentaquarks and other exotic hadrons: What combinations of quarks are possible? Why were pentaquarks so difficult to discover?[37] Are they a tightly bound system of five elementary particles, or a more weakly-bound pairing of a baryon and a meson?[38]
+Mu problem: A problem in supersymmetric theories, concerned with understanding the reasons for parameter values of the theory.
+Koide formula: An aspect of the problem of particle generations. The sum of the masses of the three charged leptons, divided by the square of the sum of the roots of these masses, to within one standard deviation of observations, is Q = 2⁄3. It is unknown how such a simple value comes about, and why it is the exact arithmetic average of the possible extreme values of ⁠
+ 1 
+/
+3
+⁠ (equal masses) and 1 (one mass dominates).
+Strange Matter: Does Strange Matter exist? Is it stable? Can they form Strange Stars? Is strange matter stable at 0 pressure (i.e in the vacuum)?
+Glueballs: Do they exist in nature?
+The gallium anomaly: The measurements of the charged-current capture rate of neutrinos on Ga from strong radioactive sources have yielded results below those expected, based on the known strength of the principal transition supplemented by theory.[39]
+Astronomy and astrophysics
+Main article: List of unsolved problems in astronomy
+Solar cycle: How does the Sun generate its periodically reversing large-scale magnetic field? How do other solar-like stars generate their magnetic fields, and what are the similarities and differences between stellar activity cycles and that of the Sun?[40] What caused the Maunder Minimum and other grand minima, and how does the solar cycle recover from a minima state?
+Coronal heating problem: Why is the Sun's corona (atmosphere layer) so much hotter than the Sun's surface? Why is the magnetic reconnection effect many orders of magnitude faster than predicted by standard models?
+Astrophysical jet: Why do only certain accretion discs surrounding certain astronomical objects emit relativistic jets along their polar axes? Why are there quasi-periodic oscillations in many accretion discs?[41] Why does the period of these oscillations scale as the inverse of the mass of the central object?[42] Why are there sometimes overtones, and why do these appear at different frequency ratios in different objects?[43]
+Diffuse interstellar bands: What is responsible for the numerous interstellar absorption lines detected in astronomical spectra? Are they molecular in origin, and if so which molecules are responsible for them? How do they form?[44][45]
+Supermassive black holes: What is the origin of the M–sigma relation between supermassive black hole mass and galaxy velocity dispersion?[46] How did the most distant quasars grow their supermassive black holes up to 1010 solar masses so early in the history of the universe?
+Kuiper cliff: Why does the number of objects in the Solar System's Kuiper belt fall off rapidly and unexpectedly beyond a radius of 50 astronomical units?
+Flyby anomaly: Why is the observed energy of satellites flying by planetary bodies sometimes different by a minute amount from the value predicted by theory?
+Galaxy rotation problem: Is dark matter responsible for differences in observed and theoretical speed of stars revolving around the centre of galaxies, or is it something else?
+Rotation curve of a typical spiral galaxy: predicted (A) and observed (B). Can the discrepancy between the curves be attributed to dark matter?
+Supernovae: What is the exact mechanism by which an implosion of a dying star becomes an explosion?
+p-nuclei: What astrophysical process is responsible for the nucleogenesis of these rare isotopes?
+Ultra-high-energy cosmic ray:[17] Why is it that some cosmic rays appear to possess energies that are impossibly high, given that there are no sufficiently energetic cosmic ray sources near the Earth? Why is it that (apparently) some cosmic rays emitted by distant sources have energies above the Greisen–Zatsepin–Kuzmin limit?[47][17]
+Rotation rate of Saturn: Why does the magnetosphere of Saturn exhibit a (slowly changing) periodicity close to that at which the planet's clouds rotate? What is the true rotation rate of Saturn's deep interior?[48]
+Origin of magnetar magnetic field: What is the origin of magnetar magnetic field?
+Large-scale anisotropy: Is the universe at very large scales anisotropic, making the cosmological principle an invalid assumption? The number count and intensity dipole anisotropy in radio, NRAO VLA Sky Survey (NVSS) catalogue[49] is inconsistent with the local motion as derived from cosmic microwave background[50][51] and indicate an intrinsic dipole anisotropy. The same NVSS radio data also shows an intrinsic dipole in polarization density and degree of polarization[52] in the same direction as in number count and intensity. There are several other observations revealing large-scale anisotropy. The optical polarization from quasars shows polarization alignment over a very large scale of Gpc.[53][54][55] The cosmic-microwave-background data shows several features of anisotropy,[56][57][58][59] which are not consistent with the Big Bang model.
+Age–metallicity relation in the Galactic disk: Is there a universal age–metallicity relation (AMR) in the Galactic disk (both "thin" and "thick" parts of the disk)? Although in the local (primarily thin) disk of the Milky Way there is no evidence of a strong AMR,[60] a sample of 229 nearby "thick" disk stars has been used to investigate the existence of an age–metallicity relation in the Galactic thick disk, and indicate that there is an age–metallicity relation present in the thick disk.[61][62] Stellar ages from asteroseismology confirm the lack of any strong age–metallicity relation in the Galactic disc.[63]
+The lithium problem: Why is there a discrepancy between the amount of lithium-7 predicted to be produced in Big Bang nucleosynthesis and the amount observed in very old stars?[64]
+Ultraluminous X-ray sources (ULXs): What powers X-ray sources that are not associated with active galactic nuclei but exceed the Eddington limit of a neutron star or stellar black hole? Are they due to intermediate-mass black holes? Some ULXs are periodic, suggesting non-isotropic emission from a neutron star. Does this apply to all ULXs? How could such a system form and remain stable?
+Fast radio bursts (FRBs): What causes these transient radio pulses from distant galaxies, lasting only a few milliseconds each? Why do some FRBs repeat at unpredictable intervals, but most do not? Dozens of models have been proposed, but none have been widely accepted.[65]
+Nuclear physics
+
+The "island of stability" in the proton vs. neutron number plot for heavy nuclei
+Quantum chromodynamics: What are the phases of strongly interacting matter, and what roles do they play in the evolution of the cosmos? What is the detailed partonic structure of the nucleons? What does QCD predict for the properties of strongly interacting matter? What determines the key features of QCD, and what is their relation to the nature of gravity and spacetime? Does QCD truly lack CP violations?
+Quark–gluon plasma: Where is the onset of deconfinement: 1) as a function of temperature and chemical potentials? 2) as a function of relativistic heavy-ion collision energy and system size? What is the mechanism of energy and baryon-number stopping leading to creation of quark-gluon plasma in relativistic heavy-ion collisions? Why is sudden hadronization and the statistical-hadronization model a near-to-perfect description of hadron production from quark–gluon plasma? Is quark flavor conserved in quark–gluon plasma? Are strangeness and charm in chemical equilibrium in quark–gluon plasma? Does strangeness in quark–gluon plasma flow at the same speed as up and down quark flavours? Why does deconfined matter show ideal flow?
+Specific models of quark–gluon plasma formation: Do gluons saturate when their occupation number is large? Do gluons form a dense system called colour glass condensate? What are the signatures and evidences for the Balitsky–Fadin–Kuarev–Lipatov, Balitsky–Kovchegov, Catani–Ciafaloni–Fiorani–Marchesini evolution equations?
+Nuclei and nuclear astrophysics: Why is there a lack of convergence in estimates of the mean lifetime of a free neutron based on two separate—and increasingly precise—experimental methods? What is the nature of the nuclear force that binds protons and neutrons into stable nuclei and rare isotopes? What is the explanation for the EMC effect? What is the nature of exotic excitations in nuclei at the frontiers of stability and their role in stellar processes? What is the nature of neutron stars and dense nuclear matter? What is the origin of the elements in the cosmos? What are the nuclear reactions that drive stars and stellar explosions? What is the heaviest possible chemical element?
+Fluid dynamics
+Under what conditions do smooth solutions exist for the Navier–Stokes equations, which are the equations that describe the flow of a viscous fluid? This problem, for an incompressible fluid in three dimensions, is also one of the Millennium Prize Problems in mathematics.[66]
+Turbulent flow: Is it possible to make a theoretical model to describe the statistics of a turbulent flow (in particular, its internal structures)?[47]
+Granular convection: why does a granular material subjected to shaking or vibration exhibit circulation patterns similar to types of fluid convection? Why do the largest particles end up on the surface of a granular material containing a mixture of variously sized objects when subjected to a vibration/shaking?[67]
+Condensed matter physics
+
+A sample of a cuprate superconductor (specifically BSCCO). The mechanism for superconductivity of these materials is unknown.
+Bose–Einstein condensation: How do we rigorously prove the existence of Bose–Einstein condensates for general interacting systems?[68]
+High-temperature superconductors: What is the mechanism that causes certain materials to exhibit superconductivity at temperatures much higher than around 25 kelvins? Is it possible to make a material that is a superconductor at room temperature and atmospheric pressure?[47]
+Amorphous solids: What is the nature of the glass transition between a fluid or regular solid and a glassy phase? What are the physical processes giving rise to the general properties of glasses and the glass transition?[69][70][71]
+Universality of low-temperature amorphous solids: why is the small dimensionless ratio of the phonon wavelength to its mean free path nearly the same for a very large family of disordered solids?[72][73] This small ratio is observed for very large range of phonon frequencies.
+Cryogenic electron emission: Why does the electron emission in the absence of light increase as the temperature of a photomultiplier is decreased?[74][75]
+Sonoluminescence: What causes the emission of short bursts of light from imploding bubbles in a liquid when excited by sound?[76][77]
+Topological order: Is topological order stable at non-zero temperature? Equivalently, is it possible to have three-dimensional self-correcting quantum memory?[78]
+Gauge block wringing: What mechanism allows gauge blocks to be wrung together?
+
+Magnetoresistance in a u = 8/5 fractional quantum Hall state
+Fractional Hall effect: What mechanism explains the existence of the u = 5/2 state in the fractional quantum Hall effect? Does it describe quasiparticles with non-Abelian fractional statistics?[79]
+Liquid crystals: Can the nematic to smectic (A) phase transition in liquid crystal states be characterized as a universal phase transition?[80][81]
+Semiconductor nanocrystals: What is the cause of the nonparabolicity of the energy-size dependence for the lowest optical absorption transition of quantum dots?[82]
+Metal whiskering: In electrical devices, some metallic surfaces may spontaneously grow fine metallic whiskers, which can lead to equipment failures. While compressive mechanical stress is known to encourage whisker formation, the growth mechanism has yet to be determined.
+Superfluid transition in helium-4: Explain the discrepancy between the experimental[83] and theoretical[84][85][86] determinations of the heat capacity critical exponent α.[87]
+Scharnhorst effect: Can light signals travel slightly faster than c between two closely spaced conducting plates, exploiting the Casimir effect?[88]
+Quantum computing and quantum information
+Threshold problem: Can we go beyond the noisy intermediate-scale quantum era? Can quantum computers reach fault tolerance? Is it possible to have enough qubit scalability to implement quantum error correction? What is the most promising candidate platforms to physically implement qubits?[89]
+Topological qubits: Topological quantum computers are promising but can they be built? Can we demonstrate Majorana zero modes conclusively?[90]
+Temperature: Can quantum computing be performed at non-cryogenic temperatures? Can we build room temperature quantum computers?[91]
+Complexity classes problems: What is the relation of BQP and BPP? What is the relation between BQP and NP? Can computation in plausible physical theories (quantum algorithms) go beyond BQP?[89]
+Post-quantum cryptography: Can we prove that some cryptographic protocols are safe against quantum computers?[89]
+Quantum capacity: The capacity of a quantum channel is in general not known.[92]
+Plasma physics
+Plasma physics and fusion power: Fusion energy may potentially provide power from an abundant resource (e.g. hydrogen) without the type of radioactive waste that fission energy currently produces. However, can ionized gases (plasma) be confined long enough and at a high enough temperature to create fusion power? What is the physical origin of H-mode?[93]
+The injection problem: Fermi acceleration is thought to be the primary mechanism that accelerates astrophysical particles to high energy. However, it is unclear what mechanism causes those particles to initially have energies high enough for Fermi acceleration to work on them.[94]
+Alfvénic turbulence: In the solar wind and the turbulence in solar flares, coronal mass ejections, and magnetospheric substorms are major unsolved problems in space plasma physics.[95]
+Biophysics
+Stochasticity and robustness to noise in gene expression: How do genes govern our body, withstanding different external pressures and internal stochasticity? Certain models exist for genetic processes, but we are far from understanding the whole picture, in particular in development where gene expression must be tightly regulated.
+Quantitative study of the immune system: What are the quantitative properties of immune responses? What are the basic building blocks of immune system networks?
+Homochirality: What is the origin of the preponderance of specific enantiomers in biochemical systems?
+Magnetoreception: How do animals (e.g. migratory birds) sense the Earth's magnetic field?
+Protein structure prediction: How is the three-dimensional structure of proteins determined by the one-dimensional amino acid sequence? How can proteins fold on microsecond to second timescales when the number of possible conformations is astronomical and conformational transitions occur on the picosecond to microsecond timescale? Can algorithms be written to predict a protein's three-dimensional structure from its sequence? Do the native structures of most naturally occurring proteins coincide with the global minimum of the free energy in conformational space? Or are most native conformations thermodynamically unstable, but kinetically trapped in metastable states? What keeps the high density of proteins present inside cells from precipitating?[96]
+Quantum biology: Can coherence be maintained in biological systems at timeframes long enough to be functionally important? Are there non-trivial aspects of biology or biochemistry that can only be explained by the persistence of coherence as a mechanism?
+Foundations of physics
+Interpretation of quantum mechanics: How does the quantum description of reality, which includes elements such as the superposition of states and wavefunction collapse or quantum decoherence, give rise to the reality we perceive?[47] Another way of stating this question regards the measurement problem: What constitutes a "measurement" which apparently causes the wave function to collapse into a definite state? Unlike classical physical processes, some quantum mechanical processes (such as quantum teleportation arising from quantum entanglement) cannot be simultaneously "local", "causal", and "real", but it is not obvious which of these properties must be sacrificed,[97] or if an attempt to describe quantum mechanical processes in these senses is a category error such that a proper understanding of quantum mechanics would render the question meaningless. Can the many worlds interpretation resolve it?
+Arrow of time (e.g. entropy's arrow of time): Why does time have a direction? Why did the universe have such low entropy in the past, and time correlates with the universal (but not local) increase in entropy, from the past and to the future, according to the second law of thermodynamics?[47] Why are CP violations observed in certain weak force decays, but not elsewhere? Are CP violations somehow a product of the second law of thermodynamics, or are they a separate arrow of time? Are there exceptions to the principle of causality? Is there a single possible past? Is the present moment physically distinct from the past and future, or is it merely an emergent property of consciousness? What links the quantum arrow of time to the thermodynamic arrow?
+Locality: Are there non-local phenomena in quantum physics?[98][99] If they exist, are non-local phenomena limited to the entanglement revealed in the violations of the Bell inequalities, or can information and conserved quantities also move in a non-local way? Under what circumstances are non-local phenomena observed? What does the existence or absence of non-local phenomena imply about the fundamental structure of spacetime? How does this elucidate the proper interpretation of the fundamental nature of quantum physics?
+Problems solved since the 1990s
+General physics/quantum physics
+Perform a loophole-free Bell test experiment (1970[100]–2015): In October 2015, scientists from the Kavli Institute of Nanoscience reported that the failure of the local hidden-variable hypothesis is supported at the 96% confidence level based on a "loophole-free Bell test" study.[101][102] These results were confirmed by two studies with statistical significance over 5 standard deviations which were published in December 2015.[103][104]
+Create Bose–Einstein condensate (1924[105]–1995): Composite bosons in the form of dilute atomic vapours were cooled to quantum degeneracy using the techniques of laser cooling and evaporative cooling.[citation needed]
+Cosmology and general relativity
+Existence of gravitational waves (1916–2016): On 11 February 2016, the Advanced LIGO team announced that they had directly detected gravitational waves from a pair of black holes merging,[106][107][108] which was also the first detection of a stellar binary black hole.
+Numerical solution for binary black hole (1960s–2005): The numerical solution of the two body problem in general relativity was achieved after four decades of research. Three groups devised the breakthrough techniques in 2005 (annus mirabilis of numerical relativity).[109]
+Cosmic age problem (1920s–1990s): The estimated age of the universe was around 3 to 8 billion years younger than estimates of the ages of the oldest stars in the Milky Way. Better estimates for the distances to the stars, and the recognition of the accelerating expansion of the universe, reconciled the age estimates.[citation needed]
+High-energy physics/particle physics
+Existence of pentaquarks (1964–2015): In July 2015, the LHCb collaboration at CERN identified pentaquarks in the Λ0
+b→J/ψK−p channel, which represents the decay of the bottom lambda baryon (Λ0
+b) into a J/ψ meson (J/ψ), a kaon (K−
+) and a proton (p). The results showed that sometimes, instead of decaying directly into mesons and baryons, the Λ0
+b decayed via intermediate pentaquark states. The two states, named P+
+c(4380) and P+
+c(4450), had individual statistical significances of 9 σ and 12 σ, respectively, and a combined significance of 15 σ—enough to claim a formal discovery. The two pentaquark states were both observed decaying strongly to J/ψp, hence must have a valence quark content of two up quarks, a down quark, a charm quark, and an anti-charm quark (
+u
+
+u
+
+d
+
+c
+
+c
+), making them charmonium-pentaquarks.[110]
+Existence of quark-gluon plasma, a new phase of matter was discovered and confirmed in experiments at CERN-SPS (2000), BNL-RHIC (2005) and CERN-LHC (2010).[111]
+Higgs boson and electroweak symmetry breaking (1963[112]–2012): The mechanism responsible for breaking the electroweak gauge symmetry, giving mass to the W and Z bosons, was solved with the discovery of the Higgs boson of the Standard Model, with the expected couplings to the weak bosons. No evidence of a strong dynamics solution, as proposed by technicolor, has been observed.
+Origin of mass of most elementary particles: Solved with the discovery of the Higgs boson, which implies the existence of the Higgs field giving mass to these particles.
+Astronomy and astrophysics
+Origin of short gamma-ray burst (1993[113]–2017): From binary neutron stars merger, produce a kilonova explosion and short gamma-ray burst GRB 170817A was detected in both electromagnetic waves and gravitational wave GW170817.[114][115]
+Missing baryon problem (1998[116]–2017): proclaimed solved in October 2017, with the missing baryons located in hot intergalactic gas.[117][118]
+Long-duration gamma-ray bursts (1993[113]–2003): Long-duration bursts are associated with the deaths of massive stars in a specific kind of supernova-like event commonly referred to as a collapsar. However, there are also long-duration GRBs that show evidence against an associated supernova, such as the Swift event GRB 060614.
+Solar neutrino problem (1968[119]–2001): Solved by a new understanding of neutrino physics, requiring a modification of the Standard Model of particle physics—specifically, neutrino oscillation.
+Saturn's core spin was determined from its gravitational field.[120]
+Nuclear physics
+Hagedorn temperature recognized as phase transformation temperature between hadronic confined phase and deconfined phase of matter.
+Rapidly solved problems
+Existence of time crystals (2012–2016): The idea of a quantized time crystal was first theorized in 2012 by Frank Wilczek.[121][122] In 2016, Khemani et al.[123] and Else et al.[124] independently of each other suggested that periodically driven quantum spin systems could show similar behaviour. Also in 2016, Norman Yao at UC Berkeley and colleagues proposed a different way to create discrete time crystals in spin systems.[125] This was then used by two teams, a group led by Christopher Monroe at the University of Maryland and a group led by Mikhail Lukin at Harvard University, who were both able to show evidence for time crystals in the laboratory setting, showing that for short times the systems exhibited the dynamics similar to the predicted one.[126][127]
+Photon underproduction crisis (2014–2015): This problem was resolved by Khaire and Srianand.[128] They show that a factor 2 to 5 times large metagalactic photoionization rate can be easily obtained using updated quasar and galaxy observations. Recent observations of quasars indicate that the quasar contribution to ultraviolet photons is a factor of 2 larger than previous estimates. The revised galaxy contribution is a factor of 3 larger. These together solve the crisis.
+Hipparcos anomaly (1997[129]–2012): The High Precision Parallax Collecting Satellite (Hipparcos) measured the parallax of the Pleiades and determined a distance of 385 light years. This was significantly different from other measurements made by means of actual to apparent brightness measurement or absolute magnitude. The anomaly was due to the use of a weighted mean when there is a correlation between distances and distance errors for stars in clusters. It is resolved by using an unweighted mean. There is no systematic bias in the Hipparcos data when it comes to star clusters.[130]
+Faster-than-light neutrino anomaly (2011–2012): In 2011, the OPERA experiment mistakenly observed neutrinos appearing to travel faster than light. On 12 July 2012 OPERA updated their paper after discovering an error in their previous flight time measurement. They found agreement of neutrino speed with the speed of light.[131]
+Pioneer anomaly (1980–2012): There was a deviation in the predicted accelerations of the Pioneer 10 and 11 spacecraft as they left the Solar System.[47][17] It is believed that this is a result of previously unaccounted-for thermal recoil force.[132][133]
+See also
+icon	Physics portal
+Hilbert's sixth problem
+Lists of unsolved problems
+Physical paradox
+List of unsolved problems in mathematics
+List of unsolved problems in neuroscience
+Footnotes
+ "This problem is widely regarded as one of the major obstacles to further progress in fundamental physics ... Its importance has been emphasized by various authors from different aspects. For example, it has been described as a 'veritable crisis" ...] and even 'the mother of all physics problems' ... While it might be possible that people working on a particular problem tend to emphasize or even exaggerate its importance, those authors all agree that this is a problem that needs to be solved, although there is little agreement on what is the right direction to find the solution."[24]
+ When physicists strip neutrons from atomic nuclei, put them in a bottle, then count how many remain there after some time, they infer that neutrons radioactively decay in 14 minutes and 39 seconds, on average. But when other physicists generate beams of neutrons and tally the emerging protons — the particles that free neutrons decay into — they peg the average neutron lifetime at around 14 minutes and 48 seconds. The discrepancy between the “bottle” and “beam” measurements has persisted since both methods of gauging the neutron's longevity began yielding results in the 1990s. At first, all the measurements were so imprecise that nobody worried. Gradually, though, both methods have improved, and still they disagree.[26]
+References
+ Ginzburg, Vitaly L. (2001). The physics of a lifetime : reflections on the problems and personalities of 20th century physics. Berlin: Springer. pp. 3–200. ISBN 978-3-540-67534-1.
+ Hammond, Richard (1 May 2008). "The Unknown Universe: The Origin of the Universe, Quantum Gravity, Wormholes, and Other Things Science Still Can't Explain". Proceedings of the Royal Society of London, Series A. 456 (1999): 1685.
+ Womersley, J. (February 2005). "Beyond the Standard Model" (PDF). Symmetry Magazine. Archived from the original (PDF) on 17 October 2007. Retrieved 23 November 2010.
+ Overbye, Dennis (11 September 2023). "Don't Expect a 'Theory of Everything' to Explain It All - Not even the most advanced physics can reveal everything we want to know about the history and future of the cosmos, or about ourselves". The New York Times. Archived from the original on 11 September 2023. Retrieved 11 September 2023.
+ "Alcohol constrains physical constant in the early universe". Phys Org. 13 December 2012. Archived from the original on 2 April 2015. Retrieved 25 March 2015.
+ Bagdonaite, Julija; Jansen, Paul; Henkel, Christian; Bethlem, Hendrick L.; Menten, Karl M.; Ubachs, Wim (4 January 2013). "A Stringent Limit on a Drifting Proton-to-Electron Mass Ratio from Alcohol in the Early Universe". Science. 339 (6115): 46–48. Bibcode:2013Sci...339...46B. doi:10.1126/science.1224898. PMID 23239626.
+ Sokal, Alan (22 July 1996). "Don't Pull the String Yet on Superstring Theory". New York Times. Archived from the original on 7 December 2008. Retrieved 17 February 2017.
+ Peres, Asher; Terno, Daniel R. (6 January 2004). "Quantum information and relativity theory". Reviews of Modern Physics. 76 (1): 93–123. arXiv:quant-ph/0212023. Bibcode:2004RvMP...76...93P. doi:10.1103/revmodphys.76.93.
+ Joshi, Pankaj S. (January 2009). "Do Naked Singularities Break the Rules of Physics?". Scientific American. Archived from the original on 25 May 2012.
+ Harlow, Daniel (2018). "TASI Lectures on the Emergence of Bulk Physics in AdS/CFT". Proceedings of Theoretical Advanced Study Institute Summer School 2017 'Physics at the Fundamental Frontier' — PoS(TASI2017). p. 002. doi:10.22323/1.305.0002.
+ Isham, C. J. (1993). "Canonical Quantum Gravity and the Problem of Time". Integrable Systems, Quantum Groups, and Quantum Field Theories. pp. 157–287. doi:10.1007/978-94-011-1980-1_6. ISBN 978-94-010-4874-3.
+ "Yang-Mills & The Mass Gap". Clay Mathematics Institute. Retrieved 9 April 2024.
+ Rees, Martin (3 May 2001). Just Six Numbers: The Deep Forces That Shape The Universe. New York, New York: Basic Books; First American edition. p. 4. ISBN 9780465036721.
+ Gribbin, J. and Rees, M., Cosmic Coincidences: Dark Matter, Mankind, and Anthropic Cosmology, pp. 7, 269. 1989, ISBN 0-553-34740-3
+ Davis, Paul (2007). Cosmic Jackpot: Why Our Universe Is Just Right for Life. New York: Orion Publications. p. 2. ISBN 978-0618592265.
+ Podolsky, Dmitry. "Top ten open problems in physics". NEQNET. Archived from the original on 22 October 2012. Retrieved 24 January 2013.
+ Brooks, Michael (19 March 2005). "13 things that do not make sense". New Scientist. Issue 2491. Archived from the original on 23 June 2015. Retrieved 7 March 2011.
+ "Quanta Magazine". 15 April 2020. Archived from the original on 27 April 2020. Retrieved 10 May 2020.
+ Abdalla, Elcio; Abellán, Guillermo Franco; Aboubrahim, Amin (11 March 2022). "Cosmology Intertwined: A Review of the Particle Physics, Astrophysics, and Cosmology Associated with the Cosmological Tensions and Anomalies". Journal of High Energy Astrophysics. 34: 49. arXiv:2203.06142v1. Bibcode:2022JHEAp..34...49A. doi:10.1016/j.jheap.2022.04.002. S2CID 247411131.
+ Krishnan, Chethan; Mohayaee, Roya; Colgáin, Eoin Ó; Sheikh-Jabbari, M. M.; Yin, Lu (16 September 2021). "Does Hubble Tension Signal a Breakdown in FLRW Cosmology?". Classical and Quantum Gravity. 38 (18): 184001. arXiv:2105.09790. Bibcode:2021CQGra..38r4001K. doi:10.1088/1361-6382/ac1a81. ISSN 0264-9381. S2CID 234790314.
+ Ellis, G. F. R. (2009). "Dark energy and inhomogeneity". Journal of Physics: Conference Series. 189 (1): 012011. Bibcode:2009JPhCS.189a2011E. doi:10.1088/1742-6596/189/1/012011. S2CID 250670331.
+ Colin, Jacques; Mohayaee, Roya; Rameez, Mohamed; Sarkar, Subir (November 2019). "Evidence for anisotropy of cosmic acceleration". Astronomy & Astrophysics. 631: L13. arXiv:1808.04597. Bibcode:2019A&A...631L..13C. doi:10.1051/0004-6361/201936373.
+ Steinhardt, P. & Turok, N. (2006). "Why the Cosmological constant is so small and positive". Science. 312 (5777): 1180–1183. arXiv:astro-ph/0605173. Bibcode:2006Sci...312.1180S. doi:10.1126/science.1126231. PMID 16675662. S2CID 14178620.
+ Wang, Qingdi; Zhu, Zhen; Unruh, William G. (11 May 2017). "How the huge energy of quantum vacuum gravitates to drive the slow accelerating expansion of the Universe". Physical Review D. 95 (10): 103504. arXiv:1703.00543. Bibcode:2017PhRvD..95j3504W. doi:10.1103/PhysRevD.95.103504. S2CID 119076077.
+ Dirac, P. A. M. (September 1931). "Quantised singularities in the electromagnetic field". Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character. 133 (821): 60–72. Bibcode:1931RSPSA.133...60D. doi:10.1098/rspa.1931.0130.
+ Wolchover, Natalie (13 February 2018). "Neutron lifetime puzzle deepens, but no dark matter seen". Quanta Magazine. Archived from the original on 30 July 2018. Retrieved 31 July 2018.
+ Li, Tianjun; Nanopoulos, Dimitri V.; Walker, Joel W. (2011). "Elements of fast proton decay". Nuclear Physics B. 846 (1): 43–99. arXiv:1003.2570. Bibcode:2011NuPhB.846...43L. doi:10.1016/j.nuclphysb.2010.12.014. S2CID 119246624.
+ Hansson, Johan (2010). "The "proton spin crisis" – a quantum query" (PDF). Progress in Physics. 3: 23. Archived from the original (PDF) on 4 May 2012. Retrieved 14 April 2012.
+ Langacker, Paul (2012). "Grand unification". Scholarpedia. 7 (10): 11419. Bibcode:2012SchpJ...711419L. doi:10.4249/scholarpedia.11419.
+ Wu, T.-Y.; Hwang, W.-Y. Pauchy (1991). Relativistic Quantum Mechanics and Quantum Fields. World Scientific. ISBN 978-981-02-0608-6.
+ Blumhofer, A.; Hutter, M. (1997). "Family structure from periodic solutions of an improved gap equation". Nuclear Physics. B484 (1): 80–96. Bibcode:1997NuPhB.484...80B. CiteSeerX 10.1.1.343.783. doi:10.1016/S0550-3213(96)00644-X.
+ "India-based Neutrino Observatory (INO)". Tata Institute of Fundamental Research. Archived from the original on 26 April 2012. Retrieved 14 April 2012.
+ Nakamura, K (July 2010). "Review of Particle Physics". Journal of Physics G: Nuclear and Particle Physics. 37 (7A): 075021. Bibcode:2010JPhG...37g5021N. doi:10.1088/0954-3899/37/7A/075021.
+ Mention, G.; Fechner, M.; Lasserre, Th.; Mueller, Th. A.; Lhuillier, D.; Cribier, M.; Letourneau, A. (29 April 2011). "Reactor antineutrino anomaly". Physical Review D. 83 (7): 073006. arXiv:1101.2755. Bibcode:2011PhRvD..83g3006M. doi:10.1103/PhysRevD.83.073006.
+ Fallot, Muriel (19 June 2017). "Getting to the Bottom of an Antineutrino Anomaly". Physics. 10: 66. Bibcode:2017PhyOJ..10...66F. doi:10.1103/Physics.10.66.
+ Blum, Thomas; Denig, Achim; Logashenko, Ivan; de Rafael, Eduardo; Roberts, B. Lee; Teubner, Thomas; Venanzoni, Graziano (2013). "The muon (g − 2) theory value: Present and future". arXiv:1311.2198 [hep-ph].
+ Muir, H. (2 July 2003). "Pentaquark discovery confounds skeptics". New Scientist. Archived from the original on 10 October 2008. Retrieved 8 January 2010.
+ Amit, G. (14 July 2015). "Pentaquark discovery at LHC shows long-sought new form of matter". New Scientist. Archived from the original on 8 November 2020. Retrieved 14 July 2015.
+ Elliott, S.R.; Gavrin, V.N.; Haxton, W.C. (January 2024). "The gallium anomaly". Progress in Particle and Nuclear Physics. 134: 104082. arXiv:2306.03299. Bibcode:2024PrPNP.13404082E. doi:10.1016/j.ppnp.2023.104082.
+ Thompson, Michael J. (26 June 2014). "Grand challenges in the physics of the sun and sun-like stars". Frontiers in Astronomy and Space Sciences. 1. arXiv:1406.4228. Bibcode:2014FrASS...1....1T. doi:10.3389/fspas.2014.00001.
+ Strohmayer, Tod E.; Mushotzky, Richard F. (20 March 2003). "Discovery of X-Ray Quasi-periodic Oscillations from an Ultraluminous X-Ray Source in M82: Evidence against Beaming". The Astrophysical Journal. 586 (1): L61–L64. arXiv:astro-ph/0303665. Bibcode:2003ApJ...586L..61S. doi:10.1086/374732.
+ Titarchuk, Lev; Fiorito, Ralph (10 September 2004). "Spectral Index and Quasi-Periodic Oscillation Frequency Correlation in Black Hole Sources: Observational Evidence of Two Phases and Phase Transition in Black Holes". The Astrophysical Journal. 612 (2): 988–999. arXiv:astro-ph/0405360. Bibcode:2004ApJ...612..988T. doi:10.1086/422573.
+ Kato, Shoji (25 June 2012). "An Attempt to Describe Frequency Correlations among kHz QPOs and HBOs by Two-Armed Nearly Vertical Oscillations". Publications of the Astronomical Society of Japan. 64 (3). doi:10.1093/pasj/64.3.62.
+ Sarre, Peter J. (July 2006). "The diffuse interstellar bands: A major problem in astronomical spectroscopy". Journal of Molecular Spectroscopy. 238 (1): 1–10. arXiv:astro-ph/0608113. Bibcode:2006JMoSp.238....1S. doi:10.1016/j.jms.2006.03.009.
+ Cami, Jan; Cox, Nick L. J.; Farhang, Amin; Smoker, Jonathan; Elyajouri, Meriem; Lallement, Rosine; Bacalla, Xavier; Bhatt, Neil H.; Bron, Emeric; Cordiner, Martin A.; De Koter, Alex; Ehrenfreund, Pascale; Evans, Chris; Foing, Bernard H.; Javadi, Atefeh; Joblin, Christine; Kaper, Lex; Khosroshahi, Habib G.; Laverick, Mike; Le Petit, Franck; Linnartz, Harold; Marshall, Charlotte C. M.; Monreal-Ibero, Ana; Mulas, Giacomo; Roueff, Evelyne; Royer, Pierre; Salama, Farid; Sarre, Peter J.; Smith, Keith T.; Spaans, Marco; Van Loon, Jacco T.; Wade, Gregg (2018). "The ESO Diffuse Interstellar Band Large Exploration Survey (EDIBLES)". Published in the Messenger Vol. 171. pp. 31-36: 6 pages. doi:10.18727/0722-6691/5066.
+ Ferrarese, Laura; Merritt, David (10 August 2000). "A Fundamental Relation between Supermassive Black Holes and Their Host Galaxies". The Astrophysical Journal. 539 (1): L9–L12. arXiv:astro-ph/0006053. Bibcode:2000ApJ...539L...9F. doi:10.1086/312838.
+ Baez, John C. (March 2006). "Open Questions in Physics". Usenet Physics FAQ. University of California, Riverside: Department of Mathematics. Archived from the original on 4 June 2011. Retrieved 7 March 2011.
+ "Scientists Find That Saturn's Rotation Period is a Puzzle". NASA. 28 June 2004. Archived from the original on 29 August 2011. Retrieved 22 March 2007.
+ Condon, J. J.; Cotton, W. D.; Greisen, E. W.; Yin, Q. F.; Perley, R. A.; Taylor, G. B.; Broderick, J. J. (1998). "The NRAO VLA Sky Survey". The Astronomical Journal. 115 (5): 1693–1716. Bibcode:1998AJ....115.1693C. doi:10.1086/300337. S2CID 120464396.
+ Singal, Ashok K. (2011). "Large peculiar motion of the solar system from the dipole anisotropy in sky brightness due to distant radio sources". The Astrophysical Journal. 742 (2): L23–L27. arXiv:1110.6260. Bibcode:2011ApJ...742L..23S. doi:10.1088/2041-8205/742/2/L23. S2CID 119117071.
+ Tiwari, Prabhakar; Kothari, Rahul; Naskar, Abhishek; Nadkarni-Ghosh, Sharvari; Jain, Pankaj (2015). "Dipole anisotropy in sky brightness and source count distribution in radio NVSS data". Astroparticle Physics. 61: 1–11. arXiv:1307.1947. Bibcode:2015APh....61....1T. doi:10.1016/j.astropartphys.2014.06.004. S2CID 119203300.
+ Tiwari, P.; Jain, P. (2015). "Dipole anisotropy in integrated linearly polarized flux density in NVSS data". Monthly Notices of the Royal Astronomical Society. 447 (3): 2658–2670. arXiv:1308.3970. Bibcode:2015MNRAS.447.2658T. doi:10.1093/mnras/stu2535. S2CID 118610706.
+ Hutsemekers, D. (1998). "Evidence for very large-scale coherent orientations of quasar polarization vectors" (PDF). Astronomy and Astrophysics. 332: 410–428. Bibcode:1998A&A...332..410H.
+ Hutsemékers, D.; Lamy, H. (2001). "Confirmation of the existence of coherent orientations of quasar polarization vectors on cosmological scales". Astronomy & Astrophysics. 367 (2): 381–387. arXiv:astro-ph/0012182. Bibcode:2001A&A...367..381H. doi:10.1051/0004-6361:20000443. S2CID 17157567.
+ Jain, P.; Narain, G.; Sarala, S. (2004). "Large-scale alignment of optical polarizations from distant QSOs using coordinate-invariant statistics". Monthly Notices of the Royal Astronomical Society. 347 (2): 394–402. arXiv:astro-ph/0301530. Bibcode:2004MNRAS.347..394J. doi:10.1111/j.1365-2966.2004.07169.x. S2CID 14190653.
+ Angelica de Oliveira-Costa; Tegmark, Max; Zaldarriaga, Matias; Hamilton, Andrew (2004). "The significance of the largest scale CMB fluctuations in WMAP". Physical Review D. 69 (6): 063516. arXiv:astro-ph/0307282. Bibcode:2004PhRvD..69f3516D. doi:10.1103/PhysRevD.69.063516. S2CID 119463060.
+ Eriksen, H. K.; Hansen, F. K.; Banday, A. J.; Górski, K. M.; Lilje, P. B. (2004). "Asymmetries in the Cosmic Microwave Background Anisotropy Field". The Astrophysical Journal. 605 (1): 14–20. arXiv:astro-ph/0307507. Bibcode:2004ApJ...605...14E. doi:10.1086/382267. S2CID 15696508.
+ Pramoda Kumar Samal; Saha, Rajib; Jain, Pankaj; Ralston, John P. (2008). "Testing Isotropy of Cosmic Microwave Background Radiation". Monthly Notices of the Royal Astronomical Society. 385 (4): 1718–1728. arXiv:0708.2816. Bibcode:2008MNRAS.385.1718S. doi:10.1111/j.1365-2966.2008.12960.x. S2CID 988092.
+ Pramoda Kumar Samal; Saha, Rajib; Jain, Pankaj; Ralston, John P. (2009). "Signals of Statistical Anisotropy in WMAP Foreground-Cleaned Maps". Monthly Notices of the Royal Astronomical Society. 396 (511): 511–522. arXiv:0811.1639. Bibcode:2009MNRAS.396..511S. doi:10.1111/j.1365-2966.2009.14728.x. S2CID 16250321.
+ Casagrande, L.; Schönrich, R.; Asplund, M.; Cassisi, S.; Ramírez, I.; Meléndez, J.; Bensby, T.; Feltzing, S. (2011). "New constraints on the chemical evolution of the solar neighbourhood and Galactic disc(s)". Astronomy & Astrophysics. 530: A138. arXiv:1103.4651. Bibcode:2011A&A...530A.138C. doi:10.1051/0004-6361/201016276. S2CID 56118016.
+ Bensby, T.; Feltzing, S.; Lundström, I. (July 2004). "A possible age–metallicity relation in the Galactic thick disk?". Astronomy and Astrophysics. 421 (3): 969–976. arXiv:astro-ph/0403591. Bibcode:2004A&A...421..969B. doi:10.1051/0004-6361:20035957. S2CID 10469794.
+ Gilmore, G.; Asiri, H. M. (2011). "Open Issues in the Evolution of the Galactic Disks". Stellar Clusters & Associations: A RIA Workshop on Gaia. Proceedings. Granada: 280. Bibcode:2011sca..conf..280G.
+ Casagrande, L.; Silva Aguirre, V.; Schlesinger, K. J.; Stello, D.; Huber, D.; Serenelli, A. M.; Scho Nrich, R.; Cassisi, S.; Pietrinferni, A.; Hodgkin, S.; Milone, A. P.; Feltzing, S.; Asplund, M. (2015). "Measuring the vertical age structure of the Galactic disc using asteroseismology and SAGA". Monthly Notices of the Royal Astronomical Society. 455 (1): 987–1007. arXiv:1510.01376. Bibcode:2016MNRAS.455..987C. doi:10.1093/mnras/stv2320. S2CID 119113283.
+ Fields, Brian D. (2012). "The Primordial Lithium Problem". Annual Review of Nuclear and Particle Science. 61 (2011): 47–68. arXiv:1203.3551. Bibcode:2011ARNPS..61...47F. doi:10.1146/annurev-nucl-102010-130445. S2CID 119265528.
+ Platts, E.; Weltman, A.; Walters, A.; Tendulkar, S.P.; Gordin, J.E.B.; Kandhai, S. (2019). "A living theory catalogue for fast radio bursts". Physics Reports. 821: 1–27. arXiv:1810.05836. Bibcode:2019PhR...821....1P. doi:10.1016/j.physrep.2019.06.003. S2CID 119091423.
+ Charles Fefferman. "Existence and Uniqueness of the Navier-Stokes Equation" (PDF). Clay Mathematics Institute. Archived (PDF) from the original on 14 November 2020. Retrieved 29 April 2021.
+ Aranson, Igor S.; Tsimring, Lev S. (June 2006). "Patterns and collective behavior in granular media: Theoretical concepts". Reviews of Modern Physics. 78 (2): 641–692. arXiv:cond-mat/0507419. Bibcode:2006RvMP...78..641A. doi:10.1103/RevModPhys.78.641.
+ Schlein, Benjamin. "Graduate Seminar on Partial Differential Equations in the Sciences – Energy and Dynamics of Boson Systems". Hausdorff Center for Mathematics. Archived from the original on 4 May 2013. Retrieved 23 April 2012.
+ Kenneth Chang (29 July 2008). "The Nature of Glass Remains Anything but Clear". The New York Times. Archived from the original on 14 September 2017. Retrieved 17 February 2017.
+ P.W. Anderson (1995). "Through the Glass Lightly". Science. 267 (5204): 1615–1616. doi:10.1126/science.267.5204.1615-e. PMID 17808155. S2CID 28052338. The deepest and most interesting unsolved problem in solid state theory is probably the theory of the nature of glass and the glass transition.
+ Zaccone, A. (2023). Theory of Disordered Solids. Lecture Notes in Physics. Vol. 1015 (1st ed.). Springer. doi:10.1007/978-3-031-24706-4. ISBN 978-3-031-24705-7. S2CID 259299183.
+ Pohl, R.O.; etc, etc (2002). "Low-temperature thermal conductivity and acoustic attenuation in amorphous solids". Rev. Mod. Phys. 74: 991. doi:10.1080/14786437208229210.
+ Leggett, A.J. (1991). "Amorphous materials at low temperatures: why are they so similar?". Physica B. 169 (1–4): 322–327. Bibcode:1991PhyB..169..322L. doi:10.1016/0921-4526(91)90246-B.
+ Cryogenic electron emission phenomenon has no known physics explanation Archived 5 June 2011 at the Wayback Machine. Physorg.com. Retrieved on 20 October 2011.
+ Meyer, H. O. (March 2010). "Spontaneous electron emission from a cold surface". EPL. 89 (5): 58001. Bibcode:2010EL.....8958001M. doi:10.1209/0295-5075/89/58001.
+ Storey, B. D.; Szeri, A. J. (8 July 2000). "Water vapour, sonoluminescence and sonochemistry". Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences. 456 (1999): 1685–1709. Bibcode:2000RSPSA.456.1685S. doi:10.1098/rspa.2000.0582. S2CID 55030028.
+ Wu, C. C.; Roberts, P. H. (9 May 1994). "A Model of Sonoluminescence". Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences. 445 (1924): 323–349. Bibcode:1994RSPSA.445..323W. doi:10.1098/rspa.1994.0064. S2CID 122823755.
+ Yoshida, Beni (1 October 2011). "Feasibility of self-correcting quantum memory and thermal stability of topological order". Annals of Physics. 326 (10): 2566–2633. arXiv:1103.1885. Bibcode:2011AnPhy.326.2566Y. doi:10.1016/j.aop.2011.06.001. ISSN 0003-4916. S2CID 119611494.
+ Dean, Cory R. (April 2015). "Even denominators in odd places". Nature Physics. 11 (4): 298–299. doi:10.1038/nphys3298.
+ Mukherjee, Prabir K. (1998). "Landau Theory of Nematic-Smectic-A Transition in a Liquid Crystal Mixture". Molecular Crystals & Liquid Crystals. 312 (1): 157–164. Bibcode:1998MCLCA.312..157M. doi:10.1080/10587259808042438.
+ A. Yethiraj, "Recent Experimental Developments at the Nematic to Smectic-A Liquid Crystal Phase Transition" Archived 15 May 2013 at the Wayback Machine, Thermotropic Liquid Crystals: Recent Advances, ed. A. Ramamoorthy, Springer 2007, chapter 8.
+ Norris, David J. (2003). "The Problem Swept Under the Rug". In Klimov, Victor (ed.). Electronic Structure in Semiconductors Nanocrystals: Optical Experiment (in Semiconductor and Metal Nanocrystals: Synthesis and Electronic and Optical Properties). CRC Press. p. 97. ISBN 978-0-203-91326-0. Archived from the original on 27 April 2022. Retrieved 18 October 2020.
+ Lipa, J. A.; Nissen, J. A.; Stricker, D. A.; Swanson, D. R.; Chui, T. C. P. (14 November 2003). "Specific heat of liquid helium in zero gravity very near the lambda point". Physical Review B. 68 (17): 174518. arXiv:cond-mat/0310163. Bibcode:2003PhRvB..68q4518L. doi:10.1103/PhysRevB.68.174518. S2CID 55646571.
+ Campostrini, Massimo; Hasenbusch, Martin; Pelissetto, Andrea; Vicari, Ettore (6 October 2006). "Theoretical estimates of the critical exponents of the superfluid transition in $^{4}\mathrm{He}$ by lattice methods". Physical Review B. 74 (14): 144506. arXiv:cond-mat/0605083. doi:10.1103/PhysRevB.74.144506. S2CID 118924734.
+ Hasenbusch, Martin (26 December 2019). "Monte Carlo study of an improved clock model in three dimensions". Physical Review B. 100 (22): 224517. arXiv:1910.05916. Bibcode:2019PhRvB.100v4517H. doi:10.1103/PhysRevB.100.224517. ISSN 2469-9950. S2CID 204509042.
+ Chester, Shai M.; Landry, Walter; Liu, Junyu; Poland, David; Simmons-Duffin, David; Su, Ning; Vichi, Alessandro (2020). "Carving out OPE space and precise $O(2)$ model critical exponents". Journal of High Energy Physics. 2020 (6): 142. arXiv:1912.03324. Bibcode:2020JHEP...06..142C. doi:10.1007/JHEP06(2020)142. S2CID 208910721.
+ "Conformal bootstrap and the λ-point specific heat experimental anomaly". Journal Club for Condensed Matter Physics. 31 January 2020. doi:10.36471/JCCM_January_2020_02.
+ Barton, G.; Scharnhorst, K. (1993). "QED between parallel mirrors: light signals faster than c, or amplified by the vacuum". Journal of Physics A. 26 (8): 2037. Bibcode:1993JPhA...26.2037B. doi:10.1088/0305-4470/26/8/024. A more recent follow-up paper is Scharnhorst, K. (1998). "The velocities of light in modified QED vacua". Annalen der Physik. 7 (7–8): 700–709. arXiv:hep-th/9810221. Bibcode:1998AnP...510..700S. doi:10.1002/(SICI)1521-3889(199812)7:7/8<700::AID-ANDP700>3.0.CO;2-K. S2CID 120489943.
+ Aaronson, Scott. "Ten Semi-Grand Challenges for Quantum Computing Theory". ScottAaronson.com. Retrieved 1 September 2023.
+ Ball, Phillip (2021). "Major Quantum Computing Strategy Suffers Serious Setbacks". Quanta Magazine. Retrieved 2 September 2023.
+ Skyrme, Tess (20 March 2023). "The Status of Room-Temperature Quantum Computers". EE Times Europe. Retrieved 1 September 2023.
+ Shor, Peter (2000). "Quantum Information Theory: Results and Open Problems". Visions in Mathematics. pp. 816–838. doi:10.1007/978-3-0346-0425-3_9. ISBN 978-3-0346-0424-6.
+ Wagner, F (December 2007). "A quarter-century of H-mode studies". Plasma Physics and Controlled Fusion. 49 (12B): B1–B33. Bibcode:2007PPCF...49....1W. doi:10.1088/0741-3335/49/12B/S01.
+ Balogh, André; Treumann, Rudolf A. (2013). Physics of Collisionless Shocks. doi:10.1007/978-1-4614-6099-2. ISBN 978-1-4614-6098-5.[page needed]
+ Goldstein, Melvyn L. (2001). "Major Unsolved Problems in Space Plasma Physics". Astrophysics and Space Science. 277 (1/2): 349–369. Bibcode:2001Ap&SS.277..349G. doi:10.1023/A:1012264131485. S2CID 189821322.
+ Dill, K. A.; MacCallum, J. L. (2012). "The Protein-Folding Problem, 50 Years On". Science. 338 (6110): 1042–1046. Bibcode:2012Sci...338.1042D. doi:10.1126/science.1219021. ISSN 0036-8075. PMID 23180855. S2CID 5756068.
+ Cabello, Adán (2017). "Interpretations of quantum theory: A map of madness". In Lombardi, Olimpia; Fortin, Sebastian; Holik, Federico; López, Cristian (eds.). What is Quantum Information?. Cambridge University Press. pp. 138–143. arXiv:1509.04711. Bibcode:2015arXiv150904711C. doi:10.1017/9781316494233.009. ISBN 9781107142114. S2CID 118419619.
+ Wiseman, Howard (2014). "The Two Bell's Theorems of John Bell". Journal of Physics A: Mathematical and Theoretical. 47 (42): 424001. arXiv:1402.0351. Bibcode:2014JPhA...47P4001W. doi:10.1088/1751-8113/47/42/424001. ISSN 1751-8121. S2CID 119234957.
+ Fuchs, Christopher A.; Mermin, N. David; Schack, Rüdiger (2014). "An introduction to QBism with an application to the locality of quantum mechanics". American Journal of Physics. 82 (8): 749. arXiv:1311.5253. Bibcode:2014AmJPh..82..749F. doi:10.1119/1.4874855. S2CID 56387090.
+ Philip M. Pearle (1970), "Hidden-Variable Example Based upon Data Rejection", Phys. Rev. D, 2 (8): 1418–1425, Bibcode:1970PhRvD...2.1418P, doi:10.1103/PhysRevD.2.1418
+ Hensen, B.; et al. (21 October 2015). "Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres". Nature. 526 (7575): 682–686. arXiv:1508.05949. Bibcode:2015Natur.526..682H. doi:10.1038/nature15759. PMID 26503041. S2CID 205246446.
+ Markoff, Jack (21 October 2015). "Sorry, Einstein. Quantum Study Suggests 'Spooky Action' Is Real". New York Times. Archived from the original on 31 July 2019. Retrieved 21 October 2015.
+ Giustina, M.; et al. (16 December 2015). "Significant-Loophole-Free Test of Bell's Theorem with Entangled Photons". Physical Review Letters. 115 (25): 250401. arXiv:1511.03190. Bibcode:2015PhRvL.115y0401G. doi:10.1103/PhysRevLett.115.250401. PMID 26722905. S2CID 13789503.
+ Shalm, L. K.; et al. (16 December 2015). "Strong Loophole-Free Test of Local Realism". Physical Review Letters. 115 (25): 250402. arXiv:1511.03189. Bibcode:2015PhRvL.115y0402S. doi:10.1103/PhysRevLett.115.250402. PMC 5815856. PMID 26722906.
+ "Einstein papers at the Instituut-Lorentz". Archived from the original on 19 May 2015. Retrieved 30 April 2016.
+ Castelvecchi, Davide; Witze, Alexandra (11 February 2016). "Einstein's gravitational waves found at last". Nature. doi:10.1038/nature.2016.19361.
+ B. P. Abbott; et al. (LIGO Scientific Collaboration and Virgo Collaboration) (2016). "Observation of Gravitational Waves from a Binary Black Hole Merger". Physical Review Letters. 116 (6): 061102. arXiv:1602.03837. Bibcode:2016PhRvL.116f1102A. doi:10.1103/PhysRevLett.116.061102. PMID 26918975. S2CID 124959784.
+ "Gravitational waves detected 100 years after Einstein's prediction". www.nsf.gov. National Science Foundation. Archived from the original on 19 June 2020. Retrieved 11 February 2016.
+ Pretorius, Frans (2005). "Evolution of Binary Black-Hole Spacetimes". Physical Review Letters. 95 (12): 121101. arXiv:gr-qc/0507014. Bibcode:2005PhRvL..95l1101P. doi:10.1103/PhysRevLett.95.121101. PMID 16197061. S2CID 24225193. Campanelli, M.; Lousto, C. O.; Marronetti, P.; Zlochower, Y. (2006). "Accurate Evolutions of Orbiting Black-Hole Binaries without Excision". Physical Review Letters. 96 (11): 111101. arXiv:gr-qc/0511048. Bibcode:2006PhRvL..96k1101C. doi:10.1103/PhysRevLett.96.111101. PMID 16605808. S2CID 5954627. Baker, John G.; Centrella, Joan; Choi, Dae-Il; Koppitz, Michael; Van Meter, James (2006). "Gravitational-Wave Extraction from an Inspiraling Configuration of Merging Black Holes". Physical Review Letters. 96 (11): 111102. arXiv:gr-qc/0511103. Bibcode:2006PhRvL..96k1102B. doi:10.1103/PhysRevLett.96.111102. PMID 16605809. S2CID 23409406.
+ R. Aaij et al. (LHCb collaboration) (2015). "Observation of J/ψp resonances consistent with pentaquark states in Λ0
+b→J/ψK−p decays". Physical Review Letters. 115 (7): 072001. arXiv:1507.03414. Bibcode:2015PhRvL.115g2001A. doi:10.1103/PhysRevLett.115.072001. PMID 26317714. S2CID 119204136.
+ Rafelski, Johann (2020). "Discovery of Quark-Gluon Plasma: Strangeness Diaries". The European Physical Journal Special Topics. 229 (1): 1–140. arXiv:1911.00831. Bibcode:2020EPJST.229....1R. doi:10.1140/epjst/e2019-900263-x. ISSN 1951-6355.
+ Higgs, Peter (24 November 2010). "My Life as a Boson" (PDF). Talk given by Peter Higgs at King's College, London, 24 November 2010, expanding on a paper originally presented in 2001. Archived from the original (PDF) on 1 May 2014. Retrieved 17 January 2013. – the original 2001 paper can be found at: Duff and Liu, ed. (2003) [year of publication]. 2001 A Spacetime Odyssey: Proceedings of the Inaugural Conference of the Michigan Center for Theoretical Physics, Michigan, USA, 21–25 May 2001. World Scientific. pp. 86–88. ISBN 978-9812382313. Archived from the original on 27 April 2022. Retrieved 17 January 2013.
+ Kouveliotou, Chryssa; Meegan, Charles A.; Fishman, Gerald J.; Bhat, Narayana P.; Briggs, Michael S.; Koshut, Thomas M.; Paciesas, William S.; Pendleton, Geoffrey N. (1993). "Identification of two classes of gamma-ray bursts". The Astrophysical Journal. 413: L101. Bibcode:1993ApJ...413L.101K. doi:10.1086/186969.
+ Cho, Adrian (16 October 2017). "Merging neutron stars generate gravitational waves and a celestial light show". Science. doi:10.1126/science.aar2149.
+ Castelvecchi, Davide (24 August 2017). "Rumours swell over new kind of gravitational-wave sighting". Nature. doi:10.1038/nature.2017.22482.
+ Shull, J. Michael, Britton D. Smith, and Charles W. Danforth. "The baryon census in a multiphase intergalactic medium: 30% of the baryons may still be missing." The Astrophysical Journal 759.1 (2012): 23.
+ "Half the universe's missing matter has just been finally found". New Scientist. Archived from the original on 13 October 2017. Retrieved 12 October 2017.
+ Nicastro, F.; Kaastra, J.; Krongold, Y.; Borgani, S.; Branchini, E.; Cen, R.; Dadina, M.; Danforth, C. W.; Elvis, M.; Fiore, F.; Gupta, A.; Mathur, S.; Mayya, D.; Paerels, F.; Piro, L.; Rosa-Gonzalez, D.; Schaye, J.; Shull, J. M.; Torres-Zafra, J.; Wijers, N.; Zappacosta, L. (June 2018). "Observations of the missing baryons in the warm–hot intergalactic medium". Nature. 558 (7710): 406–409. arXiv:1806.08395. Bibcode:2018Natur.558..406N. doi:10.1038/s41586-018-0204-1. PMID 29925969.
+ Cleveland, Bruce T.; Daily, Timothy; Davis, Jr., Raymond; Distel, James R.; Lande, Kenneth; Lee, C. K.; Wildenhain, Paul S.; Ullman, Jack (1998). "Measurement of the Solar Electron Neutrino Flux with the Homestake Chlorine Detector". The Astrophysical Journal. 496 (1): 505–526. Bibcode:1998ApJ...496..505C. doi:10.1086/305343.
+ Helled, Ravit; Galanti, Eli; Kaspi, Yohai (2015). "Saturn's fast spin determined from its gravitational field and oblateness". Nature. 520 (7546): 202–204. arXiv:1504.02561. Bibcode:2015Natur.520..202H. doi:10.1038/nature14278. PMID 25807487. S2CID 4468877.
+ Wilczek, Frank (2012). "Quantum Time Crystals". Physical Review Letters. 109 (16): 160401. arXiv:1202.2539. Bibcode:2012PhRvL.109p0401W. doi:10.1103/PhysRevLett.109.160401. ISSN 0031-9007. PMID 23215056. S2CID 1312256.
+ Shapere, Alfred; Wilczek, Frank (2012). "Classical Time Crystals". Physical Review Letters. 109 (16): 160402. arXiv:1202.2537. Bibcode:2012PhRvL.109p0402S. doi:10.1103/PhysRevLett.109.160402. ISSN 0031-9007. PMID 23215057. S2CID 4506464.
+ Khemani, Vedika; Lazarides, Achilleas; Moessner, Roderich; Sondhi, S. L. (21 June 2016). "Phase Structure of Driven Quantum Systems". Physical Review Letters. 116 (25): 250401. arXiv:1508.03344. Bibcode:2016PhRvL.116y0401K. doi:10.1103/PhysRevLett.116.250401. PMID 27391704. S2CID 883197.
+ Else, Dominic V.; Bauer, Bela; Nayak, Chetan (25 August 2016). "Floquet Time Crystals". Physical Review Letters. 117 (9): 090402. arXiv:1603.08001. Bibcode:2016PhRvL.117i0402E. doi:10.1103/PhysRevLett.117.090402. PMID 27610834. S2CID 1652633.
+ Yao, N. Y.; Potter, A. C.; Potirniche, I.-D.; Vishwanath, A. (18 January 2017). "Discrete Time Crystals: Rigidity, Criticality, and Realizations". Physical Review Letters. 118 (3): 030401. arXiv:1608.02589. Bibcode:2017PhRvL.118c0401Y. doi:10.1103/PhysRevLett.118.030401. PMID 28157355.
+ Zhang, J.; Hess, P. W.; Kyprianidis, A.; Becker, P.; Lee, A.; Smith, J.; Pagano, G.; Potirniche, I.-D.; Potter, A. C.; Vishwanath, A.; Yao, N. Y.; Monroe, C. (9 March 2017). "Observation of a discrete time crystal". Nature. 543 (7644): 217–220. arXiv:1609.08684. Bibcode:2017Natur.543..217Z. doi:10.1038/nature21413. PMID 28277505.
+ Choi, Soonwon; Choi, Joonhee; Landig, Renate; Kucsko, Georg; Zhou, Hengyun; Isoya, Junichi; Jelezko, Fedor; Onoda, Shinobu; Sumiya, Hitoshi; Khemani, Vedika; von Keyserlingk, Curt; Yao, Norman Y.; Demler, Eugene; Lukin, Mikhail D. (9 March 2017). "Observation of discrete time-crystalline order in a disordered dipolar many-body system". Nature. 543 (7644): 221–225. arXiv:1610.08057. Bibcode:2017Natur.543..221C. doi:10.1038/nature21426. PMC 5349499. PMID 28277511.
+ Khaire, V.; Srianand, R. (2015). "Photon underproduction crisis: Are QSOs sufficient to resolve it?". Monthly Notices of the Royal Astronomical Society: Letters. 451: L30–L34. arXiv:1503.07168. Bibcode:2015MNRAS.451L..30K. doi:10.1093/mnrasl/slv060. S2CID 119263441.
+ Van Leeuwen, Floor (1999). "HIPPARCOS distance calibrations for 9 open clusters". Astronomy and Astrophysics. 341: L71. Bibcode:1999A&A...341L..71V.
+ Charles Francis; Erik Anderson (2012). "XHIP-II: Clusters and associations". Astronomy Letters. 38 (11): 681–693. arXiv:1203.4945. Bibcode:2012AstL...38..681F. doi:10.1134/S1063773712110023. S2CID 119285733.
+ OPERA collaboration (12 July 2012). "Measurement of the neutrino velocity with the OPERA detector in the CNGS beam". Journal of High Energy Physics. 2012 (10): 93. arXiv:1109.4897. Bibcode:2012JHEP...10..093A. doi:10.1007/JHEP10(2012)093. S2CID 17652398.
+ Turyshev, S.; Toth, V.; Kinsella, G.; Lee, S. C.; Lok, S.; Ellis, J. (2012). "Support for the Thermal Origin of the Pioneer Anomaly". Physical Review Letters. 108 (24): 241101. arXiv:1204.2507. Bibcode:2012PhRvL.108x1101T. doi:10.1103/PhysRevLett.108.241101. PMID 23004253. S2CID 2368665.
+ Overbye, Dennis (23 July 2012). "Mystery Tug on Spacecraft Is Einstein's 'I Told You So'". The New York Times. Archived from the original on 27 August 2017. Retrieved 24 January 2014.
+External links
+What problems of physics and astrophysics seem now to be especially important and interesting (thirty years later, already on the verge of XXI century)? V. L. Ginzburg, Physics-Uspekhi 42 (4) 353–373, 1999
+Kennedy, Donald; Norman, Colin (July 2005). "What Don't We Know?". Science. 309 (5731): 75. doi:10.1126/science.309.5731.75. PMID 15994521.
+List of links to unsolved problems in physics, prizes and research.
+A list of open problems in quantum information theory maintained by the Institute for Quantum Optics and Quantum Information (IQOQI) in Vienna.
+Ideas Based On What We'd Like to Achieve Archived 24 September 2013 at the Wayback Machine
+2004 SLAC Summer Institute: Nature's Greatest Puzzles Archived 30 July 2014 at the Wayback Machine
+Dual Personality of Glass Explained at Last
+What we do and don't know Review on current state of physics by Steven Weinberg, November 2013
+The crisis of big science Steven Weinberg, May 2012
+vte
+Well-known unsolved problems by discipline
+AstronomyBiologyChemistryComputer scienceEconomicsFair divisionGeoscienceInformation theoryMathematicsMedicineNeurosciencePhysicsStatistics
+Categories: Lists of unsolved problemsPhysics-related listsUnsolved problems in physics
+This page was last edited on 21 October 2024, at 18:15 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia FoundationPowered by MediaWiki
+
+----------
+
+OK so uh there exist many lists:
+
+https://faculty.washington.edu/steinerb/openproblems.pdf
+
+From Quora Jeff Erickson:
+
+There are thousands, if not millions, of open problems in computer science. Here are a dozen or so off the top of my head.
+
+Does nondeterminism actually speed up computation? (Does P=NP?)
+
+Can problems solvable with little space be solved quickly? (Does P = PSPACE?)
+
+Does randomness actually speed up computation? (Does RP=P? BPP=P?)
+
+How much does exploiting quantum computing actually speed up computing? (We know that it has some effect, because of Grover’s algorithm, but how much? Does BQP=P?)
+
+Does nonuniformity actually speed up computation?
+
+Can 3SAT be solved in 2o(n)time? (The Exponential Time Hypothesis)
+
+Can kSAT be solved in O(20.9999n) time for all k? (The Strong Exponential Time Hypothesis)
+
+Can 3SUM be solved in O(n1.99999) time?
+
+Can Sorting X+Y be solved in O(n2) time? In O(n1.99999) time?
+
+Can all-pairs shortest paths be solved in O(n2.99999)time?
+
+Is the Unique Games Conjecture true?
+
+Are monotone graph properties evasive?
+
+Can maximum flows in planar graphs be computed in O(n) time?
+
+Can maximum flows in (undirected, unit-capacity) toroidal graphs be computed in O(n1.49999) time? O(nlogn) time? O(n) time?
+
+Is there an implementable algorithm to triangulate polygons in O(n) time?
+
+Is there an implementable algorithm to decide whether a graph can be drawn on a torus without edge crossings in O(n) time?
+
+What is the complete set of minimal forbidden minors for toroidal graphs? For graphs of genus 2? For graphs of treewidth 4?
+
+Can an arbitrary context-free grammar of length $n$ be converted into Chomsky normal form in O(n1.9999) time? O(n3/2) time?
+
+Are splay trees dynamically optimal? Is any online self-adjusting binary search tree dynamically optimal? Is any offline self-adjusting binary search tree dynamically optimal?
+
+Can the genus of a knot be computed in polynomial time?
+
+What is the fifth Ramsey number R(5,5)? The sixth Ramsey number R(6,6)? The seventh R(7,7)?
+
+Is there a machine-checkable proof of Robertson and Seymour’s graph structure theorem? What about the classification theorem for finite simple groups?
+
+What is the smallest Turing machine whose behavior is independent of ZFC?
+
+Is any natural generalization of Getting Over It NP-hard? PSPACE-hard? Undecidable?
+
+How many licks does it take to get to the Tootsie Roll center of a Tootsie Pop?
+
+And this is just theoretical computer science.
+
+	And Other Lists
+
+	From Computer Science Theory Stack Exchange:
+
+https://cstheory.stackexchange.com/questions/38560/sources-of-open-problems
+
+https://cstheory.stackexchange.com/questions/1015/open-problems-on-the-frontiers-of-tcs
+
+https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science
+
+https://topp.openproblem.net/
+
+https://www.ics.uci.edu/~eppstein/junkyard/open.html
+
+https://www.ics.uci.edu/~theory/269/020125.pdf
+
+	Ryuhei Uehara Bibliography
+
+	Langord's Problem And Follow Ons
+
+	Basic Research In Computer Science BRICS Unsolved Combinatorial Problems Zsolt Tuza e.g. And Follow On Literature Trawling Readings
+
+	Erdos-Straus Conjecture
+
+For every positive integer n>=2 there exist positive integers x, y, z such that 4/n = 1/x + 1/y + 1/z.
+
+	Making Money With Poker Bots
+
+	Stefan Steinerberger List "Some Open Problems"
+
+	Sports Betting
+
+	Erdos-Szekeres Happy Ending Problem
+
+How many points in general position are needed in R2 to force/induce a convex n-gon? Equivalently, compute the size of the maximal point set avoiding such an induced n-gon.
+
+	Erdos-Mollin-Walsh Conjecture
+
+There are no three consecutive powerful numbers, those with all exponents >=2 in prime factorisation.
+
+	Erdos tasks.
+
+	Minimum Area Triangles
+
+Given a set of n points in the plane, we can find the minimum area triangle in quadratic time, but the best known lower bound is only Omega(n log n). Find a subquadratic algorithm, or prove a quadratic lower bound in any model of computation.
+
+	Anchored Rectangles
+
+Suppose we want to pack a unit square with non-overlapping rectangles that have sides parallel to the axes. The catch is that the lower left corners of all the rectangles are given. By the way, such rectangles are called anchored. Now, given some points in the unit square, aka the lower left corners, we want to find anchored rectangles with the maximum total area.
+
+Increasing Permutation
+When the given points are close to the right upper corner of the square, the total area is small. When a single point is in the bottom left corner of the square, we can cover the whole square. The problem becomes more interesting if we add one extra assumption: one of the given points has to be the bottom left corner of the square. In the 1960’s, it was conjectured by Allen Freedman that any set of points has an anchored rectangle packing with the area of at least one half. The problem is quite resistant. In 2011, Dumitrescu and Tóth showed that every set of points has a packing of area at least 0.09, which was the first constant bound found, and is the best bound currently known.
+
+	Enumerate Self Avoiding Walks
+
+A self avoiding walk is a sequence of moves on a lattice not visiting the same point more than once. What is the number of self avoiding walks from [0,0] to [n-1,n-1] in an nxn grid, taking steps from [0,1], [0,-1], [1,0], [-1,0]?
+
+	Markov-Hurwitz Equations
+
+x1^2+x2^2+...+xn^2 = a*x1*x2*...*xn
+See literature.
+
+	Open Problems In Mathematics And Computational Science
+
+Copy Paste From Math Web UCSD Erdos Problems All
+
+Ramsey Theory
+The Happy Ending problem: forcing convex polygons (Szekeres)
+Forcing empty convex polygons
+Does the Ramsey limit exist? What is the limit? ($100 / $250)
+Constructive Ramsey ($100)
+Lower bound for r(4,n) ($250)
+Lower bound for r(k,n)
+Consecutive Ramsey numbers (Burr)
+Bounds for growth of r(3,n) (Sós) (two problems combined)
+Linear Ramsey numbers (Burr) ($25)
+Cliques are Ramsey-extremal (Graham)
+r(G) is subexponential in sqrt(edges)
+r(G) is bounded by r(χ(G)) (1)
+r(G) is bounded by r(χ(G)) (2)
+Upper bound for Ramsey on trees (Burr)
+Exact Ramsey value for some trees
+Upper bound on r(tree, complete multi-partite)
+Upper bound for Ramsey number for 4-cycle
+Exact values for Ramsey numbers for k-cycle (Faudree, Rousseau, Schelp)
+Exact value for Ramsey number of k-cycle and star (Burr, Faudree, Rousseau, Schelp)
+Upper bound for Ramsey number for the hypercube (Burr)
+Multi-color Ramsey number for triangles ($250/$100)
+r(3,3,n) is much larger than r(3,n)
+Multi-color Ramsey number for triangles grows faster than for other odd cycles (Graham)
+Multi-color Ramsey number for even cycles (Graham)
+3-color Ramsey number for n-cycles (Bondy)
+Multi-color Ramsey number for trees (Graham)
+Multi-color Ramsey number for complete bipartite graphs (Chung, Graham)
+Size Ramsey number for graphs of bounded degree (Beck)
+Size Ramsey number for complete balanced bipartite graphs (Faudree, Rousseau, Schelp)
+Size Ramsey number for unions of stars (Burr, Faudree, Rousseau, Schelp)
+A linear bound on some size Ramsey numbers (Faudree, Rousseau, Schelp)
+A linear bound on some size Ramsey numbers for particular graphs (Faudree, Rousseau, Schelp)
+A linear bound on some size Ramsey numbers for trees (Faudree, Rousseau, Schelp)
+A linear bound on some size Ramsey numbers for odd cycles (Faudree, Rousseau, Schelp)
+A linear bound on some size Ramsey numbers for cycles (Faudree, Rousseau, Schelp)
+Upper bound on induced Ramsey numbers (Rödl)
+Double exponential lower bound for 3-uniform hypergraph Ramsey numbers (Hajnal, Rado) ($500)
+Asymptotic behavior of t-uniform hypergraph Ramsey numbers (Hajnal, Rado)
+Asymptotic behavior of generalized Ramsey numbers
+Behavior of generalized hypergraph Ramsey numbers ($500)
+
+Extremal Graph Theory
+Turán number for complete balanced bipartite graphs (Zarankiewicz, not Erdős)
+Lower bound for Turán number for K4,4
+Upper bound for Turán number for bipartite degenerate graphs (Simonovits) ($100)
+Lower bound for Turán number for bipartite non-degenerate graphs
+Turán number for bipartite graphs is a rational power of n (Simonovits)
+Turán number for even cycles (Simonovits)
+Turán number for families of graphs behave like Turán number for one of the members (Simonovits)
+Asymptotic behavior for joint Turán number for 3- and 4-cycles (Simonovits)
+Asymptotic behavior for joint Turán number for consecutive cycles (Simonovits)
+Extremal graph avoiding 3- and 4-cycles avoids all odd cycles
+Behavior of Turán number for a family of graphs is controlled by a bipartite member
+Turán number for cubes (Simonovits)
+Turán number for graphs with subgraphs of minimum degree >2 (Simonovits) ($250/$100)
+Number of edges in a graph with small independent sets avoid the octahedron (Hajnal, Sós, Szemerédi)
+Subgraphs of the cube without a 2k-cycle ($100)
+Number of edges to force all trees (Sós)
+The (n/2−n/2−n/2) conjecture (Füredi, Loebl, Sós)
+Making a triangle-free graph bipartite (Faudree, Pach, Spencer)
+Largest bipartite subgraph of a triangle free graph
+2-coloring K4-free graphs to avoid monochromatic triangles ($100) (Proven by Linyuan Lu in "Explicit construction of small Folkman graphs", 2008)
+Forcing triangles with local edge densities (Rousseau)
+Graphs covered by triangles (Rothschild)
+Edge-partitioning into paths (Gallai)
+Forcing large directed paths or independent sets (Rado)
+Minimizing the harmonic sum of cycle lengths (Hajnal)
+Subgraphs where every pair of edges is in a short cycle (Duke, Rödl) (two problems combined)
+Many edges are contained in 5-cycles
+Decomposing a complete graph to avoid small odd cycles (Graham)
+Existence of Cycles of Order 2k (Gyárfás)
+Estimate the clique transversal number of a graph (Gallai, Tuza)
+Upper bound on clique transversal number
+Clique transversal number is sublinear for graphs with no small cliques
+Diameter of a Kr-free graph (Pach, Pollack, Tuza)
+Linearly many edges force certain cycle lengths ($100)
+Unions of bipartite graphs and graphs with bounded degree
+A problem on sparse induced subgraphs
+Any graph with many large independent sets is almost bipartite
+Upper bound for rt(n,4;n/log(n))
+If G has no 5-cliques, and any large subset of vertices contains a triangle, then G is sparse
+A graph without induced 5-cycles has large cliques or independent sets
+
+Coloring, Packing, and Covering
+Growth of girth in graphs with fixed chromatic number
+Counting vertices of a graph with large girth and chromatic number
+Finding subgraphs with large girth and chromatic number (Hajnal)
+Ratio of chromatic number to clique number
+Decomposing graphs into subgraphs with higher total chromatic number (Lovász)
+Bipartite graphs with high list-chromatic numbers
+If G is (a,b)-choosable, then G is (am,bm)-choosable for every positive integer m (Rubin, Taylor)
+Estimate the maximum number of edges for a k-critical graph on n vertices
+Find the exact maximum number of edges for a k-critical graph on n vertices
+Critical graphs with large minimum degree
+Vertex critical graphs with many extra edges
+Bounding the strong chromatic index (Nešetřil)
+Many disjoint monochromatic triangles (Faudree, Ordman) (two problems combined)
+Edge-coloring to avoid large monochromatic stars (Faudree, Rousseau, Schelp)
+Anti-Ramsey graphs (Burr, Graham, Sós)
+Anti-Ramsey problem for balanced colorings
+Bounding the acyclic chromatic number for graphs of bounded degree
+Any graph of large chromatic number has an odd cycle spanning a subgraph of large chromatic number (Hajnal)
+Any graph of large chromatic number has many edge-disjoint cycles on one subset of vertices (Hajnal)
+Covering by 4-cycles
+Maximum chromatic number of the complement graph of graphs with fixed h(G) (Faudree)
+Ratio of clique partition number to clique covering number (Faudree, Ordman)
+Difference of clique partition number to clique covering number
+Maximum product of clique partition numbers for complementary graphs
+The ascending subgraph decomposition problem (Alavi, Boals, Chartrand, Oellermann)
+
+Random Graphs and Graph Enumeration
+At what density is the chromatic number of a random graph r?
+Find the range of expected chromatic numbers for a random graph
+Random graphs contain cubes (Bollobás)
+Large independent sets in all large subgraphs of a random graph (Bollobás)
+Covering a random graph with triangles (Spencer)
+Avoiding anti-monotone graph properties in a random graph (Suen, Winkler)
+Number of induced G-subgraphs in a given graph
+Adding an edge to an extremal 4-cycle-free graph gives two 4-cycles (Siminovits)
+Number of triangles in a multi-partite graph with large minimum degree (Bollobás, Szemerédi)
+Number of graphs with a forbidden subgraph (Kleitman, Rothschild)
+Regular induced subgraphs (Fajtlowicz, Staton)
+Graphs with induced subgraphs of any number of edges (McKay) ($100)
+Count the ways to add a K4 (Tuza)
+Number of triangle-free graphs
+Number of pentagons in a triangle free graph
+A conjecture of 3-colored triangles in the complete graph (Sós)
+
+Hypergraphs
+Turán's conjecture: hypergraph Turán numbers: tr(n,k) (Turán, not Erdős) ($1000)
+Exact values for t3(n,4) (Turán, not Erdős) ($500)
+Asymptotics of t3(n,5) (Turán, not Erdős)
+Adding an edge to extremal K(3)k-free graph gives two copies of K(3)k
+Adding an edge to extremal K(3)k-free graph gives a K(3)k+1 missing an edge
+Avoiding triple systems (Brown, Sós)
+Lower bound for hypergraph Turán numbers
+Turán densities are rational
+Unavoidable stars (Rado)
+Special case: unavoidable 3-stars
+Unavoidable stars of an n-set (Szemerédi)
+Weak Δ-systems (Milner, Rado)
+Weak Δ-systems of an n-set (Szemerédi)
+Erdős-Faber-Lovász conjecture: a simple hypergraph on n vertices has chromatic index at most n (Faber, Lovász)
+Minimum number of edges for a n-graph to not have Property B (that is: to not be 2-colorable)
+Minimum number of edges for a 3-chromatic 4-graph
+Conjecture on 3-chromatic hypergraphs (Lovász)
+Conjecture on minimum 3-chromatic hypergraphs (Lovász)
+Maximum edges in a 3-chromatic r-clique (Lovász)
+Maximum vertices in a 3-chromatic r-clique (Lovász)
+3-chromatic cliques have edges with large intersection (Lovász) ($100)
+Number of sizes of edge intersections in a 3-chromatic r-graph (Lovász)
+Jumping densities for 3-hypergraphs ($500)
+Conjecture on covering a hypergraph (Lovász)
+Stronger conjecture on covering a hypergraph
+Maximum unavoidable hypergraphs (Chung)
+Unavoidable stars with fixed intersection size (Duke)
+Hypergraph decomposition (Chung, Graham)
+Characterize hypergraphs with maximum/minimum product of point and line covering numbers (Chung, Graham)
+Covering complete 3-graphs (Tuza)
+r-sets with common union and intersection (Füredi)
+Finding small global vertex covers for r-graphs with small local vertex covers (Fon der Flaass, Kostochka, Tuza)
+A Ramsey-type conjecture for 2-colorings of complete 3-graphs
+A Ramsey-Turán upper bound for 3-graphs
+A Ramsey-Turán lower bound for 3-graphs (Sós)
+
+Infinite Graphs
+Menger's theorem for infinite graphs
+Ordinal Ramsey: For which α does ωα→(ωα,3)2? (Hajnal) ($1000)
+Ordinal Ramsey: If α→(α,3)2, then α→(α,4)2 (Hajnal)
+Ordinal Ramsey: ω1→(α,4)3 for α<ω1
+Ordinal Ramsey: ω21→(ω21,3)2
+Ordinal Ramsey: ω3→(ω2+2)3ω
+Almost-bipartite graphs with infinite chromatic number (Hajnal, Szemerédi) ($250)
+Another problem on almost-bipartite graphs with infinite chromatic number
+Uncountable-chromatic graphs have common 4-chromatic subgraphs (Hajnal)
+Infinite K4-free graphs are the union of triangle-free countable graphs (Hajnal) ($250)
+The harmonic sums of odd-cycle lengths diverges for graphs of infinite chromatic number (Hajnal)
+There is an uncountable-chromatic graph G so that the size of the smallest n-chromatic subgraph grows arbitrarily slowly (Hajnal, Szemerédi)
+Infinite graphs have infinite paths or arbitrary independent sets (Hajnal, Milner)
+Down-up matchings in infinite graphs (Larson)

@@ -1,0 +1,188 @@
+Preface xi
+1 Introduction 1
+1 1 Chapter Overview 1
+1 2 What Is an Operating System? 2
+1 3 What is Middleware? 6
+1 4 Objectives for the Book 8
+1 5 Multiple Computations on One Computer 9
+1 6 Controlling the Interactions Between Computations 11
+1 7 Supporting Interaction Across Time 13
+1 8 Supporting Interaction Across Space 15
+1 9 Security 17
+2 Threads 21
+2 1 Introduction 21
+2 2 Example of Multithreaded Programs 23
+2 3 Reasons for Using Concurrent Threads 27
+2 4 Switching Between Threads 30
+2 5 Preemptive Multitasking 37
+2 6 Security and Threads 38
+3 Scheduling 45
+3 1 Introduction 45
+3 2 Thread States 46
+3 3 Scheduling Goals 49
+3 3 1 Throughput 51
+3 3 2 Response Time 54
+3 3 3 Urgency, Importance, and Resource Allocation 55
+3 4 Fixed-Priority Scheduling 61
+v
+vi CONTENTS
+3 5 Dynamic-Priority Scheduling 65
+3 5 1 Earliest Deadline First Scheduling 65
+3 5 2 Decay Usage Scheduling 66
+3 6 Proportional-Share Scheduling 71
+3 7 Security and Scheduling 79
+4 Synchronization and Deadlocks 93
+4 1 Introduction 93
+4 2 Races and the Need for Mutual Exclusion 95
+4 3 Mutexes and Monitors 98
+4 3 1 The Mutex Application Programing Interface 99
+4 3 2 Monitors: A More Structured Interface to Mutexes 103
+4 3 3 Underlying Mechanisms for Mutexes 106
+4 4 Other Synchronization Patterns 110
+4 4 1 Bounded Buffers 113
+4 4 2 Readers/Writers Locks 115
+4 4 3 Barriers 116
+4 5 Condition Variables 117
+4 6 Semaphores 123
+4 7 Deadlock 124
+4 7 1 The Deadlock Problem 126
+4 7 2 Deadlock Prevention Through Resource Ordering 128
+4 7 3 Ex Post Facto Deadlock Detection 129
+4 7 4 Immediate Deadlock Detection 132
+4 8 The Interaction of Synchronization with Scheduling 134
+4 8 1 Priority Inversion 135
+4 8 2 The Convoy Phenomenon 137
+4 9 Nonblocking Synchronization 141
+4 10 Security and Synchronization 145
+5 Atomic Transactions 159
+5 1 Introduction 159
+5 2 Example Applications of Transactions 162
+5 2 1 Database Systems 163
+5 2 2 Message-Queuing Systems 167
+5 2 3 Journaled File Systems 172
+5 3 Mechanisms to Ensure Atomicity 174
+5 3 1 Serializability: Two-Phase Locking 174
+5 3 2 Failure Atomicity: Undo Logging 183
+5 4 Transaction Durability: Write-Ahead Logging 186
+CONTENTS vii
+5 5 Additional Transaction Mechanisms 190
+5 5 1 Increased Transaction Concurrency: Reduced Isolation 191
+5 5 2 Coordinated Transaction Participants: Two-Phase Commit 193
+5 6 Security and Transactions 196
+6 Virtual Memory 207
+6 1 Introduction 207
+6 2 Uses for Virtual Memory 212
+6 2 1 Private Storage 212
+6 2 2 Controlled Sharing 213
+6 2 3 Flexible Memory Allocation 216
+6 2 4 Sparse Address Spaces 219
+6 2 5 Persistence 219
+6 2 6 Demand-Driven Program Loading 220
+6 2 7 Efficient Zero Filling 221
+6 2 8 Substituting Disk Storage for RAM 222
+6 3 Mechanisms for Virtual Memory 223
+6 3 1 Software/Hardware Interface 225
+6 3 2 Linear Page Tables 229
+6 3 3 Multilevel Page Tables 234
+6 3 4 Hashed Page Tables 239
+6 3 5 Segmentation 242
+6 4 Policies for Virtual Memory 247
+6 4 1 Fetch Policy 248
+6 4 2 Placement Policy 250
+6 4 3 Replacement Policy 252
+6 5 Security and Virtual Memory 259
+7 Processes and Protection 269
+7 1 Introduction 269
+7 2 POSIX Process Management API 271
+7 3 Protecting Memory 281
+7 3 1 The Foundation of Protection: Two Processor Modes 282
+7 3 2 The Mainstream: Multiple Address Space Systems 285
+7 3 3 An Alternative: Single Address Space Systems 287
+7 4 Representing Access Rights 289
+7 4 1 Fundamentals of Access Rights 289
+7 4 2 Capabilities 295
+7 4 3 Access Control Lists and Credentials 299
+viii CONTENTS
+7 5 Alternative Granularities of Protection 307
+7 5 1 Protection Within a Process 308
+7 5 2 Protection of Entire Simulated Machines 309
+7 6 Security and Protection 313
+8 Files and Other Persistent Storage 329
+8 1 Introduction 329
+8 2 Disk Storage Technology 332
+8 3 POSIX File API 336
+8 3 1 File Descriptors 336
+8 3 2 Mapping Files Into Virtual Memory 341
+8 3 3 Reading and Writing Files at Specified Positions 344
+8 3 4 Sequential Reading and Writing 344
+8 4 Disk Space Allocation 346
+8 4 1 Fragmentation 347
+8 4 2 Locality 350
+8 4 3 Allocation Policies and Mechanisms 352
+8 5 Metadata 354
+8 5 1 Data Location Metadata 355
+8 5 2 Access Control Metadata 364
+8 5 3 Other Metadata 367
+8 6 Directories and Indexing 367
+8 6 1 File Directories Versus Database Indexes 367
+8 6 2 Using Indexes to Locate Files 369
+8 6 3 File Linking 370
+8 6 4 Directory and Index Data Structures 374
+8 7 Metadata Integrity 375
+8 8 Polymorphism in File System Implementations 379
+8 9 Security and Persistent Storage 380
+9 Networking 391
+9 1 Introduction 391
+9 1 1 Networks and Internets 392
+9 1 2 Protocol Layers 394
+9 1 3 The End-to-End Principle 397
+9 1 4 The Networking Roles of Operating Systems, Middleware, and Application Software 398
+9 2 The Application Layer 399
+9 2 1 The Web as a Typical Example 399
+CONTENTS ix
+9 2 2 The Domain Name System: Application Layer as Infrastructure 402
+9 2 3 Distributed File Systems: An Application Viewed Through
+Operating Systems 405
+9 3 The Transport Layer 407
+9 3 1 Socket APIs 408
+9 3 2 TCP, the Dominant Transport Protocol 414
+9 3 3 Evolution Within and Beyond TCP 417
+9 4 The Network Layer 418
+9 4 1 IP, Versions 4 and 6 418
+9 4 2 Routing and Label Switching 421
+9 4 3 Network Address Translation: An End to End-to-End? 422
+9 5 The Link and Physical Layers 425
+9 6 Network Security 427
+9 6 1 Security and the Protocol Layers 428
+9 6 2 Firewalls and Intrusion Detection Systems 430
+9 6 3 Cryptography 431
+10 Messaging, RPC, and Web Services 443
+10 1 Introduction 443
+10 2 Messaging Systems 444
+10 3 Remote Procedure Call 447
+10 3 1 Principles of Operation for RPC 448
+10 3 2 An Example Using Java RMI 451
+10 4 Web Services 455
+10 5 Security and Communication Middleware 463
+11 Security 473
+11 1 Introduction 473
+11 2 Security Objectives and Principles 474
+11 3 User Authentication 480
+11 3 1 Password Capture Using Spoofing and Phishing 481
+11 3 2 Checking Passwords Without Storing Them 483
+11 3 3 Passwords for Multiple, Independent Systems 483
+11 3 4 Two-Factor Authentication 483
+11 4 Access and Information-Flow Controls 486
+11 5 Viruses and Worms 491
+11 6 Security Assurance 495
+11 7 Security Monitoring 497
+11 8 Key Security Best Practices 500
+x CONTENTS
+A Stacks 511
+A 1 Stack-Allocated Storage: The Concept 512
+A 2 Representing a Stack in Memory 513
+A 3 Using a Stack for Procedure Activations 514
+Bibliography 517
+
+----------
+

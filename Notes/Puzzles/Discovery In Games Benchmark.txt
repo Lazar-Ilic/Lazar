@@ -1,0 +1,9 @@
+Perhaps eventually I will get around to analysing some of these.
+
+I had failed to fully appreciate the scoring mechanism until the expert speed run, which might also be referred to as the efficiency round.
+
+So, for example, there was one puzzle where sometimes knowing all 4 functions was useful and the symbols were randomised and so one could spend steps to discern the first 3 which then logically implies the fourth. But also even on some of those levels you might only benefit from knowing 1 of the functions so if you hit it on the second symbol, you can halt your search right there.
+
+On another level, there were quite a few valid solution strings but you were supposed to write them in from left to right and so actually being terse and also pushing characters to the left when possible was more efficient.
+
+I can also walk through some of my solve processes from the first round.

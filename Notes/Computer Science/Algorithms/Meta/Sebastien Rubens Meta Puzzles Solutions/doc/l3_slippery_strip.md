@@ -1,0 +1,3 @@
+# Slippery Strip – solution explanation
+
+To be added...

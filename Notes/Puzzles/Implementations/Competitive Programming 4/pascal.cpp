@@ -1,0 +1,13 @@
+    in>>a;
+    if(a==1){
+        out<<0<<nl;
+        return;
+    }
+    for(b=2;b<=sqrt(a);b++){
+        if(a%b==0){
+            out<<a-a/b<<nl;
+            return;
+        }
+    }
+    out<<a-1<<nl;
+    return;

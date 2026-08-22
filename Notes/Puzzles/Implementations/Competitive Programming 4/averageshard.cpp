@@ -1,0 +1,20 @@
+    in>>a>>b;
+    al=0;
+    bl=0;
+    for(c=0;c<a;c++){
+        in>>d;
+        al+=d;
+        av.add(d);
+    }
+    for(c=0;c<b;c++){
+        in>>d;
+        bl+=d;
+        bv.add(d);
+    }
+    ad=D(al)/a;
+    bd=D(bl)/b;
+    d=0;
+    for(c=0;c<a;c++){
+        if(av[c]<ad and av[c]>bd)d++;
+    }
+    out<<d<<nl;

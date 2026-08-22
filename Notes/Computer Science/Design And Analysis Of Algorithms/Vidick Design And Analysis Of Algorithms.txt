@@ -1,0 +1,141 @@
+Thomas Vidick
+Home
+Publications
+Teaching
+About
+CMS 139 Design and Analysis of Algorithms
+Term: Winter 2022
+Lectures: MW 10:30-11:55, 213 ANB
+Instructor: Thomas Vidick (vidick@caltech.edu).
+Office Hours: Tuesday 1:30-2:30pm, 207 ANB
+TA: Haoxuan (Steve) Chen (haoxuan@caltech.edu).
+Office Hours: TBA, 205 ANB.
+
+Course description
+This course develops core principles for the analysis and design of algorithms. Basic material includes mathematical techniques for analyzing performance in terms of resources, such as time, space, and randomness. The course introduces the major paradigms for algorithm design, including randomized algorithms, linear and semidefinite programming, approximation algorithms, spectral methods, and online learning.
+
+Prerequisites: Ma 2, Ma 3, Ma/CS 6a, CS 21, CS 38/138, and CMS/ACM/EE 116 or ACM/CMS 113 or equivalent.
+
+This should not be your first course in algorithms. If you have not previously taken undergraduate-level algorithms, please register for CS38 instead.
+
+Office hours and recitation
+You are strongly encouraged to come to my office hours or to those held by the TA. You can come to office hours to discuss assignments, but not only for that. You can come to discuss anything related to the course: the material covered in class, the material not covered in class, your interest in the class, etc. You are also welcome to come in for advice on how to do well in the class.
+
+Recitation sections will be held periodically. The goal of recitation is to spend additional time reviewing key material from the class, or that is needed to understand class. Recitations are particularly useful for students having difficulties for the class, but they are meant for all students.
+
+Resources
+We won’t be following any particular textbook. Lecture notes will be posted on piazza after each lecture. Standard books you may find useful include Probability and Computing by Mitzenmacher and Upfal, Randomized Algorithms by Motwani and Raghavan, and Approximation Algorithms by Vazirani.
+
+Evaluation
+This is a 12-unit course. In addition to attending 3 hours of lecture weekly, students are expected to:
+
+(55% of grade) Turn in a (roughly) weekly homework set. Assignment consists of 4-6 exercises each. The assignment will be available on Piazza at least one week before the due date. Solutions are to be handed in via Gradescope (handwritten and scanned solutions are equally good as latexed solutions). Instructions for registering on Gradescope will be posted to Piazza in the first week. Grading will take into account clarity and rigor of exposition: make sure your solutions are presented appropriately and include complete proofs whenever required.
+(45% of grade) A midterm and a final, worth 20% and 25% of the grade respectively. The midterm and final are similar to the homeworks in length and difficulty, except that they cover material from the entire class to date. You have one week to solve each of them, and they are strictly no-collaboration.
+Collaboration policy
+The midterm and the final, should be completed on your own: strictly no collaboration.
+The homeworks can be solved in collaboration with other students in the class (and I encourage it). But you should read and think about each problem alone for at least a few minutes before collaborating. You must produce the final write-up for submission alone, without relying on notes of any kind from your discussions; your solution must depend solely on your own understanding.
+It is ok to look up definitions online or wherever you find convenient. It is not ok to use solutions found online, in whole or in part. If by accident you find a solution to an assigned problem, or a problem that is close to an assigned problem, you should immediately put it aside. Do not violate the honor code. In case of uncertainty ask.
+In all cases where collaboration is allowed, you should indicate on your solution the name of your collaborator(s).
+
+See the collaboration policy.
+
+Communication
+We will use Piazza for all class-related discussions. Please direct your questions and comments to the course website on piazza. (Contact the TAs if you do not have access to the website.) You are free to post anonymously. If posting about a homework, make sure your question does not reveal a partial solution, and post it publicly. If you need to, you can also post privately, but this is not the preferred option.
+
+Piazza questions about the Homeworks will only be answered up until 24 hours before the submission deadline. For the midterm and final, we will stop 48 hours before the deadline. After that, you’re on your own! In case you spot a typo or a mistake, clearly indicate it on your solution. Whenever possible, use best judgement to find the correct formulation for a question.
+
+Homework submission will be handled via Gradescope.
+
+Indicative schedule of lectures
+01/03 Lecture 1: Review
+Basics of algorithm analysis: Quicksort
+Events and random variables
+Randomized quicksort
+Median-finding
+01/05 Lecture 2: Flows
+Ford-Fulkerson
+Karger’s min-cut algorithm
+01/10 Lecture 3: Randomized algorithms
+The class BPP
+Markov and Chebyshev inequality
+Application: analysis of sampling-based algorithm for median-finding
+01/12 Lecture 4: The Chernoff bound
+Statement and proof
+Application: The class BPP. Error amplification
+Application: randomized routing on the hypercube
+HW1 due Friday
+01/17 No lecture (Martin Luther King Day)
+
+01/19 Lecture 5: Streaming algorithms
+The streaming model
+Approximating the first and second frequency moments
+Derandomization using pairwise independent hashing
+01/24 Lecture 6: Dimension reduction
+The Johnson-Lindenstrauss lemma
+01/26 Lecture 7: Applications of dimension reduction
+Packing
+Matrix multiplication
+Approximate nearest neighbors using locality-sensitive hashing
+HW2 due Friday
+01/31 Lecture 8: Uncapacitated facility location
+Linear programming formulation
+Dual linear program
+Deterministic rounding
+Randomized rounding
+02/02 Lecture 9: Semidefinite programming
+Motivation: a relaxation for MAXCUT
+Semidefinite programs. Canonical form.
+Duality for SDP
+HW3 due Friday
+02/07 Lecture 10: Rounding semidefinite programs
+A semidefinite relaxation for general quadratic programs
+Randomized rounding
+Deterministic rounding
+02/09 Lecture 11: The ellipsoid algorithm
+Midterm due Friday
+02/14 Lecture 12: Online algorithms
+The multiplicative weights algorithm (MWA)
+Applications of MWA
+02/16 Lecture 13: Spectral graph theory
+Matrices associated to a graph
+Cheeger’s inequality
+02/21 No lecture (President’s Day)
+
+02/23 Lecture 14: Spectral partitioning
+HW 4 due Friday
+02/28 Lecture 15: Markov Chains
+
+03/02 Lecture 16: Approximate counting/volume estimation
+
+03/07 Lecture 17: Solving systems of linear equations (1/2)
+Iterative solvers
+HW 5 due Monday
+03/09 Lecture 18: Solving systems of linear equations (2/2)
+Laplacian solvers
+Final due Monday March 18
+Resources
+We won’t be following any particular textbooks. Lecture notes will be posted on piazza after each lecture. Specific portions of the course are covered in detail in the following textbooks:
+
+Randomized algorithms: Probability and Computing by Mitzenmacher and Upfal and Randomized Algorithms by Motwani and Raghavan, and The Probabilistic Method.
+Approximation algorithms: Approximation Algorithms by Vazirani.
+Combinatorial optimization: Combinatorial optimization, polyhedra and efficiency, by Schrijver. See also the publicly available lecture notes by Schrijver.
+Links to similar courses taught at other universities which have lecture notes online:
+
+Linear and Semidefinite Programming, Advanced Approximation Algorithms and A Theorist’s Toolkit, taught by Ryan O’Donnell at CMU.
+Combinatorial Algorithms and Data Structures, taught by Satish Rao at Berkeley.
+Mathematical Toolkit, taught by Madhur Tulsiani at TTI/University of Chicago.
+Advanced Algorithm Design, taught by Sanjeev Arora at Princeton.
+Randomized Algorithms and Probabilistic Analysis, taught by Greg Valiant at Stanford.
+See also the following notes available online:
+
+Semidefinite Programs and Combinatorial Optimization, by Laslo Lovasz.
+I am a professor in the Computing and Mathematical Sciences department at the California Institute of Technology.
+
+Contact:
+email: vidick@caltech.edu
+office: Annenberg 207
+phone: (626) 395-8684
+Mailing address:
+California Institute of Technology, MC 305-16
+1200 E. California Blvd.
+Pasadena, CA 91125

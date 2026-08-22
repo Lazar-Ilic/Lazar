@@ -1,0 +1,235 @@
+		2022 Quora Programming Challenge
+	IP
+
+Extremely tricky to parse task, could not figure out why it said 22 instead of 21 what was going on here.
+
+	XUORA
+
+I submitted a file with partial casework on n, n+1, n+2, n+3, n+4 case. I had a function which computed the XOR of 1, 2, ..., a by computing the front bit on parity of a and then recursing to the (a-2^b) case as the XOR of 1, 2,... 2^b-1 is 0. And then you can use subsetsize on top of this function to basically make things work out and induce natural 1, 2, 3, 4 tuples as needed. But I was pretty triggered over my mediocre performance and rage quit the round around 120 minutes and went back to Loss Data Analytics textbook for Probability Models and pending homeworks I just scraped from the course website last night.
+
+	DNA
+
+Onsighted this one and aced. It is a 5 liner using convolution. Generating functions convolving the indicator vectors for A and T and for C and G and then adding gives the multiplicities for each location. Ensure to start the k value at 1 for the null 0 cases and output. Ensure to loop through only checking genuine folds, they cannot occur on letters, have to come in between which corresponds with odd indices in the convolutions output vectors. One wonders if the Quora firm team has read my Github corpus and was inspired by previous emails spams on the topic of convolution, in conjunction with my Game Theory Notes.pdf comments on DNA strings matching, to compose this particular task.
+
+	CITY
+
+Seems it was a rather tricky trees task which maybe involved heavy light decomposition.
+
+	PICTURE
+
+I thought of some canonical USACO tasks, map into 1 through n rather than the default values by sorting and a map. It has to do with some sums of some dudes choose 2 and maybe left to right sweeping with the right data structure to do range updates perhaps.
+
+	CAKE
+
+Did not read. If this was on R2 geometry, I think in round I Googled that it was in fact canonical but could not find performant C++ code and make it pop for the ace.
+
+	COLDSTART
+
+Did not make non trivial progress. Now I do more non trivial canonical data science tasks implementations in Python.
+
+		2021 Quora Programming Challenge Division 1
+
+https://jonathanirvin.gs/files/division1_56b3e0587030.pdf
+
+https://codeforces.com/blog/entry/86539#comments
+
+	Digest Recommendation
+
+Frankly parsing this task is annoying to me right now it is late and night and it would appear to be rather straightforward and manual execution.
+
+	Escape
+
+When executing the first step of expanding territories qua marked by guards it is critically important to not recompute i.e. one must prune somehow or execute this step in order halting as needed and then all that remains is a breadth first search of acceptable spaces for Victor to step to. Standard flood fill approaches will natively support this sort of thing for the guards set. So this is the case as I resolved after tanking for another couple minutes frankly didn't onsight but got the ace I think.
+
+	Students
+
+Onsight fakesolve. Black white modulo 2 chess board parity tiling greedy argumentation suggests that one can compute the connected components in O(n^2) and then max out from each connected component by picking the larger of the 2 induced subsets. So this is in fact incorrect so we do actually need a maximum independent set bipartite algorithm here because yes it is true that the underlying graph is bipartite by this argumentation which is stronger than simply being a graph. However Codeforces user "Egor" poorly describes a counterexample which is like [0,0], [0,1], [1,1], [0,2], [-1,2], [0,3] so in this example we take the 4 dudes on the outside whereas each colour induces a subset of size 3. Et voila. Maximum Independent Set is NP Complete I think but in the case of Bipartite Graphs it is Konig's Theorem that the number of edges in a maximum matching is the number of vertices in a minimum vertex cover. And then it is as easy as computing the maximum flow through the bipartite graph with a source vertex with a 1 edge to each dude on the left and a sink vertex with a 1 edge from each dude on the right. However, maximum matching can be done with Hopcroft Karp in E * sqrt[V] so voila voila.
+
+	Walls
+
+Minimum spanning tree. The actual edge costs I think can be computed prior to executing by traversing down the row with a dynamic program and the relevant data structure. Sort of related to another structure of performant minimum cost maximum flow employee 1 qua source and 1 thresholded edges from other employees to sink.
+
+"
+Yea it is, you just need to maintain the current type of connected components in each column and also which squares in the column are "active"."
+
+"
+Sure, here's a link: https://pastebin.com/pRjgYdNH.
+
+Essentially, I use a state that, after all vertical walls prior to a given column and all horizontal walls in that column have been processed, indicates the connectivity structure of the current column and which connected components contain workers. There are then 22 states, though I track them as values from 0 to 47 to make keeping track of the underlying values easier--essentially, for a given state S, column 0 is in connected component 0, S % 2 is the connected component containing column 1, (S / 2) % 3 is the connected component containing column 2, and S / 6 is a bitmask representing which components contain workers, and 32 possible transitions at each column (as there are five walls that could be removed in each transition). I precalculate all possible transitions, after which my solution is a fairly straightforward DP approach.
+"
+
+	Tourism
+
+It's a tree and the mathsy puzzley task which is suggested is oil gasoline around a circle where one can simply let things go negative and later recompute normed values and here methinks similarly compute something over a whole tree and then like compute a minimum on a subtree query in relation to the value at the starting node so it's all fixed irrespective and normed out in O(1) following an O(log ) query.
+
+	Flipped Data
+
+The immediate idea is for each row compare the likelihood function of that row and its flip under the given statistics and then just pick the least likely rows under that metric of perhaps a direct ratio of likelihood functions should get real good performance and not worry about anything else in round. I was thinking in C++ might need to add logarithms or whatever here of course a variety of estimation techniques.
+
+"
+I got AC by assuming each column originally followed a normal distribution with its post-flip mean and standard deviation and picking the rows where the product of the normal PMF corresponding to each value assuming the row is not flipped divided by the product of the normal PMF corresponding to each value assuming the row is flipped is minimized. Intuitively, I assumed that the flips didn't substantially change the overall distribution of each column and then picked the rows where flipping most drastically increases the probability that the values in the row appear in their corresponding distributions.
+
+Here's my code (excluding my template): https://pastebin.com/YtYNwPh5
+"
+
+I'll just add here for posterity's sake it's pretty mildly kekkorino tier that this dude doesn't know maths clear, precise, technical writing because actually bro in the abstract a Normal refers to a distribution on the continuous reals and this is known as a Probability Density Function in that case of support not a Probability Mass Function so this it to be expected. Furthermore real wankers know that a product of PDFs is called a joint probability density function of a joint distribution... I do not jest here I am not even kidding I am completely bona fide serious this dude shows in public repeatedly when he writes [and this is my fear too] he shows how severely unread/illiterate/sloppy and statistically lacking he really is I mean this is the technical technical truth.
+
+"
+For the second last problem, we want to select the reversed rows. A cell is misplaced if its value deviates from the mean of the column. We do want to normalise the deviation by dividing with the standard deviation of the column. The rows with many very misplaced cells are likely reversed.
+
+We can reverse the b worst rows, and the result was already quite good (around 70?).
+
+The issue with reversing many rows at once is that we might reverse the wrong row. One way is to reverse one row at a time, and recalculate the mean and standard deviation. But this is too slow.
+
+The middle ground is to reverse a portion of the b rows, in maybe 16 portions. I scored 99 points (even though it displayed 100 on the console).
+
+The "ML technique" here is statistical knowledge of mean and standard deviation.
+
+Code: https://github.com/tonghuikang/codecomp/blob/quora-2021-1/template/f.py
+"
+
+	Identifying Spammers
+
+So methinks this is a canonical data science task and one ought to have executed tasks such as this one prior to the round.
+
+"
+For the last problem, I think trying to do feature engineering is unnecessary. They tell you the exact model used to generate the data (a Markov chain for each user type), and there are pretty much no hidden variables, so you can directly estimate the parameters of the Markov chain using the input data, and then directly compute the Bayesian probabilities of the user types given the test inputs.
+"
+
+For the last problem, I used LightGBM (which is one the packages Quora allows, and is faster than XGBoost).
+
+The challenge is feature engineering. Each data should have the same set of features, but what we see in the data is that each user can visit multiple sites. What I did is to cycle through the visits — each user will revisit the first site again. For the time, I calculated the time difference, and cycle. Each data will have 200+200 features.
+
+I was prepared to handle more feature engineering and fine-tune the threshold, but I got full marks after a few tries.
+
+The "ML technique" feature engineering, and trust the black box GBDT model and pray.
+
+Code: https://github.com/tonghuikang/codecomp/blob/quora-2021-1/template/spam.ipynb"
+
+		2021 Quora Programming Challenge Division 2
+
+https://jonathanirvin.gs/files/division2_3d16774b0423.pdf
+
+	Connect 4
+
+The most naive algorithm I can think of off the dome checks like 24+21+8*3=69 lol potential spots for 4 in a row and a less naive one will only check the like at most 13 induced by the newest disc but this constant factor is probably not going to change the outcome between Time Limit Exceeded and Accepted verdicts so the easier implementation to clear the threshold and move on in round is the former I think.
+
+	Treasure
+
+Dynamic program tracking the maximum and multiplicity just process in order like top to bottom row by row and in each row left to right or whatever ensuring to take the multiplicities modulo as desired.
+
+	Data Center
+
+It certainly ought to be noted that the minimisation point occurs due to axes independence at the the median median and uh one might think that under some assumptions there exist sharp algos which will perform fairly well I dunno could contemplate that further but in any case here the task statement reads like n log n is OK and to be quite honest you just sort and look up axes separately noting that the sum is OK never mind I misread the task feeling kinda smashed buzzed here man slept 5 hours total these last 2 nights combined wrecked rekt today needa keep it cooler tonight so I can sleep man woke up brutal skin tingling pains way way way too hot bad thermostat performance here will fuck you up real real real bad in any case it is the max and so we gotta contemplate a little diagonals etc. loci and diamonds and come back maybe read the next task pop back in a mo'.
+
+	Skyscraper
+
+So n log^2 n works here probably let me think and I can always whip out my old trusty local text file CSES.txt which contains 300 tutorials and observe immediately that I think just like a segment tree like structure supporting a range max query like SGLZ.cpp can then binary search for the relevant threshold locations.
+
+	Help Crawlers
+
+So the general question here is like we have some graph say it is a digraph a directed graph then boom strongly connected components source sink breakdowns and boom boom boom need to add minimal number of edges amongst them to like induce needed cyclicity from the sink connected components up to the upstream roots I do not know if I skim parse one way add some stupid trivial question with the minimum so if it is about edges then canonical probably. In terms of the induced forest of strongly connected components it would seem to me that one would need to perhaps induce a cycle amongst all the roots and then add an edge from each sink component to its root dude and this would produce the optimum.
+
+	Broken Message
+
+1 missing word per line should be super duper easy to fix with like gee bigrams 2 grams or what type of speech classification seems too non trivial middle of the round so it may be some super duper simple EZPZ lemon squeezy probabilistic inference model in fact but one would think 2 2 grams with mild updating upon the other words in the sentence would work out quite well a priori as an ignoramus maths major.
+
+	Malicious Data
+
+I do not know bro so a middle of the round technique here might be to back up solve with the relevant queries to Google including terms like "ROC" and "ROC-AUC" maybe do a query like ""adversarial" "ROC" "machine learning"" see what that ping pops up.
+
+		2014 Quora Haqathon
+
+https://www.hackerrank.com/contests/quora-haqathon/challenges
+
+	Archery
+
+Would strike me that firstly it evokes the new minimal Quora logo redesign which is mildly interesting and can be viewed very large to see all the minutiae in the curvatures. This new logo sort of evokes Twitter in a way and perhaps default pattern animalmorphic recognition might even think it looks like the beak of a birdy out of a birdy head. In any case this task methinks that all that is relevant is the distance from the center of the 2 end points and 1 midpoint for each segment. So that information can enable us to deduce which circles this segment strikes precisely 1 time. I do not know if I even care to parse the task here I think the relevant O[log n] query works on n circle radii in a sorted array or OSET ordered set or whatever.
+
+	Schedule
+
+"
+This is a classical greedy problem. Most of you probably figure out this part: first sort the jobs in ascending order of their "weights". We define job's weight as (1-pass probability)/time. We want jobs with highest failure probabilities to be processed first but also take their time into account.
+
+Then calculating the minimum amount of time is pretty straight forward.
+
+It's always going to take at least the amout of time that it takes to run the first job. And then you add the amounts of time it takes to run all the other jobs multiplied by the probability that each job will run.
+"
+
+	Upvotes
+
+To be sure the immediate observation is that it suffices to sum these metrics over all the induced windows. And so if like handle the ends correctly this should break down very simply in to just processing through in O[n] like computing some maximal such subchains and then some sigma over the number of induced windows which capture each dude i.e. if there is a dude of length 3 then if it is in the interior it is captured in like K-2 dudes but you need to take a relevant like min or max call with respect to both ends depending on the input but some flip flop the swip swap of summation order here taking some 2 sigma double sum sum sum over the proper direction should work.
+
+	Related Questions
+
+Some dude had like an adjacency matrix I guess from the variable name and a very simple main and 3 very simple depth first search functions which included very simple maths equations. Eyeballing code is always fun and pedagogical as Adam wrote down in his Quora post on the topic of competitive programming. Maybe that Asana firm can toss me that 2 million signing bonus I deserve [joking]. Then I read the task and it makes sense post facto checks out I guess kind of interesting task statement actually had not seen something quite like this before in the canon. But uh it seems kind of natural and motivated I mean a little heavy handed on the fact that we at the Quora firm are in fact interested in producing the nice educational text file textual experience. So it is crystal clear of course the key idea is that the incentives I mean it is lowkey like common knowledge all incentives are aligned and the user wants the maximised experience and chooses to engage with it even though it includes the advertisement exposure which is a trade where every party is better off almost ipso facto tautologically the agentic desire wants it chooses it prefers it. There exists a Software Engineering StackExchange thread humorously competitor firm Questions and Answers on this task. And a Codeforces thread with accepted code:
+
+https://codeforces.com/blog/entry/15196
+
+	Ontology
+
+I don't know seems like I were in round and opened up my Strings .txt file it would tell me the answer in fact it might tell me the answer on line 1 which has to do with a trie on top of some canonical trees algorithms perhaps.
+
+	Wombats
+
+For me this evokes the problem solving strategy of trying the simpler case like less dimensions here reminds me lowkey of that IBM Research Ponder This dynamic programming task where we bottoms up i.e. the possible states here have to do with that gravity legitimate rule and then like well here I don't know the N<=12 input constraint suggests basically anything OK will work here.
+
+	Labeler
+
+I don't fucking know bro parse on like Python split " " or whatever and execute some 1 grams or 2 grams topics mapping probability posterior whatever. Look at the metric think about obscurity.
+
+	Duplicate
+
+I don't know bro read the task statement quite clearly and precisely if we have users' input to guide the decision making further down the road to rise to the level of checking or just deciding I don't think that users have a button to push to mark duplicate so I mis parse here maybe similarity score metric.
+
+	Sorted Set
+
+Yeah yeah woah there bro Unix domain shmodomain bro codomain who knows some technical stuff too too too technical this is why those bozos clowns in the Bay who actually know the stuff get the jobs and losers like me sneer over our Wordle Jane Street Puzzle 1st Solver technical skillz.
+
+		2012 Codesprint Quora
+
+https://www.hackerrank.com/contests/cs-quora/challenges
+
+	Scrabble Stepladders
+
+I do not know seems easy EZPZ perfect who knows strings dynamic programs tile values seem pretty important.
+
+	Quora Nearby
+
+Wow they even had an application for iPhone back in 2012 wow this firm is the real deal I mean they show up in my Google queries a ton so that is legitimate. Who knows bro canonical data science.
+
+	Quora Feed Optimiser
+
+Right store some store some store but like in the earlier task about independent sets maybe we want to gradient descent in to an optimum where uh even if a user love love loves basketball we do not give them a monotone feed of all basketball I mean we gotta mix it up include a term for variety so keep it icy spicy dicey for the user mix it up mash it up the right way on their daily feed and they keep coming back for more of that litty lit lit text files. Upon further review they probably have domain expertise and tons of complex models to drive maybe some users they get data suggests they do in fact want to give them a ton a ton of basketball content or whatever it is all implicit.
+
+	Quora Typehead Search
+
+15
+ADD user u1 1.0 Adam D'Angelo
+ADD user u2 1.0 Adam Black
+ADD topic t1 0.8 Adam D'Angelo
+ADD question q1 0.5 What does Adam D'Angelo do at Quora?
+ADD question q2 0.5 How did Adam D'Angelo learn programming?
+QUERY 10 Adam
+QUERY 10 Adam D'A
+QUERY 10 Adam Cheever
+QUERY 10 LEARN how
+QUERY 1 lear H
+QUERY 0 lea
+WQUERY 10 0 Adam D'A
+WQUERY 2 1 topic:9.99 Adam D'A
+DEL u2
+QUERY 2 Adam
+
+Yeah yeah bro I query Adam every day bro via email his email is adam@quora.com anyways I email him say bro please please brother brate brojim put the filet mignon on to my dinner table bro! How did you learn programming? Ad hoc de novo just invented C++ when he was sitting there at Caltech fucking Chandler with Po Shen Loh chilling stewing brewing contemplating that ICPC team litty lit lit and brothers know a thing or 2 about strings brother so that's that gaaah alter ego what does he do there at Quora I mean he selling dope cocaine crack to the kids bro teaching them biology bro showing them the Alex K Chen poo poo spams text files.
+
+	Quora Answer Classifier
+
+I would fail to ace this in round nowadays dunno probably canonical data sciencey task maybe nowadays they need more algos wannabe whizzes on infra or optimisation of machine learning algorithms or whatever.
+
+	Quora Trend Analyser
+
+
+
+	Quora Browser Extensions
+

@@ -1,0 +1,294 @@
+Converting ugh a string of As and Cs...
+
+Could try bashing for some small strings brute force and seeing if I notice a pattern or closely examine a recursion here on lengths maybe maybe...
+
+So...
+
+Prefixes can change...
+
+T changes into a G.
+C and A can not change into a G.
+
+AAAAAAAAAAAACT
+AAAAAAAAAAAACG
+
+For example.
+
+20 letters and need between 880000 and 890000.
+
+Recurses into 19 case at that point I guess and ugh like see what happens maybe we can even try to OEIS this one... how many steps until that part at the first step... A can only go into C.
+
+AAAAC
+CAAAC
+CCAAC
+ACAAC
+ACCAC
+CCCAC
+CACAC
+AACAC
+AACCC
+CACCC
+CCCCC
+TCCCC
+TTCCC
+TTTCC
+TTTTC
+TTTTT
+CTTTT
+CCTTT
+CCCTT
+CCCCT
+ACCCT
+ACACT
+CCACT
+CAACT
+AAACT
+AAACG
+
+AAAC
+CAAC
+CCAC
+ACAC
+ACCC
+TCCC
+TTCC
+TTTC
+TTTT
+CTTT
+CCTT
+CCCT
+CACT
+AACT
+AACG
+
+AAC
+CAC
+CCC
+TCC
+TTC
+TTT
+CTT
+CCT
+ACT
+ACG
+
+AC
+TC
+TT
+CT
+CG
+
+C
+G
+
+1 4 9 14 25
+
+ACAC
+ACCC
+TCCC
+TTCC
+TTTC
+TTTT
+CTTT
+CCTT
+CCCT
+CACT
+AACT
+AACG
+CACG
+CCCG
+TCCG
+TTCG
+TTTG
+CTTG
+CCTG
+ACTG
+ACGG
+TCGG
+TTGG
+CTGG
+CGGG
+GGGG
+
+So in any case maybe they fix up the numerics and we still upsolve here on like converting an initial string into the relevant like
+
+AAAAAAAAAAAAAAAAAACT
+
+Style of string as soon as possible. Lowkey the same as simply converting it into the all C string ugh...
+
+Think maybe I am wrong thus far and actually this recursion is not that simple... try the 6 case maybe we get a square blowup or something here... think we always just sum sum sum and convert the lead I mean final A into the C prior to shwooping the Ts right still means computing the needed here for whatever case and fundamentally shwooping through... is somehow recursively computed I think ugh... also only like 2^20 = 10^6 cases might even lowkey be like bashable ugh errrm maybe maybe maybe not really depending... 2 4 8 maybe power of 2 blowup here lowkey.... to convert back 2 into Cs...
+
+AAAAAC
+CAAAAC
+CCAAAC
+ACAAAC
+ACCAAC
+CCCAAC
+CACAAC
+AACAAC
+AACCAC
+CACCAC
+CCCCAC
+ACCCAC
+ACACAC
+CCACAC
+CAACAC
+AAACAC
+AAACCC
+
+OKOKOK
+
+Separate the various systems and processes here... converting and in the end we will have to separate odd and even cases I think... maybe consider the simpler problem of converting AAAAAAAs into ACCCCCCC or CCCCCCC to then converting into TTTTTTTTT into CCCCCCCCT back then into an earlier case of CCCCCCCC prefix into AAAAAAA transform... so the entire task should reduce into building up each of these steps as should be pretty intuitive.
+
+AAA to ACC takes 4
+AAAA to AACC takes 8
+AAAAA to AAACC takes 16
+
+AAAAAA
+CAAAAA
+CCAAAA
+ACAAAA
+ACCAAA
+CCCAAA
+CACAAA
+AACAAA
+AACCAA
+
+Uh inductively
+
+AAACCA ugh
+CAACCA
+CCACCA
+ACACCA
+ACCCCA
+CCCCCA
+CACCCA
+AACCCA
+AACACA
+CACACA
+CCCACA
+ACCACA
+ACAACA
+CCAACA
+CAAACA
+AAAACA
+AAAACC
+
+Uh is it not just like simply an induction...
+
+AAAAAAAAAAACCA
+
+OKOKOK so induction confirmed that moving from
+
+AAAAAAAA to AAAAAACC takes 2^[n-1] for n >= 3 is good.
+
+Think it is like odd even on parity so something like 2, 4, 2+8, 4+16, 2+8+32, ... for that relevant step. Come back to wrapping this up tomorrow I think that the other 2 conversions are linear in the length and then shwoop shwoop back from the CCCCC to AAAA conversion should be similar... use a script to write up the computation for the first relevant 20 computations or do it by hand or something and frankly think that maybe bashing could work with sufficiently long runtime frankly something like that might work even without recursion. OK then for sure should take like [2n-1] steps to go from CCCCCCCC to CCCCCCCCT conversion step at which point we come back in to the task of converting from CCCCCC to AAAAAA or whatever in the prefix. 1 2 5 10 ... let us try what is going on here.
+
+Go from AAAAAAAAA until 885000 steps left works... just bash it following this program.
+
+CCCC to AAAA
+
+CCCC
+CACC
+AACC
+AACA
+CACA
+CCCA
+ACCA
+ACAA
+CCAA
+CAAA
+AAAA
+
+1 2 5 10 21 ... try 1 more looks like potentially again some pattern with either a like 1 or 2 up front and sum of powers of 2 again relevant...
+
+CCCCC
+ACCCC
+ACACC
+CCACC
+CAACC
+AAACC
+AAACA
+CAACA
+CCACA
+ACACA
+ACCCA
+CCCCA
+CACCA
+AACCA
+AACAA
+CACAA
+CCCAA
+ACCAA
+ACAAA
+CCAAA
+CAAAA
+AAAAA
+
+OKOKOK so it looks like we have computed the desired values and can now compute the Bonus.
+
+Maybe slightly simpler to compute for AAAAAAAAAAAAAAAAC and those dudes and add them up to compute the total from that configuration or whatever... from the all Ts is just like final 1 is just the [n-1] in that configuration it is like the sum from 100 down to 1 except for that 1 case...
+
+OK so for the 5 case we had like...
+AAAAC
+CAAAC
+CCAAC
+ACAAC
+ACCAC
+CCCAC
+CACAC
+AACAC
+AACCC
+CACCC
+CCCCC
+TCCCC
+TTCCC
+TTTCC
+TTTTC
+TTTTT
+CTTTT
+CCTTT
+CCCTT
+CCCCT
+ACCCT
+ACACT
+CCACT
+CAACT
+AAACT
+AAACG
+
+Is fucking 4 As so that means ugh...
+
+[2+8]+[2*5-1]+[1+4]+[1] = 25 steps for 5
+[4]  +[2*4-1]+[2]  +[1] = 14 steps for 4
+[2]  +[2*3-1]+[1]  +[1] = 9
+[0]  +[2*2-1]+[0]  +[1] = 4
+[0]  +[0]    +[0]  +[1] = 1
+
+OKOKOK
+
+Generates 1 5 14 28 53...
+
+Should generate the python program for the bonus I think in a very super duper wooper simple naive computation perhaps we can precompute the other dudes in O[n] is better... or ugh compress...
+
+-1
+2=2*1+2^0-1
+4=2*2+2^1-2
+9=2*3+2^2-1
+14=2*4+2^3-2
+25=2*5+2^4-1
+...
+
+So even these partial summation sums can be compressed further I think into like a very simple summation formula using Triangular numbers and like ugh the summation of powers of 2 compression as well as some simple like floor of something multiplied by like 3/2... off-by-1 from... so it would seem like the number of steps to move from an AAAAAAAAC string of length n down to the GGGGGGGG string is simply given by... n * [n+1] + 2^n - 2 - floor[3*n/2]... I think... checks out I think that a n = 20 we obtain 1048964 is interesting... requires we move off by some amount here...
+
+al=5
+for a in range(2,101):
+	if a<100:
+
+Ugh so OKOKOK n = 100 we obtain... 1267650600228229401496703215324 and from that I think that we need to ummm subtract off like [100 + 4 + 16 + ... + 2^98] I think is like... sum_(n=1)^49 2^(2 n) = 422550200076076467165567735124 so that is like 422550200076076467165567735224 means 1267650600228229401496703215324-422550200076076467165567735220=845100400152152934331135480100 is really kind of funny and convenient and interesting that it would be so simply located oppa never mind not in the 88 to 89 interval as such... anyways we can simply bash downwards I think and compute the step when we have precisely 885000 in the main puzzle left.
+
+Uh errrm I think that like instead of simply doing it that way we can like note that we are tiling from Right to Left with Cs and that like ugh we need to ugh I think ugh think that like frankly ugh it is like moving from...
+
+AAAAAAAAAAAAAAAAAAAC to
+ACCCCCCCCCCCCCCCCCCC is something like 1048964-2^17-2^15=885124 steps...
+AAAAAAAAAAAAAACCCCAC I think ugh...

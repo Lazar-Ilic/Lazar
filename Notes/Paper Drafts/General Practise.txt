@@ -1,0 +1,91 @@
+I will need to Google around much more on the history of... I was recently at my general practitioner's office and one thing which struck me is firstly if I ask for a referral to a young male shrink that is just OK but still maybe there is room for improvement in patient doctor matching... and reading Google reviews is not ideal here since one might surmise a shrink is just harming his clientele patients by over writing amphetamine 'scrip's or something. So it is tricksy.
+
+Anyways another question is why the standardised depression questionnaires are written down, formatted, and designed the precise way they are. The history of studies? Anyways maybe I could script up some stuff maybe they could continue to ongo trialing of wordings and shits to tweak out performance improvements in eliciting useful information e.g. sometimes...
+
+One might even think for some weird reasons relating to human cognition, proprioception, etc. it is somehow going to elicit more information if you ask for something like more binary questions uh... say something like:
+
+Do you feel your life is worth living?
+
+Rather than asking for mood or dysphoria euphoria on a 1 2 3 4 5 bubble in the bubble scale.
+
+Or something odd like that. What is a validated predictor variable where. 
+
+https://www.apa.org/depression-guideline/assessment
+
+Hmmm OK so I must read much more on the history of these text files. As well as the precise .pdf files used in general practise.
+
+----------
+
+"
+Short answer: yes—there’s a lot of research—but today’s genetics isn’t good enough to tell most people which exact workout will work best for them.
+
+Here’s the state of play:
+
+* \#1: Training response is partly genetic
+  Classic and modern studies show big person-to-person differences in how VO₂max, strength, and other traits improve with the same program, and a chunk of that variation is heritable. The HERITAGE Family Study and follow-ups are the usual proofs of concept. ([PMC][1], [Physiology Journals][2])
+
+* \#2: A few single genes are linked to performance “tendencies,” not programs
+  Variants such as **ACTN3 R577X** and **ACE I/D** are associated (on average) with power vs. endurance leanings in athletes, but they don’t deterministically tell you how *you* should train, and results are mixed when you look at training adaptations. Recent meta-analysis and reviews back this nuance. ([SpringerOpen][3], [PMC][4])
+
+* \#3: One small study reported benefits from “genotype-matched” training, but it’s not definitive
+  A 2016 paper using a 15-variant algorithm claimed bigger gains when resistance training was matched to genotype; it was small, sport-specific, and has conflicts of interest. It hasn’t become standard practice. ([PMC][5])
+
+* \#4: Polygenic approaches exist, but prediction for training response is still weak
+  Researchers have proposed gene panels/scores to predict VO₂max trainability and other responses, but replication is limited and accuracy modest—especially across ancestries. Broad reviews of polygenic scores emphasize implementation challenges. ([BioMed Central][6], [ScienceDirect][7], [BMJ Medicine][8])
+
+* \#5: Professional guidance: don’t use DNA to pick workouts (yet)
+  Consensus/position statements in sport & exercise genomics and on direct-to-consumer testing say genetic tests shouldn’t be used to select talent *or* to prescribe training for the public at this time. ([PubMed][9], [PMC][10])
+
+What this means for you right now
+
+* Genetics can hint at broad tendencies (e.g., “power-leaning”), but the best “personalization” still comes from **how you actually respond**—track progress, recovery, and enjoyment, then adjust volume/intensity.
+* Genetics *is* clinically useful for **health screening** in athletes (e.g., inherited cardiac conditions), which is a different use case from optimizing workouts. ([Oxford Academic][11])
+
+If you want, tell me your goal (endurance, strength, general fitness), and I’ll sketch an evidence-based plan plus a simple way to A/B test and “phenotype” your own response over 4–6 weeks.
+
+[1]: https://pmc.ncbi.nlm.nih.gov/articles/PMC9012529/?utm_source=chatgpt.com "The HERITAGE Family Study: A Review of the Effects of ..."
+[2]: https://journals.physiology.org/doi/abs/10.1152/jappl.1999.87.3.1003?utm_source=chatgpt.com "Familial aggregation ofV˙o 2 max response to exercise training"
+[3]: https://sportsmedicine-open.springeropen.com/articles/10.1186/s40798-024-00711-x?utm_source=chatgpt.com "A Systematic Review and Meta-analysis of the Association ..."
+[4]: https://pmc.ncbi.nlm.nih.gov/articles/PMC5741991/?utm_source=chatgpt.com "ACTN3: More than Just a Gene for Speed - PMC"
+[5]: https://pmc.ncbi.nlm.nih.gov/articles/PMC4885623/?utm_source=chatgpt.com "A genetic-based algorithm for personalized resistance ..."
+[6]: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4192-6?utm_source=chatgpt.com "Genes to predict VO2max trainability: a systematic review"
+[7]: https://www.sciencedirect.com/science/article/pii/S2468867323000196?utm_source=chatgpt.com "The genetic basis of exercise and cardiorespiratory fitness"
+[8]: https://bmjmedicine.bmj.com/content/2/1/e000554?utm_source=chatgpt.com "Performance of polygenic risk scores in screening ..."
+[9]: https://pubmed.ncbi.nlm.nih.gov/32201388/ "Sport and exercise genomics: the FIMS 2019 consensus statement update - PubMed"
+[10]: https://pmc.ncbi.nlm.nih.gov/articles/PMC4680136/?utm_source=chatgpt.com "Direct-to-consumer genetic testing for predicting sports ..."
+[11]: https://academic.oup.com/eurjpc/article/29/12/1582/6596972?utm_source=chatgpt.com "Indications and utility of cardiac genetic testing in athletes"
+"
+
+----------
+
+"
+If you make a smoothie from berries will the fibre settle to the bottom leaving juice at the top or not really?
+
+Good question!
+
+When you make a smoothie from berries, the fiber doesn’t really *separate out* the way pulp and liquid do in, say, orange juice. That’s because:
+
+* **Berry fiber is very fine**: The skins and seeds get broken down into tiny particles when blended, and they stay suspended in the liquid for quite a while.
+* **Viscosity is high**: Smoothies are thick, so the denser fiber doesn’t have much chance to settle quickly.
+* **Some mild settling can happen**: Over time (especially if you leave the smoothie in the fridge for hours), you might notice a thin layer of clearer liquid rising to the top and thicker pulp sinking a bit. But a quick stir or shake will recombine everything.
+
+So in short: **No, the fiber doesn’t really separate much in a berry smoothie**—you’re still getting the fiber unless you strain it out.
+
+Would you like me to explain the difference between this and what happens in fresh-pressed juice (where fiber does separate a lot more)?
+
+Can you freshly press berries like rasberries?
+
+You *can* press raspberries and other berries, but it works a bit differently than with something like apples or oranges.
+
+* **Raspberries are very soft** – they don’t have much firm pulp or juice-filled cells that burst under pressure. Instead, most of what comes out is a mix of juice and lots of pulp.
+* **When “pressed”** (in a juicer, press, or even through a fine sieve), you’ll get a thick purée or nectar rather than a clear juice. To get it clearer, you’d need to strain it through cheesecloth or a fine mesh to separate the liquid from seeds and pulp.
+* **Yield is low** – because raspberries are about half seeds and fibrous pulp by volume, you don’t get as much free-flowing juice compared to citrus or apples.
+* **Commercial raspberry juice** is usually made by blending, then filtering and sometimes enzymatically treating the mash to break down pectin, so it flows like juice.
+
+So: yes, you can freshly press raspberries, but the result will be more of a **thick, pulpy juice** unless you strain and filter it well.
+
+👉 Do you want to know the *best home method* to get a clearer raspberry juice (like what you’d buy bottled), or are you more interested in the fiber-rich purée style?
+"
+
+----------
+

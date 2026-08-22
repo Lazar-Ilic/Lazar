@@ -1,0 +1,162 @@
+Perhaps these notes will help... I strongly advise following through The Economist and Bloomberg history along with memorising standard mainstream logical sequents contained therein with respect to ideas about underlying volatility in price movements etc.
+
+"
+### 💌 An introduction
+
+Helloooo, it’s Sarah aka [@milksandmatcha](https://www.tiktok.com/@milksandmatcha) on TikTok. Recently, a lot of people have been asking me about resources and “how to break into trading” so I decided to compile what I’ve used into a notion page. This is the **second** and longer version of that resource! **If you’re interested in past or upcoming guides, be sure to follow my [TikTok](https://www.tiktok.com/@milksandmatcha) where I announce/share them.**
+
+- this is all based on my own experiences but hopefully, you find it somewhat helpful
+- it’s not 100% comprehensive so if you know of anything not mentioned, definitely shoot me a [**DM on TikTok**](https://www.tiktok.com/@milksandmatcha) and I’d love to add it :)
+
+Most of these books and textbooks you can find for free online, although I’m not going to link them. 
+
+### 💌  General Textbooks
+
+---
+
+**[Options Volatility and Pricing](https://www.amazon.com/Option-Volatility-Pricing-Strategies-Techniques/dp/B08ZNQ8MQ1/ref=sr_1_1?crid=2IUJDDJGWXSXI&keywords=options&qid=1688867303&s=audible&sprefix=options%2Caudible%2C385&sr=1-1)**
+
+- I’ve never read this, but most people have
+- considered to be somewhat of a holy grail for learning about option theory
+
+**All of Statistics (AOS)**
+
+- a pretty comprehensive guide and introduction to statistics
+- good if you are interested in quant research
+- this was the textbook for MIT’s “Introduction to statistical data” class
+
+**Elements of Statistical Learning (ELS)**
+
+- definitely read AOS first, this book is more practical and incorporates machine-learning concepts as well
+- Headlands made a [post](https://blog.headlandstech.com/2022/02/16/elements-of-statistical-learning-8-10/) on the most important sections of this book
+
+**Art of Problem Solving**
+
+- Intro to Counting and Probability and Intermediate Counting and Probability
+(these are some of the main books for high school math competition prep on these topics)
+
+**Options, Futures, and Other Derivatives by John Hull**
+
+### 💌  Interview Prep and Questions
+
+---
+
+[**QuantGuide**](https://quantguide.io/milksandmatcha) 
+
+- 500+ free quant interview practice problems
+- think “leetcode for quant” and can filter questions by companies, topics, and difficulties
+- using the link above you get free full access to premium features for a week
+- this is their [collection](https://www.quantguide.io/playlist/trader75) of the 75 must-do questions for trading
+
+**[Kaggle](https://www.kaggle.com/)**
+
+- great data science practice and you can see how others approach datasets
+
+**[Heard on The Street](https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/0970055277)**
+
+- an amazing, comprehensive, list of practice questions
+
+**[A Practical Guide to Quantitative Finance Interviews](https://www.amazon.sg/Practical-Guide-Quantitative-Finance-Interviews/dp/1438236662)**
+
+- includes some stuff on statistics
+- very comprehensive as well and breaks down the types of questions to know
+- many interviewers/trading firms will pull questions directly from this book
+
+### 💌  Good Books to Read
+
+---
+
+These are all books that have been recommended/sent to me by various trading firms.
+
+[Thinking Fast and Slow](https://www.amazon.com/Thinking-Fast-and-Slow-audiobook/dp/B005Z9GAJG/ref=sr_1_1?crid=161DK3Y1PZLG3&keywords=thinking+fast+and+slow&qid=1688867213&s=audible&sprefix=thinking+fast+and%2Caudible%2C389&sr=1-1)
+
+[Fooled By Randomness](https://www.amazon.com/Fooled-Randomness-Markets-RANDOMNESS-Hardcover/dp/B00QOJ6KTQ/ref=sr_1_5?crid=8AVJ4OCGH6I4&keywords=fooled+by+randomness+by+nassim+nicholas+taleb&qid=1688867143&sprefix=fooled+by+rando%2Caps%2C1039&sr=8-5)
+
+[The Art of Strategy](https://www.amazon.com/The-Art-of-Strategy-audiobook/dp/B00DP4YEAU/ref=sr_1_1?crid=3FB98RKB4B7D1&keywords=The+Art+of+Strategy&qid=1688867180&sprefix=fooled+by+randomness+by+nassim+nicholas+taleb%2Caps%2C376&sr=8-1) 
+
+[The Black Swan](https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X/ref=sr_1_1?crid=IHY7P450KU9A&keywords=the+black+swam&qid=1688867194&s=audible&sprefix=the+black%2Caudible%2C453&sr=1-1-catcorr)
+
+Fifty Challenging Problems in Probability with Solutions
+
+Cracking the Coding Interview
+
+### 💌  Additional Sites
+
+---
+
+- [Levels.fyi](http://Levels.fyi) is a good site for seeing what firms are out there and what they pay
+- [OpenQuant](https://openquant.co/) is a good quant trading job search site and has a solid quant game
+- [Zetamac](https://arithmetic.zetamac.com/) is a good site for improving your mental math speeds
+- [Glassdoor](https://www.glassdoor.sg/Reviews/Jane-Street-Reviews-E255549.htm) can often give you a good idea of what a trading firm’s culture and interviews are like
+- [Money Stuff](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine) is a free daily Bloomberg blog that comments on the latest financial news. Reading this consistently for a few months with make eons of change. Everyone should read this!!
+- [The Puzzle Toad](https://www.cs.cmu.edu/puzzle/)
+- [The Best One Yet](https://open.spotify.com/show/5RllMBgvDnTau8nnsCUdse) is a pretty good ex-Robinhood podcast about some of the latest financial news.
+- [This Medium Post](https://medium.com/automation-generation/15-well-known-high-frequency-trading-firms-f45292c56d05) is a good starting point for learning about some of the top firms
+- [Christina Qi](https://www.linkedin.com/in/christinaqi/) recently started posting a HFT 101 series on LinkedIn (she founded her own hedgefund)
+
+### 💌  List of Places to Apply
+
+---
+
+• Jane Street
+• Citadel & Citadel Securities
+• The D. E. Shaw Group
+• Two Sigma
+• Hudson River Trading
+• Jump Trading
+• SIG
+• Optiver
+• Akuna
+• J.P. Morgan
+• Bridgewater
+• QuantCo
+• DRW
+• IMC Trading
+• Five Rings
+• AQR
+• Virtu Financial
+• Tower Research
+• Seven Eight Capital
+• TransMarket Group
+• Wolverine Trading
+• Old Mission Capital
+• Point72 (Cubist)
+• Belvedere Trading
+• Group One
+• Flow Traders
+
+### 💌  Miscellaneous
+
+---
+
+- **QuantStart**: Offers tutorials, articles, and resources on quantitative finance, algorithmic trading, and programming.
+- **QuantConnect**: Provides an algorithmic trading platform where you can test and implement your trading strategies using Python or C#.
+- **Quantitative Trading at Home**: Offers a comprehensive blog with articles on quantitative trading strategies, risk management, and data analysis.
+- **Quantitative Finance Stack Exchange**: A community where you can ask and find answers to questions related to quantitative finance and algorithmic trading.
+- **Investopedia**: Offers educational content on various financial topics, including quantitative trading concepts and strategies.
+- **Quantitative Trading Subreddit**: Engage with discussions on quantitative trading strategies, models, and resources.
+- **Coursera**: While not entirely free, Coursera offers courses like "Introduction to Financial Markets" and "Algorithmic Trading Strategies" that can provide valuable knowledge.
+- **edX**: Similar to Coursera, edX offers courses like "Quantitative Methods for Finance" to help you understand the mathematical concepts behind trading.
+- **QuantNews**: Provides news, articles, and resources on quantitative finance and algorithmic trading.
+- **WorldQuant University**: Offers a free, online Master's-level program in financial engineering, providing education in quantitative finance.
+- **QuantInsti**: While some content is paid, they offer free webinars, articles, and resources related to algorithmic trading and quantitative finance.
+- **Lecture Notes from Universities**: Search for lecture notes from universities that offer courses in quantitative finance and algorithmic trading. Websites like MIT OpenCourseWare and Stanford Online offer free resources.
+- **GitHub**: Explore open-source quant trading projects on GitHub to learn from others and understand practical implementations.
+- **Quantitative Trading Books**: While not websites, many books provide valuable insights into quant trading. Examples include "Algorithmic Trading" by Ernest P. Chan and "Quantitative Finance for Dummies" by Steve Bell.
+
+### 💌  TikToks
+
+---
+
+Here are some videos I’ve made/posted about trading and career.
+
+https://www.tiktok.com/@milksandmatcha/video/7247201159696485674
+
+https://www.tiktok.com/@milksandmatcha/video/7224597557400423722
+
+https://www.tiktok.com/@milksandmatcha/video/7253519098498469166
+
+https://www.tiktok.com/@milksandmatcha/video/7250678921597963566
+
+Thanks for making it to the end and for your endless support! If you enjoyed it, consider buying me a [cup of coffee](https://www.buymeacoffee.com/milksandmatcha).
+"

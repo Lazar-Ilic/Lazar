@@ -1,0 +1,79 @@
+18-29 Year Old Men
+Reference Body Size
+Reference Height 170.3cm
+Reference Weight 63.2kg
+Target Body Mass Index 18.5-22.9kg/m^2
+Estimated Energy Requirement 3050kcal/day
+Protein 13-20% Calories/Day 99g-153g
+Fat 20-30% Calories/Day 68g-102g
+Saturated Fat <=7% <=24g
+Ω-6 Fatty Acid 11g
+Ω-3 Fatty Acid 2.0g
+Carbohydrates 50-65% 381-496g
+Dietary Fibre >=20g
+Vitamin A 850μg Retinol Activity Equivalent Upper Limit 2700μg
+Vitamin D 5.5μg Upper Limit 100μg
+Vitamin E α-tocopherol 6.5mg Upper Limit 800mg
+Vitamin K 150μg
+Vitamin B1 1.4mg
+Vitamin B2 1.6mg
+Niacin Niacin Equivalent = Niacin + Tryptophan/60 15mg Upper Limit 300mg
+Vitamin B6 1.4mg Upper Limit 55mg
+Vitamin B12 2.4μg
+Folic Acid 240μg Upper Limit 900μg
+Pantothenic Acid 5mg
+Biotin 50μg
+Vitamin C 100mg
+Na Sodium <8000mg
+K Potassium >=3000mg
+Ca Calcium 800mg Upper Limit 2500mg
+Mg Magnesium 340mg
+P Phosphorus 1000mg Upper Limit 3000mg
+Fe Iron 7.0mg Upper Limit 50mg
+Zn Zinc 10mg Upper Limit 40mg
+Cu Copper 0.9mg Upper Limit 10mg
+Mn Manganese 4.0mg Upper Limit 11mg
+I Iodine 130μg Upper Limit 3000μg
+Se Selenium 30μg Upper Limit 420μg
+Cr Chromium 10μg
+Mo Molybdenum 25μg Upper Limit 550μg
+
+18-29 Year Old Women
+Reference Body Size
+Reference Height 158.0cm
+Reference Weight 50.0kg
+Target Body Mass Index 18.5-22.9kg/m^2
+Estimated Energy Requirement 2200kcal/day
+Protein 13-20% Calories/Day 72g-110g
+Fat 20-30% Calories/Day 49g-73g
+Saturated Fat <=7% <=17g
+Ω-6 Fatty Acid 8g
+Ω-3 Fatty Acid 1.6g
+Carbohydrates 50-65% 275-358g
+Dietary Fibre >=18g
+Vitamin A 650μg Retinol Activity Equivalent Upper Limit 2700μg
+Vitamin D 5.5μg Upper Limit 100μg
+Vitamin E α-tocopherol 6.0mg Upper Limit 650mg
+Vitamin K 150μg
+Vitamin B1 1.1mg
+Vitamin B2 1.2mg
+Niacin Niacin Equivalent = Niacin + Tryptophan/60 11mg Upper Limit 250mg
+Vitamin B6 1.2mg Upper Limit 45mg
+Vitamin B12 2.4μg
+Folic Acid 240μg Upper Limit 900μg
+Pantothenic Acid 4mg
+Biotin 50μg
+Vitamin C 100mg
+Na Sodium <7000mg
+K Potassium >=2600mg
+Ca Calcium 650mg Upper Limit 2500mg
+Mg Magnesium 270mg
+P Phosphorus 800mg Upper Limit 3000mg
+Fe Iron 6.0-10.5mg Upper Limit 40mg
+Zn Zinc 8mg Upper Limit 35mg
+Cu Copper 0.8mg Upper Limit 10mg
+Mn Manganese 3.5mg Upper Limit 11mg
+I Iodine 130μg Upper Limit 3000μg
+Se Selenium 25μg Upper Limit 330μg
+Cr Chromium 10μg
+Mo Molybdenum 20μg Upper Limit 450μg

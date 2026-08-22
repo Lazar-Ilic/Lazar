@@ -1,0 +1,333 @@
+Contents
+Preface xvii
+Features xviii
+Online Supplements xix
+How to Use the Software Tools in a Course xix
+Labs xx
+Bugs xxi
+Acknowledgments xxi
+Chapter 1 From Zero to One 3
+11 The Game Plan 3
+12 The Art of Managing Complexity 4
+121 Abstraction 4
+122 Discipline 5
+123 The Three -Y’s 6
+13 The Digital Abstraction 7
+14 Number Systems 9
+141 Decimal Numbers 9
+142 Binary Numbers 9
+143 Hexadecimal Numbers 11
+144 Bytes, Nibbles, and All That Jazz 13
+145 Binary Addition 14
+146 Signed Binary Numbers 15
+15 Logic Gates 19
+151 NOT Gate 20
+152 Buffer 20
+153 AND Gate 20
+154 OR Gate 21
+155 Other Two-Input Gates 21
+156 Multiple-Input Gates 21
+16 Beneath the Digital Abstraction 22
+161 Supply Voltage 22
+162 Logic Levels 22
+163 Noise Margins 23
+164 DC Transfer Characteristics 23
+165 The Static Discipline 24
+ix
+
+17 CMOS Transistors 26
+171 Semiconductors 27
+172 Diodes 27
+173 Capacitors 28
+174 nMOS and pMOS Transistors 28
+175 CMOS NOT Gate 31
+176 Other CMOS Logic Gates 31
+177 Transmission Gates 33
+178 Pseudo-nMOS Logic 33
+18 Power Consumption 34
+19 Summary and a Look Ahead 35
+Exercises 37
+Interview Questions 48
+Chapter 2 Combinational Logic Design 51
+21 Introduction 51
+22 Boolean Equations 54
+221 Terminology 54
+222 Sum-of-Products Form 54
+223 Product-of-Sums Form 56
+23 Boolean Algebra 56
+231 Axioms 57
+232 Theorems of One Variable 57
+233 Theorems of Several Variables 58
+234 The Truth Behind It All 60
+235 Simplifying Equations 61
+24 From Logic to Gates 62
+25 Multilevel Combinational Logic 65
+251 Hardware Reduction 66
+252 Bubble Pushing 67
+26 X’s and Z’s, Oh My 69
+261 Illegal Value: X 69
+262 Floating Value: Z 70
+27 Karnaugh Maps 71
+271 Circular Thinking 73
+272 Logic Minimization with K-Maps 73
+273 Don’t Cares 77
+274 The Big Picture 78
+28 Combinational Building Blocks 79
+281 Multiplexers 79
+282 Decoders 82
+29 Timing 84
+291 Propagation and Contamination Delay 84
+292 Glitches 88
+x CONTENTS
+
+210 Summary 91
+Exercises 93
+Interview Questions 100
+Chapter 3 Sequential Logic Design 103
+31 Introduction 103
+32 Latches and Flip-Flops 103
+321 SR Latch 105
+322 D Latch 107
+323 D Flip-Flop 108
+324 Register 108
+325 Enabled Flip-Flop 109
+326 Resettable Flip-Flop 110
+327 Transistor-Level Latch and Flip-Flop Designs 110
+328 Putting It All Together 112
+33 Synchronous Logic Design 113
+331 Some Problematic Circuits 113
+332 Synchronous Sequential Circuits 114
+333 Synchronous and Asynchronous Circuits 116
+34 Finite State Machines 117
+341 FSM Design Example 117
+342 State Encodings 123
+343 Moore and Mealy Machines 126
+344 Factoring State Machines 129
+345 FSM Review 132
+35 Timing of Sequential Logic 133
+351 The Dynamic Discipline 134
+352 System Timing 135
+353 Clock Skew 140
+354 Metastability 143
+355 Synchronizers 144
+356 Derivation of Resolution Time 146
+36 Parallelism 149
+37 Summary 153
+Exercises 155
+Interview Questions 165
+Chapter 4 Hardware Description Languages 167
+41 Introduction 167
+411 Modules 167
+412 Language Origins 168
+413 Simulation and Synthesis 169
+CONTENTS xi
+
+42 Combinational Logic 171
+421 Bitwise Operators 171
+422 Comments and White Space 174
+423 Reduction Operators 174
+424 Conditional Assignment 175
+425 Internal Variables 176
+426 Precedence 178
+427 Numbers 179
+428 Z’s and X’s 179
+429 Bit Swizzling 182
+4210 Delays 182
+4211 VHDL Libraries and Types 183
+43 Structural Modeling 185
+44 Sequential Logic 190
+441 Registers 190
+442 Resettable Registers 191
+443 Enabled Registers 193
+444 Multiple Registers 194
+445 Latches 195
+45 More Combinational Logic 195
+451 Case Statements 198
+452 If Statements 199
+453 Verilog casez 201
+454 Blocking and Nonblocking Assignments 201
+46 Finite State Machines 206
+47 Parameterized Modules 211
+48 Testbenches 214
+49 Summary 218
+Exercises 219
+Interview Questions 230
+Chapter 5 Digital Building Blocks 233
+51 Introduction 233
+52 Arithmetic Circuits 233
+521 Addition 233
+522 Subtraction 240
+523 Comparators 240
+524 ALU 242
+525 Shifters and Rotators 244
+526 Multiplication 246
+527 Division 247
+528 Further Reading 248
+xii CONTENTS
+
+53 Number Systems 249
+531 Fixed-Point Number Systems 249
+532 Floating-Point Number Systems 250
+54 Sequential Building Blocks 254
+541 Counters 254
+542 Shift Registers 255
+55 Memory Arrays 257
+551 Overview 257
+552 Dynamic Random Access Memory 260
+553 Static Random Access Memory 260
+554 Area and Delay 261
+555 Register Files 261
+556 Read Only Memory 262
+557 Logic Using Memory Arrays 264
+558 Memory HDL 264
+56 Logic Arrays 266
+561 Programmable Logic Array 266
+562 Field Programmable Gate Array 268
+563 Array Implementations 273
+57 Summary 274
+Exercises 276
+Interview Questions 286
+Chapter 6 Architecture 289
+61 Introduction 289
+62 Assembly Language 290
+621 Instructions 290
+622 Operands: Registers, Memory, and
+Constants 292
+63 Machine Language 299
+631 R-type Instructions 299
+632 I-type Instructions 301
+633 J-type Instructions 302
+634 Interpreting Machine Language Code 302
+635 The Power of the Stored Program 303
+64 Programming 304
+641 Arithmetic/Logical Instructions 304
+642 Branching 308
+643 Conditional Statements 310
+644 Getting Loopy 311
+645 Arrays 314
+646 Procedure Calls 319
+65 Addressing Modes 327
+CONTENTS xiii
+
+66 Lights, Camera, Action: Compiling, Assembling,
+and Loading 330
+661 The Memory Map 330
+662 Translating and Starting a Program 331
+67 Odds and Ends 336
+671 Pseudoinstructions 336
+672 Exceptions 337
+673 Signed and Unsigned Instructions 338
+674 Floating-Point Instructions 340
+68 Real-World Perspective: IA-32 Architecture 341
+681 IA-32 Registers 342
+682 IA-32 Operands 342
+683 Status Flags 344
+684 IA-32 Instructions 344
+685 IA-32 Instruction Encoding 346
+686 Other IA-32 Peculiarities 348
+687 The Big Picture 349
+69 Summary 349
+Exercises 351
+Interview Questions 361
+Chapter 7 Microarchitecture 363
+71 Introduction 363
+711 Architectural State and Instruction Set 363
+712 Design Process 364
+713 MIPS Microarchitectures 366
+72 Performance Analysis 366
+73 Single-Cycle Processor 368
+731 Single-Cycle Datapath 368
+732 Single-Cycle Control 374
+733 More Instructions 377
+734 Performance Analysis 380
+74 Multicycle Processor 381
+741 Multicycle Datapath 382
+742 Multicycle Control 388
+743 More Instructions 395
+744 Performance Analysis 397
+75 Pipelined Processor 401
+751 Pipelined Datapath 404
+752 Pipelined Control 405
+753 Hazards 406
+754 More Instructions 418
+755 Performance Analysis 418
+xiv CONTENTS
+
+76 HDL Representation 421
+761 Single-Cycle Processor 422
+762 Generic Building Blocks 426
+763 Testbench 428
+77 Exceptions 431
+78 Advanced Microarchitecture 435
+781 Deep Pipelines 435
+782 Branch Prediction 437
+783 Superscalar Processor 438
+784 Out-of-Order Processor 441
+785 Register Renaming 443
+786 Single Instruction Multiple Data 445
+787 Multithreading 446
+788 Multiprocessors 447
+79 Real-World Perspective: IA-32 Microarchitecture 447
+710 Summary 453
+Exercises 455
+Interview Questions 461
+Chapter 8 Memory Systems 463
+81 Introduction 463
+82 Memory System Performance Analysis 467
+83 Caches 468
+831 What Data Is Held in the Cache? 469
+832 How Is the Data Found? 470
+833 What Data Is Replaced? 478
+834 Advanced Cache Design 479
+835 The Evolution of MIPS Caches 483
+84 Virtual Memory 484
+841 Address Translation 486
+842 The Page Table 488
+843 The Translation Lookaside Buffer 490
+844 Memory Protection 491
+845 Replacement Policies 492
+846 Multilevel Page Tables 492
+85 Memory-Mapped I/O 494
+86 Real-World Perspective: IA-32 Memory and I/O Systems 499
+861 IA-32 Cache Systems 499
+862 IA-32 Virtual Memory 501
+863 IA-32 Programmed I/O 502
+87 Summary 502
+Exercises 504
+Interview Questions 512
+CONTENTS xv
+
+Appendix A Digital System Implementation 515
+A1 Introduction 515
+A2 74xx Logic 515
+A21 Logic Gates 516
+A22 Other Functions 516
+A3 Programmable Logic 516
+A31 PROMs 516
+A32 PLAs 520
+A33 FPGAs 521
+A4 Application-Specific Integrated Circuits 523
+A5 Data Sheets 523
+A6 Logic Families 529
+A7 Packaging and Assembly 531
+A8 Transmission lines 534
+A81 Matched Termination 536
+A82 Open Termination 538
+A83 Short Termination 539
+A84 Mismatched Termination 539
+A85 When to Use Transmission Line Models 542
+A86 Proper Transmission Line Terminations 542
+A87 Derivation of Z0 544
+A88 Derivation of the Reflection Coefficient 545
+A89 Putting It All Together 546
+A9 Economics 547
+Appendix B MIPS Instructions 551
+Further Reading 555
+Index 557
+
+----------
+
+I do not yet have this book memmed and prolly ought to mem' like 1000 books more prior to snagging Hudson River Trading or Optiver $3000000|year or whatever comp'.
+
+----------
+

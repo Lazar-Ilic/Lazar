@@ -1,0 +1,134 @@
+Depth First Search: V
+	Obtain sizes of subtrees, Depth First Search level, Depth First Search order [for subtree range updating in conjunction with subtree sizes], Depth First Search in out order [for other canonical tasks], Depth First Search parent, auxiliaries.
+
+Breadth First Search: V
+	Obtain Breadth First Search level i.e. distances, Breadth First Search parent, auxiliaries. To find all vertices which appear in paths from A to B consider the intersection of points reached from A and points reached from B in a reverse BFS Breadth First Search e.g. and it is always worth considering if going backwards in reverse from B to A will run faster in a DFS Depth First Search after the Meta 2024 Hacker Cup Round 2 Task B and Jane Street Puzzles 2024-10 round.
+
+Topological Sorting: E + V
+	Directed Acyclic Graph in order. One can Dynamic Program on this structure. Unique and complete if and only if maximal path has length V - 1. This uniqueness check is as easy as checking that in each decision tree branching step essentially the decision is precisely unique and forced.
+
+Minimum Spanning Tree: E log V
+
+Minimum Paths From Source: E log V
+	Can be O[V^2] a la the Meta Hacker Cup 2022 Round 1 Task C:
+	"To get the rest of the way there, we can take advantage of the fact that the graph here is complete. On complete graphs, it is more efficient to run Dijkstra's without a priority queue. Instead, we can manually search in O[V] time to "dequeue" the next node of minimum tentative distance at each step, ridding ourselves of the log[V] factor due to heap pushes. We end up with a running time of O[V^2]≈1.2 billion steps, with a low constant factor and O[V] space."
+
+Minimum Paths Dynamic
+	Updating through adding and removing edges.
+
+Minimum Paths From Source Negative Edge Weights: EV
+
+Minimum Paths All Pairs: V^3
+
+Maximum Bipartite Matching: E * V^[1/2]
+
+Minimum Cost Bipartite Matching: N^3 Hungarian Or N^2 * M
+
+Strongly Connected Components: E + V
+	Directed graph is partitioned into components where A and B in component means there exist paths from A to B and B to A.
+
+2-Satisfiability: N + E
+	e.g. [a or b] and [!a or d] and...
+
+Articulations And Bridges: E + V
+	Vertices and edges whose removal disconnects a graph. Partition graph.
+
+Biconnected Components: E + V
+	e.g. the graph partitioned by bridges.
+
+Maximum Flow: E * min[E^[1/2], V^[2/3]]
+
+Maximum Flow Push Relabel: E^[1/2] * V^2
+
+Minimum Cost Maximum Flow: ~E^2
+
+Minimum Hamiltonian Path: Nondeterministic Polynomial Time Complete
+
+Dynamic Connectivity
+	1	Incremental Connectivity
+	2	Decremental Connectivity
+	2.1	Acyclic Graphs [Forests]
+	2.2	General Graphs
+	3	Fully Dynamic Connectivity
+	3.1	Acyclic Graphs [Forests]
+	3.2	General Graphs
+	3.2.1	The Level Structure
+	3.2.1.1	Operations
+	3.2.1.2	Analysis
+	3.2.2	The Cutset Structure
+	3.2.2.1	Operations
+	3.2.2.2	Analysis
+	3.3	Offline Dynamic Connectivity
+
+-------------
+
+Think about connection, connected components structures of graphs represented in a matrix or implicitly. Systems of linear equations and deducing number of solutions in a ring like Z/pZ.
+
+Dulmage–Mendelsohn decomposition
+
+In graph theory, the Dulmage–Mendelsohn decomposition is a partition of the vertices of a bipartite graph into subsets, with the property that two adjacent vertices belong to the same subset if and only if they are paired with each other in a perfect matching of the graph. It is named after A. L. Dulmage and Nathan Mendelsohn, who published it in 1958.[1] A generalization to any graph is the Edmonds–Gallai decomposition, using the Blossom algorithm.
+
+Construction
+The Dulmage-Mendelshon decomposition can be constructed as follows.[2] (it is attributed to [3] who in turn attribute it to [4]).
+
+Let G be a bipartite graph, M a maximum-cardinality matching in G, and V0 the set of vertices of G unmatched by M (the "free vertices"). Then G can be partitioned into three parts:
+
+The E-O-U decomposition
+E - the even vertices - the vertices reachable from V0 by an M-alternating path of even length.
+O - the odd vertices - the vertices reachable from V0 by an M-alternating path of odd length.
+U - the unreachable vertices - the vertices unreachable from V0 by an M-alternating path.
+An illustration is shown on the left. The bold lines are the edges of M. The weak lines are other edges of G. The red dots are the vertices of V0. Note that V0 is contained in E, since it is reachable from V0 by a path of length 0.
+
+Based on this decomposition, the edges in G can be partitioned into six parts according to their endpoints: E-U, E-E, O-O, O-U, E-O, U-U. This decomposition has the following properties: [3]
+
+The sets E, O, U are pairwise-disjoint. Proof: U is disjoint from E and O by definition. To prove that E and O are disjoint, suppose that some vertex v has both an even-length alternating path to an unmatched vertex u1, and an odd-length alternating path to an unmatched vertex u2. Then, concatenating these two paths yields an augmenting path from u1 through v to u2. But this contradicts the assumption that M is a maximum-cardinality matching.
+The sets E, O, U do not depend on the maximum-cardinality matching M (i.e., any maximum-cardinality matching defines exactly the same decomposition).
+G contains only O-O, O-U, E-O and U-U edges.
+Any maximum-cardinality matching in G contains only E-O and U-U edges.
+Any maximum-cardinality matching in G saturates all vertices in O and all vertices in U.
+The size of a maximum-cardinality matching in G is |O| + |U| / 2.
+If G has a perfect matching, then all vertices of G are in U.
+Alternative definition
+The coarse decomposition
+Let G = (X+Y,E) be a bipartite graph, and let D be the set of vertices in G that are not matched in at least one maximum matching of G. Then D is necessarily an independent set.[clarification needed] So G can be partitioned into three parts:
+
+The vertices in D ∩ X and their neighbors;
+The vertices in D ∩ Y and their neighbors;
+The remaining vertices.
+Every maximum matching in G consists of matchings in the first and second part that match all neighbors of D, together with a perfect matching of the remaining vertices. If G has a perfect matching, then the third set contains all vertices of G.
+
+The fine decomposition
+The third set of vertices in the coarse decomposition (or all vertices in a graph with a perfect matching) may additionally be partitioned into subsets by the following steps:
+
+Find a perfect matching of G.
+Form a directed graph H whose vertices are the matched edges in G. For each unmatched edge (x,y) in G, add a directed edge in H from the matched edge of x to the matched edge of y.
+Find the strongly connected components of the resulting graph.
+For each component of H, form a subset of the Dulmage–Mendelsohn decomposition consisting of the vertices in G that are endpoints of edges in the component.
+To see that this subdivision into subsets characterizes the edges that belong to perfect matchings, suppose that two vertices x and y in G belong to the same subset of the decomposition, but are not already matched by the initial perfect matching. Then there exists a strongly connected component in H containing edge x,y. This edge must belong to a simple cycle in H (by the definition of strong connectivity) which necessarily corresponds to an alternating cycle in G (a cycle whose edges alternate between matched and unmatched edges). This alternating cycle may be used to modify the initial perfect matching to produce a new matching containing edge x,y.
+
+An edge x,y of the graph G belongs to all perfect matchings of G, if and only if x and y are the only members of their set in the decomposition. Such an edge exists if and only if the matching preclusion number of the graph is one.
+
+Core
+As another component of the Dulmage–Mendelsohn decomposition, Dulmage and Mendelsohn defined the core of a graph to be the union of its maximum matchings.[5] However, this concept should be distinguished from the core in the sense of graph homomorphisms, and from the k-core formed by the removal of low-degree vertices.
+
+Applications
+This decomposition has been used to partition meshes in finite element analysis, and to determine specified, underspecified and overspecified equations in systems of nonlinear equations. It was also used for an algorithm for rank-maximal matching.
+
+Asymmetric variant
+In [6] there is a different decomposition of a bipartite graph, which is asymmetric - it distinguishes between vertices in one side of the graph and the vertices on the other side. It can be used to find a maximum-cardinality envy-free matching in an unweighted bipartite graph, as well as a minimum-cost maximum-cardinality matching in a weighted bipartite graph.[6]
+
+References
+ Dulmage, A. L. & Mendelsohn, N. S. (1958). "Coverings of bipartite graphs". Can. J. Math. 10: 517–534. doi:10.4153/cjm-1958-052-0. The original Dulmage–Mendelsohn paper
+ "Dulmage Mendelsohn Decomposition" (PDF).
+ Irving, Robert W.; Kavitha, Telikepalli; Mehlhorn, Kurt; Michail, Dimitrios; Paluch, Katarzyna E. (2006-10-01). "Rank-maximal matchings". ACM Transactions on Algorithms. 2 (4): 602–610. doi:10.1145/1198513.1198520. S2CID 43243.
+ Pulleyblank, W.R. (1995). "Matchings and Extensions". Handbook of Combinatorics. Amsterdam, North-Holland: Elsevier Science. pp. 179–232.
+ Harary, Frank; Plummer, Michael D. (1967), "On the core of a graph", Proceedings of the London Mathematical Society, Third Series, 17: 305–314, doi:10.1112/plms/s3-17.2.305, hdl:2027.42/135576, MR 0209184.
+ Aigner-Horev, Elad; Segal-Halevi, Erel (2022-03-01). "Envy-free matchings in bipartite graphs and their applications to fair division". Information Sciences. 587: 164–187. arXiv:1901.09527. doi:10.1016/j.ins.2021.11.059. ISSN 0020-0255. S2CID 170079201.
+External links
+A good explanation of its application to systems of nonlinear equations is available in this paper: [1]
+An open source implementation of the algorithm is available as a part of the sparse-matrix library: SPOOLES
+Graph-theoretical aspects of constraint solving in the SST project: [2]
+Categories: Graph algorithmsMatching (graph theory)
+This page was last edited on 19 February 2023, at 12:40 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaMobile viewDevelopersStatisticsCookie statementWikimedia FoundationPowered by MediaWiki

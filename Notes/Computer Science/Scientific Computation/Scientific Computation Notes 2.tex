@@ -1,0 +1,32 @@
+\Large
+\twocolumn
+
+\textbf{Scientific Computation Notes 2}
+
+The condition number of a square matrix $A$, $\text{cond}(A)$, is the maximum possible error magnification factor for solving $Ax = b$, over all right hand sides $b$. $\text{cond}(A) = ||A||_{\infty} \cdot || A^{-1} ||_{\infty}$.
+
+The matrix norm of an $n \times n$ matrix $A$ is $||A||_{\infty} = \text{ maximum absolute row sum}$, that is total the absolute values of each row, and assign the maximum of these $n$ numbers to be the norm of $A$.
+
+Let $x_a$ be an approximate solution of the linear system $Ax = b$. The residual is the vector $r = b-Ax_a$. The backward error is the norm of the residual $|| b-Ax_a ||_{\infty}$, and the forward error is $|| x-x_a ||_{\infty}$. The relative backward error is $\frac{||r||_{\infty}}{||b||_{\infty}}$ and the relative forward error is $\frac{||x-x_a||_{\infty}}{||x||_{\infty}}$. The error magnification error is the ratio of those two, or $\text{error magnification error} = \frac{\text{relative forward error}}{\text{relative backward error}} = \frac{\frac{||x-x_a||_{\infty}}{||x||_{\infty}}}{\frac{||r||_{\infty}}{||b||_{\infty}}}$.
+
+$PA=LU$ Factorisation [Probably For $n=2,3$]: Row Pivoting Swapping To Maximum Magnitude Entry In Column On Diagonal Followed With Usual Tracking Zeroing Of $LU$
+
+General Reasons For $PA=LU$ Factorisation Over $A=LU$ Factorisation: \\
+Ensures that all multipliers, entries of $L$, will be no greater than $1$ in absolute value. Also solves the problem of $0$ pivots. Which are immediately exchanged.
+
+Lagrange Interpolation: $P(x) = \sum y_j \prod_{k \neq j} \frac{x-x_k}{x_j-x_k}$
+
+Theorem 3.3: Assume that $P(x)$ is the (degree $n-1$ or less) interpolating polynomial fitting the $n$ points $(x_1,y_1),\dots,(x_n,y_n)$. The interpolation error is $f(x)-P(x) = \frac{(x-x_1)(x-x_2)\dots (x-x_n)}{n!} f^{(n)}(c)$, where $c$ lies in the range i.e. between the smallest and largest of the numbers $x,x_1,\dots,x_n$.
+
+Chebyshev Interpolation Nodes: On the interval $[a,b]$, $x_i = \frac{b+a}{2} + \frac{b-a}{2} \cos \left( \frac{(2 i-1)\pi}{2n} \right)$ for $i=1,2,\dots ,n$. The inequality $|(x-x_1)(x-x_2) \dots (x-x_n)| \le \frac{ \left( \frac{b-a}{2} \right)^n }{2^{n-1}}$ holds on $[a,b]$.
+
+Interpolation Error For Approximating $f(x)$: for $n$th degree approximation I think it is $|f(x)-Q_n(x)| \le \frac{|(x-x_1)(x-x_2) \dots (x-x_{n+1})|}{(n+1)!} \cdot |f^{(n+1)}(c)| \le \frac{\left( \frac{b-a}{2} \right)^{n+1}}{(n+1)! 2^n} \cdot |f^{(n+1)}(c)|$ of course the $6$th derivative of $f(x)=e^x$ is simply $e^x$ which is maximised at $x=1$ for the value of $e$. And thus one obtains $\frac{1}{6! \cdot 2^5} \cdot e \approx 0.00011798$ so $3$ expected correct decimal places after the decimal.
+
+It would seem that for a degree $n$ spline the condition at the joints is that they agree on the $0$th, $1$st,... ,$n-1$th derivatives. In generality the smoothness vector of desired agreements is defined.
+
+But for cubic splines the properties are also of the form for $n$ given data points $(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)$:
+
+$S_1(x)=y_1+b_1(x-x_1)+c_1(x-x_1)^2+d_1 (x-x_1)^3$ on $[x_1,x_2]$ \\
+$S_2(x)=y_2+b_2(x-x_2)+c_2(x-x_2)^2+d_2 (x-x_2)^3$ on $[x_2,x_3]$ \\
+$\dots $ \\
+$S_{n-1}(x)=y_{n-1}+b_{n-1}(x-x_{n-1})+c_{n-1}(x-x_{n-1})^2+d_{n-1}(x-x_{n-1})^3$ on $[x_{n-1},x_n]$

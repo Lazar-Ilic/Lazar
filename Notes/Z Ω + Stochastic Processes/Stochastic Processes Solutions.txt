@@ -1,0 +1,588 @@
+1.1
+1-(48/50)(47/49)(46/48)=144/1225
+
+1.2
+1. 1/32
+2. 1-P(all are odd)=1-1/32=31/32
+3. 6c5*5!*(1/6)^5=6!/6^5=5/54
+
+1.3
+1. [1,2]
+2. [0,1,4,...,n^2]
+3. [-5,-4,...]
+4. [0,2,4,...]
+
+1.4
+(a)
+
+1.5
+Explicit sum from 16 to 23 of (23 choose n)((.6)^n)((.4)^(23-n)) rough estimate via Binomial Distribution statistics.
+
+1.6
+Var[Y]=E[Y^2]-E[Y]^2=E[Y^2]=E[Y1^2]=(0)(1/4)+(1)(1/2)+(4)(1/4)=3/2
+
+1.7
+1. [1,2,3,4,5,6,8,10,12] with [1,2,1,2,1,2,1,1,1]/12
+2. E[Y]=(7/2)(1/2)+7(1/2)=21/4 and Var[Y]=(1/12)*(1)^2+(2/12)*(2)^2+(1/12)*(3)^2+(2/12)*(4)^2+(1/12)*(5)^2+(2/12)*(6)^2+(1/12)*(8)^2+(1/12)*(10)^2+(1/12)*(12)^2-(21/4)^2=497/48
+
+1.8
+(d)
+
+1.9
+E=n/2, Var=((n+1)^2-1)/12
+
+1.10
+1. 1-(P[0]+P[1]+P[2])
+2. l^3+3l^2+l
+
+1.11
+[1,1/2,(1/2)^2,...] with [p,p(1-p),p(1-p)^2,...] so E[Y]=p/(1-(1-p)/2)=2p/(1+p)
+
+1.12
+For X,Y uncorrelated Var[aX+bY]=Var[aX]+Var[bY]=a^2Var[X]+b^2Var[Y] so in this case we have the system of linear equations 4Var[Y1]+Var[Y2]=17 and Var[Y1]+4Var[Y2]=5 implies Var[Y1]=21/5,Var[Y2]=1/5, and Var[Y1-Y2]=22/5
+
+1.13
+(d)
+
+1.14
+1. Harmonic divergence
+2. ~1/n^3
+
+1.15
+Interesting with respect to Rolling A Die Until The First 1, I mean for example if we have this as a staircase over the unit interval [0,1] then the integral area under the curve is by definition the left hand side summing over columns and is the right hand side summing over rows gives a nice visual.
+
+1.16
+1. Sum of even indexed Ps is e^(-l)cosh(l)
+2. Bob as >1/2
+
+1.17
+n(1-((n-1)/n)^l)
+
+2.1
+Unclear distinguishable or not gives rise to 2*2*6 or 3*6 where HT and TH are considered same output value. [1,2,3,4,5,6,7,8] with [1/24,3/24,4/24,4/24,4/24,4/24,3/24,1/24]
+
+2.2
+(b) - definition
+
+2.3
+(a) - definiton complement?
+
+2.4
+(e) - (a) if independent
+
+2.5
+1. P(A)=3/4, P(B)=1/2 and P(A∩B)=3/8=(3/4)(1/2) so independent by definition.
+2. P(A)=15/36=5/12, P(B)=1/2 and P(A∩B)=1/6 so not independent by definition.
+3. True by definition.
+
+2.6
+1. 4% CDE, 6% CD, 14% DE, % CE, % C, 20% D, % E, % None 
+2. 20%
+3. 4/40=1/10
+
+2.7
+Reduced to HHT, HTH, THH, TTH, THT, HTT so assuming a 1:1:1:1:1:1 prior then 4/6
+
+2.8
+(4c2*5c2)/(9c4-(4c4*5c0+4c0*5c4)) again assuming uniform prior so 1/2
+
+2.9
+4/9:3/9 and 3/9:1 so 4:9 and 4/13
+
+2.10
+1. 0
+2. 0
+3. 6c5/2^6=6/64
+4. 1:1 and 5c5/2^5:6c5/2^6=1/32:6/64=1:3 so 3/4
+
+2.11
+(a) (X,Y) can be [(0,1),(0,2),(1,0),(1,1),(1,2),(2,0),(2,1)]
+(b)
+X/Y 0   1   2
+0   0   1/8 1/8
+1   1/8 2/8 1/8
+2   1/8 1/8 0
+(c) [2/8,4/8,2/8]
+(d) [2/8,4/8,2/8]
+(e) [1,2,3] with [2/8,4/8,2/8]
+(f) [0,1] with [4/8,4/8]
+
+2.12
+1. Sum of the 6 relevant geometric pmfs with p 1/2, 1/3, 1/4, 1/5, 1/6, 1/7 uniformly weighted. The expected value is then (1/6)(2+3+4+5+6+7)=27/6=9/2
+2. Of the 6 ps the one which maximizes (1-p)^4(p) is 1/5 i.e. a 4 on the die.
+
+3.1
+(a) - definition
+
+3.2
+(c) - definition PN or NP
+
+3.3
+(c) - definition
+
+3.4
+(c) - both are 0 by definition
+
+3.5
+1. No
+2. No
+3. Yes
+4. Yes
+Same for biased.
+
+3.6
+1. 2c1(1/3)(2/3)=4/9
+2. 0 parity
+3. 2c1(1/3)(2/3)4c2(1/3)^2(2/3)^2=32/243
+4. 1-(1/3)^10=59048/59049
+
+3.7
+1. (2n choose n)(1/2)^(2n)
+2. 0 n odd, (n choose n/2)(1/2)^n even
+3. {1,2,1} only sequence which maps to 2 so p^2(1-p), 1/8
+4. Equivalent with X16-X12=X7-X1, sum from -2 to 2 of (4 choose (2+n))(1/2)^4(6 choose (3+n))(1/2)^6 is 63/256
+
+3.8
+(d) - if biased replace with p^(2n)(1-p)^(2n)
+
+3.9
+
+
+3.10
+
+
+3.11
+i.e. P(M10<=4)=P(M10=4)+...=(1/2)^10((10 choose 7)+(10 choose 7)+(10 choose 6)+(10 choose 6)+(10 choose 5))=57/64
+
+3.12
+i.e. the shifted and potentially reflected never reaches 1 so P(M{n-1}=0)=(1/2)^(n-1)((n-1) choose floor(n/2))
+
+3.13
+1. (15 choose 2)(1/2)^15=105/32768
+2. (11 choose 11)(1/2)^11(2 choose 1)(1/2)^2(2 choose 1)(1/2)^2=1/8192
+3. i.e. P(M15>=11)=P(M15=11)+P(M15=12)+...=(1/2)^15*((15 choose 13)+(15 choose 14)+(15 choose 14)+(15 choose 15)+(15 choose 15))=137/32768
+4. i.e. P(M15=11)=(1/2)^15(15 choose 13)=105/32768
+
+3.14
+i.e. what is P(M9>=3)=P(M9=3)+P(M9=4)+...+P(M9=9)=(1/2)^9((9 choose 6)+(9 choose 7)+...+(9 choose 9))=11/32 - as an aside I know little about the computation of sums such as these beyond approximations via the usual binomial distribution approximation or normal distribution in limiting case
+
+3.15
+1. Definition
+2. Casework on the first index of 0 after 0: 2, 4, ..., 2n+2
+3. Satisfies the recursion for example by definition.
+4. Reflection on hitting -1 in this setting i.e.
+
+4.1
+(d) - definition
+
+4.2
+(c) - definition
+
+4.3
+(e) - definition
+
+4.4
+Note (1+s)/(4-2s)=(1/4)+s(3/8)+s^2(3/16)+s^3(3/32)+...
+1. E[X]=3/2, E[X(X-1)]=3, E[X(X-1)(X-2)]=9 whence 3/2, 9/2, 39/2
+2. 1-(1/4+3/8+3/16)=3/16
+3. (s^2)P(s^3)=(s^2)(1+s^3)/(4-2s^3)
+4. (1/2)P(s)+(1/2)P(s^2)
+
+4.5
+1. (s+s^2+...+s^6)^2/36 has a 4/36 term for s^9
+2. e^((λ1+λ2)(s-1)) i.e. Poisson with λ of λ1+λ2
+3. Implicit p^2/(1-(1-p)s)^2
+
+4.6
+(e)
+
+4.7
+(e)
+
+4.8
+1. 0
+2. 1/2
+3. No, first derivative inf at s=1.
+
+4.9
+(e) - definition
+
+4.10
+P_g(s)=((1/2)+(1/2)s)
+P_N(s)=(1/6)/(1-(5/6)s)
+P_N(P_g(s))=(1/6)/(1-(5/6)((1/2)+(1/2)s))=2/(7-5s)
+
+4.11
+(a)
+P_g(s)=(1/4)+(1/2)s+(1/4)s^2=((1/2)+(1/2)s)^2
+P_N(s)=(1/2)/(1-(1/2)s)
+P_N(P_g(s))=(1/2)/(1-(1/2)((1/4)+(1/2)s+(1/4)s^2))=4/(-s^2-2s+7)
+
+4.12
+1. Isomorphic with flipping all 100 twice and counting HH is 100C1(1/4)(3/4)^99 ~ 1.069 E-11
+2. 100C1(1/8)(7/8)^99 ~ 2.268 E-5
+
+4.13
+P_g(s)=((1-pb)+pbs)
+P_N(s)=pg/(1-(1-pg)s)
+P_N(P_g(s))=pg/(1-(1-pg)((1-pb)+pbs))=pg/(pg-pb(1-pg)(s-1))
+
+4.14
+The former is Binomial(6,1/2) the latter is sum of Bernoulli(1/2)=Binomial(1,1/2) i.e. Binomial(N,1/2) whence it's
+         0     1     2     3     4     5     6
+1/64  0  1
+6/64  1  1/2   1/2
+15/64 2  1/4   1/2   1/4
+20/64 3  1/8   3/8   3/8   1/8
+15/64 4  1/16  4/16  6/16  4/16  1/16
+6/64  5  1/32  5/32  10/32 10/32 5/32  1/32
+1/64  6  1/64  6/64  15/64 20/64 15/64 6/64  1/64
+i.e. a pmf of [729/4096,729/2048,1215/4096,135/1024,135/4096,9/2048,1/4096] a generating function of (+()s+()s^2+()s^3+()s^4+()s^5+()s^6)
+
+4.15
+1.
+P_g(s)=((.2)s^1000+(.4)s^2000+(.4)s^3000)
+P_N(s)=(.1)/(1-(.9)s)
+P_N(P_g(s))=(.1)/(1-(.9)((.2)s^1000+(.4)s^2000+(.4)s^3000))
+2. P[S>0] is .9 since if and only if number of visits is >0 and E[S]=E[N]E[g]=9(1800)=16200
+
+4.16
+1. 1/(1-s-s^2)
+2. (((1+sqrt(5))/2)^(n+1)-((1-sqrt(5))/2)^(n+1))/sqrt(5)
+
+4.17
+Note 1+s+...+s^10=(s^11-1)/(s-1) has no real zero but each die have generating function of the form s(p1+p2s+p3s^2+p4s^3+p5s^4+p6s^5) and the term in parentheses goes to infinity and negative infinity as p6 would need to be nonzero to hit the 12 sum as s goes to infinity and negative infinity whence by the Intermediate Value Theorem there does exist a real zero contradiction.
+
+5.1
+(e) - all are well defined the stopping as function by history
+
+5.2
+(c) - this is the threshold value for E infinitude however P hitting level 1 is 1
+
+5.3
+(b) - definition
+
+5.4
+(d) - definition
+
+5.5
+(a) - definition
+
+5.6
+1. 
+2. Taylor series of (1-sqrt(1-4*p*(1-p)*x^2))/(2*(1-p)*x)=(p)s+(p^2(1-p))s^3+(2p^3(1-p)^2)s^5+... naively one thinks Catalan induced multiplied by correct exponential probabilities.
+
+6.1
+1. P(P(s))=p/(1-(1-p)(p/(1-(1-p)s)))=(p^2s-ps+p)/(p^2+ps-p-s+1)
+2. ((1-p)/p)^n and ((1-p)/p^2)((1-p)/p)^n((1-((1-p)/p)^(n+1))/(1-((1-p)/p)))
+3. p>=1/2 it's pe=1 otherwise p/(1-p)
+4. Isomorphic to 100 copies all going extinct so pe=1 or (p/(1-p))^100
+
+6.2
+(i) 1 or c/a<1
+(ii) c/a>=1
+
+6.3
+1. P(s)=(1/4)+(1/4)s+(1/2)s^2 whence P(P(...P(s)))
+2. pe=1/2
+3. 1250
+
+6.4
+(e) - (1/2)^10
+
+6.5
+(b) - definition
+
+6.6
+1. P(s)=(1/3)+(1/6)s+(1/6)s^2+(1/3)s^3, u=(1/6)+(1/6)2+(1/3)3=3/2, (3/2)^n
+2. pe=1/2, so (1/2)^3=1/8
+3. (1/3)^(3^1+3^2+...+3^(n))(3)(3^n)(1/6) all triple except 1 in final branching which doubles can do geometric to express simply
+
+6.7
+1. (1-p)+ps^m
+2. u=pm<=1
+
+6.8
+1. u=3b+4c, so (3b+4c)^n
+2. if and only if u>1
+3. 0 definition
+4. {0,3,4} only set so 6abc
+
+6.9
+1. P(s)=((7/12)+(5/12)s)^4
+2. for fertile P(P(...P(s))) as usual to get total consider fertile grandchildren multiplied by 4 i.e. exponents multiplied by 4, u=5/3 so (5/3)^3(4)
+3. No, u=5/3>1
+
+6.10
+1. definition gives Po(Pe(...Po(s))) and one can write P(e(Po(s))) as Pt(s) and iterate that i.e. through 2 generations
+2. u>1 follows naturally as does s=P(s) via the above
+
+6.11
+1.
+(a) b+as i.e. Bernoulli[a]
+(b) b/(1-(1-b)s) i.e. Geometric[b]
+(c) as/(1-(1-a)s)=as/(as-s+1) i.e. shifted Geometric[a]
+2. Follows by definition plugging into for s.
+3. {{0,1},{-1,2}}^n={{-(n-1),n},{-n,(n+1)}} so (-(n-1)s+n)/(-ns+n+1)
+4. 1 or b/c<1
+5. [b,(a+c)(a+b),(a+c)(a+b)c,(a+c)(a+b)c^2,...] so firstly note one of these coins in fact enables us to compute any real probability in finite time with P 1 so its power alone is another topic in this case a simple process is to use the 4 outcomes of a flip of the pair as useful we want b,c,(1-b),(1-c) and in particular we obtain those then we may do b for 0 else continue to c until 1-c i.e. use one else geometric off the other.
+
+6.12
+(i) PS(s)=ps+qsPS(s)=sP(PS(s)) hence PS(s)=ps/(1-qs)
+(ii) PS(s)=ps+p(1-p)sPS(s)+p(1-p)^2s=sP(PS(s))=sp/(1-(1-p)PS(s)) whence PS(s)-(1-p)PS(s)^2=sp i.e. X-(1-p)X^2=sp or PS(s)=(1-rt(4p^2s-4ps+1))/(2(1-p))
+(iii) linearity of expectation E[S]=E[1+Z1+Z2+...]=E[1]+E[Z1]+E[Z2]+...=1+u+u^2+...=1/(1-u) if u<1 else infinity so 1/(1-q) and if u=(1-p)/p<1 i.e. p>1/2 then 1/(1-(1-p)/p)=p/(2p-1)
+
+7.1
+(a) - 5x5 with 8 nonzero elements by definition.
+
+7.2
+(e) - 3/8 by PP or PNPP or NPPP or explicit matrix computation
+
+7.3
+(a) - {0,0,1,0,0}*{{1,0,0,0,0},{2/3,0,1/3,0,0},{0,2/3,0,1/3,0},{0,0,2/3,0,1/3},{0,0,0,0,1}}^4={52,0,16,0,13}/81
+
+7.4
+Y=pI+(1-p)P by definition.
+
+7.5
+20/3 as {{12,0},{0,12}}*{{2/3,1/3},{1/3,2/3}}^2={{20/3,16/3},{16/3,20/3}} and {{1/2,1/2},{0,1}}*{{1,0},{1/3,2/3}}={{2/3,1/3},{1/3,2/3}}
+
+7.6
+(e) - stopping time unclear we could certainly write on Z, the number of steps until the first index where Y=c for a constant c
+
+7.7
+1. 101^2 states because any distribution of the 200 balls has positive probability.
+2. We could write it down like [100,0] simple [#redinred,#blueinred] where [#redinblue,#blueinblue] is implicit 
+3. Ignoring edge cases [a,b] to [[a+1,b],[a-1,b],[a,b+1],[a,b-1]] with [(1/2)((100-a)/(200-a-b)),(1/2)((a)/(a+b)),(1/2)((100-b)/(200-a-b)),(1/2)((b)/(a+b))]
+
+7.8
+It is a Markov chain because it satisfies the Markov property. Of note is that we may deduce the history modulo 2 cases the bitflip bijection which each map into this sequence of X values. In particular it is Empty to 0 with [1] and then n maps to [n,n+1] with [1/2,1/2] on whether or not the next flip matches the previous one.
+
+7.9
+1. It satisfies the Markov property. Xn=i to [i,i+1] with [i/m,(m-i)/m]
+2. [0] with [1] and [1,2,...] with [1/2,1/4,1/8] i.e. shifted geometric p=1/2
+3. m(1/m+1/(m-1)+...+1/2+1)-1=mHm-1
+
+7.10
+M04, M13, M22, M31, M40, A04, A13, A22, A31, A40 for Morning or Afternoon and #home #office initial is M22 so with getting wet implicit:
+M04 to [A04] with [1]
+M13 to [A04, A13] with [1/20,19/20]
+M22 to [A13, A22] with [1/20,19/20]
+M31 to [A22, A31] with [1/20,19/20]
+M40 to [A31, A40] with [1/20,19/20]
+A04 to [M13, M04] with [1/5,4/5]
+A13 to [M22, M13] wtih [1/5,4/5]
+A22 to [M31, M22] with [1/5,4/5]
+A31 to [M40, M31] with [1/5,4/5]
+A40 to [M40] with [1]
+
+7.11
+2, 10, 12, 00, 01 as in #working #daysinrepair well the statement is unclear
+
+7.12
+1. Inspired and block can be factored in via the definition as the letter uniquely defines the Ps for the next letter i.e.:
+a to [a,b] with [1/6,5/6]
+b to [a,b] with [1/3,2/3]
+Whence (1/2)(5/6)(2/3)(1/3)(5/6)(1/3)(1/6)(5/6)(1/3)(5/6)=625/629856
+2. 625/629856>1/1024 so if our prior is 1:1 assuming the she-monkey always starts in the inspired state then the she-monkey is more likely to have done it.
+
+7.13
+1. R1B0, BR0B1, R1B1, BR1B1, R2B1, R1B2, R2B0, BR2B1, Empty where the last 4 digits indicate how many of each color have been discarded and there is a B if the previous card was a relevant B so:
+[R1B0, BR0B1] with [1/2,1/2]
+R1B0 to [R2B0, BR1B1] with [1/3,2/3]
+BR0B1 to [R1B1, BR0B1] with [2/3,1/3]
+R1B1 to [R2B1, R1B2] with [1/2,1/2]
+BR1B1 to [R2B1, BR1B1] with [1/2,1/2]
+R2B1 to [Empty] with [1]
+R1B2 to [Empty] with [1]
+R2B0 to [BR2B1] with [1]
+BR2B1 to [BR2B1] with [1]
+Empty to [Empty] with [1]
+2. RBRB, BRRB, BRBR so (1/2)(2/3)(1/2)+(1/2)(2/3)(1/2)+(1/2)(2/3)(1/2)=1/2 and RR so (1/2)(1/3)=1/6
+
+7.14
+It is a Markov chain because it satisfies the Markov property i.e. the state defines the transition, not the history.
+0 to [1,2,3,4,5,6] with [1/6,1/6,1/6,1/6,1/6,1/6]
+1 to [1,2,3,4,5,6] with [1/6,1/6,1/6,1/6,1/6,1/6]
+2 to [2,3,4,5,6] with [2/6,1/6,1/6,1/6,1/6]
+3 to [3,4,5,6] with [3/6,1/6,1/6,1/6]
+4 to [4,5,6] with [4/6,1/6,1/6]
+5 to [5,6] with [5/6,1/6]
+6 to [6] with [1]
+
+7.15
+(d) - indeed if we have observed 6 different values 
+
+7.16
+{1400,1400,1400}*{{1/2,1/2,0},{1/5,2/5,2/5},{1/5,1/5,3/5}}^100={1200,1500,1500} this is an approximation, it is the stable state distribution fixed point which maps to itself
+
+8.1
+1. {1}, {2}, {3,4,5,6}, {7,8}
+2. transient {1,2} recurrent {3,4,5,6,7,8}
+3. {1,1,1,1,1,1,1,1} self loops immediately render class period unitary
+4. {0,1/4,1/8,1/16,...}
+5. (0.15+0.3)/2=0.225
+
+8.2 i.e. consists of disconnected strongly connected components
+(a) False
+(b) True
+(c) False. Both eventual P positive True. 
+(d) False by definition.
+
+8.3
+??
+
+8.4
+One recurrent/closed class the period is 1.
+1/6 1/3 1/6 1/6 1/6
+1/6 1/6 1/3 1/6 1/6
+1/6 1/6 1/6 1/3 1/6
+1/6 1/6 1/6 1/6 1/3
+1/3 1/6 1/6 1/6 1/6
+
+8.5
+If I understand the statement then there are 2 classes: {0} and {1,2,...} and the only closed set is {0}.
+
+8.6
+(a) False
+(b) False
+(c) False
+(d) False. Eventual P positive True by definition.
+
+8.7
+(a) False transient.
+(b) False cycle, single recurrent class.
+(c) False cycle with all also edge to single sink.
+(d) True definition.
+
+8.8
+(a) False 2 sink classes.
+(b) True definition.
+(c) True definition.
+(d) False definition.
+
+8.9
+(a) False could be transient in.
+(b) False could be transient in.
+(c) True definition in closed recurrent with same period.
+(d) False could be in a different closed/recurrent/sink class/component.
+
+8.10
+(a) False could have 1 to [2,3] with [.9,.1] and 2 to [1,2,3] with [.0001,.9998,.0001] so the p22 are very high compared with the p11, 3 is the sink to itself with 1.
+(b) False could be sink.
+(c) True definition/contradiction.
+(d) False cycle singleton sink.
+
+8.11
+(a) False cycle.
+(b) False P=I.
+(c) True definition.
+(d) False P=I period 1.
+
+9.1
+It is the expected number of T states i.e. (1/2)(3+4)+(1/2)(3/2+4)=25/4
+
+9.2
+Rewrite P in canonical form:
+1   0   0
+0   1/2 1/2
+1/3 1/3 1/3
+Whence F={{4,3},{2,3}} and we may obtain:
+4 3
+2 3
+1. 7
+2. 3
+3. No and no.
+4. E1=1+(17/20)E1+(1/20)E2 and E2=1+(1/15)E1+(13/15)E2 so E1=11
+
+9.3
+14 by HHH
+
+9.4
+1.
+1/6 2/6 1/6 1/6 1/6
+1/6 1/6 2/6 1/6 1/6
+1/6 1/6 1/6 2/6 1/6
+1/6 1/6 1/6 1/6 2/6
+2/6 1/6 1/6 1/6 1/6
+2. All recurrent period 1.
+3.
+  2   0   1   3   4
+2 1   0   0   0   0
+0 1/6 1/6 2/6 1/6 1/6
+1 2/6 1/6 1/6 1/6 1/6
+3 1/6 1/6 1/6 1/6 2/6
+4 1/6 2/6 1/6 1/6 1/6
+F 0      1      3      4
+0 68/25  14/5   36/25  42/25
+1 86/75  38/15  24/25  28/25
+3 106/75 28/15  54/25  38/25
+4 8/5    2      6/5    12/5
+So (2/6)(86/75+38/15+24/25+28/25)+(1/6)(1)+(1/6)(68/25+14/5+36/25+42/25)+(1/6)(106/75+28/15+54/25+38/25)+(1/6)(8/5+2+6/5+12/5)=883/150
+4. (2/6)(1(38/15)+3(24/25)+4(28/25))+(1/6)(1(14/5)+3(36/25)+4(42/25))+(1/6)(1(28/15)+3(54/25)+4(38/25))+(1/6)(1(2)+3(6/5)+4(12/5))=2372/225
+
+9.5
+1.
+1 0 0 0 0 0
+q 0 p 0 0 0
+q 0 0 0 p 0
+0 q 0 0 0 p
+0 0 0 p 0 q
+0 0 0 0 0 1
+{1,2,3,4} are transient states induced cycle period 4, {0,5} are recurrent period 1.
+2. P=p^3+p^3q+p^2q^2P i.e. P=(p^3+p^3(q))/(1-(p^2)(q^2))
+
+9.6
+(a) False transient.
+(b) True definition.
+(c) True definition.
+(d) False if I understand this to mean P of transition into C state is 0
+
+9.7
+1. Satisfies the Markov property. {1/6,1/6,1/6,1/6,1/6,1/6}
+1/6 1/6 1/6 1/6 1/6 1/6
+0   2/6 1/6 1/6 1/6 1/6
+0   0   3/6 1/6 1/6 1/6
+0   0   0   4/6 1/6 1/6
+0   0   0   0   5/6 1/6
+0   0   0   0   0   1
+2. It's 6 geometric distribution.
+3. 1/2 swap bijection.
+4.
+1   0   0   0
+1/6 3/6 1/6 1/6
+1/6 0   4/6 1/6
+1/6 0   0   5/6
+So 3(3)+1(4)+2(5)=23
+
+9.8
+1.
+    Hw    Ow    H0    O4    H1    O3    H2    O2    H3    O1    H4    O0
+Hw  1     0     0     0     0     0     0     0     0     0     0     0
+Ow  0     1     0     0     0     0     0     0     0     0     0     0
+H0  1/20  0     0     19/20 0     0     0     0     0     0     0     0
+O4  0     0     4/5   0     1/5   0     0     0     0     0     0     0
+H1  0     0     0     1/20  0     19/20 0     0     0     0     0     0
+O3  0     0     0     0     4/5   0     1/5   0     0     0     0     0
+H2  0     0     0     0     0     1/20  0     19/20 0     0     0     0
+O2  0     0     0     0     0     0     4/5   0     1/5   0     0     0
+H3  0     0     0     0     0     0     0     1/20  0     19/20 0     0
+O1  0     0     0     0     0     0     0     0     4/5   0     1/5   0
+H4  0     0     0     0     0     0     0     0     0     1/20  0     19/20
+O0  0     1/5   0     0     0     0     0     0     0     0     4/5   0
+{{1,-19/20,0,0,0,0,0,0,0,0},{-4/5,1,-1/5,0,0,0,0,0,0,0},{0,-1/20,1,-19/20,0,0,0,0,0,0},{0,0,-4/5,1,-1/5,0,0,0,0,0},{0,0,0,-1/20,1,-19/20,0,0,0,0},{0,0,0,0,-4/5,1,-1/5,0,0,0},{0,0,0,0,0,-1/20,1,-19/20,0,0},{0,0,0,0,0,0,-4/5,1,-1/5,0},{0,0,0,0,0,0,0,-1/20,1,-19/20},{0,0,0,0,0,0,0,0,-4/5,1}}^-1 gives 32301540/825281 ~ 39
+2. The 5th row of FR is 9060/825281, 816221/825281 the latter.
+
+9.9
+If the statement was clear I would have both broken down as a sink P=1 self-loop closed recurrent state and compute the expected number of that day type via the usual formula.
+
+9.10
+      S   F   1   2   3   4   5
+Shock 1   0   0   0   0   0   0
+Food  0   1   0   0   0   0   0
+1     0   0   0   1/2 1/2 0   0
+2     0   1/3 1/3 0   0   1/3 0
+3     1/3 0   1/3 0   0   1/3 0
+4     0   0   0   1/3 1/3 0   1/3
+5     0   1/2 0   0   0   1/2 0
+Or {{1,0,0,0,0,0,0},{0,1,0,0,0,0,0},{0,0,0,1/2,1/2,0,0},{0,1/3,1/3,0,0,1/3,0},{1/3,0,1/3,0,0,1/3,0},{0,0,0,1/3,1/3,0,1/3},{0,1/2,0,0,0,1/2,0}}^30 in WolframAlpha gives roughly 39:28 on Shock:Food so there is evidence Basil has an underlying preference towards food-near exits and one could do a maximum likelihood estimate and produce a distribution posterior from a prior.

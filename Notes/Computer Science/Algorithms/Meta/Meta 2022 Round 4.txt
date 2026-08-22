@@ -1,0 +1,346 @@
+Fascinating Round! Solid solutions all around you love to see it.
+
+----------
+
+Meta Coding Competitions
+Meta Hacker Cup2022Final Round
+
+Lazar
+
+Home
+
+Scoreboard
+This contest has ended
+You did not participate in this contest.
+PROBLEMS
+A: ML Modeling
+15 pt
+B: Emerald Exhibiting
+15 pt
+C: Tile Transposing
+18 pt
+D: Alphabet Adventuring
+18 pt
+E: Hazelnut Harvesting
+18 pt
+F: Cup Counterbalancing
+16 pt
+
+FAQ
+© 2022 MetaContact Us
+Scoreboard
+Everyone
+Friends (0)
+Search by name
+Search by name...
+Scoreboard Country Filter∙ Optional
+Rank
+Contestant
+Score
+Total Time
+A
+B
+C
+D
+E
+F
+1
+
+Benjamin Qi (Benq)
+84
+8:45:15
+2
+
+
+Tiancheng Lou (ACRush)
+84
+9:28:43
+3
+
+Marek Sokołowski (mnbvmar)
+84
+11:24:31
+4
+
+
+Yuhao Du (apiad)
+69
+7:44:01
+5
+
+Zixiang Zhou (duality)
+69
+7:52:08
+6
+
+Алексей Данилюк (Um_nik)
+69
+7:52:20
+7
+
+Neal Wu
+69
+10:08:09
+8
+
+
+Gennady Korotkevich (tourist)
+66
+5:32:30
+9
+
+
+邓明扬 (Miracle0-0)
+66
+6:52:18
+10
+
+Mateusz Radecki (Radewoosh)
+66
+7:18:07
+11
+
+
+Ziqian Zhong
+66
+8:09:38
+12
+
+Scott Wu (scott_wu)
+66
+8:28:19
+13
+
+Ryotaro Sato (hitonanode)
+66
+10:19:04
+14
+
+Riku Kawasaki (maroonrk)
+51
+5:29:46
+15
+
+Andrew He (ecnerwala)
+51
+6:04:22
+16
+
+Kevin Sun (ksun48)
+48
+4:17:48
+17
+
+角野祐弥 (heno239)
+48
+5:49:24
+18
+
+蒋凌宇 (jiangly)
+36
+4:32:55
+19
+
+Antonio Molina (y0105w49)
+33
+4:31:07
+20
+
+Arvin Leung (arvindf232)
+18
+2:01:53
+21
+
+Kentaro Matsushita (noimi)
+15
+1:36:54
+22
+
+Steven Hao (stevenkplus)
+15
+2:57:21
+23
+
+Borys Minaiev
+0
+0:00:00
+23
+
+Erik-Jan Krijgsman (krijgertje)
+0
+0:00:00
+23
+
+
+Yuta Takaya
+0
+0:00:00
+
+----------
+
+Leaderboard Prior To Final Results Reveal:
+
+Meta Coding Competitions
+Meta Hacker Cup2022Final Round
+
+Lazar
+Home
+Scoreboard
+Ends in 6s
+You are not registered for this contest.
+PROBLEMS
+A: ML Modeling
+15 pt
+B: Emerald Exhibiting
+15 pt
+C: Tile Transposing
+18 pt
+D: Alphabet Adventuring
+18 pt
+E: Hazelnut Harvesting
+18 pt
+F: Cup Counterbalancing
+16 pt
+FAQ
+© 2022 MetaContact Us
+Scoreboard
+Everyone
+Friends (0)
+Search by name
+Search by name...
+Scoreboard Country Filter∙ Optional
+Rank
+Contestant
+Score
+Total Time
+A
+B
+C
+D
+E
+F
+1
+
+Benjamin Qi (Benq)
+84
+8:45:15
+2
+
+Tiancheng Lou (ACRush)
+84
+9:28:43
+3
+
+Andrew He (ecnerwala)
+84
+10:16:58
+4
+
+Marek Sokołowski (mnbvmar)
+84
+11:24:31
+5
+
+Ziqian Zhong
+84
+12:07:48
+6
+
+Riku Kawasaki (maroonrk)
+69
+7:23:14
+7
+
+Yuhao Du (apiad)
+69
+7:44:01
+8
+
+Zixiang Zhou (duality)
+69
+7:52:08
+9
+
+Алексей Данилюк (Um_nik)
+69
+7:52:20
+10
+
+Neal Wu
+69
+10:08:09
+11
+
+Gennady Korotkevich (tourist)
+66
+5:32:30
+12
+
+邓明扬 (Miracle0-0)
+66
+6:52:18
+13
+
+Mateusz Radecki (Radewoosh)
+66
+7:18:07
+14
+
+角野祐弥 (heno239)
+66
+8:24:22
+15
+
+Scott Wu (scott_wu)
+66
+8:28:19
+16
+
+Ryotaro Sato (hitonanode)
+66
+10:19:04
+17
+
+蒋凌宇 (jiangly)
+51
+5:27:34
+18
+
+Kevin Sun (ksun48)
+48
+4:17:48
+19
+
+Arvin Leung (arvindf232)
+33
+2:46:53
+20
+
+Antonio Molina (y0105w49)
+33
+4:31:07
+21
+
+Kentaro Matsushita (noimi)
+33
+5:07:56
+22
+
+Steven Hao (stevenkplus)
+15
+2:57:21
+23
+
+Borys Minaiev
+0
+0:00:00
+23
+
+Erik-Jan Krijgsman (krijgertje)
+0
+0:00:00
+23
+
+Yuta Takaya
+0
+0:00:00

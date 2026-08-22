@@ -1,0 +1,1712 @@
+Impact Of Events On Function
+
+Lazar Ilic
+
+There are quite a few textbook chapter and papers on the topic of events in time series. Here I am most interested in the following case but touch on related ones: say there is a function [which might have been measured in medium resolution] and some events at times t_1, t_2, ..., t_n. We think the events should have a relatively local effect on the function but there is noise to contend with as well. And furthermore we are not too sure what happens when say 2 of these events occur without much time between them. Then we extend in to discussion of another common case where there is a very relevant other parameter of interest say with each event there is a measured quantity q_i which also influences our expectation of the impact of the event on the function.
+
+The purpose of this post is to entertain my readership. And expose somewhat interesting statistics. As well as signal to firms that I have some technical skills related to reading papers, writing correct codes and Python in particular, doing data science, perhaps related to software development in quantitative trading settings.
+
+Introductory Review
+
+Say we have a set of observations and want to fit a line to it. That is to say, often we assume the residuals are normal and solve for the maximum likelihood estimator, that is to say the line which would have been most likely to generate the set of observations. Then we find that minimising the sum of squared residuals is a useful approach. Now say instead we wanted to produce a posterior probability density function of our relative belief that various lines are good models for the underlying causal process. Well usually in a textbook we might propose the hypothetical model that there is a line as well as a $\sigma$ which describes the generating process. But we might still want to propose our prior for the distribution of $\sigma$ and insinuate or explicate a very low information uniform prior on the other parameters but end up with usually an integral related to Jeffreys prior leading to a posterior proportional to $\text{RSS}^{-\frac{n}{2}}$. Where $n$ is the number of observations, the size of the sample. OK but for our problem at hand a standard approach which works OK in some contexts would be to 
+
+Drawings And Musing
+
+In modern neuroscience and neuroscience-inspired models there exist notions like the Leaky Integrate-and-Fire model. Which have to do with refractory periods and expected impacts of events on other functions. Allow me to bring up a toy example with 0 supporting real data as we muse through some observations. So say we are tasked with running telephone lines for 911 [the United States Of America emergency telephone number] and have observed that substantial rain events tend to spike emergencies or rather reports of emergencies in the 48 hours following the initial event or some thing. Now, there are many different ways this might cause an underlying emergency.
+
+So one might be traffic I mean car accidents. Despite perhaps lower numbers of cars on the road, the relative probability of a crash is much higher perhaps.
+
+But there are other real world kind of effects which might be a bit more refractory like say NetFlix had a play list titled Rainy Mood Flicks or some thing. We might expect that there would be a large spike in views on the first day of rain but by the third maybe the people have grown weary of it and so it is not like the wetness of the ground is so correlated with viewers. Uh ChatGPT here suggests soil CO2 efflux or nitrate leaching or organic carbon export in runoff. Interesting enough. But maybe I would anticipate something like eating rainy comfort food to also have some kind of decayed effect but less decayed than say rainy ambient records played on Qobuz or whatever.
+
+But anyways I could sketch up some graphs of 911 calls as well as graphs of 911 calls in the time periods say from 6 hours before a noted discrete large rain event to 48 hours after one. Well OK so say we see some spikes and think maybe there are more spikes during rain event periods well even say we had 100 or 200 data points and the vast majority say it was Austin, Texas over the last 20 years or 10 years and the vast majority were 1 day events. Then one thing I am interested in is predicting what occurs during 2 or 3 day events uh by uh basically in the general case or more general proprietary trading instances trying to deduce a more reasoned posterior for what impact we might expect from 2 or 3 day consecutive events or say a 1 day gap between 2 events rather than uh 
+
+Section On Inference
+
+
+
+What Happens When Events Are Close By
+
+...
+
+"All models are wrong, but some are useful."
+
+Maybe instead I should provide some more background reading and sketches leading in to the main web log post. So maybe this is a good draft actually of the main post with some fun questions that could maybe sorta appear in a Quantitative Research interview or some thing. So it is clear, I have previously used the Chat GPT 5 Professional LLM as well as some others including Gemini and Claude.
+
+So OK first question on this discursion:
+
+"
+How to compare the complexity of different distributions in statistics like say I had a time series and I wanted to propose a model based around a mixture of 2 sin curves and another which was like a parabola or something and I do not think that simply the number of free parameters in these models is correct. What is the standard approach?
+"
+
+My LLMs gave just OK answers here like maybe the reader can go and query around a bit but I do not think Rademacher complexity is great. Effective degrees of freedom is not really as real as I was going for here.
+
+"
+What is Rademacher complexity again?
+"
+
+Just OK response here.
+
+"
+In nootropics theory and real life analysis like say we wanted to run an analysis of "health" and dietary protein intake. We want to pre register our fitting in advance and consider doing a continuous hinge or a say instead a continuous merging of two half parabolas that is to say U-curves with the same maximum. Now which makes more sense in biologic contexts like this? Can you give reasoning in relation to underlying kidneys or enzymes or damage functions for why we should expect one or the other to make more sense?
+"
+
+And a Chat GPT 5 miniature response sample:
+
+"
+Nice question — you’re thinking like a mechanistic modeler and a pre-registrant at the same time. Short answer up front:
+
+**If you want a single, pre-specified parametric shape that matches common biological mechanisms, prefer a *smooth, asymmetric inverted-U* (two half-parabolas or an asymmetric quadratic/“piecewise-quadratic”) over a simple continuous hinge — unless you have strong reason to expect a sharp threshold.**
+A hinge is easier to interpret but biologically crude; a smooth asymmetric curve better matches enzyme-saturation and graded homeostatic responses and allows different curvatures for deficiency vs toxicity. I explain why, show the math, and give concrete pre-registration language and diagnostics below.
+
+# Why a smooth asymmetric inverted-U tends to make more biological sense
+
+1. **Biology is often graded and saturating.** Many physiologic responses to increasing substrate/nutrient follow saturation kinetics (think Michaelis–Menten type behavior): output rises quickly at low substrate then shows diminishing returns as mechanisms saturate. That produces *smooth, concave* increase on the left side rather than straight lines. ([FEBS Journal][1])
+
+2. **Damage processes can be delayed, nonlinear, and asymmetric.** For protein intake: raising protein from very low → adequate gives large health gains (muscle maintenance, immune, repair). Excess protein can increase renal workload (glomerular hyperfiltration) and, in susceptible people, contribute to progressive injury — but the onset and rate of decline are generally not a single, immediate linear step and differ by baseline kidney status. So the *shape to the right of the optimum* will often have different curvature (flatter or steeper) than the left. (See reviews on protein effects on renal hemodynamics and clinical guidance for CKD patients.) ([PMC][2], [ajkd.org][3])
+
+3. **Observational/epidemiologic evidence is mixed (many shapes observed).** Large cohort/dose-response analyses have reported U-shaped, L-shaped, reversed-J shapes depending on outcome (mortality, CKD incidence, muscle outcomes) and exposure definition (total vs plant vs animal protein). That argues for *flexible, not overly symmetric*, modeling. ([BMJ][4])
+
+4. **Practical measurement issues (dietary intake error) bias and smooth features.** Dietary protein is measured with error (FFQs, 24-hr recalls), which tends to attenuate sharp features and make apparent true thresholds look smoother. That makes rigid kink models vulnerable unless you have calibration/bio-marker data to correct measurement error. ([PMC][5])
+
+# Math & intuition: hinge vs two-half-parabolas (and variants)
+
+(assume x = protein intake in g/kg/day or %energy; y = health metric)
+
+**Continuous hinge (piecewise linear, continuous at knot κ):**
+
+$$
+f(x)=\beta_0+\beta_1 x+\beta_2(x-\kappa)_+,\quad (x-\kappa)_+=\max(0,x-\kappa)
+$$
+
+* **Pros:** very interpretable (slope before/after κ), few params, robust if sample small.
+* **Cons:** nondifferentiable at κ (kink), imposes linearity on both sides (no curvature/diminishing returns), breakpoint κ is sensitive to measurement error and data sparsity.
+
+**Two half-parabolas joined at a maximum $x_\text{opt}$ (piecewise quadratic, continuous and C¹ at the peak):**
+
+$$
+f(x)=
+\begin{cases}
+M - a_L\,(x-x_{\text{opt}})^2 & x \le x_{\text{opt}}\\[4pt]
+M - a_R\,(x-x_{\text{opt}})^2 & x \ge x_{\text{opt}}
+\end{cases}
+$$
+
+* Parameters: $M$ (max health), $x_{\text{opt}}$ (location of max), $a_L,a_R$ (left/right curvature).
+* **Pros:** smooth (derivative = 0 at peak), allows *asymmetric* curvature (so deficiency side and excess side differ), can represent diminishing returns on the left and faster/slower decay on the right.
+* **Cons:** assumes quadratic curvature on each side (may not hold far in the tails); requires enough data near extremes to estimate $a_R,a_L,x_{\text{opt}}$.
+
+**Variants worth pre-specifying as alternatives**
+
+* **Restricted cubic spline (RCS)** with 3–5 knots — flexible, smooth, widely used for dose-response; good exploratory primary model if you have moderate sample size.
+* **Piecewise quadratic + exponential tail** (e.g., quadratic up to some distance from optimum, then exponential decline) — useful if you expect slow initial decline then accelerating damage at very high intakes (biologic accumulation/threshold).
+
+# Biological mechanistic links (why asymmetric, smooth shapes)
+
+* **Enzymatic/homeostatic saturation → smooth concave rise.** Amino acid sensing and protein anabolic pathways (mTOR, integrated stress response) behave in graded ways: small increases in protein produce big anabolic signals until saturation/diminishing returns. This maps to concave-up then concave-down increase on the left. ([FEBS Journal][1])
+* **Kidney response:** high protein raises glomerular filtration rate (hyperfiltration) — a physiologic, graded hemodynamic effect — which over long periods may increase risk of damage in susceptible people (CKD). That’s consistent with a smooth increase in a renal workload marker, and a potentially slower or delayed clinical decline that depends on baseline kidney health. Hence asymmetry and possibly a long right tail. ([PMC][2], [ajkd.org][3])
+
+# Practical pre-registration suggestions (copy-pasteable)
+
+1. **Primary exposure**: protein intake in g/kg/day (continuous). If using energy % or absolute g/day, state that explicitly.
+2. **Primary model (pre-specified)**: *Two half-parabolas (asymmetric inverted-U)*:
+
+   * Fit $f(x)$ as piecewise quadratic with parameters $(M,x_{\text{opt}},a_L,a_R)$. Estimate by nonlinear least squares or mixed model (if repeated measures).
+   * Primary hypothesis: $a_L>0$, $a_R>0$ and $x_{\text{opt}}$ falls in the observed intake range. Report 95% CI for $x_{\text{opt}}$ using bootstrap (n=2000).
+3. **Secondary, pre-specified comparator models** (in this order):
+
+   * continuous hinge with knot at $x=$ 1.6 g/kg/day *and* at median intake (two separate pre-specified hinge fits), compare by AIC.
+   * restricted cubic spline (3 knots at 10th, 50th, 90th percentiles).
+   * linear model (null).
+4. **Model selection / inference rules**: declare the primary model (piecewise quadratic) as the confirmatory test. Use likelihood ratio test (or AIC/BIC) to compare secondary models for exploratory interpretation. If primary model fails to converge, report that and present RCS as the main result.
+5. **Adjustments**: age, sex, BMI, total energy intake, physical activity, baseline eGFR, comorbidities; all pre-specified. Also pre-specify stratified analyses by baseline kidney function (eGFR≥90 vs <90 mL/min/1.73m²).
+6. **Measurement error / sensitivity**: if calibration biomarkers (urinary nitrogen) exist, perform regression-calibration sensitivity analysis; otherwise do sensitivity analyses attenuating effect sizes by plausible measurement error scenarios (cite method). ([PMC][5])
+
+# When a simple hinge *is* defensible
+
+* Small sample size, low information at tails, or you simply want an interpretable breakpoint for policy (e.g., “above X g/kg/day slope changes by Y”). In that case, clearly state in the pre-registration that the hinge is a *simplifying* approximation and provide the sensitivity analyses (piecewise quadratic and RCS) as confirmatory robustness checks.
+
+# Diagnostics to pre-specify (so you’re not accused of data-mining)
+
+* Plot raw binned mean outcome ± SE vs protein (e.g., 5 or 10 bins).
+* Plot model fits + 95% CI (primary and comparators).
+* Test nonlinearity: LRT comparing linear vs RCS(3 knots).
+* Bootstrap CI for $x_\text{opt}$.
+* Report effective degrees of freedom, AIC, and cross-validated RMSE (prefer 5-fold CV) for prediction comparisons.
+
+# Bottom line (practical rule)
+
+* **If you expect a graded/saturating physiological benefit at low→moderate intakes and a different (often milder or delayed) adverse effect at very high intakes, pre-register an *asymmetric smooth inverted-U* (two half-parabolas or spline).**
+* **If data are sparse and you need ultra-parsimony, a continuous hinge is defensible but must be justified (and sensitivity analyses with smooth models must be pre-specified).**
+
+---
+
+If you want, I can:
+
+* write two short, ready-to-paste pre-registration paragraphs (one for the piecewise-quadratic primary model and one for the hinge + spline sensitivity plan), and include the exact code snippets (R `nls` / `mgcv` / `rms::ols` + RCS) you can paste into a pre-registration document. Which language would you prefer (R or Python)?
+
+[1]: https://febs.onlinelibrary.wiley.com/doi/10.1111/febs.16124?utm_source=chatgpt.com "A guide to the Michaelis–Menten equation: steady state and ..."
+[2]: https://pmc.ncbi.nlm.nih.gov/articles/PMC7460905/?utm_source=chatgpt.com "The Effects of High-Protein Diets on Kidney Health and ..."
+[3]: https://www.ajkd.org/article/S0272-6386%2820%2930726-5/fulltext?utm_source=chatgpt.com "KDOQI Clinical Practice Guideline for Nutrition in CKD"
+[4]: https://www.bmj.com/content/370/bmj.m2412?utm_source=chatgpt.com "Dietary intake of total, animal, and plant proteins and risk ..."
+[5]: https://pmc.ncbi.nlm.nih.gov/articles/PMC3143422/?utm_source=chatgpt.com "Dealing With Dietary Measurement Error in Nutritional ..."
+"
+
+That is kind of interesting I guess uh. Dunno what I expected there hmmm. Might want to re write or try a different LLM just to see what happens uh. Interesting.
+
+"
+Say I want to try and sell 1 million USD worth of Bitcoin over the next 1 week using a VWAP but obviously I can not perfectly predict the volume. How do real world traders or algorithms work for a case like this?
+"
+
+"
+Great question — this goes right to the heart of execution algorithms in crypto and traditional markets. Let’s break it down.
+
+---
+
+### VWAP in theory
+
+* **VWAP (Volume Weighted Average Price)** is the average price over a period, weighted by traded volume.
+* An ideal VWAP execution spreads your orders across time, *proportional to the market’s volume*, so that your average execution price matches the VWAP.
+
+But of course, you don’t know the future volume.
+
+---
+
+### How real-world VWAP algorithms handle it
+
+1. **Use historical volume profiles**
+
+   * Execution engines usually start with a *forecast* of expected intraday (or intraweek) volume, based on historical averages (“volume curves”).
+   * E.g. you might know that BTC/USDT volume is heavier in U.S. trading hours and lighter in Asia mornings, so your algo will front-load or back-load orders accordingly.
+
+2. **Adaptive scheduling**
+
+   * The algo starts with the forecast but continuously **monitors actual market volume** as the day/week unfolds.
+   * If actual volume is higher than expected, it accelerates execution.
+   * If lower, it slows down to avoid being overweight relative to the curve.
+
+3. **Dynamic risk controls**
+
+   * You can’t *perfectly* follow VWAP, so algos allow slippage bands: “execute within ±X% of target participation.”
+   * If volume collapses, you might still need to trade more aggressively to finish within your time horizon.
+
+4. **Participation rate caps**
+
+   * To avoid moving the market, traders often impose a maximum participation rate (e.g., never more than 10–20% of current volume).
+   * This way, even if volume is thin, you don’t dominate the book.
+
+5. **Implementation shortfall (arrival price) blending**
+
+   * Some desks don’t stick to pure VWAP. They use *hybrid algos* that balance between:
+
+     * **VWAP** → good benchmark tracking.
+     * **IS (implementation shortfall)** → minimizes slippage from the starting price.
+   * This helps when volume is unpredictable.
+
+6. **Venue selection & liquidity sourcing (esp. in crypto)**
+
+   * For Bitcoin, execution algos often spread orders across multiple venues (CEXs, OTC desks, liquidity providers).
+   * They can even “dark execute” through RFQs or block trades to minimize footprint, then use VWAP-style slicing for the rest.
+
+---
+
+### A practical execution plan for your example
+
+If you wanted to sell **\$1M BTC over 7 days**:
+
+* **Step 1:** Take historical 1-week BTC/USD volume curves (hourly or daily).
+* **Step 2:** Set a target VWAP schedule (e.g. 15% of your order per day, but weighted more toward high-volume hours).
+* **Step 3:** As the week progresses, measure cumulative market volume vs. expected.
+
+  * If cumulative market volume is running 20% higher, you accelerate.
+  * If it’s lower, you decelerate but keep a minimum pace so you still finish in 7 days.
+* **Step 4:** Cap your participation (e.g. ≤10% of hourly BTC/USD volume) so you don’t move the market.
+* **Step 5:** If market liquidity dries up, use block trades/OTC for part of the order.
+
+---
+
+👉 So in practice, **real-world VWAP algos are “forecast + adapt” systems**, not rigid schedules. They start with a model, then re-balance dynamically as real volumes print.
+
+---
+
+Do you want me to sketch out what the **execution schedule curve** might look like (say, daily/hourly slices of that \$1M sell order), based on typical BTC volume distribution?
+"
+
+"
+How do traders simulate these issues during backtesting?
+"
+
+"
+Excellent follow-up — backtesting execution algos like VWAP/participation is tricky, because the very thing you’re benchmarking against (future traded volume) is unknown in real time.
+
+Here’s how practitioners usually approach it:
+
+---
+
+### 1. Use **historical intraday volume profiles**
+
+* Take historical trade/quote data (tick or 1-min bars).
+* Construct **volume curves**: e.g., what % of total daily volume typically happens by 10am, 12pm, etc.
+* When simulating a VWAP schedule, assume you only know this historical profile at the start of the day, not the exact future.
+* Example: “On average, 5% of daily BTC volume happens in the first 30 minutes.” → so the algo allocates 5% of the parent order there.
+
+---
+
+### 2. Introduce **forecast error**
+
+* Real life volume deviates from average.
+* In backtests, you compare two things:
+
+  1. The **planned schedule** (based on forecast).
+  2. The **actual executed schedule** (matched against real historical prints).
+* The difference gives you slippage vs. the “perfect hindsight VWAP.”
+
+---
+
+### 3. Simulate **market impact & participation caps**
+
+* Backtests often add market impact models (e.g., Almgren–Chriss style) that increase slippage as participation rises.
+* You might code:
+
+  * Impact ∝ √(order size / volume)
+  * Plus spread/fee costs.
+* Participation limits are enforced (e.g., max 10% of volume per bar). If volume is low, your algo falls behind schedule.
+
+---
+
+### 4. Multiple scenario tests
+
+* Traders backtest on many days:
+
+  * High volume days (CPI release, FOMC, BTC ETF news).
+  * Low volume days (holidays, weekends).
+  * Normal days.
+* This shows how the algo behaves when actual volume under/over-performs relative to forecast.
+
+---
+
+### 5. Stress testing
+
+* Test edge cases where volume dries up suddenly (e.g., exchange outages, weekend slumps).
+* The algo must decide:
+
+  * Do you trade more aggressively to finish on time?
+  * Or do you accept deviation from VWAP?
+
+---
+
+### 6. Hybrid benchmarks
+
+* In backtests, you don’t just measure vs. VWAP. You also check:
+
+  * **Slippage vs. arrival price** (implementation shortfall).
+  * **Market impact** (did you move the book?).
+  * **Variance of results** (stability).
+* A “good” algo isn’t the one that nails VWAP the best in hindsight, but the one with predictable performance under uncertainty.
+
+---
+
+### Concrete Example (BTC, 1 week sell, \$1M)
+
+* Backtest period: last 3 months.
+* For each week:
+
+  * Build forecast daily/hourly volume curve from previous month’s data.
+  * Run the VWAP algo with caps (say max 10% of volume per bar).
+  * Compare executed price vs. “perfect hindsight VWAP” and vs. arrival price.
+  * Record slippage, risk, variance.
+* Then look at distribution of results.
+
+---
+
+🔑 The **realism** in backtests comes from:
+
+* Using only information you’d know at trade start (historical average curves, not actual future volumes).
+* Enforcing realistic constraints (participation caps, spreads, market impact).
+* Stress-testing against atypical volume days.
+
+---
+
+Would you like me to **walk through a simple Python simulation** of a VWAP execution with forecast vs. realized volume, so you can see the slippage effect numerically?
+"
+
+"
+OK but is there actually a better expected value from an attempt at a VWAP over a TWAP for numbers like those I provided?
+"
+
+"
+That’s a very sharp question — it gets at whether the *extra complexity* of VWAP is actually worth it compared to just slicing evenly (TWAP). Let’s reason it out for your example (\$1M BTC over 7 days).
+
+---
+
+## 1. The key difference
+
+* **TWAP**: Slices your order evenly over time (e.g. 1/168th every hour).
+* **VWAP**: Tries to match the market’s liquidity curve (heavier in high-volume hours, lighter in low-volume).
+
+The **only source of edge** for VWAP vs. TWAP is that high-volume periods tend to have:
+
+* **Tighter spreads**
+* **More depth** (less market impact per unit traded)
+* **More liquidity providers active**
+
+If those conditions hold, then trading proportionally to volume (VWAP) *should* lower your expected slippage relative to TWAP.
+
+---
+
+## 2. When VWAP is better
+
+* **Order size is material** relative to market volume (say >1–2% of daily turnover).
+* **Liquidity varies a lot intraday** (equities, futures, or BTC/USDT across Asia/US hours).
+* **You can’t access block/OTC liquidity** — you’re forced to slice on-exchange.
+
+In that case, VWAP lowers footprint because you concentrate trading in high-liquidity windows.
+
+---
+
+## 3. When TWAP is just as good
+
+* **Your order is small** relative to daily BTC volume. For Bitcoin, \$1M over a week is \~\$140k/day. BTC daily spot volume is in the billions, so your participation rate is tiny (<0.1%).
+* **Liquidity distribution is relatively smooth** (BTC doesn’t have as dramatic a “U-shape” intraday volume curve as equities).
+* **Execution costs are dominated by fees/spread, not impact**.
+
+In that scenario, a TWAP schedule is nearly as good — because your trades won’t move the market, and you don’t need to “hide in the volume.”
+
+---
+
+## 4. Practical crypto nuance
+
+* Many professional desks in crypto use **POV (participation of volume)** algos instead of pure VWAP. These adapt automatically to real-time volume, avoiding the forecasting problem.
+* For a **\$1M BTC order over 1 week**, expected cost difference between VWAP and TWAP is probably **measured in basis points (bps)**, not percentage points.
+
+  * Example: VWAP might reduce slippage by \~1–3 bps vs. TWAP. On \$1M, that’s \$100–\$300.
+  * Not trivial, but not life-changing either — unless you scale this up to hundreds of millions.
+
+---
+
+## 5. Expected value takeaway
+
+* **TWAP = simpler, robust, “good enough”** for small relative sizes.
+* **VWAP = marginally better expected outcome**, but the benefit scales with:
+
+  * larger order size relative to turnover,
+  * more uneven volume distribution,
+  * higher market impact risk.
+
+For your size (\$1M over a week), **the EV difference is small**. A sophisticated desk would likely just use TWAP (or POV with a low participation cap) unless you wanted to be benchmarked explicitly vs. VWAP.
+
+---
+
+👉 In other words: **the complexity of VWAP buys you very little at that scale**, but the advantage grows non-linearly as your order size becomes a more meaningful % of daily BTC volume.
+
+---
+
+Would you like me to **quantify this with a toy simulation** (e.g., assume intraday volume curve, simulate TWAP vs. VWAP execution, and show expected slippage difference)? That might make the “bps difference” tangible.
+"
+
+"
+Which is more common in medical studies on nootropics and biohacking: fitting the results to a continuous hinge or an inverted U-curve? Can you give me some examples from highly cited papers?
+"
+
+"
+Short answer: **The inverted-U (a.k.a. “too little / just right / too much”) is far more common** in medical and neuropharmacology studies of nootropics / cognitive enhancers than the “continuous-hinge” (piecewise/threshold) model. Researchers studying catecholamines, stimulants, modafinil, tDCS/DA interactions, etc., routinely invoke or fit inverted-U / hormetic shapes; the continuous-hinge is used sometimes but mainly as a technical/statistical tool in a handful of PK/PD or dose-response modeling papers and is much less common in the cognitive-enhancement literature. ([PMC][1], [Frontiers][2], [Nature][3])
+
+Why (brief):
+
+* Many putative nootropic effects (dopamine, norepinephrine, psychostimulants) have a mechanistic theory that performance improves up to an optimum neurotransmitter level and then declines — that directly predicts an **inverted-U** shape. You’ll see this invoked as a central hypothesis in highly cited reviews and experiments. ([Frontiers][2], [Nature][3])
+* A **continuous-hinge** (a piecewise linear / spline with a knot) is a flexible statistical device to model thresholds or changes in slope; it appears in some dose-response / PK-PD work but is not the dominant conceptual model in nootropics research. Examples below. ([PMC][4], [arXiv][5])
+
+Concrete, highly-cited examples
+
+Inverted-U examples (classic / highly cited)
+
+* **Cools & D’Esposito (review)** — *“Inverted-U-shaped dopamine actions on human working memory and cognitive control”* (Biol Psychiatry review). This is a widely-cited conceptual/review paper that frames DA effects on working memory and control as inverted-U. (large citation count). ([PMC][6])
+* **Floresco (2013)** — *“Prefrontal dopamine and behavioral flexibility: shifting from an ‘inverted-U’ toward a family of functions”* — reviews a large experimental literature showing inverted-U effects for PFC D1 modulation and discusses complexities (still centers inverted-U as core). ([Frontiers][2])
+* **Monte-Silva et al. (human plasticity / DA pharmacology)** — an experimental paper explicitly showing a **dose-dependent inverted-U** effect of dopaminergic agents on plasticity measures in humans. (example of an experimental demonstration). ([PMC][1])
+* **Modafinil review (Minzenberg & Carter, 2008)** — a highly cited review of modafinil’s cognitive effects summarizes dose-dependent and context-dependent findings and places them into models that include optimal/detrimental dose ranges (i.e., consistent with inverted-U thinking). ([Nature][3])
+
+Continuous-hinge / hinge-function examples (rarer; mostly modeling / PK-PD)
+
+* **Hellinga et al. (2023)** — PK/PD modelling of opioid respiratory depression uses a hinge function in the model formulation (the paper cites a “continuous hinge” modelling approach). This is an example from pharmacometric modelling rather than classic nootropics cognition papers. ([PMC][4], [Cell][7])
+* **Dose-response / hormesis modeling literature** (e.g., Brain-Cousens / Cedergreen models; modeling biphasic responses) — these are methodological papers comparing mathematical functions to capture biphasic (low-dose stimulation / high-dose inhibition) curves; such work sometimes uses piecewise or spline/hinge-type representations, but these methods are used mainly in toxicology / biochemical dose-response modelling rather than standard clinical studies of cognitive enhancers. ([arXiv][5])
+
+Practical takeaways
+
+* If you scan the cognitive-enhancement / neuropharmacology literature (stimulants, DA agonists/antagonists, tDCS + DA interactions, etc.) you’ll repeatedly find **inverted-U language and fits** (either conceptual or by fitting quadratic/nonlinear models). ([PMC][1], [Frontiers][2])
+* **Continuous-hinge** or piecewise/hard-knot models show up, but they are **a minority** and tend to appear when authors specifically want to estimate thresholds or use flexible (splines/hinges) statistical dose-response tools — more of a modelling choice than a mechanistic hypothesis in the nootropics field. ([PMC][4], [arXiv][5])
+
+If you want, I can:
+
+* Pull 6–8 **high-impact** papers (reviews + primary experiments) that explicitly fit an inverted-U (and show the figures / exact fits) and summarize how each study modeled the relationship (quadratic fit, spline, binning, etc.).
+* Or search specifically for examples where authors compared an inverted-U fit vs. a hinge/piecewise fit and report which fit was preferred.
+
+Which of those would you like me to do next? (I can fetch full-text figures and quote the model forms).
+
+[1]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6665507/ "
+            Dose-Dependent Inverted U-Shaped Effect of Dopamine (D2-Like) Receptor Activation on Focal and Nonfocal Plasticity in Humans - PMC
+        "
+[2]: https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2013.00062/full "Frontiers | Prefrontal dopamine and behavioral flexibility: shifting from an “inverted-U” toward a family of functions"
+[3]: https://www.nature.com/articles/1301534 "Modafinil: A Review of Neurochemical Actions and Effects on Cognition | Neuropsychopharmacology"
+[4]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10139987/?utm_source=chatgpt.com "A biomarker of opioid-induced respiratory toxicity in ..."
+[5]: https://arxiv.org/abs/2308.08618?utm_source=chatgpt.com "Modeling Biphasic, Non-Sigmoidal Dose-Response Relationships: Comparison of Brain-Cousens and Cedergreen Models for a Biochemical Dataset"
+[6]: https://pmc.ncbi.nlm.nih.gov/articles/PMC3111448/?utm_source=chatgpt.com "Inverted-U shaped dopamine actions on human working ..."
+[7]: https://www.cell.com/iscience/fulltext/S2589-0042%2823%2900597-7?utm_source=chatgpt.com "A biomarker of opioid-induced respiratory toxicity in ..."
+"
+
+"
+Say I have developed an algorithm to predict the effect of some planned upcoming events on a stock price. And now I want to train a whole model to basically predict the stock price by first subtracting out the component we think can be predicted separately around the events and then train on the other component a usual time series model. Because we think this will outperform just doing the usual time series stuff on the whole thing. Basically we think we can make both parts less noisy and then recombine. What is this technique called?
+"
+
+"
+Here are several **academic references**—including journal articles and conference papers—that align closely with the concept you're describing: modeling known event-driven effects separately, then modeling the residual (or “other”) component with a time-series method, and finally recombining forecasts.
+
+---
+
+### 1. **Intervention Analysis (Econometrics / ARIMA)**
+
+A classic method directly aligned with your approach—modeling known event effects separately within a time series framework, typically using ARIMA.
+
+* **“Using intervention time series analyses to assess the effects of imperfectly identifiable natural events: a general method and example”**, *BMC Medical Research Methodology* (2006): Outlines how to model planned and unplanned “interventions” (like events) via ARIMA. The method separates event effects (modeled as step- or pulse-type functions with transfer functions) from underlying trends and noise. ([BioMed Central][1])
+
+---
+
+### 2. **Hybrid Models: Decompose, Model Residual with ML**
+
+These combine decomposition of time series (trend/seasonality/residual), then specifically model residuals via machine learning to improve accuracy—very similar to what you're proposing.
+
+* **“Hybrid Approaches in Financial Time Series Forecasting: A Stock Market Application”** (EKOIST Journal of Econometrics and Statistics, 2022): The authors first model with ARIMA + GARCH, then use models like SVM or LSTM to capture nonlinear residuals. ([DergiPark][2])
+
+* **“Performance Analysis of Hybrid Forecasting Model in Stock Market Forecasting”** (2012, arXiv): Presents a hybrid scheme modeling residuals using Genetic Programming, following a concordance-based search of historical patterns. ([arXiv][3])
+
+---
+
+### 3. **Decomposition-Enhanced Forecasting**
+
+These works employ decomposition to break time series into parts (trend, seasonality, residual), feed each to specialized models, or incorporate decomposition into modern architectures—helpful for reducing noise per component.
+
+* **“Unpacking the trend: decomposition as a catalyst to enhance time series forecasting models”** (Data Mining and Knowledge Discovery, 2025): Shows how applying decomposition (e.g., trend, seasonality, residual) before forecasting improves both accuracy and interpretability. ([SpringerLink][4])
+
+* **“Spatial-Temporal Traffic Flow Prediction Through Residual-Trend Decomposition with Transformer Architecture”** (*Electronics*, MDPI): Decomposes traffic series into trend, seasonality, and residual; then models each component with appropriate modules (e.g., Transformer for trend, Fourier attention for seasonality, MLP for residuals). ([MDPI][5])
+
+* **“A decomposition-guided mechanism for nonstationary time series forecasting”** (*AIP Advances*): Discusses decomposition-based hybrid models using methods like Empirical Mode Decomposition (EMD) or Intrinsic Time-scale Decomposition (ITD), then applying ML to each component. ([AIP Publishing][6])
+
+---
+
+### 4. **Other Decomposition Methods (Background)**
+
+Useful foundational methods for decomposing time series into interpretable parts:
+
+* **Seasonal-Trend decomposition using Loess (STL)**, **Multiple Seasonal Trend Loess (MSTL)**, and ARIMA-based decomposition approaches. ([MDPI][7])
+* **RobustSTL**: A more robust algorithm for trend/seasonality/remainder decomposition, designed for long time series. ([arXiv][8])
+* **Autoformer** (2021): A Transformer architecture that integrates decomposition (as an “inner block”) for long-term series forecasting. ([arXiv][9])
+
+---
+
+### Summary of Key Papers
+
+| Paper / Topic                                                       | Key Idea                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Intervention Analysis (ARIMA + event functions)                     | Model event effects explicitly (pulse, step, transfer functions), then model residual serial dependence. |
+| EKOIST hybrid stock-forecasting (ARIMA+GARCH + ML on residuals)     | First stage: linear/volatility model. Second stage: ML models on residuals.                              |
+| Decomposition-transformers (Traffic Flow + Autoformer, etc.)        | Break into components, model each component with a tailored method.                                      |
+| Decomposition as interpretability/catalyst (Data Mining & KD, 2025) | Decomposition improves model accuracy and explainability in modern forecasting algorithms.               |
+
+---
+
+### Final Thoughts
+
+Your approach sits at the intersection of **intervention analysis** and **hybrid residual modeling** with ML-enhanced decomposition. The most directly relevant literature includes the **ARIMA-intervention** method and **stock-forecasting hybrid models** that explicitly model residuals. More contemporary works embed decomposition within machine learning models to isolate noise and structure piecewise.
+
+Let me know if you'd like PDFs, citation generators (e.g., BibTeX), or help locating any of these papers!
+
+[1]: https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-6-16?utm_source=chatgpt.com "Using intervention time series analyses to assess the effects of imperfectly identifiable natural events: a general method and example | BMC Medical Research Methodology | Full Text"
+[2]: https://dergipark.org.tr/en/pub/ekoist/issue/75026/1108411?utm_source=chatgpt.com "EKOIST Journal of Econometrics and Statistics » Submission » Hybrid Approaches in Financial Time Series Forecasting: A Stock Market Application"
+[3]: https://arxiv.org/abs/1209.4608?utm_source=chatgpt.com "Performance Analysis of Hybrid Forecasting Model In Stock Market Forecasting"
+[4]: https://link.springer.com/article/10.1007/s10618-025-01120-8?utm_source=chatgpt.com "Unpacking the trend: decomposition as a catalyst to enhance time series forecasting models | Data Mining and Knowledge Discovery"
+[5]: https://www.mdpi.com/2079-9292/14/12/2400?utm_source=chatgpt.com "Spatial-Temporal Traffic Flow Prediction Through Residual-Trend Decomposition with Transformer Architecture"
+[6]: https://pubs.aip.org/aip/adv/article/14/1/015254/3232372?utm_source=chatgpt.com "A decomposition-guided mechanism for nonstationary time series forecasting | AIP Advances | AIP Publishing"
+[7]: https://www.mdpi.com/2571-9394/5/4/37?utm_source=chatgpt.com "Decompose and Conquer: Time Series Forecasting with Multiseasonal Trend Decomposition Using Loess"
+[8]: https://arxiv.org/abs/1812.01767?utm_source=chatgpt.com "RobustSTL: A Robust Seasonal-Trend Decomposition Algorithm for Long Time Series"
+[9]: https://arxiv.org/abs/2106.13008?utm_source=chatgpt.com "Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting"
+"
+
+I was kind of very disappointed with this response here I dunno seemed weak to me. Maybe I should go again for another prompt on the issue and see what comes up.
+
+"
+What are the most standard techniques for estimating the impact of events on a function in time series?
+"
+
+"
+Great question — this is a central problem in **causal inference with time series**. If you want to estimate the *impact of an event* (policy change, intervention, shock, etc.) on an outcome over time, there are several well-established approaches, depending on the assumptions and data availability. Here are the most standard techniques:
+
+---
+
+### **1. Interrupted Time Series (ITS) Analysis**
+
+* **Idea**: Compare the level and trend of the outcome variable before and after the intervention/event.
+* **Implementation**: Fit a regression model with:
+
+  * A time trend (before the event).
+  * A dummy variable for the intervention.
+  * Possibly an interaction between time and intervention (to capture slope changes).
+* **Strengths**: Transparent, interpretable.
+* **Limitations**: Sensitive to confounders (assumes no other simultaneous shocks).
+
+---
+
+### **2. Difference-in-Differences (DiD) with Time Series**
+
+* **Idea**: Compare the treated time series to a control group that did not experience the event.
+* **Implementation**:
+
+  * Estimate the pre–post difference in the treated group.
+  * Subtract the corresponding pre–post difference in the control group.
+* **Strengths**: Controls for common shocks that affect both treated and control units.
+* **Limitations**: Needs a valid control series (parallel trends assumption).
+
+---
+
+### **3. Synthetic Control Method**
+
+* **Idea**: Construct a synthetic control group as a weighted combination of untreated units that best match the treated unit pre-intervention.
+* **Implementation**: Use pre-treatment data to learn weights; compare post-treatment trajectories of treated vs. synthetic control.
+* **Strengths**: Provides a data-driven counterfactual when no single control is valid.
+* **Limitations**: Requires donor pool of comparison series.
+
+---
+
+### **4. Transfer Function / Intervention Analysis (Box–Tiao models)**
+
+* **Idea**: Model the time series with ARIMA, then include an “intervention function” (step, pulse, ramp) to capture the event’s effect.
+* **Implementation**:
+
+  * Estimate baseline ARIMA model.
+  * Add intervention terms that represent structural breaks or shocks.
+* **Strengths**: Flexible in handling different event types (temporary, permanent).
+* **Limitations**: Requires strong time series modeling skills.
+
+---
+
+### **5. Bayesian Structural Time Series (BSTS) / Causal Impact**
+
+* **Idea**: Model the treated series as a combination of trends, seasonality, regressors, and shocks; generate a posterior predictive counterfactual had the event not occurred.
+* **Implementation**: Widely used via Google’s *CausalImpact* package.
+* **Strengths**: Handles uncertainty, multiple components, and missing data.
+* **Limitations**: Computationally heavier; requires careful prior specification.
+
+---
+
+### **6. Event Studies in Panel Data**
+
+* **Idea**: Estimate dynamic treatment effects by regressing outcomes on leads and lags of the intervention.
+* **Implementation**: Often used in economics/finance, especially when multiple treated and untreated units exist.
+* **Strengths**: Provides a time profile of treatment effects.
+* **Limitations**: Needs large panel data with multiple units.
+
+---
+
+✅ **Summary**:
+
+* For **single time series** → ITS, ARIMA intervention analysis, BSTS.
+* For **treated + control time series** → DiD, Synthetic Control, Event Study.
+
+---
+
+Would you like me to give you a **practical workflow example** (say, step-by-step using ITS vs. CausalImpact) to see how these methods differ in application?
+"
+
+"
+Let me make this more concrete. Say I wanted to use discrete rain events to try and model something like say I hypothesised that the stock market would tend to drop in the 6 hour period following the start of a rain event. How would I measure this? Would it be wise to bucket and partition that time period and if so how would one pick bucket size?
+"
+
+"
+Nice — concrete example makes this fun. Below I’ll give a practical, tidy recipe you can follow plus guidance on how to choose bucket size and important pitfalls/robustness checks.
+
+---
+
+# 1) Define the event and the analysis window
+
+* Event time $t_0$: the *start* of a rain event (timestamp).
+* Outcome: stock market return (e.g., index price) at some frequency (tick, 1-min, 5-min, 1-hr). Denote returns $r_{t}$.
+* Window: choose an event window $[t_0 - W_{pre},\, t_0 + W_{post}]$. For your hypothesis, $W_{post}=6$ hours. Pick $W_{pre}$ to check pre-trends (e.g. 6 hours or 1 day).
+
+You’ll align/stack many such windows (one per rain event) and analyze average behavior after $t_0$.
+
+---
+
+# 2) Two common measurement approaches
+
+### A — Event-study / Stacked-window approach (recommended for clarity)
+
+1. For each event $i$, create an aligned series of returns $\{r_{i,\tau}\}$ where $\tau$ is minutes/hours relative to event start (e.g. $\tau=0$ is start, $\tau\in\{-360,\ldots,+360\}$ minutes if using minutes and W=6h).
+2. Optionally subtract a baseline or expected return (e.g., contemporaneous market model or intraday mean) to get *abnormal returns* $ar_{i,\tau}$.
+3. Average across events: $\overline{AR}_\tau = \frac{1}{N}\sum_{i} ar_{i,\tau}$.
+4. Plot $\overline{AR}_\tau$ over $\tau$; compute cumulative abnormal return (CAR) over post-event window:
+
+$$
+CAR_{[a,b]} = \sum_{\tau=a}^{b} \overline{AR}_\tau.
+$$
+
+5. Test significance with clustered SEs, block bootstrap, or permutation (shuffle event times).
+
+This approach is intuitive and shows the time-profile of the effect.
+
+### B — Regression / event-bin indicators (stacked regression / “event-study regression”)
+
+Stack all event windows into a panel with columns: event id, relative time bin $k$, return $r$, controls. Estimate:
+
+$$
+r_{i,\tau} = \alpha_i + \sum_{k=-K}^{K} \beta_k \mathbf{1}\{\tau=k\} + \gamma X_{i,\tau} + \varepsilon_{i,\tau},
+$$
+
+where $\beta_k$ are the effects at each relative-time bin (or group of bins), $\alpha_i$ are event fixed effects (if desired), and $X$ are controls (market return, volatility, hour-of-day dummies).
+
+* Plot $\beta_k$ to see the dynamic effect.
+* Allows adding covariates and clustering standard errors by event.
+
+---
+
+# 3) Bucketing the post-event period — should you? how to pick bucket size
+
+Yes, bucketing (i.e., dividing the 6-hour window into discrete bins) is often wise because:
+
+* It reduces noise (averaging many high-frequency returns).
+* Makes interpretation easier (effect in 0–30m, 30–60m, …).
+* Avoids estimating a separate parameter for every minute when you don’t have power.
+
+How to pick bucket size:
+
+1. **Data frequency constraint**: bucket must be integer multiples of your base frequency. If data is 1-minute, candidate buckets: 1m, 5m, 15m, 1h.
+2. **Statistical power & sample size**: smaller bins → more parameters → less power per parameter. Rule of thumb: aim for *at least dozens* (preferably 50+) events contributing non-overlapped observations per bin to have stable estimates. If you have few events, use coarser bins.
+3. **Expected effect duration / economics**: pick bucket granularity that matches the hypothesized timing. If you think the drop occurs within the first hour, use finer bins inside the first hour (e.g., 10–15 min) and coarser later (e.g., 1 hour).
+4. **Autocorrelation and intraday patterns**: intraday market microstructure (opening/closing effects) suggests using buckets aligned with natural market periods (e.g., 0–30m, 30–60m, 1–3h, 3–6h) or using equal-sized bins but controlling for hour-of-day.
+5. **Practical approach**: run the analysis at multiple granularities (e.g., 15m, 30m, 60m). If the effect is real it should be visible across reasonable bin sizes.
+
+Concrete examples:
+
+* If you have high-frequency data and many events: try 10–15 minute bins (36 bins for 6 hours at 10m).
+* If limited events or only hourly data: use 1-hour bins (6 bins).
+
+---
+
+# 4) Regression specification examples
+
+### Simple bin-regression (stacked):
+
+$$
+r_{i,t} = \sum_{b=1}^{B} \beta_b \mathbf{1}\{t\in \text{post-bin }b\} + \sum_{b'=-B_{pre}}^{-1}\delta_{b'}\mathbf{1}\{t\in\text{pre-bin }b'\} + \gamma M_t + \phi_{d,h} + \varepsilon_{i,t}
+$$
+
+* $M_t$: market/benchmark return at time $t$ (controls for market moves).
+* $\phi_{d,h}$: day and hour-of-day fixed effects (controls intraday seasonality).
+* Cluster SEs by event id (or block bootstrap).
+
+### Cumulative test (CAR):
+
+Compute $CAR_i = \sum_{\tau=1}^{H} ar_{i,\tau}$. Then test whether mean $CAR$ differs from zero (t-test with robust SEs; bootstrap).
+
+---
+
+# 5) Controls & deconfounding
+
+* Control for market-wide movements: subtract index return or include contemporaneous market return as regressor.
+* Control for volatility: include realized volatility or VIX proxy.
+* Intraday seasonality: include hour-of-day and day-of-week dummies, or de-seasonalize returns by subtracting average return at that intraday minute across days.
+* Weather confounders: consider other weather variables (temperature, prior rainfall) if they matter.
+* Non-random event timing: rain events may be correlated with other variables; consider matching/control days or use placebo tests.
+
+---
+
+# 6) Overlapping events
+
+If rain events are frequent and windows overlap:
+
+* Option A: restrict to non-overlapping events (e.g., only keep events separated by >6 hours) — cleaner but reduces sample.
+* Option B: allow overlap but add indicators for multiple concurrent events or model cumulative exposure. Estimate carefully; bootstrap that respects overlap.
+
+---
+
+# 7) Inference & robustness
+
+* Cluster standard errors at the event level (or use block bootstrap across events).
+* Permutation test: randomly reassign event start times (within same season/time-of-day) and recompute statistics to build a null distribution.
+* Placebo windows: pick pseudo-event times and ensure you don’t get similar effects.
+* Pre-trend check: test for significant effects before $t_0$. If pre-event bins are non-zero, your identification is suspect.
+* Multiple testing: if you test many bins, adjust (Bonferroni, BH FDR) or focus on a small number of pre-specified bins.
+
+---
+
+# 8) Power/sample-size guidance
+
+* The finer the bins, the more samples you need per bin. If you have only $N<50$ events, avoid very fine granularity (e.g., 1-minute bins).
+* You can run a quick power calculation: estimate the noise (std dev of returns in a bin) and compute detectable effect size for desired power. If you want, I can show a short power-calculation example using your numbers (frequency, N, baseline volatility).
+
+---
+
+# 9) Practical checklist / workflow
+
+1. Choose data frequency and clean timestamps (align rain start to market timestamps).
+2. Exclude market-closed periods or handle them separately.
+3. Build stacked event windows with pre- and post-period.
+4. Detrend/de-seasonalize intraday pattern or include hour dummies.
+5. Compute abnormal returns (subtract market/benchmark).
+6. Decide buckets (start coarse if uncertain; refine).
+7. Estimate bin coefficients (regression) and CAR.
+8. Run robustness: pre-trends, placebo, permutation, different bin sizes, overlapping events handling.
+9. Report effect sizes with CIs and p-values, and show the full time-profile plot.
+
+---
+
+# 10) Example (sketch)
+
+If you want a quick starting regression in e.g. statsmodels/pandas:
+
+```python
+# pseudocode
+# build df with columns: event_id, rel_min (relative minutes), bin, return, market_ret, hour, day
+model = sm.OLS(df['return'], sm.add_constant(pd.get_dummies(df['bin'], drop_first=True)
+                                             .join(df[['market_ret','hour','day']])))
+res = model.fit(cov_type='cluster', cov_kwds={'groups': df['event_id']})
+```
+
+Plot the bin coefficients $\beta_b$ with error bars.
+
+---
+
+## Bottom line (one-sentence practical answer)
+
+Yes — bucket the 6-hour post-event window, but choose bucket size to balance temporal resolution and statistical power: start with economically motivated bins (e.g., 0–30m, 30–60m, 1–3h, 3–6h) or try 15–60 minute bins if you have enough events, estimate bin effects via a stacked event-study regression or CAR tests, and validate with pre-trend checks, placebo/permutation tests and clustered/bootstrapped inference.
+
+---
+
+If you want, I can:
+
+* propose specific bucket sizes given your data frequency and event count (tell me those), **or**
+* generate example code (Python/R) tailored to minute/hour data and show how to run the permutation test and cluster SEs. Which would you like?
+"
+
+"
+Just so it is clear, in this example, a priori one would expect the returns to follow a log-normal distribution as is standard for financial markets and instruments?
+"
+
+"
+You’ve got it right — in financial econometrics the **canonical assumption** is that *prices* follow a (geometric) Brownian motion, which implies that:
+
+* **Prices** $P_t$ are approximately **log-normal distributed**.
+* **Log-returns** $r_t = \ln(P_t / P_{t-1})$ are then **normally distributed (in theory)**.
+
+That’s the baseline model (think Black–Scholes world).
+
+But in practice:
+
+* **Empirical log-returns** are *not* exactly Gaussian:
+
+  * They show **fat tails** (kurtosis > 3),
+  * **volatility clustering** (periods of calm vs. turbulence),
+  * **asymmetry/skewness**.
+
+So in real data you often model them with **t-distributions, GARCH processes, or stochastic volatility models** rather than assuming strict normality.
+
+---
+
+### For your rain-event example:
+
+* If you’re working at **short horizons (minutes to hours)**, returns are roughly centered around 0 with conditional heteroskedasticity (variance changes over time).
+* Assuming log-normality of prices (normality of returns) is *fine as a first approximation* for setting up tests.
+* But for inference (significance testing), it’s safer to:
+
+  * Use **robust standard errors** (cluster by event, block bootstrap), or
+  * Use **permutation/randomization tests** (reshuffle event times and rebuild null distribution).
+
+This way you don’t rely too heavily on the normality assumption, which is often violated in high-frequency data.
+
+---
+
+👉 In short:
+Yes — theory says stock prices are log-normal, so returns are normal. But practice says “fat tails + volatility clustering,” so rely on **robust / distribution-free inference** when testing for effects of rain events.
+
+---
+
+Would you like me to show you how to **simulate a toy example** (log-normal prices with rain events marked) so you can see what “baseline noise” looks like versus what an event effect would look like?
+"
+
+"
+No, thanks. This was OK performance from you here. I just was not really that serious about actually walking more through this toy example.
+"
+
+"
+Say we have a set of points and want to compute the probability associated with a particular line having generated that set of observations. How do we find the right value to use for the standard deviation of the residuals assumed to be normal?
+"
+
+"
+Short answer: treat the residual SD, σ, as another parameter of your model and either (a) set it from prior/measurement knowledge, or (b) estimate it from the data. Here’s how that plays out.
+
+## Setup
+
+Data $(x_i,y_i)$, line $y=a+bx$, residuals $r_i=y_i-(a+bx_i)$. Assume $r_i \stackrel{iid}{\sim} \mathcal N(0,\sigma^2)$.
+
+## If σ is known
+
+Use the known value (e.g., from instrument specs). The likelihood of the line is
+
+$$
+L(a,b\mid \sigma)=(2\pi\sigma^2)^{-n/2}\exp\!\left(-\tfrac{1}{2\sigma^2}\sum_{i=1}^n r_i^2\right).
+$$
+
+## If σ is unknown (the usual case)
+
+### When the line $(a,b)$ is fixed in advance
+
+Estimate σ by maximum likelihood:
+
+$$
+\hat\sigma_{\text{ML}}^2=\frac{1}{n}\sum_{i=1}^n r_i^2.
+$$
+
+Plugging this into the likelihood gives the **profile likelihood** of the line:
+
+$$
+L_{\max}(a,b)\propto \left(\sum_{i=1}^n r_i^2\right)^{-n/2}.
+$$
+
+### When you *fit* the line from the same data
+
+You also estimated 2 parameters ($a,b$), so for an *unbiased* estimate of variance use
+
+$$
+s^2=\frac{1}{n-2}\sum_{i=1}^n r_i^2,\qquad s=\sqrt{s^2}.
+$$
+
+This $s$ (often called the residual standard error or RMSE) is what you’d report for uncertainty and use for prediction intervals.
+For likelihood-based comparison of lines, however, the MLE for $\sigma$ that maximizes the Gaussian likelihood is still $\hat\sigma_{\text{ML}}^2=\frac{1}{n}\sum r_i^2$; the $n-2$ correction is about unbiasedness, not likelihood maximization.
+
+## Bayesian option (nice for “probability of a line”)
+
+Put a prior on $\sigma$ (common choice: Jeffreys $p(\sigma)\propto 1/\sigma$) and integrate $\sigma$ out. The marginal likelihood of the line becomes proportional to
+
+$$
+\left(\sum_{i=1}^n r_i^2\right)^{-n/2},
+$$
+
+(up to constants), and predictive errors follow a Student-t with $n-2$ d.f. This avoids committing to a single $\sigma$.
+
+## Practical guidance
+
+* Have external noise info? Use that $\sigma$.
+* Otherwise: if the line was chosen a priori, use $\hat\sigma_{\text{ML}}=\sqrt{\frac{1}{n}\sum r_i^2}$.
+* If you fit the line to the data, report $s=\sqrt{\frac{1}{n-2}\sum r_i^2}$ for uncertainty; for likelihood ratios between candidate lines, use the profile likelihood with the $1/n$ MLE.
+* If errors aren’t constant across points, model per-point variances and use weighted least squares (or a heteroscedastic error model) instead of a single $\sigma$.
+"
+
+"
+I asked because I want to compare the likelihood of 2 different lines here and ultimately produce a partial density function of likelihoods.
+"
+
+"
+Nice — that clarifies your goal. Below I give the cleanest, practical ways to turn observed residuals into a *comparable* likelihood for two candidate lines, and then how to turn those likelihoods into a (partial / posterior-style) density over lines.
+
+I'll assume data $(x_i,y_i)_{i=1}^n$ and a candidate line parameter $\theta=(a,b)$ with residuals
+
+$$
+r_i(\theta)=y_i-(a+bx_i),\qquad \text{RSS}(\theta)=\sum_{i=1}^n r_i(\theta)^2.
+$$
+
+---
+
+# 1 — Likelihood for a fixed σ
+
+If you *fix* the residual standard deviation $\sigma$ (e.g. instrument noise), the Gaussian likelihood of the data under line $\theta$ is
+
+$$
+L(y\mid\theta,\sigma)=(2\pi\sigma^2)^{-n/2}\exp\!\Big(-\frac{\text{RSS}(\theta)}{2\sigma^2}\Big).
+$$
+
+For comparing two lines with the same known $\sigma$ you can use the ratio (or log-ratio) of these values.
+
+---
+
+# 2 — σ unknown — profile / MLE
+
+If you want a likelihood for each line but treat $\sigma$ as an unknown parameter estimated from the same data, the MLE of $\sigma^2$ given $\theta$ is
+
+$$
+\hat\sigma^2_{\text{ML}}(\theta)=\frac{\text{RSS}(\theta)}{n}.
+$$
+
+Plugging that back into the likelihood gives the (profile) maximized-likelihood value for $\theta$:
+
+$$
+L_{\max}(y\mid\theta)\propto \big(\text{RSS}(\theta)\big)^{-n/2}.
+$$
+
+(When you *fit* $\theta$ from data and want an unbiased estimator of variance for reporting, use $s^2=\text{RSS}/(n-p)$ with $p$ parameters; but for likelihood-based comparison, the above profile result is correct.)
+
+---
+
+# 3 — A cleaner Bayesian/marginal approach (recommended for fair model comparison)
+
+A frequent and principled choice is to put a prior on $\sigma$ and marginalize it out. Using Jeffreys prior $p(\sigma)\propto 1/\sigma$ (common, scale-invariant), the marginal likelihood for $\theta$ becomes, up to a constant that cancels when comparing $\theta$ values,
+
+$$
+p(y\mid\theta)\;\propto\;\big(\text{RSS}(\theta)\big)^{-n/2}.
+$$
+
+So the *relative* evidence (Bayes factor) for two lines $\theta_1,\theta_2$ is
+
+$$
+\frac{p(y\mid\theta_1)}{p(y\mid\theta_2)} = \Big(\frac{\text{RSS}(\theta_2)}{\text{RSS}(\theta_1)}\Big)^{n/2}.
+$$
+
+Take logs to avoid underflow:
+
+$$
+\log p(y\mid\theta) = -\frac{n}{2}\log \text{RSS}(\theta) + \text{const}.
+$$
+
+This marginalization has the useful property that you do not have to pick a particular $\sigma$ and it penalizes models with larger residual variance automatically.
+
+---
+
+# 4 — Turning these likelihoods into a density over lines
+
+If you want a *partial density* (posterior-like density) over $\theta$, pick a prior $p(\theta)$ (e.g. uniform over a plausible slope/intercept rectangle) and compute
+
+$$
+p(\theta\mid y) \propto p(y\mid\theta)\,p(\theta).
+$$
+
+Using the marginalized $p(y\mid\theta)$ above,
+
+$$
+p(\theta\mid y) \propto \big(\text{RSS}(\theta)\big)^{-n/2}\,p(\theta).
+$$
+
+For a continuous parameter space you will normally evaluate this numerically on a grid or with MCMC and then normalize:
+
+Practical numerical recipe (grid):
+
+1. Choose grid $\{\theta_j\}$ covering plausible $(a,b)$.
+2. Compute $ \ell_j = -\frac{n}{2}\log \text{RSS}(\theta_j) + \log p(\theta_j)$.
+3. For numerical stability, subtract $\max_j \ell_j$: $ \tilde \ell_j = \ell_j - \max_k \ell_k$.
+4. Convert to nonnegative weights: $w_j = \exp(\tilde \ell_j)$.
+5. Normalize: $\hat p(\theta_j\mid y)= w_j / \sum_k w_k$.
+6. Optionally interpolate or smooth to get continuous density.
+
+This gives you a normalized (discrete) posterior density over lines; you can plot contours, marginals (e.g. posterior over slope only), etc.
+
+---
+
+# 5 — If you only need to compare two specific lines
+
+If you have only two lines $\theta_1,\theta_2$ and no continuous posterior, use the marginalized likelihood ratio:
+
+$$
+\text{BF}_{1,2}=\frac{p(y\mid\theta_1)}{p(y\mid\theta_2)}=\Big(\frac{\text{RSS}(\theta_2)}{\text{RSS}(\theta_1)}\Big)^{n/2}.
+$$
+
+Or the log-BF:
+
+$$
+\log \text{BF}_{1,2} = -\frac{n}{2}\big(\log\text{RSS}(\theta_1)-\log\text{RSS}(\theta_2)\big).
+$$
+
+---
+
+# 6 — Practical notes & pitfalls
+
+* Use $\log$-space to avoid underflow.
+* If data are heteroscedastic, do not use a single $\sigma$—use a model for per-point variances or weighted likelihoods.
+* If you want to penalize model complexity beyond the $\sigma$ effect (e.g. comparing different numbers of parameters), you should use a full marginal likelihood with priors on all parameters or use information criteria (AIC/BIC) — but for two fixed lines the $(\text{RSS})^{-n/2}$ marginal rule above is appropriate.
+* If you want a frequentist flavor instead of marginalization, estimate a common $\hat\sigma$ (pooled) and compute the likelihood ratio of the two lines using that $\hat\sigma$, but beware this introduces dependence on the estimator choice.
+
+---
+
+# 7 — Small Python snippet (numerical recipe)
+
+```python
+import numpy as np
+
+# data arrays x,y and candidate_lines list of (a,b)
+n = len(x)
+def rss(a,b): return np.sum((y - (a + b*x))**2)
+
+# compute unnormalized log-posterior with Jeffreys on sigma and flat prior on theta
+logps = []
+for a,b in candidate_lines:
+    r = rss(a,b)
+    logp = -0.5 * n * np.log(r)   # + log prior(theta) if you have one
+    logps.append(logp)
+logps = np.array(logps)
+logps -= logps.max()
+weights = np.exp(logps)
+posterior = weights / weights.sum()   # discrete density over candidate_lines
+```
+
+If you want a continuous plot, evaluate this on a grid of (a,b), then plot contours of `posterior.reshape(grid_shape)`.
+
+---
+
+If you want, send your (x,y) data or two specific candidate lines and I’ll compute the Bayes factor and a normalized posterior over a grid and return plots/numbers. Which would you like me to do next?
+"
+
+"
+Please re explain claim 3 in more details to me? How does this emerge from the pdf function for a normal Gaussian?
+"
+
+"
+Perfect — let’s carefully unpack **Claim 3 (the Bayesian/marginal approach)** step by step, directly from the Gaussian PDF.
+
+---
+
+## 1. The Gaussian likelihood with residuals
+
+We assume residuals are i.i.d. Normal:
+
+$$
+r_i(\theta) = y_i - (a+bx_i), \quad r_i(\theta) \sim \mathcal N(0, \sigma^2).
+$$
+
+So the joint density of all residuals, given line parameters $\theta=(a,b)$ and $\sigma$, is
+
+$$
+p(y \mid \theta, \sigma) = (2\pi\sigma^2)^{-n/2} \exp\!\Big(-\tfrac{1}{2\sigma^2}\sum_{i=1}^n r_i(\theta)^2\Big).
+$$
+
+Let
+
+$$
+\text{RSS}(\theta) = \sum_{i=1}^n r_i(\theta)^2.
+$$
+
+Then
+
+$$
+p(y \mid \theta, \sigma) = (2\pi\sigma^2)^{-n/2} \exp\!\Big(-\tfrac{\text{RSS}(\theta)}{2\sigma^2}\Big).
+$$
+
+---
+
+## 2. The problem: σ is unknown
+
+We want a fair way to compare different lines $\theta$. If we don’t know $\sigma$, one option is to **integrate it out** (marginal likelihood), instead of fixing or plugging in its MLE.
+
+This is standard Bayesian model comparison:
+
+$$
+p(y \mid \theta) = \int_0^\infty p(y \mid \theta,\sigma) \, p(\sigma)\, d\sigma.
+$$
+
+---
+
+## 3. Prior for σ
+
+We need a prior on $\sigma$. A common **noninformative choice** is Jeffreys prior:
+
+$$
+p(\sigma) \propto \frac{1}{\sigma}, \quad \sigma>0.
+$$
+
+This prior is “scale-invariant” — if you rescale data units, it doesn’t change. It’s widely used for variance parameters in Gaussian models.
+
+---
+
+## 4. The integral
+
+Plugging into the marginal likelihood:
+
+$$
+p(y \mid \theta) \propto \int_0^\infty (2\pi\sigma^2)^{-n/2} \exp\!\Big(-\tfrac{\text{RSS}(\theta)}{2\sigma^2}\Big)\,\frac{1}{\sigma}\, d\sigma.
+$$
+
+Simplify powers of $\sigma$:
+
+$$
+(2\pi\sigma^2)^{-n/2} \frac{1}{\sigma} = (2\pi)^{-n/2} \sigma^{-n} \sigma^{-1} = (2\pi)^{-n/2} \sigma^{-(n+1)}.
+$$
+
+So the integral becomes:
+
+$$
+p(y \mid \theta) \propto \int_0^\infty \sigma^{-(n+1)} \exp\!\Big(-\tfrac{\text{RSS}(\theta)}{2\sigma^2}\Big)\, d\sigma.
+$$
+
+---
+
+## 5. Evaluate the integral
+
+This looks tricky, but it’s a known form.
+Let’s do the substitution $u = \frac{\text{RSS}(\theta)}{2\sigma^2}$.
+Then:
+
+* $\sigma^2 = \frac{\text{RSS}(\theta)}{2u}$.
+* $\sigma = \sqrt{\tfrac{\text{RSS}(\theta)}{2u}}$.
+* $d\sigma = -\tfrac{1}{2}\sqrt{\tfrac{\text{RSS}(\theta)}{2}}\, u^{-3/2}\,du$.
+
+After algebra (details available if you want me to expand), the integral reduces to something proportional to
+
+$$
+p(y \mid \theta) \propto \big(\text{RSS}(\theta)\big)^{-n/2}.
+$$
+
+---
+
+## 6. Interpretation
+
+So, after integrating out $\sigma$ with Jeffreys prior:
+
+$$
+\boxed{p(y \mid \theta) \;\propto\; \big(\text{RSS}(\theta)\big)^{-n/2}}
+$$
+
+This is the **marginal likelihood of the line** $\theta$.
+
+* It no longer depends on $\sigma$.
+* It punishes lines with higher residual sums of squares (RSS).
+* When comparing two lines, the ratio of their marginal likelihoods depends only on their RSS values.
+
+---
+
+## 7. Why is this neat?
+
+* It comes **directly from the Gaussian PDF** and the prior on $\sigma$.
+* You don’t need to choose or estimate $\sigma$.
+* It gives a principled way to turn RSS into a probability-like measure of line plausibility.
+* In fact, this derivation is the reason why Bayesian linear regression with an uninformative variance prior yields **Student-t distributed** posteriors for coefficients (instead of Gaussian).
+
+---
+
+👉 Do you want me to actually write out the substitution in **Step 5** in full detail, so you can see how the algebra collapses to $(\text{RSS})^{-n/2}$?
+"
+
+"
+Yes please do.
+"
+
+"
+Great — here’s the full, step-by-step evaluation of the marginalization integral that produces the $(\mathrm{RSS})^{-n/2}$ result. I’ll start from the Gaussian likelihood and the Jeffreys prior $p(\sigma)\propto 1/\sigma$, then show the substitution and how the Gamma function appears.
+
+---
+
+### 1. Start: the likelihood × prior
+
+With residuals $r_i(\theta)$ and $\mathrm{RSS}(\theta)=\sum_{i=1}^n r_i(\theta)^2$,
+
+$$
+p(y\mid\theta,\sigma)=(2\pi\sigma^2)^{-n/2}\exp\!\Big(-\frac{\mathrm{RSS}(\theta)}{2\sigma^2}\Big),
+\qquad p(\sigma)\propto\frac{1}{\sigma}.
+$$
+
+The marginal likelihood (integrating out $\sigma>0$) is proportional to
+
+$$
+p(y\mid\theta)\;\propto\;\int_0^\infty (2\pi\sigma^2)^{-n/2}
+\exp\!\Big(-\frac{\mathrm{RSS}}{2\sigma^2}\Big)\frac{1}{\sigma}\,d\sigma.
+$$
+
+Pull out the constant $(2\pi)^{-n/2}$ and combine powers of $\sigma$:
+
+$$
+p(y\mid\theta)\propto (2\pi)^{-n/2}
+\int_0^\infty \sigma^{-(n+1)}\exp\!\Big(-\frac{\mathrm{RSS}}{2\sigma^2}\Big)\,d\sigma.
+$$
+
+Call the integral $I$:
+
+$$
+I=\int_0^\infty \sigma^{-(n+1)}\exp\!\Big(-\frac{\mathrm{RSS}}{2\sigma^2}\Big)\,d\sigma.
+$$
+
+---
+
+### 2. Substitution $t=\dfrac{\mathrm{RSS}}{2\sigma^2}$
+
+Let
+
+$$
+t=\frac{\mathrm{RSS}}{2\sigma^2}\quad\Longrightarrow\quad
+\sigma^2=\frac{\mathrm{RSS}}{2t},\quad
+\sigma=\sqrt{\frac{\mathrm{RSS}}{2t}}.
+$$
+
+Differentiate:
+
+$$
+d\sigma = -\tfrac{1}{2}\sqrt{\frac{\mathrm{RSS}}{2}}\,t^{-3/2}\,dt.
+$$
+
+Also compute the power factor:
+
+$$
+\sigma^{-(n+1)}=\Big(\sqrt{\frac{\mathrm{RSS}}{2t}}\Big)^{-(n+1)}
+=\Big(\frac{\mathrm{RSS}}{2}\Big)^{-(n+1)/2}\,t^{(n+1)/2}.
+$$
+
+Substitute into $I$. The $t$-limits: when $\sigma\to 0^+$, $t\to\infty$; when $\sigma\to\infty$, $t\to 0^+$. So
+
+$$
+\begin{aligned}
+I
+&=\int_{t=\infty}^{0} \Big(\frac{\mathrm{RSS}}{2}\Big)^{-(n+1)/2} t^{(n+1)/2}
+\exp(-t)\,\Big(-\tfrac{1}{2}\sqrt{\tfrac{\mathrm{RSS}}{2}}\,t^{-3/2}\Big)\,dt \\
+&= \Big(\frac{\mathrm{RSS}}{2}\Big)^{-(n+1)/2}\Big(\tfrac{1}{2}\sqrt{\tfrac{\mathrm{RSS}}{2}}\Big)
+\int_{0}^{\infty} t^{(n+1)/2}\,t^{-3/2}\,e^{-t}\,dt,
+\end{aligned}
+$$
+
+where the minus sign reversed the integration limits.
+
+Combine constants and powers of $t$:
+
+* Constants: $\Big(\dfrac{\mathrm{RSS}}{2}\Big)^{-(n+1)/2}\cdot \tfrac{1}{2}\Big(\dfrac{\mathrm{RSS}}{2}\Big)^{1/2} = \tfrac{1}{2}\Big(\dfrac{\mathrm{RSS}}{2}\Big)^{-n/2}.$
+
+* $t$-power: $t^{(n+1)/2} t^{-3/2} = t^{(n-2)/2}.$
+
+So
+
+$$
+I = \frac{1}{2}\Big(\frac{\mathrm{RSS}}{2}\Big)^{-n/2}\int_0^\infty t^{(n-2)/2} e^{-t}\,dt.
+$$
+
+---
+
+### 3. Recognize the Gamma function
+
+The remaining integral is a Gamma integral. With exponent $(n-2)/2$, set $\alpha = \frac{n}{2}$. Then $\alpha-1 = \frac{n-2}{2}$, so
+
+$$
+\int_0^\infty t^{(n-2)/2} e^{-t}\,dt = \Gamma\!\big(\tfrac{n}{2}\big).
+$$
+
+Thus
+
+$$
+I = \frac{1}{2}\Big(\frac{\mathrm{RSS}}{2}\Big)^{-n/2}\Gamma\!\big(\tfrac{n}{2}\big).
+$$
+
+---
+
+### 4. Put the constant back
+
+Recall $p(y\mid\theta)\propto (2\pi)^{-n/2}\,I$. Therefore
+
+$$
+\begin{aligned}
+p(y\mid\theta)
+&= (2\pi)^{-n/2}\cdot \frac{1}{2}\Big(\frac{\mathrm{RSS}}{2}\Big)^{-n/2}\Gamma\!\big(\tfrac{n}{2}\big) \\
+&= \frac{\Gamma(\tfrac{n}{2})}{2\,\pi^{n/2}} \;(\mathrm{RSS})^{-n/2}.
+\end{aligned}
+$$
+
+I used $(2\pi)^{-n/2}\cdot (2)^{n/2}=(\pi)^{-n/2}$ to simplify.
+
+---
+
+### 5. Final conclusion & interpretation
+
+So the exact marginal likelihood (with Jeffreys prior $p(\sigma)\propto 1/\sigma$) is
+
+$$
+\boxed{\,p(y\mid\theta)=\frac{\Gamma\!\big(\tfrac{n}{2}\big)}{2\,\pi^{n/2}}\;(\mathrm{RSS}(\theta))^{-n/2}\,}
+$$
+
+In particular, up to the multiplicative constant $\Gamma(\tfrac n2)/(2\pi^{n/2})$ — which depends only on $n$ and cancels when you compare two lines for the *same* dataset — we get the commonly quoted proportionality
+
+$$
+p(y\mid\theta)\propto (\mathrm{RSS}(\theta))^{-n/2}.
+$$
+
+That is exactly how the $(\mathrm{RSS})^{-n/2}$ dependence emerges from the Gaussian PDF + Jeffreys prior: the substitution turns the $\sigma$-integral into a Gamma integral and leaves a power of RSS.
+
+---
+
+If you want, I can:
+
+* show how this leads to a Student-$t$ posterior for coefficients when you also place priors on $a,b$, or
+* numerically compare two candidate lines for some concrete $(x,y)$ data using this marginal likelihood. Which would you like?
+"
+
+"
+No, I want a link which clearly has that formula for the Bayes Factor between 2 different lines.
+"
+
+"
+Here’s a reliable source that **explicitly spells out how Bayes factors are used to compare two regression models**, effectively lines, through their marginal likelihoods:
+
+### Wikipedia — *Bayesian Linear Regression*
+
+The *model evidence* (i.e., marginal likelihood) is formally defined and noted to be used—via Bayes factors—for comparing competing models, such as different linear regressions (i.e., lines):
+
+* It states that **the model evidence** is `p(y | m)`, the probability of data given model $m$, obtained by integrating over parameters.
+* It explains that **Bayes factors compare models by ratios of their evidence**, and that this naturally includes a penalty for model complexity.
+
+This directly supports using marginal likelihoods—and by extension, our derived $(\text{RSS})^{-n/2}$ form—as the basis for model (line) comparison.
+([Wikipedia][1])
+
+---
+
+To summarize how this ties with our specific formula:
+
+1. **Marginal likelihood**:
+
+   $$
+   p(y\mid \theta) = \int p(y\mid\theta,\sigma)\,p(\sigma)\,d\sigma
+   \quad\text{with Jeffreys prior }p(\sigma)\propto 1/\sigma
+   $$
+
+   leads to
+
+   $$
+   p(y\mid\theta)\propto [\mathrm{RSS}(\theta)]^{-n/2}
+   $$
+
+2. **Bayes factor** between two candidate lines $\theta_1, \theta_2$:
+
+   $$
+   \mathrm{BF}_{12} = \frac{p(y\mid\theta_1)}{p(y\mid\theta_2)}
+   = \left(\frac{\mathrm{RSS}(\theta_2)}{\mathrm{RSS}(\theta_1)}\right)^{n/2}
+   $$
+
+3. **Wikipedia confirms** that this use of marginal likelihood ratio is standard practice in Bayesian linear regression for model comparison, i.e., Bayes factors.
+   ([Wikipedia][1])
+
+---
+
+Would you like me to dig up a more detailed reference—perhaps an academic paper or statistics text—that derives the $(\mathrm{RSS})^{-n/2}$ marginal likelihood for the Gaussian linear model and explicitly applies it to Bayes factor comparison between lines?
+
+[1]: https://en.wikipedia.org/wiki/Bayesian_linear_regression?utm_source=chatgpt.com "Bayesian linear regression"
+"
+
+OK so that is like kind of interesting I guess uh... seems OKish I mean the idea is OK.
+
+"
+Which is better in finance: to predict the return in terms of fraction gained over the time period on the initial investment or rather to take the logarithm of (1+return) rather the ratio of our final value versus our initial?
+"
+
+"
+Good question — this gets right to the heart of **linear vs. logarithmic return measures**, which are both widely used in finance depending on context. Let’s compare the two carefully:
+
+---
+
+### 1. **Simple (arithmetic) return**
+
+$$
+R = \frac{V_{t} - V_{0}}{V_{0}} = \frac{V_{t}}{V_{0}} - 1
+$$
+
+* **Interpretation:** Fraction gained (or lost) relative to the initial investment.
+* **Advantages:**
+
+  * Easy to interpret (“I made 10% this year”).
+  * Natural for single-period reporting.
+* **Disadvantages:**
+
+  * Not time-additive. If you have +10% in one period and −10% in the next, the average simple return is 0%, but your actual wealth decreased (since $1.1 \cdot 0.9 = 0.99$, a 1% loss).
+  * Over multiple periods, compounding matters, and arithmetic averages mislead.
+
+---
+
+### 2. **Logarithmic (continuous) return**
+
+$$
+r = \ln\!\left(\frac{V_{t}}{V_{0}}\right) = \ln(1+R)
+$$
+
+* **Interpretation:** The continuously compounded rate of return.
+* **Advantages:**
+
+  * **Time-additive:** Over multiple periods, log returns sum exactly:
+
+    $$
+    r_{total} = r_1 + r_2 + \dots + r_n
+    $$
+
+    This makes them easier for modeling long horizons.
+  * Convenient in statistics: returns often behave more “normally” in log space, simplifying risk models.
+  * Symmetric for gains/losses: +50% and −50% simple returns don’t cancel correctly, but log returns do.
+* **Disadvantages:**
+
+  * Less intuitive for investors (“I earned 0.095 log return” doesn’t sound as clear as “I earned 10%”).
+  * For small returns, $\ln(1+R) \approx R$, so the distinction is small. But for large returns (say +100%), log return understates it ($\ln(2) \approx 0.693$, not 1.0).
+
+---
+
+### Which is “better”?
+
+* **For investor communication & one-period performance:**
+  Use **simple returns** — they are easier to explain and match intuition.
+
+* **For modeling, risk management, portfolio theory, econometrics, and multi-period compounding:**
+  Use **log returns**, because they are time-additive and align with stochastic processes like geometric Brownian motion.
+
+---
+
+✅ **Rule of thumb:**
+
+* If you care about **interpretability** → use simple returns.
+* If you care about **mathematical tractability and multi-period analysis** → use log returns.
+
+---
+
+Would you like me to show you with a **numerical example** how the two behave over multiple periods (say +20%, then −20%), so you can see why log returns are often favored in finance?
+"
+
+"
+So we often care about the expected value of the logarithmic returns?
+"
+
+"
+Exactly — in many areas of finance the **expected log return** is the central quantity, but the nuance is *why*. Let me unpack that:
+
+---
+
+### 1. **Expected arithmetic return**
+
+$$
+\mathbb{E}[R] = \mathbb{E}\!\left[\frac{V_t}{V_0} - 1\right]
+$$
+
+* Tells you the average percentage gain over one period.
+* **Good for:** a single bet or for reporting "typical" outcomes over short horizons.
+* **Problem:** It does *not* tell you what happens to your wealth over time if you reinvest.
+
+---
+
+### 2. **Expected logarithmic return**
+
+$$
+\mathbb{E}[r] = \mathbb{E}\!\left[\ln\!\left(\frac{V_t}{V_0}\right)\right]
+$$
+
+* Directly linked to **long-run wealth growth** because of compounding:
+
+  $$
+  \ln\!\left(\frac{V_T}{V_0}\right) = \sum_{t=1}^T r_t
+  $$
+
+  so
+
+  $$
+  \frac{1}{T} \ln\!\left(\frac{V_T}{V_0}\right) \to \mathbb{E}[r] \quad \text{(as } T \to \infty\text{)}.
+  $$
+* **Interpretation:** If you keep reinvesting, your long-term growth rate equals the expected log return, not the expected simple return.
+* **Why important:** This is the basis of the **Kelly criterion** (maximizing long-term growth rate of wealth).
+* Also, log returns have nicer statistical properties (closer to normal distribution).
+
+---
+
+### 3. **The subtle but crucial difference**
+
+* You can have a high **expected simple return** but still **lose money in the long run** if the variance is large.
+* The expected log return penalizes volatility — a portfolio with lower volatility but slightly lower simple return can have a higher expected log return, and thus grow wealth faster over time.
+
+---
+
+✅ **So yes**: in many theoretical and risk-management contexts (e.g., portfolio optimization, stochastic modeling, Kelly betting), we care about the **expected log return**, because it captures the long-run growth rate of wealth.
+
+---
+
+Would you like me to run a **numerical simulation** comparing two assets — one with higher expected simple return but lower expected log return — to show how in the long run the "lower-return" asset actually makes you richer?
+"
+
+"
+OK so I have a different question. Please give me literature on the following problem: say I have a time series and some events and I have quite a few of these events isolated from others. And think they have local effects on the function that is to say the target vector which is to be predicted. Now I have a few instances where a few of these events occur close by. But I want to try and produce a better posterior estimate for what might occur on the function during these sort of events near eachother. How do people estimate interaction from nearby events?
+"
+
+"
+Great — interesting problem. Below I’ll summarize the main classes of methods people use to estimate *interactions* when events occur close in time (overlapping/nearby events), give you a short recipe for modeling/estimation, and point to core literature and recent work you can read next.
+
+---
+
+# Short answer (big picture)
+
+* If you **believe the event effect combines linearly** (superposition), treat each event as an impulse convolved with an impulse-response (kernel) and **deconvolve** (or fit a finite-impulse-response regression). This is a standard approach in neuroscience / fMRI and psychophysiology. ([PubMed][1])
+* If you suspect **nonlinear interactions** between nearby events (the response to two close events is *not* the sum of single-event responses), model explicit interaction terms (distance or overlap features), or use **nonlinear point-process / state-space** models (nonlinear Hawkes, nonlinear autoregressive models, or neural point-processes). ([PMC][2], [ScienceDirect][3])
+* Probabilistic nonparametric approaches (Gaussian processes with convolutional kernels, convolutional GPs, or hierarchical Bayesian impulse models) let you estimate flexible kernels and interactions while quantifying uncertainty. ([arXiv][4], [Caltech Robotics][5])
+
+---
+
+# Approaches and when to use them
+
+1. **Linear convolution + deconvolution (FIR / impulse-response regression)**
+
+   * Model: $y(t)=\sum_{i} (k_{\tau_i} * \mathbf{1}_{\{\text{event type}=i\}})(t) + \varepsilon_t$. If events are isolated, the kernel $k$ can be estimated by ordinary least squares by expanding as finite impulse response (FIR) regressors. Works well when effects are (approximately) additive and overlapping but not strongly interacting. Widely used in fMRI and psychophysiology. ([PubMed][1], [Knapen Lab][6])
+
+2. **Regularized / constrained deconvolution**
+
+   * If events are closer and deconvolution is ill-posed, add regularization (ridge, LASSO, smoothness or basis-function representation of kernels) or use physiologically motivated basis functions. This stabilizes estimates when responses overlap substantially. See fMRI / EEG deconvolution literature. ([Massachusetts Institute of Technology][7], [ScienceDirect][8])
+
+3. **Explicit interaction terms in regression / GAMs**
+
+   * Build features that capture event proximity/overlap (e.g., indicator for “two events within Δt”, distance between nearest events, number of events in a sliding window) and include interactions or tensor-product splines in a GAM. This is simple, interpretable, and often effective when specific forms of interaction are plausible. See generalized additive modelling and smoothing spline literature for interaction splines. (Related ML: Shain et al. 2024 discusses GAM-like estimation of event interactions.) ([MIT Press Direct][9], [Caltech Robotics][5])
+
+4. **Point-process / Hawkes models (and nonlinear extensions)**
+
+   * If the events themselves are stochastic and interact (self-exciting or inhibiting), Hawkes processes and their nonlinear/marked variants model how past events change the rate of future events and can include interaction kernels. Nonlinear Hawkes (or Hawkes with GP kernels) let the influence depend nonlinearly on history — useful when events cluster and interaction modifies both timing and magnitude of responses. ([arXiv][10], [PMC][2], [ScienceDirect][11])
+
+5. **State-space / Kalman / latent-force models**
+
+   * Treat the system as a latent state driven by discrete impulses; estimate with Kalman or particle filters (can do “blind” deconvolution when kernels or timings are uncertain). Good when dynamics are Markovian and you want online/state estimates. ([Psychiatric Research Institute][12])
+
+6. **Gaussian processes with convolutional kernels / nonstationary kernels**
+
+   * Model observation $y(t)$ as convolution of one or more latent GP-driven impulse kernels with event trains, or use nonstationary kernels that depend on event covariates. This gives flexible, probabilistic impulse-response estimates and naturally handles uncertainty. See convolutional GP literature. ([arXiv][4])
+
+7. **Neural / ML methods (TCN, attention, neural point processes, deconvolutional nets)**
+
+   * If you want flexible nonlinear interactions and have lots of data, use neural architectures: temporal convolutional networks, Transformers with event encodings, neural point processes, or unrolled deconvolution networks for interpretability. These scale well but are less interpretable than parametric models. ([PMC][13], [MIT Press Direct][9])
+
+---
+
+# Concrete modelling recipe (practical steps)
+
+1. **Visualize** stacked event-aligned averages (per-event peri-event time histograms) to inspect overlap and nonlinearity.
+2. **Start simple:** fit a linear FIR model (one kernel per event type) using basis functions (splines or canonical shapes) and regularization. This gives a baseline and interpretable kernel shapes. ([Knapen Lab][6])
+3. **Test additivity:** predict responses to clustered events using the linear superposition of isolated-event kernels. Compare to observed responses. Systematic deviations → evidence of interaction.
+4. **If interactions appear:** add interaction features (e.g., pairwise proximity indicator, count in window) or include multiplicative terms (kernel amplitude modulation by recent event density). Fit via penalized regression or in GAM form. ([MIT Press Direct][9])
+5. **If interactions are complex / history-dependent:** fit nonlinear point-process/Hawkes or state-space models (or neural models) that let kernel shapes or amplitudes depend on recent history. Use variational inference / EM / MCMC as needed. ([arXiv][10], [PMC][2])
+6. **Validate with out-of-sample clustered events** (or synthetic experiments where ground truth is known) to ensure your model captures interaction rather than overfitting.
+7. **Quantify uncertainty** (Bayesian posterior or bootstrap) — important when deconvolution is ill-posed.
+
+---
+
+# Key literature to read (starting list)
+
+**Classic / domain-proven deconvolution / FIR**
+
+* Glover, G. H. (1999). *Deconvolution of impulse response in event-related BOLD fMRI.* NeuroImage. — foundational for linear deconvolution of overlapping event responses. ([PubMed][1], [Massachusetts Institute of Technology][7])
+* Hinrichs, H. et al. (2000). *Deconvolution of event-related fMRI responses in fast-rate designs.* Journal of Cognitive Neuroscience. ([PubMed][14])
+
+**Hawkes / point processes and interactions**
+
+* Lima, R. (2020). *Hawkes Processes: Modeling, Inference and Control (overview).* arXiv — accessible survey of Hawkes processes and inference. ([arXiv][10])
+* Malem-Shinitski, N. et al. (2022). *Variational Bayesian Inference for Nonlinear Hawkes.* — nonlinear extensions to capture complex interactions. ([PMC][2])
+* Duval, C. et al. (2022). *Interacting Hawkes processes with multiplicative inhibition.* — examples of interacting populations. ([ScienceDirect][11])
+
+**Gaussian processes / convolutional kernels**
+
+* van der Wilk, M., Rasmussen, C. E., Hensman, J. (2017). *Convolutional Gaussian Processes.* arXiv — convolutional structure for GPs (good for event-driven local effects). ([arXiv][4])
+* Rasmussen, C. E., & Williams, C. K. I. (2006). *Gaussian Processes for Machine Learning.* — canonical GP book (background and kernels). ([Caltech Robotics][5])
+
+**Neuro / physiology applications (good methods & practice)**
+
+* Bach, D. R. et al. (2009). *Time-series analysis for rapid event-related skin conductance responses* — adaptation of convolutional models in psychophysiology. ([PMC][15])
+* Tolooshams, B. et al. (2024). *Interpretable deep learning for deconvolutional analysis* — unrolling-based sparse deconvolution networks. ([PMC][13])
+
+**Recent/state-of-the-art**
+
+* Shain, C. et al. (2024). *A Deep Learning Approach to Analyzing Continuous-Time Events* — combines deep models with GAM-like interpretability for event interactions. ([MIT Press Direct][9])
+* (2024) Mamba Hawkes Process — architecture advances for long-range dependencies in Hawkes models. ([arXiv][16])
+
+---
+
+# Practical tips & diagnostics
+
+* **If superposition predicts poorly for clustered events**, that’s a red flag for interaction — model higher-order terms or history dependence.
+* **Regularize** impulse responses (smoothness priors, ridge/L2) when events overlap a lot — deconvolution is numerically unstable otherwise. ([Massachusetts Institute of Technology][7])
+* **Use simulation:** generate synthetic event trains with known kernel + interaction, then test your estimator’s ability to recover interactions.
+* **Interpretability vs Flexibility tradeoff:** start with interpretable linear + interaction regressors; move to nonparametric/Bayesian or neural models only if necessary and you have sufficient data. ([Knapen Lab][6], [arXiv][4])
+
+---
+
+If you want, I can do one of the following next (pick one, and I’ll run it now):
+
+1. Sketch a small, runnable statistical model (FIR with interaction terms) and show synthetic-data simulation and recovery.
+2. Draft a Bayesian convolutional-GP model (model equations + inference approach).
+3. Pull together PDFs / direct links of the most relevant papers above into a single reading list.
+
+(Choose one and I’ll produce the model/code or consolidated reading list right away.)
+
+[1]: https://pubmed.ncbi.nlm.nih.gov/10191170/?utm_source=chatgpt.com "Deconvolution of impulse response in event-related BOLD ..."
+[2]: https://pmc.ncbi.nlm.nih.gov/articles/PMC8947061/?utm_source=chatgpt.com "Variational Bayesian Inference for Nonlinear Hawkes ..."
+[3]: https://www.sciencedirect.com/science/article/am/pii/S0304414923000686?utm_source=chatgpt.com "Nonlinear Poisson autoregression and nonlinear Hawkes ..."
+[4]: https://arxiv.org/abs/1709.01894?utm_source=chatgpt.com "Convolutional Gaussian Processes"
+[5]: https://robotics.caltech.edu/wiki/images/d/d1/RasumussenWilliamsBook.pdf?utm_source=chatgpt.com "Gaussian Processes for Machine Learning"
+[6]: https://tknapen.github.io/science/deconvolution/?utm_source=chatgpt.com "Finite Impulse Response Fitting"
+[7]: https://web.mit.edu/swg/ImagingPubs/experimental-design/Glover.NeuroImage.1999.pdf?utm_source=chatgpt.com "Deconvolution of Impulse Response in Event-Related ..."
+[8]: https://www.sciencedirect.com/science/article/abs/pii/S105381191000340X?utm_source=chatgpt.com "Baseline correction of overlapping event-related responses ..."
+[9]: https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00126/120243/A-Deep-Learning-Approach-to-Analyzing-Continuous?utm_source=chatgpt.com "A Deep Learning Approach to Analyzing Continuous-Time ..."
+[10]: https://arxiv.org/pdf/2011.13073?utm_source=chatgpt.com "Hawkes Processes Modeling, Inference and Control"
+[11]: https://www.sciencedirect.com/science/article/abs/pii/S0304414922000448?utm_source=chatgpt.com "Interacting Hawkes processes with multiplicative inhibition"
+[12]: https://psychiatry.uams.edu/birc/wp-content/uploads/sites/3/2022/08/Bush-and-Cisler-2013-decoding-neural-events-from-fMRI.pdf?utm_source=chatgpt.com "Title: Decoding neural events from fMRI BOLD signal: A ..."
+[13]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10802267/?utm_source=chatgpt.com "Interpretable deep learning for deconvolutional analysis ..."
+[14]: https://pubmed.ncbi.nlm.nih.gov/11506649/?utm_source=chatgpt.com "Deconvolution of event-related fMRI responses in fast-rate ..."
+[15]: https://pmc.ncbi.nlm.nih.gov/articles/PMC2772899/?utm_source=chatgpt.com "Time-series analysis for rapid event-related skin ..."
+[16]: https://arxiv.org/html/2407.05302v1?utm_source=chatgpt.com "Mamba Hawkes Process"
+"
+
+Eh. Just eh. I want to go in to more details here on the issue of complexity before giving a discursion on my own opinions here uh.
+
+"
+
+"
+
+"
+
+"
+
+So the point I wanted to make was like say we are in some toy example where we are talking about something like using uh rain information to predict 911 calls say because like we are the state or uh a uh statistician employed by the state and it is our task to predict 911 calls to then know how many people to pay to staff the telephone lines or something in a somewhat dynamic way. So what the uh there are some effects let us say in some settings there will be a few say 2 or 3 or 4 major major major causal thingies and if there were like only 2 types of effects like very simple model and they had refractory periods or something it would be like a uh thing where you could fit to some model and say say say think the model is not that arbitrary like it was picked by a human for a very non arbitrary given reason that was deemed to be OK uh. Say maybe say uh like... see Productivity.txt e.g.
+
+"
+In time series is there a famous theorem or result relating to optimal selection of windows following an event for downsampling? Are there papers on this topic of dynamic selection of windows?
+"
+
+"
+Short answer: **There isn’t one single “famous theorem” (like a Nyquist-Shannon) that tells you the optimal post-event window for downsampling in every context.** Instead the literature splits into several rigorous frameworks that address *related* problems — event-triggered / non-uniform sampling, quickest change-detection with sampling costs, adaptive/rolling window selection for forecasting, and optimal non-uniform sampling for system identification — and each gives its own optimality results under its assumptions. Below I summarize the main families of results and give a compact reading list you can follow depending on what you mean by “optimal” (minimize detection delay? minimize reconstruction error? minimize communication cost subject to estimation error? maximize forecasting accuracy?).
+
+## Main frameworks (and what they prove)
+
+1. **Event-triggered / event-based sampling.**
+   These works analyze sampling policies that take samples only when some event/threshold is triggered and compare them to periodic sampling — they provide analytic conditions and performance gains (error vs. cost) and sometimes optimal trigger rules for particular costs. See Miskowicz’s efficiency results on event-based sampling. ([PMC][1])
+
+2. **Quickest change-detection with sampling control (data-efficient QCD).**
+   The classical quickest-detection literature (Shiryaev, Page/CUSUM, Lorden, Pollak, etc.) gives optimality theorems for detection delay vs false alarms. More recent work studies *observation control* (when to sample) and gives asymptotically optimal schemes that trade observation cost and detection delay (DE-Shiryaev, DE-CuSum, etc.). If your “event” is a change-point and you care about detection, this is the canonical theory. ([arXiv][2])
+
+3. **Non-uniform / optimal sparse sampling for identification & estimation.**
+   For system identification and signal reconstruction one can ask: given a budget of samples, where should they be placed to best identify parameters or reconstruct the signal? There are optimal non-uniform sampling formulations with concrete optimality results under model assumptions. ([cje.ejournal.org.cn][3])
+
+4. **Adaptive / sliding window selection for forecasting & estimation.**
+   In forecasting and rolling estimation people study how to pick window length (fixed, rolling or adaptive) to track time-varying parameters. These works provide procedures (cross-validation, loss-based adaptive rules, local adaptivity) and empirical/theoretical guarantees in some settings; results are typically problem-dependent (loss function, model). ([ScienceDirect][4])
+
+5. **Algorithmic/ML approaches: bandit & learning-based window/sampling control.**
+   If you want to *learn* a dynamic sampling/window policy online, recent papers apply bandit, reinforcement-learning, or active-learning methods and prove regret or asymptotic optimality. (E.g., bandit quickest change-point detection.) ([NeurIPS Proceedings][5])
+
+## Practical takeaways / rules of thumb
+
+* If your goal is **accurate reconstruction** under sampling constraints, look at the optimal non-uniform sampling / system-ID literature and formulate a cost (reconstruction MSE) then solve the sampling/placement optimization under that cost. ([cje.ejournal.org.cn][3])
+* If your goal is **fast detection** of an event/change, use the quickest change-detection framework with observation control (DE-Shiryaev / DE-CuSum) — these give near-optimal tradeoffs between delay, false alarm, and sampling cost. ([vvv.ece.illinois.edu][6])
+* If your goal is **forecasting** after an event (choose a window to retrain/downsample), practical methods (and typical state-of-the-art) are: rolling vs expanding windows evaluated by cross-validation or out-of-sample loss; adaptive window algorithms that minimize recent forecast loss. These are widely used and have empirical guarantees under time-varying parameter models. ([ScienceDirect][4])
+
+## Useful papers & entry points (quick reading list)
+
+* M. Miskowicz, *Efficiency of Event-Based Sampling According to Error* — analytic comparisons of event vs periodic sampling. ([PMC][1])
+* Banerjee & Veeravalli (and related): *Data-Efficient Quickest Change Detection* (DE-Shiryaev / DE-CuSum) — observation-control with asymptotic optimality results. ([vvv.ece.illinois.edu][6])
+* V. V. Veeravalli & T. Banerjee, *Quickest Change Detection* (survey / chapter) — classical theory & optimality criteria (Shiryaev, CUSUM, Lorden). ([arXiv][2])
+* N. Boyi & D. Xiao, *Optimal Nonuniform Sampling for System Identification* — formulations for optimal sparse sampling. ([cje.ejournal.org.cn][3])
+* W. Iqbal et al., *Adaptive sliding windows for improved estimation of data streams* — adaptive window selection for estimation tasks. ([ScienceDirect][7])
+* H. A. Dau et al., *Learning DTW window width via cross-validation* — a concrete example of parameter (window) selection by CV in time series tasks. (Useful if your “window” is a pattern-matching/feature window.) ([Computer Science and Engineering][8])
+* F. Eng (LiU thesis), *Non-Uniform Sampling in Statistical Signal Processing* — good survey of non-uniform sampling theory and motivations. ([Diva Portal][9])
+
+## If you want to go deeper
+
+Tell me which of the following matches your use case **right now** (no need to repeat details you already gave):
+A) you want to **detect** an event/change quickly with minimal samples (change-detection literature),
+B) you want to **reconstruct or identify** a system/signal with a limited sample budget (non-uniform sampling / system ID),
+C) you want to **forecast or model** after an event and need to choose how much past data (window) to keep/downsample (rolling/adaptive windows),
+D) you want to **learn a dynamic sampling policy** online (bandit/RL approaches), or
+E) something else (briefly name it).
+
+If you pick one, I’ll return a short annotated bibliography (2–6 papers), explain the main theorems/results that apply, and — if helpful — sketch concrete algorithms you can implement (pseudo-code) to get started.
+
+[1]: https://pmc.ncbi.nlm.nih.gov/articles/PMC3264478/?utm_source=chatgpt.com "Efficiency of Event-Based Sampling According to Error ..."
+[2]: https://arxiv.org/pdf/1210.5552?utm_source=chatgpt.com "Quickest Change Detection"
+[3]: https://cje.ejournal.org.cn/article/pdf/preview/4663.pdf?utm_source=chatgpt.com "Optimal Nonuniform Sampling for System Identification on ..."
+[4]: https://www.sciencedirect.com/science/article/abs/pii/S0304407613000699?utm_source=chatgpt.com "Adaptive forecasting in the presence of recent and ongoing ..."
+[5]: https://proceedings.neurips.cc/paper/2021/file/f3a4ff4839c56a5f460c88cce3666a2b-Paper.pdf?utm_source=chatgpt.com "Bandit Quickest Changepoint Detection"
+[6]: https://vvv.ece.illinois.edu/papers/journal/bane-veer-tit-2013.pdf?utm_source=chatgpt.com "Data-Efficient Quickest Change Detection in Minimax Settings"
+[7]: https://www.sciencedirect.com/science/article/pii/S0167739X19309203?utm_source=chatgpt.com "Adaptive sliding windows for improved estimation of data ..."
+[8]: https://www.cs.ucr.edu/~hdau001/learn_dtw_parameter/learn_w_paper_DAMI.pdf?utm_source=chatgpt.com "Optimizing dynamic time warping's window width for time ..."
+[9]: https://www.diva-portal.org/smash/get/diva2%3A23251/fulltext01?utm_source=chatgpt.com "Non-Uniform Sampling in Statistical Signal Processing"
+"
+
+"
+
+"

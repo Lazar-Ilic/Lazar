@@ -1,0 +1,14 @@
+In my quantitative research internship there was a task to prove that the Maximum Likelihood Estimator was the line which minimises the sum of the squared errors under certain assumptions. This was an OK enough task, pretty standard stuff. However, it still sort of presupposes one cares about computing the MLE Maximum Likelihood Estimator anyways. Think I read some papers on other settings where we might care about other stuff for obvious reasons like say the median. Now of course in this setting usually any line too far off from the MLE MSSE will have a very very very low relative probability of having produced the observed sample. And so if we think about lines of the form y=ax+b and then the pdf of like p(a,b) it will be super spiked out around the beta_0 and beta_1 values found in MLE MSSE. But nevertheless I was wondering if there are real world scenarios people choose or mix in a median and I found some OK readings on the topic.
+
+https://stats.stackexchange.com/questions/43009/what-are-the-multidimensional-versions-of-median
+
+https://stats.stackexchange.com/questions/1927/is-there-an-accepted-definition-for-the-median-of-a-sample-on-the-plane-or-high
+
+https://stats.stackexchange.com/questions/1927/is-there-an-accepted-definition-for-the-median-of-a-sample-on-the-plane-or-high?rq=1
+
+http://stats.stackexchange.com/questions/213
+
+http://en.wikipedia.org/wiki/Geometric_median
+
+http://cgm.cs.mcgill.ca/~athens/Geometric-Estimators/intro.html
+

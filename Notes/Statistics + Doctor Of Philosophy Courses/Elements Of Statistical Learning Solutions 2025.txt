@@ -1,0 +1,8 @@
+John L. Weatherwax and David Epstein's solutions are OK. There exist other solid repositories and different codes people have written up for the tasks I think I saw some R versions for ISLR as an undergraduate. YuhangZhou88 also is solid enough I guess.
+
+----------
+
+2.1
+
+Easy enough.
+

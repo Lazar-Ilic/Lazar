@@ -1,0 +1,285 @@
+Selecting Uniform-Looking Subsets
+
+Manipulating Point Sets
+
+Lazar Ilic
+
+"
+Ah, nice — this flips the problem into an **optimization** one: given a set of points, how do we remove a subset (ideally the "least uniform-looking" ones) to make the remaining points as uniform as possible?
+
+This is a really interesting and non-trivial problem. Let’s unpack some practical strategies for doing this:
+
+---
+
+### 🎯 Goal:
+**Select a subset of points to remove, so that the remaining points most closely resemble a uniform distribution.**
+
+Let’s assume:
+- You have a set of \( N \) points in 1D or multi-D.
+- You want to remove \( k \) of them (or some fraction), to "uniformize" the distribution.
+
+---
+
+### 🧠 Strategy Overview:
+
+#### 1. **Define a Uniformity Metric**
+You need a way to **measure uniformity** of a set. Some popular options:
+- **L2 discrepancy** (if you're working in a unit cube): lower = more uniform.
+- **KL divergence** or **Wasserstein distance** from the uniform density.
+- **Nearest-neighbor distances**: in a uniform distribution, the distances are more regular.
+- **Kernel Density Estimate + Entropy**: uniform has high entropy.
+
+So, choose a function \( U(P) \) that quantifies uniformity of a point set \( P \).
+
+---
+
+#### 2. **Greedy Removal Algorithm (Practical Heuristic)**
+Start with the full set and iteratively remove the point that **most improves** the uniformity:
+
+```python
+for i in range(k):
+    for each point p in remaining set:
+        compute uniformity score without p
+    remove point that gives best score
+```
+
+This is computationally feasible for small/moderate data sizes and surprisingly effective.
+
+---
+
+#### 3. **Global Optimization Approach**
+Formulate the problem as:
+
+\[
+\min_{S \subset P,\, |S| = N - k} \, U(S)
+\]
+
+This is combinatorial — hard to solve exactly unless small — but you could use:
+- **Simulated annealing**
+- **Genetic algorithms**
+- **Integer programming (if discrete bins)**
+
+---
+
+#### 4. **Clustering-Based Filtering (Quick Approximation)**
+If points are too clustered (i.e., deviating from uniformity), you might:
+- Run a **density estimator** (like KDE).
+- Identify high-density regions.
+- Remove points preferentially from those areas.
+
+This "flattens out" the density.
+
+---
+
+#### 5. **Use Outlier Detection on the Uniformity Metric**
+Treat uniformity as a density estimation problem:
+- Estimate density across the space.
+- Points in overly dense regions are not “uniform-like.”
+- Remove those to even out the distribution.
+
+---
+
+### 🧪 Example Sketch in 1D
+Suppose you have points in \([0, 1]\):
+
+```python
+import numpy as np
+from scipy.stats import gaussian_kde
+
+def uniformity_score(points):
+    kde = gaussian_kde(points)
+    # Sample some test points uniformly
+    x_test = np.linspace(0, 1, 100)
+    density = kde(x_test)
+    return -np.var(density)  # lower variance in density = more uniform
+
+def greedy_remove(points, k):
+    points = list(points)
+    for _ in range(k):
+        best_score = float('-inf')
+        worst_idx = None
+        for i in range(len(points)):
+            trial = points[:i] + points[i+1:]
+            score = uniformity_score(trial)
+            if score > best_score:
+                best_score = score
+                worst_idx = i
+        points.pop(worst_idx)
+    return np.array(points)
+```
+
+---
+
+### 📌 Summary
+You're optimizing a uniformity function over subsets of your points. The methods range from:
+- **Greedy heuristics** (fast and interpretable)
+- **Density flattening**
+- **Global search** (slow but thorough)
+
+---
+
+Wanna try it on real data, or tune it for 2D or higher?
+"
+
+Hmmm this is interesting enough way to start my day examining this output right here.
+
+"
+Yes, there’s a rich body of research on selecting subsets of points that are "most uniform"—depending on what you mean by *uniform*. This shows up in fields like **numerical integration**, **experimental design**, **sampling theory**, and **machine learning**. Here are some relevant areas and papers you might want to explore:
+
+---
+
+### 🔹 1. **Discrepancy Theory and Low-Discrepancy Point Sets**
+This is about selecting or generating subsets of points that are spread out uniformly over some space.
+
+- **Paper**: *Discrepancy of Point Sets and Sequences* by J. Matoušek (1999)  
+  [Covers theoretical foundations of uniform point sets using discrepancy theory.]
+
+- **Concept**: **Star Discrepancy** is a common measure used to quantify the uniformity of point distributions.
+
+---
+
+### 🔹 2. **Farthest Point Sampling / Blue Noise Sampling**
+These are methods to sample points so that they appear evenly spaced.
+
+- **Paper**: *Farthest Point Strategy for Progressive Image Sampling* by Eldar et al. (1997)  
+  [Useful in contexts where you want a maximally spread subset.]
+
+- **Concept**: Greedy algorithm that iteratively picks the point farthest from the already selected subset.
+
+---
+
+### 🔹 3. **Maximin and Minimax Designs (Design of Experiments)**
+Choose points that maximize the minimum distance between them—great for uniform coverage.
+
+- **Paper**: *Space-Filling Designs for Computer Experiments: A Review* by Santner et al. (2003)
+
+- **Relevant Terms**: Maximin design, Latin Hypercube Sampling (LHS), Uniform Design
+
+---
+
+### 🔹 4. **K-Center and K-Medoids Clustering**
+These are classic optimization problems: pick k points such that all other points are as close as possible to the selected subset.
+
+- **Paper**: *The k-Median Problem: A Survey* by Jain et al.  
+  [Closely related and often used for approximating well-distributed subsets.]
+
+---
+
+### 🔹 5. **Determinantal Point Processes (DPPs)**
+A probabilistic model that prefers subsets of points that are both diverse and spread out.
+
+- **Paper**: *Determinantal Point Processes for Machine Learning* by Kulesza & Taskar (2012)
+
+- Very elegant for *random* subset selection that still looks uniform.
+
+---
+
+If you’re looking for code or practical implementation (e.g., in Python, NumPy, etc.), I can help you mock something up depending on your use case—like 2D spatial uniformity or more abstract metric spaces. Want to go down that road?
+"
+
+This is an interesting example where I will let my readership know that ChatGPT hallucinates all the time. All the time. When asked to actually provide links to literature, it regularly fails.
+
+Reading up on Furthest Point Sampling is fun enough uh. So I am kind of especially interested in uh splitting up my own analysis basically in to 3 cases uh like uh say we want to pick a very large subset like on the order of if we are given n points like maybe subsets of size n-log[n] or something as well as very small subsets like log[n] maybe and the third case is kind of middle sized uh subsets. Now there are different reasons we might uh care about this task. Say it was a geographic task like we want to minimise the maximum distance anyone might have to travel to the nearest selected point in R2. Uh OK so instead we want to minimise the total distance traveled in R2 by everyone aggregated together. OK so say instead we just care about different metrics of how close to uniform the selection is. Star Discrepancy.
+
+Huh. So I am kind of interested if there is anything interesting to be said about very fast algorithms for perfect or good performance for that small subset selection task uh. Dunno about faster than n log[n] uh is a fair question like... using linear algebra tricks? Also for the mid case uh. So it is interesting like in particular I would love to uh point out uh especially say in cases where there are a few extremely dense regions in the original point set I want to rapidly prune out a bunch of those points uh without like each time doing a O[n] operation for each deletion would be much better and faster to do something different uh.
+
+So OK I will come back to this tomorrow maybe but I want something much closer to O[n] or O[n * log[log[n]]] or something than O[n * log[n]] maybe if possible eh. But maybe in the small case there is somehow a way to do it in O[n] or something huh hmmm...
+
+"
+Okay, selecting a small, "most uniform looking" subset from a larger set of points in $R^2$ is a common problem in areas like computer graphics, data analysis, and computational geometry. The definition of "uniform looking" can vary, but it generally implies that the points are spread out evenly, avoiding both large empty areas and dense clusters. Finding the *absolute* best subset according to formal measures like discrepancy can be computationally very hard (often NP-hard), so research focuses on *fast algorithms* that produce good approximate results.
+
+Here are some approaches and research directions for finding such algorithms:
+
+1.  **Grid-Based or Stratified Sampling:**
+    * **Idea:** Divide the bounding box of the point set into a grid (e.g., $m \times m$ cells). To select $k$ points, you could try to select roughly $k/N_{cells}$ points from each non-empty cell (where $N_{cells}$ is the number of non-empty cells), perhaps picking the point closest to the cell center. A simpler version picks at most one point per cell.
+    * **Variations:** Use adaptive grids like Quadtrees. Subdivide cells with many points and select points from leaf nodes.
+    * **Speed:** Often very fast, potentially linear or $O(N \log N)$ depending on the structure used (where N is the total number of points).
+    * **Uniformity:** Provides a basic level of uniformity by ensuring spatial coverage. Can sometimes lead to overly regular patterns or be sensitive to the grid's alignment and resolution.
+
+2.  **Distance-Based Methods:**
+    * **Farthest Point Sampling (FPS):** Start by selecting an initial point (e.g., random, or centroid of a cluster). Iteratively select the next point from the input set which is farthest away from all *currently selected* points. Repeat until $k$ points are selected.
+    * **Poisson Disk Sampling Adaptation (Point Set Thinning):** While typically used to *generate* points, the principle can be adapted for selection. Define a minimum distance $r$. Process the input points (possibly in random order). Select the first point. For subsequent points, select it only if it is at least distance $r$ from all previously selected points. Adjust $r$ (or use an iterative approach) to get roughly $k$ points. Efficient implementations (like Bridson's algorithm adapted for selection) use a background grid for fast neighbor lookups.
+    * **Speed:** Naive FPS is $O(Nk)$. Faster FPS variants exist ($O(N \log N)$ or faster approximations). Poisson disk selection can be close to $O(N)$ with a spatial grid.
+    * **Uniformity:** Generally produces well-spread points with good spatial separation (often called "blue noise" characteristics for Poisson disk). FPS tends to place points well apart but can sometimes favor the boundaries.
+
+3.  **Spatial Hashing / Discretization:**
+    * **Idea:** Map points to discrete grid cells using a spatial hash function. Aim to select one point (or a limited number) from each occupied hash bucket until $k$ points are chosen.
+    * **Speed:** Very fast, often approaching $O(N)$.
+    * **Uniformity:** Depends heavily on the hash function and grid resolution. Can be similar to basic grid sampling.
+
+4.  **Greedy Discrepancy Minimization:**
+    * **Idea:** Start with a candidate subset (e.g., random). Iteratively swap points between the selected subset and the remaining points if the swap improves a measure of uniformity (e.g., reduces discrepancy, improves Voronoi cell size regularity).
+    * **Speed:** Can be slow, depends heavily on the uniformity measure and optimization strategy.
+    * **Uniformity:** Can directly target specific uniformity criteria but may get stuck in local optima.
+
+**Relevant Research Areas & Keywords:**
+
+* **Computational Geometry:** Algorithms dealing with geometric data structures (grids, quadtrees, Voronoi diagrams, Delaunay triangulations) are often employed.
+* **Point Set Thinning / Subsampling:** This is a specific term for selecting a sparser subset from a dense point set.
+* **Blue Noise / Poisson Disk Sampling:** While often for generation, the underlying principles and algorithms are relevant for selection aiming for high-quality visual uniformity.
+* **Discrepancy Theory:** Provides the mathematical framework for measuring uniformity, though minimizing it directly is often hard. Look for algorithms related to "low discrepancy subsets".
+* **Farthest Point Sampling:** A well-known greedy approach.
+
+**Which algorithm is "best"?**
+
+* For **speed and simplicity**, grid-based methods or spatial hashing are good starting points.
+* For **high-quality visual uniformity** (well-spaced points), adaptations of Poisson Disk sampling (like fast thinning algorithms) or Farthest Point Sampling are often preferred, although potentially slower or more complex to implement efficiently.
+
+Consider searching for terms like "fast point set thinning", "uniform point subset selection algorithm", "Poisson disk subset selection", "farthest point sampling implementation", and "low discrepancy subset algorithm". The best choice depends on the specific requirements for speed, the size of N and k, and the precise notion of "uniformity" you need.
+Okay, selecting a "most uniform looking" small subset from a larger set of points in R2 is a classic problem that appears in various fields like computer graphics, statistics, computational geometry, and machine learning. The "best" algorithm depends heavily on how you precisely define "uniform looking" and what "fast" means in your context (relative to the size of the initial set $N$ and the desired subset size $k$).
+
+Here's a breakdown of common approaches and relevant research areas, focusing on faster algorithms:
+
+**Defining "Uniform Looking"**
+
+This usually translates to one or more of these properties for the subset:
+
+1.  **Low Discrepancy:** The points deviate minimally from a perfectly uniform distribution within their bounding box. Measures like star discrepancy quantify this. Finding the subset with the absolute minimum discrepancy is computationally hard.
+2.  **Good Spatial Separation:** Points in the subset are not clustered together; often, this means maximizing the minimum distance between any two points in the subset.
+3.  **Good Coverage:** Every point in the original set (or every region within the bounding box) is relatively close to some point in the selected subset.
+
+**Fast Algorithmic Approaches**
+
+Here are some common strategies, ranging from simple/fast to more complex:
+
+1.  **Grid-Based Methods (Binning/Quantization):**
+    * **Idea:** Overlay a grid (e.g., regular grid, quadtree) onto the bounding box of the points. Select one or a few representative points from each occupied grid cell.
+    * **Pros:** Conceptually simple, often very fast (can be $O(N)$ or $O(N \log N)$ depending on implementation). Helps ensure spatial coverage at the grid resolution.
+    * **Cons:** The uniformity is heavily dependent on the grid resolution and alignment. Can produce grid artifacts. Doesn't necessarily optimize discrepancy or maximize minimum distance well.
+    * **Research:** Basic technique, often used as a preprocessing step or baseline. Variations exist in how to choose points within a cell (e.g., centroid, random point).
+
+2.  **Random Sampling Strategies:**
+    * **Simple Random Sampling:** Pick $k$ points uniformly at random from the original set $N$. Extremely fast ($O(k)$ or $O(N)$ to index), but provides no guarantee of uniformity, especially for small $k$.
+    * **Stratified Sampling:** Combine with grid methods. Divide the space into strata (cells) and sample randomly within each stratum, perhaps proportionally to the density of original points. Better than simple random sampling but still has randomness.
+
+3.  **Greedy Distance-Based Methods:**
+    * **Farthest Point Sampling (FPS):**
+        * **Idea:** Start with a random point (or point extremal in some direction). Iteratively select the point from the remaining original set that is farthest away from *any* point already selected for the subset. Repeat until $k$ points are chosen.
+        * **Pros:** Tends to produce well-spaced points (maximizes minimum distance heuristically) and provides good coverage. Relatively fast greedy approach.
+        * **Cons:** Basic implementation is $O(N k)$. Can be sped up using spatial data structures (like k-d trees) but becomes more complex. The resulting set depends on the starting point.
+        * **Research:** Well-known algorithm, related to the k-center problem approximation. Used widely in graphics and geometry processing. (See search results mentioning FPS).
+    * **Point Thinning/Pruning:**
+        * **Idea:** Start with all $N$ points. Iteratively remove points that are "too close" to other points according to some distance threshold, until $k$ points remain (or until no points are too close, which might not yield exactly $k$ points). Or, sort points by density/closeness and remove the most clustered ones.
+        * **Pros:** Directly addresses clustering. Can be fast if proximity queries are efficient (e.g., using grids or k-d trees).
+        * **Cons:** Requires choosing a good distance threshold. The order of removal can matter. Might not yield exactly $k$ points easily.
+
+4.  **Heuristics for Discrepancy Minimization:**
+    * **Idea:** Since finding the subset with the globally minimum discrepancy is hard (NP-hard for star discrepancy), researchers have developed heuristics. A common approach is **subset selection via swaps**. Start with an initial subset (e.g., randomly chosen, or the first $k$ points of a low-discrepancy sequence mapped to the original set's domain) and iteratively try swapping points between the subset and the remaining points to see if discrepancy improves.
+    * **Pros:** Directly targets a formal measure of uniformity (discrepancy). Recent research shows these can produce very high-quality (low-discrepancy) subsets, sometimes outperforming standard methods.
+    * **Cons:** Can be significantly slower than grid or simple greedy methods. Performance depends heavily on the heuristic, the initial set, and the number of iterations. Might get stuck in local minima.
+    * **Research:** This is an active area. Search results mention "star discrepancy subset selection" and heuristic approaches (swap-based, branch-and-bound for smaller instances). Look for papers by authors like Clément, Doerr, Pausinger, etc. (See search results 3.1, 3.2, 3.4, 3.5).
+
+**Which to Choose?**
+
+* **Need absolute speed and simplicity?** Grid-based methods or simple random sampling (if approximate uniformity is okay).
+* **Need good point spacing / coverage?** Farthest Point Sampling (FPS) is often a good balance of speed and quality.
+* **Need mathematically low discrepancy?** Heuristic discrepancy minimization methods are state-of-the-art for quality but will likely be slower than FPS or grid methods.
+
+Consider implementing a simple grid-based method or FPS first, as they are often sufficient and relatively easy to code. If the results aren't uniform enough, you might explore the more complex discrepancy-based heuristics.
+"
+
+Hmmm so this one here from Google Gemini does lead to some interesting leads and Francois Clement.
+
+So another very obvious say we want to pick a set of size k~100 from a larger set of size n~10000000 then one way we can do this maybe in like O[n * log[k]] is to go ahead and this generalises OK to other distributions beyond uniform which was one of my goals here maybe but what we do is go ahead and draw a set of k or so points from the underlying distribution and then process through the n points and for each one find assuming some stuff the closest of the k points but for each of the k points we store the closest from the n points and at the end we kind of hope to have a subset of size around k which were those k dudes from the n points closest to the k we drew earlier. This performs OK. And might satisfy OK properties.
+
+I should still think more about the case for very small subsets see if I can do better uh.

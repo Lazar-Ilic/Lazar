@@ -1,0 +1,321 @@
+Michael Kifer And Scott A. Smolka
+
+Preface ix
+
+OKOK
+
+1. Organization of OSP 2 1
+
+OK
+
+1.1 Chapter Objective 1
+
+OK
+
+1.2 Operating System Basics 1
+
+OK obviously need to look some stuff up and cross reference with my architecture books once in a while.
+
+1.3 OSP 2 Organization 6
+
+OK
+
+1.4 Simulated Hardware in OSP 2 8
+
+OK this book is kind of weird I might need to trawl, Google, and reference other documents quite a lot I dunno. We shall see what I skim get ideas about where things in this space are whatever.
+
+1.5 Utilities 11
+
+OK
+
+1.6 OSP 2 Events 16
+
+OKOK
+
+1.7 OSP 2 Daemons 18
+
+OK
+
+1.8 Compiling and Running Projects 19
+
+OK
+
+1.9 General Rules of Engagement 24
+
+OK
+
+1.9.1 A Day in the Life of an OSP 2 Thread. 25
+
+OKOK
+
+1.9.2 Convention for Calling Student Methods 26
+
+OK
+
+1.9.3 Static vs. Instance Methods. 28
+
+OKOKOK
+
+1.9.4 Obfuscation of Method and Class Names 28
+
+OK
+
+1.9.5 Possible Hanging After Errors 29
+
+OKOK
+
+1.9.6 Possible Exceptions After the End of Execution 29
+
+OK
+
+1.9.7 General Advice: How to Figure it Out 29
+
+OKOK
+
+1.10 System Log, Snapshots, and Statistics 30
+
+OKOKOK
+
+1.11 Debugging 31
+
+OK
+
+1.12 Project Submission 35
+
+OK
+
+2. Putting it All Together: An Example Session with OSP 2 39
+
+OK
+
+2.1 Chapter Objective 39
+
+OKOK
+
+2.2 Overview of Thread Management in OSP 2 39
+
+OKOKOK
+
+2.3 The Student Method do resume() 40
+
+OK
+
+2.4 Step 1: Compiling and Running the Project 41
+
+OK
+
+2.5 Step 2: Examining the OSP.log File 42
+
+OKOKOK
+
+2.6 Step 3: Introducing an Error into do resume() 43
+
+OKOK
+
+3. Tasks: Management of Tasks (a.k.a. Processes) 45
+
+OK
+
+3.1 Chapter Objective 45
+
+OKOK
+
+3.2 Conceptual Background 45
+
+OK
+
+3.3 Class TaskCB 46
+
+OK
+
+3.4 Methods Exported by the Tasks Package 53
+
+OKOK
+
+4. Threads: Management and Scheduling of Threads 57
+
+OK
+
+4.1 Chapter Objective 57
+
+OK
+
+4.2 Overview of Threads 57
+
+OKOK
+
+4.3 The Class ThreadCB 61
+
+OK
+
+4.4 The Class TimerInterruptHandler 71
+
+OKOKOK
+
+4.5 Methods Exported by the Threads Package 72
+
+OK
+
+5. Memory: Virtual Memory Management 75
+
+OKOK
+
+5.1 Chapter Objective 75
+
+OKOKOK
+
+5.2 Overview of Memory Management 75
+
+OK
+
+5.3 Class FrameTableEntry 83
+
+OK
+
+5.4 Class PageTableEntry 86
+
+OKOK
+
+5.5 Class PageTable 90
+
+OK
+
+5.6 Class MMU 91
+
+OKOK
+
+5.7 Class PageFaultHandler 95
+
+OK
+
+5.8 Methods Exported by Package Memory 100
+
+OK
+
+6. Devices: Scheduling of Disk Requests 103
+
+OKOKOK
+
+6.1 Chapter Objective 103
+
+OK
+
+6.2 Overview of I/O Handling 103
+
+OKOK
+
+6.3 Class IORB 106
+
+OK
+
+6.4 Class Device 109
+
+OKOK
+
+6.5 Class DiskInterruptHandler 114
+
+OKOK
+
+6.6 Methods Exported by Package Devices 117
+
+OK
+
+7. FileSys: The File System 119
+
+OKOK
+
+7.1 Chapter Objective 119
+
+OK
+
+7.2 File System Design Objectives 119
+
+OK
+
+7.3 Overview of the OSP 2 File System 121
+
+OKOKOK
+
+7.4 Class MountTable 123
+
+OK
+
+7.5 Class INode. 127
+
+OKOK
+
+7.6 Class DirectoryEntry 129
+
+OK
+
+7.7 Class OpenFile 131
+
+OK
+
+7.8 Class FileSys 136
+
+OKOKOK
+
+7.9 Methods Exported by the FileSys Package. 141
+
+OKOK
+
+8. Ports: Interprocess Communication 143
+
+OK
+
+8.1 Chapter Objective 143
+
+OKOK
+
+8.2 Interprocess Communication in OSP 2 143
+
+OK
+
+8.3 The Message Class 144
+
+OK
+
+8.4 The PortCB Class 146
+
+OKOKOK
+
+8.5 Methods Exported by Package Ports 151
+
+OKOK
+
+9. Resources: Resource Management 153
+
+OK
+
+9.1 Chapter Objective 153
+
+OKOK
+
+9.2 Overview of Resource Management 153
+
+OK
+
+9.3 Overview of Resource Management in OSP 2 155
+
+OK
+
+9.4 Class ResourceTable 156
+
+OKOKOK
+
+9.5 Class RRB 157
+
+OK
+
+9.6 Class ResourceCB 160
+
+OKOK
+
+9.7 Methods Exported by the Resources Package 166
+
+OK
+
+Index 167
+
+OKOK

@@ -1,0 +1,1934 @@
+https://codeforces.com/blog/entry/77551
+
+Codeforces
+| In English По-русски
+Lazar | Logout
+
+    
+HOMETOPCATALOGCONTESTSGYMPROBLEMSETGROUPSRATINGEDUAPICALENDARHELP
+
+
+  
+→ Pay attention
+Before contest
+Nebius Welcome Round (Div. 1 + Div. 2)
+3 days
+Register now »
+*has extra registration
+ZSCODERBLOGTEAMSSUBMISSIONSGROUPSCONTESTSPROBLEMSETTING
+zscoder's blog
+[Tutorial] Generating Functions in Competitive Programming (Part 2)
+
+By zscoder, history, 3 years ago, In English
+Welcome to Part 2 of my tutorial on generating functions. The first part focused on introducing generating functions to those without any background in generating functions. In this post, I will demonstrate a few applications of generating functions in CP problems. Let us start with some relatively straightforward examples.
+
+Note: Unless stated otherwise, all computations are done modulo a convenient prime (usually 998244353
+). Also, [n]
+ denotes the set {1,2,...,n}
+.
+
+Blatant Applications in Counting Problems
+Problem. AGC 005 Problem F You have a tree T
+ with n
+ vertices. For a subset S
+ of vertices, let f(S)
+ denote the minimum number of vertices in a subtree of T
+ which contains all vertices in S
+. For all 1≤k≤n
+, find the sum of f(S)
+ over all subsets S
+ with |S|=k
+.
+
+Constraints: n≤2⋅105
+.
+
+Solution
+First, we need to do some basic counting. For a set of vertices S
+, let t(S)
+ denote the minimal subtree that contains all vertices of S
+.
+
+Fix k
+. It is clear that we have to somehow double count the sum of f(S)
+. If we look at a vertex v
+, it is not that easy to count the number of sets S
+ of size k
+ such that t(S)
+ contains v
+. However, if we look at an edge e
+, then it is easy to see that t(S)
+ contains e
+ if and only if all elements of S
+ is in the same connected component formed by deleting the edge e
+ from the tree. In other words, if the edge e
+ splits the tree into two components of size (number of vertices) a
+ and n−a
+ respectively, then the number of S
+ with |S|=k
+ and e∈t(S)
+ is exactly (nk)−(ak)−(n−ak)
+. Thus, the sum of f(S)
+ over all subsets S
+ is just (nk)
+ (since number of vertices = number of edges + 1) plus the sum of (nk)−(ak)−(n−ak)
+ over all edges e
+.
+
+We can find the value of a
+ for each edge e
+ by simple dfs. Suppose we have computed the value of a
+ for each edge e
+, say a1,a2,...,an−1
+. If we can compute ∑i=1n−1(aik)
+ fast for each 1≤k≤n
+, then we are done, so we will focus on this task.
+
+Let ci
+ denote the number of times i
+ appear in the array a1,a2,...,an−1
+. Hence, we need to find ansk=∑i=0nci(ik)
+.
+
+It is almost customary to try and write binomial coefficients in terms of factorials and look for simplifications.
+
+ansk=∑i=0nci(ik)=∑i=0ncii!k!(i−k)!=1k!∑i=0nci(i!)⋅1(i−k)!
+Obviously we only need to know how to compute the sum ∑i=0nci(i!)⋅1(i−k)!
+ fast for all k
+. If you have studied about generating functions, you see that our sum looks very much like the convolution of two sequences. If we can write our summand in terms of f(k)g(i−k)
+, then we can define F(x)=∑i≥0f(i)xi
+ and G(x)=∑i≥0g(i)xi
+ and read off ∑i≥0f(i)g(k−i)
+ from the coefficients of F(x)G(x)
+.
+
+Clearly, we can set f(i)=ci(i!)
+. We want to set g(i)=1(−i)!
+. However, you might worry that (−i)!
+ is not defined for i>0
+. It's ok, since we can always shift our sequence can set g(M+i)=1(−i)!
+ instead for some large integer M
+. Then, we have g(i)=1(M−i)!
+, which we can now safely compute. Instead of reading off the coefficient of xk
+ from F(x)G(x)
+, we read off the coefficient of xk+M
+.
+
+Convolutions of this type appear in countless FFT problems and usually the hard part is to reduce your sums into a form that can be seen as the convolution of two polynomials. However, generating functions are much more powerful than this, as we shall see the next examples.
+
+Problem. The Child and Binary Tree You have a set of positive integers C={c1,c2,...,cn}
+. A vertex-weighted rooted binary tree is called good if all the vertex weights are in C
+. The weight of such a tree is the sum of weights of all vertices. Count the number of distinct good vertex-weighted rooted binary trees with weight s
+ for all 1≤s≤m
+. Note that the left child is distinguished from the right child in this problem (see the samples for more info).
+
+Constraints: n,m≤105
+Solution
+This problem was created 6
+ years ago and has a 3100 rating on CF, but if you know about generating functions in 2020 (in the era where polynomial operations template is available) it is almost trivial.
+
+Firstly, the obvious step is to let fs
+ denote the answer for s
+ and F(x)
+ as the OGF of f
+. Let us derive a recurrence for fs
+.
+
+Clearly, f0=0
+. For s>0
+, we iterate over all possible weights for the root, then iterate over all possible weights of the left subtree, giving the recurrence fs=∑c∈C∑i≥0fifs−c−i
+ (for convenience, fi=0
+ for i<0
+).
+
+Speaking in generating functions, this is just the equation
+
+∑n≥1fnxn=∑n≥1∑c∈Cxc∑i≥0fixifs−c−ixs−c−i
+.
+
+This motivates us to define F(x)=∑n≥0fnxn
+ and C(x)=∑c∈Cxc
+. Thus, F(x)−1=C(x)F(x)2
+ (you should be able to deduce this directly from the equation above).
+
+Our goal is to find F(x)
+, so we solve for F(x)
+ using the quadratic formula (remember what we did to obtain the OGF of Catalan numbers?) to obtain F(x)=1±1−4C(x)√2C(x)
+.
+
+Similar to the case with Catalan numbers, we choose the negative sign since otherwise as x→0
+, the numerator goes to 2
+ while the denominator goes to 0
+, but we should converge to a finite limit since F(0)=1
+. Thus, F(x)=1−1−4C(x)√2C(x)
+.
+
+In the language of generating functions, we are pretty much done, but there is one minor implementation detail here. C(x)
+ has constant term 0
+, and thus we cannot take the reciprocal directly. However, we just need to "rationalize" the numerator and rewrite our function as
+
+F(x)=1−1−4C(x)√2C(x)=(1−1−4C(x)√)(1+1−4C(x)√)2C(x)(1+1−4C(x)√)=4C(x)2C(x)(1+1−4C(x)√)=21+1−4C(x)√
+. You can verify that the constant term of the denominator is nonzero, so we can calculate the first m
+ terms of the series with usual polynomial operations and solve the problem in O(mlogm)
+.
+
+To be honest, it is unfair to say that the problem is easy because the main difficulty was to compute the square root and reciprocal of a power series. However, in the present times, these algorithms can be easily found online and in online rounds you can just use templates to perform these operations and thus I would consider this problem to be straightforward.
+
+Problem. Descents of Permutations (from Enumerative Combinatorics 1) Call a permutation p1,p2,...,pn
+ of [n]
+ k
+-good if pi>pi+1
+ iff k∣i
+. Find the number of k
+-good permutations of length n
+.
+
+Constraints: n,k≤5⋅105,n≥3,k≥2
+Solution
+There is a simple O(n2k)
+ dp solution (try to find it), but that won't be sufficient for this problem. We need to use generating functions. Let f(n)
+ denote the answer (k
+ is fixed).
+
+For a permutation p=p1,p2,...,pn
+, define the descent set as the set of integers 1≤i≤n−1
+ such that pi>pi+1
+. We are looking for the number of length n
+ permutations with descent set equal to S={k,2k,3k,4k,...}
+.
+
+The idea is that counting "exact" conditions is hard, but counting "at least" conditions is easier. Let f(S)
+ denote the number of permutations with descent set exactly equal to S
+ and g(S)
+ denote the number of permutations with descent set that is a subset of S
+. Clearly, we have g(S)=∑T⊆Sf(T)
+. By the Principle of Inclusion-Exclusion, we have f(S)=∑T⊆S(−1)|S|−|T|g(T)
+ (see here, this is a commonly used form of PIE).
+
+g(S)
+ is much easier to count. Suppose S={s1,s2,...,sm}
+ where si<si+1
+ for all 1≤i≤k−1
+. This means that pj<pj+1
+ must hold for all j
+ that is not in S
+. A better way to visualize this is that we divide our permutation into several increasing blocks, the first block has size s1
+, the second block has size s2−s1
+ and so on. The last block has size n−sm
+. The only restrictions is that the elements in each block must be in increasing order. Hence, it is clear that the probability that a random permutation satisfies this condition is just 1s1!(s2−s1)!(s3−s2)!...(n−sm)!
+ (multiply the probability that each block is ordered correctly). Hence, g(S)=n!s1!(s2−s1)!(s3−s2)!...(n−sm)!
+.
+
+Let's substitute this back to our equation. For simplicity, let D=k,2k,3k,...,∩[n−1]
+. Our problem reduces to finding f(D)
+.
+
+Any subset T={s1,s2,...,sm−1}
+ (elements sorted in increasing order) of D
+ can be described by a sequence of positive integers b1,b2,...,bm
+ where bi=si−si−1
+ (s0=0
+, sm=n
+ for simplicity) denote the gap between consecutive elements of T
+. For example, when T={3,9,12}
+ and n=13
+, we can describe it with the sequence 3,6,3,1
+. Note that k
+ divides b1,b2,...,bm−1
+ and bm
+ has the same remainder as n
+ mod k
+ (call such sequences good).
+
+This allows us to simplify the formula of g(T)
+ to n!b1!b2!...bm!
+.
+
+Hence,
+
+f(D)=∑T⊆D(−1)|D|−|T|g(T)
+=∑∑bi=n,bi good(−1)|D|−(m−1)n!b1!b2!...bm!
+For simplicity, let n=kq+r
+ where 1≤r≤k
+. Since we only care about the answer for k∣n−r
+, we look at the EGF on these terms only, i.e. consider F(x)=∑q≥0f(kq+r)q!xq
+.
+
+We have
+
+F(x)=∑q≥0f(kq+r)(kq+r)!xkq+r
+=∑q≥0∑m≥1∑∑bi=kq+r,bi good(−1)q−m+1(kq+r)!b1!b2!...bm!⋅xkq+r(kq+r)!
+=∑m≥1∑q≥0∑∑bi=kq+r,bi good(−1)q−m+1xb1⋅xb2⋅...⋅xbmb1!b2!...bm!
+=∑m≥1(∑i≥1(−1)i−1⋅xki(ki)!)m−1⋅(∑i≥0(−1)i⋅xki+r(ki+r)!)
+Take a moment to digest the last identity (try expanding the brackets). The idea is that we are able to make b1,b2,...,bm
+ independent of each other and simplify our sum into the convolution (or power) of several polynomials.
+
+Continuing our simplifications, we have
+
+=(∑i≥0(−1)i⋅xki+r(ki+r)!)⋅∑m≥1(∑i≥1(−1)i−1⋅xki(ki)!)m−1
+=(∑i≥0(−1)i⋅xki+r(ki+r)!)⋅11−⎛⎝⎜∑i≥1(−1)i−1⋅xki(ki)!⎞⎠⎟
+=∑i≥0(−1)i⋅xki+r(ki+r)!∑i≥0(−1)i⋅xki(ki)!
+We can compute the first n
+ terms of the last expression in O(nlogn)
+ time, and we're done.
+
+I think exponential generating functions are especially good at handling sums involving multinomial coefficients as you can separate the factorials into different polynomials and reduce it to convolution of EGFs.
+
+Expected Value of Stopping Time
+I think this is also a beautiful application of generating functions. The recent problem Slime and Biscuits can be solved using the trick I will demonstrate here (there is a short editorial using this method here). Let's look at a different example.
+
+Problem. Switches There are n
+ switches, each of which can be on or off initially. Every second, there is a probability of piS
+ that you will flip the state of the i
+-th switch. The game ends when all switches are off. What is the expected number of seconds the game will last?
+
+Constraints: n≤100
+, ∑pi=S
+, pi>0
+, S≤50000
+Solution
+It is hard to compute when a game ends, and it is also hard to compute the probability that the game ends in exactly k
+ moves. However, it is relatively easier to compute the probability that the state of switches are all off after exactly k
+ moves. Let a(k)
+ denote the probability that all switches are off after exactly k
+ moves, and A(x)
+ be the EGF (we'll see why we choose EGF soon) of a
+. How to find A(x)
+?
+
+Suppose we fix a sequence a1,a2,...,an
+ such that ∑ai=k
+ where ai
+ denotes the number of flips of the i
+-th switch. The probability of achieving this sequence is k!a1!a2!...an!(p1S)a1(p2S)a2...(pnS)an
+ (the product of the number of sequences of switch flips such that switch i
+ is flipped exactly ai
+ times and the probability the sequence of switch flips occur). Let qi=piS
+ for convenience. Hence, a(k)k!=qa11a1!⋅qa22a2!⋅...⋅qannan!
+.
+
+Let's assume that all switches are off at the initial state for now. Then, the EGF is A(x)=∏i=1n((qix)00!+(qix)22!+...)
+, since we require each switch to be flipped an even number of times. In the general case, our EGF is similar, but some switches are required to be flipped an odd number of times instead. Motivated by this special case, we let Ei(x)=∑j even(qix)jj!
+ and Oi(x)=∑j odd(qix)jj!
+. Then, if si=1
+ (the switch is initially on), we choose Oi(x)
+ as the i
+-th term of our product (in the formula for A(x)
+), while if si=0
+, we choose Ei(x)
+ as the i
+-th term of our product.
+
+There's an even more compact way to write this "observation". Recall that ex+e−x2=coshx=1+x22!+x44!+...
+. We can use a similar idea here. To express Ei(x)
+, we can try to add or subtract exp(qix)
+ with exp(−qix)
+ to "filter out" the even or odd power terms (we will see a generalization of this trick called the roots of unity filter later in the post). Verify that Ei(x)=exp(qix)+exp(−qix)2
+ and Oi(x)=exp(qix)−exp(−qix)2
+. Thus, we can even write this as exp(qix)+(−1)siexp(−qix)2
+.
+
+To summarize, A(x)=∏i=1n[exp(qix)+(−1)siexp(−qix)]2
+.
+
+Ok, so we can find a(k)
+. Let c(k)
+ denote the probability that the game ends (all switches are off for the first time) after exactly k
+ moves. How can we relate c(k)
+ and a(k)
+? Here is the trick. Consider any sequence of k
+ moves resulting in all switches being off. After i
+ moves (possibly i=k
+), the switches are all off for the first time and the game ends. For the remaining k−i
+ moves, we need to flip each switch an even number of times. Thus, if we let b(k)
+ denote the probability that we flip each switch an even number of times after exactly k
+ moves, then a(k)=∑i=0kc(i)b(k−i)
+. Does this look familiar? Yes, it is just normal convolution (but on OGFs instead of EGFs).
+
+Firstly, let's find the EGF of b(k)
+. This is just a special case of a(k)
+ when si=0
+, so we have B(x)=∏i=1n[exp(qix)+exp(−qix)]2
+.
+
+To relate c(k)
+ with a(k),b(k)
+, we need to look at the OGFs of a
+ and b
+ (call them Ao(x)
+ and Bo(x)
+), since the recurrence we found is related to the convolution of OGFs. Thus, defining C(x)
+ and Co(x)
+ analogously, we have Ao(x)=Co(x)Bo(x)
+, so Co(x)=Ao(x)Bo(x)
+.
+
+Our answer is ∑k=0∞kc(k)
+ (recall the definition of expected value and c(k)
+). This is just C′o(1)
+. By Quotient Rule, this is equivalent to finding A′o(1)Bo(1)−Ao(1)B′o(1)Bo(1)2
+.
+
+Let's see if we can find Ao(x)
+ from A(x)
+. It is hard to extract the coefficients of A(x)
+ if we are looking at a product of sums like ∏i=1n[exp(qix)+(−1)siexp(−qix)]2
+. To turn this into a sum, let's expand the brackets! Note that since qi=piS
+, if we expand the whole thing, we will get a sum where each term is of the form ciexp(iSx)
+ for some −S≤i≤S
+ (since we are multiplying terms of the form exp(jSx)
+ and the sum of pi
+ is S
+). In other words, A(x)=∑−SSaiexp(iSx)
+ for some constants ai
+.
+
+How do we expand the terms quickly? We can use dp! Go through the brackets one by one, and maintain dp[i][j]
+ which is the coefficient of exp(jSx)
+ after expanding i
+ brackets. You can do dp transitions in O(1)
+ to get the final answer in O(nS)
+ time.
+
+From A(x)=∑i=−SSaiexp(iSx)
+, we can find a formula for Ao(x)
+. Indeed, exp(iSx)=∑j≥0((iSx)jj!)
+, so by removing the j!
+ terms we get a formula for Ao(x)
+. Specifically,
+
+Ao(x)=∑i=−SSai∑j≥0(iSx)j=∑i=−SSai1−iSx
+.
+
+Similarly, we can derive Bo(x)=∑i=−SSbi1−iSx
+ for some constants bi
+.
+
+We want to compute Ao(1)
+, A′o(1)
+ (and similar for B
+). However, we run into a slight problem of dividing by zero if we try to do it directly, since 1−SS(1)=0
+. However, since Co(x)=Ao(x)Bo(x)
+, we can multiply both Ao(x)
+ and Bo(x)
+ by the troublesome 1−x
+ term. Formally, let E(x)=(1−x)Ao(x)
+ and F(x)=(1−x)Bo(x)
+. Then, we only need to compute E(1),E′(1),F(1)
+ and F′(1)
+ (and as we shall see they are computable and easy to compute).
+
+E(1)
+ is trivial, since (1−x)Ao(x)=∑i=−SSai(1−x)1−iSx=∑i=−SS−1ai(1−x)1−iSx+aS
+. Since all the terms except aS
+ when we substitute x=1
+, E(1)=aS
+.
+
+E′(1)
+ is not hard either. By Quotient Rule,
+
+E′(x)=[∑i=−SS−1ai(1−x)1−iSx]′=∑i=−SS−1−ai(1−iSx)−ai(1−x)(−iS)(1−iSx)2
+. Substituting x=1
+ gives us ∑i=−SS−1−ai1−iS
+, which is easy to compute in O(S)
+ time.
+
+Thus, we have an easy-to-code O(Sn)
+ time solution.
+
+In general, the trick of introducing A
+ and B
+ can be used to solve other problems that asks for the first stopping time of some system if you have multiple possible ending states and the time taken to reach from one ending state to another is equal, and the probability to reach an ending state in a fixed amount of moves is easy to compute.
+
+Roots of Unity Filter
+Next, we introduce a trick that is more rarely used in competitive programming but nevertheless interesting to learn. The motivation is the following classic problem.
+
+Problem. Roots of Unity Filter Find the sum ∑i≡r(modm)(ni)
+ modulo an arbitrary MOD
+.
+
+Constraints: 1≤n≤1018,2≤m≤2000,0≤r≤n−1,108≤MOD≤109
+Solution
+This is a very standard problem in math olympiads, but let's see how to solve it in CP. Firstly, we need to know the trick behind the problem. Let's look at the case m=2
+, r=0
+, i.e. find ∑i≡0(mod2)(ni)
+.
+
+It is well-known that this is just 2n−1
+, but where does it come from. Let us look at the generating function ∑i≥0(ni)xi
+. If we plug in x=1
+, we get the sum of all binomial coefficients. However, we want to "filter" out the terms with even (or odd) power. What values can we easily substitute? Another easy candidate to try is x=−1
+, which gives us ∑i≥0(ni)(−1)i
+. If we write out the terms, we get the equations:
+
+(1+1)n=(n0)+(n1)+(n2)+(n3)+...
+(1−1)n=(n0)−(n1)+(n2)−(n3)+...
+Notice that the odd-numbered terms are gone when we add up the equations! Thus, adding up the equations and dividing by 2
+, we obtain (n0)+(n2)+...=2n−1
+.
+
+How to generalize the above method? Let's say we want to find (n0)+(n3)+(n6)+...
+.
+
+We can split our sum into three parts:
+
+(n0)x0+(n3)x3+(n6)x6+...
+(n1)x1+(n4)x4+(n7)x7+...
+(n2)x2+(n5)x5+(n8)x8+...
+To leave only the sum of binomial coefficients in each group, we need to substitute x
+ so that x3=1
+.
+
+Clearly, x=1
+ works. What other values of x
+ work?
+
+The values of x
+ such that x3=1
+ are also called the 3
+rd roots of unity. In this case, x=e2πi3,e4πi3
+ are the other two roots of unity.
+
+Let S(n,i)
+ denote the sum of (nk)
+ for all k≡i(mod3)
+. (so we want to find S(n,0),S(n,1),S(n,2)
+).
+
+Let ω=e2πi3
+, then 1,ω,ω2
+ are the 3rd roots of unity. Note that ω3=1
+ by definition. We substitute x=ωi
+ for 0≤i≤2
+, to get the following system of equations:
+
+S(n,0)+S(n,1)+S(n,2)=(1+1)n
+S(n,0)+ωS(n,1)+ω2S(n,2)=(1+ω)n
+S(n,0)+ω2S(n,1)+ω4S(n,2)=(1+ω2)n
+How to solve this system of equations? We need an important identity of the roots of unity, which is 1+ωk+ω2k+...+ω(m−1)k=0
+ whenever k
+ is not divisible by m
+ (if ωm=1
+). This is because by the geometric series formula, we have 1+ωk+ω2k+...+ω(m−1)k=1−ωmk1−ωk=0
+ if ωk≠1
+.
+
+Hence, in this specific case, 1+ω+ω2=0
+ and 1+ω2+ω4=0
+.
+
+Summing all three equations gives us:
+
+3S(n,0)=(1+1)n+(1+ω)n+(1+ω2)n
+How to obtain S(n,1)
+ and S(n,2)
+ easily? Here is a simple trick. Instead of looking at (x+1)n
+ only, we look at x(x+1)n
+ and x2(x+1)n
+ as well and repeat the same process. Now, all coefficients are shifted properly and thus we can take the sum and divide by 3
+ to find S(n,1)
+ and S(n,2)
+ as in the previous case.
+
+In summary, you should get something like:
+
+3S(n,0)=(1+1)n+(1+ω)n+(1+ω2)n
+3S(n,2)=(1+1)n+ω(1+ω)n+ω2(1+ω2)n
+3S(n,1)=(1+1)n+ω2(1+ω)n+ω(1+ω2)n
+ (note that ω4=ω
+)
+
+The remaining problem is how to evaluate the values from this formula. We have a problem because ω
+ seems to represent a complex number here (ω=e2πi3
+).
+
+The idea is that we do not necessarily need to work in the world of complex numbers. What we require of ω
+ is for it to satisfy ω3=1
+ and ωk≠1
+ for 1≤k≤2
+. Let us compute our answer as a polynomial in ω
+, but modulo ω3−1
+ (which means that we will have ω3=1
+, ω4=ω
+, etc...). Also, obviously the coefficients will be computed modulo MOD
+.
+
+For example, (1+2ω+ω2)(1+ω+3ω2)=3ω4+7ω3+6ω2+3ω+1=3ω+7+6ω2+3ω+1=6ω2+6ω+8
+.
+
+Hence, at any point of time we will always have a polynomial in ω
+ with degree ≤2
+.
+
+To compute something like (1+ω)n
+, we can use the usual divide-and-conquer method for computing large powers. Multiplication of polynomials can be implemented naively.
+
+We can generalize this method for any m
+. Let ω
+ be the m
+-th root of unity, so ωm=1
+. Let S(n,r)
+ denote the sum of (nk)
+ over all k≡r(modm)
+.
+
+(1+w)n=∑i≥0(ni)wi
+ for any number w
+. We want to make the coefficients of the form (njm+r)
+ to match with the powers w0,wm,w2m,...
+ because these will help us obtain the sum S(n,r)
+. So, it is more helpful to consider the polynomial wm−r(1+w)n=∑i≥0(ni)wi+m−r
+.
+
+Substituting w=1,ω,ω2,...,ωm−1
+ and summing up, we get
+
+∑j=0m−1wj(m−r)(1+wj)n=∑j=0m−1∑i≥0(ni)ωj(i+m−r)=∑i≥0(ni)∑j=0m−1(ωi+m−r)j
+.
+
+Recall that 1+w+w2+...+wm−1=0
+ whenever w=ω,ω2,...,ωm−1
+ (by the geometric series formula) and =m
+ whenever
+
+Unable to parse markup [type=CF_MATHJAX]
+
+. Note that ωi+m−r=1
+ if and only if i≡r(modm)
+. Hence,
+∑i≥0(ni)∑j=0m−1(ωi+m−r)j=m⋅∑i≡r(modm)(ni)=mS(n,r)
+ (note the multiple of m
+).
+
+It remains to compute 1m∑j=0m−1wj(m−r)(1+wj)n
+ modulo MOD
+. The easiest way to do this is to first calculate the polynomial F(x)=xm−r(1+x)n
+ modulo xm−1
+. We can do this via binary exponentiation and multiplying polynomials naively in O(m2logn)
+ time (remembering to set xm=1,xm+1=x,...
+ after each multiplication).
+
+After we obtained the polynomial, we are actually done. The sum we want to find is 1m[F(1)+F(ω)+F(ω2)+...+F(ωm−1)]
+. Letting F(x)=∑i=0m−1aixi
+, we realize that the desired sum is
+
+1m∑i=0m−1ai∑j=0m−1(ωj)i=a0
+ since all the terms with i≥1
+ sum up to 0
+. Hence, we just need to output the constant term of F(x)
+.
+
+Note: This problem is also solvable in O(mlogmlogn)
+ if MOD
+ is a FFT-friendly modulo by using FFT to multiply the polynomials during exponentiation.
+
+Next, we look at a nice harder example.
+
+Problem. Rhyme Compute the sum of n!x1!x2!...xk!
+ over all tuples of positive integers (x1,x2,...,xk)
+ such that d|xi
+ and ∑xi=n
+, modulo 19491001
+ (a prime).
+
+Constraints: n≤109,k≤2000,d∈{4,6}
+.
+
+Solution
+This problem is mentioned in amiya's blog, but I will explain it in detail here. A funny story is that I came up with this problem and was trying to solve it one day, but then the next day I saw this problem on his post :) Anyway, I think this is a nice application of generating functions which deserves to be mentioned here.
+
+By now, it should be clear what the first step should be. We want to seperate the terms 1xi!
+ into different polynomials and convolute them, and the most obvious way to do it is to consider the following product:
+
+(1+xdd!+x2d2d!+...+)(1+xdd!+x2d2d!+...+)...(1+xdd!+x2d2d!+...+)
+ (k
+ times).
+
+It is easy to see that the coefficient of xn
+ is precisely the sum of 1x1!x2!...xk!
+ over all valid tuples of xi
+.
+
+Let F(x)=1+xdd!+x2d2d!+...
+. How do we write F(x)
+ is a simpler way? For the case d=2
+, we know that this is just coshx=ex+e−x2
+. The idea is the same as the previous problem: we want to substitute different values of x
+ into our "original function" (in this case it is ex=1+x1!+x22!+...
+) to "filter out" the powers that are not divisible by d
+.
+
+Let's try to play with roots of unity again. Let ω
+ be the m
+-th root of unity (so ωm=1
+ and 1+ω+ω2+...+ωm−1=0
+). We substitute x
+ as ωix
+ for 0≤i≤d−1
+ into ex
+ and see what happens (note that this is where e−x
+ comes from for d=2
+).
+
+ex=1+x1!+x22!+...+xdd!+...
+eωx=1+ωx1!+ω2x22!+...+ωdxdd!+...
+...
+
+eωd−1x=1+ωd−1x1!+ω2(d−1)x22!+...+ωd(d−1)xdd!+...
+If we sum all these equations, by the identity 1+(ωi)+(ωi)2+...+(ωi)d−1=0
+ for i
+ not divisible by d
+, we obtain
+
+ex+eωx+eω2x+...+eωd−1x=d(1+xdd!+x2d2d!+...+)
+Back to our problem, our goal is to find the coefficient of xn
+ in the following product:
+
+1dk(ex+eωx+eω2x+...+eωd−1x)k
+.
+
+The next step requires some knowledge on roots of unity. The good thing about d=4,6
+ is that ϕ(4)=ϕ(6)=2
+, so the d
+-th cyclotomic polynomial has degree 2
+ (it is the minimal polynomial of the primitive d
+-th roots of unity). It can be obtained via the expansion of ∏gcd(i,d)=1(x−ωi)
+ (you can find more details on the wikipedia page).
+
+For example, for d=4
+, we have ω2+1=0
+ and for d=6
+, we have ω2−ω+1=0
+. In both cases, we can always represent ωi
+ in the form of aω+b
+ by repeatedly reducing the maximal power using this equation.
+
+Thus, if we let ωi=ai+biω
+, our goal is to find $[x^{n}]\frac{1}{d^{k}}\left(\displaystyle\sum_{i=0}^{d-1} e^{(a_i+b_i\omega)x}\right)^{k}.
+
+Notice that the terms of the form eax
+ and ebωx
+ are in some sense separated. We make the substitution u=ex
+ and v=eωx
+ to make things simpler:
+
+[xn]1dk(∑i=0d−1uaivbi)k
+.
+
+Notice that −1≤ai,bi≤1
+ (you can explicitly write out these values from the definition). If we expand this bivariate polynomial in u
+ and v
+, we'll get a sum where all the terms are of the form uivj
+ if −k≤i,j≤k
+ (consider the way to choose the terms in the expansion).
+
+To avoid dealing with negative terms, let us multiply by (uv)k
+. Let F(u,v)=∑i=0d−1uai+1vbi+1
+. We want to find G(u,v)=F(u,v)k
+. Note that G(u,v)=∑0≤i,j≤2kgi,juivj
+ for some constants ci,j
+ (define fi,j
+ similarly).
+
+While we can do something like 2D FFT, it is probably not going to pass the time limit. The next step is a magical trick mentioned in amiya's article. The idea is that we want to find a recurrence on the coefficients gi,j
+ so that we can use dp to compute them in O(k2)
+ time. Let's differentiate both sides of G(u,v)=F(u,v)k
+ with respect to u
+ (or v
+, it doesn't matter). Let g(u,v)
+ and f(u,v)
+ denote the partial derivative of G(u,v)
+ and F(u,v)
+ with respect to u
+. Then, by the Chain Rule,
+
+g(u,v)=kF(u,v)k−1f(u,v)
+Noting that F(u,v)k−1=G(u,v)F(u,v)
+, we have
+
+F(u,v)g(u,v)=kG(u,v)f(u,v)
+Comparing the coefficients of uivj
+ on both sides, and noting that the coefficient of uivj
+ of f(u,v)
+ is (i+1)fi+1,j
+, we obtain the recurrence
+
+∑0≤i1≤i,0≤j1≤j(i+1−i1)gi+1−i1,j−j1fi1,j1=k∑0≤i1≤i,0≤j1≤j(i1+1)fi1+1,j1gi−i1,j−j1
+The good thing about this equation is that if we find the values of gi,j
+ in increasing order of i
+ followed by increasing order of j
+, the value of gi,j
+ is only dependent on previous values! A subtle note is that f0,0=0
+ but f0,1≠0
+. Thus, if you only leave the summand with i1=0
+ and j1=1
+ on the LHS and throw everything to the RHS, you can compute gi,j
+ with dp. Note that there are only O(1)
+ nonzero values of fi,j
+, so you can actually just iterate over i1,j1≤2
+ to compute the dp transitions in O(1)
+.
+
+The base case is gi,j
+ with i
+ or j
+ equal to 0
+, which can be found by binomial theorem after substituting v=0
+ (I leave this as an exercise).
+
+To summarize, you can find the expansion of [xn]1dk(∑i=0d−1uaivbi)k
+ in O(k2)
+ time.
+
+How to compute the answer after you reduce it to [xn]1dk∑−k≤i,j≤kgi+k,j+kuivj
+?. Let's look at each individual term [xn]uivj
+. It is exactly equal to [xn]exp(x(i+jω))=1n!(i+jω)n
+. The 1n!
+ cancels off with the numerator of n!x1!x2!...xk!
+. Hence, it is sufficient to compute (i+jω)n
+ for −k≤i,j≤k
+.
+
+We can try to use the same trick as the previous problem: Maintaining a polynomial of the form a+bω
+ while doing binary exponentiation. However, it turns out to be a bit too slow (at least my implementation of it). Here, we can exploit the fact that we are computing the answer modulo p=19491001
+.
+
+You can find that 7
+ is a primitive root of 19491001
+, and p−1
+ is divisible by both 4
+ and 6
+. Thus, if we take ω=7p−1d
+, we will preserve the property that ωd=1
+ and ωi≠1
+ for 1≤i≤d−1
+ (equivalently, 7p−1d
+ is a primitive d
+-th root of unity in Zp
+). Thus, the computations can be done in integers which is faster.
+
+In any case, this gives an O(k2logn)
+ solution with relatively small constants.
+
+Generating Functions that you can't compute "naively"
+In some problems, the constraints might be too large to even compute the generating functions you found with FFT or algorithms involving polynomial operations. In this case, you usually need to analyze some special properties of the generating function you are dealing with (and thus it is helpful to recognize some common generating functions).
+
+We start with a relatively easy example.
+
+Problem. Perfect Permutations Find the number of permutations of length n
+ with exactly k
+ inversions, modulo 109+7
+.
+
+Constraints: 1≤n≤109
+, 0≤k≤105
+, n≥k
+. There are 100
+ testcases per input file.
+
+Solution
+Recall that for a permutation p1,p2,...,pn
+, an inversion is a pair of indices i<j
+ such that pi>pj
+.
+
+In my post 4
+ years ago, I mentioned how to solve an easier variant of this problem using a doubling trick to perform dp. Now, let's describe a much simpler and faster solution using generating functions.
+
+Firstly, let us rephrase the problem. Suppose we start with the sequence 1
+ and add the elements 2,3,...,n
+ to the permutation one by one. Note that by adding 2
+, we can increase the number of inversions by 0
+ or 1
+ in exactly one way each. Similar, among the i
+ possible ways to add i
+ into the sequence, there is exactly one way to increase the number of inversions by 0
+ to i−1
+ each. Thus, our problem is equivalent to finding the number of sequences a0,a1,...,an−1
+ such that ai≤i
+ for all i
+ and ∑ai=k
+.
+
+Let us rephrase this in the language of generating functions. The idea is that we can "pick" any element from 0
+ to i−1
+ in the i
+-th "bracket", so it is natural to consider the function
+
+F(x)=(1)(1+x)(1+x+x2)(1+x+x2+x3)...(1+x+x2+...+xn−1)
+The coefficient of xk
+ in F(x)
+ gives us the answer.
+
+Unfortunately, this polynomial is too large to compute directly. Let us rewrite it using the geometric series formula.
+
+F(x)=1−x1−x⋅1−x21−x⋅1−x31−x⋅...⋅1−xn1−x
+=(1−x)(1−x2)...(1−xn)(1−x)n
+=∏ni=1(1−xi)⋅(1−x)−n
+We know how to find the coefficient of [xi]
+ in (1−x)−n
+ for 0≤i≤k
+ (recall that [xi]
+ (1−x)−n=(n+i−1i)
+). Hence, it is sufficient to find [xj]∏ni=1(1−xi)
+ for all 0≤j≤k
+.
+
+As n≥k
+, we actually only need to compute (1−x)(1−x2)...(1−xk)
+ (as larger terms here don't contribute to the coefficients of lower powers of x
+). We will present an O(k)
+ solution which can solve the problem even when k≤106
+.
+
+The trick is that since the larger terms 1−xk+1
+, 1−xk+2
+, etc doesn't matter in our product, why not just add all of them and consider the infinite product ∏n≥1(1−xn)
+. It turns out that this is a well-known generating function, whose series expansion has a simple form given by the Pentagonal number theorem.
+
+The theorem states that ∏n≥1(1−xn)=1+∑i≥1(−1)i(xi(3i+1)2+xi(3i−1)2)
+. There is a nice bijective proof of this (which you can find on Wikipedia or Enumerative Combinatorics Volume 1), but we only need to use the formula here.
+
+From the series expansion, it is obvious how we can extract the coefficients in O(k)
+ time (actually even in O(k−−√)
+ time).
+
+Note that since n
+ is large, to compute (n+i−1i)
+ for all i
+, you need to write it in the form (n+i−1)(n+i−2)...(n)i!
+ and calculate it in increasing order of i
+ by multiplying a suitable factor each time i
+ increases.
+
+Overall, we get an O(k)
+ time solution, which is more than enough for this problem.
+
+Next, we look at a problem that has a natural statement in generating functions, but it turns out that the computation in generating functions is quite tricky. The official editorial has a nice and simpler solution using a magical observation, but to demonstrate the power of generating functions I will show an alternative method (which seems more straightforward and generalizable).
+
+Problem. Sum of Fibonacci Sequence Let dn,k
+ be defined by the recurrence d1,1=d1,2=1
+, d1,k=d1,k−1+d1,k−2
+ for k≥3
+, and dn,k=∑i=1kdn−1,i
+ for n≥2
+, k≥1
+.
+
+Compute dn,m
+ modulo 998244353
+.
+
+Constraints: 1≤n≤200000
+, 1≤m≤1018
+Solution
+Let's get straight to the generating functions. Define Pn(x)
+ as the OGF for dn,k
+. d1,k
+ is just the Fibonacci sequence, so we know that P1(x)=x1−x−x2
+.
+
+How to obtain Pn(x)
+? Thanks to our wonderful "Prefix Sum Trick", we know that multiplying P1(x)
+ by 11−x
+ gives us P2(x)
+ because d2,k
+ is just the prefix sum of d1,k
+. Similarly, we have Pn(x)=1(1−x)n−1P1(x)=1(1−x)n−1⋅x1−x−x2
+.
+
+However, now we have some problems, because we need to calculate the coefficient of xm
+ in this function with m
+ up to 1018
+. There is no way we can expand this naively and thus we need to do something clever.
+
+The main annoyance is that we are dealing with a product in the denominator. We know how to compute [xm]1(1−x)n−1
+ and [xm]x1−x−x2
+ fast (the former is just some binomial coefficient while the latter is just the Fibonacci sequence). However, we don't know how to compute their convolution fast. The trick here is to forcefully separate these two functions by partial fractions. Note that the theory of partial fractions tell us that
+
+x(1−x)n−1⋅(1−x−x2)=A(x)(1−x)n−1+B(x)1−x−x2
+where A(x)
+ is a polynomial of degree ≤n−2
+ and B(x)
+ is a polynomial of degree ≤1
+. If we can find A(x)
+ and B(x)
+, then our problem will be much easier to solve. However, A(x)
+ and B(x)
+ is hard to find explicitly on paper (though you can guess B(x)
+ by some pattern from small cases). How do we proceed?
+
+Here is a painless way to do it. Firstly, we clear the denominators to obtain the identity
+
+A(x)(1−x−x2)+B(x)(1−x)n−1=x
+.
+
+Since this is an identity, it remains true for any value of x
+ we substitute! What convenient values of x
+ can we substitute? We want to make either 1−x−x2
+ or 1−x
+ equal to 0
+ to leave us with only one polynomial to deal with. Substituting x=1
+ doesn't tell us too much since A(x)
+ has degree ≤n−2
+ and we can't determine it with only 1
+ point of information. However, what if we let 1−x−x2=0
+? We can solve the quadratic equation to get two roots a+b5–√
+ and a−b5–√
+ for some constants a,b
+. Substituting x=a±b5–√
+, we have the nice pair of equations
+
+B(a±b5–√)(1−(a±b5–√))n−1=a±b5–√
+.
+
+Since B(x)
+ is linear, if we let B(x)=mx+c
+ we can solve for the coefficients of B
+ using these 2
+ simultaneous equations! An implementation detail is that since we are dealing with 5–√
+ here, it is helpful to store the numbers as a pair (a,b)
+ which denotes a+b5–√
+ and do arithmetic on these pairs. The value (1−(a±b5–√))n−1
+ can be found via binary exponentiation in O(logn)
+ time (or even naive multiplication works here).
+
+In any case, after some work you can find B(x)
+. How do we find A(x)
+? Just refer to the identity to obtain A(x)=x−B(x)(1−x)n−11−x−x2
+, which we can compute in O(nlogn)
+ time with one FFT (note that you don't even need to compute the reciprocal of a polynomial, as you can just divide using long division since A(x)
+ is a polynomial).
+
+It remains to compute [xm]A(x)(1−x)n−1+B(x)1−x−x2
+, which is a significantly easier task. For the second term, we can partition it into Mx1−x−x2
+ and C1−x−x2
+ and note that both are generating functions for the Fibonacci numbers and thus we can just compute the coefficient of xm
+ as a Fibonacci number in O(logm)
+ time (using any divide-and-conquer method you like).
+
+For the first term, we have A(x)(1−x)−(n−1)
+ and we know how to compute both [xi]A(x)
+ and [xj]
+ (1−x)−(n−1)
+ (it is a binomial coefficient) for all i,j
+. Since A(x)
+ is of degree ≤n−2
+, we can iterate through all i
+ and compute the sum of [xi]A(x)⋅[xm−i]
+ (1−x)−(n−1)
+ (the latter requires large binomial coefficients which should be computed in a similar manner as the previous problem).
+
+Thus, we obtain an O(nlogn+logm)
+ solution.
+
+I believe you can generalize this solution to solve other recurrences of a similar form.
+
+To end this section, we conclude with a problem that heavily relies on linear recurrences. Actually, it might be a stretch to call this a generating function problem but I just want to demonstrate the trick of using generating functions to compute linear recurrences which is basically the same as the one shown here.
+
+Problem. Sum Modulo You have a number x
+ which is initially K
+. Every second, for 1≤i≤n
+, there is a probability pi
+ that you will replace x
+ with (x−i)(modM)
+. Find the expected number of moves before the counter goes to 0
+. pi
+ are given as Ai∑Ai
+ for some positive integers A1,A2,...,An
+ and your output should be modulo 998244353
+ (and it is guaranteed that you don't have to worry about division by 0
+).
+
+Constraints: 1≤n≤min(500,M−1)
+, 2≤M≤1018
+, 1≤Ai≤100
+Solution
+Let us derive a simple recurrence first. Let E(i)
+ denote the expected number of moves to reach 0
+ from i
+. Clearly, E(0)=0
+, and we have E(i)=p1E(i−1)+p2E(i−2)+...+pnE(i−n)+1
+. We use the convention that E(−r)=E(M−r)
+.
+
+First, we look at the high-level idea of the solution. The idea is that for i≥n
+, we can always write E(i)
+ in terms of c0E(0)+c1E(1)+c2E(2)+...+cn−1E(n−1)+C
+ for some constants ci
+ and C
+ by repeatedly using the recurrence relation. In particular, E(M+1)=E(1)
+, E(M+2)=E(2)
+, ..., E(M+n−1)=E(n−1)
+ can all be represented in this form in a non-trivial manner using the recurrence (note that the recurrence doesn't hold for multiples of M
+, but E(M+i)
+ can still be represented non-trivially in this form for 1≤i≤n−1
+).
+
+Hence, moving everything unknown to one side and the constants to the other, we have n−1
+ nontrivial equations of the form ci,1E(1)+ci,2E(2)+...+ci,n−1E(n−1)=Ci
+ for 1≤i≤n−1
+. We can solve this system of equations using Gaussian Elimination in O(n3)
+ time.
+
+Once we obtained the values of E(1),E(2),...,E(n−1)
+, we just need to represent E(k)
+ in terms of E(0),E(1),..,E(n−1)
+ and a constant and we are done.
+
+The remaining problem here is how do we get the representation of E(m)
+ in terms of E(0),E(1),..,E(n−1)
+ and a constant C
+ for any m
+ in an efficient manner.
+
+Let's assume for the time being that E(M),E(2M),E(3M),...
+ also satisfy the linear recurrence E(i)=p1E(i−1)+p2E(i−2)+...+pnE(i−n)+1
+. Thus, the values of E(M)
+, E(M+1)
+, ... might not be what we want now but we will deal with this issue later.
+
+Now, we use the same trick as in this blog. For a polynomial f(x)=a0+a1x+a2x2+a3x3+...+akxk
+ define its valuation val(f)
+ as a0+a1E(1)+...+akE(k)
+. Since E(i)−p1E(i−1)−p2E(i−2)−...−pnE(i−n)=1
+ for all i≥n
+, we have val(xi−p1xi−1−p2xi−2−...−pnxi−n)=1
+ for all i≥n
+. Let P(x)=xn−p1xn−1−p2xn−2−...−p0x0
+ for convenience. Then, val(xkP(x))=1
+ for all k≥0
+. Since val
+ is additive, for any polynomial Q(x)
+, we have val(Q(x)P(x))=Q(1)
+ (sum of coefficients, since xk
+ corresponds to 1
+. If this is unclear, try writing Q(x)
+ as q0x0+q1x1+...
+).
+
+Our goal is to find val(xm)
+ for some integer m
+. By the division algorithm, we can write xm=P(x)Q(x)+R(x)
+ where R(x)
+ is a polynomial of degree ≤n−1
+. Hence, val(xm)=val(P(x)Q(x)+R(x))=val(P(x)Q(x))+val(R(x))=Q(1)+val(R(x))
+. Notice that val(R(x))
+ is already a linear combination of E(1),E(2),...,E(n−1)
+, while Q(1)
+ is a constant. Thus, if we can somehow find Q(x)
+ and R(x)
+, we can represent E(m)
+ as a linear combination of E(1)
+, E(2)
+, ..., E(n−1)
+ and a constant.
+
+To find Q(1)
+ and R(x)
+, we can use a divide-and-conquer algorithm similar to binary exponentiation. Consider the function solve(m)
+ that returns a pair denoting R(x)
+ and Q(1)
+ (a polynomial and a constant). If m
+ is even, let R1(x)
+, Q1(1)
+ be the return value of solve(m2)
+. Let xm2=P(x)Q1(x)+R1(x)
+. We have
+
+xm=(P(x)Q1(x)+R1(x))(P(x)Q1(x)+R1(x))=P(x)2Q1(x)2+P(x)[2R1(x)Q1(x)]+R1(x)2=P(x)[P(x)Q1(x)2+2R1(x)Q1(x)]+R1(x)2
+.
+
+Let R1(x)2=Q2(x)P(x)+R2(x)
+ (just do long division). It follows from the equation above that we can take R(x)=R2(x)
+ and Q(1)=P(1)Q1(1)2+2R1(1)Q1(1)+Q2(1)
+. The case where m
+ is odd is similar. Thus, we can compute val(xm)
+ in O(n2logm)
+ time.
+
+Also, note that if we have computed val(xm)
+, we can compute val(xm+1)
+ in O(n2)
+ time using the same trick. Thus, we can use this method to compute a representation of E(M−n+1)
+, E(M−n+2)
+, ..., E(M−1)
+ in terms of E(1),E(2),...,E(n−1)
+ and a constant in O(n2logm+n3)
+ time. The reason we cannot compute E(M+1)
+, E(M+2)
+, ..., E(M+n−1)
+ directly using val
+ is because the recurrence doesn't hold for E(M)
+ as stated before. However, once we have the representation for E(M−n+1)
+, E(M−n+2)
+, ..., E(M−1)
+, we can now plug those into the original recurrence E(i)=p1E(i−1)+p2E(i−2)+...+pnE(i−n)+1
+ and obtain the representations for E(M+1)
+, E(M+2)
+, ..., E(M+n−1)
+ in O(n2)
+ time each.
+
+This gives us a O(n2(n+logm))
+ solution.
+
+Lagrange Inversion Formula
+Finally, inspired by this Div. 1 F problem, I looked up on some applications on Lagrange Inversion Formula and found a few examples on it. I would like to end this article by demonstrating a few applications of it.
+
+Some examples here are from Enumerative Combinatorics Volume 2 and some are from jcvb's Chinese paper on generating functions.
+
+The idea of the Lagrange Inversion Formula is that sometimes we want to find the compositional inverse of a function but it is difficult to find. However, the coefficients of this inverse function might have a simpler formula, which we can obtain from Lagrange Inversion Formula.
+
+There are many variants of stating the Lagrange Inversion Formula, so I will show what I think is the most helpful version of it (also given in this comment).
+
+Theorem. Let F(x),G(x)
+ be formal power series which are compositional inverses (i.e. F(G(x))=x
+). Suppose F(0)=G(0)=0
+, [x1]F(x)≠0
+, [x1]G(x)≠0
+, then
+
+[xn]G(x)=1n[x−1]1F(x)n
+Also, for any power (or Laurent) series H(x)
+, we have
+
+[xn]H(G(x))=1n[x−1]H′(x)1F(x)n
+Note: Laurent Series can be intuitively seen as the generalization of power series where the powers can go negative.
+
+Intuitively, if you "know" how to compute F(x)
+, then you can also get the coefficients of the compositional inverse of F(x)
+. Let's go through a few examples.
+
+Tree Enumeration
+Problem. Count the number of labelled trees on n
+ vertices (number of trees where vertices are labelled).
+
+Solution
+If you have heard of Cayley's Formula, you know that the answer is nn−2
+.
+
+Let us count the number of rooted trees on n
+ vertices. Call this number t(n)
+. If we remove the root from a rooted tree, we get a collection of rooted subtrees. This allows us to get the recurrence
+
+t(n+1)=(n+1)∑k≥0∑i1+i2+...+ik=n,ij≥1n!i1!i2!...ik!t(i1)t(i2)...t(ik)⋅1k!
+, as we have n+1
+ ways to choose the root, n!i1!i2!...ik!
+ ways to assign the non-root nodes to a subtree (we divide by k!
+ because each set of subtrees is counted k!
+ times for each permutation), and t(i1)t(i2)...t(ik)
+ is the number of ways to form each rooted subtree.
+
+Rearranging and multiplying by xn+1
+, we obtain
+
+t(n+1)(n+1)!xn+1=x∑k≥01k!⋅∑i1+i2+...+ik=n,ij≥1t(i1)xi1i1!⋅t(i2)xi2i2!⋅...⋅t(ik)xikik!
+.
+
+Hence, letting T(x)
+ be the EGF of t(n)
+ (and define t(0)=0
+ for simplicity), we have
+
+T(x)=∑n≥0t(n+1)(n+1)!xn+1=x∑k≥01k!⋅∑n≥0∑i1+i2+...+ik=n,ij≥1t(i1)xi1i1!⋅t(i2)xi2i2!⋅...⋅t(ik)xikik!
+=x∑k≥0T(x)kk!
+ (verify that we get the previous line by expanding this)
+
+=xeT(x)
+Hence, we have the functional equation T(x)=xeT(x)
+. It is not easy to solve this equation directly, however. However, we can see that we have a function in T(x)
+ which is equal to x
+, which motivates us to write
+
+T(x)e−T(x)=x
+and let F(x)=xe−x
+, G(x)=T(x)
+ in Lagrange Inversion Formula, we obtain
+
+[xn]T(x)=1n[x−1]1(xe−x)n=1n[x−1]x−nenx=1n[xn−1]enx=1n⋅nn−1(n−1)!=nn−1n!
+.
+
+Thus, t(n)=nn−1
+.
+
+Finally, to count the number of unrooted labelled trees, simply divide t(n)
+ by n
+ as each unrooted tree is counted n
+ times in t(n)
+ by the n
+ choices of root. Hence, the answer is nn−2
+.
+
+Number of 2
+-edge connected graphs
+Problem. Find the number of labelled 2
+-edge connected graphs on n
+ vertices. A graph is 2
+-edge connected graphs if it has no bridges, i.e. removing any edge does not disconnect the graph.
+
+Constraints: n≤3⋅105
+Solution
+Let's warmup with an easier problem. Suppose we want to count the number of labelled connected graphs on n
+ vertices. There are different ways to compute this, but let's show a method using EGFs as it will be useful later. Let C(x)
+ be the EGF of the number of connected labelled graphs.
+
+Connected graphs on n
+ vertices are hard to count, but labelled graphs on n
+ vertices are trivial: there are exactly 2(n2)
+ labelled graphs on n
+ vertices since we can either choose each edge or not. Let G(x)
+ denote the EGF of the number of labelled graphs. The nice thing is that labelled graphs are made up of several connected components, so we can use a similar argument as above (I will skip this step) to obtain G(x)=exp(C(x))
+, which gives C(x)=ln(G(x))
+. Since we know how to find G(x)
+, we can find C(x)
+ in O(nlogn)
+ time using polynomial operations.
+
+Ok, now let's return to our problem. Let b(n)
+ denote the number of 2
+-edge connected graphs on n
+ vertices and B(x)
+ be its EGF. Our goal is to find B(x)
+.
+
+The idea is to relate b(n)
+ with c(n)
+. Suppose we have a labelled connected graph on n
+ vertices, say G
+. Any connected graph G
+ can be decomposed into a bridge tree, where each vertex is a 2
+-edge connected component and the edges of the tree are the bridges of the graph. Let s
+ be the size of the 2
+-edge connected component containing vertex 1
+, and fix the 2
+-edge connected component containing vertex 1
+ as the root of the bridge tree. There are (n−1s−1)
+ ways to choose the other elements in the component and b(s)
+ ways to connect edges within the component. Now, in the bridge tree, let a1,a2,...,ak
+ be the total weight of subtrees of the children of the root (we define the weight of a vertex in the bridge tree as the size of the 2
+-edge connected component represented by it and the weight of a subtree as the sum of weights of all vertices in the subtree). Then, there are (n−s)!a1!a2!...ak!
+ ways to assign the remaining n−s
+ vertices to each subtree. Each subtree represented a general connected graph on ai
+ vertices, so there are c(ai)
+ ways to connect edges in the i
+-th subtree. Finally, there are sai
+ ways to choose the "bridge" between subtree i
+ and the root, because we need to pick exactly one vertex from the subtree and the root component to connect.
+
+Summing over all tuples (a1,a2,...,ak)
+ with sum n−s
+, and dividing by k!
+ to account for the fact that each set of subtrees is counting k!
+ times, we obtain the recurrence
+
+c(n)=∑s=1nb(s)⋅(n−1s−1)⋅(n−s)!⋅∑k≥01k!∑a1+a2+...+ak=n−s∏j=1kc(aj)⋅aj⋅saj!
+=∑s=1nb(s)⋅(n−1)!(s−1)!⋅∑k≥0skk!∑a1+a2+...+ak=n−s∏j=1kc(aj)⋅ajaj!
+Hence,
+
+nc(n)n!=∑s=1nb(s)(s−1)!⋅∑k≥0skk!∑a1+a2+...+ak=n−s∏j=1kc(aj)⋅ajaj!
+Note that we have nc(n)
+ and aj⋅c(aj)
+ appearing in the summand. It seems like it is easier to consider the EGF of the sequence ncn
+, say C1(x)
+. Note that C1(x)=xC′(x)
+ by the "multiplication by n
+" rule. In any case, we work in generating functions to obtain
+
+C1(x)=∑n≥0nc(n)n!xn=∑n≥0xn∑s=1nb(s)(s−1)!⋅∑k≥0skk!∑a1+a2+...+ak=n−s∏j=1kc(aj)⋅ajaj!
+=∑n≥0∑s=1nb(s)xs(s−1)!⋅∑k≥0skk!∑a1+a2+...+ak=n−s∏j=1kc(aj)⋅aj⋅xajaj!
+Simplifying the interior sum and product by noting its relevance to the coefficients of C1(x)
+, we obtain
+
+=∑n≥0∑s=1nb(s)xs(s−1)!⋅∑k≥0skxn−sk![xn−s]C1(x)k
+=∑n≥0∑s=1nb(s)xs(s−1)!⋅xn−s[xn−s]∑k≥0skk!C1(x)k
+=∑n≥0∑s=1nb(s)xs(s−1)!⋅xn−s[xn−s]exp(sC1(x))
+Swapping the order of summation, we get
+
+=∑s≥0b(s)xs(s−1)!∑n≥sxn−s[xn−s]exp(sC1(x))
+=∑s≥0b(s)xs(s−1)!∑n≥0xn[xn]exp(sC1(x))
+=∑s≥0b(s)xs(s−1)!exp(sC1(x))
+.
+
+=∑s≥0sb(s)(xexp(C1(x))ss!
+.
+
+Let B1(x)=xB′(x)
+ be the EGF of sb(s)
+. Thus, we obtain C1(x)=B1(xexp(C1(x)))
+.
+
+We know how to find C1
+ and our aim now is to find the coefficients of B1
+.
+
+Let P(x)=C1(x)
+ and Q(x)=xexp(C1(x))
+. We have the relation P(x)=B1(Q(x))
+ and want to find [xn]B1(x)
+. To make B1(x)
+ appear, substitute x
+ as Q−1(x)
+ (the compositional inverse exist because Q(x)
+ is a power series with a nonzero x
+ term and no constant term). Thus, B1(x)=P(Q−1(x))
+. This looks very similar to Lagrange Inversion Formula!
+
+Indeed, we let P=H
+ and Q−1=G
+. Then, Q=F
+, so we have
+
+[xn]B1(x)=[xn]P(Q−1(x))=1n[x−1]P′(x)1Q(x)n=1n[x−1]C′1(x)1xnexp(C1(x))n=1n[xn−1]C′1(x)exp(C1(x))n
+.
+
+This can be computed via standard polynomial operations in O(nlogn)
+ time.
+
+Coefficient of fixed xk
+ in f(x)i
+This is a more of a trick than a specific problem. Let f(x)
+ be a power series with a compositional inverse ([x0]f(x)=0
+, [x1]f(x)≠0
+). We can find the coefficient of xk
+ (assume k≥1
+) in f(x)i
+ for all 1≤i≤n
+ in O(nlogn)
+ time (assume k=O(n)
+).
+
+Let ans(i)
+ denote the answer for fixed i
+. Instead of looking at ans(i)
+ as a sequence, let's introduce a new variable u
+ and consider the OGF
+
+A(u)=ans(0)+ans(1)u+ans(2)u2+...=∑n≥0[xk]f(x)nun=[xk]∑n≥0(f(x)u)n=[xk]11−uf(x)
+.
+
+Since f(x)
+ has a compositional inverse (say g(f(x))=x
+), by Lagrange Inversion formula (with H(x)=11−ux
+), we obtain
+
+[xk]11−uf(x)=1k[x−1](11−ux)′(1g(x)k)=1k[xk−1](11−ux)′(1(g(x)x)k)
+.
+
+Note that by Quotient Rule, (11−ux)′=u(1−ux)2
+.
+
+Our goal is to rewrite our sum in a clear manner so that we can "read off" the coefficients of ui
+. We try to change the problem of finding the coefficients of ui
+ into a problem about purely finding the coefficients of xj
+ of some function.
+
+The idea is to expand the series
+
+u(1−ux)2=u(1−ux)−2=u∑i≥0(i+11)(ux)i
+ (recall how to expand (1−x)−2
+)
+
+=ui+1∑i≥0(n+1)xi
+, thus
+
+[xk]11−uf(x)=1k[xk−1]∑i≥0(i+1)xiui+1⎛⎝⎜⎜1(g(x)x)k⎞⎠⎟⎟
+Let's look at ans(i+1)
+, the coefficient of ui+1
+. We have
+
+ans(i+1)=[ui+1]1k[xk−1]∑i≥0(i+1)xiui+1⎛⎝⎜⎜1(g(x)x)k⎞⎠⎟⎟=i+1k[xk−i−1]1(g(x)x)k
+.
+
+Now, our problem reduces to computing the coefficients of one fixed function P(x)=1(g(x)x)k
+, which we can compute the first n
+ terms of using the usual polynomial operations! Thus, we can compute ans(i)
+ for all i
+ in O(nlogn)
+ time!
+
+If f(x)
+ does not have a compositional inverse, it is possible to "adjust" our function f
+ (create a new function related to f
+) so that it has a compositional inverse. I leave this as an exercise.
+
+Final Boss: Div 1 F — Slime and Sequences
+As the grand finale of this 2-part article, I would like to discuss the recent very difficult Div. 1 F problem which was the inspiration of the entire blog in the first place.
+
+Problem. Slime and Sequences A sequence of positive integers s
+ is called good if for each k>1
+ that is present in s
+, the first occurrence of k−1
+ (which must exist) must occur before the last occurrence of k
+. Count the number of times each integer 1≤i≤n
+ appears over all good sequences of length n
+.
+
+Constraints: 1≤n≤100000
+Solution
+The official editorial has a solution using PIE which ends up with an application of Lagrange Inversion Formula very similar to the example just shown. You can try to see the connection between the previous example and the trick used in the official editorial (for the Lagrange Inversion part). Here, I will demonstrate Elegia's solution described here which to me is a more intuitive way to approach the problem (thanks to Elegia for helping me with some parts I didn't understand and showing that this appraoch can lead to a full solution!).
+
+The first step is to reduce the problem into something simpler. If we look at the samples, we see that curiously the sum of all the answers in the output is n⋅n!
+, which suggest that there are only n!
+ good sequences. This cannot be coincidence, and a bijection between permutations and good sequences should exist.
+
+In fact, this is IMO 2002 Shortlist C3. Since the last occurrence of k
+ must occur after the first occurrence of k−1
+, we can consider iterating through the good sequence from right to left several times. In the first run, we record the positions of the number 1
+s, from right to left. On the second run, we record the positions of the number 2
+s, from right to left and so on. At the end of the process, n
+ distinct numbers from 1
+ to n
+ are recorded. This will be our permutation.
+
+We claim that this is the bijection we seek. The idea is that if we read the values in our final permutation p
+ from left to right, every time we meet an ascent (pi<pi+1
+), it indicates that we have finished recording all occurrences of the current number and is now going from right to left again. The condition of good sequences guarantees that every time we record the occurrences of a new number, there will be a new ascent in our permutation. Thus, we can easily recover the good sequence by marking the ascents of the permutation.
+
+This also gives us a nice way to formulate the problem. Let ans(i)
+ denote the i
+-th answer for our problem. For any permutation p
+, divide it into a minimum number of decreasing blocks. Let's say the block sizes are b1,b2,...,bk
+. Then, this permutation contributes b1
+ to ans(1)
+, b2
+ to ans(2)
+ and so on. For example, if p=(5,3,2,7,1,4,6)
+, then we divide it into blocks [5,3,2]
+, [7,1]
+, [4]
+, [6]
+. p
+ increases b1
+, b2
+, b3
+ and b4
+ by 3
+, 2
+, 1
+, 1
+ respectively.
+
+Now, let's do some double counting. Fix a position 1≤j≤n
+. Can we calculate how many times this position contributes to ans(k)
+ over all n!
+ permutations (for a fixed k
+)?
+
+Note that for position j
+ to contribute to the answer, the prefix p1
+, p2
+, ..., pj
+ must contain exactly k−1
+ ascents. Additionally, the last n−j
+ elements can be permuted in any manner. Finally, there are (nj)
+ ways to choose which elements occur in the prefix. Thus, if we let A(n,k)
+ denote the number of permutations of length n
+ with exactly k−1
+ ascents, position j
+ contributes (n−j)!(nj)A(j,k)=n!j!A(j,k)
+ to the answer.
+
+Summing over all j
+, we get the nice-looking formula ans(k)=n!∑j=1nA(j,k)j!
+. From here, you can derive a simple O(n2)
+ solution, since there is a simple recurrence for A(n,k)
+. However, we are looking for more here.
+
+For convenience, now we ignore the n!
+ term and just let ans(k)
+ be ∑j=1nA(j,k)j!
+. We can multiply each answer by n!
+ at the end.
+
+What's nicer is that A(n,k)
+ is actually a well-known sequence called the Eulerian numbers! If you use Wikipedia or Enumerative Combinatorics 1
+, you can find the formulas related to generating functions involving A(n,k)
+.
+
+Here, I use the notation A(n,k)
+ in Enumerative Combinatorics 1, which differs a bit from Wikipedia k
+ is shifted and A(0,0)=1
+. You can either derive or google the following formula (first thing that comes up when you look for generating functions of Eulerian numbers, though it may look slightly different due to variable shifting):
+
+F(x,y)=∑k≥0∑n≥0A(n,k)xnn!yk=1−y1−ye(1−y)x
+What we want to find is ∑j=1nA(j,k)j!
+, so let us rewrite
+
+F(x,y)=∑k≥0yk∑n≥0A(n,k)xnn!
+ and focus on Gk(x)=∑n≥0A(n,k)xnn!
+ for a fixed k
+.
+
+Observe that we want the prefix sum of the coefficients of Gk(x)
+. By the prefix sum trick, we get ans(k)=[xn]11−x⋅Gk(x)
+.
+
+Thus, ans(k)=[xnyk]11−xF(x,y)=[xnyk]1−y(1−x)(1−ye(1−y)x)
+, which is exactly the same expression quoted in Elegia's post.
+
+The hard part is finding this fast. I got to this point on my own but didn't really know how to proceed (I wasn't even sure if it was doable) before reading Elegia's post so huge thanks to him!
+
+Let us focus on the expression (1−y)[xn]1(1−x)(1−ye(1−y)x)
+ and keep in mind that we want to find the answer as a polynomial in y
+, which we can read the answer from.
+
+The first major concern is that we have e(1−y)x
+, which is an exponential of a multivariable function. This seems painfully awful to deal with especially if we need to expand it in power series form in the end. A nice trick here is to eliminate this nonsenes by making the substitution z=(1−y)x
+. Then, x=z1−y
+ and our expression becomes:
+
+(1−y)[xn]1(1−x)(1−ye(1−y)x)=(1−y)[xn]1(1−z1−y)(1−yez)=(1−y)n+1[zn]1(1−z1−y)(1−yez)
+Let us clear the denominator in 1−z1−y
+ by multiplying 1−y
+ to the denominator, so we need to find
+
+(1−y)n+2[zn]1(1−y−z)(1−yez)
+Ok, this looks simpler, though we still have products of multivariable functions. Life would be simpler if we can separate the two factors in the denominator. As a matter of fact, we can! Let's write the expression in partial fractions. Let
+
+1(1−y−z)(1−yez)=A1−y−z+B1−yez
+. We want to find some simple functions A
+, B
+ (hopefully in one variable) so that A(1−yez)+B(1−y−z)=1
+.
+
+Note that we have a linear function on y
+ on the LHS if z
+ is a treated as a constant. Thus, it motivates us to let A
+ and B
+ be functions in z
+ that annilhates the LHS. We can treat z
+ as a constant and compare the coefficients of y
+ and 1
+ to obtain A(z)=11−ez(1−z)
+, B(z)=−ez1−ez(1−z)
+.
+
+Substituting back, we need to find
+
+(1−y)n+2[zn]1(1−y−z)(1−yez)=(1−y)n+2[zn](1(1−ez(1−z))(1−y−z)+−ez(1−ez(1−z))(1−yez))
+It remains to compute [zn]
+ of each fraction fast. Our main goal is to isolate the variable y
+ as much as possible, treating z
+ pretty much like a constant.
+
+For example, let's look at the second fraction. We want to find [zn]−ez(1−ez(1−z))(1−yez)
+. Let f(z)=−ez1−ez(1−z)
+. Thus, we need to compute [zn]f(z)1−yez
+.
+
+Similarly, the first fraction can be rewritten as
+
+[zn]1(1−ez(1−z))(1−z−y)=11−z(1−ez(1−z)(1−y1−z)
+ (note that we divide by 1−z
+ to make something of the form 11−h(z)y
+ to make it similar to our second fraction).
+
+Letting g(z)=1(1−z)(1−ez(1−z))
+, the first fraction reduces to [zn]g(z)1−y1−z
+.
+
+In both cases, we have to compute something of the form [zn]F(z)1−G(z)y
+ for some functions F
+ and G
+. You can see that this is similar to [xk]11−uf(x)
+ in our previous example.
+
+Here, we have G(z)=ez
+ and 11−z
+. There is a subtle detail here which is that [z0]G(z)=1≠0
+ in both cases, so G
+ does not have a compositional inverse and we can't apply what we did just now directly. However, G(z)−1
+ does have a compositional inverse in both cases, so let A(z)=ez−1
+ and B(z)=11−z−1
+. Thus, we need to compute [zn]f(z)1−(A(z)+1)y
+ and [zn]g(z)1−(B(z)+1)y
+.
+
+Now we use the same approach as the previous example. Let A−1(z)
+ denote the compositional inverse of A(z)
+ (you can find it explicitly by the definition of inverse). We let H(z)=f(A−1(z))1−(z+1)y
+, G(z)=A(z)
+ and F(z)=A−1(z)
+ in Lagrange Inversion Formula. Then,
+
+[zn]f(z)1−(A(z)+1)y=[zn]H(G(z))=1n[x−1]H′(x)1F(x)n=1n[xn−1](f(A−1(x))1−(x+1)y)′1(A−1(x)x)n
+. Let C(x)=f(A−1(x))
+ and D(x)=1(A−1(x)x)n
+. Take a moment to check that we can still compute the first n
+ terms of C(x)
+ and D(x)
+ using polynomial operations in O(nlogn)
+ (find A−1(x)
+ and substitute back into their definitions).
+
+Now, our problem reduces to finding 1n[xn−1](C(x)1−(x+1)y)′D(x)
+. Using quotient rule, we have (differentiating with respect to x
+),
+
+(C(x)1−(x+1)y)′=C′(x)[1−(x+1)y]−C(x)(−y)(1−(x+1)y)2=C′(x)1−(x+1)y+C(x)y(1−(x+1)y)2
+.
+
+Thus,
+
+1n[xn−1](C(x)1−(x+1)y)′D(x)=1n[xn−1]C′(x)D(x)1−(x+1)y+[xn−1]C(x)D(x)y(1−(x+1)y)2
+.
+
+We have two subproblems, finding [xn]P(x)1−(x+1)y
+ and [xn]P(x)y(1−(x+1)y)2
+ for some computable functions P
+. Both can be dealt with using the geometric series formula. We have
+
+[xn]P(x)1−(x+1)y=[xn]P(x)∑i≥0(x+1)iyi
+Let P(x)=p0+p1x+p2x2+...
+ be the series expansion, then
+
+[xn]P(x)∑i≥0(x+1)iyi=∑i≥0yi[xn](P(x)(x+1)i)=∑i≥0yi∑j≥0pn−j(ij)
+.
+
+Hence, we need to compute ans(i)=∑j≥0pn−j(ij)=i!∑j≥0pn−jj!(i−j)!
+ fast. But this is almost the same thing as what we did in the Atcoder problem mentioned at the very beginning of this article! Define E(x)=∑i≥0pn−ii!xi
+ and F(x)=∑i≥01i!xi
+ for some large enough M
+. Then, our answer is the coefficient of xi
+ in E(x)F(x)
+. This part can be solved in O(nlogn)
+ time.
+
+Finally, we need to compute [xn]P(x)y(1−(x+1)y)2
+. With a similar expansion,
+
+[xn]P(x)y(1−(x+1)y)2=[xn]P(x)y∑i≥0(i+1)(x+1)iyi
+=∑i≥0(i+1)yi+1[xn](P(x)(x+1)i)
+=∑i≥0(i+1)yi+1[xn](P(x)(x+1)i)
+=∑i≥0(i+1)yi+1∑j≥0pn−j(ij)
+.
+
+Thus, we can compute this in the same way as before in O(nlogn)
+ using FFT.
+
+Putting it altogether, we obtain a (albeit complicated) solution in O(nlogn)
+ time!
+
+I hope this explanation makes Elegia's solution more intuitive to understand. :) Thanks to Elegia for the wonderful solution.
+
+If you have any questions or spotted any errors, please tell me in the comments. There are probably more cool applications of generating functions in CP that I am not aware of, so feel free to share them in the comments too. :)
+
+Tags mathforces, advanced math, math and programming, generating function
+    
+Vote: I like it+518Vote: I do not like itAdd to favourites
+Author zscoderPublication date 3 years agoComments 27
+Comments Comments (27)Write comment?
+
+DeadlyCritic
+3 years ago, # | Add to favourites  Vote: I like it +21 Vote: I do not like it
+I am really curios about how many lines is the blog, it took my PC about a minute to load it.
+
+Also thanks for the blog, i really needed some mathforces.
+
+→ Reply
+
+zscoder
+3 years ago, # ^ | Add to favourites  Vote: I like it +11 Vote: I do not like it
+Thanks to spacewalker's feedback, I have added spoiler tags for solutions to make the post loadable.
+
+The entire article is 24
+ pages of LaTeX on overleaf (which decided that I overload their server too much and stopped autocompiling my LaTeX code near the end).
+
+→ Reply
+
+DeadlyCritic
+3 years ago, # ^ | Add to favourites  Vote: I like it +3 Vote: I do not like it
+Thanks for adding the spoilers.
+
+→ Reply
+
+zscoder
+3 years ago, # | Add to favourites  Vote: I like it +3 Vote: I do not like it
+Auto comment: topic has been updated by zscoder (previous revision, new revision, compare).
+
+→ Reply
+Badge of honor for supporting Codeforces on its 10th anniversary
+prabowo
+3 years ago, # | Add to favourites  Vote: I like it +3 Vote: I do not like it
+For the pentagonal number theorem, I think there is a slight error in the formula. It should be: 1+∑i≥1(−1)i(xi(3i+1)2+xi(3i−1)2)
+→ Reply
+
+zscoder
+3 years ago, # ^ | Add to favourites  Vote: I like it 0 Vote: I do not like it
+Thanks, fixed it.
+
+→ Reply
+
+Shisuko
+3 years ago, # | Add to favourites← Rev. 2    Vote: I like it +32 Vote: I do not like it
+Great guide! I wrote a problem for the May 2020 CodeChef Long Challenge which can be solved with generating functions, Chef and Rainbow Road. The problem boils down to a lot of different standard operations on polynomials which I cover extensively in the editorial, with the hope that it could also be used as a resource for generating function problems in the future.
+
+List of Techniques
+→ Reply
+
+zscoder
+3 years ago, # ^ | Add to favourites  Vote: I like it +13 Vote: I do not like it
+Yeah somehow pointed this problem out to me when I was planning to write this tutorial. Your editorial seems to cover how to perform standard polynomial operations fast so I think it is a good complement for this blog, so for those who wants to learn more about these operations I recommend your editorial.
+
+→ Reply
+
+izhang
+new, 3 weeks ago, # ^ | Add to favourites  Vote: I like it +25 Vote: I do not like it
+Would you mind posting your editorial for that here, since codechef solutions seem to now be paywalled? Thank you!
+
+→ Reply
+
+satyam343
+new, 3 weeks ago, # ^ | Add to favourites  Vote: I like it +5 Vote: I do not like it
+Codechef Editorial
+
+→ Reply
+
+navneet.h
+3 years ago, # | Add to favourites  Vote: I like it 0 Vote: I do not like it
+Really great blog,I need a little help and guidance about, as I am interested in mathematical reading, I want to know how do u guys prefer to study maths.like solving problems, reading books, blogs. Also, I noticed all the great coders know great resources, if all the visitors here,could you link your favourite websites or blogs(any language) for maths that they liked or use as reading. Thank you in advance. Please comment it would be really helpful for me and others like me.
+
+→ Reply
+
+navneet.h
+3 years ago, # ^ | Add to favourites  Vote: I like it +1 Vote: I do not like it
+Some sites I know are cut the knot,AOPS,maths.stackexchange,some books like 104 combinatorial problems, generating functionology etc.
+
+→ Reply
+
+ritik_patel05
+3 years ago, # | Add to favourites  Vote: I like it 0 Vote: I do not like it
+Looking forward to more top coders helping the community by giving back what they learned.
+
+→ Reply
+
+duckmoon99
+3 years ago, # | Add to favourites  Vote: I like it +21 Vote: I do not like it
+Thanks, please post more math content like these!
+
+→ Reply
+
+SuperJ6
+3 years ago, # | Add to favourites  Vote: I like it 0 Vote: I do not like it
+I'm wondering if you could put the [cut] tag on your two gen function articles near the beginning. I sometimes like to favorite blogs I think would be useful to read later, such as I have your gen functions ones, but it makes it hard to find blog i'm looking for if there are many long blogs that don't have the [cut] tag for the short preview version. I also wish other people who are writing great but longs blogs to do this to more often. Besides that your blogs looks great!
+
+→ Reply
+
+aviroop123
+3 years ago, # | Add to favourites  Vote: I like it +10 Vote: I do not like it
+You can do it using a divide-and-conquer approach with FFT in O(klog2k)
+
+Can you tell the exact approach as to how to do this?
+
+→ Reply
+
+hychyc
+3 years ago, # ^ | Add to favourites  Vote: I like it 0 Vote: I do not like it
+basically that means you recursively divide the thing you need to multiply in the middle until you have one or two polynomials in each group, FFT them and go into the previous layer, do the same. The process is pretty much like a segment tree, where you yield the result of a node from its two sons. During calculation, only keeping those with index smaller than k should be enough.
+
+If I misunderstood anything please point it out. Thanks.
+
+→ Reply
+
+aviroop123
+3 years ago, # ^ | Add to favourites  Vote: I like it 0 Vote: I do not like it
+yeah, but during recursion, in the leafs, you have (1-x^i), so for fft, you need to create a polynomial of length atleast i. So in total, it'll be O(K^2) atleast.
+
+→ Reply
+
+zscoder
+3 years ago, # ^ | Add to favourites  Vote: I like it +18 Vote: I do not like it
+Right, I was actually thinking about the segment tree approach, but then I mixed up (1−xi)
+ as (x−i)
+ and thought that it would work the same but (from what I see now) I can't find a way to handle higher degrees oops.
+
+→ Reply
+
+aid
+3 years ago, # | Add to favourites  Vote: I like it +20 Vote: I do not like it
+Thank you for this amazing post!
+
+Another application of generating functions that I encountered multiple times is generating a random string by appending random characters at the end. The most basic problem is 1677 from Timus. In this comment I explained how to solve this problem with generating functions as well as a harder problem from Prime New Year Contest with multiple strings.
+
+ICPC Finals Spoiler
+→ Reply
+
+aviroop123
+3 years ago, # | Add to favourites  Vote: I like it 0 Vote: I do not like it
+A good problem on this topic: 623E - Transforming Sequence
+
+→ Reply
+
+jianglyFans
+3 years ago, # | Add to favourites  Vote: I like it 0 Vote: I do not like it
+thanks for your blog!
+
+→ Reply
+
+xaohu
+2 years ago, # | Add to favourites  Vote: I like it 0 Vote: I do not like it
+In the solution of the "The Child and Binary Tree" there is statement:"You can verify that the constant term of the denominator is nonzero". Can someone explain why it's true?
+
+→ Reply
+
+sg0071729
+23 months ago, # | Add to favourites  Vote: I like it 0 Vote: I do not like it
+In the last question could you please elaborate how would one go about finding C(x)=f(A^-1(x)) after finding A^-1(x)
+
+→ Reply
+
+usachevd0
+14 months ago, # | Add to favourites  Vote: I like it 0 Vote: I do not like it
+I found another, possibly simpler way to achieve the same result in 438E - The Child and Binary Tree.
+
+Let C(x)=∑c∈CxC
+ and T(x)=∑n=0∞tnxn
+, where tn
+ is the number of binary rooted trees with n
+ vertices. Notice that tn=Cn
+ — the n
+-th Catalan number, so we instantly get
+
+T(x)=1−1−4x−−−−−−√2x
+Now notice that if we fix a binary rooted tree with n
+ vertices, then the series C(x)n
+ describes the number of ways to select weights for those n
+ vertices for each possible s
+ — the sum of weights (that number of ways is exactly the coefficient of xs
+ in C(x)n
+). Thus, the OGF F(x)
+ of answer sequence is equal to:
+
+F(x)=T(C(x))=1−1−4C(x)−−−−−−−−√2C(x)
+Then the solution continues in the same way.
+
+The fact that tn
+ is the n
+-th Catalan number can be proved by noticing the same recurrence formula tn=∑l+r=n−1tltr
+→ Reply
+
+tom
+14 months ago, # | Add to favourites  Vote: I like it 0 Vote: I do not like it
+I remember you were purple just like me. Now you're GM, my friend. What went wrong, I'm asking.
+
+→ Reply
+
+StArChAn
+14 months ago, # | Add to favourites  Vote: I like it 0 Vote: I do not like it
+omg zscoder orz
+
+→ Reply
+
+↑
+2
+↓
+
+Codeforces (c) Copyright 2010-2023 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+Server time: Mar/09/2023 16:38:55UTC-6 (f1).
+Desktop version, switch to mobile version.
+Privacy Policy
+Supported by
+TON ИТМО

@@ -1,0 +1,747 @@
+I will try very hard to not plagiarise GetCracked though I will touch on some related topics. I am not too sure where to start but will work through examples. I am quite interested in making up new examples to go along with the book C++ Concurrency In Action C++17 edition as suggested by CodingJesus which lacks examples. I Might Be Wrong on much of this as it comes largely from Google Gemini 3.1 Pro Preview.
+
+	K: What happens if I make a vector of 10 ints? An array?
+
+The stack gets well I dunno how pedantic to be about registers and the stack frame, stack pointer. Uh Gemini claims 24 bytes get used on the stack so 8 bytes for each memory address like the begin and end. And another 8 bytes for the capacity. The actual memory is handled by the operating system to find probably we think a contiguous block of memory for 10 ints so 40 bytes in the heap somewhere. So if we do a push_back like we think what happens usually was the initial capacity was 10 not 16 though in some builds it might always be powers of 2 but here it starts at the starting capcity and doubles from there so a push_back will cause the new capacity to be 20, the current start and end to be like 11 apart like the operating system has to find a new chunk of 80 bytes and so maybe begin and capacity are 20 apart and begin and end are 11 apart. So when one calls .size() maybe we think it just takes end - begin or something.
+
+Well OK so one might need to explain what a base pointer is and how the compiler knows something like say we make a vector av then make a vector bv then call av.size() what happens is say at runtime somewhere in the instructions we think is like it can look up in O[1] recall that in our flags and stuff in the terminal we are using an extension of stack size to 256 MB or something which is in line with 2026 competitive programming standards or AtCoder CodeForces at the very least. Basically it might be a misunderstanding of different constraints some real-world firms have on compute and execution. But the compiler will understand the location of av in memory is now 24 bytes behind bv and the lookup is O[1] let us say very fast if heap might mean L3 or something maybe Gemini always gives vague answers about where this stuff might be. The idea is that the stack might tend to be faster and tend to be in L1 but this depends a bit on specifics. Well K wants to stress why there is overhead associated with a vector and when one might prefer an array. But G said vectors are better for some other reasons maybe in some MAGMA settings.
+
+	K: So what do SIMD and x86-64 mean again?
+
+Single Instruction Multiple Data.
+
+x86-64 (or x64) is a 64-bit extension of the Intel/AMD x86 instruction set, first released by AMD in 2003. It enables processors to handle significantly more RAM (up to 16 EB) and improves performance with 16 general-purpose registers and a 64-bit address space, while maintaining native support for 32-bit applications.
+
+OK so the 64 does not refer to a 64 byte cache line. Boom. So the reason an interviewer might ask pedantic nitpicky ackshually questions is... again see Interviews.pdf but maybe they think there is a real good correlation between ability to answer these kinds of questions and actual productivity from the employee. And they do not even need to understand more about the underlying causal structure here like whether or not this is a good proxy that the candidate has read many texts on these topics or whatever 1 text and encyclopaedic memory.
+
+	K: How many registers are numbered on your machine when you see assembly?
+
+Maybe 16 maybe 32 think the idea here again is some CodingJesus type stuff where perhaps the interviewer feels such a question is informative and answer quality does correlate with eventual productivity of employee.
+
+Well OK. If one Googles around one might see an average of roughly 619 registers on an x86-64 CPU core.
+
+"
+In modern x86-64 assembly, there are 16 general-purpose registers (rax, rbx, rcx, rdx, rsi, rdi, rbp, rsp, and r8-r15)
+"
+
+	K: So how large is an L1 data cache on your machine? Any other questions for me?
+
+I am trolling with the second question. Interviewers rarely ask it. But I think you can ask if the interviewer cares about worst case or average runtime. Ask what they think about expected input. Maybe you should know if your machine has a 64 KB or whatever L1.
+
+	K: What is Valgrind?
+
+"
+Valgrind is a powerful open-source instrumentation framework for dynamic analysis, debugging, and profiling of Linux executables, particularly for C and C++ programs. Its primary tool, Memcheck, detects memory leaks, invalid memory accesses, and uninitialized variable usage. It works by simulating a virtual CPU to check memory, causing a significant slowdown. 
+
+Key Aspects of Valgrind
+
+Common Problems Detected: It finds errors like illegal reads/writes (invalid memory access), use of uninitialized memory, improper memory freeing (e.g., double free), and memory leaks (memory allocated but not freed).
+
+Core Tools: Besides Memcheck, it includes tools like Helgrind (thread synchronization errors), Cachegrind (cache/branch simulation), and Massif (heap profiling).
+
+How to Use (Memcheck): Compile with -g for debug symbols and run the executable through Valgrind in the terminal.
+
+valgrind --leak-check=full ./your_program
+
+Limitations: It can slow down programs by a factor of 10-50x. It only detects errors in the path code actually executed. 
+
+Valgrind acts as a "synthetic CPU in software," which allows it to provide 100% coverage of user-space code without requiring modification of source code. It is generally used on Linux-based systems.
+"
+
+I will note sometimes Valgrind messes up analysis because it fails to account for simultaneous instructions being executed. See further discussion of profiling radix sort in one of my other more extensive discussions on that topic.
+
+	K: Is Mathieu Ropert's blog solid?
+
+Uh, I guess. I learned some stuff and failed to learn other stuff from there because it seemed like a bit of a waste of my time and I did not know enough of the C++ prerequisites for some of that stuff to really matter to me right now.
+
+	K: So why might one use a struct?
+
+Well one can contrive an example but there are many real-world cases where it is useful. Say the task was competitive programming and there is a large group of people like each person has a salary in terms of pay|month as well as a work in terms of months|year and like some other stuff we will process queries where we want to update a specific person's salary or work to a new value and then each time we also want to output like the new salary in terms of pay|year or something accordingly well uh say like if we use a struct then there is 1 lookup to the cache line and maybe if we had instead used 2 or more separate vectors or arrays say it was say it was like think even this is OK enough would need to benchmark but the lookups themself are costly enough to be relevant so we want to do it that way for cache locality reasons at the very least also maybe legibility at some point saying:
+
+person& currPerson = people[i];
+currPerson.salary = newSalary;
+cout << (long long)newSalary * currPerson.work << endl;
+
+Or something like this in the loop of queries.
+
+	K: Again so if we have a parallel programme and want to avoid a conflict in the cache line when writing what do we do?
+
+Well OK now Gemini suggests that maybe one assumes wrongly 64 bytes is the cache line size even to think about some way we could do it. Gemini says call:
+
+std::hardware_destructive_interference_size
+
+To see maybe 256 bytes comes up so then the idea would be actually to write something like:
+
+struct alignas(std::hardware_destructive_interference_size) PaddedElement {
+    int value; // Replace 'int' with whatever data you actually need to store
+};
+
+int main() {
+    // ...
+    std::array<PaddedElement, 8> bufferArray;
+	// ...
+
+	K: So what is a .GIF image file again?
+
+Well we were talking earlier about defining fidelity in different contexts as well as an actual formal loss function. So if I have some task like say I want a sensor which can reliably detect say we had consistent LASERs and we will point the LASERs at the sensor but we want the sensor to tell the difference between 10 and 11 LASERs pointed at it I mean raw photons OK no no I mean 10000 and 10001 LASERs pointed at it. Some exotic NASA JPL CalTech level stuff. I dunno. This is not a camera. OK digression on blacker blacks and whiter whites. OK digression on why anyone might care about the monitour. OK digression say we have a piece of art which is a 16000 by 16000 chess board and we photograph it on a 2000 camera and it comes back like a grey blob with some noise well the loss function like the integral of ||image - reality|| dy dx is really quite massive in this case. Well OK define this dist distance function here. Well OK so we are talking about distortion introduced at the analogue to digital conversion as well as digital to analogue conversion.
+
+Well OK so another digression on how .GIF is not like a bijection it is a file format related to compression where the first step is to pick like a palette of 256 colours before then mapping the actual pixels say from a .png to the palette then doing some other compression tricks. Well OK then so there are quite a few papers and presentations on how to pick the palette not necessarily to be information theoretically optimal with respect to the .png in terms of bits one can deduce about it but more in terms of human eyeball perceptions. Well now K wants to go in the other direction as it were and define information so rather than talk about the disinformation or loss rather discuss the information the .GIF file does give us about the reality or underlying .png or some thing.
+
+	K: Explain again to me something simple like Huffman coding.
+
+"
+#include <iostream>
+#include <string>
+#include <queue>
+#include <unordered_map>
+#include <vector>
+
+using namespace std;
+
+// A Huffman Tree Node
+struct Node {
+    char ch;
+    int freq;
+    Node *left, *right;
+
+    // Constructor for a leaf node
+    Node(char ch, int freq) {
+        this->ch = ch;
+        this->freq = freq;
+        left = right = nullptr;
+    }
+
+    // Constructor for an internal node
+    Node(char ch, int freq, Node* left, Node* right) {
+        this->ch = ch;
+        this->freq = freq;
+        this->left = left;
+        this->right = right;
+    }
+};
+
+// Custom comparator to order the priority queue (Min-Heap)
+struct compare {
+    bool operator()(Node* l, Node* r) {
+        // We want the node with the lowest frequency to have the highest priority
+        return l->freq > r->freq;
+    }
+};
+
+// Function to traverse the Huffman Tree and store the generated codes
+void encode(Node* root, string str, unordered_map<char, string> &huffmanCode) {
+    if (root == nullptr) {
+        return;
+    }
+
+    // If it's a leaf node, it contains a character
+    if (!root->left && !root->right) {
+        huffmanCode[root->ch] = str;
+    }
+
+    // Traverse left (add '0') and right (add '1')
+    encode(root->left, str + "0", huffmanCode);
+    encode(root->right, str + "1", huffmanCode);
+}
+
+// Memory management helper to delete the tree
+void freeTree(Node* root) {
+    if (root == nullptr) return;
+    freeTree(root->left);
+    freeTree(root->right);
+    delete root;
+}
+
+// Function to build the Huffman Tree and generate codes
+void buildHuffmanTree(string text) {
+    if (text.empty()) {
+        return;
+    }
+
+    // 1. Count the frequency of each character
+    unordered_map<char, int> freq;
+    for (char ch : text) {
+        freq[ch]++;
+    }
+
+    // 2. Create a priority queue to store live nodes of the Huffman tree
+    priority_queue<Node*, vector<Node*>, compare> pq;
+
+    // Create a leaf node for each character and add it to the priority queue
+    for (auto pair : freq) {
+        pq.push(new Node(pair.first, pair.second));
+    }
+
+    // 3. Build the Huffman Tree
+    while (pq.size() != 1) {
+        // Remove the two nodes of the lowest frequency
+        Node *left = pq.top(); pq.pop();
+        Node *right = pq.top(); pq.pop();
+
+        // Create a new internal node with a frequency equal to the sum of the two nodes.
+        // We use '\0' (null character) for internal nodes.
+        int sum = left->freq + right->freq;
+        pq.push(new Node('\0', sum, left, right));
+    }
+
+    // The remaining node is the root of the Huffman Tree
+    Node* root = pq.top();
+
+    // 4. Traverse the tree and generate the codes
+    unordered_map<char, string> huffmanCode;
+    encode(root, "", huffmanCode);
+
+    // Print the generated Huffman codes
+    cout << "Huffman Codes are:\n";
+    for (auto pair : huffmanCode) {
+        cout << pair.first << " : " << pair.second << '\n';
+    }
+
+    // Print the original string and the encoded string
+    cout << "\nOriginal string:\n" << text << '\n';
+    
+    string encodedString = "";
+    for (char ch : text) {
+        encodedString += huffmanCode[ch];
+    }
+    cout << "\nEncoded string:\n" << encodedString << '\n';
+
+    // Clean up dynamically allocated memory
+    freeTree(root);
+}
+
+int main() {
+    string text = "C++ Huffman Coding Example";
+    
+    buildHuffmanTree(text);
+    
+    return 0;
+}
+"
+
+"
+Huffman Codes are:
+E : 0000
+x : 0001
+C : 0010
+a : 0011
+p : 0100
+l : 0101
++ : 011
+n : 1000
+f : 1001
+d : 10100
+i : 10101
+g : 10110
+H : 10111
+u : 1100
+m : 1101
+e : 1110
+  : 1111
+
+Original string:
+C++ Huffman Coding Example
+
+Encoded string:
+00100110111111101111100100111010011000111100101111101001010110001011011110000000100111101010001011110
+"
+
+"
+// Function to decode the encoded binary string using the Huffman Tree
+void decode(Node* root, string encodedString) {
+    string decodedString = "";
+    Node* curr = root;
+
+    for (char bit : encodedString) {
+        // Move left for '0', right for '1'
+        if (bit == '0') {
+            curr = curr->left;
+        } else {
+            curr = curr->right;
+        }
+
+        // Check if we have reached a leaf node
+        if (curr->left == nullptr && curr->right == nullptr) {
+            decodedString += curr->ch; // Append the decoded character
+            curr = root;               // Reset back to root for the next character
+        }
+    }
+
+    cout << "\nDecoded string:\n" << decodedString << '\n';
+}
+"
+
+	K: OK But 7zip And Others Are Better How?
+
+Well I have been reading up more on compression recently so there are discussions of compression time, decompression time, and file size compression ratio. So OK so let us see in an interview one can say that there are situations where maybe someone prefers very fast decompression and others where maybe they want very fast compression and so on so for example if I am to upload something to Wikipedia I might care mostly about file size and decompression speed reasoning that like 1 compression followed by tens of say tens of thousands of decompressions means aggregate utility is optimised with faster decompression. OK so anyways so maybe a professor actually has the opposite like they are OK with their class all doing faster compress slower decompress because they will just let a big batch decompress run over night or over a few days on their machine prior to grading so they actually do not care and just want to waste less time over the sum of all the students. OK so this is contrived. OK so in an introductory interview unless this is specifically for a role like focused in on live video compression then well maybe this comes in to how cameras might have an ASIC well anyways so one can read more on H.264 and H.265 HVEC AV1 think about that a bit. Well the point of the previous question leading in to this one is to think about like worst case inputs very noisy trash and say a bunch of colourful confetti snows being blown around with Brownian noise is hard to compress because the initial file was not structured high entropy whatever and have you poop.
+
+	Original post which inspired this whole discussion:
+
+"
+I was reading interview notes on Glassdoor when I stumbled across the following task. It was extremely vague so some of this is my interpretation. There is an incoming stream of characters and we want to detect when a target string of length around 15 to 25 appears.
+
+Well, really the initial writing suggested writing up a programme to do this in the background automatically. So there are issues with interrupts, hardware, security, and how to even set up such a programme say we have the extension like we want it to run on MacOS and even further have it appear kinda innocuous in Activity Monitour. Well, for now I do not want to fixate on those issues or Easter Eggs and keyloggers.
+
+Normally I would not present weak algorithms but I can go through this how some MAGMA interviewers might want to hear it. There are 4 approaches I seriously considered after formalising it in C++ to a HackerRank style presentation:
+
+void f(string as, string target) {
+	// Can set up structure here:
+
+
+
+	for(auto character : as) {
+		// Simulating a stream. For now just print when target appears.
+
+
+	}
+}
+
+Those 4 approaches were: ==, string_view, Knuth–Morris–Pratt, and bitap [Baeza-Yates-Gonnet 1992].
+
+I asked Google Gemini 3.1 Pro a few questions but will not include the whole thread.
+
+"
+.L_stream_loop:
+    ; 1. Read the character from the stream
+    movzx   edx, BYTE PTR [rax]        ; Load char 'c' into edx (zero-extended)
+    
+    ; 2. Update the state (Shift and OR)
+    add     rcx, rcx                   ; state = state << 1 (CPU uses addition for shift 1)
+    or      rcx, QWORD PTR [rsp+rdx*8] ; state |= pattern_mask[c] (Fetch mask from stack and OR)
+    
+    ; 3. Check for the match
+    test    rcx, 16                    ; Is the 4th bit zero? (state & 16) == 0
+    je      .L_match_found             ; If zero, jump to the print statement!
+    
+    ; 4. Loop housekeeping
+    add     rax, 1                     ; Increment the stream pointer (c++)
+    cmp     rsi, rax                   ; Did we reach the end of the stream?
+    jne     .L_stream_loop             ; If not, jump back to the top
+"
+
+I wanted to run profiling on my machine as I know previous versions of Google Gemini were very prone to hallucination. As well as a bit of sycophancy.
+
+I ran: lazar@Mac ~ % g++ -S -O3 a.cpp -o a.s 
+
+And got a .s file. When pasted in to Google Gemini 3.1 Pro it sorta analysed it but suggested considering https://godbolt.org/ now what surprised me was that it said this is a standard go-to for seasoned professional coders which I highly doubt. Perhaps that organisation somehow got around to hacking their training data or the live internet in to producing that rigged output.
+
+This is the C++ code that Gemini had produced:
+
+    // 4. The Optimized Bitap Approach
+    {
+        auto start = std::chrono::high_resolution_clock::now();
+        
+        uint64_t pattern_mask[256];
+        for (int k = 0; k < 256; ++k) pattern_mask[k] = ~0ULL;
+        for (int k = 0; k < target.length(); ++k) {
+            pattern_mask[(unsigned char)target[k]] &= ~(1ULL << k);
+        }
+        
+        uint64_t state = ~0ULL;
+        int matches = 0;
+        for (char c : stream) {
+            state = (state << 1) | pattern_mask[(unsigned char)c];
+            if ((state & (1ULL << (target.length() - 1))) == 0) {
+                matches++;
+                state = ~0ULL;
+            }
+        }
+        
+        auto end = std::chrono::high_resolution_clock::now();
+        std::cout << "4 (Bitap Alg.) Time:    " 
+                  << std::chrono::duration_cast<std::chrono::microseconds>(end - start).count() 
+                  << " us  | Matches: " << matches << "\n";
+    }
+
+Claude:
+
+int bitap_search(std::string_view stream, std::string_view target) {
+    const int m = (int)target.size();
+    if (m == 0) return 0;
+    if (m > 64) return -1; // use a different algorithm for longer patterns
+
+    // pattern_mask[c]: bit i is SET if target[i] != c, CLEAR if target[i] == c
+    uint64_t pattern_mask[256];
+    memset(pattern_mask, 0xFF, sizeof(pattern_mask));
+    for (int i = 0; i < m; i++)
+        pattern_mask[(unsigned char)target[i]] &= ~(1ULL << i);
+
+    uint64_t R = ~0ULL;              // all bits set = no partial match active
+    const uint64_t match_bit = 1ULL << (m - 1);
+
+    for (int i = 0; i < (int)stream.size(); i++) {
+        // Shift state left, open a new candidate at bit 0, then kill
+        // any position where the current char doesn't match pattern.
+        R = (R << 1) | pattern_mask[(unsigned char)stream[i]];
+
+        if (!(R & match_bit))        // bit m-1 went to 0 → full match!
+            return i - m + 1;
+    }
+    return -1;
+}
+
+--
+
+.loop:
+    movzx   eax, byte [rsi]        ; load stream[i]
+    inc     rsi                    ; advance pointer
+    mov     rdx, [pattern_masks + rax*8]  ; lookup pattern_mask[c] (base + c*8)
+    shl     r8, 1                  ; R <<= 1
+    or      r8, rdx               ; R |= pattern_mask[c]
+    test    r8, r9                 ; R & match_bit
+    jz      .match_found           ; branch if zero (match!)
+    cmp     rsi, rdi               ; end of stream?
+    jne     .loop
+
+My father chimed in and mentioned that in some MAGMA contexts you want to go with "==" because optimisation might not be important and some care a lot about easy "legibility". I disagree vehemently with this spirit. Whatever. So I think he had some misunderstanding of how I am specifically applying to low latency C++ roles and am more than half-trying.
+
+	"
+	This is a fantastic snippet of assembly code. You are looking at the highly optimized inner loop of a string-searching algorithm—specifically, a bit-parallel algorithm known as the **Shift-Or algorithm** (also called the Baeza-Yates-Gonnet algorithm or the **Bitap algorithm**).
+
+	Here is an in-depth breakdown of exactly what this code is doing, the algorithmic context behind it, and the roles of the CPU registers involved.
+
+	### 1. High-Level Summary
+
+	This loop scans a "stream" (a string of text) byte by byte, looking for a specific pattern of characters. It does this not by comparing characters one by one in the traditional sense, but by feeding each character into a bitwise state machine.
+
+	Based on the instruction `test rcx, 16` (which checks the 5th bit, $2^4$), we can deduce that **this specific loop is searching for a pattern that is exactly 5 characters long**.
+
+	---
+
+	### 2. Line-by-Line Breakdown
+
+	#### Step 1: Read the character
+
+	```assembly
+	movzx  edx, BYTE PTR [rax] 
+
+	```
+
+	* `rax` holds the memory address of the current character in the text stream.
+	* `BYTE PTR [rax]` fetches the single byte (character) at that address.
+	* `movzx` (Move with Zero-Extend) places that byte into the 32-bit register `edx` and fills the remaining upper bits with zeros. If the character is 'A' (ASCII 65), `edx` now safely holds the integer 65.
+
+	#### Step 2: Update the state
+
+	```assembly
+	add    rcx, rcx
+	or     rcx, QWORD PTR [rsp+rdx*8]
+
+	```
+
+	* **The Shift:** `rcx` holds the current "state" of the search. `add rcx, rcx` adds the register to itself. In binary arithmetic, adding a number to itself ($x + x = 2x$) is identical to a **left bit-shift by 1** (`state = state << 1`). Compilers often use `add` instead of `shl` (shift left) because it can be slightly more efficient on certain CPU architectures.
+	* **The Lookup & OR:** `rsp` is the stack pointer. The code is using the character's ASCII value (`rdx`) as an index into an array of 64-bit (`QWORD`, or 8-byte) masks stored on the stack. `[rsp + rdx*8]` calculates the address of the mask for this specific character. It then performs a bitwise `OR` with the shifted state.
+
+	#### Step 3: Check for the match
+
+	```assembly
+	test   rcx, 16
+	je     .L_match_found
+
+	```
+
+	* `test rcx, 16` performs a bitwise `AND` between the state (`rcx`) and the number 16 (binary `10000`, which is the 5th bit from the right).
+	* In the Shift-Or algorithm, a `0` bit indicates a "live" match. By testing against 16, the code is asking: *"Is the 5th bit of our state a 0?"*
+	* `je` (Jump if Equal) checks the Zero Flag. If `(rcx & 16) == 0`, the Zero Flag is set to 1, and the CPU jumps to `.L_match_found`. Because it's checking the 5th bit, we know the search pattern is 5 characters long.
+
+	#### Step 4: Loop housekeeping
+
+	```assembly
+	add    rax, 1
+	cmp    rsi, rax
+	jne    .L_stream_loop
+
+	```
+
+	* `add rax, 1` increments the string pointer to look at the next character in memory.
+	* `cmp rsi, rax` compares the end-of-stream pointer (`rsi`) with our current pointer (`rax`).
+	* `jne` (Jump if Not Equal) loops back to `.L_stream_loop` if we haven't hit the end of the text yet.
+
+	---
+
+	### 3. The Algorithm (Why it works)
+
+	To truly understand this code, you have to understand the **Shift-Or algorithm** it implements.
+
+	In this algorithm, `0` means "match" and `1` means "mismatch".
+
+	1. **The Masks:** Before this loop starts, a lookup table is built. For every possible character (0-255), there is a bitmask. The $i$-th bit of a character's mask is `0` if that character appears at the $i$-th position of the search pattern, and `1` otherwise.
+	2. **The State:** The state (`rcx`) starts as all `1`s.
+	3. **The Engine:** When a character is read, the state shifts left by 1. This shift naturally pulls a `0` into the 1st bit position. Then, the state is `OR`'d with the mask of the character just read.
+	* If the character matches the 1st position of the pattern, the mask has a `0` there. `0 OR 0 = 0` (the match stays alive).
+	* If the character doesn't match, the mask has a `1` there. `0 OR 1 = 1` (the match is killed).
+
+
+	4. As matching characters are read sequentially, that surviving `0` gets shifted left step-by-step. If a `0` survives all the way to the 5th bit (value 16), it means 5 consecutive matching characters were found!
+
+	### 4. Register Roles Summary
+
+	* **`rax`**: The current read pointer (moving through the text).
+	* **`rsi`**: The end pointer (the bounds of the text).
+	* **`rdx`**: The current character being evaluated (used as an array index).
+	* **`rcx`**: The bitwise state tracker.
+	* **`rsp`**: The base address of the lookup table (stored on the stack).
+
+	---
+
+	Would you like me to walk through a concrete, step-by-step trace of how the `rcx` state changes when searching for a specific 5-letter word like "APPLE"?
+	"
+
+Sounds OK ish.
+
+Well I was interested in writing up tests as well so the first test was something like say the target is "abacabadabacaba" and has some degree of internal prefix matching and backtracking. So Gemini had suggested we just use a bunch of copies of "abacabadabacabc" and then append the target at the end for testing. Well I also wanted a variety of could be random stuff. My father and I talked about timing and this topic also comes up repeatedly in the MIT course 6.172 we talked about.
+"
+
+Well OK so I will actually get around to addressing how I would hope to do this for Hudson River Trading or Headlands Technologies or whatever. Like in a coding round.
+
+Maybe something like:
+
+#include <string>
+#include <cstdint>
+int bitap(std::string_view text, std::string_view pattern) {
+	size_t m = pattern.length();
+	if (m == 0 || m > 64) return -1;
+	uint64_t patternMask[256];
+	for (int i = 0; i < 256; ++i) patternMask[i] = ~0ULL;
+	for (size_t i = 0; i < m; ++i) patternMask[(unsigned char)pattern[i]] &= ~(1ULL << i);
+	uint64_t state = ~0ULL;
+	for (size_t i = 0; i < text.length(); ++i) {
+		state = (state << 1) | patternMask[(unsigned char)text[i]];
+		if ((state & (1ULL << (m - 1))) == 0) return i - m + 1;
+	}
+	return -1;
+}
+
+Now if I call:
+
+clang++ -S -O3 -arch x86_64 -masm=intel bitap.cpp
+
+I see an output file OK I can paste it here if this is the end of this discussion for now:
+
+	.section	__TEXT,__text,regular,pure_instructions
+	.build_version macos, 26, 0	sdk_version 26, 2
+	.intel_syntax noprefix
+	.globl	__Z5bitapNSt3__117basic_string_viewIcNS_11char_traitsIcEEEES3_ ## -- Begin function _Z5bitapNSt3__117basic_string_viewIcNS_11char_traitsIcEEEES3_
+	.p2align	4, 0x90
+__Z5bitapNSt3__117basic_string_viewIcNS_11char_traitsIcEEEES3_: ## @_Z5bitapNSt3__117basic_string_viewIcNS_11char_traitsIcEEEES3_
+	.cfi_startproc
+## %bb.0:
+	push	rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset rbp, -16
+	mov	rbp, rsp
+	.cfi_def_cfa_register rbp
+	push	r15
+	push	r14
+	push	r12
+	push	rbx
+	sub	rsp, 2064
+	.cfi_offset rbx, -48
+	.cfi_offset r12, -40
+	.cfi_offset r14, -32
+	.cfi_offset r15, -24
+	mov	rbx, rcx
+	mov	rax, qword ptr [rip + ___stack_chk_guard@GOTPCREL]
+	mov	rax, qword ptr [rax]
+	mov	qword ptr [rbp - 40], rax
+	add	rcx, -65
+	mov	eax, -1
+	cmp	rcx, -64
+	jb	LBB0_12
+## %bb.1:
+	mov	r12, rdx
+	mov	r14, rsi
+	mov	r15, rdi
+	lea	rdi, [rbp - 2096]
+	mov	edx, 2048
+	mov	esi, 255
+	call	_memset
+	cmp	rbx, 1
+	jne	LBB0_9
+## %bb.2:
+	xor	ecx, ecx
+	jmp	LBB0_3
+LBB0_9:
+	mov	eax, ebx
+	and	eax, 126
+	xor	ecx, ecx
+	.p2align	4, 0x90
+LBB0_10:                                ## =>This Inner Loop Header: Depth=1
+	mov	rdx, -2
+	rol	rdx, cl
+	movzx	esi, byte ptr [r12 + rcx]
+	and	qword ptr [rbp + 8*rsi - 2096], rdx
+	mov	edx, 2
+	shl	rdx, cl
+	not	rdx
+	movzx	esi, byte ptr [r12 + rcx + 1]
+	and	qword ptr [rbp + 8*rsi - 2096], rdx
+	add	rcx, 2
+	cmp	rax, rcx
+	jne	LBB0_10
+LBB0_3:
+	test	bl, 1
+	je	LBB0_5
+## %bb.4:
+	mov	rax, -2
+	rol	rax, cl
+	movzx	ecx, byte ptr [r12 + rcx]
+	and	qword ptr [rbp + 8*rcx - 2096], rax
+LBB0_5:
+	mov	eax, -1
+	test	r14, r14
+	je	LBB0_12
+## %bb.6:
+	lea	ecx, [rbx - 1]
+	mov	edx, 1
+                                        ## kill: def $cl killed $cl killed $ecx
+	shl	rdx, cl
+	mov	rsi, -1
+	xor	ecx, ecx
+	.p2align	4, 0x90
+LBB0_7:                                 ## =>This Inner Loop Header: Depth=1
+	add	rsi, rsi
+	movzx	edi, byte ptr [r15 + rcx]
+	or	rsi, qword ptr [rbp + 8*rdi - 2096]
+	test	rsi, rdx
+	je	LBB0_8
+## %bb.11:                              ##   in Loop: Header=BB0_7 Depth=1
+	inc	rcx
+	cmp	r14, rcx
+	jne	LBB0_7
+	jmp	LBB0_12
+LBB0_8:
+	sub	ecx, ebx
+	inc	ecx
+	mov	eax, ecx
+LBB0_12:
+	mov	rcx, qword ptr [rip + ___stack_chk_guard@GOTPCREL]
+	mov	rcx, qword ptr [rcx]
+	cmp	rcx, qword ptr [rbp - 40]
+	jne	LBB0_14
+## %bb.13:
+	add	rsp, 2064
+	pop	rbx
+	pop	r12
+	pop	r14
+	pop	r15
+	pop	rbp
+	ret
+LBB0_14:
+	call	___stack_chk_fail
+	.cfi_endproc
+                                        ## -- End function
+.subsections_via_symbols
+
+--
+
+So now we see the registers named. I mean earlier I should have mentioned here I will add it in.
+
+https://gemini.google.com/share/19ce44bf391f
+
+Maybe I should not include links and just copy and paste the relevant discussion.
+
+The point is there was a partial unroll. And an elite engineer might note we could also hack around a more serious unroll if we know more about the length of the target e.g. other minor nitpicks like maybe we can speed up assembly if we do not want to waste time on a checker until we actually even hit the length of the target etc.
+
+Good to review stuff like this: https://en.wikipedia.org/wiki/List_of_x86_instructions
+
+And https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html even.
+
+Original 8086/8088 instruction set
+In-
+struc-
+tion	Meaning	Notes	Opcode
+AAA	ASCII adjust AL after addition	used with unpacked binary-coded decimal	0x37
+AAD	ASCII adjust AX before division	8086/8088 datasheet documents only base 10 version of the AAD instruction (opcode 0xD5 0x0A), but any other base will work. Later Intel's documentation has the generic form too. NEC V20 and V30 (and possibly other NEC V-series CPUs) always use base 10, and ignore the argument, causing a number of incompatibilities	0xD5
+AAM	ASCII adjust AX after multiplication	Only base 10 version (Operand is 0xA) is documented, see notes for AAD	0xD4
+AAS	ASCII adjust AL after subtraction		0x3F
+ADC	Add with carry	(1) r += (r/m/imm+CF); (2) m += (r/imm+CF);	0x10...0x15, 0x80...0x81/2, 0x83/2
+ADD	Add	(1) r += r/m/imm; (2) m += r/imm;	0x00...0x05, 0x80/0...0x81/0, 0x83/0
+AND	Logical AND	(1) r &= r/m/imm; (2) m &= r/imm;	0x20...0x25, 0x80...0x81/4, 0x83/4
+CALL	Call procedure	push eip; eip points to the instruction directly after the call	0x9A, 0xE8, 0xFF/2, 0xFF/3
+CBW	Convert byte to word	AX = AL ; sign extended	0x98
+CLC	Clear carry flag	CF = 0;	0xF8
+CLD	Clear direction flag	DF = 0;	0xFC
+CLI	Clear interrupt flag	IF = 0;	0xFA
+CMC	Complement carry flag	CF = !CF;	0xF5
+CMP	Compare operands	(1) r - r/m/imm; (2) m - r/imm;	0x38...0x3D, 0x80...0x81/7, 0x83/7
+CMPSB	Compare bytes in memory. May be used with a REPE or REPNE prefix to test and repeat the instruction CX times.	
+if (DF==0) *(byte*)SI++ - *(byte*)ES:DI++;
+else       *(byte*)SI-- - *(byte*)ES:DI--;
+0xA6
+CMPSW	Compare words. May be used with a REPE or REPNE prefix to test and repeat the instruction CX times.	
+if (DF==0) *(word*)SI++ - *(word*)ES:DI++;
+else       *(word*)SI-- - *(word*)ES:DI--;
+0xA7
+CWD	Convert word to doubleword		0x99
+DAA	Decimal adjust AL after addition	(used with packed binary-coded decimal)	0x27
+DAS	Decimal adjust AL after subtraction		0x2F
+DEC	Decrement by 1		0x48...0x4F, 0xFE/1, 0xFF/1
+DIV	Unsigned divide	(1) AX = DX:AX / r/m; resulting DX = remainder (2) AL = AX / r/m; resulting AH = remainder	0xF7/6, 0xF6/6
+ESC	Used with floating-point unit		0xD8..0xDF
+HLT	Enter halt state		0xF4
+IDIV	Signed divide	(1) AX = DX:AX / r/m; resulting DX = remainder (2) AL = AX / r/m; resulting AH = remainder	0xF7/7, 0xF6/7
+IMUL	Signed multiply in One-operand form	(1) DX:AX = AX * r/m; (2) AX = AL * r/m	0xF7/5, 0xF6/5
+IN	Input from port	(1) AL = port[imm]; (2) AL = port[DX]; (3) AX = port[imm]; (4) AX = port[DX];	0xE4, 0xE5, 0xEC, 0xED
+INC	Increment by 1		0x40...0x47, 0xFE/0, 0xFF/0
+INT	Call to interrupt		0xCC, 0xCD
+INTO	Call to interrupt if overflow		0xCE
+IRET	Return from interrupt		0xCF
+Jcc	Jump if condition	JA, JAE, JB, JBE, JC (same as JB), JE, JG, JGE, JL, JLE, JNA (same as JBE), JNAE (same as JB), JNB (same as JAE), JNBE (same as JA), JNC (same as JAE), JNE, JNG (same as JLE), JNGE (same as JL), JNL (same as JGE), JNLE (same as JG), JNO, JNP, JNS, JNZ (same as JNE), JO, JP, JPE (same as JP), JPO (same as JNP), JS, JZ (same as JE)[3]	0x70...0x7F
+JCXZ	Jump if CX is zero	JECXZ for ECX instead of CX in 32 bit mode (same opcode).	0xE3
+JMP	Jump		0xE9...0xEB, 0xFF/4, 0xFF/5
+LAHF	Load FLAGS into AH register		0x9F
+LDS	Load DS:r with far pointer	r = m; DS = 2 + m;	0xC5
+LEA	Load Effective Address		0x8D
+LES	Load ES:r with far pointer	r = m; ES = 2 + m;	0xC4
+LOCK	Assert BUS LOCK# signal	(for multiprocessing)	0xF0
+LODSB	Load string byte. May be used with a REP prefix to repeat the instruction CX times.	if (DF==0) AL = *SI++; else AL = *SI--;	0xAC
+LODSW	Load string word. May be used with a REP prefix to repeat the instruction CX times.	if (DF==0) AX = *SI++; else AX = *SI--;	0xAD
+LOOP/
+LOOPx	Loop control	(LOOPE, LOOPNE, LOOPNZ, LOOPZ) if (x && --CX) goto lbl;	0xE0...0xE2
+MOV	Move	(1) r = r/m/imm; (2) m = r/imm; (3) r/m = sreg; (4) sreg = r/m;	0xA0...0xA3, 0x8C, 0x8E
+MOVSB	Move byte from string to string. May be used with a REP prefix to repeat the instruction CX times.	
+if (DF==0) *(byte*)ES:DI++ = *(byte*)SI++;
+else       *(byte*)ES:DI-- = *(byte*)SI--;
+.	0xA4
+MOVSW	Move word from string to string. May be used with a REP prefix to repeat the instruction CX times.	
+if (DF==0) *(word*)ES:DI++ = *(word*)SI++;
+else       *(word*)ES:DI-- = *(word*)SI--;
+0xA5
+MUL	Unsigned multiply	(1) DX:AX = AX * r/m; (2) AX = AL * r/m;	0xF7/4, 0xF6/4
+NEG	Two's complement negation	r/m = 0 – r/m;	0xF6/3...0xF7/3
+NOP	No operation	opcode equivalent to XCHG EAX, EAX	0x90
+NOT	Negate the operand, logical NOT	r/m ^= -1;	0xF6/2...0xF7/2
+OR	Logical OR	(1) r ∣= r/m/imm; (2) m ∣= r/imm;	0x08...0x0D, 0x80...0x81/1, 0x83/1
+OUT	Output to port	(1) port[imm] = AL; (2) port[DX] = AL; (3) port[imm] = AX; (4) port[DX] = AX;	0xE6, 0xE7, 0xEE, 0xEF
+POP	Pop data from stack	r/m/sreg = *SP++;	0x07, 0x17, 0x1F, 0x58...0x5F, 0x8F/0
+POPF	Pop FLAGS register from stack	FLAGS = *SP++;	0x9D
+PUSH	Push data onto stack	*--SP = r/m/sreg;	0x06, 0x0E, 0x16, 0x1E, 0x50...0x57, 0xFF/6
+PUSHF	Push FLAGS onto stack	*--SP = FLAGS;	0x9C
+RCL	Rotate left (with carry)		0xC0...0xC1/2 (186+), 0xD0...0xD3/2
+RCR	Rotate right (with carry)		0xC0...0xC1/3 (186+), 0xD0...0xD3/3
+REPxx	Repeat MOVS/STOS/CMPS/LODS/SCAS	(REP, REPE, REPNE, REPNZ, REPZ)	0xF2, 0xF3
+RET	Return from procedure	Not a real instruction. The assembler will translate these to a RETN or a RETF depending on the memory model of the target system.	
+RETN	Return from near procedure		0xC2, 0xC3
+RETF	Return from far procedure		0xCA, 0xCB
+ROL	Rotate left		0xC0...0xC1/0 (186+), 0xD0...0xD3/0
+ROR	Rotate right		0xC0...0xC1/1 (186+), 0xD0...0xD3/1
+SAHF	Store AH into FLAGS		0x9E
+SAL	Shift Arithmetically left (signed shift left)	(1) r/m <<= 1; (2) r/m <<= CL;	0xC0...0xC1/4 (186+), 0xD0...0xD3/4
+SAR	Shift Arithmetically right (signed shift right)	(1) (signed) r/m >>= 1; (2) (signed) r/m >>= CL;	0xC0...0xC1/7 (186+), 0xD0...0xD3/7
+SBB	Subtraction with borrow	(1) r -= (r/m/imm+CF); (2) m -= (r/imm+CF); alternative 1-byte encoding of SBB AL, AL is available via undocumented SALC instruction	0x18...0x1D, 0x80...0x81/3, 0x83/3
+SCASB	Compare byte string. May be used with a REPE or REPNE prefix to test and repeat the instruction CX times.	if (DF==0) AL - *ES:DI++; else AL - *ES:DI--;	0xAE
+SCASW	Compare word string. May be used with a REPE or REPNE prefix to test and repeat the instruction CX times.	if (DF==0) AX - *ES:DI++; else AX - *ES:DI--;	0xAF
+SHL	Shift left (unsigned shift left)	Same opcode as SAL, since logical left shifts are equal to arithmetical left shifts.	0xC0...0xC1/4 (186+), 0xD0...0xD3/4
+SHR	Shift right (unsigned shift right)		0xC0...0xC1/5 (186+), 0xD0...0xD3/5
+STC	Set carry flag	CF = 1;	0xF9
+STD	Set direction flag	DF = 1;	0xFD
+STI	Set interrupt flag	IF = 1;	0xFB
+STOSB	Store byte in string. May be used with a REP prefix to repeat the instruction CX times.	if (DF==0) *ES:DI++ = AL; else *ES:DI-- = AL;	0xAA
+STOSW	Store word in string. May be used with a REP prefix to repeat the instruction CX times.	if (DF==0) *ES:DI++ = AX; else *ES:DI-- = AX;	0xAB
+SUB	Subtraction	(1) r -= r/m/imm; (2) m -= r/imm;	0x28...0x2D, 0x80...0x81/5, 0x83/5
+TEST	Logical compare (AND)	(1) r & r/m/imm; (2) m & r/imm;	0x84, 0x85, 0xA8, 0xA9, 0xF6/0, 0xF7/0
+WAIT	Wait until not busy	Waits until BUSY# pin is inactive (used with floating-point unit)	0x9B
+XCHG	Exchange data	r :=: r/m; A spinlock typically uses xchg as an atomic operation. (coma bug).	0x86, 0x87, 0x91...0x97
+XLAT	Table look-up translation	behaves like MOV AL, [BX+AL]	0xD7
+XOR	Exclusive OR	(1) r ^+= r/m/imm; (2) m ^= r/imm;	0x30...0x35, 0x80...0x81/6, 0x83/6

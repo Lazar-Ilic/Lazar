@@ -1,0 +1,420 @@
+Contents
+0 Goals of this Book and Global Overview 1
+0.1 What is this book? 1
+0.2 Why has this book been written? 2
+0.3 For whom is this book intended? 2
+0.4 Why should I read this book? 2
+0.5 The structure of this book 3
+0.6 What this book does not cover 4
+0.7 Contact, feedback and more information 4
+PART I THE CONTINUOUS THEORY OF PARTIAL
+DIFFERENTIAL EQUATIONS 5
+1 An Introduction to Ordinary Differential Equations 7
+1.1 Introduction and objectives 7
+1.2 Two-point boundary value problem 8
+1.2.1 Special kinds of boundary condition 8
+1.3 Linear boundary value problems 9
+1.4 Initial value problems 10
+1.5 Some special cases 10
+1.6 Summary and conclusions 11
+2 An Introduction to Partial Differential Equations 13
+2.1 Introduction and objectives 13
+2.2 Partial differential equations 13
+2.3 Specialisations 15
+2.3.1 Elliptic equations 15
+2.3.2 Free boundary value problems 17
+2.4 Parabolic partial differential equations 18
+2.4.1 Special cases 20
+2.5 Hyperbolic equations 20
+2.5.1 Second-order equations 20
+2.5.2 First-order equations 21
+2.6 Systems of equations 22
+2.6.1 Parabolic systems 22
+2.6.2 First-order hyperbolic systems 22
+2.7 Equations containing integrals 23
+2.8 Summary and conclusions 24
+3 Second-Order Parabolic Differential Equations 25
+3.1 Introduction and objectives 25
+3.2 Linear parabolic equations 25
+3.3 The continuous problem 26
+3.4 The maximum principle for parabolic equations 28
+3.5 A special case: one-factor generalised Black-Scholes models 29
+3.6 Fundamental solution and the Green's function 30
+3.7 Integral representation of the solution of parabolic PDEs 31
+3.8 Parabolic equations in one space dimension 33
+3.9 Summary and conclusions 35
+4 An Introduction to the Heat Equation in One Dimension 37
+4.1 Introduction and objectives 37
+4.2 Motivation and background 38
+4.3 The heat equation and financial engineering 39
+4.4 The separation of variables technique 40
+4.4.1 Heat flow in a road with ends held at constant temperature 42
+4.4.2 Heat flow in a rod whose ends are at a specified
+variable temperature 42
+4.4.3 Heat flow in an infinite rod 43
+4.4.4 Eigenfunction expansions 43
+4.5 Transformation techniques for the heat equation 44
+4.5.1 Laplace transform 45
+4.5.2 Fourier transform for the heat equation 45
+4.6 Summary and conclusions 46
+5 An Introduction to the Method of Characteristics 47
+5.1 Introduction and objectives 47
+5.2 First-order hyperbolic equations 47
+5.2.1 An example 48
+5.3 Second-order hyperbolic equations 50
+5.3.1 Numerical integration along the characteristic lines 50
+5.4 Applications to financial engineering 53
+5.4.1 Generalisations 55
+5.5 Systems of equations 55
+5.5.1 An example 57
+5.6 Propagation of discontinuities 57
+5.6.1 Other problems 58
+5.7 Summary and conclusions 59
+PART II FINITE DIFFERENCE METHODS: THE FUNDAMENTALS 61
+6 An Introduction to the Finite Difference Method 63
+6.1 Introduction and objectives 63
+6.2 Fundamentals of numerical differentiation 63
+6.3 Caveat: accuracy and round-off errors 65
+6.4 Where are divided differences used in instrument pricing? 67
+6.5 Initial value problems 67
+6.5.1 Pade matrix approximations 68
+6.5.2 Extrapolation 71
+6.6 Nonlinear initial value problems 72
+6.6.1 Predictor-corrector methods 73
+6.6.2 Runge-Kutta methods 74
+6.7 Scalar initial value problems 75
+6.7.1 Exponentially fitted schemes 76
+6.8 Summary and conclusions 76
+7 An Introduction to the Method of Lines 79
+7.1 Introduction and objectives 79
+7.2 Classifying semi-discretisation methods 79
+7.3 Semi-discretisation in space using FDM 80
+7.3.1 A test case 80
+7.3.2 Toeplitz matrices 82
+7.3.3 Semi-discretisation for convection-diffusion problems 82
+7.3.4 Essentially positive matrices 84
+7.4 Numerical approximation of first-order systems 85
+7.4.1 Fully discrete schemes 86
+7.4.2 Semi-linear problems 87
+7.5 Summary and conclusions 89
+8 General Theory of the Finite Difference Method 91
+8.1 Introduction and objectives 91
+8.2 Some fundamental concepts 91
+8.2.1 Consistency 93
+8.2.2 Stability 93
+8.2.3 Convergence 94
+8.3 Stability and the Fourier transform 94
+8.4 The discrete Fourier transform 96
+8.4.1 Some other examples 98
+8.5 Stability for initial boundary value problems 99
+8.5.1 Gerschgorin's circle theorem 100
+8.6 Summary and conclusions 101
+9 Finite Difference Schemes for First-Order Partial Differential Equations 103
+9.1 Introduction and objectives 103
+9.2 Scoping the problem 103
+9.3 Why first-order equations are different: Essential difficulties 105
+9.3.1 Discontinuous initial conditions 106
+9.4 A simple explicit scheme 106
+9.5 Some common schemes for initial value problems 108
+9.5.1 Some other schemes 110
+9.6 Some common schemes for initial boundary value problems 110
+9.7 Monotone and positive-type schemes 110
+9.8 Extensions, generalisations and other applications 111
+9.8.1 General linear problems 112
+9.8.2 Systems of equations 112
+9.8.3 Nonlinear problems 114
+9.8.4 Several independent variables 114
+9.9 Summary and conclusions 115
+10 FDM for the One-Dimensional Convection-Diffusion Equation 117
+10.1 Introduction and objectives 117
+10.2 Approximation of derivatives on the boundaries 118
+10.3 Time-dependent convection-diffusion equations 120
+10.4 Fully discrete schemes 120
+10.5 Specifying initial and boundary conditions 121
+10.6 Semi-discretisation in space 121
+10.7 Semi-discretisation in time 122
+10.8 Summary and conclusions 122
+11 Exponentially Fitted Finite Difference Schemes 123
+11.1 Introduction and objectives 123
+11.2 Motivating exponential fitting 123
+11.2.1 'Continuous' exponential approximation 124
+11.2.2 'Discrete' exponential approximation 125
+11.2.3 Where is exponential fitting being used? 128
+11.3 Exponential fitting and time-dependent convection-diffusion 128
+11.4 Stability and convergence analysis 129
+11.5 Approximating the derivative of the solution 131
+11.6 Special limiting cases 132
+11.7 Summary and conclusions 132
+PART III APPLYING FDM TO ONE-FACTOR INSTRUMENT PRICING 135
+12 Exact Solutions and Explicit Finite Difference Method
+for One-Factor Models 137
+12.1 Introduction and objectives 137
+12.2 Exact solutions and benchmark cases 137
+12.3 Perturbation analysis and risk engines 139
+12.4 The trinomial method: Preview 139
+12.4.1 Stability of the trinomial method 141
+12.5 Using exponential fitting with explicit time marching 142
+12.6 Approximating the Greeks 142
+12.7 Summary and conclusions 144
+12.8 Appendix: the formula for Vega 144
+13 An Introduction to the Trinomial Method 147
+13.1 Introduction and objectives 147
+13.2 Motivating the trinomial method 147
+13.3 Trinomial method: Comparisons with other methods 149
+13.3.1 A general formulation 150
+13.4 The trinomial method for barrier options 151
+13.5 Summary and conclusions 152
+14 Exponentially Fitted Difference Schemes for Barrier Options 153
+14.1 Introduction and objectives 153
+14.2 What are barrier options? 153
+14.3 Initial boundary value problems for barrier options 154
+14.4 Using exponential fitting for barrier options 154
+14.4.1 Double barrier call options 156
+14.4.2 Single barrier call options 156
+14.5 Time-dependent volatility 156
+14.6 Some other kinds of exotic options 157
+14.6.1 Plain vanilla power call options 158
+14.6.2 Capped power call options 158
+14.7 Comparisons with exact solutions 159
+14.8 Other schemes and approximations 162
+14.9 Extensions to the model 162
+14.10 Summary and conclusions 163
+15 Advanced Issues in Barrier and Lookback Option Modelling 165
+15.1 Introduction and objectives 165
+15.2 Kinds of boundaries and boundary conditions 165
+15.3 Discrete and continuous monitoring 168
+15.3.1 What is discrete monitoring? 168
+15.3.2 Finite difference schemes and jumps in time 169
+15.3.3 Lookback options and jumps 170
+15.4 Continuity corrections for discrete barrier options 171
+15.5 Complex barrier options 171
+15.6 Summary and conclusions 173
+16 The Meshless (Meshfree) Method in Financial Engineering 175
+16.1 Introduction and objectives 175
+16.2 Motivating the meshless method 175
+16.3 An introduction to radial basis functions 177
+16.4 Semi-discretisations and convection-diffusion equations 177
+16.5 Applications of the one-factor Black-Scholes equation 179
+16.6 Advantages and disadvantages of meshless 180
+16.7 Summary and conclusions 181
+17 Extending the Black-Scholes Model: Jump Processes 183
+17.1 Introduction and objectives 183
+17.2 Jump-diffusion processes 183
+17.2.1 Convolution transformations 185
+17.3 Partial integro-differential equations and financial applications 186
+17.4 Numerical solution of PIDE: Preliminaries 187
+17.5 Techniques for the numerical solution of PIDEs 188
+17.6 Implicit and explicit methods 188
+17.7 Implicit-explicit Runge-Kutta methods 189
+17.8 Using operator splitting 189
+17.9 Splitting and predictor-corrector methods 190
+17.10 Summary and conclusions 191
+PART IV FDM FOR MULTIDIMENSIONAL PROBLEMS 193
+18 Finite Difference Schemes for Multidimensional Problems 195
+18.1 Introduction and objectives 195
+18.2 Elliptic equations 195
+18.2.1 A self-adjoint elliptic operator 198
+18.2.2 Solving the matrix systems 199
+18.2.3 Exact solutions to elliptic problems 200
+18.3 Diffusion and heat equations 202
+18.3.1 Exact solutions to the heat equation 204
+18.4 Advection equation in two dimensions 205
+18.4.1 Initial boundary value problems 207
+18.5 Convection-diffusion equation 207
+18.6 Summary and conclusions 208
+19 An Introduction to Alternating Direction Implicit and Splitting Methods 209
+19.1 Introduction and objectives 209
+19.2 What is ADI, really? 210
+19.3 Improvements on the basic ADI scheme 212
+19.3.1 The D'Yakonov scheme 212
+19.3.2 Approximate factorization of operators 213
+19.3.3 ADI classico for two-factor models 215
+19.4 ADI for first-order hyperbolic equations 215
+19.5 ADI classico and three-dimensional problems 217
+19.6 The Hopscotch method 218
+19.7 Boundary conditions 219
+19.8 Summary and conclusions 221
+20 Advanced Operator Splitting Methods: Fractional Steps 223
+20.1 Introduction and objectives 223
+20.2 Initial examples 223
+20.3 Problems with mixed derivatives 224
+20.4 Predictor-corrector methods (approximation correctors) 226
+20.5 Partial integro-differential equations 227
+20.6 More general results 228
+20.7 Summary and conclusions 228
+21 Modern Splitting Methods 229
+21.1 Introduction and objectives 229
+21.2 Systems of equations 229
+21.2.1 ADI and splitting for parabolic systems 230
+21.2.2 Compound and chooser options 231
+21.2.3 Leveraged knock-in options 232
+21.3 A different kind of splitting: The IMEX schemes 232
+21.4 Applicability of IMEX schemes to Asian option pricing 234
+21.5 Summary and conclusions 235
+PART V APPLYING FDM TO MULTI-FACTOR INSTRUMENT PRICING 237
+22 Options with Stochastic Volatility: The Heston Model 239
+22.1 Introduction and objectives 239
+22.2 An introduction to Ornstein-Uhlenbeck processes 239
+22.3 Stochastic differential equations and the Heston model 240
+22.4 Boundary conditions 241
+22.4.1 Standard european call option 242
+22.4.2 European put options 242
+22.4.3 Other kinds of boundary conditions 242
+22.5 Using finite difference schemes: Prologue 243
+22.6 A detailed example 243
+22.7 Summary and conclusions 246
+23 Finite Difference Methods for Asian Options and Other 'Mixed' Problems 249
+23.1 Introduction and objectives 249
+23.2 An introduction to Asian options 249
+23.3 My first PDE formulation 250
+23.4 Using operator splitting methods 251
+23.4.1 For sake of completeness: ADI methods for asian option PDEs 253
+23.5 Cheyette interest models 253
+23.6 New developments 254
+23.7 Summary and conclusions 255
+24 Multi-Asset Options 257
+24.1 Introduction and objectives 257
+24.2 A taxonomy of multi-asset options 257
+24.2.1 Exchange options 260
+24.2.2 Rainbow options 261
+24.2.3 Basket options 262
+24.2.4 The best and worst 263
+24.2.5 Quotient options 263
+24.2.6 Foreign equity options 264
+24.2.7 Quanto options 264
+24.2.8 Spread options 264
+24.2.9 Dual-strike options 265
+24.2.10 Out-perfomance options 265
+24.3 Common framework for multi-asset options 265
+24.4 An overview of finite difference schemes for multi-asset problems 266
+24.5 Numerical solution of elliptic equations 267
+24.6 Solving multi-asset Black-Scholes equations 269
+24.7 Special guidelines and caveats 270
+24.8 Summary and conclusions 271
+25 Finite Difference Methods for Fixed-Income Problems 273
+25.1 Introduction and objectives 273
+25.2 An introduction to interest rate modelling 273
+25.3 Single-factor models 274
+25.4 Some specific stochastic models 276
+25.4.1 The Merton model 277
+25.4.2 The Vasicek model 277
+25.4.3 Cox, Ingersoll and Ross (CIR) 277
+25.4.4 The Hull-White model 277
+25.4.5 Lognormal models 278
+25.5 An introduction to multidimensional models 278
+25.6 The thorny issue of boundary conditions 280
+25.6.1 One-factor models 280
+25.6.2 Multi-factor models 281
+25.7 Introduction to approximate methods for interest rate models 282
+25.7.1 One-factor models 282
+25.7.2 Many-factor models 283
+25.8 Summary and conclusions 283
+PART VI FREE AND MOVING BOUNDARY VALUE PROBLEMS 285
+26 Background to Free and Moving Boundary Value Problems 287
+26.1 Introduction and objectives 287
+26.2 Notation and definitions 287
+26.3 Some preliminary examples 288
+26.3.1 Single-phase melting ice 288
+26.3.2 One-factor option modelling: American exercise style 289
+26.3.3 Two-phase melting ice 290
+26.3.4 The inverse Stefan problem 290
+26.3.5 Two and three space dimensions 291
+26.3.6 Oxygen diffusion 293
+26.4 Solutions in financial engineering: A preview 293
+26.4.1 What kinds of early exercise features? 293
+26.4.2 What kinds of numerical techniques? 294
+26.5 Summary and conclusions 294
+27 Numerical Methods for Free Boundary Value Problems:
+Front-Fixing Methods 295
+27.1 Introduction and objectives 295
+27.2 An introduction to front-fixing methods 295
+27.3 A crash course on partial derivatives 295
+27.4 Functions and implicit forms 297
+27.5 Front fixing for the heat equation 299
+27.6 Front fixing for general problems 300
+27.7 Multidimensional problems 300
+27.8 Front fixing and American options 303
+27.9 Other finite difference schemes 305
+27.9.1 The method of lines and predictor-corrector 305
+27.10 Summary and conclusions 306
+28 Viscosity Solutions and Penalty Methods for American Option Problems 307
+28.1 Introduction and objectives 307
+28.2 Definitions and main results for parabolic problems 307
+28.2.1 Semi-continuity 307
+28.2.2 Viscosity solutions of nonlinear parabolic problems 308
+28.3 An introduction to semi-linear equations and penalty method 310
+28.4 Implicit, explicit and semi-implicit schemes 311
+28.5 Multi-asset American options 312
+28.6 Summary and conclusions 314
+29 Variational Formulation of American Option Problems 315
+29.1 Introduction and objectives 315
+29.2 A short history of variational inequalities 316
+29.3 A first parabolic variational inequality 316
+29.4 Functional analysis background 318
+29.5 Kinds of variational inequalities 319
+29.5.1 Diffusion with semi-permeable membrane 319
+29.5.2 A one-dimensional finite element approximation 320
+29.6 Variational inequalities using Rothe's methods 323
+29.7 American options and variational inequalities 324
+29.8 Summary and conclusions 324
+PART VII DESIGN AND IMPLEMENTATION IN C++ 325
+30 Finding the Appropriate Finite Difference Schemes for your Financial
+Engineering Problem 327
+30.1 Introduction and objectives 327
+30.2 The financial model 328
+30.3 The viewpoints in the continuous model 328
+30.3.1 Payoff functions 329
+30.3.2 Boundary conditions 330
+30.3.3 Transformations 331
+30.4 The viewpoints in the discrete model 332
+30.4.1 Functional and non-functional requirements 332
+30.4.2 Approximating the spatial derivatives in the PDE 333
+30.4.3 Time discretisation in the PDE 334
+30.4.4 Payoff functions 334
+30.4.5 Boundary conditions 335
+30.5 Auxiliary numerical methods 335
+30.6 New Developments 336
+30.7 Summary and conclusions 336
+31 Design and Implementation of First-Order Problems 337
+31.1 Introduction and objectives 337
+31.2 Software requirements 337
+31.3 Modular decomposition 338
+31.4 Useful C++ data structures 339
+31.5 One-factor models 339
+31.5.1 Main program and output 342
+31.6 Multi-factor models 343
+31.7 Generalisations and applications to quantitative finance 346
+31.8 Summary and conclusions 347
+31.9 Appendix: Useful data structures in C++ 348
+32 Moving to Black-Scholes 353
+32.1 Introduction and objectives 353
+32.2 The PDE model 354
+32.3 The FDM model 355
+32.4 Algorithms and data structures 355
+32.5 The C++ model 356
+32.6 Test case: The two-dimensional heat equation 357
+32.7 Finite difference solution 357
+32.8 Moving to software and method implementation 358
+32.8.1 Defining the continuous problem 358
+32.8.2 Creating a mesh 358
+32.8.3 Choosing a scheme 360
+32.8.4 Termination criterion 361
+32.9 Generalisations 361
+32.9.1 More general PDEs 361
+32.9.2 Other finite difference schemes 361
+32.9.3 Flexible software solutions 361
+32.10 Summary and conclusions 362
+33 C++ Class Hierarchies for One-Factor and Two-Factor Payoffs 363
+33.1 Introduction and objectives 363
+33.2 Abstract and concrete payoff classes 364
+33.3 Using payoff classes 367
+33.4 Lightweight payoff classes 368
+33.5 Super-lightweight payoff functions 369
+33.6 Payoff functions for multi-asset option problems 371
+33.7 Caveat: non-smooth payoff and convergence degradation 373
+33.8 Summary and conclusions 374
+Appendices 375
+A1 An introduction to integral and partial integro-differential equations 375
+A2 An introduction to the finite element method 393
+Bibliography 409
+Index 417

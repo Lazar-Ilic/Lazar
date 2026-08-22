@@ -1,0 +1,3 @@
+# Stack Stabilization 2 – solution explanation
+
+To be added...

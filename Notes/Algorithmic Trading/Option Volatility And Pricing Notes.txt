@@ -1,0 +1,292 @@
+This is an old book of some dude's opinions.
+
+1
+
+Call Option - right to buy a given asset at a fixed exercise/strike price on or before a specified expiration date
+
+Put Option - right to sell a given asset at a fixed exercise/strike price on or before a specified expiration date
+
+Underlying - the asset e.g. 10 shares of apple stock
+
+American/European - before or only on expiration date/time
+
+Intrinsic Value - against market price e.g. with gold trading at 435 the instrinsic value of a 400 call is 35 with something trading at 62 the intrinsic value of a 70 put is 8
+
+Time Value - additional cost for example this 400 call/buy option at 450 has Time Value 15 or 70 put/sell option for 9 has Time Value 1
+
+2
+
+Intuition is want computable first order approximation for utility to create coherent strategy with respect to risk i.e. take position A if the posterior impact distribution strictly dominates that of position B
+
+Create a V shaped graph from buying a call and put option and profit on movement or volatility. Maybe an upcoming US election result will likely hit the market but we are unsure of direction due to underlying uncertainty about results. Trapezoid, upside down trapezoid, sloped stair, and general pointy structures based on prices.
+
+time evaluate positions update on new information and market prices.
+
+3
+
+Options are more complex on time hence the speed of the market is more critical information on which one needs to model and update and strategies based primarily on speed and volatility exist perhaps an edge with information.
+
+Simple analysis of expected value which fail to take into account our own strategy upon potential future universes i.e. how our strategy will respond and where it will exercise etc. capping upside.
+
+Of course evaluating against the counterfactual of our strategy everything time stamped when dividends pay out etc.
+
+Kelly Criterion and emergent strategy space
+
+Insurance - individuals incentivized and insurance firm too by the calculus
+
+Model and data - famous Black-Scholes, Black futures, Garman-Kohlhagen foreign currency semi-variants.
+
+Exercise Price
+Time to Expiration
+Current Price - if we intend to purchase calls which is long market the hedge is selling the underlying i.e. viewing bid price
+Risk-Free Interest Rate over Option Life - borrowing rate lending rate government security with term equivalent to Option Life
+Volatility of Underlying Contract
+
+Riskless Hedge - offsetting hedge ratio in the sense substitute for similar position in the underlying
+
+precision inputs to model
+
+4
+
+random walks i.e. sum of discrete bernoulli distributions i.e binomial distributions approximated by normal parameter in walk measure estimate variance
+
+for Black-Scholes lognormal i.e. percent changes normally distributed think Kelly EV 0
+
+scale number with respect to time
+
+Future Volatility
+
+Historical Volatility
+
+some techniques for producing numbers to input here what precision of historical data to use
+
+implicit volatility in reverse via market timely input data information
+
+supposedly the serious trader is considering the implicit volatility and direction off their edge and what they think the volatility is
+
+5
+
+Hedge Ratio/Delta - the number which enables us to establish a neutral hedge under current markey conditions and by-product of theoretical pricing model
+
+Delta of a call option is always between 0 and 1
+The Delta of an option can change as market conditions change
+An underlying contract always has a Delta of 1
+
+Purchase/sell undervalued/overvalued options.
+Establish a Delta neutral hedge against the underyling contract.
+Adjust the hedge at regular intervals to remain delta neutral.
+
+Closing position:
+Letting any out-of-the-money options expire worthless.
+Selling any in-the-money options at intrinsic value or equivalently exercising them and offsetting them against the underlying futures contract.
+Liquidating any outstanding futures contracts at the market price.
+
+An example of a profit and loss calculus demonstrating a variety of time stamped elements and interest rate components.
+
+Frictionless Market Assumption:
+Traders can freely buy or sell the underlying contract without restriction.
+All traders can borrow and lend money at the same rate.
+Transaction costs are zero.
+There are no tax considerations.
+
+Quite a few problems with this model in reality enumerated including tax, credit, transaction costs, hedge maintenance. Noted of course professional traders have an enormous number of edges in information, training, background, and ability to buy/sell at the bid/ask price.
+
+One can clear theoretical profit if volatility hits forecast prior to completion.
+
+Up-Tick Rule - instituted after market crash of 1929 to prevent poo
+
+Option Replication - using the cash flow from continuous hedging in the underlying contract in order to make use of option characteristics but do not actually involve options e.g. portfolio insurance
+
+6
+
+changing underlying price, volatility, interest rates, etc. all inputs to model affect price
+
+Delta - used to determine the number of underlying contracts to option contracts required to establish a neutral hedge
+
+- rate of change derivative option's value changes with respect to change in the price of the underlying i.e. in-the-money call option value nearly equal to underlying whereas far out-of-the-money call option value changes only slightly
+
+Any hedge, whether options versus underlying contracts or options versus options is Delta Neutral as long as all the Deltas in the hedge add up to 0. A position can be highly complex.
+
+Gamma/Curvature - the rate at which an option's Delta changes as the price of the underlying changes
+
+Gamma - higher is higher risk
+
+Theta - time decay factor, the change in theoretical value of call/put options to change in time to expiration they lose value as expiration approaches
+
+Vega/Kappa - the change in theoretical value of call/put options to change in volatility
+
+Rho - the change in theoretical value of call/put options to change in interest rates
+
+Elasticity/Omega - the fractional change in theoretical value of call/put options to  fractional change in the price of the underlying contract
+
+Apparently summing these over a position can be useful and real traders need to be familiar with all of these and have good hyperparameters tuned to using these numbers to make decisions.
+
+7
+
+Spread - strategy which involves taking simultaneous but opposing positions in different instruments in order to mitigate short term risks assuming identifiable price relationship
+
+Contango Relationship - the cost of financing, storing, and insuring a traditional commodtiy is positive so the price of a more distant delivery month ought to be greater
+
+Backwardation - markets where the nearby delivery month is trading at a premium
+
+Futures Theory Note - calculus of spread relationship
+
+Another spread example: treasury bonds and treasury notes
+
+Ratio Spread - suppose a trader decides that the spread between silver and gold ought to be in an 80:1 ratio so he buys 80 silver and 1 gold then he profits on ratio regardless of direction if it comes to that
+
+Much of an option trader's education is spent studying volatility relationships, and learning to create spreads based on mispriced volatility.
+
+Spreading can severely reduce risk of course maximize long run utility.
+
+8
+
+Alternate to hedging via opposing market position in the underlying instrument is other equivalent options. For example to hedge a total Delta position of 500 in calls
+
+Sell 500 in underlying
+Buy puts with a total Delta of -500
+Sell different calls with a total Delta of 500
+Combine
+
+Each spread will be approximately delta neutral
+Each spread will be sensitie to changes in the price of the underlying instrument
+Each spread will be sensitive to changes in implied volatility
+Each spread will be sensitive to the passage of time
+
+Backspread/Ratio Backspread/Long Ratio Backspread - purchase more options with smaller deltas and sell less with larger deltas all options expire at the same time expect movement can one sided upside for example
+
+Ratio Vertical Spread/Ratio Spread/Short Ratio Spread/Vertical Spread/Front Spread - opposite of backspread expect market stability can one sided movement protection for example
+
+Straddle - call and put i.e. V graphs
+
+Strangle - trapezoid graphs
+
+Butterfly - V to horizontal line
+
+Time Spread
+
+A whole bunch of numerical examples which failed to really illuminate much to me because I don't have information, an edge, or implementations nor do I have any experience with contemporary trading inside a firm.
+
+9
+
+Risk. This chapter seemed extremely handwaved one would assume some adjusted credence model known to produce desired output historically and actually a coherent utility function off of which to make decisions in a computable way. Maybe trader humans need to on the spot evaluate some strictly dominating positions.
+
+Many ways for discrete and continuous adjustments to maintain delta neutrality.
+
+Most option pricing models assume that movement in the underlying contract is random... something about traders who come from directional backgrounds.
+
+Liquidity is very important that is ease of buying and selling in market reverse trade less risk. Tendencies about liquidity in options markets various parameters and considerations about liquidity of the underlying market and the adjustments.
+
+10
+
+Directional strategies include buying underlying.
+
+Naked positions creating positive or negative Delta position naturally with options.
+
+Some math the basic idea of bull and bear spreads directional.
+
+11
+
+One important characteristic of options is that they can be combined with other options or underlying contracts to create positions with characteristics which are almost identical to some other contract or combination of contracts. This type of replication leads to a new category of trading strategies which are unique to the options market.
+
+Synthetic Positions - mimic underlying e.g. some other examples
+
+Arbitrage - ezpz money from price disparity between "equivalent" instruments
+
+Conversions and Reversals
+
+Interest Rate Risk
+
+Execution Risk
+
+A lot of enumerating the existence of strategies resulting from mixing some basic options and instruments and arrive somewhere with a less risky profile for a serious quantitative trader.
+
+12
+
+Interesting here finally discussion of the early exercise of American options. Natural:
+
+When to early exercise?
+How much more should this right cost be priced in?
+
+In futures markets where the options are subject to futures type settlement it is strictly dominating to hold or sell than early exercise.
+
+Conditions for Early Exercise - when the option is subject to stock type settlement the trader is trying to capture the interest on the option's intrinsic value, in the case of stock option calls capture the dividend, in the case of stock option puts the interest on the sale of the stock at the exercise price. Necessary conditions for considering early exercise:
+
+The option must be trading at parity.
+The option must have a Delta close to 100
+
+psuedo-American call value - the greater value comparing Black-Scholes under two circumstances
+
+Cox-Rubenstein Model and Whaley Model for American options
+
+13
+
+Protective Calls and Puts - the simplest way to hedge an underlying position using options is to purchase either a call to protect a short position or a put to protect a long position in each case if the market moves adversely the hedger is insulated from any loss beyond the exercise price
+
+Covered Writes - construct graph
+
+Fences - again some enumeration of strategies resulting from mixes of simple instruments
+
+Portfolio Insurance - supposedly important process of continuously rehedging an underlying position to replicate an option position
+
+14
+
+Making an intelligent volatility forecast can be a difficult and frustrating exercise especially for a new option trader.
+
+Mean reverting characteristic of volatility.
+
+Serial Correlation
+
+Unclear to me how real this stuff is. Old book.
+
+An enormous amount of handwaved non-math.
+
+15
+
+Stock Index Futures and Options - invest in the market as a whole thereby eliminating the laborious job of trying to pick individual stocks
+
+Portfolio Managers can use index instruments to create a wide variety of risk/reward "scenarios" for large diversified stock portfolios
+
+Emergent arbitrage opportunities and some analysis of the key differences between indices and previously discussed instruments.
+
+A lot of words I have a hard time caring about at this current time. I want math exercises.
+
+16
+
+Intermarket Spreading - relationship between contracts in two different markets and finds
+
+Intermarket Hedge
+
+Volatility Relationships
+
+Options on Spreads
+
+17
+
+Totally skimming at this point these graphs look a little more complex some of them smoother and closer to the axis
+
+18
+
+Skewness
+
+Kurtosis
+
+Some discussion of models and reality and I want the future reading section.
+
+Appendix B
+
+The Mathematics of Option Pricing
+
+Here finally some intuitive formulae.
+
+Advanced Books
+
+Google as Well
+
+Brenner - Option Pricing
+Cox - Options Markets
+Gibson - Option Evaluation
+Hodges - Options
+Hull - Options
+Jarrow - Options
+Ritchken - Options

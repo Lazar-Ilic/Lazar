@@ -1,0 +1,33 @@
+Minimal Number Of Elements From Set To Target Sum: nk
+	Bottoms up for example DP[i] = min[DP[i-aj]]
+
+Maximum Value From Weights Under Threshold: nW
+	If unlimited number of copies of each object
+	Bottoms up for example DP[0] = 0, DP[i] = max[vj+DP[i-wj]]
+	Evaluating DP[1] completely over all objects, then DP[2] etc. order
+	If 0|1 copy of each object:
+	Evaluate DP[budget] completely from maximum down for the 1st object, then for the 2nd object, etc. order.
+	Nondeterministic Polynomial Time Complete constrained integer linear programming task. There exist quasi polynomial approximation algorithms.
+
+Memoisation
+	Top down for example auxiliary boolean or -1 value to indicate unprocessed to avoid evaluating irrelevant cases.
+
+Multiplicity
+	Propagate through coherent recursion. Do not recompute. Prune. Precompute relevant binomials and other combinatorial functions, Sterling, etc. as needed.
+
+Path Counting And Discrete R2 Tasks
+	Recursion.
+
+Possible Sums From Set
+	Process through weight by weight.
+
+Divide And Conquer: n log n
+	Sequence s1, s2, ..., sn divided into k consecutive subsequences such that cost[a,c] + cost[b,d] <= cost[a,d] + cost[b,c]
+
+Digit Dynamic Programming
+	Casework on the first digit where a downward deviation occurs especially if these cases are easy to compute a target quantity over all 10^n settings of rightward digits.
+
+-------------
+
+Minimise the sum of the squares of the sums of the subarrays in a partition of an array into k subarrays.
+	Divide And Conquer.

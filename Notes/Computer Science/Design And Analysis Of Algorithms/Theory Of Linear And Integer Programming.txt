@@ -1,0 +1,761 @@
+Contents
+
+
+
+1 Introduction and preliminaries 1
+
+
+
+1.1 Introduction, 1
+
+
+
+1.2 General preliminaries, 3
+
+
+
+1.3 Preliminaries from linear algebra, matrix theory, and Euclidean geometry, 4
+
+
+
+1.4 Some graph theory, 8
+
+
+
+2 Problems, algorithms, and complexity 14
+
+
+
+2.1 Letters, words, and sizes, 15
+
+
+
+2.2 Problems, 15
+
+
+
+2.3 Algorithms and running time, 16
+
+
+
+2.4 Polynomial algorithms, 17
+
+
+
+2.5 The classes Y, A'.Y,and CO-. 1 '9,18
+
+
+
+2.6 N9-complete problems, 20
+
+
+
+Some historical notes, 21
+
+
+
+PART I: LINEAR ALGEBRA 25
+
+
+
+3 Linear algebra and complexity 27
+
+
+
+3.1 Some theory, 27
+
+
+
+3.2 Sizes and good characterizations, 29
+
+
+
+3.3 The Gaussian elimination method, 31
+
+
+
+3.4 Iterative methods, 36
+
+
+
+Notes on linear algebra 38
+
+
+
+Historical notes, 38
+
+
+
+Further notes on linear algebra, 40
+
+
+
+PART 11: LATTICES AND LINEAR DIOPHANTINE
+
+
+
+EQUATIONS 43
+
+
+
+4 Theory of lattices and linear diophantine equations 45
+
+
+
+4.1 The Hermite normal form, 45
+
+
+
+4.2 Uniqueness of the Hermite normal form, 48
+
+
+
+4.3 Unimodular matrices, 48
+
+
+
+4.4 Further remarks, 50
+
+
+
+vii 
+
+
+
+viii Contents
+
+
+
+5 Algorithms for linear diophantine equations 52 
+
+
+
+
+
+
+
+5.1 The Euclidean algorithm, 52
+
+
+
+5.2 Sizes and good characterizations, 54
+
+
+
+5.3 Polynomial algorithms for Hermite normal forms and systems of linear
+
+
+
+diophantine equations, 56
+
+
+
+6 Diophantine approximation and basis reduction 60 
+
+
+
+
+
+
+
+6.1 The continued fraction method, 60
+
+
+
+6.2 Basis reduction in lattices, 67
+
+
+
+6.3 Applications of the basis reduction method, 71
+
+
+
+Notes on lattices and linear diophantine equations 76
+
+
+
+Historical notes, 76
+
+
+
+Further notes on lattices and linear diophantine equations, 82
+
+
+
+PART 111: POLYHEDRA, LINEAR INEQUALITIES,
+
+
+
+AND LINEAR PROGRAMMING 83 
+
+
+
+
+
+
+
+7 Fundamental concepts and results on polyhedra, linear inequalities,
+
+
+
+and linear programming 85 
+
+
+
+
+
+
+
+7.1 The Fundamental theorem of linear inequalities, 85
+
+
+
+7.2 Cones, polyhedra. and polytopes, 87
+
+
+
+7.3 Farkas’ lemma and variants, 89
+
+
+
+7.4 Linear programming, 90
+
+
+
+7.5 LP-duality geometrically, 92
+
+
+
+7.6 Afine form of Farkas’ lemma, 93
+
+
+
+7.7 Caratheodory’s theorem, 94
+
+
+
+7.8 Strict inequalities, 94
+
+
+
+7.9 Complementary slackness, 95
+
+
+
+7.10 Application: max-flow min-cut, 96
+
+
+
+8 The structure of polyhedra 99 
+
+
+
+
+
+
+
+8.1 Implicit equalities and redundant constraints, 99
+
+
+
+8.2 Characteristic cone, lineality space, afine hull, dimension, 100
+
+
+
+8.3 Faces, 101
+
+
+
+8.4 Facets, 101
+
+
+
+8.5 Minimal faces and vertices, 104
+
+
+
+8.6 The face-lattice, 104
+
+
+
+8.7 Edges and extremal rays, 105
+
+
+
+8.8 Extremal rays of cones, 105
+
+
+
+8.9 Decomposition of polyhedra, 106
+
+
+
+8.10 Application: doubly stochastic matrices, 107
+
+
+
+8.11 Application: the matching polytope, 109
+
+
+
+9 Polarity, and blocking and anti-blocking polyhedra 112 
+
+
+
+
+
+
+
+9.1 Polarity, 112
+
+
+
+9.2 Blocking polyhedra, 1 13
+
+
+
+9.3 Anti-blocking polyhedra, 116 
+
+
+
+Contents ix
+
+
+
+10 Sizes and the theoretical complexity of linear inequalities
+
+
+
+and linear programming 120
+
+
+
+10.1 Sizes and good characterizations, 120
+
+
+
+10.2 Vertex and facet complexity, 121
+
+
+
+10.3 Polynomial equivalence of linear inequalities and linear programming, 124
+
+
+
+10.4 Sensitivity analysis, 125
+
+
+
+11 The simplex method 129
+
+
+
+11.1 The simplex method, 129
+
+
+
+11.2 The simplex method in tableau form, 132
+
+
+
+11.3 Pivot selection, cycling, and complexity, 137
+
+
+
+11.4 The worst-case behaviour of the simplex method, 139
+
+
+
+11.5 The average running time of the simplex method, 142
+
+
+
+11.6 The revised simplex method, 147
+
+
+
+11.7 The dual simplex method, 148
+
+
+
+12 Primal-dual, elimination, and relaxation methods 151
+
+
+
+12.1 The primal-dual method, 151
+
+
+
+12.2 The Fourier-Motzkin elimination method, 155
+
+
+
+12.3 The relaxation method, 157
+
+
+
+13 Khachiyan’s method for linear programming 163
+
+
+
+13.1 Ellipsoids, 163
+
+
+
+13.2 Khachiyan’s method: outline, 165
+
+
+
+13.3 Two approximation lemmas, 166
+
+
+
+13.4 Khachiyan’s method more precisely, 168
+
+
+
+13.5 The practical complexity of Khachiyan’s method, 170
+
+
+
+13.6 Further remarks, 171
+
+
+
+14 The ellipsoid method for polyhedra more generally 172
+
+
+
+14.1 Finding a solution with a separation algorithm, 172
+
+
+
+14.2 Equivalence of separation and optimization, 177
+
+
+
+14.3 Further implications, 183
+
+
+
+15 Further polynomiality results in linear programming 190
+
+
+
+15.1 Karmarkar’s polynomial-time algorithm for linear programming, 190
+
+
+
+15.2 Strongly polynomial algorithms, 194
+
+
+
+15.3 Megiddo’s linear-time LP-algorithm in fixed dimension, 199
+
+
+
+15.4 Shallow cuts and rounding of polytopes, 205
+
+
+
+Notes on polyhedra, linear inequalities, and linear
+
+
+
+programming 209
+
+
+
+Historical notes, 209
+
+
+
+Further notes on polyhedra, linear inequalities, and linear programming, 223 
+
+
+
+Contents X
+
+
+
+PART IV: INTEGER LINEAR PROGRAMMING 221
+
+
+
+16 Introduction to integer linear programming 229
+
+
+
+16.1 Introduction, 229
+
+
+
+16.2 The integer hull of a polyhedron, 230
+
+
+
+16.3 Integral polyhedra, 231
+
+
+
+16.4 Hilbert bases, 232
+
+
+
+16.5 A theorem of Doignon, 234
+
+
+
+16.6 The knapsack problem and aggregation, 235
+
+
+
+16.7 Mixed integer linear programming, 236
+
+
+
+17 Estimates in integer linear programming 237
+
+
+
+17.1 Sizes of solutions, 237
+
+
+
+17.2 Distances of optimum solutions, 239
+
+
+
+17.3 Finite test sets for integer linear programming, 242
+
+
+
+17.4 The facets of P,, 243
+
+
+
+18 The complexity of integer linear programming 245
+
+
+
+18.1 ILP is .Jl.’9-complete, 245
+
+
+
+18.2 .,V.V-completeness of related problems, 248
+
+
+
+18.3 Complexity of facets, vertices, and adjacency on the integer hull, 251
+
+
+
+18.4 Lenstra’s algorithm for integer linear programming, 256
+
+
+
+18.5 Dynamic programming applied to the knapsack problem, 261
+
+
+
+18.6 Dynamic programming applied to integer linear programming, 264
+
+
+
+19 Totally unimodular matrices: fundamental properties and examples 266
+
+
+
+19.1 Total unimodularity and optimization, 266
+
+
+
+19.2 More characterizations of total unimodularity, 269
+
+
+
+19.3 The basic examples: network matrices, 272
+
+
+
+19.4 Decomposition of totally unirnodular matrices, 279
+
+
+
+20 Recognizing total unimodularity 282
+
+
+
+20.1 Recognizing network matrices, 282
+
+
+
+20.2 Decomposition test, 287
+
+
+
+20.3 Total unimodularity test, 290
+
+
+
+21 Further theory related to total unimodularity 294
+
+
+
+21.1 Regular matroids and signing of {O. 1)-matrices, 294
+
+
+
+21.2 Chain groups, 297
+
+
+
+21.3 An upper bound of Heller, 299
+
+
+
+21.4 Unimodular matrices more generally, 301
+
+
+
+2 1.5 Balanced matrices, 303
+
+
+
+22 Integral polyhedra and total dual integrality 309
+
+
+
+22.1 Integral polyhedra and total dual integrality, 310
+
+
+
+22.2 Two combinatorial applications, 312
+
+
+
+22.3 Hilbert bases and minimal TDI-systems, 315
+
+
+
+22.4 Box-total dual integrality, 317
+
+
+
+22.5 Behaviour of total dual integrality under operations, 321 
+
+
+
+Contents xi
+
+
+
+22.6 An integer analogue of Caratheodory's theorem, 326
+
+
+
+22.7 Another characterization of total dual integrality, 327
+
+
+
+22.8 Optimization over integral polyhedra and TDI-systems algorithmically, 330
+
+
+
+22.9 Recognizing integral polyhedra and total dual integrality, 332
+
+
+
+22.10 Integer rounding and decomposition, 336
+
+
+
+23 Cutting planes 339
+
+
+
+23. I Finding the integer hull with cutting planes, 339
+
+
+
+23.2 Cutting plane proofs, 343
+
+
+
+23.3 The number of cutting planes and the length of cutting plane proofs, 344
+
+
+
+23.4 The Chvatal rank, 347
+
+
+
+23.5 Two combinatorial illustrations, 348
+
+
+
+23.6 Cutting planes and A"9-theory, 351
+
+
+
+23.7 Chvatal functions and duality, 353
+
+
+
+23.8 Gomory's cutting plane method, 354
+
+
+
+24 Further methods in integer linear progamming 360
+
+
+
+24.1 Branch-and-bound methods for integer linear progamming, 360
+
+
+
+24.2 The group problem and corner polyhedra, 363
+
+
+
+24.3 Lagrangean relaxation, 367
+
+
+
+24.4 Application: the traveling salesman problem, 370
+
+
+
+24.5 Benders' decomposition, 371
+
+
+
+24.6 Some notes on integer linear programming in practice, 372
+
+
+
+Historical and further notes on integer linear programming 375
+
+
+
+Historical notes, 375
+
+
+
+Further notes on integer linear programming, 378
+
+
+
+References 381
+
+
+
+Notation index 452
+
+
+
+Author index 454
+
+
+
+Subject index 465 

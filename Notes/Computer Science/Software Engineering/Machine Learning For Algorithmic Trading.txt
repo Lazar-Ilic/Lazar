@@ -1,0 +1,3591 @@
+https://github.com/PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition
+
+OK so remember going in this is just some public maybe poo poo ideations and code but OK maybe worth viewing and contemplating. Maybe I do one of these kind of skim bloop da boop every day for a while after Alibaba Global Mathematics Competition is over see until I get in the money what pops papers what pops what labour market valuation where.
+
+Think the Jane Street Capital firm has some fundamental ideas as does XTX Markets and Hudson River Trading which look superior and overperformant from the outside but unclear and the assets under management also a difference with Jane Street Capital being a larger shop with lower payouts and also some possibly seriously suspicious epistemics though again unclear from the outside and semi inside.
+
+Chapter 1
+
+These uh resources are half interesting would look as though this dude also like me decided to pay attention to Marcos Lopez de Prado... a ton of papers which some look sorta kinda OK and even some challenges and competitions I may need to check out the dates on those see if there are any upcoming I could really for real for real hop in the mix on and impress some firms with... maybe Kaggle American Express - Default Prediction or like JPX Tokyo Stock Exchange Prediction. Should read up on all of these Two Sigma ones they love love love some Natural Language Processing based tasks and it makes one wonder precise latencies involved precise strings parsing what precisely goes down at that firm.
+
+Chapter 2
+
+OK I will ensure to like read carefully through all of this here codey code so that I could pass a quiz upon that sort of a content later in an interview setting I suppose.
+
+OK so there exist a variety of functions. And a bunch of . and _ characters in lengthy names OK and I done seen this in a bunch of like promotional propaganda films and screen captures and Githubs from trading firms so this is common practice and perhaps ought to be imitated on coding rounds thusly. In any case the visualisation here is eh suboptimal whatever Red and Blue dots.
+
+OK tick bars righto this came up obviously in all of the books as well as the Optiver crew team technical introduction post on their Kaggle I do believe. But this is nice OK OK.
+
+OK OK code here.
+
+OK again just like these naive get NASDAQ symbols calls seem so profoundly ignorant I dunno what exactly serious High Frequency Trading firms are doing on their C Linux machines.
+
+Show Ticker Info
+
+OK half interesting data object here. Dunno what precisely it was about Sam Bankman-Fried's brain organ which enabled these cross reality boom boom booming Bitcoin markets arbitrage moments assets connections to be made but one supposes that perhaps my brain organ shares those similar cognitive properties needed to boom boom boom the assets. Dunno why I have not yet been hired maybe because my Final Round interview performances were just eh.
+
+Get Market Data OK
+
+Annual And Quarterly Financial Statement Summary
+
+Annual And Quarterly Balance Sheet
+
+Annual And Quarterly Cashflow Statement
+
+Sustainability: Environmental, Social, And Governance
+
+Analyst Recommendations
+
+Upcoming Events
+
+Option Expiration Dates
+
+Data Download With Proxy Server
+
+Downloading Multiple Symbols
+
+Tick Data From LOBSTER
+
+Imports
+
+Load Orderbook Data
+
+Parse Message Data
+
+Combine Message And Price Data
+
+Plot Limit Order Prices For Messages With Visible Or Hidden Execution
+
+Plot Prices For All Order Types
+
+Quandl - API Demo
+
+Data Access With Zipline
+
+Zipline Installation
+
+Imports And Settings
+
+Zipline Demo
+
+Ingest Data
+
+Data Access Using Zipline
+
+Simple Moving Average Strategy
+
+Working With Filing Data From The SEC's EDGAR Service
+
+Download FS And Notes Data
+
+Save To Parquet
+
+Metadata json
+
+Data Organisation
+
+Submission Data
+
+Get AAPL Submission
+
+Build AAPL Fundamentals Dataset
+
+Get Filings
+
+Get Numerical Filing Data
+
+Create P/E Ratio From EPS And Stock Price Data
+
+Explore Additional Fields
+
+Dividends Per Share
+
+Bonus: Textual Information
+
+Market And Fundamental Data: Sources And Techniques
+
+Content
+
+Market Data Reflects The Trading Environment
+
+Market Microstructure: The Nuts And Bolts Of Trading
+
+Working With High-Frequency Market Data
+
+How To Work With NASDAQ Order Book Data
+
+How Trades Are Communicated: The FIX Protocol
+
+The NASDAQ TotalView-ITCH Data Feed
+
+Code Example: Parsing And Normalising Tick Data
+
+Additional Resources
+
+AlgoSeek Minute Bars: Equity Quote And Trade Data
+
+From The Consolidated Feed To Minute Bars
+
+API Access To Market Data
+
+Remote Data Access Using Pandas
+
+Code Examples
+
+Data Sources
+
+Industry News
+
+How To Work With Fundamental Data
+
+Financial Statement Data
+
+Automated Processing Using XBRL Markup
+
+Code Example: Building A Fundamental Data Time Series
+
+Other Fundamental Data Sources
+
+Efficient Data Storage With Pandas
+
+Code Example
+
+Chapter 3
+
+Alternative Data For Trading
+
+Content
+
+The Alternative Data Revolution
+
+Resources
+
+Sources Of Alternative Data
+
+Criteria For Evaluating Alternative Datasets
+
+Resources
+
+The Market For Alternative Data
+
+Working With Alternative Data
+
+Code Example: Open Table Web Scraping
+
+Code Example: SeekingAlpha Earnings Transcripts
+
+Python Libraries And Documentation
+
+Scraping OpenTable Data
+
+Building A Dataset Of Restaurant Bookings
+
+One Step Further - Scrapy And Splash
+
+Some eh OK code I guess.
+
+OK code.
+
+OK code I guess.
+
+How To Scrape Earnings Call Transcripts
+
+Instructions
+
+OK OK code.
+
+OK code bunch of function defs again and some page reading through like transcripts.
+
+OK
+
+Chapter 4
+
+How To Transform Data Into Factors
+
+Imports And Settings
+
+Get Data
+
+Keep Data With Stock Info
+
+Create Monthly Return Series
+
+Drop Stocks With Less Than 10 Years Of Returns
+
+Rolling Factor Betas
+
+Impute Mean For Missing Factor Betas
+
+Momentum Factors
+
+Date Indicators
+
+Lagged Returns
+
+Target: Holding Period Returns
+
+Create Age Proxy
+
+Create Dynamic Size Proxy
+
+Create Size Indicator As Deciles Per Period
+
+Combine Data
+
+Store Data
+
+Create Dummy Variables
+
+How To Use TA-Lib To Generate Alpha Factors
+
+Imports And Settings
+
+Get Data
+
+Compute Bollinger Bands
+
+Compute Relative Strength Index
+
+Moving Average Convergence/Divergence
+
+Plot Result
+
+How To Use The Kalman Filter And Wavelets
+
+Imports And Settings
+
+Get Data
+
+Kalman Filter
+
+Configuration
+
+Estimate The Hidden State
+
+Compare With Moving Average
+
+Wavelets
+
+Available Wavelet Families
+
+Smoothing The S&P 500
+
+Zipline Backtest With Single Factor
+
+Imports And Settings
+
+Inspect Results
+
+Separating Signal And Noise - How To Use Alphalens
+
+Imports And Settings
+
+Creating Forward Returns And Factor Quantiles
+
+Summary Tear Sheet
+
+Predictive Performance By Factor Quantiles - Returns Analysis
+
+Mean Return By Holding Period And Quintile
+
+Cumulative 5 Dimensional Return
+
+Return Distribution By Holding Period And Quintile
+
+Information Coefficient
+
+5 Dimensional Information Coefficient Rolling Average
+
+Information Coefficient By Holding Period
+
+Turnover Tear Sheet
+
+Financial Feature Engineering: How To Research Alpha Factors
+
+Code Example: How To Engineer Factors Using Pandas And NumPy
+
+Code Example: How To Use TA-Lib To Create Technical Alpha Factors
+
+Code Example: How To Denoise Your Alpha Factors With The Kalman Filter
+
+Code Example: How To Preprocess Your Noisy Signals Using Wavelets
+
+From Signals To Trades: Backtesting With Zipline
+
+Code Example: How To Use Zipline To Backtest A Single-Factor Strategy
+
+Code Example: Combining Factors From Diverse Data Sources On The Quantopian Platform
+
+Code Example: Separating Signal And Noise - How To Use Alphalens
+
+Alternative Algorithmic Trading Libraries And Platforms
+
+OK these references look sorta kinda OK maybe.
+
+Uh OK I guess. Alpha yeah yeah like I said about Sam Bankman-Fried fucking have a brain organ suck in all of the information you can and then boom boom boom output some useful insights and connect the dots connectome the connectome make the connections happen pop and boom boom boom there you go trading and boom boom boom PnL. See what sorts of measurements can be made and what sorts of extant datasets might be useful to squeeze and tease out improved model performance for a firm.
+
+Portfolio Optimisation And Performance Evaluation
+
+Content
+
+How To Measure Portfolio Performance
+
+The Adjusted Sharpe Ratio
+
+The Fundamental Law Of Active Management
+
+How To Manage Portfolio Risk And Return
+
+The Evolution Of Modern Portfolio Management
+
+Mean-Variance Optimisation
+
+Code Examples: Finding The Efficient Frontier In Python
+
+Alternatives To Mean-Variance Optimisation
+
+The 1/N Portfolio
+
+The Minimum-Variance Portfolio
+
+The Black-Litterman Approach
+
+How To Size Your Bets - The Kelly Rule
+
+Alternatives To MV Optimisation With Python
+
+Hierarchical Risk Parity
+
+Trading And Managing A Portfolio With Zipline
+
+Code Examples: Backtests With Trades And Portfolio Optimisation
+
+Measure Backtest Performance With pyfolio
+
+Code Example: pyfolio Evaluation From A Zipline Backtest
+
+Chapter 6
+
+The Machine Learning Workflow
+
+OK a bunch of the standard review of some sorts of models.
+
+How Machine Learning From Data Works
+
+The Key Challenge: Finding The Right Algorithm For The Given Task
+
+Supervised Learning: Teaching A Task By Example
+
+Unsupervised Learning: Exploring Data To Identify Useful Patterns
+
+Use Cases For Trading Strategies: From Risk Management To Text Processing
+
+Reinforcement Learning: Learning By Doing, One Step At A Time
+
+The Machine Learning Workflow
+
+Code Example: Machine Learning Workflow With K-Nearest Neighbours
+
+Frame The Problem: Goals And Metrics
+
+Collect And Prepare The Data
+
+How To Explore, Extract, And Engineer Features
+
+Code Example: Mutual Information
+
+Select An Machine Learning Algorithm
+
+Design And Tune The Model
+
+Code Example: Bias-Variance Trade-Off
+
+How To Use Cross-Validation For Model Selection
+
+Code Example: How To Implement Cross-Validation In Python
+
+Parameter Tuning With SciKit-Learn
+
+Code Example: Learning And Validation Curves With Yellowbricks
+
+Code Example: Parameter Tuning Using GridSearchCrossValidation And Pipeline
+
+Challenges With Cross-Validation In Finance
+
+Purging, Embargoing, And Combinatorial Cross Validation
+
+Basic Walk-Through: k-Nearest Neighbours
+
+Get The Data
+
+Kings County Housing Data
+
+Select And Transform Features
+
+Asset Prices Often Have Long Tails
+
+Use Log-Transform
+
+Mutual Information Regression
+
+Bivariate Scatter Plots
+
+Explore Correlations
+
+K-Nearest Neighbours Regression
+
+In-Sample Performance With Default Settings
+
+Regression Error Metrics
+
+Computing The Prediction Error
+
+Cross-Validation
+
+Actuals Versus Predicted
+
+Cross-Validation Errors
+
+Grid Search Cross Validation With Pipeline
+
+Train And Validation Curves mit yellowbricks
+
+Binary Classification
+
+Classification Metrics
+
+Using Predicted Probabilities
+
+Receiver Operating Curve Area Under The Curve
+
+Precision-Recall
+
+F1 Score - Optimise Threshold
+
+Plot
+
+Average Precision
+
+Brier Score
+
+Use Predictions After Thresholding
+
+F-Beta Score
+
+Confusion Matrix
+
+Accuracy
+
+Zero-One Loss
+
+Hamming Loss
+
+Cohen's Kappa
+
+Hinge Loss
+
+Jaccard Similarity
+
+Log Loss/Cross Entropy Loss
+
+Matthews Correlation Coefficient
+
+Multi-Class
+
+Using Information Theory To Evaluate Features
+
+Get Data
+
+Create Dummy Variables
+
+Mutual Information
+
+Original Data
+
+Normalised MI Heatmap
+
+Dummy Data
+
+Bias-Variance Tradeoff
+
+Generate Sample Data
+
+Underfitting Versus Overfitting: A Visual Example
+
+Bias-Variance Tradeoff
+
+Train Model
+
+Plot Result
+
+Learning Curves
+
+Chapter 7
+
+Linear Models: From Risk Factors To Asset Return Forecasts
+
+OK linear models.
+
+Linear Regression: From Inference To Prediction
+
+The Baseline Model: Multiple Linear Regression
+
+Code Example: Simple And Multiple Linear Regression With Statsmodels And SciKit-Learn
+
+How To Build A Linear Factor Model
+
+From The CAPM To The Fama - French Five-Factor Model
+
+Obtaining The Risk Factors
+
+Code Example: Fama - Macbeth Regression
+
+Shrinkage Methods: Regularisation For Linear Regression
+
+Hedging Against Overfitting - Regularisation In Linear Models
+
+Ridge Regression
+
+Lasso Regression
+
+How To Predict Stock Returns With Linear Regression
+
+Code Examples: Inference And Prediction For Stock Returns
+
+Linear Classification
+
+The Logistic Regression Model
+
+Code Example: How To Conduct Inference With Statsmodels
+
+Code Examples: How To Use Logistic Regression For Prediction
+
+OK references I guess.
+
+I dunno fudging talk my way through this is all the standard usual basics stuff really.
+
+OK risk and linear factor models yeah yeah yeah.
+
+Just OK stuff here really. Kinda review of some sklearn stuff.
+
+Ridge Regression review.
+
+KO OK
+
+Chapter 8
+
+OK just OK whatever backtesting back to the Combinatorics action for now come back to this later.
+
+OK
+
+OK
+
+OK
+
+OK
+
+Bunch of half interesting OK plots yeah yeah yeah.
+
+Chapter 9
+
+OK the usual Volatility Forecasts to Statistical Arbitrage stuff.
+
+I might want to soon come back actually write up some code to demonstrate some parallel stuff in public or at the very least name like 20 repos or textbook solutions which I have memorised memmed... or like all the linear algebraic canonical invocations and use cases for tensors in public trading use cases.
+
+Cointegration Tests And Pairs Trading
+
+OK I mean still just seems and feels sometimes in these public examples like something really lame or weird or random is going on like how would it be possible that someone could sit down at the Jane Street Capital firm or like Goldman Sachs and simply generate some simple hypotheses run some Excel and actually make some money on some super duper simple little time series stochastic analysis such as this one. Unclear and unsure I thought there always was at least like half high powered machine learning involved or really good data edges or infrastructure I dunno what precisely shops like SIG or Citadel Securities or those Chicago ones do.
+
+In any case OK.
+
+Chapter 10
+
+OK
+
+Extremely canonical review of Markov Chain Monte Carlo and Metropolis-Hastings.
+
+OK Sharpe Ratio OK could nail this type of poo in my job interviews easily dunno.
+
+OK Rolling Linear Regression whatever OK.
+
+Stochastic Volatility. OK.
+
+Chapter 11
+
+Decision trees, regression trees, time series data, yadda, classification trees, overfitting and regularisation, random forests, ensemble models, the usual usual standard canonical stuff we already have memmed cold of course.
+
+OK transform data in to factors.
+
+OK decision trees.
+
+OK train and tune a random forest.
+
+OK
+
+OK
+
+Chapter 12
+
+Adaptive Boosting
+
+Gradient Boosting Ensembles For Most Tasks
+
+OK
+
+OK
+
+OK
+
+OK
+
+OK
+
+OK man this code is not like a real trading firm codebase at all this is all some very very very simple poo poo but still probably more complex than a bunch of random "project"s which people list as if they are legitimate on Resumes... hmm what ought I to do now here maybe some stupid project will fly or a paper is better.
+
+OK this all seems very very weak from me I dunno.
+
+Categorical Variables OK
+
+Chapter 13
+
+OK
+
+Principal Component Analysis
+
+Independent Component Analysis
+
+Hierarchical Risk Parity
+
+These resources look really OK maybe check them out.
+
+OKOKOK code.
+
+Manifold Learning
+
+Swiss Roll
+
+S-Curve
+
+T-Stochastic Neighbour Embedding
+
+OK papers.
+
+Perplexity.
+
+Uniform Manifold Approximation And Projection: Parameter Settings
+
+Non-Linear Manifolds: Swiss Roll
+
+T-Stochastic Neighbour Embedding
+
+This stuff is all fairly half interesting to me.
+
+Clustering Algorithms
+
+k-Means Clustering: Implementation
+
+K-Means Implementation
+
+Assign Points to closest Centroid
+
+Move Centroids to best represent Clusters
+
+Measure Distance from Points to Centroids
+
+Plot Clusters Dynamically
+
+Run K-Means Experiment
+
+Plot Voronoi Tesselation
+
+Run Voronoi Experiment
+
+K-Means: Evaluating cluster quality
+
+2 Dimensional Cluster Demo
+
+Evaluate Number of Clusters using Inertia
+
+Run Elbow Experiment
+
+Evaluating the Silhouette Score
+
+Hierarchical Clustering
+
+Load Iris Data
+
+Create DataFrame
+
+Standardise Data
+
+Reduce Dimensionality To Visualise Clusters
+
+Perform Agglomerative Clustering
+
+Compare Linkage Types
+
+Get Cluster Members
+
+Animate Agglomerative Clustering
+
+Set Up Animation
+
+SciKit-Learn Implementation
+
+Comparing Mutual Information For Different Linkage Options
+
+Strengths and Weaknesses
+
+Density-Based Clustering
+
+Reduce Dimensionality To Visualise Clusters
+
+Perform Density Based Spatial Clustering Of Applications With Noise Clustering
+
+Compare Parameter Settings
+
+Run Again
+
+Density Based Spatial Clustering Of Applications With Noise In Python
+
+Recursive Density Based Spatial Clustering Of Applications With Noise
+
+Dynamic Plotting
+
+Density Based Spatial Clustering Of Applications With Noise Execution
+
+Hierarchical Density Based Spatial Clustering Of Applications With Noise
+
+Alternative Dataset
+
+Compare Density Based Spatial Clustering Of Applications With Noise And Hierarchical Density Based Spatial Clustering Of Applications With Noise
+
+Hierarchical Density Based Spatial Clustering Of Applications With Noise: Density-Based Dendrogram
+
+Minimum Spanning Tree
+
+Gaussian Mixture Models
+
+The Expectation-Maximisation Algorithm
+
+Load Iris Data
+
+Create DataFrame
+
+Standardise Data
+
+Reduce Dimensionality To Visualise Clusters
+
+Perform Gaussian Mixture Models Clustering
+
+Visualise Gaussian Distributions
+
+Bayesian Information Criterion
+
+A bunch of canonical stuff again here the same old same old we see in Generalised Linear Models Notes and like Statistics Notes over and over and over again and again and again and again.
+
+Hierarchical Risk Parity
+
+The key idea of hierarchical risk parity is to use hierarchical clustering on the covariance matrix to be able to group assets with similar correlations together and reduce the number of degrees of freedom by only considering 'similar' assets as substitutes when constructing the portfolio.
+
+Hierarchical Risk Parity Source
+
+Get Correlation Matrix
+
+Cluster Return Series
+
+Plot Cluster Map
+
+Compute Allocation
+
+Visualise The Result
+
+Portfolio Optimisation: Hierarchical Risk Parity Versus Markowitz And Equal-Weighted Positions
+
+Load Zipline Extensions
+
+Logging Setup
+
+Machine Learning Predictions
+
+Define Rebalancing Logic
+
+Equal Weights
+
+Markowitz Mean-Variance Optimisation
+
+Hierarchical Risk Parity
+
+Record Additional Data Points
+
+Initialise Algorithm With Portfolio Optimisation Algorithm
+
+Select Portfolio Optimisation Algorithm
+
+Schedule Rebalancing Using Selected Algorithms
+
+Run Trading Algorithm For Each Portfolio Optimisation Approach
+
+Persist Experiment Results
+
+Comparing Results Using Pyfolio
+
+Load Benchmark
+
+Cumulative Returns And Rolling Sharpe Ratios
+
+Tear Sheets
+
+Equal Weighted
+
+Markowitz
+
+OKOKOK so this is all quite dandy and finally getting really half interesting I guess... I am blessed blessed blessed, lucky, fortunate to actually know and understand some statistics and linear algebra so firms do in fact choose to interview with me. I realise more and more just how seriously it is the case that strong internships carry weight and actually have experience and exposure to industry style standard Python and C++ codebases and so I am lacking thus and it is a real real real shame that is how life goes sometimes but you keep your head up focus focus focus work work work 24 hours per day be a nice lad and get in there get in the money it does not matter.
+
+Chapter 14
+
+Text Data for Trading: Sentiment Analysis
+
+OKOKOK goodie good good signals from text data using Natural Language Processing and Machine Learning.
+
+OKOKOK tokens text pre processing parsing splitting strings tasks vectors of token counts and so on and so on.
+
+Machine Learning With Text Data - From Language To Features
+
+Challenges Of Natural Language Processing
+
+ambiguity due to polysemy, i.e. a word or phrase can have different meanings that depend on context ('Local High School Dropouts Cut in Half')
+
+non-standard and evolving use of language, especially in social media
+
+idioms: 'throw in the towel'
+
+entity names can be tricky : 'Where is A Bug's Life playing?'
+
+the need for knowledge about the world: 'Mary and Sue are sisters' vs 'Mary and Sue are mothers'
+
+Use Cases
+
+The Natural Language Processing Workflow
+
+From Text To Tokens - The Natural Language Processing Pipeline
+
+Code Example: Natural Language Processing Pipeline With spaCy And Textacy
+
+Data
+
+Code Example: Natural Language Processing With TextBlob
+
+Counting Tokens - The Document-Term Matrix
+
+Code Example: Document-Term Matrix With SciKit-Learn
+
+NLP for trading: text classification and sentiment analysis
+
+The Naive Bayes classifier
+
+Code example: news article classification
+
+Code examples: sentiment analysis
+
+Binary classification: twitter data
+
+Comparing different ML algorithms on large, multiclass Yelp data
+
+NLP Pipeline with spaCy
+
+Setup
+
+Imports
+
+SpaCy Language Model Installation
+
+English
+
+Spanish
+
+Validate Installation
+
+Get Data
+
+SpaCy Pipeline And Architecture
+
+The Processing Pipeline
+
+Key Data Structures
+
+SpaCy In Action
+
+Create And Explore The Language Object
+
+Explore The Pipeline
+
+Explore Token Annotations
+
+Visualise POS Dependencies
+
+Visualize Named Entities
+
+Read BBC Data
+
+Parse first article through Pipeline
+
+Detect sentence boundary
+
+Named Entity-Recognition with textacy
+
+N-Grams with textacy
+
+The spaCy streaming Pipeline API
+
+Multi-language Features
+
+Create a Spanish Language Object
+
+Read bilingual TED2013 samples
+
+Sentence Boundaries English vs Spanish
+
+POS Tagging English vs Spanish
+
+NLP with TextBlob
+
+Imports & Settings
+
+Load BBC Data
+
+Introduction to TextBlob
+
+Select random article
+
+Tokenisation
+
+Sentence boundary detection
+
+Stemming
+
+Lemmatisation
+
+Sentiment And Polarity
+
+Combine Textblob Lemmatisation with CountVectorizer
+
+From tokens to numbers: the document-term matrix
+
+Imports & Settings
+
+Convert to DataFrame
+
+Inspect results
+
+Data drawn from 5 different categories
+
+Explore Corpus
+
+Token Count via Counter()
+
+Document-Term Matrix with CountVectorizer
+
+Key parameters
+
+Load BBC data
+
+Document Frequency Distribution
+
+CountVectorizer skips certain tokens by default
+
+Persist Result
+
+min_df vs max_df: Interactive Visualization
+
+Most similar documents
+
+Baseline document-term matrix
+
+Inspect tokens
+
+Inspect doc-term matrix
+
+Most frequent terms
+
+Compute relative term frequency
+
+Visualise Doc-Term Matrix
+
+Using thresholds to reduce the number of tokens
+
+Use CountVectorizer with Lemmatization
+
+Building a custom tokenizer for Lemmatization with spacy
+
+Document-Term Matrix with TfIDFVectorizer
+
+Key Parameters
+
+How Term Frequency - Inverse Document Frequency works
+
+Compute term frequency
+
+Compute document frequency
+
+Compute TfIDF
+
+The effect of smoothing
+
+TfIDF with new articles
+
+Summarising news articles using TfIDF weights
+
+Select random article
+
+Select most relevant tokens by tfidf value
+
+Compare to random selection
+
+Create Train & Test Sets
+
+Stratified train_test_split
+
+Vectorise train & test sets
+
+Classifying news articles with Naive Bayes
+
+Imports
+
+News article classification
+
+Read BBC articles
+
+Create stratified train-test split
+
+Vectorise text data
+
+Train Multi-class Naive Bayes model
+
+Evaluate Results
+
+Accuracy
+
+Confusion matrix
+
+Text classification and sentiment analysis: Twitter
+
+Imports
+
+Twitter Sentiment
+
+Download the data
+
+Read and preprocess train/test data
+
+Explore data
+
+Create text vectoriser
+
+Train Naive Bayes Classifier
+
+Predict Test Polarity
+
+Evaluate Results
+
+TextBlob for Sentiment Analysis
+
+Compare with TextBlob Polarity Score
+
+ROC AUC Scores
+
+Text classification and sentiment analysis: Yelp Reviews
+
+Imports
+
+Yelp Challenge: business reviews dataset
+
+Load Data
+
+Explore data
+
+Reviews & Stars by Year
+
+Years of Membership Breakdown
+
+Create train-test split
+
+Reload stored data
+
+Create Yelp review document-term matrix
+
+Reload stored data
+
+Combine non-text features with the document-term matrix
+
+One-hot-encoding
+
+Train set
+
+Repeat for test set
+
+Reload stored data
+
+Benchmark Accuracy
+
+Model Evaluation Helper
+
+Multiclass Naive Bayes
+
+Text Features
+
+Accuracy
+
+Confusion Matrix
+
+Text & Numeric Features
+
+Accuracy
+
+Multinomial Logistic Regression
+
+Text Features
+
+Combined Features
+
+Gradient Boosting
+
+Comparison
+
+Textblob for Sentiment Analysis
+
+Chapter 15
+
+Topic Modeling for Earnings Calls and Financial News
+
+Learning latent topics: goals and approaches
+
+Latent semantic indexing (LSI)
+
+Code example: how to implement LSI using scikit-learn
+
+Probabilistic Latent Semantic Analysis (pLSA)
+
+Code example: how to implement pLSA using scikit-learn
+
+Latent Dirichlet Allocation (LDA)
+
+Code example: the Dirichlet distribution
+
+How to evaluate LDA topics
+
+Code example: how to implement LDA using scikit-learn
+
+How to visualize LDA results using pyLDAvis
+
+Code example: how to implement LDA using gensim
+
+Code example: Modeling topics discussed during earnings calls
+
+Code example: topic modeling with financial news articles
+
+Resources
+
+Applications
+
+Topic Modeling libraries
+
+Topic Modeling: Latent Semantic Analysis/Indexing
+
+Imports & Settings
+
+Load BBC data
+
+Convert to DataFrame
+
+Create Train & Test Sets
+
+Vectorise train & test sets
+
+Get token count
+
+Latent Semantic Analysis
+
+Explore Topics
+
+Topic Weights for sample article
+
+Average topic weight per category
+
+Topics weights of most frequent words
+
+Most important words by topic
+
+Topics weights for test set
+
+Categories in 2D
+
+Strengths & Weaknesses
+
+Topic Modeling: Probabilistic Latent Semantic Analysis / Non-Negative Matrix Factorisation
+
+Imports & Settings
+
+Load BBC data
+
+Convert to DataFrame
+
+Create Train & Test Sets
+
+Vectorise train & test sets
+
+Get token counts
+
+probabilistic Latent Semantic Analysis
+
+Implementation using Non-Negative Matrix Factorization
+
+Explore Topics
+
+Most important words by topic
+
+Latent Dirichlet Allocation - Interactive Simulation
+
+Imports
+
+Simulate Dirichlet Distribution
+
+Topic Modeling: Latent Dirichlet Allocation with sklearn
+
+Imports & Settings
+
+Load BBC data
+
+Convert to DataFrame
+
+Create Train & Test Sets
+
+Vectorize train & test sets
+
+LDA with sklearn
+
+Persist model
+
+Explore topics & word distributions
+
+Evaluate Fit on Train Set
+
+Evaluate Fit on Test Set
+
+Retrain until perplexity no longer decreases
+
+Compare Train & Test Topic Assignments
+
+Explore misclassified articles
+
+PyLDAVis
+
+Refit using all data
+
+Lambda
+
+Topics as WordClouds
+
+Visualise topic-word assocations per document
+
+Topic Modeling: Latent Dirichlet Allocation with gensim
+
+Imports & Settings
+
+Load BBC data
+
+Convert to DataFrame
+
+Create Train & Test Sets
+
+Vectorize train & test sets
+
+LDA with gensim
+
+Using CountVectorizer Input
+
+Convert sklearn DTM to gensim data structures
+
+Train Model & Review Results
+
+Evaluate Topic Coherence
+
+Using gensim Dictionary
+
+Evaluating Topic Assignments on the Test Set
+
+Resources
+
+Topic Modeling with Earnings Call Transcripts
+
+Imports & Settings
+
+Load Earnings Call Transcripts
+
+Explore Data
+
+Tokens per document
+
+Most frequent tokens
+
+Preprocess Transcripts
+
+Vectorize data
+
+Train & Evaluate LDA Model
+
+Vocab Settings
+
+Model Settings
+
+Topic Coherence
+
+pyLDAVis
+
+Show documents most represenative of each topic
+
+Review Experiment Results
+
+Parameter Settings: Impact on Perplexity
+
+Parameter Settings: Impact on Coherence
+
+Hyperparameter Impact on Perplexity
+
+Hyperparameter Impact on Topic Coherence
+
+Topic Modeling: Financial News
+
+Imports & Settings
+
+Helper Viz Functions
+
+Load Financial News
+
+Preprocessing with SpaCy
+
+Vectorise data
+
+Explore cleaned data
+
+Set vocab parameters
+
+Train & Evaluate LDA Model
+
+Train models with 5-25 topics
+
+Evaluate results
+
+Perplexity
+
+PyLDAVis for 15 Topics
+
+LDAMultiCore Timing
+
+Chapter 16
+
+Word Embeddings for Earnings Calls and SEC Filings
+
+How Word Embeddings encode Semantics
+
+How neural language models learn usage in context
+
+The word2vec Model: scalable word and phrase embeddings
+
+Evaluating embeddings: vector arithmetic and analogies
+
+Code example: Working with embedding models
+
+Working with Global Vectors for Word Representation (GloVe)
+
+Evaluating embeddings using analogies
+
+Code example: training domain-specific embeddings using financial news
+
+Preprocessing financial news: sentence detection and n-grams
+
+Skip-gram architecture in TensorFlow 2 and visualization with TensorBoard
+
+How to train embeddings faster with Gensim
+
+Code Example: word Vectors from SEC Filings using gensim
+
+Preprocessing: content selection, sentence detection, and n-grams
+
+Model training and evaluation
+
+Code example: sentiment Analysis with Doc2Vec
+
+New Frontiers: Attention, Transformers, and Pretraining
+
+Attention is all you need: transforming natural language generation
+
+BERT: Towards a more universal, pretrained language model
+
+Using pretrained state-of-the-art models
+
+Additional Resources
+
+Imports & Settings
+
+Convert GloVE Vectors to gensim format
+
+WikiPedia
+
+Twitter Data
+
+Common Crawl
+
+Evaluate embeddings
+
+twitter result
+
+wiki result
+
+Common Crawl result
+
+Combine & compare results
+
+Visualise Embeddings
+
+Load GloVe Wiki Vectors
+
+Project Embedding into 2D
+
+Plot Analogy Examples
+
+How to evaluate embeddings using linear algebra and analogies
+
+Imports
+
+Settings
+
+Evaluation: Analogies
+
+Financial News - Preprocessing for word2vec
+
+Imports
+
+Settings
+
+Paths
+
+Load Data
+
+Clean Financial News Articles
+
+Sentence Boundary Detection
+
+Corpus Stats
+
+Inspect Result
+
+Create n-grams
+
+How to train your own word vector embeddings with Keras
+
+Imports
+
+Settings
+
+Paths
+
+word2vec - skipgram Architecture using Keras
+
+Settings
+
+Build Data Set
+
+Tokens to ID
+
+Analogies to ID
+
+Generate Sampling Probabilities
+
+Generate target-context word pairs
+
+Define Keras Model Components
+
+Scalar Input Variables
+
+Shared Embedding Layer
+
+Create Similarity Measure
+
+Sigmoid Output Layer
+
+Compile Training Model
+
+Display Architecture
+
+Validation Model
+
+Create Keras Callbacks
+
+Nearest Neighbours & Analogies
+
+Tensorboard Callback
+
+Train Model
+
+Visualise Embeddings using Tensorboard
+
+Resources
+
+How to train your own word vector embeddings using Gensim
+
+Imports
+
+Settings
+
+Paths
+
+Model Configuration
+
+Sentence Generator
+
+Train word2vec Model
+
+Evaluate results
+
+Continue Training
+
+Evaluate Best Model
+
+Resources
+
+Word vectors from SEC filings using Gensim: Preprocessing
+
+Imports & Settings
+
+Logging Setup
+
+Data Download
+
+Paths
+
+Identify Sections
+
+Parse Sections
+
+Create ngrams
+
+Inspect Corpus
+
+Get returns
+
+Word vectors from SEC filings using Gensim: word2vec model
+
+Imports & Settings
+
+Paths
+
+Logging Setup
+
+word2vec
+
+Set up Sentence Generator
+
+Train word2vec Model
+
+Persist model & vectors
+
+Load model and vectors
+
+Get vocabulary
+
+Evaluate Analogies
+
+Validate Vector Arithmetic
+
+Check similarity for random words
+
+Continue Training
+
+Sample Output
+
+Yelp Sentiment Analysis with doc2vec Document Vectors
+
+Imports & Settings
+
+Settings
+
+Paths
+
+Logging Config
+
+Load Data
+
+Doc2Vec
+
+Basic text cleaning
+
+Create sentence stream
+
+Formulate the model
+
+Continue training
+
+Persist Model
+
+Evaluate
+
+Train-Test Split
+
+LightGBM
+
+Random Forest
+
+Multinomial Logistic Regression
+
+Comparison
+
+Chapter 17
+
+Deep Learning for Trading
+
+Deep learning: How it differs and why it matters
+
+How hierarchical features help tame high-dimensional data
+
+Automating feature extraction: DL as representation learning
+
+How DL relates to machine learning and artificial intelligence
+
+Code example: Designing a neural network
+
+Key design choices
+
+How to regularize deep neural networks
+
+Training faster: Optimizations for deep learning
+
+Popular Deep Learning libraries
+
+How to Leverage GPU Optimization
+
+How to use Tensorboard
+
+Code example: how to use PyTorch
+
+Code example: How to use TensorFlow
+
+Code example: Optimizing a neural network for a long-short trading strategy
+
+Optimizing the NN architecture
+
+Backtesting a long-short strategy based on ensembled signals
+
+How to use backpropagation to train a feedforward NN
+
+Imports & Settings
+
+Input Data
+
+Generate random data
+
+Visualise Data
+
+Neural Network Architecture
+
+Hidden Layer Activations
+
+Output Activations
+
+Forward Propagation
+
+Cross-Entropy Loss
+
+Backpropagation
+
+Loss Function Gradient
+
+Output Layer Gradients
+
+Output Weight Gradients
+
+Output Bias Update
+
+Hidden layer gradients
+
+Hidden Weight Gradient
+
+Hidden Bias Gradient
+
+Initialise Weights
+
+Compute Gradients
+
+Check Gradients
+
+Train Network
+
+Plot Training Loss
+
+Decision Boundary
+
+Projection on Hidden Layer
+
+Network Output Surface Plot
+
+Summary
+
+How to use Tensorflow 2
+
+Imports & Settings
+
+Input Data
+
+Generate random data
+
+Visualize Data
+
+Build Keras Model
+
+Define Architecture
+
+Compile Model
+
+Tensorboard Callback
+
+Train Model
+
+Get Weights
+
+Plot Decision Boundary
+
+How to use PyTorch
+
+Imports & Settings
+
+Create Data
+
+Create Random Data
+
+Create Torch Tensors
+
+Create Torch Dataset
+
+Define Torch DataLoader
+
+Build Network
+
+Architecture
+
+Enable GPU
+
+Define Loss Function
+
+Select Optimizer
+
+Train Model
+
+Basic Training
+
+Plotting losses in real time
+
+Predict
+
+Score Prediction
+
+Visualize Decision Boundary
+
+Create Feature Space
+
+Predict Feature Space
+
+Plot Decision Boundary
+
+Train a Deep NN to predict Asset Price returns
+
+Imports & Settings
+
+Create a stock return series to predict asset price moves
+
+Automate model generation
+
+Cross-validate multiple configurations with TensorFlow
+
+Train-Test Split
+
+Define CV Parameters
+
+Evaluate predictive performance
+
+Make Predictions
+
+How to further improve the results
+
+Backtesting with zipline - Pipeline API with Custom Data
+
+Imports & Settings
+
+Alphalens Analysis
+
+Load zipline extensions
+
+Algo Params
+
+Load Data
+
+Quandl Wiki Bundel
+
+ML Predictions
+
+Define Custom Dataset
+
+Define Pipeline Loaders
+
+Pipeline Setup
+
+Custom ML Factor
+
+Create Pipeline
+
+Initialize Algorithm
+
+Get daily Pipeline results
+
+Define Rebalancing Logic
+
+Record Data Points
+
+Run Algorithm
+
+PyFolio Analysis
+
+Custom Plots
+
+Tear Sheets
+
+Chapter 18
+
+Convolutional Neural Networks: Time Series as Images
+
+How CNNs learn to model grid-like data
+
+Code example: From hand-coding to learning and synthesizing filters from data
+
+How the key elements of a convolutional layer operate
+
+Computer Vision Tasks
+
+The evolution of CNN architectures: key innovations
+
+CNN for Images: From Satellite Data to Object Detection
+
+Code example: LeNet5: The first CNN with industrial applications
+
+Code example: AlexNet - reigniting deep learning research
+
+Code example: transfer learning with VGG16 in practice
+
+How to extract bottleneck features
+
+How to fine-tune a pre-trained model
+
+Code example: identifying land use with satellite images using transfer learning
+
+Code example: object detection in practice with Google Street View House Numbers
+
+Preprocessing the source images
+
+Transfer learning with a custom final layer for multiple outputs
+
+CNN for time series data: predicting stock returns
+
+Code example: building an autoregressive CNN with 1D convolutions
+
+Code example: CNN-TA - clustering financial time series in 2D image format
+
+Creating the 2D time series of financial indicators
+
+Select and cluster the most relevant features
+
+Create and train a convolutional neural network
+
+Backtesting a long-short trading strategy
+
+Visualize Image Filter
+
+Imports
+
+Import the Image
+
+Specify the Filters
+
+Visualize the Activation Maps for Each Filter
+
+Define single-layer CNN
+
+Apply convolutional filter and return output
+
+Basic Image Classification with Feedforward NN and LetNet5
+
+Imports
+
+Load MNIST Database
+
+Visualize Data
+
+Visualize First 10 Training Images
+
+Show random image in detail
+
+Prepare Data
+
+Rescale pixel values
+
+One-Hot Label Encoding using Keras
+
+Feed-Forward NN
+
+Model Architecture
+
+Compile the Model
+
+Calculate Baseline Classification Accuracy
+
+Callback for model persistence
+
+Early Stopping Callback
+
+Train the Model
+
+Plot CV Results
+
+Load the Best Model
+
+Test Classification Accuracy
+
+LeNet5
+
+Model Architecture
+
+Define checkpoint callback
+
+Train Model
+
+Plot CV Results
+
+Test Classification Accuracy
+
+Summary
+
+CIFAR10 Image Classification
+
+Imports
+
+Load CIFAR-10 Data
+
+Visualize the First 30 Training Images
+
+Rescale the Images
+
+Train-Test split
+
+Feedforward Neural Network
+
+Model Architecture
+
+Compile the Model
+
+Define Callbacks
+
+Train the Model
+
+Plot CV Results
+
+Load best model
+
+Test Classification Accuracy
+
+Convolutional Neural Network
+
+Model Architecture
+
+Compile the Model
+
+Define Callbacks
+
+Train the Model
+
+Plot CV Results
+
+Load best model
+
+Test set accuracy
+
+Evaluate Predictions
+
+CNN with Image Augmentation
+
+Create and configure augmented image generator
+
+Visualize subset of training data
+
+Define Callbacks
+
+Train Augmented Images
+
+Plot CV Result
+
+Load best model
+
+Test set accuracy
+
+AlexNet
+
+Define Architecture
+
+Compile Model
+
+Define Callbacks
+
+Train Model
+
+Compare Results
+
+TensorBoard visualization
+
+How to use CNN with time series data
+
+Imports & Settings
+
+Prepare Data
+
+Compute monthly returns
+
+Create model data
+
+Evaluate features
+
+Mutual Information
+
+Information Coefficient
+
+Plot Metrics
+
+CNN
+
+Model Architecture
+
+Set up CV
+
+Train Model
+
+Cross-validation loop
+
+Evaluate Results
+
+CNN for Trading - Part 1: Feature Engineering
+
+Creating technical indicators at different intervals
+
+Imports & Settings
+
+Loading Quandl Wiki Stock Prices & Meta Data
+
+Rolling universe: pick 500 most-traded stocks
+
+Generate Technical Indicators Factors
+
+Relative Strength Index
+
+Williams %R
+
+Compute Bollinger Bands
+
+Normalized Average True Range
+
+Percentage Price Oscillator
+
+Moving Average Convergence/Divergence
+
+Momentum
+
+Weighted Moving Average
+
+Exponential Moving Average
+
+Commodity Channel Index
+
+Chande Momentum Oscillator
+
+Rate of Change
+
+Chaikin A/D Oscillator
+
+Average Directional Movement Index
+
+Compute Historical Returns
+
+Historical Returns
+
+Remove outliers
+
+Historical return quantiles
+
+Rolling Factor Betas
+
+Compute Forward Returns
+
+Store Model Data
+
+CNN for Trading - Part 2: From Time-Series Features to Clustered Images
+
+Selecting and Clustering Features
+
+Imports & Settings
+
+Load Model Data
+
+Select Features using Mutual Information
+
+Hierarchical Feature Clustering
+
+Hierarchical Clustering
+
+CNN for Trading - Part 3: Training and Evaluating a CNN
+
+Creating and training a convolutional neural network
+
+Imports
+
+Load Model Data
+
+Convolutional Neural Network
+
+Model Architecture
+
+Train the Model
+
+Evaluate results
+
+Make Predictions
+
+Backtesting with zipline - Pipeline API with Custom Data
+
+Imports & Settings
+
+Alphalens Analysis
+
+Load zipline extensions
+
+Algo Params
+
+Load Data
+
+Quandl Wiki Bundel
+
+ML Predictions
+
+Define Custom Dataset
+
+Define Pipeline Loaders
+
+Pipeline Setup
+
+Custom ML Factor
+
+Create Pipeline
+
+Initialize Algorithm
+
+Get daily Pipeline results
+
+Define Rebalancing Logic
+
+Record Data Points
+
+Run Algorithm
+
+PyFolio Analysis
+
+Custom Plots
+
+Tear Sheets
+
+How to extract bottleneck features
+
+Imports
+
+Load and Preprocess Sample Images
+
+Import Pre-Trained VGG-16
+
+Import the VGG-16 Model, with the Final Fully-Connected Layers Removed
+
+Extract Output of Final Max Pooling Layer
+
+Import ResNet50
+
+With final layer
+
+Without final layer
+
+Import Inception V3
+
+With final layer
+
+Without final layer
+
+How to further train a pre-trained model
+
+Imports & Settings
+
+Load TensorFlow Cats vs Dog Dataset
+
+Show sample images
+
+Preprocessing
+
+Load the VGG-16 Bottleneck Features
+
+Freeze model layers
+
+Add new layers to model
+
+Using the Sequential model API
+
+Using the Functional model API
+
+Compute baseline metrics
+
+Train VGG16 transfer model
+
+Plot Learning Curves
+
+Fine-tune VGG16 weights
+
+Unfreeze selected layers
+
+Define callbacks
+
+Continue Training
+
+How to classify satellite images
+
+Imports & Settings
+
+Load EuroSat Dataset
+
+Inspect MetaData
+
+Show sample images
+
+Preprocessing
+
+Load the DenseNet201 Bottleneck Features
+
+Add new layers to model
+
+Compute baseline metrics
+
+Train model
+
+Define Callbacks
+
+Plot Learning Curves
+
+Preprocess Google Streetview House Number Dataset
+
+Parse Bounding Box information
+
+Generate Datasets
+
+Plot sample images
+
+Object Detection with Street View House Numbers
+
+Imports & Settings
+
+Settings
+
+Load Data
+
+Best Architecture
+
+Define Callbacks
+
+Train Transfer Model
+
+Evaluate Results
+
+Fine Tune VGG16 weights
+
+Chapter 19
+
+RNN for Trading: Multivariate Time Series and Text Data
+
+How recurrent neural nets work
+
+Backpropagation through Time
+
+Alternative RNN Architectures
+
+Long-Short Term Memory
+
+Gated Recurrent Units
+
+RNN for financial time series with TensorFlow 2
+
+Code example: Univariate time-series regression: predicting the S&P 500
+
+Code example: Stacked LSTM for predicting weekly stock price moves and returns
+
+Code example: Predicting returns instead of directional price moves
+
+Code example: Multivariate time-series regression for macro data
+
+RNN for text data: sentiment analysis and return prediction
+
+Code example: LSTM with custom word embeddings for sentiment classification
+
+Code example: Sentiment analysis with pretrained word vectors
+
+Code example: SEC filings for a bidirectional RNN GRU to predict weekly returns
+
+Recurrent Neural Networks
+
+Univariate Time Series Regression
+
+Imports & Settings
+
+Get Data
+
+Preprocessing
+
+Generating recurrent sequences from our time series
+
+Train-test split
+
+Keras LSTM Layer
+
+Define the Model Architecture
+
+Train the Model
+
+Evaluate model performance
+
+Rescale predictions
+
+Plot Results
+
+Stacked LSTMs for Time Series Classification with TensorFlow
+
+Imports
+
+Data
+
+Train-test split
+
+Define the Model Architecture
+
+LSTM Layers
+
+Embedding Layer
+
+Concatenate Model components
+
+Train the Model
+
+Evaluate model performance
+
+Stacked LSTMs for Time Series Regression
+
+Imports
+
+Data
+
+Train-test split
+
+Define the Model Architecture
+
+LSTM Layers
+
+Embedding Layer
+
+Concatenate Model components
+
+Train the Model
+
+Evaluate model performance
+
+Multivariate Time Series Regression
+
+Imports & Settings
+
+Load Data
+
+Prepare Data
+
+Stationarity
+
+Scaling
+
+Plot original and transformed series
+
+Reshape data into RNN format
+
+Define Model Architecture
+
+Train the Model
+
+Evaluate the Results
+
+LSTM & Word Embeddings for Sentiment Classification
+
+Imports & Settings
+
+Load Reviews
+
+Prepare Data
+
+Define Model Architecture
+
+Custom Loss Metric
+
+Evaluate Results
+
+Sentiment analysis with pretrained word vectors
+
+Load Reviews
+
+Prepare Data
+
+Tokenizer
+
+Pad Sequences
+
+Load Embeddings
+
+Define Model Architecture
+
+RNN & Word Embeddings for SEC Filings to Predict Returns
+
+Imports & Settings
+
+Get stock price data
+
+Paths
+
+Get filing info
+
+Download stock price data using Yfinance
+
+Get (some) missing prices from Quandl
+
+Combine, clean and persist
+
+Copy filings with stock price data
+
+Remove short and long sentences
+
+Create bi- and trigrams
+
+Convert filings to integer sequences based on token count
+
+Prepare Model Data
+
+Create weekly forward returns
+
+Combine returns with filing data
+
+Pad sequences
+
+Define Model Architecture
+
+Train model
+
+Evaluate the Results
+
+Chapter 20
+
+Autoencoders for Conditional Risk Factors and Asset Pricing
+
+Autoencoders for nonlinear feature extraction
+
+Code example: Generalizing PCA with nonlinear dimensionality reduction
+
+Code example: convolutional autoencoders to compress and denoise images
+
+Seq2seq autoencoders to extract time-series features for trading
+
+Code example: Variational autoencoders - learning how to generate the input data
+
+Code example: A conditional autoencoder for return forecasts and trading
+
+Creating a new dataset with stock price and metadata information
+
+Computing predictive asset characteristics
+
+Creating and training the conditional autoencoder architecture
+
+Evaluating the results
+
+Designing and training autoencoders using Python
+
+Imports & Settings
+
+Fashion MNIST Data
+
+Plot sample images
+
+Reshape & normalize Fashion MNIST data
+
+Vanilla single-layer autoencoder
+
+Single-layer Model
+
+Input Layer
+
+Dense Encoding Layer
+
+Dense Reconstruction Layer
+
+Autoencoder Model
+
+Encoder Model
+
+Decoder Model
+
+Placeholder for encoded input
+
+Extract last autoencoder layer
+
+Define Decoder Model
+
+Compile the Autoencoder Model
+
+Train the autoencoder
+
+Create early_stopping callback
+
+Create TensorBard callback to visualize network performance
+
+Create checkpoint callback
+
+Fit the Model
+
+Reload weights from best-performing model
+
+Evaluate trained model
+
+Encode and decode test images
+
+Compare Original with Reconstructed Samples
+
+Combine training steps into function
+
+Autoencoders with Sparsity Constraints
+
+Encoding Layer with L1 activity regularizer
+
+Decoding Layer
+
+Autoencoder Model
+
+Encoder & Decoder Models
+
+Train Model
+
+Evaluate Model
+
+Deep Autoencoder
+
+Define three-layer architecture
+
+Encoder & Decoder Models
+
+Train Model
+
+Evaluate Model
+
+Compute t-SNE Embedding
+
+Persist result
+
+Load pre-computed embeddings
+
+Visualize Embedding
+
+Convolutional & Denoising Autoencoders
+
+Imports & Settings
+
+Fashion MNIST Data
+
+Reshape & normalize Fashion MNIST data
+
+Combine training steps into function
+
+Convolutional Autoencoder
+
+3-dim input
+
+Encoding Layers
+
+Denoising Autoencoder
+
+Visualize Reconstructed Images
+
+Variational Autoencoder on Fashion MNIST data using Feedforward NN
+
+Imports & Settings
+
+Sampling
+
+Load Fashion MNIST Data
+
+Define Variational Autoencoder Architecture
+
+Network Parameters
+
+Encoder model
+
+Define Layers
+
+Instantiate Model
+
+Decoder Model
+
+Define Layers
+
+Instantiate model
+
+Combine Encoder and Decoder to VAE model
+
+Train Model
+
+Plot Results
+
+Download historical equity data for NASDAQ stocks from yahoo finance
+
+Get NASDAQ symbols
+
+Download metadata from yahoo finance
+
+NASDAQ symbols
+
+Download adjusted price data using yfinance
+
+Remove outliers
+
+Conditional Autoencoder for Asset Pricing - Part 1: The Data
+
+Load Data
+
+Prices
+
+Metadata
+
+Select tickers with metadata
+
+Create weekly returns
+
+Factor Engineering
+
+Price Trend
+
+Short-Term Reversal
+
+Stock Momentum
+
+Momentum Change
+
+Industry Momentum
+
+Recent Max Return
+
+Long-Term Reversal
+
+Liquidity Metrics
+
+Turnover
+
+Turnover Volatility
+
+Log Market Equity
+
+Dollar Volume
+
+Amihud Illiquidity
+
+Risk Measures
+
+Return Volatility
+
+Market Beta
+
+Beta Squared
+
+Idiosyncratic return volatility
+
+Conditional Autoencoder for Asset Pricing - Part 2: The Model
+
+Load Data
+
+Weekly returns
+
+Rank-normalize characteristics
+
+Architecture
+
+Key parameters
+
+Input Layer
+
+Stock Characteristics Network
+
+Factor Network
+
+Output Layer
+
+Compile Layer
+
+Automate model generation
+
+Model Summary
+
+Train Model
+
+Cross-validation parameters
+
+Hyperparameter Options
+
+Run Cross-Validation
+
+Evaluate Results
+
+Generate Predictions
+
+Performance Analysis with Alphalens
+
+Imports & Settings
+
+Alphalens Analysis
+
+Load predictions
+
+Get trade prices
+
+Generate tearsheet input
+
+Create Tearsheet
+
+Chapter 21
+
+Generative Adversarial Nets for Synthetic Time Series Data
+
+Generative adversarial networks for synthetic data
+
+Comparing generative and discriminative models
+
+Adversarial training: a zero-sum game of trickery
+
+Code example: How to build a GAN using TensorFlow 2
+
+Code example: TimeGAN: Adversarial Training for Synthetic Financial Data
+
+Learning the data generation process across features and time
+
+Combining adversarial and supervised training with time-series embedding
+
+The four components of the TimeGAN architecture
+
+Implementing TimeGAN using TensorFlow 2
+
+Evaluating the quality of synthetic time-series data
+
+Resources
+
+How GAN's work
+
+Implementation
+
+The rapid evolution of the GAN architecture zoo
+
+Applications
+
+Deep Convolutional Generative Adversarial Network (DCGAN)
+
+Imports & Settings
+
+Sample Image Saver
+
+Load and Prepare Data
+
+Get training images
+
+Extract image dimensions
+
+Reshape to 4D input format
+
+Normalize pixel values
+
+Create tf.data.Dataset
+
+Create DCGAN Architecture
+
+Build Generator
+
+Visualise initial image quality
+
+Build Discriminator
+
+Show discriminator decision output
+
+Adversarial Training
+
+Generator Loss
+
+Discriminator Loss
+
+Optimizers
+
+Checkpoints
+
+Training Parameters
+
+Training Step
+
+Training Loop
+
+Restore last checkpoint
+
+Generate animated GIF
+
+Time-series Generative Adversarial Network (TimeGAN)
+
+Imports & Settings
+
+Experiment Path
+
+Prepare Data
+
+Parameters
+
+Plot Series
+
+Correlation
+
+Normalize Data
+
+Create rolling window sequences
+
+Create tf.data.Dataset
+
+Set up random series generator
+
+TimeGAN Components
+
+Network Parameters
+
+Set up logger
+
+Input place holders
+
+RNN block generator
+
+Embedder & Recovery
+
+Generator & Discriminator
+
+TimeGAN Training
+
+Settings
+
+Generic Loss Functions
+
+Phase 1: Autoencoder Training
+
+Architecture
+
+Autoencoder Optimizer
+
+Autoencoder Training Step
+
+Autoencoder Training Loop
+
+Persist model
+
+Phase 2: Supervised training
+
+Define Optimizer
+
+Train Step
+
+Training Loop
+
+Persist Model
+
+Joint Training
+
+Generator
+
+Adversarial Architecture - Supervised
+
+Adversarial Architecture in Latent Space
+
+Mean & Variance Loss
+
+Discriminator
+
+Architecture: Real Data
+
+Optimizers
+
+Generator Train Step
+
+Embedding Train Step
+
+Discriminator Train Step
+
+Training Loop
+
+Persist Synthetic Data Generator
+
+Generate Synthetic Data
+
+Rescale
+
+Persist Data
+
+Plot sample Series
+
+Visualize Real and Synthetic Data
+
+Imports and Settings
+
+Load Data
+
+Prepare Sample
+
+Visualization in 2D: A Qualitative Assessment of Diversity
+
+Run PCA
+
+Run t-SNE
+
+Plot Result
+
+Time Series Classification: A quantitative Assessment of Fidelity
+
+Prepare Data
+
+Create Classifier
+
+Train on Synthetic, test on real: Assessing usefulness
+
+Chapter 22
+
+Deep Reinforcement Learning: Building a Trading Agent
+
+Key elements of a reinforcement learning system
+
+The policy: translating states into actions
+
+Rewards: learning from actions
+
+The value function: optimal decisions for the long run
+
+The environment
+
+Components of an interactive RL system
+
+How to solve RL problems
+
+Code example: dynamic programming - value and policy iteration
+
+Code example: Q-Learning
+
+Deep Reinforcement Learning
+
+Value function approximation with neural networks
+
+The Deep Q-learning algorithm and extensions
+
+The Open AI Gym – the Lunar Lander environment
+
+Code example: Double Deep Q-Learning using Tensorflow
+
+Code example: deep RL for trading with TensorFlow 2 and OpenAI Gym
+
+How to Design an OpenAI trading environment
+
+How to build a Deep Q-learning agent for the stock market
+
+Resources
+
+RL Algorithms
+
+Investment Applications
+
+Dynamic programming: Value and Policy Iteration
+
+Imports & Settings
+
+Set up Gridworld
+
+States, Actions and Rewards
+
+Transition Matrix
+
+PyMDPToolbox
+
+Value Iteration
+
+Policy Iteration
+
+Value Iteration
+
+Value Function
+
+Optimal Policy
+
+Policy Iteration
+
+Q-Learning in the GridWorld environment
+
+Imports & Settings
+
+Set up Gridworld
+
+States, Actions and Rewards
+
+Transition Matrix
+
+Q-Learning
+
+PyMDPToolbox
+
+Q Learning
+
+Double Deep Q-Learning & Open AI Gym: Intro
+
+The Open AI Lunar Lander environment
+
+Deep Q-Learning
+
+Extensions
+
+Imports & Settings
+
+Result display helper functions
+
+Enable virtual display to run from docker container
+
+Define DDQN Agent
+
+Replay Buffer
+
+Agent Class
+
+Run Experiment
+
+Set up OpenAI Gym Lunar Lander Environment
+
+Define hyperparameters
+
+Discount Factor
+
+Q-Network Parameters
+
+Replay Buffer Parameters
+
+ε-greedy Policy
+
+Instantiate DDQN Agent
+
+Train & test agent
+
+Evaluate Results
+
+Tensorboard
+
+Reinforcement Learning for Trading - Deep Q-learning & the stock market
+
+How to Design an OpenAI trading environment
+
+A basic trading game
+
+Imports & Settings
+
+Imports
+
+Settings
+
+Helper functions
+
+Set up Gym Environment
+
+Initialize Trading Environment
+
+Get Environment Params
+
+Define Trading Agent
+
+Define hyperparameters
+
+NN Architecture
+
+Experience Replay
+
+ε-greedy Policy
+
+Create DDQN Agent
+
+Run Experiment
+
+Set parameters
+
+Initialize variables
+
+Visualization
+
+Train Agent
+
+Store Results
+
+Evaluate Results
+
+Summary
+
+Chapter 23
+
+Chapter 23 - Next Steps
+
+Key Takeaways and Lessons Learned
+
+Data is the single most important ingredient
+
+Domain expertise: separate the signal from the noise
+
+ML is a toolkit for solving problems with data
+
+Beware of backtest overfitting
+
+How to gain insights from black-box models
+
+Machine Learning for Trading in Practice
+
+Data management technologies
+
+Machine learning tools
+
+Online trading platforms
+
+Chapter 24
+
+Appendix - Alpha Factor Library
+
+The Indicator Zoo
+
+Code example: common alpha factors implemented in TA-Lib
+
+Code example: WorldQuant’s quest for formulaic alphas
+
+Code example: Bivariate and multivariate factor evaluation
+
+The Indicator Zoo
+
+Data Prep
+
+Load Data
+
+Select 500 most-traded stocks
+
+Visualize the 200 most liquid stocks
+
+Remove outlier observations based on daily returns
+
+Sample price data for illustration
+
+Compute returns
+
+Historical returns
+
+Forward returns
+
+Persist results
+
+Common Alpha Factors
+
+Load Data
+
+TA-Lib: Function Groups
+
+Unstable periods
+
+Moving Averages
+
+Simple Moving Average (SMA)
+
+Exponential Moving Average (EMA)
+
+Weighted Moving Average (WMA)
+
+Double Exponential Moving Average (DEMA)
+
+Triple Exponential Moving Average (TEMA)
+
+Triangular Moving Average (TRIMA)
+
+Kaufman Adaptive Moving Average (KAMA)
+
+MESA Adaptive Moving Average (MAMA)
+
+Comparison
+
+Overlap Studies
+
+Bollinger Bands
+
+Normalized squeeze & mean reversion indicators
+
+Visualize Distribution
+
+Plot outlier price series
+
+Hilbert Transform - Instantaneous Trendline
+
+Compute Hilbert-based normalized indicator
+
+Parabolic SAR
+
+Normalized SAR indicator
+
+Momentum Indicators
+
+Average Directional Movement Index (ADX)
+
+Plus/Minus Directional Movement (PLUS_DM/MINUS_DM)
+
+Plus/Minus Directional Index (PLUS_DI/MINUS_DI)
+
+Average directional movement index (ADX)
+
+Visualize distribution
+
+Average Directional Movement Index Rating
+
+Absolute Price Oscillator (APO)
+
+Percentage Price Oscillator (PPO)
+
+Aroon Oscillator
+
+Aroon Up/Down Indicator
+
+Aroon Oscillator
+
+Balance Of Power (BOP)
+
+Commodity Channel Index (CCI)
+
+Moving Average Convergence/Divergence (MACD)
+
+Chande Momentum Oscillator (CMO)
+
+Money Flow Index
+
+Relative Strength Index
+
+Stochastic RSI (STOCHRSI)
+
+Stochastic (STOCH)
+
+Ultimate Oscillator (ULTOSC)
+
+Williams' %R (WILLR)
+
+Volume Indicators
+
+Chaikin A/D Line
+
+Chaikin A/D Oscillator (ADOSC)
+
+On Balance Volume (OBV)
+
+Volatility Indicators
+
+ATR
+
+Compute normalized version of ATR using rolling mean of price
+
+NATR
+
+Rolling Factor Betas
+
+Size proxy
+
+Persist results
+
+101 Formulaic Alphas
+
+Imports & Settings
+
+Functions
+
+Cross-section
+
+Operators
+
+Time Series
+
+Pandas Implementation
+
+Load Data
+
+500 most-traded stocks
+
+Input Data
+
+Evaluate Alphas
+
+Alpha 001
+
+Alpha 002
+
+Alpha 003
+
+Alpha 004
+
+Alpha 005
+
+Alpha 006
+
+Alpha 007
+
+Kekkorino here of course the errm Alpha male of double 0 seven James Bond.
+
+Alpha 008
+
+Alpha 009
+
+Alpha 010
+
+Alpha 011
+
+Alpha 012
+
+Alpha 013
+
+Alpha 014
+
+Alpha 015
+
+Alpha 016
+
+Alpha 017
+
+Alpha 018
+
+Alpha 019
+
+Alpha 020
+
+Alpha 021
+
+Alpha 022
+
+Alpha 023
+
+Alpha 024
+
+Alpha 025
+
+Alpha 026
+
+Alpha 027
+
+Alpha 028
+
+Alpha 029
+
+Alpha 030
+
+Alpha 031
+
+Alpha 032
+
+Alpha 033
+
+Alpha 034
+
+Alpha 035
+
+Alpha 036
+
+Alpha 037
+
+Alpha 038
+
+Alpha 039
+
+Alpha 040
+
+Alpha 041
+
+Alpha 042
+
+Alpha 043
+
+Alpha 044
+
+Alpha 045
+
+Alpha 046
+
+Alpha 047
+
+Alpha 048
+
+Alpha 049
+
+Alpha 050
+
+Alpha 051
+
+Alpha 052
+
+Alpha 053
+
+Alpha 054
+
+Alpha 055
+
+Alpha 056
+
+Alpha 057
+
+Alpha 058
+
+Alpha 059
+
+Alpha 060
+
+Alpha 061
+
+Alpha 062
+
+Alpha 063
+
+Alpha 064
+
+Alpha 065
+
+Alpha 066
+
+Alpha 067
+
+Alpha 068
+
+Alpha 069
+
+Alpha 070
+
+Alpha 071
+
+Alpha 072
+
+Alpha 073
+
+Alpha 074
+
+Alpha 075
+
+Alpha 076
+
+Alpha 077
+
+Alpha 078
+
+Alpha 079
+
+Alpha 080
+
+Alpha 081
+
+Alpha 082
+
+Alpha 083
+
+Alpha 084
+
+Alpha 085
+
+Alpha 086
+
+Alpha 087
+
+Alpha 088
+
+Alpha 089
+
+Alpha 090
+
+Alpha 091
+
+Alpha 092
+
+Alpha 093
+
+Alpha 094
+
+Alpha 095
+
+Alpha 096
+
+Alpha 097
+
+Alpha 098
+
+Alpha 099
+
+Alpha 100
+
+Alpha 101
+
+Store results
+
+Alpha Factor Evaluation
+
+Load Data
+
+Factor Correlation
+
+'Classic' Factors
+
+Formulaic Alphas
+
+All Factors
+
+Forward return correlation
+
+Mutual Information
+
+LightGBM Feature Importance
+
+SHAP Values
+
+Summary
+
+Performance Analysis with Alphalens
+
+Imports & Settings
+
+Alphalens Analysis
+
+Get trade prices
+
+Load factors
+
+Generate Alphalens input data
+
+Compute Metrics
+
+Plot spread and cumulative returns
+
+Create Tearsheet

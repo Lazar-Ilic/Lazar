@@ -1,0 +1,53 @@
+https://github.com/mitmath
+
+I was inspired to produce this file actually and review through some old notes saving links in public... after observing the link above on the MIT Massachusetts Institute Of Technology campus. Matrix Calculus For Machine Learning And Beyond was interesting enough. It is wise to read through ReadMe.md files for they often contain useful links to previous versions and so on and so on. 18.303 Linear Partial Differential Equations: Analysis And Numerics was also interesting enough. Introduction To Partial Differential Equations by Peter J. Olver is OK along with its various solutions manuals. Homework solutions manuals are also interesting. 18.065/18.0651: Matrix Methods In Data Analysis, Signal Processing, And Machine Learning was also OK. 18.335 - Introduction to Numerical Methods course. 18.337 - Parallel Computing and Scientific Machine Learning. 18.369/8.315 - Mathematical Methods in Nanophotonics course. Tutorials and information on the Julia language for MIT numerical-computation courses. 18.336 - Fast Methods for Partial Differential and Integral Equations. 18.S096 - Applications of Scientific Machine Learning.
+
+https://github.com/wilsonfreitas/awesome-quant
+
+Somewhat interesting.
+
+https://github.com/andrewqho
+
+https://github.com/rainshen49/citadel-trading-comp
+
+https://github.com/rguthrie3
+
+https://github.com/krishnadey30/LeetCode-Questions-CompanyWise/blob/master/citadel_alltime.csv
+
+https://github.com/adityaxdiwakar
+
+https://github.com/quangta93
+
+https://github.com/aaron-gu
+
+https://github.com/SeanNassimiha/Citadel-Data-Open-IWD
+
+Interesting enough made me chuckle a little bit thinking about potentially becoming a United States Of America Medical Licensing Examination tutor in that New York City, Princeton, Philadelphia, Pennsylvania area.
+
+https://github.com/aidancbrady?tab=repositories
+
+Somewhat OK I guess uh I have seen some Georgia Technology MSCS content which looked just OK to me personally from the outside I mean potentially on par with the University Of Illinois Urbana-Champaign content really depending upon who was adjudicating what.
+
+https://github.com/MathBunny
+
+https://github.com/vanilladucky/Citadel-Summer-Invitational-Datathon-2021
+
+https://jingboyang.github.io/
+
+https://www.cs.utexas.edu/~danama/presentations/index.html
+
+OK
+
+https://www.mit.edu/~parrilo/sostools/index.html
+
+https://github.com/nicoloceneda
+
+Pretty interesting.
+
+https://github.com/algotradingsoc
+
+OK
+
+https://github.com/goldmansachs/gs-quant
+
+Hmm came across my LinkedIn feed. Interesting enough.

@@ -1,0 +1,806 @@
+OKOKOK seems like an OK review here Gold level stuff is not ensured to be that that that trivial like Gold final tasks can be half-tricky sometimes uh think Platinum and Hard is more good realistic viable for Task E in round on CodeForces maybe maybe maybe.
+
+	Tree Matching
+
+OKOKOK so obviously one can just Bottoms Up Dynamic Programming this task so for each leaf obviously the uh parent can take at most 1 edge downwards and thus essentially uh in a uh like Breadth First Search setting I think there exist relatively performant terse implementations in reverse based around Breadth First Search Level which as I have indicated earlier in previous codebases can be stored in an array of Vectors Of Integers or a Vector Of Vector Of Integers yadda yadda yadda.
+
+	CodeForces Web Log Link
+
+Unfortunately it is down right now for a >= 12 hours long maintenance period apparently their servers are down is uh unfortunate. OKOKOK now finally it is uh back online.
+
+OKOKOK solid post.
+
+	Unidirectional Traveling Salesman Problem
+
+OK so there are a couple ways to do this 1 I think storing the chains as we go along costs like O[mn] memory in the Dynamic Program is ACcepted as long as we toss out any memory usage before it is just that uh OKOKOK I mean we d not need to trash anything we can merely store the uh chain for each dude but there could still be some copying under the hood is what is so annoying here it is my usual go-to here would be depending on memory allocation usage just create an auxiliary to store the minimum cost needed to arrive at each uh node doing the standard IBM Ponder This Left To Right Dynamic Program and then at the end find the Minimum and uh recover its chain by again going back on that 1 chain from Right To Left will work here in an additional what is essentially O[3m] time on top of the O[mn] time is usually negligible to uh recover it in reverse and then make a uh reverse(all(av)) call prior to outputting and the relevant long long.
+
+	Spreadsheet
+
+Uh not uh totally clear to me what is going on here uh really but it seems like we simply need to uh store the underlying references in their relevant spaces and compute as we go like Left To Right and then Top To Bottom some uh Bottoms Up Dynamic Programming here will work to ensure that the processing order is uh reasonable for like this here task.
+
+	Not So Mobile
+
+I recently faced a super duper simple little Mobile task for a SIG Round and I uh think I might have like known it is balanced Center Of Mass using Gravicenter uh Mass Points Geometry tricks but like might have uh misread the uh colour they wanted to know like the weight of the Pink Hexagon or something and I replied with a Purple Pentagon or something I forget if it was a simple Pink Purple misread based off the mediocre colour performance of my current monitour or what what precisely but I gotta not cheat on the next Optiver round and also ensure my 4k monitour is working out quite well.
+
+OK in any case so this is like funny and cute or whatever because again it is just that uh observation should work here like Bottoms Up Tree Dynamic Programming directly storing in O[Input] or whatever balancing out via long long multiplications work here better than Double with division and epsilon usually we want to keep things in long long or Python int natively handled precision is better.
+
+	A Walk Through The Forest
+
+OK here in particular the maximum it ought to be noted that in a graph the maximum oh no here uh it is not actually uh ensured in an unweighted it is True that the maximal minimum path length can be n-1 but in this case with weighted it might uh actually be longer but that still gives a strict strong upper bound that if 2 vertices are connected then there is like some way to do it in <= 999[1000000] < 1000000000 so we are free here to use ints rather than long longs. But in any case I digress the point is that we can Breadth First Search I think out from the target destination vertex counting up how many ways there are to reach each uh vertex and so like in the Breadth First Search when we are expanding it is like we process in order of length and in particular uh there is an edge case here where we need to ensure not merely uh processed I mean somehow we need to track minimum length to so either the dude is not processed and its minimum length is still set to -1 or it is not yet processed and like its minimum length is confirmed strictly longer and then we can propagate quite simply the uh multiplicity through to that vertex through this vertex uniquely in the Breadth First Search so that is with like 1 auxiliary Vector Of Integers and Vector Of Booleans.
+
+	Alternative Arborescence
+
+Seems like a trivial Bottoms Up Dynamic Programming task based around casework on whether or not each node is uh 1 or 2 and then we casework for each of those dudes in to the opposite over all of its children... assuming that in fact it is always strictly dominating to use 1|2 which would need to be more formally proved by me probably in-round prior to Late Registering frankly I should prove prove prove all algorithms' correctness prior to spamming submissions in the future.
+
+	Sultan's Chandelier
+
+I frankly struggle to care as the task statement is quite poorly worded and really would have strongly benefitted from superior to-English translation writing work here.
+
+	Matrix
+
+To be sure one can expand Breadth First Search in turn with 2 relevant queues for example deleting telephones as they got locked up by the agents or us shwooping out which is a clear and if we complete processing and a agent has in fact reached our initial square then that happens if and only if we were in the same connected component otherwise we uh are trapped.
+
+	Dragster
+
+Good for the poor people of Brasil that they do not waste their time on a bunch of dumb stoopid Dom Fast And Furious type of shieeet. OKOKOK so this task is like uh note that as we process up uh each subtree is distinct like so it suffices to uh compute our underlying expected P uh I think for each Win which will capture uh like we have a set P of winning Match #1 but Match #2 comes from another tree and like OKOKOK that is not necessarily even True so like the point is as we Bottoms Up we want to be computing the Expected P of us Winning but OKOKOK I see so well then in this case I think O[n^3] is enough like capturing each P of reaching each parent vertex for each relevant sub dude still in a pretty relatively standard Bottoms Up Dynamic Program uh no super special cute tricks here based around like some underlying ELO rating structure giving rise to the implicit Win Ps giving rise to some more formulaic O[n^2], O[n^[3/2]], O[n * log[n]], or O[n] solutions.
+
+	Optimal Cut
+
+Seems again like a relatively simple Bottoms Up Tree Dynamic Program in O[2^H * K] but what is important here I think is for each vertex to store the maximum given that we used precisely J from that subtree as doing it for storing the maximum given we used <= J will blow up the runtime much worse and instead we want to be looping through the multinomials uh errrm here simply the pairs of potential downstream in like O[K^2] for an overall runtime of like O[2^H * K^2] rather than uh O[2^H * K^3]. Actually not correct uh we can do that 1 increasing and store maximum-thus-far in an auxiliary variable I think and keep that runtime to that runtime.
+
+	Appleman And Tree
+
+"
+Fill a Dynamic Programming table such as the following bottoms-up:
+
+DP[v][0] = the number of ways that the subtree rooted at vertex v has no black vertex.
+DP[v][1] = the number of ways that the subtree rooted at vertex v has one black vertex.
+The recursion pseudo code is folloing:
+
+DFS(v):
+	DP[v][0] = 1
+	DP[v][1] = 0
+	foreach u : the children of vertex v
+		DFS(u)
+		DP[v][1] *= DP[u][0]
+		DP[v][1] += DP[v][0]*DP[u][1]
+		DP[v][0] *= DP[u][0]
+	if x[v] == 1:
+		DP[v][1] = DP[v][0]
+	else:
+		DP[v][0] += DP[v][1]
+The answer is DP[root][1].
+"
+
+	Dynamic Programming On Trees - Rivers [IOI 2005]
+
+"
+Solution:
+
+Observe that the rivers form a tree. Use dynamic programming. What are the important parameters?
+
+We need to consider every possible village as a candidate. If we place a sawmill at v, it "controls" a subtree of which it is the root. What is the cost of this subtree?
+
+We need to know how many sawmills have already been placed in the subtree rooted at v, say r.
+
+We also need to take care of the next sawmill downstream between v and Byteland, where the logs at v will land up if there is no sawmill at v. Instead of considering the identity of the village downstream, we will use as a parameter the distance L of that village from Byteland. This uniquely specifies the village.
+
+As a simplifying assumption, assume we have at most two children at each node. We compute two quantities.
+
+Thus, we want to compute two cost functions.
+
+Cost1(v,r): min cost in subtree rooted at v with r sawmills with one mill at v
+Cost2(v,r,L): min cost in subtree rooted at v with r sawmills without one mill at v, where L is the depth from Byteland of the nearest sawmill downstream from v.
+
+Let v have children w1 and w2.
+
+Then
+
+                         i sawmills below w1     i sawmills below w1
+                          one sawmill at w1       no sawmill at w1
+                                      \               /
+Cost1(v,r) =     min         { min[ Cost1(w1,i),Cost2(w1,i,depth(v))],
+             i,j s.t i+j=r-1   min[ Cost1(w2,j),Cost2(w2,j,depth(v))] }
+                                      /               \
+                         j sawmills below w2     j sawmills below w2
+                          one sawmill at w2       no sawmill at w2
+      
+Thus
+
+Cost2(v,r.L) =  Trees(v)*(depth(v) - L)  /*  Cost of trees at v travel upstream     */
+                  +
+                 min         { min[ Cost1(w1,i),Cost2(w1,i,L)],
+             i,j s.t i+j=r     min[ Cost1(w2,j),Cost2(w2,j,L)] }
+      
+Now, what happens when we have more than 2 children? We have to analyze all ways of splitting r among the children.
+
+How do we efficiently deal with the problem of considering all partitions of K as KU?
+
+Restructure the children of a node as a skew tree:
+
+     -- v--                         v
+    /  / \  \        ===>          / \
+   u1 u2 u3 u4                   u1   x1
+                                     /  \
+                                    u2   x2
+                                        /  \
+                                       u3   x3
+                                           /
+                                         u4
+      
+We have reduced the degree of each node. We set the number of trees cut at {x1,x2,x3} to be 0. We copy the costs of (u2,v), (u3,v), (u4,v) to the edges (u2,x1), (u3,x2), (u4,x3), respectively and set cost of the new edges (x3,x2), (x2,x1), (x1,v) to be 0. This ensures that the modified tree has the same costs as the original one.
+
+In this way, we can transform the original tree into a new one with the same cost function for which the cost is easier to compute.
+
+This process adds one node per child, so this at most doubles the number of villages.
+
+What happens if we put a sawmill at a fictitious village xi? We can argue that we can shift this sawmill upto v and not change the complexity.
+"
+
+	Dynamic Programming On Trees - Coffee Shop [Asia Pacific Informatics Olympiad Shortlist 2007]
+
+"
+Solution:
+
+Since the network is a tree, we identify any 1 node as the root and walk up from the leaves.
+
+When we come to a node v, we assume we have processed its subtrees and placed coffee shops. We need to decide whether to place a coffee shop at v.
+
+The only reason to place a coffee shop at v is if there is some node below v that cannot be serviced below v and would become more than K hops away from a coffee shop if there is no shop at v.
+
+To compute this, we maintain two quantities:
+
+C(v): minimum depth of coffee shop below v
+U(v): maximum depth of unserved node below v
+
+We first compute:
+
+   	C'(v) = 1 +	min	C(w)
+   		w in child(v)
+to find the minimum depth of a coffee shop from v without placing a coffee shop at v.
+
+Let {w1,w2,...,wn} be the children of v. Even if we don't place a coffee shop at v, an unserved node below one child wi of v may get served (via v) by a coffee shop below some other child wj of v. Recall that we have already computed C'(v), the shortest distance from v to a coffee shop below it. For each child w of v, compute
+
+U'(w) = 0, if U(w) + 1 + C'(v) ≤ k (node below w can reach a coffee shop via v)
+U'(w) = U(w), otherwise (cannot reach a coffee shop via v)
+Now, we must place a coffee shop at v if U'(w) = k-1 (otherwise, after adding v without a coffee shop, the unserviced node below w will be k hops away from v without seeing a coffee shop and nearest coffee).
+
+If we add a coffee shop at v, every node below v is served, including v. So the 'maximum depth of unserved node below v' is not defined. Defining it as 0 would imply that v was not served. And, to ensure that the +1s from executing "U(v) = 1+ max[w child of v] U'(w)" in the other case does not interfere with our values, we define U(v) to be -infinity. So, U(v) = -infinity, where 'infinity' can be any number greater than the total number of nodes in the tree.
+
+C(v) = 0
+U(v) = -infinity
+Otherwise,
+
+C(v) = C'(v)
+U(v) = 1 + maxw child of v U'(w)
+
+Finally, when we reach the root, we must put a coffee shop if there is any unserviced node below it, or if it is itself unserviced by anything below it.
+
+To show that this solution is optimal, consider any other solution. Inductively, in every subtree, if our solution puts a coffee shop, the other solution must have a matching coffee shop (because we put coffee shops only when absolutely necessary). Our coffee shops are pushed up as far as possible, which can only improve the total number.
+"
+
+	Dynamic Programming On Trees - Mobiles [Asia Pacific Informatics Olympiad 2007]
+
+"
+Solution:
+
+We can think of the mobile as a binary tree. A binary tree that meets requirements 1 and 2 will have levels 1,2,..,k-1 filled completely and level k filled to some extent from left to right. Let us call such a tree a "mobile tree".
+
+In a mobile tree of depth k, one of the two following cases must hold, depending on how many leaves are there are depth k.
+
+The left subtree of the root is a complete binary tree of depth k and the right subtree is a "mobile tree" of depth k-1.
+The left subtree of the root is a "mobile tree" of depth k the right subtree is a complete binary tree of depth k-1.
+We can then inductively define the following quantities:
+
+C(v): Minimum number of moves to make the tree rooted at v complete:
+
+This is 0 if v has a complete tree below it, and infinity otherwise.
+
+M(v): Minimum number of moves to make the tree rooted at v a mobile tree.
+
+To determine M(v), we have to consider three cases.
+
+Case 1: depth(leftchild(v)) < depth(rightchild(v))
+
+Need to swap left and right. After swapping, get a complete tree on right and mobile tree on left
+
+Case 2: depth(leftchild(v)) &rt; depth(rightchild(v))
+
+No swap needed, get a complete tree on right and mobile tree on left.
+
+Case 3: depth(leftchild(v)) = depth(rightchild(v))
+
+May or may not swap. After swapping (if necessary), left must be complete, right must be mobile tree.
+
+This gives us the following update rule for M(v):
+
+M(v) =	1 + C(leftchild(v)) + M(rightchild(v))	if Case 1
+ 
+M(leftchild(v)) + C(rightchild(v))	if Case 2
+ 
+min {1 + M(leftchild(v)) + C(rightchild(v)),  	if Case 3
+C(leftchild(v)) + M(rightchild(v)),}
+"
+
+	Anniversary Party
+
+	Dynamic Programming Tree Problem
+
+"
+9 years ago, # ^ | Add to favourites  Vote: I like it 0 Vote: I do not like it
+On second reading, it seems you defined them wrongly or just in a way that's hard to understand.
+
+You can pick an arbitrary vertex as root of this tree, and then do DP on subtrees. In particular, for lighting all paths in a subtree rooted at v, you need h[v]: the optimal number of lights if there's a light in v, and l[v]: the same if there's no light in v. The DP involved is:
+
+for l[v], all sons of v must have lights in them, so it's the sum of h[son(v)]
+
+for h[v], all sons can, but don't have to, have lights in them, so it's the sum of 
+
+By recursively computing these functions by DFS, you can find the first part of the answer. The second part just needs p[v], denoting the number of ways to light the optimal number of lights in subtree rooted at v if there's a light in v (so for conditions of h[v]), and r[v], which is the same for l[v]. To compute them, you just need to work with the same DP as for the first part of the answer:
+
+for r[v], you don't have a choice — a subtree of son s of v can only be lit in p[s] ways (because definition); these subtrees don't affect each other, so 
+
+for p[v], may (or may not) have a choice for each subtree — again, for son s of v, it's p[s] + r[s] ways if h[s] = l[s], p[s] if h[s] < l[s], and you can figure out the 3rd case yourself; p[v] is again a product of these values for subtrees of all sons
+
+You can calculate p[v] and r[v] right after h[v] and l[v]. The final answer is chosen similarly as those for subtrees in p[v]: if h[root] = l[root], it's p[root] + r[root] etc.
+
+goovie
+9 years ago, # ^ | Add to favourites  Vote: I like it 0 Vote: I do not like it
+Thank you very much for deep explanation. Well i was pretty close to solving this (my idea with opt function), now i got AC with my code. Btw. there are some mistakes in your comment. When there is h[s] < l[s] then we multiply it by r[s]. And for starting conditions (when we get to leaf) this is:
+
+h[leaf] = 1 l[leaf] = 0 p[leaf] = 1 l[leaf] = 1
+
+Well i honestly don't know why p[leaf] = 1, intuitionally this should be p[leaf] = 0 (since there are no optimal light placements when there is light on the leaf), but this probably has something to do with the definition of function. Either way, thank you!
+"
+
+	Independent Set
+
+Ah, so the United States Of America Computing Olympiad Guide supports "Internal Solutions" which is quite nice as they often also have codes...
+
+"
+AtCoder DP Contest - Independent Set
+Authors: Andrew Wang, Sofia Yang, Mohammad Nour Massri
+Language: C++
+Edit This Page
+Appears In
+Gold - DP on Trees - Introduction
+View Problem Statement
+Table of Contents
+Explanation
+
+Painted White
+Painted Black
+Implementation
+
+Explanation:
+
+Root the tree at node $1$, allowing us to define the subtree of each node. Let
+$dp_0[v]$ represent the number of ways the subtree can be painted such that $v$
+is painted white. Similarily, let $dp_1[v]$ represent the number of ways the
+subtree can be painted such that $v$ is painted black.
+Painted White
+The number of ways to paint a subtree such that the root node is painted white
+is the product of the ways to paint the child subtrees. The number of ways to
+paint a child subtree is the sum of how to paint it white and how to paint it
+black or, $dp_0[u] + dp_1[u]$. So the transition is:
+$$dp_0[v] = \prod_{u \in child(v)} \left(dp_0[u]+ dp_1[u]\right).$$
+Painted Black
+Since no two adjacent nodes can both be painted black, if the root node of the
+subtree is painted black, none of its children can be painted black. This leads
+us to the conclusion that the number of ways to paint a subtree such that the
+root node is painted black is the product of all the ways the child subtrees can
+be painted white.
+$$dp_1[v] = \prod_{u \in child(v)} dp_0[u].$$
+"
+
+	Barn Painting
+
+"
+USACO Gold 2017 December - Barn Painting
+Author: Neo Wang
+Language: C++
+Edit This Page
+Appears In
+Gold - DP on Trees - Introduction
+View Problem Statement
+
+Official Editorial
+Define $\texttt{dp}[i][j]$ as the number of paintings for the subtree of barn $i$ with color $j$. Then, our transition for a vertex $v$ where $e$ iterates over the subtrees of $v$ is:
+$$\texttt{dp}[v][c] = \prod_e \sum_{c' \neq c} \texttt{dp}[e][c']$$
+"
+
+	Distance In Tree
+
+"
+This problem can be solved using Dynamic Programming. Let us hang the tree making it rooted. For every vertex v of the tree, let us calculate values d[v][lev] (0 ≤ lev ≤ k) — the number of vertices in the subtree, having distance lev to them. Note, that d[v][0] = 0.
+
+Then we calculate the answer. It equals the sum for every vertex v of two values:
+
+The number of ways of length k, starting in the subtree of v and finishing in v. Obviously, it equals d[v][k].
+The number of ways of length k, starting in the subtree of v and finishing in the subtree of v. This equals the sum for every son u of v the value: .
+Accumulate the sum for all vertices and get the solution in O(n·k).
+"
+
+	Baltic Olympiad In Informatics - Village [Minimum]
+
+"
+Baltic OI 2020 - Village (Minimum)
+Author: Chuyang Wang
+Language: C++
+Edit This Page
+Appears In
+Gold - DP on Trees - Introduction
+View Problem Statement
+Table of Contents
+Explanation
+Implementation
+Official Analysis
+
+Explanation
+This problem can be solved by a greedy approach. In particular, we perform a
+depth-first search on the given tree. For each node (villager) that is still at its original position, we swap it with its only neighbor, namely its parent node. For the root node which does not have a parent node, we can swap it with any of its children.
+
+By swapping two nodes where at least one of them is not processed yet, we can guarantee that no node will be swapped back to its original position. We can also show that swapping between neighbors is the optimal solution: Suppose we would swap two unprocessed nodes which are not neighbors. The distance the two nodes need to travel would then be equal or larger than 4. If we instead just swap them with their respective neighbors, the distance they need to travel is exactly 4. Therefore, swapping nodes that are not neighbors never lead to a better solution. To illustrate this idea, let's consider the following example:
+
+Nodes 2 and 3 are not swapped yet. Now, if we swap node 2 and 3 directly, the total distance travelled would be $2 * 2 = 4$. It will never be less than just swapping the nodes with their neighbors, which in this case means swapping node 1 with 2 and then node 2 with 3, resulting in a total distance of $2 * (2 * 1) = 4$. If there are more nodes between node 2 and 3, then the distance required to swap them directly will be more than 4. In the following graph, the total distance travelled would be $2 * 3 = 6$, while the distance of just swapping nodes with their neighbors remains the same, i.e. 4.
+"
+
+	Nastia Plays With A Tree
+
+"
+Let's define the variable x as a minimum number of operations that we need to get bamboo from a tree.
+
+Let's remove x edges first and then add x new ones to the graph.
+
+Consider the structure of the graph after removing x edges. This is a forest with a x+1 connected components.
+
+Easy to notice each of the x+1 connected components in the getting forest of trees must be a bamboo to get the bamboo after adding new x edges.
+
+The red edges are removed.
+
+Thus, we can get the bamboo from the forest of bamboo after removing x edges by x times adding the conjunction between leaves that are in the different components of connectivity of the forest.
+
+The green edges are added.
+
+So, the task is to find the minimum number of the removing edges needs to get the forest of bamboos. Here works the following greedy:
+
+Let's define any vertice of the tree as a root.
+
+We will solve the problem for each of the subtrees v (1≤v≤n).
+
+First, solve the problem for all child vertices of v. Then define the value cv  as the number of the children and the value pv as the ancestor for vertex v.
+
+There are 3 cases:
+
+If cv<=1, then we don't remove anything.
+
+If cv=2, then we remove the edge (pv,v) if pv exists.
+
+If cv>2, then we remove the edge (pv,v) if pv exists and any c−2 existing edges from v to one of the children vertex.
+
+Take a look at the picture:
+
+The root of the tree is vertex 1
+.
+"
+
+	POI 2016 - Parade
+
+"
+POI 2016 - Parade
+Author: Andi Qu
+Language: C++
+Edit This Page
+Appears In
+Gold - DP on Trees - Introduction
+View Problem Statement
+
+Time Complexity: $\mathcal O(N)$.
+We want to find a path in the tree with the maximum number of adjacent edges
+that aren't part of the path.
+Any simple path in a rooted tree follows one of two general shapes:
+
+It only goes up toward the root (from the lowest to the highest node in the
+path).
+It goes up toward the root and then down again.
+
+Since each path has a single highest node, we can check for each node $v$, what
+the best paths are for each case if $v$ is the highest node in that path. We
+will do this with dynamic programming.
+Let $dp_1[v]$ and $dp_2[v]$ be the maximum number of adjacent edges for each
+case with $v$ as the highest node. If $C$ is the set of children of $v$, then
+the following recurrences hold:
+
+$dp_1[v] = \max_{u \in C}(dp_1[u]) + (\text{Degree of }v) - 2$
+$dp_2[v] = \max_{u \neq w \in C}(dp_1[u] + dp_1[w]) + (\text{Degree of }v) - 3$
+
+We can calculate both of these values efficiently by keeping track of the two
+best values of $dp_1[u]$ while iterating through $C$.
+Since the path must have a non-zero length though, we also need to subtract 1
+from the answer if the graph is a star (i.e. a tree with $N - 1$ leaves).
+"
+
+	Berland Federalisation
+
+Read ACcepted solutions.
+
+	Parsa's Humongous Tree
+
+"
+The solution is based on the fact that an optimal assignment for a exists such that for each vertex v, av∈lv,rv.
+
+Proving this fact isn't hard, pick any assignment for a. Assume v is a vertex in this assignment such that av∉lv,rv.
+
+Let p be the number of vertices u adjacent to v such that au>av.
+
+Let q be the number of vertices u adjacent to v such that au<av.
+
+Consider the following cases:
+
+p>q: In this case we can decrease av to lv and get a better result.
+
+p<q: In this case we can increase av to rv and get a better result.
+
+p=q: In this case changing av to lv or rv will either increase or not change the beauty of the tree. Based on this fact, we can use dynamic programming to find the answer.
+
+Define dpv,0
+ as the maximum beauty of v
+'s subtree if av
+ is equal to lv
+.
+
+Similarly, define dpv,1
+ as the maximum beauty of v
+'s subtree if av
+ is equal to rv
+.
+
+dpv,j
+ is calculated based on v
+'s children, for each of v
+'s children such as u
+, we add u
+'s contribution to dpv,j
+.
+
+The transitions are:
+
+dpv,0+=max(dpu,0+|lv−lu|,dpu,1+|lv−ru|)
+dpv,1+=max(dpu,0+|rv−lu|,dpu,1+|rv−ru|)
+It's clear that the answer is equal to max(dpv,0,dpv,1)
+.
+
+complexity: O(n)
+"
+
+	Delegation
+
+"
+(Analysis by Benjamin Qi)
+Root the tree at 1
+. We will do DP on subtrees.
+
+First, observe that the answer is "no" if N−1
+ is not divisible by K.
+ Otherwise, we wish to write a function dfs(x)
+ which will check whether it is possible to partition the subtree corresponding to vertex x
+ into paths of length K
+ and possibly an extra one of length less than K
+ with one endpoint at x
+. If possible, this function will return the length of the extra path. Otherwise, the function will return −1
+.
+
+First, we should call dfs(t)
+ for all children t
+ of x.
+ If any of these return −1,
+ then dfs(x)
+ should also return −1.
+ Otherwise, we have a path of length dfs(t)+1
+ with one endpoint at x.
+ After doing this, we should pair up as many of the paths whose lengths are in (0,K)
+ as possible. If there is more than one unpaired path remaining after this process, return −1
+.
+
+Otherwise, return the length of the unpaired path, or zero if none exists. Note that if dfs(x)≠−1,
+ then its return value is equal to the remainder when the number of edges in the subtree corresponding to x
+ is divided by K,
+ which is invariant regardless of how exactly we choose the paths of length K
+.
+
+For a fixed K,
+ we can check whether it is possible to split the tree into paths of length K
+ in O(N)
+ time, allowing us to solve the problem in O(N⋅(# of divisors of N)).
+ However, several solutions with this complexity ended up receiving TLE on test case 3
+, where N=83161
+ and N−1
+ has 128
+ divisors. One option is to deal with the star case separately. Another is to write a checker that does not use recursion and is a constant factor faster, demonstrated below.
+"
+
+	POI 2004 - Spies
+
+"
+POI 2004 - Spies
+Author: Benjamin Qi
+
+Language: C++
+Edit This Page
+Appears In
+Gold - DP on Trees - Introduction
+View Problem Statement
+Same thing as "Tree Matching" but on a functional graph. We can use the same greedy strategy of repeatedly matching a leaf to an adjacent vertex.
+"
+
+	POI 2008 - Mafia
+
+"
+POI 2008 - Mafia
+Author: Benjamin Qi
+
+Language: C++
+Edit This Page
+Appears In
+Gold - DP on Trees - Introduction
+View Problem Statement
+Similar to "POI - Spies." Maximum is easy. For minimum, we want to choose a subset of participants of maximum size such that no participant in the subset shoots at another. This can again be done with a greedy strategy.
+"
+
+	2016 - Torrent
+
+"
+COI 2016 - Torrent
+Author: Benjamin Qi
+
+Language: C++
+Edit This Page
+Appears In
+Gold - DP on Trees - Introduction
+View Problem Statement
+Official Analysis (In Croatian)
+
+Warning!
+The test data isn't very strong, so it's entirely possible that this code has a bug.
+"
+
+	Delegation
+
+"
+(Analysis by Benjamin Qi)
+Root the tree at 1
+. We will do DP on subtrees.
+
+It suffices to binary search on K.
+ We should write a function DFS(x)
+ which partitions the subtree corresponding to vertex x
+ into paths of length at least K
+ and possibly an extra one with one endpoint at x
+ which might have length less than K
+. If the subtree can be partitioned, this function will return the maximum possible length of the extra path. Otherwise, the function will return −1
+, meaning that it is impossible to divide the tree.
+
+First, we should call DFS(t)
+ for all children t
+ of x.
+ If any of these return −1,
+ then DFS(x)
+ should also return −1.
+ Otherwise, we have a path of length DFS(t)+1
+ with one endpoint at x.
+
+Suppose that we want to check whether we can pair up all the child paths of x
+ such that all paths have length at least K
+. To do this, sort the path lengths in increasing order and repeatedly pair the least and the greatest lengths. If there are an odd number of path lengths, we should add 0
+ to the beginning of this list before pairing.
+
+Otherwise, one child path will be left unpaired, and we would like to maximize the length of this path. Note that if it is possible to end up with an extra path of length x,
+ then for all y<x
+ it is also possible to end up with an extra path of length y.
+ Thus, we can binary search again to find the maximum possible x.
+
+In summary, DFS(x)
+ will return the maximum possible length of an extra path if possible. Otherwise, if we can pair up all child paths, DFS(x)
+ will return 0.
+ Otherwise, it is not possible to generate paths such that all have length at least K,
+ so DFS(x)
+ should return −1.
+
+This solution runs in O(Nlog2N)
+ time.
+"
+
+	Boboniu And Jianghu
+
+"
+Generally speaking, you're asked to use some simple directed paths (challenges) to cover the original tree and minimize the total cost (tiredness). Those edges with hu≠hv are already oriented, and for the other ones, we need to determine their directions.
+
+At first, let's consider the case where each edge has already been oriented (or, for all edges (u,v), hu≠hv holds).
+
+We use P(u,v) to denote the directed path from u to v.
+
+In the beginning, for each edge u→v, let's set up P(u,v) to cover it. Thus the total cost of it is obviously ∑
+n
+i=1
+deg(i)⋅ti, where degi denotes the degree of vertex i.
+
+We can choose two challenge P(x,y) and P(y,z) (y should be on P(x,z)) and merge them together to get a single challenge P(x,z). This operation will reduce the total tiredness by ty. Thus we try to do such operation to maximize the total reduction.
+
+For vertex i, suppose that there are ini challenges end at i and outi challenges start from i. Thus the total reduction is ∑
+n
+i=1
+min(ini,outi)⋅ti.
+
+Now, let's try to solve the original problem.
+
+For the directed edges, we calculate in
+′
+i
+ and out
+′
+i
+ for every vertex i, and we can delete them from the tree. For the undirected edges, they form several small trees (a forest).
+
+Let's choose an arbitrary root for each tree and do a DP on it. Let pu be the father of u. For a non-root vertex u and its subtree, fu denotes the maximum reduction when we orient pu→u (down), and gu denotes the maximum reduction when we orient u→pu (up).
+
+Take fu for example. To calculate it, we should know the in degree and out degree of u (after directing the edges).
+
+Suppose that u has c children. If x of them are oriented end at u (up) and (s−x) of them are oriented start from u (down), the reduction of u is min(in
+′
+u
++1+x,out
+′
+u
++(s−x))⋅tu (+1 because pu→u).
+
+Now the question changes to: You are given c vertices v1,v2,…,vc, choose x of them forming a set A. Maximize ∑v∈Agv+∑v∉Afv. Calculate the maximum value for all 0≤x≤c. Actually, you can sort [v1,v2,⋯,vc] by (fv−gv) and calculate the prefix sum si. The answer for x=i is simply si+∑vgv.
+
+The calculation for gu and the root is similar. The total time complexity is O(nlogn).
+"
+
+	2007 - Training
+
+"
+SOLUTION
+Detecting an odd cycle in a graph is a well-known problem. A graph does not contain an odd cycle if and only if
+it is bipartite. On the other hand, the problem of detecting an even cycle in a graph is not widely known.
+We are given a graph consisting of N vertices and M edges. Exactly N−1 edges are marked as tree edges and
+they form a tree. An edge that is not a tree edge will be called a non-tree edge. Every non-tree edge e has a
+weight w(e) associated with it.
+The task asks us to find a minimum-weighted set of non-tree edges whose removal results in a graph that does
+not contain a cycle of even length. We will call such a cycle an even cycle. Reasoning backwards, starting from a
+graph containing tree edges only, we have to find a maximum-weighted set of non-tree edges that can be added
+to the graph without forming any even cycles.
+In order to describe the model solution, we first need to make a few observations about the structure of the
+graph we are working with.
+Even and odd edges
+Consider a non-tree edge e={A, B}. We define the tree path of the edge e to be the unique path from A to B
+consisting of tree edges only. If the length of the tree path is even, we say that e is an even edge; otherwise we
+say that e is an odd edge. We will use TP(e) to denote the tree path of an edge e.
+Obviously, any odd edge present in the graph together with its tree path forms an even cycle. Therefore, we can
+never include an odd edge in our graph and we can completely ignore them.
+Relation between two even edges
+Individual even edges may exist in the graph. However, if we include several even edges, an even cycle might be
+formed. More precisely, if e1 and e2 are even edges such that TP(e1) and TP(e2) share a common tree edge, then
+adding both e1 and e2 to the graph necessarily creates an even cycle.
+In order to sketch the proof of this claim, consider the two odd cycles created by e1 and e2 together with their
+respective tree paths. If we remove all common tree edges from those cycles we get two paths P1 and P2. The
+parity of P1 is equal to the parity of the P2 since we removed the same number of edges from the two initial odd
+cycles. As P1 and P2 also have the same endpoints, we can merge them into one big even cycle.
+Tree edges contained in odd cycles
+As a direct consequence of the previous claim, we can conclude that every tree edge may be contained in at
+most one odd cycle.
+Conversely, if we add only even edges to the tree in such a way that every tree edge is contained in at most one
+odd cycle, then we couldn’t have formed any even cycles. We briefly sketch the proof of this claim here. If an
+even cycle existed, it would have to contain one or more non-tree edges. Informally, if it contains exactly one
+non-tree edge we have a contradiction with the assumption that only even edges are added; if it contains two or
+more non-tree edges then we will arrive at a contradiction with the second assumption.
+Model solution
+Now, we can use our observations to develop a dynamic programming solution for the problem. A state is a
+subtree of the given tree. For each state we calculate the weight of the maximum-weighted set of even edges that
+can be added to the subtree while maintaining the property that each tree edge is contained in at most one odd
+cycle. The solution for the task is the weight associated with the state representing the initial tree. 
+INTERNATIONAL OLYMPIAD IN INFORMATICS 2007
+ZAGREB – CROATIA
+AUGUST 15 – 22
+PROPOSED BY:
+LUKA KALINOVČIĆ
+COMPETITION DAY 2 – TRAINING
+Page 34 of 35
+To obtain a recursive relation, we consider all even edges with tree paths passing through the root of the tree.
+We can choose to do one of the following:
+(1) We do not add any even edge whose tree path passes through the root of the tree. In this case, we can
+delete the root and proceed to calculate the optimal solution for each of the subtrees obtained after
+deleting the root node.
+(2) We choose an even edge e whose tree path passes through the root of the tree and add it to the tree.
+Next, we delete all tree edges along TP(e) (since, now, they are contained in one odd cycle), and, finally,
+we proceed to calculate the optimal solution for each of the subtrees obtained after deleting the tree
+path. Add w(e) to the total sum.
+We will use the tree in figure 1 as an example. Figure 2 shows case (1) in the recursive relation (we choose not to
+include an edge whose tree path passes through the root). Figure 3 shows case (2) in the recursive relation, when
+we include the even edge e={7, 9} in the graph.
+Figure 1
+Figure 2
+Figure 3 
+INTERNATIONAL OLYMPIAD IN INFORMATICS 2007
+ZAGREB – CROATIA
+AUGUST 15 – 22
+PROPOSED BY:
+LUKA KALINOVČIĆ
+COMPETITION DAY 2 – TRAINING
+Page 35 of 35
+Because of the way the trees are decomposed, all subtrees that appear as subproblems can be represented with an
+integer and a bit mask. The integer represents the index of the subtree's root node, while the bit mask represents
+which of the root node's children are removed from the subtree.
+The total number of possible states is, therefore, bounded by N·2K
+ where K is the maximum degree of a node.
+Depending on the implementation details, the time complexity of the algorithm can vary. The official
+implementation has time complexity O(M log M + MN + M·2K
+). 
+"
+
+	Creating Offices
+
+Relatively simple modified Depth First Search works here.
+
+	2016 - Swap
+
+"
+Baltic OI 2016 - SwapAuthors: Benjamin Qi, Andi Qu
+Language: C++Edit This PageAppears InGold - DP on Trees - IntroductionView Problem Statement
+Table of ContentsApproach 1Approach 2Approach 3
+Official Analysis
+Approach 1
+Complexity: $\mathcal{O}(N \log^2N)$ time with $\mathcal{O}(N \log N)$
+memory.
+Let the elements of $A$ be nodes of a graph and each potential swap be an edge
+between two nodes. Notice how this graph is a binary tree. We effectively want
+to perform some swaps to minimize the BFS order of this tree.
+Let $\texttt{merge}(A, B, C)$ denote the tree with $A$ as the root and $B$ and
+$C$ as the subtrees of $A$'s left and right children respectively. We can
+compute $\texttt{merge}(A, B, C)$ in $\mathcal{O}(|B| + |C|)$ time.
+We can now formulate a basic DP state. Let $dp[i][j]$ be the version of node
+$i$'s subtree after some swaps such that $A_i = j$ initially and the BFS order
+of $dp[i][j]$ is minimal. Let $l$ and $r$ be node $i$'s left and right children
+respectively. The following recurrence holds:
+$$dp[i][j] = \begin{cases} \texttt{merge}(j, dp[l][A_l], dp[r][A_r]) & \text{if } j < \min(A_l, A_r)\\ \texttt{merge}(A_l, dp[l][j], dp[r][A_r]) & \text{if } A_l < \min(j, A_r)\\ \min(\texttt{merge}(A_r, dp[l][j], dp[r][A_l]), \texttt{merge}(A_r, dp[l][A_l], dp[r][j])) & \text{otherwise} \end{cases}$$
+The answer to the problem is thus $dp[1][A_1]$. If we compute this DP naively,
+we get a $\mathcal{O}(N^2 \log N)$ solution that uses $\mathcal(N^2 \log N)$
+memory (since $\mathcal{O}(\sum\text{subtree size}) = \mathcal{O}(N \log N)$).
+To improve this solution, notice that for some $i$, we have $j = A[k]$ only if
+$k$ is a child of an ancestor of $i$. Since there are only $\mathcal{O}(\log N)$
+ancestors of $i$ and each has at most 2 children, this allows us to cut the time
+(and memory) complexity down to $\mathcal{O}(N \log^2N)$! For convenience, we
+still refer to the original DP state in the rest of this solution.
+However, this DP still uses too much memory. There are two things we need to do
+to fix this:
+
+Process the tree in reverse BFS order (i.e. starting from node $N$ and working
+back to node 1). This allows us to free up the memory used by $dp[l]$ and
+$dp[r]$ after we process some node $i$. This cuts the memory used down to
+$\mathcal{O}(N \log N)$, but is still slightly too much.
+Only compute the states that $dp[1][A_1]$ depends on. For example, the value
+of $dp[2][A_1]$ is irrelevant if $A_1 < \min(A_2, A_3)$.
+
+These two optimizations save us just enough memory to get AC.
+
+Approach 2
+
+Some magic DP. See the discussion on
+CF.
+
+Time Complexity: $\mathcal{O}(N\log^2N)$, can be reduced to
+$\mathcal{O}(N\log N)$.
+
+Memory Complexity: $\mathcal{O}(N\log N)$
+
+Approach 3
+
+Maintain some collection of heaps and compute the sequence in order. I think
+this is similar to what the official solution does, although I don't completely
+understand it.
+
+Time Complexity: $\mathcal{O}(N\log N)$
+
+Memory Complexity: $\mathcal{O}(N)$
+"

@@ -1,0 +1,27 @@
+Shoelace Formula For Polygon Area: n
+	Sum of x[i] * y[i+1] - x[i+1] * y[i].
+
+Pick's Theorem For Polygon Area:
+	Lattice Points.
+	Area = Interior + Boundary / 2 - 1.
+
+Minimum Pair Distance In Points-Set: n log n
+
+Convex Hull Of Points-Set: n log n
+	Sort radially from e.g. minimum y-coordinate point and then process in order.
+
+Integrals
+	Canonical algorithms.
+
+Inclusion In Convex Hull Interiors
+	Check inequalities. Or say call line container and evaluate at x-value for in range.
+
+Intersection Points
+
+Points Class
+	See Notebook from KACTL C++.
+
+Decomposing Concave Polygon Into Triangles Or Minimal Number Of Maximal Convex Hulls
+
+-------------
+
